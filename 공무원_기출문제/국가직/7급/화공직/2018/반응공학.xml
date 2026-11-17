@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2018-06</exam_id>
+    <subject_row_id>PRB-97B03EFCC9C28E75</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>화공직</series>
+    <year>2018</year>
+    <exam_title>2018년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>649</subject_code>
+    <subject_name>반응공학</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>반응공학_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-97B03EFCC9C28E75-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반응속도식이 $- r_{A} = kC_{A}^{2} C_{B} C_{C}^{3}$일 때, 옳지 않은 것은? (단, $C_{I}$는 $I$의 농도이다)</stem>
+      <formulas count="7">
+        <formula area="질문">- r_{A} = kC_{A}^{2} C_{B} C_{C}^{3}</formula>
+        <formula area="질문">C_{I}</formula>
+        <formula area="질문">I</formula>
+        <formula area="선택지②">k</formula>
+        <formula area="선택지③">A</formula>
+        <formula area="선택지④">- r_{A}</formula>
+        <formula area="선택지④">A</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">전체 반응차수는 6차이다.</choice>
+        <choice no="2" is_answer="true">반응속도상수 $k$는 무차원(dimensionless)이다.</choice>
+        <choice no="3" is_answer="false">$A$에 대해 반응차수는 2차이다.</choice>
+        <choice no="4" is_answer="false">반응속도 $- r_{A}$는 단위시간당 단위부피당 반응하는 $A$의 몰수이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="1">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 는 무차원(dimensionless) | 정답 선지: 반응속도상수 $k$는 무차원(dimensionless)이다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-97B03EFCC9C28E75-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>등온 회분식 반응기에서 $A \rightarrow 2 R$인 액상 반응이 진행된다. 반응이 $A$에 대해 2차일 때, 반응 개시 후 전환율 50 %에 도달하는 데 걸리는 시간($t_{50}$)에 대한 전환율 75 %에 도달하는 데 걸리는 시간($t_{75}$)의 비$\left( \frac{t_{75}}{t_{50}} \right)$는?</stem>
+      <formulas count="5">
+        <formula area="질문">A \rightarrow 2 R</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">t_{50}</formula>
+        <formula area="질문">t_{75}</formula>
+        <formula area="질문">\left( \frac{t_{75}}{t_{50}} \right)</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="false">2</choice>
+        <choice no="3" is_answer="true">3</choice>
+        <choice no="4" is_answer="false">4</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="2">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 등온, 회분식, 반응기에서, 반응 | 정답 선지: 3</explanation_ref>
+    </question>
+    <question no="3" id="PRB-97B03EFCC9C28E75-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>직렬로 연결된 두 개의 혼합흐름 반응기에서 다음과 같은 액상 반응이 진행된다. 첫 번째 반응기로 공급되는 $A$의 농도가 2.0 mol L^(-1)일 때 첫 번째 반응기 출구와 두 번째 반응기 출구에서 $A$의 농도가 각각 0.5 mol L^(-1)와 0.2 mol L^(-1)로 측정되었다. 반응기 입구에서 부피 유속이 10 L min^(-1)일 때, 두 반응기 부피의 합[L]은? (단, $C_{A}$는 $A$의 농도이다)</stem>
+      <passage>$A \rightarrow R , - r_{A} = \frac{C_{A}}{1 + C_{A}}$[mol L^(-1) min^(-1)]</passage>
+      <formulas count="5">
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">C_{A}</formula>
+        <formula area="질문">A</formula>
+        <formula area="지문">A \rightarrow R , - r_{A} = \frac{C_{A}}{1 + C_{A}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">2.5</choice>
+        <choice no="2" is_answer="false">6.3</choice>
+        <choice no="3" is_answer="false">25</choice>
+        <choice no="4" is_answer="true">63</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="3">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 직렬, 연결된, 혼합흐름, 반응기에서 | 정답 선지: 63</explanation_ref>
+    </question>
+    <question no="4" id="PRB-97B03EFCC9C28E75-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반응물 $A$에 대해 다음의 플러그흐름 반응기 물질수지식을 유도하기 위한 가정으로 옳지 않은 것은? (단, $F_{A}$는 $A$의 몰유량, $V$는 반응기 부피, $r_{A}$는 $A$에 대한 반응속도이다)</stem>
+      <passage>$\frac{dF_{A}}{dV} = r_{A}$</passage>
+      <formulas count="9">
+        <formula area="질문">A</formula>
+        <formula area="질문">F_{A}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">V</formula>
+        <formula area="질문">r_{A}</formula>
+        <formula area="질문">A</formula>
+        <formula area="지문">\frac{dF_{A}}{dV} = r_{A}</formula>
+        <formula area="선택지①">A</formula>
+        <formula area="선택지③">r_{A}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">반응기 반지름방향으로 $A$의 농도변화는 없다.</choice>
+        <choice no="2" is_answer="false">정상상태에서 반응기가 운전된다.</choice>
+        <choice no="3" is_answer="true">반응기 축방향으로 $r_{A}$의 변화는 없다.</choice>
+        <choice no="4" is_answer="false">반응기 내 흐름장(flow field)은 플러그흐름 분포로 모델화될 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반응기 내 흐름장(flow field) | 정답 선지: 반응기 축방향으로 $r_{A}$의 변화는 없다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-97B03EFCC9C28E75-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>등온 회분식 반응기에서 $2 A \rightarrow B$인 액상 기초반응을 수행하여 $A$의 초기농도가 1 mol L^(-1)일 때 10분 후 50 %의 전환율을 얻었다. 이 반응을 동일 온도의 혼합흐름 반응기에서 수행하여 동일한 전환율을 얻고자 할 때, 필요한 혼합흐름 반응기의 부피[L]는? (단, 혼합흐름 반응기로 $A$가 1 mol L^(-1)의 농도와 10 mol min^(-1)의 몰유량으로 공급된다)</stem>
+      <formulas count="3">
+        <formula area="질문">2 A \rightarrow B</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">10</choice>
+        <choice no="2" is_answer="false">20</choice>
+        <choice no="3" is_answer="false">100</choice>
+        <choice no="4" is_answer="true">200</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="5">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 등온, 회분식, 반응기에서, 기초반응 | 정답 선지: 200</explanation_ref>
+    </question>
+    <question no="6" id="PRB-97B03EFCC9C28E75-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음과 같은 $A$에 대한 0차 기상 반응이 부피 2 L인 플러그흐름 반응기에서 등온 정압 조건하에 진행된다. 순수한 $A$가 공급되며 반응기 입구에서 $A$의 농도는 100.0 mol L^(-1)이고 반응기 출구에서 $A$의 농도는 25.0 mol L^(-1)이다. 반응기 입구에서 $A$의 몰유량[mol min^(-1)]은?</stem>
+      <passage>$A \rightarrow B + C + D$, $- r_{A} = 5$[mol L^(-1) min^(-1)]</passage>
+      <formulas count="7">
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="지문">A \rightarrow B + C + D</formula>
+        <formula area="지문">- r_{A} = 5</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">13.3</choice>
+        <choice no="2" is_answer="false">16.7</choice>
+        <choice no="3" is_answer="true">20.0</choice>
+        <choice no="4" is_answer="false">23.3</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 과 같은 $A$ | 정답 선지: 20.0</explanation_ref>
+    </question>
+    <question no="7" id="PRB-97B03EFCC9C28E75-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>자동촉매반응(autocatalytic reaction) $A + R \rightarrow R + R$의 시간($t$)에 따른 전환율($X_{A}$) 그래프는? (단, 반응 초기에는 $A$와 미량의 $R$이 존재한다)</stem>
+      <formulas count="13">
+        <formula area="질문">A + R \rightarrow R + R</formula>
+        <formula area="질문">t</formula>
+        <formula area="질문">X_{A}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">R</formula>
+        <formula area="선택지②">X_{A}</formula>
+        <formula area="선택지②">t</formula>
+        <formula area="선택지②">X_{A}</formula>
+        <formula area="선택지②">t</formula>
+        <formula area="선택지④">X_{A}</formula>
+        <formula area="선택지④">t</formula>
+        <formula area="선택지④">X_{A}</formula>
+        <formula area="선택지④">t</formula>
+      </formulas>
+      <images count="4">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-97B03EFCC9C28E75/7_도형_1.png</image>
+        <image area="지문" kind="도형" seq="2">이미지/PRB-97B03EFCC9C28E75/7_도형_2.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97B03EFCC9C28E75/7_pdf_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="2">이미지/PRB-97B03EFCC9C28E75/7_pdf_2.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[수식/도표 선지 1번]</choice>
+        <choice no="2" is_answer="false">_($X_{A}$) $t$ _($X_{A}$) $t$</choice>
+        <choice no="3" is_answer="false">[수식/도표 선지 3번]</choice>
+        <choice no="4" is_answer="true">_($X_{A}$) $t$ _($X_{A}$) $t$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 불일치)" cross_check="불일치">4</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="7">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 자동촉매반응(autocatalytic reaction) | 정답 선지: _($X_{A}$) $t$ _($X_{A}$) $t$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-97B03EFCC9C28E75-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>직렬로 연결된 두 개의 혼합흐름 반응기에서 $A \rightarrow B$인 1차 등온 액상 반응이 진행된다. 최종 전환율이 0.75일 때, 두 반응기 부피의 합이 최소가 되는 첫 번째 반응기 출구 전환율은?</stem>
+      <formulas count="1">
+        <formula area="질문">A \rightarrow B</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.3</choice>
+        <choice no="2" is_answer="false">0.4</choice>
+        <choice no="3" is_answer="true">0.5</choice>
+        <choice no="4" is_answer="false">0.6</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="8">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 직렬, 연결된, 혼합흐름, 반응기에서 | 정답 선지: 0.5</explanation_ref>
+    </question>
+    <question no="9" id="PRB-97B03EFCC9C28E75-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>등온 정압 조건의 혼합흐름 반응기에서 $A \rightarrow 2 R$인 기상 기초반응이 진행된다. 비활성 물질이 반응물 $A$와 함께 공급되며 반응기 입구에서 $A$의 몰분율은 0.8, 반응속도상수 $k$는 0.1 min^(-1)일 때, 전환율 50 %를 얻기 위한 공간시간[min]은?</stem>
+      <formulas count="4">
+        <formula area="질문">A \rightarrow 2 R</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">k</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">7</choice>
+        <choice no="2" is_answer="true">14</choice>
+        <choice no="3" is_answer="false">28</choice>
+        <choice no="4" is_answer="false">56</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="9">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 등온, 정압, 조건, 혼합흐름 | 정답 선지: 14</explanation_ref>
+    </question>
+    <question no="10" id="PRB-97B03EFCC9C28E75-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>혼합흐름 반응기에서 다음과 같은 액상 반응들이 경쟁적으로 진행된다. $A$의 전환율이 80 %일 때, 반응기 출구에서 $S$의 농도[mol L^(-1)]는? (단, $C_{I}$는 $I$의 농도, 반응기로는 $A$와 $B$만 공급되고, 반응기 입구에서 $A$와 $B$의 농도는 10 mol L^(-1)으로 동일하며, $k_{1} = k_{2}$이다)</stem>
+      <passage>$A + B \rightarrow {} {} R , \frac{dC_{R}}{dt} = k_{1} C_{A}^{2} C_{B}$
+$A + B \rightarrow {} {} S , \frac{dC_{S}}{dt} = k_{2} C_{A} C_{B}^{2}$</passage>
+      <formulas count="11">
+        <formula area="질문">A</formula>
+        <formula area="질문">S</formula>
+        <formula area="질문">C_{I}</formula>
+        <formula area="질문">I</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">k_{1} = k_{2}</formula>
+        <formula area="지문">A + B REL \rightarrow {} {} R , \frac{dC_{R}}{dt} = k_{1} C_{A}^{2} C_{B}</formula>
+        <formula area="지문">A + B REL \rightarrow {} {} S , \frac{dC_{S}}{dt} = k_{2} C_{A}^{} C_{B}^{2}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="true">4</choice>
+        <choice no="3" is_answer="false">6</choice>
+        <choice no="4" is_answer="false">8</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 혼합흐름, 반응기에서, 다음과, 반응들 | 정답 선지: 4</explanation_ref>
+    </question>
+    <question no="11" id="PRB-97B03EFCC9C28E75-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>등온 회분식 반응기에서 그림 (가)와 같이 두 개의 액상 기초반응이 경쟁적으로 진행된다. 시간($t$)에 따른 반응물 $A$의 농도 변화를 그림 (나)와 같이 그래프로 나타낼 때, 그래프에서 직선의 기울기는? (단, $C_{A0}$는 $A$의 초기농도이며, $C_{A}$는 시간 $t$에서 $A$의 농도이다)</stem>
+      <passage>$- \ln \frac{C_{A}}{C_{A0}}$</passage>
+      <formulas count="18">
+        <formula area="질문">t</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">C_{A0}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">C_{A}</formula>
+        <formula area="질문">t</formula>
+        <formula area="질문">A</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">R</formula>
+        <formula area="지문">S</formula>
+        <formula area="지문">k_{1}</formula>
+        <formula area="지문">k_{2}</formula>
+        <formula area="지문">- \ln \frac{C_{A}}{C_{A0}}</formula>
+        <formula area="지문">t</formula>
+        <formula area="선택지①">k_{1} + k_{2}</formula>
+        <formula area="선택지②">k_{1} - k_{2}</formula>
+        <formula area="선택지③">k_{1} k_{2}</formula>
+        <formula area="선택지④">\frac{k_{1}}{k_{2}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-97B03EFCC9C28E75/11_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97B03EFCC9C28E75/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$k_{1} + k_{2}$</choice>
+        <choice no="2" is_answer="false">$k_{1} - k_{2}$</choice>
+        <choice no="3" is_answer="false">$k_{1} k_{2}$</choice>
+        <choice no="4" is_answer="false">$\frac{k_{1}}{k_{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="11">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 등온, 회분식, 반응기에서, 그림 | 정답 선지: $k_{1} + k_{2}$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-97B03EFCC9C28E75-Q12" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>연속식 반응기에서 순수한 $A$로부터 $A \rightarrow {k_{1}} {} B$인 1차 액상 반응을</stem>
+      <passage>이용하여 $B$를 생산하고자 한다. 이때 $B \rightarrow {k_{2}} {} C$인 1차 액상 반응도
+부반응으로 함께 진행된다. 플러그흐름 반응기와 혼합흐름 반응기에서 $B$의 생산을 최대로 하기 위한 공간시간[min]은? (단, $k_{1}$은 0.4 min^(-1), $k_{2}$는 0.1 min^(-1)이며, ln 2 ＝ 0.69로 가정한다)
+&lt;u&gt; 플러그흐름 반응기 &lt;/u&gt; &lt;u&gt; 혼합흐름 반응기 &lt;/u&gt;</passage>
+      <formulas count="7">
+        <formula area="질문">A</formula>
+        <formula area="질문">A REL \rightarrow {k_{1}} {} B</formula>
+        <formula area="지문">B</formula>
+        <formula area="지문">B REL \rightarrow {k_{2}} {} C</formula>
+        <formula area="지문">B</formula>
+        <formula area="지문">k_{1}</formula>
+        <formula area="지문">k_{2}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">4.6 5.0</choice>
+        <choice no="2" is_answer="false">5.0 4.6</choice>
+        <choice no="3" is_answer="false">5.0 6.6</choice>
+        <choice no="4" is_answer="false">6.6 5.0</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="12">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 연속식, 반응기에서, 순수한, 로부터 | 정답 선지: 4.6 5.0</explanation_ref>
+    </question>
+    <question no="13" id="PRB-97B03EFCC9C28E75-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>(가)와 (나)는 각각 효소(enzyme)가 포함된 화학반응식과 반응속도식이다. 이에 대한 설명으로 옳지 않은 것은? (단, $E$는 효소, $S$는 기질(반응물), $ES$는 효소－기질 복합체, $P$는 생성물, $[ I ]$는 $I$의 농도를 나타낸다)</stem>
+      <passage>(가) $E + S \xrightarrow[]{}{k_{1}} {k_{2}} ES \rightarrow {k_{3}} {} E + P$
+(나) $- r_{S} = \frac{V_{{m {itax}}} [ S ]}{K_{M} + [ S ]}$</passage>
+      <formulas count="14">
+        <formula area="질문">E</formula>
+        <formula area="질문">S</formula>
+        <formula area="질문">ES</formula>
+        <formula area="질문">P</formula>
+        <formula area="질문">[ I ]</formula>
+        <formula area="질문">I</formula>
+        <formula area="지문">E + S REL EXARROW {k_{1}} {k_{2}} ES REL \rightarrow {k_{3}} {} E + P</formula>
+        <formula area="지문">- r_{S} = \frac{V_{{m {itax}}} [ S ]}{K_{M} + [ S ]}</formula>
+        <formula area="선택지①">ES</formula>
+        <formula area="선택지①">k_{1} [ E ] [ S ] = k_{2} [ ES ] + k_{3} [ ES ]</formula>
+        <formula area="선택지②">K_{M}</formula>
+        <formula area="선택지②">\frac{k_{1}}{k_{2} + k_{3}}</formula>
+        <formula area="선택지③">V_{it {m {itax}}}</formula>
+        <formula area="선택지④">k_{3}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$ES$에 대해 유사 정상상태 가정(pseudo steady state hypothesis, PSSH)을 적용하면 $k_{1} [ E ] [ S ] = k_{2} [ ES ] + k_{3} [ ES ]$이 성립한다.</choice>
+        <choice no="2" is_answer="true">$K_{M}$은 $\frac{k_{1}}{k_{2} + k_{3}}$로 나타낼 수 있다.</choice>
+        <choice no="3" is_answer="false">$V_{{m {itax}}}$는 주어진 전체 효소 농도에서 최대 반응속도를 의미한다.</choice>
+        <choice no="4" is_answer="false">$k_{3}$는 전환수(turnover number)를 나타내며, 효소가 기질과 함께 포화되었을 때 단일 효소분자에서 단위시간당 생성물로 변하는 기질분자의 수이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 는 각각 효소(enzyme), 는 전환수(turnover number) | 정답 선지: $K_{M}$은 $\frac{k_{1}}{k_{2} + k_{3}}$로 나타낼 수 있다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-97B03EFCC9C28E75-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>촉매반응의 일반적인 특성에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">촉매는 반응의 활성화에너지에 영향을 주어 반응속도를 변화시킨다.</choice>
+        <choice no="2" is_answer="false">불균일계 고체 촉매반응은 주로 유체와 고체 사이의 계면에서 일어난다.</choice>
+        <choice no="3" is_answer="false">촉매활성을 나타내는 전환빈도(turnover frequency, TOF)는 단위시간, 단위활성점당 반응하는 분자수를 의미한다.</choice>
+        <choice no="4" is_answer="true">촉매는 주로 반응속도를 높여서 가역반응의 평형전환율을 높인다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="14">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 촉매반응의 일반적인 특성, 촉매활성을 나타내는 전환빈도(turnover frequency, TOF) | 정답 선지: 촉매는 주로 반응속도를 높여서 가역반응의 평형전환율을 높인다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-97B03EFCC9C28E75-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>혼합흐름 반응기에서 $A \rightarrow B$인 2차 액상반응을 수행하여 공급하는 $A$의 농도가 2 mol L^(-1)일 때 50 %의 전환율을 얻었다. 공간시간과 반응속도상수는 변화시키지 않고 공급하는 $A$의 농도를 20 mol L^(-1)로 높였을 때, 출구에서 전환율[%]은?</stem>
+      <formulas count="3">
+        <formula area="질문">A \rightarrow B</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">60</choice>
+        <choice no="2" is_answer="false">70</choice>
+        <choice no="3" is_answer="true">80</choice>
+        <choice no="4" is_answer="false">90</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 혼합흐름, 반응기에서, 액상반응, 수행하여 | 정답 선지: 80</explanation_ref>
+    </question>
+    <question no="16" id="PRB-97B03EFCC9C28E75-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>일정 부피 회분식 반응기에서 기체 반응물 $A$가 $- r_{A} = kC_{A}^{2}$의 반응속도로 일정 온도에서 분해된다. 온도 $T$ [K]에서 $A$의 기체압력 $p_{A}$[atm]는 시간 $t$[h]에 따라 다음의 관계식을 따를 때, 이 반응에 대한 반응속도상수 $k$ [L mol^(-1 )h^(-1)]는? (단, $C_{A}$는 $A$의 농도, $R$ [atm L mol^(-1) K^(-1)]은 기체상수이며, 반응물 $A$는 이상기체로 가정한다)</stem>
+      <passage>$p_{A} = \frac{1}{3 t + 1}$</passage>
+      <formulas count="16">
+        <formula area="질문">A</formula>
+        <formula area="질문">- r_{A} = kC_{A}^{2}</formula>
+        <formula area="질문">T</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">p_{A}^{}</formula>
+        <formula area="질문">t</formula>
+        <formula area="질문">k</formula>
+        <formula area="질문">C_{A}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">R</formula>
+        <formula area="질문">A</formula>
+        <formula area="지문">p_{A} = \frac{1}{3 t + 1}</formula>
+        <formula area="선택지①">\frac{1}{9} RT</formula>
+        <formula area="선택지②">\frac{1}{3} RT</formula>
+        <formula area="선택지③">3 RT</formula>
+        <formula area="선택지④">9 RT</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{9} RT$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{3} RT$</choice>
+        <choice no="3" is_answer="true">$3 RT$</choice>
+        <choice no="4" is_answer="false">$9 RT$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="16">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 일정, 부피, 회분식, 반응기에서 | 정답 선지: $3 RT$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-97B03EFCC9C28E75-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정상상태 비등온 플러그흐름 반응기에서 진행되는 단열 가역반응에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">발열반응의 경우 공급원료의 온도가 높아짐에 따라 평형전환율을 얻을 수 있는 위치는 반응기 입구로부터 멀어진다.</choice>
+        <choice no="2" is_answer="false">발열반응의 경우 공급원료의 온도가 높아짐에 따라 평형전환율은 감소한다.</choice>
+        <choice no="3" is_answer="false">흡열반응의 경우 공급원료의 온도가 매우 낮은 상태에서는 생성물이 거의 생기지 않는다.</choice>
+        <choice no="4" is_answer="false">발열반응의 도달할 수 있는 최대 전환율은 단열조작선과 온도－평형전환율 상관식의 교점으로 구한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="17">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정상상태, 비등온, 플러그흐름, 반응기에서 | 정답 선지: 발열반응의 경우 공급원료의 온도가 높아짐에 따라 평형전환율을 얻을 수 있는 위치는 반응기 입구로부터 멀어진다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-97B03EFCC9C28E75-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>정상상태 혼합흐름 반응기에서 $A \rightarrow B$인 액상 발열반응이 상변이 없이 진행된다. 온도 300 K의 순수한 $A$가 반응기로 공급되며 반응기의 온도는 460 K으로 일정하게 유지된다. 전환율 60 %를 얻기 위해, 공급되는 $A$의 단위몰당 반응기에서 제거해야 하는 열[cal mol^(-1)]은? (단, 교반기에 의해 반응기에 가해진 일은 무시할 수 있고 $A$와 $B$의 열용량은 10 cal mol^(-1) K^(-1)으로 동일하며, 300 K에서 반응열 $\Delta H_{r}$은 －8,000 cal mol^(-1)이다)</stem>
+      <formulas count="6">
+        <formula area="질문">A \rightarrow B</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">DELTA H_{r}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">800</choice>
+        <choice no="2" is_answer="false">1,600</choice>
+        <choice no="3" is_answer="false">2,400</choice>
+        <choice no="4" is_answer="true">3,200</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="18">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 정상상태, 혼합흐름, 반응기에서, 발열반응 | 정답 선지: 3,200</explanation_ref>
+    </question>
+    <question no="19" id="PRB-97B03EFCC9C28E75-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>혼합흐름 반응기에서 순수한 $A$로부터 $A \rightarrow {k_{1}} {} B$와 $A \rightarrow {k_{2}} {} C$인</stem>
+      <passage>두 개의 1차 액상 반응이 경쟁적으로 진행될 경우 옳은 것은? (단, $C_{A0}$는 반응기 입구에서 $A$의 농도, $C_{I}$는 반응기 출구에서 $I$의 농도, τ는 공간시간, $S_{I}$는 반응물 $A$가 반응하는 속도에 대한 $I$가 생성되는 속도의 비를 나타낸다)</passage>
+      <formulas count="15">
+        <formula area="질문">A</formula>
+        <formula area="질문">A REL \rightarrow {k_{1}} {} B</formula>
+        <formula area="질문">A REL \rightarrow {k_{2}} {} C</formula>
+        <formula area="지문">C_{A0}</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">C_{I}</formula>
+        <formula area="지문">I</formula>
+        <formula area="지문">\tau</formula>
+        <formula area="지문">S_{I}</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">I</formula>
+        <formula area="선택지①">C_{A} = \frac{C_{A0}}{1 - ( k_{1} + k_{2} ) \tau}</formula>
+        <formula area="선택지②">C_{B} = \frac{\tau k_{1} C_{A0}}{1 + ( k_{1} + k_{2} ) \tau}</formula>
+        <formula area="선택지③">C_{C} = \frac{k_{2} C_{A0}}{1 - ( k_{1} + k_{2} ) \tau}</formula>
+        <formula area="선택지④">S_{B} = \frac{k_{1}}{k_{1} - k_{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$C_{A} = \frac{C_{A0}}{1 - ( k_{1} + k_{2} ) \tau}$</choice>
+        <choice no="2" is_answer="true">$C_{B} = \frac{\tau k_{1} C_{A0}}{1 + ( k_{1} + k_{2} ) \tau}$</choice>
+        <choice no="3" is_answer="false">$C_{C} = \frac{k_{2} C_{A0}}{1 - ( k_{1} + k_{2} ) \tau}$</choice>
+        <choice no="4" is_answer="false">$S_{B} = \frac{k_{1}}{k_{1} - k_{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="19">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 혼합흐름, 반응기에서, 순수한, 로부터 | 정답 선지: $C_{B} = \frac{\tau k_{1} C_{A0}}{1 + ( k_{1} + k_{2} ) \tau}$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-97B03EFCC9C28E75-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>고체 촉매를 이용한 반응기 설계에서 고정층(fixed bed) 반응기와 비교할 때 유동층(fluidized bed) 반응기의 장점에 해당하지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">반응기 내부의 온도 제어가 용이하다.</choice>
+        <choice no="2" is_answer="true">촉매무게당 전환율이 높다.</choice>
+        <choice no="3" is_answer="false">반응기 내부에 국소고온점(hot spot)이 생성될 가능성이 낮다.</choice>
+        <choice no="4" is_answer="false">촉매의 비활성화가 급격히 일어나 촉매를 자주 재생할 필요가 있을 경우 효과적이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="반응공학_해설.xml" question_no="20">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 용한 반응기 설계에서 고정층(fixed bed), 반응기와 비교할 때 유동층(fluidized bed), 반응기 내부에 국소고온점(hot spot) | 정답 선지: 촉매무게당 전환율이 높다.</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

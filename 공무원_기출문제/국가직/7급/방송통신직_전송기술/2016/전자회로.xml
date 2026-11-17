@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2016-06</exam_id>
+    <subject_row_id>PRB-2A0CD92F5C0F31EE</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2016</year>
+    <exam_title>2016년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>628</subject_code>
+    <subject_name>전자회로</subject_name>
+    <booklet_type>2</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자회로_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-2A0CD92F5C0F31EE-Q1" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>일반적인 트랜지스터의 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">MOSFET는 일반적으로 cutoff, triode, saturation 영역이 존재한다.</choice>
+        <choice no="2" is_answer="false">MOSFET 단자는 5개 이상의 옴 접촉(ohmic contact) 연결 단자를 가진다.</choice>
+        <choice no="3" is_answer="false">BJT는 전자(electron) 또는 홀(hole)의 단일 캐리어에 의해서 동작한다.</choice>
+        <choice no="4" is_answer="false">MOSFET는 입력과 출력이 동일하게 연결된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="1">[정답 1번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 일반적인 트랜지스터, 단자는 5개 이상의 옴 접촉(ohmic contact), BJT는 전자(electron), 또는 홀(hole) | 정답 선지: MOSFET는 일반적으로 cutoff, triode, saturation 영역이 존재한다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-2A0CD92F5C0F31EE-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 브릿지 정류회로에서 출력 리플(ripple)전압, $V_{r}$을 표현한 식으로 옳은 것은? (단, 모든 다이오드의 순방향 전압강하는 $V_{D}$이다)</stem>
+      <formulas count="7">
+        <formula area="질문">V_{r}</formula>
+        <formula area="질문">V_{D}</formula>
+        <formula area="지문">V_{o}</formula>
+        <formula area="선택지①">V_{r} = \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}</formula>
+        <formula area="선택지②">V_{r} = \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}</formula>
+        <formula area="선택지③">V_{r} = \frac{1}{2} \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}</formula>
+        <formula area="선택지④">V_{r} = \frac{1}{2} \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/2_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/2_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/2_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$V_{r} = \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}$</choice>
+        <choice no="2" is_answer="false">$V_{r} = \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}$</choice>
+        <choice no="3" is_answer="false">$V_{r} = \frac{1}{2} \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}$</choice>
+        <choice no="4" is_answer="true">$V_{r} = \frac{1}{2} \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릿지 정류회로에서 출력 리플(ripple) | 정답 선지: $V_{r} = \frac{1}{2} \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-2A0CD92F5C0F31EE-Q3" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음 중간탭(center-tap) 전파 정류회로에 대한 설명으로 옳은 것만을 모두 고른 것은? (단, 입력전압$( V_{i} )$의 주파수는 $60 [ Hz ]$이고 피크 값은 $100 [ V ]$이다. 또한 다이오드가 순방향 바이어스될 때 장벽전위는 $0 . 7 [ V ]$이다)</stem>
+      <passage>ㄱ. 정상적인 동작 상태에서 출력전압($V_{o}$)의 주파수는 $60 [ Hz ]$이다.
+ㄴ. 부하에 걸리는 출력전압의 피크 값은 $49 . 3 [ V ]$이다.
+ㄷ. 입력신호가 음(－)의 반주기 동안 $D_{1}$에 역방향 피크전압(PIV)은 $49 . 3 [ V ]$가 걸린다.
+ㄹ. 다이오드 한 개가 개방(open) 고장이면 출력전압은 $60 [ Hz ]$의 정류된 전압파형(맥동파)이 나타난다.</passage>
+      <formulas count="10">
+        <formula area="질문">( V_{i} )</formula>
+        <formula area="질문">60 [ Hz ]</formula>
+        <formula area="질문">100 [ V ]</formula>
+        <formula area="질문">0 . 7 [ V ]</formula>
+        <formula area="지문">V_{o}</formula>
+        <formula area="지문">60 [ Hz ]</formula>
+        <formula area="지문">49 . 3 [ V ]</formula>
+        <formula area="지문">D_{1}</formula>
+        <formula area="지문">49 . 3 [ V ]</formula>
+        <formula area="지문">60 [ Hz ]</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/3_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/3_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄹ</choice>
+        <choice no="4" is_answer="true">ㄷ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="3">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 간탭(center-tap) 전파 정류회로, 다음 중간탭(center-tap), 에 역방향 피크전압(PIV), 다이오드 한 개가 개방(open) | 보기 판정: ㄱ:X, ㄴ:X, ㄷ:O, ㄹ:O</explanation_ref>
+    </question>
+    <question no="4" id="PRB-2A0CD92F5C0F31EE-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 전압 증폭비 $\left( \frac{V_{o}}{V_{i}} \right)$ 값은? (단, 연산 증폭기는 이상적이라고 가정한다)</stem>
+      <formulas count="5">
+        <formula area="질문">\left( \frac{V_{o}}{V_{i}} \right)</formula>
+        <formula area="선택지①">\frac{R_{3} ( R_{1} + R_{2} )}{R_{2} R_{4} - R_{1} R_{3}}</formula>
+        <formula area="선택지②">\frac{R_{2} ( R_{3} + R_{4} )}{R_{2} R_{3} - R_{1} R_{4}}</formula>
+        <formula area="선택지③">\frac{R_{1} ( R_{3} + R_{4} )}{R_{2} R_{4} - R_{1} R_{3}}</formula>
+        <formula area="선택지④">\frac{R_{1} ( R_{3} + R_{4} )}{R_{1} R_{3} - R_{2} R_{4}}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/4_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/4_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{R_{3} ( R_{1} + R_{2} )}{R_{2} R_{4} - R_{1} R_{3}}$</choice>
+        <choice no="2" is_answer="false">$\frac{R_{2} ( R_{3} + R_{4} )}{R_{2} R_{3} - R_{1} R_{4}}$</choice>
+        <choice no="3" is_answer="false">$\frac{R_{1} ( R_{3} + R_{4} )}{R_{2} R_{4} - R_{1} R_{3}}$</choice>
+        <choice no="4" is_answer="true">$\frac{R_{1} ( R_{3} + R_{4} )}{R_{1} R_{3} - R_{2} R_{4}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="4">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 전압, 증폭비, 연산 | 정답 선지: $\frac{R_{1} ( R_{3} + R_{4} )}{R_{1} R_{3} - R_{2} R_{4}}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-2A0CD92F5C0F31EE-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 트랜지스터는 활성(active)영역에서 동작하도록 바이어스 되어 있다. 입력임피던스 $Z_{i n}$으로 옳은 것은? (단, 바이어스 회로들은 생략되어 있다. Early effect는 고려하지 않고, 트랜지스터의 활성 영역에서의 파라미터, 전달컨덕턴스($g_{m}$), 소신호 입력저항($r_{\pi}$), 소신호 이미터저항($r_{e}$), 공통이미터 전류이득(β)을 이용하여 나타내도록 한다)</stem>
+      <formulas count="9">
+        <formula area="질문">Z_{i n}</formula>
+        <formula area="질문">g_{m}</formula>
+        <formula area="질문">r_{\pi}</formula>
+        <formula area="질문">r_{e}</formula>
+        <formula area="질문">\beta</formula>
+        <formula area="선택지①">g_{m} + \frac{1}{r_{\pi}}</formula>
+        <formula area="선택지②">\frac{r_{\pi}}{1 + g_{m}}</formula>
+        <formula area="선택지③">r_{\pi}</formula>
+        <formula area="선택지④">\frac{r_{\pi}}{1 + \beta}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/5_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/5_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$g_{m} + \frac{1}{r_{\pi}}$</choice>
+        <choice no="2" is_answer="false">$\frac{r_{\pi}}{1 + g_{m}}$</choice>
+        <choice no="3" is_answer="false">$r_{\pi}$</choice>
+        <choice no="4" is_answer="true">$\frac{r_{\pi}}{1 + \beta}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="5">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 트랜지스터는 활성(active) | 정답 선지: $\frac{r_{\pi}}{1 + \beta}$</explanation_ref>
+    </question>
+    <question no="6" id="PRB-2A0CD92F5C0F31EE-Q6" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>일반적인 CMOS 공정을 사용하여 구현한 회로에서 발생할 수 있는 latch-up 현상에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">반도체 집적회로를 위한 레이아웃(layout)에서 PMOS와 NMOS 트랜지스터를 가능한 한 근접하게 배열하고, 또한 PMOS와 NMOS의 drain 면적을 넓게 할수록 latch-up 현상 발생 가능성은 줄어든다.</choice>
+        <choice no="2" is_answer="true">Latch-up 현상은 CMOS 반도체 공정을 사용하여 회로를 구현할 때 생기는 기생 bipolar 트랜지스터들의 상호작용으로 발생한다.</choice>
+        <choice no="3" is_answer="false">PMOS와 NMOS 트랜지스터로 구현된 회로의 입/출력 신호가 빠른 rising과 falling 시간을 갖도록 설계하면 latch-up 현상은 발생하지 않는다.</choice>
+        <choice no="4" is_answer="false">Latch-up 현상이 발생하면 회로의 동작속도가 크게 증가하므로 성능면에서 긍정적인 측면도 많다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="6">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 체 집적회로를 위한 레이아웃(layout) | 정답 선지: Latch-up 현상은 CMOS 반도체 공정을 사용하여 회로를 구현할 때 생기는 기생 bipolar 트랜지스터들의 상...</explanation_ref>
+    </question>
+    <question no="7" id="PRB-2A0CD92F5C0F31EE-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 MOSFET 바이어스 회로에서 트랜지스터 $M_{1}$은 포화(saturation) 영역에서 동작한다. 문턱전압 $V_{TH} = 1 [ V ]$, 소자 공정 파라미터 $k_{n} \left( \frac{W}{L} \right) = 1 [ mA / V^{2} ]$일 때, $V_{GS}$ 전압$[ V ]$은? (단, $k_{n}$은 공정 전달컨덕턴스 파라미터(process transconductance parameter)이고, $k_{n} = \mu_{n} C_{ox}$이며, channel length modulation 및 body effect는 무시한다)</stem>
+      <formulas count="7">
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">V_{TH} = 1 [ V ]</formula>
+        <formula area="질문">k_{n} \left( \frac{W}{L} \right) = 1 [ mA / V^{2} ]</formula>
+        <formula area="질문">V_{GS}</formula>
+        <formula area="질문">[ V ]</formula>
+        <formula area="질문">k_{n}</formula>
+        <formula area="질문">k_{n} = \mu_{n} C_{ox}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/7_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/7_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="true">2</choice>
+        <choice no="3" is_answer="false">3</choice>
+        <choice no="4" is_answer="false">4</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="7">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 은 포화(saturation) | 정답 선지: 2</explanation_ref>
+    </question>
+    <question no="8" id="PRB-2A0CD92F5C0F31EE-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 무슨 논리 회로인가? (단, 정논리로 해석한다)</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/8_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/8_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">AND</choice>
+        <choice no="2" is_answer="false">NAND</choice>
+        <choice no="3" is_answer="false">OR</choice>
+        <choice no="4" is_answer="true">NOR</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 무슨, 논리, 회로인, 정논리 | 정답 선지: NOR</explanation_ref>
+    </question>
+    <question no="9" id="PRB-2A0CD92F5C0F31EE-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로가 공통소스(common-source) 증폭기로 동작하기 위해서 트랜지스터 $M_{1}$이 포화(saturation) 영역에 있다. 소신호 전압 이득이 $- 10$이 되기 위한 저항 $R_{D} [ k \Omega ]$와 입력 전압 $V_{i}$의 소신호 성분의 진폭 $A$가 가질 수 있는 최댓값은? (단, 입력 전압은 $V_{i} = ( 1 + Acos \omega t ) [ V ]$, 트랜지스터 $M_{1}$의 문턱 전압은 $0 . 5 [ V ]$, $V_{DD} = 3 [ V ]$, $M_{1}$의 전달컨덕턴스(transconductance)는 $10 [ mA / V ]$, 포화(saturation) 영역에 있을 때 $M_{1}$에 흐르는 전류는 $1 [ mA ]$이다)</stem>
+      <passage>&lt;u&gt; $R_D$ &lt;/u&gt; &lt;u&gt; $A$의 최댓값 &lt;/u&gt;</passage>
+      <formulas count="23">
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">- 10</formula>
+        <formula area="질문">R_{D} [ k OMEGA ]</formula>
+        <formula area="질문">V_{i}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">V_{i} = ( 1 + Acos \omega t ) [ V ]</formula>
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">0 . 5 [ V ]</formula>
+        <formula area="질문">V_{DD} = 3 [ V ]</formula>
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">10 [ mA / V ]</formula>
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">1 [ mA ]</formula>
+        <formula area="지문">R_D</formula>
+        <formula area="지문">A</formula>
+        <formula area="선택지①">1</formula>
+        <formula area="선택지①">1 . 5 / 11</formula>
+        <formula area="선택지②">1 . 5</formula>
+        <formula area="선택지②">1 . 5 / 11</formula>
+        <formula area="선택지③">1</formula>
+        <formula area="선택지③">1 . 5 / 10</formula>
+        <formula area="선택지④">1 . 5</formula>
+        <formula area="선택지④">1 . 5 / 10</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/9_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/9_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$1$ $1 . 5 / 11$</choice>
+        <choice no="2" is_answer="false">$1 . 5$ $1 . 5 / 11$</choice>
+        <choice no="3" is_answer="false">$1$ $1 . 5 / 10$</choice>
+        <choice no="4" is_answer="false">$1 . 5$ $1 . 5 / 10$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="9">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 회로가 공통소스(common-source), 이 포화(saturation), 의 전달컨덕턴스(transconductance), 포화(saturation) | 정답 선지: $1$ $1 . 5 / 11$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-2A0CD92F5C0F31EE-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 DC－DC 컨버터 회로에서 $V_{i} = 15 [ V ]$, $V_{o} = 5 [ V ]$, $f_{s} =$ 33$[ k Hz ]$, $L =$ 600 $[ \mu H ]$일 때, $Q_1$의 on/off 시비율(duty cycle) D [%]와 인덕터 전류의 리플값 $\Delta i [ A ]$ 값은? (단, $f_{s}$는 트랜지스터 제어회로의 스위칭 주파수이다)</stem>
+      <formulas count="13">
+        <formula area="질문">V_{i} = 15 [ V ]</formula>
+        <formula area="질문">V_{o} = 5 [ V ]</formula>
+        <formula area="질문">f_{s} =</formula>
+        <formula area="질문">[ k Hz ]</formula>
+        <formula area="질문">L =</formula>
+        <formula area="질문">[ \mu H ]</formula>
+        <formula area="질문">Q_1</formula>
+        <formula area="질문">DELTA i [ A ]</formula>
+        <formula area="질문">f_{s}</formula>
+        <formula area="지문">V_{o}</formula>
+        <formula area="지문">V_{i}</formula>
+        <formula area="지문">D</formula>
+        <formula area="지문">DELTA i</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/10_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">33 0.30</choice>
+        <choice no="2" is_answer="true">33 0.17</choice>
+        <choice no="3" is_answer="false">30 0.30</choice>
+        <choice no="4" is_answer="false">30 0.17</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: off 시비율(duty cycle) | 정답 선지: 33 0.17</explanation_ref>
+    </question>
+    <question no="11" id="PRB-2A0CD92F5C0F31EE-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>DSB－LC 진폭변조(AM)에서 반송파 $V_{c} = 20 \sin ( 2 \pi 10^{7} t ) [ V ]$, 신호파 $V_{s} = 15 \sin ( 2 \pi 10^{5} t ) [ V ]$인 경우 변조지수($m$) [%], 상측파 주파수$( f_{U} ) [ MHz ]$ 및 하측파 주파수$( f_{L} ) [ MHz ]$는?</stem>
+      <passage>&lt;u&gt; $m$ &lt;/u&gt; &lt;u&gt; $f_{U}$ &lt;/u&gt; &lt;u&gt; $f_{L}$ &lt;/u&gt;</passage>
+      <formulas count="8">
+        <formula area="질문">V_{c} = 20 \sin ( 2 \pi 10^{7} t ) [ V ]</formula>
+        <formula area="질문">V_{s} = 15 \sin ( 2 \pi 10^{5} t ) [ V ]</formula>
+        <formula area="질문">m</formula>
+        <formula area="질문">( f_{U} ) [ MHz ]</formula>
+        <formula area="질문">( f_{L} ) [ MHz ]</formula>
+        <formula area="지문">m</formula>
+        <formula area="지문">f_{U}</formula>
+        <formula area="지문">f_{L}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">70 1.01 0.99</choice>
+        <choice no="2" is_answer="false">70 10.1 9.9</choice>
+        <choice no="3" is_answer="false">75 1.01 0.99</choice>
+        <choice no="4" is_answer="true">75 10.1 9.9</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="11">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: LC 진폭변조(AM) | 정답 선지: 75 10.1 9.9</explanation_ref>
+    </question>
+    <question no="12" id="PRB-2A0CD92F5C0F31EE-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>슈미트 트리거(Schmitt Trigger)의 동작에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">입력 신호에 인가되는 잡음의 영향을 줄이기 위해 사용될 수 있다.</choice>
+        <choice no="2" is_answer="false">오실레이터(oscillator) 회로에 슈미트 트리거를 이용할 수 있다.</choice>
+        <choice no="3" is_answer="false">슈미트 트리거의 입력과 출력 특성은 히스테리시스(hysteresis) 성질을 갖는다.</choice>
+        <choice no="4" is_answer="true">여러 개의 입력 중 클럭 신호에 트리거된 하나의 입력을 선택하는 회로에 주로 사용된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="12">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 슈미트 트리거(Schmitt Trigger)의 동작, 슈미트 트리거(Schmitt Trigger), 오실레이터(oscillator), 과 출력 특성은 히스테리시스(hysteresis) | 정답 선지: 여러 개의 입력 중 클럭 신호에 트리거된 하나의 입력을 선택하는 회로에 주로 사용된다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-2A0CD92F5C0F31EE-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>캐스코드(cascode) 증폭기의 전압이득으로 옳은 것은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">- g_{m1} [ ( g_{m2} r_{o2} r_{o1} ) PVER ( g_{m3} r_{o3} r_{o4} ) ]</formula>
+        <formula area="선택지②">- g_{m1} g_{m2} r_{o1} r_{o2}</formula>
+        <formula area="선택지③">- g_{m1} g_{m3} r_{o3} r_{o4}</formula>
+        <formula area="선택지④">- g_{m1} g_{m3} r_{o3} g_{m2} r_{o2}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/13_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/13_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$- g_{m1} [ ( g_{m2} r_{o2} r_{o1} ) \| ( g_{m3} r_{o3} r_{o4} ) ]$</choice>
+        <choice no="2" is_answer="false">$- g_{m1} g_{m2} r_{o1} r_{o2}$</choice>
+        <choice no="3" is_answer="false">$- g_{m1} g_{m3} r_{o3} r_{o4}$</choice>
+        <choice no="4" is_answer="false">$- g_{m1} g_{m3} r_{o3} g_{m2} r_{o2}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="13">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 캐스코드(cascode) 증폭기의 전압이득, 캐스코드(cascode) | 정답 선지: $- g_{m1} [ ( g_{m2} r_{o2} r_{o1} ) \| ( g_{m3} r_{o3} r_{o4} ) ...</explanation_ref>
+    </question>
+    <question no="14" id="PRB-2A0CD92F5C0F31EE-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>n－채널 MOSFET이 포화영역(saturation region)에서 동작할 때 $I - V$ 특성은 $I_{D} = \frac{1}{2} k_{n} \frac{W}{L} \left( V_{GS} - V_{TH} \right)^{2}$으로 나타낼 수 있다. 이 때 MOSFET의 전달컨덕턴스(transconductance) $g_{m}$으로 옳은 것은? (단, $k_{n}$은 공정 전달컨덕턴스 파라미터이고, $k_{n} = \mu_{n} C_{ox}$이다)</stem>
+      <formulas count="9">
+        <formula area="질문">I - V</formula>
+        <formula area="질문">I_{D} = \frac{1}{2} k_{n}^{} \frac{W}{L} \left( V_{GS} - V_{TH} \right)^{2}</formula>
+        <formula area="질문">g_{m}</formula>
+        <formula area="질문">k_{n}</formula>
+        <formula area="질문">k_{n} = \mu_{n} C_{ox}</formula>
+        <formula area="선택지①">\sqrt{2 k_{n}^{} \frac{W}{L} I_{D}}</formula>
+        <formula area="선택지②">\sqrt{\frac{1}{2} k_{n}^{} \frac{W}{L} I_{D}}</formula>
+        <formula area="선택지③">2 k_{n}^{} \frac{W}{L} \left( V_{GS} - V_{TH} \right)</formula>
+        <formula area="선택지④">\frac{1}{2} k_{n}^{} \frac{W}{L} \left( V_{GS} - V_{TH} \right)</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\sqrt{2 k_{n} \frac{W}{L} I_{D}}$</choice>
+        <choice no="2" is_answer="false">$\sqrt{\frac{1}{2} k_{n} \frac{W}{L} I_{D}}$</choice>
+        <choice no="3" is_answer="false">$2 k_{n} \frac{W}{L} \left( V_{GS} - V_{TH} \right)$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{2} k_{n} \frac{W}{L} \left( V_{GS} - V_{TH} \right)$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="14">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 채널 MOSFET이 포화영역(saturation region), MOSFET의 전달컨덕턴스(transconductance) | 정답 선지: $\sqrt{2 k_{n} \frac{W}{L} I_{D}}$</explanation_ref>
+    </question>
+    <question no="15" id="PRB-2A0CD92F5C0F31EE-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>CMOS를 이용한 다음 그림과 같은 회로에서 입력단자$( V_{A} ) = 1010$, 입력단자$( V_{B} ) = 0011$의 각 입력값이 동시에 순차적으로 인가될 때, 출력전압의 상태값으로 옳은 것은? (단, 상태값 $0 = 0 [ V ]$, 상태값 $1 = V_{DD}$ 이다)</stem>
+      <formulas count="8">
+        <formula area="질문">( V_{A} ) = 1010</formula>
+        <formula area="질문">( V_{B} ) = 0011</formula>
+        <formula area="질문">0 = 0 [ V ]</formula>
+        <formula area="질문">1 = V_{DD}</formula>
+        <formula area="선택지①">1101</formula>
+        <formula area="선택지②">1011</formula>
+        <formula area="선택지③">0100</formula>
+        <formula area="선택지④">0010</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/15_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/15_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$1101$</choice>
+        <choice no="2" is_answer="false">$1011$</choice>
+        <choice no="3" is_answer="false">$0100$</choice>
+        <choice no="4" is_answer="false">$0010$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="15">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 이용한, 그림과, 회로에서, 입력단자 | 정답 선지: $1101$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-2A0CD92F5C0F31EE-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로의 논리함수로 옳은 것은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">{\bar{( A + D ) ( B + C )}}</formula>
+        <formula area="선택지②">{\bar{( A + B ) ( C + D )}}</formula>
+        <formula area="선택지③">{\bar{AD + BC}}</formula>
+        <formula area="선택지④">{\bar{AB + CD}}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/16_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/16_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">${\bar{( A + D ) ( B + C )}}$</choice>
+        <choice no="2" is_answer="false">${\bar{( A + B ) ( C + D )}}$</choice>
+        <choice no="3" is_answer="false">${\bar{AD + BC}}$</choice>
+        <choice no="4" is_answer="false">${\bar{AB + CD}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="16">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로, 논리함수 | 정답 선지: ${\bar{( A + D ) ( B + C )}}$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-2A0CD92F5C0F31EE-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 트랜지스터가 포화 영역에 바이어스 되어 있다고 가정할 때, 4개의 커패시터 중 고주파 영역에서 전압 이득 $\left( \frac{V_{o}}{V_{i}} \right)$을 증가시키는 것은?</stem>
+      <formulas count="5">
+        <formula area="질문">\left( \frac{V_{o}}{V_{i}} \right)</formula>
+        <formula area="선택지①">C_{1}</formula>
+        <formula area="선택지②">C_{2}</formula>
+        <formula area="선택지③">C_{3}</formula>
+        <formula area="선택지④">C_{4}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/17_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/17_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$C_{1}$</choice>
+        <choice no="2" is_answer="false">_($C_{2}$)</choice>
+        <choice no="3" is_answer="true">_($C_{3}$ )</choice>
+        <choice no="4" is_answer="false">_($C_{4}$)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 트랜지스터, 포화, 영역 | 정답 선지: _($C_{3}$ )</explanation_ref>
+    </question>
+    <question no="18" id="PRB-2A0CD92F5C0F31EE-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 연산증폭기 이득이 100,000이고, $R_{1} = 1 . 8 [ k \Omega ]$, $R_{2} = 200 [ \Omega ]$일 때 증폭기 이득은?</stem>
+      <formulas count="4">
+        <formula area="질문">R_{1} = 1 . 8 [ k OMEGA ]</formula>
+        <formula area="질문">R_{2} = 200 [ OMEGA ]</formula>
+        <formula area="지문">V_s</formula>
+        <formula area="지문">V_f</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/18_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/18_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">5</choice>
+        <choice no="2" is_answer="true">10</choice>
+        <choice no="3" is_answer="false">15</choice>
+        <choice no="4" is_answer="false">20</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="18">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 연산증폭기, 이득, 이고 | 정답 선지: 10</explanation_ref>
+    </question>
+    <question no="19" id="PRB-2A0CD92F5C0F31EE-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 공통소스(common-source) 증폭회로의 고주파 영역 해석에서 입력 및 출력 등가 커패시턴스 $C_{i n} [ pF ]$과 $C_{out} [ pF ]$의 값은? (단, $g_{m} = 1000 [ \mu S ]$, $C_{gd} = 4 [ pF ]$, $C_{gs} = 5 [ pF ]$, $C_{ds} = 0 [ pF ]$이다)</stem>
+      <passage>&lt;u&gt; $C_{i n}$ &lt;/u&gt; &lt;u&gt; $C_{out}$ &lt;/u&gt;</passage>
+      <formulas count="8">
+        <formula area="질문">C_{i n} [ pF ]</formula>
+        <formula area="질문">C_{out} [ pF ]</formula>
+        <formula area="질문">g_{m} = 1000 [ \mu S ]</formula>
+        <formula area="질문">C_{gd} = 4 [ pF ]</formula>
+        <formula area="질문">C_{gs} = 5 [ pF ]</formula>
+        <formula area="질문">C_{ds} = 0 [ pF ]</formula>
+        <formula area="지문">C_{i n}</formula>
+        <formula area="지문">C_{out}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/19_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/19_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">20 5</choice>
+        <choice no="2" is_answer="false">20 25</choice>
+        <choice no="3" is_answer="true">25 5</choice>
+        <choice no="4" is_answer="false">25 25</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="19">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 공통소스(common-source) | 정답 선지: 25 5</explanation_ref>
+    </question>
+    <question no="20" id="PRB-2A0CD92F5C0F31EE-Q20" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>$V_{DD} = 5 [ V ]$이고 MOSFET _($Q_{1}$)의 $k_{n} \left( \frac{W}{L} \right)_{1} = 0 . 8 [ mA / V^{2} ]$이며 문턱전압 $V_{TH} = 1 [ V ]$이고 MOSFET $Q_{1}$의 게이트 폭 $W_{1}$과 MOSFET $Q_{2}$의 게이트 폭 $W_{2}$의 비가 $\frac{W_{2}}{W_{1}} = 10$일 때, $I_{o} = 1 [ mA ]$이 되도록 하는 저항 $R [ k \Omega ]$은? (단, $k_{n}$은 공정 전달컨덕턴스 파라미터이고, $k_{n} = \mu_{n} C_{ox}$이다)</stem>
+      <formulas count="14">
+        <formula area="질문">V_{DD} = 5 [ V ]</formula>
+        <formula area="질문">Q_{1}</formula>
+        <formula area="질문">k_{n} \left( \frac{W}{L} \right)_{1} = 0 . 8 [ mA / V^{2} ]</formula>
+        <formula area="질문">V_{TH} = 1 [ V ]</formula>
+        <formula area="질문">Q_{1}</formula>
+        <formula area="질문">W_{1}</formula>
+        <formula area="질문">Q_{2}</formula>
+        <formula area="질문">W_{2}</formula>
+        <formula area="질문">\frac{W_{2}}{W_{1}} = 10</formula>
+        <formula area="질문">I_{o} = 1 [ mA ]</formula>
+        <formula area="질문">R [ k OMEGA ]</formula>
+        <formula area="질문">k_{n}</formula>
+        <formula area="질문">k_{n} = \mu_{n} C_{ox}</formula>
+        <formula area="지문">V_GS</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-2A0CD92F5C0F31EE/20_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-2A0CD92F5C0F31EE/20_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-2A0CD92F5C0F31EE/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">15</choice>
+        <choice no="2" is_answer="false">25</choice>
+        <choice no="3" is_answer="true">35</choice>
+        <choice no="4" is_answer="false">45</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="20">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 이고, 이며, 문턱전압, 게이트 | 정답 선지: 35</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_explanations>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-525DE420072B876A</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험 문제별 상세 해설</exam_title>
+    <subject_code>628</subject_code>
+    <subject_name>전자회로</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <question_file>전자회로.xml</question_file>
+    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+  </metadata>
+  <explanations>
+    <question_explanation no="1" id="PRB-525DE420072B876A-Q1">
+      <question_stem>하한 차단주파수가 150 [kHz]이고 상한 차단주파수가 600 [kHz]인 대역통과필터(bandpass filter)의 Q(quality factor)값은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>인 대역통과필터(bandpass filter)</keyword>
+        <keyword>의 Q(quality factor)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>$\frac{2}{3}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 인 대역통과필터(bandpass filter), 의 Q(quality factor)
+2. [정답 및 핵심 결론] 정답은 3번("$\frac{2}{3}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 인 대역통과필터(bandpass filter), 의 Q(quality factor)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\frac{1}{3}$; $\frac{1}{2}$; $\frac{2}{3}$; $\frac{5}{6}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{3}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{3}$] 문장 내 '...$\frac{1}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{2}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{2}$] 문장 내 '...$\frac{1}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\frac{2}{3}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{2}{3}$] 문장 말미의 '...$\frac{2}{3}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{5}{6}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{5}{6}$] 문장 내 '...$\frac{5}{6}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="2" id="PRB-525DE420072B876A-Q2">
+      <question_stem>다음 회로에서 변압기 권선비는 10 : 1이고 왼편 1차 측 전압은 $V_{i n} = 110 \sin ( 120 \pi t )$[V]이다. 다이오드에 걸리는 최대 역방향 전압[V]은? (단, 다이오드 양단의 순방향 전압은 0.7 [V]이다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>회로에서</keyword>
+        <keyword>변압기</keyword>
+        <keyword>권선비</keyword>
+        <keyword>이고</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>10.3</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 회로에서, 변압기, 권선비, 이고
+2. [정답 및 핵심 결론] 정답은 2번("10.3")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 회로에서, 변압기, 권선비, 이고에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $V_{i n} = 110 \sin ( 120 \pi t )$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>9.6</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 9.6] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>10.3</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 10.3] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>11</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 11] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>108.6</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 108.6] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="3" id="PRB-525DE420072B876A-Q3">
+      <question_stem>다음 회로에서 출력 $Y$의 논리식은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>회로에서</keyword>
+        <keyword>출력</keyword>
+        <keyword>논리식</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>${\bar{A}} . {\bar{B}}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 회로에서, 출력, 논리식
+2. [정답 및 핵심 결론] 정답은 3번("${\bar{A}} . {\bar{B}}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 회로에서, 출력, 논리식에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $Y$; $A$; $B$; $A + B$; $A ․ B$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$A + B$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $A + B$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$A . B$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $A . B$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>${\bar{A}} . {\bar{B}}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: ${\bar{A}} . {\bar{B}}$] 문장 말미의 '...${\bar{A}} . {\bar{B}}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>${\bar{A}} + {\bar{B}}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ${\bar{A}} + {\bar{B}}$] 문장 내 '...${\bar{A}} + {\bar{B}}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="4" id="PRB-525DE420072B876A-Q4">
+      <question_stem>다이오드회로에 대한 설명으로 옳은 것만을 모두 고른 것은?</question_stem>
+      <question_type polarity="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형" />
+      <topic_keywords>
+        <keyword>다이오드회로</keyword>
+        <keyword>발광 다이오드(light emitting diode)</keyword>
+        <keyword>터널 다이오드(tunnel diode)</keyword>
+        <keyword>는 부성저항(negative resistance)</keyword>
+        <keyword>버랙터 다이오드(varactor diode)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 복합 보기 검증형 (&lt;보기&gt; 조합형(옳은 것 고르기)) | 핵심 키워드: 다이오드회로, 발광 다이오드(light emitting diode), 터널 다이오드(tunnel diode), 는 부성저항(negative resistance), 버랙터 다이오드(varactor diode)
+2. [정답 및 핵심 결론] 정답은 1번("ㄱ, ㄴ")입니다.
+3. [보기 정오 요약] ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X) → 따라서 조건을 만족하는 조합은 1번입니다.</overall_commentary>
+      <bogi_analysis>
+        <bogi_item symbol="ㄱ" judgment="O (옳은 설명 - 정답 조합 포함)">
+          <statement>발광 다이오드(light emitting diode)는 순방향 바이어스를 인가하여 사용하며 발광하는 빛의 출력량은 순방향 전류에 비례한다.</statement>
+          <commentary>보기 [ㄱ]은(는) 옳은 진술(O)입니다. [핵심 논점: 발광 다] 문장 말미의 '...광하는 빛의 출력량은 순방향 전류에 비례한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "발광 다이오드(light emitting diode)는 순방향 바이어스를 인가하여 사용하며 발광하는 빛의 출력량은 순방향 전류에 비례한다.")</commentary>
+        </bogi_item>
+        <bogi_item symbol="ㄴ" judgment="O (옳은 설명 - 정답 조합 포함)">
+          <statement>터널 다이오드(tunnel diode)는 부성저항(negative resistance) 영역의 특성이 있어 발진회로에 사용될 수 있다.</statement>
+          <commentary>보기 [ㄴ]은(는) 옳은 진술(O)입니다. [핵심 논점: 터널 다] 문장 말미의 '...역의 특성이 있어 발진회로에 사용될 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "터널 다이오드(tunnel diode)는 부성저항(negative resistance) 영역의 특성이 있어 발진회로에 사용될 수 있다.")</commentary>
+        </bogi_item>
+        <bogi_item symbol="ㄷ" judgment="X (옳지 않은 설명 - 정답 조합 제외)">
+          <statement>버랙터 다이오드(varactor diode)는 역방향 바이어스가 증가할수록 다이오드의 커패시턴스는 증가한다.</statement>
+          <commentary>보기 [ㄷ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 버랙터 다] 문장 내 '...증가할수록 다이오드의 커패시턴스는 증가한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "버랙터 다이오드(varactor diode)는 역방향 바이어스가 증가할수록 다이오드의 커패시턴스는 증가한다.")</commentary>
+        </bogi_item>
+        <bogi_item symbol="ㄹ" judgment="X (옳지 않은 설명 - 정답 조합 제외)">
+          <statement>실리콘 PN 접합 다이오드에 순방향 바이어스를 인가하면 공핍 영역은 넓어지고 다이오드 양단에는 장벽전위 0.7 [V]가 걸린다.</statement>
+          <commentary>보기 [ㄹ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 실리콘 PN 접합 다] 문장 내 '...드 양단에는 장벽전위 0.7 [V]가 걸린다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "실리콘 PN 접합 다이오드에 순방향 바이어스를 인가하면 공핍 영역은 넓어지고 다이오드 양단에는 장벽전위 0.7 [V]가 걸린다.")</commentary>
+        </bogi_item>
+      </bogi_analysis>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="정답 조합">
+          <choice_text>ㄱ, ㄴ</choice_text>
+          <commentary>[정답 선지] 발문에서 요구한 조건(&lt;보기&gt; 조합형(옳은 것 고르기))을 정확히 만족하는 보기 조합(ㄱ, ㄴ)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="오답 조합">
+          <choice_text>ㄱ, ㄹ</choice_text>
+          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="오답 조합">
+          <choice_text>ㄴ, ㄷ</choice_text>
+          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="오답 조합">
+          <choice_text>ㄷ, ㄹ</choice_text>
+          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="5" id="PRB-525DE420072B876A-Q5">
+      <question_stem>다음 디지털 논리회로에서 입력이 $A$, $B$이고 출력이 $Y$일 경우, 입출력 사이의 논리식이 다른 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>디지털</keyword>
+        <keyword>논리회로에서</keyword>
+        <keyword>입력</keyword>
+        <keyword>이고</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>[수식/도표 선지 4번]</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 디지털, 논리회로에서, 입력, 이고
+2. [정답 및 핵심 결론] 정답은 4번("[수식/도표 선지 4번]")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
+6. [포함 수식(LaTeX)] $A$; $B$; $Y$; $A$; $B$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$A$ $B$</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $A$ $B$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$A$ $B$</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $A$ $B$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>[수식/도표 선지 3번]</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: [수식/도표 선지 3번]] 문장 말미의 '...[수식/도표 선지 3번]' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>[수식/도표 선지 4번]</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: [수식/도표 선지 4번]] 문장 내 '...[수식/도표 선지 4번]' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="6" id="PRB-525DE420072B876A-Q6">
+      <question_stem>다음 왼쪽 그림 (a)에 표시한 주파수 특성을 갖는 연산 증폭기를 이용하여 오른쪽 그림 (b)의 부궤환(negative feedback)회로를 구현하였다. $R_{2} = 1 , 000 R_{1}$일 때, &lt;i&gt;A&lt;/i&gt;[dB]와 &lt;i&gt;B&lt;/i&gt;[MHz]의 값으로 가장 가까운 것은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>의 부궤환(negative feedback)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>0 1,000</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 의 부궤환(negative feedback)
+2. [정답 및 핵심 결론] 정답은 1번("0 1,000")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 의 부궤환(negative feedback)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $R_{2} = 1 , 000 R_{1}$; $V_{i n}$; $V_{out}$; $f$; $B$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>0 1,000</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 0 1,000] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0 100</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0 100] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>20 100</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 20 100] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>20 1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 20 1] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="7" id="PRB-525DE420072B876A-Q7">
+      <question_stem>다음 회로에서 정현파인 입력파형($V_{i n}$)이 가해진 경우, 정상상태에서 출력파형(_($V_{out}$))은? (단, 다이오드 양단의 순방향전압은 0.7 [V]이다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>회로에서</keyword>
+        <keyword>정현파인</keyword>
+        <keyword>입력파형</keyword>
+        <keyword>가해진</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>[수식/도표 선지 3번]</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 회로에서, 정현파인, 입력파형, 가해진
+2. [정답 및 핵심 결론] 정답은 3번("[수식/도표 선지 3번]")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 회로에서, 정현파인, 입력파형, 가해진에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $V_{i n}$; $V_{out}$; $V_{i n}$; $V_{out}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>[수식/도표 선지 1번]</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: [수식/도표 선지 1번]] 문장 내 '...[수식/도표 선지 1번]' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0 －7.7 －17.7 －27.7</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0 －7.7 －17.7 －27.7] 문장 내 '...0 －7.7 －17.7 －27.7' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>[수식/도표 선지 3번]</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: [수식/도표 선지 3번]] 문장 말미의 '...[수식/도표 선지 3번]' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>[수식/도표 선지 4번]</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: [수식/도표 선지 4번]] 문장 내 '...[수식/도표 선지 4번]' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="8" id="PRB-525DE420072B876A-Q8">
+      <question_stem>다음 저역통과필터의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$이 10일 때, 차단주파수가 50 [kHz]가 되기 위한 $R_{1}$[kΩ]과 $R_{2}$[kΩ]는? (단, 연산증폭기는 이상적이라고 가정한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>저역통과필터</keyword>
+        <keyword>전압이득</keyword>
+        <keyword>차단주파수</keyword>
+        <keyword>되기</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>20 9</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 저역통과필터, 전압이득, 차단주파수, 되기
+2. [정답 및 핵심 결론] 정답은 2번("20 9")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 저역통과필터, 전압이득, 차단주파수, 되기에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\left( \frac{V_{out}}{V_{i n}} \right)$; $R_{1}$; $R_{2}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>20 11</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 20 11] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>20 9</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 20 9] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>200 11</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 200 11] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>200 9</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 200 9] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="9" id="PRB-525DE420072B876A-Q9">
+      <question_stem>다음 위상천이 발진기에서 발진각주파수가 1,000 [rad/s]인 경우, 발진기로 동작하기 위한 저항 $R$[kΩ]과 $R_{f}$[kΩ]의 값은? (단, $C = 0 . 1 [ muF ]$, $\sqrt{6} = 2 . 5 ,$ 연산증폭기는 이상적이라고 가정한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>위상천</keyword>
+        <keyword>발진기에서</keyword>
+        <keyword>발진각주파수</keyword>
+        <keyword>발진기</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>4 116</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 위상천, 발진기에서, 발진각주파수, 발진기
+2. [정답 및 핵심 결론] 정답은 1번("4 116")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 위상천, 발진기에서, 발진각주파수, 발진기에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $R$; $R_{f}$; $C = 0 . 1 [ muF ]$; $\sqrt{6} = 2 . 5 ,$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>4 116</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 4 116] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3 87</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3 87] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2 58</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2 58] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1 29</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1 29] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="10" id="PRB-525DE420072B876A-Q10">
+      <question_stem>다음 그림과 같이 R/2R 사다리형 DAC(digital-analog converter) 회로를 구성한 후 ＋5 [V]의 기준전압을 인가할 때, 출력전압 $V_{out}$[V]은? (단, 연산증폭기는 이상적이라고 가정한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>2R 사다리형 DAC(digital-analog converter)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>1.25</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 2R 사다리형 DAC(digital-analog converter)
+2. [정답 및 핵심 결론] 정답은 2번("1.25")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 2R 사다리형 DAC(digital-analog converter)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $V_{out}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0.625</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0.625] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>1.25</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 1.25] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2.5</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2.5] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>5</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 5] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="11" id="PRB-525DE420072B876A-Q11">
+      <question_stem>다음 증폭회로에서 전압이득 $\left| \frac{V_{out}}{V_{i n}} \right|$의 값은? (단, _($M_{1}$)의 전달컨덕턴스 _($g_{m}$ )＝ 10 [m℧]이고 _($R_{S}$ )＝ 900 [Ω]이다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>증폭회로에서</keyword>
+        <keyword>전압이득</keyword>
+        <keyword>전달컨덕턴스</keyword>
+        <keyword>이고</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>0.9</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 증폭회로에서, 전압이득, 전달컨덕턴스, 이고
+2. [정답 및 핵심 결론] 정답은 2번("0.9")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 증폭회로에서, 전압이득, 전달컨덕턴스, 이고에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\left | \frac{V_{out}}{V_{i n}} \right |$; $M_{1}$; $g_{m}$; $R_{S}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0.8</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0.8] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>0.9</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 0.9] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1.0</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1.0] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1.1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1.1] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="12" id="PRB-525DE420072B876A-Q12">
+      <question_stem>다음 회로에서 $R_{1} = 3 R_{2}$이고 $3 R_{3} = R_{4}$일 때, 출력전압 $V_{out}$은? (단, 연산증폭기는 이상적이라고 가정한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>회로에서</keyword>
+        <keyword>이고</keyword>
+        <keyword>출력전압</keyword>
+        <keyword>연산증폭기</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>$- 4 V_{i n}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 회로에서, 이고, 출력전압, 연산증폭기
+2. [정답 및 핵심 결론] 정답은 3번("$- 4 V_{i n}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 회로에서, 이고, 출력전압, 연산증폭기에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $R_{1} = 3 R_{2}$; $3 R_{3} = R_{4}$; $V_{out}$; $2 V_{i n}$; $4 V_{i n}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$2 V_{i n}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $2 V_{i n}$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$4 V_{i n}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $4 V_{i n}$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$- 4 V_{i n}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $- 4 V_{i n}$] 문장 말미의 '...$- 4 V_{i n}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- 2 V_{i n}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- 2 V_{i n}$] 문장 내 '...$- 2 V_{i n}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="13" id="PRB-525DE420072B876A-Q13">
+      <question_stem>다음 회로의 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>회로</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>저주파 신호는 통과하기 어렵다.</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 회로
+2. [정답 및 핵심 결론] 정답은 2번("저주파 신호는 통과하기 어렵다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 2번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>AM 신호 복조에 사용할 수 있다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: AM 신호 복조에 사용할 수 있다.] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>저주파 신호는 통과하기 어렵다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 저주파 신호] 문장 내 '...저주파 신호는 통과하기 어렵다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>RC 시정수가 클수록 리플전압이 줄어든다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: RC 시정수] 문장 말미의 '...RC 시정수가 클수록 리플전압이 줄어든다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>피크검파기로 사용할 수 있다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 피크검파기로 사용할 수 있다.] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="14" id="PRB-525DE420072B876A-Q14">
+      <question_stem>다음 CMOS 논리회로에서 출력 $Z$의 논리식은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>논리회로에서</keyword>
+        <keyword>출력</keyword>
+        <keyword>논리식</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$\bar{A} . B + A . \bar{B}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 논리회로에서, 출력, 논리식
+2. [정답 및 핵심 결론] 정답은 2번("$\bar{A} . B + A . \bar{B}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 논리회로에서, 출력, 논리식에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $Z$; $\bar{A} ․ \bar{B} + A ․ B$; $\bar{A} ․ B + A ․ \bar{B}$; $A + B$; $\bar{A}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\bar{A} . \bar{B} + A . B$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\bar{A} . \bar{B} + A . B$] 문장 내 '...bar{A} . \bar{B} + A . B$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\bar{A} . B + A . \bar{B}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\bar{A} . B + A . \bar{B}$] 문장 말미의 '...bar{A} . B + A . \bar{B}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$A + B$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $A + B$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\bar{A}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\bar{A}$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="15" id="PRB-525DE420072B876A-Q15">
+      <question_stem>다음 MOSFET 증폭기회로의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$은? (단, $g_{m1}$과 _($r_o1$)은 트랜지스터 $M_1$, $g_m2$와 $r_o2$는 트랜지스터 $M_2$에 해당하는 파라미터이다. body effect는 무시하며 커패시터 $C$는 충분히 커서 교류신호에 대해서 임피던스는 0 [Ω]으로 가정한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>증폭기회로</keyword>
+        <keyword>전압이득</keyword>
+        <keyword>트랜지스터</keyword>
+        <keyword>해당하</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>$- \left( g_{m1} + g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 증폭기회로, 전압이득, 트랜지스터, 해당하
+2. [정답 및 핵심 결론] 정답은 1번("$- \left( g_{m1} + g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 증폭기회로, 전압이득, 트랜지스터, 해당하에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\left( \frac{V_{out}}{V_{i n}} \right)$; $g_{m1}$; $r_o1$; $M_1$; $g_m2$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$- \left( g_{m1} + g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $- \left( g_{m1} + g_{m2} \right) \...] 문장 말미의 '...r_{o2} \| R_{L} \right)$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- \left( g_{m1} - g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- \left( g_{m1} - g_{m2} \right) \...] 문장 내 '...r_{o2} \| R_{L} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- g_{m1} \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- g_{m1} \left( r_{o1} \| r_{o2} \...] 문장 내 '...r_{o2} \| R_{L} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- \left( g_{m2} - g_{m1} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- \left( g_{m2} - g_{m1} \right) \...] 문장 내 '...r_{o2} \| R_{L} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="16" id="PRB-525DE420072B876A-Q16">
+      <question_stem>다음은 n－채널 MOSFET으로 구성된 바이어스회로이다. 이 회로에서 n－채널 MOSFET은 포화영역(saturation region)에서 동작하고 있고 $V_{OQ}$는 2.5 [V]일 때 n－채널 MOSFET의 채널폭과 채널길이 비인 $\frac{W}{L}$ 의 값은? (단, 공정전달 컨덕턴스 파라미터 $k_{n} = \mu_{n} C_{ox} = 10^{- 4}$ [A/V^(2)], 문턱전압 $V_{tn} = 0 . 5$ [V], channel length modulation 및 body effect는 무시한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>채널 MOSFET은 포화영역(saturation region)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>5</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 채널 MOSFET은 포화영역(saturation region)
+2. [정답 및 핵심 결론] 정답은 2번("5")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 채널 MOSFET은 포화영역(saturation region)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $V_{OQ}$; $\frac{W}{L}$; $k_{n}^{} = \mu_{n} C_{ox} = 10^{- 4}$; $V_{tn} = 0 . 5$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>5</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 5] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>10</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 10] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>20</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 20] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="17" id="PRB-525DE420072B876A-Q17">
+      <question_stem>다음 회로는 CMOS 인버터 5단을 이용하여 만든 링 발진기(ring oscillator)이다. 이에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>을 이용하여 만든 링 발진기(ring oscillator)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>인버터의 공급전압을 올려도 발진주파수에는 변함이 없다.</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 을 이용하여 만든 링 발진기(ring oscillator)
+2. [정답 및 핵심 결론] 정답은 4번("인버터의 공급전압을 올려도 발진주파수에는 변함이 없다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>인버터의 단 수를 3단으로 줄이면 발진주파수가 올라간다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 인버터의 단 수를 3단으로 줄] 문장 말미의 '...수를 3단으로 줄이면 발진주파수가 올라간다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>인버터의 단 수를 6단으로 늘리면 발진하지 않는다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 인버터의 단 수를 6단으로 늘리면 발진하지 않] 문장 말미의 '...의 단 수를 6단으로 늘리면 발진하지 않는다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>지연시간이 더 작은 인버터를 이용하면 발진주파수가 올라간다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 지연시간] 문장 말미의 '...작은 인버터를 이용하면 발진주파수가 올라간다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>인버터의 공급전압을 올려도 발진주파수에는 변함이 없다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 인버터의 공급전압을 올려도 발진주파수에] 문장 내 '없다' 부분에서 가능/인정 여부(긍정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="18" id="PRB-525DE420072B876A-Q18">
+      <question_stem>다음은 입력신호 _($V_{i n}$)을 변조해서 출력신호 $V_out$을 발생시키는 회로이다. 이 전체회로의 변조방식은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>펄스폭 변조(PWM)</keyword>
+        <keyword>펄스부호 변조(PCM)</keyword>
+        <keyword>펄스위치 변조(PPM)</keyword>
+        <keyword>펄스진폭 변조(PAM)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>펄스위치 변조(PPM)</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 펄스폭 변조(PWM), 펄스부호 변조(PCM), 펄스위치 변조(PPM), 펄스진폭 변조(PAM)
+2. [정답 및 핵심 결론] 정답은 3번("펄스위치 변조(PPM)")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 펄스폭 변조(PWM), 펄스부호 변조(PCM), 펄스위치 변조(PPM), 펄스진폭 변조(PAM)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $V_{i n}$; $V_out$; $V_{i n}$; $V_{i n}$; $t$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>펄스폭 변조(PWM)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 펄스폭 변조(PWM)] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>펄스부호 변조(PCM)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 펄스부호 변조(PCM)] 문장 내 '...펄스부호 변조(PCM)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>펄스위치 변조(PPM)</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 펄스위치 변조(PPM)] 문장 말미의 '...펄스위치 변조(PPM)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>펄스진폭 변조(PAM)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 펄스진폭 변조(PAM)] 문장 내 '...펄스진폭 변조(PAM)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="19" id="PRB-525DE420072B876A-Q19">
+      <question_stem>다음 진리표로부터 논리식을 나타낸 것으로 옳은 것은? (단, x는 don’t care상태이다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>진리표로부터 논리식을 나타낸 것</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>$Y = B . \bar{C} + \bar{C} . D$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 진리표로부터 논리식을 나타낸 것
+2. [정답 및 핵심 결론] 정답은 4번("$Y = B . \bar{C} + \bar{C} . D$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 진리표로부터 논리식을 나타낸 것에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $Y = B ․ \bar{C} + \bar{A} ․ \bar{C}$; $Y = B ․ \bar{C} ․ \bar{D} + \bar{C} ․ \bar{D}$; $Y = B ․ D + \bar{B} ․ \bar{C} ․ D$; $Y = B ․ \bar{C} + \bar{C} ․ D$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$Y = B . \bar{C} + \bar{A} . \bar{C}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $Y = B . \bar{C} + \bar{A} . \bar{C...] 문장 내 '...r{C} + \bar{A} . \bar{C}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$Y = B . \bar{C} . \bar{D} + \bar{C} . \bar{D}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $Y = B . \bar{C} . \bar{D} + \bar{C...] 문장 내 '...r{D} + \bar{C} . \bar{D}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$Y = B . D + \bar{B} . \bar{C} . D$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $Y = B . D + \bar{B} . \bar{C} . D$] 문장 내 '...+ \bar{B} . \bar{C} . D$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$Y = B . \bar{C} + \bar{C} . D$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $Y = B . \bar{C} + \bar{C} . D$] 문장 말미의 '.... \bar{C} + \bar{C} . D$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="20" id="PRB-525DE420072B876A-Q20">
+      <question_stem>다음 MOSFET 증폭기회로의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$은? (단, _($g_{m1}$)은 트랜지스터 $M_1$, $g_m2$는 트랜지스터 $M_2$에 해당하는 파라미터이다. body effect와 channel length modulation은 무시하며 커패시터 &lt;i&gt;C&lt;/i&gt;_(B)는 충분히 커서 교류신호에 대해서 임피던스는 0 [Ω]으로 가정한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>증폭기회로</keyword>
+        <keyword>전압이득</keyword>
+        <keyword>트랜지스터</keyword>
+        <keyword>해당하</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(전자회로) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 증폭기회로, 전압이득, 트랜지스터, 해당하
+2. [정답 및 핵심 결론] 정답은 3번("$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2...")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 증폭기회로, 전압이득, 트랜지스터, 해당하에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\left( \frac{V_{out}}{V_{i n}} \right)$; $g_{m1}$; $M_1$; $g_m2$; $M_2$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\left( - \frac{( R_{1} + R_{2} ) \| R_{3}}{R_{S} + ( R_{1} + R_{2} ) \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\left( - \frac{( R_{1} + R_{2} ) \...] 문장 내 '...g_{m1}} + R_{4}} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\left( - \frac{( R_{1} + R_{2} ) \| R_{3}}{R_{S} + ( R_{1} + R_{2} ) \| R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\left( - \frac{( R_{1} + R_{2} ) \...] 문장 내 '...g_{m1}} + R_{4}} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\left( - \frac{R_{1} \| R_{3}}{R_{...] 문장 말미의 '...g_{m1}} + R_{4}} \right)$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\left( - \frac{R_{1} \| R_{3}}{R_{...] 문장 내 '...g_{m1}} + R_{4}} \right)$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+  </explanations>
+</exam_explanations>

@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-BA2853E894568387</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>통계직</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>518</subject_code>
+    <subject_name>통계학</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통계학_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-BA2853E894568387-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 어느 대학교의 학과 A와 B에 대한 통계학 성적의 상자그림(box plot)이다. 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-BA2853E894568387/1_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-BA2853E894568387/1_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">성적이 가장 좋은 학생은 학과 A에 속해 있다.</choice>
+        <choice no="2" is_answer="false">학과 A의 사분위범위(interquartile range)는 학과 B의 사분위범위보다 크다.</choice>
+        <choice no="3" is_answer="true">학과 A가 학과 B보다 70점 이하인 학생의 비율이 높다.</choice>
+        <choice no="4" is_answer="false">학과 A의 제2사분위수는 학과 B의 제2사분위수보다 크다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="1">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 은 어느 대학교의 학과 A와 B, 대한 통계학 성적의 상자그림(box plot), 학과 A의 사분위범위(interquartile range) | 정답 선지: 학과 A가 학과 B보다 70점 이하인 학생의 비율이 높다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-BA2853E894568387-Q2" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>다음은 표본의 크기가 17인 어느 자료에 대하여 단순선형회귀모형 $Y_{i} = \beta_{0} + \beta_{1} X_{i} + \epsilon_{i}$, $i = 1 , 2 , \cdots , 17$을 적용하여 얻은 분산분석표의 일부이다. 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <passage>| 요인 | 제곱합 | 자유도 | 평균제곱 | $F$－값 | $p$－값 |
+|---|---|---|---|---|---|
+| 회귀 | 20 | | | (가) | 0.0064 |
+| 오차(잔차) | | | (나) | | |
+| 합계 | 50 | | | | |</passage>
+      <formulas count="9">
+        <formula area="질문">Y_{i} = \beta_{0} + \beta_{1} X_{i} + \epsilon_{i}</formula>
+        <formula area="질문">i = 1 , 2 , cdots , 17</formula>
+        <formula area="지문">F</formula>
+        <formula area="지문">p</formula>
+        <formula area="선택지①">Y</formula>
+        <formula area="선택지①">X</formula>
+        <formula area="선택지②">32 over3</formula>
+        <formula area="선택지④">X</formula>
+        <formula area="선택지④">Y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$Y$의 총변동 중 40 %는 $X$로 설명할 수 있다.</choice>
+        <choice no="2" is_answer="true">(가)는 $\frac{32}{3}$이다.</choice>
+        <choice no="3" is_answer="false">(나)는 2이다.</choice>
+        <choice no="4" is_answer="false">유의수준(significance level) 5 %에서 $X$가 $Y$에 영향을 준다고 할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="2">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 유의수준(significance level) | 정답 선지: (가)는 $\frac{32}{3}$이다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-BA2853E894568387-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>이산확률변수 $X$의 확률분포(probability distribution)는 다음과 같다. $E ( X ) = 1 . 6$일 때, 상수 $c_1$과 $c_2$의 값은?</stem>
+      <passage>| $x$ | －1 | 0 | 1 | 2 | 3 | 4 | 5 | 계 |
+|---|---|---|---|---|---|---|---|---|
+| $P ( X = x )$ | 0.05 | $c_1$ | 0.30 | $c_2$ | 0.10 | 0.10 | 0.05 | 1 |</passage>
+      <formulas count="10">
+        <formula area="질문">X</formula>
+        <formula area="질문">E ( X ) = 1 . 6</formula>
+        <formula area="질문">c_1</formula>
+        <formula area="질문">c_2</formula>
+        <formula area="지문">x</formula>
+        <formula area="지문">P ( X = x )</formula>
+        <formula area="지문">c_1</formula>
+        <formula area="지문">c_2</formula>
+        <formula area="지문">c_1</formula>
+        <formula area="지문">c_2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.25 0.15</choice>
+        <choice no="2" is_answer="true">0.2 0.2</choice>
+        <choice no="3" is_answer="false">0.3 0.1</choice>
+        <choice no="4" is_answer="false">－0.2 0.6</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="3">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 확률분포(probability distribution), E ( X ) | 정답 선지: 0.2 0.2</explanation_ref>
+    </question>
+    <question no="4" id="PRB-BA2853E894568387-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어떤 회사에서 생산한 건전지의 수명은 평균이 140시간, 표준편차가 20시간인 정규분포를 따른다고 한다. 가설 $H_{0} : \mu \leq 140$ 대 $H_{1} : \mu &gt; 140$을 검정하기 위해 이 회사에서 100개의 건전지를 임의추출하여 조사한 결과 수명의 표본평균이 150시간이었다. 이에 대한 설명으로 옳지 않은 것은? (단, μ는 모평균이고, $z_{0 . 025} = 1 . 96$, $z_0 . 05 = 1 . 645$이다)</stem>
+      <formulas count="6">
+        <formula area="질문">H_{0} : \mu \leq 140</formula>
+        <formula area="질문">H_{1} : \mu &gt; 140</formula>
+        <formula area="질문">\mu</formula>
+        <formula area="질문">z_{0 . 025} = 1 . 96</formula>
+        <formula area="질문">z_0 . 05 = 1 . 645</formula>
+        <formula area="선택지③">p</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">검정통계량의 값은 5이다.</choice>
+        <choice no="2" is_answer="false">위 가설의 검정은 단측검정이다.</choice>
+        <choice no="3" is_answer="false">위 가설에 대한 유의확률($p$－값)은 0.05보다 작다.</choice>
+        <choice no="4" is_answer="true">유의수준 5 %에서 귀무가설을 기각할 수 없다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="4">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어떤, 회사에서, 생산한, 건전지 | 정답 선지: 유의수준 5 %에서 귀무가설을 기각할 수 없다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-BA2853E894568387-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>A회사 휴대전화기의 결함률은 0.01, B회사는 0.02, C회사는 0.03, D회사는 0.02라고 한다. 각 회사별 휴대전화기의 시장 점유율은 A회사는 0.4, B회사는 0.3, C회사는 0.2, D회사는 0.1이다. 어떤 휴대전화기가 결함을 보였을 때, 이 휴대전화기가 B회사 또는 C회사의 제품일 확률은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{1}{3}</formula>
+        <formula area="선택지②">\frac{2}{3}</formula>
+        <formula area="선택지③">{\frac{1}{4}}</formula>
+        <formula area="선택지④">{\frac{3}{4}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{3}$</choice>
+        <choice no="2" is_answer="true">$\frac{2}{3}$</choice>
+        <choice no="3" is_answer="false">${\frac{1}{4}}$</choice>
+        <choice no="4" is_answer="false">${\frac{3}{4}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="5">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회사, 휴대전화기, 결함률, 라고 | 정답 선지: $\frac{2}{3}$</explanation_ref>
+    </question>
+    <question no="6" id="PRB-BA2853E894568387-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음의 두 자료 A, B에 대한 각각의 표본상관계수는?</stem>
+      <passage>| 자료 A | (1, 0.1), (2, 0.2), (3, 0.3), (4, 0.4), (5, 0.5) |
+|---|---|
+| 자료 B | (1, 0.01), (2, 0.02), (3, 0.03), (4, 0.04), (5, 0.05) |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.1 0.01</choice>
+        <choice no="2" is_answer="false">0.1 1</choice>
+        <choice no="3" is_answer="false">1 0.1</choice>
+        <choice no="4" is_answer="true">1 1</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="6">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 두 자료 A, B | 정답 선지: 1 1</explanation_ref>
+    </question>
+    <question no="7" id="PRB-BA2853E894568387-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>체비셰프 부등식(Chebyshev’s inequality)은 “확률변수 $X$의 평균이 μ, 분산이 $\sigma^{2} &lt; \infty$일 때, 0보다 큰 모든 $k$에 대해 $P ( | X - \mu | \geq k \sigma ) \leq \frac{1}{k^2}$”이다. $E ( X ) = 17$이고 $E ( X^2 ) = 298$일 때, 체비셰프 부등식을 이용한 $P ( 11 &lt; X &lt; 23 )$의 하한값은?</stem>
+      <formulas count="12">
+        <formula area="질문">X</formula>
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\sigma^{2} &lt; inf</formula>
+        <formula area="질문">k</formula>
+        <formula area="질문">P ( | X - \mu | \geq k \sigma ) \leq \frac{1}{k^2}</formula>
+        <formula area="질문">E ( X ) = 17</formula>
+        <formula area="질문">E ( X^2 ) = 298</formula>
+        <formula area="질문">P ( 11 &lt; X &lt; 23 )</formula>
+        <formula area="선택지①">\frac{1}{4}</formula>
+        <formula area="선택지②">\frac{1}{3}</formula>
+        <formula area="선택지③">\frac{2}{3}</formula>
+        <formula area="선택지④">\frac{3}{4}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{4}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{3}$</choice>
+        <choice no="3" is_answer="false">$\frac{2}{3}$</choice>
+        <choice no="4" is_answer="true">$\frac{3}{4}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="7">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: E ( X ) | 정답 선지: $\frac{3}{4}$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-BA2853E894568387-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 도시 A와 도시 B에서 지하철 이용 비율에 차이가 있는지 알아보기 위해 두 지역에서 각각 5000명, 3000명을 임의추출하여 조사한 결과이다. 도시 A의 지하철 이용 비율이 도시 B보다 높은지 검정하기 위한 $Z$ 검정통계량의 값과 유의수준 5 %에서의 임계치(critical value)는?</stem>
+      <passage>| 도시 | 출근자 표본 수 | 지하철 이용 출근자 수 |
+|---|---|---|
+| A | 5000 | 4000 |
+| B | 3000 | 2000 |</passage>
+      <formulas count="10">
+        <formula area="질문">Z</formula>
+        <formula area="지문">Z</formula>
+        <formula area="선택지①">\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{3}{4} ( 1 - \frac{3}{4} ) left ( {\frac{1}{5} 000} + {1 over3000} right )}}</formula>
+        <formula area="선택지①">z_0 . 05 = 1 . 645</formula>
+        <formula area="선택지②">\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{4}{5} ( 1 - \frac{4}{5} ) left ( {\frac{1}{5} 000} + {1 over3000} right )}}</formula>
+        <formula area="선택지②">z_0 . 05 = 1 . 645</formula>
+        <formula area="선택지③">\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{3}{4} ( 1 - \frac{3}{4} ) left ( {\frac{1}{5} 000} + {1 over3000} right )}}</formula>
+        <formula area="선택지③">z_{0 . 025} = 1 . 96</formula>
+        <formula area="선택지④">\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{4}{5} ( 1 - \frac{4}{5} ) left ( {\frac{1}{5} 000} + {1 over3000} right )}}</formula>
+        <formula area="선택지④">z_{0 . 025} = 1 . 96</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{3}{4} ( 1 - \frac{3}{4} ) \left ( {\frac{1}{5} 000} + {\frac{1}{3000}} \right )}}$ $z_0 . 05 = 1 . 645$</choice>
+        <choice no="2" is_answer="false">$\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{4}{5} ( 1 - \frac{4}{5} ) \left ( {\frac{1}{5} 000} + {\frac{1}{3000}} \right )}}$ $z_0 . 05 = 1 . 645$</choice>
+        <choice no="3" is_answer="false">$\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{3}{4} ( 1 - \frac{3}{4} ) \left ( {\frac{1}{5} 000} + {\frac{1}{3000}} \right )}}$ $z_{0 . 025} = 1 . 96$</choice>
+        <choice no="4" is_answer="false">$\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{4}{5} ( 1 - \frac{4}{5} ) \left ( {\frac{1}{5} 000} + {\frac{1}{3000}} \right )}}$ $z_{0 . 025} = 1 . 96$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="8">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 에서의 임계치(critical value) | 정답 선지: $\frac{\frac{4}{5} - \frac{2}{3}}{\sqrt{\frac{3}{4} ( 1 - \frac{3...</explanation_ref>
+    </question>
+    <question no="9" id="PRB-BA2853E894568387-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음과 같은 확률분포를 따르는 확률변수 $X$에 대하여 3개의 임의표본(random sample)으로 2, 2, 3을 얻었을 때, 모수 $p$에 대한 최대우도추정치(maximum likelihood estimate)는? (단, $0 &lt; p &lt; 1$이다)</stem>
+      <passage>| $x$ | 1 | 2 | 3 | 계 |
+|---|---|---|---|---|
+| $P ( X = x )$ | $p^{2}$ | $2 p ( 1 - p )$ | $( 1 - p )^2$ | 1 |</passage>
+      <formulas count="12">
+        <formula area="질문">X</formula>
+        <formula area="질문">p</formula>
+        <formula area="질문">0 &lt; p &lt; 1</formula>
+        <formula area="지문">x</formula>
+        <formula area="지문">P ( X = x )</formula>
+        <formula area="지문">p^{2}</formula>
+        <formula area="지문">2 p ( 1 - p )</formula>
+        <formula area="지문">( 1 - p )^2</formula>
+        <formula area="선택지①">\frac{1}{4}</formula>
+        <formula area="선택지②">\frac{1}{3}</formula>
+        <formula area="선택지③">\frac{1}{2}</formula>
+        <formula area="선택지④">\frac{2}{3}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{4}$</choice>
+        <choice no="2" is_answer="true">$\frac{1}{3}$</choice>
+        <choice no="3" is_answer="false">$\frac{1}{2}$</choice>
+        <choice no="4" is_answer="false">$\frac{2}{3}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="9">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 에 대하여 3개의 임의표본(random sample), 2 p ( 1 - p ) | 정답 선지: $\frac{1}{3}$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-BA2853E894568387-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>어느 학급의 영어 성적이 정규분포를 따른다고 할 때, 크기가 9인 임의표본에서 계산된 모평균의 95 % 신뢰구간 길이는 2였다. 신뢰구간의 길이를 0.5 이하가 되도록 하기 위한 최소 표본크기는? (단, 모분산은 알려져 있다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">36</choice>
+        <choice no="2" is_answer="false">64</choice>
+        <choice no="3" is_answer="false">100</choice>
+        <choice no="4" is_answer="true">144</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="10">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 어느, 학급, 영어, 성적 | 정답 선지: 144</explanation_ref>
+    </question>
+    <question no="11" id="PRB-BA2853E894568387-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어느 대학교에서 재학생의 의식구조를 조사하기 위해 전체 학과 중 10개 학과를 임의추출한 후, 추출된 학과의 모든 학생들을 표본으로 추출하였다. 여기서 사용한 표본추출방법은? (단, 학과 간의 의식구조는 동질적이고 학과 내에서는 이질적이다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">군집(집락)추출법(cluster sampling)</choice>
+        <choice no="2" is_answer="false">단순임의추출법(simple random sampling)</choice>
+        <choice no="3" is_answer="false">계통추출법(systematic sampling)</choice>
+        <choice no="4" is_answer="false">층화추출법(stratified sampling)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="11">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 추출법(cluster sampling), 단순임의추출법(simple random sampling), 계통추출법(systematic sampling), 층화추출법(stratified sampling) | 정답 선지: 군집(집락)추출법(cluster sampling)</explanation_ref>
+    </question>
+    <question no="12" id="PRB-BA2853E894568387-Q12" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>어느 실험결과에 대해 일원배치 분산분석법(one-way analysis of variance)을 적용하여 얻은 분산분석표의 일부가 다음과 같을 때, 옳지 않은 것은?</stem>
+      <passage>| 요인 | 제곱합 | 자유도 | 평균제곱 | $F$－값 |
+|---|---|---|---|---|
+| 처리 | 8 | (나) | 4 | (라) |
+| 오차(잔차) | (가) | 6 | (다) | |
+| 합계 | 26 | | | |</passage>
+      <formulas count="1">
+        <formula area="지문">F</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">(가)는 18이다.</choice>
+        <choice no="2" is_answer="false">(나)는 2이다.</choice>
+        <choice no="3" is_answer="false">(다)는 3이다.</choice>
+        <choice no="4" is_answer="true">(라)는 2이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="12">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 어느, 실험결과, 대해, 일원배치 | 정답 선지: (라)는 2이다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-BA2853E894568387-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>중심극한정리(central limit theorem)에 대한 설명으로 옳은 것은?</stem>
+      <formulas count="7">
+        <formula area="선택지①">n</formula>
+        <formula area="선택지①">p</formula>
+        <formula area="선택지①">\lambda = np</formula>
+        <formula area="선택지②">n</formula>
+        <formula area="선택지②">\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i}</formula>
+        <formula area="선택지④">\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i}</formula>
+        <formula area="선택지④">S^{2} = \frac{1}{n - 1} \sum_{i = 1}^{n} ( X_{i} - \bar{X} )^{2}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">이항분포에서 표본크기 $n$이 크고 성공확률 $p$가 작으면 근사적으로 모수가 $\lambda = np$인 포아송분포를 따른다.</choice>
+        <choice no="2" is_answer="true">임의의 모집단에서 표본크기 $n$이 충분히 커지면 표본평균 $\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i}$는 근사적으로 정규분포를 따른다.</choice>
+        <choice no="3" is_answer="false">확률실험의 횟수가 증가하면 어떤 사건이 관측되는 비율은 그 사건의 확률로 수렴한다.</choice>
+        <choice no="4" is_answer="false">표본평균 $\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i}$와 표본분산 $S^{2} = \frac{1}{n - 1} \sum_{i = 1}^{n} ( X_{i} - \bar{X} )^{2}$은 독립이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="13">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 중심극한정리(central limit theorem) | 정답 선지: 임의의 모집단에서 표본크기 $n$이 충분히 커지면 표본평균 $\bar{X} = \frac{1}{n} \sum_{i =...</explanation_ref>
+    </question>
+    <question no="14" id="PRB-BA2853E894568387-Q14" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>두 이산확률변수 $X$와 $Y$의 결합확률분포(joint probability distribution)가 다음과 같을 때, 이에 대한 설명으로 옳은 것만을 모두 고른 것은?</stem>
+      <passage>| $Y$  $X$ | 0 | 1 | 2 |
+|---|---|---|---|
+| －1 | 0 | $\frac{1}{4}$ | 0 |
+| 0 | $\frac{1}{4}$ | 0 | $\frac{1}{4}$ |
+| 1 | 0 | $\frac{1}{4}$ | 0 |
+ㄱ. $E ( X )$는 0이다.
+ㄴ. $E ( X | Y = 1 )$은 0이다.
+ㄷ. $X$와 $Y$는 독립이다.</passage>
+      <formulas count="12">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="지문">Y</formula>
+        <formula area="지문">X</formula>
+        <formula area="지문">\frac{1}{4}</formula>
+        <formula area="지문">\frac{1}{4}</formula>
+        <formula area="지문">\frac{1}{4}</formula>
+        <formula area="지문">\frac{1}{4}</formula>
+        <formula area="지문">E ( X )</formula>
+        <formula area="지문">E ( X | Y = 1 )</formula>
+        <formula area="지문">X</formula>
+        <formula area="지문">Y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="14">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: E ( X ) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X</explanation_ref>
+    </question>
+    <question no="15" id="PRB-BA2853E894568387-Q15" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>피어슨(Pearson)의 표본상관계수($r$)에 대한 설명으로 옳은 것만을 모두 고른 것은?</stem>
+      <passage>ㄱ. $r$의 범위는 $- 1 \leq r \leq 1$이다.
+ㄴ. $r$은 두 변수 사이에 존재하는 직선관계 또는 곡선관계의 정도를 측정한다.
+ㄷ. $r$이 0이면 두 변수는 항상 독립이다.</passage>
+      <formulas count="5">
+        <formula area="질문">r</formula>
+        <formula area="지문">r</formula>
+        <formula area="지문">- 1 \leq r \leq 1</formula>
+        <formula area="지문">r</formula>
+        <formula area="지문">r</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="15">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 피어슨(Pearson)의 표본상관계수($r$), 피어슨(Pearson) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X</explanation_ref>
+    </question>
+    <question no="16" id="PRB-BA2853E894568387-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다중선형회귀(multiple linear regression)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">결정계수(coefficient of determination)는 총변동 중에서 회귀변동이 차지하는 비율이다.</choice>
+        <choice no="2" is_answer="false">결정계수의 값은 독립변수가 추가될수록 커진다.</choice>
+        <choice no="3" is_answer="true">다중공선성(multicollinearity)은 독립변수와 종속변수 간의 상관관계가 높은 경우에 발생한다.</choice>
+        <choice no="4" is_answer="false">다중공선성 유무는 분산확대인자(variance inflation factor)로 검토할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="16">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다중공선성(multicollinearity), 중공선성 유무는 분산확대인자(variance inflation factor) | 정답 선지: 다중공선성(multicollinearity)은 독립변수와 종속변수 간의 상관관계가 높은 경우에 발생한다.</explanation_ref>
+    </question>
+    <question no="17" id="PRB-BA2853E894568387-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>새로운 정책에 대해 산업별로 찬반에 차이가 있는지 알아보기 위하여 중공업분야 전문가 130명, 농업분야 전문가 130명을 임의추출하여 조사한 결과가 다음과 같을 때, 이에 대한 설명으로 옳은 것은? (단, 중공업에서의 찬성률은 $P_1$, 농업에서의 찬성률은 $P_2$, 비율차는 $P_1 - P_2$, 상대비율은 $\frac{P_1}{P_2}$, 오즈비는 $\frac{P_1 / ( 1 - P_1 )}{P_2 / ( 1 - P_2 )}$이다)</stem>
+      <passage>| 정책 찬반  산업 분야 | 찬성 | 반대 | 계 |
+|---|---|---|---|
+| 중공업 | 100 | 30 | 130 |
+| 농업 | 70 | 60 | 130 |
+| 계 | 170 | 90 | 260 |</passage>
+      <formulas count="6">
+        <formula area="질문">P_1</formula>
+        <formula area="질문">P_2</formula>
+        <formula area="질문">P_1 - P_2</formula>
+        <formula area="질문">P_1 OVER P_2</formula>
+        <formula area="질문">\frac{P_1 / ( 1 - P_1 )}{P_2 / ( 1 - P_2 )}</formula>
+        <formula area="선택지①">\frac{100 times 70}{30 times 60} = \frac{35}{9}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">표본오즈비는 $\frac{100 \times 70}{30 \times 60} = \frac{35}{9}$이다.</choice>
+        <choice no="2" is_answer="false">비율차가 0에 가까울수록 두 분야의 찬성률 차이는 커질 것이다.</choice>
+        <choice no="3" is_answer="true">상대비율이 1에 가까울수록 두 분야의 찬성률 차이는 작아질 것이다.</choice>
+        <choice no="4" is_answer="false">오즈비의 값이 0.5이면 두 분야의 찬성률은 동일하다고 할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 새로운, 정책, 대해, 산업별 | 정답 선지: 상대비율이 1에 가까울수록 두 분야의 찬성률 차이는 작아질 것이다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-BA2853E894568387-Q18" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음은 어느 지역에서 600명을 임의추출하여 흡연 여부와 치주질환 유무를 조사한 결과이다. 흡연 여부와 치주질환 유무에 대한 독립성 검정을 하고자 할 때, 이에 대한 설명으로 옳은 것만을 모두 고른 것은?</stem>
+      <passage>| 치주질환  유무  흡연 여부 | 있음 | 없음 | 계 |
+|---|---|---|---|
+| 과거흡연 | 50 | 100 | 150 |
+| 현재흡연 | 50 | 100 | 150 |
+| 비흡연 | 100 | 200 | 300 |
+| 계 | 200 | 400 | 600 |
+ㄱ. 귀무가설은 “흡연 여부와 치주질환 유무는 서로 관계가 있다.”이다.
+ㄴ. 카이제곱 검정통계량의 값은 0이다.
+ㄷ. 검정통계량 값이 임계치보다 작으면 귀무가설을 기각한다.
+ㄹ. 귀무가설 하에서 카이제곱 검정통계량의 자유도는 2이다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄹ</choice>
+        <choice no="2" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="4" is_answer="true">ㄴ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="18">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 어느, 지역에서, 임의추출하여, 흡연 | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:X, ㄹ:O</explanation_ref>
+    </question>
+    <question no="19" id="PRB-BA2853E894568387-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>관측쌍 $( X_1 , Y_1 ) , ( X_2 , Y_2 ) , \cdots , ( X_n , Y_n )$의 대응(쌍체)비교 $t$－검정(paired $t$-test)에 대한 설명 중 옳지 않은 것은?</stem>
+      <formulas count="6">
+        <formula area="질문">( X_1 , Y_1 ) , ( X_2 , Y_2 ) , cdots , ( X_n , Y_n )</formula>
+        <formula area="질문">t</formula>
+        <formula area="질문">t</formula>
+        <formula area="선택지②">t</formula>
+        <formula area="선택지③">2 ( n - 1 )</formula>
+        <formula area="선택지④">n</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">각 관측쌍들 간은 독립이고, 쌍 내의 자료들은 독립이 아닌 경우에 사용된다.</choice>
+        <choice no="2" is_answer="false">쌍으로 관측된 자료의 차에 대해 일표본 $t$－검정을 적용하는 방법이다.</choice>
+        <choice no="3" is_answer="true">귀무가설 하에서 검정통계량의 자유도는 $2 ( n - 1 )$이다.</choice>
+        <choice no="4" is_answer="false">$n$이 충분히 큰 경우에는 정규분포로 근사하여 검정할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="19">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 2 ( n - 1 ) | 정답 선지: 귀무가설 하에서 검정통계량의 자유도는 $2 ( n - 1 )$이다.</explanation_ref>
+    </question>
+    <question no="20" id="PRB-BA2853E894568387-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$X_1$과 $X_2$가 다음과 같은 확률밀도함수(probability density function)로부터 얻어진 임의표본일 때, 확률 $P ( min ( X_1 , X_2 ) &lt; \frac{1}{2} )$의 값은? (단, $min ( X_1 , X_2 )$는 $X_1$과 $X_2$ 중에서 더 작은 확률변수이다)</stem>
+      <passage>$f ( x ) = 4 x^3 , 0 &lt; x &lt; 1$</passage>
+      <formulas count="11">
+        <formula area="질문">X_1</formula>
+        <formula area="질문">X_2</formula>
+        <formula area="질문">P ( min ( X_1 , X_2 ) &lt; \frac{1}{2} )</formula>
+        <formula area="질문">min ( X_1 , X_2 )</formula>
+        <formula area="질문">X_1</formula>
+        <formula area="질문">X_2</formula>
+        <formula area="지문">f ( x ) = 4 x^3 , 0 &lt; x &lt; 1</formula>
+        <formula area="선택지①">\frac{3}{8}</formula>
+        <formula area="선택지②">\frac{1}{4}</formula>
+        <formula area="선택지③">2 \frac{1}{1} 28</formula>
+        <formula area="선택지④">3 \frac{1}{2} 56</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{3}{8}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{4}$</choice>
+        <choice no="3" is_answer="false">$2 \frac{1}{1} 28$</choice>
+        <choice no="4" is_answer="true">$3 \frac{1}{2} 56$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통계학_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: f ( x ) | 정답 선지: $3 \frac{1}{2} 56$</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

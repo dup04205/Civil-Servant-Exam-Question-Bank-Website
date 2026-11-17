@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2018-06</exam_id>
+    <subject_row_id>PRB-425A482C65C09718</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전산직_전산개발</series>
+    <year>2018</year>
+    <exam_title>2018년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>626</subject_code>
+    <subject_name>데이터베이스론</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>데이터베이스론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-425A482C65C09718-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>파일처리 시스템에서 데이터 중복의 단점에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">같은 데이터가 여러 곳에 중복되어 있어 동일 수준의 보안이 가능하다.</choice>
+        <choice no="2" is_answer="false">데이터 저장공간에 대한 추가 비용이 소요된다.</choice>
+        <choice no="3" is_answer="false">데이터 간의 불일치로 인해 데이터 일관성이 결여된다.</choice>
+        <choice no="4" is_answer="false">데이터 갱신 시 중복된 모든 데이터를 찾아내어 갱신해야 하므로 갱신 비용이 추가된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 파일처리 시스템에서 데이터 중복의 단점 | 정답 선지: 같은 데이터가 여러 곳에 중복되어 있어 동일 수준의 보안이 가능하다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-425A482C65C09718-Q2" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음 데이터베이스 설계의 주요 단계를 순서대로 바르게 나열한 것은?</stem>
+      <passage>ㄱ. 정규화 ㄴ. 물리적 설계
+ㄷ. 요구사항 수집 및 분석 ㄹ. 개념적 설계
+ㅁ. 데이터베이스 튜닝 ㅂ. 논리적 설계</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄷ, ㄹ, ㅂ, ㄴ, ㅁ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄷ, ㅂ, ㄹ, ㅁ, ㄴ</choice>
+        <choice no="3" is_answer="true">ㄷ, ㄹ, ㅂ, ㄱ, ㄴ, ㅁ</choice>
+        <choice no="4" is_answer="false">ㄷ, ㅂ, ㄹ, ㄱ, ㅁ, ㄴ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 데이터베이스, 설계, 주요, 단계 | 보기 판정: ㄱ:O, ㄷ:O, ㅁ:O</explanation_ref>
+    </question>
+    <question no="3" id="PRB-425A482C65C09718-Q3" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>함수적 종속성과 정규화에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">함수적 종속성 X → Y는 릴레이션 내 임의의 두 튜플에서 속성 X의 값이 같을 경우, 속성 Y의 값도 항상 같음을 의미한다.</choice>
+        <choice no="2" is_answer="true">함수적 종속성은 릴레이션 상태(외연)의 특성이다.</choice>
+        <choice no="3" is_answer="false">제2정규형에서 릴레이션의 모든 비주요 속성들은 릴레이션의 기본키에 완전하게 함수적으로 종속한다.</choice>
+        <choice no="4" is_answer="false">정규화는 함수적 종속성과 기본키를 기반으로 주어진 릴레이션 스키마를 분석하는 과정이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 함수적 종속성과 정규화 | 정답 선지: 함수적 종속성은 릴레이션 상태(외연)의 특성이다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-425A482C65C09718-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>위치 기반 서비스(Location-Based Services)를 제공하는 시스템의 요소로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">푸시(push) 기반 서비스</choice>
+        <choice no="2" is_answer="false">최인접 주변 질의</choice>
+        <choice no="3" is_answer="true">TSQL2 언어</choice>
+        <choice no="4" is_answer="false">윈도우 질의</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 위치 기반 서비스(Location-Based Services), 푸시(push) | 정답 선지: TSQL2 언어</explanation_ref>
+    </question>
+    <question no="5" id="PRB-425A482C65C09718-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>SQL 질의문은 동치인 관계대수식으로 변환할 수 있다. 다음 SQL 질의문을 관계대수식으로 변환한 것 중 옳은 것은? (단, 제품 테이블 P, 판매 테이블 S, 집계함수 표현을 위한 관계대수 연산자 기호는 $IMAG$로 한다)</stem>
+      <passage>Schema: S(&lt;u&gt;sId&lt;/u&gt;, sDate, pId, sAmount)
+P(&lt;u&gt;pId&lt;/u&gt;, pName)
+SQL: SELECT SUM(sAmount)
+FROM P, S
+WHERE S.pId = P.pId AND P.pName='P1'
+GROUP BY sDate;</passage>
+      <formulas count="5">
+        <formula area="질문">IMAG</formula>
+        <formula area="선택지①">IMAG_{\text{SUM} ( sAmount )} ( # \pi_{P . pName} ( \sigma_{P . pName = prime P1 prime} ⋈_{S . pId = P . pId} P ) # )</formula>
+        <formula area="선택지②">{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( # \pi_{S . sAmount} ( \sigma_{P . pName = prime P1 prime} ( S ⋈_{S . pId = P . pId} P ) ) # )</formula>
+        <formula area="선택지③">IMAG_{\text{SUM} ( sAmount )} ( # S ⋈_{S . pId = P . pId} ( \sigma_{P . pName = prime P1 prime} ( P ) ) # )</formula>
+        <formula area="선택지④">{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( # \sigma_{P . pName = prime P1 prime} ( P ) ⋈_{P . pId = S . pId} S # )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\begin{gathered}IMAG_{\text{SUM} ( sAmount )} ( \\ \pi_{P . pName} ( \sigma_{P . pName =^{\prime} P1^{\prime}} \bowtie _{S . pId = P . pId} P ) \\ )\end{gathered}$</choice>
+        <choice no="2" is_answer="false">$\begin{gathered}{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( \\ \pi_{S . sAmount} ( \sigma_{P . pName =^{\prime} P1^{\prime}} ( S \bowtie _{S . pId = P . pId} P ) ) \\ )\end{gathered}$</choice>
+        <choice no="3" is_answer="false">$\begin{gathered}IMAG_{\text{SUM} ( sAmount )} ( \\ S \bowtie _{S . pId = P . pId} ( \sigma_{P . pName =^{\prime} P1^{\prime}} ( P ) ) \\ )\end{gathered}$</choice>
+        <choice no="4" is_answer="true">$\begin{gathered}{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( \\ \sigma_{P . pName =^{\prime} P1^{\prime}} ( P ) \bowtie _{P . pId = S . pId} S \\ )\end{gathered}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SELECT SUM(sAmount) | 정답 선지: $\begin{gathered}{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( \\ \s...</explanation_ref>
+    </question>
+    <question no="6" id="PRB-425A482C65C09718-Q6" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 트랜잭션의 선행그래프 및 그와 동치인 직렬 가능한 스케줄의 쌍들이다. 이 쌍들 중 옳지 않은 것은?</stem>
+      <images count="7">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-425A482C65C09718/6_도형_1.png</image>
+        <image area="지문" kind="도형" seq="2">이미지/PRB-425A482C65C09718/6_도형_2.png</image>
+        <image area="지문" kind="도형" seq="3">이미지/PRB-425A482C65C09718/6_도형_3.png</image>
+        <image area="지문" kind="도형" seq="4">이미지/PRB-425A482C65C09718/6_도형_4.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-425A482C65C09718/6_pdf_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="2">이미지/PRB-425A482C65C09718/6_pdf_2.png</image>
+        <image area="지문" kind="PDF크롭" seq="3">이미지/PRB-425A482C65C09718/6_pdf_3.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">동치 직렬 스케줄: T2 → T3 → T1</choice>
+        <choice no="2" is_answer="true">동치 직렬 스케줄: T3 → T1 → T2</choice>
+        <choice no="3" is_answer="false">동치 직렬 스케줄: T3 → T2 → T1</choice>
+        <choice no="4" is_answer="false">동치 직렬 스케줄: T3 → T1 → T2</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션, 선행그래프, 그와, 동치인 | 정답 선지: 동치 직렬 스케줄: T3 → T1 → T2</explanation_ref>
+    </question>
+    <question no="7" id="PRB-425A482C65C09718-Q7" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>다음 ‘사원’ 테이블을 생성하는 SQL문에서 부서의 속성값을 ‘인사’, ‘연구’, ‘영업’으로 제한하고자 한다. ㉠, ㉡에 들어갈 내용으로 옳은 것은?</stem>
+      <passage>CREATE TABLE 사원
+(사번 NUMBER NOT NULL,
+이름 CHAR(10),
+직급 CHAR(10),
+부서 CHAR(10) &lt;u&gt; ㉠ &lt;/u&gt; (부서 &lt;u&gt; ㉡ &lt;/u&gt;(‘인사’, ‘연구’, ‘영업’)));</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">UNIQUE ON</choice>
+        <choice no="2" is_answer="false">CHECK ON</choice>
+        <choice no="3" is_answer="false">UNIQUE IN</choice>
+        <choice no="4" is_answer="true">CHECK IN</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 이름 CHAR(10), 직급 CHAR(10), 부서 CHAR(10), 사원, 인사 | 정답 선지: CHECK IN</explanation_ref>
+    </question>
+    <question no="8" id="PRB-425A482C65C09718-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>2개의 계좌 A1, A2의 잔액이 각각 2,000,000원, 3,000,000원이라고 하자. 이 상태에서 각 계좌의 관리를 수행하는 트랜잭션 T1 및 T2의 실행이 다음과 같을 때, 발생한 현상으로 옳은 것은?</stem>
+      <passage>1: T2가 계좌 A2에 2,500,000원을 더해 5,500,000원이 됨
+2: T1이 계좌 A1에 1,500,000원을 더해 3,500,000원이 됨
+3: T2가 계좌 A1의 잔액(3,500,000원)이 충분하다고 판단하여 A1에서 A2로 2,500,000원 이체를 실행함
+4: T1이 알 수 없는 이유로 트랜잭션의 수행이 실패함</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">오손 판독(dirty read)</choice>
+        <choice no="2" is_answer="false">반복할 수 없는 판독(non-repeatable read)</choice>
+        <choice no="3" is_answer="false">부정확한 요약(incorrect summary)</choice>
+        <choice no="4" is_answer="false">유령 판독(phantom read)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 의 수행이 실패함 오손 판독(dirty read), 반복할 수 없는 판독(non-repeatable read), 부정확한 요약(incorrect summary), 유령 판독(phantom read) | 정답 선지: 오손 판독(dirty read)</explanation_ref>
+    </question>
+    <question no="9" id="PRB-425A482C65C09718-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>로킹(locking)을 이용한 DBMS 동시성 제어 기법의 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">2단계 로킹 프로토콜(two-phase locking protocol)의 확대 단계에서는 로크를 해제할 수 없지만, 축소 단계에는 로크를 해제한 후 같은 항목에 대하여 다시 로크를 획득할 수 있다.</choice>
+        <choice no="2" is_answer="false">로킹 기법을 사용하여 트랜잭션의 동시성을 제어하면 항상 직렬 가능(serializable)한 스케줄을 보장한다.</choice>
+        <choice no="3" is_answer="true">다중 단위 로킹(multiple granularity locking) 프로토콜에서 SIX(intention-shared-exclusive) 로크가 걸려있는 노드에 IS(intention-shared) 로크를 추가로 걸 수 있다.</choice>
+        <choice no="4" is_answer="false">2단계 로킹 프로토콜을 활용하면 불필요한 교착상태(deadlock)를 회피할 수 있어서 트랜잭션의 철회(rollback)를 막을 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 로킹(locking), 을 제어하면 항상 직렬 가능(serializable), 로크가 걸려있는 노드에 IS(intention-shared), 활용하면 불필요한 교착상태(deadlock), 수 있어서 트랜잭션의 철회(rollback) | 정답 선지: 다중 단위 로킹(multiple granularity locking) 프로토콜에서 SIX(intention-share...</explanation_ref>
+    </question>
+    <question no="10" id="PRB-425A482C65C09718-Q10" type="부정형(옳지 않은 것 고르기)" category="어법·규범·어휘형">
+      <stem>다음 ERD(Entity-Relationship Diagram)를 관계형 데이터베이스 스키마로 변환한 것으로 옳지 않은 것은?(단, 밑줄은 기본키이다)</stem>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-425A482C65C09718/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-425A482C65C09718/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">E1(&lt;u&gt;KA1&lt;/u&gt;, A2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3, KA1) E21(&lt;u&gt;KA2, A4&lt;/u&gt;)</choice>
+        <choice no="2" is_answer="false">E1(&lt;u&gt;KA1&lt;/u&gt;, A2, KA2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3) E21(&lt;u&gt;KA2, A4&lt;/u&gt;)</choice>
+        <choice no="3" is_answer="false">E1(&lt;u&gt;KA1&lt;/u&gt;, A2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3) R(&lt;u&gt;KA1, KA2&lt;/u&gt;) E21(&lt;u&gt;KA2, A4&lt;/u&gt;)</choice>
+        <choice no="4" is_answer="true">E1(&lt;u&gt;KA1&lt;/u&gt;, A2, KA2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3, A4)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 4번] 부정형(옳지 않은 것 고르기) (어법·규범·어휘형) | 핵심어: 관계형, 데이터베이스, 스키마, 변환한 | 정답 선지: E1(&lt;u&gt;KA1&lt;/u&gt;, A2, KA2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3, A4)</explanation_ref>
+    </question>
+    <question no="11" id="PRB-425A482C65C09718-Q11" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>(가), (나), (다)는 데이터베이스의 보안 위협에서 보호되어야 하는 성질을 설명하고 있다. ㉠, ㉡, ㉢에 들어갈 용어로 옳은 것은?</stem>
+      <passage>(가) ( ㉠ )은 정보가 부적절한 변경으로부터 보호되어야 하는 성질을 의미한다.
+(나) ( ㉡ )은 적법한 권리가 있는 사용자 또는 프로그램이 객체를 사용할 수 있어야 하는 성질을 의미한다.
+(다) ( ㉢ )은 권한을 갖지 않은 노출로부터 데이터를 보호해야 하는 성질을 의미한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">무결성 가용성 조직성</choice>
+        <choice no="2" is_answer="true">무결성 가용성 기밀성</choice>
+        <choice no="3" is_answer="false">기밀성 무결성 가용성</choice>
+        <choice no="4" is_answer="false">기밀성 무결성 조직성</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 2번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 데이터베이스, 보안, 위협에서, 보호되어야 | 정답 선지: 무결성 가용성 기밀성</explanation_ref>
+    </question>
+    <question no="12" id="PRB-425A482C65C09718-Q12" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음 관계형 데이터베이스 릴레이션의 특성으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 한 릴레이션에는 동일한 값을 가지는 튜플이 두 개 이상 존재할 수 없다.
+ㄴ. 한 릴레이션에서 한 속성의 값은 모두 같은 도메인에 속해야 한다.
+ㄷ. 한 릴레이션에서 튜플의 순서는 중요하지 않다.
+ㄹ. 한 릴레이션에서 속성의 순서는 중요하지 않다.
+ㅁ. 한 릴레이션에서 속성은 다중값(multiple value)을 포함할 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄴ, ㅁ</choice>
+        <choice no="2" is_answer="false">ㄷ, ㄹ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄹ, ㅁ</choice>
+        <choice no="4" is_answer="true">ㄱ, ㄴ, ㄷ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 관계형 데이터베이스 릴레이션의 특성, 릴레이션에서 속성은 다중값(multiple value) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:O, ㄹ:O, ㅁ:X</explanation_ref>
+    </question>
+    <question no="13" id="PRB-425A482C65C09718-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 장바구니 트랜잭션의 예이다. 연관규칙(Association Rule)을 발견하기 위해 Apriori 알고리즘을 적용한다고 가정할 때, 다음 설명으로 옳지 않은 것은?</stem>
+      <passage>| TID | Items |
+|---|---|
+| 1 | A, F |
+| 2 | A, B, D, E |
+| 3 | B, C, D |
+| 4 | A, B, D, F |
+| 5 | A, C, D, F |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">항목집합 {A}의 지지도(support)는 80 %이다.</choice>
+        <choice no="2" is_answer="false">항목집합 {A, B, D}가 빈발하면 항목집합 {A, D}도 빈발한다.</choice>
+        <choice no="3" is_answer="true">규칙 A → {B, D}의 신뢰도(confidence)가 {A, B} → D의 신뢰도보다 크거나 같다.</choice>
+        <choice no="4" is_answer="false">규칙 A → B의 지지도는 40 %이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연관규칙(Association Rule), 의 지지도(support), 의 신뢰도(confidence) | 정답 선지: 규칙 A → {B, D}의 신뢰도(confidence)가 {A, B} → D의 신뢰도보다 크거나 같다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-425A482C65C09718-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 EMPLOYEE, PROJECT, WORKSON 테이블로 구성된 데이터베이스에서, “모든 프로젝트에 참가하는 직원의 이름을 검색하라.”를 수행하기 위한 SQL문으로 옳은 것은?</stem>
+      <passage>EMPLOYEE( &lt;u&gt;eNo&lt;/u&gt;, eName )
+PROJECT( &lt;u&gt;pNo&lt;/u&gt;, pName )
+WORKSON( &lt;u&gt;eNo, pNo&lt;/u&gt; )</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">SELECT eName FROM EMPLOYEE E, WORKSON W, PROJECT P WHERE E.eNo = W.eNo AND W.pNo = P.pNo;</choice>
+        <choice no="2" is_answer="true">SELECT eName FROM EMPLOYEE E WHERE NOT EXISTS ( SELECT P.pNo FROM PROJECT P WHERE NOT EXISTS ( SELECT W.pNo FROM WORKSON W WHERE P.pNo = W.pNo AND E.eNo = W.eNo ) );</choice>
+        <choice no="3" is_answer="false">SELECT eName FROM EMPLOYEE E WHERE EXISTS ( ( SELECT pNo FROM PROJECT ) NOT EXCEPT ( SELECT pNo FROM WORKSON W WHERE E.eNo=W.eNo) );</choice>
+        <choice no="4" is_answer="false">SELECT eName FROM EMPLOYEE E WHERE EXISTS ( ( SELECT pNo FROM PROJECT) EXCEPT ( SELECT pNo FROM WORKSON W WHERE E.eNo = W.eNo ) );</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 테이블, 구성된, 데이터베이스에서, 모든 | 정답 선지: SELECT eName FROM EMPLOYEE E WHERE NOT EXISTS ( SELECT P.pNo FROM...</explanation_ref>
+    </question>
+    <question no="15" id="PRB-425A482C65C09718-Q15" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>하루 수천 건의 거래가 발생하는 온라인 쇼핑몰에서 ‘주문정보’ 테이블은 대용량의 데이터를 저장해야 하고 트랜잭션이 자주 발생하기 때문에 주문정보 시스템의 성능에 크게 영향을 준다. 다음 질의가 빈번하게 발생하는 상태에서 성능향상을 위하여 ‘주문정보’ 테이블의 ‘주문일자’ ＋ ‘순번’ 속성으로 구성된 키(key)에 대해 인덱스를 생성하고자 할 때, 성능향상에 적합한 인덱스 구조로 옳은 것만을 모두 고르면?</stem>
+      <passage>SELECT *
+FROM 주문정보
+WHERE 주문일자 BETWEEN '03-01-2016' AND '03-31-2016';
+ㄱ. B^(+)－트리 인덱스
+ㄴ. B^(*)－트리 인덱스
+ㄷ. 해시 인덱스
+ㄹ. 비트맵(bitmap) 인덱스</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 속성으로 구성된 키(key), 비트맵(bitmap), 주문정보, 주문일자, 순번 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X</explanation_ref>
+    </question>
+    <question no="16" id="PRB-425A482C65C09718-Q16" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>다음의 ‘선택적필드’를 갖는 가변길이 레코드 10,000개가 저장된 PLAYER 파일이 있다. PLAYER 파일 내의 레코드는 &lt;필드유형, 필드값&gt;으로 표현되는 ‘선택적필드’들로 구성되어 있으며, 레코드 끝 부분에 1바이트의 ‘삭제표시자’와 1바이트의 ‘레코드 끝 표시자’를 포함한다. PLAYER 파일에 저장되어 있는 레코드들의 상태는 &lt;선택적필드를 갖는 가변길이 레코드 저장 상태&gt; 표에 제시되어 있으며, 레코드를 저장하기 위한 블록 구조 역시 &lt;PLAYER 파일 구성을 위한 블록 구조&gt; 표에 제시되어 있다. 이와 같은 상태에서 PLAYER 파일에 저장되어 있는 레코드들의 평균 크기와 필요한 블록 수를 계산한 결과는?</stem>
+      <sub_passage>[PLAYER 파일의 구조]
+&lt;선택적필드를 갖는 가변길이 레코드 저장 상태&gt;
+| 필드이름 | 필드유형 크기 | 필드값 크기 | 선택적필드 참여율 |
+|---|---|---|---|
+| TEAM | 1바이트 | 39바이트 | 90 % |
+| SALARY | 1바이트 | 29바이트 | 80 % |
+| INJURY | 1바이트 | 9바이트 | 10 % |
+| UNIVERSITY | 1바이트 | 9바이트 | 70 % |
+○ 필드이름은 ‘선택적필드’를 식별하기 위한 것으로 ‘선택적필드’의 ‘필드유형’ 값으로 코드화되어 저장된다.
+○ 필드유형 크기는 ‘필드유형’을 저장하기 위한 항목으로 파일 내에 있는 모든 ‘선택적필드’에서 1바이트의 크기를 갖는다.
+○ 필드값 크기는 ‘선택적필드’에서 ‘필드유형’을 제외한 ‘필드값’을 저장하기 위한 크기로 ‘선택적필드’에 따라 적합한 크기를 갖는다.
+○ 선택적필드 참여율은 파일 내 전체 레코드들에서 해당 ‘선택적필드’가 나타나는 비율을 의미한다.
+&lt;PLAYER 파일 구성을 위한 블록 구조&gt;
+| 블록조직의 형태 | 블록 크기 | 기타 |
+|---|---|---|
+| 신장(spanned) 조직 | 2400바이트 | 파일 내 다음 번 블록을 가리키기 위한 4바이트 크기 포인터 필드 포함 |
+&lt;u&gt; 레코드들의 평균 크기 &lt;/u&gt; &lt;u&gt; 필요한 블록의 수 &lt;/u&gt;</sub_passage>
+      <images count="1">
+        <image area="보조지문" kind="비트맵" seq="1">이미지/PRB-425A482C65C09718/16_보조지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">70바이트 293개</choice>
+        <choice no="2" is_answer="false">71바이트 296개</choice>
+        <choice no="3" is_answer="false">70바이트 291개</choice>
+        <choice no="4" is_answer="false">71바이트 294개</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 1번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 신장(spanned), 선택적필드, 삭제표시자, 레코드 끝 표시자 | 정답 선지: 70바이트 293개</explanation_ref>
+    </question>
+    <question no="17" id="PRB-425A482C65C09718-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>릴레이션 스키마 R(A, B, C, D, E, F, G, H, I)에 대하여 다음과 같은 함수적 종속성의 집합 F가 주어졌을 때, 스키마 R의 속성들의 부분집합 {A, G}에 대하여, F 하의 {A, G}의 폐포(closure) {A, G}^(＋)로 옳은 것은?</stem>
+      <passage>F ＝ {A → B, BH → D, C → EF, BG → IE, AE → C}</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">{A, B, C, E, G, H, I}</choice>
+        <choice no="2" is_answer="false">{A, C, D, E, G, I, F}</choice>
+        <choice no="3" is_answer="false">{A, C, D, E, G, H, I}</choice>
+        <choice no="4" is_answer="true">{A, B, C, E, G, I, F}</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션 스키마 R(A, B, C, D, E, F, G, H, I), 의 폐포(closure) | 정답 선지: {A, B, C, E, G, I, F}</explanation_ref>
+    </question>
+    <question no="18" id="PRB-425A482C65C09718-Q18" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>다음은 장애 발생 시 지연 갱신 회복 기법으로 복구하는 데이터베이스 시스템의 로그 기록이다. T3를 수행하던 도중 시스템 장애가 발생했을 때 수행되는 복구 절차로 옳은 것은?</stem>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-425A482C65C09718/18_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-425A482C65C09718/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">T1과 T2를 redo 연산을 수행하여 복구하고, T3에 대해서는 undo 연산을 수행한다.</choice>
+        <choice no="2" is_answer="false">T1과 T2를 undo 연산을 수행하여 복구하고, T3에 대해서는 redo 연산을 수행한다.</choice>
+        <choice no="3" is_answer="true">T1과 T2를 redo 연산을 수행하여 복구하고, T3에 대해서는 별도의 연산을 수행하지 않는다.</choice>
+        <choice no="4" is_answer="false">T1과 T2는 이미 데이터베이스에 반영되어 있으므로 별도의 연산을 수행하지 않고, T3를 redo 연산을 수행하여 복구한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 장애, 발생, 지연, 갱신 | 정답 선지: T1과 T2를 redo 연산을 수행하여 복구하고, T3에 대해서는 별도의 연산을 수행하지 않는다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-425A482C65C09718-Q19" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>다음은 트랜잭션 격리수준(Isolation Level) 설정을 위한 SQL 표준 형식이다. 이를 이용하여 설정할 수 있는 트랜잭션 격리수준에 대한 설명으로 옳지 않은 것은?</stem>
+      <passage>SET TRANSACTION {READ ONLY | READ WRITE}
+ISOLATION LEVEL {READ UNCOMMITTED
+| READ COMMITTED
+| REPEATABLE READ
+| SERIALIZABLE }</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">READ UNCOMMITTED로 설정된 트랜잭션은 완료되지 않은 트랜잭션이 생성한 데이터 값을 읽어가는 것을 허용하는 것이며, READ WRITE와 함께 설정될 수 없다.</choice>
+        <choice no="2" is_answer="false">READ COMMITTED로 설정된 트랜잭션은 동일 조건의 데이터 집합을 반복하여 읽을 경우, 먼저 읽었던 데이터 집합에 있던 데이터 값과 새로이 읽은 데이터 집합에 있는 데이터 값이 달라져 있을 수 있다.</choice>
+        <choice no="3" is_answer="false">REPEATABLE READ로 설정된 트랜잭션은 동일 조건의 데이터 집합을 반복하여 읽을 경우, 읽혀지는 집합을 구성하는 로우들의 수가 달라질 수 있다.</choice>
+        <choice no="4" is_answer="true">SERIALIZABLE로 설정된 트랜잭션은 격리성을 완전하게 유지함으로써 트랜잭션의 일관성을 보존하고 동시에 수행 중인 트랜잭션들의 처리율을 향상시킨다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 다음은 트랜잭션 격리수준(Isolation Level) | 정답 선지: SERIALIZABLE로 설정된 트랜잭션은 격리성을 완전하게 유지함으로써 트랜잭션의 일관성을 보존하고 동시에 수행 중...</explanation_ref>
+    </question>
+    <question no="20" id="PRB-425A482C65C09718-Q20" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
+      <stem>&lt;보기 1&gt;은 관계형 데이터베이스 스키마와 이 스키마에 대하여 “1980년 이후에 출생하고 프로젝트명이 ‘DBMS개발’인 프로젝트를 수행하는 연구원 이름을 검색하라.”를 SQL로 표현한 것이다. &lt;보기 2&gt;는 경험적 최적화 기법을 적용하여 최적화를 수행하기 위해, &lt;보기 1&gt;의 SQL 질의문에서 생성되는 초기 질의트리를 최적화된 질의트리로 변환하는 과정에서 유도되는 관계대수식의 목록이다. 최적화 순서에 맞도록 바르게 나열한 것은? (단, 연구원 테이블 R, 프로젝트 테이블 P, 프로젝트 팀 테이블 T라 한다)</stem>
+      <passage>[보기 1]
+Schema: R(&lt;u&gt;rNo&lt;/u&gt;, rName, bDate, address)
+
+ P(&lt;u&gt;pNo&lt;/u&gt;, pName, pPeriod)
+
+ T(&lt;u&gt;rNo, pNo&lt;/u&gt;, pBudget)
+
+SQL 질의문:
+
+ SELECT rName 
+
+ FROM R, T, P 
+
+ WHERE pName = ‘DBMS개발’ 
+
+ AND P.pNo = T.pNo AND R.rNo = T.rNo
+
+ AND bDate &gt; ‘12-31-1979’;</passage>
+      <sub_passage>[보기 2]
+ㄱ. $\begin{gathered}\pi_{rName} ( \\ \pi_{rNo} ( \\ \pi_{pNo} ( \sigma_{pName =^{\prime} DBMS개발^{\prime}} ( P ) ) \\ \bowtie _{N} \pi_{rNo , pNo} ( T ) \\ ) \bowtie _{N} \pi_{rNo , rName} ( \sigma_{bDate &gt;^{\prime} 12 - 31 - 1979^{\prime}} ( R ) ) \\ )\end{gathered}$
+
+ㄴ. $\pi_{rName} ( \sigma_{\begin{aligned}P . pNo = T . pNo \\ AND T . rNo = R . rNo \\ AND pName =^{\prime} DBMS개발^{\prime} \\ AND bDate &gt;^{\prime} 12 - 31 - 1979^{\prime}\end{aligned}} ( ( R \times T ) \times P ) )$
+
+ㄷ. $\begin{gathered}\pi_{rName} ( \\ \sigma_{P . pNo = T . pNo} ( \\ \sigma_{T . rNo = R . rNo} ( \sigma_{bDate &gt;^{\prime} 12 - 31 - 1979^{\prime}} ( R ) \times T ) \\ \times \sigma_{pName =^{\prime} DBMS개발^{\prime}} ( P ) \\ ) \\ )\end{gathered}$
+
+ㄹ. $\begin{gathered}\pi_{rName} ( \\ ( \sigma_{pName =^{\prime} DBMS개발^{\prime}} ( P ) \bowtie _{N} T ) \\ \bowtie _{N} \sigma_{bDate &gt;^{\prime} 12 - 31 - 1979^{\prime}} ( R ) \\ )\end{gathered}$
+
+ㅁ. $\begin{gathered}\pi_{rName} ( \\ \sigma_{R . rNo = T . rNo} ( \\ \sigma_{P . pNo = T . pNo} ( \sigma_{pName =^{\prime} DBMS개발^{\prime}} ( P ) \times T ) \\ \times \sigma_{bDate &gt;^{\prime} 12 - 31 - 1979^{\prime}} ( R ) \\ ) \\ )\end{gathered}$</sub_passage>
+      <formulas count="15">
+        <formula area="지문">\pi_{rName} ( # \pi_{rNo} ( # \pi_{pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) ) # ⋈_{N} \pi_{rNo , pNo} ( T ) # ) ⋈_{N} \pi_{rNo , rName} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) ) # )</formula>
+        <formula area="지문">\pi_{rName} ( \sigma_{eqalign {P . pNo = T . pNo # AND T . rNo = R . rNo # AND pName = prime DBMS개발 prime # AND bDate &gt; prime 12 - 31 - 1979 prime}} ( ( R \times T ) \times P ) )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{P . pNo = T . pNo} ( # \sigma_{T . rNo = R . rNo} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) \times T ) # \times \sigma_{pName = prime DBMS개발 prime} ( P ) # ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # ( \sigma_{pName = prime DBMS개발 prime} ( P ) ⋈_{N} T ) # ⋈_{N} \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{R . rNo = T . rNo} ( # \sigma_{P . pNo = T . pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) \times T ) # \times \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # \pi_{rNo} ( # \pi_{pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) ) # ⋈_{N} \pi_{rNo , pNo} ( T ) # ) ⋈_{N} \pi_{rNo , rName} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) ) # )</formula>
+        <formula area="지문">\pi_{rName} ( \sigma_{eqalign {P . pNo = T . pNo # AND T . rNo = R . rNo # AND pName = prime DBMS개발 prime # AND bDate &gt; prime 12 - 31 - 1979 prime}} ( ( R \times T ) \times P ) )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{P . pNo = T . pNo} ( # \sigma_{T . rNo = R . rNo} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) \times T ) # \times \sigma_{pName = prime DBMS개발 prime} ( P ) # ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # ( \sigma_{pName = prime DBMS개발 prime} ( P ) ⋈_{N} T ) # ⋈_{N} \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{R . rNo = T . rNo} ( # \sigma_{P . pNo = T . pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) \times T ) # \times \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # \pi_{rNo} ( # \pi_{pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) ) # ⋈_{N} \pi_{rNo , pNo} ( T ) # ) ⋈_{N} \pi_{rNo , rName} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) ) # )</formula>
+        <formula area="지문">\pi_{rName} ( \sigma_{eqalign {P . pNo = T . pNo # AND T . rNo = R . rNo # AND pName = prime DBMS개발 prime # AND bDate &gt; prime 12 - 31 - 1979 prime}} ( ( R \times T ) \times P ) )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{P . pNo = T . pNo} ( # \sigma_{T . rNo = R . rNo} ( \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) \times T ) # \times \sigma_{pName = prime DBMS개발 prime} ( P ) # ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # ( \sigma_{pName = prime DBMS개발 prime} ( P ) ⋈_{N} T ) # ⋈_{N} \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # )</formula>
+        <formula area="지문">\pi_{rName} ( # \sigma_{R . rNo = T . rNo} ( # \sigma_{P . pNo = T . pNo} ( \sigma_{pName = prime DBMS개발 prime} ( P ) \times T ) # \times \sigma_{bDate &gt; prime 12 - 31 - 1979 prime} ( R ) # ) # )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ → ㄴ → ㅁ → ㄷ → ㄹ</choice>
+        <choice no="2" is_answer="false">ㄴ → ㄱ → ㄷ → ㄹ → ㅁ</choice>
+        <choice no="3" is_answer="true">ㄴ → ㄷ → ㅁ → ㄹ → ㄱ</choice>
+        <choice no="4" is_answer="false">ㄱ → ㄴ → ㄷ → ㄹ → ㅁ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 3번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: DBMS개발 | 정답 선지: ㄴ → ㄷ → ㅁ → ㄹ → ㄱ</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

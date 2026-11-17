@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2023-33</exam_id>
+    <subject_row_id>PRB-97660E5EF0DE849B</subject_row_id>
+    <exam_type>지방직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_통신기술</series>
+    <year>2023</year>
+    <exam_title>2023년도 제1회 지방직공무원 시험</exam_title>
+    <subject_code>764</subject_code>
+    <subject_name>전자공학개론</subject_name>
+    <booklet_type>B</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자공학개론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-97660E5EF0DE849B-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 주기적인 전류파형 $i ( t )$의 실횻값[A]과 4 [Ω]의 저항에서 소모되는 평균전력[W]은?</stem>
+      <formulas count="1">
+        <formula area="질문">i ( t )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/1_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/1_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">4 64</choice>
+        <choice no="2" is_answer="false">4 128</choice>
+        <choice no="3" is_answer="false">8 64</choice>
+        <choice no="4" is_answer="false">8 256</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="1">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: i ( t ) | 정답 선지: 4 64</explanation_ref>
+    </question>
+    <question no="2" id="PRB-97660E5EF0DE849B-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>n채널 공핍형 MOSFET에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="5">
+        <formula area="선택지①">V_{GS it}</formula>
+        <formula area="선택지①">I_{D}</formula>
+        <formula area="선택지②">V_{GS it}</formula>
+        <formula area="선택지③">V_{GS it}</formula>
+        <formula area="선택지④">I_{D}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">게이트와 소스 사이의 $V_{GS }$ 전압이 양의 방향으로 증가하면 드레인 전류 $I_{D}$는 증가한다.</choice>
+        <choice no="2" is_answer="false">$V_{GS }$ 전압이 음의 값으로 낮아지면 드레인 전류는 줄어들게 되고 특정 전압에서 흐르지 않게 된다.</choice>
+        <choice no="3" is_answer="true">$V_{GS }$ &gt; 0인 영역을 공핍영역(depletion region)이라고 한다.</choice>
+        <choice no="4" is_answer="false">증가영역(enhancement region)과 공핍영역에서는 같은 드레인 전류 $I_{D}$ 방정식이 적용된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="2">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: n채널 공핍형 MOSFET, 0인 영역을 공핍영역(depletion region), 증가영역(enhancement region) | 정답 선지: $V_{GS }$ &gt; 0인 영역을 공핍영역(depletion region)이라고 한다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-97660E5EF0DE849B-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>논리회로에서 사용되는 수 체계에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">디지털 컴퓨터에서는 2진수의 뺄셈 연산에 대부분 보수(complement)를 사용한다.</choice>
+        <choice no="2" is_answer="true">2진법은 소수(小數)를 표현할 수 없다.</choice>
+        <choice no="3" is_answer="false">16진법은 0에서 9까지의 숫자와 여섯 개의 문자(A ～ F)를 사용하여 숫자를 표현한다.</choice>
+        <choice no="4" is_answer="false">그레이(Gray) 코드를 사용할 경우 연속되는 두 숫자는 한 비트만 다르다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="3">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로에서 사용되는 수 체계, 의 뺄셈 연산에 대부분 보수(complement), 2진법은 소수(小數), 그레이(Gray) | 정답 선지: 2진법은 소수(小數)를 표현할 수 없다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-97660E5EF0DE849B-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 연산증폭기 회로에서 저항 $R$과 커패시터 $C$를 각각 하나씩 사용하여 미분기와 적분기를 구현하려 할 때, $Z_{i}$에 사용될 소자와 증폭기 종류는? (단, 연산증폭기는 이상적이다)</stem>
+      <passage>&lt;u&gt; 미분기($Z_{i}$) &lt;/u&gt; &lt;u&gt; 적분기($Z_{i}$) &lt;/u&gt; &lt;u&gt; 증폭기 &lt;/u&gt;</passage>
+      <formulas count="13">
+        <formula area="질문">R</formula>
+        <formula area="질문">C</formula>
+        <formula area="질문">Z_{i}</formula>
+        <formula area="지문">Z_{i}</formula>
+        <formula area="지문">Z_{i}</formula>
+        <formula area="선택지①">C</formula>
+        <formula area="선택지①">R</formula>
+        <formula area="선택지②">R</formula>
+        <formula area="선택지②">C</formula>
+        <formula area="선택지③">C</formula>
+        <formula area="선택지③">R</formula>
+        <formula area="선택지④">R</formula>
+        <formula area="선택지④">C</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/4_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$C$ $R$ 반전</choice>
+        <choice no="2" is_answer="false">$R$ $C$ 반전</choice>
+        <choice no="3" is_answer="false">$C$ $R$ 비반전</choice>
+        <choice no="4" is_answer="false">$R$ $C$ 비반전</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="4">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연산증폭기, 회로에서, 저항, 커패시터 | 정답 선지: $C$ $R$ 반전</explanation_ref>
+    </question>
+    <question no="5" id="PRB-97660E5EF0DE849B-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 555타이머 IC를 활용한 구형파 발생 회로가 정상동작할 때, 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="8">
+        <formula area="선택지②">V_{out}</formula>
+        <formula area="선택지②">V_{CC}</formula>
+        <formula area="선택지②">R_{A}</formula>
+        <formula area="선택지②">R_{B}</formula>
+        <formula area="선택지②">C</formula>
+        <formula area="선택지③">V_{out}</formula>
+        <formula area="선택지③">R_{B}</formula>
+        <formula area="선택지③">C</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/5_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">비안정(astable) 모드로 동작한다.</choice>
+        <choice no="2" is_answer="false">출력되는 구형파의 ON($V_{out}$ ＝ $V_{CC}$) 시간은 $R_{A}$, $R_{B}$, $C$가 결정한다.</choice>
+        <choice no="3" is_answer="false">출력되는 구형파의 OFF($V_{out}$ ＝ 0) 시간은 $R_{B}$, $C$가 결정한다.</choice>
+        <choice no="4" is_answer="true">출력되는 구형파의 듀티사이클(duty cycle)은 50 %보다 작다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="5">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 비안정(astable), 출력되는 구형파의 듀티사이클(duty cycle) | 정답 선지: 출력되는 구형파의 듀티사이클(duty cycle)은 50 %보다 작다.</explanation_ref>
+    </question>
+    <question no="6" id="PRB-97660E5EF0DE849B-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 $T$ 플립플롭 회로에서 입력신호 Clock, Input이 인가되었을 때, 구간 ($t_{2}$ ～ $t_{3}$)와 ($t_{7}$ ～ $t_{8}$)에서 출력 $Q_{1}$, $Q_{2}$는? (단, 출력 $Q_{1}$, $Q_{2}$는 0으로 초기화되어 있고, 게이트에서 전파지연은 없다고 가정한다)</stem>
+      <passage>| | | ( $t_{2}$ ～ $t_{3}$ ) | | | | ( $t_{7}$ ～ $t_{8}$ ) | |
+|---|---|---|---|---|---|---|---|
+| | $underline {Q_{1}}$ | ( $t_{2}$ ～ $t_{3}$ ) | $underline {Q_{2}}$ | | $underline {Q_{1}}$ | ( $t_{7}$ ～ $t_{8}$ ) | $underline {Q_{2}}$ |
+| ① | 0 | | 1 | | 0 | | 1 |
+| ② | 1 | | 0 | | 1 | | 1 |
+| ③ | 0 | | 1 | | 0 | | 0 |
+| ④ | 1 | | 1 | | 1 | | 0 |</passage>
+      <formulas count="21">
+        <formula area="질문">T</formula>
+        <formula area="질문">t_{2}</formula>
+        <formula area="질문">t_{3}</formula>
+        <formula area="질문">t_{7}</formula>
+        <formula area="질문">t_{8}</formula>
+        <formula area="질문">Q_{1}</formula>
+        <formula area="질문">Q_{2}</formula>
+        <formula area="질문">Q_{1}</formula>
+        <formula area="질문">Q_{2}</formula>
+        <formula area="지문">t_{2}</formula>
+        <formula area="지문">t_{3}</formula>
+        <formula area="지문">t_{7}</formula>
+        <formula area="지문">t_{8}</formula>
+        <formula area="지문">underline {Q_{1}}</formula>
+        <formula area="지문">t_{2}</formula>
+        <formula area="지문">t_{3}</formula>
+        <formula area="지문">underline {Q_{2}}</formula>
+        <formula area="지문">underline {Q_{1}}</formula>
+        <formula area="지문">t_{7}</formula>
+        <formula area="지문">t_{8}</formula>
+        <formula area="지문">underline {Q_{2}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/6_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">0  1  0  1</choice>
+        <choice no="2" is_answer="false">1  0  1  1</choice>
+        <choice no="3" is_answer="false">0  1  0  0</choice>
+        <choice no="4" is_answer="false">1  1  1  0</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="6">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 플립플롭, 회로에서, 입력신호, 인가되었 | 정답 선지: 0  1  0  1</explanation_ref>
+    </question>
+    <question no="7" id="PRB-97660E5EF0DE849B-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로가 정상상태(steady state)일 때, 전류 $i_{2}$ [A]는?</stem>
+      <formulas count="1">
+        <formula area="질문">i_{2}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/7_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0</choice>
+        <choice no="2" is_answer="true">3</choice>
+        <choice no="3" is_answer="false">6</choice>
+        <choice no="4" is_answer="false">12</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="7">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 회로가 정상상태(steady state) | 정답 선지: 3</explanation_ref>
+    </question>
+    <question no="8" id="PRB-97660E5EF0DE849B-Q8" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>증폭기의 주파수 응답특성과 관련된 파라미터에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">주파수가 감소함에 따라 증폭기의 이득이 기준값(중간대역 이득)에 비해 3 [dB] 감소하는 주파수를 하한 임계 주파수(lower critical frequency)라고 한다.</choice>
+        <choice no="2" is_answer="false">하한 임계 주파수는 증폭기 회로의 결합 및 바이패스 커패시턴스의 영향을 받는다.</choice>
+        <choice no="3" is_answer="true">상한 임계 주파수(upper critical frequency)는 증폭기 회로의 저주파 응답 특성을 나타낸다.</choice>
+        <choice no="4" is_answer="false">상한 임계 주파수와 하한 임계 주파수의 차이를 대역폭(bandwidth)이라고 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="8">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 증폭기의 주파수 응답특성과 관련된 파라미터, 주파수를 하한 임계 주파수(lower critical frequency), 상한 임계 주파수(upper critical frequency), 임계 주파수의 차이를 대역폭(bandwidth) | 정답 선지: 상한 임계 주파수(upper critical frequency)는 증폭기 회로의 저주파 응답 특성을 나타낸다.</explanation_ref>
+    </question>
+    <question no="9" id="PRB-97660E5EF0DE849B-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>좌측 BJT 전압분배 바이어스 회로를 우측과 같이 테브난 등가회로를 적용하여 해석하고자 할 때, 테브난 등가전압 $V_{TH}$ [V]와 테브난 등가저항 $R_{TH}$ [kΩ]는? (단, $V_{CC}$ ＝ 20 [V], $R_{1}$ ＝ 4 [kΩ], $R_{2}$ ＝ 1 [kΩ], $R_{C}$ ＝ 4.7 [kΩ], $R_{E}$ ＝ 1.1 [kΩ])</stem>
+      <passage>$V_{TH}$ $R_{TH}$</passage>
+      <formulas count="9">
+        <formula area="질문">V_{TH}</formula>
+        <formula area="질문">R_{TH}</formula>
+        <formula area="질문">V_{CC}</formula>
+        <formula area="질문">R_{1}</formula>
+        <formula area="질문">R_{2}</formula>
+        <formula area="질문">R_{C}</formula>
+        <formula area="질문">R_{E}</formula>
+        <formula area="지문">\underline{V_{TH}}</formula>
+        <formula area="지문">\underline{R_{TH}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/9_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">4 0.8</choice>
+        <choice no="2" is_answer="false">4 1</choice>
+        <choice no="3" is_answer="false">16 0.8</choice>
+        <choice no="4" is_answer="false">16 1</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="9">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 좌측, 전압분배, 바이어스, 회로 | 정답 선지: 4 0.8</explanation_ref>
+    </question>
+    <question no="10" id="PRB-97660E5EF0DE849B-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로의 입출력 전달특성으로 옳은 것은? (단, 다이오드의 순방향 전압강하는 $V_{D}$ [V]이고 저항 성분은 무시한다)</stem>
+      <formulas count="1">
+        <formula area="질문">V_{D}</formula>
+      </formulas>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/10_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/10_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/10_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/10_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/10_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="true">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="10">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로의 입출력 전달특성 | 정답 선지: [그림/도표 선지 2번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="11" id="PRB-97660E5EF0DE849B-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>10진수 －3을 10비트 2의 보수 형태로 표현하면?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">1111111100</choice>
+        <choice no="2" is_answer="false">1011111100</choice>
+        <choice no="3" is_answer="false">1011111101</choice>
+        <choice no="4" is_answer="true">1111111101</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="11">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 진수, 비트, 보수, 형태 | 정답 선지: 1111111101</explanation_ref>
+    </question>
+    <question no="12" id="PRB-97660E5EF0DE849B-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>FET의 드레인전류 $I_{\mathrm{D}}$와 게이트－소스 간 전압 $V_{\mathrm{GS}}$의 전달특성곡선과 부하선이 다음과 같은 회로는?</stem>
+      <formulas count="2">
+        <formula area="질문">I_{RMD}</formula>
+        <formula area="질문">V_{RMGS}</formula>
+      </formulas>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/12_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/12_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/12_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/12_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/12_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/12_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="true">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="12">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 드레인전류, 게이트, 소스, 전압 | 정답 선지: [그림/도표 선지 2번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="13" id="PRB-97660E5EF0DE849B-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 정류회로에서 $V_{( sec )}$가 $\frac{20}{\sqrt{2}}$ [$V_{r ms}$]이고 부하저항 $R_{L}$이 2 [kΩ]일 때, 최대출력전류 $I_{p ( out )}$ [mA]은? (단, 다이오드의 순방향 전압강하는 0.7 [V]이고 저항 성분은 무시한다)</stem>
+      <formulas count="5">
+        <formula area="질문">V_{( sec )}</formula>
+        <formula area="질문">\frac{20}{\sqrt{2}}</formula>
+        <formula area="질문">V_{r ms}</formula>
+        <formula area="질문">R_{L}</formula>
+        <formula area="질문">I_{p ( out )}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/13_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">10</choice>
+        <choice no="2" is_answer="false">9.65</choice>
+        <choice no="3" is_answer="true">9.3</choice>
+        <choice no="4" is_answer="false">8.95</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="13">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: p ( out ) | 정답 선지: 9.3</explanation_ref>
+    </question>
+    <question no="14" id="PRB-97660E5EF0DE849B-Q14" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 NPN BJT 증폭회로에서 직류 전류이득이 $\beta_{DC}$ ＝ 100, $\beta_{DC}$ ＝ 200일 때, $V_{CE}$ [V]는? (단, $V_{CC}$ ＝ 15 [V], $R_{B}$ ＝ 286 [kΩ], $R_{C}$ ＝ 1 [kΩ], 다이오드의 순방향 전압강하는 0.7 [V]이고 저항성분은 무시한다)</stem>
+      <formulas count="8">
+        <formula area="질문">\beta_{DC}</formula>
+        <formula area="질문">\beta_{DC}</formula>
+        <formula area="질문">V_{CE}</formula>
+        <formula area="질문">V_{CC}</formula>
+        <formula area="질문">R_{B}</formula>
+        <formula area="질문">R_{C}</formula>
+        <formula area="지문">\beta_{DC}</formula>
+        <formula area="지문">\beta_{DC}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/14_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">10 5</choice>
+        <choice no="2" is_answer="false">10 20</choice>
+        <choice no="3" is_answer="false">13 6.5</choice>
+        <choice no="4" is_answer="false">13 26</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="14">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 증폭회로에서, 직류, 전류이득, 다이오드 | 정답 선지: 10 5</explanation_ref>
+    </question>
+    <question no="15" id="PRB-97660E5EF0DE849B-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>2단 증폭기에서 1단은 1 [kHz]의 하한 임계 주파수와 100 [kHz]의 상한 임계 주파수를 갖고, 2단은 3 [kHz]의 하한 임계 주파수와 250 [kHz]의 상한 임계 주파수를 가질 때, 전체 대역폭[kHz]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">97</choice>
+        <choice no="2" is_answer="false">99</choice>
+        <choice no="3" is_answer="false">247</choice>
+        <choice no="4" is_answer="false">249</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="15">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 증폭기에서, 하한, 임계, 주파수와 | 정답 선지: 97</explanation_ref>
+    </question>
+    <question no="16" id="PRB-97660E5EF0DE849B-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>귀환 발진기에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">출력신호의 일부가 위상변이 없이 입력으로 인가된다.</choice>
+        <choice no="2" is_answer="false">정귀환 회로를 사용한다.</choice>
+        <choice no="3" is_answer="true">폐루프 이득은 1보다 작아야만 발진이 유지된다.</choice>
+        <choice no="4" is_answer="false">동작시키는 데 외부 입력신호는 필요치 않다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="16">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 귀환 발진기 | 정답 선지: 폐루프 이득은 1보다 작아야만 발진이 유지된다.</explanation_ref>
+    </question>
+    <question no="17" id="PRB-97660E5EF0DE849B-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 다단 증폭기의 전압이득 $\frac{V_{out }}{V_{{i n}}}$은? (단, $R_{f}$ ＝ 470 [kΩ], $R_{1}$ ＝ 4.7 [kΩ], $R_{2}$ ＝ $R_{3}$ ＝ 47 [kΩ], 연산증폭기는 이상적이다)</stem>
+      <formulas count="5">
+        <formula area="질문">\frac{V_{out it}}{V_{{i n}}}</formula>
+        <formula area="질문">R_{f}</formula>
+        <formula area="질문">R_{1}</formula>
+        <formula area="질문">R_{2}</formula>
+        <formula area="질문">R_{3}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/17_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">10,000</choice>
+        <choice no="2" is_answer="true">10,100</choice>
+        <choice no="3" is_answer="false">－10,000</choice>
+        <choice no="4" is_answer="false">－10,100</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="17">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다단, 증폭기, 전압이득, 연산증폭기 | 정답 선지: 10,100</explanation_ref>
+    </question>
+    <question no="18" id="PRB-97660E5EF0DE849B-Q18" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>TCP/IP 프로토콜에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">네트워크 계층은 패킷이 근원지에서 목적지까지 갈 수 있도록 경로를 라우팅하고 포워딩하는 역할을 수행한다.</choice>
+        <choice no="2" is_answer="true">7개의 계층으로 구성되어 있다.</choice>
+        <choice no="3" is_answer="false">TCP는 종단 대 종단의 논리적 연결을 구성하고 흐름제어, 오류제어, 혼잡제어 서비스들을 제공한다.</choice>
+        <choice no="4" is_answer="false">IP는 흐름제어, 오류제어, 혼잡제어 서비스들을 제공하지 않는 비연결형 프로토콜이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="18">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: TCP/IP 프로토콜 | 정답 선지: 7개의 계층으로 구성되어 있다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-97660E5EF0DE849B-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 비반전 슈미트 트리거(schmit trigger) 회로에서 하측문턱전압 $V_{TL}$ [V]과 상측문턱전압 $V_{TH}$ [V]는? (단, $R_{1}$ ＝ 25 [kΩ], $R_{2}$ ＝ 50 [kΩ], $V_{R}$ ＝ 1 [V], 음의포화전압 $V_{L}$ ＝ －4 [V], 양의포화전압 $V_{H}$ ＝ 4 [V], 연산증폭기는 이상적이다)</stem>
+      <passage>_( $V_{TL}$ $V_{TH}$)</passage>
+      <formulas count="9">
+        <formula area="질문">V_{TL}</formula>
+        <formula area="질문">V_{TH}</formula>
+        <formula area="질문">R_{1}</formula>
+        <formula area="질문">R_{2}</formula>
+        <formula area="질문">V_{R}</formula>
+        <formula area="질문">V_{L}</formula>
+        <formula area="질문">V_{H}</formula>
+        <formula area="지문">\underline{V_{TL}}</formula>
+        <formula area="지문">\underline{V_{TH}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-97660E5EF0DE849B/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-97660E5EF0DE849B/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">－0.5 3.5</choice>
+        <choice no="2" is_answer="false">－0.5 2.5</choice>
+        <choice no="3" is_answer="false">0.5 3.5</choice>
+        <choice no="4" is_answer="false">0.5 2.5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="19">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 비반전 슈미트 트리거(schmit trigger) | 정답 선지: －0.5 3.5</explanation_ref>
+    </question>
+    <question no="20" id="PRB-97660E5EF0DE849B-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 카르노 맵(Karnaugh map)과 일치하는 논리식은?</stem>
+      <passage>| $wz$  $xy$ | 00 | 01 | 11 | 10 |
+|---|---|---|---|---|
+| 00 | | 1 | 1 | |
+| 01 | 1 | 1 | 1 | 1 |
+| 11 | 1 | | 1 | 1 |
+| 10 | | | 1 | |</passage>
+      <formulas count="6">
+        <formula area="지문">wz</formula>
+        <formula area="지문">xy</formula>
+        <formula area="선택지①">w {\bar{z}} + {\bar{x}} z + zy</formula>
+        <formula area="선택지②">{\bar{w}} z + x {\bar{z}} + z {\bar{y}}</formula>
+        <formula area="선택지③">wz + x {\bar{z}} + {\bar{z}} \bar{y}</formula>
+        <formula area="선택지④">wz + {\bar{x}} z + {\bar{z}} y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$w {\bar{z}} + {\bar{x}} z + zy$</choice>
+        <choice no="2" is_answer="false">${\bar{w}} z + x {\bar{z}} + z {\bar{y}}$</choice>
+        <choice no="3" is_answer="false">$wz + x {\bar{z}} + {\bar{z}} \bar{y}$</choice>
+        <choice no="4" is_answer="true">$wz + {\bar{x}} z + {\bar{z}} y$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 카르노 맵(Karnaugh map) | 정답 선지: $wz + {\bar{x}} z + {\bar{z}} y$</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

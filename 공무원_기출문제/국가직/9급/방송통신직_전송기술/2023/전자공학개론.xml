@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2023-08</exam_id>
+    <subject_row_id>PRB-C4C3C40D9BF56861</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2023</year>
+    <exam_title>2023년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>937</subject_code>
+    <subject_name>전자공학개론</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자공학개론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-C4C3C40D9BF56861-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>JK 플립플롭을 사용하여 0에서 7까지 표현하는 리플 계수기(ripple counter)를 설계할 때, 필요한 JK 플립플롭의 최소 개수는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="true">3</choice>
+        <choice no="3" is_answer="false">4</choice>
+        <choice no="4" is_answer="false">5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="1">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 7까지 표현하는 리플 계수기(ripple counter) | 정답 선지: 3</explanation_ref>
+    </question>
+    <question no="2" id="PRB-C4C3C40D9BF56861-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정논리(positive logic)를 적용할 때, 논리게이트에 대한 트랜지스터 회로의 표현으로 옳지 않은 것은? (단, $A$, $B$는 입력이고 $F$는 출력이다)</stem>
+      <formulas count="3">
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">F</formula>
+      </formulas>
+      <images count="5">
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/2_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/2_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/2_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/2_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/2_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="true">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="2">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정논리(positive logic) | 정답 선지: [그림/도표 선지 2번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="3" id="PRB-C4C3C40D9BF56861-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 진리표에서 출력 $F$의 논리식은?</stem>
+      <passage>| 입력 | 입력 | 입력 | 출력 |
+|---|---|---|---|
+| $A$ | $B$ | $C$ | $F$ |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 |</passage>
+      <formulas count="9">
+        <formula area="질문">F</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">B</formula>
+        <formula area="지문">C</formula>
+        <formula area="지문">F</formula>
+        <formula area="선택지①">AB + B {\bar{C}} + A {\bar{C}}</formula>
+        <formula area="선택지②">AB + {\bar{B}} C + A {\bar{C}}</formula>
+        <formula area="선택지③">AB + B {\bar{C}} + {\bar{A}} C</formula>
+        <formula area="선택지④">{\bar{A}} B + B {\bar{C}} + A {\bar{C}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$AB + B {\bar{C}} + A {\bar{C}}$</choice>
+        <choice no="2" is_answer="false">$AB + {\bar{B}} C + A {\bar{C}}$</choice>
+        <choice no="3" is_answer="false">$AB + B {\bar{C}} + {\bar{A}} C$</choice>
+        <choice no="4" is_answer="false">${\bar{A}} B + B {\bar{C}} + A {\bar{C}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 진리표에서, 출력, 논리식 | 정답 선지: $AB + B {\bar{C}} + A {\bar{C}}$</explanation_ref>
+    </question>
+    <question no="4" id="PRB-C4C3C40D9BF56861-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반도체에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">P형 반도체에서 다수 캐리어는 정공이다.</choice>
+        <choice no="2" is_answer="false">진성반도체에서 전도대의 전자농도와 가전자대의 정공농도는 같다.</choice>
+        <choice no="3" is_answer="true">실리콘 단결정 반도체에서 P형 불순물로 As(비소)도 사용된다.</choice>
+        <choice no="4" is_answer="false">N형 반도체에서 불순물 농도가 증가함에 따라 페르미 준위가 전도대로 가까이 이동한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반도체 | 정답 선지: 실리콘 단결정 반도체에서 P형 불순물로 As(비소)도 사용된다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-C4C3C40D9BF56861-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 저주파 소신호 FET 증폭기의 전압이득에 가장 가까운 값은? (단, 순방향 전달 컨덕턴스 $g_m$은 1 [mA/V]이고, 드레인－소스 저항 $r_d$는 10 [kΩ]이다)</stem>
+      <formulas count="2">
+        <formula area="질문">g_m</formula>
+        <formula area="질문">r_d</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/5_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－1</choice>
+        <choice no="2" is_answer="true">－5</choice>
+        <choice no="3" is_answer="false">－10</choice>
+        <choice no="4" is_answer="false">－20</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="5">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 저주파, 소신호, 증폭기, 전압이득 | 정답 선지: －5</explanation_ref>
+    </question>
+    <question no="6" id="PRB-C4C3C40D9BF56861-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 직렬 전압조정기(series voltage regulator)의 부하 전류 $I_L$이 200 [mA]일 때, $Q_1$에서 소모되는 전력[W]은? (단, $V_{i}$ ＝ 15 [V], $V_{Z}$ ＝ 4 [V], $R_{1}$ ＝ $R_{2}$ ＝ 15 [kΩ], $R_3$ ＝ 10 [kΩ], $R_{2} + R_{3} &gt; &gt; R_L$, $Q_1$의 전압강하는 무시하며 모든 회로 소자는 이상적이다)</stem>
+      <formulas count="9">
+        <formula area="질문">I_L</formula>
+        <formula area="질문">Q_1</formula>
+        <formula area="질문">V_{i}</formula>
+        <formula area="질문">V_{Z}</formula>
+        <formula area="질문">R_{1}</formula>
+        <formula area="질문">R_{2}</formula>
+        <formula area="질문">R_3</formula>
+        <formula area="질문">R_{2} + R_{3} &gt; &gt; R_L</formula>
+        <formula area="질문">Q_1</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/6_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.4</choice>
+        <choice no="2" is_answer="false">0.8</choice>
+        <choice no="3" is_answer="true">1.0</choice>
+        <choice no="4" is_answer="false">1.4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 직렬 전압조정기(series voltage regulator) | 정답 선지: 1.0</explanation_ref>
+    </question>
+    <question no="7" id="PRB-C4C3C40D9BF56861-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>상보형 CMOS 인버터의 직류 전달 특성 곡선이 다음과 같을 때, c점에서 PMOS 트랜지스터와 NMOS 트랜지스터의 동작 모드를 바르게 연결한 것은? (단, $V_{T n}$과 $V_{T p}$는 각각 NMOS 트랜지스터와 PMOS 트랜지스터의 문턱전압이다)</stem>
+      <formulas count="2">
+        <formula area="질문">V_{T n}</formula>
+        <formula area="질문">V_{T p}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/7_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">선형영역 선형영역</choice>
+        <choice no="2" is_answer="true">포화영역 포화영역</choice>
+        <choice no="3" is_answer="false">포화영역 선형영역</choice>
+        <choice no="4" is_answer="false">선형영역 포화영역</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="7">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 상보형, 인버터, 직류, 전달 | 정답 선지: 포화영역 포화영역</explanation_ref>
+    </question>
+    <question no="8" id="PRB-C4C3C40D9BF56861-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 독립 전류원 0.2 [A]에 의해 공급되는 전력[W]은?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/8_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.16</choice>
+        <choice no="2" is_answer="true">0.32</choice>
+        <choice no="3" is_answer="false">0.48</choice>
+        <choice no="4" is_answer="false">0.52</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="8">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 독립, 전류원, 의해 | 정답 선지: 0.32</explanation_ref>
+    </question>
+    <question no="9" id="PRB-C4C3C40D9BF56861-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반도체 소자에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">JFET에서는 자유전자와 정공이 함께 도전현상에 기여한다.</choice>
+        <choice no="2" is_answer="false">포토 다이오드를 이용하여 빛을 검출하려면 역방향 바이어스에서 동작시켜야 한다.</choice>
+        <choice no="3" is_answer="false">JFET는 게이트와 소스 사이의 역방향 바이어스 전압의 크기에 의해 드레인 전류의 크기를 제어한다.</choice>
+        <choice no="4" is_answer="false">BJT는 활성 모드 동작을 위해 이미터－베이스 접합은 순방향 바이어스되고, 컬렉터－베이스 접합은 역방향 바이어스가 된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="9">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반도체 소자 | 정답 선지: JFET에서는 자유전자와 정공이 함께 도전현상에 기여한다.</explanation_ref>
+    </question>
+    <question no="10" id="PRB-C4C3C40D9BF56861-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 전류 $I_x$ [A]는?</stem>
+      <formulas count="1">
+        <formula area="질문">I_x</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/10_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">6</choice>
+        <choice no="2" is_answer="false">8</choice>
+        <choice no="3" is_answer="false">10</choice>
+        <choice no="4" is_answer="false">12</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="10">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 전류 | 정답 선지: 6</explanation_ref>
+    </question>
+    <question no="11" id="PRB-C4C3C40D9BF56861-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 반전 증폭기 응용 회로에서 출력전압 $V_o$ [V]는? (단, 연산 증폭기는 이상적이다)</stem>
+      <formulas count="1">
+        <formula area="질문">V_o</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/11_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－7</choice>
+        <choice no="2" is_answer="false">－8</choice>
+        <choice no="3" is_answer="false">－10</choice>
+        <choice no="4" is_answer="true">－40</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="11">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반전, 증폭기, 응용, 회로에서 | 정답 선지: －40</explanation_ref>
+    </question>
+    <question no="12" id="PRB-C4C3C40D9BF56861-Q12" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>최대 주파수 12 [kHz]의 신호를 16비트로 양자화 및 부호화하여 PCM(pulse code modulation)으로 전송하려고 한다. 신호의 손실 없이 최소화하여 표본화할 경우 초당 전송 비트수[kbps]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">96</choice>
+        <choice no="2" is_answer="false">192</choice>
+        <choice no="3" is_answer="true">384</choice>
+        <choice no="4" is_answer="false">768</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="12">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 양자화 및 부호화하여 PCM(pulse code modulation) | 정답 선지: 384</explanation_ref>
+    </question>
+    <question no="13" id="PRB-C4C3C40D9BF56861-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 발진 주파수 $f$ [Hz]는? (단, 발진을 위한 이득조건을 만족하고, $L_1$과&lt;i&gt; $L_2$&lt;/i&gt;의 상호 인덕턴스는 무시한다)</stem>
+      <formulas count="7">
+        <formula area="질문">f</formula>
+        <formula area="질문">L_1</formula>
+        <formula area="질문">L_2</formula>
+        <formula area="선택지①">\frac{1}{2 \pi \sqrt{( L_{1} + L_{2} ) C}}</formula>
+        <formula area="선택지②">\frac{1}{2 \pi \sqrt{L_{1} L_{2} C}}</formula>
+        <formula area="선택지③">\frac{2 \pi}{\sqrt{( L_{1} + L_{2} ) C}}</formula>
+        <formula area="선택지④">\frac{2 \pi}{\sqrt{L_{1} L_{2} C}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/13_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{1}{2 \pi \sqrt{( L_{1} + L_{2} ) C}}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{2 \pi \sqrt{L_{1} L_{2} C}}$</choice>
+        <choice no="3" is_answer="false">$\frac{2 \pi}{\sqrt{( L_{1} + L_{2} ) C}}$</choice>
+        <choice no="4" is_answer="false">$\frac{2 \pi}{\sqrt{L_{1} L_{2} C}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="13">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 발진, 주파수, 위한 | 정답 선지: $\frac{1}{2 \pi \sqrt{( L_{1} + L_{2} ) C}}$</explanation_ref>
+    </question>
+    <question no="14" id="PRB-C4C3C40D9BF56861-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>유선 LAN(local area network)에서 사용되는 표준 이더넷 프레임에 포함되지 않는 필드는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">길이 또는 형태(length or type)</choice>
+        <choice no="2" is_answer="false">목적지 주소(destination address)</choice>
+        <choice no="3" is_answer="false">송신자 주소(source address)</choice>
+        <choice no="4" is_answer="true">패킷 번호(packet number)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="14">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 유선 LAN(local area network), 길이 또는 형태(length or type), 목적지 주소(destination address), 송신자 주소(source address), 패킷 번호(packet number) | 정답 선지: 패킷 번호(packet number)</explanation_ref>
+    </question>
+    <question no="15" id="PRB-C4C3C40D9BF56861-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 연산증폭기 회로에 입력전압 $V_i$를 인가했을 때 출력전압 $V_o$의 주기, $V_{p - p}$, 파형을 바르게 연결한 것은? (단, 모든 회로 소자는 이상적이다)</stem>
+      <passage>&lt;u&gt; 주기[$mus$] &lt;/u&gt; &lt;u&gt; $V_{p - p}$ [V] &lt;/u&gt; &lt;u&gt; 파형 &lt;/u&gt;</passage>
+      <formulas count="5">
+        <formula area="질문">V_i</formula>
+        <formula area="질문">V_o</formula>
+        <formula area="질문">V_{p - p}</formula>
+        <formula area="지문">mus</formula>
+        <formula area="지문">V_{p - p}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/15_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">10 10 구형파</choice>
+        <choice no="2" is_answer="false">5 10 사인파</choice>
+        <choice no="3" is_answer="false">10 5 사인파</choice>
+        <choice no="4" is_answer="true">10 8 구형파</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연산증폭기, 회로, 입력전압, 인가했 | 정답 선지: 10 8 구형파</explanation_ref>
+    </question>
+    <question no="16" id="PRB-C4C3C40D9BF56861-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림은 열평형 상태의 PN접합을 나타낸 것이다. PN접합에 대한 공간전하밀도(ρ), 전계(ε), 전위(φ) 및 에너지($E$) 대역도 중 옳지 않은 것은?</stem>
+      <formulas count="4">
+        <formula area="질문">\rho</formula>
+        <formula area="질문">\epsilon</formula>
+        <formula area="질문">\phi</formula>
+        <formula area="질문">E</formula>
+      </formulas>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/16_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/16_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/16_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/16_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/16_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="true">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="16">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 열평형, 상태, 접합 | 정답 선지: [그림/도표 선지 3번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="17" id="PRB-C4C3C40D9BF56861-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 슈미트 트리거(Schmitt Trigger) 회로와 이 회로의 입력($v_i$)에 대한 출력($v_o$)의 전달특성을 나타낸 것이다. 출력전압 $v_o$의 양의 포화전압을 $V_H$ [V], 음의 포화전압을 $V_L$ [V]이라고 할 때, 전달특성 그래프에서 출력이 $V_H$ [V]에서 $V_L$ [V]로 천이되는 임계전압 $V_TH$ [V]는? (단, 연산 증폭기는 이상적이다)</stem>
+      <formulas count="12">
+        <formula area="질문">v_i</formula>
+        <formula area="질문">v_o</formula>
+        <formula area="질문">v_o</formula>
+        <formula area="질문">V_H</formula>
+        <formula area="질문">V_L</formula>
+        <formula area="질문">V_H</formula>
+        <formula area="질문">V_L</formula>
+        <formula area="질문">V_TH</formula>
+        <formula area="선택지①">\frac{R_{1}}{R_{1} + R_{2}} V_{L}</formula>
+        <formula area="선택지②">\frac{R_{2}}{R_{1} + R_{2}} V_{H}</formula>
+        <formula area="선택지③">\frac{R_{1}}{R_{1} + R_{2}} V_{H}</formula>
+        <formula area="선택지④">\frac{R_{2}}{R_{1} + R_{2}} ( V_{H} + V_{L} )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/17_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{R_{1}}{R_{1} + R_{2}} V_{L}$</choice>
+        <choice no="2" is_answer="false">$\frac{R_{2}}{R_{1} + R_{2}} V_{H}$</choice>
+        <choice no="3" is_answer="true">$\frac{R_{1}}{R_{1} + R_{2}} V_{H}$</choice>
+        <choice no="4" is_answer="false">$\frac{R_{2}}{R_{1} + R_{2}} ( V_{H} + V_{L} )$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음은 슈미트 트리거(Schmitt Trigger) | 정답 선지: $\frac{R_{1}}{R_{1} + R_{2}} V_{H}$</explanation_ref>
+    </question>
+    <question no="18" id="PRB-C4C3C40D9BF56861-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 연산 증폭기 회로의 전압 이득 $\frac{V_{o}}{V_{i}}$는? (단, 모든 회로 소자는 이상적이다)</stem>
+      <formulas count="5">
+        <formula area="질문">\frac{V_{o}}{V_{i}}</formula>
+        <formula area="선택지①">- \frac{R_{2} ( R_{3} + R_{4} )}{R_{1} R_{3}}</formula>
+        <formula area="선택지②">- \frac{R_{1} ( R_{3} + R_{4} )}{R_{2} R_{3}}</formula>
+        <formula area="선택지③">- \frac{( R_{1} + R_{2} ) R_{4}}{R_{2} R_{3}}</formula>
+        <formula area="선택지④">- \frac{( R_{1} + R_{2} ) R_{4}}{R_{1} R_{3}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$- \frac{R_{2} ( R_{3} + R_{4} )}{R_{1} R_{3}}$</choice>
+        <choice no="2" is_answer="false">$- \frac{R_{1} ( R_{3} + R_{4} )}{R_{2} R_{3}}$</choice>
+        <choice no="3" is_answer="false">$- \frac{( R_{1} + R_{2} ) R_{4}}{R_{2} R_{3}}$</choice>
+        <choice no="4" is_answer="true">$- \frac{( R_{1} + R_{2} ) R_{4}}{R_{1} R_{3}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="18">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연산, 증폭기, 회로, 전압 | 정답 선지: $- \frac{( R_{1} + R_{2} ) R_{4}}{R_{1} R_{3}}$</explanation_ref>
+    </question>
+    <question no="19" id="PRB-C4C3C40D9BF56861-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 연산 증폭기 회로에서 출력전압 $V_{o}$ [V]는? (단, 모든 회로 소자는 이상적이다)</stem>
+      <formulas count="1">
+        <formula area="질문">V_{o}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">6</choice>
+        <choice no="2" is_answer="false">12</choice>
+        <choice no="3" is_answer="false">15</choice>
+        <choice no="4" is_answer="false">18</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="19">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 연산, 증폭기, 회로에서, 출력전압 | 정답 선지: 6</explanation_ref>
+    </question>
+    <question no="20" id="PRB-C4C3C40D9BF56861-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 제너 다이오드의 역할은? (단, 모든 회로 소자는 이상적이고, 입력전압 $V_{S}$는 제너 항복전압 $V_{Z}$보다 크다)</stem>
+      <formulas count="4">
+        <formula area="질문">V_{S}</formula>
+        <formula area="질문">V_{Z}</formula>
+        <formula area="선택지①">R_{L}</formula>
+        <formula area="선택지②">R_{L}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-C4C3C40D9BF56861/20_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-C4C3C40D9BF56861/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">부하저항 $R_{L}$에 걸리는 전압을 일정하게 유지시켜 준다.</choice>
+        <choice no="2" is_answer="false">부하저항 $R_{L}$의 값을 일정하게 유지시켜 준다.</choice>
+        <choice no="3" is_answer="false">순방향의 전압이 인가되면 빛을 발한다.</choice>
+        <choice no="4" is_answer="false">회로가 발진할 수 있게 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 제너, 다이오드, 역할 | 정답 선지: 부하저항 $R_{L}$에 걸리는 전압을 일정하게 유지시켜 준다.</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

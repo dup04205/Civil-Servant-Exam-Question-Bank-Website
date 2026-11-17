@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2018-06</exam_id>
+    <subject_row_id>PRB-67706F1A2DE9CE60</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>일반기계직</series>
+    <year>2018</year>
+    <exam_title>2018년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>645</subject_code>
+    <subject_name>자동제어</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>자동제어_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-67706F1A2DE9CE60-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>피드백(feedback) 제어시스템에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">상태변수는 제어대상의 상태를 설명하는데 필요한 임의의 최소 변수들의 집합이다.</choice>
+        <choice no="2" is_answer="true">제어대상의 출력은 센서로부터 측정되어야만 하는 상태변수이다.</choice>
+        <choice no="3" is_answer="false">제어입력은 제어대상의 출력 값을 활용하여 제어대상에 인가되는 제어기의 출력이다.</choice>
+        <choice no="4" is_answer="false">피드백 제어는 제어대상의 출력과 기준입력의 차이를 감소시킬 수 있는 제어 방법이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="1">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 피드백(feedback) 제어시스템, 피드백(feedback) | 정답 선지: 제어대상의 출력은 센서로부터 측정되어야만 하는 상태변수이다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-67706F1A2DE9CE60-Q2" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>안정한 선형 시불변(time invariant) 시스템에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 안정한 영점(zero)이 $j \omega$축에 가까울수록 계단(step) 응답의 오버슈트(overshoot)를 증가시키는 경향이 있다.
+ㄴ. 극점(pole)의 실수부가 0보다 클 수도 있다.
+ㄷ. 전달함수가 $\frac{1}{Ts + 1}$로 주어지는 $1$차 시스템에서 $T$를 증가시키면 계단응답의 상승시간(rising time)이 줄어든다.
+ㄹ. 대역폭(bandwidth)이 크면 일반적으로 응답이 빠르다.</passage>
+      <formulas count="4">
+        <formula area="지문">j \omega</formula>
+        <formula area="지문">\frac{1}{Ts + 1}</formula>
+        <formula area="지문">1</formula>
+        <formula area="지문">T</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄹ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄴ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="2">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 안정한 선형 시불변(time invariant) 시스템, 안정한 선형 시불변(time invariant), 안정한 영점(zero), 축에 가까울수록 계단(step), 응답의 오버슈트(overshoot) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X, ㄹ:O</explanation_ref>
+    </question>
+    <question no="3" id="PRB-67706F1A2DE9CE60-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 블록선도에서 입력 $R ( s )$와 $U ( s )$ 간의 전달함수 $U ( s \frac{)}{R ( s )}$는?</stem>
+      <formulas count="7">
+        <formula area="질문">R ( s )</formula>
+        <formula area="질문">U ( s )</formula>
+        <formula area="질문">U ( s \frac{)}{R ( s )}</formula>
+        <formula area="선택지①">\frac{1}{1 + C ( s ) G ( s ) H ( s )}</formula>
+        <formula area="선택지②">\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}</formula>
+        <formula area="선택지③">\frac{C ( s ) G ( s )}{1 + C ( s ) G ( s ) H ( s )}</formula>
+        <formula area="선택지④">\frac{C ( s ) G ( s ) H ( s )}{1 + C ( s ) G ( s ) H ( s )}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/3_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/3_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/3_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{1 + C ( s ) G ( s ) H ( s )}$</choice>
+        <choice no="2" is_answer="true">$\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice>
+        <choice no="3" is_answer="false">$\frac{C ( s ) G ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice>
+        <choice no="4" is_answer="false">$\frac{C ( s ) G ( s ) H ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="3">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: R ( s ), U ( s ), C ( s ), G ( s ), H ( s ) | 정답 선지: $\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}$</explanation_ref>
+    </question>
+    <question no="4" id="PRB-67706F1A2DE9CE60-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 피드백 제어시스템에서 제어기를 $C ( s ) = 9$로 사용하다가 $C ( s ) = 4 s + 9$로 변경하였을 때, 단위계단(unit step) 응답의 변화에 대한 설명으로 옳은 것은?</stem>
+      <formulas count="2">
+        <formula area="질문">C ( s ) = 9</formula>
+        <formula area="질문">C ( s ) = 4 s + 9</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/4_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/4_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">정상상태오차(steady state error)가 작아진다.</choice>
+        <choice no="2" is_answer="false">오버슈트가 사라진다.</choice>
+        <choice no="3" is_answer="true">정착시간(settling time)이 짧아진다.</choice>
+        <choice no="4" is_answer="false">발산한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: C ( s ), 단위계단(unit step), 정상상태오차(steady state error), 정착시간(settling time) | 정답 선지: 정착시간(settling time)이 짧아진다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-67706F1A2DE9CE60-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 선형 제어시스템에서 단위계단 입력 $R ( s )$에 대한 ($W ( s ) = 0$로 가정) 정상상태오차 $e_{ssR}$와 단위램프(unit ramp) 외란 $W ( s )$에 대한 ($R ( s ) = 0$로 가정) 정상상태오차 $e_{ssW}$는? (단, $K_{P} , K_{I} , A , T$는 양수이다)</stem>
+      <formulas count="17">
+        <formula area="질문">R ( s )</formula>
+        <formula area="질문">W ( s ) = 0</formula>
+        <formula area="질문">e_{ssR}</formula>
+        <formula area="질문">W ( s )</formula>
+        <formula area="질문">R ( s ) = 0</formula>
+        <formula area="질문">e_{ssW}</formula>
+        <formula area="질문">K_{P} , K_{I} , A , T</formula>
+        <formula area="지문">e_{ssR}</formula>
+        <formula area="지문">e_{ssW}</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지②">0</formula>
+        <formula area="선택지②">- \frac{1}{K_{I}}</formula>
+        <formula area="선택지③">\infty</formula>
+        <formula area="선택지③">0</formula>
+        <formula area="선택지④">\infty</formula>
+        <formula area="선택지④">- \frac{1}{K_{I}}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/5_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/5_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$0$ $0$</choice>
+        <choice no="2" is_answer="true">$0$ $- \frac{1}{K_{I}}$</choice>
+        <choice no="3" is_answer="false">∞ $0$</choice>
+        <choice no="4" is_answer="false">∞ $- \frac{1}{K_{I}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 선형 제어시스템에서 단위계단 입력 $R ( s )$, R ( s ), W ( s ), 와 단위램프(unit ramp) | 정답 선지: $0$ $- \frac{1}{K_{I}}$</explanation_ref>
+    </question>
+    <question no="6" id="PRB-67706F1A2DE9CE60-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 폐루프(closed loop) 전달함수 $T ( s )$를 갖는 제어시스템에서 입력 $r ( t ) = 20 \sin ( 3 t + 30 ^\circ )$에 대한 정상상태 출력 $y ( t )$는?</stem>
+      <passage>$T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$</passage>
+      <formulas count="8">
+        <formula area="질문">T ( s )</formula>
+        <formula area="질문">r ( t ) = 20 \sin ( 3 t + 30 ° )</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="지문">T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}</formula>
+        <formula area="선택지①">120 \sin ( 3 t - 45 ° )</formula>
+        <formula area="선택지②">20 \sqrt{6} \sin ( 3 it t - 15 ° )</formula>
+        <formula area="선택지③">120 \sin ( 3 t - 15 ° )</formula>
+        <formula area="선택지④">20 \sqrt{6} \sin ( 3 it t - 45 ° )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$120 \sin ( 3 t - 45 ^\circ )$</choice>
+        <choice no="2" is_answer="false">$20 \sqrt{6} \sin ( 3 t - 15 ^\circ )$</choice>
+        <choice no="3" is_answer="false">$120 \sin ( 3 t - 15 ^\circ )$</choice>
+        <choice no="4" is_answer="true">$20 \sqrt{6} \sin ( 3 t - 45 ^\circ )$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 폐루프(closed loop), T ( s ), r ( t ), y ( t ) | 정답 선지: $20 \sqrt{6} \sin ( 3 t - 45 ^\circ )$</explanation_ref>
+    </question>
+    <question no="7" id="PRB-67706F1A2DE9CE60-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 제어시스템에서 가제어성(controllability)과 가관측성(observability)에 대한 설명으로 옳은 것은? (단, $X_1 ( s )$, $X_2 ( s )$는 상태변수의 라플라스 변환이다)</stem>
+      <formulas count="2">
+        <formula area="질문">X_1 ( s )</formula>
+        <formula area="질문">X_2 ( s )</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/7_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/7_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">가제어하고 가관측하다.</choice>
+        <choice no="2" is_answer="false">가제어하나 가관측하지 않다.</choice>
+        <choice no="3" is_answer="false">가제어하지 않으나 가관측하다.</choice>
+        <choice no="4" is_answer="false">가제어하지 않고 가관측하지 않다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 제어시스템에서 가제어성(controllability), 과 가관측성(observability), 1 ( s ), 2 ( s ) | 정답 선지: 가제어하고 가관측하다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-67706F1A2DE9CE60-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>선형 시불변 시스템에서 단위임펄스(unit impulse) 입력과 단위계단 입력이 동시에 적용되었을 때, 제어시스템의 출력 $y_{i} ( t ) + y_{u} ( t ) = e^{- 2 t}$ $( t \geq 0 )$을 얻기 위한 전달함수는? (단, 모든 초기조건은 $0$이고, $y_{i} ( t )$는 단위임펄스 입력에 대한 출력, $y_{u} ( t )$는 단위계단 입력에 대한 출력을 나타낸다)</stem>
+      <formulas count="9">
+        <formula area="질문">y_{i} ( t ) + y_{u} ( t ) = e^{- 2 t}</formula>
+        <formula area="질문">( t \geq 0 )</formula>
+        <formula area="질문">0</formula>
+        <formula area="질문">y_{i} ( t )</formula>
+        <formula area="질문">y_{u} ( t )</formula>
+        <formula area="선택지①">\frac{s}{( s + 1 ) ( s + 2 )}</formula>
+        <formula area="선택지②">\frac{1}{s + 2}</formula>
+        <formula area="선택지③">\frac{s + 1}{s ( s + 2 )}</formula>
+        <formula area="선택지④">\frac{1}{s ( s + 2 )}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{s}{( s + 1 ) ( s + 2 )}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{s + 2}$</choice>
+        <choice no="3" is_answer="false">$\frac{s + 1}{s ( s + 2 )}$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{s ( s + 2 )}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="8">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시불변 시스템에서 단위임펄스(unit impulse) | 정답 선지: $\frac{s}{( s + 1 ) ( s + 2 )}$</explanation_ref>
+    </question>
+    <question no="9" id="PRB-67706F1A2DE9CE60-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 피드백 제어시스템에서 단위램프 입력에 대한 정상상태오차 $e_{ss} = \frac{1}{\sqrt{2}}$이 되는 $K$와 위상여유(phase margin)는?</stem>
+      <formulas count="11">
+        <formula area="질문">e_{ss} = \frac{1}{\sqrt{2}}</formula>
+        <formula area="질문">K</formula>
+        <formula area="지문">K</formula>
+        <formula area="선택지①">1</formula>
+        <formula area="선택지①">30 °</formula>
+        <formula area="선택지②">1</formula>
+        <formula area="선택지②">45 °</formula>
+        <formula area="선택지③">\sqrt{2}</formula>
+        <formula area="선택지③">45 °</formula>
+        <formula area="선택지④">\sqrt{2}</formula>
+        <formula area="선택지④">60 °</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/9_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/9_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$1$ $30 ^\circ$</choice>
+        <choice no="2" is_answer="false">$1$ $45 ^\circ$</choice>
+        <choice no="3" is_answer="true">$\sqrt{2}$ $45 ^\circ$</choice>
+        <choice no="4" is_answer="false">$\sqrt{2}$ $60 ^\circ$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="9">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 피드백 제어시스템에서 단위램프 입력, 와 위상여유(phase margin) | 정답 선지: $\sqrt{2}$ $45 ^\circ$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-67706F1A2DE9CE60-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음의 보드선도(bode diagram)를 갖는 단위 피드백 제어시스템에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">K_{v} = \omega_{1}</formula>
+        <formula area="선택지②">G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}</formula>
+        <formula area="선택지③">\omega_{n} = \sqrt{\omega_{1} \omega_{2}}</formula>
+        <formula area="선택지④">\zeta = \frac{1}{2} \sqrt{\frac{\omega_{2}}{\omega_{1}}}</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/10_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">정적속도오차상수(static velocity error constant) $K_{v} = \omega_{1}$이다.</choice>
+        <choice no="2" is_answer="true">개루프 전달함수 $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$이다.</choice>
+        <choice no="3" is_answer="false">폐루프 전달함수의 고유주파수(undamped natural frequency) $\omega_{n} = \sqrt{\omega_{1} \omega_{2}}$이다.</choice>
+        <choice no="4" is_answer="false">폐루프 전달함수의 감쇠비(damping ratio) $\zeta = \frac{1}{2} \sqrt{\frac{\omega_{2}}{\omega_{1}}}$이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="10">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음의 보드선도(bode diagram), G ( s ), 폐루프 전달함수의 감쇠비(damping ratio) | 정답 선지: 개루프 전달함수 $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$이다.</explanation_ref>
+    </question>
+    <question no="11" id="PRB-67706F1A2DE9CE60-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 미분방정식으로 표현된 시스템에 대한 설명으로 옳지 않은 것은?</stem>
+      <passage>$\dot{y} ( t ) + 30 y ( t ) = 20 x ( t )$</passage>
+      <formulas count="3">
+        <formula area="지문">\dot{y} ( t ) + 30 y ( t ) = 20 x ( t )</formula>
+        <formula area="선택지①">- 30</formula>
+        <formula area="선택지④">1</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">시스템의 극점은 $- 30$이며 안정하다.</choice>
+        <choice no="2" is_answer="false">크기가 유한(bounded)한 입력신호에 대하여 출력신호는 유한하다.</choice>
+        <choice no="3" is_answer="false">선형 시불변 시스템이다.</choice>
+        <choice no="4" is_answer="true">단위계단 입력에 대한 정상상태 출력은 $1$이며 과도응답(transient response)에 진동파형을 포함한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 미분방정식으로 표현된 시스템, 30 y ( t ), 20 x ( t ), 크기가 유한(bounded), 이며 과도응답(transient response) | 정답 선지: 단위계단 입력에 대한 정상상태 출력은 $1$이며 과도응답(transient response)에 진동파형을 포함한다.</explanation_ref>
+    </question>
+    <question no="12" id="PRB-67706F1A2DE9CE60-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>공액 복소수(complex conjugate) 형태를 갖는 $2$차 폐루프 시스템에서 극점이 제어를 통해 A에서 B로 이동할 때, 동특성의 변화로 적합하지 않은 것은?</stem>
+      <formulas count="1">
+        <formula area="질문">2</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/12_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">감쇠비가 감소한다.</choice>
+        <choice no="2" is_answer="false">상승시간이 단축된다.</choice>
+        <choice no="3" is_answer="false">정착시간이 단축된다.</choice>
+        <choice no="4" is_answer="false">지연시간(delay time)이 단축된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 공액 복소수(complex conjugate), 지연시간(delay time) | 정답 선지: 감쇠비가 감소한다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-67706F1A2DE9CE60-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 피드백 제어시스템의 상대안정도에 대한 설명으로 옳지 않은 것은? (단, $T &gt; 0$이다)</stem>
+      <formulas count="4">
+        <formula area="질문">T &gt; 0</formula>
+        <formula area="선택지①">infinity</formula>
+        <formula area="선택지②">90</formula>
+        <formula area="선택지④">T [ rad / sec ]</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/13_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/13_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">이득여유(gain margin)는 $infinity$이다.</choice>
+        <choice no="2" is_answer="false">위상여유는 $90$°이다.</choice>
+        <choice no="3" is_answer="false">위상교차 주파수(phase crossover frequency)는 존재하지 않는다.</choice>
+        <choice no="4" is_answer="true">이득교차 주파수(gain crossover frequency)는 $T [ rad / sec ]$이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 피드백 제어시스템의 상대안정도, 이득여유(gain margin), 위상교차 주파수(phase crossover frequency), 이득교차 주파수(gain crossover frequency) | 정답 선지: 이득교차 주파수(gain crossover frequency)는 $T [ rad / sec ]$이다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-67706F1A2DE9CE60-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>PID(Proportional Integral Derivative) 제어기가 사용된 제어시스템에서 제어대상의 주요 폐루프 극점이 $s = - 1 \pm j \sqrt{3}$이 되기 위한 $K$와 $b$의 관계는?</stem>
+      <formulas count="7">
+        <formula area="질문">s = - 1 ± j \sqrt{3}</formula>
+        <formula area="질문">K</formula>
+        <formula area="질문">b</formula>
+        <formula area="선택지①">K = \frac{1}{1 - b}</formula>
+        <formula area="선택지②">K = \frac{b}{1 - b}</formula>
+        <formula area="선택지③">K = \frac{1}{1 + b}</formula>
+        <formula area="선택지④">K = \frac{b}{1 + b}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/14_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/14_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$K = \frac{1}{1 - b}$</choice>
+        <choice no="2" is_answer="false">$K = \frac{b}{1 - b}$</choice>
+        <choice no="3" is_answer="false">$K = \frac{1}{1 + b}$</choice>
+        <choice no="4" is_answer="false">$K = \frac{b}{1 + b}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="14">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 제어기, 사용된, 제어시스템에서, 제어대상 | 정답 선지: $K = \frac{1}{1 - b}$</explanation_ref>
+    </question>
+    <question no="15" id="PRB-67706F1A2DE9CE60-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 2차 제어시스템에서 PD 제어기의 제어입력 $u ( t ) = - K_{P} y ( t ) - K_{D} \dot{y} ( t )$를 이용하여 시스템을 안정시키려 한다. 피드백 제어시스템의 근의 실수부를 항상 $- 1$보다 작게 하는 이득 $K_{P} , K_{D}$의 범위는? (단, $y ( t )$는 출력, $x_{1} ( t ) , x_{2} ( t )$는 상태변수이다)</stem>
+      <passage>$\dot{x_{1}} ( t ) = x_{2} ( t )$
+$\dot{x_{2}} ( t ) = - x_{1} ( t ) - 2 x_{2} ( t ) + u ( t )$
+$y ( t ) = x_{1} ( t )$</passage>
+      <formulas count="12">
+        <formula area="질문">u ( t ) = - K_{P} y ( t ) - K_{D} \dot{y} ( t )</formula>
+        <formula area="질문">- 1</formula>
+        <formula area="질문">K_{P} , K_{D}</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">x_{1} ( t ) , x_{2} ( t )</formula>
+        <formula area="지문">\dot{x_{1}} ( t ) = x_{2} ( t )</formula>
+        <formula area="지문">\dot{x_{2}} ( t ) = - x_{1} ( t ) - 2 x_{2} ( t ) + u ( t )</formula>
+        <formula area="지문">y ( t ) = x_{1} ( t )</formula>
+        <formula area="선택지①">K_{P} &gt; 1 , K_{D} &gt; 0</formula>
+        <formula area="선택지②">K_{P} &gt; 0 , K_{D} &gt; 0</formula>
+        <formula area="선택지③">K_{P} &gt; K_{D} &gt; 0</formula>
+        <formula area="선택지④">K_{P} &gt; 0 , K_{D} &gt; - 0 . 5</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$K_{P} &gt; 1 , K_{D} &gt; 0$</choice>
+        <choice no="2" is_answer="false">$K_{P} &gt; 0 , K_{D} &gt; 0$</choice>
+        <choice no="3" is_answer="true">$K_{P} &gt; K_{D} &gt; 0$</choice>
+        <choice no="4" is_answer="false">$K_{P} &gt; 0 , K_{D} &gt; - 0 . 5$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="15">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: u ( t ), y ( t ) | 정답 선지: $K_{P} &gt; K_{D} &gt; 0$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-67706F1A2DE9CE60-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 피드백 제어시스템에서 이득 $K$값이 $0$에서 $+ \infty$로 변할 때, 시간응답이 지속적인 무감쇠 정현파 형태로 진동하는 주파수 ω[rad/sec]는?</stem>
+      <formulas count="8">
+        <formula area="질문">K</formula>
+        <formula area="질문">0</formula>
+        <formula area="질문">+ \infty</formula>
+        <formula area="질문">\omega</formula>
+        <formula area="선택지①">1</formula>
+        <formula area="선택지②">2</formula>
+        <formula area="선택지③">3</formula>
+        <formula area="선택지④">4</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/16_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/16_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$1$</choice>
+        <choice no="2" is_answer="true">$2$</choice>
+        <choice no="3" is_answer="false">$3$</choice>
+        <choice no="4" is_answer="false">$4$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="16">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 피드백, 제어시스템에서, 이득, 에서 | 정답 선지: $2$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-67706F1A2DE9CE60-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 시스템에서 $s$평면의 좌반면과 우반면, 그리고 $j \omega$축 상에 존재하는 극점의 수는?</stem>
+      <passage>${\begin{bmatrix}{\dot{x_{1}}} ( t ) \\ {\dot{x_{2}}} ( t ) \\ {\dot{x_{3}}} ( t )\end{bmatrix}} = {\begin{bmatrix}0 &amp; 3 &amp; 1 \\ 2 &amp; 8 &amp; 1 \\ - 10 &amp; - 5 &amp; - 2\end{bmatrix}} {\begin{bmatrix}x_{1} ( t ) \\ x_{2} ( t ) \\ x_{3} ( t )\end{bmatrix}} + {\begin{bmatrix}2 \\ 1 \\ 0\end{bmatrix}} u ( t )$
+$y ( t ) = \left[ 001 \right] {\begin{bmatrix}x_{1} ( t ) \\ x_{2} ( t ) \\ x_{3} ( t )\end{bmatrix}}$</passage>
+      <formulas count="17">
+        <formula area="질문">s</formula>
+        <formula area="질문">j \omega</formula>
+        <formula area="지문">{bmatrix {{\dot{x_{1}}} ( t ) # {\dot{x_{2}}} ( t ) # {\dot{x_{3}}} ( t )}} = {bmatrix {0 &amp; 3 &amp; 1 # 2 &amp; 8 &amp; 1 # - 10 &amp; - 5 &amp; - 2}} {bmatrix {x_{1} ( t ) # x_{2} ( t ) # x_{3} ( t )}} + {bmatrix {2 # 1 # 0}} u ( t )</formula>
+        <formula area="지문">y ( t ) = \left[ 001 \right] {bmatrix {x_{1} ( t ) # x_{2} ( t ) # x_{3} ( t )}}</formula>
+        <formula area="지문">j \omega</formula>
+        <formula area="선택지①">3</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지②">2</formula>
+        <formula area="선택지②">1</formula>
+        <formula area="선택지②">0</formula>
+        <formula area="선택지③">1</formula>
+        <formula area="선택지③">1</formula>
+        <formula area="선택지③">1</formula>
+        <formula area="선택지④">0</formula>
+        <formula area="선택지④">2</formula>
+        <formula area="선택지④">1</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$3$ $0$ $0$</choice>
+        <choice no="2" is_answer="true">$2$ $1$ $0$</choice>
+        <choice no="3" is_answer="false">$1$ $1$ $1$</choice>
+        <choice no="4" is_answer="false">$0$ $2$ $1$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="17">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: u ( t ), y ( t ) | 정답 선지: $2$ $1$ $0$</explanation_ref>
+    </question>
+    <question no="18" id="PRB-67706F1A2DE9CE60-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 음의 단위 피드백을 갖는 제어시스템의 나이퀴스트(Nyquist) 선도이다. 적합한 개루프 전달함수 $G ( s )$는?</stem>
+      <formulas count="5">
+        <formula area="질문">G ( s )</formula>
+        <formula area="선택지①">\frac{6}{(} s + 2 )^2</formula>
+        <formula area="선택지②">\frac{15}{s^{2} + s + 10}</formula>
+        <formula area="선택지③">1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}</formula>
+        <formula area="선택지④">3 \frac{0}{( s + 1 ) ( s + 2 ) ( s + 3 )}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{6}{(} s + 2 )^2$</choice>
+        <choice no="2" is_answer="false">$\frac{15}{s^{2} + s + 10}$</choice>
+        <choice no="3" is_answer="true">$1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}$</choice>
+        <choice no="4" is_answer="false">$3 \frac{0}{( s + 1 ) ( s + 2 ) ( s + 3 )}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 갖는 제어시스템의 나이퀴스트(Nyquist), G ( s ) | 정답 선지: $1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}$</explanation_ref>
+    </question>
+    <question no="19" id="PRB-67706F1A2DE9CE60-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 제어시스템에서 추정오차 $e ( t ) = x ( t ) - \hat{x} ( t )$에 대한 특성방정식의 근이 $- 1$, $- 2$가 되기 위한 이득벡터 $L$의 값은? (단, $A = {\begin{bmatrix}0 &amp; 1 \\ - 1 &amp; 4\end{bmatrix}}$, $B = {\begin{bmatrix}0 \\ 1\end{bmatrix}}$, $C = {\begin{bmatrix}1 &amp; 0\end{bmatrix}}$, $L = {\begin{bmatrix}itl_{1} \\ l_{2}\end{bmatrix}}$이다)</stem>
+      <passage>○ 제어시스템: ${\dot{x}} ( t ) = Ax ( t ) + Bu ( t )$
+${y ( t ) = Cx ( t )}$
+○ 상태관측기: ${{\dot{{\hat{x}}}} ( t ) = A {\hat{x}} ( t ) + Bu ( t ) + L ( y ( t ) - C {\hat{x}} ( t ) )}$
+&lt;u&gt; $l_{1}$ &lt;/u&gt; &lt;u&gt; $l_{2}$ &lt;/u&gt;</passage>
+      <formulas count="21">
+        <formula area="질문">e ( it t ) = x ( it t ) - \hat{x} ( it t )</formula>
+        <formula area="질문">- 1</formula>
+        <formula area="질문">- 2</formula>
+        <formula area="질문">L</formula>
+        <formula area="질문">A = {bmatrix {0 &amp; 1 # - 1 &amp; 4}}</formula>
+        <formula area="질문">B = {bmatrix {0 # 1}}</formula>
+        <formula area="질문">C = {bmatrix {1 &amp; 0}}</formula>
+        <formula area="질문">L = {bmatrix {itl_{1} # l_{2}}}</formula>
+        <formula area="지문">{dotx} ( it t ) = Ax ( it t ) + Bu ( it t )</formula>
+        <formula area="지문">{y ( it t ) = Cx ( it t )}</formula>
+        <formula area="지문">{{\dot{{\hat{x}}}} ( it t ) = A {\hat{x}} ( it t ) + Bu ( it t ) + L ( y ( it t ) - C {\hat{x}} ( it t ) )}</formula>
+        <formula area="지문">l_{1}</formula>
+        <formula area="지문">l_{2}</formula>
+        <formula area="선택지①">1</formula>
+        <formula area="선택지①">5</formula>
+        <formula area="선택지②">1</formula>
+        <formula area="선택지②">29</formula>
+        <formula area="선택지③">7</formula>
+        <formula area="선택지③">5</formula>
+        <formula area="선택지④">7</formula>
+        <formula area="선택지④">29</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$1$ $5$</choice>
+        <choice no="2" is_answer="false">$1$ $29$</choice>
+        <choice no="3" is_answer="false">$7$ $5$</choice>
+        <choice no="4" is_answer="true">$7$ $29$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="19">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: e ( t ), x ( t ), Ax ( t ), Bu ( t ), y ( t ) | 정답 선지: $7$ $29$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-67706F1A2DE9CE60-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 시스템을 제어가능하게 설계하기 위한 상수 $a$의 값은? (단, $X_1 ( s )$, $X_2 ( s )$는 상태변수의 라플라스 변환이다)</stem>
+      <formulas count="7">
+        <formula area="질문">a</formula>
+        <formula area="질문">X_1 ( s )</formula>
+        <formula area="질문">X_2 ( s )</formula>
+        <formula area="선택지①">a \neq 1</formula>
+        <formula area="선택지②">a \neq 2</formula>
+        <formula area="선택지③">a \neq 3</formula>
+        <formula area="선택지④">a \neq 4</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-67706F1A2DE9CE60/20_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-67706F1A2DE9CE60/20_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-67706F1A2DE9CE60/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$a \neq 1$인 모든 상수</choice>
+        <choice no="2" is_answer="false">$a \neq 2$인 모든 상수</choice>
+        <choice no="3" is_answer="true">$a \neq 3$인 모든 상수</choice>
+        <choice no="4" is_answer="false">$a \neq 4$인 모든 상수</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자동제어_해설.xml" question_no="20">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 1 ( s ), 2 ( s ) | 정답 선지: $a \neq 3$인 모든 상수</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

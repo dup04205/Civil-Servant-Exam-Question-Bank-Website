@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-772F3E93521B1DB7</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전기직</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>646</subject_code>
+    <subject_name>전기기기</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전기기기_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-772F3E93521B1DB7-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>8극, 전기자 도체수 500개, 단중 중권인 직류 분권 발전기가 600 [rpm]으로 회전할 때, 유기 기전력이 100 [V]이다. 1극당 자속[Wb]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.01</choice>
+        <choice no="2" is_answer="false">0.015</choice>
+        <choice no="3" is_answer="true">0.02</choice>
+        <choice no="4" is_answer="false">0.025</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="1">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 전기자, 도체수, 단중, 중권인 | 정답 선지: 0.02</explanation_ref>
+    </question>
+    <question no="2" id="PRB-772F3E93521B1DB7-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>극수 $P$인 3상 유도 전동기가 전원주파수 $f$ [Hz], 회전자 슬립 $s$, 회전자 출력 토크 $T$ [N․m]로 구동되고 있을 때, 회전자 저항 손실[W]은? (단, 회전자의 기계적 손실은 무시한다)</stem>
+      <formulas count="8">
+        <formula area="질문">P</formula>
+        <formula area="질문">f</formula>
+        <formula area="질문">s</formula>
+        <formula area="질문">T</formula>
+        <formula area="선택지①">\frac{2 \pi f}{P} · ( 1 - s ) · T</formula>
+        <formula area="선택지②">\frac{4 \pi f}{P} · ( 1 - s ) · T</formula>
+        <formula area="선택지③">\frac{2 \pi f}{P} · s · T</formula>
+        <formula area="선택지④">\frac{4 \pi f}{P} · s · T</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{2 \pi f}{P} \cdot ( 1 - s ) \cdot T$</choice>
+        <choice no="2" is_answer="false">$\frac{4 \pi f}{P} \cdot ( 1 - s ) \cdot T$</choice>
+        <choice no="3" is_answer="false">$\frac{2 \pi f}{P} \cdot s \cdot T$</choice>
+        <choice no="4" is_answer="true">$\frac{4 \pi f}{P} \cdot s \cdot T$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: cdot ( 1 - s ) | 정답 선지: $\frac{4 \pi f}{P} \cdot s \cdot T$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-772F3E93521B1DB7-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>3상 유도 전동기의 속도-토크 특성곡선에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">슬립이 0에 근접한 운전구간에서 슬립이 증가할 때, 회전자의 리액턴스는 거의 선형으로 감소한다.</choice>
+        <choice no="2" is_answer="false">슬립이 0에 근접한 운전구간에서 슬립이 증가할 때, 회전자 전류는 거의 선형으로 증가한다.</choice>
+        <choice no="3" is_answer="false">유도전동기의 기동 시에는 슬립이 1이다.</choice>
+        <choice no="4" is_answer="false">주어진 슬립에서 유도전동기의 토크는 인가전압의 제곱에 비례한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="3">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 3상 유도 전동기의 속도-토크 특성곡선 | 정답 선지: 슬립이 0에 근접한 운전구간에서 슬립이 증가할 때, 회전자의 리액턴스는 거의 선형으로 감소한다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-772F3E93521B1DB7-Q4" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 스위치 S에 인가되는 시비율(Duty Ratio) D가 0.75이고 입력전압 $V_{s}$가 12 [V]일 경우, 출력전압 $V_{o}$ [V]는? (단, 스위치 및 다이오드의 전압강하는 무시한다)</stem>
+      <formulas count="2">
+        <formula area="질문">V_{s}</formula>
+        <formula area="질문">V_{o}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-772F3E93521B1DB7/4_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-772F3E93521B1DB7/4_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-772F3E93521B1DB7/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">8</choice>
+        <choice no="2" is_answer="false">24</choice>
+        <choice no="3" is_answer="false">36</choice>
+        <choice no="4" is_answer="true">48</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="4">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 스위치 S에 인가되는 시비율(Duty Ratio) | 정답 선지: 48</explanation_ref>
+    </question>
+    <question no="5" id="PRB-772F3E93521B1DB7-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>2극, 3상 유도 전동기가 전원주파수 60 [Hz], 입력 전력 15 [kW], 상전류 20 [A], 회전속도 3,564 [rpm]로 부하 운전 중이다. 고정자 권선의 상저항이 0.2 [Ω]라면, 회전자 동손 [W]은? (단, 철손은 무시한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">109.6</choice>
+        <choice no="2" is_answer="false">120.0</choice>
+        <choice no="3" is_answer="true">147.6</choice>
+        <choice no="4" is_answer="false">150.0</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="5">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 유도, 전동기, 전원주파수, 입력 | 정답 선지: 147.6</explanation_ref>
+    </question>
+    <question no="6" id="PRB-772F3E93521B1DB7-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>축 출력 93.5 [kW], 4극, 60 [Hz], 3상 유도 전동기가 전부하에서 회전속도 1,746 [rpm]으로 운전되고 있다. 고정자 동손이 3 [kW], 회전 손실(Rotational Loss)이 3.5 [kW]라면, 축 출력과 입력 전력 간의 전동기 효율[%]은? (단, 철손은 회전손실에 포함된다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">88.5</choice>
+        <choice no="2" is_answer="true">90.8</choice>
+        <choice no="3" is_answer="false">92.3</choice>
+        <choice no="4" is_answer="false">93.5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="6">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회전 손실(Rotational Loss) | 정답 선지: 90.8</explanation_ref>
+    </question>
+    <question no="7" id="PRB-772F3E93521B1DB7-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림의 단상전파 위상제어 정류회로에서 전원전압 $\upsilon_{s}$는 200 [V], 주파수 $f$는 60 [Hz]이다. 사이리스터의 지연각 α가 60 °일 때, 출력전압 $\upsilon_{o}$의 최댓값[V]과 평균값[V]은? (단, 사이리스터에서의 전압강하는 무시한다)</stem>
+      <formulas count="12">
+        <formula area="질문">\upsilon_{s}</formula>
+        <formula area="질문">f</formula>
+        <formula area="질문">\alpha</formula>
+        <formula area="질문">\upsilon_{o}</formula>
+        <formula area="선택지①">100 \sqrt{2}</formula>
+        <formula area="선택지①">\frac{300 \sqrt{2}}{\pi}</formula>
+        <formula area="선택지②">100 \sqrt{2}</formula>
+        <formula area="선택지②">\frac{150 \sqrt{2}}{\pi}</formula>
+        <formula area="선택지③">200 \sqrt{2}</formula>
+        <formula area="선택지③">\frac{300 \sqrt{2}}{\pi}</formula>
+        <formula area="선택지④">200 \sqrt{2}</formula>
+        <formula area="선택지④">\frac{150 \sqrt{2}}{\pi}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-772F3E93521B1DB7/7_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-772F3E93521B1DB7/7_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-772F3E93521B1DB7/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$100 \sqrt{2}$ $\frac{300 \sqrt{2}}{\pi}$</choice>
+        <choice no="2" is_answer="false">$100 \sqrt{2}$ $\frac{150 \sqrt{2}}{\pi}$</choice>
+        <choice no="3" is_answer="true">$200 \sqrt{2}$ $\frac{300 \sqrt{2}}{\pi}$</choice>
+        <choice no="4" is_answer="false">$200 \sqrt{2}$ $\frac{150 \sqrt{2}}{\pi}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 단상전파, 위상제어, 정류회로에서 | 정답 선지: $200 \sqrt{2}$ $\frac{300 \sqrt{2}}{\pi}$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-772F3E93521B1DB7-Q8" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>영구자석 전동기는 회전자에 부착되는 영구자석의 위치에 따라 표면 부착형(Surface-mounted) 영구자석 전동기와 매입형(Interior) 영구자석 전동기로 분류된다. 이에 대한 설명으로 옳은 것만을 모두 고른 것은?</stem>
+      <passage>ㄱ. 매입형 영구자석 전동기는 릴럭턴스 토크를 이용 가능하나, 표면 부착형 영구자석 전동기는 릴럭턴스 토크를 이용할 수 없다.
+ㄴ. 매입형 영구자석 전동기의 경우 q축 인덕턴스가 d축 인덕턴스보다 더 크다.
+ㄷ. 매입형 영구자석 전동기의 릴럭턴스 토크를 이용하려면, 음(－)의 q축 전류를 고정자에 공급해야 한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄴ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="8">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 의 위치에 따라 표면 부착형(Surface-mounted), 영구자석 전동기와 매입형(Interior) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X</explanation_ref>
+    </question>
+    <question no="9" id="PRB-772F3E93521B1DB7-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>정격전압 100 [V], 부하전류 52 [A]일 때, 회전속도 1,800 [rpm]인 직류 분권 전동기의 속도 변동률[%]은? (단, 전기자 저항은 0.02 [Ω], 계자 저항은 50 [Ω]이고, 전기자 반작용 및 브러시 접촉에 의한 전압강하는 무시한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.60</choice>
+        <choice no="2" is_answer="false">0.81</choice>
+        <choice no="3" is_answer="true">1.01</choice>
+        <choice no="4" is_answer="false">1.22</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="9">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 정격전압, 부하전류, 회전속도, 직류 | 정답 선지: 1.01</explanation_ref>
+    </question>
+    <question no="10" id="PRB-772F3E93521B1DB7-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>극 피치가 0.2 [m]인 선형 유도 전동기(Linear Induction Motor)에 10 [Hz]의 전원이 인가되고 있다. 슬립 30 [%]으로 운전 중일 때, 선형 유도 전동기의 이동속도[m/s]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.6</choice>
+        <choice no="2" is_answer="false">1.2</choice>
+        <choice no="3" is_answer="false">1.4</choice>
+        <choice no="4" is_answer="true">2.8</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="10">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 인 선형 유도 전동기(Linear Induction Motor) | 정답 선지: 2.8</explanation_ref>
+    </question>
+    <question no="11" id="PRB-772F3E93521B1DB7-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>6극, 정격 회전수 1,200 [rpm]의 3상 동기 발전기와 병렬 운전하는 8극, 3상 동기 발전기의 정격 회전수[rpm]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">800</choice>
+        <choice no="2" is_answer="true">900</choice>
+        <choice no="3" is_answer="false">1,050</choice>
+        <choice no="4" is_answer="false">1,100</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="11">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 정격, 회전수, 동기, 발전기와 | 정답 선지: 900</explanation_ref>
+    </question>
+    <question no="12" id="PRB-772F3E93521B1DB7-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>동기 전동기의 제동 권선에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">주자극의 표면에 설치된 슬롯에 저항이 낮은 도체를 권선 후 전기자 권선과 직렬로 연결한다.</choice>
+        <choice no="2" is_answer="false">기동 시 유도전동기로 작용하여 기동토크를 발생한다.</choice>
+        <choice no="3" is_answer="false">동기속도 이상으로 속도가 상승 시 발전기로 동작하여 제동력을 발생한다.</choice>
+        <choice no="4" is_answer="false">동기속도 이하로 속도가 감소 시 전동기로 작용하여 회전력을 발생한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="12">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 동기 전동기의 제동 권선 | 정답 선지: 주자극의 표면에 설치된 슬롯에 저항이 낮은 도체를 권선 후 전기자 권선과 직렬로 연결한다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-772F3E93521B1DB7-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림은 직류 분권 발전기의 특성곡선이다. 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="2">
+        <formula area="선택지③">{\bar{OA}}</formula>
+        <formula area="선택지④">{\bar{OB}}</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-772F3E93521B1DB7/13_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">이 발전기는 &lt;i&gt;P&lt;/i&gt;점에서 전압이 확립된다.</choice>
+        <choice no="2" is_answer="false">곡선 &lt;i&gt;AN&lt;/i&gt;은 무부하 상태에서 회전수를 일정하게 유지하고 계자에 유입되는 전류의 크기를 가변시켜 구한 곡선이다.</choice>
+        <choice no="3" is_answer="false">계자전류가 0인 경우에 ${\bar{OA}}$ 전압은 계자극의 잔류자속에 의해 발생한다.</choice>
+        <choice no="4" is_answer="true">계자 권선과 직렬로 접속된 저항기를 조절하여 계자저항을 높이면 ${\bar{OB}}$의 직선 기울기가 작아진다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림은 직류 분권 발전기의 특성곡선이다. 이 | 정답 선지: 계자 권선과 직렬로 접속된 저항기를 조절하여 계자저항을 높이면 ${\bar{OB}}$의 직선 기울기가 작아진다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-772F3E93521B1DB7-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>회전수 600 [rpm]으로 회전하는 직류 타여자 전동기에 전기 동력계를 연결하여 측정할 때, 전기 동력계의 저울이 5 [kg]를 가리켰다. 이 전동기의 출력[W]은? (단, 전기 동력계의 암 길이는 0.6 [m]이다)</stem>
+      <formulas count="4">
+        <formula area="선택지①">\pi</formula>
+        <formula area="선택지②">\pi</formula>
+        <formula area="선택지③">\pi</formula>
+        <formula area="선택지④">\pi</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">6.1 π</choice>
+        <choice no="2" is_answer="false">60 π</choice>
+        <choice no="3" is_answer="true">588 π</choice>
+        <choice no="4" is_answer="false">980 π</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="14">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회전수, 회전하, 직류, 타여자 | 정답 선지: 588 π</explanation_ref>
+    </question>
+    <question no="15" id="PRB-772F3E93521B1DB7-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>백분율 저항 강하가 3 [%], 백분율 리액턴스 강하가 4 [%]인 단상 변압기에서 전압변동률이 최대가 되는 부하 역률과 전압변동률이 최소가 되는 부하 역률은? (단, 리액턴스 부하는 유도성이다)</stem>
+      <passage>전압변동률이
+&lt;u&gt; 최대가 되는 부하 역률 &lt;/u&gt;
+전압변동률이
+&lt;u&gt; 최소가 되는 부하 역률 &lt;/u&gt;</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.6 1.0</choice>
+        <choice no="2" is_answer="true">0.6 0.8</choice>
+        <choice no="3" is_answer="false">0.8 1.0</choice>
+        <choice no="4" is_answer="false">0.8 0.6</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="15">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 백분율, 저항, 강하, 리액턴스 | 정답 선지: 0.6 0.8</explanation_ref>
+    </question>
+    <question no="16" id="PRB-772F3E93521B1DB7-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>400 [kVA] 변압기가 153 [kW], 역률 0.9의 부하에 연결되어 이미 구동 중이다. 이 변압기의 잔여용량에 대한 부하율을 75 [%] 이하로 유지하면서, 변압기 용량을 증설하지 않고 추가로 사용할 수 있는 부하 중 가장 큰 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">역률 1로 동작하는 180 [kW] 정격의 동기 전동기</choice>
+        <choice no="2" is_answer="true">역률 0.9로 동작하는 200 [HP] 정격의 유도 전동기</choice>
+        <choice no="3" is_answer="false">175 [kVA] 용량의 전기 설비</choice>
+        <choice no="4" is_answer="false">1,000 [V], 160 [A], 역률 1로 운전되는 부하</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="16">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 변압기, 역률, 부하, 연결되어 | 정답 선지: 역률 0.9로 동작하는 200 [HP] 정격의 유도 전동기</explanation_ref>
+    </question>
+    <question no="17" id="PRB-772F3E93521B1DB7-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>3,000/300 [V], 30 [kVA]인 단상 변압기에서, 2차 단락전류 200 [A]이 흐를 때의 1차 단자 전압이 600 [V]이라면, 이 변압기의 백분율 임피던스 강하[%]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">25</choice>
+        <choice no="2" is_answer="false">20</choice>
+        <choice no="3" is_answer="false">15</choice>
+        <choice no="4" is_answer="true">10</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="17">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 변압기에서, 단락전류, 단자, 전압 | 정답 선지: 10</explanation_ref>
+    </question>
+    <question no="18" id="PRB-772F3E93521B1DB7-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>단상 탭 전환 변압기의 2차측 110 [V] 단자에 2 [Ω]의 저항을 접속하고, 1차측에 1,250 [V]을 인가했을 때, 1차 전류가 1 [A] 흘렀다. 이때 2차측 전류[A]는? (단, 변압기의 내부 임피던스 및 손실은 무시한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">15</choice>
+        <choice no="2" is_answer="false">20</choice>
+        <choice no="3" is_answer="true">25</choice>
+        <choice no="4" is_answer="false">30</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="18">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 전환, 변압기, 차측, 단자 | 정답 선지: 25</explanation_ref>
+    </question>
+    <question no="19" id="PRB-772F3E93521B1DB7-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림의 동기기 페이저도와 관련되는 현상은? (단, ${\mathbf{V}}_T$는 동기기 단자전압, ${\mathbf{E}}_f$는 유기 기전력이고, 전기자전류 ${\mathbf{I}}_a$의 방향은 동기기로 들어가는 방향이다)</stem>
+      <formulas count="3">
+        <formula area="질문">{bold {V}}_T</formula>
+        <formula area="질문">{bold {E}}_f</formula>
+        <formula area="질문">{bold {I}}_a</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-772F3E93521B1DB7/19_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-772F3E93521B1DB7/19_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-772F3E93521B1DB7/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">동기 전동기 부족여자</choice>
+        <choice no="2" is_answer="false">동기 발전기 부족여자</choice>
+        <choice no="3" is_answer="false">동기 전동기 과여자</choice>
+        <choice no="4" is_answer="false">동기 발전기 과여자</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="19">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 동기기, 페이저도와, 관련되 | 정답 선지: 동기 전동기 부족여자</explanation_ref>
+    </question>
+    <question no="20" id="PRB-772F3E93521B1DB7-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림은 정격전압 360 [V], 정격출력 $7 . 2 \sqrt{3}$ [kVA]인 3상 동기 발전기의 특성곡선이다. 이 발전기의 단락비 및 동기 임피던스[Ω]는? (단, 전기자권선은 Y결선이다)</stem>
+      <formulas count="9">
+        <formula area="질문">7 . 2 \sqrt{3}</formula>
+        <formula area="선택지①">3</formula>
+        <formula area="선택지①">2 \sqrt{3}</formula>
+        <formula area="선택지②">3</formula>
+        <formula area="선택지②">4 \sqrt{3}</formula>
+        <formula area="선택지③">\sqrt{3}</formula>
+        <formula area="선택지③">2 \sqrt{3}</formula>
+        <formula area="선택지④">\sqrt{3}</formula>
+        <formula area="선택지④">4 \sqrt{3}</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-772F3E93521B1DB7/20_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$3$ $2 \sqrt{3}$</choice>
+        <choice no="2" is_answer="false">$3$ $4 \sqrt{3}$</choice>
+        <choice no="3" is_answer="false">$\sqrt{3}$ $2 \sqrt{3}$</choice>
+        <choice no="4" is_answer="false">$\sqrt{3}$ $4 \sqrt{3}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전기기기_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 정격전압, 정격출력, 동기 | 정답 선지: $3$ $2 \sqrt{3}$</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

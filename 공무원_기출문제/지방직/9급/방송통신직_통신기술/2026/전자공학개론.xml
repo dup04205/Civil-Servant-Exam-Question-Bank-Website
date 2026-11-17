@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2026-33</exam_id>
+    <subject_row_id>PRB-3370F534EB77AC72</subject_row_id>
+    <exam_type>지방직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_통신기술</series>
+    <year>2026</year>
+    <exam_title>2026년도 제1회 지방직공무원 시험</exam_title>
+    <subject_code>764</subject_code>
+    <subject_name>전자공학개론</subject_name>
+    <booklet_type>D</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자공학개론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-3370F534EB77AC72-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>공통 베이스 증폭기에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">1보다 작은 전류 이득을 갖는다.</choice>
+        <choice no="2" is_answer="false">매우 작은 입력 저항을 갖는다.</choice>
+        <choice no="3" is_answer="false">공통 컬렉터 증폭기보다 큰 출력 저항을 갖는다.</choice>
+        <choice no="4" is_answer="true">입력은 컬렉터에 인가되고 출력은 이미터에서 얻는다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="1">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 공통 베이스 증폭기 | 정답 선지: 입력은 컬렉터에 인가되고 출력은 이미터에서 얻는다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-3370F534EB77AC72-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>논리식 $AB$ ＋ $ABC$ ＋ ${\bar{A}} B C$ ＋ ${\bar{A}} C$를 간략화하면?</stem>
+      <formulas count="8">
+        <formula area="질문">AB</formula>
+        <formula area="질문">ABC</formula>
+        <formula area="질문">{\bar{A}} B C</formula>
+        <formula area="질문">{\bar{A}} C</formula>
+        <formula area="선택지①">AB + {\bar{A}} {\bar{C}}</formula>
+        <formula area="선택지②">AB + {\bar{A}} C</formula>
+        <formula area="선택지③">A {\bar{B}} + {\bar{A}} C</formula>
+        <formula area="선택지④">{\bar{A}} B + {\bar{A}} C</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$AB + {\bar{A}} {\bar{C}}$</choice>
+        <choice no="2" is_answer="true">$AB + {\bar{A}} C$</choice>
+        <choice no="3" is_answer="false">$A {\bar{B}} + {\bar{A}} C$</choice>
+        <choice no="4" is_answer="false">${\bar{A}} B + {\bar{A}} C$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="2">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리식, 간략화하면 | 정답 선지: $AB + {\bar{A}} C$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-3370F534EB77AC72-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 공통 이미터 증폭기에 이미터 저항 $R_{E}$가 포함되어 나타나는 특성으로 옳지 않은 것은?</stem>
+      <formulas count="1">
+        <formula area="질문">R_{E}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/3_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/3_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">동작점이 안정화된다.</choice>
+        <choice no="2" is_answer="true">입력 저항이 작아진다.</choice>
+        <choice no="3" is_answer="false">전압 이득이 감소한다.</choice>
+        <choice no="4" is_answer="false">전압 이득이 안정화된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="3">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 공통, 이미터, 증폭기, 저항 | 정답 선지: 입력 저항이 작아진다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-3370F534EB77AC72-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 BJT 증폭회로의 직류 부하선에서 BJT의 동작점을 (가)에서 (나)로 변경할 경우 특성 변화로 옳은 것은?</stem>
+      <passage>&lt;u&gt; 출력 파형 왜곡 &lt;/u&gt; &lt;u&gt; 전력 효율 &lt;/u&gt;</passage>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/4_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">감소 감소</choice>
+        <choice no="2" is_answer="false">감소 증가</choice>
+        <choice no="3" is_answer="false">증가 감소</choice>
+        <choice no="4" is_answer="false">증가 증가</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="4">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 증폭회로, 직류, 부하선에서, 동작점 | 정답 선지: 감소 감소</explanation_ref>
+    </question>
+    <question no="5" id="PRB-3370F534EB77AC72-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>브릿지 정류회로에서 (가), (나)에 해당하는 다이오드와 주파수가 바르게 연결된 것은? (단, 다이오드는 이상적인 소자이고 입력 전압 $v_{i}$의 주파수는 60 [Hz]이다)</stem>
+      <passage>(가) 잘못된 방향으로 연결된 다이오드
+(나) 연결이 올바를 때 출력 전압 $v_{o}$의 주파수[Hz]</passage>
+      <formulas count="6">
+        <formula area="질문">v_{i}</formula>
+        <formula area="지문">v_{o}</formula>
+        <formula area="선택지①">D_{1}</formula>
+        <formula area="선택지②">D_{2}</formula>
+        <formula area="선택지③">D_{3}</formula>
+        <formula area="선택지④">D_{4}</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/5_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$D_{1}$ 120</choice>
+        <choice no="2" is_answer="false">$D_{2}$ 60</choice>
+        <choice no="3" is_answer="false">$D_{3}$ 120</choice>
+        <choice no="4" is_answer="false">$D_{4}$ 60</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="5">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 브릿지, 정류회로에서, 해당하, 다이오드와 | 정답 선지: $D_{1}$ 120</explanation_ref>
+    </question>
+    <question no="6" id="PRB-3370F534EB77AC72-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>일반 정류 다이오드의 특성으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">입력 신호를 증폭하는 기능만 수행한다.</choice>
+        <choice no="2" is_answer="false">전하를 저장하여 전압 변화를 완만하게 한다.</choice>
+        <choice no="3" is_answer="false">전류의 크기를 항상 일정하게 유지하는 소자이다.</choice>
+        <choice no="4" is_answer="true">전류가 한쪽 방향으로는 잘 흐르고, 반대 방향으로는 항복전압에 이르기 전까지 거의 흐르지 않는다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 일반 정류 다이오드의 특성 | 정답 선지: 전류가 한쪽 방향으로는 잘 흐르고, 반대 방향으로는 항복전압에 이르기 전까지 거의 흐르지 않는다.</explanation_ref>
+    </question>
+    <question no="7" id="PRB-3370F534EB77AC72-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>전기회로에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">저항이 병렬로 연결된 경우, 총저항은 증가한다.</choice>
+        <choice no="2" is_answer="false">인덕터가 병렬로 연결된 경우, 총인덕턴스는 증가한다.</choice>
+        <choice no="3" is_answer="true">커패시터가 병렬로 연결된 경우, 총커패시턴스는 증가한다.</choice>
+        <choice no="4" is_answer="false">굵기가 일정한 전선의 저항은 길이와 단면적에 비례한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 전기회로 | 정답 선지: 커패시터가 병렬로 연결된 경우, 총커패시턴스는 증가한다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-3370F534EB77AC72-Q8" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>단일 패리티 검사부호에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">1비트 오류뿐만 아니라 2비트 오류도 검출할 수 있다.</choice>
+        <choice no="2" is_answer="false">3비트 이상의 데이터에 대해서는 비트 오류를 정정할 수 없다.</choice>
+        <choice no="3" is_answer="false">패리티 비트를 추가하여 데이터 전송 과정에서 발생한 오류를 검출할 수 있다.</choice>
+        <choice no="4" is_answer="false">짝수(even) 패리티 방식은 패리티 비트를 추가하여 전체 부호어(codeword)의 1의 개수가 짝수가 되도록 맞춘다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="8">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 단일 패리티 검사부호, 짝수(even), 비트를 추가하여 전체 부호어(codeword) | 정답 선지: 1비트 오류뿐만 아니라 2비트 오류도 검출할 수 있다.</explanation_ref>
+    </question>
+    <question no="9" id="PRB-3370F534EB77AC72-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 파형에서 전류의 평균값이 10 [A]일 때 실횻값[A]은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">5</formula>
+        <formula area="선택지②">\frac{10}{\sqrt{2}}</formula>
+        <formula area="선택지③">10</formula>
+        <formula area="선택지④">10 \sqrt{2}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/9_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$5$</choice>
+        <choice no="2" is_answer="false">$\frac{10}{\sqrt{2}}$</choice>
+        <choice no="3" is_answer="false">$10$</choice>
+        <choice no="4" is_answer="true">$10 \sqrt{2}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="9">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 파형에서, 전류, 평균값, 실횻값 | 정답 선지: $10 \sqrt{2}$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-3370F534EB77AC72-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>하틀리 발진기에서 출력 신호 주파수를 결정하는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">PLL의 귀환경로</choice>
+        <choice no="2" is_answer="false">수정진동자의 크기</choice>
+        <choice no="3" is_answer="false">트랜지스터의 이득</choice>
+        <choice no="4" is_answer="true">귀환회로의 커패시턴스와 인덕턴스</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="10">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 하틀리, 발진기에서, 출력, 신호 | 정답 선지: 귀환회로의 커패시턴스와 인덕턴스</explanation_ref>
+    </question>
+    <question no="11" id="PRB-3370F534EB77AC72-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로 (가)와 (나)가 등가회로가 되기 위한 전류원의 크기 $I$ [A]와 저항 $R$ [Ω]은?</stem>
+      <passage>$I$ $R$</passage>
+      <formulas count="4">
+        <formula area="질문">I</formula>
+        <formula area="질문">R</formula>
+        <formula area="지문">\underline{I}</formula>
+        <formula area="지문">\underline{R}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/11_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">2.5 5</choice>
+        <choice no="2" is_answer="false">2.5 10</choice>
+        <choice no="3" is_answer="true">5 5</choice>
+        <choice no="4" is_answer="false">5 10</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="11">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 등가회로, 되기, 위한, 전류원 | 정답 선지: 5 5</explanation_ref>
+    </question>
+    <question no="12" id="PRB-3370F534EB77AC72-Q12" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>정현파 발진회로에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 귀환 루프의 위상천이가 90 °이어야 한다.
+ㄴ. 직류 전원으로부터 교류를 발생시킨다.
+ㄷ. 발진 개시 후 루프 이득은 1이 된다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ</choice>
+        <choice no="2" is_answer="false">ㄴ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="4" is_answer="true">ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="12">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 정현파 발진회로 | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:O</explanation_ref>
+    </question>
+    <question no="13" id="PRB-3370F534EB77AC72-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에 대한 설명으로 옳은 것은? (단, 다이오드는 이상적인 소자이고 $V_{A} &gt; 0$이다)</stem>
+      <formulas count="9">
+        <formula area="질문">V_{A} &gt; 0</formula>
+        <formula area="선택지①">V_{i} &gt; - V_{A}</formula>
+        <formula area="선택지①">I_{1} = - \frac{V_{i} - V_{A}}{R_{1}}</formula>
+        <formula area="선택지②">V_{i} &gt; - V_{A}</formula>
+        <formula area="선택지②">I_{2} = - \frac{V_{i}}{R_{1} VERT R_{2}}</formula>
+        <formula area="선택지③">V_{i} &lt; - V_{A}</formula>
+        <formula area="선택지③">I_{1} = \frac{V_{i} + V_{A}}{R_{1}}</formula>
+        <formula area="선택지④">V_{i} &lt; - V_{A}</formula>
+        <formula area="선택지④">I_{2} = - \frac{V_{i}}{R_{2}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/13_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$V_{i} &gt; - V_{A}$이면 $I_{1} = - \frac{V_{i} - V_{A}}{R_{1}}$</choice>
+        <choice no="2" is_answer="false">$V_{i} &gt; - V_{A}$이면 $I_{2} = - \frac{V_{i}}{R_{1} | R_{2}}$</choice>
+        <choice no="3" is_answer="true">$V_{i} &lt; - V_{A}$이면 $I_{1} = \frac{V_{i} + V_{A}}{R_{1}}$</choice>
+        <choice no="4" is_answer="false">$V_{i} &lt; - V_{A}$이면 $I_{2} = - \frac{V_{i}}{R_{2}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="13">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로 | 정답 선지: $V_{i} &lt; - V_{A}$이면 $I_{1} = \frac{V_{i} + V_{A}}{R_{1}}$</explanation_ref>
+    </question>
+    <question no="14" id="PRB-3370F534EB77AC72-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>(가)의 입력 $v_{i}$를 (나) 회로에 인가했을 때, 출력 전압 $v_{o}$의 최솟값[V]은? (단, 다이오드는 이상적인 소자이다)</stem>
+      <formulas count="2">
+        <formula area="질문">v_{i}</formula>
+        <formula area="질문">v_{o}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/14_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－10</choice>
+        <choice no="2" is_answer="true">－5</choice>
+        <choice no="3" is_answer="false">0</choice>
+        <choice no="4" is_answer="false">5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="14">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 입력, 회로, 인가했, 출력 | 정답 선지: －5</explanation_ref>
+    </question>
+    <question no="15" id="PRB-3370F534EB77AC72-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>단측파대(SSB) 변조의 특징으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">진폭 변조(AM) 방식에 속한다.</choice>
+        <choice no="2" is_answer="false">변조 후 상측파대와 하측파대 중 한쪽 신호만 남는다.</choice>
+        <choice no="3" is_answer="true">점유 주파수 대역폭은 변조할 신호가 가지는 대역폭의 2배이다.</choice>
+        <choice no="4" is_answer="false">반송파 억압 양측파대(DSB-SC) 변조 방식에 비해 송신기의 소비 전력이 적다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="15">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 단측파대(SSB) 변조의 특징, 단측파대(SSB), 진폭 변조(AM), 반송파 억압 양측파대(DSB-SC) | 정답 선지: 점유 주파수 대역폭은 변조할 신호가 가지는 대역폭의 2배이다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-3370F534EB77AC72-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로의 전압 이득 $A_{v} = \frac{v_{o}}{v_{i}}$와 입력 저항 $R_{i n}$ [kΩ]은? (단, 연산증폭기는 이상적이다)</stem>
+      <passage>$A_{v}$ $R_{i n}$</passage>
+      <formulas count="6">
+        <formula area="질문">A_{v} = \frac{v_{o}}{v_{i}}</formula>
+        <formula area="질문">R_{i n}</formula>
+        <formula area="지문">\underline{A_{v}}</formula>
+        <formula area="지문">\underline{R_{i n}}</formula>
+        <formula area="선택지①">\frac{5}{3}</formula>
+        <formula area="선택지③">\frac{5}{3}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/16_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－15 $\frac{5}{3}$</choice>
+        <choice no="2" is_answer="false">－15 10</choice>
+        <choice no="3" is_answer="false">－3 $\frac{5}{3}$</choice>
+        <choice no="4" is_answer="true">－3 10</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="16">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로, 전압, 이득, 입력 | 정답 선지: －3 10</explanation_ref>
+    </question>
+    <question no="17" id="PRB-3370F534EB77AC72-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 논리회로에서 출력 $Y$의 논리식은?</stem>
+      <formulas count="5">
+        <formula area="질문">Y</formula>
+        <formula area="선택지①">AB + \bar{C}</formula>
+        <formula area="선택지②">\bar{A} B + \bar{C}</formula>
+        <formula area="선택지③">AB</formula>
+        <formula area="선택지④">AB \bar{C}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/17_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$AB + \bar{C}$</choice>
+        <choice no="2" is_answer="false">$\bar{A} B + \bar{C}$</choice>
+        <choice no="3" is_answer="true">$AB$</choice>
+        <choice no="4" is_answer="false">$AB \bar{C}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로에서, 출력, 논리식 | 정답 선지: $AB$</explanation_ref>
+    </question>
+    <question no="18" id="PRB-3370F534EB77AC72-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 BJT 증폭회로에서 컬렉터－이미터 양단전압 $V_{CE}$[V]는? (단, 다이오드의 순방향 전압강하는 0.7 [V], 직류 전류 이득 $\beta_{DC}$는 100이고 저항성분은 무시한다)</stem>
+      <formulas count="2">
+        <formula area="질문">V_{CE}</formula>
+        <formula area="질문">\beta_{DC}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">5.35</choice>
+        <choice no="2" is_answer="false">7.35</choice>
+        <choice no="3" is_answer="false">8.65</choice>
+        <choice no="4" is_answer="false">9.65</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="18">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 증폭회로에서, 컬렉터, 이미터, 양단전압 | 정답 선지: 5.35</explanation_ref>
+    </question>
+    <question no="19" id="PRB-3370F534EB77AC72-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 비교기에서 출력 $F_{1}$, $F_{2}$, $F_{3}$, $F_{4}$의 기능으로 옳은 것은?</stem>
+      <formulas count="12">
+        <formula area="질문">F_{1}</formula>
+        <formula area="질문">F_{2}</formula>
+        <formula area="질문">F_{3}</formula>
+        <formula area="질문">F_{4}</formula>
+        <formula area="선택지①">F_{1}</formula>
+        <formula area="선택지①">A \neq B</formula>
+        <formula area="선택지②">F_{2}</formula>
+        <formula area="선택지②">A = B</formula>
+        <formula area="선택지③">F_{3}</formula>
+        <formula area="선택지③">A \geq B</formula>
+        <formula area="선택지④">F_{4}</formula>
+        <formula area="선택지④">A &lt; B</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$F_{1}$: $A \neq B$</choice>
+        <choice no="2" is_answer="false">$F_{2}$: $A = B$</choice>
+        <choice no="3" is_answer="false">$F_{3}$: $A \geq B$</choice>
+        <choice no="4" is_answer="true">$F_{4}$: $A &lt; B$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="19">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 비교기에서, 출력, 기능으 | 정답 선지: $F_{4}$: $A &lt; B$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-3370F534EB77AC72-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 논리회로에서 타이밍도가 옳은 것은? (단, D－플립플롭과 AND 게이트에서 전파지연은 없다고 가정한다)</stem>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/20_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/20_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/20_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/20_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-3370F534EB77AC72/20_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-3370F534EB77AC72/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자공학개론_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로에서, 타이밍도, 플립플롭과, 게이트에서 | 정답 선지: [그림/도표 선지 1번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

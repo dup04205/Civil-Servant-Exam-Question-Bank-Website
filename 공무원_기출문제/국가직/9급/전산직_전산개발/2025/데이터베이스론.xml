@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2025-08</exam_id>
+    <subject_row_id>PRB-D52637720EE13794</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>전산직_전산개발</series>
+    <year>2025</year>
+    <exam_title>2025년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>986</subject_code>
+    <subject_name>데이터베이스론</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>데이터베이스론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-D52637720EE13794-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 상황에 대한 트랜잭션(transaction)의 특성은?</stem>
+      <passage>제품의 재고량을 갱신하는 트랜잭션이 커밋(commit) 되기 전에 시스템 장애가 발생했다. 장애 후 데이터베이스는 트랜잭션이 수행한 변경 사항을 모두 취소하였고, 시스템은 장애 이전의 상태로 복구되었다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">일관성(consistency)</choice>
+        <choice no="2" is_answer="true">원자성(atomicity)</choice>
+        <choice no="3" is_answer="false">지속성(durability)</choice>
+        <choice no="4" is_answer="false">고립성(isolation)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 상황, 다음 상황에 대한 트랜잭션(transaction), 을 갱신하는 트랜잭션이 커밋(commit), 일관성(consistency), 원자성(atomicity) | 정답 선지: 원자성(atomicity)</explanation_ref>
+    </question>
+    <question no="2" id="PRB-D52637720EE13794-Q2" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>데이터를 구조 형태에 따라 구분할 때 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">XML 문서는 데이터를 교환하는 용도로 활용되고 있다.</choice>
+        <choice no="2" is_answer="false">정형 데이터(structured data)는 미리 정해진 구조에 따라 데이터를 저장하며 관계 데이터베이스에서 널리 사용된다.</choice>
+        <choice no="3" is_answer="false">비정형 데이터(unstructured data)에는 사전에 데이터 타입이 정해지지 않은 텍스트도 있다.</choice>
+        <choice no="4" is_answer="true">반정형 데이터(semi-structured data)는 데이터 구조와 내용을 별도의 파일 형태로 저장한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 데이터를 구조 형태에 따라 구분할 때 이, 정형 데이터(structured data), 비정형 데이터(unstructured data), 반정형 데이터(semi-structured data) | 정답 선지: 반정형 데이터(semi-structured data)는 데이터 구조와 내용을 별도의 파일 형태로 저장한다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-D52637720EE13794-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 릴레이션(relation) R과 S의 카티션 프로덕트(cartesian product) 연산 시 결과 릴레이션의 차수(degree)와 카디널리티(cardinality) 값은?</stem>
+      <passage>| R | | | S | |
+|---|---|---|---|---|
+| 번호 | 이름 | | 번호 | 나이 |
+| 100 | 강감찬 | | 100 | 82 |
+| 200 | 이순신 | | 101 | 53 |
+| 300 | 한용운 | | 102 | 66 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">3 6</choice>
+        <choice no="2" is_answer="false">4 6</choice>
+        <choice no="3" is_answer="false">3 9</choice>
+        <choice no="4" is_answer="true">4 9</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 릴레이션(relation), R과 S의 카티션 프로덕트(cartesian product), 산 시 결과 릴레이션의 차수(degree), 와 카디널리티(cardinality) | 정답 선지: 4 9</explanation_ref>
+    </question>
+    <question no="4" id="PRB-D52637720EE13794-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>트랜잭션에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">커밋된 후에도 해당 트랜잭션은 롤백(rollback)을 사용하여 취소가 가능하다.</choice>
+        <choice no="2" is_answer="false">현재 수행 중인 트랜잭션을 롤백하면 트랜잭션에서 SQL 문에 의해 수행된 모든 갱신이 취소(undo)된다.</choice>
+        <choice no="3" is_answer="false">현재 수행 중인 트랜잭션을 커밋하면 트랜잭션이 수행한 갱신을 데이터베이스에 영구적으로 반영한다.</choice>
+        <choice no="4" is_answer="false">트랜잭션은 데이터베이스 관리 시스템(database management system)에서 데이터를 다루는 논리적인 작업의 단위이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션, 후에도 해당 트랜잭션은 롤백(rollback), 해 수행된 모든 갱신이 취소(undo) | 정답 선지: 커밋된 후에도 해당 트랜잭션은 롤백(rollback)을 사용하여 취소가 가능하다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-D52637720EE13794-Q5" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>‘학생’ 테이블에 대한 검색 권한을 사용자 ‘홍길동’에게 부여하는 SQL 문을 완성할 때 (가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>(가) (나) ON 학생 TO 홍길동;</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">SELECT REVOKE</choice>
+        <choice no="2" is_answer="false">SELECT GRANT</choice>
+        <choice no="3" is_answer="true">GRANT SELECT</choice>
+        <choice no="4" is_answer="false">REVOKE SELECT</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 3번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: ‘학생’ 테이블, 학생, 홍길동 | 정답 선지: GRANT SELECT</explanation_ref>
+    </question>
+    <question no="6" id="PRB-D52637720EE13794-Q6" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>SQL에서 UNION과 UNION ALL에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">UNION은 UNION ALL과 달리 ORDER BY 절을 자동으로 추가한다.</choice>
+        <choice no="2" is_answer="false">UNION은 UNION ALL보다 연산 결과 릴레이션의 속성 개수가 크다.</choice>
+        <choice no="3" is_answer="true">UNION은 중복된 투플을 제거하며, UNION ALL은 중복된 투플을 포함한다.</choice>
+        <choice no="4" is_answer="false">UNION은 두 릴레이션에서 서로 대응되는 속성의 도메인(domain)이 다를 때만 사용할 수 있다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: SQL에서 UNION과 UNION ALL, 서로 대응되는 속성의 도메인(domain) | 정답 선지: UNION은 중복된 투플을 제거하며, UNION ALL은 중복된 투플을 포함한다.</explanation_ref>
+    </question>
+    <question no="7" id="PRB-D52637720EE13794-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 두 릴레이션 학생과 수강에서 아래 관계대수에 의해 생성된 결과로 옳은 것은? (단, 수강 릴레이션의 SID는 학생 릴레이션의 SID를 참조하는 외래키(foreign key)이다)</stem>
+      <passage>| 학생 | | |
+|---|---|---|
+| &lt;u&gt;SID&lt;/u&gt; | Name | Dept |
+| 101 | 홍길동 | 컴퓨터공학 |
+| 102 | 이몽룡 | 경영학 |
+| 103 | 성춘향 | 컴퓨터공학 |
+| 104 | 장보고 | 경영학 |
+| 수강 | | |
+|---|---|---|
+| &lt;u&gt;SID&lt;/u&gt; | &lt;u&gt;CID&lt;/u&gt; | Grade |
+| 101 | CS101 | A |
+| 101 | CS102 | B |
+| 102 | MG201 | C |
+| 103 | CS101 | B |
+| 104 | MG202 | A |
+π_(Name, CID)(σ_(Dept＝'컴퓨터공학'∨Grade＝'B')(학생⋈_(N)수강))</passage>
+      <formulas count="2">
+        <formula area="지문">\pi</formula>
+        <formula area="지문">\sigma</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">| Name | CID | |---|---| | 홍길동 | CS101 | | 홍길동 | CS102 | | 성춘향 | CS101 |</choice>
+        <choice no="2" is_answer="false">| Name | CID | |---|---| | 홍길동 | CS102 | | 성춘향 | CS101 |</choice>
+        <choice no="3" is_answer="false">| Name | CID | |---|---| | 이몽룡 | MG201 | | 장보고 | MG202 |</choice>
+        <choice no="4" is_answer="false">| Name | CID | |---|---| | 홍길동 | CS102 |</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 의 SID를 참조하는 외래키(foreign key) | 정답 선지: | Name | CID | |---|---| | 홍길동 | CS101 | | 홍길동 | CS102 | | 성춘향 | ...</explanation_ref>
+    </question>
+    <question no="8" id="PRB-D52637720EE13794-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>NoSQL 데이터베이스에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">문서 기반(document-based) 데이터베이스는 주로 노드(node)와 간선(edge)을 사용하여 데이터를 관리한다.</choice>
+        <choice no="2" is_answer="false">키－값(key-value) 데이터베이스는 분산하여 저장하는 시스템 환경에 적용하기에는 적합하지 않다.</choice>
+        <choice no="3" is_answer="false">트랜잭션을 지원하여 ACID(Atomicity Consistency Isolation Durability)를 필수적으로 보장한다.</choice>
+        <choice no="4" is_answer="true">문서 기반 데이터베이스는 반정형 데이터 형식을 지원한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: NoSQL 데이터베이스, 문서 기반(document-based), 데이터베이스는 주로 노드(node), 와 간선(edge) | 정답 선지: 문서 기반 데이터베이스는 반정형 데이터 형식을 지원한다.</explanation_ref>
+    </question>
+    <question no="9" id="PRB-D52637720EE13794-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 릴레이션에서 아래 SQL문을 실행하면 나오는 투플의 개수는?</stem>
+      <passage>| 사원 | | | | |
+|---|---|---|---|---|
+| &lt;u&gt;사원번호&lt;/u&gt; | 이름 | 부서번호 | 월급 | 직책 |
+| 1 | 홍길동 | 10 | 5000 | 사원 |
+| 2 | 이순신 | 20 | 3000 | 대리 |
+| 3 | 강감찬 | 30 | 4000 | 과장 |
+| 4 | 장보고 | 20 | 2000 | 부장 |
+| 5 | 홍길동 | 20 | 5000 | 대리 |
+| 6 | 안중근 | 10 | 2000 | 과장 |
+SELECT 사원번호, 월급, 부서번호
+FROM 사원
+WHERE 부서번호 IN (SELECT 부서번호
+FROM 사원
+WHERE 이름 = '홍길동');</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="false">3</choice>
+        <choice no="3" is_answer="false">4</choice>
+        <choice no="4" is_answer="true">5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 릴레이션에서, 아래, 실행하면, 나오 | 정답 선지: 5</explanation_ref>
+    </question>
+    <question no="10" id="PRB-D52637720EE13794-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 트랜잭션 T1과 T2를 수행한 후 X와 Y의 최종값은? (단, X와 Y의 초깃값은 각각 100, 200이다)</stem>
+      <passage>| 시간 | T1 | T2 |
+|---|---|---|
+|  | X = 20 | |
+| | write(X) | |
+| | | read(X) |
+| | | X = X - 20 |
+| | | write(X) |
+| | | read(Y) |
+| | | Y = Y + 20 |
+| | | write(Y) |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">0 220</choice>
+        <choice no="2" is_answer="false">20 200</choice>
+        <choice no="3" is_answer="false">80 220</choice>
+        <choice no="4" is_answer="false">100 200</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 트랜잭션, 수행한, 최종값, 초깃값 | 정답 선지: 0 220</explanation_ref>
+    </question>
+    <question no="11" id="PRB-D52637720EE13794-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>트리거(trigger)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">SQL 표준에 채택된 적은 없으나 실무상 유용하게 사용한다.</choice>
+        <choice no="2" is_answer="false">실행될 시점(event)과 이때 수행되어야 할 동작(action)으로 구성된다.</choice>
+        <choice no="3" is_answer="false">무결성 제약 조건을 구현하는데 사용할 수 있다.</choice>
+        <choice no="4" is_answer="false">데이터베이스에서 발생하는 특정 사건에 대하여 자동적으로 수행하는 구문이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트리거(trigger), 실행될 시점(event), 과 이때 수행되어야 할 동작(action) | 정답 선지: SQL 표준에 채택된 적은 없으나 실무상 유용하게 사용한다.</explanation_ref>
+    </question>
+    <question no="12" id="PRB-D52637720EE13794-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 트랜잭션 T1과 T2에 대한 2단계 로킹 규약(2-phase locking protocol)을 준수하기 위해 (가)와 (나)에 적합한 코드는?</stem>
+      <passage>| 시간 | T1 | T2 |
+|---|---|---|
+|  | lock(X) | |
+| | read(X) | |
+| | X = X + 10 | |
+| | write(X) | |
+| |  | |
+| | | |
+| | | lock(X) |
+| | | read(X) |
+| | | X = X * 20 |
+| | | write(X) |
+| | read(Y) | |
+| | Y = Y + 100 | |
+| | write(Y) | |
+| | unlock(Y) | |
+| | |  |
+| | | |
+| | | read(Y) |
+| | | Y = Y * 20 |
+| | | write(Y) |
+| | | unlock(Y) |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">| | lock(Y) | | lock(Y) | |---|---|---|---| | | unlock(X) | | unlock(X) |</choice>
+        <choice no="2" is_answer="false">| | lock(Y) | | unlock(X) | |---|---|---|---| | | unlock(X) | | lock(Y) |</choice>
+        <choice no="3" is_answer="false">| | unlock(X) | | lock(Y) | |---|---|---|---| | | lock(Y) | | unlock(X) |</choice>
+        <choice no="4" is_answer="false">| | unlock(X) | | unlock(X) | |---|---|---|---| | | lock(Y) | | lock(Y) |</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션 T1과 T2, 2에 대한 2단계 로킹 규약(2-phase locking protocol) | 정답 선지: | | lock(Y) | | lock(Y) | |---|---|---|---| | | unlock(X) | | unl...</explanation_ref>
+    </question>
+    <question no="13" id="PRB-D52637720EE13794-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>데이터베이스 접근제어(access control)에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">강제 접근제어는 정보를 유출 시키는 트로이 목마 공격에 대하여 임의 접근제어보다 취약하다.</choice>
+        <choice no="2" is_answer="true">임의 접근제어는 데이터 소유자가 데이터에 대한 접근 권한을 제어하며, 주체 간 권한 위임이 가능하다.</choice>
+        <choice no="3" is_answer="false">역할 기반 접근제어는 역할의 권한 변경 시 사용자마다 변경된 권한을 적용해야 한다.</choice>
+        <choice no="4" is_answer="false">Bell-LaPadula 모델은 허가 등급이 높은 주체가 허가 등급이 낮은 객체를 기록할 수 있다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 접근제어(access control) | 정답 선지: 임의 접근제어는 데이터 소유자가 데이터에 대한 접근 권한을 제어하며, 주체 간 권한 위임이 가능하다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-D52637720EE13794-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 개체 관계 다이어그램(entity relationship diagram)에 대한 설명으로 옳지 않은 것은?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D52637720EE13794/14_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D52637720EE13794/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">각 과제는 최소한 한 명의 직원에게 할당되어야 한다.</choice>
+        <choice no="2" is_answer="false">동일한 과제가 여러 명에게 할당될 수도 있다.</choice>
+        <choice no="3" is_answer="true">각 직원은 최소한 한 과제를 할당받아야 한다.</choice>
+        <choice no="4" is_answer="false">어떤 직원은 과제를 여러 개 할당받을 수도 있다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 개체, 관계, 다이어그램 | 정답 선지: 각 직원은 최소한 한 과제를 할당받아야 한다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-D52637720EE13794-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 트랜잭션 T1과 T2에서 발생하는 문제로 옳은 것은?</stem>
+      <passage>| 시간 | T1 | T2 |
+|---|---|---|
+|  | read(X) | |
+| | X = X + 100 | |
+| | | read(X) |
+| | | X = X * 2 |
+| | write(X) | |
+| | | write(X) |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">모순성(inconsistency)</choice>
+        <choice no="2" is_answer="true">갱신 분실(lost update)</choice>
+        <choice no="3" is_answer="false">삽입 이상(insertion anomaly)</choice>
+        <choice no="4" is_answer="false">연쇄 복귀(cascading rollback)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 모순성(inconsistency), 갱신 분실(lost update), 삽입 이상(insertion anomaly), 연쇄 복귀(cascading rollback) | 정답 선지: 갱신 분실(lost update)</explanation_ref>
+    </question>
+    <question no="16" id="PRB-D52637720EE13794-Q16" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>참조 무결성 제약조건(referential integrity constraint)에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 두 릴레이션의 연관된 투플들 사이의 일관성을 유지하는 데 사용된다.
+ㄴ. 외래키는 참조되는 테이블의 기본키 값이 삭제될 경우, 해당키를 외래키로 가지는 모든 투플을 삭제해야만 한다.
+ㄷ. 외래키 값은 참조되는 릴레이션의 후보키(candidate key) 값과 일치하거나 NULL이어야 한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 참조되는 릴레이션의 후보키(candidate key) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:O</explanation_ref>
+    </question>
+    <question no="17" id="PRB-D52637720EE13794-Q17" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음 정규화(normalization)에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 제1정규형에서는 릴레이션에 속한 모든 속성의 도메인이 원자값(atomic value)으로만 구성된다.
+ㄴ. 제2정규형에서는 이행적 함수 종속이 존재하지 않는다.
+ㄷ. 보이스－코드 정규형(BCNF)은 함수 종속의 모든 결정자가 후보키이다.
+ㄹ. 제2정규형 이상에서는 다치 종속(multi valued dependency)을 고려하지 않아도 된다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄹ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄷ, ㄹ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 정규화(normalization), 다음 정규화(normalization), 모든 속성의 도메인이 원자값(atomic value), 코드 정규형(BCNF), 정규형 이상에서는 다치 종속(multi valued dependency) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:O, ㄹ:X</explanation_ref>
+    </question>
+    <question no="18" id="PRB-D52637720EE13794-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 릴레이션 R에 대한 SQL문의 실행 결과는?</stem>
+      <passage>| R | |
+|---|---|
+| A | B |
+| 1 | 5 |
+| 1 | 7 |
+| 2 | 1 |
+| 2 | 3 |
+| 2 | 2 |
+| 3 | 12 |
+| 4 | 5 |
+| 4 | 4 |
+| 5 | 6 |
+| 5 | 5 |
+SELECT COUNT(*) AS T
+FROM (
+SELECT A
+FROM R
+GROUP BY A
+HAVING SUM(B) &gt; 10
+) AS S;</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">S 3</choice>
+        <choice no="2" is_answer="false">S 4</choice>
+        <choice no="3" is_answer="true">T 3</choice>
+        <choice no="4" is_answer="false">T 4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션 R | 정답 선지: T 3</explanation_ref>
+    </question>
+    <question no="19" id="PRB-D52637720EE13794-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>인덱스(index)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">테이블에서 한 개 이상의 속성을 이용하여 생성한다.</choice>
+        <choice no="2" is_answer="false">빠른 검색과 효율적인 레코드 접근을 가능하게 한다.</choice>
+        <choice no="3" is_answer="true">희소 인덱스(sparse index)는 그 인덱스가 클러스터링 인덱스인 경우 사용할 수 없다.</choice>
+        <choice no="4" is_answer="false">데이터에서 수정, 삭제 등의 변경이 발생하면 인덱스를 재구성할 수 있다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인덱스(index), 희소 인덱스(sparse index) | 정답 선지: 희소 인덱스(sparse index)는 그 인덱스가 클러스터링 인덱스인 경우 사용할 수 없다.</explanation_ref>
+    </question>
+    <question no="20" id="PRB-D52637720EE13794-Q20" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음 뷰(view)에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
+      <passage>ㄱ. 실체화된 뷰(materialized view)는 뷰 정의 쿼리 결과를 물리적으로 저장해 두고 일정 주기로 갱신할 수 있다.
+ㄴ. 뷰는 데이터 보안 강화, 복잡한 쿼리 단순화를 위해 사용할 수 있다.
+ㄷ. 뷰에 GROUP BY 절을 포함하는 경우에는 뷰를 갱신할 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 뷰(view), 다음 뷰(view), 실체화된 뷰(materialized view) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2022-08</exam_id>
+    <subject_row_id>PRB-9F0D9F1E352E8049</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>전산직_정보보호</series>
+    <year>2022</year>
+    <exam_title>2022년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>997</subject_code>
+    <subject_name>네트워크보안</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>네트워크보안_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-9F0D9F1E352E8049-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>네트워크 명령어에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">hostname: 컴퓨터 이름을 확인한다.</choice>
+        <choice no="2" is_answer="false">nslookup: DNS를 통해 도메인 이름을 검색한다.</choice>
+        <choice no="3" is_answer="true">ipconfig: 인터페이스에 설정된 라우팅 테이블을 검색한다.</choice>
+        <choice no="4" is_answer="false">ping: 컴퓨터의 네트워크 상태를 점검한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="1">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 네트워크 명령어 | 정답 선지: ipconfig: 인터페이스에 설정된 라우팅 테이블을 검색한다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-9F0D9F1E352E8049-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 네트워크 도구는?</stem>
+      <passage>○ IP 헤더에 있는 TTL의 특성을 이용한다.
+○ TTL 값은 IP 패킷이 전송될 수 있는 최대 hop 수이다.
+○ 최종 목적지까지의 라우터에 대한 경로 및 응답속도를 표시해 준다.
+○ 특정 사이트와의 접속이 느릴 경우 네트워크의 어느 구간에서 느린지 확인할 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">wireshark</choice>
+        <choice no="2" is_answer="false">tcpdump</choice>
+        <choice no="3" is_answer="true">traceroute</choice>
+        <choice no="4" is_answer="false">netstat</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="2">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 네트워크, 도구 | 정답 선지: traceroute</explanation_ref>
+    </question>
+    <question no="3" id="PRB-9F0D9F1E352E8049-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>비대칭키 암호화 알고리즘에서 수신자의 공개키로 데이터를 암호화하여 전송할 때 얻을 수 있는 보안성은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">가용성</choice>
+        <choice no="2" is_answer="false">인증</choice>
+        <choice no="3" is_answer="false">부인방지</choice>
+        <choice no="4" is_answer="true">기밀성</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="3">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 비대칭키, 암호화, 알고리즘에서, 수신자 | 정답 선지: 기밀성</explanation_ref>
+    </question>
+    <question no="4" id="PRB-9F0D9F1E352E8049-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>TCP 포트의 개방 여부를 확인하기 위한 스텔스 스캔으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">FIN 스캔</choice>
+        <choice no="2" is_answer="false">NULL 스캔</choice>
+        <choice no="3" is_answer="false">XMAS 스캔</choice>
+        <choice no="4" is_answer="true">TCP Open 스캔</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="4">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: TCP 포트의 개방 여부를 확인하기 위한 스텔스 스캔 | 정답 선지: TCP Open 스캔</explanation_ref>
+    </question>
+    <question no="5" id="PRB-9F0D9F1E352E8049-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>스위치 재밍(switch jamming)에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">스위치 MAC 테이블의 저장 용량을 넘으면 더미 허브(dummy hub)처럼 브로드캐스트(broadcast) 한다.</choice>
+        <choice no="2" is_answer="false">방어대책은 게이트웨이 MAC 주소를 동적으로 설정한다.</choice>
+        <choice no="3" is_answer="false">공격자는 클라이언트가 DNS 서버로 전송하는 DNS Query 패킷을 중간에 가로챈다.</choice>
+        <choice no="4" is_answer="false">MAC flooding은 스위치에 이상이 있을 때 자동으로 모든 보안 기능을 차단하는 것이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="5">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 스위치 재밍(switch jamming), 장 용량을 넘으면 더미 허브(dummy hub), 처럼 브로드캐스트(broadcast) | 정답 선지: 스위치 MAC 테이블의 저장 용량을 넘으면 더미 허브(dummy hub)처럼 브로드캐스트(broadcast) 한다.</explanation_ref>
+    </question>
+    <question no="6" id="PRB-9F0D9F1E352E8049-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>윈도시스템에서 다음과 같이 이더넷 인터페이스의 송수신 패킷 정보를 얻기 위한 netstat 명령어의 옵션은?</stem>
+      <passage>| 인터페이스 통계 | | |
+|---|---|---|
+| | 받음 | 보냄 |
+| 바이트 | 3879974308 | 172124956 |
+| 유니캐스트 패킷 | 1098604 | 985784 |
+| 비유니캐스트 패킷 | 11306144 | 94056 |
+| 버림 | 0 | 0 |
+| 오류 | 0 | 0 |
+| 알 수 없는 프로토콜 | 0 | |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">netstat -an</choice>
+        <choice no="2" is_answer="true">netstat -e</choice>
+        <choice no="3" is_answer="false">netstat -r</choice>
+        <choice no="4" is_answer="false">netstat -s</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="6">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 윈도시스템에서, 다음과, 이더넷, 인터페이스 | 정답 선지: netstat -e</explanation_ref>
+    </question>
+    <question no="7" id="PRB-9F0D9F1E352E8049-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>SSL 프로토콜에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">ChangeCipherSpec 프로토콜은 오류와 비정상 상태를 알기 위해 사용한다.</choice>
+        <choice no="2" is_answer="false">Handshake 프로토콜은 대기와 활성 상태 사이에서 이동되는 값들의 처리 과정을 규정한다.</choice>
+        <choice no="3" is_answer="true">Record 프로토콜은 기밀성과 메시지 무결성을 제공한다.</choice>
+        <choice no="4" is_answer="false">Alert 프로토콜은 암호 그룹 협의와 클라이언트와 서버 간 인증 정보를 교환하기 위해 사용한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SSL 프로토콜 | 정답 선지: Record 프로토콜은 기밀성과 메시지 무결성을 제공한다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-9F0D9F1E352E8049-Q8" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>IPSec의 ESP 터널 모드에서 암호화 범위로 옳은 것은?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-9F0D9F1E352E8049/8_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-9F0D9F1E352E8049/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">㉠</choice>
+        <choice no="2" is_answer="false">㉡</choice>
+        <choice no="3" is_answer="true">㉢</choice>
+        <choice no="4" is_answer="false">㉣</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="8">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 터널, 모드에서, 암호화, 범위 | 정답 선지: ㉢</explanation_ref>
+    </question>
+    <question no="9" id="PRB-9F0D9F1E352E8049-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>TLS에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">TLS는 SSL을 기반으로 만들어진 인터넷 표준이다.</choice>
+        <choice no="2" is_answer="false">TLS의 의사난수 함수(pseudorandom function)는 데이터 확장 함수(data-expansion function)를 활용한다.</choice>
+        <choice no="3" is_answer="false">TLS의 의사난수 함수는 비밀(secret), 식별용 라벨(label), 종자(seed)를 입력받는다.</choice>
+        <choice no="4" is_answer="true">TLS의 마스터 비밀(master secret) 생성을 위해 데이터 확장 함수는 사전 마스터 비밀(pre-master secret), ‘master secret’ 문자, 2개의 임의의 수를 입력받는다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="9">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: TLS, TLS의 의사난수 함수(pseudorandom function), 는 데이터 확장 함수(data-expansion function), LS의 의사난수 함수는 비밀(secret), 식별용 라벨(label) | 정답 선지: TLS의 마스터 비밀(master secret) 생성을 위해 데이터 확장 함수는 사전 마스터 비밀(pre-master...</explanation_ref>
+    </question>
+    <question no="10" id="PRB-9F0D9F1E352E8049-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>부채널 공격(side channel attack)에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">하드웨어적인 공격 기법이며, 전력분석, 시차분석, 전자파분석 등의 공격이 있다.</choice>
+        <choice no="2" is_answer="false">은닉 채널을 이용해 암호화 알고리즘이나 시스템 동작에서 발생하는 다양한 누수 정보를 획득한다.</choice>
+        <choice no="3" is_answer="false">역어셈블러, 디버거를 이용해 소프트웨어의 오류 및 결함을 찾아 악용하는 공격이다.</choice>
+        <choice no="4" is_answer="false">숨겨진 메시지를 사진이나 동영상 속에 부호화하는 스테가노그래피는 부채널 공격에 대응하기 위해 개발되었다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="10">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 부채널 공격(side channel attack) | 정답 선지: 하드웨어적인 공격 기법이며, 전력분석, 시차분석, 전자파분석 등의 공격이 있다.</explanation_ref>
+    </question>
+    <question no="11" id="PRB-9F0D9F1E352E8049-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>디지털 포렌식(digital forensic)에서 ‘증거가 위조되거나 변조되지 않았다’는 것을 증명하는 원칙은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">무결성</choice>
+        <choice no="2" is_answer="false">신속성</choice>
+        <choice no="3" is_answer="false">재현성</choice>
+        <choice no="4" is_answer="false">정당성</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="11">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 디지털 포렌식(digital forensic) | 정답 선지: 무결성</explanation_ref>
+    </question>
+    <question no="12" id="PRB-9F0D9F1E352E8049-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>대칭키 암호화 알고리즘으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">ARIA</choice>
+        <choice no="2" is_answer="false">SEED</choice>
+        <choice no="3" is_answer="false">DES</choice>
+        <choice no="4" is_answer="true">ECC</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="12">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 대칭키 암호화 알고리즘 | 정답 선지: ECC</explanation_ref>
+    </question>
+    <question no="13" id="PRB-9F0D9F1E352E8049-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>네트워크 서비스의 기본 포트 번호로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">SMTP(Simple Message Transfer Protocol): 25</choice>
+        <choice no="2" is_answer="false">DNS(Domain Name Service): 53</choice>
+        <choice no="3" is_answer="false">RPC(Remote Procedure Call): 111</choice>
+        <choice no="4" is_answer="true">SNMP(Simple Network Management Protocol): 143</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 25 DNS(Domain Name Service), 53 RPC(Remote Procedure Call) | 정답 선지: SNMP(Simple Network Management Protocol): 143</explanation_ref>
+    </question>
+    <question no="14" id="PRB-9F0D9F1E352E8049-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>침입탐지시스템(intrusion detection system)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">침입탐지 유형에는 비정상행위 탐지(anomaly detection)와 오용 탐지(misuse detection) 등으로 구분된다.</choice>
+        <choice no="2" is_answer="false">비정상행위 탐지는 알려지지 않은 공격을 탐지하기에 효과적이지만 False Positive가 높아질 수 있다.</choice>
+        <choice no="3" is_answer="false">오용 탐지는 알려진 공격 패턴을 기반으로 공격을 탐지하므로 알려지지 않은 공격 탐지에는 효과적이지 못하다.</choice>
+        <choice no="4" is_answer="true">전문가 시스템 모델은 비정상행위 탐지에 널리 사용되는 기법이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="14">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 지 유형에는 비정상행위 탐지(anomaly detection), 와 오용 탐지(misuse detection) | 정답 선지: 전문가 시스템 모델은 비정상행위 탐지에 널리 사용되는 기법이다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-9F0D9F1E352E8049-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 서비스 거부(denial of service) 공격은?</stem>
+      <passage>○ ICMP 패킷과 네트워크에 존재하는 임의의 시스템을 이용해 패킷을 확장함으로써 서비스 거부 공격 수행
+○ 다이렉트 브로드캐스트(direct broadcast) 악용</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">티어드롭 공격(teardrop attack)</choice>
+        <choice no="2" is_answer="true">스머프 공격(smurf attack)</choice>
+        <choice no="3" is_answer="false">죽음의 핑 공격(ping of death attack)</choice>
+        <choice no="4" is_answer="false">SYN 플러딩 공격(SYN flooding attack)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="15">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 음에서 설명하는 서비스 거부(denial of service), 다이렉트 브로드캐스트(direct broadcast), 악용 티어드롭 공격(teardrop attack), 스머프 공격(smurf attack), 죽음의 핑 공격(ping of death attack) | 정답 선지: 스머프 공격(smurf attack)</explanation_ref>
+    </question>
+    <question no="16" id="PRB-9F0D9F1E352E8049-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>공격자가 TCP 세션 하이재킹(session hijacking)을 위해 대상 호스트에 첫 번째로 보내는 TCP 패킷 플래그(flag)는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">RST</choice>
+        <choice no="2" is_answer="false">FIN</choice>
+        <choice no="3" is_answer="false">ACK</choice>
+        <choice no="4" is_answer="false">SYN</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="16">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 격자가 TCP 세션 하이재킹(session hijacking), 보내는 TCP 패킷 플래그(flag) | 정답 선지: RST</explanation_ref>
+    </question>
+    <question no="17" id="PRB-9F0D9F1E352E8049-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>ICMP에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">전송 계층에서의 오류 탐지를 위해 사용한다.</choice>
+        <choice no="2" is_answer="false">송신자의 패킷이 목적지에 도달하지 못했을 때 송신자는 ICMP Echo Reply 메시지를 수신한다.</choice>
+        <choice no="3" is_answer="true">TTL이 0이 되면 ICMP 시간초과(time exceeded) 오류 메시지가 발생한다.</choice>
+        <choice no="4" is_answer="false">UDP에 의해 전송된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: ICMP, 0이 되면 ICMP 시간초과(time exceeded) | 정답 선지: TTL이 0이 되면 ICMP 시간초과(time exceeded) 오류 메시지가 발생한다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-9F0D9F1E352E8049-Q18" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>IKE 키 결정 알고리즘의 특징에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">방해 공격을 방지하기 위해 비표(nonce)를 사용한다.</choice>
+        <choice no="2" is_answer="false">두 당사자가 군(group)을 협상할 수 있다.</choice>
+        <choice no="3" is_answer="false">Diffie-Hellman 공개키 값의 교환이 가능하다.</choice>
+        <choice no="4" is_answer="false">중간자 공격을 방지하기 위해 Diffie-Hellman 교환을 인증한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="18">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: IKE 키 결정 알고리즘의 특징, 공격을 방지하기 위해 비표(nonce), 두 당사자가 군(group) | 정답 선지: 방해 공격을 방지하기 위해 비표(nonce)를 사용한다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-9F0D9F1E352E8049-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>IPSec의 보안 연관(security association)을 식별하기 위한 매개변수로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">보안 매개변수 색인(security parameters index)</choice>
+        <choice no="2" is_answer="true">발신지 IP 주소</choice>
+        <choice no="3" is_answer="false">수신지 IP 주소</choice>
+        <choice no="4" is_answer="false">보안 프로토콜 식별자(security protocol identifier)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="19">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: IPSec의 보안 연관(security association), 보안 매개변수 색인(security parameters index) | 정답 선지: 발신지 IP 주소</explanation_ref>
+    </question>
+    <question no="20" id="PRB-9F0D9F1E352E8049-Q20" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음의 설명에서 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">스턱스넷(stuxnet): 사용자가 키보드로 입력하는 내용을 몰래 가로채어 기록한다.</choice>
+        <choice no="2" is_answer="false">랜섬웨어(ransomware): 시스템의 폴더 또는 파일 등을 암호화하여 금전을 요구한다.</choice>
+        <choice no="3" is_answer="false">트로이 목마(trojan horse): 겉으로는 정상적인 프로그램으로 보이지만 악성코드가 숨겨져 있다.</choice>
+        <choice no="4" is_answer="false">스파이웨어(spyware): 사용자 정보를 무단으로 수집하여 동의 없이 다른 곳으로 보낸다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="20">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 스턱스넷(stuxnet), 랜섬웨어(ransomware), 트로이 목마(trojan horse), 스파이웨어(spyware) | 정답 선지: 스턱스넷(stuxnet): 사용자가 키보드로 입력하는 내용을 몰래 가로채어 기록한다.</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

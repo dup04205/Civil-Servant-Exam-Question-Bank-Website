@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2025-08</exam_id>
+    <subject_row_id>PRB-F1357BA28EDB9895</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>일반토목직</series>
+    <year>2025</year>
+    <exam_title>2025년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>926</subject_code>
+    <subject_name>토목설계</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>토목설계_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-F1357BA28EDB9895-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>양단이 힌지로 지지된 콘크리트 압축부재의 장주효과를 무시할 수 있는 비지지길이 $l_{u}$의 최댓값[mm]은? (단, 압축부재 단면의 최소 회전반경 $r$은 200 mm이고, 비횡구속 골조의 압축부재이다)</stem>
+      <formulas count="2">
+        <formula area="질문">l_{u}</formula>
+        <formula area="질문">r</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1,100</choice>
+        <choice no="2" is_answer="false">2,200</choice>
+        <choice no="3" is_answer="false">3,300</choice>
+        <choice no="4" is_answer="true">4,400</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="1">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 양단, 힌지, 지지된, 콘크리트 | 정답 선지: 4,400</explanation_ref>
+    </question>
+    <question no="2" id="PRB-F1357BA28EDB9895-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>기타 콘크리트구조 설계기준에서 제시하는 옹벽설계의 안정조건에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="3">
+        <formula area="선택지④">q_{u}</formula>
+        <formula area="선택지④">q_a</formula>
+        <formula area="선택지④">q_u over3</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">활동에 대한 저항력은 옹벽에 작용하는 수평력의 1.5배 이상이어야 한다.</choice>
+        <choice no="2" is_answer="true">전도에 대한 저항휨모멘트는 횡토압에 의한 전도모멘트의 1.5배 이상이어야 한다.</choice>
+        <choice no="3" is_answer="false">전도 및 지반지지력에 대한 안정조건은 만족하지만, 활동에 대한 안정조건만을 만족하지 못할 경우에는 활동방지벽 혹은 횡방향 앵커 등을 설치하여 활동저항력을 증대시킬 수 있다.</choice>
+        <choice no="4" is_answer="false">지반의 지지력은 지반공학적 방법 중 선택하여 적용할 수 있으며, 지반의 내부마찰각, 점착력 등과 같은 특성으로부터 지반의 극한지지력 $q_{u}$를 추정할 수 있다. 다만, 이 경우에 허용지지력 $q_a$는 $\frac{q_u}{3}$이어야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="2">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기타, 콘크리트구조, 설계기준에서, 제시하 | 정답 선지: 전도에 대한 저항휨모멘트는 횡토압에 의한 전도모멘트의 1.5배 이상이어야 한다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-F1357BA28EDB9895-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>콘크리트 슬래브와 기초판 설계기준에서 제시하는 기초판의 휨모멘트에 대한 설계 시 고려 사항으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">최대 계수휨모멘트를 계산할 때, 강재 밑판을 갖는 기둥을 지지하는 기초판은 강재 밑판 단부를 위험단면으로 한다.</choice>
+        <choice no="2" is_answer="false">최대 계수휨모멘트를 계산할 때, 콘크리트 기둥, 주각 또는 벽체를 지지하는 기초판은 기둥, 주각 또는 벽체의 외면을 위험단면으로 한다.</choice>
+        <choice no="3" is_answer="false">1방향 기초판 또는 2방향 정사각형 기초판에서 철근은 기초판 전체 폭에 걸쳐 균등하게 배치하여야 한다.</choice>
+        <choice no="4" is_answer="false">기초판 각 단면의 휨모멘트는 기초판을 자른 수직면에서 그 수직면의 한쪽 전체 면적에 작용하는 힘에 대해 계산하여야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="3">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 콘크리트, 슬래브와, 기초판, 설계기준에서 | 정답 선지: 최대 계수휨모멘트를 계산할 때, 강재 밑판을 갖는 기둥을 지지하는 기초판은 강재 밑판 단부를 위험단면으로 한다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-F1357BA28EDB9895-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>프리스트레스트 콘크리트구조 설계기준에서 제시하는 설계 원칙으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">프리스트레스트콘크리트 부재의 설계는 프리스트레스를 도입할 때부터 구조물의 수명 기간 동안에 모든 재하단계의 강도 및 사용조건에 따른 거동에 근거하여야 한다.</choice>
+        <choice no="2" is_answer="false">프리스트레스에 의해 발생되는 부재의 탄ㆍ소성변형, 처짐, 길이변화 및 회전 등에 의해 인접한 구조물에 미치는 영향을 고려하여야 한다. 이때 온도와 수축의 영향도 고려하여야 한다.</choice>
+        <choice no="3" is_answer="true">설계에서는 프리스트레스에 의하여 발생하는 응력집중을 고려할 필요는 없다.</choice>
+        <choice no="4" is_answer="false">덕트의 치수가 과대하여 긴장재와 덕트가 부분적으로 접촉하는 경우, 접촉하는 위치 사이에 있어서 부재 좌굴과 얇은 복부 및 플랜지의 좌굴이 발생할 가능성을 검토하여야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 프리스트레스트, 콘크리트구조, 설계기준에서, 제시하 | 정답 선지: 설계에서는 프리스트레스에 의하여 발생하는 응력집중을 고려할 필요는 없다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-F1357BA28EDB9895-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>강구조 설계 일반사항(하중저항계수설계법)에서 제시하는 용어에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">커버플레이트: 트러스의 부재, 스트럿, 또는 가새재(브레이싱)를 보 또는 기둥에 연결하는 판요소</choice>
+        <choice no="2" is_answer="false">유효길이계수: 유효좌굴길이와 부재의 비지지길이의 비</choice>
+        <choice no="3" is_answer="false">국부좌굴: 부재 전체의 파괴를 유발할 수도 있는 압축 판요소의 좌굴</choice>
+        <choice no="4" is_answer="false">다이아프램: 지지요소에 힘을 전달하도록 이용된 면내 전단강성과 전단강도를 갖고 있는 플레이트</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="5">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 강구조, 설계, 일반사항, 하중저항계수설계법 | 정답 선지: 커버플레이트: 트러스의 부재, 스트럿, 또는 가새재(브레이싱)를 보 또는 기둥에 연결하는 판요소</explanation_ref>
+    </question>
+    <question no="6" id="PRB-F1357BA28EDB9895-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같은 철근콘크리트보 단면의 균열휨모멘트 $M_{cr}$ [kNㆍm]은? (단, 콘크리트의 파괴계수 $f_{r}$은 4 MPa이다)</stem>
+      <formulas count="2">
+        <formula area="질문">M_{cr}</formula>
+        <formula area="질문">f_{r}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-F1357BA28EDB9895/6_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-F1357BA28EDB9895/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">36</choice>
+        <choice no="2" is_answer="false">54</choice>
+        <choice no="3" is_answer="true">72</choice>
+        <choice no="4" is_answer="false">90</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과, 철근콘크리트보, 단면, 균열휨모멘트 | 정답 선지: 72</explanation_ref>
+    </question>
+    <question no="7" id="PRB-F1357BA28EDB9895-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>큰 처짐에 의해 손상되기 쉬운 칸막이벽이나 기타 구조물을 지지하지 않는 1방향 캔틸레버 슬래브에서 처짐을 계산하지 않을 때, 슬래브의 최소 두께[mm]는? (단, 슬래브의 길이 $l$은 3 m, 보통중량 콘크리트이고, 철근의 설계기준항복강도 $f_{y}$는 400 MPa이다)</stem>
+      <formulas count="2">
+        <formula area="질문">l</formula>
+        <formula area="질문">f_{y}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">200</choice>
+        <choice no="2" is_answer="false">250</choice>
+        <choice no="3" is_answer="true">300</choice>
+        <choice no="4" is_answer="false">350</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="7">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 처짐, 의해, 손상되기, 쉬운 | 정답 선지: 300</explanation_ref>
+    </question>
+    <question no="8" id="PRB-F1357BA28EDB9895-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같이 지간 중앙에 집중하중 Q ＝ 50 kN이 작용하는 프리스트레스트콘크리트 단순보의 지간 중앙에서 휨모멘트의 크기[kNㆍm]는? (단, 프리스트레스 힘 P는 100 kN이고, $\sin \theta \simeq \tan \theta$이며, 보의 자중과 프리스트레스 손실은 무시한다)</stem>
+      <formulas count="1">
+        <formula area="질문">\sin \theta SIMEQ \tan \theta</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-F1357BA28EDB9895/8_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-F1357BA28EDB9895/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">50</choice>
+        <choice no="2" is_answer="true">75</choice>
+        <choice no="3" is_answer="false">100</choice>
+        <choice no="4" is_answer="false">125</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="8">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과, 지간, 중앙, 집중하중 | 정답 선지: 75</explanation_ref>
+    </question>
+    <question no="9" id="PRB-F1357BA28EDB9895-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>콘크리트의 설계기준압축강도 $f_{ck}$가 20 MPa인 단철근 직사각형 보 단면의 균형철근비가 0.03이다. 동일한 보 단면에 대하여 콘크리트의 설계기준압축강도 $f_{ck}$만 40 MPa로 변경되었을 때, 균형철근비는?</stem>
+      <formulas count="2">
+        <formula area="질문">f_{ck}</formula>
+        <formula area="질문">f_{ck}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.03</choice>
+        <choice no="2" is_answer="false">0.04</choice>
+        <choice no="3" is_answer="false">0.05</choice>
+        <choice no="4" is_answer="true">0.06</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="9">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 콘크리트, 설계기준압축강도, 단철근, 직사각형 | 정답 선지: 0.06</explanation_ref>
+    </question>
+    <question no="10" id="PRB-F1357BA28EDB9895-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>프리스트레스트 콘크리트구조 설계기준에서 제시하는 긴장재의 긴장 시 허용 인장응력의 최댓값은? (단, $f_{pu}$는 긴장재의 설계기준인장강도, $f_{py}$는 긴장재의 설계기준항복강도이고, 긴장재나 정착장치 제조자가 제시하는 최댓값은 $f_{pu}$이다)</stem>
+      <formulas count="9">
+        <formula area="질문">f_{pu}</formula>
+        <formula area="질문">f_{py}</formula>
+        <formula area="질문">f_{pu}</formula>
+        <formula area="선택지①">f_{pu}</formula>
+        <formula area="선택지②">f_{py}</formula>
+        <formula area="선택지③">f_{pu}</formula>
+        <formula area="선택지③">f_{py}</formula>
+        <formula area="선택지④">f_{pu}</formula>
+        <formula area="선택지④">f_{py}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.70 $f_{pu}$</choice>
+        <choice no="2" is_answer="false">0.90 $f_{py}$</choice>
+        <choice no="3" is_answer="false">0.74 $f_{pu}$와 0.82 $f_{py}$ 중 작은 값</choice>
+        <choice no="4" is_answer="true">0.80 $f_{pu}$와 0.94 $f_{py}$ 중 작은 값</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="10">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 프리스트레스트, 콘크리트구조, 설계기준에서, 제시하 | 정답 선지: 0.80 $f_{pu}$와 0.94 $f_{py}$ 중 작은 값</explanation_ref>
+    </question>
+    <question no="11" id="PRB-F1357BA28EDB9895-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>콘크리트구조 정착 및 이음 설계기준에서 제시하는 표준갈고리를 갖는 인장 이형철근의 기본정착길이 $l_{hb}$ [mm]는? (단, 콘크리트의 설계기준압축강도 $f_{ck}$ 는 36 MPa, 철근의 설계기준항복강도 $f_{y}$ 는 300 MPa, 철근의 공칭지름 $d_{b}$는 25 mm이고, 아연도금 또는 도막되지 않은 철근이며, 보통중량 콘크리트이다)</stem>
+      <formulas count="4">
+        <formula area="질문">l_{hb}</formula>
+        <formula area="질문">f_{ck}</formula>
+        <formula area="질문">f_{y}</formula>
+        <formula area="질문">d_{b}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">275</choice>
+        <choice no="2" is_answer="true">300</choice>
+        <choice no="3" is_answer="false">325</choice>
+        <choice no="4" is_answer="false">350</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="11">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 콘크리트구조, 정착, 이음, 설계기준에서 | 정답 선지: 300</explanation_ref>
+    </question>
+    <question no="12" id="PRB-F1357BA28EDB9895-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>콘크리트구조 전단 및 비틀림 설계기준에서 제시하는 철근콘크리트 부재의 전단철근에 대한 설명으로 옳지 않은 것은? (단, $V_{c}$＝ $\frac{1}{6} \lambda \sqrt{f_ck} b_w d$, $V_s$는 철근의 공칭전단강도, λ는 경량콘크리트 계수, $f_ck$는 콘크리트의 설계기준압축강도, $b_w$는 부재의 복부 폭, $d$는 부재 단면의 유효깊이이다)</stem>
+      <formulas count="13">
+        <formula area="질문">V_{c}</formula>
+        <formula area="질문">1 over6 \lambda \sqrt{f_ck} b_w d</formula>
+        <formula area="질문">V_s</formula>
+        <formula area="질문">\lambda</formula>
+        <formula area="질문">f_ck</formula>
+        <formula area="질문">b_w</formula>
+        <formula area="질문">d</formula>
+        <formula area="선택지①">V_s &gt; 2 V_c</formula>
+        <formula area="선택지①">\frac{d}{3}</formula>
+        <formula area="선택지②">V_s \leq 2 V_c</formula>
+        <formula area="선택지②">\frac{d}{2}</formula>
+        <formula area="선택지④">V_s \leq 2 V_c</formula>
+        <formula area="선택지④">d</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$V_s &gt; 2 V_c$인 경우 부재축에 직각으로 배치된 전단철근의 간격은 $\frac{d}{3}$ 이하로 감소시켜야 한다.</choice>
+        <choice no="2" is_answer="false">$V_s \leq 2 V_c$인 경우 부재축에 직각으로 배치된 전단철근의 간격은 $\frac{d}{2}$ 이하이고, 600 mm 이하이어야 한다.</choice>
+        <choice no="3" is_answer="false">주인장철근에 45 ° 이상의 각도로 설치되는 스터럽을 사용할 수 있다.</choice>
+        <choice no="4" is_answer="false">$V_s \leq 2 V_c$인 경우 경사스터럽과 굽힘철근은 부재의 중간 높이인 0.5 $d$에서 반력점 방향으로 주인장철근까지 연장된 45 ° 선과 한 번 이상 교차되도록 배치하여야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="12">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 콘크리트구조, 전단, 비틀림, 설계기준에서 | 정답 선지: $V_s &gt; 2 V_c$인 경우 부재축에 직각으로 배치된 전단철근의 간격은 $\frac{d}{3}$ 이하로 감소시켜야...</explanation_ref>
+    </question>
+    <question no="13" id="PRB-F1357BA28EDB9895-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같이 중심축하중 P가 작용하는 철근콘크리트 기둥에서 철근과 콘크리트가 각각 부담하는 축하중의 비는? (단, 콘크리트의 단면적 $A_{c}$는 종방향 철근의 전체단면적 $A_{st}$의 13배, 철근의 탄성계수 $E_{s}$는 콘크리트의 탄성계수 $E_{c}$의 8배이고, 작용하중은 단면 전체에 균등하게 작용하며, 철근콘크리트 기둥은 철근과 콘크리트가 완전부착되어 선형탄성의 일체거동을 하는 단주이다)</stem>
+      <formulas count="4">
+        <formula area="질문">A_{c}</formula>
+        <formula area="질문">A_{st}</formula>
+        <formula area="질문">E_{s}</formula>
+        <formula area="질문">E_{c}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-F1357BA28EDB9895/13_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-F1357BA28EDB9895/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">10 11</choice>
+        <choice no="2" is_answer="true">8 13</choice>
+        <choice no="3" is_answer="false">6 15</choice>
+        <choice no="4" is_answer="false">4 17</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="13">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과, 중심축하중, 작용하, 철근콘크리트 | 정답 선지: 8 13</explanation_ref>
+    </question>
+    <question no="14" id="PRB-F1357BA28EDB9895-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>콘크리트에 발생하는 크리프에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">습도 증가에 따라 크리프는 증가한다.</choice>
+        <choice no="2" is_answer="false">물－시멘트비의 증가에 따라 크리프는 증가한다.</choice>
+        <choice no="3" is_answer="false">크리프계수는 탄성변형률과 크리프변형률의 비이다.</choice>
+        <choice no="4" is_answer="false">크리프는 일정하고 지속적인 응력하에서 변형률이 증가하는 현상이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="14">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 콘크리트에 발생하는 크리프 | 정답 선지: 습도 증가에 따라 크리프는 증가한다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-F1357BA28EDB9895-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>강구조 연결 설계기준(하중저항계수설계법)에서 제시하는 이음부 설계세칙으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">응력을 전달하는 필릿용접의 최소유효길이는 공칭용접치수의 10배 이상 또한 30 mm 이상을 원칙으로 한다.</choice>
+        <choice no="2" is_answer="false">응력을 전달하는 겹침이음은 2열 이상의 필릿용접을 원칙으로 하고, 겹침길이는 얇은 쪽 판 두께의 5배 이상 또한 25 mm 이상으로 한다.</choice>
+        <choice no="3" is_answer="false">고장력볼트의 구멍중심 간 거리는 공칭직경의 2.5배를 최소거리로 하고 3배를 표준거리로 한다.</choice>
+        <choice no="4" is_answer="true">고장력볼트의 구멍중심에서 볼트머리 또는 너트가 접하는 부재의 연단까지의 최대거리는 판 두께의 15배 이하 또한 300 mm 이하로 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="15">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 강구조, 연결, 설계기준, 하중저항계수설계법 | 정답 선지: 고장력볼트의 구멍중심에서 볼트머리 또는 너트가 접하는 부재의 연단까지의 최대거리는 판 두께의 15배 이하 또한 300...</explanation_ref>
+    </question>
+    <question no="16" id="PRB-F1357BA28EDB9895-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같은 인장재 ㄱ형강의 블록전단강도 산정 시, 전단파단에 대한 전단저항 순단면적 $A_{nv}$ [mm^(2)]는? (단, 볼트구멍의 직경 $d_{h}$는 24 mm이고, 부재의 두께 $t$는 10 mm이다)</stem>
+      <formulas count="3">
+        <formula area="질문">A_{nv}</formula>
+        <formula area="질문">d_{h}</formula>
+        <formula area="질문">t</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-F1357BA28EDB9895/16_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-F1357BA28EDB9895/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1,700</choice>
+        <choice no="2" is_answer="false">1,800</choice>
+        <choice no="3" is_answer="true">1,900</choice>
+        <choice no="4" is_answer="false">2,000</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과, 인장재, 형강, 블록전단강도 | 정답 선지: 1,900</explanation_ref>
+    </question>
+    <question no="17" id="PRB-F1357BA28EDB9895-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>계수전단력 $V_u$ ＝ 100 kN이 작용하는 직사각형 철근콘크리트보 단면에서 최소 전단철근의 배치가 필요 없는 단면의 유효깊이 $d$의 최솟값[mm]은? (단, 콘크리트 공칭전단강도 $V_c$ ＝ $\frac{1}{6} \lambda \sqrt{f_{ck}} b d$이고, 콘크리트의 설계기준압축강도 $f_{ck}$는 25 MPa, 단면의 폭 $b$는 500 mm, 경량콘크리트 계수 λ는 1.0이다)</stem>
+      <formulas count="7">
+        <formula area="질문">V_u</formula>
+        <formula area="질문">d</formula>
+        <formula area="질문">V_c</formula>
+        <formula area="질문">\frac{1}{6} \lambda \sqrt{f_{ck}} b d</formula>
+        <formula area="질문">f_{ck}</formula>
+        <formula area="질문">b</formula>
+        <formula area="질문">\lambda</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">540</choice>
+        <choice no="2" is_answer="true">640</choice>
+        <choice no="3" is_answer="false">720</choice>
+        <choice no="4" is_answer="false">800</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="17">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 계수전단력, 작용하, 직사각형, 철근콘크리트보 | 정답 선지: 640</explanation_ref>
+    </question>
+    <question no="18" id="PRB-F1357BA28EDB9895-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>콘크리트구조 휨 및 압축 설계기준에서 제시하는 압축부재의 설계에서 최소 나선철근비 $\rho_{s}$가 $C_{1} \left( \frac{A_{g}}{A_{ch}} - 1 \right) \frac{f_{ck}}{f_{yt}}$일 때, $C_{1}$은? (단, $A_{g}$는 기둥의 전체 단면적, $A_{ch}$는 나선철근의 바깥선을 지름으로 하여 측정된 나선철근 기둥의 심부 단면적, $f_{ck}$는 콘크리트의 설계기준압축강도, $f_{yt}$는 나선철근의 설계기준항복강도이고 700 MPa 이하이다)</stem>
+      <formulas count="7">
+        <formula area="질문">\rho_{s}</formula>
+        <formula area="질문">C_{1} \left( \frac{A_{g}}{A_{ch}} - 1 \right) \frac{f_{ck}}{f_{yt}}</formula>
+        <formula area="질문">C_{1}</formula>
+        <formula area="질문">A_{g}</formula>
+        <formula area="질문">A_{ch}</formula>
+        <formula area="질문">f_{ck}</formula>
+        <formula area="질문">f_{yt}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.42</choice>
+        <choice no="2" is_answer="false">0.43</choice>
+        <choice no="3" is_answer="false">0.44</choice>
+        <choice no="4" is_answer="true">0.45</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="18">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 콘크리트구조, 압축, 설계기준에서, 제시하 | 정답 선지: 0.45</explanation_ref>
+    </question>
+    <question no="19" id="PRB-F1357BA28EDB9895-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>콘크리트구조 휨 및 압축 설계기준에서 제시하는 휨부재 설계의 일반 원칙에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">f_{y}</formula>
+        <formula area="선택지②">varepsilon_{t}</formula>
+        <formula area="선택지③">varepsilon_{t}</formula>
+        <formula area="선택지④">varepsilon_{t}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">인장철근이 설계기준항복강도 $f_{y}$에 대응하는 변형률에 도달하고 동시에 압축 콘크리트가 가정된 극한변형률에 도달할 때, 그 단면이 균형변형률 상태에 있다고 본다.</choice>
+        <choice no="2" is_answer="false">압축연단 콘크리트가 가정된 극한변형률에 도달할 때, 최외단 인장철근의 순인장변형률 $varepsilon_{t}$가 압축지배변형률 한계 이하인 단면을 압축지배단면이라고 한다.</choice>
+        <choice no="3" is_answer="true">압축연단 콘크리트가 가정된 극한변형률에 도달할 때, 최외단 인장철근의 순인장변형률 $varepsilon_{t}$가 0.005의 인장지배변형률 한계 미만인 단면을 인장지배단면이라고 한다.</choice>
+        <choice no="4" is_answer="false">프리스트레스를 가하지 않은 휨부재는 공칭강도 상태에서 순인장변형률 $varepsilon_{t}$가 휨부재의 최소 허용변형률 이상이어야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="19">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 콘크리트구조, 압축, 설계기준에서, 제시하 | 정답 선지: 압축연단 콘크리트가 가정된 극한변형률에 도달할 때, 최외단 인장철근의 순인장변형률 $varepsilon_{t}$가 0...</explanation_ref>
+    </question>
+    <question no="20" id="PRB-F1357BA28EDB9895-Q20" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>콘크리트구조 휨 및 압축 설계기준에서 제시하는 등가 직사각형 압축응력블록의 등가 압축영역에 등분포하는 콘크리트 응력이 $\eta$(0.85 $f_ck$)일 때, $\eta$는? (단, 콘크리트의 설계기준압축강도 $f_{ck}$는 50 MPa이다)</stem>
+      <formulas count="4">
+        <formula area="질문">\eta</formula>
+        <formula area="질문">f_ck</formula>
+        <formula area="질문">\eta</formula>
+        <formula area="질문">f_{ck}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.91</choice>
+        <choice no="2" is_answer="false">0.94</choice>
+        <choice no="3" is_answer="true">0.97</choice>
+        <choice no="4" is_answer="false">1.0</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="토목설계_해설.xml" question_no="20">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 콘크리트구조, 압축, 설계기준에서, 제시하 | 정답 선지: 0.97</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-9701334D7592AF47</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전산직_전산개발</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>625</subject_code>
+    <subject_name>자료구조론</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>자료구조론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-9701334D7592AF47-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 C 언어 함수를 사용하여 function(9)를 수행했을 때, 반환되는 값은?</stem>
+      <passage>int function(int n)
+{
+if (n &lt;= 1) return 1;
+if (n % 2 == 0)
+return n * function(n-1);
+else
+return n * function(n-3);
+}</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">60</choice>
+        <choice no="2" is_answer="false">84</choice>
+        <choice no="3" is_answer="true">540</choice>
+        <choice no="4" is_answer="false">672</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="1">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: int function(int n), function(n-1), function(n-3) | 정답 선지: 540</explanation_ref>
+    </question>
+    <question no="2" id="PRB-9701334D7592AF47-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이진 트리(binary tree)의 순회 방법으로 옳지 않은 것은?</stem>
+      <images count="1">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-9701334D7592AF47/2_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">전위(preorder) 순회 : A B G H D C E F I</choice>
+        <choice no="2" is_answer="false">중위(inorder) 순회 : G B H D A C F E I</choice>
+        <choice no="3" is_answer="true">후위(postorder) 순회 : G D H B F E I C A</choice>
+        <choice no="4" is_answer="false">레벨 순서(level order) 순회 : A B C G H E D F I</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="2">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이진 트리(binary tree)의 순회 방법, 다음 이진 트리(binary tree), 전위(preorder), H D C E F I 중위(inorder), D A C F E I 후위(postorder) | 정답 선지: 후위(postorder) 순회 : G D H B F E I C A</explanation_ref>
+    </question>
+    <question no="3" id="PRB-9701334D7592AF47-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음과 같이 인접 행렬로 표현된 가중 그래프(weighted graph)에 대하여 최소 비용 신장 트리(minimum cost spanning tree)를 구성했을 때, 최소 비용은?</stem>
+      <passage>| | [0] | [1] | [2] | [3] |
+|---|---|---|---|---|
+| [0] | 0 | 5 | 1 | 2 |
+| [1] | 5 | 0 | ∞ | 4 |
+| [2] | 1 | ∞ | 0 | 3 |
+| [3] | 2 | 4 | 3 | 0 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">6</choice>
+        <choice no="2" is_answer="true">7</choice>
+        <choice no="3" is_answer="false">8</choice>
+        <choice no="4" is_answer="false">9</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="3">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 행렬로 표현된 가중 그래프(weighted graph) | 정답 선지: 7</explanation_ref>
+    </question>
+    <question no="4" id="PRB-9701334D7592AF47-Q4" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>78개의 간선(edge)으로 이루어진 이진 트리(binary tree)가 가질 수 있는 최대 높이와 최소 높이의 차이는? (단, 루트 노드만 존재하는 이진 트리의 높이는 1이다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">71</choice>
+        <choice no="2" is_answer="true">72</choice>
+        <choice no="3" is_answer="false">73</choice>
+        <choice no="4" is_answer="false">74</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="4">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 78개의 간선(edge), 으로 이루어진 이진 트리(binary tree) | 정답 선지: 72</explanation_ref>
+    </question>
+    <question no="5" id="PRB-9701334D7592AF47-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>1과 1000 사이의 정수로 구성된 이진 탐색 트리(binary search tree)에서 숫자 629를 탐색한다고 할 때, 옳지 않은 비교 순서는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">19, 929, 172, 891, 224, 735, 405, 674, 537, 629</choice>
+        <choice no="2" is_answer="false">876, 807, 24, 186, 314, 717, 690, 428, 512, 629</choice>
+        <choice no="3" is_answer="false">29, 829, 815, 137, 369, 504, 805, 589, 692, 629</choice>
+        <choice no="4" is_answer="true">926, 87, 813, 318, 572, 826, 635, 598, 580, 629</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="5">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 수로 구성된 이진 탐색 트리(binary search tree) | 정답 선지: 926, 87, 813, 318, 572, 826, 635, 598, 580, 629</explanation_ref>
+    </question>
+    <question no="6" id="PRB-9701334D7592AF47-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>단순 연결 리스트(singly linked list)의 노드를 나타내는 구조체 node에 다음 노드를 가리키는 포인터 link가 있다고 하자. 2개의 노드로 구성된 단순 연결 리스트에서 첫 번째 노드와 두 번째 노드의 사이에 새로운 노드를 삽입하면서 리스트의 순서를 역순으로 변환하고자 한다. p에는 리스트의 시작 주소가 저장되어 있으며, new에는 새로운 노드의 주소가 저장되어 있다고 가정할 때, 명령문의 실행 순서로 옳은 것은? (단, 역순 변환 후 p에는 리스트의 새로운 시작 주소가 저장되어 있어야 한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">p→link = new; p = p→link; new→link = p; new→link→link = NULL;</choice>
+        <choice no="2" is_answer="false">p = p→link; p→link = new; new→link = p; new→link→link = NULL;</choice>
+        <choice no="3" is_answer="false">new→link = p; p→link = new; p = p→link; new→link→link = NULL;</choice>
+        <choice no="4" is_answer="true">new→link = p; p = p→link; p→link = new; new→link→link = NULL;</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 단순 연결 리스트(singly linked list) | 정답 선지: new→link = p; p = p→link; p→link = new; new→link→link = NULL;</explanation_ref>
+    </question>
+    <question no="7" id="PRB-9701334D7592AF47-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 자료에서 첫 행은 오름차순으로 정렬하기 위해 주어진 입력 값이고 마지막 행은 정렬이 완료된 후의 결과이다. 중간의 행들은 합병정렬(merge sort), 삽입정렬(insertion sort), 선택정렬(selection sort), 퀵정렬(quick sort) 알고리즘을 통하여 얻을 수 있는 중간 과정을 보여준다. 각 행에 사용된 정렬 알고리즘을 바르게 나열한 것은? (단, 퀵정렬에서 피봇은 가장 오른쪽에 있는 원소를 사용한다)</stem>
+      <passage>| 입력 | 21 | 41 | 15 | 25 | 21 | 37 | 45 | 9 | 23 | 18 | 36 | 4 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ㉠ | 9 | 15 | 21 | 21 | 25 | 37 | 41 | 45 | 23 | 18 | 36 | 4 | 11 |
+| ㉡ | 4 | 9 | 11 | 15 | 18 | 37 | 45 | 41 | 23 | 21 | 36 | 21 | 25 |
+| ㉢ | 15 | 21 | 21 | 25 | 37 | 41 | 45 | 9 | 18 | 23 | 4 | 11 | 36 |
+| ㉣ | 4 | 9 | 11 | 25 | 21 | 37 | 45 | 41 | 23 | 18 | 36 | 21 | 15 |
+| 결과 | 4 | 9 | 11 | 15 | 18 | 21 | 21 | 23 | 25 | 36 | 37 | 41 | 45 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">삽입정렬 선택정렬 합병정렬 퀵정렬</choice>
+        <choice no="2" is_answer="false">삽입정렬 퀵정렬 합병정렬 선택정렬</choice>
+        <choice no="3" is_answer="false">합병정렬 선택정렬 삽입정렬 퀵정렬</choice>
+        <choice no="4" is_answer="false">합병정렬 퀵정렬 선택정렬 삽입정렬</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 중간의 행들은 합병정렬(merge sort), 삽입정렬(insertion sort), 선택정렬(selection sort), 퀵정렬(quick sort) | 정답 선지: 삽입정렬 선택정렬 합병정렬 퀵정렬</explanation_ref>
+    </question>
+    <question no="8" id="PRB-9701334D7592AF47-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 차수가 3인 B+ 트리(tree)의 초기 상태이다. 이 트리에 색인키 'F', 'I', 'J'를 순서대로 삽입한 후의 모습은? (단, 단말 노드는 최대 2개의 원소를 포함할 수 있으며, 단말 노드의 분할 시 중간 위치의 값은 오른쪽 노드에 포함되도록 한다)</stem>
+      <passage>[   ]</passage>
+      <images count="6">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-9701334D7592AF47/8_도형_1.png</image>
+        <image area="지문" kind="도형" seq="2">이미지/PRB-9701334D7592AF47/8_도형_2.png</image>
+        <image area="지문" kind="도형" seq="3">이미지/PRB-9701334D7592AF47/8_도형_3.png</image>
+        <image area="지문" kind="도형" seq="4">이미지/PRB-9701334D7592AF47/8_도형_4.png</image>
+        <image area="지문" kind="도형" seq="5">이미지/PRB-9701334D7592AF47/8_도형_5.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-9701334D7592AF47/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="true">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 비교불가(선택지 텍스트 없음))" cross_check="비교불가(선택지 텍스트 없음)">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트리(tree) | 정답 선지: [그림/도표 선지 4번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="9" id="PRB-9701334D7592AF47-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림과 같은 최대 힙(max heap)을 구성하기 위한 삽입 순서로 옳은 것은?</stem>
+      <images count="1">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-9701334D7592AF47/9_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">50, 30, 40, 70, 60, 10, 20</choice>
+        <choice no="2" is_answer="false">10, 60, 50, 70, 20, 30, 40</choice>
+        <choice no="3" is_answer="false">10, 20, 40, 30, 60, 50, 70</choice>
+        <choice no="4" is_answer="true">50, 60, 30, 10, 20, 70, 40</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="9">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과 같은 최대 힙(max heap) | 정답 선지: 50, 60, 30, 10, 20, 70, 40</explanation_ref>
+    </question>
+    <question no="10" id="PRB-9701334D7592AF47-Q10" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>다음 그래프에 대한 모든 쌍의 최단 경로를 구하기 위해 최단 거리 행렬 D^(-1), D^(0), D^(1), D^(2)를 차례대로 구한다고 했을 때, D^(1)의 계산 결과는?</stem>
+      <images count="1">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-9701334D7592AF47/10_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | ∞ | | [1] | 6 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice>
+        <choice no="2" is_answer="true">| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1] | 6 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice>
+        <choice no="3" is_answer="false">| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1] | 3 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice>
+        <choice no="4" is_answer="false">| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | ∞ | | [1] | 6 | 0 | 2 | | [2] | 1 | 5 | 0 |</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="10">[정답 2번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 그래프 | 정답 선지: | | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1]...</explanation_ref>
+    </question>
+    <question no="11" id="PRB-9701334D7592AF47-Q11" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>다음은 연결 스택(linked stack)에서 새로운 노드를 삽입하는 C 언어 프로그램이다. ㉠, ㉡에 들어갈 내용으로 옳게 짝지은 것은? (단, top은 스택의 첫 번째 노드를 가리키는 포인터이며, top이 NULL이면 공백 스택이다)</stem>
+      <passage>typedef struct node {
+int key;
+struct node *link;
+} StackNode;
+StackNode *top = NULL;
+void push(int data) {
+StackNode *tmp = (struct node*)malloc(sizeof(StackNode));
+if (tmp == NULL) {
+printf("Memory allocation is failed.\n");
+exit(1);
+}
+tmp→key = data;
+if (top == NULL) {
+tmp→link = NULL;
+top = tmp;
+}
+else {
+㉠;
+㉡;
+}
+}</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">tmp→link = top top = tmp</choice>
+        <choice no="2" is_answer="false">top→link = tmp tmp = top→link</choice>
+        <choice no="3" is_answer="false">top→link = tmp tmp = top</choice>
+        <choice no="4" is_answer="false">tmp→link = top top = tmp→link</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="11">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 다음은 연결 스택(linked stack), void push(int data), sizeof(StackNode) | 정답 선지: tmp→link = top top = tmp</explanation_ref>
+    </question>
+    <question no="12" id="PRB-9701334D7592AF47-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 키(key)를 갖는 데이터들을 공백 AVL 트리에 차례대로 저장하였다. 생성된 AVL 트리를 T라고 할 때, 다음 설명 중에서 옳은 것은?</stem>
+      <passage>12, 14, 9, 16, 19, 11</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">T에 키가 25인 노드를 삽입하면 루트 노드가 바뀌게 된다.</choice>
+        <choice no="2" is_answer="false">T에서 키가 9인 노드를 삭제하면 T의 높이가 1 감소한다.</choice>
+        <choice no="3" is_answer="false">T에 키가 7인 노드를 삽입하면 T의 높이가 1 증가한다.</choice>
+        <choice no="4" is_answer="true">키가 9인 노드와 키가 16인 노드는 형제 노드이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="12">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 키(key) | 정답 선지: 키가 9인 노드와 키가 16인 노드는 형제 노드이다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-9701334D7592AF47-Q13" type="긍정형(옳은/적절한 것 고르기)" category="어법·규범·어휘형">
+      <stem>다음 C 언어 함수의 시간 복잡도를 빅오(O) 표기법으로 표현한 것은? (단, $n &gt; 1$)</stem>
+      <passage>void testing(int n)
+{
+int i, j, sum = 0;
+for (i = 0; i &lt; n; i++)
+for (j = n; j &gt; 1; j /= 2)
+sum += 1;
+}</passage>
+      <formulas count="1">
+        <formula area="질문">n &gt; 1</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">O(n)</choice>
+        <choice no="2" is_answer="false">O(n^(2))</choice>
+        <choice no="3" is_answer="true">O(nlogn)</choice>
+        <choice no="4" is_answer="false">O(logn)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="13">[정답 3번] 긍정형(옳은/적절한 것 고르기) (어법·규범·어휘형) | 핵심어: void testing(int n), O(nlogn), O(logn) | 정답 선지: O(nlogn)</explanation_ref>
+    </question>
+    <question no="14" id="PRB-9701334D7592AF47-Q14" type="빈칸/기호 추론형" category="수리·계산·자료해석형">
+      <stem>다음은 원형 연결 리스트(circular linked list)의 길이를 구하는 C 언어 프로그램이다. ㉠ ～ ㉢에 들어갈 내용으로 옳게 짝지은 것은?</stem>
+      <passage>typedef struct node {
+int key;
+struct node *link;
+} list_node;
+int length(list_node *ptr) {
+list_node *temp;
+int count = 0;
+if (㉠) {
+temp = ptr;
+do {
+count++;
+㉡;
+} while (㉢);
+}
+return count;
+}</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">ptr != NULL temp = temp→link temp != ptr</choice>
+        <choice no="2" is_answer="false">ptr == NULL temp = temp→link temp == ptr</choice>
+        <choice no="3" is_answer="false">ptr != NULL ptr = temp→link temp != ptr</choice>
+        <choice no="4" is_answer="false">ptr == NULL ptr = temp→link temp == ptr</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="14">[정답 1번] 빈칸/기호 추론형 (수리·계산·자료해석형) | 핵심어: 다음은 원형 연결 리스트(circular linked list) | 정답 선지: ptr != NULL temp = temp→link temp != ptr</explanation_ref>
+    </question>
+    <question no="15" id="PRB-9701334D7592AF47-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>이중 연결 리스트(doubly linked list)의 노드를 나타내는 구조체 node에 이전 노드를 가리키는 포인터 llink와 다음 노드를 가리키는 포인터 rlink가 있다고 하자. 포인터 new_node가 가리키는 노드를 포인터 p가 가리키는 노드의 왼쪽에 삽입할 때, 문장의 수행순서를 바르게 나열한 것은?</stem>
+      <passage>ㄱ. p→llink→rlink = p→rlink;
+ㄴ. p→rlink→llink = p→llink;
+ㄷ. p→llink→rlink = new_node;
+ㄹ. new_node→rlink = p;
+ㅁ. p = new_node;
+ㅂ. new_node→llink = p→llink;
+ㅅ. p→llink = new_node;</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ → ㄴ</choice>
+        <choice no="2" is_answer="false">ㅂ → ㅅ → ㄷ → ㄹ</choice>
+        <choice no="3" is_answer="false">ㄷ → ㅂ → ㄹ → ㅁ</choice>
+        <choice no="4" is_answer="true">ㄷ → ㄹ → ㅂ → ㅅ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이중 연결 리스트(doubly linked list) | 정답 선지: ㄷ → ㄹ → ㅂ → ㅅ</explanation_ref>
+    </question>
+    <question no="16" id="PRB-9701334D7592AF47-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음은 C 언어를 사용하여 원형 큐(circular queue)의 삽입(enqueue)과 삭제(dequeue) 연산을 구현한 것이다.</stem>
+      <passage>int Q[8] = {0};
+int front = 0;
+int rear = 0;
+void enqueue(int item)
+{
+rear = (rear + 1) % 8;
+if (front == rear) {
+printf("Queue is full.\n");
+return;
+}
+Q[rear] = item;
+}
+int dequeue()
+{
+int item;
+if (front == rear) {
+printf("Queue is empty.\n");
+exit(1);
+}
+else {
+front = (front + 1) % 8;
+item = Q[front];
+Q[front] = 0;
+return item;
+}
+}
+front와 rear의 값이 0인 공백 큐에 6개의 값 1, 3, 2, 4, 8, 6을 차례대로 삽입하고, 여기에서 2개의 값을 삭제한 다음, 다시 3개의 값 5, 7, 9를 차례대로 삽입할 때, 배열 Q의 최종 모습은?
+Q[0]
+Q[1]
+Q[2]
+Q[3]
+Q[4]
+Q[5]
+Q[6]
+Q[7]</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">0 7 9 2 4 8 6 5</choice>
+        <choice no="2" is_answer="false">2 4 8 6 5 7 9 0</choice>
+        <choice no="3" is_answer="true">7 9 0 2 4 8 6 5</choice>
+        <choice no="4" is_answer="false">9 0 2 4 8 6 5 7</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: C 언어를 사용하여 원형 큐(circular queue), 의 삽입(enqueue), 과 삭제(dequeue), void enqueue(int item) | 정답 선지: 7 9 0 2 4 8 6 5</explanation_ref>
+    </question>
+    <question no="17" id="PRB-9701334D7592AF47-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 C 프로그램의 출력 값으로 옳은 것은? (단, int 데이터 타입은 4 바이트로 표현되며, 배열 a의 시작 주소는 2293520이다)</stem>
+      <passage>int main()
+{
+int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},
+{50, 55, 60, 65}};
+printf("a+1 = %d, ", a+1);
+printf("*(*a+2) = %d, ", *(*a+2));
+printf("*(*(a+1)+2) = %d\n", *(*(a+1)+2));
+return 0;
+}</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">a+1 = 2293521, *(*a+2) = 50, *(*(a+1)+2) = 55</choice>
+        <choice no="2" is_answer="true">a+1 = 2293536, *(*a+2) = 20, *(*(a+1)+2) = 40</choice>
+        <choice no="3" is_answer="false">a+1 = 2293521, *(*a+2) = 20, *(*(a+1)+2) = 40</choice>
+        <choice no="4" is_answer="false">a+1 = 2293536, *(*a+2) = 50, *(*(a+1)+2) = 55</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="17">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: C 프로그램의 출력 값 | 정답 선지: a+1 = 2293536, *(*a+2) = 20, *(*(a+1)+2) = 40</explanation_ref>
+    </question>
+    <question no="18" id="PRB-9701334D7592AF47-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 인접행렬이 표현하는 그래프의 부분 그래프 중에서 간선(edge)이 최소한 1개 이상인 연결 그래프의 개수는?</stem>
+      <passage>| | [0] | [1] | [2] | [3] |
+|---|---|---|---|---|
+| [0] | 0 | 1 | 1 | 1 |
+| [1] | 1 | 0 | 1 | 0 |
+| [2] | 1 | 1 | 0 | 0 |
+| [3] | 1 | 0 | 0 | 0 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">12</choice>
+        <choice no="2" is_answer="false">13</choice>
+        <choice no="3" is_answer="true">14</choice>
+        <choice no="4" is_answer="false">15</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="18">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 부분 그래프 중에서 간선(edge) | 정답 선지: 14</explanation_ref>
+    </question>
+    <question no="19" id="PRB-9701334D7592AF47-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>기수 정렬(radix sort)을 수행하여 다음 원소들을 오름차순으로 정렬하고자 한다. 각 단계별 정렬 순서로 나타날 수 없는 것은? (단, 정수 $K$는 $0 \leq K \leq 999$ 범위에 있고 각 자리수를 나타내는 3개의 서브키($K^{1}$, $K^{2}$, $K^{3}$)로 구성되어 있다고 생각한다. 여기서 $K^{1}$는 일의 자리 수, $K^{2}$는 십의 자리 수, $K^{3}$는 백의 자리 수를 의미하고, $0 \leq K^{i} \leq 9$이다)</stem>
+      <passage>129, 308, 506, 92, 3, 841, 33</passage>
+      <formulas count="9">
+        <formula area="질문">K</formula>
+        <formula area="질문">0 \leq K \leq 999</formula>
+        <formula area="질문">K^{1}</formula>
+        <formula area="질문">K^{2}</formula>
+        <formula area="질문">K^{3}</formula>
+        <formula area="질문">K^{1}</formula>
+        <formula area="질문">K^{2}</formula>
+        <formula area="질문">K^{3}</formula>
+        <formula area="질문">0 \leq K^{i} \leq 9</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">3, 506, 308, 129, 33, 841, 92</choice>
+        <choice no="2" is_answer="true">92, 3, 33, 129, 308, 506, 841</choice>
+        <choice no="3" is_answer="false">841, 92, 3, 33, 506, 308, 129</choice>
+        <choice no="4" is_answer="false">3, 33, 92, 129, 308, 506, 841</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="19">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기수 정렬(radix sort) | 정답 선지: 92, 3, 33, 129, 308, 506, 841</explanation_ref>
+    </question>
+    <question no="20" id="PRB-9701334D7592AF47-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>행렬 $M = ( a_{ij} )$가 $\left| i - j \right| &gt; 1$이면 0 값을 가질 때, 이러한 행렬을 삼중대각행렬(tridiagonal matrix)이라고 하며, 다음은 $6 \times 6$ 삼중대각행렬의 예를 보여준다. (단, $1 \leq i \leq m$, $1 \leq j \leq n$)</stem>
+      <passage>${\begin{bmatrix}a_{11} &amp; a_{12} &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ a_{21} &amp; a_{22} &amp; a_{23} &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; a_{32} &amp; a_{33} &amp; a_{34} &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; a_{43} &amp; a_{44} &amp; a_{45} &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; a_{54} &amp; a_{55} &amp; a_{56} \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; a_{65} &amp; a_{66}\end{bmatrix}}$
+행렬 $M ( m \times n )$의 0이 아닌 원소 $a_{ij}$를 열 우선(column major) 순서로 배열 A에 저장한다고 할 때, 0이 아닌 원소 $a_{ij}$가 배열 A에 저장되는 위치를 계산하는 수식으로 옳은 것은? (단, 배열 A의 시작주소는 α이고, 행렬 $M$의 0인 원소는 배열에 저장하지 않는다)</passage>
+      <formulas count="15">
+        <formula area="질문">M = ( a_{ij} )</formula>
+        <formula area="질문">\left | i - j \right | &gt; 1</formula>
+        <formula area="질문">6 \times 6</formula>
+        <formula area="질문">1 \leq i \leq m</formula>
+        <formula area="질문">1 \leq j \leq n</formula>
+        <formula area="지문">{bmatrix {a_{11} &amp; a_{12} &amp; 0 &amp; 0 &amp; 0 &amp; 0 # a_{21} &amp; a_{22} &amp; a_{23} &amp; 0 &amp; 0 &amp; 0 # 0 &amp; a_{32} &amp; a_{33} &amp; a_{34} &amp; 0 &amp; 0 # 0 &amp; 0 &amp; a_{43} &amp; a_{44} &amp; a_{45} &amp; 0 # 0 &amp; 0 &amp; 0 &amp; a_{54} &amp; a_{55} &amp; a_{56} # 0 &amp; 0 &amp; 0 &amp; 0 &amp; a_{65} &amp; a_{66}}}</formula>
+        <formula area="지문">M ( m \times n )</formula>
+        <formula area="지문">a_{ij}</formula>
+        <formula area="지문">a_{ij}</formula>
+        <formula area="지문">\alpha</formula>
+        <formula area="지문">M</formula>
+        <formula area="선택지①">\alpha + 3 BULLET ( j - 1 ) + ( i - j )</formula>
+        <formula area="선택지②">\alpha + 3 BULLET ( j - 1 ) + ( j - i )</formula>
+        <formula area="선택지③">\alpha + 3 BULLET ( i - 1 ) + ( i - j )</formula>
+        <formula area="선택지④">\alpha + 3 BULLET ( i - 1 ) + ( j - i )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\alpha + 3 \bullet ( j - 1 ) + ( i - j )$</choice>
+        <choice no="2" is_answer="false">$\alpha + 3 \bullet ( j - 1 ) + ( j - i )$</choice>
+        <choice no="3" is_answer="false">$\alpha + 3 \bullet ( i - 1 ) + ( i - j )$</choice>
+        <choice no="4" is_answer="false">$\alpha + 3 \bullet ( i - 1 ) + ( j - i )$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="자료구조론_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이러한 행렬을 삼중대각행렬(tridiagonal matrix), 를 열 우선(column major), bullet ( j - 1 ), bullet ( i - 1 ) | 정답 선지: $\alpha + 3 \bullet ( j - 1 ) + ( i - j )$</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-525DE420072B876A</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>628</subject_code>
+    <subject_name>전자회로</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자회로_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-525DE420072B876A-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>하한 차단주파수가 150 [kHz]이고 상한 차단주파수가 600 [kHz]인 대역통과필터(bandpass filter)의 Q(quality factor)값은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{1}{3}</formula>
+        <formula area="선택지②">\frac{1}{2}</formula>
+        <formula area="선택지③">\frac{2}{3}</formula>
+        <formula area="선택지④">\frac{5}{6}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{3}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{2}$</choice>
+        <choice no="3" is_answer="true">$\frac{2}{3}$</choice>
+        <choice no="4" is_answer="false">$\frac{5}{6}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="1">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인 대역통과필터(bandpass filter), 의 Q(quality factor) | 정답 선지: $\frac{2}{3}$</explanation_ref>
+    </question>
+    <question no="2" id="PRB-525DE420072B876A-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 변압기 권선비는 10 : 1이고 왼편 1차 측 전압은 $V_{i n} = 110 \sin ( 120 \pi t )$[V]이다. 다이오드에 걸리는 최대 역방향 전압[V]은? (단, 다이오드 양단의 순방향 전압은 0.7 [V]이다)</stem>
+      <formulas count="1">
+        <formula area="질문">V_{i n} = 110 \sin ( 120 \pi t )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/2_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/2_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">9.6</choice>
+        <choice no="2" is_answer="true">10.3</choice>
+        <choice no="3" is_answer="false">11</choice>
+        <choice no="4" is_answer="false">108.6</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="2">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 변압기, 권선비, 이고 | 정답 선지: 10.3</explanation_ref>
+    </question>
+    <question no="3" id="PRB-525DE420072B876A-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 출력 $Y$의 논리식은?</stem>
+      <formulas count="7">
+        <formula area="질문">Y</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">B</formula>
+        <formula area="선택지①">A + B</formula>
+        <formula area="선택지②">A ․ B</formula>
+        <formula area="선택지③">{\bar{A}} ․ {\bar{B}}</formula>
+        <formula area="선택지④">{\bar{A}} + {\bar{B}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/3_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/3_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$A + B$</choice>
+        <choice no="2" is_answer="false">$A . B$</choice>
+        <choice no="3" is_answer="true">${\bar{A}} . {\bar{B}}$</choice>
+        <choice no="4" is_answer="false">${\bar{A}} + {\bar{B}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="3">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 출력, 논리식 | 정답 선지: ${\bar{A}} . {\bar{B}}$</explanation_ref>
+    </question>
+    <question no="4" id="PRB-525DE420072B876A-Q4" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다이오드회로에 대한 설명으로 옳은 것만을 모두 고른 것은?</stem>
+      <passage>ㄱ. 발광 다이오드(light emitting diode)는 순방향 바이어스를 인가하여 사용하며 발광하는 빛의 출력량은 순방향 전류에 비례한다.
+ㄴ. 터널 다이오드(tunnel diode)는 부성저항(negative resistance) 영역의 특성이 있어 발진회로에 사용될 수 있다.
+ㄷ. 버랙터 다이오드(varactor diode)는 역방향 바이어스가 증가할수록 다이오드의 커패시턴스는 증가한다.
+ㄹ. 실리콘 PN 접합 다이오드에 순방향 바이어스를 인가하면 공핍 영역은 넓어지고 다이오드 양단에는 장벽전위 0.7 [V]가 걸린다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄹ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄷ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="4">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 다이오드회로, 발광 다이오드(light emitting diode), 터널 다이오드(tunnel diode), 는 부성저항(negative resistance), 버랙터 다이오드(varactor diode) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X</explanation_ref>
+    </question>
+    <question no="5" id="PRB-525DE420072B876A-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 디지털 논리회로에서 입력이 $A$, $B$이고 출력이 $Y$일 경우, 입출력 사이의 논리식이 다른 것은?</stem>
+      <formulas count="7">
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">Y</formula>
+        <formula area="선택지①">A</formula>
+        <formula area="선택지①">B</formula>
+        <formula area="선택지②">A</formula>
+        <formula area="선택지②">B</formula>
+      </formulas>
+      <images count="5">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/5_도형_1.png</image>
+        <image area="지문" kind="도형" seq="2">이미지/PRB-525DE420072B876A/5_도형_2.png</image>
+        <image area="지문" kind="도형" seq="3">이미지/PRB-525DE420072B876A/5_도형_3.png</image>
+        <image area="지문" kind="도형" seq="4">이미지/PRB-525DE420072B876A/5_도형_4.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$A$ $B$</choice>
+        <choice no="2" is_answer="false">$A$ $B$</choice>
+        <choice no="3" is_answer="false">[수식/도표 선지 3번]</choice>
+        <choice no="4" is_answer="true">[수식/도표 선지 4번]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="5">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 디지털, 논리회로에서, 입력, 이고 | 정답 선지: [수식/도표 선지 4번]</explanation_ref>
+    </question>
+    <question no="6" id="PRB-525DE420072B876A-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 왼쪽 그림 (a)에 표시한 주파수 특성을 갖는 연산 증폭기를 이용하여 오른쪽 그림 (b)의 부궤환(negative feedback)회로를 구현하였다. $R_{2} = 1 , 000 R_{1}$일 때, &lt;i&gt;A&lt;/i&gt;[dB]와 &lt;i&gt;B&lt;/i&gt;[MHz]의 값으로 가장 가까운 것은?</stem>
+      <formulas count="11">
+        <formula area="질문">R_{2} = 1 , 000 R_{1}</formula>
+        <formula area="지문">V_{i n}</formula>
+        <formula area="지문">V_{out}</formula>
+        <formula area="지문">f</formula>
+        <formula area="지문">B</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">f</formula>
+        <formula area="지문">V_{i n}</formula>
+        <formula area="지문">V_{out}</formula>
+        <formula area="지문">R_{1}</formula>
+        <formula area="지문">R_{2}</formula>
+      </formulas>
+      <images count="4">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/6_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/6_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/6_pdf_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="2">이미지/PRB-525DE420072B876A/6_pdf_2.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">0 1,000</choice>
+        <choice no="2" is_answer="false">0 100</choice>
+        <choice no="3" is_answer="false">20 100</choice>
+        <choice no="4" is_answer="false">20 1</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="6">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 부궤환(negative feedback) | 정답 선지: 0 1,000</explanation_ref>
+    </question>
+    <question no="7" id="PRB-525DE420072B876A-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 정현파인 입력파형($V_{i n}$)이 가해진 경우, 정상상태에서 출력파형(_($V_{out}$))은? (단, 다이오드 양단의 순방향전압은 0.7 [V]이다)</stem>
+      <formulas count="4">
+        <formula area="질문">V_{i n}</formula>
+        <formula area="질문">V_{out}</formula>
+        <formula area="지문">V_{i n}</formula>
+        <formula area="지문">V_{out}</formula>
+      </formulas>
+      <images count="9">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/7_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/7_도형_1.png</image>
+        <image area="지문" kind="도형" seq="2">이미지/PRB-525DE420072B876A/7_도형_2.png</image>
+        <image area="지문" kind="도형" seq="3">이미지/PRB-525DE420072B876A/7_도형_3.png</image>
+        <image area="지문" kind="도형" seq="4">이미지/PRB-525DE420072B876A/7_도형_4.png</image>
+        <image area="지문" kind="도형" seq="5">이미지/PRB-525DE420072B876A/7_도형_5.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/7_pdf_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="2">이미지/PRB-525DE420072B876A/7_pdf_2.png</image>
+        <image area="지문" kind="PDF크롭" seq="3">이미지/PRB-525DE420072B876A/7_pdf_3.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[수식/도표 선지 1번]</choice>
+        <choice no="2" is_answer="false">0 －7.7 －17.7 －27.7</choice>
+        <choice no="3" is_answer="true">[수식/도표 선지 3번]</choice>
+        <choice no="4" is_answer="false">[수식/도표 선지 4번]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 정현파인, 입력파형, 가해진 | 정답 선지: [수식/도표 선지 3번]</explanation_ref>
+    </question>
+    <question no="8" id="PRB-525DE420072B876A-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 저역통과필터의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$이 10일 때, 차단주파수가 50 [kHz]가 되기 위한 $R_{1}$[kΩ]과 $R_{2}$[kΩ]는? (단, 연산증폭기는 이상적이라고 가정한다)</stem>
+      <formulas count="3">
+        <formula area="질문">\left( \frac{V_{out}}{V_{i n}} \right)</formula>
+        <formula area="질문">R_{1}</formula>
+        <formula area="질문">R_{2}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/8_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/8_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">20 11</choice>
+        <choice no="2" is_answer="true">20 9</choice>
+        <choice no="3" is_answer="false">200 11</choice>
+        <choice no="4" is_answer="false">200 9</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="8">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 저역통과필터, 전압이득, 차단주파수, 되기 | 정답 선지: 20 9</explanation_ref>
+    </question>
+    <question no="9" id="PRB-525DE420072B876A-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 위상천이 발진기에서 발진각주파수가 1,000 [rad/s]인 경우, 발진기로 동작하기 위한 저항 $R$[kΩ]과 $R_{f}$[kΩ]의 값은? (단, $C = 0 . 1 [ muF ]$, $\sqrt{6} = 2 . 5 ,$ 연산증폭기는 이상적이라고 가정한다)</stem>
+      <formulas count="4">
+        <formula area="질문">R</formula>
+        <formula area="질문">R_{f}</formula>
+        <formula area="질문">C = 0 . 1 [ muF ]</formula>
+        <formula area="질문">\sqrt{6} = 2 . 5 ,</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/9_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/9_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">4 116</choice>
+        <choice no="2" is_answer="false">3 87</choice>
+        <choice no="3" is_answer="false">2 58</choice>
+        <choice no="4" is_answer="false">1 29</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="9">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 위상천, 발진기에서, 발진각주파수, 발진기 | 정답 선지: 4 116</explanation_ref>
+    </question>
+    <question no="10" id="PRB-525DE420072B876A-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 그림과 같이 R/2R 사다리형 DAC(digital-analog converter) 회로를 구성한 후 ＋5 [V]의 기준전압을 인가할 때, 출력전압 $V_{out}$[V]은? (단, 연산증폭기는 이상적이라고 가정한다)</stem>
+      <formulas count="1">
+        <formula area="질문">V_{out}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/10_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.625</choice>
+        <choice no="2" is_answer="true">1.25</choice>
+        <choice no="3" is_answer="false">2.5</choice>
+        <choice no="4" is_answer="false">5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 2R 사다리형 DAC(digital-analog converter) | 정답 선지: 1.25</explanation_ref>
+    </question>
+    <question no="11" id="PRB-525DE420072B876A-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 증폭회로에서 전압이득 $\left| \frac{V_{out}}{V_{i n}} \right|$의 값은? (단, _($M_{1}$)의 전달컨덕턴스 _($g_{m}$ )＝ 10 [m℧]이고 _($R_{S}$ )＝ 900 [Ω]이다)</stem>
+      <formulas count="4">
+        <formula area="질문">\left | \frac{V_{out}}{V_{i n}} \right |</formula>
+        <formula area="질문">M_{1}</formula>
+        <formula area="질문">g_{m}</formula>
+        <formula area="질문">R_{S}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/11_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/11_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.8</choice>
+        <choice no="2" is_answer="true">0.9</choice>
+        <choice no="3" is_answer="false">1.0</choice>
+        <choice no="4" is_answer="false">1.1</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="11">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 증폭회로에서, 전압이득, 전달컨덕턴스, 이고 | 정답 선지: 0.9</explanation_ref>
+    </question>
+    <question no="12" id="PRB-525DE420072B876A-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 $R_{1} = 3 R_{2}$이고 $3 R_{3} = R_{4}$일 때, 출력전압 $V_{out}$은? (단, 연산증폭기는 이상적이라고 가정한다)</stem>
+      <formulas count="7">
+        <formula area="질문">R_{1} = 3 R_{2}</formula>
+        <formula area="질문">3 R_{3} = R_{4}</formula>
+        <formula area="질문">V_{out}</formula>
+        <formula area="선택지①">2 V_{i n}</formula>
+        <formula area="선택지②">4 V_{i n}</formula>
+        <formula area="선택지③">- 4 V_{i n}</formula>
+        <formula area="선택지④">- 2 V_{i n}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/12_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/12_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/12_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$2 V_{i n}$</choice>
+        <choice no="2" is_answer="false">$4 V_{i n}$</choice>
+        <choice no="3" is_answer="true">$- 4 V_{i n}$</choice>
+        <choice no="4" is_answer="false">$- 2 V_{i n}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="12">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 이고, 출력전압, 연산증폭기 | 정답 선지: $- 4 V_{i n}$</explanation_ref>
+    </question>
+    <question no="13" id="PRB-525DE420072B876A-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로의 설명으로 옳지 않은 것은?</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/13_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/13_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">AM 신호 복조에 사용할 수 있다.</choice>
+        <choice no="2" is_answer="true">저주파 신호는 통과하기 어렵다.</choice>
+        <choice no="3" is_answer="false">RC 시정수가 클수록 리플전압이 줄어든다.</choice>
+        <choice no="4" is_answer="false">피크검파기로 사용할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로 | 정답 선지: 저주파 신호는 통과하기 어렵다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-525DE420072B876A-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 CMOS 논리회로에서 출력 $Z$의 논리식은?</stem>
+      <formulas count="5">
+        <formula area="질문">Z</formula>
+        <formula area="선택지①">\bar{A} ․ \bar{B} + A ․ B</formula>
+        <formula area="선택지②">\bar{A} ․ B + A ․ \bar{B}</formula>
+        <formula area="선택지③">A + B</formula>
+        <formula area="선택지④">\bar{A}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/14_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\bar{A} . \bar{B} + A . B$</choice>
+        <choice no="2" is_answer="true">$\bar{A} . B + A . \bar{B}$</choice>
+        <choice no="3" is_answer="false">$A + B$</choice>
+        <choice no="4" is_answer="false">$\bar{A}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="14">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로에서, 출력, 논리식 | 정답 선지: $\bar{A} . B + A . \bar{B}$</explanation_ref>
+    </question>
+    <question no="15" id="PRB-525DE420072B876A-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 MOSFET 증폭기회로의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$은? (단, $g_{m1}$과 _($r_o1$)은 트랜지스터 $M_1$, $g_m2$와 $r_o2$는 트랜지스터 $M_2$에 해당하는 파라미터이다. body effect는 무시하며 커패시터 $C$는 충분히 커서 교류신호에 대해서 임피던스는 0 [Ω]으로 가정한다)</stem>
+      <formulas count="12">
+        <formula area="질문">\left( \frac{V_{out}}{V_{i n}} \right)</formula>
+        <formula area="질문">g_{m1}</formula>
+        <formula area="질문">r_o1</formula>
+        <formula area="질문">M_1</formula>
+        <formula area="질문">g_m2</formula>
+        <formula area="질문">r_o2</formula>
+        <formula area="질문">M_2</formula>
+        <formula area="질문">C</formula>
+        <formula area="선택지①">- \left( g_{m1} + g_{m2} \right) \left( r_{o1} PVER r_{o2} PVER R_{L} \right)</formula>
+        <formula area="선택지②">- \left( g_{m1} - g_{m2} \right) \left( r_{o1} PVER r_{o2} PVER R_{L} \right)</formula>
+        <formula area="선택지③">- g_{m1} \left( r_{o1} PVER r_{o2} PVER R_{L} \right)</formula>
+        <formula area="선택지④">- \left( g_{m2} - g_{m1} \right) \left( r_{o1} PVER r_{o2} PVER R_{L} \right)</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/15_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/15_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$- \left( g_{m1} + g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice>
+        <choice no="2" is_answer="false">$- \left( g_{m1} - g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice>
+        <choice no="3" is_answer="false">$- g_{m1} \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice>
+        <choice no="4" is_answer="false">$- \left( g_{m2} - g_{m1} \right) \left( r_{o1} \| r_{o2} \| R_{L} \right)$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="15">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 증폭기회로, 전압이득, 트랜지스터, 해당하 | 정답 선지: $- \left( g_{m1} + g_{m2} \right) \left( r_{o1} \| r_{o2} \| R_{L...</explanation_ref>
+    </question>
+    <question no="16" id="PRB-525DE420072B876A-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음은 n－채널 MOSFET으로 구성된 바이어스회로이다. 이 회로에서 n－채널 MOSFET은 포화영역(saturation region)에서 동작하고 있고 $V_{OQ}$는 2.5 [V]일 때 n－채널 MOSFET의 채널폭과 채널길이 비인 $\frac{W}{L}$ 의 값은? (단, 공정전달 컨덕턴스 파라미터 $k_{n} = \mu_{n} C_{ox} = 10^{- 4}$ [A/V^(2)], 문턱전압 $V_{tn} = 0 . 5$ [V], channel length modulation 및 body effect는 무시한다)</stem>
+      <formulas count="4">
+        <formula area="질문">V_{OQ}</formula>
+        <formula area="질문">\frac{W}{L}</formula>
+        <formula area="질문">k_{n}^{} = \mu_{n} C_{ox} = 10^{- 4}</formula>
+        <formula area="질문">V_{tn} = 0 . 5</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/16_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/16_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="true">5</choice>
+        <choice no="3" is_answer="false">10</choice>
+        <choice no="4" is_answer="false">20</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="16">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 채널 MOSFET은 포화영역(saturation region) | 정답 선지: 5</explanation_ref>
+    </question>
+    <question no="17" id="PRB-525DE420072B876A-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로는 CMOS 인버터 5단을 이용하여 만든 링 발진기(ring oscillator)이다. 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/17_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">인버터의 단 수를 3단으로 줄이면 발진주파수가 올라간다.</choice>
+        <choice no="2" is_answer="false">인버터의 단 수를 6단으로 늘리면 발진하지 않는다.</choice>
+        <choice no="3" is_answer="false">지연시간이 더 작은 인버터를 이용하면 발진주파수가 올라간다.</choice>
+        <choice no="4" is_answer="true">인버터의 공급전압을 올려도 발진주파수에는 변함이 없다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="17">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 을 이용하여 만든 링 발진기(ring oscillator) | 정답 선지: 인버터의 공급전압을 올려도 발진주파수에는 변함이 없다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-525DE420072B876A-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 입력신호 _($V_{i n}$)을 변조해서 출력신호 $V_out$을 발생시키는 회로이다. 이 전체회로의 변조방식은?</stem>
+      <passage>＋
+－
+단안정 멀티
+바이브레이터
+trigger
+$V_{i n}$
+0
+$V_{i n}$
+$t$
+$V_{s}$
+0
+$t$</passage>
+      <formulas count="7">
+        <formula area="질문">V_{i n}</formula>
+        <formula area="질문">V_out</formula>
+        <formula area="지문">V_{i n}</formula>
+        <formula area="지문">V_{i n}</formula>
+        <formula area="지문">t</formula>
+        <formula area="지문">V_{s}</formula>
+        <formula area="지문">t</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/18_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">펄스폭 변조(PWM)</choice>
+        <choice no="2" is_answer="false">펄스부호 변조(PCM)</choice>
+        <choice no="3" is_answer="true">펄스위치 변조(PPM)</choice>
+        <choice no="4" is_answer="false">펄스진폭 변조(PAM)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 펄스폭 변조(PWM), 펄스부호 변조(PCM), 펄스위치 변조(PPM), 펄스진폭 변조(PAM) | 정답 선지: 펄스위치 변조(PPM)</explanation_ref>
+    </question>
+    <question no="19" id="PRB-525DE420072B876A-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 진리표로부터 논리식을 나타낸 것으로 옳은 것은? (단, x는 don’t care상태이다)</stem>
+      <passage>| A | B | C | D | Y |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 | x |
+| 0 | 1 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 0 | 1 | x |
+| 1 | 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 0 |</passage>
+      <formulas count="4">
+        <formula area="선택지①">Y = B ․ \bar{C} + \bar{A} ․ \bar{C}</formula>
+        <formula area="선택지②">Y = B ․ \bar{C} ․ \bar{D} + \bar{C} ․ \bar{D}</formula>
+        <formula area="선택지③">Y = B ․ D + \bar{B} ․ \bar{C} ․ D</formula>
+        <formula area="선택지④">Y = B ․ \bar{C} + \bar{C} ․ D</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$Y = B . \bar{C} + \bar{A} . \bar{C}$</choice>
+        <choice no="2" is_answer="false">$Y = B . \bar{C} . \bar{D} + \bar{C} . \bar{D}$</choice>
+        <choice no="3" is_answer="false">$Y = B . D + \bar{B} . \bar{C} . D$</choice>
+        <choice no="4" is_answer="true">$Y = B . \bar{C} + \bar{C} . D$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="19">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 진리표로부터 논리식을 나타낸 것 | 정답 선지: $Y = B . \bar{C} + \bar{C} . D$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-525DE420072B876A-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 MOSFET 증폭기회로의 전압이득 $\left( \frac{V_{out}}{V_{i n}} \right)$은? (단, _($g_{m1}$)은 트랜지스터 $M_1$, $g_m2$는 트랜지스터 $M_2$에 해당하는 파라미터이다. body effect와 channel length modulation은 무시하며 커패시터 &lt;i&gt;C&lt;/i&gt;_(B)는 충분히 커서 교류신호에 대해서 임피던스는 0 [Ω]으로 가정한다)</stem>
+      <formulas count="10">
+        <formula area="질문">\left( \frac{V_{out}}{V_{i n}} \right)</formula>
+        <formula area="질문">g_{m1}</formula>
+        <formula area="질문">M_1</formula>
+        <formula area="질문">g_m2</formula>
+        <formula area="질문">M_2</formula>
+        <formula area="지문">V_{DD}</formula>
+        <formula area="선택지①">\left( - \frac{( R_{1} + R_{2} ) PVER R_{3}}{R_{S} + ( R_{1} + R_{2} ) PVER R_{3}} \right) \left( \frac{R_{2} PVER \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)</formula>
+        <formula area="선택지②">\left( - \frac{( R_{1} + R_{2} ) PVER R_{3}}{R_{S} + ( R_{1} + R_{2} ) PVER R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)</formula>
+        <formula area="선택지③">\left( - \frac{R_{1} PVER R_{3}}{R_{S} + R_{1} PVER R_{3}} \right) \left( \frac{R_{2} PVER \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)</formula>
+        <formula area="선택지④">\left( - \frac{R_{1} PVER R_{3}}{R_{S} + R_{1} PVER R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-525DE420072B876A/20_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-525DE420072B876A/20_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-525DE420072B876A/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\left( - \frac{( R_{1} + R_{2} ) \| R_{3}}{R_{S} + ( R_{1} + R_{2} ) \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice>
+        <choice no="2" is_answer="false">$\left( - \frac{( R_{1} + R_{2} ) \| R_{3}}{R_{S} + ( R_{1} + R_{2} ) \| R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice>
+        <choice no="3" is_answer="true">$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{R_{2} \| \frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice>
+        <choice no="4" is_answer="false">$\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \left( \frac{\frac{1}{g_{m2}}}{\frac{1}{g_{m1}} + R_{4}} \right)$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="20">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 증폭기회로, 전압이득, 트랜지스터, 해당하 | 정답 선지: $\left( - \frac{R_{1} \| R_{3}}{R_{S} + R_{1} \| R_{3}} \right) \...</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

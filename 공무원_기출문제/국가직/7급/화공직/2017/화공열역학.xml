@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2017-06</exam_id>
+    <subject_row_id>PRB-7E804B3804845F49</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>화공직</series>
+    <year>2017</year>
+    <exam_title>2017년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>607</subject_code>
+    <subject_name>화공열역학</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>화공열역학_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-7E804B3804845F49-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>열역학적 변수들에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">온도, 압력, 밀도는 세기(intensive) 성질이다.</choice>
+        <choice no="2" is_answer="false">부피, 질량은 크기(extensive) 성질이다.</choice>
+        <choice no="3" is_answer="true">엔트로피는 경로(path) 함수이다.</choice>
+        <choice no="4" is_answer="false">엔탈피는 상태(state) 함수이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="1">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 열역학적 변수들, 밀도는 세기(intensive), 질량은 크기(extensive), 엔트로피는 경로(path), 엔탈피는 상태(state) | 정답 선지: 엔트로피는 경로(path) 함수이다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-7E804B3804845F49-Q2" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>실제 기체의 열용량에 대한 설명으로 옳은 것만을 모두 고른 것은? (단, $C_{v}$는 정적열용량, $C_{p}$는 정압열용량이다)</stem>
+      <passage>ㄱ. $C_{v}$는 온도의 함수이다.
+ㄴ. 단열 팽창 공정일 때 $C_{p}$는 $C_{v}$와 같은 값이다.
+ㄷ. $C_{p}$는 온도에 무관한 함수이다.</passage>
+      <formulas count="6">
+        <formula area="질문">C_{v}</formula>
+        <formula area="질문">C_{p}</formula>
+        <formula area="지문">C_{v}</formula>
+        <formula area="지문">C_{p}</formula>
+        <formula area="지문">C_{v}</formula>
+        <formula area="지문">C_{p}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ</choice>
+        <choice no="2" is_answer="false">ㄴ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="2">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 실제 기체의 열용량 | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X</explanation_ref>
+    </question>
+    <question no="3" id="PRB-7E804B3804845F49-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>Gibbs 에너지에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">일정한 온도와 압력에서 닫힌 계의 평형상태는 전체 Gibbs 에너지가 최소인 상태이다.</choice>
+        <choice no="2" is_answer="false">일정한 온도와 압력에서 기체의 혼합과정 중 Gibbs 에너지는 감소한다.</choice>
+        <choice no="3" is_answer="true">반응평형상수 값은 Gibbs 에너지의 변화와 무관하다.</choice>
+        <choice no="4" is_answer="false">단일 성분 계에서 Gibbs 에너지는 온도와 압력의 함수이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="3">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Gibbs 에너지 | 정답 선지: 반응평형상수 값은 Gibbs 에너지의 변화와 무관하다.</explanation_ref>
+    </question>
+    <question no="4" id="PRB-7E804B3804845F49-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>기체의 부피 팽창률(volume expansivity)은 β 이고 등온 압축률(isothermal compressibility)은 $\kappa$ 라고 할 때, $\left( \frac{\partial T}{\partial P} \right)_{V}$ 값은?</stem>
+      <formulas count="7">
+        <formula area="질문">\beta</formula>
+        <formula area="질문">\kappa</formula>
+        <formula area="질문">\left( \frac{Partial T}{Partial P} \right)_{V}</formula>
+        <formula area="선택지①">- \frac{\beta}{\kappa}</formula>
+        <formula area="선택지②">- \frac{\kappa}{\beta}</formula>
+        <formula area="선택지③">\frac{\beta}{\kappa}</formula>
+        <formula area="선택지④">\frac{\kappa}{\beta}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$- \frac{\beta}{\kappa}$</choice>
+        <choice no="2" is_answer="false">$- \frac{\kappa}{\beta}$</choice>
+        <choice no="3" is_answer="false">$\frac{\beta}{\kappa}$</choice>
+        <choice no="4" is_answer="true">$\frac{\kappa}{\beta}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="4">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기체의 부피 팽창률(volume expansivity) | 정답 선지: $\frac{\kappa}{\beta}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-7E804B3804845F49-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>닫힌 계에서 어떤 기체가 $P = \frac{RT}{V - b}$의 상태방정식을 따른다고 할 때, 이 기체의 부피에 대한 내부에너지($U$)의 변화량 $\left( \frac{\partial U}{\partial V} \right)_{T}$의 값은? (단, $V$는 몰부피, $R$은 기체상수, $b$는 양의 상수이다)</stem>
+      <formulas count="8">
+        <formula area="질문">P = \frac{RT}{V - b}</formula>
+        <formula area="질문">U</formula>
+        <formula area="질문">\left( \frac{Partial U}{Partial V} \right)_{T}</formula>
+        <formula area="질문">V</formula>
+        <formula area="질문">R</formula>
+        <formula area="질문">b</formula>
+        <formula area="선택지③">b</formula>
+        <formula area="선택지④">\frac{1}{V^{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="true">0</choice>
+        <choice no="3" is_answer="false">$b$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{V^{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 닫힌, 계에서, 어떤, 기체 | 정답 선지: 0</explanation_ref>
+    </question>
+    <question no="6" id="PRB-7E804B3804845F49-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>1 기압, 300 K의 공기가 매우 느린 속도$( u_{1} \approx 0 )$로 압축기에 유입된 후 3 기압으로 압축되었다가 다시 노즐에서 팽창되어 1 기압, 300 K이 되었다. 이때 최종속도$( u_{2} )$가 500 m s^(－1) 이었고, 압축과정에서 공기 1 kg당 125 kJ의 열이 제거되었다면, 공기 1 kg당 가해진 일[kJ]은? (단, 위치에너지의 변화와 마찰에 의한 손실은 없다)</stem>
+      <formulas count="2">
+        <formula area="질문">( u_{1} \approx 0 )</formula>
+        <formula area="질문">( u_{2} )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">125</choice>
+        <choice no="2" is_answer="true">250</choice>
+        <choice no="3" is_answer="false">375</choice>
+        <choice no="4" is_answer="false">500</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="6">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 기압, 공기, 매우, 느린 | 정답 선지: 250</explanation_ref>
+    </question>
+    <question no="7" id="PRB-7E804B3804845F49-Q7" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>Carnot 엔진에 대한 정규 $T - S$ 선도(실선)에서 어느 하나의 과정에 점선으로 표시된 변화를 준 경우에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="1">
+        <formula area="질문">T - S</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7E804B3804845F49/7_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">㉠의 변화를 주면, 엔진의 효율이 증가한다.</choice>
+        <choice no="2" is_answer="false">㉡의 변화를 주면, 엔진이 하는 일의 양이 증가한다.</choice>
+        <choice no="3" is_answer="true">㉢의 변화를 주면, 엔진의 효율이 감소한다.</choice>
+        <choice no="4" is_answer="false">㉣의 변화를 주면, 엔진이 하는 일의 양이 증가한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="7">[정답 3번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: Carnot 엔진 | 정답 선지: ㉢의 변화를 주면, 엔진의 효율이 감소한다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-7E804B3804845F49-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>닫힌 계에서 어떤 기체의 상태방정식이 $V = \frac{RT}{P} + b$로 표시된다. 기체가 가역적으로 등온 압축되는 과정의 부피감소$( V_{1} \rightarrow V_{2} )$에 필요한 일($W$)의 양($\left| W \right|$)은? (단, $V$는 몰부피, $R$은 기체상수, $b$는 양의 상수이다)</stem>
+      <formulas count="11">
+        <formula area="질문">V = \frac{RT}{P} + b</formula>
+        <formula area="질문">( V_{1} \rightarrow V_{2} )</formula>
+        <formula area="질문">W</formula>
+        <formula area="질문">\left | W \right |</formula>
+        <formula area="질문">V</formula>
+        <formula area="질문">R</formula>
+        <formula area="질문">b</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지②">RT \ln \left( \frac{V_{1}}{V_{2}} \right)</formula>
+        <formula area="선택지③">RT \ln \left( \frac{V_{1} + b}{V_{2} + b} \right)</formula>
+        <formula area="선택지④">RT \ln \left( \frac{V_{1} - b}{V_{2} - b} \right)</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$0$</choice>
+        <choice no="2" is_answer="false">$RT \ln \left( \frac{V_{1}}{V_{2}} \right)$</choice>
+        <choice no="3" is_answer="false">$RT \ln \left( \frac{V_{1} + b}{V_{2} + b} \right)$</choice>
+        <choice no="4" is_answer="true">$RT \ln \left( \frac{V_{1} - b}{V_{2} - b} \right)$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="8">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 닫힌, 계에서, 어떤, 기체 | 정답 선지: $RT \ln \left( \frac{V_{1} - b}{V_{2} - b} \right)$</explanation_ref>
+    </question>
+    <question no="9" id="PRB-7E804B3804845F49-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$A$, $B$, $C$의 삼성분계에서 과잉 Gibbs 에너지($G^{E}$)가 $G^{E} = x_{A} x_{B} x_{C} R T$로 표시될 때, 성분 $A$의 활동도 계수($\gamma_{A}$)는? (단, $x_{A}$, $x_{B}$, $x_{C}$는 각각 성분 $A$, $B$, $C$의 몰분율이며, $R$은 기체상수이다)</stem>
+      <formulas count="18">
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">C</formula>
+        <formula area="질문">G^{E}</formula>
+        <formula area="질문">G^{E} = x_{A} x_{B} x_{C} R T</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">\gamma_{A}</formula>
+        <formula area="질문">x_{A}</formula>
+        <formula area="질문">x_{B}</formula>
+        <formula area="질문">x_{C}</formula>
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">C</formula>
+        <formula area="질문">R</formula>
+        <formula area="선택지①">exp ( 2 x_{B}^{2} x_{C}^{} + 2 x_{B}^{} x_{C}^{2} - x_{B}^{} x_{C}^{} )</formula>
+        <formula area="선택지②">exp ( x_{B}^{2} x_{C}^{} + x_{B}^{} x_{C}^{2} - x_{B}^{} x_{C}^{} )</formula>
+        <formula area="선택지③">exp ( 2 x_{B}^{2} x_{C}^{} + 2 x_{B}^{} x_{C}^{2} + x_{B}^{} x_{C}^{} )</formula>
+        <formula area="선택지④">exp ( x_{B}^{2} x_{C}^{} + x_{B}^{} x_{C}^{2} + x_{B}^{} x_{C}^{} )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} - x_{B} x_{C} )$</choice>
+        <choice no="2" is_answer="false">$exp ( x_{B}^{2} x_{C} + x_{B} x_{C}^{2} - x_{B} x_{C} )$</choice>
+        <choice no="3" is_answer="false">$exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} + x_{B} x_{C} )$</choice>
+        <choice no="4" is_answer="false">$exp ( x_{B}^{2} x_{C} + x_{B} x_{C}^{2} + x_{B} x_{C} )$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="9">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 삼성분계에서, 과잉, 에너지, 표시될 | 정답 선지: $exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} - x_{B} x_{C} )$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-7E804B3804845F49-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어떤 기체의 압력$( P )$에 대한 압축인자($Z$)의 관계가 다음과 같은 온도별 그래프로 표시된다. 그래프에서 $P - Z$ 관계가 $Z = 1 + B ^{\prime} P + C ^{\prime} P^{2} + \cdots$의 비리얼(virial) 식으로 표현될 때, 가장 작은 제2 비리얼 계수($B ^{\prime}$) 값을 갖는 온도는?</stem>
+      <formulas count="9">
+        <formula area="질문">( P )</formula>
+        <formula area="질문">Z</formula>
+        <formula area="질문">P - Z</formula>
+        <formula area="질문">Z = 1 + B prime P + C prime P^{2} + CDOTS</formula>
+        <formula area="질문">B prime</formula>
+        <formula area="선택지①">T_{1}</formula>
+        <formula area="선택지②">T_{2}</formula>
+        <formula area="선택지③">T_{3}</formula>
+        <formula area="선택지④">T_{4}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7E804B3804845F49/10_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-7E804B3804845F49/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7E804B3804845F49/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$T_{1}$</choice>
+        <choice no="2" is_answer="false">$T_{2}$</choice>
+        <choice no="3" is_answer="false">$T_{3}$</choice>
+        <choice no="4" is_answer="false">$T_{4}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="10">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어떤 기체의 압력$( P )$, 의 비리얼(virial) | 정답 선지: $T_{1}$</explanation_ref>
+    </question>
+    <question no="11" id="PRB-7E804B3804845F49-Q11" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>부피와 온도가 같은 두 단열 상자가 있다. 한 상자에는 $Ar$ 이 다른 상자에는 $N e$ 이 각각 1 몰씩 들어있다. 두 상자를 맞대고 그 사이의 벽을 제거하여 두 기체를 혼합할 때, 변하지 않는 열역학적 양으로만 묶은 것은? (단, 두 기체는 서로 반응하지 않는 이상기체이며, 벽을 제거할 때 마찰손실은 없다)</stem>
+      <passage>ㄱ. 엔트로피
+ㄴ. 엔탈피
+ㄷ. Gibbs 에너지
+ㄹ. 내부에너지</passage>
+      <formulas count="2">
+        <formula area="질문">Ar</formula>
+        <formula area="질문">N e</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄹ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="true">ㄴ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="11">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 부피와, 온도, 단열, 상자 | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:X, ㄹ:O</explanation_ref>
+    </question>
+    <question no="12" id="PRB-7E804B3804845F49-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>수평관 내에서 이상기체의 흐름공정에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="2">
+        <formula area="선택지③">DELTA H = 0</formula>
+        <formula area="선택지④">DELTA S = 0</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">터빈은 내부에너지를 운동에너지로 변환시킨다.</choice>
+        <choice no="2" is_answer="true">비가역 단열 흐름에서 온도는 흐름방향으로 감소한다.</choice>
+        <choice no="3" is_answer="false">조름공정은 등엔탈피($\Delta H = 0$) 과정이다.</choice>
+        <choice no="4" is_answer="false">가역 단열압축 공정은 등엔트로피($\Delta S = 0$) 과정이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="12">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 수평관 내에서 이상기체의 흐름공정 | 정답 선지: 비가역 단열 흐름에서 온도는 흐름방향으로 감소한다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-7E804B3804845F49-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 $P - V$ 선도에서 $a$와 $b$사이의 가역 과정에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="9">
+        <formula area="질문">P - V</formula>
+        <formula area="질문">a</formula>
+        <formula area="질문">b</formula>
+        <formula area="선택지①">a \rightarrow c \rightarrow b \rightarrow d \rightarrow a</formula>
+        <formula area="선택지②">a \rightarrow e \rightarrow b</formula>
+        <formula area="선택지②">b \rightarrow d \rightarrow a</formula>
+        <formula area="선택지③">a \rightarrow c \rightarrow b</formula>
+        <formula area="선택지③">a \rightarrow e \rightarrow b</formula>
+        <formula area="선택지④">a \rightarrow c \rightarrow b \rightarrow d \rightarrow a</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7E804B3804845F49/13_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-7E804B3804845F49/13_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7E804B3804845F49/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로의 내부에너지 변화량은 0이다.</choice>
+        <choice no="2" is_answer="false">$a \rightarrow e \rightarrow b$ 경로와 $b \rightarrow d \rightarrow a$ 경로에 대한 엔탈피 변화량의 절댓값은 같다.</choice>
+        <choice no="3" is_answer="false">$a \rightarrow c \rightarrow b$ 경로와 $a \rightarrow e \rightarrow b$ 경로에서 한 일의 양은 서로 다르다.</choice>
+        <choice no="4" is_answer="true">$a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로에서 한 일은 0이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: $P - V$ 선도에서 $a$와 $b$사이의 가역 과정 | 정답 선지: $a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로...</explanation_ref>
+    </question>
+    <question no="14" id="PRB-7E804B3804845F49-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>1 몰의 이상기체를 1 기압에서 10 기압으로 등온 압축할 경우, 계의 엔트로피 변화($\Delta S$)는? (단, $R$은 기체상수이다)</stem>
+      <formulas count="6">
+        <formula area="질문">DELTA S</formula>
+        <formula area="질문">R</formula>
+        <formula area="선택지①">R \ln \left( \frac{1}{10} \right)</formula>
+        <formula area="선택지②">- R \ln left ( \frac{1}{10} \right)</formula>
+        <formula area="선택지③">\frac{R}{10}</formula>
+        <formula area="선택지④">- \frac{R}{10}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$R \ln \left( \frac{1}{10} \right)$</choice>
+        <choice no="2" is_answer="false">$- R \ln \left ( \frac{1}{10} \right)$</choice>
+        <choice no="3" is_answer="false">$\frac{R}{10}$</choice>
+        <choice no="4" is_answer="false">$- \frac{R}{10}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="14">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상기체, 기압에서, 기압으, 등온 | 정답 선지: $R \ln \left( \frac{1}{10} \right)$</explanation_ref>
+    </question>
+    <question no="15" id="PRB-7E804B3804845F49-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 경로 중 1 기압, 300 K의 이상기체를 3 기압, 300 K으로 압축할 때, 필요한 일($W$)의 양($\left| W \right|$)이 가장 큰 것은?</stem>
+      <formulas count="2">
+        <formula area="질문">W</formula>
+        <formula area="질문">\left | W \right |</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">300 K을 유지하며 가역적으로 압축</choice>
+        <choice no="2" is_answer="false">가역적으로 단열 압축한 후, 3 기압을 유지하며 냉각</choice>
+        <choice no="3" is_answer="true">일정 부피에서 가압한 후, 3 기압을 유지하며 냉각</choice>
+        <choice no="4" is_answer="false">1 기압을 유지하며 수축한 후, 일정 부피를 유지하며 가열</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="15">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기압, 이상기체, 압축할, 필요한 | 정답 선지: 일정 부피에서 가압한 후, 3 기압을 유지하며 냉각</explanation_ref>
+    </question>
+    <question no="16" id="PRB-7E804B3804845F49-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>닫힌 계에서 이원자분자 이상기체가 일정 압력을 유지하며 외부로부터 공급된 열에 의해 팽창하여 일을 할 때, 기체에 공급된 열이 일로 전환된 비율은? (단, 이원자분자 이상기체의 정적 열용량 $C_{v} = \frac{5}{2} R$이며 $R$은 기체상수이다)</stem>
+      <formulas count="6">
+        <formula area="질문">C_{v} = \frac{5}{2} R</formula>
+        <formula area="질문">R</formula>
+        <formula area="선택지①">\frac{2}{3}</formula>
+        <formula area="선택지②">\frac{2}{5}</formula>
+        <formula area="선택지③">\frac{2}{7}</formula>
+        <formula area="선택지④">\frac{2}{9}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{2}{3}$</choice>
+        <choice no="2" is_answer="false">$\frac{2}{5}$</choice>
+        <choice no="3" is_answer="true">$\frac{2}{7}$</choice>
+        <choice no="4" is_answer="false">$\frac{2}{9}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="16">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 닫힌, 계에서, 이원자분자, 이상기체 | 정답 선지: $\frac{2}{7}$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-7E804B3804845F49-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>수소 연료전지에서 $2 H_2 ( g ) + O_2 ( g ) \rightarrow 2 H_2 O ( l )$의 반응이 일어난다. 각 성분의 표준생성엔탈피와 표준생성엔트로피가 표와 같을 때, 300 K에서의 기전력[V]은? (단, Faraday 상수는 96500 C mol^(－1)이다)</stem>
+      <passage>| 화합물 | 표준생성엔탈피  [kJ mol^(－1)] | 표준생성엔트로피  [J mol^(－1 )K^(－1)] |
+|---|---|---|
+| $H_{2} O ( l )$ | -290 | 70 |
+| $H_2 ( g )$ | 0 | 130 |
+| $O_2 ( g )$ | 0 | 205 |</passage>
+      <formulas count="4">
+        <formula area="질문">2 H_2 ( g ) + O_2 ( g ) \rightarrow 2 H_2 O ( l )</formula>
+        <formula area="지문">H_{2} O ( l )</formula>
+        <formula area="지문">H_2 ( g )</formula>
+        <formula area="지문">O_2 ( g )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1.0</choice>
+        <choice no="2" is_answer="true">1.25</choice>
+        <choice no="3" is_answer="false">1.5</choice>
+        <choice no="4" is_answer="false">2.5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="17">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 2 ( g ), 2 O ( l ), O ( l ) | 정답 선지: 1.25</explanation_ref>
+    </question>
+    <question no="18" id="PRB-7E804B3804845F49-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>일정 온도에서 $H_{2} ( g ) + I_{2} ( g )$⇌$2 HI ( g )$와 같은 반응이 일어난다. 각 성분의 몰농도가 시간에 따라 다음 그래프와 같이 변한다면, 이 반응의 반응평형상수 값은?</stem>
+      <formulas count="2">
+        <formula area="질문">H_{2} ( g ) + I_{2} ( g )</formula>
+        <formula area="질문">2 HI ( g )</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7E804B3804845F49/18_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-7E804B3804845F49/18_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7E804B3804845F49/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="false">4</choice>
+        <choice no="3" is_answer="true">8</choice>
+        <choice no="4" is_answer="false">16</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="18">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 2 HI ( g ) | 정답 선지: 8</explanation_ref>
+    </question>
+    <question no="19" id="PRB-7E804B3804845F49-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>어떤 온도 $T [ K ]$에서 에탄올의 증기압 $P^{sat}$[kPa]을 $P^{sat} = exp ( 13 - \frac{2500}{T} )$로 표현할 수 있다고 할 때, 300 $K$에서 에탄올의 증발잠열[$kJ mol^{- 1}$]은? (단, 에탄올 증기는 이상기체로 가정하고 액체의 몰부피는 증기의 몰부피에 비해 매우 작아서 무시하며, 기체상수 $R = 8 . 3 J mol^{- 1} K^{- 1}$이다)</stem>
+      <formulas count="6">
+        <formula area="질문">T [ K ]</formula>
+        <formula area="질문">P^{sat}</formula>
+        <formula area="질문">P^{sat} = exp ( 13 - \frac{2500}{T} )</formula>
+        <formula area="질문">K</formula>
+        <formula area="질문">kJ mol^{- 1}</formula>
+        <formula area="질문">R = 8 . 3 J mol^{- 1} K^{- 1}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">12.25</choice>
+        <choice no="2" is_answer="false">15.75</choice>
+        <choice no="3" is_answer="false">18.25</choice>
+        <choice no="4" is_answer="true">20.75</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="19">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 어떤, 온도, 에서, 에탄올 | 정답 선지: 20.75</explanation_ref>
+    </question>
+    <question no="20" id="PRB-7E804B3804845F49-Q20" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어떤 일정 온도에서 성분 1과 성분 2로 구성된 기－액 혼합물의 $P - x_{1} - y_{1}$ 상평형 선도에 대한 설명으로 옳지 않은 것은? (단, $N_{V}$는 기상의 몰수, $N_{L}$은 액상의 몰수, $x_{1}$은 성분 1의 액상 몰분율, $y_{1}$은 성분 1의 기상 몰분율, $z_{1}$은 혼합물 내 성분 1의 총 몰분율, $P$는 계의 전체압력, $P_{1}^{sat}$은 성분 1의 포화증기압, $P_{2}^{sat}$은 성분 2의 포화증기압이며, $w_{V}$와 $w_{L}$은 표시한 부분의 길이이다)</stem>
+      <formulas count="13">
+        <formula area="질문">P - x_{1} - y_{1}</formula>
+        <formula area="질문">N_{V}</formula>
+        <formula area="질문">N_{L}</formula>
+        <formula area="질문">x_{1}</formula>
+        <formula area="질문">y_{1}</formula>
+        <formula area="질문">z_{1}</formula>
+        <formula area="질문">P</formula>
+        <formula area="질문">P_{1}^{sat}</formula>
+        <formula area="질문">P_{2}^{sat}</formula>
+        <formula area="질문">w_{V}</formula>
+        <formula area="질문">w_{L}</formula>
+        <formula area="선택지②">N_{L} w_{V} = N_{V} w_{L}</formula>
+        <formula area="선택지③">P - x_{1}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7E804B3804845F49/20_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-7E804B3804845F49/20_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7E804B3804845F49/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">성분 1이 성분 2보다 휘발성이 높다.</choice>
+        <choice no="2" is_answer="true">$N_{L} w_{V} = N_{V} w_{L}$의 관계를 만족한다.</choice>
+        <choice no="3" is_answer="false">용액이 Raoult의 법칙을 따를 경우, $P - x_{1}$ 선도는 직선이다.</choice>
+        <choice no="4" is_answer="false">성분 2는 성분 1보다 끓는점이 높다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="20">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어떤, 일정, 온도에서, 성분 | 정답 선지: $N_{L} w_{V} = N_{V} w_{L}$의 관계를 만족한다.</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

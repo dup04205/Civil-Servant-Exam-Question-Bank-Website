@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_explanations>
+  <metadata>
+    <exam_id>EXM-2016-06</exam_id>
+    <subject_row_id>PRB-4E7FFC43113E0DB9</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>일반기계직</series>
+    <year>2016</year>
+    <exam_title>2016년도 7급 공개경쟁채용시험 문제별 상세 해설</exam_title>
+    <subject_code>645</subject_code>
+    <subject_name>자동제어</subject_name>
+    <booklet_type>2</booklet_type>
+    <total_questions>20</total_questions>
+    <question_file>자동제어.xml</question_file>
+    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+  </metadata>
+  <explanations>
+    <question_explanation no="1" id="PRB-4E7FFC43113E0DB9-Q1">
+      <question_stem>단위계단(unit step) 입력에 대한 2차 시스템의 시간역 성능에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>단위계단(unit step) 입력</keyword>
+        <keyword>단위계단(unit step)</keyword>
+        <keyword>시간응답의 최댓값은 감쇠비(damping ratio)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>시간응답은 선형시스템에서만 존재한다.</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 단위계단(unit step) 입력, 단위계단(unit step), 시간응답의 최댓값은 감쇠비(damping ratio)
+2. [정답 및 핵심 결론] 정답은 4번("시간응답은 선형시스템에서만 존재한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
+6. [포함 수식(LaTeX)] $±$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>시간응답은 과도응답과 정상상태응답으로 나누어진다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 시간응답] 문장 말미의 '...응답은 과도응답과 정상상태응답으로 나누어진다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>시간응답의 최댓값은 감쇠비(damping ratio)에 의존한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 시간응답의 최댓값] 문장 말미의 '...감쇠비(damping ratio)에 의존한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>정착시간을 정상상태응답의 $\pm$2 % 이내에 도달하는 시간으로 정의할 때, 정착시간은 시스템 시정수의 약 4배이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 정착시간을 정상상태응답의 $\pm$2 %] 문장 말미의 '이내에' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (비교 우열·정족수·기한 수치의 정확성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>시간응답은 선형시스템에서만 존재한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 시간응답] 문장 내 '...시간응답은 선형시스템에서만 존재한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="2" id="PRB-4E7FFC43113E0DB9-Q2">
+      <question_stem>다음 피드백 제어시스템에서 감쇠비를 $\frac{1}{\sqrt{2}}$로 설정하기 위한 제어이득 K의 값은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>피드백</keyword>
+        <keyword>제어시스템에서</keyword>
+        <keyword>감쇠비</keyword>
+        <keyword>설정하기</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>8</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 피드백, 제어시스템에서, 감쇠비, 설정하기
+2. [정답 및 핵심 결론] 정답은 3번("8")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 피드백, 제어시스템에서, 감쇠비, 설정하기에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\frac{1}{\sqrt{2}}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 4] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>6</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 6] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>8</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 8] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>10</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 10] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="3" id="PRB-4E7FFC43113E0DB9-Q3">
+      <question_stem>다음 상태공간 방정식으로 표현된 시스템의 전달함수 $G ( s ) = \frac{Y ( s )}{U ( s )}$가 중복극점 $s = - 1$을 가질 때 $a + b$의 값은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>G ( s )</keyword>
+        <keyword>Y ( s )</keyword>
+        <keyword>U ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>－1</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: G ( s ), Y ( s ), U ( s )
+2. [정답 및 핵심 결론] 정답은 2번("－1")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, G ( s ), Y ( s ), U ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s ) = \frac{Y ( s )}{U ( s )}$; $s = - 1$; $a + b$; ${bmatrix {\dot{x_{1}} # \dot{x_{2}}}} = {bmatrix {a &amp; b # 1 &amp; - 2}} {bmatrix {x_{1} # x_{2}}} + \left[ pile {1 # 0} \right] u # # y = \left[ 10 \right] {bmatrix {x_{1} # x_{2}}}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>－2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: －2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>－1</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: －1] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="4" id="PRB-4E7FFC43113E0DB9-Q4">
+      <question_stem>다음 상태공간 방정식으로 주어진 개루프 시스템에 상태 피드백 제어기를 설계한다. 제어시스템의 극점이 $- 2 \pm j2$가 되도록 하는 제어기 이득 $k_{1}$, $k_{2}$의 값은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>상태공간</keyword>
+        <keyword>방정식으</keyword>
+        <keyword>주어진</keyword>
+        <keyword>개루프</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>7 2</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 상태공간, 방정식으, 주어진, 개루프
+2. [정답 및 핵심 결론] 정답은 4번("7 2")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 상태공간, 방정식으, 주어진, 개루프에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $- 2 \pm j2$; $k_{1}$; $k_{2}$; ${bmatrix {\dot{x_{1}} # \dot{x_{2}}}} = {bmatrix {0 &amp; 1 # - 1 &amp; - 2}} {bmatrix {x_{1} # x_{2}}} + {bmatrix {0 # 1}} u # u = - {bmatrix {k_{1} &amp; k_{2}}} {bmatrix {x_{1} # x_{2}}}$; $k_{1}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2 4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2 4] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>4 2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 4 2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2 7</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2 7] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>7 2</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 7 2] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="5" id="PRB-4E7FFC43113E0DB9-Q5">
+      <question_stem>다음 기계진동 시스템에서 전달함수 $\frac{Y_{2} ( s )}{F ( s )}$의 극점은? (단, 질량 $M$ ＝ 5 [kg], 점성 마찰계수 $B$ ＝ 10 [N․s/m], 스프링 상수 $K$ ＝ 20 [N/m]이다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>F ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>$s = 0 , s = - 2$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: F ( s )
+2. [정답 및 핵심 결론] 정답은 1번("$s = 0 , s = - 2$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, F ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $\frac{Y_{2} ( s )}{F ( s )}$; $M$; $B$; $K$; $s = 0 , s = - 2$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$s = 0 , s = - 2$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $s = 0] 문장 말미의 '...$s = 0 , s = - 2$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$s = 0 , s = 2$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $s = 0] 문장 내 '...$s = 0 , s = 2$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$s = 2 , s = - 4$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $s = 2] 문장 내 '...$s = 2 , s = - 4$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$s = - 2 , s = 4$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $s = - 2] 문장 내 '...$s = - 2 , s = 4$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="6" id="PRB-4E7FFC43113E0DB9-Q6">
+      <question_stem>다음 상태공간 방정식에서 가제어성(controllability)을 만족하기 위한 $b$의 조건은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>상태공간 방정식에서 가제어성(controllability)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>$b \neq 0$ 이고 $b \neq 1$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 상태공간 방정식에서 가제어성(controllability)
+2. [정답 및 핵심 결론] 정답은 3번("$b \neq 0$ 이고 $b \neq 1$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 상태공간 방정식에서 가제어성(controllability)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $b$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = \left[ {matrix {- 1 &amp; &amp; 2 # 0 &amp; &amp; 1}} \right] \left[ pile {x_{1} # x_{2}} \right] + \left[ {matrix {1 # b}} \right] u # y = [ {matrix {1 &amp; &amp; 1}} ] \left[ pile {x_{1} # x_{2}} \right]$; $b = 0$; $b = 1$; $b = 0$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$b = 0$ 또는 $b = 1$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $b = 0$ 또] 문장 내 '...$b = 0$ 또는 $b = 1$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$b = 0$ 또는 $b = 2$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $b = 0$ 또] 문장 내 '...$b = 0$ 또는 $b = 2$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$b \neq 0$ 이고 $b \neq 1$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $b \neq 0$] 문장 말미의 '...$b \neq 0$ 이고 $b \neq 1$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$b \neq 0$ 이고 $b \neq 2$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $b \neq 0$] 문장 내 '...$b \neq 0$ 이고 $b \neq 2$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="7" id="PRB-4E7FFC43113E0DB9-Q7">
+      <question_stem>다음 전방경로(forward path) 전달함수를 갖는 단위 피드백 제어시스템이 안정할 $K$의 범위와 안정한계(marginally stable)에 놓일 때의 주파수 $\omega_{s}$[rad/sec]는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>다음 전방경로(forward path)</keyword>
+        <keyword>의 범위와 안정한계(marginally stable)</keyword>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 다음 전방경로(forward path), 의 범위와 안정한계(marginally stable), G ( s )
+2. [정답 및 핵심 결론] 정답은 2번("$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음 전방경로(forward path), 의 범위와 안정한계(marginally stable), G ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $K$; $\omega_{s}$; $G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$; $K &gt; 6000 , \omega_{s} = \sqrt{200}$; $0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K &gt; 6000] 문장 내 '...\omega_{s} = \sqrt{200}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $0 &lt; K &lt; 6000] 문장 말미의 '...\omega_{s} = \sqrt{200}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K &gt; 6000] 문장 내 '..., \omega_{s} = \sqrt{20}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 &lt; K &lt; 6000] 문장 내 '..., \omega_{s} = \sqrt{20}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="8" id="PRB-4E7FFC43113E0DB9-Q8">
+      <question_stem>단위 피드백 제어시스템의 전달함수가 $\frac{KG ( s )}{1 + KG ( s )}$인 경우, 다음은 안정한 전달함수 $KG ( s )$의 나이퀴스트(Nyquist) 선도를 나타낸다. 폐루프 시스템에 대한 설명으로 옳지 않은 것은? (단, $K &gt; 0$인 상수이다)</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>KG ( s )</keyword>
+        <keyword>의 나이퀴스트(Nyquist)</keyword>
+        <keyword>가 증가하면 이득여유(gain margin)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>$K = 1$인 경우 이득여유는 0.5 이다.</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: KG ( s ), 의 나이퀴스트(Nyquist), 가 증가하면 이득여유(gain margin)
+2. [정답 및 핵심 결론] 정답은 4번("$K = 1$인 경우 이득여유는 0.5 이다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
+6. [포함 수식(LaTeX)] $\frac{KG ( s )}{1 + KG ( s )}$; $KG ( s )$; $K &gt; 0$; $K$; $K = 2$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$K$가 증가하면 이득여유(gain margin)는 작아진다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $K$가 증] 문장 말미의 '...이득여유(gain margin)는 작아진다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$K = 2$인 경우 허수축에 극점을 갖는다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $K = 2$인 경우 허수축에 극점을 갖] 문장 말미의 '...$K = 2$인 경우 허수축에 극점을 갖는다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$K &lt; 2$인 경우 안정하다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $K &lt; 2$인 경우 안정하다.] 문장 말미의 '...$K &lt; 2$인 경우 안정하다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>$K = 1$인 경우 이득여유는 0.5 이다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: $K = 1$인 경우] 문장 내 '...$K = 1$인 경우 이득여유는 0.5 이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="9" id="PRB-4E7FFC43113E0DB9-Q9">
+      <question_stem>전달함수 $G ( s ) = \frac{1}{s^{2} + s + 1}$인 시스템의 정현파 입력신호 $sinwt$에 대한 출력진폭이 최대가 되는 주파수(ω)와 최댓값($A ( \omega )$)은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: G ( s )
+2. [정답 및 핵심 결론] 정답은 2번("$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, G ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s ) = \frac{1}{s^{2} + s + 1}$; $sinwt$; $\omega$; $A ( \omega )$; $\omega$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\sqrt{2}$ $\frac{\sqrt{3}}{2}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\sqrt{2}$ $\frac{\sqrt{3}}{2}$] 문장 내 '...{2}$ $\frac{\sqrt{3}}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{1}{\sqrt{2}}$ $\frac{2}{\sqr...] 문장 말미의 '...2}}$ $\frac{2}{\sqrt{3}}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\sqrt{2}$ $\frac{2}{\sqrt{3}}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\sqrt{2}$ $\frac{2}{\sqrt{3}}$] 문장 내 '...{2}$ $\frac{2}{\sqrt{3}}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{\sqrt{3}}{2}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{\sqrt{2}}$ $\frac{\sqrt{3...] 문장 내 '...2}}$ $\frac{\sqrt{3}}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="10" id="PRB-4E7FFC43113E0DB9-Q10">
+      <question_stem>다음 상태공간 방정식을 갖는 시스템에서 모든 극점의 실수부가 －2보다 작기 위한 $K$의 범위는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>상태공간</keyword>
+        <keyword>방정식</keyword>
+        <keyword>시스템에서</keyword>
+        <keyword>모든</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$4 &lt; K &lt; 8$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 상태공간, 방정식, 시스템에서, 모든
+2. [정답 및 핵심 결론] 정답은 2번("$4 &lt; K &lt; 8$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 상태공간, 방정식, 시스템에서, 모든에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $K$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = {bmatrix {- K &amp; - 12 # 1 &amp; 0}} \left[ pile {x_{1} # x_{2}} \right] + \left[ pile {1 # 0} \right] u # y = \left[ 12 \right] \left[ pile {x_{1} # x_{2}} \right]$; $0 &lt; K &lt; 8$; $4 &lt; K &lt; 8$; $- 4 &lt; K &lt; 8$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$0 &lt; K &lt; 8$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 &lt; K &lt; 8$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$4 &lt; K &lt; 8$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $4 &lt; K &lt; 8$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- 4 &lt; K &lt; 8$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- 4 &lt; K &lt; 8$] 문장 내 '...$- 4 &lt; K &lt; 8$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$- 8 &lt; K &lt; 4$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- 8 &lt; K &lt; 4$] 문장 내 '...$- 8 &lt; K &lt; 4$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="11" id="PRB-4E7FFC43113E0DB9-Q11">
+      <question_stem>다음 블록선도는 감쇠비($0 &lt; \zeta &lt; 1$), 고유주파수($\omega_{n}$)를 갖는 2차 제어대상에 대한 비례 제어시스템을 나타낸다. 비례제어 영향이 가장 적게 나타나는 성능지수는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>정착시간(settling time)</keyword>
+        <keyword>상승시간(rising time)</keyword>
+        <keyword>첨두시간(peak time)</keyword>
+        <keyword>최대 오버슈트(maximum overshoot)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>2 % 정착시간(settling time)</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 정착시간(settling time), 상승시간(rising time), 첨두시간(peak time), 최대 오버슈트(maximum overshoot)
+2. [정답 및 핵심 결론] 정답은 1번("2 % 정착시간(settling time)")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 정착시간(settling time), 상승시간(rising time), 첨두시간(peak time), 최대 오버슈트(maximum overshoot)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $0 &lt; \zeta &lt; 1$; $\omega_{n}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>2 % 정착시간(settling time)</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 2 % 정착시간(settling time)] 문장 말미의 '...2 % 정착시간(settling time)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>상승시간(rising time)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 상승시간(rising time)] 문장 내 '...상승시간(rising time)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>첨두시간(peak time)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 첨두시간(peak time)] 문장 내 '...첨두시간(peak time)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>최대 오버슈트(maximum overshoot)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 최대 오버슈트(maximum overshoot)] 문장 내 '...대 오버슈트(maximum overshoot)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="12" id="PRB-4E7FFC43113E0DB9-Q12">
+      <question_stem>다음 보드선도에 알맞은 전달함수 $G ( s )$는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>$G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: G ( s )
+2. [정답 및 핵심 결론] 정답은 1번("$G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, G ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s )$; $G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{10 ( 2 + s )}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{100 s}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{10 ( 20 + s )}{( 2 + s ) ( 100 + s )}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $G ( s ) = \frac{10^{4} ( 2 + s )}{...] 문장 말미의 '...{( 20 + s ) ( 100 + s )}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$G ( s ) = \frac{10 ( 2 + s )}{( 20 + s ) ( 100 + s )}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $G ( s ) = \frac{10 ( 2 + s )}{( 20...] 문장 내 '...{( 20 + s ) ( 100 + s )}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$G ( s ) = \frac{100 s}{( 20 + s ) ( 100 + s )}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $G ( s ) = \frac{100 s}{( 20 + s )...] 문장 내 '...{( 20 + s ) ( 100 + s )}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$G ( s ) = \frac{10 ( 20 + s )}{( 2 + s ) ( 100 + s )}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $G ( s ) = \frac{10 ( 20 + s )}{( 2...] 문장 내 '...}{( 2 + s ) ( 100 + s )}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="13" id="PRB-4E7FFC43113E0DB9-Q13">
+      <question_stem>다음 피드백 제어시스템의 근궤적(root locus) 작도법에 대한 설명으로 옳지 않은 것은? (단, $G ( s )$는 개루프 전달함수, $K &gt; 0$는 $G ( s )$에 포함된 근궤적 파라미터이다)</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>피드백 제어시스템의 근궤적(root locus) 작도법</keyword>
+        <keyword>피드백 제어시스템의 근궤적(root locus)</keyword>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 피드백 제어시스템의 근궤적(root locus) 작도법, 피드백 제어시스템의 근궤적(root locus), G ( s )
+2. [정답 및 핵심 결론] 정답은 4번("실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
+6. [포함 수식(LaTeX)] $G ( s )$; $K &gt; 0$; $G ( s )$; $K$; $\infty$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>$K$가 0에서 ∞로 증가함에 따라 근궤적은 개루프 극점에서 출발하여 개루프 영점에 종착한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $K$가 0에서 ∞로 증] 문장 말미의 '...프 극점에서 출발하여 개루프 영점에 종착한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>근궤적의 개수는 폐루프 극점의 개수와 같다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 근궤적의 개수] 문장 말미의 '...근궤적의 개수는 폐루프 극점의 개수와 같다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>점근선의 개수는 개루프 유한극점 $n$과 유한영점 $m$의 차, 즉 ($n - m$)개이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 점근선의 개수] 문장 말미의 '...점 $m$의 차, 즉 ($n - m$)개이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 실수축상의 근궤적] 문장 내 '...수가 홀수이면 그 구간에서 근궤적이 존재한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="14" id="PRB-4E7FFC43113E0DB9-Q14">
+      <question_stem>단위 피드백 제어시스템의 루프(loop) 전달함수 $G ( s ) =$$\frac{K}{( s + 1 ) ( s + a )}$에서 위상이 $- 180$ °되는 주파수(ω)가 0이라고 할 때, 이득여유(gain margin)가 항상 40[dB]이 되기 위한 $K$와 $a$의 관계식은? (단, $a &gt; 0$인 상수이다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>위 피드백 제어시스템의 루프(loop)</keyword>
+        <keyword>G ( s )</keyword>
+        <keyword>이득여유(gain margin)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$K = 0 . 01 a$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 위 피드백 제어시스템의 루프(loop), G ( s ), 이득여유(gain margin)
+2. [정답 및 핵심 결론] 정답은 2번("$K = 0 . 01 a$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 위 피드백 제어시스템의 루프(loop), G ( s ), 이득여유(gain margin)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s ) =$; $\frac{K}{( s + 1 ) ( s + a )}$; $- 180$; $\omega$; $K$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K = 0 . 1 a$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K = 0 . 1 a$] 문장 내 '...$K = 0 . 1 a$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$K = 0 . 01 a$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $K = 0 . 01 a$] 문장 말미의 '...$K = 0 . 01 a$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K = 0 . 05 a$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K = 0 . 05 a$] 문장 내 '...$K = 0 . 05 a$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K = 0 . 5 a$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K = 0 . 5 a$] 문장 내 '...$K = 0 . 5 a$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="15" id="PRB-4E7FFC43113E0DB9-Q15">
+      <question_stem>제어대상 $G$가 아래와 같은 상태공간 방정식으로 주어질 때, 피드백 제어시스템의 모든 극점의 실수부가 0보다 작기 위한 $K$의 범위는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>제어대</keyword>
+        <keyword>아래와</keyword>
+        <keyword>상태공간</keyword>
+        <keyword>방정식으</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>$K &gt; 2$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 제어대, 아래와, 상태공간, 방정식으
+2. [정답 및 핵심 결론] 정답은 4번("$K &gt; 2$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 제어대, 아래와, 상태공간, 방정식으에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G$; $K$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = \left[ {matrix {0 &amp; &amp; 1 # - 1 &amp; &amp; 2}} \right] \left[ pile {x_{1} # x_{2}} \right] + \left[ {matrix {0 # 1}} \right] u # y = [ 01 ] \left[ pile {x_{1} # x_{2}} \right]$; $0 &lt; K &lt; 1$; $K &gt; 1$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$0 &lt; K &lt; 1$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 &lt; K &lt; 1$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$K &gt; 1$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $K &gt; 1$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$0 &lt; K &lt; 2$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 &lt; K &lt; 2$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$K &gt; 2$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $K &gt; 2$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="16" id="PRB-4E7FFC43113E0DB9-Q16">
+      <question_stem>다음 피드백 제어시스템에서 단위계단(unit step) 입력에 대한 정상상태의 목표 출력값은 1이다. 전달함수 $G ( s ) = \frac{2}{s + 1}$일 때 정상상태 오차가 $\pm$0.2 이하가 되기 위한 $K$의 범위는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>피드백 제어시스템에서 단위계단(unit step) 입력</keyword>
+        <keyword>드백 제어시스템에서 단위계단(unit step)</keyword>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>$\frac{1}{3} \leq K \leq \frac{3}{4}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 피드백 제어시스템에서 단위계단(unit step) 입력, 드백 제어시스템에서 단위계단(unit step), G ( s )
+2. [정답 및 핵심 결론] 정답은 3번("$\frac{1}{3} \leq K \leq \frac{3}{4}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 피드백 제어시스템에서 단위계단(unit step) 입력, 드백 제어시스템에서 단위계단(unit step), G ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s ) = \frac{2}{s + 1}$; $±$; $K$; $\frac{1}{5} \leq K \leq \frac{7}{6}$; $\frac{1}{4} \leq K \leq \frac{6}{5}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{5} \leq K \leq \frac{7}{6}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{5} \leq K \leq \frac{7}{6...] 문장 내 '...\leq K \leq \frac{7}{6}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{4} \leq K \leq \frac{6}{5}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{4} \leq K \leq \frac{6}{5...] 문장 내 '...\leq K \leq \frac{6}{5}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\frac{1}{3} \leq K \leq \frac{3}{4}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{1}{3} \leq K \leq \frac{3}{4...] 문장 말미의 '...\leq K \leq \frac{3}{4}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{2} \leq K \leq \frac{4}{3}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{2} \leq K \leq \frac{4}{3...] 문장 내 '...\leq K \leq \frac{4}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="17" id="PRB-4E7FFC43113E0DB9-Q17">
+      <question_stem>전달함수 $G ( s ) = \frac{c}{s^{2} + as + b}$의 나이퀴스트(Nyquist) 선도가 다음과 같을 때 파라미터 $a , b , c$의 값은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>G ( s )</keyword>
+        <keyword>의 나이퀴스트(Nyquist)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>2 2 3</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: G ( s ), 의 나이퀴스트(Nyquist)
+2. [정답 및 핵심 결론] 정답은 1번("2 2 3")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, G ( s ), 의 나이퀴스트(Nyquist)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s ) = \frac{c}{s^{2} + as + b}$; $a , b , c$; $a$; $b$; $c$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>2 2 3</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 2 2 3] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1 3 2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1 3 2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2 3 2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2 3 2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1 2 3</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1 2 3] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="18" id="PRB-4E7FFC43113E0DB9-Q18">
+      <question_stem>다음 그림 (가)와 같은 피드백 제어시스템에서 $G ( s )$의 보드선도가 그림 (나)와 같을 때 단위계단 입력에 대한 정상상태오차는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>G ( s )</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>$\frac{1}{11}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: G ( s )
+2. [정답 및 핵심 결론] 정답은 1번("$\frac{1}{11}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, G ( s )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $G ( s )$; $\frac{1}{11}$; $\frac{1}{21}$; $\frac{1}{5}$; $\frac{1}{7}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\frac{1}{11}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{1}{11}$] 문장 말미의 '...$\frac{1}{11}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{21}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{21}$] 문장 내 '...$\frac{1}{21}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{5}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{5}$] 문장 내 '...$\frac{1}{5}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{1}{7}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{7}$] 문장 내 '...$\frac{1}{7}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="19" id="PRB-4E7FFC43113E0DB9-Q19">
+      <question_stem>다음 블록선도에서 $Y ( s \frac{)}{R} ( s )$의 전달함수는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>블록선도에서</keyword>
+        <keyword>전달함수</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>$\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 블록선도에서, 전달함수
+2. [정답 및 핵심 결론] 정답은 2번("$\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 블록선도에서, 전달함수에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+6. [포함 수식(LaTeX)] $Y ( s \frac{)}{R} ( s )$; $\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$; $\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$; $\frac{K_1 ( K_2 s + K_3 )}{s^2 + K_1 K_2 s + K_3}$; $\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{3}}$</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{K_{1} K_{2} s + K_{3}}{s^{2}...] 문장 내 '...} K_{2} s + K_{1} K_{3}}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>$\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{K_{1} ( K_{2} s + K_{3} )}{s...] 문장 말미의 '...} K_{2} s + K_{1} K_{3}}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{K_1 ( K_2 s + K_3 )}{s^2 + K_1 K_2 s + K_3}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{K_1 ( K_2 s + K_3 )}{s^2 + K...] 문장 내 '...}{s^2 + K_1 K_2 s + K_3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>$\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{3}}$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{K_{1} K_{2} s + K_{3}}{s^{2}...] 문장 내 '...+ K_{1} K_{2} s + K_{3}}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+    <question_explanation no="20" id="PRB-4E7FFC43113E0DB9-Q20">
+      <question_stem>두 개의 시스템을 직렬로 연결한 전체 시스템이 아래와 같을 때, 다음 상태공간 방정식의 시스템 행렬 $A , B$는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>시스템</keyword>
+        <keyword>직렬</keyword>
+        <keyword>연결한</keyword>
+        <keyword>전체</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</correct_choice_text>
+        <answer_source>정답표 (책형교차대조: 일치)</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전공(자동제어) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 시스템, 직렬, 연결한, 전체
+2. [정답 및 핵심 결론] 정답은 2번("${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2...")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 시스템, 직렬, 연결한, 전체에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$"
+6. [포함 수식(LaTeX)] $A , B$; ${bmatrix {\dot{x}_{1} # \dot{x}_{2}}} = A {bmatrix {x_{1} # x_{2}}} + B u$; $A$; $B$; ${bmatrix {A_{1} &amp; 0 # B_{2} C_{1} &amp; A_{2}}}$</overall_commentary>
+      <passage_evidence>${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2}...] 문장 내 '..._{1}\end{matrix} \right]$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: ${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2}...] 문장 말미의 '..._{1}\end{matrix} \right]$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ${\begin{bmatrix}A_{1} &amp; B_{2} C_{1...] 문장 내 '..._{1}\end{matrix} \right]$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ${\begin{bmatrix}A_{1} &amp; B_{2} C_{1...] 문장 내 '..._{1}\end{matrix} \right]$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+    </question_explanation>
+  </explanations>
+</exam_explanations>

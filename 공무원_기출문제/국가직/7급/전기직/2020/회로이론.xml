@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2020-06</exam_id>
+    <subject_row_id>PRB-D8CA0294A9A3C4A8</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전기직</series>
+    <year>2020</year>
+    <exam_title>2020년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>605</subject_code>
+    <subject_name>회로이론</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>회로이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-D8CA0294A9A3C4A8-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>회로해석에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">중첩의 원리는 모든 회로에서 적용된다.</choice>
+        <choice no="2" is_answer="false">한 회로에서 테브난 등가회로의 등가저항은 노튼 등가회로의 등가저항과 같다.</choice>
+        <choice no="3" is_answer="false">한 회로 내의 임의의 마디에서 나가는 전류의 합은 그 마디로 들어오는 전류의 합과 같다.</choice>
+        <choice no="4" is_answer="false">한 회로에서 부하저항이 그 회로의 테브난 등가저항과 같을 때, 부하저항에 최대전력이 전달된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="1">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로해석 | 정답 선지: 중첩의 원리는 모든 회로에서 적용된다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-D8CA0294A9A3C4A8-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>연산증폭기 회로에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">이상적인 연산증폭기는 입력저항이 무한대이고 출력저항은 0이다.</choice>
+        <choice no="2" is_answer="false">이상적인 연산증폭기에서 2개의 입력단자에 각각 흐르는 전류는 0이다.</choice>
+        <choice no="3" is_answer="false">연산증폭기 회로에서 출력단자와 반전단자를 연결하면 전압추종기(voltage follower)로 동작한다.</choice>
+        <choice no="4" is_answer="true">연산증폭기 회로에서 저항을 사용하여 출력단자와 비반전단자에 연결하는 것을 부궤환(negative feedback)이라 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="2">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연산증폭기 회로, 전단자를 연결하면 전압추종기(voltage follower), 단자에 연결하는 것을 부궤환(negative feedback) | 정답 선지: 연산증폭기 회로에서 저항을 사용하여 출력단자와 비반전단자에 연결하는 것을 부궤환(negative feedback)이라...</explanation_ref>
+    </question>
+    <question no="3" id="PRB-D8CA0294A9A3C4A8-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>회로의 전달함수가 $\mathrm{H} ( s ) = \frac{s + 4}{( s + 1 ) ( s + 2 )^{2}}$이고, 이 회로에 입력 $v_{i} ( t ) = ( 1 + 3 e^{- 2 t} ) u ( t )$를 인가할 때, 정상상태($t \rightarrow \infty$)에서 출력전압[V]은? (단, $u ( t )$는 단위 계단함수이다)</stem>
+      <formulas count="5">
+        <formula area="질문">RMH ( s ) = \frac{s + 4}{( s + 1 ) ( s + 2 )^{2}}</formula>
+        <formula area="질문">v_{i} ( t ) = ( 1 + 3 e^{- 2 t} ) u ( t )</formula>
+        <formula area="질문">t \rightarrow \infty</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="선택지④">\infty</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0</choice>
+        <choice no="2" is_answer="true">1</choice>
+        <choice no="3" is_answer="false">2</choice>
+        <choice no="4" is_answer="false">∞</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="3">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: u ( t ) | 정답 선지: 1</explanation_ref>
+    </question>
+    <question no="4" id="PRB-D8CA0294A9A3C4A8-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 함수 $f ( t )$에 대한 라플라스 변환 F($s$)는?</stem>
+      <formulas count="6">
+        <formula area="질문">f ( t )</formula>
+        <formula area="질문">s</formula>
+        <formula area="선택지①">\frac{1}{s} \left( 5 - 3 e^{- s} + 3 e^{- 3 s} - 5 e^{- 4 s} \right)</formula>
+        <formula area="선택지②">\frac{1}{s} \left( 5 - 2 e^{- s} + 2 e^{- 3 s} - 5 e^{- 4 s} \right)</formula>
+        <formula area="선택지③">\frac{1}{s} \left( 5 + 2 e^{- s} - 2 e^{- 3 s} - 5 e^{- 4 s} \right)</formula>
+        <formula area="선택지④">\frac{1}{s} \left( 5 + 3 e^{- s} - 3 e^{- 3 s} - 5 e^{- 4 s} \right)</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/4_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{1}{s} \left( 5 - 3 e^{- s} + 3 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{s} \left( 5 - 2 e^{- s} + 2 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice>
+        <choice no="3" is_answer="false">$\frac{1}{s} \left( 5 + 2 e^{- s} - 2 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{s} \left( 5 + 3 e^{- s} - 3 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="4">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 함수 $f ( t )$, f ( t ) | 정답 선지: $\frac{1}{s} \left( 5 - 3 e^{- s} + 3 e^{- 3 s} - 5 e^{- 4 s} \ri...</explanation_ref>
+    </question>
+    <question no="5" id="PRB-D8CA0294A9A3C4A8-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 전압 ($v_{1} - v_{2}$) [V]는?</stem>
+      <formulas count="1">
+        <formula area="질문">v_{1} - v_{2}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/5_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1.2</choice>
+        <choice no="2" is_answer="true">2.4</choice>
+        <choice no="3" is_answer="false">3.6</choice>
+        <choice no="4" is_answer="false">4.8</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 전압 | 정답 선지: 2.4</explanation_ref>
+    </question>
+    <question no="6" id="PRB-D8CA0294A9A3C4A8-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로의 단자 a와 b에서 바라본 테브난 등가회로의 등가저항은 2 [$Ω$]이다. 부하전류가 $i$ ＝ 2 [A]일 때, 저항 R [$Ω$]와 전압 $V_{0}$ [V]는?</stem>
+      <formulas count="6">
+        <formula area="질문">Ω</formula>
+        <formula area="질문">i</formula>
+        <formula area="질문">Ω</formula>
+        <formula area="질문">V_{0}</formula>
+        <formula area="지문">Ω</formula>
+        <formula area="지문">V_{0}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/6_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">3 13</choice>
+        <choice no="2" is_answer="true">3 23</choice>
+        <choice no="3" is_answer="false">6 13</choice>
+        <choice no="4" is_answer="false">6 23</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="6">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로, 단자, 에서, 바라본 | 정답 선지: 3 23</explanation_ref>
+    </question>
+    <question no="7" id="PRB-D8CA0294A9A3C4A8-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 연산증폭기 회로에서 출력전압 $v_{o} ( t )$ [V]는? (단, $u ( t )$는 단위 계단함수이다)</stem>
+      <formulas count="6">
+        <formula area="질문">v_{o} ( t )</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="선택지①">( e^{- 5 t} - e^{- 2 t} ) u ( t )</formula>
+        <formula area="선택지②">( e^{- 5 t} - e^{- 6 t} ) u ( t )</formula>
+        <formula area="선택지③">2 ( e^{- 5 t} - e^{- 2 t} ) u ( t )</formula>
+        <formula area="선택지④">2 ( e^{- 5 t} - e^{- 4 t} ) u ( t )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/7_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$( e^{- 5 t} - e^{- 2 t} ) u ( t )$</choice>
+        <choice no="2" is_answer="false">$( e^{- 5 t} - e^{- 6 t} ) u ( t )$</choice>
+        <choice no="3" is_answer="true">$2 ( e^{- 5 t} - e^{- 2 t} ) u ( t )$</choice>
+        <choice no="4" is_answer="false">$2 ( e^{- 5 t} - e^{- 4 t} ) u ( t )$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: u ( t ) | 정답 선지: $2 ( e^{- 5 t} - e^{- 2 t} ) u ( t )$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-D8CA0294A9A3C4A8-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 단권변압기의 단자 a와 b에서 바라본 임피던스 $Z_{iti n}$은? (단, $N_{1} + N_{2}$는 1차측 권선수, $N_{2}$는 2차측 권선수이다)</stem>
+      <formulas count="7">
+        <formula area="질문">Z_{iti n}</formula>
+        <formula area="질문">N_{1} + N_{2}</formula>
+        <formula area="질문">N_{2}</formula>
+        <formula area="선택지①">\left( \frac{N_{1} + N_{2}}{N_{1}} \right)^{} Z_{L}</formula>
+        <formula area="선택지②">\left( \frac{N_{1} + N_{2}}{N_{1}} \right)^{2} Z_{L}</formula>
+        <formula area="선택지③">\left( \frac{N_{1} + N_{2}}{N_{2}} \right) Z_{L}</formula>
+        <formula area="선택지④">\left( \frac{N_{1} + N_{2}}{N_{2}} \right)^{2} Z_{L}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/8_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\left( \frac{N_{1} + N_{2}}{N_{1}} \right) Z_{L}$</choice>
+        <choice no="2" is_answer="false">$\left( \frac{N_{1} + N_{2}}{N_{1}} \right)^{2} Z_{L}$</choice>
+        <choice no="3" is_answer="false">$\left( \frac{N_{1} + N_{2}}{N_{2}} \right) Z_{L}$</choice>
+        <choice no="4" is_answer="true">$\left( \frac{N_{1} + N_{2}}{N_{2}} \right)^{2} Z_{L}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상적인, 단권변압기, 단자, 에서 | 정답 선지: $\left( \frac{N_{1} + N_{2}}{N_{2}} \right)^{2} Z_{L}$</explanation_ref>
+    </question>
+    <question no="9" id="PRB-D8CA0294A9A3C4A8-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 그림 (a)의 회로는 $t &lt; 0$에서 정상상태에 도달하였다. $t = 0$인 순간에 스위치가 닫힐 때, 그림 (b)에서 $V_{0}$ [V]와 $t_{0}$ [sec]는? (단, $V_{0}$는 $t \rightarrow \infty$에서 커패시터 양단의 전압이고, $t_{0}$는 커패시터 양단의 전압이 $V_{0}$의 약 63.2 [%]에 도달하는 시간이다)</stem>
+      <formulas count="10">
+        <formula area="질문">t &lt; 0</formula>
+        <formula area="질문">t = 0</formula>
+        <formula area="질문">V_{0}</formula>
+        <formula area="질문">t_{0}</formula>
+        <formula area="질문">V_{0}</formula>
+        <formula area="질문">t \rightarrow \infty</formula>
+        <formula area="질문">t_{0}</formula>
+        <formula area="질문">V_{0}</formula>
+        <formula area="지문">V_{0}</formula>
+        <formula area="지문">t_{0}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/9_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">10 0.025</choice>
+        <choice no="2" is_answer="false">10 0.05</choice>
+        <choice no="3" is_answer="false">20 0.025</choice>
+        <choice no="4" is_answer="false">20 0.05</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="9">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림, 회로, 에서, 정상상태 | 정답 선지: 10 0.025</explanation_ref>
+    </question>
+    <question no="10" id="PRB-D8CA0294A9A3C4A8-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로는 $t &lt; 0$에서 정상상태에 도달하였다. $t = 0$인 순간에 스위치 $S_{1}$은 열리고 스위치 $S_2$는 닫힐 때, $t = 0$에서 커패시터 양단의 전압 $v_{c} ( 0 )$ [V]와 $t &gt; 0$에서 전압 $v_{c} ( t )$의 응답이 임계감쇠(critically damped)가 발생하도록 하는 저항 R [$Ω$]는?</stem>
+      <formulas count="11">
+        <formula area="질문">t &lt; 0</formula>
+        <formula area="질문">t = 0</formula>
+        <formula area="질문">S_{1}</formula>
+        <formula area="질문">S_2</formula>
+        <formula area="질문">t = 0</formula>
+        <formula area="질문">v_{c} ( 0 )</formula>
+        <formula area="질문">t &gt; 0</formula>
+        <formula area="질문">v_{c} ( t )</formula>
+        <formula area="질문">Ω</formula>
+        <formula area="지문">v_{c} ( 0 )</formula>
+        <formula area="지문">Ω</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/10_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">5 1,000</choice>
+        <choice no="2" is_answer="false">5 2,000</choice>
+        <choice no="3" is_answer="true">10 1,000</choice>
+        <choice no="4" is_answer="false">10 2,000</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="10">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 응답이 임계감쇠(critically damped) | 정답 선지: 10 1,000</explanation_ref>
+    </question>
+    <question no="11" id="PRB-D8CA0294A9A3C4A8-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>4단자망 회로에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="5">
+        <formula area="선택지②">z_{12}</formula>
+        <formula area="선택지②">z_{21}</formula>
+        <formula area="선택지③">y_11</formula>
+        <formula area="선택지④">y_11</formula>
+        <formula area="선택지④">z_11</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">임피던스 파라미터는 입출력 단자전압(V_(1), V_(2))을 입출력 단자전류(I_(1), I_(2))로 표시하기 위한 매개변수이다.</choice>
+        <choice no="2" is_answer="false">전원과 증폭기가 없고 저항 소자만으로 구성된 4단자망 회로에서 임피던스 파라미터 중 $z_{12}$는 $z_{21}$과 같다.</choice>
+        <choice no="3" is_answer="false">어드미턴스 파라미터 중 $y_11$은 입력 단자에 전류원을 연결하고 출력 단자는 단락하여 구한다.</choice>
+        <choice no="4" is_answer="true">어드미턴스 파라미터 중 $y_11$은 임피던스 파라미터 중 $z_11$의 역수이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 4단자망 회로 | 정답 선지: 어드미턴스 파라미터 중 $y_11$은 임피던스 파라미터 중 $z_11$의 역수이다.</explanation_ref>
+    </question>
+    <question no="12" id="PRB-D8CA0294A9A3C4A8-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 전달함수가 나타내는 필터의 종류와 차단주파수(cutoff frequency) $\omega_c$ [rad/sec]는?</stem>
+      <formulas count="6">
+        <formula area="질문">\omega_c</formula>
+        <formula area="지문">\omega_c</formula>
+        <formula area="선택지①">\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}</formula>
+        <formula area="선택지②">\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}</formula>
+        <formula area="선택지③">\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}</formula>
+        <formula area="선택지④">\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/12_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/12_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">고역통과필터 $\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}$</choice>
+        <choice no="2" is_answer="false">저역통과필터 $\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}$</choice>
+        <choice no="3" is_answer="false">고역통과필터 $\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}$</choice>
+        <choice no="4" is_answer="false">저역통과필터 $\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 는 필터의 종류와 차단주파수(cutoff frequency) | 정답 선지: 고역통과필터 $\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}$</explanation_ref>
+    </question>
+    <question no="13" id="PRB-D8CA0294A9A3C4A8-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 보드선도(Bode plot)와 같이 표현될 수 있는 전달함수 H(s)는?</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{10^{2} ( s + 10 )}{( s + 1 ) ( s + 100 )}</formula>
+        <formula area="선택지②">\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )}</formula>
+        <formula area="선택지③">\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}</formula>
+        <formula area="선택지④">\frac{10^{6} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/13_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/13_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{10^{2} ( s + 10 )}{( s + 1 ) ( s + 100 )}$</choice>
+        <choice no="2" is_answer="false">$\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )}$</choice>
+        <choice no="3" is_answer="false">$\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}$</choice>
+        <choice no="4" is_answer="true">$\frac{10^{6} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="13">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 보드선도(Bode plot) | 정답 선지: $\frac{10^{6} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}$</explanation_ref>
+    </question>
+    <question no="14" id="PRB-D8CA0294A9A3C4A8-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>평형 $\Delta$결선으로 연결된 3상부하의 소비전력이 5.4 [kW], 지상 역률은 0.9이다. 이 3상회로의 선간전압이 400 [V]일 때, 선전류[A]는? (단, 전류와 전압은 실횻값을 나타낸다)</stem>
+      <formulas count="5">
+        <formula area="질문">DELTA</formula>
+        <formula area="선택지①">3 \sqrt{2}</formula>
+        <formula area="선택지②">3 \sqrt{3}</formula>
+        <formula area="선택지③">5 \sqrt{2}</formula>
+        <formula area="선택지④">5 \sqrt{3}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$3 \sqrt{2}$</choice>
+        <choice no="2" is_answer="false">$3 \sqrt{3}$</choice>
+        <choice no="3" is_answer="false">$5 \sqrt{2}$</choice>
+        <choice no="4" is_answer="true">$5 \sqrt{3}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="14">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 평형, 결선으, 연결된, 상부하 | 정답 선지: $5 \sqrt{3}$</explanation_ref>
+    </question>
+    <question no="15" id="PRB-D8CA0294A9A3C4A8-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 연산증폭기 회로의 전달함수 $H \left( s \right) = \frac{V_{o} \left( s \right)}{V_{i} \left( s \right)}$는?</stem>
+      <formulas count="5">
+        <formula area="질문">H \left( s \right) = \frac{V_{o} \left( s \right)}{V_{i} \left( s \right)}</formula>
+        <formula area="선택지①">\frac{2 + sCR}{1 + sCR}</formula>
+        <formula area="선택지②">\frac{2 + sCR}{\left( 1 + sCR \right)^{2}}</formula>
+        <formula area="선택지③">\frac{1 + sCR}{2 + sCR}</formula>
+        <formula area="선택지④">\frac{\left( 1 + sCR \right)^{2}}{2 + sCR}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/15_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{2 + sCR}{1 + sCR}$</choice>
+        <choice no="2" is_answer="true">$\frac{2 + sCR}{\left( 1 + sCR \right)^{2}}$</choice>
+        <choice no="3" is_answer="false">$\frac{1 + sCR}{2 + sCR}$</choice>
+        <choice no="4" is_answer="false">$\frac{\left( 1 + sCR \right)^{2}}{2 + sCR}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="15">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상적인, 연산증폭기, 회로, 전달함수 | 정답 선지: $\frac{2 + sCR}{\left( 1 + sCR \right)^{2}}$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-D8CA0294A9A3C4A8-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로는 $t &lt; 0$에서 정상상태에 도달하였다. $t = 0$인 순간에 스위치가 단자 a에서 b로 연결될 때, $t &gt; 0$에서 전류 $i ( t )$ [A]는?</stem>
+      <formulas count="8">
+        <formula area="질문">t &lt; 0</formula>
+        <formula area="질문">t = 0</formula>
+        <formula area="질문">t &gt; 0</formula>
+        <formula area="질문">i ( t )</formula>
+        <formula area="선택지①">3 - 3 e^{- \frac{1}{2} t}</formula>
+        <formula area="선택지②">3 - 3 e^{- 2 t}</formula>
+        <formula area="선택지③">3 - 2 . 5 e^{- \frac{1}{2} t}</formula>
+        <formula area="선택지④">3 - 2 . 5 e^{- {2} t}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/16_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$3 - 3 e^{- \frac{1}{2} t}$</choice>
+        <choice no="2" is_answer="false">$3 - 3 e^{- 2 t}$</choice>
+        <choice no="3" is_answer="true">$3 - 2 . 5 e^{- \frac{1}{2} t}$</choice>
+        <choice no="4" is_answer="false">$3 - 2 . 5 e^{- {2} t}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="16">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: i ( t ) | 정답 선지: $3 - 2 . 5 e^{- \frac{1}{2} t}$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-D8CA0294A9A3C4A8-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 이상적인 변압기에 축적되는 에너지[J]는? (단, 변압기의 초기 에너지는 0이고, $L_1$과 $L_2$는 자기 인덕턴스이며 $M$은 상호 인덕턴스이다)</stem>
+      <formulas count="7">
+        <formula area="질문">L_1</formula>
+        <formula area="질문">L_2</formula>
+        <formula area="질문">M</formula>
+        <formula area="선택지①">\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} - Mi_{1} i_{2}</formula>
+        <formula area="선택지②">\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} + Mi_{1} i_{2}</formula>
+        <formula area="선택지③">L_{1} i_{1}^{2} + L_{2} i_{2}^{2} - 2 Mi_{1} i_{2}</formula>
+        <formula area="선택지④">L_{1} i_{1}^{2} + L_{2} i_{2}^{2} + 2 Mi_{1} i_{2}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/17_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} - Mi_{1} i_{2}$</choice>
+        <choice no="2" is_answer="true">$\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} + Mi_{1} i_{2}$</choice>
+        <choice no="3" is_answer="false">$L_{1} i_{1}^{2} + L_{2} i_{2}^{2} - 2 Mi_{1} i_{2}$</choice>
+        <choice no="4" is_answer="false">$L_{1} i_{1}^{2} + L_{2} i_{2}^{2} + 2 Mi_{1} i_{2}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="17">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 이상적인, 변압기, 축적되 | 정답 선지: $\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} + Mi_{...</explanation_ref>
+    </question>
+    <question no="18" id="PRB-D8CA0294A9A3C4A8-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로의 저항 5 [$Ω$]에서 소비되는 평균전력[W]은? (단, 전류와 전압은 실횻값을 나타낸다)</stem>
+      <formulas count="1">
+        <formula area="질문">Ω</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">320</choice>
+        <choice no="2" is_answer="true">640</choice>
+        <choice no="3" is_answer="false">960</choice>
+        <choice no="4" is_answer="false">1,280</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="18">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로, 저항, 에서, 소비되 | 정답 선지: 640</explanation_ref>
+    </question>
+    <question no="19" id="PRB-D8CA0294A9A3C4A8-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 4단자망의 임피던스 파라미터 중 $z_{11}$과 $z_{22}$의 합[$Ω$]은?</stem>
+      <formulas count="3">
+        <formula area="질문">z_{11}</formula>
+        <formula area="질문">z_{22}</formula>
+        <formula area="질문">Ω</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">10</choice>
+        <choice no="2" is_answer="false">12</choice>
+        <choice no="3" is_answer="true">14</choice>
+        <choice no="4" is_answer="false">16</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="19">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 단자망, 임피던스, 파라미터 | 정답 선지: 14</explanation_ref>
+    </question>
+    <question no="20" id="PRB-D8CA0294A9A3C4A8-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 입력전압과 출력전압 사이의 위상차가 0 °가 되는 주파수가 $\omega_{0}$ [rad/sec]일 때, 이득 $\frac{V_{o} ( j \omega_{0} )}{V_{i} ( j \omega_{0} )}$은?</stem>
+      <formulas count="6">
+        <formula area="질문">\omega_{0}</formula>
+        <formula area="질문">\frac{V_{o} ( j \omega_{0} )}{V_{i} ( j \omega_{0} )}</formula>
+        <formula area="선택지①">\frac{1}{3} - \frac{R_{2}}{R_{1} + R_{2}}</formula>
+        <formula area="선택지②">\frac{2}{3} - \frac{R_{2}}{R_{1} + R_{2}}</formula>
+        <formula area="선택지③">\frac{1}{3} + \frac{R_{2}}{R_{1} + R_{2}}</formula>
+        <formula area="선택지④">\frac{2}{3} + \frac{R_{2}}{R_{1} + R_{2}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-D8CA0294A9A3C4A8/20_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-D8CA0294A9A3C4A8/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{1}{3} - \frac{R_{2}}{R_{1} + R_{2}}$</choice>
+        <choice no="2" is_answer="false">$\frac{2}{3} - \frac{R_{2}}{R_{1} + R_{2}}$</choice>
+        <choice no="3" is_answer="false">$\frac{1}{3} + \frac{R_{2}}{R_{1} + R_{2}}$</choice>
+        <choice no="4" is_answer="false">$\frac{2}{3} + \frac{R_{2}}{R_{1} + R_{2}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 입력전압과, 출력전압, 사이 | 정답 선지: $\frac{1}{3} - \frac{R_{2}}{R_{1} + R_{2}}$</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

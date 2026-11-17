@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2024-33</exam_id>
+    <subject_row_id>PRB-DEF4A48A36DB2416</subject_row_id>
+    <exam_type>지방직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_통신기술</series>
+    <year>2024</year>
+    <exam_title>2024년도 제1회 지방직공무원 시험</exam_title>
+    <subject_code>784</subject_code>
+    <subject_name>통신이론</subject_name>
+    <booklet_type>C</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통신이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-DEF4A48A36DB2416-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>연속 시간 신호 $x ( t ) = 2 \cos ( 2 t ) + \sin ( 4 t )$의 기본 주기는?</stem>
+      <formulas count="5">
+        <formula area="질문">x ( t ) = 2 \cos ( 2 t ) + \sin ( 4 t )</formula>
+        <formula area="선택지①">\pi</formula>
+        <formula area="선택지②">2 \pi</formula>
+        <formula area="선택지③">3 \pi</formula>
+        <formula area="선택지④">4 \pi</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">π</choice>
+        <choice no="2" is_answer="false">$2 \pi$</choice>
+        <choice no="3" is_answer="false">$3 \pi$</choice>
+        <choice no="4" is_answer="false">$4 \pi$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), cos ( 2 t ), sin ( 4 t ) | 정답 선지: π</explanation_ref>
+    </question>
+    <question no="2" id="PRB-DEF4A48A36DB2416-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>주기가 $T$인 연속 시간 신호 $x ( t ) = \frac{e^{- j \frac{2 \pi}{T} t} - e^{j \frac{2 \pi}{T} t}}{j2}$와 동일한 신호는? (단, $j = \sqrt{- 1}$이다)</stem>
+      <formulas count="7">
+        <formula area="질문">T</formula>
+        <formula area="질문">x ( t ) = \frac{e^{- j \frac{2 \pi}{T} t} - e^{j \frac{2 \pi}{T} t}}{j2}</formula>
+        <formula area="질문">j = \sqrt{- 1}</formula>
+        <formula area="선택지①">\cos \left( \frac{2 \pi}{T} t \right)</formula>
+        <formula area="선택지②">- \cos \left( \frac{2 \pi}{T} t \right)</formula>
+        <formula area="선택지③">\sin \left( \frac{2 \pi}{T} t \right)</formula>
+        <formula area="선택지④">- \sin \left( \frac{2 \pi}{T} t \right)</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\cos \left( \frac{2 \pi}{T} t \right)$</choice>
+        <choice no="2" is_answer="false">$- \cos \left( \frac{2 \pi}{T} t \right)$</choice>
+        <choice no="3" is_answer="false">$\sin \left( \frac{2 \pi}{T} t \right)$</choice>
+        <choice no="4" is_answer="true">$- \sin \left( \frac{2 \pi}{T} t \right)$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ) | 정답 선지: $- \sin \left( \frac{2 \pi}{T} t \right)$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-DEF4A48A36DB2416-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>OSI 7계층 모델에서 노드(node)의 데이터 링크 계층(layer) 간 통신을 위해 식별자(identifier)로 사용하는 주소(address)의 명칭은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">MAC</choice>
+        <choice no="2" is_answer="false">Port</choice>
+        <choice no="3" is_answer="false">IP</choice>
+        <choice no="4" is_answer="false">ISP</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: OSI 7계층 모델에서 노드(node), 의 데이터 링크 계층(layer), 간 통신을 위해 식별자(identifier), 로 사용하는 주소(address) | 정답 선지: MAC</explanation_ref>
+    </question>
+    <question no="4" id="PRB-DEF4A48A36DB2416-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>연속 시간 신호 $x ( t ) = \cos ( 4 \pi t )$ㆍ$\cos ( 6 \pi t )$를 푸리에 급수로 표현할 때 나타나는 모든 푸리에 계수의 총합은?</stem>
+      <formulas count="6">
+        <formula area="질문">x ( t ) = \cos ( 4 \pi t )</formula>
+        <formula area="질문">\cos ( 6 \pi t )</formula>
+        <formula area="선택지①">\frac{1}{4}</formula>
+        <formula area="선택지②">\frac{1}{2}</formula>
+        <formula area="선택지③">1</formula>
+        <formula area="선택지④">2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{4}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{2}$</choice>
+        <choice no="3" is_answer="true">$1$</choice>
+        <choice no="4" is_answer="false">$2$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ) | 정답 선지: $1$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-DEF4A48A36DB2416-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>디지털 변조 방식에서 성상도(constellation)상의 심벌 신호점들은 원점에서의 거리가 모두 1이고, 인접한 두 신호점 간의 위상 차이가 모두 $\frac{\pi}{8}$일 때, 심벌당 비트의 수는?</stem>
+      <formulas count="1">
+        <formula area="질문">\frac{\pi}{8}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="true">4</choice>
+        <choice no="3" is_answer="false">6</choice>
+        <choice no="4" is_answer="false">8</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 디지털 변조 방식에서 성상도(constellation) | 정답 선지: 4</explanation_ref>
+    </question>
+    <question no="6" id="PRB-DEF4A48A36DB2416-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반송파 $A_{c} \cos ( 2 \pi f_{c} t )$에 임의의 메시지 신호 $m ( t )$를 양측파대 반송파억압(double-sideband, suppressed-carrier) 방식으로 AM 변조한 신호의 표현은?</stem>
+      <formulas count="6">
+        <formula area="질문">A_{c} \cos ( 2 \pi f_{c} t )</formula>
+        <formula area="질문">m ( t )</formula>
+        <formula area="선택지①">A_{c} \cos ( 2 \pi f_{c} t + m ( t ) )</formula>
+        <formula area="선택지②">A_{c} \cos ( 2 \pi f_{c} m ( t ) )</formula>
+        <formula area="선택지③">A_{c} m ( t ) \cos ( 2 \pi f_{c} t ) + A_{c} \sin ( 2 \pi f_{c} t + m ( t ) )</formula>
+        <formula area="선택지④">A_{c} m ( t ) \cos ( 2 \pi f_{c} t )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$A_{c} \cos ( 2 \pi f_{c} t + m ( t ) )$</choice>
+        <choice no="2" is_answer="false">$A_{c} \cos ( 2 \pi f_{c} m ( t ) )$</choice>
+        <choice no="3" is_answer="false">$A_{c} m ( t ) \cos ( 2 \pi f_{c} t ) + A_{c} \sin ( 2 \pi f_{c} t + m ( t ) )$</choice>
+        <choice no="4" is_answer="true">$A_{c} m ( t ) \cos ( 2 \pi f_{c} t )$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: m ( t ) | 정답 선지: $A_{c} m ( t ) \cos ( 2 \pi f_{c} t )$</explanation_ref>
+    </question>
+    <question no="7" id="PRB-DEF4A48A36DB2416-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>가산적 백색 가우시안 잡음 채널에서 섀넌의 용량 정리(Shannon capacity theorem, Hartley-Shannon theorem)로 계산한 채널용량이 20 [kbps]일 때의 채널 잡음전력이 3 [μW], 신호 전력이 9 [μW]라면, 최소 전송 채널 대역폭[kHz]은?</stem>
+      <formulas count="2">
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\mu</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">5</choice>
+        <choice no="2" is_answer="true">10</choice>
+        <choice no="3" is_answer="false">20</choice>
+        <choice no="4" is_answer="false">40</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 가산적, 백색, 가우시안, 잡음 | 정답 선지: 10</explanation_ref>
+    </question>
+    <question no="8" id="PRB-DEF4A48A36DB2416-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>자유공간에서 반송파 주파수가 150 [MHz]인 방송 신호를 이상적인 반파장 다이폴 안테나로 수신할 때, 이 안테나의 전체 길이[m]는? (단, 전파의 전파 속도 $c$ ＝ 3 × 10^(8) [m/s]이다)</stem>
+      <formulas count="1">
+        <formula area="질문">c</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">1</choice>
+        <choice no="2" is_answer="false">2</choice>
+        <choice no="3" is_answer="false">3</choice>
+        <choice no="4" is_answer="false">4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 자유공간에서, 반송파, 주파수, 방송 | 정답 선지: 1</explanation_ref>
+    </question>
+    <question no="9" id="PRB-DEF4A48A36DB2416-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>IPv6에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">Unicast, Multicast, Anycast 통신 방식을 모두 지원한다.</choice>
+        <choice no="2" is_answer="false">주소는 길이가 128비트이고 16진수 형식으로 표현된다.</choice>
+        <choice no="3" is_answer="true">기본 헤더의 크기는 최소 40바이트이고 가변될 수 있다.</choice>
+        <choice no="4" is_answer="false">기본 헤더에는 오류 검출이 가능한 Header Checksum Field가 없다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: IPv6 | 정답 선지: 기본 헤더의 크기는 최소 40바이트이고 가변될 수 있다.</explanation_ref>
+    </question>
+    <question no="10" id="PRB-DEF4A48A36DB2416-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>연속 시간 신호 $x ( t ) = 2 \sin ( 200 \pi t ) - 4 \cos ( 400 \pi t + \pi )$를 4초 동안 표본화 정리(sampling theorem)에 따른 최소 표본화 주파수로 표본화하고, 표본당 8비트가 되도록 양자화와 부호화 과정을 거쳐 그 결과를 저장하였을 때, 저장된 표본의 개수는?</stem>
+      <formulas count="1">
+        <formula area="질문">x ( t ) = 2 \sin ( 200 \pi t ) - 4 \cos ( 400 \pi t + \pi )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">3,200</choice>
+        <choice no="2" is_answer="true">1,600</choice>
+        <choice no="3" is_answer="false">800</choice>
+        <choice no="4" is_answer="false">400</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: x ( t ), 를 4초 동안 표본화 정리(sampling theorem) | 정답 선지: 1,600</explanation_ref>
+    </question>
+    <question no="11" id="PRB-DEF4A48A36DB2416-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>랜덤 변수 $X$와 $Y$ 간의 상관계수(correlation coefficient) ρ에 대한 설명으로 옳지 않은 것은? (단, $C_{XY}$는 $X$와 $Y$의 공분산(covariance), $\sigma_{X}^{2}$은 $X$의 분산이다)</stem>
+      <formulas count="16">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">\rho</formula>
+        <formula area="질문">C_{XY}</formula>
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">\sigma_{X}^{2}</formula>
+        <formula area="질문">X</formula>
+        <formula area="선택지①">\left | \rho \right | \leq 1</formula>
+        <formula area="선택지②">X</formula>
+        <formula area="선택지②">Y</formula>
+        <formula area="선택지②">\rho = 0</formula>
+        <formula area="선택지③">Y = aX</formula>
+        <formula area="선택지③">a \neq 0</formula>
+        <formula area="선택지③">\rho</formula>
+        <formula area="선택지④">\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\left| \rho \right| \leq 1$이다.</choice>
+        <choice no="2" is_answer="false">$X$와 $Y$가 서로 독립이면 $\rho = 0$이다.</choice>
+        <choice no="3" is_answer="false">$Y = aX$ ($a \neq 0$)일 때, ρ는 1 혹은 －1이다.</choice>
+        <choice no="4" is_answer="true">$\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}$이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 간의 상관계수(correlation coefficient), 의 공분산(covariance) | 정답 선지: $\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}$이다.</explanation_ref>
+    </question>
+    <question no="12" id="PRB-DEF4A48A36DB2416-Q12" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>저역통과 여파기(low pass filter)의 시스템 전달 함수가 $H ( f )$이고 입력신호 $x ( t )$와 출력신호 $y ( t )$의 주파수 스펙트럼이 각각 $X ( f )$와 $Y ( f )$일 때, 이 여파기에 대한 설명으로 옳은 것은? (단, ‘$*$’는 컨벌류션(convolution) 연산을 의미한다)</stem>
+      <formulas count="11">
+        <formula area="질문">H ( f )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">X ( f )</formula>
+        <formula area="질문">Y ( f )</formula>
+        <formula area="질문">*</formula>
+        <formula area="선택지①">Y ( f ) = X ( f ) * H ( f )</formula>
+        <formula area="선택지②">x ( t )</formula>
+        <formula area="선택지②">Y ( f )</formula>
+        <formula area="선택지③">\frac{\left | H ( f_{c} ) \right |^{2}}{\left | H ( f ) \right |_{max}^{2}} = \frac{1}{\sqrt{2}}</formula>
+        <formula area="선택지③">f_{c}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$Y ( f ) = X ( f ) * H ( f )$이다.</choice>
+        <choice no="2" is_answer="true">$x ( t )$가 단위 임펄스 신호일 때, $Y ( f )$는 전달함수와 동일하다.</choice>
+        <choice no="3" is_answer="false">$\frac{\left| H ( f_{c} ) \right|^{2}}{\left| H ( f ) \right|_{max}^{2}} = \frac{1}{\sqrt{2}}$일 때, 이 여파기의 ‘3 dB 주파수 대역폭’은 $f_{c}$이다.</choice>
+        <choice no="4" is_answer="false">이상적인 저역통과 여파기의 경우, 통과 대역 내의 위상 응답은 상수이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 저역통과 여파기(low pass filter), H ( f ), x ( t ), y ( t ), X ( f ) | 정답 선지: $x ( t )$가 단위 임펄스 신호일 때, $Y ( f )$는 전달함수와 동일하다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-DEF4A48A36DB2416-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>확산대역(spread spectrum) 통신 시스템에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">정보 데이터의 전송에 요구되는 최소 대역폭보다 더 넓은 대역폭을 사용한다.</choice>
+        <choice no="2" is_answer="false">정보 데이터와 무관한 의사 랜덤 부호열에 의해 대역이 확산되는 시스템이다.</choice>
+        <choice no="3" is_answer="false">송신기에서 대역 확산에 사용된 부호열과 동기가 일치하는 동일한 부호열을 사용하여 수신기에서 역확산을 수행하는 시스템이다.</choice>
+        <choice no="4" is_answer="true">협대역 FM 변조된 신호를 대역이 확산되도록 광대역 FM 신호로 변환하는 시스템도 포함된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 확산대역(spread spectrum) 통신 시스템, 확산대역(spread spectrum) | 정답 선지: 협대역 FM 변조된 신호를 대역이 확산되도록 광대역 FM 신호로 변환하는 시스템도 포함된다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-DEF4A48A36DB2416-Q14" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>인접한 두 비트열 간에 그레이 매핑(Gray mapping/labeling/coding)이 적용된 비트열 심벌 집합 {(001), (A), (100), (101)}에서, 각 심벌 원소가 이 배열 순서에 따라 일직선상에 같은 간격으로 모두 배치될 때, (A) 심벌에 사용 가능한 비트열은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">000</choice>
+        <choice no="2" is_answer="false">011</choice>
+        <choice no="3" is_answer="false">010</choice>
+        <choice no="4" is_answer="false">111</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 인접한, 비트열, 그레, 매핑 | 정답 선지: 000</explanation_ref>
+    </question>
+    <question no="15" id="PRB-DEF4A48A36DB2416-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>QPSK 성상도에서 심벌 신호점 위치 좌표가</stem>
+      <passage>$\{( \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$,
+$. ( - \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$,
+$( - \frac{1}{\sqrt{2}}$, $- \frac{1}{\sqrt{2}} )$,
+$( \frac{1}{\sqrt{2}}$, $- \frac{1}{\sqrt{2}} )$
+일 때, 인접한 두 신호점 간의 최소 거리는? (단, 심벌 에너지 $E_{s}$ ＝ 1이다)</passage>
+      <formulas count="13">
+        <formula area="지문">\left{\left( \frac{1}{\sqrt{2}}}</formula>
+        <formula area="지문">\frac{1}{\sqrt{2}} \right)</formula>
+        <formula area="지문">\left . \left( - \frac{1}{\sqrt{2}}</formula>
+        <formula area="지문">\frac{1}{\sqrt{2}} \right)</formula>
+        <formula area="지문">\left( - \frac{1}{\sqrt{2}}</formula>
+        <formula area="지문">- \frac{1}{\sqrt{2}} \right)</formula>
+        <formula area="지문">\left( \frac{1}{\sqrt{2}}</formula>
+        <formula area="지문">- \frac{1}{\sqrt{2}} \right) \right</formula>
+        <formula area="지문">E_{s}</formula>
+        <formula area="선택지①">\sqrt{\frac{1}{2}}</formula>
+        <formula area="선택지②">1</formula>
+        <formula area="선택지③">\sqrt{2}</formula>
+        <formula area="선택지④">2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\sqrt{\frac{1}{2}}$</choice>
+        <choice no="2" is_answer="false">$1$</choice>
+        <choice no="3" is_answer="true">$\sqrt{2}$</choice>
+        <choice no="4" is_answer="false">$2$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 성상도에서, 심벌, 신호점, 위치 | 정답 선지: $\sqrt{2}$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-DEF4A48A36DB2416-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>저궤도(LEO) 위성에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">위성 궤도는 적도 상공의 원형 궤도이다.</choice>
+        <choice no="2" is_answer="false">위성이 지구를 공전하는 속도는 지구의 자전속도와 같다.</choice>
+        <choice no="3" is_answer="false">정지궤도 위성에 비해 신호 전파 지연(propagation delay) 시간이 더 길다.</choice>
+        <choice no="4" is_answer="true">지구국에서 동일한 전력으로 신호를 송출하고 위성에서 수신할 때, 저궤도 위성의 수신신호세기는 정지궤도 위성보다 더 크다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 저궤도(LEO) 위성, 저궤도(LEO), 위성에 비해 신호 전파 지연(propagation delay) | 정답 선지: 지구국에서 동일한 전력으로 신호를 송출하고 위성에서 수신할 때, 저궤도 위성의 수신신호세기는 정지궤도 위성보다 더 크...</explanation_ref>
+    </question>
+    <question no="17" id="PRB-DEF4A48A36DB2416-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>총 4개의 정보원 심벌로 구성된 집합에서 각 심벌의 발생확률이 모두 동일할 때, 엔트로피[bit/symbol]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.5</choice>
+        <choice no="2" is_answer="false">1</choice>
+        <choice no="3" is_answer="true">2</choice>
+        <choice no="4" is_answer="false">4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 정보원, 심벌, 구성된, 집합에서 | 정답 선지: 2</explanation_ref>
+    </question>
+    <question no="18" id="PRB-DEF4A48A36DB2416-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>기저대역 전송을 위한 선 부호(line code)의 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">맨체스터 부호는 타이밍 동기화 정보를 추출할 수 있지만, 단극성(unipolar) NRZ 부호보다 점유 주파수 대역폭이 넓다.</choice>
+        <choice no="2" is_answer="false">단극성 NRZ 부호는 극성(polar) RZ 부호보다 점유 주파수 대역폭이 2배 넓다.</choice>
+        <choice no="3" is_answer="false">NRZ 부호는 비트 펄스 지속 시간(bit pulse duration) 동안에 펄스 전압의 부호를 1회 이상 반전시킨다.</choice>
+        <choice no="4" is_answer="false">단극성(unipolar)과 극성(polar)의 선 부호 모두 직류 성분을 포함하지 않는다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기저대역 전송을 위한 선 부호(line code), 저대역 전송을 위한 선 부호(line code), 단극성(unipolar), 단극성 NRZ 부호는 극성(polar), 부호는 비트 펄스 지속 시간(bit pulse duration) | 정답 선지: 맨체스터 부호는 타이밍 동기화 정보를 추출할 수 있지만, 단극성(unipolar) NRZ 부호보다 점유 주파수 대역폭...</explanation_ref>
+    </question>
+    <question no="19" id="PRB-DEF4A48A36DB2416-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>부반송파들이 모두 16-QAM으로 변조된 OFDM(orthogonal frequency division multiplexing) 시스템에서 IDFT(inverse discrete Fourier transform)를 통해 생성된 OFDM 심벌의 길이는 8 [μs]이고 전체 대역폭은 10 [MHz]이다. 통신 채널의 최대 경로 시간 지연은 2 [μs]이고 OFDM 심벌 앞에 이 지연만큼의 순환전치(cyclic prefix)를 붙여서 전송할 때, 최대 전송속도[Mbps]는?</stem>
+      <formulas count="2">
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\mu</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">26</choice>
+        <choice no="2" is_answer="true">32</choice>
+        <choice no="3" is_answer="false">40</choice>
+        <choice no="4" is_answer="false">48</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 앞에 이 지연만큼의 순환전치(cyclic prefix) | 정답 선지: 32</explanation_ref>
+    </question>
+    <question no="20" id="PRB-DEF4A48A36DB2416-Q20" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>메시지 신호 $m ( t )$ ＝ $20 \cos ( 200 \times 10^{3} \pi t )$에 의해 최대 주파수 편이(deviation) $\triangle f$ ＝ 500 [kHz]가 되도록 광대역 FM(wideband frequency modulation) 변조된 신호의 근사 대역폭[MHz]은? (단, 반송파의 주파수는 $f_{c}$ ＝ 100 [MHz]이고, 카슨의 법칙(Carson’s law)을 이용하여 계산한다)</stem>
+      <formulas count="4">
+        <formula area="질문">m ( t )</formula>
+        <formula area="질문">20 \cos ( 200 \times 10^{3} \pi t )</formula>
+        <formula area="질문">TRIANGLE f</formula>
+        <formula area="질문">f_{c}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.6</choice>
+        <choice no="2" is_answer="true">1.2</choice>
+        <choice no="3" is_answer="false">1.8</choice>
+        <choice no="4" is_answer="false">2.4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: m ( t ), 에 의해 최대 주파수 편이(deviation) | 정답 선지: 1.2</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

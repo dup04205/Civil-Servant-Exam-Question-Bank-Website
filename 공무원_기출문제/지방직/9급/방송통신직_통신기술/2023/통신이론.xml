@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2023-33</exam_id>
+    <subject_row_id>PRB-71EEA766E6112956</subject_row_id>
+    <exam_type>지방직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_통신기술</series>
+    <year>2023</year>
+    <exam_title>2023년도 제1회 지방직공무원 시험</exam_title>
+    <subject_code>784</subject_code>
+    <subject_name>통신이론</subject_name>
+    <booklet_type>B</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통신이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-71EEA766E6112956-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>입력신호 $x ( t )$에 대한 시스템의 출력이 $y ( t ) = 2 x ( t )$일 때, $x ( t )$의 스펙트럼이 갖는 주파수 $f$의 범위[Hz]가 $- W \leq f \leq W$일 경우, $y ( t )$의 스펙트럼이 갖는 주파수 범위[Hz]는? (단, $W \neq 0$이다)</stem>
+      <formulas count="11">
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">y ( t ) = 2 x ( t )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">f</formula>
+        <formula area="질문">- W \leq f \leq W</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">W \neq 0</formula>
+        <formula area="선택지①">- W \leq f \leq W</formula>
+        <formula area="선택지②">- 2 W \leq f \leq 2 W</formula>
+        <formula area="선택지③">- 3 W \leq f \leq 3 W</formula>
+        <formula area="선택지④">- 4 W \leq f \leq 4 W</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$- W \leq f \leq W$</choice>
+        <choice no="2" is_answer="false">$- 2 W \leq f \leq 2 W$</choice>
+        <choice no="3" is_answer="false">$- 3 W \leq f \leq 3 W$</choice>
+        <choice no="4" is_answer="false">$- 4 W \leq f \leq 4 W$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 입력신호 $x ( t )$, x ( t ), y ( t ), 2 x ( t ) | 정답 선지: $- W \leq f \leq W$</explanation_ref>
+    </question>
+    <question no="2" id="PRB-71EEA766E6112956-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>신호 $x ( t ) = u ( t + 1 ) - u ( t - 1 )$를 임펄스 응답이 $h ( t ) = \delta ( t + 2 )$$+ \delta ( t - 2 )$인 선형 시불변 시스템에 입력하였을 때, 출력신호 $y ( t ) = x ( t ) \ast h ( t )$는? (단, $u ( t )$는 단위 계단 함수, $\delta ( t )$는 단위 임펄스 함수, $\ast$는 컨볼루션 연산이다)</stem>
+      <formulas count="7">
+        <formula area="질문">x ( t ) = u ( t + 1 ) - u ( t - 1 )</formula>
+        <formula area="질문">h ( t ) = \delta ( t + 2 )</formula>
+        <formula area="질문">+ \delta ( t - 2 )</formula>
+        <formula area="질문">y ( t ) = x ( t ) AST h ( t )</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="질문">\delta ( t )</formula>
+        <formula area="질문">AST</formula>
+      </formulas>
+      <images count="5">
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-71EEA766E6112956/2_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-71EEA766E6112956/2_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-71EEA766E6112956/2_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-71EEA766E6112956/2_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-71EEA766E6112956/2_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="true">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), u ( t - 1 ), h ( t ), delta ( t - 2 ), y ( t ) | 정답 선지: [그림/도표 선지 2번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="3" id="PRB-71EEA766E6112956-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>이산(discrete) 신호 $\left\{14 , 2 \sqrt{10} , 14 , 12 \right\}$의 rms(root mean square) 값은?</stem>
+      <formulas count="1">
+        <formula area="질문">\left{14 , 2 \sqrt{10} , 14 , 12 \right}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">10</choice>
+        <choice no="2" is_answer="false">11</choice>
+        <choice no="3" is_answer="true">12</choice>
+        <choice no="4" is_answer="false">13</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 이산(discrete), 의 rms(root mean square) | 정답 선지: 12</explanation_ref>
+    </question>
+    <question no="4" id="PRB-71EEA766E6112956-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>디지털 데이터 $\left\{0 , 1 , 1 , 0 , 1 \right\}$를 심볼당 1비트로 전송하기 위해 그림과 같이 변조하였을 때, 사용된 변조 방식은? (단, $T$는 심볼 길이이다)</stem>
+      <formulas count="2">
+        <formula area="질문">\left{0 , 1 , 1 , 0 , 1 \right}</formula>
+        <formula area="질문">T</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-71EEA766E6112956/4_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-71EEA766E6112956/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">ASK</choice>
+        <choice no="2" is_answer="false">FSK</choice>
+        <choice no="3" is_answer="true">PSK</choice>
+        <choice no="4" is_answer="false">OOK</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 디지털, 데이터, 심볼당, 비트 | 정답 선지: PSK</explanation_ref>
+    </question>
+    <question no="5" id="PRB-71EEA766E6112956-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>정수 $n$에서만 값을 갖는 이산(discrete) 신호 $x [ n ] = e^{j \frac{7 \pi}{3} n}$의 주기(period)는?</stem>
+      <formulas count="2">
+        <formula area="질문">n</formula>
+        <formula area="질문">x [ n ] = e^{j \frac{7 \pi}{3} n}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">3</choice>
+        <choice no="2" is_answer="false">4</choice>
+        <choice no="3" is_answer="false">5</choice>
+        <choice no="4" is_answer="true">6</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 에서만 값을 갖는 이산(discrete), 의 주기(period) | 정답 선지: 6</explanation_ref>
+    </question>
+    <question no="6" id="PRB-71EEA766E6112956-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>주파수가 1 [Hz]인 연속 코사인 신호를 4 [Hz]의 주파수로 샘플링했을 때, 샘플링된 신호의 주파수 스펙트럼 성분에 포함되지 않는 주파수[Hz]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">－1</choice>
+        <choice no="2" is_answer="false">1</choice>
+        <choice no="3" is_answer="true">2</choice>
+        <choice no="4" is_answer="false">3</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 주파수, 연속, 코사인, 신호 | 정답 선지: 2</explanation_ref>
+    </question>
+    <question no="7" id="PRB-71EEA766E6112956-Q7" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>필터에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">이상적인 저역통과 필터는 인과(causal) 시스템이므로 실현 가능하다.</choice>
+        <choice no="2" is_answer="false">주파수 선택 필터는 저역통과, 고역통과, 대역통과, 대역차단 필터 등으로 분류된다.</choice>
+        <choice no="3" is_answer="false">시간지연된 임펄스 응답을 갖는 이상적인 저역통과 필터의 위상 응답은 통과대역 내의 주파수에 따라 선형적으로 변한다.</choice>
+        <choice no="4" is_answer="false">이상적인 필터는 통과대역에서 진폭 응답은 0이 아닌 상수 값을 갖고, 억제 대역에서는 이득이 0이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 필터, 상적인 저역통과 필터는 인과(causal) | 정답 선지: 이상적인 저역통과 필터는 인과(causal) 시스템이므로 실현 가능하다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-71EEA766E6112956-Q8" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>서로 통계적 독립(statistically independence)인 두 랜덤변수 $X$와 $Y$가 각각 $0 \leq x \leq 2$와 $1 \leq y \leq 5$ 범위에서 균일하고 그 이외에는 0인 확률밀도함수 $f_{X} ( x )$, $f_{Y} ( y )$를 가질 때, $X$와 $Y$에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="16">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">0 \leq x \leq 2</formula>
+        <formula area="질문">1 \leq y \leq 5</formula>
+        <formula area="질문">f_{X} ( x )</formula>
+        <formula area="질문">f_{Y} ( y )</formula>
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="선택지①">f_{X} ( x ) = {cases {\frac{1}{2} , &amp; 0 \leq x \leq 2 # 0 , &amp; otherwise}} it</formula>
+        <formula area="선택지①">f_{Y} ( y ) = {cases {\frac{1}{4} , &amp; 1 \leq y \leq 5 # 0 , &amp; otherwise}}</formula>
+        <formula area="선택지②">X</formula>
+        <formula area="선택지②">\frac{1}{3}</formula>
+        <formula area="선택지③">Y &gt; 2</formula>
+        <formula area="선택지③">\frac{3}{4}</formula>
+        <formula area="선택지④">X + Y</formula>
+        <formula area="선택지④">3</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$f_{X} ( x ) = {\left\{\begin{array}{ll}\frac{1}{2} , &amp; 0 \leq x \leq 2 \\ 0 , &amp; otherwise\end{array}\right.}$, $f_{Y} ( y ) = {\left\{\begin{array}{ll}\frac{1}{4} , &amp; 1 \leq y \leq 5 \\ 0 , &amp; otherwise\end{array}\right.}$이다.</choice>
+        <choice no="2" is_answer="false">$X$의 평균은 1이고, 분산은 $\frac{1}{3}$이다.</choice>
+        <choice no="3" is_answer="false">$Y &gt; 2$인 확률은 $\frac{3}{4}$이다.</choice>
+        <choice no="4" is_answer="true">$X + Y$의 평균은 $3$이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 통계적, 독립, 랜덤변수, 각각 | 정답 선지: $X + Y$의 평균은 $3$이다.</explanation_ref>
+    </question>
+    <question no="9" id="PRB-71EEA766E6112956-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>롤오프(roll-off) 인수가 $r$인 상승 여현 펄스 정형(raised cosine pulse shaping) 필터에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="5">
+        <formula area="질문">r</formula>
+        <formula area="선택지①">r</formula>
+        <formula area="선택지②">r</formula>
+        <formula area="선택지③">r</formula>
+        <formula area="선택지④">r</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$r$이 커질수록 필터의 대역폭이 증가한다.</choice>
+        <choice no="2" is_answer="true">$r$이 작아질수록 필터의 스펙트럼 차단 특성이 완만해진다.</choice>
+        <choice no="3" is_answer="false">$r$이 커질수록 필터의 임펄스 응답(impulse response)의 부엽(sidelobe) 크기가 줄어든다.</choice>
+        <choice no="4" is_answer="false">$r$이 0일 때, 이상적인 싱크(sinc) 펄스 정현 필터와 같다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 롤오프(roll-off), 커질수록 필터의 임펄스 응답(impulse response), 의 부엽(sidelobe), 이상적인 싱크(sinc) | 정답 선지: $r$이 작아질수록 필터의 스펙트럼 차단 특성이 완만해진다.</explanation_ref>
+    </question>
+    <question no="10" id="PRB-71EEA766E6112956-Q10" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>두 랜덤변수 $X$와 $Y$에 대한 설명으로 옳은 것은? (단, $X$와 $Y$ 각각의 평균은 $0$이 아니다)</stem>
+      <formulas count="16">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">0</formula>
+        <formula area="선택지①">X + Y</formula>
+        <formula area="선택지①">X</formula>
+        <formula area="선택지①">Y</formula>
+        <formula area="선택지②">XY</formula>
+        <formula area="선택지②">YX</formula>
+        <formula area="선택지③">X</formula>
+        <formula area="선택지③">Y</formula>
+        <formula area="선택지③">\frac{X}{Y}</formula>
+        <formula area="선택지④">X</formula>
+        <formula area="선택지④">Y</formula>
+        <formula area="선택지④">XY</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$X + Y$의 평균은 $X$와 $Y$ 각각의 평균의 합보다 항상 크다.</choice>
+        <choice no="2" is_answer="false">$XY$의 평균은 $YX$의 평균과 같지 않을 수 있다.</choice>
+        <choice no="3" is_answer="true">$X$와 $Y$가 모두 양의 값을 가질 경우 $\frac{X}{Y}$의 평균은 양수이다.</choice>
+        <choice no="4" is_answer="false">$X$와 $Y$의 공분산(covariance)은 $XY$의 평균과 동일하다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 두 랜덤변수 $X$와 $Y$, 의 공분산(covariance) | 정답 선지: $X$와 $Y$가 모두 양의 값을 가질 경우 $\frac{X}{Y}$의 평균은 양수이다.</explanation_ref>
+    </question>
+    <question no="11" id="PRB-71EEA766E6112956-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>최대 주파수가 5 [kHz]로 대역 제한된 아날로그 신호를 표본화할 때, 원래의 신호로 정상 복원이 가능한 최대 표본화 주기[μsec]는?</stem>
+      <formulas count="1">
+        <formula area="질문">\mu</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">10</choice>
+        <choice no="2" is_answer="false">20</choice>
+        <choice no="3" is_answer="true">100</choice>
+        <choice no="4" is_answer="false">200</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 최대, 주파수, 대역, 제한된 | 정답 선지: 100</explanation_ref>
+    </question>
+    <question no="12" id="PRB-71EEA766E6112956-Q12" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>기본 주파수가 $f_{0}$인 신호 $x ( t ) = 2 \cos ( 2 \pi f_{0} t ) - 4 \sin ( 6 \pi f_{0} t )$를 복소지수함수 형식의 푸리에 급수 $x ( t ) = \sum_{n = - \infty}^{\infty} X_{n} e^{j2 \pi nf_{0} t}$로 나타낼 때, 푸리에 계수 $X_{n}$에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="9">
+        <formula area="질문">f_{0}</formula>
+        <formula area="질문">x ( t ) = 2 \cos ( 2 \pi f_{0} t ) - 4 \sin ( 6 \pi f_{0} t )</formula>
+        <formula area="질문">x ( t ) = \sum_{n = - \infty}^{\infty} X_{n} e^{j2 \pi nf_{0} t}</formula>
+        <formula area="질문">X_{n}</formula>
+        <formula area="선택지①">X_{1} = 1</formula>
+        <formula area="선택지②">X_{3} = 2 j</formula>
+        <formula area="선택지③">\sum_{n = - \infty}^{\infty} X_{n} = 0</formula>
+        <formula area="선택지④">n</formula>
+        <formula area="선택지④">X_{n} + X_{- n}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$X_{1} = 1$이다.</choice>
+        <choice no="2" is_answer="false">$X_{3} = 2 j$이다.</choice>
+        <choice no="3" is_answer="true">$\sum_{n = - \infty}^{\infty} X_{n} = 0$이다.</choice>
+        <choice no="4" is_answer="false">모든 $n$에 대해 $X_{n} + X_{- n}$은 실수이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: x ( t ) | 정답 선지: $\sum_{n = - \infty}^{\infty} X_{n} = 0$이다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-71EEA766E6112956-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>WPAN(Wireless Personal Area Network)에 포함되는 기술 또는 표준이 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">Bluetooth</choice>
+        <choice no="2" is_answer="true">GSM</choice>
+        <choice no="3" is_answer="false">ZigBee</choice>
+        <choice no="4" is_answer="false">UWB</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 포함되, 기술, 표준, 아닌 | 정답 선지: GSM</explanation_ref>
+    </question>
+    <question no="14" id="PRB-71EEA766E6112956-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>네트워크의 물리적 접속 형태에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">링형 － 각 장치는 바로 이웃하는 장치에만 연결되어 있다.</choice>
+        <choice no="2" is_answer="true">성형 － 한 링크의 장애가 전체 네트워크를 사용할 수 없게 하는 형태이다.</choice>
+        <choice no="3" is_answer="false">그물형 － 네트워크상의 모든 장치가 다른 장치에 대해 점대점 링크를 갖는다.</choice>
+        <choice no="4" is_answer="false">버스형 － 하나의 긴 케이블이 네트워크상의 모든 장치를 연결하는 백본 네트워크 역할을 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 네트워크의 물리적 접속 형태 | 정답 선지: 성형 － 한 링크의 장애가 전체 네트워크를 사용할 수 없게 하는 형태이다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-71EEA766E6112956-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>균일 양자화기에서 양자화 비트수가 3비트 증가할 때, 양자화 구간 폭(quantization step size)과 신호 대 양자화 잡음비(SQNR, Signal to Quantization Noise Ratio)의 변화는? (단, 신호의 진폭 범위는 동일하다고 가정한다)</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{1}{3}</formula>
+        <formula area="선택지②">\frac{1}{3}</formula>
+        <formula area="선택지③">\frac{1}{8}</formula>
+        <formula area="선택지④">\frac{1}{8}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{3}$배로 감소 약 12 [dB] 감소</choice>
+        <choice no="2" is_answer="false">$\frac{1}{3}$배로 감소 약 12 [dB] 증가</choice>
+        <choice no="3" is_answer="false">$\frac{1}{8}$배로 감소 약 18 [dB] 감소</choice>
+        <choice no="4" is_answer="true">$\frac{1}{8}$배로 감소 약 18 [dB] 증가</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 양자화 구간 폭(quantization step size) | 정답 선지: $\frac{1}{8}$배로 감소 약 18 [dB] 증가</explanation_ref>
+    </question>
+    <question no="16" id="PRB-71EEA766E6112956-Q16" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="수리·계산·자료해석형">
+      <stem>임펄스 응답이 $h ( t )$인 선형 시불변 시스템에 $x ( t )$를 입력하여 출력 $y ( t )$를 얻었을 때, 주파수 응답 $H ( f )$를 구하는 방법으로 옳은 것만을 모두 고르면? (단, $X ( f )$와 $Y ( f )$는 각각 $x ( t )$와 $y ( t )$의 푸리에 변환이고, $X ( f ) \neq 0$이다)</stem>
+      <passage>ㄱ. $h ( t )$의 푸리에 변환을 구한다.
+ㄴ. $\frac{Y ( f )}{X ( f )}$를 구한다.
+ㄷ. 입력을 $x ( t ) = e^{j2 \pi ft}$로 하여 $\frac{y ( t )}{x ( t )}$를 구한다.</passage>
+      <formulas count="13">
+        <formula area="질문">h ( t )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">H ( f )</formula>
+        <formula area="질문">X ( f )</formula>
+        <formula area="질문">Y ( f )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">X ( f ) \neq 0</formula>
+        <formula area="지문">h ( t )</formula>
+        <formula area="지문">\frac{Y ( f )}{X ( f )}</formula>
+        <formula area="지문">x ( t ) = e^{j2 \pi ft}</formula>
+        <formula area="지문">\frac{y ( t )}{x ( t )}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="true">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (수리·계산·자료해석형) | 핵심어: h ( t ), x ( t ), y ( t ), H ( f ), X ( f ) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:O</explanation_ref>
+    </question>
+    <question no="17" id="PRB-71EEA766E6112956-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>디지털 데이터를 압축하여 전송량을 줄이는 기법이며, 디지털 통신에서 전송 매체의 한정된 대역폭 특성을 극복하거나 사용자 용량을 증가시킬 목적으로 사용하는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">인터리빙(interleaving)</choice>
+        <choice no="2" is_answer="false">라인코딩(line coding)</choice>
+        <choice no="3" is_answer="false">채널코딩(channel coding)</choice>
+        <choice no="4" is_answer="true">소스코딩(source coding)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인터리빙(interleaving), 라인코딩(line coding), 채널코딩(channel coding), 소스코딩(source coding) | 정답 선지: 소스코딩(source coding)</explanation_ref>
+    </question>
+    <question no="18" id="PRB-71EEA766E6112956-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 네트워크 공격 기법은?</stem>
+      <passage>네트워크상에 비정상적인 대규모 접속을 발생시켜 과부하를 유발하여 시스템의 중요 자원을 점거하고 사용 불가능한 상태로 만드는 공격 기법으로 정보 보호의 목적 중 가용성에 대한 공격의 일종으로 볼 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">분산 서비스 거부(DDoS)</choice>
+        <choice no="2" is_answer="false">스니핑(sniffing)</choice>
+        <choice no="3" is_answer="false">스푸핑(spoofing)</choice>
+        <choice no="4" is_answer="false">세션 하이재킹(session hijacking)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 분산 서비스 거부(DDoS), 스니핑(sniffing), 스푸핑(spoofing), 세션 하이재킹(session hijacking) | 정답 선지: 분산 서비스 거부(DDoS)</explanation_ref>
+    </question>
+    <question no="19" id="PRB-71EEA766E6112956-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>서로 일대일로 통신할 수 있는 10개의 기기가 있을 때, 모든 기기의 점대점 연결을 위해서 필요한 최소 링크 수는? (단, 각 링크는 전이중(full duplex) 모드를 지원한다고 가정한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">40</choice>
+        <choice no="2" is_answer="true">45</choice>
+        <choice no="3" is_answer="false">50</choice>
+        <choice no="4" is_answer="false">55</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 각 링크는 전이중(full duplex) | 정답 선지: 45</explanation_ref>
+    </question>
+    <question no="20" id="PRB-71EEA766E6112956-Q20" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>디지털 데이터의 기저대역 전송 시 사용되는 라인 코드 펄스 파형을 선택할 때, 고려해야 할 요소가 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">비트 동기화</choice>
+        <choice no="2" is_answer="false">주파수 대역폭</choice>
+        <choice no="3" is_answer="false">에러 검출 용이성</choice>
+        <choice no="4" is_answer="true">대역통과 디지털변조 용이성</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 디지털, 데이터, 기저대역, 전송 | 정답 선지: 대역통과 디지털변조 용이성</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

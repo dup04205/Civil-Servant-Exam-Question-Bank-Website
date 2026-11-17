@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2024-08</exam_id>
+    <subject_row_id>PRB-2D1684BE20EC5B8F</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>통계직</series>
+    <year>2024</year>
+    <exam_title>2024년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>838</subject_code>
+    <subject_name>통계학개론</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통계학개론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-2D1684BE20EC5B8F-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 대통령 선거 출구 조사 방법에 대한 설명이다. 이에 해당하는 표본 추출 기법은?</stem>
+      <passage>모든 투표자를 대상으로 조사하는 것이 아니라, 투표자들이 나오는 것을 조사원이 출구 근처에서 보다가 일정 간격으로 투표자를 추출해 조사합니다. ​간격이 너무 넓은 경우에는 조사원의 집중력 저하로 조사해야 할 투표자를 놓칠 가능성이 큽니다. 반대로 간격이 좁으면 조사원이 너무 바빠 응답자를 정확하게 선정하지 못할 수 있습니다. 16대 대선의 경우는 간격이 6이었고, 19대 대선은 5로 정해 조사했습니다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">단순임의추출법(simple random sampling)</choice>
+        <choice no="2" is_answer="true">계통추출법(systematic sampling)</choice>
+        <choice no="3" is_answer="false">층화임의추출법(stratified random sampling)</choice>
+        <choice no="4" is_answer="false">집락추출법(cluster sampling)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="1">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 은 대통령 선거 출구 조사 방법, 단순임의추출법(simple random sampling), 계통추출법(systematic sampling), 집락추출법(cluster sampling) | 정답 선지: 계통추출법(systematic sampling)</explanation_ref>
+    </question>
+    <question no="2" id="PRB-2D1684BE20EC5B8F-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>세 사건 $A$, $B$, $C$가 서로 독립이고 $P ( A ) = \frac{1}{4}$, $P ( B ) = 3 P ( C )$, $P ( A \cap B^{c} \cap C ) = \frac{1}{48}$일 때, $P ( B \cap C^{c} )$는?</stem>
+      <formulas count="11">
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="질문">C</formula>
+        <formula area="질문">P ( A ) = 1 OVER 4</formula>
+        <formula area="질문">P ( B ) = 3 P ( C )</formula>
+        <formula area="질문">P ( A CAP B^{c} CAP C ) = 1 OVER 48</formula>
+        <formula area="질문">P ( B CAP C^{c} )</formula>
+        <formula area="선택지①">1 OVER 12</formula>
+        <formula area="선택지②">\frac{5}{1} 2</formula>
+        <formula area="선택지③">7 OVER 12</formula>
+        <formula area="선택지④">11 OVER 12</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{12}$</choice>
+        <choice no="2" is_answer="true">$\frac{5}{1} 2$</choice>
+        <choice no="3" is_answer="false">$\frac{7}{12}$</choice>
+        <choice no="4" is_answer="false">$\frac{11}{12}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="2">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: P ( A ), P ( B ), 3 P ( C ) | 정답 선지: $\frac{5}{1} 2$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-2D1684BE20EC5B8F-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>확률변수 $X$, $Y$에 대하여 $E [ X ( Y + 1 ) ] = 9$, $E [ Y ( X + 1 ) ] = 10$, $E ( X + Y ) = 7$일 때, 공분산 $Cov ( X , Y )$의 값은?</stem>
+      <formulas count="6">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">E [ X ( Y + 1 ) ] = 9</formula>
+        <formula area="질문">E [ Y ( X + 1 ) ] = 10</formula>
+        <formula area="질문">E ( X + Y ) = 7</formula>
+        <formula area="질문">Cov ( X , Y )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">－6</choice>
+        <choice no="2" is_answer="false">－5</choice>
+        <choice no="3" is_answer="false">5</choice>
+        <choice no="4" is_answer="false">6</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Cov ( X , Y ) | 정답 선지: －6</explanation_ref>
+    </question>
+    <question no="4" id="PRB-2D1684BE20EC5B8F-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>‘두 확률변수 $X$, $Y$의 상관계수가 $0$’, 즉 ‘$Corr ( X , Y ) = 0$’과 동치가 아닌 것은?</stem>
+      <formulas count="8">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">0</formula>
+        <formula area="질문">Corr ( X , Y ) = 0</formula>
+        <formula area="선택지①">Var ( X + Y ) = Var ( X - Y )</formula>
+        <formula area="선택지②">E ( XY ) = E ( X ) E ( Y )</formula>
+        <formula area="선택지③">Cov ( - 2 X + 3 , 3 Y - 2 ) = 0</formula>
+        <formula area="선택지④">Cov ( X + Y , X - Y ) = 0</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$Var ( X + Y ) = Var ( X - Y )$</choice>
+        <choice no="2" is_answer="false">$E ( XY ) = E ( X ) E ( Y )$</choice>
+        <choice no="3" is_answer="false">$Cov ( - 2 X + 3 , 3 Y - 2 ) = 0$</choice>
+        <choice no="4" is_answer="true">$Cov ( X + Y , X - Y ) = 0$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="4">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Corr ( X , Y ), Var ( X - Y ), E ( XY ), E ( X ), E ( Y ) | 정답 선지: $Cov ( X + Y , X - Y ) = 0$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-2D1684BE20EC5B8F-Q5" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>두 연속확률변수 $X$, $Y$의 상관계수에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="8">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="선택지①">X</formula>
+        <formula area="선택지①">Y</formula>
+        <formula area="선택지④">X</formula>
+        <formula area="선택지④">Y</formula>
+        <formula area="선택지④">3 X</formula>
+        <formula area="선택지④">5 Y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">상관계수가 0이면 $X$, $Y$는 독립이다.</choice>
+        <choice no="2" is_answer="false">상관계수는 측정단위의 영향을 받지 않는다.</choice>
+        <choice no="3" is_answer="false">상관계수가 －0.7인 경우가 ＋0.5인 경우보다 선형관계가 강하다.</choice>
+        <choice no="4" is_answer="false">$X$, $Y$의 표본상관계수가 0.5일 때, 동일 자료에서 $3 X$와 $5 Y$의 표본상관계수도 0.5이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="5">[정답 1번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 두 연속확률변수 $X$, $Y$의 상관계수 | 정답 선지: 상관계수가 0이면 $X$, $Y$는 독립이다.</explanation_ref>
+    </question>
+    <question no="6" id="PRB-2D1684BE20EC5B8F-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정규분포 $N ( \mu , \sigma^2 )$에서 표준편차$( \sigma )$를 이용하여 사분위수범위를 나타낸 것으로 옳은 것은? (단, $z_\alpha$는 표준정규분포의 제$100 \times ( 1 - \alpha )$ 백분위수이다)</stem>
+      <formulas count="8">
+        <formula area="질문">N ( \mu , \sigma^2 )</formula>
+        <formula area="질문">( \sigma )</formula>
+        <formula area="질문">z_\alpha</formula>
+        <formula area="질문">100 times ( 1 - \alpha )</formula>
+        <formula area="선택지①">z_0 . 025 times \sigma</formula>
+        <formula area="선택지②">z_0 . 25 times \sigma</formula>
+        <formula area="선택지③">2 timesz_0 . 025 times \sigma</formula>
+        <formula area="선택지④">2 timesz_0 . 25 times \sigma</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$z_0 . 025 \times \sigma$</choice>
+        <choice no="2" is_answer="false">$z_0 . 25 \times \sigma$</choice>
+        <choice no="3" is_answer="false">$2 timesz_0 . 025 \times \sigma$</choice>
+        <choice no="4" is_answer="true">$2 timesz_0 . 25 \times \sigma$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정규분포, 에서, 표준편차, 이용하여 | 정답 선지: $2 timesz_0 . 25 \times \sigma$</explanation_ref>
+    </question>
+    <question no="7" id="PRB-2D1684BE20EC5B8F-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>미지의 모평균이 μ이고 모분산이 $\sigma^{2}$인 모집단으로부터 확률표본 $X_{1}$, $X_{2}$, $X_{3}$, $X_{4}$를 추출하여 μ에 대한 점추정량을 다음과 같이 정의하였다. 이 점추정량 중에서 μ에 대한 불편추정량이면서 그중 최소분산을 갖는 것은? (단, $\sigma^2 &gt; 0$이다)</stem>
+      <passage>○ ${\hat{\mu_{1}}} = \frac{1}{5} ( X_{1} + X_{2} + 2 X_{3} + X_{4} )$
+○ ${\hat{\mu_{2}}} = \frac{1}{4} ( X_{1} + X_{2} + 2 X_{3} + X_{4} )$
+○ ${\hat{\mu_{3}}} = \frac{1}{5} ( 2 X_{1} + X_{2} + X_{3} + 2 X_{4} )$
+○ ${\hat{\mu_{4}}} = \frac{1}{4} ( 2 X_{1} + X_{2} + X_{3} )$</passage>
+      <formulas count="17">
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\sigma^{2}</formula>
+        <formula area="질문">X_{1}</formula>
+        <formula area="질문">X_{2}</formula>
+        <formula area="질문">X_{3}</formula>
+        <formula area="질문">X_{4}</formula>
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\mu</formula>
+        <formula area="질문">\sigma^2 &gt; 0</formula>
+        <formula area="지문">{\hat{\mu_{1}}} = \frac{1}{5} ( X_{1} + X_{2} + 2 X_{3} + X_{4} )</formula>
+        <formula area="지문">{\hat{\mu_{2}}} = \frac{1}{4} ( X_{1} + X_{2} + 2 X_{3} + X_{4} )</formula>
+        <formula area="지문">{\hat{\mu_{3}}} = \frac{1}{5} ( 2 X_{1} + X_{2} + X_{3} + 2 X_{4} )</formula>
+        <formula area="지문">{\hat{\mu_{4}}} = \frac{1}{4} ( 2 X_{1} + X_{2} + X_{3} )</formula>
+        <formula area="선택지①">{\hat{\mu_{1}}}</formula>
+        <formula area="선택지②">{\hat{\mu_{2}}}</formula>
+        <formula area="선택지③">{\hat{\mu_{3}}}</formula>
+        <formula area="선택지④">{\hat{\mu_{4}}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">${\hat{\mu_{1}}}$</choice>
+        <choice no="2" is_answer="false">${\hat{\mu_{2}}}$</choice>
+        <choice no="3" is_answer="false">${\hat{\mu_{3}}}$</choice>
+        <choice no="4" is_answer="false">${\hat{\mu_{4}}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 미지, 모평균, 이고, 모분산 | 정답 선지: ${\hat{\mu_{1}}}$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-2D1684BE20EC5B8F-Q8" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>확률변수 $X$의 확률분포가 다음과 같다.</stem>
+      <passage>| $x$ | －1 | 0 | 1 | 계 |
+|---|---|---|---|---|
+| $P ( X = x )$ | (가) | (나) | 0.25 | 1 |
+다음 항목 중 옳은 것만을 모두 고르면?
+ㄱ. (가)＋(나) ＝ $\frac{3}{4}$
+ㄴ. $E ( X ) = \frac{1}{8}$일 때, (나) ＝ $\frac{3}{8}$
+ㄷ. $E ( X ) = \frac{1}{12}$일 때, 위 모집단에서 크기가 2인 확률표본을 추출한다면 표본평균 $\bar{X}$의 분산은 $Var ( \bar{X} ) = \frac{59}{144}$이다.</passage>
+      <formulas count="9">
+        <formula area="질문">X</formula>
+        <formula area="지문">x</formula>
+        <formula area="지문">P ( X = x )</formula>
+        <formula area="지문">\frac{3}{4}</formula>
+        <formula area="지문">E ( X ) = 1 OVER 8</formula>
+        <formula area="지문">\frac{3}{8}</formula>
+        <formula area="지문">E ( X ) = 1 OVER 12</formula>
+        <formula area="지문">\bar{X}</formula>
+        <formula area="지문">Var ( \bar{X} ) = 59 OVER 144</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ</choice>
+        <choice no="2" is_answer="false">ㄴ</choice>
+        <choice no="3" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="4" is_answer="false">ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="8">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: E ( X ) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X</explanation_ref>
+    </question>
+    <question no="9" id="PRB-2D1684BE20EC5B8F-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>독립변수 $X$와 종속변수 $Y$를 갖는, 절편이 있는 단순선형회귀모형에서 최소제곱법을 적용했을 때, 결정계수에 대한 설명으로 옳은 것은?</stem>
+      <formulas count="4">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="선택지③">X</formula>
+        <formula area="선택지③">Y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">결정계수가 0이면 모든 잔차가 0이다.</choice>
+        <choice no="2" is_answer="false">결정계수가 큰 모형일수록 설명력이 낮은 모형이다.</choice>
+        <choice no="3" is_answer="true">결정계수는 $X$, $Y$의 표본상관계수를 이용하여 구할 수 있다.</choice>
+        <choice no="4" is_answer="false">만약 새로운 독립변수를 모형에 추가한다면 결정계수는 감소한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="9">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 독립변수, 종속변수, 절편, 단순선형회귀모형에서 | 정답 선지: 결정계수는 $X$, $Y$의 표본상관계수를 이용하여 구할 수 있다.</explanation_ref>
+    </question>
+    <question no="10" id="PRB-2D1684BE20EC5B8F-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어느 도시의 고등학생 중 남학생 100명과 여학생 100명을 무작위추출한 뒤 수학과 영어 과목에 대한 선호도를 조사하여 다음과 같은 분할표를 얻었다. “성별에 따라 과목 선호도에 차이가 없다.”라는 귀무가설을 검정하기 위한 카이제곱검정통계량의 값이 $8$일 때, (가)의 값과 귀무가설 하에서의 이 검정통계량의 근사적인 분포를 바르게 연결한 것은? (단, (가)$geq 50$이다)</stem>
+      <passage>| 과목  성별 | 수학 | 영어 | 계 |
+|---|---|---|---|
+| 남학생 | (가) | | 100 |
+| 여학생 | | | 100 |
+| 계 | 100 | 100 | 200 |</passage>
+      <formulas count="2">
+        <formula area="질문">8</formula>
+        <formula area="질문">geq 50</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">55 자유도가 1인 카이제곱분포</choice>
+        <choice no="2" is_answer="false">55 자유도가 2인 카이제곱분포</choice>
+        <choice no="3" is_answer="true">60 자유도가 1인 카이제곱분포</choice>
+        <choice no="4" is_answer="false">60 자유도가 2인 카이제곱분포</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="10">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어느, 도시, 고등학생, 남학생 | 정답 선지: 60 자유도가 1인 카이제곱분포</explanation_ref>
+    </question>
+    <question no="11" id="PRB-2D1684BE20EC5B8F-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어느 도시에서 하루에 발생하는 교통사고 건수를 지난 200일 동안 조사하여 다음 표와 같이 정리하였다.</stem>
+      <passage>| 교통사고 건수 | 0 | 1 | 2 | 3 | 4 | 계 |
+|---|---|---|---|---|---|---|
+| 해당일 수 | 90 | 50 | 30 | 20 | 10 | 200 |
+이 자료에서 구한 하루 발생 교통사고 건수의 통계량의 값으로 옳지 않은 것은?</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">평균은 1.05이다.</choice>
+        <choice no="2" is_answer="false">중앙값은 1이다.</choice>
+        <choice no="3" is_answer="false">최빈값은 0이다.</choice>
+        <choice no="4" is_answer="true">제3사분위수는 3이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="11">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어느, 도시에서, 하루, 발생하 | 정답 선지: 제3사분위수는 3이다.</explanation_ref>
+    </question>
+    <question no="12" id="PRB-2D1684BE20EC5B8F-Q12" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>분산이 같은 두 정규모집단 A와 B로부터 크기가 각각 8인 확률표본을 독립적으로 추출하였더니 표본분산이 각각 19와 13이었다. 두 모평균의 차 $\mu_A - \mu_B$에 대한 95 % 신뢰구간의 길이는? (단, $t_\alpha ( k )$는 자유도가 $k$인 $t$분포의 제$100 \times ( 1 - \alpha )$ 백분위수를 나타내고, $t_{0 . 025} ( 7 ) = 2 . 365$, $t_{0 . 025} ( 14 ) = 2 . 145$이다)</stem>
+      <formulas count="7">
+        <formula area="질문">\mu_A - \mu_B</formula>
+        <formula area="질문">t_\alpha ( k )</formula>
+        <formula area="질문">k</formula>
+        <formula area="질문">t</formula>
+        <formula area="질문">100 \times ( 1 - \alpha )</formula>
+        <formula area="질문">t_{0 . 025} ( 7 ) = 2 . 365</formula>
+        <formula area="질문">t_{0 . 025} ( 14 ) = 2 . 145</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">4.29</choice>
+        <choice no="2" is_answer="false">4.73</choice>
+        <choice no="3" is_answer="true">8.58</choice>
+        <choice no="4" is_answer="false">9.46</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="12">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: alpha ( k ) | 정답 선지: 8.58</explanation_ref>
+    </question>
+    <question no="13" id="PRB-2D1684BE20EC5B8F-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>앞면이 나올 확률이 $p$인 동전에 대해 가설 $H_0 : p = \frac{1}{2}$, $H_1 : p &gt; \frac{1}{2}$을 검정하려고 한다. 이 동전을 다섯 번 던져 보니 앞면이 네 번 나왔다면, 유의확률($p$－value)은?</stem>
+      <formulas count="8">
+        <formula area="질문">p</formula>
+        <formula area="질문">H_0 : p = 1 over2</formula>
+        <formula area="질문">H_1 : p &gt; 1 over2</formula>
+        <formula area="질문">p</formula>
+        <formula area="선택지①">1 over16</formula>
+        <formula area="선택지②">2 over16</formula>
+        <formula area="선택지③">3 over16</formula>
+        <formula area="선택지④">4 over16</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{16}$</choice>
+        <choice no="2" is_answer="false">$\frac{2}{16}$</choice>
+        <choice no="3" is_answer="true">$\frac{3}{16}$</choice>
+        <choice no="4" is_answer="false">$\frac{4}{16}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="13">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 앞면, 나올, 확률, 동전 | 정답 선지: $\frac{3}{16}$</explanation_ref>
+    </question>
+    <question no="14" id="PRB-2D1684BE20EC5B8F-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 연령대별로 스마트폰 과의존 위험군 비율을 조사한 것이다.</stem>
+      <passage>| 연령대 | 10대 이하 | 20 ～ 30대 | 40 ～ 50대 | 60대 이상 |
+|---|---|---|---|---|
+| 위험군 비율 | 28 % | 37 % | 22 % | 16 % |
+| 표본 크기 | 50명 | 100명 | 100명 | 50명 |
+이 자료를 바탕으로 다음의 가설을 검정하고자 한다.
+○ $H_0$: 연령대에 따라 과의존 위험군 비율에 차이가 없다.
+○ $H_1$: 연령대에 따라 과의존 위험군 비율에 차이가 있다.
+귀무가설 $H_0$가 참일 때 구한, 위험군에 속하는 사람 수의 추정된 기대도수와 관측도수 간에 차이가 존재한다. 이 차이의 절댓값이 가장 큰 연령대는?</passage>
+      <formulas count="3">
+        <formula area="지문">H_0</formula>
+        <formula area="지문">H_1</formula>
+        <formula area="지문">H_0</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">10대 이하</choice>
+        <choice no="2" is_answer="true">20 ～ 30대</choice>
+        <choice no="3" is_answer="false">40 ～ 50대</choice>
+        <choice no="4" is_answer="false">60대 이상</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="14">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연령대별, 스마트폰, 과의존, 위험군 | 정답 선지: 20 ～ 30대</explanation_ref>
+    </question>
+    <question no="15" id="PRB-2D1684BE20EC5B8F-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어느 마트에서 특정 상품에 대한 진열대의 높이와 폭이 매출액에 영향을 주는지 알아보기 위해, 진열대 높이($A$)를 상, 중, 하 3수준으로, 폭($B$)을 대, 소 2수준으로 하여 실험하였다. 다른 조건들이 동일한 12일 동안 6개의 실험조건을 무작위 순서로 2일씩 적용하여 매출액을 조사한 후 얻은 분산분석표가 다음과 같다. 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <passage>| 요인 | 제곱합 | 자유도 | 평균제곱 | $F$－값 |
+|---|---|---|---|---|
+| 인자 $A$ | 1,544 | | | |
+| 인자 $B$ | 12 | | | |
+| 교호작용 $A \times B$ | 24 | | | |
+| 오차 | 62 | | | |
+| 계 | | | | |</passage>
+      <formulas count="10">
+        <formula area="질문">A</formula>
+        <formula area="질문">B</formula>
+        <formula area="지문">F</formula>
+        <formula area="지문">A</formula>
+        <formula area="지문">B</formula>
+        <formula area="지문">A \times B</formula>
+        <formula area="선택지②">B</formula>
+        <formula area="선택지②">A \times B</formula>
+        <formula area="선택지④">A</formula>
+        <formula area="선택지④">A \times B</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">총제곱합은 1,642이다.</choice>
+        <choice no="2" is_answer="false">인자 $B$의 평균제곱은 교호작용 $A \times B$의 평균제곱과 동일하다.</choice>
+        <choice no="3" is_answer="false">오차 자유도는 6이다.</choice>
+        <choice no="4" is_answer="true">유의성검정에서의 유의확률은 인자 $A$가 교호작용 $A \times B$보다 크다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="15">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 어느 마트에서 특정 상품 | 정답 선지: 유의성검정에서의 유의확률은 인자 $A$가 교호작용 $A \times B$보다 크다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-2D1684BE20EC5B8F-Q16" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음은 자료 $( x_{1 i} , x_{2 i} , y_{i} )$ $( i = 1 , 2 , \cdots , 23 )$에 다중선형회귀모형 $y_i =$$\beta_0 + \beta_1 x_1 i + \beta_2 x_2 i + \epsilon_i$를 최소제곱법으로 적합하여 얻은 분산분석표이다. 이에 대한 설명으로 옳은 것만을 모두 고르면? (단, $\epsilon_i$는 $N ( 0 , \sigma^2 )$을 따르고 서로 독립이다)</stem>
+      <passage>| 요인 | 제곱합 | 자유도 | 평균제곱 | $F$－값 | $p$－값 |
+|---|---|---|---|---|---|
+| 회귀 | 420 | | (가) | (다) | &lt; 0.001 |
+| 잔차 | | | (나) | | |
+| 계 | 480 | | | | |
+ㄱ. 결정계수는 0.875이다.
+ㄴ. 유의수준 1 %에서 이 모형이 유의하다.
+ㄷ. (가) ＋ (나) ＋ (다) ＝ 283이다.</passage>
+      <formulas count="8">
+        <formula area="질문">( x_{1 i} , x_{2 i} , y_{i} )</formula>
+        <formula area="질문">( i = 1 , 2 , CDOTS , 23 )</formula>
+        <formula area="질문">y_i =</formula>
+        <formula area="질문">\beta_0 + \beta_1 x_1 i + \beta_2 x_2 i + \epsilon_i</formula>
+        <formula area="질문">\epsilon_i</formula>
+        <formula area="질문">N ( 0 , \sigma^2 )</formula>
+        <formula area="지문">F</formula>
+        <formula area="지문">p</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄷ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ</choice>
+        <choice no="4" is_answer="true">ㄱ, ㄴ, ㄷ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="16">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 자료, 다중선형회귀모형, 최소제곱법으, 적합하여 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:O</explanation_ref>
+    </question>
+    <question no="17" id="PRB-2D1684BE20EC5B8F-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 설명 중 옳지 않은 것은?</stem>
+      <formulas count="16">
+        <formula area="선택지①">\alpha = 0 . 01</formula>
+        <formula area="선택지①">\alpha = 0 . 05</formula>
+        <formula area="선택지②">n</formula>
+        <formula area="선택지②">t_{0 . 05} ( n ) &lt; t_{0 . 05} ( n + 1 )</formula>
+        <formula area="선택지②">t_{0 . 05} ( k )</formula>
+        <formula area="선택지②">k</formula>
+        <formula area="선택지②">t</formula>
+        <formula area="선택지③">n</formula>
+        <formula area="선택지③">\chi_{0 . 05}^{2} ( n ) &lt; \chi_{0 . 05}^{2} ( n + 1 )</formula>
+        <formula area="선택지③">\chi_{0 . 05}^{2} ( k )</formula>
+        <formula area="선택지③">k</formula>
+        <formula area="선택지④">A_{1}</formula>
+        <formula area="선택지④">A_{2}</formula>
+        <formula area="선택지④">P ( B ) &gt; 0</formula>
+        <formula area="선택지④">P ( A_{1} CUP A_{2} vert B )</formula>
+        <formula area="선택지④">= P ( A_{1} vert B ) + P ( A_{2} vert B )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">유의수준 $\alpha = 0 . 01$에서 귀무가설을 기각하는 검정 결과가 나왔다면 유의수준 $\alpha = 0 . 05$에서도 귀무가설을 기각하게 된다.</choice>
+        <choice no="2" is_answer="true">모든 자연수 $n$에 대해 $t_{0 . 05} ( n ) &lt; t_{0 . 05} ( n + 1 )$이다(단, $t_{0 . 05} ( k )$는 자유도가 $k$인 $t$분포의 제95백분위수).</choice>
+        <choice no="3" is_answer="false">모든 자연수 $n$에 대해 $\chi_{0 . 05}^{2} ( n ) &lt; \chi_{0 . 05}^{2} ( n + 1 )$이다(단, $\chi_{0 . 05}^{2} ( k )$는 자유도가 $k$인 카이제곱분포의 제95백분위수).</choice>
+        <choice no="4" is_answer="false">두 사건 $A_{1}$, $A_{2}$가 서로 배반이고 $P ( B ) &gt; 0$일 때, $P ( A_{1} \cup A_{2} vert B )$$= P ( A_{1} vert B ) + P ( A_{2} vert B )$이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="17">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: P ( B ) | 정답 선지: 모든 자연수 $n$에 대해 $t_{0 . 05} ( n ) &lt; t_{0 . 05} ( n + 1 )$이다(단, $t_...</explanation_ref>
+    </question>
+    <question no="18" id="PRB-2D1684BE20EC5B8F-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음은 자료 $( x_{i} , y_i )$ ($i = 1 , 2 , \cdots , n$)에 단순선형회귀모형 $y_i =$$\beta_0 + \beta_1 x_i + \epsilon_i$를 적합하여 구할 수 있는 값들이다.</stem>
+      <passage>○ $\bar{x} = \frac{1}{n} \sum_{i = 1}^{n} x_i$ ○ $\bar{y} = \frac{1}{n} \sum_{i = 1}^{n} y_i$
+○ $e_i = y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i$ ○ $SSE = \sum_{i = 1}^{n} e_i^2$
+○ $S_{xx} = \sum_{i = 1}^{n} ( x_i - \bar{x} )^2$ ○ $S_{xy} = \sum_{i = 1}^{n} ( x_i - \bar{x} ) ( y_i - \bar{y} )$
+○ $S_{yy} = \sum_{i = 1}^{n} ( y_i - \bar{y} )^2$
+다음 식 중 옳은 것은? (단, ${\hat{\beta_{0}}}$, $hatbeta_1$은 각각 $\beta_0$, $\beta_1$의 최소제곱추정값이다)</passage>
+      <formulas count="20">
+        <formula area="질문">( x_{i} , y_i )</formula>
+        <formula area="질문">i = 1 , 2 , cdots , n</formula>
+        <formula area="질문">y_i =</formula>
+        <formula area="질문">\beta_0 + \beta_1 x_i + \epsilon_i</formula>
+        <formula area="지문">\bar{x} = \frac{1}{n} \sum_{i = 1}^{n} x_i</formula>
+        <formula area="지문">\bar{y} = 1 overn \sum_{i = 1}^{n} y_i</formula>
+        <formula area="지문">e_i = y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i</formula>
+        <formula area="지문">SSE = \sum_{i = 1}^{n} e_i^2</formula>
+        <formula area="지문">S_{xx} = \sum_{i = 1}^{n} ( x_i - \bar{x} )^2</formula>
+        <formula area="지문">S_{xy} = \sum_{i = 1}^{n} ( x_i - \bar{x} ) ( y_i - \bar{y} )</formula>
+        <formula area="지문">S_{yy} = \sum_{i = 1}^{n} ( y_i - \bar{y} )^2</formula>
+        <formula area="지문">{\hat{\beta_{0}}}</formula>
+        <formula area="지문">hatbeta_1</formula>
+        <formula area="지문">\beta_0</formula>
+        <formula area="지문">\beta_1</formula>
+        <formula area="선택지①">\hat{\beta_1} = S_\frac{xy}{S_{yy}}</formula>
+        <formula area="선택지②">SSE = S_{yy} - {\hat{\beta_{1}}} S_{xy}</formula>
+        <formula area="선택지③">r^{2} = \frac{S_{xy}}{S_{xx} S_{yy}}</formula>
+        <formula area="선택지③">r^2</formula>
+        <formula area="선택지④">\sum_{i = 1}^{n} y_{i} e_{i} = 0</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\hat{\beta_1} = S_\frac{xy}{S_{yy}}$</choice>
+        <choice no="2" is_answer="true">$SSE = S_{yy} - {\hat{\beta_{1}}} S_{xy}$</choice>
+        <choice no="3" is_answer="false">$r^{2} = \frac{S_{xy}}{S_{xx} S_{yy}}$ (단, $r^2$은 결정계수)</choice>
+        <choice no="4" is_answer="false">$\sum_{i = 1}^{n} y_{i} e_{i} = 0$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="18">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 자료, 단순선형회귀모형, 적합하여, 구할 | 정답 선지: $SSE = S_{yy} - {\hat{\beta_{1}}} S_{xy}$</explanation_ref>
+    </question>
+    <question no="19" id="PRB-2D1684BE20EC5B8F-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>두 이산확률변수 $X$, $Y$의 결합확률질량함수가 다음과 같을 때, $P ( Y = 2 X )$의 값은? (단, $c$는 상수이다)</stem>
+      <passage>$f ( x , y ) = \frac{x + y}{c}$, $x = 1 , 2 , 3$, $y = 1 , 2 , 3 , 4$</passage>
+      <formulas count="11">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">P ( Y = 2 X )</formula>
+        <formula area="질문">c</formula>
+        <formula area="지문">f ( x , y ) = \frac{x + y}{c}</formula>
+        <formula area="지문">x = 1 , 2 , 3</formula>
+        <formula area="지문">y = 1 , 2 , 3 , 4</formula>
+        <formula area="선택지①">\frac{1}{1} 8</formula>
+        <formula area="선택지②">\frac{1}{9}</formula>
+        <formula area="선택지③">\frac{1}{6}</formula>
+        <formula area="선택지④">\frac{2}{9}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{1} 8$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{9}$</choice>
+        <choice no="3" is_answer="true">$\frac{1}{6}$</choice>
+        <choice no="4" is_answer="false">$\frac{2}{9}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="19">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: f ( x , y ) | 정답 선지: $\frac{1}{6}$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-2D1684BE20EC5B8F-Q20" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>수준이 3개이고 반복수가 각각 $n_{1} = 5$, $n_{2} = 10$, $n_{3} = 15$인 일원배치법으로부터 얻은 자료를 $y_{ij} ( i = 1 , 2 , 3 , j = 1 , 2 , \cdots , n_{i} )$라 하고, $i$번째 수준에서의 평균을 ${\bar{y}}_{i .} = \frac{1}{n_{i}} \sum_{j = 1}^{n_{i}} y_{ij}$라 하자. ${\bar{y}}_{1 .} = 6$, ${\bar{y}}_{2 .} = 3$, ${\bar{y}}_{3 .} = 2$일 때, 분산분석표에서 처리제곱합은?</stem>
+      <formulas count="9">
+        <formula area="질문">n_{1} = 5</formula>
+        <formula area="질문">n_{2} = 10</formula>
+        <formula area="질문">n_{3} = 15</formula>
+        <formula area="질문">y_{ij} ( i = 1 , 2 , 3 , j = 1 , 2 , CDOTS , n_{i} )</formula>
+        <formula area="질문">i</formula>
+        <formula area="질문">{\bar{y}}_{i .} = \frac{1}{n_{i}} \sum_{j = 1}^{n_{i}} y_{ij}</formula>
+        <formula area="질문">{\bar{y}}_{1 .} = 6</formula>
+        <formula area="질문">{\bar{y}}_{2 .} = 3</formula>
+        <formula area="질문">{\bar{y}}_{3 .} = 2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">60</choice>
+        <choice no="2" is_answer="false">90</choice>
+        <choice no="3" is_answer="false">270</choice>
+        <choice no="4" is_answer="false">330</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="통계학개론_해설.xml" question_no="20">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 수준, 개이고, 반복수, 각각 | 정답 선지: 60</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

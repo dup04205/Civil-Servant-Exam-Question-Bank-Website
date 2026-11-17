@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2024-08</exam_id>
+    <subject_row_id>PRB-37F1B3F051DFF387</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>전산직_정보보호</series>
+    <year>2024</year>
+    <exam_title>2024년도 9급 공개경쟁채용시험</exam_title>
+    <subject_code>997</subject_code>
+    <subject_name>네트워크보안</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>네트워크보안_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-37F1B3F051DFF387-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>공격자가 ARP 스푸핑 공격으로 위조하려는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">Port 번호</choice>
+        <choice no="2" is_answer="false">ICMP 에코 요청 패킷</choice>
+        <choice no="3" is_answer="true">MAC 주소</choice>
+        <choice no="4" is_answer="false">DNS 응답 메시지</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="1">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 공격자, 스푸핑, 공격으, 위조하려 | 정답 선지: MAC 주소</explanation_ref>
+    </question>
+    <question no="2" id="PRB-37F1B3F051DFF387-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>route 명령으로 얻은 라우팅 테이블 정보와 같은 결과물을 출력할 수 있는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">traceroute</choice>
+        <choice no="2" is_answer="false">tcpdump</choice>
+        <choice no="3" is_answer="true">netstat</choice>
+        <choice no="4" is_answer="false">ping</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="2">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 명령으, 라우팅, 테이블, 정보와 | 정답 선지: netstat</explanation_ref>
+    </question>
+    <question no="3" id="PRB-37F1B3F051DFF387-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 것은?</stem>
+      <passage>○ 외부 방화벽과 내부 방화벽 사이에 존재한다.
+○ 외부에서 접속할 수 있어야 하며 보호되어야 하는 시스템(예: 회사의 웹사이트, 이메일 서버 등)을 여기에 배치한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">NAT(Network Address Translation)</choice>
+        <choice no="2" is_answer="true">DMZ(Demilitarized Zone)</choice>
+        <choice no="3" is_answer="false">VPN(Virtual Private Network)</choice>
+        <choice no="4" is_answer="false">PAN(Personal Area Network)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="3">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: DMZ(Demilitarized Zone), VPN(Virtual Private Network), PAN(Personal Area Network) | 정답 선지: DMZ(Demilitarized Zone)</explanation_ref>
+    </question>
+    <question no="4" id="PRB-37F1B3F051DFF387-Q4" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>접근 제어 방식에 대한 다음 설명의 (가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>(가)는 사용자 ID가 아닌 시스템에서 정의한 사용자의 역할을 바탕으로 접근 권한을 정의한다. 각 사용자는 (나)정적 또는 동적으로 할당될 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">DAC 하나의 역할에만</choice>
+        <choice no="2" is_answer="false">DAC 여러 개의 역할에</choice>
+        <choice no="3" is_answer="false">RBAC 하나의 역할에만</choice>
+        <choice no="4" is_answer="true">RBAC 여러 개의 역할에</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="4">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 접근 제어 방식 | 정답 선지: RBAC 여러 개의 역할에</explanation_ref>
+    </question>
+    <question no="5" id="PRB-37F1B3F051DFF387-Q5" type="O/X 판별 조합형" category="복합 보기 검증형">
+      <stem>HTTP 버전 1.1에서 정의된 메소드의 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">POST는 서버가 클라이언트에게 문서를 전달하는 데 사용한다.</choice>
+        <choice no="2" is_answer="false">GET은 클라이언트가 서버에게 문서를 요청할 때 사용한다.</choice>
+        <choice no="3" is_answer="false">HEAD는 클라이언트가 문서 자체가 아니라 문서에 대한 정보를 원할 때 사용한다.</choice>
+        <choice no="4" is_answer="false">TRACE는 클라이언트가 검사 목적으로 서버에게 정보 반환을 요청하는 데 사용한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="5">[정답 1번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: HTTP 버전 1.1에서 정의된 메소드 | 정답 선지: POST는 서버가 클라이언트에게 문서를 전달하는 데 사용한다.</explanation_ref>
+    </question>
+    <question no="6" id="PRB-37F1B3F051DFF387-Q6" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>DNS 스푸핑 공격의 순서를 바르게 나열한 것은?</stem>
+      <passage>(가) 클라이언트는 공격자가 전송한 DNS Response를 올바른 메시지로 인식한다.
+(나) 로컬에 존재하며 DNS 서버보다 클라이언트와 가까이 위치한 공격자는 위조된 DNS Response를 클라이언트에게 전송한다.
+(다) 공격자는 스니핑 공격을 통해 클라이언트가 DNS 서버로 DNS Query를 전송하는 것을 확인한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">(가) → (나) → (다)</choice>
+        <choice no="2" is_answer="false">(나) → (가) → (다)</choice>
+        <choice no="3" is_answer="false">(나) → (다) → (가)</choice>
+        <choice no="4" is_answer="true">(다) → (나) → (가)</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="6">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 스푸핑, 공격, 순서, 나열한 | 정답 선지: (다) → (나) → (가)</explanation_ref>
+    </question>
+    <question no="7" id="PRB-37F1B3F051DFF387-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>서버가 클라이언트로부터 받은 비밀키에 대하여 여러 번 해시 함수를 적용하여 얻은 해시 체인으로 일회용 비밀번호(OTP)를 생성하는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">S/KEY 방식</choice>
+        <choice no="2" is_answer="false">시간 동기화 방식</choice>
+        <choice no="3" is_answer="false">이벤트 동기화 방식</choice>
+        <choice no="4" is_answer="false">챌린지－응답 방식</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시 체인으로 일회용 비밀번호(OTP) | 정답 선지: S/KEY 방식</explanation_ref>
+    </question>
+    <question no="8" id="PRB-37F1B3F051DFF387-Q8" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>WPA(Wi-Fi Protected Access)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">WPA는 WEP의 보안 취약점을 보완하기 위해 제안되었다.</choice>
+        <choice no="2" is_answer="true">WPA의 TKIP는 암호 알고리즘으로 AES를 사용한다.</choice>
+        <choice no="3" is_answer="false">WPA-EAP는 인증을 위해서 RADIUS 서버를 이용할 수 있다.</choice>
+        <choice no="4" is_answer="false">WPA-PSK는 사전에 공유된 비밀키를 사용한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="8">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: WPA(Wi-Fi Protected Access) | 정답 선지: WPA의 TKIP는 암호 알고리즘으로 AES를 사용한다.</explanation_ref>
+    </question>
+    <question no="9" id="PRB-37F1B3F051DFF387-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>DoS 공격 방식에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">스머프(Smurf) 공격은 발신지 주소가 거짓으로 조작된 ICMP 패킷을 받은 네트워크의 많은 컴퓨터들이 발신지 주소로 응답을 보내게 하여 트래픽 범람을 일으키는 것이다.</choice>
+        <choice no="2" is_answer="false">티어드롭(Teardrop) 공격은 IP 패킷 헤더 정보를 조작해서 패킷 조각(fragment)이 중첩되도록 보내어 이를 전달받은 시스템의 IP 패킷 재조합 과정에서 오류를 발생시킨다.</choice>
+        <choice no="3" is_answer="true">슬로로리스(Slowloris) 공격은 HTTP 메시지 헤더의 Content-Length 필드에 임의의 큰 값을 설정하여 웹 서버가 클라이언트에서 해당 크기의 메시지를 전송할 때까지 연결을 유지하게 함으로써 정상적인 사용자의 접속을 받아들일 수 없게 하는 것이다.</choice>
+        <choice no="4" is_answer="false">HTTP GET 플러딩 공격은 정상적인 TCP 세션과 함께 정상적으로 보이는 과도한 HTTP GET을 요청받은 웹 서버에 과부하가 걸리게 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="9">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: DoS 공격 방식, 스머프(Smurf), 티어드롭(Teardrop), 정보를 조작해서 패킷 조각(fragment), 슬로로리스(Slowloris) | 정답 선지: 슬로로리스(Slowloris) 공격은 HTTP 메시지 헤더의 Content-Length 필드에 임의의 큰 값을 설정하...</explanation_ref>
+    </question>
+    <question no="10" id="PRB-37F1B3F051DFF387-Q10" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>(가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>○ (가)은/는 네트워크 레벨에서 패킷에 대한 보안을 제공하기 위해 설계된 프로토콜의 모음이다.
+○ (가)이/가 지원하는 (나)에서는 새로운 IP 헤더가 추가된다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">IPSec 전송모드</choice>
+        <choice no="2" is_answer="true">IPSec 터널모드</choice>
+        <choice no="3" is_answer="false">TLS 전송모드</choice>
+        <choice no="4" is_answer="false">TLS 터널모드</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="10">[정답 2번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 내용, 연결한 | 정답 선지: IPSec 터널모드</explanation_ref>
+    </question>
+    <question no="11" id="PRB-37F1B3F051DFF387-Q11" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>무선 랜의 MAC 프레임에 대한 다음 설명의 (가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>802.11 무선 랜 표준의 매체 접속 프로토콜은 (가)이고, 무선 MAC 계층 프레임 포맷에는 (나)개의 주소 필드가 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">CSMA/CD 2</choice>
+        <choice no="2" is_answer="false">CSMA/CD 4</choice>
+        <choice no="3" is_answer="false">CSMA/CA 2</choice>
+        <choice no="4" is_answer="true">CSMA/CA 4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="11">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 무선 랜의 MAC 프레임 | 정답 선지: CSMA/CA 4</explanation_ref>
+    </question>
+    <question no="12" id="PRB-37F1B3F051DFF387-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>SSL/TLS 핸드셰이크 프로토콜에서 클라이언트가 보내는 client_hello 메시지에 포함되지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">난수</choice>
+        <choice no="2" is_answer="false">클라이언트가 지원하는 암호 그룹(Cipher Suite) 목록</choice>
+        <choice no="3" is_answer="false">클라이언트가 지원하는 압축 방식 목록</choice>
+        <choice no="4" is_answer="true">인증서</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="12">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이언트가 지원하는 암호 그룹(Cipher Suite) | 정답 선지: 인증서</explanation_ref>
+    </question>
+    <question no="13" id="PRB-37F1B3F051DFF387-Q13" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>(가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>스위치 환경에서 공격자의 스위치 재밍을 통해 스위치의 매핑 테이블의 최대 저장 개수보다 더 많은 정보가 추가되어 스위치가 (가)모드로 동작하여, 같은 스위치 내에 위치한 공격자는 네트워크 인터페이스 카드를 (나)모드로 설정하여 스니핑이 가능하다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">Broadcast Full-duplex</choice>
+        <choice no="2" is_answer="true">Broadcast Promiscuous</choice>
+        <choice no="3" is_answer="false">Unicast Full-duplex</choice>
+        <choice no="4" is_answer="false">Unicast Promiscuous</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="13">[정답 2번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 내용, 연결한 | 정답 선지: Broadcast Promiscuous</explanation_ref>
+    </question>
+    <question no="14" id="PRB-37F1B3F051DFF387-Q14" type="빈칸/기호 추론형" category="수리·계산·자료해석형">
+      <stem>다음은 TCP 3-Way Handshaking 과정의 예를 나타낸 것이다. (가) ～ (라)에 들어갈 숫자를 바르게 연결한 것은? (단, C: Client, S: Server, [ ]: 세그먼트 플래그, seq: 순서 번호, ack: 확인응답 번호)</stem>
+      <passage>C → S, [SYN] seq ＝ 102
+S → C, [SYN－ACK] seq ＝ (가), ack ＝ (나)
+C → S, [ACK] seq ＝ (다), ack ＝ (라)
+&lt;u&gt; (가) &lt;/u&gt; &lt;u&gt; (나) &lt;/u&gt; &lt;u&gt; (다) &lt;/u&gt; &lt;u&gt; (라) &lt;/u&gt;</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">213 102 103 214</choice>
+        <choice no="2" is_answer="false">102 103 103 214</choice>
+        <choice no="3" is_answer="false">103 102 213 214</choice>
+        <choice no="4" is_answer="true">330 103 103 331</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="14">[정답 4번] 빈칸/기호 추론형 (수리·계산·자료해석형) | 핵심어: 과정, 나타낸, 것이다, 숫자 | 정답 선지: 330 103 103 331</explanation_ref>
+    </question>
+    <question no="15" id="PRB-37F1B3F051DFF387-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>암호 알고리즘에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">SEED는 128비트의 블록 암호 알고리즘이며, SEED 128과 SEED 256의 키 길이는 각각 128비트와 256비트이다.</choice>
+        <choice no="2" is_answer="true">HIGHT는 경량 환경 및 하드웨어의 효율성 향상을 위해 개발된 128비트의 블록 암호 알고리즘이다.</choice>
+        <choice no="3" is_answer="false">DES는 64비트의 블록 암호 알고리즘으로 16라운드로 구성되어 있다.</choice>
+        <choice no="4" is_answer="false">LEA는 국내에서 개발된 128비트의 블록 암호 알고리즘으로 128비트, 192비트, 256비트의 비밀키를 사용할 수 있다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="15">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 암호 알고리즘 | 정답 선지: HIGHT는 경량 환경 및 하드웨어의 효율성 향상을 위해 개발된 128비트의 블록 암호 알고리즘이다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-37F1B3F051DFF387-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>HMAC에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">IP 보안에서 메시지 인증 목적으로 사용된다.</choice>
+        <choice no="2" is_answer="false">MD5, SHA-1, RIPEMD-160과 같은 해시 함수를 내장하고 있다.</choice>
+        <choice no="3" is_answer="true">비밀키를 적용한 블록 암호화와 해시 함수를 사용해서 결과를 산출한다.</choice>
+        <choice no="4" is_answer="false">IEEE 802.11i의 의사 난수 생성 과정에 사용된다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="16">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: HMAC | 정답 선지: 비밀키를 적용한 블록 암호화와 해시 함수를 사용해서 결과를 산출한다.</explanation_ref>
+    </question>
+    <question no="17" id="PRB-37F1B3F051DFF387-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>DNSSEC(DNS Security Extensions)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">DNS 응답 메시지에 대한 기밀성을 제공한다.</choice>
+        <choice no="2" is_answer="false">DNS 데이터에 공개키 기반 전자서명을 추가하여 데이터의 무결성을 제공한다.</choice>
+        <choice no="3" is_answer="false">DNS 응답 수신자(resolver)는 수신한 데이터에 대한 서명을 검증한다.</choice>
+        <choice no="4" is_answer="false">DNSSEC는 DNS 캐시 포이즈닝 공격을 방어하도록 설계되었다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="17">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: DNSSEC(DNS Security Extensions), DNS 응답 수신자(resolver) | 정답 선지: DNS 응답 메시지에 대한 기밀성을 제공한다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-37F1B3F051DFF387-Q18" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>하트블리드(Heartbleed)에 대한 다음 설명의 (가)와 (나)에 들어갈 내용을 바르게 연결한 것은?</stem>
+      <passage>TLS를 구현하기 위한 오픈 소스인 OpenSSL에 내재된 버그로, (가) 프로토콜의 요청을 받은 컴퓨터에서 적절한 (나)이 이루어지지 않아서 피해자가 의도하지 않은 내용이 응답 패킷의 페이로드에 복사되어 공격자에게 전송될 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">Handshake 페이로드 길이 확인</choice>
+        <choice no="2" is_answer="false">Handshake 사용자 인증</choice>
+        <choice no="3" is_answer="true">Heartbeat 페이로드 길이 확인</choice>
+        <choice no="4" is_answer="false">Heartbeat 사용자 인증</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="18">[정답 3번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 하트블리드(Heartbleed) | 정답 선지: Heartbeat 페이로드 길이 확인</explanation_ref>
+    </question>
+    <question no="19" id="PRB-37F1B3F051DFF387-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>SSH(Secure Shell)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">SSH는 안전한 원격 로그온 기능을 제공하기 위해 설계되었다.</choice>
+        <choice no="2" is_answer="false">사용자 인증 프로토콜을 통해 사용자가 서버에게 인증받는다.</choice>
+        <choice no="3" is_answer="false">포트 전달을 통해 임의의 안전하지 않은 TCP 연결을 안전한 SSH 연결로 변환시킬 수 있다.</choice>
+        <choice no="4" is_answer="true">전송 계층 프로토콜은 하나의 SSH 연결을 여러 개의 논리적 통신 채널로 다중화한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="19">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SSH(Secure Shell) | 정답 선지: 전송 계층 프로토콜은 하나의 SSH 연결을 여러 개의 논리적 통신 채널로 다중화한다.</explanation_ref>
+    </question>
+    <question no="20" id="PRB-37F1B3F051DFF387-Q20" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>다음은 사용자 A와 B가 Diffie-Hellman 알고리즘에 의한 키 교환을 시도하려는 도중에 발생한 중간자 공격의 개념을 도시한 것이다. 공격자가 A와의 공유비밀키 K_(A)와 B와의 공유비밀키 K_(B)를 산출하는 계산식을 바르게 연결한 것은? (단, p는 소수, g는 p의 원시근, x, y, a, b는 p보다 작은 임의의 양의 정수)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-37F1B3F051DFF387/20_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-37F1B3F051DFF387/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">R_(1)^(a) mod p R_(2)^(b) mod p</choice>
+        <choice no="2" is_answer="true">R_(1)^(b) mod p R_(2)^(a) mod p</choice>
+        <choice no="3" is_answer="false">R_(2)^(a) mod p R_(1)^(b) mod p</choice>
+        <choice no="4" is_answer="false">R_(2)^(b) mod p R_(1)^(a) mod p</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="네트워크보안_해설.xml" question_no="20">[정답 2번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 사용자, 알고리즘, 의한, 교환 | 정답 선지: R_(1)^(b) mod p R_(2)^(a) mod p</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

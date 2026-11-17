@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_explanations>
+  <metadata>
+    <exam_id>EXM-2026-08</exam_id>
+    <subject_row_id>PRB-5CD559E8E95904ED</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>9급</grade>
+    <series>전산직_정보보호</series>
+    <year>2026</year>
+    <exam_title>2026년도 9급 공개경쟁채용시험 문제별 상세 해설</exam_title>
+    <subject_code>997</subject_code>
+    <subject_name>네트워크보안</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <question_file>네트워크보안.xml</question_file>
+    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+  </metadata>
+  <explanations>
+    <question_explanation no="1" id="PRB-5CD559E8E95904ED-Q1">
+      <question_stem>국내에서 개발된 대칭키 암호화 알고리즘이 아닌 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>국내에서</keyword>
+        <keyword>개발된</keyword>
+        <keyword>대칭키</keyword>
+        <keyword>암호화</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>AES</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 국내에서, 개발된, 대칭키, 암호화
+2. [정답 및 핵심 결론] 정답은 1번("AES")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 1번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(2, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>AES</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: AES] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>LEA</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: LEA] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>ARIA</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: ARIA] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>SEED</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: SEED] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="2" id="PRB-5CD559E8E95904ED-Q2">
+      <question_stem>OSI 7계층 중 네트워크 계층에 포함되지 않는 프로토콜은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>계층</keyword>
+        <keyword>네트워크</keyword>
+        <keyword>포함되지</keyword>
+        <keyword>프로토콜</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>UDP</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 계층, 네트워크, 포함되지, 프로토콜
+2. [정답 및 핵심 결론] 정답은 2번("UDP")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 계층, 네트워크, 포함되지, 프로토콜에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>ARP</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ARP] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>UDP</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: UDP] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>OSPF</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: OSPF] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>RARP</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: RARP] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="3" id="PRB-5CD559E8E95904ED-Q3">
+      <question_stem>(가) ～ (다)에서 설명하는 네트워크 장비를 바르게 연결한 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>에서</keyword>
+        <keyword>설명하</keyword>
+        <keyword>네트워크</keyword>
+        <keyword>장비</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>허브 스위치 라우터</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 에서, 설명하, 네트워크, 장비
+2. [정답 및 핵심 결론] 정답은 4번("허브 스위치 라우터")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 에서, 설명하, 네트워크, 장비에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>라우터 스위치 허브</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 라우터 스위치 허브] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>허브 라우터 스위치</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 허브 라우터 스위치] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>스위치 허브 라우터</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 스위치 허브 라우터] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>허브 스위치 라우터</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 허브 스위치 라우터] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="4" id="PRB-5CD559E8E95904ED-Q4">
+      <question_stem>다음 IPSec ESP(Encapsulating Security Payload)에서 터널모드의 암호화 및 인증 범위를 바르게 연결한 것은?</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>에서</keyword>
+        <keyword>터널모드</keyword>
+        <keyword>암호화</keyword>
+        <keyword>인증</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>(다) (나)</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 에서, 터널모드, 암호화, 인증
+2. [정답 및 핵심 결론] 정답은 4번("(다) (나)")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 에서, 터널모드, 암호화, 인증에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(가) (나)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (가) (나)] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(가) (다)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (가) (다)] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(다) (가)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (다) (] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>(다) (나)</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: (다) (나)] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="5" id="PRB-5CD559E8E95904ED-Q5">
+      <question_stem>SSLv3(Secure Sockets Layer version 3)에서 서버와 클라이언트가 서로 인증하고, 암호와 MAC 알고리즘과 암호키를 협상하는 역할을 하는 프로토콜은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>에서</keyword>
+        <keyword>서버와</keyword>
+        <keyword>클라이언트</keyword>
+        <keyword>인증하고</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>Handshake Protocol</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 에서, 서버와, 클라이언트, 인증하고
+2. [정답 및 핵심 결론] 정답은 3번("Handshake Protocol")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 에서, 서버와, 클라이언트, 인증하고에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>Alert Protocol</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: Alert Protocol] 문장 내 '...Alert Protocol' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>Record Protocol</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: Record Protocol] 문장 내 '...Record Protocol' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>Handshake Protocol</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: Handshake Protocol] 문장 말미의 '...Handshake Protocol' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>Change Cipher Spec Protocol</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: Change Cipher Spec Protocol] 문장 내 '...ange Cipher Spec Protocol' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="6" id="PRB-5CD559E8E95904ED-Q6">
+      <question_stem>디지털 포렌식에서 다음에 해당하는 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>디지털</keyword>
+        <keyword>포렌식에서</keyword>
+        <keyword>해당하</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>재현의 원칙</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 디지털, 포렌식에서, 해당하
+2. [정답 및 핵심 결론] 정답은 1번("재현의 원칙")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 디지털, 포렌식에서, 해당하에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>재현의 원칙</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 재현의 원칙] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>신속성의 원칙</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 신속성의 원칙] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>무결성의 원칙</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 무결성의 원칙] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>연계 보관성의 원칙</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 연계 보관성의 원칙] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="7" id="PRB-5CD559E8E95904ED-Q7">
+      <question_stem>XSS 취약점 공격의 수행 단계를 순서대로 바르게 나열한 것은?</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>취약점</keyword>
+        <keyword>공격</keyword>
+        <keyword>수행</keyword>
+        <keyword>단계</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>(라) → (다) → (나) → (가) → (마)</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 취약점, 공격, 수행, 단계
+2. [정답 및 핵심 결론] 정답은 4번("(라) → (다) → (나) → (가) → (마)")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 취약점, 공격, 수행, 단계에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(나) → (가) → (다) → (라) → (마)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (나) → (] 문장 내 '...) → (가) → (다) → (라) → (마)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(나) → (가) → (라) → (다) → (마)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (나) → (] 문장 내 '...) → (가) → (라) → (다) → (마)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>(라) → (나) → (가) → (다) → (마)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: (라) → (나) → (] 문장 내 '...) → (나) → (가) → (다) → (마)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>(라) → (다) → (나) → (가) → (마)</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: (라) → (다) → (나) → (] 문장 말미의 '...) → (다) → (나) → (가) → (마)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="8" id="PRB-5CD559E8E95904ED-Q8">
+      <question_stem>TCP 세션 하이재킹 공격에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>TCP 세션 하이재킹 공격</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>공격자는 네트워크에서 직접 클라이언트의 세션 ID를 수정하여 새로운 세션을 생성한다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: TCP 세션 하이재킹 공격
+2. [정답 및 핵심 결론] 정답은 3번("공격자는 네트워크에서 직접 클라이언트의 세션 ID를 수정하여 새로운 세션을 생성한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 3번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>공격자는 적절한 시퀀스 넘버를 얻기 위해 스니핑을 한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 공격자는 적절한 시퀀스 넘버를 얻기 위해 스니핑을 한다.] 문장 말미의 '...절한 시퀀스 넘버를 얻기 위해 스니핑을 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>TCP 세션 하이재킹은 공격자가 동기화 상태를 무너뜨리는 것에서 시작한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: TCP 세션 하] 문장 말미의 '...가 동기화 상태를 무너뜨리는 것에서 시작한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>공격자는 네트워크에서 직접 클라이언트의 세션 ID를 수정하여 새로운 세션을 생성한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 공격자는 네트워크에서 직접 클라] 문장 내 '...세션 ID를 수정하여 새로운 세션을 생성한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>서버와 클라이언트의 통신 시에 시퀀스 넘버의 제어에 문제점이 있음을 파악하고 악용한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 서버와 클라] 문장 말미의 '...의 제어에 문제점이 있음을 파악하고 악용한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="9" id="PRB-5CD559E8E95904ED-Q9">
+      <question_stem>(가), (나)에 들어갈 내용을 바르게 연결한 것은?</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>내용</keyword>
+        <keyword>연결한</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>-sS -v</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 내용, 연결한
+2. [정답 및 핵심 결론] 정답은 1번("-sS -v")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 내용, 연결한에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>-sS -v</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: -sS -v] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-sS -A</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -sS -A] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-sT -v</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -sT -v] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-sT -A</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -sT -A] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="10" id="PRB-5CD559E8E95904ED-Q10">
+      <question_stem>암호화 단계에서 현재의 평문 블록을 바로 직전의 암호 블록과 XOR한 것을 암호 알고리즘 입력으로 사용하는 블록 암호 운영 모드는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>암호화</keyword>
+        <keyword>단계에서</keyword>
+        <keyword>현재</keyword>
+        <keyword>평문</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>CBC</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 암호화, 단계에서, 현재, 평문
+2. [정답 및 핵심 결론] 정답은 2번("CBC")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 암호화, 단계에서, 현재, 평문에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>CFB</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: CFB] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>CBC</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: CBC] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>OFB</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: OFB] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>CTR</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: CTR] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="11" id="PRB-5CD559E8E95904ED-Q11">
+      <question_stem>TCP/IP 프로토콜에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>TCP/IP 프로토콜</keyword>
+        <keyword>ICMP의 송신지 억제(Source Quench)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>ARP를 이용하여 LAN에 연결되어 있는 다른 노드의 포트 번호를 획득할 수 있다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: TCP/IP 프로토콜, ICMP의 송신지 억제(Source Quench)
+2. [정답 및 핵심 결론] 정답은 3번("ARP를 이용하여 LAN에 연결되어 있는 다른 노드의 포트 번호를 획득할 수 있다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 3번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>SMTP는 네트워크의 두 메일 서버 간에 이메일을 송수신할 때 사용되는 프로토콜이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: SMTP] 문장 말미의 '...이메일을 송수신할 때 사용되는 프로토콜이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>DHCP는 네트워크의 각 노드에 IP 주소를 자동으로 할당하고 관리한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: DHCP] 문장 말미의 '...드에 IP 주소를 자동으로 할당하고 관리한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>ARP를 이용하여 LAN에 연결되어 있는 다른 노드의 포트 번호를 획득할 수 있다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: ARP를] 문장 내 '할 수 있다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>ICMP의 송신지 억제(Source Quench) 메시지는 송신 노드에 혼잡 가능성을 알리고 전송 속도를 늦출 것을 요구한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: ICMP의 송신지 억제(Source Quench) 메시지] 문장 말미의 '...성을 알리고 전송 속도를 늦출 것을 요구한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="12" id="PRB-5CD559E8E95904ED-Q12">
+      <question_stem>네트워크 공격 기술에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>네트워크 공격 기술</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>랜드 공격은 패킷을 전송할 때 출발지 MAC 주소와 목적지 MAC 주소의 값을 같게 만들어서 공격 대상에게 보내는 공격이다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 네트워크 공격 기술
+2. [정답 및 핵심 결론] 정답은 1번("랜드 공격은 패킷을 전송할 때 출발지 MAC 주소와 목적지 MAC 주소의 값을 같게 만들어서 공격 대상에게 보내는 공격이다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 1번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(2, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>랜드 공격은 패킷을 전송할 때 출발지 MAC 주소와 목적지 MAC 주소의 값을 같게 만들어서 공격 대상에게 보내는 공격이다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 랜드 공격] 문장 내 '...같게 만들어서 공격 대상에게 보내는 공격이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>스위치 재밍 공격은 스위치가 MAC 주소 테이블을 기반으로 패킷을 포트에 스위칭할 때 정상적인 스위칭 기능을 마비시키는 공격이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 스위치 재밍 공격] 문장 말미의 '...정상적인 스위칭 기능을 마비시키는 공격이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>IP 스푸핑은 신뢰 관계에 있는 두 개의 호스트 사이에서 하나의 시스템을 마비시킨 후 자신이 신뢰 관계에 있는 호스트인 것처럼 속이는 공격이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: IP 스푸핑] 문장 말미의 '...관계에 있는 호스트인 것처럼 속이는 공격이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>HTTP GET 플러딩은 웹서버에서 처리할 수 없는 최대 성능 이상의 과도한 HTTP GET 요청을 전송함으로써 웹 서버가 자원을 모두 소비하여 정상적인 기능을 발휘하지 못하도록 하는 공격이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: HTTP GET 플러딩] 문장 말미의 '...적인 기능을 발휘하지 못하도록 하는 공격이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="13" id="PRB-5CD559E8E95904ED-Q13">
+      <question_stem>스크리닝 라우터와 배스천 호스트에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>스크리닝 라우터와 배스천 호스트</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>스크리닝 라우터는 배스천 호스트에 비하여 통과하거나 거절당한 패킷의 기록을 관리하기 쉽다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 스크리닝 라우터와 배스천 호스트
+2. [정답 및 핵심 결론] 정답은 2번("스크리닝 라우터는 배스천 호스트에 비하여 통과하거나 거절당한 패킷의 기록을 관리하기 쉽다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 2번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>배스천 호스트는 내부 네트워크와 외부 네트워크 간의 게이트웨이 역할을 한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 배스천 호스트] 문장 말미의 '...외부 네트워크 간의 게이트웨이 역할을 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>스크리닝 라우터는 배스천 호스트에 비하여 통과하거나 거절당한 패킷의 기록을 관리하기 쉽다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 스크리닝 라우터] 문장 내 '...하거나 거절당한 패킷의 기록을 관리하기 쉽다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>스크리닝 라우터는 네트워크 계층과 전송 계층에서 동작하는 프로토콜인 IP, TCP 또는 UDP의 헤더에 포함된 내용을 분석한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 스크리닝 라우터] 문장 말미의 '...또는 UDP의 헤더에 포함된 내용을 분석한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>배스천 호스트가 손상되면 내부 네트워크를 보호할 수 없다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 배스천 호스트] 문장 말미의 '할 수 없다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (가능/인정 여부(긍정↔부정) 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="14" id="PRB-5CD559E8E95904ED-Q14">
+      <question_stem>ICMP 리다이렉트 공격이 성공했을 경우의 상황으로 옳은 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>ICMP 리다이렉트 공격이 성공했을 경우의 상황</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>호스트의 라우팅 테이블 정보가 업데이트된다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: ICMP 리다이렉트 공격이 성공했을 경우의 상황
+2. [정답 및 핵심 결론] 정답은 4번("호스트의 라우팅 테이블 정보가 업데이트된다.")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, ICMP 리다이렉트 공격이 성공했을 경우의 상황에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>호스트의 ARP 캐시가 업데이트된다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 호스트의 ARP 캐시] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>특정 호스트의 MAC 주소가 도용된다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 특정 호스트의 MAC 주소] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>스위치의 주소 테이블이 가득 차게 된다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 스위치의 주소 테] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>호스트의 라우팅 테이블 정보가 업데이트된다.</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 호스트의 라우팅 테] 문장 말미의 '된다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="15" id="PRB-5CD559E8E95904ED-Q15">
+      <question_stem>프로토콜별 통계 현황을 출력하는 netstat 명령어 옵션은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>프로토콜별</keyword>
+        <keyword>통계</keyword>
+        <keyword>현황</keyword>
+        <keyword>출력하</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>-s</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 프로토콜별, 통계, 현황, 출력하
+2. [정답 및 핵심 결론] 정답은 4번("-s")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 프로토콜별, 통계, 현황, 출력하에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-i</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -i] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-p</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -p] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>-r</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: -r] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>-s</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: -s] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="16" id="PRB-5CD559E8E95904ED-Q16">
+      <question_stem>IP에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>IP</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>IPv6에서 홉 제한은 패킷이 라우터에 의해 중개될 때마다 1씩 증가하여 128을 넘는 순간 패킷을 폐기한다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: IP
+2. [정답 및 핵심 결론] 정답은 4번("IPv6에서 홉 제한은 패킷이 라우터에 의해 중개될 때마다 1씩 증가하여 128을 넘는 순간 패킷을 폐기한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>IPv4에서 192.168.0.0은 사설 주소 영역에 해당된다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: IPv4에서 192.168.0.0] 문장 말미의 '된다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>IPv4에서 IP 데이터그램의 최대 길이는 65,535바이트이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: IPv4에서 IP 데] 문장 말미의 '...이터그램의 최대 길이는 65,535바이트이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>IPv6에서 주소 FCBB:0000:0000:0000:0000:0000:1ABC:BBCB는 FCBB:0:0:0:0:0:1ABC:BBCB으로 축약할 수 있다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: IPv6에서 주소 FCBB:0000:0000:0000:0000:0000:1ABC:BBCB] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>IPv6에서 홉 제한은 패킷이 라우터에 의해 중개될 때마다 1씩 증가하여 128을 넘는 순간 패킷을 폐기한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: IPv6에서 홉 제한] 문장 내 '...증가하여 128을 넘는 순간 패킷을 폐기한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="17" id="PRB-5CD559E8E95904ED-Q17">
+      <question_stem>󰡔OWASP Top 10 for LLM Applications 2025󰡕에서 정의한 ｢LLM03:2025 공급망｣에 대한 항목에 해당하지 않는 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="법령·조문 적용형" />
+      <topic_keywords>
+        <keyword>「LLM03:2025 공급망」</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>모델이 의도하지 않은 데이터 소스에 접근하는 것을 방지하기 위해 인프라를 충분히 제어해야 한다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 법령·조문 적용형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 「LLM03:2025 공급망」
+2. [정답 및 핵심 결론] 정답은 3번("모델이 의도하지 않은 데이터 소스에 접근하는 것을 방지하기 위해 인프라를 충분히 제어해야 한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 「LLM03:2025 공급망」에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>타사 모델을 선택할 때는 포괄적인 AI 레드팀 및 평가를 수행한다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 타사 모델을 선택할 때] 문장 내 '...는 포괄적인 AI 레드팀 및 평가를 수행한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>취약하거나 오래된 구성 요소를 완화하기 위해 패치 정책을 구현한다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 취약하거나 오래된 구성 요소를 완화하기 위해 패치 정책을 구현한...] 문장 내 '...요소를 완화하기 위해 패치 정책을 구현한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>모델이 의도하지 않은 데이터 소스에 접근하는 것을 방지하기 위해 인프라를 충분히 제어해야 한다.</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 모델이 의도하지 않] 문장 말미의 '해야 한다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (의무(기속) 규정인지 임의(재량) 규정인지 구별 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>협업 모델 개발 환경에 대한 엄격한 모니터링 및 감사 관행을 구현하여 남용을 방지하고 신속하게 탐지한다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 협업 모델 개발 환경에 대한 엄격한 모니터링 및 감사 관행을 구...] 문장 내 '...구현하여 남용을 방지하고 신속하게 탐지한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="18" id="PRB-5CD559E8E95904ED-Q18">
+      <question_stem>SNMP(Simple Network Management Protocol) version 1에서 매니저와 에이전트 간의 통신에 사용되는 메시지에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>에서</keyword>
+        <keyword>매니저와</keyword>
+        <keyword>에이전트</keyword>
+        <keyword>통신</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>trap 메시지를 이용하여 매니저가 에이전트에게 특정 상황 발생을 알린다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 에서, 매니저와, 에이전트, 통신
+2. [정답 및 핵심 결론] 정답은 1번("trap 메시지를 이용하여 매니저가 에이전트에게 특정 상황 발생을 알린다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 1번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(2, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>trap 메시지를 이용하여 매니저가 에이전트에게 특정 상황 발생을 알린다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: trap 메시지를] 문장 내 '...니저가 에이전트에게 특정 상황 발생을 알린다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>setRequest 메시지를 이용하여 매니저가 특정 변숫값의 변경을 요청한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: setRequest 메시지를] 문장 말미의 '...하여 매니저가 특정 변숫값의 변경을 요청한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>getResponse 메시지를 이용하여 에이전트가 매니저의 요청에 해당하는 변숫값을 전송한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: getResponse 메시지를] 문장 말미의 '...매니저의 요청에 해당하는 변숫값을 전송한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>getRequest 메시지를 이용하여 매니저가 변숫값을 읽어올 수 있다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: getRequest 메시지를] 문장 말미의 '...이용하여 매니저가 변숫값을 읽어올 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="19" id="PRB-5CD559E8E95904ED-Q19">
+      <question_stem>CIDR 방식으로 표현한 203.237.10.0/25에 대한 설명으로 옳은 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>CIDR 방식으로 표현한 203.237.10.0/25</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>서브넷 마스크는 255.255.255.128이다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: CIDR 방식으로 표현한 203.237.10.0/25
+2. [정답 및 핵심 결론] 정답은 3번("서브넷 마스크는 255.255.255.128이다.")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, CIDR 방식으로 표현한 203.237.10.0/25에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>203.237.10.128은 브로드캐스트 주소이다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 203.237.10.128] 문장 내 '....237.10.128은 브로드캐스트 주소이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3개의 서브넷을 만들 수 있다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3개의 서브넷을 만들 수 있다.] 문장 내 '...3개의 서브넷을 만들 수 있다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>서브넷 마스크는 255.255.255.128이다.</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 서브넷 마스크] 문장 말미의 '...넷 마스크는 255.255.255.128이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>서브넷의 호스트 가용 IP 주소는 124개이다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 서브넷의 호스트] 문장 내 '...브넷의 호스트 가용 IP 주소는 124개이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="20" id="PRB-5CD559E8E95904ED-Q20">
+      <question_stem>X.509 버전 3 인증서의 확장 필드에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>X.509 버전 3 인증서의 확장 필드</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>Subject Alternative Name: 인증서의 발급자에 대한 다양한 대체 이름을 제공하는 역할을 한다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산/정보보호(네트워크보안) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: X.509 버전 3 인증서의 확장 필드
+2. [정답 및 핵심 결론] 정답은 4번("Subject Alternative Name: 인증서의 발급자에 대한 다양한 대체 이름을 제공하는 역할을 한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>Basic Constraints: 인증 주체가 CA인지를 식별한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: Basic Constraints: 인증 주체] 문장 말미의 '...aints: 인증 주체가 CA인지를 식별한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>Authority Key Identifier: 인증서를 서명하는 데 사용하는 공개 키를 식별한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: Authority Key Identifier: 인증서를 서명하] 문장 말미의 '...를 서명하는 데 사용하는 공개 키를 식별한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>Key Usage: 인증서에 있는 암호화, 서명, 인증서 서명과 같은 키의 목적을 정의한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: Key Usage: 인증서에 있] 문장 말미의 '..., 인증서 서명과 같은 키의 목적을 정의한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>Subject Alternative Name: 인증서의 발급자에 대한 다양한 대체 이름을 제공하는 역할을 한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: Subject Alternative Name: 인증서의 발급자에 대한 다양한 대체] 문장 내 '...한 다양한 대체 이름을 제공하는 역할을 한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+  </explanations>
+</exam_explanations>

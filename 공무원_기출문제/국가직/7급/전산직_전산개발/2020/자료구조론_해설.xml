@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_explanations>
+  <metadata>
+    <exam_id>EXM-2020-06</exam_id>
+    <subject_row_id>PRB-DA1F8BA3FD45BF68</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전산직_전산개발</series>
+    <year>2020</year>
+    <exam_title>2020년도 7급 공개경쟁채용시험 문제별 상세 해설</exam_title>
+    <subject_code>625</subject_code>
+    <subject_name>자료구조론</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <question_file>자료구조론.xml</question_file>
+    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+  </metadata>
+  <explanations>
+    <question_explanation no="1" id="PRB-DA1F8BA3FD45BF68-Q1">
+      <question_stem>다음의 D1 ～ D4에서 제시된 키(key) 값의 순서대로 공백(empty) 이진 탐색 트리(binary search tree)에 데이터를 삽입하여 T1 ～ T4를 만들었을 때, 모양이 다른 트리는? (단, 모양은 노드의 키 값과 간선의 연결 구조를 포함한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>D4에서 제시된 키(key)</keyword>
+        <keyword>값의 순서대로 공백(empty)</keyword>
+        <keyword>이진 탐색 트리(binary search tree)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>T3</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: D4에서 제시된 키(key), 값의 순서대로 공백(empty), 이진 탐색 트리(binary search tree)
+2. [정답 및 핵심 결론] 정답은 3번("T3")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, D4에서 제시된 키(key), 값의 순서대로 공백(empty), 이진 탐색 트리(binary search tree)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "D3: 4, 6, 3, 8, 2, 5, 7 → 이진 탐색 트리 T3"</overall_commentary>
+      <passage_evidence>D3: 4, 6, 3, 8, 2, 5, 7 → 이진 탐색 트리 T3</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>T1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T1] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다. (대조 근거: "D1: 4, 2, 3, 6, 8, 5, 7 → 이진 탐색 트리 T1")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>T2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T2] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다. (대조 근거: "D2: 4, 2, 6, 8, 5, 3, 7 → 이진 탐색 트리 T2")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>T3</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: T3] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (지문 근거: "D3: 4, 6, 3, 8, 2, 5, 7 → 이진 탐색 트리 T3")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>T4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T4] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다. (대조 근거: "D4: 4, 6, 8, 5, 7, 2, 3 → 이진 탐색 트리 T4")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="2" id="PRB-DA1F8BA3FD45BF68-Q2">
+      <question_stem>다음 최소 힙(min heap)에 대한 설명으로 옳지 않은 것은?</question_stem>
+      <question_type polarity="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>최소 힙(min heap)</keyword>
+        <keyword>다음 최소 힙(min heap)</keyword>
+        <keyword>완전 이진 트리(complete binary tree)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>노드 C는 노드 D보다 작은 키 값을 가져야 한다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 최소 힙(min heap), 다음 최소 힙(min heap), 완전 이진 트리(complete binary tree)
+2. [정답 및 핵심 결론] 정답은 4번("노드 C는 노드 D보다 작은 키 값을 가져야 한다.")입니다.
+3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>완전 이진 트리(complete binary tree)이다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 완전 이진 트리(complete binary tree)] 문장 말미의 '...(complete binary tree)이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>노드 A는 가장 작은 키 값을 가져야 한다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 노드 A] 문장 말미의 '...노드 A는 가장 작은 키 값을 가져야 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+          <choice_text>노드 B와 노드 C가 같은 키 값을 가질 수 있다.</choice_text>
+          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 노드 B와 노드 C] 문장 말미의 '...B와 노드 C가 같은 키 값을 가질 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+          <choice_text>노드 C는 노드 D보다 작은 키 값을 가져야 한다.</choice_text>
+          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 노드 C] 문장 내 '...C는 노드 D보다 작은 키 값을 가져야 한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="3" id="PRB-DA1F8BA3FD45BF68-Q3">
+      <question_stem>다음 인접 행렬(adjacency matrix)에 의해 표현되는 그래프에 대한 설명으로 옳은 것은? (단, 인접 행렬에서 &lt;i&gt;i&lt;/i&gt;]는 정점 &lt;i&gt;i&lt;/i&gt;를 의미한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>다음 인접 행렬(adjacency matrix)</keyword>
+        <keyword>개수가 5개인 무방향 그래프(undirected graph)</keyword>
+        <keyword>서 정점 4까지의 단순 경로(simple path)</keyword>
+        <keyword>사이클(cycle)</keyword>
+        <keyword>이 존재하는 방향 그래프(directed graph)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>사이클(cycle)이 존재하는 방향 그래프(directed graph)이다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 다음 인접 행렬(adjacency matrix), 개수가 5개인 무방향 그래프(undirected graph), 서 정점 4까지의 단순 경로(simple path), 사이클(cycle), 이 존재하는 방향 그래프(directed graph)
+2. [정답 및 핵심 결론] 정답은 4번("사이클(cycle)이 존재하는 방향 그래프(directed graph)이다.")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음 인접 행렬(adjacency matrix), 개수가 5개인 무방향 그래프(undirected graph), 서 정점 4까지의 단순 경로(simple path), 사이클(cycle), 이 존재하는 방향 그래프(directed graph)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>간선의 개수가 5개인 무방향 그래프(undirected graph)이다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 간선의 개수] 문장 내 '...그래프(undirected graph)이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>정점 0에서 정점 4까지의 단순 경로(simple path) 길이는 2이다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 정점 0에서 정점 4까지의 단순 경로(simple path) 길] 문장 내 '...경로(simple path) 길이는 2이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>정점 3에 도달하기 위한 경로가 없는 정점이 있다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 정점 3에 도달하기 위한 경로] 문장 내 '...3에 도달하기 위한 경로가 없는 정점이 있다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>사이클(cycle)이 존재하는 방향 그래프(directed graph)이다.</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 사이클(cycle)] 문장 말미의 '...방향 그래프(directed graph)이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="4" id="PRB-DA1F8BA3FD45BF68-Q4">
+      <question_stem>다음 가중 그래프(weighted graph)에 Kruskal 알고리즘을 적용하여 구성한 최소 비용 신장 트리(minimum cost spanning tree)의 최소 비용은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>다음 가중 그래프(weighted graph)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>39</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 다음 가중 그래프(weighted graph)
+2. [정답 및 핵심 결론] 정답은 2번("39")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음 가중 그래프(weighted graph)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>36</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 36] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>39</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 39] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>44</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 44] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>46</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 46] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="5" id="PRB-DA1F8BA3FD45BF68-Q5">
+      <question_stem>키 값이 1, 2, 3, 4, 5, 6, 7, 8인 8개의 노드로 구성된 이진 탐색 트리를 전위 순회(preorder traversal)하면, 키 값 6, 2, 1, 4, 3, 5, 8, 7 순서로 노드를 방문한다. 이 트리를 후위 순회(postorder traversal)할 경우 방문 노드의 키 값을 방문 순서대로 바르게 나열한 것은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>이진 탐색 트리를 전위 순회(preorder traversal)</keyword>
+        <keyword>이 트리를 후위 순회(postorder traversal)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>1, 3, 5, 4, 2, 7, 8, 6</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 이진 탐색 트리를 전위 순회(preorder traversal), 이 트리를 후위 순회(postorder traversal)
+2. [정답 및 핵심 결론] 정답은 3번("1, 3, 5, 4, 2, 7, 8, 6")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 이진 탐색 트리를 전위 순회(preorder traversal), 이 트리를 후위 순회(postorder traversal)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1, 2, 3, 4, 5, 6, 7, 8</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1, 2, 3, 4, 5, 6, 7, 8] 문장 내 '...1, 2, 3, 4, 5, 6, 7, 8' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1, 3, 2, 6, 5, 8, 7, 4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1, 3, 2, 6, 5, 8, 7, 4] 문장 내 '...1, 3, 2, 6, 5, 8, 7, 4' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>1, 3, 5, 4, 2, 7, 8, 6</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 1, 3, 5, 4, 2, 7, 8, 6] 문장 말미의 '...1, 3, 5, 4, 2, 7, 8, 6' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>8, 7, 6, 5, 4, 3, 2, 1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 8, 7, 6, 5, 4, 3, 2, 1] 문장 내 '...8, 7, 6, 5, 4, 3, 2, 1' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="6" id="PRB-DA1F8BA3FD45BF68-Q6">
+      <question_stem>차수(m)가 3인 공백 B－트리에 19, 18, 2, 15, 6, 13, 7을 순서대로 삽입하여 구성한 B－트리에 대한 설명으로 옳은 것은?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>트리의 높이(height)</keyword>
+        <keyword>15는 루트(root)</keyword>
+        <keyword>3개의 자식(child)</keyword>
+        <keyword>18이 저장된 노드는 형제(sibling)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>6이 저장된 노드와 18이 저장된 노드는 형제(sibling) 관계이다.</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 트리의 높이(height), 15는 루트(root), 3개의 자식(child), 18이 저장된 노드는 형제(sibling)
+2. [정답 및 핵심 결론] 정답은 4번("6이 저장된 노드와 18이 저장된 노드는 형제(sibling) 관계이다.")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 트리의 높이(height), 15는 루트(root), 3개의 자식(child), 18이 저장된 노드는 형제(sibling)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>트리의 높이(height)가 1이다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 트리의 높] 문장 내 '...트리의 높이(height)가 1이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>15는 루트(root) 노드에 저장되어 있다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 15는 루트(root) 노드에 저장되어 있다.] 문장 내 '...15는 루트(root) 노드에 저장되어 있다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3개의 자식(child) 노드를 가지는 노드가 존재한다.</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3개의 자식(child) 노드를] 문장 내 '...(child) 노드를 가지는 노드가 존재한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>6이 저장된 노드와 18이 저장된 노드는 형제(sibling) 관계이다.</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 6이 저장된 노드와 18] 문장 말미의 '...저장된 노드는 형제(sibling) 관계이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="7" id="PRB-DA1F8BA3FD45BF68-Q7">
+      <question_stem>스택을 이용하여 다음 후위 표현식(postfix expression)의 연산을 수행하였다. 최종 결과 값과 연산 과정에서 스택 내 피연산자의 최대 개수를 바르게 연결한 것은? (단, *은 곱셈 연산자이고 /은 나눗셈 연산자이다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>이용하여 다음 후위 표현식(postfix expression)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>0 4</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 이용하여 다음 후위 표현식(postfix expression)
+2. [정답 및 핵심 결론] 정답은 2번("0 4")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 이용하여 다음 후위 표현식(postfix expression)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>0 3</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 0 3] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>0 4</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 0 4] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1 3</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1 3] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>1 4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 1 4] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="8" id="PRB-DA1F8BA3FD45BF68-Q8">
+      <question_stem>다음의 표는 단순 연결 리스트(singly linked list)를 표현한 것으로 각 행은 각 노드의 주소, 데이터 및 다음 노드 주소로 구성되어 있다. &lt;다음 노드 주소 값&gt;은 주소가 102인 노드를 삭제한 후 다음 노드 주소의 값을 설명한 것이다. ㉠ ～ ㉣에 들어갈 값을 바르게 연결한 것은? (단, 특정 노드의 다음 노드가 없을 때 그 노드의 다음 노드 주소 값은 NULL이다)</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="지문 독해·추론형" />
+      <topic_keywords>
+        <keyword>음의 표는 단순 연결 리스트(singly linked list)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>NULL 104 101 100</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 지문 독해·추론형 (빈칸/기호 추론형) | 핵심 키워드: 음의 표는 단순 연결 리스트(singly linked list)
+2. [정답 및 핵심 결론] 정답은 1번("NULL 104 101 100")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 음의 표는 단순 연결 리스트(singly linked list)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "| 100 | LEE | NULL |"</overall_commentary>
+      <passage_evidence>| 100 | LEE | NULL |</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>NULL 104 101 100</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: NULL 104 101 100] 문장 말미의 '...NULL 104 101 100' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| 100 | LEE | NULL |")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>NULL 103 101 104</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: NULL 103 101 104] 문장 내 '...NULL 103 101 104' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 101 | PARK | 104 |")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>101 103 102 104</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 101 103 102 104] 문장 내 '...101 103 102 104' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 101 | PARK | 104 |")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>101 104 102 100</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 101 104 102 100] 문장 내 '...101 104 102 100' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 101 | PARK | 104 |")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="9" id="PRB-DA1F8BA3FD45BF68-Q9">
+      <question_stem>다음 C 언어 프로그램의 출력 결과는? (단, 배열 h의 시작 주소는 6487296이고, 자료형 int와 float는 4바이트의 크기를 가진다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>sizeof(struct human)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>28, 85, 142</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: sizeof(struct human)
+2. [정답 및 핵심 결론] 정답은 1번("28, 85, 142")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, sizeof(struct human)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>28, 85, 142</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 28, 85, 142] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>28, 86, 143</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 28, 86, 143] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>31, 94, 157</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 31, 94, 157] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>31, 95, 158</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 31, 95, 158] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="10" id="PRB-DA1F8BA3FD45BF68-Q10">
+      <question_stem>다음 C 언어 프로그램의 출력 결과는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>define SWAP(x, y, t)</keyword>
+        <keyword>recursive(list, 0, 2)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>abc acb bac bca cba cab</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: define SWAP(x, y, t), recursive(list, 0, 2)
+2. [정답 및 핵심 결론] 정답은 3번("abc acb bac bca cba cab")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, define SWAP(x, y, t), recursive(list, 0, 2)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>ab ac bc</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ab ac bc] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>ab bc ca</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: ab bc ca] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>abc acb bac bca cba cab</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: abc acb bac bca cba cab] 문장 말미의 '...abc acb bac bca cba cab' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>abc acb bca bac cab cba</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: abc acb bca bac cab cba] 문장 내 '...abc acb bca bac cab cba' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="11" id="PRB-DA1F8BA3FD45BF68-Q11">
+      <question_stem>행 우선(row major) 순서로 저장되는 C 언어 2차원 배열 A[5][5]에서 다른 값을 갖는 것은? (단, 임의의 배열 인덱스(index) &lt;i&gt;i&lt;/i&gt;(0 ≤ &lt;i&gt;i&lt;/i&gt; ≤ 4)와 &lt;i&gt;j&lt;/i&gt;(0 ≤ &lt;i&gt;j&lt;/i&gt; ≤ 4)에 대해 A&lt;i&gt;i&lt;/i&gt;]&lt;i&gt;j&lt;/i&gt;]가 (&lt;i&gt;i&lt;/i&gt; － &lt;i&gt;j&lt;/i&gt;)의 값을 가진다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>행 우선(row major)</keyword>
+        <keyword>임의의 배열 인덱스(index)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>**((A ＋ 3) ＋ 1)</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 행 우선(row major), 임의의 배열 인덱스(index)
+2. [정답 및 핵심 결론] 정답은 4번("**((A ＋ 3) ＋ 1)")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 행 우선(row major), 임의의 배열 인덱스(index)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>A[3][1]</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: A[3][1]] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>*(*(A ＋ 3) ＋ 1)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: *(*(A ＋ 3) ＋ 1)] 문장 내 '...*(*(A ＋ 3) ＋ 1)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>*(A[3] ＋ 1)</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: *(A[3] ＋ 1)] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>**((A ＋ 3) ＋ 1)</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: **((A ＋ 3) ＋ 1)] 문장 말미의 '...**((A ＋ 3) ＋ 1)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="12" id="PRB-DA1F8BA3FD45BF68-Q12">
+      <question_stem>다음 가중치 그래프에 Prim 알고리즘을 적용하여 최소 비용 신장 트리(minimum cost spanning tree)를 만들 때, 최소 비용과 세 번째로 선택된 간선의 가중치의 합은? (단, A를 시작 정점으로 한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>가중치</keyword>
+        <keyword>그래프</keyword>
+        <keyword>알고리즘</keyword>
+        <keyword>적용하여</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>15</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 가중치, 그래프, 알고리즘, 적용하여
+2. [정답 및 핵심 결론] 정답은 3번("15")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 가중치, 그래프, 알고리즘, 적용하여에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>13</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 13] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>14</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 14] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>15</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 15] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>16</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 16] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="13" id="PRB-DA1F8BA3FD45BF68-Q13">
+      <question_stem>다음 그래프에 대한 너비 우선 탐색(BFS: Breadth First Search)의 방문 순서는? (단, 시작 정점은 A이고, 인접한 정점들은 알파벳 순서로 방문한다)</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>그래프</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>A, C, D, E, G, I, B, H, F</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 그래프
+2. [정답 및 핵심 결론] 정답은 1번("A, C, D, E, G, I, B, H, F")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 그래프에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>A, C, D, E, G, I, B, H, F</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: A, C, D, E, G, I, B, H, F] 문장 말미의 '...A, C, D, E, G, I, B, H, F' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>A, C, D, E, I, G, H, B, F</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: A, C, D, E, I, G, H, B, F] 문장 내 '...A, C, D, E, I, G, H, B, F' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>A, C, D, G, B, E, F, H, I</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: A, C, D, G, B, E, F, H, I] 문장 내 '...A, C, D, G, B, E, F, H, I' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>A, C, D, G, I, B, E, H, F</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: A, C, D, G, I, B, E, H, F] 문장 내 '...A, C, D, G, I, B, E, H, F' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="14" id="PRB-DA1F8BA3FD45BF68-Q14">
+      <question_stem>다음에 주어진 최대 힙(max heap)에 키 값이 2, 14, 49, 3, 30, 41, 27, 17인 8개의 데이터를 순서대로 삽입하여 최대 힙을 구성하였다. 구성된 최대 힙에서 모든 리프(leaf) 노드의 키 값의 합은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>다음에 주어진 최대 힙(max heap)</keyword>
+        <keyword>성된 최대 힙에서 모든 리프(leaf)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>3</correct_answer>
+        <correct_choice_text>108</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 다음에 주어진 최대 힙(max heap), 성된 최대 힙에서 모든 리프(leaf)
+2. [정답 및 핵심 결론] 정답은 3번("108")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음에 주어진 최대 힙(max heap), 성된 최대 힙에서 모든 리프(leaf)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>63</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 63] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>73</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 73] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>108</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 108] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>113</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 113] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="15" id="PRB-DA1F8BA3FD45BF68-Q15">
+      <question_stem>&lt;조건&gt;을 만족하고 front와 rear의 값이 모두 0인 원형 큐(circular queue)에서 &lt;동작&gt;에 나열된 연산을 순서대로 모두 수행하였다. 연산 완료 후 원형 큐에 존재하는 모든 유효 데이터와 front 및 rear의 값을 바르게 연결한 것은? (단, enqueue(&lt;i&gt;x&lt;/i&gt;)에 의해 삽입된 후 dequeue()에 의해 삭제되지 않은 데이터만 유효 데이터로 인정한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>의 값이 모두 0인 원형 큐(circular queue)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>10, 11, 15, 20 3 1</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 의 값이 모두 0인 원형 큐(circular queue)
+2. [정답 및 핵심 결론] 정답은 2번("10, 11, 15, 20 3 1")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 의 값이 모두 0인 원형 큐(circular queue)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)"</overall_commentary>
+      <passage_evidence>enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>10, 11, 15, 17, 20 3 1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 10, 11, 15, 17, 20 3 1] 문장 내 '...10, 11, 15, 17, 20 3 1' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>10, 11, 15, 20 3 1</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 10, 11, 15, 20 3 1] 문장 말미의 '...10, 11, 15, 20 3 1' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>10, 11, 15, 17, 20 4 2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 10, 11, 15, 17, 20 4 2] 문장 내 '...10, 11, 15, 17, 20 4 2' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>10, 11, 15, 20 4 2</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 10, 11, 15, 20 4 2] 문장 내 '...10, 11, 15, 20 4 2' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "enqueue(2) → enqueue(5) → enqueue(7) → enqueue(10) → dequeue() → enqueue(11) → enqueue(15) → enqueue(17) → dequeue() → dequeue() → enqueue(20)")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="16" id="PRB-DA1F8BA3FD45BF68-Q16">
+      <question_stem>키 값 1, 2, 3, 4, 5를 가지는 5개의 레코드로 이루어진 리스트를 퀵 정렬(quick sort)로 오름차순 정렬하고자 한다. 정렬 과정에서 총 비교 횟수가 가장 많은 리스트는? (단, 피봇(pivot)은 정렬하고자 하는 대상의 첫 번째 레코드로 선택한다)</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>이루어진 리스트를 퀵 정렬(quick sort)</keyword>
+        <keyword>피봇(pivot)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>1, 2, 3, 4, 5</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 이루어진 리스트를 퀵 정렬(quick sort), 피봇(pivot)
+2. [정답 및 핵심 결론] 정답은 1번("1, 2, 3, 4, 5")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 이루어진 리스트를 퀵 정렬(quick sort), 피봇(pivot)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>1, 2, 3, 4, 5</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 1, 2, 3, 4, 5] 문장 말미의 '...1, 2, 3, 4, 5' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>2, 3, 1, 4, 5</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 2, 3, 1, 4, 5] 문장 내 '...2, 3, 1, 4, 5' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3, 1, 2, 4, 5</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3, 1, 2, 4, 5] 문장 내 '...3, 1, 2, 4, 5' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3, 1, 2, 5, 4</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3, 1, 2, 5, 4] 문장 내 '...3, 1, 2, 5, 4' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="17" id="PRB-DA1F8BA3FD45BF68-Q17">
+      <question_stem>다음의 키 값을 가지는 7개의 데이터를 순서대로 삽입하여 AVL 트리를 구성한 후 후위 순회를 수행하였다. 방문 노드들의 키 값을 방문 순서대로 바르게 나열한 것은?</question_stem>
+      <question_type polarity="수치/계산 도출형" category="수리·계산·자료해석형" />
+      <topic_keywords>
+        <keyword>가지</keyword>
+        <keyword>데이터</keyword>
+        <keyword>삽입하여</keyword>
+        <keyword>트리</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>3, 4, 10, 15, 13, 12, 7</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 가지, 데이터, 삽입하여, 트리
+2. [정답 및 핵심 결론] 정답은 1번("3, 4, 10, 15, 13, 12, 7")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 가지, 데이터, 삽입하여, 트리에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>3, 4, 10, 15, 13, 12, 7</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 3, 4, 10, 15, 13, 12, 7] 문장 말미의 '...3, 4, 10, 15, 13, 12, 7' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3, 7, 4, 12, 15, 13, 10</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3, 7, 4, 12, 15, 13, 10] 문장 내 '...3, 7, 4, 12, 15, 13, 10' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3, 7, 4, 15, 13, 12, 10</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3, 7, 4, 15, 13, 12, 10] 문장 내 '...3, 7, 4, 15, 13, 12, 10' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>3, 10, 13, 15, 4, 12, 7</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 3, 10, 13, 15, 4, 12, 7] 문장 내 '...3, 10, 13, 15, 4, 12, 7' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="18" id="PRB-DA1F8BA3FD45BF68-Q18">
+      <question_stem>다음 C 언어 프로그램의 출력 결과는?</question_stem>
+      <question_type polarity="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>func(s,size-2)</keyword>
+        <keyword>func(str, 6)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>2</correct_answer>
+        <correct_choice_text>e</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: func(s,size-2), func(str, 6)
+2. [정답 및 핵심 결론] 정답은 2번("e")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, func(s,size-2), func(str, 6)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>d</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: d] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>e</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: e] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>n</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: n] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>o</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: o] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="19" id="PRB-DA1F8BA3FD45BF68-Q19">
+      <question_stem>다음은 1차원 배열 arr에서 두 번째로 큰 수를 찾는 C 언어 함수이다. ㉠, ㉡에 들어갈 내용을 바르게 연결한 것은? (단, 배열 arr의 모든 원소는 서로 다른 양의 정수이고, n은 배열의 크기이며 2보다 크거나 같다)</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>차원</keyword>
+        <keyword>배열</keyword>
+        <keyword>에서</keyword>
+        <keyword>번째</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>1</correct_answer>
+        <correct_choice_text>arr[i] &gt; max1 arr[i] &gt; max2 &amp;&amp; arr[i] &lt; max1</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 차원, 배열, 에서, 번째
+2. [정답 및 핵심 결론] 정답은 1번("arr[i] &gt; max1 arr[i] &gt; max2 &amp;&amp; arr[i] &lt; max1")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 차원, 배열, 에서, 번째에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "max1 = arr[i];"</overall_commentary>
+      <passage_evidence>max1 = arr[i];</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>arr[i] &gt; max1 arr[i] &gt; max2 &amp;&amp; arr[i] &lt; max1</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: arr[i] &gt; max1 arr[i] &gt; max2 &amp;&amp; arr[...] 문장 말미의 '...] &gt; max2 &amp;&amp; arr[i] &lt; max1' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "max1 = arr[i];")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>arr[i] &gt; max1 arr[i] &lt; max2 &amp;&amp; arr[i] &gt; max1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: arr[i] &gt; max1 arr[i] &lt; max2 &amp;&amp; arr[...] 문장 내 '...] &lt; max2 &amp;&amp; arr[i] &gt; max1' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "max1 = arr[i];")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>arr[i] &lt; max1 arr[i] &gt; max2 &amp;&amp; arr[i] &lt; max1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: arr[i] &lt; max1 arr[i] &gt; max2 &amp;&amp; arr[...] 문장 내 '...] &gt; max2 &amp;&amp; arr[i] &lt; max1' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "max1 = arr[i];")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>arr[i] &lt; max1 arr[i] &lt; max2 &amp;&amp; arr[i] &gt; max1</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: arr[i] &lt; max1 arr[i] &lt; max2 &amp;&amp; arr[...] 문장 내 '...] &lt; max2 &amp;&amp; arr[i] &gt; max1' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "max1 = arr[i];")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+    <question_explanation no="20" id="PRB-DA1F8BA3FD45BF68-Q20">
+      <question_stem>다음은 원형 연결 리스트(circular linked list)의 맨 앞에 insert_node가 지정하는 노드를 삽입하는 C 언어 함수이다. ㉠, ㉡에 들어갈 내용을 바르게 연결한 것은? (단, last_ptr은 마지막 노드를 지정하는 포인터 변수를 가리키는 주소 값을 가진다)</question_stem>
+      <question_type polarity="빈칸/기호 추론형" category="핵심 개념·이론 이해형" />
+      <topic_keywords>
+        <keyword>다음은 원형 연결 리스트(circular linked list)</keyword>
+      </topic_keywords>
+      <answer_info>
+        <correct_answer>4</correct_answer>
+        <correct_choice_text>insert_node-&gt;link = insert_node; (*last_ptr)-&gt;link = insert_node;</correct_choice_text>
+        <answer_source>정답표</answer_source>
+      </answer_info>
+      <overall_commentary>1. [출제 영역 및 유형] 전산(자료구조론) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 다음은 원형 연결 리스트(circular linked list)
+2. [정답 및 핵심 결론] 정답은 4번("insert_node-&gt;link = insert_node; (*last_ptr)-&gt;link = insert_node;")입니다.
+3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음은 원형 연결 리스트(circular linked list)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
+5. [제시문 핵심 근거] "insert_node-&gt;link = (*last_ptr)-&gt;link;"</overall_commentary>
+      <passage_evidence>insert_node-&gt;link = (*last_ptr)-&gt;link;</passage_evidence>
+      <choice_explanations>
+        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>insert_node = insert_node-&gt;link; (*last_ptr) = insert_node;</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: insert_node = insert_node-&gt;link; (*...] 문장 내 '...*last_ptr) = insert_node;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "insert_node-&gt;link = (*last_ptr)-&gt;link;")</commentary>
+        </choice_explanation>
+        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>insert_node = insert_node-&gt;link; (*last_ptr)-&gt;link = insert_node;</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: insert_node = insert_node-&gt;link; (*...] 문장 내 '...ptr)-&gt;link = insert_node;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "insert_node-&gt;link = (*last_ptr)-&gt;link;")</commentary>
+        </choice_explanation>
+        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+          <choice_text>insert_node-&gt;link = insert_node; (*last_ptr) = insert_node;</choice_text>
+          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: insert_node-&gt;link = insert_node; (*...] 문장 내 '...*last_ptr) = insert_node;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "insert_node-&gt;link = (*last_ptr)-&gt;link;")</commentary>
+        </choice_explanation>
+        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+          <choice_text>insert_node-&gt;link = insert_node; (*last_ptr)-&gt;link = insert_node;</choice_text>
+          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: insert_node-&gt;link = insert_node; (*...] 문장 말미의 '...ptr)-&gt;link = insert_node;' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "insert_node-&gt;link = (*last_ptr)-&gt;link;")</commentary>
+        </choice_explanation>
+      </choice_explanations>
+      <exam_history repeat_count="1">단독 출제 문항</exam_history>
+    </question_explanation>
+  </explanations>
+</exam_explanations>

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2016-06</exam_id>
+    <subject_row_id>PRB-CC4C9203101DE3E9</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>일반토목직</series>
+    <year>2016</year>
+    <exam_title>2016년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>674</subject_code>
+    <subject_name>수리수문학</subject_name>
+    <booklet_type>2</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>수리수문학_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-CC4C9203101DE3E9-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>개수로 흐름에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">개수로 흐름에서는 수면과 동수경사선이 일치한다.</choice>
+        <choice no="2" is_answer="false">한계류 상태에서는 수심의 크기가 속도수두의 2배가 된다.</choice>
+        <choice no="3" is_answer="false">층류에서 난류로 변화하는 한계 레이놀즈 수는 약 500 정도이다.</choice>
+        <choice no="4" is_answer="true">일정한 유량이 흐를 때 비에너지가 최대가 되는 수심을 한계수심이라 한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="1">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 개수로 흐름 | 정답 선지: 일정한 유량이 흐를 때 비에너지가 최대가 되는 수심을 한계수심이라 한다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-CC4C9203101DE3E9-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>합리식을 사용하여 최대유출량을 산정할 때 사용되는 기본 가정으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">유역의 유출계수는 침투정도에 따라 강우지속기간 내에 변화한다.</choice>
+        <choice no="2" is_answer="false">최대유출량의 재현기간은 강우강도의 재현기간과 같다.</choice>
+        <choice no="3" is_answer="false">도달시간은 유역 내 가장 먼 지점의 강우가 유역출구까지 흐르는 데 소요되는 시간이다.</choice>
+        <choice no="4" is_answer="false">강우강도는 도달시간 동안에는 변하지 않는다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="2">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 합리식, 사용하여, 최대유출량, 산정할 | 정답 선지: 유역의 유출계수는 침투정도에 따라 강우지속기간 내에 변화한다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-CC4C9203101DE3E9-Q3" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>하천에서 평균유속을 측정할 때 수심에 따라 1점법, 2점법, 3점법 등으로 구분하여 측정한다. ㉠ ∼ ㉣에 들어갈 첨자는? (단, $V_{0 . 6 D}$는 수면으로부터 수심 D의 0.6배 위치에서 측정한 점유속이다)</stem>
+      <passage>| 측점수 | 수심범위(m) | 평균유속(${\bar{V}}$) |
+|---|---|---|
+| 1 | 0.3 ∼ 0.6 | $\bar{V} = V_{0 . 6 D}$ |
+| 2 | 0.6 ∼ 3.0 | $\bar{V} = 0 . 5 ( V_{㉠} + V_{㉡} )$ |
+| 3 | 3.0 ∼ 6.0 | $\bar{V} = 0 . 25 ( V_{㉢} + 2 V_{0 . 6 D} + V_{㉣} )$ |</passage>
+      <formulas count="5">
+        <formula area="질문">V_{0 . 6 D}</formula>
+        <formula area="지문">{\bar{V}}</formula>
+        <formula area="지문">\bar{V} = V_{0 . 6 D}</formula>
+        <formula area="지문">\bar{V} = 0 . 5 ( V_{㉠} + V_{㉡} )</formula>
+        <formula area="지문">\bar{V} = 0 . 25 ( V_{㉢} + 2 V_{0 . 6 D} + V_{㉣} )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">0.2D 0.8D 0.2D 0.8D</choice>
+        <choice no="2" is_answer="false">0.2D 0.6D 0.2D 0.9D</choice>
+        <choice no="3" is_answer="false">0.2D 0.8D 0.3D 0.8D</choice>
+        <choice no="4" is_answer="false">0.3D 0.8D 0.3D 0.9D</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="3">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 하천에서, 평균유속, 측정할, 수심 | 정답 선지: 0.2D 0.8D 0.2D 0.8D</explanation_ref>
+    </question>
+    <question no="4" id="PRB-CC4C9203101DE3E9-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>수위차 10 m인 두 저수지를 직경 0.1 m, 길이 100 m인 관로로 연결하였다. 관로 내 평균유속[m/s]은? (단, 마찰계수 $f$는 0.01, 중력가속도는 10 m/s^(2), 미소손실은 무시한다)</stem>
+      <formulas count="3">
+        <formula area="질문">f</formula>
+        <formula area="선택지①">root {10}</formula>
+        <formula area="선택지③">root {20}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\sqrt{10}$</choice>
+        <choice no="2" is_answer="false">4.0</choice>
+        <choice no="3" is_answer="true">$\sqrt{20}$</choice>
+        <choice no="4" is_answer="false">5.0</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 수위차, 저수지, 직경, 관로 | 정답 선지: $\sqrt{20}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-CC4C9203101DE3E9-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>저수지에 연결된 길이 180 m, 직경 1 m인 수평관로 끝단에서 자유방류될 때 관로의 평균유속[m/s]은? (단, Chezy계수는 60, 저수지 수면과 관로중심선의 높이차가 4 m, 중력가속도는 10 m/s^(2), 마찰손실만 고려한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="true">4</choice>
+        <choice no="3" is_answer="false">6</choice>
+        <choice no="4" is_answer="false">8</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 저수지, 연결된, 직경, 수평관 | 정답 선지: 4</explanation_ref>
+    </question>
+    <question no="6" id="PRB-CC4C9203101DE3E9-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>피압대수층의 상하류 두 지점의 거리가 300 m, 수두차가 1 m, 원형대수층의 단면직경이 4 m일 때, 지하수 유량[m^(3)/hr]은? (단, 투수계수는 24 m/day, 원주율 π는 3.0이다)</stem>
+      <formulas count="1">
+        <formula area="질문">\pi</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.02</choice>
+        <choice no="2" is_answer="true">0.04</choice>
+        <choice no="3" is_answer="false">0.48</choice>
+        <choice no="4" is_answer="false">0.96</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="6">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 피압대수층, 상하류, 지점, 거리 | 정답 선지: 0.04</explanation_ref>
+    </question>
+    <question no="7" id="PRB-CC4C9203101DE3E9-Q7" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>지하수 흐름을 해석하는 Darcy의 법칙에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">지하수 흐름은 정상류이고, Darcy 유속은 실제유속이 아니다.</choice>
+        <choice no="2" is_answer="false">투수매질은 균질 등방성이며, 모관수대는 대상영역에 포함되지 않는다.</choice>
+        <choice no="3" is_answer="false">지하수 흐름의 유속은 동수경사에 비례한다.</choice>
+        <choice no="4" is_answer="true">레이놀즈 수 R_(e )&gt; 10인 흐름에 적용된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="7">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 지하수 흐름을 해석하는 Darcy의 법칙 | 정답 선지: 레이놀즈 수 R_(e )&gt; 10인 흐름에 적용된다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-CC4C9203101DE3E9-Q8" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>지하 대수층의 투수계수에 영향을 미치는 인자가 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">토사의 단위중량</choice>
+        <choice no="2" is_answer="false">토사의 입경</choice>
+        <choice no="3" is_answer="false">토양의 공극률</choice>
+        <choice no="4" is_answer="false">지하수의 점성계수</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="8">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 지하, 대수층, 투수계수, 영향 | 정답 선지: 토사의 단위중량</explanation_ref>
+    </question>
+    <question no="9" id="PRB-CC4C9203101DE3E9-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>배수용량이 3,000 t인 선박의 갑판에서 15 t의 하중을 선박 부양면 대칭축에 직각이 되는 방향으로 20 m 이동시켰을 때, 선박이 경사각 $\alpha = \sin^- 1 ( 0 . 05 )$만큼 기울어졌다. 이때 경심고[m]는?</stem>
+      <formulas count="1">
+        <formula area="질문">\alpha = \sin^- 1 ( 0 . 05 )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1.80</choice>
+        <choice no="2" is_answer="true">2.00</choice>
+        <choice no="3" is_answer="false">2.20</choice>
+        <choice no="4" is_answer="false">2.40</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="9">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 1 ( 0 . 05 ) | 정답 선지: 2.00</explanation_ref>
+    </question>
+    <question no="10" id="PRB-CC4C9203101DE3E9-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림과 같은 수문 OB의 상류와 하류 수심이 각각 4 H 및 2 H (H &gt; 0)일 때 수문에 작용하는 전수압 작용점의 위치는? (단, 수문 OB의 폭은 1 m이며, 물의 단위중량은 1 t/m^(3)이다)</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{2}{3} H</formula>
+        <formula area="선택지②">\frac{2}{3} H</formula>
+        <formula area="선택지③">H</formula>
+        <formula area="선택지④">\frac{5}{3} H</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-CC4C9203101DE3E9/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-CC4C9203101DE3E9/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">수문하단 B점으로부터 $\frac{2}{3} H$</choice>
+        <choice no="2" is_answer="false">회전축 O점으로부터 $\frac{2}{3} H$</choice>
+        <choice no="3" is_answer="true">수문하단 B점으로부터 $H$</choice>
+        <choice no="4" is_answer="false">회전축 O점으로부터 $\frac{5}{3} H$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="10">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과, 수문, 상류와, 하류 | 정답 선지: 수문하단 B점으로부터 $H$</explanation_ref>
+    </question>
+    <question no="11" id="PRB-CC4C9203101DE3E9-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>중력의 영향이 지배적인 흐름현상에 대해 모형실험을 실시할 때, 적용하는 상사법칙은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">레이놀즈(Reynolds) 상사법칙</choice>
+        <choice no="2" is_answer="true">프루드(Froude) 상사법칙</choice>
+        <choice no="3" is_answer="false">웨버(Weber) 상사법칙</choice>
+        <choice no="4" is_answer="false">코시(Cauchy) 상사법칙</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 레이놀즈(Reynolds), 상사법칙 프루드(Froude), 상사법칙 웨버(Weber), 상사법칙 코시(Cauchy) | 정답 선지: 프루드(Froude) 상사법칙</explanation_ref>
+    </question>
+    <question no="12" id="PRB-CC4C9203101DE3E9-Q12" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="수리·계산·자료해석형">
+      <stem>수평관과 경사관을 연결한 만곡부에서 유량과 만곡전 단면 직경 및 압력, 만곡후 단면 직경, 만곡부 관내 체적, 만곡전․후 단면 표고차, 만곡각도가 주어졌을 때 만곡후 단면의 압력과 만곡부 관벽에 작용하는 유수의 힘을 구하는 데 적용할 식을 모두 고른 것은? (단, 만곡부 손실은 무시한다)</stem>
+      <passage>ㄱ. 연속방정식 ㄴ. Bernoulli방정식
+ㄷ. 운동량방정식 ㄹ. Manning공식
+ㅁ. Darcy-Weisbach공식 ㅂ. Torricelli정리</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">ㄱ, ㄴ, ㄷ</choice>
+        <choice no="2" is_answer="false">ㄱ, ㄴ, ㄹ</choice>
+        <choice no="3" is_answer="false">ㄴ, ㄷ, ㅂ</choice>
+        <choice no="4" is_answer="false">ㄷ, ㄹ, ㅁ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="12">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (수리·계산·자료해석형) | 핵심어: 수평관과, 경사관, 연결한, 만곡부에서 | 보기 판정: ㄱ:O, ㄷ:O, ㅁ:X</explanation_ref>
+    </question>
+    <question no="13" id="PRB-CC4C9203101DE3E9-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>유량 0.10 m^(3)/s로 분사된 수맥이 분사방향과 직각으로 놓인 정지평판에 3 m/s의 속도로 충돌할 때 평판이 받는 힘[t]은? (단, 중력가속도는 10 m/s^(2)이다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">0.03</choice>
+        <choice no="2" is_answer="false">0.09</choice>
+        <choice no="3" is_answer="false">0.30</choice>
+        <choice no="4" is_answer="false">0.90</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="13">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 유량, 분사된, 수맥, 분사방향과 | 정답 선지: 0.03</explanation_ref>
+    </question>
+    <question no="14" id="PRB-CC4C9203101DE3E9-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>유출(runoff)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">유출에 영향을 주는 유역 특성인자로는 유역 면적, 경사, 길이, 형상 등이 있다.</choice>
+        <choice no="2" is_answer="false">직접유출에 기여하는 강우량 부분을 유효우량(effective rainfall)이라 한다.</choice>
+        <choice no="3" is_answer="false">유역의 강우강도가 토양의 침투능보다 클 때 지표면 유출이 발생한다.</choice>
+        <choice no="4" is_answer="true">유역 출구에서 총 유출은 지표면 유출과 지표하 유출의 합이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="14">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 유출(runoff), 하는 강우량 부분을 유효우량(effective rainfall) | 정답 선지: 유역 출구에서 총 유출은 지표면 유출과 지표하 유출의 합이다.</explanation_ref>
+    </question>
+    <question no="15" id="PRB-CC4C9203101DE3E9-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>물의 점성과 표면장력에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">물에 전단응력이 작용할 때 분자의 확산속도가 점성을 유발한다.</choice>
+        <choice no="2" is_answer="false">물 분자 사이의 응집력이 감소하면 점성계수는 커진다.</choice>
+        <choice no="3" is_answer="false">표면장력은 물 분자 간의 부착력 때문에 발생한다.</choice>
+        <choice no="4" is_answer="true">표면장력은 물보다 밀도가 큰 물질을 뜨게 할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 물의 점성과 표면장력 | 정답 선지: 표면장력은 물보다 밀도가 큰 물질을 뜨게 할 수 있다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-CC4C9203101DE3E9-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>시간별 강우량이 표와 같고, 이 유역의 출구에서 관측한 직접유출고가 80 mm일 때 $\Phi$－지수[mm/hr]는?</stem>
+      <passage>| 관측시간  (hr) | 1 : 00 | 2 : 00 | 3 : 00 | 4 : 00 | 5 : 00 | 6 : 00 | 7 : 00 |
+|---|---|---|---|---|---|---|---|
+| 시간강우량 (mm) | 0 | 15 | 20 | 40 | 30 | 25 | 15 |</passage>
+      <formulas count="1">
+        <formula area="질문">PHI</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">8.16</choice>
+        <choice no="2" is_answer="true">10.83</choice>
+        <choice no="3" is_answer="false">12.16</choice>
+        <choice no="4" is_answer="false">14.84</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="16">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 관측시간  (hr), 시간강우량 (mm) | 정답 선지: 10.83</explanation_ref>
+    </question>
+    <question no="17" id="PRB-CC4C9203101DE3E9-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>유체의 점성에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="2">
+        <formula area="선택지①">\mu</formula>
+        <formula area="선택지②">\nu</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">점성계수 μ(dynamic viscosity)의 차원은 [ML^(-1)T^(-1)]이다.</choice>
+        <choice no="2" is_answer="false">실무에서는 동점성계수 $\nu$(kinematic viscosity)를 많이 사용하며 차원은 [L^(2)T^(-1)]이다.</choice>
+        <choice no="3" is_answer="true">뉴턴의 점성법칙은 유체에 작용하는 전단응력과 유속이 비례한다는 것으로, 이때 비례상수가 점성계수이다.</choice>
+        <choice no="4" is_answer="false">물은 전단응력 변화에 따른 점성계수의 변화를 무시할 수 있는 뉴턴 유체이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="17">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 유체의 점성 | 정답 선지: 뉴턴의 점성법칙은 유체에 작용하는 전단응력과 유속이 비례한다는 것으로, 이때 비례상수가 점성계수이다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-CC4C9203101DE3E9-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같이 지름 $D_{1} = 10 cm$, $D_{2} = 20 cm$인 관로에 비중 0.8인 유체가 흐르고 있다. 유량 $0 . 06 m^{3} / s$, 지점 ①의 압력 $p_{1} = 500 kPa$, 지점 ① ∼ ② 사이의 손실수두가 3 m일 때, 지점 ②에서의 압력 $p_2$[$kPa$]는? (단, 원주율 π는 3.0, 중력가속도는 $10 m / s^{2}$, 기타 손실은 무시한다)</stem>
+      <formulas count="8">
+        <formula area="질문">D_{1} = 10 cm</formula>
+        <formula area="질문">D_{2} = 20 cm</formula>
+        <formula area="질문">0 . 06 m^{3} / s</formula>
+        <formula area="질문">p_{1} = 500 kPa</formula>
+        <formula area="질문">p_2</formula>
+        <formula area="질문">kPa</formula>
+        <formula area="질문">\pi</formula>
+        <formula area="질문">10 m / s^{2}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-CC4C9203101DE3E9/18_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-CC4C9203101DE3E9/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">510</choice>
+        <choice no="2" is_answer="true">532</choice>
+        <choice no="3" is_answer="false">648</choice>
+        <choice no="4" is_answer="false">665</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="18">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과, 지름, 관로, 비중 | 정답 선지: 532</explanation_ref>
+    </question>
+    <question no="19" id="PRB-CC4C9203101DE3E9-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>길이 축척 10 : 1인 모형으로 점성력이 지배하는 수로에 대한 모의실험을 실시하였다. 물이 흐르는 원형과 달리 모형에서 사용한 기름의 비중은 0.8이고 점성은 물의 2배이다. 이때 원형과 모형 간의 시간비는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">25</choice>
+        <choice no="2" is_answer="false">40</choice>
+        <choice no="3" is_answer="true">250</choice>
+        <choice no="4" is_answer="false">400</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="19">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 축척, 모형으, 점성력, 지배하 | 정답 선지: 250</explanation_ref>
+    </question>
+    <question no="20" id="PRB-CC4C9203101DE3E9-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>홍수방어 및 조절 대책 중 비구조물적 대책에 해당하지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">하천정비 및 하도개수</choice>
+        <choice no="2" is_answer="false">댐 및 저수지 운영체제 개선</choice>
+        <choice no="3" is_answer="false">홍수예경보</choice>
+        <choice no="4" is_answer="false">홍수보험</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="수리수문학_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 홍수방어, 조절, 대책, 비구조물적 | 정답 선지: 하천정비 및 하도개수</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

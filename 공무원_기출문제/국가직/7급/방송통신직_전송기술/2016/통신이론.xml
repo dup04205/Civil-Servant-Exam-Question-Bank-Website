@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2016-06</exam_id>
+    <subject_row_id>PRB-A50028CA4CABE0EB</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2016</year>
+    <exam_title>2016년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>627</subject_code>
+    <subject_name>통신이론</subject_name>
+    <booklet_type>2</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통신이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-A50028CA4CABE0EB-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>선형시불변(Linear Time Invariant) 전송시스템에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">주파수 성분이 1개인 신호는 무왜곡(Distortionless) 전송이 가능하다.</choice>
+        <choice no="2" is_answer="false">무왜곡 시스템의 진폭응답은 주파수에 대해 상수이다.</choice>
+        <choice no="3" is_answer="false">무왜곡 시스템의 위상응답을 주파수에 대해 미분하면 상수가 된다.</choice>
+        <choice no="4" is_answer="true">상호변조(Intermodulation) 왜곡이 발생할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 선형시불변(Linear Time Invariant), 성분이 1개인 신호는 무왜곡(Distortionless), 상호변조(Intermodulation) | 정답 선지: 상호변조(Intermodulation) 왜곡이 발생할 수 있다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-A50028CA4CABE0EB-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>4개의 서로 다른 메시지를 아래 표와 같이 7비트로 각각 부호화하여 전송하는 경우, 수신기에서 부호당 보장되는 정정 가능한 오류의 최대 비트 개수는?</stem>
+      <passage>부호화된 메시지
+1111111
+1010101
+1100000
+0101010</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">0</choice>
+        <choice no="2" is_answer="true">1</choice>
+        <choice no="3" is_answer="false">2</choice>
+        <choice no="4" is_answer="false">3</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다른, 메시지, 아래, 표와 | 정답 선지: 1</explanation_ref>
+    </question>
+    <question no="3" id="PRB-A50028CA4CABE0EB-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>&lt;i&gt;T&lt;/i&gt; 시간당 1비트를 전송하는 이진 ASK 파형인 것은?</stem>
+      <images count="5">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-A50028CA4CABE0EB/3_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-A50028CA4CABE0EB/3_pdf_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="2">이미지/PRB-A50028CA4CABE0EB/3_pdf_2.png</image>
+        <image area="지문" kind="PDF크롭" seq="3">이미지/PRB-A50028CA4CABE0EB/3_pdf_3.png</image>
+        <image area="지문" kind="PDF크롭" seq="4">이미지/PRB-A50028CA4CABE0EB/3_pdf_4.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="true">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 비교불가(선택지 텍스트 없음))" cross_check="비교불가(선택지 텍스트 없음)">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시간당, 비트, 전송하, 이진 | 정답 선지: [그림/도표 선지 3번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="4" id="PRB-A50028CA4CABE0EB-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>신호 $\sum_{n = - \infty}^{\infty} \delta ( t - nT ) + \sum_{n = - \infty}^{\infty} \delta ( t - 0 . 5 T - nT )$의 푸리에 급수 계수는?</stem>
+      <formulas count="5">
+        <formula area="질문">\sum_{n = - \infty}^{\infty} \delta ( t - nT ) + \sum_{n = - \infty}^{\infty} \delta ( t - 0 . 5 T - nT )</formula>
+        <formula area="선택지①">\frac{1}{T}</formula>
+        <formula area="선택지②">\frac{1}{T^{2}}</formula>
+        <formula area="선택지③">\frac{2}{T}</formula>
+        <formula area="선택지④">\frac{2}{T^{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{T}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{T^{2}}$</choice>
+        <choice no="3" is_answer="true">$\frac{2}{T}$</choice>
+        <choice no="4" is_answer="false">$\frac{2}{T^{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: delta ( t - nT ), delta ( t - 0 . 5 T - nT ) | 정답 선지: $\frac{2}{T}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-A50028CA4CABE0EB-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>수퍼헤테로다인 AM 수신기에서 주파수가 1,600 kHz인 반송파 신호와 주파수가 2,055 kHz인 국부 발진기(Local Oscillator) 출력이 혼합기(Mixer)로 입력된다. 이 혼합기의 출력들 중 선택되는 신호의 주파수가 455 kHz일 때, 이와 동일한 주파수를 얻을 수 있는 영상 주파수(Image Frequency)[kHz]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">690</choice>
+        <choice no="2" is_answer="false">910</choice>
+        <choice no="3" is_answer="false">1,145</choice>
+        <choice no="4" is_answer="true">2,510</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 055 kHz인 국부 발진기(Local Oscillator), 출력이 혼합기(Mixer), 얻을 수 있는 영상 주파수(Image Frequency) | 정답 선지: 2,510</explanation_ref>
+    </question>
+    <question no="6" id="PRB-A50028CA4CABE0EB-Q6" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>비트 0과 1을 각각 심벌 $d$ ＝ －1과 1로 대응시킨 후, 평균과 분산이 각각 0과 2인 가산 백색 가우스 잡음(Additive White Gaussian Noise) 채널을 통해 전송한다. 수신된 신호 $x$ ＝ －0.2에 대해, $\ln \frac{f ( x | d = - 1 )}{f ( x | d = + 1 )}$로 정의되는 로그-우도(Log-Likelihood) 값을 구하면? (단, &lt;i&gt;f&lt;/i&gt;(·|·)는 조건부 확률밀도함수이다)</stem>
+      <formulas count="3">
+        <formula area="질문">d</formula>
+        <formula area="질문">x</formula>
+        <formula area="질문">\ln \frac{f ( x | d = - 1 )}{f ( x | d = + 1 )}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">－0.2</choice>
+        <choice no="2" is_answer="true">0.2</choice>
+        <choice no="3" is_answer="false">－0.1</choice>
+        <choice no="4" is_answer="false">0.1</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 2번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 우도(Log-Likelihood) | 정답 선지: 0.2</explanation_ref>
+    </question>
+    <question no="7" id="PRB-A50028CA4CABE0EB-Q7" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>대역폭이 $2 B$이고 중심 주파수가 $f_c$($f_c &gt; &gt; 2 B$)인 협대역 가산 백색 가우스 잡음을 $n ( t ) = n_I ( t ) \cos \omega_c t - n_Q ( t ) \sin \omega_c t$로 표현할 때, 옳지 않은 것은? (단, $\omega_{c} = 2 pif_{c}$이고, $n_I ( t )$와 $n_Q ( t )$는 각각 $n ( t )$의 동위상과 직교 위상 성분이다)</stem>
+      <formulas count="20">
+        <formula area="질문">2 B</formula>
+        <formula area="질문">f_c</formula>
+        <formula area="질문">f_c &gt; &gt; 2 B</formula>
+        <formula area="질문">n ( t ) = n_I ( t ) \cos \omega_c t - n_Q ( t ) \sin \omega_c t</formula>
+        <formula area="질문">\omega_{c} = 2 pif_{c}</formula>
+        <formula area="질문">n_I ( t )</formula>
+        <formula area="질문">n_Q ( t )</formula>
+        <formula area="질문">n ( t )</formula>
+        <formula area="선택지①">n ( t )</formula>
+        <formula area="선택지①">n_I ( t )</formula>
+        <formula area="선택지①">n_Q ( t )</formula>
+        <formula area="선택지②">n ( t )</formula>
+        <formula area="선택지②">n_I ( t )</formula>
+        <formula area="선택지②">n_Q ( t )</formula>
+        <formula area="선택지③">n_I ( t )</formula>
+        <formula area="선택지③">n_Q ( t )</formula>
+        <formula area="선택지③">n ( t )</formula>
+        <formula area="선택지③">\frac{1}{2}</formula>
+        <formula area="선택지④">n_I ( t )</formula>
+        <formula area="선택지④">n_Q ( t )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$n ( t )$가 정상적(Stationary)이면 $n_I ( t )$와 $n_Q ( t )$도 정상적이다.</choice>
+        <choice no="2" is_answer="false">$n ( t )$가 가우스 잡음이면 $n_I ( t )$와 $n_Q ( t )$도 가우스 잡음이다.</choice>
+        <choice no="3" is_answer="true">$n_I ( t )$와 $n_Q ( t )$의 분산은 $n ( t )$ 분산의 $\frac{1}{2}$이다.</choice>
+        <choice no="4" is_answer="false">$n_I ( t )$와 $n_Q ( t )$의 전력 스펙트럼 밀도는 동일하다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: n ( t ), I ( t ), Q ( t ), 가 정상적(Stationary) | 정답 선지: $n_I ( t )$와 $n_Q ( t )$의 분산은 $n ( t )$ 분산의 $\frac{1}{2}$이다.</explanation_ref>
+    </question>
+    <question no="8" id="PRB-A50028CA4CABE0EB-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>메시지 신호 $\cos ( 40 \pi t )$를 200 Hz 반송파(Carrier Signal)를 사용하여 AM 변조한 신호가 $40 [ 1 + 0 . 2 \cos ( 40 \pi t ) ] \cos ( 400 \pi t )$로 송출될 때, 변조 지수(Modulation Index) β와 변조 효율(Efficiency) α는?</stem>
+      <formulas count="14">
+        <formula area="질문">\cos ( 40 \pi t )</formula>
+        <formula area="질문">40 [ 1 + 0 . 2 \cos ( 40 \pi t ) ] \cos ( 400 \pi t )</formula>
+        <formula area="질문">\beta</formula>
+        <formula area="질문">\alpha</formula>
+        <formula area="지문">\beta</formula>
+        <formula area="지문">\alpha</formula>
+        <formula area="선택지①">0 . 1</formula>
+        <formula area="선택지①">1 / 102</formula>
+        <formula area="선택지②">0 . 2</formula>
+        <formula area="선택지②">1 / 51</formula>
+        <formula area="선택지③">0 . 1</formula>
+        <formula area="선택지③">1 / 51</formula>
+        <formula area="선택지④">0 . 2</formula>
+        <formula area="선택지④">1 / 102</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$0 . 1$ $1 / 102$</choice>
+        <choice no="2" is_answer="true">$0 . 2$ $1 / 51$</choice>
+        <choice no="3" is_answer="false">$0 . 1$ $1 / 51$</choice>
+        <choice no="4" is_answer="false">$0 . 2$ $1 / 102$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 를 200 Hz 반송파(Carrier Signal), 변조 지수(Modulation Index), 와 변조 효율(Efficiency) | 정답 선지: $0 . 2$ $1 / 51$</explanation_ref>
+    </question>
+    <question no="9" id="PRB-A50028CA4CABE0EB-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>최대 주파수가 20 kHz인 아날로그 신호를 나이퀴스트 율로 표본화한 후 4개 준위(Level)로 양자화하여 심벌을 생성한다. 심벌들은 서로 독립적으로 발생한다고 가정하고 확률은 각각 4/8, 2/8, 1/8, 1/8일 때, 심벌의 정보율(Effective Information Bit Rate)[bits/sec]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">70,000</choice>
+        <choice no="2" is_answer="false">64,000</choice>
+        <choice no="3" is_answer="false">60,000</choice>
+        <choice no="4" is_answer="false">54,000</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 율로 표본화한 후 4개 준위(Level) | 정답 선지: 70,000</explanation_ref>
+    </question>
+    <question no="10" id="PRB-A50028CA4CABE0EB-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>랜덤변수 $X$의 확률밀도함수(Probability Density Function)가 $f_{X} ( x ) = e^{- x} ( x \geq 0 )$일 때, 옳지 않은 것은?</stem>
+      <formulas count="7">
+        <formula area="질문">X</formula>
+        <formula area="질문">f_{X} ( x ) = e^{- x} ( x \geq 0 )</formula>
+        <formula area="선택지③">X</formula>
+        <formula area="선택지③">e^{- 1}</formula>
+        <formula area="선택지④">Y = \sqrt{X}</formula>
+        <formula area="선택지④">Y</formula>
+        <formula area="선택지④">{f}_{Y} ( y ) = 2 e^{- y^{2}} ( y \geq 0 )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">평균은 1이다.</choice>
+        <choice no="2" is_answer="false">표준편차는 1이다.</choice>
+        <choice no="3" is_answer="false">$X$가 1보다 클 확률은 $e^{- 1}$이다.</choice>
+        <choice no="4" is_answer="true">$Y = \sqrt{X}$일 때, $Y$의 확률밀도함수 ${f}_{Y} ( y ) = 2 e^{- y^{2}} ( y \geq 0 )$이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 랜덤변수, 확률밀도함수 | 정답 선지: $Y = \sqrt{X}$일 때, $Y$의 확률밀도함수 ${f}_{Y} ( y ) = 2 e^{- y^{2}} ( y...</explanation_ref>
+    </question>
+    <question no="11" id="PRB-A50028CA4CABE0EB-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>아래 그림과 같은 이상 저역 통과 필터 $H ( \omega )$의 시간 영역 응답 $h ( t )$는 sinc함수이다. 이때 $h ( t ) = 0 ( t &gt; 0 )$인 최소 $t$ (A 지점) 값은?</stem>
+      <formulas count="8">
+        <formula area="질문">H ( \omega )</formula>
+        <formula area="질문">h ( t )</formula>
+        <formula area="질문">h ( t ) = 0 ( t &gt; 0 )</formula>
+        <formula area="질문">t</formula>
+        <formula area="선택지①">\frac{\pi}{W}</formula>
+        <formula area="선택지②">\frac{2 \pi}{W}</formula>
+        <formula area="선택지③">\frac{\pi}{2 W}</formula>
+        <formula area="선택지④">\frac{1}{W}</formula>
+      </formulas>
+      <images count="1">
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-A50028CA4CABE0EB/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{\pi}{W}$</choice>
+        <choice no="2" is_answer="false">$\frac{2 \pi}{W}$</choice>
+        <choice no="3" is_answer="false">$\frac{\pi}{2 W}$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{W}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: h ( t ) | 정답 선지: $\frac{\pi}{W}$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-A50028CA4CABE0EB-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 중 FM 변조된 신호의 대역폭에 영향을 미치지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">반송파 주파수</choice>
+        <choice no="2" is_answer="false">메시지 신호의 대역폭</choice>
+        <choice no="3" is_answer="false">변조 지수(Modulation Index)</choice>
+        <choice no="4" is_answer="false">메시지 신호의 진폭</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 지 신호의 대역폭 변조 지수(Modulation Index) | 정답 선지: 반송파 주파수</explanation_ref>
+    </question>
+    <question no="13" id="PRB-A50028CA4CABE0EB-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>신호 $50 \cos \left( 72 t + \pi \right) - 30 \sin \left( 80 \pi t + \frac{3}{4} \pi \right) + 30$을 표본화할 때, 복원을 보장하는 최대 표본화 주기[ms]는?</stem>
+      <formulas count="1">
+        <formula area="질문">50 \cos \left( 72 t + \pi \right) - 30 \sin \left( 80 \pi t + \frac{3}{4} \pi \right) + 30</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">27</choice>
+        <choice no="2" is_answer="true">12.5</choice>
+        <choice no="3" is_answer="false">30</choice>
+        <choice no="4" is_answer="false">72</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 신호, 표본화할, 복원, 보장하 | 정답 선지: 12.5</explanation_ref>
+    </question>
+    <question no="14" id="PRB-A50028CA4CABE0EB-Q14" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>DSSS(Direct Sequence Spread Spectrum) 통신 방식으로 일체형 송수신기에서 물체까지의 거리를 측정할 수 있다. 송수신기에서 1칩의 주기가 10 ns인 PN 수열을 전송한다. 이 신호와 물체에 반사되어 되돌아온 신호와의 최고 자기 상관은 20칩 지연에서 발생하는 것으로 확인되었다. 전파 속도를 $3 \times 10^{8}$ m/s로 가정할 때, 송수신기에서 물체까지의 거리[m]는?</stem>
+      <formulas count="1">
+        <formula area="질문">3 \times 10^{8}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">60</choice>
+        <choice no="2" is_answer="true">30</choice>
+        <choice no="3" is_answer="false">15</choice>
+        <choice no="4" is_answer="false">7.5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 통신, 방식으, 일체형, 송수신기에서 | 정답 선지: 30</explanation_ref>
+    </question>
+    <question no="15" id="PRB-A50028CA4CABE0EB-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>실수 주기 신호 $x ( t )$의 주파수 크기 스펙트럼이 아래 그림과 같을 때, 옳지 않은 것은?</stem>
+      <formulas count="6">
+        <formula area="질문">x ( t )</formula>
+        <formula area="선택지①">x ( t )</formula>
+        <formula area="선택지②">x ( t )</formula>
+        <formula area="선택지②">\frac{2 \pi}{\omega_{1}}</formula>
+        <formula area="선택지③">\frac{\omega_{3}}{\omega_{1}}</formula>
+        <formula area="선택지④">x ( t )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-A50028CA4CABE0EB/15_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-A50028CA4CABE0EB/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$x ( t )$는 기함수가 아니다.</choice>
+        <choice no="2" is_answer="false">$x ( t )$의 기본주기(Fundamental Period)는 $\frac{2 \pi}{\omega_{1}}$초이다.</choice>
+        <choice no="3" is_answer="false">$\frac{\omega_{3}}{\omega_{1}}$은 양의 정수이다.</choice>
+        <choice no="4" is_answer="true">$x ( t )$의 직류 성분은 0이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), 의 기본주기(Fundamental Period) | 정답 선지: $x ( t )$의 직류 성분은 0이다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-A50028CA4CABE0EB-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>아래 그림은 간략한 AM 변복조 과정의 일부를 보인다. 수신부 신호 $s ( t )$에 포함되지 않는 주파수 성분은? (단, $f_{2} &gt; f_{1} &gt; 0$이다)</stem>
+      <formulas count="6">
+        <formula area="질문">s ( t )</formula>
+        <formula area="질문">f_{2} &gt; f_{1} &gt; 0</formula>
+        <formula area="선택지①">0</formula>
+        <formula area="선택지②">f_{1}</formula>
+        <formula area="선택지③">f_{2}</formula>
+        <formula area="선택지④">2 f_{2} - f_{1}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-A50028CA4CABE0EB/16_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-A50028CA4CABE0EB/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$0$</choice>
+        <choice no="2" is_answer="false">_($f_{1}$)</choice>
+        <choice no="3" is_answer="true">$f_{2}$</choice>
+        <choice no="4" is_answer="false">$2 f_{2} - f_{1}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: s ( t ) | 정답 선지: $f_{2}$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-A50028CA4CABE0EB-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>가산 백색 가우스 잡음(Additive White Gaussian Noise) 환경의 채널용량(Channel Capacity)에 대한 설명으로 옳지 않은 것은? (단, $E_{b}$는 비트당 에너지, $N_{0}$는 단측 잡음 전력 스펙트럼 밀도를 나타낸다)</stem>
+      <formulas count="3">
+        <formula area="질문">E_{b}</formula>
+        <formula area="질문">N_{0}</formula>
+        <formula area="선택지③">E_{b} / N_{0} &lt; ln2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">무한 대역폭을 가진 이상적인 채널은 무한한 채널용량을 갖는다.</choice>
+        <choice no="2" is_answer="false">정보 비트 전송률이 채널용량보다 큰 경우, 오류 없이 정보를 전송하는 것은 불가능하다.</choice>
+        <choice no="3" is_answer="false">$E_{b} / N_{0} &lt; \ln 2$이면 오류 없이 정보를 전송하는 것은 불가능하다.</choice>
+        <choice no="4" is_answer="false">신호 대 잡음 전력비가 1보다 충분히 크면 채널용량은 신호 대 잡음 전력비에 대하여 대수적(Logarithmic)으로 증가한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 환경의 채널용량(Channel Capacity), 잡음 전력비에 대하여 대수적(Logarithmic) | 정답 선지: 무한 대역폭을 가진 이상적인 채널은 무한한 채널용량을 갖는다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-A50028CA4CABE0EB-Q18" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>오류 정정 부호화(Error Correction Coding)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">해밍 부호의 경우 입력 메시지가 출력 부호의 일부에 포함될 수 있도록 부호를 설계할 수 있다.</choice>
+        <choice no="2" is_answer="false">선형 블록 부호의 최소 거리가 7인 경우 최대 3비트까지의 오류 정정을 보장한다.</choice>
+        <choice no="3" is_answer="true">오류 정정 부호화에서 부호율(Code Rate)이 클수록 많은 비트의 오류를 정정할 수 있다.</choice>
+        <choice no="4" is_answer="false">콘볼루션 부호의 인코딩 과정에서 과거의 입력 메시지가 현재의 출력 부호에 영향을 줄 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 오류 정정 부호화(Error Correction Coding), 오류 정정 부호화에서 부호율(Code Rate) | 정답 선지: 오류 정정 부호화에서 부호율(Code Rate)이 클수록 많은 비트의 오류를 정정할 수 있다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-A50028CA4CABE0EB-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>가산 백색 가우스 잡음 환경에서 디지털 변조에 대한 설명으로 옳지 않은 것은? (단, 비트당 에너지는 동일하다고 가정한다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">BFSK 방식은 동기 BPSK 방식보다 비트 오류 확률이 크다.</choice>
+        <choice no="2" is_answer="true">동기 BPSK의 비트 오류 확률은 동기 QPSK의 비트 오류 확률보다 작다.</choice>
+        <choice no="3" is_answer="false">DPSK 방식은 반송파의 위상 동기화가 필요 없는 비동기 복조가 가능하다.</choice>
+        <choice no="4" is_answer="false">MSK 방식은 연속된 위상을 갖는 정 진폭(Constant Envelope) 변조 방식이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 가산 백색 가우스 잡음 환경에서 디지털 변조, 연속된 위상을 갖는 정 진폭(Constant Envelope) | 정답 선지: 동기 BPSK의 비트 오류 확률은 동기 QPSK의 비트 오류 확률보다 작다.</explanation_ref>
+    </question>
+    <question no="20" id="PRB-A50028CA4CABE0EB-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>심벌 개수가 $M$인 $M$－QAM 변조에 대한 설명으로 옳은 것은?</stem>
+      <formulas count="4">
+        <formula area="질문">M</formula>
+        <formula area="질문">M</formula>
+        <formula area="선택지①">M</formula>
+        <formula area="선택지④">M</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">성상도(Constellation)상에 $M$개 심벌의 위치는 임의로 설계가 가능하며, 이에 따른 심벌 오류 확률은 항상 동일하다.</choice>
+        <choice no="2" is_answer="false">전력 효율은 단위 대역폭당 비트 전송률(bits/sec/Hz)로 정의된다.</choice>
+        <choice no="3" is_answer="false">심벌 오류가 발생했을 때, 인접한 심벌 간에 서로 다른 비트 값의 개수가 적을수록 비트 오류 확률이 커진다.</choice>
+        <choice no="4" is_answer="true">2개의 직교축에 각각 독립적인 1차원 PAM 변조기를 사용하여 2차원의 사각(Rectangular) 성상도를 갖는 $M$－QAM 변조기를 구성할 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 심벌 개수가 $M$인 $M$－QAM 변조, 성상도(Constellation), 기를 사용하여 2차원의 사각(Rectangular) | 정답 선지: 2개의 직교축에 각각 독립적인 1차원 PAM 변조기를 사용하여 2차원의 사각(Rectangular) 성상도를 갖는 $...</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2020-06</exam_id>
+    <subject_row_id>PRB-879985617E01B8CA</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>화공직</series>
+    <year>2020</year>
+    <exam_title>2020년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>607</subject_code>
+    <subject_name>화공열역학</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>화공열역학_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-879985617E01B8CA-Q1" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
+      <stem>다음 Maxwell 관계식으로부터 추론할 수 있는 열역학 관계식은?</stem>
+      <passage>$\left( \frac{\partial P}{\partial T} \right)_{V} = \left( \frac{\partial S}{\partial V} \right)_{T}$</passage>
+      <formulas count="5">
+        <formula area="지문">\left( \frac{Partial P}{Partial T} \right)_{V} = \left( \frac{Partial S}{Partial V} \right)_{T}</formula>
+        <formula area="선택지①">dU = - TdS - PdV</formula>
+        <formula area="선택지②">dH = TdS - VdP</formula>
+        <formula area="선택지③">dA = - PdV - SdT</formula>
+        <formula area="선택지④">dG = - VdP - SdT</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$dU = - TdS - PdV$</choice>
+        <choice no="2" is_answer="false">$dH = TdS - VdP$</choice>
+        <choice no="3" is_answer="true">$dA = - PdV - SdT$</choice>
+        <choice no="4" is_answer="false">$dG = - VdP - SdT$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="1">[정답 3번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: 관계식으로부터, 추론할, 열역학, 관계식 | 정답 선지: $dA = - PdV - SdT$</explanation_ref>
+    </question>
+    <question no="2" id="PRB-879985617E01B8CA-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>자유도의 개수가 가장 큰 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">삼중점 상태의 물</choice>
+        <choice no="2" is_answer="true">액체 상태의 묽은 설탕물</choice>
+        <choice no="3" is_answer="false">초임계 상태의 이산화탄소</choice>
+        <choice no="4" is_answer="false">기－액 평형을 이루고 있는 에탄올 수용액</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="2">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 자유도, 개수 | 정답 선지: 액체 상태의 묽은 설탕물</explanation_ref>
+    </question>
+    <question no="3" id="PRB-879985617E01B8CA-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>어떤 기체 1몰이 일정 압력 1 bar 조건으로 300 K에서 400 K까지 가열되었을 때, 엔탈피 변화량[J]은? (단, 이 기체는 정적 열용량이 $\frac{5}{2}$&lt;i&gt;R&lt;/i&gt;인 이상 기체이고, 기체 상수 &lt;i&gt;R&lt;/i&gt;는 8 J mol^(-1 )K^(-1)이다)</stem>
+      <formulas count="1">
+        <formula area="질문">\frac{5}{2}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1,200</choice>
+        <choice no="2" is_answer="false">2,000</choice>
+        <choice no="3" is_answer="true">2,800</choice>
+        <choice no="4" is_answer="false">5,600</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="3">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 어떤, 기체, 일정, 압력 | 정답 선지: 2,800</explanation_ref>
+    </question>
+    <question no="4" id="PRB-879985617E01B8CA-Q4" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>표는 300 K에서 몇 가지 물질의 표준 생성열($\Delta H_{f , 300 }^{o }$)을 나타낸 것이다. 1,100 K에서 메테인(CH_(4)) 1몰이 수증기 개질(steam reforming) 반응할 때, 표준 반응열[kJ]은? (단, 반응에서는 H_(2)(&lt;i&gt;g&lt;/i&gt;)와 CO_(2)(&lt;i&gt;g&lt;/i&gt;)만이 생성되고, 모든 물질의 정압 열용량은 40 J mol^(-1 )K^(-1)이다)</stem>
+      <passage>| 물질 | CH_(4)(&lt;i&gt;g&lt;/i&gt;) | H_(2)O(&lt;i&gt;g&lt;/i&gt;) | H_(2)(&lt;i&gt;g&lt;/i&gt;) | CO_(2)(&lt;i&gt;g&lt;/i&gt;) |
+|---|---|---|---|---|
+| $\Delta H_{f , 300 }^{o }$[kJ mol^(-1)] | －70 | －240 | 0 | －390 |</passage>
+      <formulas count="2">
+        <formula area="질문">DELTA H_{f , 300 it}^{o it}</formula>
+        <formula area="지문">DELTA H_{f , 300 it}^{o it}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">160</choice>
+        <choice no="2" is_answer="true">224</choice>
+        <choice no="3" is_answer="false">256</choice>
+        <choice no="4" is_answer="false">320</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="4">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 1몰이 수증기 개질(steam reforming) | 정답 선지: 224</explanation_ref>
+    </question>
+    <question no="5" id="PRB-879985617E01B8CA-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>어떤 냉장고가 480 kJ min^(-1)의 열 제거 속도로 작동하면서 4 kW의 전력을 소모한다면, 분당 방출열[kJ min^(-1)]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">240</choice>
+        <choice no="2" is_answer="false">480</choice>
+        <choice no="3" is_answer="false">600</choice>
+        <choice no="4" is_answer="true">720</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="5">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 어떤, 냉장고, 제거, 속도 | 정답 선지: 720</explanation_ref>
+    </question>
+    <question no="6" id="PRB-879985617E01B8CA-Q6" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>이상 기체에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">Joule-Thomson 계수는 0이다.</choice>
+        <choice no="2" is_answer="true">등온 압축률은 0이다.</choice>
+        <choice no="3" is_answer="false">압력 조건에 무관하게 압축인자(&lt;i&gt;Z&lt;/i&gt;)가 일정하다.</choice>
+        <choice no="4" is_answer="false">정압 몰 열용량과 정적 몰 열용량의 차이는 기체 상수(&lt;i&gt;R&lt;/i&gt;)와 같다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="6">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상 기체 | 정답 선지: 등온 압축률은 0이다.</explanation_ref>
+    </question>
+    <question no="7" id="PRB-879985617E01B8CA-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>표는 100 °C의 물에 대한 자료를 나타낸 것이다. 물 1 kg이 100 °C, 101 kN m^(-2)의 정온 정압 조건에서 기화할 때, 내부에너지 변화[kJ]는? (단, 물의 비부피는 무시한다)</stem>
+      <passage>| 온도[°C] | 100 |
+|---|---|
+| 수증기압[kN m^(-2)] | 101 |
+| 수증기의 비부피[m^(3 )kg^(-1)] | 2 |
+| 기화 엔탈피[kJ kg^(-1)] | 2,260 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">202</choice>
+        <choice no="2" is_answer="false">1,130</choice>
+        <choice no="3" is_answer="true">2,058</choice>
+        <choice no="4" is_answer="false">2,462</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="7">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 표는 100 °C의 물 | 정답 선지: 2,058</explanation_ref>
+    </question>
+    <question no="8" id="PRB-879985617E01B8CA-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음은 25 °C에서 메테인(CH_(4))의 연소 반응식과 표준 반응열($\Delta$&lt;i&gt;H&lt;/i&gt;^(o))이다.</stem>
+      <passage>CH_(4)(&lt;i&gt;g&lt;/i&gt;) ＋ 2O_(2)(&lt;i&gt;g&lt;/i&gt;) → CO_(2)(&lt;i&gt;g&lt;/i&gt;) ＋ 2H_(2)O(&lt;i&gt;g&lt;/i&gt;) $\Delta$&lt;i&gt;H&lt;/i&gt;° ＝ －800 kJ
+25 °C의 정압 단열 조건에서 50 %의 과잉 산소를 이용하여 메테인 1몰을 연소시킬 때, 도달할 수 있는 최고 온도[°C]는? (단, 모든 물질의 정압 열용량은 40 J mol^(-1) °C^(-1)이다)</passage>
+      <formulas count="2">
+        <formula area="질문">DELTA</formula>
+        <formula area="지문">DELTA</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">5,025</choice>
+        <choice no="2" is_answer="false">5,415</choice>
+        <choice no="3" is_answer="false">5,800</choice>
+        <choice no="4" is_answer="false">6,690</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="8">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 에서, 메테인, 연소, 반응식과 | 정답 선지: 5,025</explanation_ref>
+    </question>
+    <question no="9" id="PRB-879985617E01B8CA-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>온도 450 K, 질량 50 kg의 강철구를 온도 200 K, 질량 4.5 kg의 기름에 담가 열손실 및 상변화 없이 급랭시켜, 두 물체의 온도가 같아졌다. 이 과정에서 강철구와 기름의 엔트로피 변화가 각각 $DeltaS_1$과 $DeltaS_2$일 때 $\frac{DeltaS_1}{DeltaS_2}$는? (단, 강철구와 기름의 정압 열용량은 각각 0.3 kJ kg^(-1 )K^(-1)과 5 kJ kg^(-1 )K^(-1)이다)</stem>
+      <formulas count="7">
+        <formula area="질문">DeltaS_1</formula>
+        <formula area="질문">DeltaS_2</formula>
+        <formula area="질문">\frac{DeltaS_1}{DeltaS_2}</formula>
+        <formula area="선택지①">- 3 over2</formula>
+        <formula area="선택지②">- \frac{2}{3}</formula>
+        <formula area="선택지③">2 over3</formula>
+        <formula area="선택지④">3 over2</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$- \frac{3}{2}$</choice>
+        <choice no="2" is_answer="true">$- \frac{2}{3}$</choice>
+        <choice no="3" is_answer="false">$\frac{2}{3}$</choice>
+        <choice no="4" is_answer="false">$\frac{3}{2}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="9">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 온도, 질량, 강철구, 기름 | 정답 선지: $- \frac{2}{3}$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-879985617E01B8CA-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림은 Rankine 순환 공정을 나타낸 것이다. 이에 대한 설명으로 옳지 않은 것은? (단, &lt;i&gt;T&lt;/i&gt;와 &lt;i&gt;S&lt;/i&gt;는 각각 온도와 엔트로피이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-879985617E01B8CA/10_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-879985617E01B8CA/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">단계 1 → 2는 보일러에서 정압 가열에 의해 과열 증기가 발생하는 과정을 포함한다.</choice>
+        <choice no="2" is_answer="false">단계 2 → 3은 터빈 내 증기가 가역 단열 팽창하는 과정이다.</choice>
+        <choice no="3" is_answer="true">단계 3 → 4는 정온 가압에 의해 포화 액체를 생성하는 과정이다.</choice>
+        <choice no="4" is_answer="false">단계 4 → 1은 포화 액체를 보일러로 이송하여 과냉각 액체를 생성하는 과정이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="10">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림은 Rankine 순환 공정을 나타낸 것이다. 이 | 정답 선지: 단계 3 → 4는 정온 가압에 의해 포화 액체를 생성하는 과정이다.</explanation_ref>
+    </question>
+    <question no="11" id="PRB-879985617E01B8CA-Q11" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>어떤 순물질 액체의 부피 팽창률(β)과 등온 압축률($\kappa$)은 각각 1.5 × 10^(-3 )K^(-1), 60 × 10^(-6 )bar^(-1)이다. 이 액체가 1 bar, 273 K 상태로부터 부피 변화 없이 283 K까지 가열되었을 때의 압력[bar]은?</stem>
+      <formulas count="2">
+        <formula area="질문">\beta</formula>
+        <formula area="질문">\kappa</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1.4</choice>
+        <choice no="2" is_answer="false">2.4</choice>
+        <choice no="3" is_answer="false">250</choice>
+        <choice no="4" is_answer="true">251</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="11">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 어떤, 순물질, 액체, 부피 | 정답 선지: 251</explanation_ref>
+    </question>
+    <question no="12" id="PRB-879985617E01B8CA-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>이상 기체가 정온 가역 과정으로 팽창할 때, Helmholtz 자유에너지 변화($\Delta$&lt;i&gt;A&lt;/i&gt;)와 Gibbs 자유에너지 변화($\Delta$&lt;i&gt;G&lt;/i&gt;)의 관계로 옳은 것은?</stem>
+      <formulas count="10">
+        <formula area="질문">DELTA</formula>
+        <formula area="질문">DELTA</formula>
+        <formula area="선택지①">DELTA</formula>
+        <formula area="선택지①">DELTA</formula>
+        <formula area="선택지②">DELTA</formula>
+        <formula area="선택지②">DELTA</formula>
+        <formula area="선택지③">DELTA</formula>
+        <formula area="선택지③">DELTA</formula>
+        <formula area="선택지④">DELTA</formula>
+        <formula area="선택지④">DELTA</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\Delta$&lt;i&gt;A&lt;/i&gt; ＝ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice>
+        <choice no="2" is_answer="false">$\Delta$&lt;i&gt;A&lt;/i&gt; ＞ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice>
+        <choice no="3" is_answer="false">$\Delta$&lt;i&gt;A&lt;/i&gt; ＜ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice>
+        <choice no="4" is_answer="false">$\Delta$&lt;i&gt;A&lt;/i&gt; ＝ －$\Delta$&lt;i&gt;G&lt;/i&gt;</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기체, 정온, 가역, 과정으 | 정답 선지: $\Delta$&lt;i&gt;A&lt;/i&gt; ＝ $\Delta$&lt;i&gt;G&lt;/i&gt;</explanation_ref>
+    </question>
+    <question no="13" id="PRB-879985617E01B8CA-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>25 °C의 밀폐된 용기에 2 atm의 N_(2)O_(4)(&lt;i&gt;g&lt;/i&gt;)와 1.5 atm의 NO_(2)(&lt;i&gt;g&lt;/i&gt;)를 넣고 N_(2)O_(4)(&lt;i&gt;g&lt;/i&gt;) ⇄ 2NO_(2)(&lt;i&gt;g&lt;/i&gt;) 반응에 의해 평형에 도달시켰다. 이 평형 상태에서 NO_(2)(&lt;i&gt;g&lt;/i&gt;)의 압력이 0.5 atm이라면, 25 °C에서 반응의 평형 상수(&lt;i&gt;K&lt;/i&gt;_(P))는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.04</choice>
+        <choice no="2" is_answer="true">0.1</choice>
+        <choice no="3" is_answer="false">0.2</choice>
+        <choice no="4" is_answer="false">0.4</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="13">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 밀폐된, 용기, 넣고, 반응 | 정답 선지: 0.1</explanation_ref>
+    </question>
+    <question no="14" id="PRB-879985617E01B8CA-Q14" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>수평관을 통한 비압축성 액체의 정상 상태, 비가역 단열 흐름에 대한 설명으로 옳은 것만을 모두 고르면? (단, 수평관의 단면적은 일정하다)</stem>
+      <passage>ㄱ. 엔트로피는 출구가 입구보다 크다.
+ㄴ. 온도는 출구가 입구보다 높다.
+ㄷ. 유속은 출구가 입구보다 빠르다.
+ㄹ. 압력은 출구가 입구보다 낮다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ, ㄴ</choice>
+        <choice no="2" is_answer="false">ㄷ, ㄹ</choice>
+        <choice no="3" is_answer="true">ㄱ, ㄴ, ㄹ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄷ, ㄹ</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="14">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 수평관, 통한, 비압축성, 액체 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:O</explanation_ref>
+    </question>
+    <question no="15" id="PRB-879985617E01B8CA-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>닫힌 계에서 이성분 혼합물이 이루는 기－액 평형에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">계의 모든 평형 상태는 온도－압력－조성의 3차원 공간에 나타낼 수 있다.</choice>
+        <choice no="2" is_answer="true">주어진 온도와 압력에서 평형 상태 계의 총 Gibbs 에너지는 0이다.</choice>
+        <choice no="3" is_answer="false">주어진 온도와 압력에서 평형 상태 계의 각 성분은 기상 화학 포텐셜과 액상 화학 포텐셜이 같다.</choice>
+        <choice no="4" is_answer="false">주어진 온도와 압력에서 평형 상태 계의 각 성분은 기상 퓨개시티와 액상 퓨개시티가 같다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="15">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 닫힌 계에서 이성분 혼합물이 이루는 기－액 평형 | 정답 선지: 주어진 온도와 압력에서 평형 상태 계의 총 Gibbs 에너지는 0이다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-879985617E01B8CA-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>CH_(4) 가스는 수증기 개질(steam reforming)을 통해 H_(2)와 CO로 변환될 수 있다. CH_(4) 2몰과 H_(2)O 1몰만으로부터 반응이 진행되어 CH_(4)과 H_(2)의 몰수가 같아질 때, CH_(4)의 몰분율은? (단, 반응에서는 H_(2)와 CO만이 생성된다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.125</choice>
+        <choice no="2" is_answer="false">0.25</choice>
+        <choice no="3" is_answer="true">0.375</choice>
+        <choice no="4" is_answer="false">0.5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 가스는 수증기 개질(steam reforming) | 정답 선지: 0.375</explanation_ref>
+    </question>
+    <question no="17" id="PRB-879985617E01B8CA-Q17" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>표는 30 %의 효율로 작동하는 열기관 (가)와 (나)의 고온 및 저온 열원의 온도를 각각 나타낸 것이다. 이에 대한 설명으로 옳은 것은?</stem>
+      <passage>| 기관 | (가) | (나) |
+|---|---|---|
+| 고온 열원 온도[K] | 600 | 1,000 |
+| 저온 열원 온도[K] | 300 | 300 |</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">(가)의 최대 열효율은 50 %이다.</choice>
+        <choice no="2" is_answer="false">(나)의 최대 열효율은 30 %이다.</choice>
+        <choice no="3" is_answer="false">(가)의 열역학 제2법칙 열효율은 40 %이다.</choice>
+        <choice no="4" is_answer="false">(나)의 열역학 제2법칙 열효율은 50 %이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="17">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 효율, 작동하, 열기관, 고온 | 정답 선지: (가)의 최대 열효율은 50 %이다.</explanation_ref>
+    </question>
+    <question no="18" id="PRB-879985617E01B8CA-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림은 어떤 기체의 Joule-Thomson 계수 μ의 부호를 온도(&lt;i&gt;T&lt;/i&gt;)와 압력(&lt;i&gt;P&lt;/i&gt;)에 따라 나타낸 것이다. 이 기체에 대한 설명으로 옳은 것은?</stem>
+      <formulas count="1">
+        <formula area="질문">\mu</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-879985617E01B8CA/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-879985617E01B8CA/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">500 atm보다 낮은 압력에서는 액화되지 않는다.</choice>
+        <choice no="2" is_answer="false">A 상태에서는 분자 간 인력이 척력보다 우세하다.</choice>
+        <choice no="3" is_answer="false">A 상태에서는 등엔탈피 과정으로 압력이 증가하면 온도가 증가한다.</choice>
+        <choice no="4" is_answer="true">A 상태의 기체를 조름 공정(throttling process)으로 팽창시키면 온도가 증가한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="18">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: A 상태의 기체를 조름 공정(throttling process) | 정답 선지: A 상태의 기체를 조름 공정(throttling process)으로 팽창시키면 온도가 증가한다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-879985617E01B8CA-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>닫힌 계의 기체가 상태 (1)에서 상태 (2)로 변하는 과정에서 30 J의 일을 하고 80 J의 열을 흡수했다. 상태 (2)에서 상태 (1)로 되돌아가는 과정에서 기체가 20 J의 일을 했다면 열의 흡수량[J]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">－30</choice>
+        <choice no="2" is_answer="false">－10</choice>
+        <choice no="3" is_answer="false">10</choice>
+        <choice no="4" is_answer="false">30</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="19">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 닫힌, 기체, 상태, 에서 | 정답 선지: －30</explanation_ref>
+    </question>
+    <question no="20" id="PRB-879985617E01B8CA-Q20" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림은 어떤 순물질의 상평형을 압력(&lt;i&gt;P&lt;/i&gt;)－부피(&lt;i&gt;V&lt;/i&gt;) 평면에 나타낸 것이다. 이에 대한 설명으로 옳지 않은 것은? (단, 물질의 총량은 일정하다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-879985617E01B8CA/20_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-879985617E01B8CA/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">상태 1은 임계점이다.</choice>
+        <choice no="2" is_answer="false">상태 2는 과냉각 액체이다.</choice>
+        <choice no="3" is_answer="false">상태 5는 과열 증기이다.</choice>
+        <choice no="4" is_answer="true">상태 3은 상태 4보다 액체의 양이 적다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="화공열역학_해설.xml" question_no="20">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 어떤, 순물질, 상평형 | 정답 선지: 상태 3은 상태 4보다 액체의 양이 적다.</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

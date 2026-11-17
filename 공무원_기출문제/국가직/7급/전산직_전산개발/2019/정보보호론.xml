@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2019-06</exam_id>
+    <subject_row_id>PRB-91A84BA4C8E6414A</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전산직_전산개발</series>
+    <year>2019</year>
+    <exam_title>2019년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>693</subject_code>
+    <subject_name>정보보호론</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>정보보호론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-91A84BA4C8E6414A-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>Biba 보안 모델에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">이해가 상충되는 회사들 간의 정보 흐름이 일어나지 않도록 고안되었다.</choice>
+        <choice no="2" is_answer="false">자신의 보안 수준보다 낮거나 같은 수준의 객체만 읽을 수 있다.</choice>
+        <choice no="3" is_answer="false">자신의 보안 수준보다 높거나 같은 수준의 객체에만 쓸 수 있다.</choice>
+        <choice no="4" is_answer="true">자신의 무결성 수준보다 높거나 같은 수준의 객체만 읽을 수 있다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="1">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Biba 보안 모델 | 정답 선지: 자신의 무결성 수준보다 높거나 같은 수준의 객체만 읽을 수 있다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-91A84BA4C8E6414A-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>IT 재해복구체계 수립 시, 업무영향분석(BIA: Business Impact Analysis) 과정에서 고려하는 항목이 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">MTD(Maximum Tolerable Downtime)</choice>
+        <choice no="2" is_answer="true">MTU(Maximum Transfer Unit)</choice>
+        <choice no="3" is_answer="false">RTO(Recovery Time Objective)</choice>
+        <choice no="4" is_answer="false">RPO(Recovery Point Objective)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="2">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: MTU(Maximum Transfer Unit), RTO(Recovery Time Objective), RPO(Recovery Point Objective) | 정답 선지: MTU(Maximum Transfer Unit)</explanation_ref>
+    </question>
+    <question no="3" id="PRB-91A84BA4C8E6414A-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 위험 분석 접근 방법은?</stem>
+      <passage>○ 정형화되고 구조화된 프로세스를 사용하는 대신, 분석가 개인의 지식 및 경험을 활용한다.
+○ 비교적 비용대비 효과가 우수하며 중․소규모 조직에 적합하다.
+○ 개인적인 경험에 의존하므로 정당성이나 일관성이 부족할 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">기준선 접근(Baseline Approach)</choice>
+        <choice no="2" is_answer="false">상세 위험 분석(Detailed Risk Analysis)</choice>
+        <choice no="3" is_answer="true">비형식적 접근(Informal Approach)</choice>
+        <choice no="4" is_answer="false">복합 접근(Combined Approach)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="3">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 기준선 접근(Baseline Approach), 상세 위험 분석(Detailed Risk Analysis), 비형식적 접근(Informal Approach), 복합 접근(Combined Approach) | 정답 선지: 비형식적 접근(Informal Approach)</explanation_ref>
+    </question>
+    <question no="4" id="PRB-91A84BA4C8E6414A-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 수식에 의해 산출되는 것은?</stem>
+      <passage>H[(K^(＋)⊕ opad) || H[(K^(＋)⊕ ipad) || M]]
+H: 해시 함수 K^(＋): 비밀키 K에 0을 덧붙인 것
+M: 메시지 ipad, opad: 특정 상수
+⊕: XOR ||: 연결(concatenation)</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">GMAC</choice>
+        <choice no="2" is_answer="true">HMAC</choice>
+        <choice no="3" is_answer="false">CMAC</choice>
+        <choice no="4" is_answer="false">전자 서명</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="4">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연결(concatenation) | 정답 선지: HMAC</explanation_ref>
+    </question>
+    <question no="5" id="PRB-91A84BA4C8E6414A-Q5" type="긍정형(옳은/적절한 것 고르기)" category="법령·조문 적용형">
+      <stem>｢정보보호 및 개인정보보호 관리체계(ISMS-P)의 인증 등에 관한 고시｣상의 인증심사 기준 중, ‘개인정보 처리 단계별 요구사항’에 포함되지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">사용자 계정 관리</choice>
+        <choice no="2" is_answer="false">이용자 단말기 접근 보호</choice>
+        <choice no="3" is_answer="false">영상정보처리기기 설치․운영</choice>
+        <choice no="4" is_answer="false">개인정보처리방침 공개</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="5">[정답 1번] 긍정형(옳은/적절한 것 고르기) (법령·조문 적용형) | 핵심어: 「정보보호 및 개인정보보호 관리체계(ISMS-P)의 인증 등에 관한 고시」, 호 및 개인정보보호 관리체계(ISMS-P) | 정답 선지: 사용자 계정 관리</explanation_ref>
+    </question>
+    <question no="6" id="PRB-91A84BA4C8E6414A-Q6" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 리눅스 /etc/shadow 파일 항목에 대한 설명으로 옳지 않은 것은?</stem>
+      <passage>abcd:\$1\$qPZPGTVz\$RDqazm48WaMXw3Mvy4OQb1:
+17562:0:99999:7:3::</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">계정명은 abcd이다.</choice>
+        <choice no="2" is_answer="false">계정 패스워드의 해시값 계산에 사용된 해시 함수는 MD－5이다.</choice>
+        <choice no="3" is_answer="false">솔트(salt)값은 qPZPGTVz이다.</choice>
+        <choice no="4" is_answer="true">계정 패스워드의 유효기간은 7일이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="6">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 리눅스 /etc/shadow 파일 항목, 솔트(salt) | 정답 선지: 계정 패스워드의 유효기간은 7일이다.</explanation_ref>
+    </question>
+    <question no="7" id="PRB-91A84BA4C8E6414A-Q7" type="긍정형(옳은/적절한 것 고르기)" category="법령·조문 적용형">
+      <stem>｢개인정보 보호법｣상 개인정보처리자가 정보주체 또는 제3자의 이익을 부당하게 침해할 우려가 있을 때를 제외하고 개인정보를 목적 외의 용도로 이용하거나 이를 제3자에게 제공할 수 있는 경우에 해당하지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">정보주체로부터 별도의 동의를 받은 경우</choice>
+        <choice no="2" is_answer="false">통계작성 및 학술연구 등의 목적을 위하여 필요한 경우로서 특정 개인을 알아볼 수 없는 형태로 개인정보를 제공하는 경우</choice>
+        <choice no="3" is_answer="true">범죄의 예방을 위하여 필요한 경우</choice>
+        <choice no="4" is_answer="false">정보주체 또는 그 법정대리인이 의사표시를 할 수 없는 상태에 있거나 주소불명 등으로 사전 동의를 받을 수 없는 경우로서 명백히 정보주체 또는 제3자의 급박한 생명, 신체, 재산의 이익을 위하여 필요하다고 인정되는 경우</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="7">[정답 3번] 긍정형(옳은/적절한 것 고르기) (법령·조문 적용형) | 핵심어: 「개인정보 보호법」 | 정답 선지: 범죄의 예방을 위하여 필요한 경우</explanation_ref>
+    </question>
+    <question no="8" id="PRB-91A84BA4C8E6414A-Q8" type="부정형(옳지 않은 것 고르기)" category="법령·조문 적용형">
+      <stem>｢전자정부 SW 개발․운영자를 위한 소프트웨어 개발보안 가이드｣상 분석․설계 단계 보안요구항목과 그에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">인증 수행 제한 － 인증 반복시도 제한 및 인증실패 등에 대한 인증제한 기능 설계</choice>
+        <choice no="2" is_answer="false">암호키 관리 － 암호키 생성, 분배, 접근, 파기 등 안전하게 암호키 생명주기를 관리할 수 있는 방법 설계</choice>
+        <choice no="3" is_answer="true">예외 처리 － 보안기능 동작을 위해 사용되는 입력값과 함수의 외부입력값 및 수행결과에 대한 처리방법 설계</choice>
+        <choice no="4" is_answer="false">시스템 자원 접근 및 명령어 수행 입력값 검증 － 시스템 자원접근 및 명령어 수행을 위해 사용되는 입력값에 대한 유효성 검증방법과 유효하지 않은 값에 대한 처리방법 설계</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="8">[정답 3번] 부정형(옳지 않은 것 고르기) (법령·조문 적용형) | 핵심어: 「전자정부 SW 개발․운영자를 위한 소프트웨어 개발보안 가이드」 | 정답 선지: 예외 처리 － 보안기능 동작을 위해 사용되는 입력값과 함수의 외부입력값 및 수행결과에 대한 처리방법 설계</explanation_ref>
+    </question>
+    <question no="9" id="PRB-91A84BA4C8E6414A-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>두 소수, p ＝ 13, q ＝ 11을 사용하는 RSA 시스템에서 키값 (e, d)로 사용할 수 있는 쌍은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">(7, 11)</choice>
+        <choice no="2" is_answer="false">(7, 23)</choice>
+        <choice no="3" is_answer="true">(13, 37)</choice>
+        <choice no="4" is_answer="false">(13, 47)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="9">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 는 RSA 시스템에서 키값 (e, d), (7, 11) | 정답 선지: (13, 37)</explanation_ref>
+    </question>
+    <question no="10" id="PRB-91A84BA4C8E6414A-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>암호 화폐인 비트코인이 채택한 블록체인의 블록 헤더에 포함되는 구성 요소가 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">이전 블록의 헤더를 두 번 연속 해시한 값</choice>
+        <choice no="2" is_answer="false">해당 블록에 포함된 모든 트랜잭션의 해시로부터 추출된 merkle root 해시값</choice>
+        <choice no="3" is_answer="false">작업증명(proof of work) 조건을 만족하는 nonce 값</choice>
+        <choice no="4" is_answer="true">블록 생성자(miner)의 계정</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="10">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: e root 해시값 작업증명(proof of work), nonce 값 블록 생성자(miner) | 정답 선지: 블록 생성자(miner)의 계정</explanation_ref>
+    </question>
+    <question no="11" id="PRB-91A84BA4C8E6414A-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 해시 함수(H)의 특성은?</stem>
+      <passage>주어진 메시지 &lt;i&gt;x&lt;/i&gt;에 대해, H(&lt;i&gt;y&lt;/i&gt;) ＝ H(&lt;i&gt;x&lt;/i&gt;)를 만족하면서 &lt;i&gt;y&lt;/i&gt;≠&lt;i&gt;x&lt;/i&gt;인 &lt;i&gt;y&lt;/i&gt;를 찾는 것이 계산상 매우 어려워야 한다.</passage>
+      <images count="1">
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-91A84BA4C8E6414A/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">의사난수성(Pseudo-randomness)</choice>
+        <choice no="2" is_answer="false">역상 저항성(Pre-image Resistance)</choice>
+        <choice no="3" is_answer="true">약한 충돌 저항성(Weak Collision Resistance)</choice>
+        <choice no="4" is_answer="false">강한 충돌 저항성(Strong Collision Resistance)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="11">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 의사난수성(Pseudo-randomness), 역상 저항성(Pre-image Resistance), 약한 충돌 저항성(Weak Collision Resistance) | 정답 선지: 약한 충돌 저항성(Weak Collision Resistance)</explanation_ref>
+    </question>
+    <question no="12" id="PRB-91A84BA4C8E6414A-Q12" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
+      <stem>㉠ ～ ㉢에 들어갈 윈도우 운영체제 보안 컴포넌트를 모두 바르게 제시한 것은?</stem>
+      <passage>( ㉠ )은 로컬 사용자에 관련된 보안 정보 및 계정 데이터를 저장하는 데이터베이스이다.
+( ㉡ )은 커널 모드에서 수행되며, 사용자나 프로세스가 어떤 객체를 열려고 시도하면, 접근 권한을 확인한다.
+( ㉢ )는 사용자 모드에서 수행되며, 로컬 보안 정책을 집행하는 책임이 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">SAM SRM LSA</choice>
+        <choice no="2" is_answer="false">SRM SAM LSA</choice>
+        <choice no="3" is_answer="false">SAM SRM SID</choice>
+        <choice no="4" is_answer="false">SRM SAM SID</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="12">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 윈도우, 운영체제, 보안, 컴포넌트 | 정답 선지: SAM SRM LSA</explanation_ref>
+    </question>
+    <question no="13" id="PRB-91A84BA4C8E6414A-Q13" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
+      <stem>다음의 블록암호 운용모드 중, 암호 과정에서는 암호화 함수 E를, 복호 과정에서는 E와 다른 복호화 함수 D를 필요로 하는 것만을 모두 고르면?</stem>
+      <passage>ㄱ. ECB ㄴ. CBC ㄷ. CFB ㄹ. OFB</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">ㄱ</choice>
+        <choice no="2" is_answer="true">ㄱ, ㄴ</choice>
+        <choice no="3" is_answer="false">ㄷ, ㄹ</choice>
+        <choice no="4" is_answer="false">ㄱ, ㄴ, ㄹ</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="13">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 블록암호, 운용모드, 암호, 과정에서 | 보기 판정: ㄱ:O</explanation_ref>
+    </question>
+    <question no="14" id="PRB-91A84BA4C8E6414A-Q14" type="부정형(옳지 않은 것 고르기)" category="법령·조문 적용형">
+      <stem>｢개인정보 보호법｣상 ‘정보주체의 권리 보장’에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">정보주체는 개인정보처리자가 처리하는 자신의 개인정보에 대한 열람을 해당 개인정보처리자에게 요구할 수 있다.</choice>
+        <choice no="2" is_answer="true">자신의 개인정보를 열람한 정보주체는 개인정보처리자에게 그 개인정보의 정정 또는 삭제를 요구할 수 있다. 다만, 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 개인정보 보호위원회의 심의를 거쳐 요구할 수 있다.</choice>
+        <choice no="3" is_answer="false">개인정보처리자는 정보주체가 열람등요구를 할 수 있는 구체적인 방법과 절차를 마련하고, 이를 정보주체가 알 수 있도록 공개하여야 한다.</choice>
+        <choice no="4" is_answer="false">개인정보처리자는 정보주체가 열람등요구에 대한 거절 등 조치에 대하여 불복이 있는 경우 이의를 제기할 수 있도록 필요한 절차를 마련하고 안내하여야 한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="14">[정답 2번] 부정형(옳지 않은 것 고르기) (법령·조문 적용형) | 핵심어: 「개인정보 보호법」, ｢개인정보 보호법｣상 ‘정보주체의 권리 보장’, 정보주체의 권리 보장 | 정답 선지: 자신의 개인정보를 열람한 정보주체는 개인정보처리자에게 그 개인정보의 정정 또는 삭제를 요구할 수 있다. 다만, 다른 ...</explanation_ref>
+    </question>
+    <question no="15" id="PRB-91A84BA4C8E6414A-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>패스워드를 이용해서 원격 사용자를 인증하는 경우, 호스트는 비표(nonce)라는 일회성 임의 숫자 r를 생성하고 이와 함께 두 함수 h()와 f()를 사용자에게 제시한다. 사용자는 이에 대한 응답으로 f(r', h(P'))를 반환한다. 호스트는 r' ＝ r, h(P') ＝ h(사용자 패스워드)의 여부를 판단하여 인증을 완료한다. 이때, r를 사용하는 것은 어떤 공격에 대비하기 위한 것인가?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">전사 공격(Brute-Force Attack)</choice>
+        <choice no="2" is_answer="false">트래픽 스니핑 공격(Traffic Sniffing Attack)</choice>
+        <choice no="3" is_answer="false">패스워드 사전 공격(Password Dictionary Attack)</choice>
+        <choice no="4" is_answer="true">재전송 공격(Replay Attack)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 호스트는 비표(nonce), 전사 공격(Brute-Force Attack), 트래픽 스니핑 공격(Traffic Sniffing Attack), 재전송 공격(Replay Attack) | 정답 선지: 재전송 공격(Replay Attack)</explanation_ref>
+    </question>
+    <question no="16" id="PRB-91A84BA4C8E6414A-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>HTTP 버전 1.1에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">TCP를 전송 프로토콜로 사용한다.</choice>
+        <choice no="2" is_answer="false">요청 메시지의 첫 줄인 요청 라인에는 메소드, URL, HTTP 버전 필드가 포함된다.</choice>
+        <choice no="3" is_answer="false">요청과 그에 대한 응답이 같은 연결로 보내지는 지속 연결(persistent connection)을 기본으로 하며, 분리된 별도의 연결을 이용하는 비지속 연결(non-persistent connection)도 지원한다.</choice>
+        <choice no="4" is_answer="true">HTTP 서버가 클라이언트에 대한 정보를 유지하는 상태(stateful) 프로토콜이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="16">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: HTTP 버전 1.1, 연결로 보내지는 지속 연결(persistent connection), 연결을 이용하는 비지속 연결(non-persistent connection), 대한 정보를 유지하는 상태(stateful) | 정답 선지: HTTP 서버가 클라이언트에 대한 정보를 유지하는 상태(stateful) 프로토콜이다.</explanation_ref>
+    </question>
+    <question no="17" id="PRB-91A84BA4C8E6414A-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>서버가 응용 메시지를 여러 개의 TCP 세그먼트로 나누어 클라이언트에게 전송하는 경우, TCP의 동작에 대한 설명으로 옳은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">클라이언트와 서버 간의 TCP 연결 설정 후, 첫 번째 세그먼트의 순서 번호는 일반적으로 0부터 시작한다.</choice>
+        <choice no="2" is_answer="true">두 번째 세그먼트의 순서 번호는 첫 번째 세그먼트가 운반에 성공한 데이터의 바이트 수를 첫 번째 세그먼트의 순서 번호에 더한 것이다.</choice>
+        <choice no="3" is_answer="false">일정량의 데이터를 포함한 세그먼트를 정상적으로 수신한 클라이언트는 수신한 세그먼트의 순서 번호에 1을 더한 값을 확인응답 번호로 하여 응답하고 다음 세그먼트를 기다린다.</choice>
+        <choice no="4" is_answer="false">클라이언트가 FIN 세그먼트를 보내고 서버가 이에 대한 ACK 세그먼트를 보냄으로써 서버의 데이터 전송을 위한 연결이 완전히 종료된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="17">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 서버, 응용, 메시지, 여러 | 정답 선지: 두 번째 세그먼트의 순서 번호는 첫 번째 세그먼트가 운반에 성공한 데이터의 바이트 수를 첫 번째 세그먼트의 순서 번호...</explanation_ref>
+    </question>
+    <question no="18" id="PRB-91A84BA4C8E6414A-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 네트워크 기반 공격 방법은?</stem>
+      <passage>○ TCP 헤더 정보를 보고 패킷을 걸러내는 방화벽을 우회하기 위한 공격 방법이다.
+○ IP 단편 옵션을 이용하여 매우 작게 패킷을 나누어서 TCP 헤더 자체가 분리되도록 만든다.
+○ 일부 패킷 필터는 첫 번째 단편만 검사하고, 나머지 단편은 모두 통과시키기 때문에 이러한 공격 방법이 유효할 수 있다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">Source Routing Attack</choice>
+        <choice no="2" is_answer="false">Ping of Death</choice>
+        <choice no="3" is_answer="false">Trinoo</choice>
+        <choice no="4" is_answer="true">Tiny Fragment Attack</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="18">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 네트워크, 기반 | 정답 선지: Tiny Fragment Attack</explanation_ref>
+    </question>
+    <question no="19" id="PRB-91A84BA4C8E6414A-Q19" type="빈칸/기호 추론형" category="법령·조문 적용형">
+      <stem>다음은 ｢정보보호산업의 진흥에 관한 법률｣상 정보보호산업의 활성화를 위한 구매수요정보의 제공에 관한 조항의 일부이다. ㉠, ㉡에 들어갈 용어를 바르게 연결한 것은?</stem>
+      <passage>｢전자정부법｣ 제2조제2호에 따른 행정기관 또는 공공기관의 장은 소관 기관․시설의 정보보호 수준을 강화하기 위하여 ( ㉠ ) 정보보호기술등에 대한 구매수요 정보를 ( ㉡ )에게 제출하여야 한다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="true">매년 과학기술정보통신부장관</choice>
+        <choice no="2" is_answer="false">매년 행정안전부장관</choice>
+        <choice no="3" is_answer="false">2년마다 과학기술정보통신부장관</choice>
+        <choice no="4" is_answer="false">2년마다 행정안전부장관</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="19">[정답 1번] 빈칸/기호 추론형 (법령·조문 적용형) | 핵심어: 「정보보호산업의 진흥에 관한 법률」, 「전자정부법」, 은 ｢정보보호산업의 진흥, 법령 조문 | 정답 선지: 매년 과학기술정보통신부장관</explanation_ref>
+    </question>
+    <question no="20" id="PRB-91A84BA4C8E6414A-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>IEEE 802.11i에서 정의한 무선 랜 데이터 보안 프로토콜로, 메시지 무결성 코드(MIC)와 RC4 암호 알고리즘을 이용하여 메시지 무결성과 데이터 기밀성을 제공하는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">EAP</choice>
+        <choice no="2" is_answer="false">WEP</choice>
+        <choice no="3" is_answer="false">CCMP</choice>
+        <choice no="4" is_answer="true">TKIP</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="정보보호론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 메시지 무결성 코드(MIC) | 정답 선지: TKIP</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2019-06</exam_id>
+    <subject_row_id>PRB-E14B940512FCA30C</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>전기직</series>
+    <year>2019</year>
+    <exam_title>2019년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>605</subject_code>
+    <subject_name>회로이론</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>회로이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-E14B940512FCA30C-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 단자 a, b 사이의 등가 커패시턴스[μF]는?</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/1_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/1_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/1_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">12 13</choice>
+        <choice no="2" is_answer="true">1</choice>
+        <choice no="3" is_answer="false">17 15</choice>
+        <choice no="4" is_answer="false">2</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="1">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 단자, 사이, 커패시턴스 | 정답 선지: 1</explanation_ref>
+    </question>
+    <question no="2" id="PRB-E14B940512FCA30C-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$f ( t ) = ( 1 - e^{- t} ) u ( t )$의 라플라스 변환으로 옳은 것은? (단, $u ( t )$는 단위계단함수이다)</stem>
+      <formulas count="6">
+        <formula area="질문">f ( t ) = ( 1 - e^{- t} ) u ( t )</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="선택지①">\frac{1}{s}</formula>
+        <formula area="선택지②">\frac{1}{s + 1}</formula>
+        <formula area="선택지③">\frac{1}{s ( s - 1 )}</formula>
+        <formula area="선택지④">\frac{1}{s ( s + 1 )}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{s}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{s + 1}$</choice>
+        <choice no="3" is_answer="false">$\frac{1}{s ( s - 1 )}$</choice>
+        <choice no="4" is_answer="true">$\frac{1}{s ( s + 1 )}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: f ( t ), u ( t ), s ( s - 1 ) | 정답 선지: $\frac{1}{s ( s + 1 )}$</explanation_ref>
+    </question>
+    <question no="3" id="PRB-E14B940512FCA30C-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>어떤 회로망의 등가 임피던스가 $Z = R + jX$일 때, 서셉턴스(susceptance)는?</stem>
+      <formulas count="5">
+        <formula area="질문">Z = R + jX</formula>
+        <formula area="선택지①">\frac{- X}{R^{2} + X^{2}}</formula>
+        <formula area="선택지②">\frac{- R}{R^{2} + X^{2}}</formula>
+        <formula area="선택지③">\frac{X}{R^{2} + X^{2}}</formula>
+        <formula area="선택지④">\frac{R}{R^{2} + X^{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{- X}{R^{2} + X^{2}}$</choice>
+        <choice no="2" is_answer="false">$\frac{- R}{R^{2} + X^{2}}$</choice>
+        <choice no="3" is_answer="false">$\frac{X}{R^{2} + X^{2}}$</choice>
+        <choice no="4" is_answer="false">$\frac{R}{R^{2} + X^{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 서셉턴스(susceptance) | 정답 선지: $\frac{- X}{R^{2} + X^{2}}$</explanation_ref>
+    </question>
+    <question no="4" id="PRB-E14B940512FCA30C-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 모든 초기 조건은 0이다. 전달함수 &lt;i&gt;H&lt;/i&gt;(&lt;i&gt;s&lt;/i&gt;) ＝</stem>
+      <passage>는?</passage>
+      <formulas count="4">
+        <formula area="선택지①">\frac{s}{3 s^{2} + s + 2}</formula>
+        <formula area="선택지②">\frac{1}{3 s^{2} + s + 2}</formula>
+        <formula area="선택지③">\frac{s}{s^{2} + 3 s + 2}</formula>
+        <formula area="선택지④">\frac{1}{s^{2} + 3 s + 2}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/4_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/4_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{s}{3 s^{2} + s + 2}$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{3 s^{2} + s + 2}$</choice>
+        <choice no="3" is_answer="false">$\frac{s}{s^{2} + 3 s + 2}$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{s^{2} + 3 s + 2}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="4">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 모든, 초기, 조건 | 정답 선지: $\frac{s}{3 s^{2} + s + 2}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-E14B940512FCA30C-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 전류 &lt;i&gt;i&lt;/i&gt;_(x)[A]는?</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/5_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/5_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.5</choice>
+        <choice no="2" is_answer="true">5 7</choice>
+        <choice no="3" is_answer="false">1</choice>
+        <choice no="4" is_answer="false">8 7</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="5">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 전류 | 정답 선지: 5 7</explanation_ref>
+    </question>
+    <question no="6" id="PRB-E14B940512FCA30C-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로의 단자 a, b에서 본 노턴(Norton) 등가 회로의 등가 전류원과 등가 저항은?</stem>
+      <passage>&lt;u&gt; 등가 전류원[A] &lt;/u&gt; &lt;u&gt; 등가 저항[Ω] &lt;/u&gt;</passage>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/6_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/6_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">5 7.5</choice>
+        <choice no="2" is_answer="false">10 12.5</choice>
+        <choice no="3" is_answer="true">10 25</choice>
+        <choice no="4" is_answer="false">25 10</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: b에서 본 노턴(Norton) | 정답 선지: 10 25</explanation_ref>
+    </question>
+    <question no="7" id="PRB-E14B940512FCA30C-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>전달함수 $H ( j \omega ) = \frac{1}{1 + \frac{j \omega}{\omega_{o}}}$를 가지는 회로의 주파수 $\omega_{1}$에서 전압 이득이 A_(v)일 때, 100$\omega_{1}$에서의 전압 이득은? (단, $\omega_{1} &gt; &gt; \omega_{o}$, 근사법을 이용한다)</stem>
+      <formulas count="4">
+        <formula area="질문">H ( j \omega ) = \frac{1}{1 + \frac{j \omega}{\omega_{o}}}</formula>
+        <formula area="질문">\omega_{1}</formula>
+        <formula area="질문">\omega_{1}</formula>
+        <formula area="질문">\omega_{1} &gt; &gt; \omega_{o}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.1A_(v )</choice>
+        <choice no="2" is_answer="true">0.01A_(v)</choice>
+        <choice no="3" is_answer="false">10A_(v)log(0.01)</choice>
+        <choice no="4" is_answer="false">10log(0.01A_(v))</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="7">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: log(0.01) | 정답 선지: 0.01A_(v)</explanation_ref>
+    </question>
+    <question no="8" id="PRB-E14B940512FCA30C-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 &lt;i&gt;v&lt;/i&gt;_(c)(0) ＝ 15 [V]일 때, &lt;i&gt;t&lt;/i&gt; &gt; 0에서 &lt;i&gt;v&lt;/i&gt;_(x)(&lt;i&gt;t&lt;/i&gt;)[V]는?</stem>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/8_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">6&lt;i&gt;e&lt;/i&gt;^(－2.5t)</choice>
+        <choice no="2" is_answer="false">6&lt;i&gt;e&lt;/i&gt;^(－5t)</choice>
+        <choice no="3" is_answer="true">9&lt;i&gt;e&lt;/i&gt;^(－2.5t)</choice>
+        <choice no="4" is_answer="false">9&lt;i&gt;e&lt;/i&gt;^(－5t)</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="8">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 에서 | 정답 선지: 9&lt;i&gt;e&lt;/i&gt;^(－2.5t)</explanation_ref>
+    </question>
+    <question no="9" id="PRB-E14B940512FCA30C-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 A노드의 전압 V_(A)[V]는?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/9_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/9_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1 4</choice>
+        <choice no="2" is_answer="false">1 3</choice>
+        <choice no="3" is_answer="true">2 3</choice>
+        <choice no="4" is_answer="false">1</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="9">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 노드, 전압 | 정답 선지: 2 3</explanation_ref>
+    </question>
+    <question no="10" id="PRB-E14B940512FCA30C-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 연산증폭기 회로에서</stem>
+      <passage>는?</passage>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/10_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/10_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">| 󰀌 | 1 ＋ | R_(4) | 󰀍 | |---|---|---|---| | 󰀘 | 1 ＋ | R_(3) | 󰀙 | | 󰀌 | R_(1) ＋ R_(2) | 󰀍 | |---|---|---| | 󰀘 | R_(2) | 󰀙 |</choice>
+        <choice no="2" is_answer="true">| 󰀌 | 1 ＋ | R_(4) | 󰀍 | |---|---|---|---| | 󰀘 | 1 ＋ | R_(3) | 󰀙 | | 󰀌 | R_(2) | 󰀍 | |---|---|---| | 󰀘 | R_(1) ＋ R_(2) | 󰀙 |</choice>
+        <choice no="3" is_answer="false">| 󰀌 | 1 ＋ | R_(3) | 󰀍 | |---|---|---|---| | 󰀘 | 1 ＋ | R_(4) | 󰀙 | | 󰀌 | R_(1) ＋ R_(2) | 󰀍 | |---|---|---| | 󰀘 | R_(2) | 󰀙 |</choice>
+        <choice no="4" is_answer="false">| 󰀌 | 1 ＋ | R_(3) | 󰀍 | |---|---|---|---| | 󰀘 | 1 ＋ | R_(4) | 󰀙 | | 󰀌 | R_(2) | 󰀍 | |---|---|---| | 󰀘 | R_(1) ＋ R_(2) | 󰀙 |</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="10">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상적인, 연산증폭기, 회로에서 | 정답 선지: | 󰀌 | 1 ＋ | R_(4) | 󰀍 | |---|---|---|---| | 󰀘 | 1 ＋ | R_(3) | 󰀙 |...</explanation_ref>
+    </question>
+    <question no="11" id="PRB-E14B940512FCA30C-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$e^{- 3 t} \sin ( 3 t ) u ( t )$의 라플라스 변환은? (단, $u ( t )$는 단위계단함수이다)</stem>
+      <formulas count="6">
+        <formula area="질문">e^{- 3 t} \sin ( 3 t ) u ( t )</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="선택지①">\frac{3}{( s + 3 ) + 3^{2}}</formula>
+        <formula area="선택지②">\frac{3}{( s + 3 )^{2} + 3^{2}}</formula>
+        <formula area="선택지③">\frac{s}{( s + 3 )^{2} + 3^{2}}</formula>
+        <formula area="선택지④">\frac{s + 3}{( s + 3 )^{2} + 3^{2}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{3}{( s + 3 ) + 3^{2}}$</choice>
+        <choice no="2" is_answer="true">$\frac{3}{( s + 3 )^{2} + 3^{2}}$</choice>
+        <choice no="3" is_answer="false">$\frac{s}{( s + 3 )^{2} + 3^{2}}$</choice>
+        <choice no="4" is_answer="false">$\frac{s + 3}{( s + 3 )^{2} + 3^{2}}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: sin ( 3 t ), u ( t ) | 정답 선지: $\frac{3}{( s + 3 )^{2} + 3^{2}}$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-E14B940512FCA30C-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 유도결합회로에서 등가 인덕턴스 L_(eq)는? (단, L_(1)과 L_(2)는 자기 인덕턴스이고, M은 상호 인덕턴스이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/12_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/12_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) － M</choice>
+        <choice no="2" is_answer="true">L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) － 2M</choice>
+        <choice no="3" is_answer="false">L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) ＋ M</choice>
+        <choice no="4" is_answer="false">L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) ＋ 2M</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="12">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 유도결합회로에서, 인덕턴스, 자기, 인덕턴스이고 | 정답 선지: L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) － 2M</explanation_ref>
+    </question>
+    <question no="13" id="PRB-E14B940512FCA30C-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>라플라스 함수 $F ( s ) = \frac{- ( s + 3 )}{s^{2} + 3 s + 2}$에 대하여 $f ( t )$는? (단, $u ( t )$는 단위계단함수이다)</stem>
+      <formulas count="7">
+        <formula area="질문">F ( s ) = \frac{- ( s + 3 )}{s^{2} + 3 s + 2}</formula>
+        <formula area="질문">f ( t )</formula>
+        <formula area="질문">u ( t )</formula>
+        <formula area="선택지①">( e^{- 2 t} - 2 e^{- t} ) u ( t )</formula>
+        <formula area="선택지②">( e^{- 2 t} + 2 e^{- t} ) u ( t )</formula>
+        <formula area="선택지③">( 2 e^{t} - e^{2 t} ) u ( t )</formula>
+        <formula area="선택지④">( 2 e^{t} + e^{2 t} ) u ( t )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$( e^{- 2 t} - 2 e^{- t} ) u ( t )$</choice>
+        <choice no="2" is_answer="false">$( e^{- 2 t} + 2 e^{- t} ) u ( t )$</choice>
+        <choice no="3" is_answer="false">$( 2 e^{t} - e^{2 t} ) u ( t )$</choice>
+        <choice no="4" is_answer="false">$( 2 e^{t} + e^{2 t} ) u ( t )$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="13">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: F ( s ), f ( t ), u ( t ) | 정답 선지: $( e^{- 2 t} - 2 e^{- t} ) u ( t )$</explanation_ref>
+    </question>
+    <question no="14" id="PRB-E14B940512FCA30C-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 연산증폭기 회로의 전달함수 &lt;i&gt;H&lt;/i&gt;(&lt;i&gt;s&lt;/i&gt;) ＝</stem>
+      <passage>는?</passage>
+      <formulas count="1">
+        <formula area="선택지④">k</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/14_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/14_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">&lt;i&gt;s&lt;/i&gt; ＋ 1 RC －&lt;i&gt;s&lt;/i&gt; ＋ 1 RC</choice>
+        <choice no="2" is_answer="false">&lt;i&gt;s&lt;/i&gt; ＋ 1 RC &lt;i&gt;s&lt;/i&gt; － 1 RC</choice>
+        <choice no="3" is_answer="false">－ &lt;i&gt;s&lt;/i&gt; ＋ 1 RC &lt;i&gt;s&lt;/i&gt; ＋ 1 RC</choice>
+        <choice no="4" is_answer="true">&lt;i&gt;s&lt;/i&gt; － 1 RC &lt;i&gt;s&lt;/i&gt; ＋ 1 RC V_(L) V_(L) Z_(1) Z_(1) Z_(1) ＝ 6 ＋ &lt;i&gt;j&lt;/i&gt;12 [Ω] Z_(2) Z_(2) Z_(2) ＝ 2 ＋ &lt;i&gt;j&lt;/i&gt;4 [Ω] V_(L) 10 I_(x) 1 : 2 20 [Ω] 20 [Ω] I_(x) R_(eq) － ＋ 24 [V] 6 [kΩ] 3 [kΩ] 2 [mH] &lt;i&gt;v&lt;/i&gt;_(o)(&lt;i&gt;t&lt;/i&gt;) 4 [kΩ] 6 [kΩ] 2 [kΩ] t ＝ 0 － ＋ &lt;i&gt;$k$v&lt;/i&gt;_(i)(&lt;i&gt;t&lt;/i&gt;) 2 [Ω] 1 [H] &lt;i&gt;v&lt;/i&gt;_(o)(&lt;i&gt;t&lt;/i&gt;) 4 [Ω] 0.1 [F] A － ＋ &lt;i&gt;V&lt;/i&gt;_(2) － ＋ &lt;i&gt;V&lt;/i&gt;_(1) &lt;i&gt;I&lt;/i&gt;_(1) &lt;i&gt;I&lt;/i&gt;_(2) 200 [Ω] 50 [Ω] 0.04 [H]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="14">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이상적인, 연산증폭기, 회로, 전달함수 | 정답 선지: &lt;i&gt;s&lt;/i&gt; － 1 RC &lt;i&gt;s&lt;/i&gt; ＋ 1 RC V_(L) V_(L) Z_(1) Z_(1) Z_(1) ＝ 6...</explanation_ref>
+    </question>
+    <question no="15" id="PRB-E14B940512FCA30C-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 $\triangle$결선된 평형 3상 부하와 Y결선된 평형 3상 부하에 평형 3상 전압이 인가될 때, 전체 부하가 소비하는 총 3상 유효전력[W]은? (단, 선간전압 V_(L)은 $100 \sqrt{3}$ [V]이다)</stem>
+      <formulas count="6">
+        <formula area="질문">TRIANGLE</formula>
+        <formula area="질문">100 \sqrt{3}</formula>
+        <formula area="선택지①">1200 \sqrt{3}</formula>
+        <formula area="선택지②">1200 \sqrt{5}</formula>
+        <formula area="선택지③">3600</formula>
+        <formula area="선택지④">6000</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/15_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$1200 \sqrt{3}$</choice>
+        <choice no="2" is_answer="false">$1200 \sqrt{5}$</choice>
+        <choice no="3" is_answer="false">$3600$</choice>
+        <choice no="4" is_answer="true">$6000$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 결선된, 평형, 부하와 | 정답 선지: $6000$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-E14B940512FCA30C-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로의 등가 저항 R_(eq)[Ω]는? (단, 변압기는 이상적이며, 1 : 2는 1차와 2차 코일 권선수비이다)</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/16_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/16_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">2</choice>
+        <choice no="2" is_answer="false">3</choice>
+        <choice no="3" is_answer="false">4</choice>
+        <choice no="4" is_answer="true">5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="16">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로, 저항, 변압기, 이상적이며 | 정답 선지: 5</explanation_ref>
+    </question>
+    <question no="17" id="PRB-E14B940512FCA30C-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로는 t &lt; 0에서 정상상태에 도달하였다. t ＝ 0인 순간에 스위치가 개방(open)되었을 때, 저항 2 [kΩ]에 걸리는 전압 &lt;i&gt;v&lt;/i&gt;_(o)(0^(+)) [V]는?</stem>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/17_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/17_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－ 3 5</choice>
+        <choice no="2" is_answer="false">－ 7 6</choice>
+        <choice no="3" is_answer="true">4 3</choice>
+        <choice no="4" is_answer="false">5 7</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 0인 순간에 스위치가 개방(open) | 정답 선지: 4 3</explanation_ref>
+    </question>
+    <question no="18" id="PRB-E14B940512FCA30C-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 전달함수 &lt;i&gt;H&lt;/i&gt;(&lt;i&gt;s&lt;/i&gt;) ＝</stem>
+      <passage>는? (단, 모든 초기 조건은 0이다)</passage>
+      <formulas count="4">
+        <formula area="선택지①">\frac{10 k}{s^{2} + 4 . 5 s + 15}</formula>
+        <formula area="선택지②">\frac{10 k}{s^{2} + 9 s + 30}</formula>
+        <formula area="선택지③">\frac{20 k}{s^{2} + 4 . 5 s + 15}</formula>
+        <formula area="선택지④">\frac{20 k}{s^{2} + 9 s + 30}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/18_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/18_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{10 k}{s^{2} + 4 . 5 s + 15}$</choice>
+        <choice no="2" is_answer="false">$\frac{10 k}{s^{2} + 9 s + 30}$</choice>
+        <choice no="3" is_answer="false">$\frac{20 k}{s^{2} + 4 . 5 s + 15}$</choice>
+        <choice no="4" is_answer="false">$\frac{20 k}{s^{2} + 9 s + 30}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="18">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 전달함수 | 정답 선지: $\frac{10 k}{s^{2} + 4 . 5 s + 15}$</explanation_ref>
+    </question>
+    <question no="19" id="PRB-E14B940512FCA30C-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로의 전송 파라미터(ABCD parameter) 중 B[Ω]는?</stem>
+      <images count="1">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/19_도형_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="false">3</choice>
+        <choice no="3" is_answer="false">4</choice>
+        <choice no="4" is_answer="true">11</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="19">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 회로의 전송 파라미터(ABCD parameter) | 정답 선지: 11</explanation_ref>
+    </question>
+    <question no="20" id="PRB-E14B940512FCA30C-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로의 임피던스 파라미터 ${\begin{pmatrix}z_{11} &amp; z_{12} \\ z_{21} &amp; z_{22}\end{pmatrix}}$ 중 $z_{21}$값이 0일 때, 사용 가능한 소자 A의 종류와 크기는?</stem>
+      <formulas count="2">
+        <formula area="질문">{pmatrix {z_{11} &amp; z_{12} # z_{21} &amp; z_{22}}}</formula>
+        <formula area="질문">z_{21}</formula>
+      </formulas>
+      <images count="3">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-E14B940512FCA30C/20_지문_1.png</image>
+        <image area="지문" kind="도형" seq="1">이미지/PRB-E14B940512FCA30C/20_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-E14B940512FCA30C/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">L 0.01 [H]</choice>
+        <choice no="2" is_answer="false">L 0.04 [H]</choice>
+        <choice no="3" is_answer="false">C 2.5 [μF]</choice>
+        <choice no="4" is_answer="true">C 4 [μF]</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="회로이론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로, 임피던스, 파라미터, 사용 | 정답 선지: C 4 [μF]</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

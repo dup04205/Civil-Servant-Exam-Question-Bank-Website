@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2020-06</exam_id>
+    <subject_row_id>PRB-DB795E44433260C8</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2020</year>
+    <exam_title>2020년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>628</subject_code>
+    <subject_name>전자회로</subject_name>
+    <booklet_type>나</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>전자회로_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-DB795E44433260C8-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정현파 발진기에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">발진기 동작에는 입력신호가 필요치 않다.</choice>
+        <choice no="2" is_answer="false">폐루프이득(closed loop gain)이 정상상태에서 1이어야 한다.</choice>
+        <choice no="3" is_answer="false">폐루프이득(closed loop gain)이 시동상태에서 1보다 커야 한다.</choice>
+        <choice no="4" is_answer="true">폐루프(closed loop)의 위상변이가 180 °이어야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="1">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정현파 발진기, 폐루프이득(closed loop gain), 폐루프(closed loop) | 정답 선지: 폐루프(closed loop)의 위상변이가 180 °이어야 한다.</explanation_ref>
+    </question>
+    <question no="2" id="PRB-DB795E44433260C8-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에 V_(i )신호가 인가되었을 때, 출력 V_(o)의 파형으로 옳은 것은? (단, 다이오드의 순방향 전압강하는 0 [V]이고, RC 시정수는 매우 크다)</stem>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/2_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/2_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/2_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/2_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/2_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/2_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="2">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로, 신호, 인가되었, 출력 | 정답 선지: [그림/도표 선지 1번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+    <question no="3" id="PRB-DB795E44433260C8-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>20 [kHz]의 음성신호를 8비트 양자화 및 부호화를 거쳐 PCM(pulse code modulation)으로 전송하고자 할 때, 이 신호의 전송속도[kbps]는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">80</choice>
+        <choice no="2" is_answer="false">160</choice>
+        <choice no="3" is_answer="false">240</choice>
+        <choice no="4" is_answer="true">320</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="3">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 화 및 부호화를 거쳐 PCM(pulse code modulation) | 정답 선지: 320</explanation_ref>
+    </question>
+    <question no="4" id="PRB-DB795E44433260C8-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 윈 브릿지 발진기에 대한 설명으로 옳은 것은? (단, 연산증폭기는 이상적이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/4_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/4_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">발진 주파수는 R_(2)와 관련이 있다.</choice>
+        <choice no="2" is_answer="false">발진 주파수는 R_(1)과 관련이 있다.</choice>
+        <choice no="3" is_answer="true">발진 주파수는 R과 관련이 있다.</choice>
+        <choice no="4" is_answer="false">R_(2)의 값은 R_(1)의 2배보다 작아야 한다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 윈 브릿지 발진기 | 정답 선지: 발진 주파수는 R과 관련이 있다.</explanation_ref>
+    </question>
+    <question no="5" id="PRB-DB795E44433260C8-Q5" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로에서 트랜지스터 Q_(1)의 컬렉터 전류 I_(C1 )[mA]로 가장 가까운 것은? (단, 모든 트랜지스터에서 β ＝ 100이고, V_(BE )＝ 0.7 [V]이다)</stem>
+      <formulas count="1">
+        <formula area="질문">\beta</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/5_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/5_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.5</choice>
+        <choice no="2" is_answer="false">0.7</choice>
+        <choice no="3" is_answer="true">0.9</choice>
+        <choice no="4" is_answer="false">1.1</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="5">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로에서, 트랜지스터, 컬렉터, 전류 | 정답 선지: 0.9</explanation_ref>
+    </question>
+    <question no="6" id="PRB-DB795E44433260C8-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 JFET 회로에서 트랜지스터의 특성은 I_(DSS) ＝ 10 [mA], V_(GS(off)) ＝ －8 [V]이며, 각 소자값은 V_(GG) ＝ 2 [V], V_(DD) ＝ 20 [V], R_(D) ＝ 2 [kΩ]이다. 직류(DC) 동작점 I_(DQ )[mA], V_(DSQ )[V]는?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/6_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">7.5 5</choice>
+        <choice no="2" is_answer="true">5.625 8.75</choice>
+        <choice no="3" is_answer="false">7.5 8.75</choice>
+        <choice no="4" is_answer="false">5.625 5</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="6">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: GS(off), 직류(DC) | 정답 선지: 5.625 8.75</explanation_ref>
+    </question>
+    <question no="7" id="PRB-DB795E44433260C8-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 증폭기의 입력 옵셋전압 V_(OS )[mV]는? (단, 연산증폭기는 이상적이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/7_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/7_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">－5</choice>
+        <choice no="2" is_answer="false">－5.5</choice>
+        <choice no="3" is_answer="false">－10</choice>
+        <choice no="4" is_answer="false">－11</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 증폭기, 입력, 옵셋전압 | 정답 선지: －5</explanation_ref>
+    </question>
+    <question no="8" id="PRB-DB795E44433260C8-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>연산증폭기의 단위이득 주파수 f_(T)가 10 [MHz]인 다음 증폭기 회로에서 대역폭(bandwidth) [MHz]은? (단, 연산증폭기의 주파수 특성은 차단주파수 이상에서 20 [dB/decade]로 감소한다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/8_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/8_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.01</choice>
+        <choice no="2" is_answer="true">0.1</choice>
+        <choice no="3" is_answer="false">1.0</choice>
+        <choice no="4" is_answer="false">10</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="8">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 증폭기 회로에서 대역폭(bandwidth) | 정답 선지: 0.1</explanation_ref>
+    </question>
+    <question no="9" id="PRB-DB795E44433260C8-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 증폭회로의 소신호 전압증폭도 $\frac{V_{o}}{V_{i}}$는? (단, BJT Q의 V_(BE )＝ 0.7 [V], β ＝ 100, V_(T )＝ 26 [mV], I_(CQ )＝ 1.3 [mA], r_($_{\pi}$ )＝ 2 [kΩ]이며, 소신호 등가회로는 그림과 같다)</stem>
+      <formulas count="3">
+        <formula area="질문">\frac{V_{o}}{V_{i}}</formula>
+        <formula area="질문">\beta</formula>
+        <formula area="질문">_{\pi}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/9_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">－2.4</choice>
+        <choice no="2" is_answer="true">－1.96</choice>
+        <choice no="3" is_answer="false">－2.6</choice>
+        <choice no="4" is_answer="false">－2.2</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="9">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 증폭회로, 소신호, 전압증폭도, 이며 | 정답 선지: －1.96</explanation_ref>
+    </question>
+    <question no="10" id="PRB-DB795E44433260C8-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 승․강압이 가능한 벅－부스트(buck-boost) 컨버터의 회로에서 스위치 M이 도통비(duty ratio) 50 %로 동작할 때, 다이오드 D에 인가되는 역전압[V]은? (단, 소자들은 이상적이고 정상상태에서 동작하며, 인덕터 전류는 연속이고 출력커패시터 전압 리플은 무시한다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/10_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/10_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0</choice>
+        <choice no="2" is_answer="false">50</choice>
+        <choice no="3" is_answer="false">100</choice>
+        <choice no="4" is_answer="true">200</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="10">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 부스트(buck-boost), 회로에서 스위치 M이 도통비(duty ratio) | 정답 선지: 200</explanation_ref>
+    </question>
+    <question no="11" id="PRB-DB795E44433260C8-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 이상적인 궤환(feedback) 증폭기 회로에서 입력 저항 $R_{if}$와 출력 저항 $R_{of}$는?</stem>
+      <formulas count="12">
+        <formula area="질문">R_{if}</formula>
+        <formula area="질문">R_{of}</formula>
+        <formula area="지문">R_{if}</formula>
+        <formula area="지문">R_{of}</formula>
+        <formula area="선택지①">( 1 + A \beta ) R_{i}</formula>
+        <formula area="선택지①">( 1 + A \beta ) R_{o}</formula>
+        <formula area="선택지②">( 1 + A \beta ) R_{i}</formula>
+        <formula area="선택지②">\frac{R_{o}}{1 + A \beta}</formula>
+        <formula area="선택지③">\frac{R_{i}}{1 + A \beta}</formula>
+        <formula area="선택지③">( 1 + A \beta ) R_{o}</formula>
+        <formula area="선택지④">\frac{R_{i}}{1 + A \beta}</formula>
+        <formula area="선택지④">\frac{R_{o}}{1 + A \beta}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/11_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/11_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$( 1 + A \beta ) R_{i}$ $( 1 + A \beta ) R_{o}$</choice>
+        <choice no="2" is_answer="true">$( 1 + A \beta ) R_{i}$ $\frac{R_{o}}{1 + A \beta}$</choice>
+        <choice no="3" is_answer="false">$\frac{R_{i}}{1 + A \beta}$ $( 1 + A \beta ) R_{o}$</choice>
+        <choice no="4" is_answer="false">$\frac{R_{i}}{1 + A \beta}$ $\frac{R_{o}}{1 + A \beta}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 이상적인 궤환(feedback) | 정답 선지: $( 1 + A \beta ) R_{i}$ $\frac{R_{o}}{1 + A \beta}$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-DB795E44433260C8-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 논리회로의 출력 Y를 간략하게 표현한 것은?</stem>
+      <formulas count="4">
+        <formula area="선택지①">\bar{\bar{A} + B}</formula>
+        <formula area="선택지②">\bar{A + \bar{B}}</formula>
+        <formula area="선택지③">A · {\bar{B}} + {\bar{A}} · B</formula>
+        <formula area="선택지④">A · B + {\bar{A} · \bar{B}}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/12_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/12_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\bar{\bar{A} + B}$</choice>
+        <choice no="2" is_answer="false">$\bar{A + \bar{B}}$</choice>
+        <choice no="3" is_answer="false">$A \cdot {\bar{B}} + {\bar{A}} \cdot B$</choice>
+        <choice no="4" is_answer="true">$A \cdot B + {\bar{A} \cdot \bar{B}}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="12">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로, 출력, 간략하게, 표현한 | 정답 선지: $A \cdot B + {\bar{A} \cdot \bar{B}}$</explanation_ref>
+    </question>
+    <question no="13" id="PRB-DB795E44433260C8-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>AM 변조 방식에서 피변조파 전력이 반송파 전력의 1.32배일 때, 상측파(USB) 전력은 반송파 전력의 몇 배인가?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.64</choice>
+        <choice no="2" is_answer="false">0.32</choice>
+        <choice no="3" is_answer="true">0.16</choice>
+        <choice no="4" is_answer="false">0.12</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="13">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 상측파(USB) | 정답 선지: 0.16</explanation_ref>
+    </question>
+    <question no="14" id="PRB-DB795E44433260C8-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 논리회로에 A ＝ 1010, B ＝ 0110, C ＝ 0101이 순차적으로 입력될 때, 출력 Y의 값은?</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/14_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/14_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">Y ＝ 1100</choice>
+        <choice no="2" is_answer="false">Y ＝ 0011</choice>
+        <choice no="3" is_answer="false">Y ＝ 1010</choice>
+        <choice no="4" is_answer="false">Y ＝ 0101</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="14">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 논리회로, 순차적으, 입력될, 출력 | 정답 선지: Y ＝ 1100</explanation_ref>
+    </question>
+    <question no="15" id="PRB-DB795E44433260C8-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에 대한 설명으로 옳지 않은 것은? (단, 다이오드의 순방향 전압은 0.7 [V]이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/15_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">입력전압 V_(in)이 음(－)의 최대 피크전압에서 다이오드의 최대 역전압이 발생한다.</choice>
+        <choice no="2" is_answer="false">권선비가 3 : 1로 되면 입력전압 V_(in)이 양(＋)의 주기 동안 다이오드에 흐르는 전류는 감소한다.</choice>
+        <choice no="3" is_answer="true">다이오드 양단의 최대 역전압 PIV(peak inverse voltage)는 170 [V]이다.</choice>
+        <choice no="4" is_answer="false">정류된 출력의 피크전압은 84.3 [V]이다.</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="15">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로, 양단의 최대 역전압 PIV(peak inverse voltage) | 정답 선지: 다이오드 양단의 최대 역전압 PIV(peak inverse voltage)는 170 [V]이다.</explanation_ref>
+    </question>
+    <question no="16" id="PRB-DB795E44433260C8-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 정전류원 회로에서 I ＝ 10 [mA]가 되기 위한 제너 다이오드 전압 V_(Z )[V]로 가장 가까운 값은? (단, V_(BE) ＝ 0.7 [V]이다)</stem>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/16_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/16_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.7</choice>
+        <choice no="2" is_answer="false">1.7</choice>
+        <choice no="3" is_answer="false">9.3</choice>
+        <choice no="4" is_answer="true">10.7</choice>
+      </choices>
+      <answer source="정답표" cross_check="">4</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="16">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 정전류원, 회로에서, 되기, 위한 | 정답 선지: 10.7</explanation_ref>
+    </question>
+    <question no="17" id="PRB-DB795E44433260C8-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 회로에서 입력 임피던스 Z_(in)은? (단, 연산증폭기는 이상적이다)</stem>
+      <formulas count="4">
+        <formula area="선택지①">R_{X}^{2} + \frac{R_{Y}}{j \omega C}</formula>
+        <formula area="선택지②">j \omega CR_{X}^{} R_{Y}</formula>
+        <formula area="선택지③">R_{X} + \frac{R_{Y}}{j \omega C}</formula>
+        <formula area="선택지④">\frac{R_{X}^{2} R_{Y}}{j \omega C}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/17_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/17_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$R_{X}^{2} + \frac{R_{Y}}{j \omega C}$</choice>
+        <choice no="2" is_answer="true">$j \omega CR_{X} R_{Y}$</choice>
+        <choice no="3" is_answer="false">$R_{X} + \frac{R_{Y}}{j \omega C}$</choice>
+        <choice no="4" is_answer="false">$\frac{R_{X}^{2} R_{Y}}{j \omega C}$</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="17">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회로에서, 입력, 임피던스, 연산증폭기 | 정답 선지: $j \omega CR_{X} R_{Y}$</explanation_ref>
+    </question>
+    <question no="18" id="PRB-DB795E44433260C8-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반도체 집적회로(integrated circuit)로 8비트의 아날로그－디지털 변환기를 설계하고자 할 때, 다음 중 가장 빠른 동작 특성을 갖는 구조는? (단, time-interleaved 기법 등 다른 구조와 병합하지 않고, 샘플링 주파수를 제외한 소비전력 및 면적 등의 다른 특성은 고려하지 않는다)</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">계수형 구조</choice>
+        <choice no="2" is_answer="false">R-2R 사다리 구조</choice>
+        <choice no="3" is_answer="true">병렬(flash) 구조</choice>
+        <choice no="4" is_answer="false">이중 경사(dual slope) 적분 구조</choice>
+      </choices>
+      <answer source="정답표" cross_check="">3</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반도체 집적회로(integrated circuit), 2R 사다리 구조 병렬(flash), 구조 이중 경사(dual slope) | 정답 선지: 병렬(flash) 구조</explanation_ref>
+    </question>
+    <question no="19" id="PRB-DB795E44433260C8-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>다음 회로를 고주파 해석할 때 필요한 입력 커패시턴스 C_(IN )[μF]은? (단, M_(1)의 g_(m1) ＝ 1 mA/V, $r_{o1}$ ＝ ∞, M_(1)의 기생 커패시턴스는 무시한다)</stem>
+      <formulas count="3">
+        <formula area="질문">\mu</formula>
+        <formula area="질문">r_{o1}</formula>
+        <formula area="질문">\infty</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">1.5</choice>
+        <choice no="2" is_answer="true">1.6</choice>
+        <choice no="3" is_answer="false">3</choice>
+        <choice no="4" is_answer="false">3.2</choice>
+      </choices>
+      <answer source="정답표" cross_check="">2</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="19">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 회로, 고주파, 해석할, 필요한 | 정답 선지: 1.6</explanation_ref>
+    </question>
+    <question no="20" id="PRB-DB795E44433260C8-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 SR 플립플롭(flip-flop) 회로의 입출력 파형으로 옳은 것은?</stem>
+      <images count="6">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/20_지문_1.png</image>
+        <image area="선택1" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/20_선택1_1.png</image>
+        <image area="선택2" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/20_선택2_1.png</image>
+        <image area="선택3" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/20_선택3_1.png</image>
+        <image area="선택4" kind="비트맵" seq="1">이미지/PRB-DB795E44433260C8/20_선택4_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-DB795E44433260C8/20_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">[그림/도표 선지 1번 (첨부 이미지 참조)]</choice>
+        <choice no="2" is_answer="false">[그림/도표 선지 2번 (첨부 이미지 참조)]</choice>
+        <choice no="3" is_answer="false">[그림/도표 선지 3번 (첨부 이미지 참조)]</choice>
+        <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
+      </choices>
+      <answer source="정답표" cross_check="">1</answer>
+      <explanation_ref file="전자회로_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SR 플립플롭(flip-flop) 회로의 입출력 파형, 다음 SR 플립플롭(flip-flop) | 정답 선지: [그림/도표 선지 1번 (첨부 이미지 참조)]</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

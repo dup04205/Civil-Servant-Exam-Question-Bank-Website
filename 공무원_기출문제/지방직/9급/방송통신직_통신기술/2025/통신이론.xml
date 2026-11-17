@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2025-33</exam_id>
+    <subject_row_id>PRB-7A2E9F7AAB4237E6</subject_row_id>
+    <exam_type>지방직</exam_type>
+    <grade>9급</grade>
+    <series>방송통신직_통신기술</series>
+    <year>2025</year>
+    <exam_title>2025년도 제1회 지방직공무원 시험</exam_title>
+    <subject_code>784</subject_code>
+    <subject_name>통신이론</subject_name>
+    <booklet_type>B</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통신이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-7A2E9F7AAB4237E6-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>반송파의 위상에 정보를 실어서 전송하는 변조 방식은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">AM</choice>
+        <choice no="2" is_answer="true">PM</choice>
+        <choice no="3" is_answer="false">DSB</choice>
+        <choice no="4" is_answer="false">SSB</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 반송파, 위상, 정보, 실어서 | 정답 선지: PM</explanation_ref>
+    </question>
+    <question no="2" id="PRB-7A2E9F7AAB4237E6-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>대역폭이 10 [kHz]인 AWGN 채널에서 섀넌(Shannon)의 용량 정리로 계산한 채널용량이 40 [kbps]일 때, 수신된 신호의 신호대잡음비(SNR)는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">3</choice>
+        <choice no="2" is_answer="false">7</choice>
+        <choice no="3" is_answer="false">11</choice>
+        <choice no="4" is_answer="true">15</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 인 AWGN 채널에서 섀넌(Shannon), 수신된 신호의 신호대잡음비(SNR) | 정답 선지: 15</explanation_ref>
+    </question>
+    <question no="3" id="PRB-7A2E9F7AAB4237E6-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>잡음지수(noise figure)가 10 [dB]인 증폭기의 입력 SNR이 40일 때, 출력 SNR은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="false">2</choice>
+        <choice no="3" is_answer="true">4</choice>
+        <choice no="4" is_answer="false">8</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 잡음지수(noise figure) | 정답 선지: 4</explanation_ref>
+    </question>
+    <question no="4" id="PRB-7A2E9F7AAB4237E6-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정현파 정보신호를 AM 변조한 신호의 포락선의 최댓값과 최솟값이 각각 20 [V]와 4 [V]일 때, 변조지수는? (단, 변조지수는 0과 1 사이이다)</stem>
+      <formulas count="4">
+        <formula area="선택지①">\frac{1}{2}</formula>
+        <formula area="선택지②">\frac{2}{3}</formula>
+        <formula area="선택지③">\frac{3}{4}</formula>
+        <formula area="선택지④">\frac{4}{5}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{2}$</choice>
+        <choice no="2" is_answer="true">$\frac{2}{3}$</choice>
+        <choice no="3" is_answer="false">$\frac{3}{4}$</choice>
+        <choice no="4" is_answer="false">$\frac{4}{5}$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정현파, 정보신호, 변조한, 신호 | 정답 선지: $\frac{2}{3}$</explanation_ref>
+    </question>
+    <question no="5" id="PRB-7A2E9F7AAB4237E6-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 코딩 기법은?</stem>
+      <passage>디지털 통신에서 원본 데이터에 추가적인 데이터를 삽입하여 데이터 송수신 과정에서 발생할 수 있는 오류를 감지하거나 복구하는 기법이다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">라인 코딩</choice>
+        <choice no="2" is_answer="false">소스 코딩</choice>
+        <choice no="3" is_answer="true">채널 코딩</choice>
+        <choice no="4" is_answer="false">허프만 코딩</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 코딩, 기법 | 정답 선지: 채널 코딩</explanation_ref>
+    </question>
+    <question no="6" id="PRB-7A2E9F7AAB4237E6-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>표본화와 양자화를 거친 아날로그 신호가 －15에서 15 사이의 정숫값들로 레벨화되었을 때, 이진 부호화를 위해 필요한 샘플당 최소 비트 수는?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">3</choice>
+        <choice no="2" is_answer="false">4</choice>
+        <choice no="3" is_answer="true">5</choice>
+        <choice no="4" is_answer="false">6</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 표본화와, 양자화, 거친, 아날로그 | 정답 선지: 5</explanation_ref>
+    </question>
+    <question no="7" id="PRB-7A2E9F7AAB4237E6-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 코드는?</stem>
+      <passage>디지털 변조에서 심벌 오류 발생 시 비트 오류를 최소로 하기 위해 인접한 심벌 간 서로 다른 비트 개수가 1이 되도록 비트 그룹을 할당하는 방식의 코드이다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">터보 코드</choice>
+        <choice no="2" is_answer="true">그레이 코드</choice>
+        <choice no="3" is_answer="false">길쌈 코드</choice>
+        <choice no="4" is_answer="false">BCH 코드</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 코드 | 정답 선지: 그레이 코드</explanation_ref>
+    </question>
+    <question no="8" id="PRB-7A2E9F7AAB4237E6-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>레이더에서 전파가 발사된 직후부터 15 [km] 떨어진 목표물에 반사되어 되돌아올 때까지 걸린 시간[$\mu s$]은? (단, 목표물 이외에는 전파를 반사시키지 않는 환경이며 전파의 속도는 3 × 10^(8) [m/s]이다)</stem>
+      <formulas count="1">
+        <formula area="질문">\mu s</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">100</choice>
+        <choice no="2" is_answer="false">200</choice>
+        <choice no="3" is_answer="false">300</choice>
+        <choice no="4" is_answer="false">400</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 레이더에서, 전파, 발사된, 직후부터 | 정답 선지: 100</explanation_ref>
+    </question>
+    <question no="9" id="PRB-7A2E9F7AAB4237E6-Q9" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>자신에게 오는 패킷이 아님에도 불구하고 네트워크상에 지나다니는 패킷들의 내용을 훔쳐보는 네트워크 공격 방법은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">스니핑(sniffing)</choice>
+        <choice no="2" is_answer="false">스미싱(smishing)</choice>
+        <choice no="3" is_answer="false">스푸핑(spoofing)</choice>
+        <choice no="4" is_answer="false">스머프(smurf)</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 1번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 스니핑(sniffing), 스미싱(smishing), 스푸핑(spoofing), 스머프(smurf) | 정답 선지: 스니핑(sniffing)</explanation_ref>
+    </question>
+    <question no="10" id="PRB-7A2E9F7AAB4237E6-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 다중화(multiplexing) 전송 기법은?</stem>
+      <passage>멀티캐리어 전송 기법으로 입력 데이터를 여러 개의 저속 데이터열로 분리시킨 후 각 데이터열을 서로 다른 부반송파에 실어서 전송한다. 이때, 부반송파 간 주파수 간격을 심벌 길이의 역수로 하여 스펙트럼이 주파수상에서 중첩되더라도 부반송파 간의 직교성이 유지되어 반송파 간 간섭(inter-carrier interference)이 생기지 않는 전송 기법이다.</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">CDM</choice>
+        <choice no="2" is_answer="false">SDM</choice>
+        <choice no="3" is_answer="false">TDM</choice>
+        <choice no="4" is_answer="true">OFDM</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서 설명하는 다중화(multiplexing) | 정답 선지: OFDM</explanation_ref>
+    </question>
+    <question no="11" id="PRB-7A2E9F7AAB4237E6-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>주파수가 $f_c$인 시간 영역 신호 $x ( t )$ ＝ $\cos ( 2 \pi f_{c} t - \pi )$를 다음 신호의 선형 조합으로 표시한 것은? (단, $f_{c}$ ≠ 0이다)</stem>
+      <passage>$s_{1} ( t ) = \sin ( 2 \pi f_{c} t )$
+$s_{2} ( t ) = \cos ( 2 \pi f_{c} t )$</passage>
+      <formulas count="12">
+        <formula area="질문">f_c</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">\cos ( 2 \pi f_{c} t - \pi )</formula>
+        <formula area="질문">f_{c}</formula>
+        <formula area="지문">s_{1} ( t ) = \sin ( 2 \pi f_{c} t )</formula>
+        <formula area="지문">s_{2} ( t ) = \cos ( 2 \pi f_{c} t )</formula>
+        <formula area="선택지①">s_{1} ( t )</formula>
+        <formula area="선택지②">- s_{2} ( t )</formula>
+        <formula area="선택지③">s_{1} ( t )</formula>
+        <formula area="선택지③">s_{2} ( t )</formula>
+        <formula area="선택지④">s_{1} ( t )</formula>
+        <formula area="선택지④">s_{2} ( t )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$s_{1} ( t )$</choice>
+        <choice no="2" is_answer="true">$- s_{2} ( t )$</choice>
+        <choice no="3" is_answer="false">$s_{1} ( t )$ ＋ $s_{2} ( t )$</choice>
+        <choice no="4" is_answer="false">$s_{1} ( t )$ － $s_{2} ( t )$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ) | 정답 선지: $- s_{2} ( t )$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-7A2E9F7AAB4237E6-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$m$개의 선형 궤환 시프트 레지스터를 이용하여 길이가 $N$인 최대길이시퀀스(maximal length sequence) PN 부호를 발생시킬 때, 이에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="4">
+        <formula area="질문">m</formula>
+        <formula area="질문">N</formula>
+        <formula area="선택지①">N</formula>
+        <formula area="선택지①">2^{m} - 1</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$N$ ＝ $2^{m} - 1$이다.</choice>
+        <choice no="2" is_answer="false">부호는 주기적이다.</choice>
+        <choice no="3" is_answer="false">부호는 두 개의 자기상관 값을 갖는다.</choice>
+        <choice no="4" is_answer="true">한 칩 지연 시 부호의 자기상관 값이 최대가 된다.</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인 최대길이시퀀스(maximal length sequence) | 정답 선지: 한 칩 지연 시 부호의 자기상관 값이 최대가 된다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-7A2E9F7AAB4237E6-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>LAN에서 사용되는 매체접근제어 방식 중 CSMA/CD에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">주로 무선 LAN에서 사용된다.</choice>
+        <choice no="2" is_answer="false">충돌이 발생하면 각 호스트에 충돌 발생 정보를 통지한다.</choice>
+        <choice no="3" is_answer="false">충돌이 발생하면 임의의 대기 시간을 기다린 후 다시 매체접근을 시도한다.</choice>
+        <choice no="4" is_answer="false">데이터 전송 중 공유 매체에서 발생할 수 있는 충돌을 감지하는 기능이 있다.</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: LAN에서 사용되는 매체접근제어 방식 중 CSMA/CD | 정답 선지: 주로 무선 LAN에서 사용된다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-7A2E9F7AAB4237E6-Q14" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>오류 검출을 위한 짝수 패리티 검사 부호(parity check code)에서 부호어(codeword)가 2개의 메시지 비트와 1개의 패리티 검사 비트로 이루어져 있을 때, 유효한 부호어가 아닌 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="true">111</choice>
+        <choice no="2" is_answer="false">101</choice>
+        <choice no="3" is_answer="false">011</choice>
+        <choice no="4" is_answer="false">000</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 위한 짝수 패리티 검사 부호(parity check code), 에서 부호어(codeword) | 정답 선지: 111</explanation_ref>
+    </question>
+    <question no="15" id="PRB-7A2E9F7AAB4237E6-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>서로 통계적 독립(statistically independence)인 두 랜덤변수 $X$와 $Y$의 분산이 각각 4와 1일 때, $Z = X + Y$의 분산은?</stem>
+      <formulas count="3">
+        <formula area="질문">X</formula>
+        <formula area="질문">Y</formula>
+        <formula area="질문">Z = X + Y</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="false">4</choice>
+        <choice no="3" is_answer="true">5</choice>
+        <choice no="4" is_answer="false">17</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 통계적, 독립, 랜덤변수, 분산 | 정답 선지: 5</explanation_ref>
+    </question>
+    <question no="16" id="PRB-7A2E9F7AAB4237E6-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>랜덤변수 $X$의 확률밀도함수 $f_{X} ( x )$가 다음과 같을 때, $X$의 평균은?</stem>
+      <passage>$f_{X} ( x ) = {\left\{\begin{array}{ll}\frac{1}{2} x , &amp; 0 \leq x &lt; 2 \\ 0 , &amp; otherwise\end{array}\right.}$</passage>
+      <formulas count="8">
+        <formula area="질문">X</formula>
+        <formula area="질문">f_{X} ( x )</formula>
+        <formula area="질문">X</formula>
+        <formula area="지문">f_{X} ( x ) = {cases {\frac{1}{2} x , &amp; 0 \leq x &lt; 2 # 0 , &amp; otherwise}}</formula>
+        <formula area="선택지①">\frac{1}{4}</formula>
+        <formula area="선택지②">\frac{2}{3}</formula>
+        <formula area="선택지③">\frac{3}{4}</formula>
+        <formula area="선택지④">\frac{4}{3}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{1}{4}$</choice>
+        <choice no="2" is_answer="false">$\frac{2}{3}$</choice>
+        <choice no="3" is_answer="false">$\frac{3}{4}$</choice>
+        <choice no="4" is_answer="true">$\frac{4}{3}$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 랜덤변수, 확률밀도함수, 다음과, 평균 | 정답 선지: $\frac{4}{3}$</explanation_ref>
+    </question>
+    <question no="17" id="PRB-7A2E9F7AAB4237E6-Q17" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>신호 $x ( t )$ ＝ $3 \delta ( t )$를 푸리에 변환(Fourier transform)한 $X ( \omega )$는? (단, $\delta ( t )$는 단위 임펄스 함수이고 $X ( \omega )$ ＝ $\int_{- \infty}^{\infty} {x ( t ) e^{- j \omega t} dt}$이다)</stem>
+      <formulas count="10">
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">3 \delta ( t )</formula>
+        <formula area="질문">X ( \omega )</formula>
+        <formula area="질문">\delta ( t )</formula>
+        <formula area="질문">X ( \omega )</formula>
+        <formula area="질문">\int_{- \infty}^{\infty} {x ( t ) e^{- j \omega t} dt}</formula>
+        <formula area="선택지①">1</formula>
+        <formula area="선택지②">3</formula>
+        <formula area="선택지③">\frac{1}{1 - \omega}</formula>
+        <formula area="선택지④">\frac{1}{3 + \omega}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$1$</choice>
+        <choice no="2" is_answer="true">$3$</choice>
+        <choice no="3" is_answer="false">$\frac{1}{1 - \omega}$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{3 + \omega}$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: x ( t ), delta ( t ), 를 푸리에 변환(Fourier transform) | 정답 선지: $3$</explanation_ref>
+    </question>
+    <question no="18" id="PRB-7A2E9F7AAB4237E6-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림과 같이 임펄스 응답이 각각 $h_{1} ( t )$, $h_{2} ( t )$, $h_{3} ( t )$인 선형 시불변 시스템으로 구성된 전체 시스템에 $x ( t )$를 입력하였을 때, 출력 $y ( t )$는? (단, $x ( t )$ ≠ $0$, $h_{1} ( t )$ㆍ$h_{2} ( t )$ㆍ$h_{3} ( t )$ ≠ $0$, [이미지: 1]는 가산기이고, $\ast$는 컨볼루션 연산이다)</stem>
+      <formulas count="16">
+        <formula area="질문">h_{1} ( t )</formula>
+        <formula area="질문">h_{2} ( t )</formula>
+        <formula area="질문">h_{3} ( t )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">y ( t )</formula>
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">0</formula>
+        <formula area="질문">h_{1} ( t )</formula>
+        <formula area="질문">h_{2} ( t )</formula>
+        <formula area="질문">h_{3} ( t )</formula>
+        <formula area="질문">0</formula>
+        <formula area="질문">AST</formula>
+        <formula area="선택지①">x ( t ) + \left[ h_{1} ( t ) + h_{2} ( t ) + h_{3} ( t ) \right]</formula>
+        <formula area="선택지②">x ( t ) + \left[ h_{1} ( t ) AST h_{2} ( t ) + h_{3} ( t ) \right]</formula>
+        <formula area="선택지③">x ( t ) AST \left[ h_{1} ( t ) AST h_{2} ( t ) AST h_{3} ( t ) \right]</formula>
+        <formula area="선택지④">x ( t ) AST \left[ h_{1} ( t ) AST h_{3} ( t ) + h_{2} ( t ) AST h_{3} ( t ) \right]</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7A2E9F7AAB4237E6/18_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7A2E9F7AAB4237E6/18_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$x ( t ) + \left[ h_{1} ( t ) + h_{2} ( t ) + h_{3} ( t ) \right]$</choice>
+        <choice no="2" is_answer="false">$x ( t ) + \left[ h_{1} ( t ) \ast h_{2} ( t ) + h_{3} ( t ) \right]$</choice>
+        <choice no="3" is_answer="false">$x ( t ) \ast \left[ h_{1} ( t ) \ast h_{2} ( t ) \ast h_{3} ( t ) \right]$</choice>
+        <choice no="4" is_answer="true">$x ( t ) \ast \left[ h_{1} ( t ) \ast h_{3} ( t ) + h_{2} ( t ) \ast h_{3} ( t ) \right]$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), y ( t ) | 정답 선지: $x ( t ) \ast \left[ h_{1} ( t ) \ast h_{3} ( t ) + h_{2} ( t ) \...</explanation_ref>
+    </question>
+    <question no="19" id="PRB-7A2E9F7AAB4237E6-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림과 같은 확률밀도함수 $f_{X} ( x )$를 가지는 이산 랜덤변수 $X$의 엔트로피$[ bit / symbol ]$는?</stem>
+      <formulas count="7">
+        <formula area="질문">f_{X} ( x )</formula>
+        <formula area="질문">X</formula>
+        <formula area="질문">[ bit / symbol ]</formula>
+        <formula area="선택지①">\frac{3}{4} ( 4 - \log_{2} 3 )</formula>
+        <formula area="선택지②">\frac{1}{4} ( 4 + \log_{2} 3 )</formula>
+        <formula area="선택지③">\frac{3}{8} ( 4 - \log_{2} 3 )</formula>
+        <formula area="선택지④">\frac{1}{8} ( 4 + \log_{2} 3 )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-7A2E9F7AAB4237E6/19_지문_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-7A2E9F7AAB4237E6/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{3}{4} ( 4 - \log_{2} 3 )$</choice>
+        <choice no="2" is_answer="false">$\frac{1}{4} ( 4 + \log_{2} 3 )$</choice>
+        <choice no="3" is_answer="false">$\frac{3}{8} ( 4 - \log_{2} 3 )$</choice>
+        <choice no="4" is_answer="false">$\frac{1}{8} ( 4 + \log_{2} 3 )$</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과, 확률밀도함수, 가지, 이산 | 정답 선지: $\frac{3}{4} ( 4 - \log_{2} 3 )$</explanation_ref>
+    </question>
+    <question no="20" id="PRB-7A2E9F7AAB4237E6-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음에서 설명하는 정리는?</stem>
+      <passage>동일한 신호에 대해 시간 영역상의 전체 에너지는 주파수 영역상의 전체 에너지와 같다. (단, 신호는 시간 영역에서 비주기적인 에너지 신호라고 가정한다)</passage>
+      <choices count="4">
+        <choice no="1" is_answer="false">표본화 정리</choice>
+        <choice no="2" is_answer="true">파스발 정리</choice>
+        <choice no="3" is_answer="false">베이즈 정리</choice>
+        <choice no="4" is_answer="false">중심 극한 정리</choice>
+      </choices>
+      <answer source="정답가안" cross_check="">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 정리 | 정답 선지: 파스발 정리</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

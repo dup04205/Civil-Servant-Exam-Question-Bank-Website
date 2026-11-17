@@ -1,0 +1,26 @@
+# SQLite 데이터베이스 (build_db.py 실행으로 생성, 사용자 학습/오답 기록 포함)
+exam_bank/exam_bank.db
+exam_bank/exam_bank.db-wal
+exam_bank/exam_bank.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# OS 및 에디터 메타파일
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# 환경변수 및 시크릿
+.env
+.env.*
+
+# 본 저장소와 무관한 로컬 작업 디렉토리 제외
+calculator/
+jsp_homework/
+reports/

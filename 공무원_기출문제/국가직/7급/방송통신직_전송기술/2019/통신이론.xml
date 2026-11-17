@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exam_paper>
+  <metadata>
+    <exam_id>EXM-2019-06</exam_id>
+    <subject_row_id>PRB-AA2473F496C0FF55</subject_row_id>
+    <exam_type>국가직</exam_type>
+    <grade>7급</grade>
+    <series>방송통신직_전송기술</series>
+    <year>2019</year>
+    <exam_title>2019년도 7급 공개경쟁채용시험</exam_title>
+    <subject_code>627</subject_code>
+    <subject_name>통신이론</subject_name>
+    <booklet_type>가</booklet_type>
+    <total_questions>20</total_questions>
+    <explanation_file>통신이론_해설.xml</explanation_file>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+  </metadata>
+  <questions>
+    <question no="1" id="PRB-AA2473F496C0FF55-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>연속랜덤변수 $X$의 확률밀도함수(probability density function)가 $f_{X} ( x ) = {\left\{\begin{array}{ll}\frac{3}{8} x^{2} , &amp; for 0 \leq x \leq 2 \\ 0 , &amp; otherwise\end{array}\right.}$일 때, $E [ 2 X + 1 ]$는? (단, $E [ \bullet ]$는 랜덤변수의 기댓값이다)</stem>
+      <formulas count="8">
+        <formula area="질문">X</formula>
+        <formula area="질문">f_{X} ( x ) = {cases {\frac{3}{8} x^{2} , &amp; for 0 \leq x \leq 2 # 0 , &amp; otherwise}}</formula>
+        <formula area="질문">E [ 2 X + 1 ]</formula>
+        <formula area="질문">E [ BULLET ]</formula>
+        <formula area="선택지①">3</formula>
+        <formula area="선택지②">3 . 5</formula>
+        <formula area="선택지③">4</formula>
+        <formula area="선택지④">4 . 5</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$3$</choice>
+        <choice no="2" is_answer="false">$3 . 5$</choice>
+        <choice no="3" is_answer="true">$4$</choice>
+        <choice no="4" is_answer="false">$4 . 5$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 연속랜덤변수, 확률밀도함수, 랜덤변수, 기댓값이다 | 정답 선지: $4$</explanation_ref>
+    </question>
+    <question no="2" id="PRB-AA2473F496C0FF55-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>에너지 신호와 전력 신호에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">신호가 유한한 에너지값을 가질 경우 에너지 신호라고 한다.</choice>
+        <choice no="2" is_answer="false">에너지 신호는 평균 전력이 0이다.</choice>
+        <choice no="3" is_answer="false">일반적으로 주기 신호는 전력 신호로 분류된다.</choice>
+        <choice no="4" is_answer="true">전력 신호의 에너지는 유한하다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 에너지 신호와 전력 신호 | 정답 선지: 전력 신호의 에너지는 유한하다.</explanation_ref>
+    </question>
+    <question no="3" id="PRB-AA2473F496C0FF55-Q3" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>아날로그 변조의 대표적 방식인 진폭 변조에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">양측파대 변조의 두 개의 측파대 중에서 하나의 측파대만 전송해도 전송 신호에서 정보의 손실은 발생하지 않는다.</choice>
+        <choice no="2" is_answer="false">양측파대 전송 반송파 변조(Double Side Band Transmitted Carrier)의 경우 포락선 검파에 의한 간단한 복조도 가능하다.</choice>
+        <choice no="3" is_answer="true">양측파대 중 원하지 않는 측파대를 완전히 제거하여 전송하는 방식을 잔류 측파대 변조(Vestigial Side Band)라 한다.</choice>
+        <choice no="4" is_answer="false">단측파대 변조(Single Side Band)는 양측파대 변조 방식에 비해 절반의 대역폭만 사용한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 아날로그 변조의 대표적 방식인 진폭 변조, 는 방식을 잔류 측파대 변조(Vestigial Side Band), 단측파대 변조(Single Side Band) | 정답 선지: 양측파대 중 원하지 않는 측파대를 완전히 제거하여 전송하는 방식을 잔류 측파대 변조(Vestigial Side Ban...</explanation_ref>
+    </question>
+    <question no="4" id="PRB-AA2473F496C0FF55-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>각각의 그림과 설명이 나타내는 다중접속방식을 바르게 나열한 것은?</stem>
+      <passage>(가) 가입자에게 겹치지 않는 서로 다른 주파수 대역을 배정
+(나) 가입자에게 겹치지 않는 서로 다른 시간 슬롯을 배정
+(다) 두 가입자가 시간과 주파수를 공유하며, 직교하는 코드를 서로 다른 전력으로 전송
+(라) 주파수 대역에서 가입자 간 부채널이 중첩되지만, 직교성을 유지하는 서로 다른 부채널을 하나 이상 배정하며, 동일 시간에 여러 가입자에게 전송
+&lt;u&gt; (가) &lt;/u&gt; &lt;u&gt; (나) &lt;/u&gt; &lt;u&gt;(다) &lt;/u&gt; &lt;u&gt; (라) &lt;/u&gt;</passage>
+      <images count="1">
+        <image area="지문" kind="비트맵" seq="1">이미지/PRB-AA2473F496C0FF55/4_지문_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">TDMA FDMA CDMA OFDMA</choice>
+        <choice no="2" is_answer="false">TDMA FDMA OFDMA CDMA</choice>
+        <choice no="3" is_answer="true">FDMA TDMA CDMA OFDMA</choice>
+        <choice no="4" is_answer="false">FDMA TDMA OFDMA CDMA</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 각각, 그림과, 설명, 나타내 | 정답 선지: FDMA TDMA CDMA OFDMA</explanation_ref>
+    </question>
+    <question no="5" id="PRB-AA2473F496C0FF55-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$Y$가 구간 [0, a]에서 균일 확률밀도함수(uniform probability density function)를 갖는 연속랜덤변수일 때, 평균 $E [ Y ]$와 분산 $Var [ Y ]$는? (단, a &gt; 0 이다)</stem>
+      <formulas count="13">
+        <formula area="질문">Y</formula>
+        <formula area="질문">E [ Y ]</formula>
+        <formula area="질문">Var [ Y ]</formula>
+        <formula area="지문">E [ Y ]</formula>
+        <formula area="지문">Var [ Y ]</formula>
+        <formula area="선택지①">\frac{a}{2}</formula>
+        <formula area="선택지①">\frac{a^{2}}{12}</formula>
+        <formula area="선택지②">0</formula>
+        <formula area="선택지②">\frac{a^{2}}{12}</formula>
+        <formula area="선택지③">\frac{a}{2}</formula>
+        <formula area="선택지③">0</formula>
+        <formula area="선택지④">\frac{a}{2}</formula>
+        <formula area="선택지④">\frac{a^{2}}{4}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{a}{2}$ $\frac{a^{2}}{12}$</choice>
+        <choice no="2" is_answer="false">$0$ $\frac{a^{2}}{12}$</choice>
+        <choice no="3" is_answer="false">$\frac{a}{2}$ $0$</choice>
+        <choice no="4" is_answer="false">$\frac{a}{2}$ $\frac{a^{2}}{4}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 구간, 에서, 균일, 확률밀도함수 | 정답 선지: $\frac{a}{2}$ $\frac{a^{2}}{12}$</explanation_ref>
+    </question>
+    <question no="6" id="PRB-AA2473F496C0FF55-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>신호 $x ( t )$의 푸리에 변환 $X ( f )$가 그림과 같을 때, 신호 $x ( t )$의 에너지[joule]는?</stem>
+      <formulas count="3">
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">X ( f )</formula>
+        <formula area="질문">x ( t )</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-AA2473F496C0FF55/6_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-AA2473F496C0FF55/6_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">2</choice>
+        <choice no="2" is_answer="false">4</choice>
+        <choice no="3" is_answer="false">20</choice>
+        <choice no="4" is_answer="false">40</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: x ( t ), X ( f ) | 정답 선지: 2</explanation_ref>
+    </question>
+    <question no="7" id="PRB-AA2473F496C0FF55-Q7" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
+      <stem>4개의 신호 $s_{0} , s_{1} , s_{2} , s_{3}$가 각각 1/2, 1/4, 1/6, 1/12의 확률로 발생하는 정보원이 있다. 각 신호들이 통계적으로 독립일 때, 정보원의 엔트로피(entropy)는? (단, $\log_{2} ( 6 ) image 2 . 5$로 계산한다)</stem>
+      <formulas count="6">
+        <formula area="질문">s_{0} , s_{1} , s_{2} , s_{3}</formula>
+        <formula area="질문">\log_{2} ( 6 ) image 2 . 5</formula>
+        <formula area="선택지①">\frac{14 . 5}{12}</formula>
+        <formula area="선택지②">\frac{16 . 5}{12}</formula>
+        <formula area="선택지③">\frac{18 . 5}{12}</formula>
+        <formula area="선택지④">\frac{20 . 5}{12}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{14 . 5}{12}$</choice>
+        <choice no="2" is_answer="false">$\frac{16 . 5}{12}$</choice>
+        <choice no="3" is_answer="false">$\frac{18 . 5}{12}$</choice>
+        <choice no="4" is_answer="true">$\frac{20 . 5}{12}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 4번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 정보원의 엔트로피(entropy) | 정답 선지: $\frac{20 . 5}{12}$</explanation_ref>
+    </question>
+    <question no="8" id="PRB-AA2473F496C0FF55-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>오류정정부호(error control code)에 해당하지 않는 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">BCH 부호</choice>
+        <choice no="2" is_answer="false">Reed Solomon 부호</choice>
+        <choice no="3" is_answer="true">Lempel Ziv 부호</choice>
+        <choice no="4" is_answer="false">길쌈 부호</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 오류정정부호(error control code) | 정답 선지: Lempel Ziv 부호</explanation_ref>
+    </question>
+    <question no="9" id="PRB-AA2473F496C0FF55-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>그림과 같은 이진 대칭 채널(binary symmetric channel)에서 정보원 $x$의 0과 1의 발생확률은 각각 $P ( x = 0 ) = q$, $P ( x = 1 ) = 1 - q$이고, 교차확률은 $P ( y = 0 | x = 1 ) = P ( y = 1 | x = 0 ) = p$ 이다. 이러한 채널에서 $y = 0$이 수신되었을 때, $x = 0$일 확률 $P ( x = 0 | y = 0 )$는? (단, $0 &lt; p &lt; \frac{1}{10} , \frac{1}{3} &lt; q &lt; \frac{1}{2}$ 이다)</stem>
+      <passage>[   ]</passage>
+      <formulas count="12">
+        <formula area="질문">x</formula>
+        <formula area="질문">P ( x = 0 ) = q</formula>
+        <formula area="질문">P ( x = 1 ) = 1 - q</formula>
+        <formula area="질문">P ( y = 0  x = 1 ) = P ( y = 1  x = 0 ) = p</formula>
+        <formula area="질문">y = 0</formula>
+        <formula area="질문">x = 0</formula>
+        <formula area="질문">P ( x = 0  y = 0 )</formula>
+        <formula area="질문">0 &lt; p &lt; \frac{1}{10} , \frac{1}{3} &lt; q &lt; \frac{1}{2}</formula>
+        <formula area="선택지①">\frac{( 1 - p ) q}{( 1 - p ) q + p ( 1 - q )}</formula>
+        <formula area="선택지②">\frac{( 1 - q ) p}{( 1 - p ) q + p ( 1 - q )}</formula>
+        <formula area="선택지③">\frac{( 1 - p ) q}{pq + p ( 1 - q )}</formula>
+        <formula area="선택지④">\frac{( 1 - p ) q}{qp + q ( 1 - p )}</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-AA2473F496C0FF55/9_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-AA2473F496C0FF55/9_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="true">$\frac{( 1 - p ) q}{( 1 - p ) q + p ( 1 - q )}$</choice>
+        <choice no="2" is_answer="false">$\frac{( 1 - q ) p}{( 1 - p ) q + p ( 1 - q )}$</choice>
+        <choice no="3" is_answer="false">$\frac{( 1 - p ) q}{pq + p ( 1 - q )}$</choice>
+        <choice no="4" is_answer="false">$\frac{( 1 - p ) q}{qp + q ( 1 - p )}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과 같은 이진 대칭 채널(binary symmetric channel), p ( 1 - q ), q ( 1 - p ) | 정답 선지: $\frac{( 1 - p ) q}{( 1 - p ) q + p ( 1 - q )}$</explanation_ref>
+    </question>
+    <question no="10" id="PRB-AA2473F496C0FF55-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>터보 코드(turbo code)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">연접 부호화 방식을 사용한다.</choice>
+        <choice no="2" is_answer="false">터보 복호화 알고리즘은 반복 복호화 과정을 사용한다.</choice>
+        <choice no="3" is_answer="false">인터리빙 기법을 사용한다.</choice>
+        <choice no="4" is_answer="true">복호화에서는 성능 향상을 위해 경판정 알고리즘을 사용한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 터보 코드(turbo code) | 정답 선지: 복호화에서는 성능 향상을 위해 경판정 알고리즘을 사용한다.</explanation_ref>
+    </question>
+    <question no="11" id="PRB-AA2473F496C0FF55-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>정현파 메시지 신호 $m ( t )$를 반송파 $\cos ( 4000 pit )$로 양측파대 억압 반송파 변조(DSB-SC)를 하였다. 변조된 신호의 상측파대(USB)와 하측파대(LSB) 주파수의 양(＋)의 값을 각각 $f_{USB}$, $f_{LSB}$라고 하고 차이 값($\left| f_{USB} - f_{LSB} \right|$)이 200 [Hz]일 때, 메시지 신호 $m ( t )$는?</stem>
+      <formulas count="10">
+        <formula area="질문">m ( t )</formula>
+        <formula area="질문">\cos ( 4000 pit )</formula>
+        <formula area="질문">f_{USB}</formula>
+        <formula area="질문">f_{LSB}</formula>
+        <formula area="질문">\left | f_{USB} - f_{LSB} \right |</formula>
+        <formula area="질문">m ( t )</formula>
+        <formula area="선택지①">10 \cos ( 100 pit )</formula>
+        <formula area="선택지②">20 \cos ( 200 pit )</formula>
+        <formula area="선택지③">30 \cos ( 300 pit )</formula>
+        <formula area="선택지④">40 \cos ( 400 pit )</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$10 \cos ( 100 pit )$</choice>
+        <choice no="2" is_answer="true">$20 \cos ( 200 pit )$</choice>
+        <choice no="3" is_answer="false">$30 \cos ( 300 pit )$</choice>
+        <choice no="4" is_answer="false">$40 \cos ( 400 pit )$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: m ( t ), cos ( 4000 pit ), 양측파대 억압 반송파 변조(DSB-SC), 변조된 신호의 상측파대(USB), 와 하측파대(LSB) | 정답 선지: $20 \cos ( 200 pit )$</explanation_ref>
+    </question>
+    <question no="12" id="PRB-AA2473F496C0FF55-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>단위 임펄스 함수 $\delta ( t )$에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="6">
+        <formula area="질문">\delta ( t )</formula>
+        <formula area="선택지①">t = 0</formula>
+        <formula area="선택지①">\delta ( t ) \neq 0</formula>
+        <formula area="선택지②">\int_{- \infty}^{\infty} {x ( t ) \delta ( t ) dt = x ( 0 )}</formula>
+        <formula area="선택지③">\delta ( t )</formula>
+        <formula area="선택지④">\int_{- \infty}^{\infty} {\delta ( t ) dt = \infty}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$t = 0$에서만 $\delta ( t ) \neq 0$이다.</choice>
+        <choice no="2" is_answer="false">$\int_{- \infty}^{\infty} {x ( t ) \delta ( t ) dt = x ( 0 )}$이다.</choice>
+        <choice no="3" is_answer="false">$\delta ( t )$를 푸리에 변환하면 상수가 된다.</choice>
+        <choice no="4" is_answer="true">$\int_{- \infty}^{\infty} {\delta ( t ) dt = \infty}$이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 단위 임펄스 함수 $\delta ( t )$, delta ( t ), x ( t ), x ( 0 ) | 정답 선지: $\int_{- \infty}^{\infty} {\delta ( t ) dt = \infty}$이다.</explanation_ref>
+    </question>
+    <question no="13" id="PRB-AA2473F496C0FF55-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>진폭이 작은 신호에 대해 양자화(quantization) 잡음을 줄이는 방법으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">양자화 비트 수를 늘린다.</choice>
+        <choice no="2" is_answer="true">등화(equalization) 기법을 적용한다.</choice>
+        <choice no="3" is_answer="false">압신(companding) 기법을 적용한다.</choice>
+        <choice no="4" is_answer="false">비균일 양자화 기법을 적용한다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이 작은 신호에 대해 양자화(quantization), 등화(equalization), 압신(companding) | 정답 선지: 등화(equalization) 기법을 적용한다.</explanation_ref>
+    </question>
+    <question no="14" id="PRB-AA2473F496C0FF55-Q14" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>12 [Mbits]의 이미지 파일을 64－QAM으로 변조하여 1 [Msymbols/s]의 심볼률로 전송할 때, 이미지 파일을 모두 전송하는 데 걸리는 시간[s]은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">1</choice>
+        <choice no="2" is_answer="true">2</choice>
+        <choice no="3" is_answer="false">3</choice>
+        <choice no="4" is_answer="false">4</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 이미지, 파일, 변조하여, 심볼률 | 정답 선지: 2</explanation_ref>
+    </question>
+    <question no="15" id="PRB-AA2473F496C0FF55-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>다음 그림의 AM 변조기에서 입력신호가 $f ( t ) = B \cos \omega_{m} t$일 때, 변조지수 $m$과 전력효율 $\eta$[%]는? (단, $A &gt; 0 , B &gt; 0 , A \neq B ,$ $\omega_{c} &gt; &gt; \omega_{m}$이다)</stem>
+      <formulas count="15">
+        <formula area="질문">f ( t ) = B \cos \omega_{m} t</formula>
+        <formula area="질문">m</formula>
+        <formula area="질문">\eta</formula>
+        <formula area="질문">A &gt; 0 , B &gt; 0 , A \neq B ,</formula>
+        <formula area="질문">\omega_{c} &gt; &gt; \omega_{m}</formula>
+        <formula area="지문">m</formula>
+        <formula area="지문">\eta</formula>
+        <formula area="선택지①">\frac{B}{A}</formula>
+        <formula area="선택지①">\frac{A^{2}}{2 B^{2} + A^{2}} \times 100</formula>
+        <formula area="선택지②">\frac{B}{A}</formula>
+        <formula area="선택지②">\frac{B^{2}}{2 A^{2} + B^{2}} \times 100</formula>
+        <formula area="선택지③">\frac{A}{B}</formula>
+        <formula area="선택지③">\frac{A^{2}}{2 B^{2} + A^{2}} \times 100</formula>
+        <formula area="선택지④">\frac{A}{B}</formula>
+        <formula area="선택지④">\frac{B^{2}}{2 A^{2} + B^{2}} \times 100</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-AA2473F496C0FF55/15_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-AA2473F496C0FF55/15_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">$\frac{B}{A}$ $\frac{A^{2}}{2 B^{2} + A^{2}} \times 100$</choice>
+        <choice no="2" is_answer="true">$\frac{B}{A}$ $\frac{B^{2}}{2 A^{2} + B^{2}} \times 100$</choice>
+        <choice no="3" is_answer="false">$\frac{A}{B}$ $\frac{A^{2}}{2 B^{2} + A^{2}} \times 100$</choice>
+        <choice no="4" is_answer="false">$\frac{A}{B}$ $\frac{B^{2}}{2 A^{2} + B^{2}} \times 100$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: f ( t ) | 정답 선지: $\frac{B}{A}$ $\frac{B^{2}}{2 A^{2} + B^{2}} \times 100$</explanation_ref>
+    </question>
+    <question no="16" id="PRB-AA2473F496C0FF55-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>두 개의 신호 $s_{0} ( t )$, $s_{1} ( t )$를 각각 데이터 비트 0, 1에 대응시켜 전송할 때, 발생할 확률이 0.5로 동일하다. 잡음이 없는 경우 $s_{0} ( t )$를 전송하면 수신 신호는 $z = a_{0} = - 1$이고, $s_{1} ( t )$를 전송하면 $z = a_{1} = + 1$이 된다. 잡음이 있는 경우 수신 신호를 $z = a_{i} + n_{0}$와 같이 표현하고, 필터 출력 $z$가 0보다 큰 경우와 작은 경우를 각각 수신된 데이터 비트 1과 0으로 판정할 때, 비트 오류 확률은? (단, 잡음 성분 $n_{0}$는 다음과 같은 $z$의 조건부 균일 확률밀도함수(uniform probability density function)를 만들어 내는 랜덤변수이다)</stem>
+      <passage>$f_{Z} ( z | s_{0} ( t ) sent ) = {\left\{\begin{array}{ll}1 / 4 , &amp; for - 3 \leq z \leq 1 \\ 0 , &amp; otherwise\end{array}\right.}$
+$f_{Z} ( z | s_{1} ( t ) sent ) = {\left\{\begin{array}{ll}1 / 4 , &amp; for - 1 \leq z \leq 3 \\ 0 , &amp; otherwise\end{array}\right.}$</passage>
+      <formulas count="12">
+        <formula area="질문">s_{0} ( t )</formula>
+        <formula area="질문">s_{1} ( t )</formula>
+        <formula area="질문">s_{0} ( t )</formula>
+        <formula area="질문">z = a_{0} = - 1</formula>
+        <formula area="질문">s_{1} ( t )</formula>
+        <formula area="질문">z = a_{1} = + 1</formula>
+        <formula area="질문">z = a_{i} + n_{0}</formula>
+        <formula area="질문">z</formula>
+        <formula area="질문">n_{0}</formula>
+        <formula area="질문">z</formula>
+        <formula area="지문">f_{Z} ( z | s_{0} ( t ) sent ) = {cases {1 / 4 , &amp; for - 3 \leq z \leq 1 # 0 , &amp; otherwise}}</formula>
+        <formula area="지문">f_{Z} ( z | s_{1} ( t ) sent ) = {cases {1 / 4 , &amp; for - 1 \leq z \leq 3 # 0 , &amp; otherwise}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">0.1</choice>
+        <choice no="2" is_answer="false">0.2</choice>
+        <choice no="3" is_answer="true">0.25</choice>
+        <choice no="4" is_answer="false">0.5</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 신호, 각각, 데이터, 비트 | 정답 선지: 0.25</explanation_ref>
+    </question>
+    <question no="17" id="PRB-AA2473F496C0FF55-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>디지털 통신의 비트율과 심볼률에 대한 설명으로 옳지 않은 것은?</stem>
+      <formulas count="1">
+        <formula area="선택지①">mus</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">비트 폭(bit duration)이 20 [$mus$]인 통신 시스템의 비트율은 50 [kbps]이다.</choice>
+        <choice no="2" is_answer="false">어떤 8－PAM 통신에서 메시지 신호의 대역폭이 3 [kHz]일 때, 이 통신 시스템의 심볼간 간섭(ISI)이 없도록 하는 최소 비트율은 18 [kbps]이다.</choice>
+        <choice no="3" is_answer="true">한 영문자를 8비트로 표현하여 전송하는 QPSK 통신 시스템에서 초당 2,000개의 영문자를 전송할 때, 이 통신 시스템의 심볼률은 4,000 [symbols/s]이다.</choice>
+        <choice no="4" is_answer="false">초당 14,400개로 표본화한 신호를 256－단계 균일 양자화(uniform quantization) 방식으로 부호화하여 전송할 때, 이 통신 시스템의 비트율은 115.2 [kbps]이다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 디지털 통신의 비트율과 심볼률, 비트 폭(bit duration), 통신 시스템의 심볼간 간섭(ISI), 단계 균일 양자화(uniform quantization) | 정답 선지: 한 영문자를 8비트로 표현하여 전송하는 QPSK 통신 시스템에서 초당 2,000개의 영문자를 전송할 때, 이 통신 시...</explanation_ref>
+    </question>
+    <question no="18" id="PRB-AA2473F496C0FF55-Q18" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>코드분할 다중접속(CDMA) 시스템의 특징으로 옳지 않은 것은?</stem>
+      <choices count="4">
+        <choice no="1" is_answer="false">사용자 간 PN 코드의 비트열이 상이하므로 통신 보안이 제공된다.</choice>
+        <choice no="2" is_answer="false">대역확산 CDMA의 경우 처리 이득(processing gain)을 얻을 수 있다.</choice>
+        <choice no="3" is_answer="false">CDMA 신호는 넓은 주파수 대역으로 신호를 확산시켜 전송하므로 협대역 전파 방해에 강하다.</choice>
+        <choice no="4" is_answer="true">피크대평균 전력비(peak-to-average power ratio)가 높아 출력신호가 왜곡된다.</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 코드분할 다중접속(CDMA) 시스템의 특징, 코드분할 다중접속(CDMA), CDMA의 경우 처리 이득(processing gain) | 정답 선지: 피크대평균 전력비(peak-to-average power ratio)가 높아 출력신호가 왜곡된다.</explanation_ref>
+    </question>
+    <question no="19" id="PRB-AA2473F496C0FF55-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
+      <stem>그림과 같은 주기 신호 $x ( t )$가 FM 변조기에 입력될 때, 변조된 신호 $\cos [ 10000 \pi t + 100 \pi \int_{0}^{t} {x ( \tau ) d \tau} ]$의 최대 주파수 편이[Hz]는?</stem>
+      <formulas count="2">
+        <formula area="질문">x ( t )</formula>
+        <formula area="질문">\cos [ 10000 \pi t + 100 \pi \int_{0}^{t} {x ( \tau ) d \tau} ]</formula>
+      </formulas>
+      <images count="2">
+        <image area="지문" kind="도형" seq="1">이미지/PRB-AA2473F496C0FF55/19_도형_1.png</image>
+        <image area="지문" kind="PDF크롭" seq="1">이미지/PRB-AA2473F496C0FF55/19_pdf_1.png</image>
+      </images>
+      <choices count="4">
+        <choice no="1" is_answer="false">25</choice>
+        <choice no="2" is_answer="true">50</choice>
+        <choice no="3" is_answer="false">100</choice>
+        <choice no="4" is_answer="false">10,000</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: x ( t ) | 정답 선지: 50</explanation_ref>
+    </question>
+    <question no="20" id="PRB-AA2473F496C0FF55-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
+      <stem>$X$는 송신기에서 전송되는 값이며, $N$은 전송 채널에서 발생하는 가산성 잡음이다. 이때, $X$와 $N$은 서로 독립이며, 각각 $- 1 \leq X \leq 1$, $- 1 \leq N \leq 1$의 범위에서 균일 확률밀도함수(uniform probability density function)를 갖는 연속랜덤변수이다. 수신기에서 수신되는 신호가 $Y = X + N$일 때, $Y$의 확률밀도함수는?</stem>
+      <formulas count="12">
+        <formula area="질문">X</formula>
+        <formula area="질문">N</formula>
+        <formula area="질문">X</formula>
+        <formula area="질문">N</formula>
+        <formula area="질문">- 1 \leq X \leq 1</formula>
+        <formula area="질문">- 1 \leq N \leq 1</formula>
+        <formula area="질문">Y = X + N</formula>
+        <formula area="질문">Y</formula>
+        <formula area="선택지①">f_{Y} ( y ) = {cases {( 1 + y ) / 2 , for - 1 &lt; y \leq 0 &amp; # eqalign {( 1 - y ) / 2 , for 0 &lt; y \leq 1 # 0 , otherwise} &amp;}}</formula>
+        <formula area="선택지②">f_{Y} ( y ) = {cases {( 2 + y ) / 2 , for - 2 &lt; y \leq 0 &amp; # eqalign {( 2 - y ) / 2 , for 0 &lt; y \leq 2 # 0 , otherwise} &amp;}}</formula>
+        <formula area="선택지③">f_{Y} ( y ) = {cases {( 1 + y ) / 4 , for - 1 &lt; y \leq 0 &amp; # eqalign {( 1 - y ) / 4 , for 0 &lt; y \leq 1 # 0 , otherwise} &amp;}}</formula>
+        <formula area="선택지④">f_{Y} ( y ) = {cases {( 2 + y ) / 4 , for - 2 &lt; y \leq 0 &amp; # eqalign {( 2 - y ) / 4 , for 0 &lt; y \leq 2 # 0 , otherwise} &amp;}}</formula>
+      </formulas>
+      <choices count="4">
+        <choice no="1" is_answer="false">$f_{Y} ( y ) = {\left\{\begin{array}{ll}( 1 + y ) / 2 , for - 1 &lt; y \leq 0 &amp; \\ \begin{aligned}( 1 - y ) / 2 , for 0 &lt; y \leq 1 \\ 0 , otherwise\end{aligned} &amp;\end{array}\right.}$</choice>
+        <choice no="2" is_answer="false">$f_{Y} ( y ) = {\left\{\begin{array}{ll}( 2 + y ) / 2 , for - 2 &lt; y \leq 0 &amp; \\ \begin{aligned}( 2 - y ) / 2 , for 0 &lt; y \leq 2 \\ 0 , otherwise\end{aligned} &amp;\end{array}\right.}$</choice>
+        <choice no="3" is_answer="false">$f_{Y} ( y ) = {\left\{\begin{array}{ll}( 1 + y ) / 4 , for - 1 &lt; y \leq 0 &amp; \\ \begin{aligned}( 1 - y ) / 4 , for 0 &lt; y \leq 1 \\ 0 , otherwise\end{aligned} &amp;\end{array}\right.}$</choice>
+        <choice no="4" is_answer="true">$f_{Y} ( y ) = {\left\{\begin{array}{ll}( 2 + y ) / 4 , for - 2 &lt; y \leq 0 &amp; \\ \begin{aligned}( 2 - y ) / 4 , for 0 &lt; y \leq 2 \\ 0 , otherwise\end{aligned} &amp;\end{array}\right.}$</choice>
+      </choices>
+      <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 송신기에서, 전송되, 값이며, 전송 | 정답 선지: $f_{Y} ( y ) = {\left\{\begin{array}{ll}( 2 + y ) / 4 , for - 2 &lt;...</explanation_ref>
+    </question>
+  </questions>
+</exam_paper>

@@ -33,21 +33,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 및 데이터베이스 관리시스템(DBMS), 일반 사용자(end user), 데이터베이스 관리자(DBA), 응용 프로그래머(application programmer))
 정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>일반 사용자(end user)는 응용 프로그램을 통해 데이터베이스에 접속하여 원하는 정보를 얻는 사용자를 말한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>'일반 사용자(end user)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>데이터베이스 관리자(DBA)는 일반 사용자가 편리하게 데이터베이스에 접근할 수 있도록 인터페이스를 개발한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>'데이터베이스 관리자(DBA)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>일반 사용자는 데이터의 삽입, 삭제, 갱신 작업을 수행하기도 한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>'일반 사용자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>응용 프로그래머(application programmer)는 프로그래밍 언어를 이용하여 데이터베이스 응용 프로그램을 개발하는 사용자이다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -69,21 +69,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스, 트랜잭션, 올바르게, 수행된다)
 정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>각 트랜잭션의 모든 연산이 정상적으로 수행 완료되거나, 아니면 어떠한 연산도 수행되지 않은 원래 상태가 되어야 한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>트랜잭션이 그 실행을 성공적으로 완료하면 언제나 일관성 있는 데이터베이스 상태로 변환한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>트랜잭션이 성공적으로 끝난 뒤에는, 시스템에 오류가 발생하더라도 트랜잭션에 의해 변경된 데이터베이스 내용은 계속 유지되어야 한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>트랜잭션이 실행되는 동안의 값은 다른 트랜잭션이 접근할 수 있어야 한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -105,21 +105,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 관계형 데이터베이스의 릴레이션, 의 릴레이션에는 동일한 투플(tuple), 저장되는 값의 집합을 도메인(domain), 이션에는 동일한 이름의 속성(attribute))
 정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>하나의 릴레이션에는 동일한 투플(tuple)이 존재할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라고 한 부정·제한 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'하나의 릴레이션에'에 관하여 '할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>릴레이션의 투플에 저장되는 값의 집합을 도메인(domain)이라 한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>'릴레이션의 투플에 저장되'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>하나의 릴레이션에서 투플의 순서는 의미가 없다.</choice_text>
-          <commentary>'없다'라고 한 부정·제한 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'하나의 릴레이션에서 투플의 순서'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>하나의 릴레이션에는 동일한 이름의 속성(attribute)을 가질 수 없다.</choice_text>
-          <commentary>'없다'라고 한 부정·제한 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'하나의 릴레이션에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -141,21 +141,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스 및 DBMS, 개념적 데이터 모델(conceptual data model), 데이터 정의어(DDL), 데이터 조작어(DML))
 정답은 ②이다. 본 문항은 데이터베이스 및 DBMS, 개념적 데이터 모델(conceptual data model), 데이터 정의어(DDL), 데이터 조작어(DML)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>개념적 데이터 모델(conceptual data model)은 데이터가 컴퓨터의 저장 장치에 어떻게 저장되는가에 대한 세부 사항을 명시하는 개념을 제공한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>데이터 정의어(DDL)를 이용하면 개념 스키마를 정의할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라고 한 성립·인정 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>데이터 조작어(DML)는 무결성 제약 조건을 정의하는 명령어를 포함한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>'데이터 조작어(DML)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DBMS는 데이터베이스 관리자나 일반 사용자가 아닌 응용 프로그래머를 위한 모듈은 제공하지 않는다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>'DBMS'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,21 +172,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스론)
 정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>뷰를 생성하는 질의가 수행되면 결과 데이터가 물리적 저장 장치에 저장된다.</choice_text>
-          <commentary>'된다'라고 한 부분에서 성립 요건 또는 해당 여부를 잘못 서술하였다. 따라서 옳지 않다.</commentary>
+          <commentary>'뷰를 생성하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>하나의 테이블로 여러 개의 상이한 뷰를 정의할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라고 한 성립·인정 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>뷰는 데이터의 접근을 제어함으로써 보안을 제공할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라고 한 성립·인정 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>DROP 문을 이용해 뷰를 삭제할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라고 한 성립·인정 여부에 관한 서술은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
+          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -207,21 +207,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 들을 나타내는 장바구니 분석(market basket analysis), 의 지지도(support), 의 신뢰도(confidence))
 정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>연관 규칙 {a, c} ⇒ {b}의 지지도(support)는 40 %이다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>'40 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>연관 규칙 {c} ⇒ {d}의 지지도(support)는 50 %이다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>제시된 '50 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>연관 규칙 {c} ⇒ {a, b}의 신뢰도(confidence)는 50 %이다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>'50 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>연관 규칙 {a} ⇒ {b}의 신뢰도(confidence)는 75 %이다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>'75 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,21 +243,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 지문 독해·추론형 (핵심어: 관계 모델(E-R Model), 사상 원소 수(mapping cardinality), 관계 다이어그램(E-R Diagram), 참여 제약 조건(participation constraint))
 정답은 ③이다. 본 문항은 관계 모델(E-R Model), 사상 원소 수(mapping cardinality), 관계 다이어그램(E-R Diagram), 참여 제약 조건(participation constraint)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -279,21 +279,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 어법·규범·어휘형 (핵심어: 관계 다이어그램(E-R Diagram), 관계형 데이터베이스의 스키마(schema), 밑줄이 표시된 속성은 키(key), ON(Hours))
 정답은 ④이다. 본 문항은 관계 다이어그램(E-R Diagram), 관계형 데이터베이스의 스키마(schema), 밑줄이 표시된 속성은 키(key), ON(Hours)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>EMPLOYEE_WORKS_ON_PROJECT(&lt;u&gt;ID&lt;/u&gt;, Name, Hours, &lt;u&gt;Number&lt;/u&gt;, Location)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>EMPLOYEE(&lt;u&gt;ID&lt;/u&gt;, Name, Hours) PROJECT(&lt;u&gt;Number&lt;/u&gt;, Location, Hours)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>EMPLOYEE(&lt;u&gt;ID&lt;/u&gt;, Name) WORKS_ON(Hours) PROJECT(&lt;u&gt;Number&lt;/u&gt;, Location)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>EMPLOYEE(&lt;u&gt;ID&lt;/u&gt;, Name) WORKS_ON(&lt;u&gt;ID&lt;/u&gt;, &lt;u&gt;Number&lt;/u&gt;, Hours) PROJECT(&lt;u&gt;Number&lt;/u&gt;, Location)</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -313,21 +313,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 학생성적, 성적)
 정답은 ①이다. 본 문항은 학생성적, 성적에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>| A | 10100 | |---|---| | B | 00001 | | C | 00010 | | D | 01000 |</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>| A | 00110 | |---|---| | B | 00001 | | C | 00100 | | D | 01000 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>| A | 00010 | |---|---| | B | 00100 | | C | 00011 | | D | 00001 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| A | 01111 | |---|---| | B | 11110 | | C | 11101 | | D | 10111 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -346,21 +346,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 다음 릴레이션에서 속성(A, B, C))
 정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>A → B는 성립하지 않는다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>B → C는 성립한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>(A, B) → C는 성립한다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
+        <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>(B, C) → A는 성립한다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -381,21 +381,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 시점에서 검사점(checkpoint), 시점에서 시스템 장애(failure), 이때 재실행(redo))
 정답은 ①이다. 본 문항은 시점에서 검사점(checkpoint), 시점에서 시스템 장애(failure), 이때 재실행(redo)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>T_(3), T_(4)</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>T_(5), T_(6)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>T_(0), T_(1), T_(2)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>T_(3), T_(4), T_(5), T_(6)</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -418,21 +418,21 @@
 관련 수식: $\sigma$; $\sigma$; $\rho$; $\pi$; $\sigma$</overall_commentary>
       <passage_evidence>Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>SELECT d_code FROM Emp, Dep WHERE d_name ＝ ‘전산부’;</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))")</commentary>
+          <commentary>제시문의 "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SELECT d.d_code AS d_code FROM Emp AS e, Dep AS d WHERE d_code ＝ d_code HAVING d_name ＝ ‘전산부’;</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))")</commentary>
+          <commentary>제시문의 "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SELECT d_code FROM Emp AS e, Dep AS d WHERE e.d_code ＝ d.d_code and e.d_name ＝ ‘전산부’;</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))")</commentary>
+          <commentary>제시문의 "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>SELECT d.d_code AS d_code FROM Emp AS e INNER JOIN Dep AS d ON e.d_code ＝ d.d_code WHERE d_name ＝ ‘전산부’;</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))")</commentary>
+          <commentary>제시문의 "Temp1 ← σ_(Emp.d_code=Dep.d_code)(Emp × σ_(d_name=‘전산부’)(Dep))" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,21 +453,21 @@
 제시문 근거: "SELECT 관리자사번, SUM(연구비) AS 연구비총액"</overall_commentary>
       <passage_evidence>SELECT 관리자사번, SUM(연구비) AS 연구비총액</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>| 관리자사번 | 연구비총액 | |---|---| | 1 | 3900 | | 3 | 3700 |</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "SELECT 관리자사번, SUM(연구비) AS 연구비총액")</commentary>
+          <commentary>제시문의 "SELECT 관리자사번, SUM(연구비) AS 연구비총액" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>| 관리자사번 | 연구비총액 | |---|---| | 1 | 3900 | | 2 | 3000 | | 3 | 3700 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "SELECT 관리자사번, SUM(연구비) AS 연구비총액")</commentary>
+          <commentary>제시문의 "SELECT 관리자사번, SUM(연구비) AS 연구비총액" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>| 관리자사번 | 연구비총액 | |---|---| | 1 | 4400 | | 2 | 4450 | | 3 | 4100 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "SELECT 관리자사번, SUM(연구비) AS 연구비총액")</commentary>
+          <commentary>제시문의 "SELECT 관리자사번, SUM(연구비) AS 연구비총액" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| 관리자사번 | 연구비총액 | |---|---| | 1 | 3900 | | 2 | 3000 | | 3 | 3700 | | 4 | 1500 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "SELECT 관리자사번, SUM(연구비) AS 연구비총액")</commentary>
+          <commentary>제시문의 "SELECT 관리자사번, SUM(연구비) AS 연구비총액" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -489,21 +489,21 @@
 제시문 근거: "| better | 강감찬 | 50 | | 1003 | best | umbrella |"</overall_commentary>
       <passage_evidence>| better | 강감찬 | 50 | | 1003 | best | umbrella |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>50</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "| better | 강감찬 | 50 | | 1003 | best | umbrella |")</commentary>
+          <commentary>제시문의 "| better | 강감찬 | 50 | | 1003 | best | umbrella |" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>70</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -526,21 +526,21 @@
 제시문 근거: "| SID | GID | | A | 90 |"</overall_commentary>
       <passage_evidence>| SID | GID | | A | 90 |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>| SID | GID | Score | |---|---|---| | 100 | A | 90 | | 200 | B | 80 | | 300 | A | 90 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| SID | GID | | A | 90 |")</commentary>
+          <commentary>제시문의 "| SID | GID | | A | 90 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>| SID | GID | Score | |---|---|---| | 100 | A | 90 | | 200 | B | 80 | | 300 | A | 90 | | 400 | F | NULL |</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "| SID | GID | | A | 90 |")</commentary>
+          <commentary>제시문의 "| SID | GID | | A | 90 |" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>| SID | GID | Score | |---|---|---| | 100 | A | 90 | | 200 | B | 80 | | 300 | A | 90 | | NULL | C | 70 | | NULL | D | 60 | | NULL | E | 50 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| SID | GID | | A | 90 |")</commentary>
+          <commentary>제시문의 "| SID | GID | | A | 90 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| SID | GID | Score | |---|---|---| | 100 | A | 90 | | 200 | B | 80 | | 300 | A | 90 | | 400 | F | NULL | | NULL | C | 70 | | NULL | D | 60 | | NULL | E | 50 |</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| SID | GID | | A | 90 |")</commentary>
+          <commentary>제시문의 "| SID | GID | | A | 90 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -559,21 +559,21 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 함수 종속 관계에서 결정자(determinant))
 정답은 ②이다. 본 문항은 함수 종속 관계에서 결정자(determinant)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>제2정규형</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>제3정규형</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
+          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>제4정규형</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>BCNF</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
+          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -595,21 +595,21 @@
 제시문 근거: "| 3 | U3 | GRANT SELECT ON 성적 TO U4; |"</overall_commentary>
       <passage_evidence>| 3 | U3 | GRANT SELECT ON 성적 TO U4; |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>사용자 U1은 데이터베이스 관리자(DBA)가 아니므로 다른 사용자에게 성적 테이블에 대한 SELECT 및 INSERT 권한을 부여할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라고 한 부분에서 가능 여부 또는 인정 범위를 반대로 서술하였다. 따라서 옳지 않다. (근거: "| 1 | U1 | GRANT SELECT, INSERT ON 성적 TO U2 WITH GRANT OPTION; |")</commentary>
+          <commentary>제시문의 "| 1 | U1 | GRANT SELECT, INSERT ON 성적 TO U2 WITH GRANT OPTION; |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사용자 U2는 성적 테이블에 대한 SELECT 권한이 있다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| 1 | U1 | GRANT SELECT, INSERT ON 성적 TO U2 WITH GRANT OPTION; |")</commentary>
+          <commentary>제시문의 "| 1 | U1 | GRANT SELECT, INSERT ON 성적 TO U2 WITH GRANT OPTION; |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>사용자 U4는 성적 테이블에 대한 SELECT 권한이 있다.</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "| 3 | U3 | GRANT SELECT ON 성적 TO U4; |")</commentary>
+          <commentary>제시문의 "| 3 | U3 | GRANT SELECT ON 성적 TO U4; |" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>사용자 U5는 성적 테이블에 대한 SELECT 권한이 있다.</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| 5 | U4 | GRANT SELECT ON 성적 TO U5; |")</commentary>
+          <commentary>제시문의 "| 5 | U4 | GRANT SELECT ON 성적 TO U5; |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -629,39 +629,39 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 복합 보기 검증형 (핵심어: NoSQL의 특징, 반정형 데이터(semi-structured data))
 정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(X), ㄷ(O), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄷ, ㄹ)이다.</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="옳지 않은 진술 (X)">
+        <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>반정형 데이터(semi-structured data)를 처리하기에는 적합하지 않다.</statement>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "반정형 데이터(semi-structured data)를 처리하기에는 적합하지 않다.")</commentary>
+          <commentary>제시문의 "반정형 데이터(semi-structured data)를 처리하기에는 적합하지 않다." 내용과 배치되므로 옳지 않다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="옳지 않은 진술 (X)">
+        <bogi_item symbol="ㄴ" judgment="[X]">
           <statement>트랜잭션의 ACID 성질을 완벽히 보장하는 것이 중요하다.</statement>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "트랜잭션의 ACID 성질을 완벽히 보장하는 것이 중요하다.")</commentary>
+          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시문의 "트랜잭션의 ACID 성질을 완벽히 보장하는 것이 중요하다." 내용과 배치되므로 옳지 않다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="옳은 진술 (O · 정답 포함)">
+        <bogi_item symbol="ㄷ" judgment="[O] (정답)">
           <statement>문서－기반 모델은 NoSQL에서 사용되는 데이터 모델의 한 종류이다.</statement>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "문서－기반 모델은 NoSQL에서 사용되는 데이터 모델의 한 종류이다.")</commentary>
+          <commentary>제시문의 "문서－기반 모델은 NoSQL에서 사용되는 데이터 모델의 한 종류이다." 내용과 일치하므로 옳다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄹ" judgment="옳은 진술 (O · 정답 포함)">
+        <bogi_item symbol="ㄹ" judgment="[O] (정답)">
           <statement>스키마를 요구하지 않는 경우가 있다.</statement>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "스키마를 요구하지 않는 경우가 있다.")</commentary>
+          <commentary>제시문의 "스키마를 요구하지 않는 경우가 있다." 내용과 일치하므로 옳다.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="오답">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="오답">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="정답">
+        <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄷ, ㄹ)이므로 옳다.</commentary>
+          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄷ, ㄹ)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -684,35 +684,35 @@
       <overall_commentary>출제 영역: 데이터베이스론 · 복합 보기 검증형 (핵심어: B^(+)－트리 인덱스, 루트(root), 를 포함한 내부 노드(internal node), 트리의 루트(root), 에서 단말 노드(leaf node))
 정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄴ, ㄷ)이다.</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="옳지 않은 진술 (X)">
+        <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>루트(root)를 포함한 내부 노드(internal node)는 데이터 파일 레코드를 가리키는 포인터를 갖는다.</statement>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "루트(root)를 포함한 내부 노드(internal node)는 데이터 파일 레코드를 가리키는 포인터를 갖는다.")</commentary>
+          <commentary>제시문의 "루트(root)를 포함한 내부 노드(internal node)는 데이터 파일 레코드를 가리키는 포인터를 갖는다." 내용과 배치되므로 옳지 않다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="옳은 진술 (O · 정답 포함)">
+        <bogi_item symbol="ㄴ" judgment="[O] (정답)">
           <statement>트리의 루트(root)에서 단말 노드(leaf node)까지 모든 경로의 길이가 같은 균형 트리(balanced tree) 형태이다.</statement>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "트리의 루트(root)에서 단말 노드(leaf node)까지 모든 경로의 길이가 같은 균형 트리(balanced tree) 형태이다.")</commentary>
+          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시문의 "트리의 루트(root)에서 단말 노드(leaf node)까지 모든 경로의 길이가 같은 균형 트리(balanced tree) 형태이다." 내용과 일치하므로 옳다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="옳은 진술 (O · 정답 포함)">
+        <bogi_item symbol="ㄷ" judgment="[O] (정답)">
           <statement>단말 노드(leaf node)는 검색키 값을 기초로 선형 순서로 되어 있어 데이터 레코드들을 그 키 값의 순서에 따라 능률적으로 순차 접근할 수 있게 해 준다.</statement>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "단말 노드(leaf node)는 검색키 값을 기초로 선형 순서로 되어 있어 데이터 레코드들을 그 키 값의 순서에 따라 능률적으로 순차 접근할 수 있게 해 준다.")</commentary>
+          <commentary>제시문의 "단말 노드(leaf node)는 검색키 값을 기초로 선형 순서로 되어 있어 데이터 레코드들을 그 키 값의 순서에 따라 능률적으로 순차 접근할 수 있게 해 준다." 내용과 일치하므로 옳다.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="오답">
+        <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="정답">
+        <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이므로 옳다.</commentary>
+          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="오답">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이므로 옳지 않다.</commentary>
+          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -734,21 +734,21 @@
 제시문 근거: "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |"</overall_commentary>
       <passage_evidence>| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
+        <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>{전화번호}</choice_text>
-          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |")</commentary>
+          <commentary>제시문의 "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |" 내용과 일치하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>{학원생이름}</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |")</commentary>
+          <commentary>제시문의 "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>{전화번호, 학년}</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |")</commentary>
+          <commentary>제시문의 "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
+        <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>{학년, 반}</choice_text>
-          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |")</commentary>
+          <commentary>제시문의 "| 학원생이름 | 전화번호 | 나이 | 학교이름 | 학년 | 반 |" 내용과 배치되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

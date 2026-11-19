@@ -648,7 +648,8 @@ function buildExplanationPanel(q) {
       const row = document.createElement("div");
       row.className = "exp-choice-row";
       const strong = document.createElement("strong");
-      strong.textContent = `${getCircledNumber(ce.no)} [${ce.judgment}] `;
+      const jLabel = ce.judgment.startsWith("[") ? ce.judgment : `[${ce.judgment}]`;
+      strong.textContent = `${getCircledNumber(ce.no)} ${jLabel} `;
       row.append(strong, document.createTextNode(ce.commentary));
       list.appendChild(row);
     }

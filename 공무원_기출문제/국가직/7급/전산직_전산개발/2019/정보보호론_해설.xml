@@ -27,24 +27,24 @@
         <correct_choice_text>자신의 무결성 수준보다 높거나 같은 수준의 객체만 읽을 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: Biba 보안 모델)
-정답은 ④이다. 본 문항은 Biba 보안 모델에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 비바 무결성 모델
+정답은 ④이다. 비바 모델은 무결성을 보호하기 위해 자신보다 낮은 무결성 수준의 객체는 읽을 수 없고(No Read Down, 높거나 같은 수준만 읽기 가능), 자신보다 높은 무결성 수준의 객체에는 쓸 수 없다(No Write Up, 낮거나 같은 수준에만 쓰기 가능).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>이해가 상충되는 회사들 간의 정보 흐름이 일어나지 않도록 고안되었다.</choice_text>
-          <commentary>'이해'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이해 상충 회사 간 정보 흐름을 막는 것은 브루어-내시(만리장성) 모델이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>자신의 보안 수준보다 낮거나 같은 수준의 객체만 읽을 수 있다.</choice_text>
-          <commentary>'자신의 보안 수준보다 낮거나 같'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>낮거나 같은 수준만 읽는 것은 벨-라파둘라 모델의 No Read Up 규칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>자신의 보안 수준보다 높거나 같은 수준의 객체에만 쓸 수 있다.</choice_text>
-          <commentary>'자신의 보안 수준보다 높거나 같'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>높거나 같은 수준에만 쓰는 것은 벨-라파둘라 모델의 No Write Down 규칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>자신의 무결성 수준보다 높거나 같은 수준의 객체만 읽을 수 있다.</choice_text>
-          <commentary>'자신의 무결성 수준보다 높거나 같'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>무결성 수준이 높거나 같은 객체만 읽을 수 있는 것은 비바 모델의 규칙이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -62,24 +62,24 @@
         <correct_choice_text>MTU(Maximum Transfer Unit)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: MTU(Maximum Transfer Unit), RTO(Recovery Time Objective), RPO(Recovery Point Objective))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 업무영향분석의 고려 항목
+정답은 ②이다. 업무영향분석(BIA)에서는 업무 중단이 미치는 영향을 분석하여 최대 허용 중단 시간(MTD), 목표 복구 시간(RTO), 목표 복구 시점(RPO) 등을 정한다. MTU(최대 전송 단위)는 네트워크에서 한 번에 전송할 수 있는 최대 패킷 크기로 BIA와 관련이 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>MTD(Maximum Tolerable Downtime)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>MTD는 업무가 중단되어도 견딜 수 있는 최대 시간으로 BIA 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>MTU(Maximum Transfer Unit)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MTU는 네트워크 전송 단위이므로 BIA 고려 항목이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>RTO(Recovery Time Objective)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RTO는 업무를 복구해야 하는 목표 시간으로 BIA 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>RPO(Recovery Point Objective)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RPO는 데이터를 복구해야 하는 목표 시점으로 BIA 항목이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -98,24 +98,24 @@
         <correct_choice_text>비형식적 접근(Informal Approach)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 기준선 접근(Baseline Approach), 상세 위험 분석(Detailed Risk Analysis), 비형식적 접근(Informal Approach), 복합 접근(Combined Approach))
-정답은 ③이다. 본 문항은 기준선 접근(Baseline Approach), 상세 위험 분석(Detailed Risk Analysis), 비형식적 접근(Informal Approach), 복합 접근(Combined Approach)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 비형식적 접근법
+정답은 ③이다. 비형식적(비정형) 접근법은 구조화된 방법론 없이 분석가 개인의 지식과 경험으로 위험을 분석하는 방법으로, 비용 대비 효과가 좋아 중소 규모 조직에 적합하지만, 개인 경험에 의존하여 정당성과 일관성이 부족할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기준선 접근(Baseline Approach)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기준선 접근법은 표준 보호 대책을 일괄 적용하는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>상세 위험 분석(Detailed Risk Analysis)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상세 위험 분석은 정형화된 프로세스로 위험을 상세히 분석한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>비형식적 접근(Informal Approach)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>분석가 개인의 지식과 경험을 활용하는 것은 비형식적 접근법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>복합 접근(Combined Approach)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>복합 접근법은 상세 분석과 기준선 접근을 조합한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -131,24 +131,24 @@
         <correct_choice_text>HMAC</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 연결(concatenation))
-정답은 ②이다. 본 문항은 연결(concatenation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · HMAC
+정답은 ②이다. 주어진 식 H[(K⁺ ⊕ opad) || H[(K⁺ ⊕ ipad) || M]]은 해시 함수와 비밀키를 이용한 메시지 인증 코드인 HMAC의 정의이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>GMAC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>GMAC은 GCM 모드에서 갈루아 필드 곱셈을 이용하는 MAC이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>HMAC</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ipad, opad와 해시 함수를 이중으로 적용하는 것은 HMAC이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>CMAC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CMAC은 블록 암호(CBC 방식)를 이용한 MAC이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>전자 서명</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전자서명은 개인키로 생성하며 비밀키와 해시를 이용하는 이 식과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -165,24 +165,24 @@
         <correct_choice_text>사용자 계정 관리</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보보호 및 개인정보보호 관리체계(ISMS-P)의 인증 등에 관한 고시」, 호 및 개인정보보호 관리체계(ISMS-P))
-정답은 ①이다. 본 문항은 「정보보호 및 개인정보보호 관리체계(ISMS-P)의 인증 등에 관한 고시」, 호 및 개인정보보호 관리체계(ISMS-P)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS-P 개인정보 처리 단계별 요구사항
+정답은 ①이다. 개인정보 처리 단계별 요구사항은 수집 시 보호조치, 보유 및 이용 시 보호조치, 제공 시 보호조치, 파기 시 보호조치, 정보주체 권리 보호의 5개 분야로, 이용자 단말기 접근 보호, 영상정보처리기기 설치·운영, 개인정보 처리방침 공개 등을 포함한다. 사용자 계정 관리는 보호대책 요구사항의 '인증 및 권한관리' 분야이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>사용자 계정 관리</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자 계정 관리는 보호대책 요구사항이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>이용자 단말기 접근 보호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이용자 단말기 접근 보호는 개인정보 처리 단계별 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>영상정보처리기기 설치․운영</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>영상정보처리기기 설치·운영은 개인정보 처리 단계별 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>개인정보처리방침 공개</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개인정보 처리방침 공개는 개인정보 처리 단계별 요구사항이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -199,24 +199,24 @@
         <correct_choice_text>계정 패스워드의 유효기간은 7일이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 리눅스 /etc/shadow 파일 항목, 솔트(salt))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · /etc/shadow 항목 해석
+정답은 ④이다. shadow 파일의 필드는 '계정명:패스워드:최종 변경일:최소 사용 기간:최대 사용 기간:경고 기간:비활성 기간:만료일:예약'이다. abcd는 계정명, $1$은 MD5, qPZPGTVz는 솔트이다. 17562는 최종 변경일, 0은 최소 사용 기간, 99999는 최대 사용 기간, 7은 만료 전 경고 기간, 3은 비활성 기간이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>계정명은 abcd이다.</choice_text>
-          <commentary>'계정명'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>첫 번째 필드 abcd는 계정명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>계정 패스워드의 해시값 계산에 사용된 해시 함수는 MD－5이다.</choice_text>
-          <commentary>'계정 패스워드의 해시값 계산에 사용된 해시 함수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>$1$은 MD5 해시 함수를 의미한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>솔트(salt)값은 qPZPGTVz이다.</choice_text>
-          <commentary>'솔트(salt)값'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>두 번째와 세 번째 $ 사이의 qPZPGTVz는 솔트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>계정 패스워드의 유효기간은 7일이다.</choice_text>
-          <commentary>'계정 패스워드의 유효기간'에 관하여 제시된 '7일' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>7은 만료 전 경고 일수이며 유효기간은 99999일이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -235,25 +235,24 @@
         <correct_choice_text>범죄의 예방을 위하여 필요한 경우</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ③이다. 본 문항은 「개인정보 보호법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보의 목적 외 이용·제공
+정답은 ③이다. 출제 당시 「개인정보 보호법」 제18조 제2항은 별도 동의, 다른 법률의 특별 규정, 급박한 생명·신체·재산의 이익, 통계 작성·학술 연구를 위해 특정 개인을 알아볼 수 없는 형태로 제공하는 경우 등에 목적 외 이용·제공을 허용하였다. 범죄와 관련해서는 '범죄의 수사와 공소의 제기 및 유지'를 위한 경우(공공기관)로 규정되어 있으며, 범죄 예방은 사유가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>정보주체로부터 별도의 동의를 받은 경우</choice_text>
-          <commentary>'정보주체로부터 별도의 동의를 받'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정보주체로부터 별도의 동의를 받은 경우는 허용 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>통계작성 및 학술연구 등의 목적을 위하여 필요한 경우로서 특정 개인을 알아볼 수 없는 형태로 개인정보를 제공하는 경우</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>출제 당시 통계 작성·학술 연구를 위해 비식별 형태로 제공하는 경우는 허용 사유였다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>범죄의 예방을 위하여 필요한 경우</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>범죄 예방은 목적 외 이용·제공 사유가 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>정보주체 또는 그 법정대리인이 의사표시를 할 수 없는 상태에 있거나 주소불명 등으로 사전 동의를 받을 수 없는 경우로서 명백히 정보주체 또는 제3자의 급박한 생명, 신체, 재산의 이익을 위하여 필요하다고 인정되는 경우</choice_text>
-          <commentary>'정보주체 또'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>동의를 받을 수 없는 상황에서 급박한 생명·신체·재산의 이익을 위한 경우는 허용 사유이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -269,24 +268,24 @@
         <correct_choice_text>예외 처리 － 보안기능 동작을 위해 사용되는 입력값과 함수의 외부입력값 및 수행결과에 대한 처리방법 설계</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「전자정부 SW 개발․운영자를 위한 소프트웨어 개발보안 가이드」)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 소프트웨어 개발보안 설계 항목
+정답은 ③이다. 개발보안 가이드의 분석·설계 단계 보안 요구 항목 중 '예외 처리'는 오류나 예외 상황에서 시스템 정보 등 중요 정보가 노출되지 않도록 처리 방법을 설계하는 것이다. 보안 기능에 사용되는 입력값과 함수의 외부 입력값 및 결과에 대한 처리 방법을 설계하는 것은 '보안 기능 입력값 검증' 항목이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>인증 수행 제한 － 인증 반복시도 제한 및 인증실패 등에 대한 인증제한 기능 설계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증 수행 제한은 반복 시도 제한과 인증 실패 처리 기능을 설계하는 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>암호키 관리 － 암호키 생성, 분배, 접근, 파기 등 안전하게 암호키 생명주기를 관리할 수 있는 방법 설계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>암호키 관리는 키의 생성, 분배, 접근, 파기 등 생명주기 관리 방법을 설계하는 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>예외 처리 － 보안기능 동작을 위해 사용되는 입력값과 함수의 외부입력값 및 수행결과에 대한 처리방법 설계</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>제시된 내용은 보안 기능 입력값 검증 항목의 설명이므로 예외 처리에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>시스템 자원 접근 및 명령어 수행 입력값 검증 － 시스템 자원접근 및 명령어 수행을 위해 사용되는 입력값에 대한 유효성 검증방법과 유효하지 않은 값에 대한 처리방법 설계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시스템 자원 접근 및 명령어 수행 입력값 검증은 해당 입력값의 유효성 검증 방법을 설계하는 항목이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -303,24 +302,24 @@
         <correct_choice_text>(13, 37)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 는 RSA 시스템에서 키값 (e, d), (7, 11))
-정답은 ③이다. 본 문항은 는 RSA 시스템에서 키값 (e, d), (7, 11)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · RSA 키 쌍의 선택
+정답은 ③이다. n = 13 × 11 = 143, φ(n) = 12 × 10 = 120이다. e는 120과 서로소이고 e × d ≡ 1 (mod 120)을 만족해야 한다. 13 × 37 = 481 = 4 × 120 + 1이므로 (13, 37)이 유효한 키 쌍이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(7, 11)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>7 × 11 = 77로 120으로 나눈 나머지가 1이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(7, 23)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>7 × 23 = 161로 나머지가 41이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>(13, 37)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>13 × 37 = 481 ≡ 1 (mod 120)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(13, 47)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>13 × 47 = 611로 나머지가 11이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -337,24 +336,24 @@
         <correct_choice_text>블록 생성자(miner)의 계정</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: e root 해시값 작업증명(proof of work), nonce 값 블록 생성자(miner))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 비트코인 블록 헤더
+정답은 ④이다. 비트코인 블록 헤더는 버전, 이전 블록 헤더의 이중 SHA-256 해시, 머클 루트, 타임스탬프, 난이도 목표(bits), 논스(nonce)로 구성된다. 블록 생성자(채굴자)의 계정은 블록 헤더에 포함되지 않으며, 보상 정보는 블록 본문의 코인베이스 거래에 들어간다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이전 블록의 헤더를 두 번 연속 해시한 값</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이전 블록 헤더를 두 번 해시한 값은 블록 헤더 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>해당 블록에 포함된 모든 트랜잭션의 해시로부터 추출된 merkle root 해시값</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>모든 거래의 해시로부터 계산한 머클 루트는 블록 헤더 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>작업증명(proof of work) 조건을 만족하는 nonce 값</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>작업 증명 조건을 만족하는 논스는 블록 헤더 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>블록 생성자(miner)의 계정</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>채굴자의 계정은 블록 헤더에 포함되지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -372,24 +371,24 @@
         <correct_choice_text>약한 충돌 저항성(Weak Collision Resistance)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 의사난수성(Pseudo-randomness), 역상 저항성(Pre-image Resistance), 약한 충돌 저항성(Weak Collision Resistance))
-정답은 ③이다. 본 문항은 의사난수성(Pseudo-randomness), 역상 저항성(Pre-image Resistance), 약한 충돌 저항성(Weak Collision Resistance)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 약한 충돌 저항성
+정답은 ③이다. 주어진 x에 대해 H(y) = H(x)이면서 y ≠ x인 y를 찾기 어려운 성질은 약한 충돌 저항성(제2 역상 저항성)이다. 임의의 서로 다른 x, y에 대해 H(x) = H(y)인 쌍을 찾기 어려운 것은 강한 충돌 저항성이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>의사난수성(Pseudo-randomness)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>의사난수성은 해시 출력이 무작위처럼 보이는 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>역상 저항성(Pre-image Resistance)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>역상 저항성은 해시값 h로부터 H(x) = h인 x를 찾기 어려운 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>약한 충돌 저항성(Weak Collision Resistance)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주어진 x에 대해 같은 해시값의 y를 찾기 어려운 것은 약한 충돌 저항성이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>강한 충돌 저항성(Strong Collision Resistance)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>강한 충돌 저항성은 x를 미리 정하지 않고 충돌쌍을 찾기 어려운 성질이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -408,24 +407,24 @@
         <correct_choice_text>SAM SRM LSA</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 윈도우, 운영체제, 보안, 컴포넌트)
-정답은 ①이다. 본 문항은 윈도우, 운영체제, 보안, 컴포넌트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 윈도우 보안 컴포넌트
+정답은 ①이다. SAM(Security Account Manager)은 로컬 사용자 계정과 패스워드 정보를 저장하는 데이터베이스이다(㉠). SRM(Security Reference Monitor)은 커널 모드에서 객체 접근 시 권한을 확인한다(㉡). LSA(Local Security Authority)는 사용자 모드에서 로컬 보안 정책을 집행하고 인증을 담당한다(㉢).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>SAM SRM LSA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ SAM, ㉡ SRM, ㉢ LSA이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SRM SAM LSA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계정 데이터베이스는 SRM이 아니라 SAM이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SAM SRM SID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SID는 보안 식별자이며 보안 정책 집행 컴포넌트가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SRM SAM SID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SAM과 SRM의 역할이 바뀌었고 SID는 컴포넌트가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -444,8 +443,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 블록암호, 운용모드, 암호, 과정에서)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 운용 모드별 복호화 함수
+정답은 ②이다. ECB와 CBC는 복호화할 때 암호문 블록을 직접 복호화 함수 D로 처리해야 한다. CFB와 OFB는 암호화 함수 E로 키 스트림을 만들어 XOR하는 방식이므로 복호화 과정에서도 E만 사용한다. 따라서 ㄱ, ㄴ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>ECB ㄴ. CBC ㄷ. CFB ㄹ. OFB</statement>
@@ -455,19 +454,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ)이다.</commentary>
+          <commentary>CBC도 복호화 함수 D가 필요하므로 ECB만 고른 것은 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ECB와 CBC는 복호화 시 D가 필요하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>CFB와 OFB는 복호화에도 E만 사용하므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄹ)이다.</commentary>
+          <commentary>OFB는 복호화에 E만 사용하므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -488,25 +487,24 @@
         <correct_choice_text>자신의 개인정보를 열람한 정보주체는 개인정보처리자에게 그 개인정보의 정정 또는 삭제를 요구할 수 있다. 다만, 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 개인정보 보호위원회의 심의를 거쳐 요구할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, ｢개인정보 보호법｣상 ‘정보주체의 권리 보장’, 정보주체의 권리 보장)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보주체의 권리 보장
+정답은 ②이다. 「개인정보 보호법」 제36조 제1항 단서에 따르면 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없다. 보호위원회의 심의를 거쳐 요구할 수 있는 것이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보주체는 개인정보처리자가 처리하는 자신의 개인정보에 대한 열람을 해당 개인정보처리자에게 요구할 수 있다.</choice_text>
-          <commentary>'정보주체'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>정보주체는 자신의 개인정보 열람을 요구할 수 있다(제35조).</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>자신의 개인정보를 열람한 정보주체는 개인정보처리자에게 그 개인정보의 정정 또는 삭제를 요구할 수 있다. 다만, 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 개인정보 보호위원회의 심의를 거쳐 요구할 수 있다.</choice_text>
-          <commentary>'자신의 개인정보를 열람한 정보주체'에 관하여 '할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>다른 법령에서 수집 대상으로 명시된 경우에는 삭제를 요구할 수 없으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 정보주체가 열람등요구를 할 수 있는 구체적인 방법과 절차를 마련하고, 이를 정보주체가 알 수 있도록 공개하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>개인정보처리자는 열람 등 요구의 방법과 절차를 마련하고 공개해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 정보주체가 열람등요구에 대한 거절 등 조치에 대하여 불복이 있는 경우 이의를 제기할 수 있도록 필요한 절차를 마련하고 안내하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>개인정보처리자는 열람 등 요구 거절에 대한 이의 제기 절차를 마련하고 안내해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -525,24 +523,24 @@
         <correct_choice_text>재전송 공격(Replay Attack)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 호스트는 비표(nonce), 전사 공격(Brute-Force Attack), 트래픽 스니핑 공격(Traffic Sniffing Attack), 재전송 공격(Replay Attack))
-정답은 ④이다. 본 문항은 호스트는 비표(nonce), 전사 공격(Brute-Force Attack), 트래픽 스니핑 공격(Traffic Sniffing Attack), 재전송 공격(Replay Attack)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 비표(nonce)의 역할
+정답은 ④이다. 호스트가 매번 새로운 임의 숫자 r을 생성하여 응답에 포함시키게 하면, 공격자가 이전에 가로챈 응답 f(r, h(P))를 다시 보내더라도 r이 달라 인증에 실패한다. 따라서 r은 재전송 공격에 대비하기 위한 것이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>전사 공격(Brute-Force Attack)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전사 공격은 모든 경우를 대입하는 공격으로 비표로 막을 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>트래픽 스니핑 공격(Traffic Sniffing Attack)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비표는 트래픽 도청 자체를 막지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>패스워드 사전 공격(Password Dictionary Attack)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사전 공격은 패스워드 강도와 솔트 등으로 대응한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>재전송 공격(Replay Attack)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>매번 다른 r로 이전 응답의 재사용을 막으므로 재전송 공격 대비이며 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -561,24 +559,24 @@
         <correct_choice_text>HTTP 서버가 클라이언트에 대한 정보를 유지하는 상태(stateful) 프로토콜이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: HTTP 버전 1.1, 연결로 보내지는 지속 연결(persistent connection), 연결을 이용하는 비지속 연결(non-persistent connection), 대한 정보를 유지하는 상태(stateful))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · HTTP 1.1
+정답은 ④이다. HTTP는 TCP를 사용하며, 요청 라인은 메서드, URL, 버전으로 구성된다. HTTP 1.1은 지속 연결을 기본으로 하고 비지속 연결도 지원한다. HTTP는 각 요청을 독립적으로 처리하며 서버가 클라이언트 상태를 유지하지 않는 무상태(stateless) 프로토콜이다. 상태 유지는 쿠키와 세션으로 보완한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>TCP를 전송 프로토콜로 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>HTTP는 TCP를 전송 프로토콜로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>요청 메시지의 첫 줄인 요청 라인에는 메소드, URL, HTTP 버전 필드가 포함된다.</choice_text>
-          <commentary>'요청 메시지의 첫 줄인 요청 라인에'에 관하여 '포함된다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>요청 라인에는 메서드, URL, HTTP 버전이 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>요청과 그에 대한 응답이 같은 연결로 보내지는 지속 연결(persistent connection)을 기본으로 하며, 분리된 별도의 연결을 이용하는 비지속 연결(non-persistent connection)도 지원한다.</choice_text>
-          <commentary>'요청과 그'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>HTTP 1.1은 지속 연결을 기본으로 하며 비지속 연결도 지원한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>HTTP 서버가 클라이언트에 대한 정보를 유지하는 상태(stateful) 프로토콜이다.</choice_text>
-          <commentary>'HTTP 서버'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>HTTP는 무상태 프로토콜이므로 상태 프로토콜이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -597,24 +595,24 @@
         <correct_choice_text>두 번째 세그먼트의 순서 번호는 첫 번째 세그먼트가 운반에 성공한 데이터의 바이트 수를 첫 번째 세그먼트의 순서 번호에 더한 것이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 서버, 응용, 메시지, 여러)
-정답은 ②이다. 본 문항은 서버, 응용, 메시지, 여러에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · TCP 순서 번호와 확인 응답
+정답은 ②이다. TCP 순서 번호는 바이트 단위로 매겨지므로, 두 번째 세그먼트의 순서 번호는 첫 번째 세그먼트의 순서 번호에 첫 세그먼트가 운반한 데이터 바이트 수를 더한 값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>클라이언트와 서버 간의 TCP 연결 설정 후, 첫 번째 세그먼트의 순서 번호는 일반적으로 0부터 시작한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초기 순서 번호(ISN)는 보안상 무작위 값으로 정하며 0부터 시작하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>두 번째 세그먼트의 순서 번호는 첫 번째 세그먼트가 운반에 성공한 데이터의 바이트 수를 첫 번째 세그먼트의 순서 번호에 더한 것이다.</choice_text>
-          <commentary>'두 번째 세그먼트의 순서 번호'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다음 순서 번호 = 이전 순서 번호 + 운반한 바이트 수이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>일정량의 데이터를 포함한 세그먼트를 정상적으로 수신한 클라이언트는 수신한 세그먼트의 순서 번호에 1을 더한 값을 확인응답 번호로 하여 응답하고 다음 세그먼트를 기다린다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>확인 응답 번호는 수신한 순서 번호에 1이 아니라 수신한 바이트 수를 더한 값(다음에 받을 바이트 번호)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>클라이언트가 FIN 세그먼트를 보내고 서버가 이에 대한 ACK 세그먼트를 보냄으로써 서버의 데이터 전송을 위한 연결이 완전히 종료된다.</choice_text>
-          <commentary>'클라이언트'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>TCP 연결 종료는 양방향 FIN과 ACK를 교환하는 4단계로 이루어진다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -633,24 +631,24 @@
         <correct_choice_text>Tiny Fragment Attack</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 네트워크, 기반)
-정답은 ④이다. 본 문항은 다음에서, 설명하, 네트워크, 기반에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Tiny Fragment 공격
+정답은 ④이다. Tiny Fragment 공격은 IP 단편화를 이용하여 패킷을 매우 작게 나누어 TCP 헤더가 여러 단편에 걸쳐 분리되게 함으로써, 첫 단편만 검사하는 패킷 필터 방화벽을 우회하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Source Routing Attack</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Source Routing 공격은 IP 소스 라우팅 옵션으로 패킷 경로를 조작하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Ping of Death</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Ping of Death는 최대 크기를 초과하는 ICMP 패킷으로 시스템을 마비시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Trinoo</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Trinoo는 UDP 플러딩을 수행하는 DDoS 공격 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Tiny Fragment Attack</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>TCP 헤더를 단편으로 분리하여 방화벽을 우회하는 것은 Tiny Fragment 공격이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -669,24 +667,24 @@
         <correct_choice_text>매년 과학기술정보통신부장관</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보보호산업의 진흥에 관한 법률」, 「전자정부법」, 은 ｢정보보호산업의 진흥, 법령 조문)
-정답은 ①이다. 본 문항은 「정보보호산업의 진흥에 관한 법률」, 「전자정부법」, 은 ｢정보보호산업의 진흥, 법령 조문에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보보호 구매수요 정보 제공
+정답은 ①이다. 「정보보호산업의 진흥에 관한 법률」 제8조에 따르면 행정기관이나 공공기관의 장은 매년 정보보호기술 등에 대한 구매수요 정보를 과학기술정보통신부 장관에게 제출하여야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>매년 과학기술정보통신부장관</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ 매년, ㉡ 과학기술정보통신부 장관이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>매년 행정안전부장관</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>제출 대상은 행정안전부 장관이 아니라 과학기술정보통신부 장관이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2년마다 과학기술정보통신부장관</choice_text>
-          <commentary>제시된 '2년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>제출 주기는 2년마다가 아니라 매년이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2년마다 행정안전부장관</choice_text>
-          <commentary>제시된 '2년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>주기와 제출 대상이 모두 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -702,24 +700,24 @@
         <correct_choice_text>TKIP</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 메시지 무결성 코드(MIC))
-정답은 ④이다. 본 문항은 메시지 무결성 코드(MIC)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · TKIP
+정답은 ④이다. TKIP(Temporal Key Integrity Protocol)는 IEEE 802.11i에서 WEP의 취약점을 보완하기 위해 정의한 프로토콜로, 기존 하드웨어와 호환되도록 RC4 암호를 그대로 쓰면서 패킷별 키 혼합과 Michael 메시지 무결성 코드(MIC)를 추가하였다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>EAP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>EAP는 확장 인증 프로토콜로 데이터 암호화 프로토콜이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>WEP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>WEP는 RC4를 사용하지만 MIC가 없고 CRC로 무결성을 검사하는 취약한 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>CCMP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CCMP는 RC4가 아니라 AES-CCM을 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>TKIP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>MIC와 RC4를 이용하는 802.11i 프로토콜은 TKIP이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

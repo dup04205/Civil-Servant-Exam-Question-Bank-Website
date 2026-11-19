@@ -27,24 +27,24 @@
         <correct_choice_text>01010101</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 수리·계산·자료해석형 (핵심어: 보 P와 K의 배타적 논리합(XOR))
-정답은 ③이다. 본 문항은 보 P와 K의 배타적 논리합(XOR)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · XOR 연산과 키 계산
+정답은 ③이다. Q = P ⊕ K이면 K = P ⊕ Q이다(XOR은 같은 값을 두 번 적용하면 원래대로 돌아감). 11010011 ⊕ 10000110을 비트별로 계산하면, 같은 비트는 0, 다른 비트는 1이 되어 01010101이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>11010011</choice_text>
-          <commentary>제시문의 "○ P = 11010011" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>11010011은 평문 P이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10000110</choice_text>
-          <commentary>제시문의 "○ Q = 10000110" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>10000110은 결과 Q이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>01010101</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>P ⊕ Q = 01010101이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>01010100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>01010100은 마지막 비트 계산이 틀린 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -60,24 +60,24 @@
         <correct_choice_text>사용하기 불편하므로 인증서를 전혀 사용하지 않는다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: DRM(Digital Right Management))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · DRM
+정답은 ④이다. DRM은 문서와 콘텐츠를 암호화하고 열람, 편집, 출력 등의 사용 권한을 통제하여 인가된 사용자만 사용할 수 있게 하는 기술이다. 하드디스크를 도난당해도 암호화되어 있어 유출 위험이 적다. 사용자 인증과 권한 확인을 위해 인증서 등 인증 수단을 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>문서의 열람, 편집, 프린트 등에 대한 접근 권한을 설정한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>DRM은 열람, 편집, 출력 등의 접근 권한을 설정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>문서 사용에 인가를 부여받은 사용자에게 접근을 허용한다.</choice_text>
-          <commentary>'문서 사용에 인가를 부여받'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>DRM은 인가된 사용자에게만 접근을 허용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DRM 모듈로 운영되는 시스템의 하드디스크는 도난당하더라도 정보 유출의 위험이 적다.</choice_text>
-          <commentary>'DRM 모듈로 운영되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>문서가 암호화되어 있어 하드디스크를 도난당해도 유출 위험이 적다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>사용하기 불편하므로 인증서를 전혀 사용하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DRM은 사용자 인증에 인증서 등을 사용하므로 전혀 사용하지 않는다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -93,24 +93,24 @@
         <correct_choice_text>ARIA － 국가보안기술연구소 주관으로 64비트 블록 암호로 128비트 암호화키만 지원</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 블록암호 알고리즘)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 블록 암호 알고리즘
+정답은 ④이다. ARIA는 국가보안기술연구소 주관으로 개발된 128비트 블록 암호로, 128·192·256비트의 세 가지 키 길이를 지원한다. 64비트 블록, 128비트 키만 지원한다는 설명은 틀렸다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IDEA － 상이한 대수 그룹으로부터의 세 가지 연산을 혼합하는 방식</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IDEA는 XOR, 모듈러 덧셈, 모듈러 곱셈의 세 가지 서로 다른 대수 연산을 혼합한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Blowfish － 키의 크기가 가변적이므로 안전성과 성능의 요구에 따라 유연하게 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Blowfish는 32~448비트의 가변 키 길이를 지원하여 유연하게 사용할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>SEED － 1999년 KISA와 국내 암호전문가들이 개발한 128비트 블록암호</choice_text>
-          <commentary>'1999년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>SEED는 1999년 KISA와 국내 전문가들이 개발한 128비트 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>ARIA － 국가보안기술연구소 주관으로 64비트 블록 암호로 128비트 암호화키만 지원</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ARIA는 128비트 블록에 128·192·256비트 키를 지원하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -126,24 +126,24 @@
         <correct_choice_text>AES는 블록 크기가 192비트이며, 키는 192비트와 256비트 두 가지를 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 암호화)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 암호 알고리즘
+정답은 ①이다. AES는 블록 크기가 128비트로 고정되어 있으며, 키 길이는 128, 192, 256비트 세 가지를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>AES는 블록 크기가 192비트이며, 키는 192비트와 256비트 두 가지를 사용한다.</choice_text>
-          <commentary>'AES'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AES의 블록 크기는 192비트가 아니라 128비트이며 키도 세 가지이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Rabin은 RSA와 같은 원리로 암호화하고, 2차 합동에 근거하고 있다.</choice_text>
-          <commentary>'Rabin'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Rabin은 RSA처럼 합성수 모듈러 연산을 이용하며 2차 합동(제곱근 계산)의 어려움에 근거한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DES는 대칭키 방식으로서 16개 라운드로 구성되어 있다.</choice_text>
-          <commentary>'DES'에 관하여 '16개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>DES는 대칭키 블록 암호로 16라운드로 구성된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>One-Time Pad는 암호화를 수행할 때마다 랜덤하게 선택된 키 스트림을 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>원타임패드는 메시지마다 무작위로 선택한 일회용 키 스트림을 사용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -159,24 +159,24 @@
         <correct_choice_text>게스트 운영체제 사용자들에게 하이퍼바이저에 접근하는 관리권한을 부여해야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 가상화 시스템을 보호하는 방법)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 가상화 시스템 보안
+정답은 ①이다. 하이퍼바이저는 모든 게스트 운영체제를 관리하는 핵심 계층이므로, 관리 권한은 소수의 관리자에게만 부여하고 게스트 운영체제 사용자에게는 접근 권한을 주지 않아야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>게스트 운영체제 사용자들에게 하이퍼바이저에 접근하는 관리권한을 부여해야 한다.</choice_text>
-          <commentary>'해야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>게스트 사용자에게 하이퍼바이저 관리 권한을 주면 모든 게스트가 위험해지므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>원격 감독 기능을 사용할 때에는 적절한 인증과 암호화 메커니즘을 사용해야 한다.</choice_text>
-          <commentary>'원격 감독 기능을 사용할 때에'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>원격 관리 기능에는 적절한 인증과 암호화를 적용해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>게스트 운영체제와 응용프로그램을 보호하는 것 외에도 가상화 환경과 하이퍼바이저도 보호해야 한다.</choice_text>
-          <commentary>'게스트 운영체제와 응용프로그램을 보호하'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>게스트 운영체제와 응용뿐 아니라 가상화 환경과 하이퍼바이저도 보호해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>하이퍼바이저가 게스트의 활동을 투명하게 감시해야 한다.</choice_text>
-          <commentary>'하이퍼바이저'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>하이퍼바이저는 게스트의 활동을 투명하게 감시해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -195,24 +195,24 @@
         <correct_choice_text>FISMA</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보시스템, 보호하기, 위한, 미국)
-정답은 ②이다. 본 문항은 정보시스템, 보호하기, 위한, 미국에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 미국의 정보보호관리체계
+정답은 ②이다. FISMA(연방 정보보안 관리법)는 미국 연방 기관이 정보시스템을 보호하기 위해 정보보안 프로그램을 수립·운영하도록 요구하는 법률이자 관리 체계이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>PIPL</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PIPL은 중국의 개인정보보호법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>FISMA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>미국의 정보보호관리체계는 FISMA이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>JIPDEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>JIPDEC은 일본 정보처리개발협회로 일본의 인증(프라이버시마크 등)을 담당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NICST</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NICST는 미국의 정보보호관리체계 명칭이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -231,24 +231,24 @@
         <correct_choice_text>㉠ － 응답 포트 번호</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 솔라리스, 에서, 파일전송, 발생되)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · FTP 전송 로그(xferlog)
+정답은 ①이다. xferlog는 '날짜·시간, 전송 시간, 원격 호스트, 파일 크기, 파일 이름, 전송 유형, 특수 동작, 방향, 접근 모드, 사용자 이름, 서비스 이름, 인증 방법, 인증된 사용자 ID, 완료 상태' 순으로 기록된다. ㉠ 2870은 응답 포트가 아니라 전송된 파일의 크기(바이트)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>㉠ － 응답 포트 번호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>㉠ 2870은 파일 크기이므로 응답 포트 번호라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>㉡ － 전송된 파일의 이름</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉡ /tmp/12-ftp.bmp는 전송된 파일의 이름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>㉢ － 바이너리 파일 전송</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉢ b는 바이너리 파일 전송을 의미한다(a는 ASCII).</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>㉣ － 인증 서버를 사용하지 않음</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉣ 인증 방법 0과 함께 기록된 *는 인증 서버를 사용하지 않아 인증된 사용자 ID가 없음을 나타낸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -264,24 +264,24 @@
         <correct_choice_text>엄격한 보안이 요구되는 경우는 FAR을 높이고, FRR을 낮춤으로써 보안성을 향상시킬 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 생체인식)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 생체 인식의 특징
+정답은 ④이다. 생체 인식에서 FAR(오인식률)은 비인가자를 받아들이는 비율, FRR(오거부율)은 정당한 사용자를 거부하는 비율이며, 두 곡선의 교차점이 CER(EER)이다. 엄격한 보안이 필요하면 FAR을 낮추어야 하며, 그 대가로 FRR은 높아진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>생체인식은 사람의 생체적 특징과 행동적 특징을 통한 보편성, 유일성, 영속성, 획득성을 요구한다.</choice_text>
-          <commentary>'생체인식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>생체 인식은 보편성, 유일성, 영속성, 획득성을 요구한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>FRR은 인증 권한이 있는 사람이 인증을 시도했을 때 인증에 실패하는 비율을 말한다.</choice_text>
-          <commentary>'FRR'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>FRR은 정당한 사용자가 인증에 실패하는 비율이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>CER은 잘못된 거부율과 잘못된 허용 비율 곡선의 교차점을 말한다.</choice_text>
-          <commentary>'CER'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>CER은 FRR 곡선과 FAR 곡선의 교차점이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>엄격한 보안이 요구되는 경우는 FAR을 높이고, FRR을 낮춤으로써 보안성을 향상시킬 수 있다.</choice_text>
-          <commentary>'엄격한 보안'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>엄격한 보안을 위해서는 FAR을 낮춰야 하므로 FAR을 높인다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -298,24 +298,24 @@
         <correct_choice_text>위험관리 방법 및 계획에 따라 정보보호 일부 영역에 대한 위험 식별 및 평가를 2년에 1회 수행하고 그 결과에 따라 조직에서 수용 가능한 위험수준도 설정하여 관리하여야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보보호관리체계(ISMS)의 정보보호 관리과정, 정보보호관리체계(ISMS))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS의 위험 관리
+정답은 ③이다. 정보보호 관리체계의 위험 관리는 정보보호 전 영역을 대상으로 위험을 식별·평가해야 하며, 최소 연 1회 이상 수행해야 한다. 일부 영역만 2년에 1회 수행하는 것은 기준에 맞지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보보호정책은 조직이 수행하는 모든 정보보호활동의 근거를 포함할 수 있도록 수립하고, 조직에 미치는 영향을 고려하여 중요한 업무, 서비스, 조직, 자산 등을 포함할 수 있도록 범위를 설정한다.</choice_text>
-          <commentary>'정보보호정책'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보보호 정책은 모든 활동의 근거를 포함하고 중요 업무, 서비스, 조직, 자산을 포함하도록 범위를 설정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>최고경영자는 조직의 규모, 업무 중요도 분석을 통해 정보보호 관리체계의 지속적인 운영이 가능하도록 정보보호 최고책임자, 실무조직 등 정보보호조직을 구성하고 정보보호 관리체계 운영 활동을 수행하는 데 필요한 자원을 확보하여야 한다.</choice_text>
-          <commentary>'최고경영자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>최고경영자는 정보보호 최고책임자와 실무 조직을 구성하고 필요한 자원을 확보해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>위험관리 방법 및 계획에 따라 정보보호 일부 영역에 대한 위험 식별 및 평가를 2년에 1회 수행하고 그 결과에 따라 조직에서 수용 가능한 위험수준도 설정하여 관리하여야 한다.</choice_text>
-          <commentary>'2년' 기준 또는 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>위험 식별·평가는 전 영역에 대해 연 1회 이상 수행해야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정보보호대책 이행 계획에 따라 보호대책을 구현하고 경영진은 이행 결과의 정확성 및 효과성 여부를 확인하여 구현된 정보보호대책을 실제 운영 또는 시행할 부서 및 담당자를 파악하여 관련 내용을 공유하고 교육하여야 한다.</choice_text>
-          <commentary>'하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>보호 대책을 구현하고 경영진이 이행 결과를 확인하며 담당자에게 공유·교육해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -334,24 +334,24 @@
         <correct_choice_text>Cards and personal identification</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 에서, 담당하, 범위, 아닌)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISO/IEC JTC 1 SC 27
+정답은 ②이다. ISO/IEC JTC 1 SC 27은 정보보호 기술 분야를 담당하며, 정보보호 관리체계(27000 시리즈), 보안 평가 기준과 방법론(CC 등), 보안 요구사항 도출 방법론, 암호 기술 등을 다룬다. 카드와 개인 식별 분야는 SC 17이 담당한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Management of information and ICT security</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보 및 ICT 보안 관리는 SC 27의 범위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>Cards and personal identification</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>카드와 개인 식별은 SC 17의 범위이므로 SC 27의 담당이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Security evaluation criteria and methodology</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보안 평가 기준과 방법론은 SC 27의 범위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Security requirements capture methodology</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보안 요구사항 도출 방법론은 SC 27의 범위이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -367,24 +367,24 @@
         <correct_choice_text>Rootkit － 스택에 할당된 버퍼보다 큰 코드를 삽입하여 오동작을 일으킴</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 해킹 수단과 그 공격 방법)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 해킹 수단과 공격 방법
+정답은 ②이다. 루트킷은 공격자가 관리자 권한을 유지하면서 자신의 흔적과 악성 프로세스를 숨기는 도구 모음이다. 스택에 할당된 버퍼보다 큰 코드를 넣어 오동작을 일으키는 것은 버퍼(스택) 오버플로 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Ransomware － 파일을 암호화한 후 복호화를 조건으로 금전을 요구함</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>랜섬웨어는 파일을 암호화한 뒤 복호화를 조건으로 금전을 요구한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>Rootkit － 스택에 할당된 버퍼보다 큰 코드를 삽입하여 오동작을 일으킴</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스택 버퍼 초과 입력은 버퍼 오버플로이므로 루트킷에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>SQL Injection － 데이터베이스에 질의어를 변조하여 공격함</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SQL 인젝션은 데이터베이스 질의를 변조하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Cross-site Scripting － 웹 페이지에 악성 스크립트를 삽입하여 정보를 획득함</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>크로스사이트 스크립팅은 웹 페이지에 악성 스크립트를 삽입하여 정보를 획득한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -403,24 +403,24 @@
         <correct_choice_text>KCMVP</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 암호모듈, 따라, 검증하고, 안전성)
-정답은 ①이다. 본 문항은 암호모듈, 따라, 검증하고, 안전성에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · KCMVP
+정답은 ①이다. KCMVP(암호모듈 검증 제도)는 국가정보원과 국가보안기술연구소가 KS X ISO/IEC 19790에 따라 암호모듈의 안전성과 구현 적합성을 검증하는 국내 제도이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>KCMVP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>KS X ISO/IEC 19790에 따른 국내 암호모듈 검증 제도는 KCMVP이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>TCSEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>TCSEC은 미국의 신뢰 시스템 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ITSEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ITSEC은 유럽의 정보보호 시스템 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>METI</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>METI는 일본의 경제산업성이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -436,24 +436,24 @@
         <correct_choice_text>WPA, WPA2, WEP 중에서 가장 안전한 보안 방법인 WEP를 이용한 무선랜의 통신 보호</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 주소 필터링의 적용 SSID(Service Set Identifier))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 무선랜 보안
+정답은 ④이다. 무선랜 보안을 위해 MAC 주소 필터링, SSID 브로드캐스팅 금지, 관리자 패스워드의 주기적 변경, 강력한 암호화 방식 사용 등을 적용한다. WEP는 RC4 키 스케줄링과 짧은 IV 등의 취약점으로 쉽게 해독되므로 가장 취약한 방식이며, WPA2(또는 WPA3)를 사용해야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>MAC 주소 필터링의 적용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>MAC 주소 필터링으로 허가된 장치만 접속하게 할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>SSID(Service Set Identifier) 브로드캐스팅의 금지</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SSID 브로드캐스팅을 금지하면 네트워크 노출을 줄일 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>무선 장비 관련 패스워드의 주기적인 변경</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>무선 장비 패스워드를 주기적으로 변경하는 것은 보안 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>WPA, WPA2, WEP 중에서 가장 안전한 보안 방법인 WEP를 이용한 무선랜의 통신 보호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>WEP는 가장 취약한 방식이므로 가장 안전하다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -469,24 +469,24 @@
         <correct_choice_text>사업 연속성 관리 영역은 형법과 민법, 법령, 규정 또는 계약 의무 및 보안 요구 사항에 대한 위반을 피하기 위한 기준을 제시한 것이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: ISO 27001의 통제 영역별 주요 내용)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISO 27001 통제 영역
+정답은 ②이다. ISO 27001에서 형법, 민법, 법령, 규정, 계약 의무와 보안 요구사항 위반을 피하기 위한 기준은 '준거성(compliance)' 영역이다. '사업 연속성 관리' 영역은 재해나 장애 시 핵심 업무가 중단되지 않도록 대비하는 내용을 다룬다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>자산 관리 영역은 자산을 파악하고, 이를 적절히 분류하고 보호하는 데 활용하는 것이다.</choice_text>
-          <commentary>'자산 관리 영역'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자산 관리 영역은 자산을 파악하고 분류하여 보호하는 내용이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>사업 연속성 관리 영역은 형법과 민법, 법령, 규정 또는 계약 의무 및 보안 요구 사항에 대한 위반을 피하기 위한 기준을 제시한 것이다.</choice_text>
-          <commentary>'사업 연속성 관리 영역'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>법령·계약 의무 위반 방지는 준거성 영역이므로 사업 연속성 관리에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정보시스템 획득, 개발, 유지 보수 영역은 정보시스템 내에 보안이 수립되어 있음을 보장하기 위한 것이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보시스템 획득, 개발, 유지보수 영역은 시스템에 보안이 내재되도록 보장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>통신 및 운영 관리 영역은 정보처리 설비의 정확하고 안전한 운영을 보장하기 위한 내용을 포함하고 있다.</choice_text>
-          <commentary>'통신 및 운영 관리 영역'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>통신 및 운영 관리 영역은 정보처리 설비의 정확하고 안전한 운영을 보장한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -502,24 +502,24 @@
         <correct_choice_text>13</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 수리·계산·자료해석형 (핵심어: 암호 알고리즘에서 공개키 (e, n))
-정답은 ②이다. 본 문항은 암호 알고리즘에서 공개키 (e, n)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · RSA 복호화 계산
+정답은 ②이다. n = 33 = 3 × 11이므로 φ(n) = 2 × 10 = 20이다. 7d ≡ 1 (mod 20)에서 d = 3이다(7 × 3 = 21 ≡ 1). 복호화 M = Cᵈ mod n = 7³ mod 33 = 343 mod 33 = 343 − 330 = 13이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>11을 암호화하면 11⁷ mod 33 = 11이 되어 C = 7과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>13</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>7³ mod 33 = 13이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>17</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>17은 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>19</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>19는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -535,24 +535,24 @@
         <correct_choice_text>passwd 명령으로 패스워드를 설정하면, 패스워드에 대한 암호화나 해시된 값이 /etc/passwd에 저장된다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 리눅스 파일의 접근 제어)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 리눅스 파일 접근 제어
+정답은 ②이다. passwd 명령으로 설정한 패스워드의 해시값은 /etc/passwd가 아니라 관리자만 읽을 수 있는 /etc/shadow에 저장된다. /etc/passwd의 패스워드 필드에는 x만 표시된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>모든 종류의 파일은 inode라는 파일 관리 수단으로 운영체제에 의해서 관리된다.</choice_text>
-          <commentary>'모든 종류의 파일'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>리눅스의 모든 파일은 inode로 관리된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>passwd 명령으로 패스워드를 설정하면, 패스워드에 대한 암호화나 해시된 값이 /etc/passwd에 저장된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>패스워드 해시값은 /etc/shadow에 저장되므로 /etc/passwd라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>superuser 계정은 시스템의 모든 권한이 가능하므로 외부에 노출되지 않도록 주의해야 한다.</choice_text>
-          <commentary>'superuser 계정'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>superuser(root) 계정은 모든 권한을 가지므로 노출되지 않도록 주의해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>어떤 권한을 가지고 있는가에 대한 UID, GID가 별도로 존재한다.</choice_text>
-          <commentary>'어떤 권한을 가지고 있는가'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자와 그룹 권한 확인을 위해 UID와 GID가 별도로 존재한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -569,24 +569,24 @@
         <correct_choice_text>블루투스의 취약점을 이용하여 장비의 임의 파일에 접근하는 공격은 BlueBug이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 블루투스, OPP(OBEX Push Profile))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 블루투스 보안
+정답은 ③이다. 블루투스 취약점을 이용하여 장비의 임의 파일(주소록, 일정 등)에 접근하는 공격은 블루스나프(BlueSnarf)이다. 블루버그(BlueBug)는 연결 관리 취약점을 이용해 장비에서 임의 명령(전화 걸기, 문자 전송 등)을 실행하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>페어링 과정은 한 장치가 그 지역에 있는 다른 장치들을 찾아 BD_ADDR이나 논리적 이름에 근거해 파트너가 될 장치를 선택하는 것이다.</choice_text>
-          <commentary>'페어링 과정'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>페어링은 주변 장치를 찾아 BD_ADDR이나 이름으로 연결할 장치를 선택하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>장치 간 종류를 식별하기 위해서 SDP(Service Discovery Protocol)를 보내고 받는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>장치는 SDP를 주고받아 제공 서비스와 종류를 식별한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>블루투스의 취약점을 이용하여 장비의 임의 파일에 접근하는 공격은 BlueBug이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>임의 파일 접근은 블루스나프이므로 블루버그라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>OPP(OBEX Push Profile)는 블루투스 장치끼리 인증 없이 정보를 간편하게 교환하기 위해 개발되었다.</choice_text>
-          <commentary>'OPP(OBEX Push Profile)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>OPP는 장치 간 인증 없이 명함 등 정보를 간편하게 교환하기 위해 개발되었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -602,24 +602,24 @@
         <correct_choice_text>내부 보안 정책을 만족하는 트래픽만이 방화벽을 통과할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 방화벽의 보안 기능)
-정답은 ④이다. 본 문항은 방화벽의 보안 기능에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 방화벽의 보안 기능
+정답은 ④이다. 방화벽은 내부 보안 정책에 따라 허용된 트래픽만 통과시키는 경계 보안 장치이다. 그러나 내부자 공격, 방화벽을 거치지 않는 무선랜 통신, 감염된 이동형 기기의 내부 반입 등은 막을 수 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>방화벽은 내부의 불만이 있는 사용자 또는 외부 공격자와 무의식적으로 협력하는 사용자를 완벽히 차단할 수 있다.</choice_text>
-          <commentary>'방화벽'에 관하여 '할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>방화벽은 내부의 악의적 사용자나 공격자에 협력하는 사용자를 완벽히 차단하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>방화벽을 설치하게 되면 외부로부터의 모든 무선랜 통신을 안전하게 보호할 수 있다.</choice_text>
-          <commentary>'할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>방화벽을 거치지 않는 무선랜 통신은 보호할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>랩톱, PDA와 같은 이동형 저장장치가 감염되는 경우에도 방화벽을 설치하여 내부 네트워크를 안전하게 보호할 수 있다.</choice_text>
-          <commentary>'할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>내부로 반입된 감염 기기로부터 내부 네트워크를 보호하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>내부 보안 정책을 만족하는 트래픽만이 방화벽을 통과할 수 있다.</choice_text>
-          <commentary>'내부 보안 정책을 만족하'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>내부 보안 정책을 만족하는 트래픽만 통과시키므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -636,24 +636,24 @@
         <correct_choice_text>Down Site － 웹 애플리케이션 서비스 등 데이터의 업데이트 빈도가 높은 정보시스템을 액티브로 전환하여 서비스하는 방식</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 재해복구 시스템의 복구 수준별 유형, 의 정보기술 자원을 대기상태(standby))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 재해복구 시스템 유형
+정답은 ③이다. 재해복구 시스템은 복구 수준에 따라 미러 사이트(실시간 동시 서비스), 핫 사이트(대기 상태로 미러링), 웜 사이트(중요 자원만 부분 구축), 콜드 사이트(설비만 갖추고 재해 시 자원 설치)로 분류된다. '다운 사이트'라는 유형은 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Mirror Site － 주 센터와 동일한 수준의 정보기술 자원(하드웨어, 소프트웨어, 기타 부대 장비 등)을 원격지에 구축하여 모두 액티브 상태에서 실시간으로 동시에 서비스하는 방식</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>미러 사이트는 동일 수준의 자원을 원격지에 구축하여 액티브 상태로 동시에 서비스한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Hot Site － 주 센터와 동일한 수준의 정보기술 자원을 대기상태(standby)로 원격지에 구축하여 동기적 혹은 비동기적 미러링을 통해 데이터의 최신을 유지하고 있다가 주 센터 재해 시 액티브로 전환하여 서비스하는 방식</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>핫 사이트는 동일 수준 자원을 대기 상태로 두고 미러링하다가 재해 시 전환한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>Down Site － 웹 애플리케이션 서비스 등 데이터의 업데이트 빈도가 높은 정보시스템을 액티브로 전환하여 서비스하는 방식</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>다운 사이트는 재해복구 시스템 유형이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Cold Site － 기계실, 전원 시설, 통신 설비, 공조 시설, 온도 조절 시스템 등을 갖추어 놓고, 주 센터 재해 시 정보기술 자원을 설치하여 서비스하는 방식</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>콜드 사이트는 기본 설비만 갖추고 재해 시 정보기술 자원을 설치한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -672,24 +672,24 @@
         <correct_choice_text>COBIT</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보보안, 관리, 규격, 보호)
-정답은 ①이다. 본 문항은 정보보안, 관리, 규격, 보호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · COBIT
+정답은 ①이다. COBIT(Control Objectives for Information and Related Technology)은 ISACA가 개발한 IT 거버넌스와 IT 통제에 관한 프레임워크로, IT 보호와 통제의 모범 실무를 제시한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>COBIT</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ISACA가 개발한 IT 통제 프레임워크는 COBIT이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>BS 7799</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>BS 7799는 영국표준협회의 정보보호 관리체계 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>BSI</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>BSI는 영국표준협회 또는 독일 연방정보보안청의 약칭이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>HIPAA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>HIPAA는 미국의 의료 정보 보호 법률이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

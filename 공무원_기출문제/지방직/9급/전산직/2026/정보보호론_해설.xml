@@ -27,24 +27,24 @@
         <correct_choice_text>트로이목마는 정상적인 프로그램으로 위장하여 자기 복제를 통해 다른 시스템으로 확산한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 악성 코드(malware))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 악성 코드의 유형
+정답은 ④이다. 트로이목마는 정상 프로그램으로 위장하여 사용자가 실행하도록 유도한 뒤 정보 유출, 원격 제어 등 악의적 기능을 수행하지만, 바이러스나 웜과 달리 스스로 복제하여 확산하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>바이러스는 다른 프로그램에 자신을 복제하여 악의적 목적을 수행한다.</choice_text>
-          <commentary>'바이러스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>바이러스는 다른 프로그램에 자신을 복제·감염시켜 악의적 목적을 수행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>랜섬웨어는 사용자의 파일을 암호화하여 자료를 인질로 잡고 금전을 요구한다.</choice_text>
-          <commentary>'랜섬웨어'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>랜섬웨어는 파일을 암호화한 뒤 복호화 대가로 금전을 요구한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>웜은 네트워크를 통해 자신을 복제하고 전파할 수 있는 악성 프로그램이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>웜은 숙주 없이 네트워크를 통해 스스로 복제·전파한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>트로이목마는 정상적인 프로그램으로 위장하여 자기 복제를 통해 다른 시스템으로 확산한다.</choice_text>
-          <commentary>'트로이목마'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>트로이목마는 자기 복제 기능이 없으므로 자기 복제로 확산한다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -60,24 +60,24 @@
         <correct_choice_text>공개키는 암호화에 사용하고 개인키는 복호화에 사용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 대칭키 암호 알고리즘)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 대칭키 암호 알고리즘
+정답은 ③이다. 대칭키 암호는 암호화와 복호화에 같은 비밀키를 사용하며, 공개키 암호보다 속도가 빠르고 키 길이가 짧다. 다만 사용자가 늘어날수록 관리할 키의 수가 늘어나는 키 관리 문제가 있다. 공개키로 암호화하고 개인키로 복호화하는 것은 공개키(비대칭키) 암호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>암호화/복호화 속도는 공개키 암호보다 빠르다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대칭키 암호는 공개키 암호보다 암복호화 속도가 빠르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>키의 길이가 공개키 암호보다 상대적으로 짧다.</choice_text>
-          <commentary>'키의 길이'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>같은 보안 강도에서 대칭키 암호의 키 길이가 상대적으로 짧다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>공개키는 암호화에 사용하고 개인키는 복호화에 사용한다.</choice_text>
-          <commentary>'공개키'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공개키와 개인키를 쓰는 것은 공개키 암호이므로 대칭키 암호에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>사용자의 증가에 따라 관리해야 할 키의 수가 비례적으로 늘어난다.</choice_text>
-          <commentary>'사용자의 증가에 따라 관리해야 할 키의 수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자가 n명이면 n(n−1)/2개의 키가 필요하여 사용자 증가에 따라 키 관리 부담이 커진다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -94,24 +94,24 @@
         <correct_choice_text>공유키 개인키 공유키 공개키</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 용어, 연결한)
-정답은 ③이다. 본 문항은 용어, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 메시지 인증 코드와 전자서명
+정답은 ③이다. 메시지 인증 코드(MAC)는 송신자와 수신자가 공유한 비밀키(공유키)로 MAC 값을 계산하고 비교한다. 전자서명은 송신자가 자신의 개인키로 서명을 작성하고, 수신자는 송신자의 공개키로 서명을 검증한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>공유키 공개키 공유키 개인키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전자서명은 개인키로 작성하고 공개키로 검증하므로 (나)와 (라)가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>개인키 공유키 공개키 공유키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MAC은 공유키를 사용하며 개인키로 계산하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>공유키 개인키 공유키 공개키</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) 공유키, (나) 개인키, (다) 공유키, (라) 공개키이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>개인키 공유키 공유키 공개키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MAC 송신자는 개인키가 아니라 공유키를 사용하며, 서명 작성은 개인키로 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -127,24 +127,24 @@
         <correct_choice_text>디지털 포렌식 과정에서 획득한 모든 증거는 법적 효력을 가진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 디지털 포렌식)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 디지털 포렌식의 원칙
+정답은 ①이다. 디지털 포렌식은 정당성(적법 절차), 재현성, 신속성, 연계 보관성(관리 연속성), 무결성의 원칙을 따른다. 위법한 절차로 획득한 증거는 증거능력이 인정되지 않으므로, 획득한 모든 증거가 법적 효력을 갖는 것은 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>디지털 포렌식 과정에서 획득한 모든 증거는 법적 효력을 가진다.</choice_text>
-          <commentary>'디지털 포렌식 과정에서 획득한 모든 증거'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위법하게 수집한 증거는 증거능력이 없으므로 모든 증거가 법적 효력을 가진다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>수집된 증거가 결함이 없이 위ㆍ변조되지 않았음을 증명할 수 있어야 한다.</choice_text>
-          <commentary>'수집된 증거'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수집된 증거가 위·변조되지 않았음을 증명해야 하는 것은 무결성의 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동일한 조건과 동일한 상황이라면 디지털 포렌식의 분석 결과는 항상 같은 결과가 나와야 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>같은 조건에서 분석 결과가 항상 같아야 하는 것은 재현성의 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>증거를 획득한 뒤에는 이송, 분석, 보관, 법정 제출이라는 일련의 과정 및 각 과정의 담당자가 명확해야 하며 이에 대한 추적이 가능해야 한다.</choice_text>
-          <commentary>'증거를 획득한 뒤에'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>이송·분석·보관·제출의 과정과 담당자가 명확해야 하는 것은 연계 보관성의 원칙이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -160,24 +160,24 @@
         <correct_choice_text>DES는 56비트 키를 사용하는 대칭키 암호 알고리즘이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 암호화 알고리즘)
-정답은 ①이다. 본 문항은 암호화 알고리즘에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 암호화 알고리즘
+정답은 ①이다. DES는 64비트 블록을 56비트 키로 암호화하는 대칭키 블록 암호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>DES는 56비트 키를 사용하는 대칭키 암호 알고리즘이다.</choice_text>
-          <commentary>'DES'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>DES는 56비트 키를 사용하는 대칭키 암호이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>AES는 국내에서 개발된 블록 암호 알고리즘으로 국제 표준이 되었다.</choice_text>
-          <commentary>'AES'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AES는 미국 NIST가 표준으로 선정한 알고리즘(Rijndael)이며 국내 개발 알고리즘이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SEED는 3개의 키값을 사용하고 DES의 3배인 168비트의 보안 강도를 제공한다.</choice_text>
-          <commentary>'SEED'에 관하여 제시된 '3개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>3개의 키를 사용하여 168비트 키 길이를 갖는 것은 3DES이며, SEED는 128비트 키를 쓰는 국산 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>RSA는 큰 소수의 곱을 인수분해하기 어렵다는 수학적 원리에 기반한 대칭키 암호 알고리즘이다.</choice_text>
-          <commentary>'RSA'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RSA는 소인수분해의 어려움에 기반한 공개키(비대칭키) 암호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -196,24 +196,24 @@
         <correct_choice_text>ARIA</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 국내, 국가보안기술연구소, 주도, 개발된)
-정답은 ②이다. 본 문항은 국내, 국가보안기술연구소, 주도, 개발된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ARIA
+정답은 ②이다. ARIA는 국가보안기술연구소(NSR)가 주도하여 학계·연구소와 함께 개발한 128비트 블록 암호로, 국가 표준(KS)으로 채택되었다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DES</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DES는 미국에서 개발된 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ARIA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>국가보안기술연구소 주도로 개발된 블록 암호는 ARIA이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>RC5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RC5는 미국의 로널드 라이베스트가 개발한 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IDEA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IDEA는 스위스에서 개발된 블록 암호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -232,24 +232,24 @@
         <correct_choice_text>키로깅(keylogging)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 피싱(phishing), 파밍(pharming), 스미싱(smishing), 키로깅(keylogging))
-정답은 ④이다. 본 문항은 피싱(phishing), 파밍(pharming), 스미싱(smishing), 키로깅(keylogging)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 키로깅
+정답은 ④이다. 키로깅은 사용자가 키보드로 입력하는 내용을 가로채어 기록하는 공격으로, 계정 정보나 금융 정보를 탈취하는 데 사용된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>피싱(phishing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>피싱은 가짜 웹사이트나 메일로 개인정보를 입력하도록 유도하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>파밍(pharming)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>파밍은 DNS나 hosts 파일을 변조하여 정상 주소 입력 시 가짜 사이트로 유도하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스미싱(smishing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스미싱은 문자 메시지의 링크를 통해 악성 앱을 설치하게 하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>키로깅(keylogging)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>키보드 입력 정보를 가로채는 것은 키로깅이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -267,24 +267,24 @@
         <correct_choice_text>생체 인증은 신체적 특성을 이용하므로 원천적으로 복제가 불가능하여 별도의 보안 대책이 필요하지 않다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 인증, SSO(Single Sign On), OTP(One Time Password))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 사용자 인증
+정답은 ②이다. 생체 인증은 지문, 홍채, 얼굴 등 신체 특성을 이용하지만, 실리콘 지문이나 사진 등으로 위조될 수 있고 한번 유출되면 변경이 어렵다. 따라서 위조 탐지, 템플릿 암호화 등 별도의 보안 대책이 필요하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>패스워드는 길이가 길고 대소문자, 숫자, 특수문자를 조합할수록 무차별 대입 공격에 대한 안전성이 높아진다.</choice_text>
-          <commentary>'패스워드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>패스워드는 길고 문자 종류를 조합할수록 무차별 대입 공격에 강해진다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>생체 인증은 신체적 특성을 이용하므로 원천적으로 복제가 불가능하여 별도의 보안 대책이 필요하지 않다.</choice_text>
-          <commentary>'생체 인증'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>생체 정보도 위조될 수 있으므로 별도의 보안 대책이 필요하지 않다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>SSO(Single Sign On)는 한 번의 인증으로 다수의 시스템에 접근할 수 있게 하는 인증 시스템이다.</choice_text>
-          <commentary>'SSO(Single Sign On)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SSO는 한 번의 인증으로 여러 시스템에 접근하게 하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>OTP(One Time Password)는 한 번 생성되면 그 인증값이 임시적으로 한 번에 한해서만 유효하며, 시간 동기화, 이벤트 동기화, 챌린지ㆍ응답 등의 방식으로 생성된다.</choice_text>
-          <commentary>'OTP(One Time Password)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>OTP는 한 번만 유효한 인증값으로, 시간 동기화, 이벤트 동기화, 질의·응답 방식으로 생성된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -303,24 +303,24 @@
         <correct_choice_text>Smurf</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 공격자, 공격대상, 주소, 위장하여)
-정답은 ①이다. 본 문항은 공격자, 공격대상, 주소, 위장하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Smurf 공격
+정답은 ①이다. Smurf 공격은 출발지 IP를 공격 대상 주소로 위조한 ICMP echo request를 브로드캐스트 주소로 보내, 네트워크 안의 다수 호스트가 보내는 echo reply가 공격 대상에 집중되게 하는 서비스 거부 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>Smurf</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위조된 출발지 주소와 브로드캐스트로 ICMP 요청을 보내는 것은 Smurf이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SYN Flooding</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SYN Flooding은 대량의 SYN 패킷으로 연결 대기 큐를 가득 채우는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ARP Spoofing</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ARP Spoofing은 위조된 ARP 응답으로 MAC 주소 테이블을 조작하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ICMP Redirect</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ICMP Redirect 공격은 위조된 경로 재지정 메시지로 트래픽 경로를 바꾸는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -337,24 +337,24 @@
         <correct_choice_text>허니팟은 시스템을 통과하는 패킷에 대해 일부분만을 샘플링하여 감시한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 허니팟(honeypot), 허니넷(honeynet))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 허니팟
+정답은 ④이다. 허니팟은 공격자를 유인하기 위해 일부러 취약하게 만든 시스템으로, 공격자에게 쉽게 노출되어야 하며 공격자의 모든 활동을 기록·분석한다. 여러 허니팟으로 구성한 네트워크를 허니넷이라 한다. 통과 패킷의 일부만 샘플링하는 것은 허니팟의 특징이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>허니팟은 공격자에게 쉽게 노출되어야 한다.</choice_text>
-          <commentary>'허니팟'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>허니팟은 공격자를 유인하기 위해 쉽게 노출되어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>허니팟은 쉽게 해킹이 가능한 것처럼 취약해 보이게 한다.</choice_text>
-          <commentary>'허니팟'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>허니팟은 쉽게 해킹할 수 있는 것처럼 취약해 보이게 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>허니넷(honeynet)은 여러 허니팟을 포함한 네트워크를 의미한다.</choice_text>
-          <commentary>'허니넷(honeynet)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>허니넷은 여러 허니팟을 포함한 네트워크이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>허니팟은 시스템을 통과하는 패킷에 대해 일부분만을 샘플링하여 감시한다.</choice_text>
-          <commentary>'허니팟'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>허니팟은 접근하는 모든 활동을 기록하므로 일부만 샘플링한다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -374,24 +374,24 @@
         <correct_choice_text>감사 추적(audit trail)은 시스템의 위험을 평가하고 비용 대비 효과적인 대응책을 수립하는 과정이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보시스템의 접근 제어(access control), 인증(authentication), 은 자신의 신원(identity), 감사 추적(audit trail), 인가(authorization))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 접근 제어와 로그 관리
+정답은 ②이다. 감사 추적(audit trail)은 시스템에서 발생한 사건과 사용자 행위를 시간 순서로 기록하여 사후 검토와 추적이 가능하게 하는 것이다. 시스템의 위험을 평가하고 비용 대비 효과적인 대응책을 수립하는 것은 위험 관리(위험 분석)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>인증(authentication)은 자신의 신원(identity)을 증명하기 위하여 행하는 과정이다.</choice_text>
-          <commentary>'인증(authentication)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증은 자신의 신원을 증명하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>감사 추적(audit trail)은 시스템의 위험을 평가하고 비용 대비 효과적인 대응책을 수립하는 과정이다.</choice_text>
-          <commentary>'감사 추적(audit trail)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험 평가와 대응책 수립은 위험 관리이므로 감사 추적에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>인가(authorization)는 인증된 주체에게 자원에 대한 접근 권한을 부여하거나 제한하는 과정이다.</choice_text>
-          <commentary>'인가(authorization)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인가는 인증된 주체에게 자원 접근 권한을 부여하거나 제한하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>책임 추적성(accountability)은 시스템에 접근한 주체가 어떤 행동을 하였는지 기록하여 필요 시 그 행위자를 추적할 수 있게 한다.</choice_text>
-          <commentary>'책임 추적성(accountability)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>책임 추적성은 주체의 행위를 기록하여 필요할 때 행위자를 추적할 수 있게 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -410,24 +410,24 @@
         <correct_choice_text>BS7799</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 영국, 제정한, 정보보호, 관리체계)
-정답은 ①이다. 본 문항은 영국, 제정한, 정보보호, 관리체계에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · BS7799
+정답은 ①이다. BS7799는 영국표준협회(BSI)가 제정한 정보보호 관리체계 표준으로, 이후 ISO/IEC 17799와 ISO/IEC 27001의 기반이 되었다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>BS7799</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>영국이 제정한 정보보호 관리체계 표준은 BS7799이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>FISMA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>FISMA는 미국 연방 정보보안 관리법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PIMS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PIMS는 우리나라의 개인정보보호 관리체계 인증이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NIST 800-53</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NIST 800-53은 미국 NIST의 보안 통제 지침이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -445,24 +445,24 @@
         <correct_choice_text>메모리 공격을 방어하려고 주소 공간 배치를 난수화하는 기법을 스택 가드(stack guard)라 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 버퍼 오버플로 공격, 난수화하는 기법을 스택 가드(stack guard), 세그멘테이션 폴트(segmentation fault))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 버퍼 오버플로 공격
+정답은 ③이다. 메모리 주소 공간의 배치(스택, 힙, 라이브러리 위치)를 실행할 때마다 무작위로 바꾸는 기법은 ASLR(Address Space Layout Randomization)이다. 스택 가드는 함수의 복귀 주소 앞에 카나리(canary) 값을 두어 변조 여부를 검사하는 기법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>버퍼에 정해진 크기 이상의 데이터를 입력하여 프로그램을 공격하는 행위이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>버퍼 오버플로는 버퍼에 정해진 크기를 초과하는 데이터를 입력하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>버퍼 오버플로에 취약한 함수(strcpy(), strcat() 등)는 사용하지 않는 것이 좋다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>경계 검사를 하지 않는 strcpy(), strcat() 등은 strncpy() 등 안전한 함수로 대체하는 것이 좋다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>메모리 공격을 방어하려고 주소 공간 배치를 난수화하는 기법을 스택 가드(stack guard)라 한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주소 공간 배치 난수화는 ASLR이므로 스택 가드라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>세그멘테이션 폴트(segmentation fault)가 발생했을 때 버퍼 오버플로 공격을 의심할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>세그멘테이션 폴트는 잘못된 메모리 접근으로 발생하므로 버퍼 오버플로를 의심할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -481,24 +481,24 @@
         <correct_choice_text>기밀성(confidentiality)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 가용성(availability), 무결성(integrity), 기밀성(confidentiality), 부인방지(non-repudiation))
-정답은 ③이다. 본 문항은 가용성(availability), 무결성(integrity), 기밀성(confidentiality), 부인방지(non-repudiation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 기밀성
+정답은 ③이다. 기밀성은 인가된 사용자만 정보에 접근할 수 있도록 하여 정보가 노출되지 않게 하는 보안 요소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>가용성(availability)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가용성은 인가된 사용자가 필요할 때 정보와 서비스를 이용할 수 있게 하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>무결성(integrity)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무결성은 정보가 인가되지 않은 방법으로 변경되지 않도록 하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>기밀성(confidentiality)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인가된 사용자에게만 정보 접근을 허용하는 것은 기밀성이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>부인방지(non-repudiation)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부인 방지는 송수신 사실을 나중에 부인하지 못하게 하는 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -517,24 +517,24 @@
         <correct_choice_text>과거자료 분석법</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정량적, 위험, 분석, 방법)
-정답은 ④이다. 본 문항은 정량적, 위험, 분석, 방법에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정량적 위험 분석 방법
+정답은 ④이다. 정량적 위험 분석 방법에는 과거 자료 분석법, 수학 공식 접근법, 확률 분포법 등이 있다. 델파이법, 시나리오법, 순위 결정법, 퍼지 행렬법 등은 정성적 방법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>델파이법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>델파이법은 전문가 의견을 활용하는 정성적 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시나리오법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시나리오법은 위협 발생 상황을 가정하는 정성적 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>순위결정법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순위 결정법은 위험 요소의 우선순위를 비교하는 정성적 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>과거자료 분석법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>과거 자료 분석법은 과거 자료로 위험을 수치화하는 정량적 방법이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -550,24 +550,24 @@
         <correct_choice_text>로그인된 사용자가 자신의 의지와는 무관하게 공격자가 의도한 행위를 하는 공격이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 공격)
-정답은 ④이다. 본 문항은 공격에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · CSRF 공격
+정답은 ④이다. CSRF(사이트 간 요청 위조)는 로그인된 사용자가 공격자가 만든 링크나 페이지를 열면, 사용자의 인증 정보를 이용해 사용자 의지와 무관하게 공격자가 의도한 요청(송금, 비밀번호 변경 등)이 서버에 전송되게 하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>쿠키를 변조한 후 불법적인 인증을 거쳐 권한을 획득하는 공격이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>쿠키를 변조하여 불법 인증을 하는 것은 쿠키 변조(세션 하이재킹 등) 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>악성 URL을 보내서 클릭 시 피해자의 정보를 유출하는 공격이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>악성 URL 클릭으로 피해자 정보를 유출하는 것은 XSS 등과 관련된 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>입력 값에 대한 유효성을 검증하지 않고 그대로 사용할 때 발생할 수 있는 데이터베이스 공격이다.</choice_text>
-          <commentary>'입력 값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>입력값 검증 없이 쿼리에 사용할 때 발생하는 데이터베이스 공격은 SQL 인젝션이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>로그인된 사용자가 자신의 의지와는 무관하게 공격자가 의도한 행위를 하는 공격이다.</choice_text>
-          <commentary>'로그인된 사용자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>로그인된 사용자가 의지와 무관하게 공격자가 의도한 행위를 하게 되는 공격은 CSRF이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -586,25 +586,24 @@
         <correct_choice_text>정보주체의 권리침해에 대한 조사 및 이에 따른 처분에 관한 사항</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 처리 위탁 문서
+정답은 ④이다. 「개인정보 보호법」 제26조에 따르면 위탁 문서에는 위탁 업무 수행 목적 외 개인정보 처리 금지, 개인정보의 기술적·관리적 보호 조치, 그 밖에 개인정보의 안전한 관리를 위해 대통령령으로 정한 사항(위탁 업무의 목적과 범위, 재위탁 제한, 관리 현황 점검 등 감독, 손해배상 등 책임)이 포함되어야 한다. 정보주체의 권리 침해에 대한 조사와 처분은 개인정보 보호위원회 등의 권한이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>개인정보의 기술적ㆍ관리적 보호조치에 관한 사항</choice_text>
-          <commentary>'개인정보의 기술적ㆍ관리적 보호조치'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보의 기술적·관리적 보호 조치는 위탁 문서 포함 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개인정보의 안전한 관리를 위하여 대통령령으로 정한 사항</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>안전한 관리를 위해 대통령령으로 정한 사항은 위탁 문서 포함 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위탁업무 수행 목적 외 개인정보의 처리 금지에 관한 사항</choice_text>
-          <commentary>'위탁업무 수행 목적 외 개인정보의 처리 금지'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위탁 업무 수행 목적 외 처리 금지는 위탁 문서 포함 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>정보주체의 권리침해에 대한 조사 및 이에 따른 처분에 관한 사항</choice_text>
-          <commentary>'정보주체의 권리침해'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권리 침해 조사와 처분은 위탁 문서 포함 사항이 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -624,25 +623,24 @@
         <correct_choice_text>개인정보처리자는 통계작성, 과학적 연구, 공익적 기록보존 등을 위하여 정보주체의 동의 없이 가명정보를 처리할 수 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, ｢개인정보 보호법｣상 가명정보의 처리)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 가명정보의 처리
+정답은 ①이다. 「개인정보 보호법」 제28조의2에 따르면 개인정보처리자는 통계 작성, 과학적 연구, 공익적 기록 보존 등을 위하여 정보주체의 동의 없이 가명정보를 처리할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>개인정보처리자는 통계작성, 과학적 연구, 공익적 기록보존 등을 위하여 정보주체의 동의 없이 가명정보를 처리할 수 없다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>통계 작성 등의 목적이면 동의 없이 가명정보를 처리할 수 있으므로 처리할 수 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>통계작성, 과학적 연구, 공익적 기록보존 등을 위한 서로 다른 개인정보처리자 간의 가명정보의 결합은 개인정보 보호위원회 또는 관계 중앙행정기관의 장이 지정하는 전문기관이 수행한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서로 다른 개인정보처리자 간의 가명정보 결합은 지정된 전문기관이 수행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 가명정보를 처리하는 과정에서 특정 개인을 알아볼 수 있는 정보가 생성된 경우에는 즉시 해당 정보의 처리를 중지하고, 지체 없이 회수ㆍ파기하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '즉시' 기준 및 '하여야 한다'라는 의무·기속 규정을 정확히 서술하였다.</commentary>
+          <commentary>처리 과정에서 특정 개인을 알아볼 수 있는 정보가 생성되면 즉시 처리를 중지하고 지체 없이 회수·파기해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 가명정보를 처리하는 경우에는 원래의 상태로 복원하기 위한 추가 정보를 별도로 분리하여 보관ㆍ관리하는 등 해당 정보가 분실ㆍ도난ㆍ유출ㆍ위조ㆍ변조 또는 훼손되지 않도록 대통령령으로 정하는 바에 따라 안전성 확보에 필요한 기술적ㆍ관리적 및 물리적 조치를 하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>가명정보를 처리할 때는 추가 정보를 분리 보관하는 등 안전성 확보 조치를 해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -661,25 +659,24 @@
         <correct_choice_text>개인정보의 수집 출처</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ①이다. 본 문항은 「개인정보 보호법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 영업양도 등에 따른 개인정보 이전
+정답은 ①이다. 「개인정보 보호법」 제27조에 따르면 영업의 양도·합병 등으로 개인정보를 이전할 때는 개인정보를 이전하려는 사실, 이전받는 자의 성명(명칭)·주소·연락처, 정보주체가 이전을 원하지 않는 경우 조치할 수 있는 방법과 절차를 미리 알려야 한다. 개인정보의 수집 출처는 통지 사항이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>개인정보의 수집 출처</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보의 수집 출처는 영업양도 시 통지 사항이 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>개인정보를 이전하려는 사실</choice_text>
-          <commentary>'개인정보를 이전하려'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개인정보를 이전하려는 사실은 통지 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>개인정보를 이전받는 자의 성명(법인의 경우에는 법인의 명칭을 말한다), 주소, 전화번호 및 그 밖의 연락처</choice_text>
-          <commentary>'개인정보를 이전받'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이전받는 자의 성명·주소·연락처는 통지 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>정보주체가 개인정보의 이전을 원하지 아니하는 경우 조치할 수 있는 방법 및 절차</choice_text>
-          <commentary>'정보주체'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이전을 원하지 않는 경우의 조치 방법과 절차는 통지 사항이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -698,24 +695,24 @@
         <correct_choice_text>IP Spoofing</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 네트워크, 공격)
-정답은 ②이다. 본 문항은 다음에서, 설명하, 네트워크, 공격에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · IP 스푸핑
+정답은 ②이다. IP 스푸핑은 신뢰 관계에 있는 두 호스트 중 하나를 서비스 거부 공격 등으로 마비시킨 뒤, 공격자가 그 호스트의 IP 주소로 위장하여 다른 호스트에 접속하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DNS Spoofing</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DNS 스푸핑은 DNS 응답을 위조하여 사용자를 가짜 사이트로 유도하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>IP Spoofing</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>신뢰 관계의 호스트를 마비시키고 그 IP로 위장하는 것은 IP 스푸핑이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Switch Jamming</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스위치 재밍은 위조 MAC 주소를 대량으로 보내 스위치를 허브처럼 동작하게 하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Teardrop</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Teardrop은 조작된 IP 단편으로 재조합 오류를 유발하는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

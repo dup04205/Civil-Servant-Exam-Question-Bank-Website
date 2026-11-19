@@ -29,24 +29,24 @@
         <correct_choice_text>이블 트윈 공격</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 패스워드, 공격, 해당하지)
-정답은 ②이다. 본 문항은 패스워드, 공격, 해당하지에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 패스워드 공격
+정답은 ②이다. 패스워드 공격에는 사전에 있는 단어를 대입하는 사전 대입 공격, 가능한 모든 조합을 시도하는 무작위 대입 공격, 미리 계산한 해시 체인 표로 해시값에서 패스워드를 찾는 레인보우 테이블 공격 등이 있다. 이블 트윈 공격은 정상 무선 AP로 위장한 가짜 AP를 설치하여 접속을 유도하는 무선 네트워크 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>사전 대입 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사전 대입 공격은 패스워드 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>이블 트윈 공격</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이블 트윈은 가짜 무선 AP를 이용한 공격이므로 패스워드 공격에 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>무작위 대입 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무작위 대입 공격은 패스워드 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>레인보우 테이블을 이용한 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>레인보우 테이블을 이용한 공격은 패스워드 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -62,24 +62,24 @@
         <correct_choice_text>역할 및 역할이 수행할 권한을 정의하고, 사용자를 역할에 할당하는 방식이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 역할기반 접근제어(RBAC))
-정답은 ③이다. 본 문항은 역할기반 접근제어(RBAC)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 역할 기반 접근제어
+정답은 ③이다. 역할 기반 접근제어(RBAC)는 조직 내 직무에 따라 역할을 정의하고 각 역할에 권한을 부여한 뒤, 사용자를 역할에 할당하는 방식이다. 한 사용자가 여러 역할을 가질 수 있으며, 인사 이동이 잦은 조직에 적합하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>정보의 소유자가 특정 사용자와 그룹에 특정 권한을 부여한다.</choice_text>
-          <commentary>'정보의 소유자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정보 소유자가 사용자와 그룹에 권한을 부여하는 것은 임의적 접근제어(DAC)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사용자에게 부여된 권한에 따라 사용자를 역할로 분류하여 각 사용자에게 하나의 역할만 할당되도록 한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RBAC에서는 한 사용자에게 여러 역할을 할당할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>역할 및 역할이 수행할 권한을 정의하고, 사용자를 역할에 할당하는 방식이다.</choice_text>
-          <commentary>'역할 및 역할'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>역할과 그 권한을 정의하고 사용자를 역할에 할당하는 방식이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기밀문서가 엄격히 다루어져야 하는 군이나 정보기관 등에서의 중앙집중형 보안 관리에 적합하다.</choice_text>
-          <commentary>'기밀문서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>군이나 정보기관의 중앙집중형 보안 관리에 적합한 것은 강제적 접근제어(MAC)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -98,24 +98,24 @@
         <correct_choice_text>Honeypot</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보시스템, 침입자, 속이, 기법)
-정답은 ①이다. 본 문항은 정보시스템, 침입자, 속이, 기법에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 허니팟
+정답은 ①이다. 허니팟은 가상의 취약한 시스템을 만들어 공격자, 스팸, 바이러스 등을 유인하고, 침입자의 행동과 정보를 수집·추적하는 시스템이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>Honeypot</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가상 시스템으로 침입자를 유인하여 정보를 수집하는 것은 허니팟이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IPS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPS는 침입을 탐지하고 실시간으로 차단하는 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ESM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ESM은 여러 보안 장비를 통합 관리하는 보안 관리 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DRM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DRM은 디지털 콘텐츠의 저작권을 보호하는 기술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -132,24 +132,24 @@
         <correct_choice_text>유효기간 내의 인증서를 가지고 있다면, 사용자는 별도로 CRL을 조사할 필요가 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 공개키 기반구조(PKI), 인증기관은 인증서 폐지 목록(CRL))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 공개키 기반 구조
+정답은 ③이다. 인증서는 유효기간 안이라도 개인키 유출 등의 사유로 폐지될 수 있으므로, 사용자는 인증서를 신뢰하기 전에 CRL이나 OCSP로 폐지 여부를 확인해야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>PKI는 인증기관, 등록기관, 저장소, 사용자 등으로 구성된다.</choice_text>
-          <commentary>'PKI'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PKI는 인증기관, 등록기관, 저장소(디렉터리), 사용자 등으로 구성된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>인증서의 폐지 여부를 확인하기 위해 인증기관은 인증서 폐지 목록(CRL)을 주기적으로 관리한다.</choice_text>
-          <commentary>'인증서의 폐지 여부를 확인하기 위해 인증기관'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증기관은 폐지된 인증서를 CRL로 주기적으로 관리·공개한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>유효기간 내의 인증서를 가지고 있다면, 사용자는 별도로 CRL을 조사할 필요가 없다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유효기간 내 인증서도 폐지되었을 수 있으므로 CRL을 조사할 필요가 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>한 인증기관이 다른 인증기관의 공개키를 검증하는 것이 가능하므로, 사용자는 모든 인증기관의 공개키를 사전에 가지고 있을 필요가 없다.</choice_text>
-          <commentary>'한 인증기관'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증기관 간 상호 인증으로 사용자가 모든 인증기관의 공개키를 미리 가질 필요가 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -168,24 +168,24 @@
         <correct_choice_text>501 － Bad Request</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 응답, 메시지, 상태코드, 의미)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · HTTP 상태 코드
+정답은 ④이다. HTTP 상태 코드에서 201은 Created, 301은 Moved Permanently, 401은 Unauthorized이다. 400이 Bad Request이고, 501은 Not Implemented(서버가 요청 메서드를 지원하지 않음)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>201 － Created</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>201은 요청이 성공하여 새 자원이 생성되었음을 뜻하는 Created이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>301 － Moved Permanently</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>301은 자원이 영구적으로 이동했음을 뜻하는 Moved Permanently이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>401 － Unauthorized</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>401은 인증이 필요함을 뜻하는 Unauthorized이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>501 － Bad Request</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>501은 Not Implemented이며 Bad Request는 400이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -201,24 +201,24 @@
         <correct_choice_text>ESP IKE</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 사이의 논리적 관계인 SA(Security Association))
-정답은 ③이다. 본 문항은 사이의 논리적 관계인 SA(Security Association)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · IPSec ESP와 IKE
+정답은 ③이다. IPSec의 ESP는 발신지 인증, 데이터 무결성, 데이터 기밀성(암호화)을 모두 제공한다(㉠). 두 호스트 간의 보안 연관(SA)을 협상하고 키를 교환하기 위해 IKE 프로토콜을 사용한다(㉡).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AH OSPF</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AH는 기밀성을 제공하지 않으며, OSPF는 라우팅 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>AH IKE</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성을 제공하는 것은 AH가 아니라 ESP이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ESP IKE</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ ESP, ㉡ IKE이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ESP OSPF</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OSPF는 SA 생성 프로토콜이 아니라 라우팅 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -237,24 +237,24 @@
         <correct_choice_text>640 750</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 수리·계산·자료해석형 (핵심어: 괄호, 접근, 권한, 연결한)
-정답은 ①이다. 본 문항은 괄호, 접근, 권한, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · umask와 기본 권한
+정답은 ①이다. 일반 파일의 기본 권한은 666, 디렉터리는 777이다. umask 027을 적용하면 파일은 666 − 027 → 640(실행 비트는 원래 없음), 디렉터리는 777 − 027 = 750이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>640 750</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파일 640, 디렉터리 750이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>750 640</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>파일과 디렉터리 권한을 반대로 제시하였다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>644 755</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>644와 755는 umask 022를 적용한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>755 644</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권한을 반대로 제시하였으며 umask도 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -270,24 +270,24 @@
         <correct_choice_text>개인정보 처리단계별 요구사항 영역은 6개 분야 24개의 인증기준으로 구성되어 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: ISMS-P)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS-P 인증 기준 구성
+정답은 ④이다. ISMS-P 인증 기준은 3개 영역 총 102개로, 관리체계 수립 및 운영 4개 분야 16개, 보호대책 요구사항 12개 분야 64개, 개인정보 처리 단계별 요구사항 5개 분야 22개로 구성된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>인증기준은 크게 3개 영역으로 나뉘며 총 102개의 인증기준으로 구성되어 있다.</choice_text>
-          <commentary>'인증기준'에 관하여 '3개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>인증 기준은 3개 영역 총 102개로 구성된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>관리체계 수립 및 운영 영역은 4개 분야 16개 인증기준으로 구성되어 있다.</choice_text>
-          <commentary>'관리체계 수립 및 운영 영역'에 관하여 '4개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>관리체계 수립 및 운영은 4개 분야 16개 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>보호대책 요구사항 영역은 12개 분야 64개 인증기준으로 구성되어 있다.</choice_text>
-          <commentary>'보호대책 요구사항 영역'에 관하여 '12개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>보호대책 요구사항은 12개 분야 64개 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>개인정보 처리단계별 요구사항 영역은 6개 분야 24개의 인증기준으로 구성되어 있다.</choice_text>
-          <commentary>'개인정보 처리단계별 요구사항 영역'에 관하여 제시된 '6개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>개인정보 처리 단계별 요구사항은 5개 분야 22개 기준이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -309,25 +309,24 @@
         <correct_choice_text>국무총리 중앙행정기관</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, 「정부조직법」, ｢개인정보 보호법｣상의 개인정보 보호위원회, 법령 조문)
-정답은 ④이다. 본 문항은 「개인정보 보호법」, 「정부조직법」, ｢개인정보 보호법｣상의 개인정보 보호위원회, 법령 조문에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 보호위원회의 지위
+정답은 ④이다. 「개인정보 보호법」 제7조에 따르면 개인정보 보호에 관한 사무를 독립적으로 수행하기 위해 국무총리 소속으로 개인정보 보호위원회를 두며, 보호위원회는 「정부조직법」 제2조에 따른 중앙행정기관으로 본다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>대통령 중앙행정기관의 보조기관</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보호위원회는 대통령이 아니라 국무총리 소속이며 보조기관이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>대통령 중앙행정기관</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보호위원회는 대통령 소속이 아니라 국무총리 소속이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>국무총리 중앙행정기관의 보조기관</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보호위원회는 보조기관이 아니라 중앙행정기관으로 본다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>국무총리 중앙행정기관</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ 국무총리, ㉡ 중앙행정기관이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -343,9 +342,8 @@
         <correct_choice_text>ㄱ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 타원 곡선 암호)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄹ)이다.
-관련 수식: $y^2$; $x^3$; $ax$; $b$; $4 a^3$</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 타원곡선 암호
+정답은 ②이다. ㄱ. 타원곡선은 y² = x³ + ax + b 형태이며 특이점이 없도록 4a³ + 27b² ≠ 0을 만족해야 한다. ㄹ. 타원곡선 암호는 Q = kP를 계산하기는 쉽지만 Q와 P로 k를 구하기는 어려운 타원곡선 이산대수 문제를 이용한다. ㄴ. 평문은 곡선 위의 점으로 대응시키지만 곡선상의 모든 점이 암호에 그대로 사용되는 것은 아니다. ㄷ. P + Q는 두 점을 잇는 직선이 곡선과 만나는 세 번째 점을 x축에 대해 대칭 이동한 점이다. 따라서 ㄱ, ㄹ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>타원 곡선은 함수 $y^2$ ＝ $x^3$ ＋ $ax$ ＋ $b$의 형태로 $4 a^3$ ＋ $27 b^2$ ≠ $0$의 조건을 만족해야 한다.</statement>
@@ -367,19 +365,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄴ은 곡선상의 모든 점이 사용된다는 설명이 옳지 않으므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ과 ㄹ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄷ은 교점을 x축 대칭시켜야 하므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄷ이 옳지 않으므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -395,24 +393,24 @@
         <correct_choice_text>대응 방법의 하나인 스택 가드는 스택에서 권한을 제거해 스택에 로드된 공격자의 공격 코드가 실행될 수 없도록 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 버퍼 오버플로우 공격)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 버퍼 오버플로 공격
+정답은 ④이다. 스택 가드는 함수의 복귀 주소 앞에 카나리 값을 넣어 두고, 함수 종료 시 카나리 값이 변경되었는지 검사하여 오버플로를 탐지하는 기법이다. 스택의 실행 권한을 제거하여 공격 코드가 실행되지 못하게 하는 것은 실행 방지(NX, DEP, 스택 실행 금지) 기법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>스택 오버플로우와 힙 오버플로우 공격 등이 있다.</choice_text>
-          <commentary>'스택 오버플로우와 힙 오버플로우 공격 등'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>버퍼 오버플로에는 스택 오버플로와 힙 오버플로 공격 등이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>버퍼에 일정한 크기 이상의 데이터를 입력하여 프로그램을 공격한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>버퍼에 일정 크기 이상의 데이터를 입력하여 프로그램을 공격한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>취약한 C함수로는 strcpy(), strcat(), gets() 등이 있다.</choice_text>
-          <commentary>'취약한 C함수로'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>strcpy(), strcat(), gets() 등은 경계 검사를 하지 않아 취약하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>대응 방법의 하나인 스택 가드는 스택에서 권한을 제거해 스택에 로드된 공격자의 공격 코드가 실행될 수 없도록 한다.</choice_text>
-          <commentary>'대응 방법의 하나인 스택 가드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스택의 실행 권한을 제거하는 것은 스택 가드가 아니라 실행 방지 기법이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -431,24 +429,24 @@
         <correct_choice_text>전자서명법</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 공인인증기관, 지정, 공인인증서, 관련)
-정답은 ②이다. 본 문항은 공인인증기관, 지정, 공인인증서, 관련에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 공인인증기관 관련 법률
+정답은 ②이다. 출제 당시 공인인증기관의 지정, 공인인증서 발급 등 공인인증 제도는 「전자서명법」에 규정되어 있었다. 2020년 개정으로 공인인증서 제도는 폐지되고 전자서명인증사업자 인정 제도로 바뀌었다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>전자정부법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>「전자정부법」은 행정 업무의 전자적 처리를 규정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>전자서명법</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>공인인증기관의 지정 등은 「전자서명법」에 규정되어 있었으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>신용정보의 이용 및 보호에 관한 법률</choice_text>
-          <commentary>'신용정보의 이용 및 보호'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>「신용정보법」은 신용정보의 이용과 보호를 규정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>정보통신망 이용촉진 및 정보보호 등에 관한 법률</choice_text>
-          <commentary>'정보통신망 이용촉진 및 정보보호 등'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>「정보통신망법」은 정보통신망 이용 촉진과 정보보호 등을 규정한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -464,24 +462,24 @@
         <correct_choice_text>정형화되고 구조화된 프로세스를 사용하여 모든 중요한 위험을 식별하고 그 영향을 고려한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 상세 위험 분석 방법)
-정답은 ④이다. 본 문항은 상세 위험 분석 방법에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 상세 위험 분석
+정답은 ④이다. 상세 위험 분석은 정형화되고 구조화된 프로세스로 자산, 위협, 취약성을 분석하여 모든 중요한 위험을 식별하고 그 영향을 평가하는 방법이다. 정확하지만 시간과 비용이 많이 든다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>시스템에 대해 보호의 기준 수준을 정하고, 목표를 달성하기 위하여 일련의 보호 대책을 선택한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기준 수준의 보호 대책을 선택하는 것은 기준선 접근법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>모든 시스템에 적절한 기준 보안 대책을 이행하고, 상위 수준의 위험 평가를 통하여 중요하고 위험이 높은 시스템을 식별하고 평가한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기준 대책 이행 후 고위험 시스템을 식별하는 것은 복합 접근법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>숙달된 전문가의 경험에 따라서 효율적으로 위험 분석을 수행한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전문가의 경험에 따라 분석하는 것은 비정형 접근법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>정형화되고 구조화된 프로세스를 사용하여 모든 중요한 위험을 식별하고 그 영향을 고려한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정형화되고 구조화된 프로세스로 모든 중요 위험을 식별하는 것은 상세 위험 분석이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -497,24 +495,24 @@
         <correct_choice_text>mstask.exe svchost.exe csrss.exe</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: DLL(Dynamic Link Libraries))
-정답은 ③이다. 본 문항은 DLL(Dynamic Link Libraries)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 윈도우 시스템 프로세스
+정답은 ③이다. mstask.exe는 시스템 백업, 업데이트 등의 예약 작업을 실행하는 작업 스케줄러 프로세스이다(ㄱ). svchost.exe는 DLL로 구현된 서비스를 실행하는 기본 호스트 프로세스이다(ㄴ). csrss.exe는 윈도우 콘솔, 스레드 생성·삭제, 32비트 가상 MS-DOS 모드를 지원하는 클라이언트/서버 런타임 프로세스이다(ㄷ).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>smss.exe svchost.exe csrss.exe</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>smss.exe는 세션 관리자 프로세스로 작업 스케줄러가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>smss.exe csrss.exe svchost.exe</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>smss.exe와 csrss.exe, svchost.exe의 역할이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>mstask.exe svchost.exe csrss.exe</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ㄱ mstask.exe, ㄴ svchost.exe, ㄷ csrss.exe이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>mstask.exe csrss.exe svchost.exe</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ㄴ은 csrss.exe가 아니라 svchost.exe이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -533,28 +531,24 @@ D(K, C)</keyword>
         <correct_choice_text>공격자 X가 A의 메시지를 가로채서 다시 보내는 재전송 공격이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: U의 개인키
-E(K, M), 키 K로 암호화하는 함수
-D(K, C))
-정답은 ②이다. 본 문항은 U의 개인키
-E(K, M), 키 K로 암호화하는 함수
-D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 중간자 공격
+정답은 ②이다. 제시된 공격은 X가 A에게 자신의 공개키를 B의 공개키인 것처럼 보내고, A가 X의 공개키로 암호화한 메시지를 복호화한 뒤 다시 B의 공개키로 암호화해 전달하는 중간자 공격이다. 가로챈 메시지를 그대로 다시 보내는 재전송 공격과는 다르다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A가 B의 공개키를 검증하지 못해서 발생하는 중간자 공격이다.</choice_text>
-          <commentary>'A가 B의 공개키를 검증하지 못해서 발생하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>A가 받은 공개키가 B의 것인지 검증하지 못해 발생하는 중간자 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>공격자 X가 A의 메시지를 가로채서 다시 보내는 재전송 공격이다.</choice_text>
-          <commentary>'공격자 X'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>X는 메시지를 복호화하여 다시 암호화해 전달하는 중간자이므로 재전송 공격이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>공개키 인증서를 사용하면 방지할 수 있다.</choice_text>
-          <commentary>제시문의 "ID_(U): U의 아이디, KU_(U): U의 공개키, KR_(U): U의 개인키" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>공개키 인증서로 공개키의 소유자를 검증하면 방지할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>디피－헬만 키 교환에서도 발생할 수 있다.</choice_text>
-          <commentary>'할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>인증 없는 디피-헬만 키 교환에서도 같은 방식의 중간자 공격이 가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -573,24 +567,24 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>클라이언트 수동적 서버 능동적</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 에서, 데이터, 연결, 생성하)
-정답은 ①이다. 본 문항은 에서, 데이터, 연결, 생성하에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · FTP 능동 모드 데이터 연결
+정답은 ①이다. FTP 능동(Active) 모드에서 클라이언트는 임시 포트를 열어 수동적(passive)으로 연결을 기다리고, PORT 명령어로 그 포트 번호를 서버에 알린다. 서버는 잘 알려진 포트 20번에서 클라이언트의 임시 포트로 능동적(active) 연결을 설정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>클라이언트 수동적 서버 능동적</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ 클라이언트, ㉡ 수동적, ㉢ 서버, ㉣ 능동적이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>클라이언트 능동적 서버 수동적</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>클라이언트는 연결을 기다리므로 수동적이고 서버가 능동적으로 연결한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>서버 수동적 클라이언트 능동적</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PORT 명령어는 서버가 아니라 클라이언트가 보낸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>서버 능동적 클라이언트 수동적</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PORT 명령어를 보내는 주체와 연결 방향이 모두 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -609,24 +603,24 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>설계</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 안전한, 소프트웨어, 개발, 방법론)
-정답은 ②이다. 본 문항은 안전한, 소프트웨어, 개발, 방법론에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · MS SDL의 위협 모델링
+정답은 ②이다. 마이크로소프트의 SDL은 교육, 요구사항, 설계, 구현, 검증, 배포, 대응 단계로 구성되며, 위협 모델링은 설계 단계에서 수행하여 공격 표면을 분석하고 대응 방안을 마련한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>계획․분석</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계획·분석(요구사항) 단계에서는 보안 요구사항과 품질 기준을 정의한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>설계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위협 모델링은 설계 단계에서 수행하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>구현</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>구현 단계에서는 승인된 도구 사용, 안전하지 않은 함수 금지, 정적 분석을 수행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>시험․검증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시험·검증 단계에서는 동적 분석, 퍼징, 공격 표면 검토를 수행한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -642,8 +636,8 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>ㄱ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 엔트로피)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 엔트로피
+정답은 ②이다. ㄱ. 1비트의 엔트로피 최댓값은 0과 1이 각각 1/2 확률일 때 1이다. ㄷ. 엔트로피는 정보량 또는 불확실성을 측정하는 개념이다. ㄴ. 암호문의 엔트로피가 높을수록(무작위에 가까울수록) 패턴이 드러나지 않아 안전하다. ㄹ. 모든 값의 발생 확률이 같으면 엔트로피는 최댓값을 갖는다. 따라서 ㄱ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>한 비트가 가질 수 있는 엔트로피의 최댓값은 1이다.</statement>
@@ -665,19 +659,19 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄴ은 엔트로피가 높을수록 안전하므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄱ과 ㄷ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄹ은 모두 옳지 않으므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 균등 분포일 때 엔트로피가 최대이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -696,24 +690,24 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>A는 B가 메시지 M에 대하여 부인하지 못하도록 하는 부인봉쇄를 보장받을 수 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 사용자, 메시지, 함께, 하여)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · MAC의 보안 기능
+정답은 ③이다. 공유 비밀키를 이용한 MAC은 메시지 무결성과, 키를 아는 상대방(B)이 보냈다는 출처 인증을 제공한다. 그러나 A와 B가 같은 키를 가지고 있어 A도 같은 MAC을 만들 수 있으므로, B가 메시지 전송을 부인하는 것을 막는 부인 봉쇄(부인 방지)는 보장하지 못한다. 시간이나 순서 정보가 없으면 재전송 공격의 위험도 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>A는 메시지 M의 무결성을 확신할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>MAC 비교로 메시지가 변경되지 않았음을 확신할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>A는 메시지 M의 출처가 B라는 것을 확신할 수 있다.</choice_text>
-          <commentary>'A는 메시지 M의 출처'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>키를 공유한 B만 MAC을 만들 수 있으므로 출처가 B임을 확신할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>A는 B가 메시지 M에 대하여 부인하지 못하도록 하는 부인봉쇄를 보장받을 수 있다.</choice_text>
-          <commentary>'A는 B'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공유키 방식이라 A도 MAC을 만들 수 있어 부인 봉쇄를 보장하지 못하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>MAC에 시간이나 순서 정보가 포함되어 있지 않다면, 재전송 공격이 발생할 가능성이 있다.</choice_text>
-          <commentary>'MAC에 시간이나 순서 정보'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시간이나 순서 정보가 없으면 재전송 공격이 가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -731,24 +725,24 @@ D(K, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>위원회의 위원장은 과학기술정보통신부장관이 되고, 위원회의 위원은 대통령령으로 정하는 중앙행정기관의 차관급 공무원과 위원장이 위촉하는 사람으로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보통신기반 보호법」, ｢정보통신기반 보호법｣상의 정보통신기반보호위원회, 법령 조문)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보통신기반보호위원회
+정답은 ③이다. 「정보통신기반 보호법」 제3조에 따르면 주요정보통신기반시설 보호에 관한 사항을 심의하기 위해 국무총리 소속으로 정보통신기반보호위원회를 두며, 위원장 1명을 포함한 25명 이내로 구성한다. 위원장은 국무조정실장이며, 공공 분야와 민간 분야를 각각 담당하는 실무위원회를 둔다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>｢정보통신기반 보호법｣ 제8조에 따라 지정된 주요정보통신기반시설의 보호에 관한 사항을 심의하기 위하여 국무총리 소속하에 정보통신기반보호위원회(이하 “위원회”라 한다)를 둔다.</choice_text>
-          <commentary>「정보통신기반 보호법」 제8조에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위원회는 국무총리 소속으로 둔다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>위원회의 위원은 위원장 1인을 포함한 25인 이내의 위원으로 구성한다.</choice_text>
-          <commentary>'위원회의 위원'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위원회는 위원장 1인을 포함한 25인 이내로 구성한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>위원회의 위원장은 과학기술정보통신부장관이 되고, 위원회의 위원은 대통령령으로 정하는 중앙행정기관의 차관급 공무원과 위원장이 위촉하는 사람으로 한다.</choice_text>
-          <commentary>'위원회의 위원장'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위원장은 과학기술정보통신부 장관이 아니라 국무조정실장이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>위원회의 효율적인 운영을 위하여 위원회에 공공분야와 민간분야를 각각 담당하는 실무위원회를 둔다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위원회에 공공 분야와 민간 분야를 담당하는 실무위원회를 둔다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

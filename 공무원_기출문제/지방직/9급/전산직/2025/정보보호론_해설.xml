@@ -27,24 +27,24 @@
         <correct_choice_text>정보보호의 범위에는 사이버안전이 포함될 수 없다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 정보보호)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보보호의 개념
+정답은 ②이다. 정보보호는 소프트웨어, 하드웨어, 데이터, 인적 자원 등 정보자산을 다양한 위협으로부터 보호하는 활동으로, 정보의 활용과 통제 사이에서 균형을 유지해야 한다. 사이버 공간의 안전을 확보하는 사이버안전(사이버보안)도 정보보호의 범위에 포함된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보자산을 여러 가지 위협으로부터 보호하는 것이다.</choice_text>
-          <commentary>'정보자산을 여러 가지 위협으로부터 보호하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보보호는 정보자산을 여러 위협으로부터 보호하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>정보보호의 범위에는 사이버안전이 포함될 수 없다.</choice_text>
-          <commentary>'정보보호의 범위에'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사이버안전은 정보보호의 범위에 포함되므로 포함될 수 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정보의 가용성과 보안 측면에서 정보보호는 정보의 활용과 정보의 통제 사이에서 균형 감각을 갖는 행위이다.</choice_text>
-          <commentary>'정보의 가용성과 보안 측면에서 정보보호'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보보호는 정보의 활용(가용성)과 통제(보안) 사이에서 균형을 갖는 행위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정보보호의 대상이 되는 자산에는 소프트웨어, 하드웨어, 데이터, 인적자원이 포함될 수 있다.</choice_text>
-          <commentary>'정보보호의 대상'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보보호 대상 자산에는 소프트웨어, 하드웨어, 데이터, 인적 자원이 포함된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -61,24 +61,24 @@
         <correct_choice_text>TCP 포트 스캔 시 닫혀 있는 포트로부터 ICMP port Unreachable 패킷이 수신된다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 포트 스캔, 023은 잘 알려진 포트(well-known port))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 포트 스캔
+정답은 ④이다. 포트 스캔은 대상 시스템에서 열려 있는 포트와 제공 서비스를 확인하는 정보 수집 기법이다. TCP 스캔에서 닫힌 포트는 RST 패킷으로 응답한다. ICMP Port Unreachable 응답은 UDP 스캔에서 닫힌 포트로부터 수신된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>분석 대상 시스템에 어떤 서비스가 제공되고 있는지 확인하기 위한 정보수집 방법이다.</choice_text>
-          <commentary>'분석 대상 시스템에 어떤 서비스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>포트 스캔은 대상 시스템의 제공 서비스를 확인하기 위한 정보 수집 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>포트 번호는 0 ～ 65,535까지이며, 이 중 0 ～ 1,023은 잘 알려진 포트(well-known port)라고 한다.</choice_text>
-          <commentary>'포트 번호'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>포트 번호는 0~65,535이며 0~1,023은 잘 알려진 포트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Nmap은 오픈소스 기반 포트 스캔 도구이다.</choice_text>
-          <commentary>'Nmap'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Nmap은 오픈소스 포트 스캔 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>TCP 포트 스캔 시 닫혀 있는 포트로부터 ICMP port Unreachable 패킷이 수신된다.</choice_text>
-          <commentary>'TCP 포트 스캔 시 닫혀 있'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>TCP 스캔에서 닫힌 포트는 RST로 응답하며 ICMP Port Unreachable은 UDP 스캔의 응답이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -97,24 +97,24 @@
         <correct_choice_text>기밀성 부인방지</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 해당하, 정보보호, 서비스, 연결한)
-정답은 ②이다. 본 문항은 해당하, 정보보호, 서비스, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 암호화와 전자서명의 보안 서비스
+정답은 ②이다. 메일 내용을 암호화하면 허가되지 않은 사람이 내용을 볼 수 없으므로 기밀성을 제공한다(가). 전자서명을 적용하면 송신자 인증, 무결성과 함께 송신 사실을 부인할 수 없는 부인 방지를 제공한다(나).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기밀성 가용성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전자서명은 가용성을 제공하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>기밀성 부인방지</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) 기밀성, (나) 부인 방지이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>가용성 기밀성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>암호화는 가용성이 아니라 기밀성을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>가용성 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>암호화는 가용성을 제공하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -130,24 +130,24 @@
         <correct_choice_text>랜섬웨어</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 용어)
-정답은 ③이다. 본 문항은 용어에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 랜섬웨어
+정답은 ③이다. 랜섬웨어는 1989년 AIDS Trojan으로 처음 등장하였고 2006년경 GPCode 등이 나타났다. 최근의 랜섬웨어는 공개키 암호 등 강력한 암호로 파일을 암호화하여, 공격자의 개인키 없이는 사실상 복구할 수 없게 만든 뒤 금전을 요구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>웜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>웜은 스스로 복제하여 네트워크로 전파하는 악성코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>바이러스</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>바이러스는 다른 프로그램에 감염되어 자신을 복제하는 악성코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>랜섬웨어</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파일을 암호화하여 개인키 없이는 풀 수 없게 하는 것은 랜섬웨어이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DDoS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DDoS는 다수의 시스템으로 대상의 서비스를 마비시키는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -165,24 +165,24 @@
         <correct_choice_text>봇 스파이웨어</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 해당하, 악성코드, 연결한)
-정답은 ①이다. 본 문항은 해당하, 악성코드, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 봇과 스파이웨어
+정답은 ①이다. 봇(bot)은 감염된 컴퓨터를 원격 조종하여 DDoS 공격 등 지정된 공격을 수행하게 하는 악성코드이다(가). 스파이웨어는 사용자 동의 없이 설치되어 사용자나 컴퓨터의 정보를 수집하여 외부로 전송한다(나).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>봇 스파이웨어</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) 봇, (나) 스파이웨어이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>봇 애드웨어</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>애드웨어는 광고를 노출하는 프로그램이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>루트킷 스파이웨어</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>루트킷은 공격자의 존재와 활동을 숨기는 악성코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>루트킷 애드웨어</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>루트킷과 애드웨어는 모두 제시된 설명과 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -201,24 +201,24 @@
         <correct_choice_text>IGMP</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 에서, 사용하, 프로토콜, 아닌)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · VPN 프로토콜
+정답은 ①이다. VPN 구현에는 계층 2의 PPTP, L2F, L2TP, 계층 3의 IPSec, 그 이상의 SSL/TLS VPN 등이 사용된다. IGMP는 멀티캐스트 그룹을 관리하는 프로토콜로 VPN과 관련이 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>IGMP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IGMP는 멀티캐스트 그룹 관리 프로토콜이므로 VPN 프로토콜이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>IPSec</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IPSec은 네트워크 계층 VPN 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>L2TP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>L2TP는 데이터 링크 계층 터널링 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>PPTP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PPTP는 데이터 링크 계층 터널링 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -234,24 +234,24 @@
         <correct_choice_text>SID</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 용어)
-정답은 ②이다. 본 문항은 용어에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 윈도우 보안 식별자(SID)
+정답은 ②이다. 윈도우에서 LSA가 인증을 요청하면 SAM이 계정과 패스워드를 확인하고, 인증된 사용자에게 고유한 보안 식별자(SID)가 부여된다. SRM(보안 참조 모니터)은 SID를 기반으로 파일과 디렉토리 접근 허용 여부를 결정하고 감사 메시지를 생성한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>GID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>GID는 유닉스/리눅스의 그룹 식별자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SID</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>윈도우에서 인증된 사용자에게 부여되는 고유 식별자는 SID이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SetUID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SetUID는 유닉스에서 실행 시 파일 소유자 권한으로 실행되게 하는 권한 비트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SSID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SSID는 무선랜 네트워크의 식별자이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -267,24 +267,24 @@
         <correct_choice_text>위험 전가: 위험에 대응하여 보험을 들거나 다른 기관과 계약을 맺는다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 위험 처리 방법)
-정답은 ③이다. 본 문항은 위험 처리 방법에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 위험 처리 방법
+정답은 ③이다. 위험 처리 방법에는 위험 회피(위험을 발생시키는 활동을 하지 않음), 위험 감소(보호 대책으로 위험을 낮춤), 위험 전가(보험, 외부 계약으로 위험을 제3자에게 넘김), 위험 수용(위험을 받아들이고 손실을 감수함)이 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>위험 수용: 위험에 처한 자산의 구조나 사용을 변경한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자산의 구조나 사용을 변경하는 것은 위험 감소 또는 회피에 해당하며 수용이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>위험 감소: 위험을 발생시키는 행위나 시스템을 수행하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험을 발생시키는 행위를 하지 않는 것은 위험 회피이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>위험 전가: 위험에 대응하여 보험을 들거나 다른 기관과 계약을 맺는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보험 가입이나 계약으로 위험을 넘기는 것은 위험 전가이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>위험 회피: 현재의 위험을 받아들이고 잠재적 손실 비용을 감수한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험을 받아들이고 손실을 감수하는 것은 위험 수용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -303,24 +303,24 @@
         <correct_choice_text>A5/1</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 공개키, 암호, 알고리즘, 아닌)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 공개키 암호 알고리즘
+정답은 ④이다. RSA(소인수분해), 타원곡선 암호(타원곡선 이산대수), 배낭 암호(배낭 문제)는 공개키 암호이다. A5/1은 GSM 휴대전화 음성 통신에 쓰이는 대칭키 스트림 암호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>RSA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RSA는 공개키 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>타원곡선암호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>타원곡선 암호는 공개키 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>배낭암호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>배낭 암호(Merkle-Hellman)는 공개키 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>A5/1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>A5/1은 대칭키 스트림 암호이므로 공개키 암호가 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -339,24 +339,24 @@
         <correct_choice_text>DLP</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 보안, 솔루션)
-정답은 ②이다. 본 문항은 다음에서, 설명하, 보안, 솔루션에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · DLP
+정답은 ②이다. DLP(Data Loss Prevention)는 조직 내 중요 정보가 USB 등 이동식 저장 매체, 이메일, 메신저, 웹 업로드 등을 통해 외부로 유출되는 것을 탐지하고 차단하는 솔루션이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DRM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DRM은 디지털 콘텐츠의 저작권과 사용 권한을 보호하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>DLP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>중요 자료의 외부 유출을 막는 것은 DLP이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IPS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPS는 네트워크 침입을 탐지하고 차단하는 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SIEM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SIEM은 여러 보안 장비의 로그를 통합 수집·분석하는 보안 관제 솔루션이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -375,24 +375,24 @@
         <correct_choice_text>OFB(Output FeedBack)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 오류가 전파되는 문제 ECB(Electronic CodeBook), OFB(Output FeedBack), CFB(Cipher FeedBack), CBC(Cipher Block Chaining))
-정답은 ②이다. 본 문항은 오류가 전파되는 문제 ECB(Electronic CodeBook), OFB(Output FeedBack), CFB(Cipher FeedBack), CBC(Cipher Block Chaining)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · OFB 모드
+정답은 ②이다. ECB는 같은 평문 블록이 같은 암호문이 된다. CBC와 CFB는 IV로 이 문제를 해결하지만, 암호문 블록의 오류가 다음 블록 복호화에 전파된다. OFB는 IV를 반복 암호화한 키 스트림과 평문을 XOR하므로 같은 평문도 다른 암호문이 되고, 암호문의 비트 오류는 해당 비트에만 영향을 주어 오류가 전파되지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ECB(Electronic CodeBook)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ECB는 같은 평문 블록이 같은 암호문 블록이 되는 문제가 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>OFB(Output FeedBack)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>두 문제를 모두 해결하는 것은 OFB이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>CFB(Cipher FeedBack)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CFB는 암호문 오류가 다음 블록에 전파된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>CBC(Cipher Block Chaining)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CBC는 암호문 오류가 다음 블록 복호화에 전파된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -411,24 +411,24 @@
         <correct_choice_text>블루버그(bluebug)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 블루버그(bluebug), 블루재킹(bluejacking), 블루프린팅(blueprinting), 블루스나프(bluesnarf))
-정답은 ①이다. 본 문항은 블루버그(bluebug), 블루재킹(bluejacking), 블루프린팅(blueprinting), 블루스나프(bluesnarf)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 블루버그
+정답은 ①이다. 블루버그(bluebug)는 블루투스 장비 간의 연결 관리 취약점을 이용하여, 한 번 연결된 기기에 다시 인증 없이 자동으로 연결되는 점을 악용해 공격 대상 기기에서 임의의 명령(전화 걸기, 문자 전송 등)을 실행하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>블루버그(bluebug)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자동 재연결 취약점을 이용해 임의 동작을 실행하는 것은 블루버그이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>블루재킹(bluejacking)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블루재킹은 블루투스로 익명의 메시지(스팸)를 보내는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>블루프린팅(blueprinting)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블루프린팅은 블루투스 기기를 탐색하여 장비 정보를 수집하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>블루스나프(bluesnarf)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블루스나프는 블루투스 취약점으로 주소록, 일정 등 파일을 탈취하는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -447,24 +447,24 @@
         <correct_choice_text>프로파일링 등 자동으로 이루어지는 모든 의사결정에 대해 거부할 권리</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 유럽, 따른, 정보주체, 권리)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · GDPR의 정보주체 권리
+정답은 ④이다. GDPR은 정보주체에게 열람권, 정정권, 삭제권(잊힐 권리), 처리 제한권, 개인정보 이동권, 반대권, 자동화된 의사결정에 관한 권리 등을 부여한다. 다만 자동화된 의사결정에 관한 권리는 법적 효과나 그에 준하는 중대한 영향을 미치는 결정에 한정되며, 모든 자동 의사결정을 거부할 권리가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>개인정보의 처리에 대한 차단/제한을 요구할 권리</choice_text>
-          <commentary>'개인정보의 처리'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>처리의 제한을 요구할 권리는 GDPR상 권리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개인정보를 본인 또는 다른 사업자에게 전송하도록 요구할 권리</choice_text>
-          <commentary>'개인정보를 본인 또'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보를 본인 또는 다른 사업자에게 전송하도록 요구할 권리(이동권)는 GDPR상 권리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개인정보의 삭제를 요구할 권리</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보의 삭제를 요구할 권리는 GDPR상 권리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>프로파일링 등 자동으로 이루어지는 모든 의사결정에 대해 거부할 권리</choice_text>
-          <commentary>'프로파일링 등 자동으로 이루어지'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>법적·중대한 영향을 미치는 결정에 한정되므로 모든 자동 의사결정을 거부할 권리라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -483,8 +483,8 @@
         <correct_choice_text>ㄱ, ㄷ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 안티, 리버싱, 기법, 해당하)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 안티 리버싱 기법
+정답은 ①이다. 안티 리버싱은 프로그램의 분석과 역공학을 어렵게 하는 기법으로, 코드를 이해하기 어렵게 바꾸는 난독화와 디버거를 탐지·방해하는 안티 디버깅이 대표적이다. 스택 실드와 카나리아는 버퍼 오버플로 공격에 대응하는 메모리 보호 기법이다. 따라서 ㄱ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>난독화</statement>
@@ -506,19 +506,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>난독화와 안티 디버깅은 안티 리버싱 기법이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄹ 카나리아는 버퍼 오버플로 대응 기법이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ 스택 실드는 버퍼 오버플로 대응 기법이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄹ은 모두 버퍼 오버플로 대응 기법이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -538,25 +538,24 @@
         <correct_choice_text>개인정보의 파기방법 및 절차 등에 필요한 사항은 총리령으로 정한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, ｢개인정보 보호법｣상 개인정보의 파기)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보의 파기
+정답은 ④이다. 「개인정보 보호법」 제21조에 따르면 개인정보가 불필요하게 되면 지체 없이 복구·재생되지 않도록 파기해야 하고, 다른 법령에 따라 보존할 때는 분리하여 저장·관리해야 한다. 파기 방법과 절차에 필요한 사항은 총리령이 아니라 대통령령으로 정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 보유기간의 경과, 개인정보의 처리 목적 달성, 가명정보의 처리 기간 경과 등 그 개인정보가 불필요하게 되었을 때에는 지체 없이 그 개인정보를 파기하여야 한다. 다만, 다른 법령에 따라 보존하여야 하는 경우에는 그러하지 아니하다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '지체 없이' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>보유 기간 경과, 목적 달성 등으로 불필요해지면 지체 없이 파기하되 다른 법령상 보존 의무가 있으면 예외이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자가 개인정보를 파기할 때에는 복구 또는 재생되지 아니하도록 조치하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>파기할 때는 복구 또는 재생되지 않도록 조치해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자가 개인정보를 파기하지 아니하고 다른 법령에 따라 보존하여야 하는 경우에는 해당 개인정보 또는 개인정보파일을 다른 개인정보와 분리하여서 저장ㆍ관리하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>다른 법령에 따라 보존할 때는 다른 개인정보와 분리하여 저장·관리해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>개인정보의 파기방법 및 절차 등에 필요한 사항은 총리령으로 정한다.</choice_text>
-          <commentary>'개인정보의 파기방법 및 절차 등에 필요한 사항'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>파기 방법과 절차는 대통령령으로 정하므로 총리령이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -574,8 +573,8 @@
         <correct_choice_text>ㄱ, ㄷ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 시저(Caesar), 플레이페어(Playfair), 아핀(Affine))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 다중문자 암호
+정답은 ①이다. 다중문자(다표식) 암호는 같은 평문 문자가 위치나 키에 따라 다른 암호문 문자로 바뀌는 방식이다. 비즈네르 암호는 키워드에 따라 문자마다 다른 이동량을 적용하고, 플레이페어 암호는 두 문자 쌍을 단위로 치환하여 같은 문자도 다르게 암호화된다. 시저 암호와 아핀 암호는 한 문자가 항상 같은 문자로 바뀌는 단일문자 치환 암호이다. 따라서 ㄱ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>비즈네르(Vigenère) 암호</statement>
@@ -597,19 +596,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>비즈네르와 플레이페어는 다중문자 암호이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄹ 아핀 암호는 단일문자 치환 암호이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ 시저 암호는 단일문자 치환 암호이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄹ은 모두 단일문자 치환 암호이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -628,25 +627,24 @@
         <correct_choice_text>동의에 따른 이익이 있는 경우에는 그 이익의 내용</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 제3자 제공 동의 시 고지 사항
+정답은 ②이다. 「개인정보 보호법」 제17조 제2항에 따르면 제3자 제공 동의를 받을 때는 제공받는 자, 제공받는 자의 이용 목적, 제공하는 개인정보 항목, 제공받는 자의 보유·이용 기간, 동의 거부권과 거부에 따른 불이익을 알려야 한다. 동의에 따른 이익의 내용은 고지 사항이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>개인정보를 제공받는 자의 개인정보 이용 목적</choice_text>
-          <commentary>'개인정보를 제공받'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제공받는 자의 이용 목적은 고지 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>동의에 따른 이익이 있는 경우에는 그 이익의 내용</choice_text>
-          <commentary>'동의에 따른 이익'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>동의에 따른 이익의 내용은 법정 고지 사항이 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동의를 거부할 권리가 있다는 사실 및 동의 거부에 따른 불이익이 있는 경우에는 그 불이익의 내용</choice_text>
-          <commentary>'동의를 거부할 권리'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>동의 거부권과 거부에 따른 불이익은 고지 사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개인정보를 제공받는 자의 개인정보 보유 및 이용 기간</choice_text>
-          <commentary>'개인정보를 제공받'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제공받는 자의 보유 및 이용 기간은 고지 사항이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -665,24 +663,24 @@
         <correct_choice_text>QUJD</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 이용하여, 비트, 입력, 부호화)
-정답은 ③이다. 본 문항은 이용하여, 비트, 입력, 부호화에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Base64 부호화
+정답은 ③이다. Base64는 24비트를 6비트씩 네 개로 나누어 각 값을 문자로 바꾼다. 01000001 01000010 01000011을 6비트씩 나누면 010000(16), 010100(20), 001001(9), 000011(3)이다. Base64 표에서 16 = Q, 20 = U, 9 = J, 3 = D이므로 출력은 QUJD이다(입력은 ASCII 문자 'ABC').</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>YWJj</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>YWJj는 소문자 'abc'를 부호화한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Q0JB</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Q0JB는 'CBA'를 부호화한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>QUJD</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>16, 20, 9, 3에 해당하는 QUJD이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Y2Jh</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Y2Jh는 'cba'를 부호화한 결과이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -698,24 +696,24 @@
         <correct_choice_text>순서보존 암호화는 원문에 대한 암호화의 적용만 가능하고 암호문에 대한 복호화 적용이 불가능한 암호화 기법이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 개인정보 가명 처리 세부기술)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 가명 처리 세부 기술
+정답은 ④이다. 순서보존 암호화는 원문의 크기 순서가 암호문에서도 유지되도록 하는 암호화 기법으로, 키를 이용해 복호화할 수 있는 양방향 암호화이다. 복호화가 불가능한 것은 해시 함수 같은 일방향 암호화이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>총계 처리는 평균값, 최댓값, 최솟값, 최빈값, 중간값 등으로 처리한다.</choice_text>
-          <commentary>'총계 처리'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>총계 처리는 평균, 최댓값, 최솟값, 최빈값, 중간값 등으로 처리하는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>일반 라운딩은 올림, 내림, 반올림 등의 기준을 적용하여 집계 처리하는 방법으로, 일반적으로 세세한 정보보다는 전체 통계정보가 필요한 경우 많이 사용한다.</choice_text>
-          <commentary>'일반 라운딩'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>일반 라운딩은 올림, 내림, 반올림 등으로 값을 집계 처리하는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>로컬 일반화는 전체 정보집합물 중 특정 열 항목(들)에서 특이한 값을 가지거나 분포상의 특이성으로 인해 식별성이 높아지는 경우 해당 부분만 일반화를 적용하여 식별성을 낮추는 방법이다.</choice_text>
-          <commentary>'로컬 일반화'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>로컬 일반화는 식별성이 높은 특정 부분에만 일반화를 적용하는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>순서보존 암호화는 원문에 대한 암호화의 적용만 가능하고 암호문에 대한 복호화 적용이 불가능한 암호화 기법이다.</choice_text>
-          <commentary>'순서보존 암호화'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서보존 암호화는 복호화가 가능한 양방향 암호화이므로 복호화가 불가능하다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -734,24 +732,24 @@
         <correct_choice_text>DSS － 전자서명</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 에서, 사용하, 암호, 알고리즘과)
-정답은 ①이다. 본 문항은 에서, 사용하, 암호, 알고리즘과에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · S/MIME의 암호 알고리즘
+정답은 ①이다. S/MIME은 전자서명에 DSS와 RSA, 세션키 암호화에 ElGamal과 RSA, 메시지 암호화에 AES와 3DES 등 대칭키 암호, 메시지 인증에 HMAC(SHA 계열)을 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>DSS － 전자서명</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>DSS는 전자서명에 사용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ElGamal － 메시지 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ElGamal은 메시지 인증이 아니라 세션키 암호화에 사용된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>AES － 전자서명과 세션키 암호화</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>AES는 전자서명과 세션키 암호화가 아니라 메시지 암호화에 사용된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>RSA － 메시지 암호화</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RSA는 메시지 자체가 아니라 전자서명과 세션키 암호화에 사용된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

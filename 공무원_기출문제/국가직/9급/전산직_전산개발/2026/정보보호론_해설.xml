@@ -30,24 +30,24 @@
         <correct_choice_text>데이터 암복호화</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 일방향, 해시, 함수, 응용으)
-정답은 ③이다. 본 문항은 일방향, 해시, 함수, 응용으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 일방향 해시 함수의 응용
+정답은 ③이다. 일방향 해시 함수는 임의 길이의 입력을 고정 길이 해시값으로 변환하며, 해시값에서 원래 입력을 역산할 수 없다. 따라서 무결성 검증(소프트웨어 변경 검출), 전자서명(메시지 해시에 서명), 의사난수 생성, 패스워드 저장 등에 쓰이지만, 복호화가 불가능하므로 데이터 암복호화에는 사용할 수 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>전자서명</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>전자서명은 메시지의 해시값에 서명하므로 해시 함수의 응용이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>의사난수 생성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>해시 함수는 의사난수 생성기 구성에 사용된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>데이터 암복호화</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해시값은 원래 데이터로 되돌릴 수 없으므로 암복호화에 적합하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>소프트웨어 변경 검출</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>해시값을 비교하여 소프트웨어 변경 여부를 검출할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -63,24 +63,24 @@
         <correct_choice_text>공개키로 암호화한 메시지는 전자서명 기능을 제공한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: RSA 암호 알고리즘)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · RSA 암호 알고리즘
+정답은 ④이다. RSA는 큰 수의 소인수분해가 어렵다는 점에 기반한 공개키 암호이다. 수신자의 공개키로 암호화하면 해당 개인키를 가진 수신자만 복호화할 수 있으므로 기밀성을 제공한다. 전자서명은 송신자의 개인키로 서명하고 공개키로 검증하는 방식이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공개키 기반 암호 방식이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RSA는 공개키 기반 암호 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개인키는 공개하지 않고 비밀로 유지한다.</choice_text>
-          <commentary>'개인키'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인키는 공개하지 않고 소유자만 비밀로 보관한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>큰 수의 소인수분해가 어렵다는 특성을 이용한다.</choice_text>
-          <commentary>'큰 수의 소인수분해'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RSA의 안전성은 큰 수의 소인수분해 문제의 어려움에 기반한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>공개키로 암호화한 메시지는 전자서명 기능을 제공한다.</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>공개키로 암호화하면 기밀성을 제공하며 전자서명은 개인키로 생성하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -96,24 +96,24 @@
         <correct_choice_text>GRANT</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: DBMS에서 데이터베이스 객체)
-정답은 ②이다. 본 문항은 DBMS에서 데이터베이스 객체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · GRANT 명령어
+정답은 ②이다. GRANT는 데이터 제어어(DCL)로 사용자에게 데이터베이스 객체에 대한 권한(SELECT, INSERT 등)을 부여한다. 권한을 회수할 때는 REVOKE를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ALTER</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ALTER는 객체 구조를 변경하는 데이터 정의어이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>GRANT</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>권한을 부여하는 명령어는 GRANT이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>INSERT</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>INSERT는 데이터를 삽입하는 데이터 조작어이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>COMMIT</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>COMMIT은 트랜잭션을 완료하는 트랜잭션 제어 명령어이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -132,24 +132,24 @@
         <correct_choice_text>단편화 → 압축(옵션) → MAC 추가 → 암호화 → 헤더 추가</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 레코드, 프로토콜에서, 응용, 프로그램으로부터)
-정답은 ③이다. 본 문항은 레코드, 프로토콜에서, 응용, 프로그램으로부터에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · SSL 레코드 프로토콜의 처리 순서
+정답은 ③이다. SSL 레코드 프로토콜은 응용 데이터를 단편화(16KB 이하 블록) → 압축(선택) → MAC 추가 → 암호화 → SSL 레코드 헤더 추가의 순서로 처리하여 전송한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>압축(옵션) → MAC 추가 → 암호화 → 단편화 → 헤더 추가</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단편화가 가장 먼저 이루어져야 하므로 압축을 앞에 둔 순서는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>압축(옵션) → 헤더 추가 → 암호화 → 단편화 → MAC 추가</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>헤더는 암호화 이후 마지막에 추가하며 MAC은 암호화 전에 추가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>단편화 → 압축(옵션) → MAC 추가 → 암호화 → 헤더 추가</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단편화 → 압축 → MAC 추가 → 암호화 → 헤더 추가이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>단편화 → 암호화 → MAC 추가 → 압축(옵션) → 헤더 추가</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MAC은 암호화 전에 추가하며 압축은 단편화 직후에 수행한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -168,24 +168,24 @@
         <correct_choice_text>ISO/IEC 27001</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 조직, 자산, 정보, 보호하기)
-정답은 ④이다. 본 문항은 조직, 자산, 정보, 보호하기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보보호 관리체계 국제 인증
+정답은 ④이다. ISO/IEC 27001은 정보보호 관리체계(ISMS)의 수립·운영·개선에 대한 요구사항을 정한 국제 인증 표준이다. CC, ITSEC, TCSEC은 정보보호 제품(시스템)의 보안성을 평가하는 기준이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CC(공통평가기준)는 정보보호 제품의 보안성을 평가하는 국제 표준(ISO/IEC 15408)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ITSEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ITSEC은 유럽의 정보보호 제품 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>TCSEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>TCSEC은 미국 국방부의 신뢰 컴퓨터 시스템 평가 기준(오렌지북)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ISO/IEC 27001</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보보호 관리체계 국제 인증 규격은 ISO/IEC 27001이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -204,24 +204,24 @@
         <correct_choice_text>세션 관리</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 시스템, 보안에서, 사용자와, 사이)
-정답은 ①이다. 본 문항은 시스템, 보안에서, 사용자와, 사이에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 세션 관리
+정답은 ①이다. 세션 관리는 사용자와 시스템 또는 시스템 간의 활성화된 접속을 생성·유지·종료하는 과정을 관리하는 것으로, 세션 타임아웃, 동시 접속 제한 등이 포함된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>세션 관리</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>활성화된 접속을 관리하는 것은 세션 관리이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>권한 관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권한 관리는 사용자에게 자원 접근 권한을 부여하고 통제하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>로그 관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>로그 관리는 시스템 이벤트 기록을 수집·보관·분석하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>취약점 관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>취약점 관리는 시스템의 보안 약점을 식별하고 조치하는 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -240,24 +240,24 @@
         <correct_choice_text>델파이법</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 설명, 해당하, 정보보호, 위험)
-정답은 ②이다. 본 문항은 설명, 해당하, 정보보호, 위험에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 델파이법
+정답은 ②이다. 델파이법은 전문가 집단의 의견을 수렴하고 토론하여 위협과 취약성을 평가하는 정성적 위험 분석 방법으로, 짧은 시간에 분석할 수 있지만 정확도가 낮을 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>확률 분포법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>확률 분포법은 미지의 사건을 확률 분포로 추정하는 정량적 분석 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>델파이법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전문가 집단의 토론으로 위험을 분석하는 정성적 방법은 델파이법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>과거 자료 분석법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>과거 자료 분석법은 과거 자료로 위험 발생 가능성을 예측하는 정량적 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>수학 공식 접근법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수학 공식 접근법은 위협 발생 빈도를 계산식으로 산출하는 정량적 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -273,24 +273,24 @@
         <correct_choice_text>기밀성을 보장하기 위한 암호의 한 형태이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: CAPTCHA)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · CAPTCHA
+정답은 ②이다. CAPTCHA는 왜곡된 문자, 이미지, 잡음 섞인 소리 등을 이용하여 사람과 컴퓨터(봇)를 구분하는 자동화된 공개 튜링 테스트이다. 데이터의 기밀성을 보장하기 위한 암호 기술이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>컴퓨터와 사람을 구분하기 위한 자동화된 공개 튜링 테스트라 할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>CAPTCHA는 컴퓨터와 사람을 구분하는 자동화된 공개 튜링 테스트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>기밀성을 보장하기 위한 암호의 한 형태이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CAPTCHA는 사람과 봇을 구분하는 기술이므로 기밀성을 위한 암호라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>다양한 이미지, 왜곡된 문자, 잡음 섞인 소리를 사용할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>다양한 이미지, 왜곡 문자, 잡음 섞인 소리를 사용할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>대부분의 사람들이 통과하기에는 쉽지만 컴퓨터가 통과하기에는 불가능하거나 어려워야 한다.</choice_text>
-          <commentary>'대부분의 사람들'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사람은 쉽게 통과하지만 컴퓨터는 통과하기 어려워야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -309,24 +309,24 @@
         <correct_choice_text>NAC</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 설명, 해당하, 보안, 솔루션)
-정답은 ①이다. 본 문항은 설명, 해당하, 보안, 솔루션에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 네트워크 접근 제어(NAC)
+정답은 ①이다. NAC(Network Access Control)는 IP 관리 시스템에서 발전한 솔루션으로, MAC 주소 등을 기반으로 단말을 인증하고 보안 정책(백신 설치, 패치 적용 등)을 준수한 단말에만 네트워크 접근을 허용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>NAC</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보안 정책에 부합하는 단말만 네트워크에 접근시키는 것은 NAC이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DLP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DLP는 중요 정보의 외부 유출을 방지하는 솔루션이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>VPN</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>VPN은 공중망 위에 암호화된 가상 사설망을 구성하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PIMS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PIMS는 개인정보보호 관리체계 인증 제도이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -346,24 +346,24 @@
         <correct_choice_text>핸드셰이크(Handshake) 프로토콜</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: SSH 프로토콜(RFC 4251), 핸드셰이크(Handshake), 프로토콜 사용자 인증(User Authentication), 프로토콜 전송 계층(Transport Layer), 프로토콜 연결(Connection))
-정답은 ①이다. 본 문항은 SSH 프로토콜(RFC 4251), 핸드셰이크(Handshake), 프로토콜 사용자 인증(User Authentication), 프로토콜 전송 계층(Transport Layer), 프로토콜 연결(Connection)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · SSH 프로토콜 구성 요소
+정답은 ①이다. RFC 4251에 따른 SSH 프로토콜은 전송 계층 프로토콜(서버 인증, 암호화, 무결성), 사용자 인증 프로토콜, 연결 프로토콜(여러 논리 채널 다중화)의 세 부분으로 구성된다. 핸드셰이크 프로토콜은 SSL/TLS의 구성 요소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>핸드셰이크(Handshake) 프로토콜</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>핸드셰이크 프로토콜은 SSL/TLS의 구성 요소이므로 SSH 구성 요소가 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사용자 인증(User Authentication) 프로토콜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사용자 인증 프로토콜은 SSH의 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>전송 계층(Transport Layer) 프로토콜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전송 계층 프로토콜은 SSH의 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>연결(Connection) 프로토콜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연결 프로토콜은 SSH의 구성 요소이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -379,24 +379,24 @@
         <correct_choice_text>디지털 증거의 기밀성 유지</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「(대검찰청) 디지털 증거의 수집ㆍ분석 및 관리 규정」)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 디지털 증거 수집의 기본 원칙
+정답은 ③이다. 대검찰청 「디지털 증거의 수집·분석 및 관리 규정」은 전자정보 압수·수색·검증 시 적법 절차의 준수, 디지털 증거의 원본성 유지, 무결성과 신뢰성 유지 등을 기본 원칙으로 한다. 공식 정답에 따르면 기밀성 유지는 이 규정의 기본 원칙으로 규정되어 있지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>적법절차의 준수</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>적법 절차의 준수는 기본 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>디지털 증거의 신뢰성 유지</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>디지털 증거의 신뢰성 유지는 기본 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>디지털 증거의 기밀성 유지</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성 유지는 기본 원칙에 해당하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>디지털 증거의 원본성 유지</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>디지털 증거의 원본성 유지는 기본 원칙이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -413,24 +413,24 @@
         <correct_choice_text>(다) → (가) → (나) → (라)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 국내 정보보호 관리체계(ISMS), 관리체계 수립 및 운영)
-정답은 ③이다. 본 문항은 국내 정보보호 관리체계(ISMS), 관리체계 수립 및 운영에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS의 PDCA 사이클
+정답은 ③이다. ISMS-P 인증 기준의 '관리체계 수립 및 운영'은 관리체계 기반 마련(Plan) → 위험 관리(Plan) → 관리체계 운영(Do) → 관리체계 점검 및 개선(Check·Act)의 순서로 구성된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (라) → (다)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험 관리는 관리체계 기반 마련 이후에 수행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(가) → (다) → (나) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>관리체계 기반 마련이 가장 먼저이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>(다) → (가) → (나) → (라)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(다) → (가) → (나) → (라)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(다) → (나) → (가) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험 관리는 관리체계 운영보다 먼저 수행한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,24 +446,24 @@
         <correct_choice_text>Teardrop</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 있게 조작된 IP 패킷 조각(fragments))
-정답은 ②이다. 본 문항은 있게 조작된 IP 패킷 조각(fragments)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Teardrop 공격
+정답은 ②이다. Teardrop 공격은 IP 단편(fragment)의 오프셋(순서 번호)을 겹치거나 어긋나게 조작하여 전송함으로써, 수신 시스템이 패킷을 재조합하는 과정에서 오류를 일으켜 시스템을 다운시키는 서비스 거부 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Smurf</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Smurf는 브로드캐스트 주소로 위조된 ICMP 요청을 보내 대상에게 응답을 집중시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Teardrop</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>조작된 IP 단편의 재조합 오류를 유발하는 것은 Teardrop이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ICMP Flooding</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ICMP Flooding은 대량의 ICMP 패킷으로 대역폭과 자원을 소모시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Buffer Overflow</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버퍼 오버플로는 할당된 메모리를 초과하는 입력으로 코드를 실행시키는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -482,24 +482,24 @@
         <correct_choice_text>CBC(Cipher Block Chaining)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: ECB(Electronic CodeBook), CBC(Cipher Block Chaining), CFB(Cipher FeedBack), CTR(CounTeR))
-정답은 ②이다. 본 문항은 ECB(Electronic CodeBook), CBC(Cipher Block Chaining), CFB(Cipher FeedBack), CTR(CounTeR)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · CBC 모드의 복호화
+정답은 ②이다. 이 문항의 그림은 이미지로만 제공되었다. 공식 정답에 따르면 그림은 CBC 모드의 복호화 과정이다. CBC 복호화는 암호문 블록 Cᵢ를 복호화한 결과를 직전 암호문 블록 Cᵢ₋₁(첫 블록은 IV)과 XOR하여 평문 Pᵢ를 얻는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ECB(Electronic CodeBook)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ECB는 각 블록을 독립적으로 복호화하며 이전 블록과 XOR하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>CBC(Cipher Block Chaining)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>복호화 결과를 이전 암호문 블록과 XOR하는 구조는 CBC이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>CFB(Cipher FeedBack)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CFB는 이전 암호문을 암호화한 출력과 현재 암호문을 XOR하여 평문을 얻는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>CTR(CounTeR)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CTR은 카운터 값을 암호화한 출력과 암호문을 XOR하여 평문을 얻는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -516,24 +516,24 @@
         <correct_choice_text>13</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 수리·계산·자료해석형 (핵심어: 키를 생성하는 과정에서 법(modulus), 연산의 곱셈에 대한 역원(multiplicative inverse))
-정답은 ③이다. 본 문항은 키를 생성하는 과정에서 법(modulus), 연산의 곱셈에 대한 역원(multiplicative inverse)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 법 26에서 곱셈의 역원
+정답은 ③이다. 정수 a가 법 n에서 곱셈의 역원을 가지려면 gcd(a, n) = 1이어야 한다. 26 = 2 × 13이므로 13은 26과 공약수 13을 가져 역원이 존재하지 않는다. 7, 11, 23은 26과 서로소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>gcd(7, 26) = 1이므로 역원이 존재한다(7 × 15 = 105 ≡ 1).</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>gcd(11, 26) = 1이므로 역원이 존재한다(11 × 19 = 209 ≡ 1).</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>13</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>gcd(13, 26) = 13이므로 역원이 존재하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>23</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>gcd(23, 26) = 1이므로 역원이 존재한다(23 × 17 = 391 ≡ 1).</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -549,24 +549,24 @@
         <correct_choice_text>정보주체 권리보호</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 보호대책 요구사항)
-정답은 ①이다. 본 문항은 보호대책 요구사항에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS-P 보호대책 요구사항
+정답은 ①이다. ISMS-P의 보호대책 요구사항은 정책·조직·자산 관리, 인적 보안, 외부자 보안, 물리 보안, 인증 및 권한 관리, 접근 통제, 암호화 적용, 정보시스템 도입 및 개발 보안, 시스템 및 서비스 운영 관리, 시스템 및 서비스 보안 관리, 사고 예방 및 대응, 재해 복구의 12개 분야이다. 정보주체 권리 보호는 '개인정보 처리 단계별 요구사항'에 속한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>정보주체 권리보호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보주체 권리 보호는 개인정보 처리 단계별 요구사항이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>재해 복구</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>재해 복구는 보호대책 요구사항 분야이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>외부자 보안</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>외부자 보안은 보호대책 요구사항 분야이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>정책, 조직, 자산 관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정책, 조직, 자산 관리는 보호대책 요구사항 분야이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -584,24 +584,24 @@
         <correct_choice_text>ESP 대칭키</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: IPSec(RFC 2401), 는 기밀성(confidentiality), 비연결 무결성(connectionless integrity))
-정답은 ④이다. 본 문항은 IPSec(RFC 2401), 는 기밀성(confidentiality), 비연결 무결성(connectionless integrity)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · IPSec ESP
+정답은 ④이다. IPSec의 ESP(Encapsulating Security Payload)는 기밀성, 데이터 발신 인증, 비연결 무결성, 재전송 공격 방지를 제공하며, 데이터를 대칭키 암호 알고리즘(AES 등)으로 암호화한다. AH는 인증과 무결성만 제공하고 기밀성은 제공하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AH 공개키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AH는 기밀성을 제공하지 않으며 대량 데이터 암호화에는 공개키를 쓰지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>AH 대칭키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AH는 암호화 기능이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ESP 공개키</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ESP는 데이터 암호화에 공개키가 아니라 대칭키를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ESP 대칭키</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) ESP, (나) 대칭키이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -620,25 +620,24 @@
         <correct_choice_text>대학 부교수 이상으로 3년 이상 재직하였던 사람</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ④이다. 본 문항은 「개인정보 보호법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 보호위원회 위원 자격
+정답은 ④이다. 「개인정보 보호법」 제7조의2에 따르면 위원은 개인정보 보호 업무 담당 3급 이상 공무원, 판사·검사·변호사 10년 이상 경력자, 공공기관·단체 추천을 받아 개인정보 보호 업무를 3년 이상 담당한 사람, 개인정보 관련 분야 전문지식을 갖추고 대학에서 부교수 이상으로 5년 이상 재직하고 있거나 재직하였던 사람 중에서 임명 또는 위촉한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>공공기관 또는 단체로부터 추천받은 사람으로서 개인정보 보호 업무를 3년 이상 담당하였던 사람</choice_text>
-          <commentary>'공공기관 또'에 관하여 제시된 '3년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>공공기관·단체 추천을 받아 개인정보 보호 업무를 3년 이상 담당한 사람은 자격 요건에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>개인정보 보호 업무를 담당하는 3급 이상 공무원의 직에 있었던 사람</choice_text>
-          <commentary>'개인정보 보호 업무를 담당하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개인정보 보호 업무를 담당하는 3급 이상 공무원의 직에 있었던 사람은 자격 요건에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>판사ㆍ검사ㆍ변호사의 직에 10년 이상 있었던 사람</choice_text>
-          <commentary>제시된 '10년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>판사·검사·변호사의 직에 10년 이상 있었던 사람은 자격 요건에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>대학 부교수 이상으로 3년 이상 재직하였던 사람</choice_text>
-          <commentary>'3년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>대학 부교수 이상은 3년이 아니라 5년 이상 재직해야 하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -657,25 +656,24 @@
         <correct_choice_text>개인정보처리자의 정당한 이익을 달성하기 위하여 필요한 경우로서 명백하게 정보주체의 권리보다 우선하는 경우</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 열람의 제한·거절 사유
+정답은 ④이다. 「개인정보 보호법」 제35조에 따르면 개인정보처리자는 법률로 열람이 금지·제한되는 경우, 다른 사람의 생명·신체를 해할 우려가 있거나 재산과 이익을 부당하게 침해할 우려가 있는 경우, 공공기관의 조세 부과·징수·환급 등 업무 수행에 중대한 지장을 초래하는 경우 등에 열람을 제한하거나 거절할 수 있다. 개인정보처리자의 정당한 이익 달성은 개인정보 수집·이용의 적법 근거(제15조)이며 열람 제한 사유가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>법률에 따라 열람이 금지되거나 제한되는 경우</choice_text>
-          <commentary>'법률에 따라 열람'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>법률에 따라 열람이 금지·제한되는 경우는 열람 제한 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다른 사람의 재산과 이익을 부당하게 침해할 우려가 있는 경우는 열람 제한 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공공기관이 조세의 부과ㆍ징수 또는 환급에 관한 업무를 수행할 때 중대한 지장을 초래하는 경우</choice_text>
-          <commentary>'공공기관'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공공기관의 조세 업무 수행에 중대한 지장을 초래하는 경우는 열람 제한 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>개인정보처리자의 정당한 이익을 달성하기 위하여 필요한 경우로서 명백하게 정보주체의 권리보다 우선하는 경우</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정당한 이익 달성은 수집·이용 근거이므로 열람 제한 사유가 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -692,24 +690,24 @@
         <correct_choice_text>법인 설립 이후 5년 이상일 것</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「보안관제 전문기업 지정 등에 관한 공고」, ｢보안관제 전문기업 지정 등)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 보안관제 전문기업 지정 기준
+정답은 ①이다. 「보안관제 전문기업 지정 등에 관한 공고」상 지정 기준은 기술 인력 15명 이상(고급 3명, 중급 6명 이상 포함), 자기자본 20억 원 이상, 보안관제 수행 능력 평가 70점 이상 등이다. 공식 정답에 따르면 '법인 설립 이후 5년 이상'은 공고상 지정 기준이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>법인 설립 이후 5년 이상일 것</choice_text>
-          <commentary>제시된 '5년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>법인 설립 이후 5년 이상이라는 요건은 지정 기준이 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>자기 자본이 20억원 이상일 것</choice_text>
-          <commentary>'자기 자본'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자기자본 20억 원 이상은 지정 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>보안관제 수행능력 평가기준에 따라 실시한 심사에서 70점 이상을 받을 것</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수행 능력 평가 70점 이상은 지정 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>자격기준을 갖춘 기술인력을 15명 이상 보유할 것(고급기술자 3명 이상, 중급기술자 6명 이상을 포함하여야 한다)</choice_text>
-          <commentary>'15명' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>기술 인력 15명 이상(고급 3명, 중급 6명 이상 포함)은 지정 기준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

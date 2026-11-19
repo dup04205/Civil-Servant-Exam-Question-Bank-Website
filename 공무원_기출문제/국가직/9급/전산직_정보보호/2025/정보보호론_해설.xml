@@ -31,8 +31,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 적극적(active), 위장(masquerade), 변조(modification), 도청(eavesdropping), 트래픽 분석(traffic analysis))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 적극적 공격과 소극적 공격
+정답은 ①이다. 적극적 공격은 데이터를 변경하거나 시스템 동작에 영향을 주는 공격으로 위장(신분 위장), 재전송, 변조, 서비스 거부가 있다. 소극적 공격은 데이터를 변경하지 않고 정보를 얻는 공격으로 도청과 트래픽 분석이 있다. 따라서 ㄱ, ㄴ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>위장(masquerade)</statement>
@@ -54,19 +54,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>위장과 변조는 적극적 공격이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄷ 도청은 소극적 공격이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄹ 트래픽 분석은 소극적 공격이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄷ과 ㄹ은 모두 소극적 공격이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -85,24 +85,24 @@
         <correct_choice_text>메시지 기밀성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 전자서명, 제공하, 보안, 요소)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 전자서명의 보안 기능
+정답은 ④이다. 전자서명은 서명자의 개인키로 서명하고 공개키로 검증하므로 서명자 인증, 메시지 무결성, 부인 방지를 제공한다. 메시지 자체를 암호화하지 않으므로 기밀성은 제공하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>메시지 무결성</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서명 검증으로 메시지가 변경되지 않았음을 확인하므로 무결성을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>서명자 인증</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서명자의 공개키로 검증되므로 서명자 인증을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>서명 부인 방지</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서명자만 개인키를 가지므로 부인 방지를 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>메시지 기밀성</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전자서명은 메시지를 암호화하지 않으므로 기밀성을 제공하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -118,24 +118,24 @@
         <correct_choice_text>TCSEC</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: Orange Book)
-정답은 ④이다. 본 문항은 Orange Book에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · TCSEC
+정답은 ④이다. TCSEC(Trusted Computer System Evaluation Criteria)은 미국 국방부가 제정한 신뢰 컴퓨터 시스템 평가 기준으로 표지 색깔 때문에 '오렌지북'으로 불리며, 보안 등급을 D, C1, C2, B1, B2, B3, A1로 구분한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CC는 여러 나라 평가 기준을 통합한 국제 공통 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>PIMS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PIMS는 우리나라의 개인정보보호 관리체계 인증이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ITSEC</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ITSEC은 유럽의 정보보호 시스템 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>TCSEC</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>오렌지북으로 불리는 미국의 평가 기준은 TCSEC이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -151,24 +151,24 @@
         <correct_choice_text>Clark-Wilson</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 제약을 받는(constrained))
-정답은 ③이다. 본 문항은 제약을 받는(constrained)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 클락-윌슨 무결성 모델
+정답은 ③이다. 클락-윌슨(Clark-Wilson) 모델은 상업 환경의 무결성을 위한 모델로, 정형화된 트랜잭션(well-formed transaction)과 직무 분리를 강조하며, 제약 데이터 항목(CDI)은 무결성 검증 절차(IVP)와 변환 절차(TP)를 통해서만 변경하도록 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Bell-LaPadula</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>벨-라파둘라 모델은 기밀성을 중시하는 군사용 모델이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Biba</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비바 모델은 무결성을 위한 모델이지만 직무 분리와 정형화된 트랜잭션을 다루지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Clark-Wilson</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>상업 환경의 무결성, 직무 분리, 제약 데이터 항목의 검증을 다루는 것은 클락-윌슨 모델이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Lattice</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>래티스 모델은 보안 등급의 격자 구조로 접근을 통제하는 모델이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -187,24 +187,24 @@
         <correct_choice_text>가용성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 정보보호, 목표)
-정답은 ②이다. 본 문항은 다음에서, 설명하, 정보보호, 목표에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 가용성
+정답은 ②이다. 가용성은 정당한 사용자가 필요할 때 정보와 자원을 사용할 수 있게 하는 보안 목표로, 백업, 이중화로 확보하며 서비스 거부 공격과 자연재해가 주요 위협이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기밀성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성은 인가되지 않은 사용자에게 정보가 노출되지 않게 하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>가용성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>필요할 때 자원을 사용할 수 있게 하는 것은 가용성이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>무결성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무결성은 정보가 무단으로 변경되지 않게 하는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>책임추적성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>책임추적성은 행위를 기록하여 행위자를 추적할 수 있게 하는 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -223,25 +223,24 @@
         <correct_choice_text>사망자에 대한 정보</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ④이다. 본 문항은 「개인정보 보호법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보의 정의
+정답은 ④이다. 「개인정보 보호법」 제2조에 따르면 개인정보는 살아 있는 개인에 관한 정보로서 성명, 주민등록번호, 영상 등을 통해 개인을 알아볼 수 있는 정보, 다른 정보와 쉽게 결합하여 알아볼 수 있는 정보, 가명정보를 말한다. 사망자에 대한 정보는 개인정보에 해당하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>성명</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>성명은 개인을 알아볼 수 있는 개인정보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>주민등록번호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주민등록번호는 개인정보이며 고유식별정보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>영상 등을 통하여 개인을 알아볼 수 있는 정보</choice_text>
-          <commentary>'영상 등을 통하여 개인을 알아볼 수 있'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>영상 등을 통해 개인을 알아볼 수 있는 정보는 개인정보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>사망자에 대한 정보</choice_text>
-          <commentary>'사망자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보는 살아 있는 개인에 관한 정보이므로 사망자 정보는 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -259,24 +258,24 @@
         <correct_choice_text>NAT</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 기술)
-정답은 ③이다. 본 문항은 다음에서, 설명하, 기술에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · NAT
+정답은 ③이다. NAT(Network Address Translation)는 내부의 사설 IP 주소를 외부의 공인 IP 주소로 변환하는 기술로, 부족한 공인 IP 주소를 절약하고 내부 네트워크 구조를 외부에 숨겨 보호하는 효과가 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ARP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ARP는 IP 주소로 MAC 주소를 구하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IPS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPS는 침입을 탐지하고 차단하는 침입 방지 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>NAT</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사설 IP를 공인 IP로 변환하는 것은 NAT이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>VLAN</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>VLAN은 물리적 위치와 관계없이 논리적으로 네트워크를 분할하는 기술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -292,24 +291,24 @@
         <correct_choice_text>중간자(MITM)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: Smurf 중간자(MITM))
-정답은 ②이다. 본 문항은 Smurf 중간자(MITM)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 중간자 공격
+정답은 ②이다. 중간자(MITM) 공격은 공격자가 두 통신 당사자 사이에 끼어들어 각자에게 상대방인 것처럼 위장하는 공격이다. 공격자 C가 A의 공개키 대신 자신의 공개키를 B에게 보내 B가 암호화한 메시지를 복호화하고, 다시 A의 공개키로 암호화해 전달하므로 A와 B는 공격 사실을 알기 어렵다. 이를 막으려면 인증서로 공개키의 진위를 확인해야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Smurf</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Smurf는 브로드캐스트를 이용한 ICMP 증폭 서비스 거부 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>중간자(MITM)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>통신 중간에서 공개키를 바꿔치기하여 메시지를 가로채는 것은 중간자 공격이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Sniffing</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스니핑은 네트워크 트래픽을 도청하는 소극적 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Slowloris</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Slowloris는 HTTP 요청을 천천히 보내 연결을 오래 점유하는 서비스 거부 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -326,26 +325,25 @@
         <correct_choice_text>수신자의 공개키 송신자의 개인키</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 용어, 연결한)
-정답은 ④이다. 본 문항은 용어, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다."</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 공개키 암호의 키 사용
+정답은 ④이다. 기밀성을 위해 평문을 암호화할 때는 수신자의 공개키로 암호화하여 수신자만 자신의 개인키로 복호화하게 한다(가). 전자서명은 송신자의 개인키로 서명하고 수신자가 송신자의 공개키로 검증한다(나).</overall_commentary>
       <passage_evidence>공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다.</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>송신자의 공개키 송신자의 공개키</choice_text>
-          <commentary>제시문의 "공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>송신자의 공개키로 암호화하면 송신자만 복호화할 수 있어 의미가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>수신자의 공개키 송신자의 공개키</choice_text>
-          <commentary>제시문의 "공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>전자서명은 송신자의 공개키가 아니라 개인키로 작성한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>송신자의 공개키 송신자의 개인키</choice_text>
-          <commentary>제시문의 "공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>암호화는 송신자가 아니라 수신자의 공개키로 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>수신자의 공개키 송신자의 개인키</choice_text>
-          <commentary>제시문의 "공개키 암호 방식으로 송신자가 수신자에게 보낼 평문을 암호화할 때는 (가)를 사용하고, 송신자가 평문을 전자서명하여 수신자에게 보낼 때는 (나)를 사용한다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>(가) 수신자의 공개키, (나) 송신자의 개인키이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -365,25 +363,24 @@
         <correct_choice_text>개인정보처리자는 개인정보를 익명 또는 가명으로 처리하여도 개인정보 수집목적을 달성할 수 있는 경우 가명처리가 가능한 경우에는 가명에 의하여, 가명처리로 목적을 달성할 수 없는 경우에는 익명에 의하여 처리될 수 있도록 하여야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, 법령 조문)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 보호 원칙
+정답은 ①이다. 「개인정보 보호법」 제3조 제7항에 따르면 개인정보처리자는 익명 또는 가명으로 처리하여도 목적을 달성할 수 있는 경우 익명처리가 가능하면 익명으로, 익명처리로 목적을 달성할 수 없으면 가명으로 처리될 수 있도록 하여야 한다. 익명처리가 우선이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>개인정보처리자는 개인정보를 익명 또는 가명으로 처리하여도 개인정보 수집목적을 달성할 수 있는 경우 가명처리가 가능한 경우에는 가명에 의하여, 가명처리로 목적을 달성할 수 없는 경우에는 익명에 의하여 처리될 수 있도록 하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>익명처리를 우선하고 불가능할 때 가명처리하도록 되어 있으므로 순서를 바꾼 이 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 개인정보의 처리 목적을 명확하게 하여야 하고 그 목적에 필요한 범위에서 최소한의 개인정보만을 적법하고 정당하게 수집하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>처리 목적을 명확히 하고 필요한 최소한의 개인정보만 적법하게 수집해야 한다(제3조 제1항).</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 개인정보의 처리 목적에 필요한 범위에서 개인정보의 정확성, 완전성 및 최신성이 보장되도록 하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>처리 목적에 필요한 범위에서 정확성, 완전성, 최신성을 보장해야 한다(제3조 제3항).</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개인정보처리자는 정보주체의 사생활 침해를 최소화하는 방법으로 개인정보를 처리하여야 한다.</choice_text>
-          <commentary>'개인정보처리자'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>정보주체의 사생활 침해를 최소화하는 방법으로 처리해야 한다(제3조 제6항).</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -400,24 +397,24 @@
         <correct_choice_text>스택에서 코드가 실행되는 것을 허용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 스택 오버플로(stack overflow), 연산을 수행하기 전에 카나리(canary))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 스택 오버플로 대응
+정답은 ②이다. 스택 오버플로 대응 방법에는 입력 길이를 제한하는 안전한 함수 사용, 스택 영역의 코드 실행 금지(NX/DEP), 주소 공간 배치 난수화(ASLR), 카나리 값을 이용한 스택 가드 등이 있다. 스택에서 코드 실행을 허용하면 공격자가 삽입한 셸코드가 실행될 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>스택에 저장할 수 있는 데이터의 최대 길이를 지정해야 하는 함수를 사용한다.</choice_text>
-          <commentary>'스택에 저장할 수 있'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최대 길이를 지정하는 함수(strncpy 등)를 사용하는 것은 대응 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>스택에서 코드가 실행되는 것을 허용한다.</choice_text>
-          <commentary>'스택에서 코드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스택에서 코드 실행을 허용하면 공격 코드가 실행되므로 대응 방법으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>스택 영역을 임의의 메모리 주소에 할당하여 스택 영역의 주소에 대한 추측을 어렵게 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>스택 주소를 무작위로 배치하여 추측을 어렵게 하는 것(ASLR)은 대응 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>함수의 종료 연산을 수행하기 전에 카나리(canary) 값의 변경 여부를 검사한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>함수 종료 전 카나리 값의 변경 여부를 검사하는 것(스택 가드)은 대응 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -433,24 +430,24 @@
         <correct_choice_text>정보시스템 보호</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 인증 및 권한관리)
-정답은 ③이다. 본 문항은 인증 및 권한관리에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS-P 인증 및 권한관리
+정답은 ③이다. ISMS-P 보호대책 요구사항의 '인증 및 권한관리' 분야에는 사용자 계정 관리, 사용자 식별, 사용자 인증, 비밀번호 관리, 특수 계정 및 권한 관리, 접근 권한 검토가 포함된다. 정보시스템 보호는 '접근 통제' 분야에 속한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>비밀번호 관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비밀번호 관리는 인증 및 권한관리 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>접근권한 검토</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>접근 권한 검토는 인증 및 권한관리 항목이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>정보시스템 보호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보시스템 보호는 접근 통제 분야의 항목이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>특수 계정 및 권한관리</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>특수 계정 및 권한 관리는 인증 및 권한관리 항목이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -473,25 +470,24 @@
         <correct_choice_text>｢위치정보의 보호 및 이용 등에 관한 법률｣ － 과학기술정보통신부</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 「개인정보 보호법」, 「위치정보의 보호 및 이용 등에 관한 법률」, 「공공기관의 정보공개에 관한 법률」, 「전자서명법」)
-정답은 ②이다. 본 문항은 「개인정보 보호법」, 「위치정보의 보호 및 이용 등에 관한 법률」, 「공공기관의 정보공개에 관한 법률」, 「전자서명법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증 / 「공공기관의 정보공개에 관한 법률」(시행 2023-11-17): 정보공개청구권자(모든 국민 및 대통령령이 정하는 외국인), 비공개 대상 정보(제9조제1항 각호), 정보공개 여부 결정기간(청구 받은 날부터 10일 이내, 10일 범위 연장 가능), 부분공개(제14조), 이의신청(제18조: 30일 이내, 제3자는 통지받은 날부터 7일 이내) 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 정보보호 관련 법률의 소관 부처
+정답은 ②이다. 「위치정보의 보호 및 이용 등에 관한 법률」의 소관 부처는 방송통신위원회이다. 「개인정보 보호법」은 개인정보보호위원회, 「공공기관의 정보공개에 관한 법률」은 행정안전부, 「전자서명법」은 과학기술정보통신부 소관이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>｢개인정보 보호법｣ － 개인정보보호위원회</choice_text>
-          <commentary>「개인정보 보호법」에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>「개인정보 보호법」은 개인정보보호위원회 소관이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>｢위치정보의 보호 및 이용 등에 관한 법률｣ － 과학기술정보통신부</choice_text>
-          <commentary>「위치정보의 보호 및 이용 등에 관한 법률」에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위치정보법은 방송통신위원회 소관이므로 과학기술정보통신부와의 연결은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>｢공공기관의 정보공개에 관한 법률｣ － 행정안전부</choice_text>
-          <commentary>「공공기관의 정보공개에 관한 법률」상 공공기관은 청구를 받은 날부터 10일 이내에 공개 여부를 결정하여야 하며, 제3자 관련 정보는 지체 없이 통지하되 의견 청취는 필요한 경우에 할 수 있다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>「공공기관의 정보공개에 관한 법률」은 행정안전부 소관이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>｢전자서명법｣ － 과학기술정보통신부</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>「전자서명법」은 과학기술정보통신부 소관이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -507,24 +503,24 @@
         <correct_choice_text>POST CSRF</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 도한 데이터를 HTTP 몸체(body))
-정답은 ④이다. 본 문항은 도한 데이터를 HTTP 몸체(body)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · POST 방식 CSRF
+정답은 ④이다. CSRF는 인증된 사용자가 악의적 링크에 접근하면 사용자 모르게 공격자가 의도한 요청이 서버로 전송되게 하는 공격이다. 데이터를 HTTP 몸체(body)에 담아 서버의 내용을 변경하는 요청은 POST 방식이다(GET은 URL에 데이터를 포함).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>GET XSS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>HTTP 몸체에 데이터를 담는 것은 GET이 아니며, 공격 유형도 CSRF이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>GET CSRF</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>HTTP 몸체에 데이터를 담는 요청은 POST이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>POST XSS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사용자 의지와 무관한 요청을 보내게 하는 공격은 XSS가 아니라 CSRF이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>POST CSRF</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) POST, (나) CSRF이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -541,24 +537,24 @@
         <correct_choice_text>Enveloped-Data</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: MIME(RFC 8551), 의 데이터 콘텐트 유형(data content type))
-정답은 ②이다. 본 문항은 MIME(RFC 8551), 의 데이터 콘텐트 유형(data content type)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · S/MIME 콘텐트 유형
+정답은 ②이다. S/MIME의 Enveloped-Data는 콘텐트를 대칭키로 암호화하고 그 키를 수신자의 공개키로 암호화하여 기밀성만 제공한다. Signed-Data는 전자서명으로 무결성과 인증을, Auth-Enveloped-Data는 인증된 암호화로 기밀성과 무결성을, Compressed-Data는 압축 기능을 제공한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Signed-Data</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Signed-Data는 서명을 통한 무결성과 인증을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Enveloped-Data</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>기밀성만 제공하는 것은 Enveloped-Data이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Auth-Enveloped-Data</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Auth-Enveloped-Data는 기밀성과 무결성을 함께 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Compressed-Data</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Compressed-Data는 데이터 압축을 제공한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -575,24 +571,24 @@
         <correct_choice_text>대칭키 암호 알고리즘의 종류</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 사용자 계정명 솔트(salt), 암호 알고리즘의 종류 기준일(epoch))
-정답은 ③이다. 본 문항은 사용자 계정명 솔트(salt), 암호 알고리즘의 종류 기준일(epoch)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 리눅스 /etc/shadow 파일
+정답은 ③이다. /etc/shadow 파일에는 사용자 계정명, 해시 알고리즘 식별자($1$, $5$, $6$ 등), 솔트, 패스워드 해시값, 마지막 변경일(1970년 1월 1일부터의 일수), 최소·최대 사용 기간, 경고 기간 등이 저장된다. 패스워드는 일방향 해시로 저장되므로 대칭키 암호 알고리즘의 종류는 포함되지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>사용자 계정명</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사용자 계정명은 첫 번째 필드에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>솔트(salt)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>솔트는 패스워드 필드에 해시값과 함께 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>대칭키 암호 알고리즘의 종류</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>패스워드는 해시로 저장되므로 대칭키 암호 알고리즘의 종류는 포함되지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기준일(epoch)부터 패스워드가 최종 수정된 날까지의 일수</choice_text>
-          <commentary>'기준일(epoch)부터 패스워드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기준일부터 패스워드 최종 수정일까지의 일수는 세 번째 필드에 포함된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -611,24 +607,24 @@
         <correct_choice_text>Schnorr</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 소수, 선택하고, 위수, 원시근)
-정답은 ④이다. 본 문항은 소수, 선택하고, 위수, 원시근에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 슈노어 전자서명
+정답은 ④이다. 슈노어(Schnorr) 서명은 소수 p와 p − 1의 소인수 q를 선택하고, 위수가 q인 원소를 생성자로 사용하여 서명 크기와 연산량을 줄인 이산대수 기반 전자서명이다. ElGamal 서명이 위수 p − 1의 원시근을 사용하는 것과 구별된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>RSA</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RSA 서명은 소인수분해 문제에 기반한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ElGamal</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ElGamal 서명은 위수가 p − 1인 원시근을 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ECDSA</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ECDSA는 타원곡선 위에서 정의된 서명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Schnorr</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>p − 1의 소인수 q를 위수로 갖는 원소를 이용하는 것은 슈노어 서명이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -647,8 +643,8 @@
         <correct_choice_text>ㄱ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 복합 보기 검증형 (핵심어: 핸드셰이크, 프로토콜, 목적, 해당하)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · TLS 핸드셰이크 프로토콜
+정답은 ①이다. TLS 핸드셰이크 프로토콜은 통신 시작 시 암호 알고리즘 협상, 서버(필요시 클라이언트) 인증서 확인을 통한 인증, 세션키 생성과 교환을 수행한다. 응용 데이터 전송은 레코드 프로토콜이 담당한다. 세션을 활성 상태로 유지하는 기능은 하트비트 확장에서 다룬다. 따라서 ㄱ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>인증서 확인</statement>
@@ -670,19 +666,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>인증서 확인과 세션키 생성·교환은 핸드셰이크의 목적이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄹ 응용 데이터 전송은 레코드 프로토콜의 기능이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ 세션 유지는 핸드셰이크의 목적이 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄹ은 모두 핸드셰이크의 목적이 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -700,24 +696,24 @@
         <correct_choice_text>K^(+)는 K의 왼쪽에 0을 패딩해서 전체 비트 수가 해시 함수 출력의 크기와 같게 되도록 한 것이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 수식으로 표현된 HMAC, 는 연결(concatenation), HMAC(K,M))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · HMAC 구조
+정답은 ③이다. RFC 2104에 따르면 K⁺는 키 K의 오른쪽(끝)에 0을 덧붙여 해시 함수의 입력 블록 크기(b비트)와 같게 만든 것이다. 해시 출력 크기에 맞추는 것이 아니다. ipad는 0x36, opad는 0x5C를 블록 크기만큼 반복한 값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>HMAC 구조는 해시 함수 H로 MD5, SHA-1, SHA-512 등 가용한 것을 선택할 수 있도록 되어 있다.</choice_text>
-          <commentary>제시문의 "HMAC(K,M) = H((K^(+)⊕opad)||H((K^(+)⊕ipad)||M))" 내용과 일치하므로 옳다.</commentary>
+          <commentary>HMAC은 MD5, SHA-1, SHA-512 등 다양한 해시 함수를 선택해 사용할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>K는 HMAC를 주고받는 사용자가 공유하는 비밀키이다.</choice_text>
-          <commentary>'K는 HMAC를 주고받'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>K는 송수신자가 공유하는 비밀키이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>K^(+)는 K의 왼쪽에 0을 패딩해서 전체 비트 수가 해시 함수 출력의 크기와 같게 되도록 한 것이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>K⁺는 해시 입력 블록 크기에 맞추어 끝에 0을 채운 것이므로 출력 크기에 맞춘다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>ipad와 opad는 각각 16진수 36과 5C가 반복된 것으로, 해시 함수에 입력되는 블록의 크기와 같다.</choice_text>
-          <commentary>제시문의 "HMAC(K,M) = H((K^(+)⊕opad)||H((K^(+)⊕ipad)||M))" 내용과 일치하므로 옳다.</commentary>
+          <commentary>ipad와 opad는 각각 0x36, 0x5C가 블록 크기만큼 반복된 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -733,27 +729,25 @@
         <correct_choice_text>복호화 함수를 $D_{K}$이라고 하면, 평문 블록 $P_{1} = D_{K} ( C_{1} ) \oplus IV$이고, $P_{i} = D_{K} ( C_{i} ) \oplus C_{i - 1} , i = 2 , 3 , . . . , N$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 수식으로 나타낸 블록 암호 운용 모드)
-정답은 ①이다. 본 문항은 수식으로 나타낸 블록 암호 운용 모드에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "$P_{i}$: 평문 블록"
-관련 수식: $P_{i}$; $C_{i}$; $E_{K}$; $K$; $IV$</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · CBC 모드
+정답은 ①이다. 주어진 식은 CBC(암호 블록 연쇄) 모드의 암호화이다. 복호화는 Pᵢ = D_K(Cᵢ) ⊕ Cᵢ₋₁(P₁은 IV와 XOR)이다. IV는 예측 불가능해야 하지만 비밀일 필요는 없다. 암호문 블록 Cⱼ에 비트 오류가 생기면 Pⱼ와 Pⱼ₊₁만 영향을 받는다. 암호화는 이전 암호문 블록이 필요하므로 병렬 처리가 불가능하다(복호화는 병렬 가능).</overall_commentary>
       <passage_evidence>$P_{i}$: 평문 블록</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>복호화 함수를 $D_{K}$이라고 하면, 평문 블록 $P_{1} = D_{K} ( C_{1} ) \oplus IV$이고, $P_{i} = D_{K} ( C_{i} ) \oplus C_{i - 1} , i = 2 , 3 , . . . , N$이다.</choice_text>
-          <commentary>제시문의 "$P_{i}$: 평문 블록" 내용과 일치하므로 옳다.</commentary>
+          <commentary>P₁ = D_K(C₁) ⊕ IV, Pᵢ = D_K(Cᵢ) ⊕ Cᵢ₋₁이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>송신자와 수신자가 공유하는 $IV$는 반드시 제3자에게 비밀로 해야 한다.</choice_text>
-          <commentary>제시문의 "$IV$: 초기벡터" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>IV는 비밀로 할 필요가 없으며 예측 불가능하면 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>암호문 블록 $C_{j}$ $( j = 1 , 2 , . . . , N )$의 전송 도중에 비트 오류가 발생하면, 복호화된 $P_{j}$부터 $P_{N}$까지의 모든 평문 블록에 영향을 미친다.</choice_text>
-          <commentary>제시문의 "$P_{i}$: 평문 블록" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>비트 오류는 Pⱼ와 Pⱼ₊₁에만 영향을 주며 이후 모든 블록에 퍼지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>여러 평문 블록에 대한 암호화 과정의 병렬처리가 가능하다.</choice_text>
-          <commentary>제시문의 "$P_{i}$: 평문 블록" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>CBC 암호화는 이전 암호문 블록에 의존하므로 병렬 처리가 불가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -30,25 +30,24 @@
         <correct_choice_text>주민등록번호</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」)
-정답은 ①이다. 본 문항은 「개인정보 보호법」에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 민감정보
+정답은 ①이다. 「개인정보 보호법」 제23조의 민감정보는 사상·신념, 노동조합·정당의 가입·탈퇴, 정치적 견해, 건강, 성생활 등에 관한 정보와 유전정보, 범죄경력자료, 생체인식정보, 인종·민족 정보이다. 주민등록번호는 민감정보가 아니라 제24조의 고유식별정보에 해당한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>주민등록번호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주민등록번호는 고유식별정보이므로 민감정보에 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>노동조합․정당의 가입․탈퇴에 관한 정보</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>노동조합·정당의 가입·탈퇴에 관한 정보는 민감정보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>건강에 관한 정보</choice_text>
-          <commentary>'건강'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>건강에 관한 정보는 민감정보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>사상․신념에 관한 정보</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사상·신념에 관한 정보는 민감정보이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -64,24 +63,24 @@
         <correct_choice_text>메시지 인증 코드</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 메시지의 무결성 보장과 송신자)
-정답은 ②이다. 본 문항은 메시지의 무결성 보장과 송신자에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 메시지 인증 코드
+정답은 ②이다. 메시지 인증 코드(MAC)는 송수신자가 공유한 비밀키와 메시지를 입력으로 계산하는 값으로, 메시지의 무결성과 송신자 인증을 제공한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>의사 난수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>의사 난수는 결정적 알고리즘으로 생성한 난수처럼 보이는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>메시지 인증 코드</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공유 비밀키와 메시지로 만들어 무결성과 송신자 인증을 제공하는 것은 MAC이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>해시</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>해시는 키 없이 메시지만으로 계산하므로 송신자 인증을 제공하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>인증서</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인증서는 공개키와 소유자 정보를 인증기관이 서명한 문서이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -97,24 +96,24 @@
         <correct_choice_text>생성 방식에 따라 사용자나 인증 서버의 관리 부담이 발생할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 사용이 증가하고 있는 OTP(One Time Password))
-정답은 ④이다. 본 문항은 사용이 증가하고 있는 OTP(One Time Password)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · OTP
+정답은 ④이다. OTP는 매번 새로 생성되는 일회용 패스워드로, 사용자가 가지고 있는 토큰이나 앱으로 생성하는 소유 기반 인증이다. 시간 동기화, 이벤트 동기화, 질의-응답 등 생성 방식에 따라 토큰 배포와 동기화 관리 등 사용자와 인증 서버의 관리 부담이 생길 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>어떤 패스워드가 일정유형으로 반복해서 생성된다.</choice_text>
-          <commentary>'어떤 패스워드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OTP는 매번 다른 값이 생성되므로 일정 유형으로 반복되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사용자가 알고 있는 정보에 의한 인증 기법이다.</choice_text>
-          <commentary>'사용자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OTP는 알고 있는 정보가 아니라 가지고 있는 것에 의한 인증이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>일반적으로 사용자 자신의 특성을 이용하는 기법들에 비하여 식별 오류 발생 가능성이 높다.</choice_text>
-          <commentary>'일반적으로 사용자 자신의 특성을 이용하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OTP는 생체 인증과 달리 오인식·오거부 같은 식별 오류 가능성이 낮다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>생성 방식에 따라 사용자나 인증 서버의 관리 부담이 발생할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>생성 방식에 따라 관리 부담이 생길 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -130,24 +129,24 @@
         <correct_choice_text>전문가 집단으로 구성된 위험 분석팀의 위험 분석 및 평가를 통해 여러 가능성을 전제로 위협과 취약성에 대한 의견수렴을 통한 분석 방법이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 위험 분석 방법 중 델파이법)
-정답은 ③이다. 본 문항은 위험 분석 방법 중 델파이법에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 델파이법
+정답은 ③이다. 델파이법은 전문가 집단으로 위험 분석팀을 구성하여 위협과 취약성에 대한 의견을 수렴하고 평가하는 정성적 위험 분석 방법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>위협 발생 빈도를 추정하는 계산식을 통해 위험을 계량하여 분석한다.</choice_text>
-          <commentary>'위협 발생 빈도를 추정하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산식으로 위협 발생 빈도를 추정하는 것은 수학 공식 접근법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>미지의 사건을 추정하는 데 사용되는 방법으로 확률적 편차를 이용해 최저, 보통, 최고의 위험도를 분석한다.</choice_text>
-          <commentary>'미지의 사건을 추정하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>확률적 편차로 최저·보통·최고 위험도를 분석하는 것은 확률 분포법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>전문가 집단으로 구성된 위험 분석팀의 위험 분석 및 평가를 통해 여러 가능성을 전제로 위협과 취약성에 대한 의견수렴을 통한 분석 방법이다.</choice_text>
-          <commentary>'전문'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전문가 집단의 의견 수렴을 통한 분석은 델파이법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>어떤 사건이 예상대로 발생하지 않는다는 사실에 근거하여 주어진 조건하에 발생 가능한 위협에 따른 결과를 예측하는 방법이다.</choice_text>
-          <commentary>'어떤 사건'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>예상대로 발생하지 않는다는 사실에 근거하여 결과를 예측하는 것은 시나리오법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -166,24 +165,24 @@
         <correct_choice_text>라우터에 패킷 필터를 설정하여 서로 다른 LAN 간에 전송되는 패킷들을 검열하고 차단한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 스푸핑(spoofing), 기법을 이용한 스니핑(sniffing), 내의 MAC 주소 값을 정적(static), 주기적으로 프러미스큐어스(promiscuous))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ARP 스푸핑 스니핑의 대응책
+정답은 ②이다. ARP 스푸핑은 같은 LAN 안에서 MAC 주소를 위조하는 공격이므로, 데이터 암호화, ARP 테이블의 정적 설정, 무차별 모드 장치 탐지 등으로 대응한다. 라우터에서 서로 다른 LAN 간 패킷을 필터링해도 같은 LAN 내부의 ARP 스푸핑은 막을 수 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>데이터를 암호화하여 전송한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>데이터를 암호화하면 스니핑으로 내용을 알 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>라우터에 패킷 필터를 설정하여 서로 다른 LAN 간에 전송되는 패킷들을 검열하고 차단한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ARP 스푸핑은 같은 LAN 안에서 일어나므로 LAN 간 패킷 필터링은 적절한 대응책이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ARP 테이블 내의 MAC 주소 값을 정적(static)으로 설정한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ARP 테이블의 MAC 주소를 정적으로 설정하면 위조된 ARP 응답에 의해 바뀌지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>주기적으로 프러미스큐어스(promiscuous) 모드에서 동작하는 기기들이 존재하는지 검사함으로써 스니핑 중인 공격자를 탐지한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>무차별 모드로 동작하는 장치를 탐지하여 스니핑 공격자를 찾을 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -202,24 +201,24 @@
         <correct_choice_text>TGS가 발급하는 티켓은 응용서버의 공개키로 암호화된다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 커버로스(Kerberos) 버전 4, 커버로스(Kerberos), 커버로스 서버는 AS(Authentication Server), 와 TGS(Ticket Granting Server))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 커버로스 버전 4
+정답은 ③이다. 커버로스는 대칭키 암호를 사용하는 제3자 인증 서비스로, 인증 서버(AS)와 티켓 발급 서버(TGS)로 구성된다. TGS가 발급하는 서비스 티켓은 공개키가 아니라 TGS와 응용 서버가 공유하는 비밀키로 암호화된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>커버로스는 클라이언트와 응용서버 간의 상호 인증을 중재하는 제3자 인증 서비스를 제공한다.</choice_text>
-          <commentary>'커버로스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>커버로스는 클라이언트와 응용 서버 간 인증을 중재하는 제3자 인증 서비스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>커버로스 서버는 AS(Authentication Server)와 TGS(Ticket Granting Server)로 구성된다.</choice_text>
-          <commentary>'커버로스 서버'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>커버로스 서버는 AS와 TGS로 구성된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>TGS가 발급하는 티켓은 응용서버의 공개키로 암호화된다.</choice_text>
-          <commentary>'TGS'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>서비스 티켓은 응용 서버와 공유하는 비밀키로 암호화되므로 공개키라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>한번 인증을 받은 클라이언트는 TGS에 여러 차례 접속할 수 있고 여러 응용서버에 접속할 때 사용할 티켓들을 획득할 수 있다.</choice_text>
-          <commentary>'한번 인증을 받'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>한 번 인증받은 클라이언트는 TGT로 TGS에 여러 번 접속하여 여러 서비스 티켓을 받을 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -236,24 +235,24 @@
         <correct_choice_text>터널 모드는 송신자와 수신자가 모두 호스트인 경우에 사용되어 네트워크 전 구간에서 전체 IP 패킷을 암호화한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: IPSec 프로토콜과 이를 이용한 두 가지 운용 모드, AH(Authentication Header))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · IPSec 운용 모드
+정답은 ④이다. IPSec 전송 모드는 원래 IP 헤더를 유지하고 페이로드만 보호하며 주로 호스트 간 통신에 사용한다. 터널 모드는 원래 IP 패킷 전체를 새 IP 헤더로 캡슐화하며 주로 게이트웨이(VPN 장비) 간에 사용되어, 내부망 구간이 아니라 게이트웨이 사이 구간을 보호한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>AH(Authentication Header) 프로토콜은 발신지 호스트를 인증하고 IP 패킷의 페이로드의 무결성을 제공한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>AH는 발신지를 인증하고 무결성을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전송 모드에서 IPSec은 본래의 IPv4 패킷 헤더를 암호화하지 않는다.</choice_text>
-          <commentary>'전송 모드에서 IPSec'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전송 모드에서는 원래 IP 헤더를 암호화하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ESP(Encapsulating Security Payload) 프로토콜은 발신지 인증과 페이로드의 무결성 및 기밀성을 제공한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ESP는 발신지 인증, 무결성, 기밀성을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>터널 모드는 송신자와 수신자가 모두 호스트인 경우에 사용되어 네트워크 전 구간에서 전체 IP 패킷을 암호화한다.</choice_text>
-          <commentary>'터널 모드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>터널 모드는 주로 게이트웨이 간에 사용되며 네트워크 전 구간을 암호화하는 것이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -270,25 +269,24 @@
         <correct_choice_text>$a$, $p$, $y$가 주어졌을 때, $y = a^x mod p$를 만족하는 $x$를 구하는 문제</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 식의 기본 원리인 이산 대수(discrete logarithm), phi ( n ))
-정답은 ①이다. 본 문항은 식의 기본 원리인 이산 대수(discrete logarithm), phi ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $p$; $q$; $a$; $p$; $\phi ( )$</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 이산대수 문제
+정답은 ①이다. 이산대수 문제는 소수 p, 원시원소 a, 값 y가 주어졌을 때 y = aˣ mod p를 만족하는 지수 x를 구하는 문제로, ElGamal, Diffie-Hellman, DSA의 안전성 근거이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$a$, $p$, $y$가 주어졌을 때, $y = a^x mod p$를 만족하는 $x$를 구하는 문제</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>a, p, y가 주어졌을 때 x를 구하는 문제이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$a$, $p$, $x$, $Y$가 주어졌을 때, $Y = a^{y} mod p$를 만족하는 $a^{xy} mod p$를 구하는 문제</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>aˣ와 aʸ로 aˣʸ를 구하는 것은 Diffie-Hellman 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$n$이 주어졌을 때, $n = pq$를 만족하는 $\phi ( n )$을 구하는 문제</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>n = pq에서 φ(n)을 구하는 것은 소인수분해 문제와 관련된 RSA 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$n$과 $\phi ( n )$과 서로소인 $e$가 주어졌을 때, $n = pq$이면서 $ed mod \phi ( n ) = 1$을 만족하는 $d$를 구하는 문제</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ed ≡ 1 (mod φ(n))인 d를 구하는 것은 RSA 개인키 계산 문제이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -308,25 +306,24 @@
         <correct_choice_text>개인정보 처리방침의 수립 및 공개</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 보호법」, ｢개인정보 보호법｣상 개인정보처리자는 개인정보의 처리)
-정답은 ①이다. 본 문항은 「개인정보 보호법」, ｢개인정보 보호법｣상 개인정보처리자는 개인정보의 처리에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 보호책임자의 업무
+정답은 ①이다. 「개인정보 보호법」 제31조의 개인정보 보호책임자 업무는 보호 계획 수립·시행, 처리 실태와 관행의 정기 조사·개선, 고충 처리와 피해 구제, 유출·오남용 방지를 위한 내부통제시스템 구축, 보호 교육 계획 수립·시행, 개인정보파일 보호·관리·감독 등이다. 개인정보 처리방침의 수립 및 공개는 제30조에 따른 개인정보처리자의 의무이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>개인정보 처리방침의 수립 및 공개</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보 처리방침의 수립 및 공개는 개인정보처리자의 의무이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>개인정보 처리 실태 및 관행의 정기적인 조사 및 개선</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>처리 실태와 관행의 정기적 조사 및 개선은 보호책임자의 업무이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>개인정보 유출 및 오용․남용 방지를 위한 내부통제시스템의 구축</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내부통제시스템의 구축은 보호책임자의 업무이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>개인정보 보호 교육 계획의 수립 및 시행</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개인정보 보호 교육 계획의 수립 및 시행은 보호책임자의 업무이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -343,28 +340,25 @@ E(k, m)</keyword>
         <correct_choice_text>E(K_(AB), M) || E(PU_(B), K_(AB))</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 어법·규범·어휘형 (핵심어: 와 B 간의 공유 비밀키
-E(k, m))
-정답은 ④이다. 본 문항은 와 B 간의 공유 비밀키
-E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "PU_(X) : X의 공개키"</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 하이브리드 암호 메시지
+정답은 ④이다. A는 임의로 생성한 세션키 K_AB로 M을 대칭 암호화하고, K_AB를 B의 공개키 PU_B로 암호화하여 함께 보낸다. B만 자신의 개인키로 K_AB를 얻어 M을 복호화할 수 있으므로 기밀성이 보장된다.</overall_commentary>
       <passage_evidence>PU_(X) : X의 공개키</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>E(K_(AB), M) || E(PU_(A), K_(AB))</choice_text>
-          <commentary>제시문의 "PU_(X) : X의 공개키" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>A의 공개키로 세션키를 암호화하면 B가 복호화할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>E(PR_(A), (E(K_(AB), M) || K_(AB)))</choice_text>
-          <commentary>제시문의 "PR_(X) : X의 개인키" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>A의 개인키로 암호화하면 누구나 A의 공개키로 복호화할 수 있어 기밀성이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>E(K_(AB), M) || E(PR_(A), K_(AB))</choice_text>
-          <commentary>제시문의 "PR_(X) : X의 개인키" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>A의 개인키로 세션키를 암호화하면 누구나 세션키를 얻을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>E(K_(AB), M) || E(PU_(B), K_(AB))</choice_text>
-          <commentary>제시문의 "PU_(X) : X의 공개키" 내용과 일치하므로 옳다.</commentary>
+          <commentary>세션키를 B의 공개키로 암호화하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -383,24 +377,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>가용성(availability)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 기밀성(confidentiality), 무결성(integrity), 가용성(availability), 인증성(authentication))
-정답은 ③이다. 본 문항은 기밀성(confidentiality), 무결성(integrity), 가용성(availability), 인증성(authentication)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 가용성
+정답은 ③이다. 가용성은 인가된 사용자가 필요한 시점에 정보 자산에 접근하여 업무를 수행할 수 있도록 유지하는 보안 요소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기밀성(confidentiality)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성은 인가되지 않은 사용자의 정보 접근을 막는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>무결성(integrity)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무결성은 정보의 무단 변경을 막는 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>가용성(availability)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>적시에 접근하여 업무를 수행할 수 있게 하는 것은 가용성이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>인증성(authentication)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인증성은 사용자나 메시지의 진위를 확인하는 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -419,24 +413,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>Smurf attack</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 발신지, 주소, 공격대상, 위조된)
-정답은 ②이다. 본 문항은 발신지, 주소, 공격대상, 위조된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Smurf 공격
+정답은 ②이다. Smurf 공격은 출발지 IP를 공격 대상 주소로 위조한 ICMP echo request를 브로드캐스트 주소로 보내, 네트워크의 모든 호스트가 공격 대상에게 ICMP reply를 보내게 하는 증폭형 서비스 거부 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>SYN flooding</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SYN flooding은 SYN 패킷으로 연결 대기 큐를 고갈시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Smurf attack</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위조된 ICMP 패킷을 브로드캐스트하여 응답을 집중시키는 것은 Smurf 공격이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Land attack</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Land 공격은 출발지와 목적지 IP를 같게 만든 패킷을 보내는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Teardrop</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Teardrop은 IP 단편 오프셋을 조작하여 재조합 오류를 일으키는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -453,24 +447,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>공격자가 송․수신자 사이에 개입하여 송신자가 보낸 정보를 가로채고, 조작된 정보를 정상적인 송신자가 보낸 것처럼 수신자에게 전달한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 중간자(man-in-the-middle) 공격, 중간자(man-in-the-middle))
-정답은 ③이다. 본 문항은 중간자(man-in-the-middle) 공격, 중간자(man-in-the-middle)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 중간자 공격
+정답은 ③이다. 중간자 공격은 공격자가 송수신자 사이에 끼어들어 정보를 가로채고 조작한 뒤, 정상 송신자가 보낸 것처럼 수신자에게 전달하는 공격이다. 인증 없는 Diffie-Hellman 키 교환은 중간자 공격에 취약하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Diffie-Hellman 키 교환 프로토콜은 중간자 공격에 대비하도록 설계된 것이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Diffie-Hellman 키 교환은 상대 인증 기능이 없어 중간자 공격에 취약하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>공격대상이 신뢰하고 있는 시스템을 불능상태로 만들고 공격자가 신뢰시스템인 것처럼 동작한다.</choice_text>
-          <commentary>'공격대상'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>신뢰 시스템을 마비시키고 그 시스템으로 위장하는 것은 IP 스푸핑 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>공격자가 송․수신자 사이에 개입하여 송신자가 보낸 정보를 가로채고, 조작된 정보를 정상적인 송신자가 보낸 것처럼 수신자에게 전달한다.</choice_text>
-          <commentary>'공격자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>송수신자 사이에서 정보를 가로채 조작하여 전달하는 것은 중간자 공격이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>여러 시스템으로부터 한 시스템에 집중적으로 많은 접속 요청이 발생하여, 해당 시스템이 정상적인 동작을 못하게 된다.</choice_text>
-          <commentary>'여러 시스템으로부터 한 시스템에 집중적으로 많'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>여러 시스템에서 집중적으로 접속을 요청하는 것은 DDoS 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -490,24 +484,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>벨라파둘라(Bell-Lapadula)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다중수준 보안(multi-level security), 수준의 객체만 읽을 수 있음(no read up), 수준의 객체에만 쓸 수 있음(no write down), 벨라파둘라(Bell-Lapadula), 비바(Biba))
-정답은 ①이다. 본 문항은 다중수준 보안(multi-level security), 수준의 객체만 읽을 수 있음(no read up), 수준의 객체에만 쓸 수 있음(no write down), 벨라파둘라(Bell-Lapadula), 비바(Biba)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 벨-라파둘라 모델
+정답은 ①이다. 벨-라파둘라 모델은 기밀성을 위한 다중 수준 보안 모델로, 자신보다 높은 수준은 읽을 수 없고(No Read Up), 자신보다 낮은 수준에는 쓸 수 없다(No Write Down, 높거나 같은 수준에만 쓰기 가능).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>벨라파둘라(Bell-Lapadula)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>No Read Up, No Write Down 규칙을 따르는 것은 벨-라파둘라 모델이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>비바(Biba)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비바 모델은 무결성 모델로 No Read Down, No Write Up 규칙을 따른다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>클락윌슨(Clark-Wilson)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>클락-윌슨 모델은 정형화된 트랜잭션과 직무 분리로 무결성을 보장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>중국인벽(Chinese wall)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>만리장성 모델은 이해 충돌이 있는 정보 간 접근을 막는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -524,24 +518,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>ISMS 인증</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, ｢정보통신망 이용촉진 및 정보보호 등)
-정답은 ④이다. 본 문항은 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, ｢정보통신망 이용촉진 및 정보보호 등에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ISMS 인증
+정답은 ④이다. ISMS 인증은 「정보통신망법」에 근거하여 정보통신망의 안정성·신뢰성 확보를 위해 관리적·기술적·물리적 보호 조치를 포함한 정보보호 관리체계를 수립·운영하는 자가 인증 기준에 적합한지 인증하는 제도이다(현재는 ISMS-P와 함께 운영).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CC 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>CC 인증은 정보보호 제품의 보안성을 평가하는 제도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ITSEC 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ITSEC은 유럽의 정보보호 시스템 평가 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PIMS 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PIMS 인증은 개인정보보호 관리체계 인증이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ISMS 인증</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정보통신망법에 근거한 정보보호 관리체계 인증은 ISMS 인증이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -559,24 +553,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>프로세스 주소 공간에 있는 중요 데이터 구조의 위치가 변경되지 않도록 적재 주소를 고정시킨다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 버퍼 오버플로우 공격의 대응수단, 함수의 진입(entry), 과 종료(exit))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 버퍼 오버플로 대응
+정답은 ②이다. 버퍼 오버플로 대응 방법에는 스택 실행 방지(NX), 스택 가드(카나리 검사), 주소 공간 배치 난수화(ASLR), 타입 검사가 강한 고급 언어 사용 등이 있다. 중요 데이터 구조의 적재 주소를 고정하면 공격자가 주소를 쉽게 예측할 수 있으므로 오히려 위험하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>스택상에 있는 공격자의 코드가 실행되지 못하도록 한다.</choice_text>
-          <commentary>'스택상에 있'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>스택상의 공격 코드가 실행되지 않도록 하는 것은 대응 수단이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>프로세스 주소 공간에 있는 중요 데이터 구조의 위치가 변경되지 않도록 적재 주소를 고정시킨다.</choice_text>
-          <commentary>'프로세스 주소 공간에 있'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>적재 주소를 고정하면 주소 예측이 쉬워지므로 대응 수단으로 적절하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>함수의 진입(entry)과 종료(exit) 코드를 조사하고 함수의 스택 프레임에 대해 손상이 있는지를 검사한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>함수의 진입·종료 코드를 조사하여 스택 프레임 손상을 검사하는 것은 대응 수단이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>변수 타입과 그 타입에 허용되는 연산들에 대해 강력한 표기법을 제공하는 고급수준의 프로그래밍 언어를 사용한다.</choice_text>
-          <commentary>'변수 타입과 그 타입에 허용되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>강한 타입 검사를 제공하는 고급 언어 사용은 대응 수단이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -596,24 +590,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>메시지에 송신자의 개인키로 서명한 전자서명(digital signature)을 포함하여 전송한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 네트워크상에서 교환되는 인증 정보, 증 정보에 대한 재전송 공격(replay attack), 응답(challenge-response), 시각에 해당하는 타임스탬프(timestamp), 의 개인키로 서명한 전자서명(digital signature))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 재전송 공격 방지
+정답은 ③이다. 재전송 공격은 가로챈 정상 메시지를 다시 보내는 공격이므로, 메시지가 새로운 것임을 확인할 수 있는 시도-응답 방식, 타임스탬프, 일회용 비표(nonce) 등으로 막는다. 전자서명은 메시지의 출처와 무결성을 보장하지만, 이전 메시지를 그대로 재전송하면 서명도 유효하므로 재전송 자체를 막지 못한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시도－응답(challenge-response) 인증 방식을 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시도-응답 방식은 매번 다른 질의에 응답하게 하여 재전송을 막는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>메시지에 사전에 동기화된 현재 시각에 해당하는 타임스탬프(timestamp)를 포함하여 전송한다.</choice_text>
-          <commentary>'메시지에 사전에 동기화된 현재 시각에 해당하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>타임스탬프로 오래된 메시지를 거부할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>메시지에 송신자의 개인키로 서명한 전자서명(digital signature)을 포함하여 전송한다.</choice_text>
-          <commentary>전자서명은 송신자의 개인키로 메시지 해시값을 암호화하여 무결성, 송신자 인증, 부인방지 기능을 제공한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>전자서명만으로는 재전송된 메시지를 구별할 수 없으므로 적절하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>메시지에 수신자로부터 받은 일회용 랜덤 값에 해당하는 nonce를 포함하여 전송한다.</choice_text>
-          <commentary>'메시지에 수신자로부터 받'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수신자가 준 일회용 nonce를 포함하면 이전 메시지의 재사용을 막을 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -632,24 +626,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>열 혼합(mix columns)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 바이트 치환(substitute bytes), 행 이동(shift row), 열 혼합(mix columns), 라운드 키 더하기(add round key))
-정답은 ③이다. 본 문항은 바이트 치환(substitute bytes), 행 이동(shift row), 열 혼합(mix columns), 라운드 키 더하기(add round key)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · AES의 열 혼합
+정답은 ③이다. AES 라운드의 MixColumns(열 혼합)는 상태 배열의 각 열을 GF(2⁸)상의 고정 행렬과 곱하여 열 내부의 바이트를 섞는 변환으로, 확산 효과를 제공한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>바이트 치환(substitute bytes)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SubBytes는 S-box로 각 바이트를 치환하는 비선형 변환이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>행 이동(shift row)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ShiftRows는 각 행을 행 번호만큼 왼쪽으로 순환 이동하는 변환이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>열 혼합(mix columns)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>열 단위 행렬 곱셈 형태의 변환은 MixColumns이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>라운드 키 더하기(add round key)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AddRoundKey는 상태 배열과 라운드 키를 XOR하는 변환이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -666,24 +660,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>관리기관의 장은 침해사고가 발생하여 소관 주요정보통신기반시설의 교란․마비 또는 파괴된 사실을 인지한 때에는 관계 행정기관이나 수사기관에 그 사실을 통지할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보통신기반 보호법」, ｢정보통신기반 보호법｣상 정보통신기반시설과 관련된 사항)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 「정보통신기반 보호법」
+정답은 ③이다. 「정보통신기반 보호법」 제13조에 따르면 관리기관의 장은 침해사고로 소관 주요정보통신기반시설이 교란·마비·파괴된 사실을 인지하면 관계 행정기관, 수사기관 또는 한국인터넷진흥원에 그 사실을 통지하여야 한다. 통지는 재량이 아니라 의무이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>미래창조과학부장관과 국가정보원장등은 특정한 정보통신기반시설을 주요정보통신기반시설로 지정할 필요가 있다고 판단되는 경우에는 중앙행정기관의 장에게 해당 정보통신기반시설을 주요정보통신기반시설로 지정하도록 권고할 수 있다.</choice_text>
-          <commentary>'미래창조과학부장관과 국가정보원장등'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>과학기술정보통신부 장관(출제 당시 미래창조과학부 장관)과 국가정보원장 등은 주요정보통신기반시설 지정을 권고할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>누구든지 주요정보통신기반시설의 운영을 방해할 목적으로 일시에 대량의 신호를 보내거나 부정한 명령을 처리하도록 하는 등의 방법으로 정보처리에 오류를 발생하게 하는 행위를 하여서는 아니된다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>누구든지 대량 신호 전송, 부정 명령 처리 등으로 주요정보통신기반시설의 운영을 방해해서는 안 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>관리기관의 장은 침해사고가 발생하여 소관 주요정보통신기반시설의 교란․마비 또는 파괴된 사실을 인지한 때에는 관계 행정기관이나 수사기관에 그 사실을 통지할 수 있다.</choice_text>
-          <commentary>'관리기관의 장'에 관하여 '할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>침해사고 사실의 통지는 의무이므로 통지할 수 있다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정부는 정보통신기반시설의 보호에 필요한 기술개발을 효율적으로 추진하기 위하여 필요한 때에는 정보보호 기술개발과 관련된 연구기관 및 민간단체로 하여금 이를 대행하게 할 수 있다.</choice_text>
-          <commentary>'정부'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>정부는 필요하면 연구기관과 민간단체에 보호 기술 개발을 대행하게 할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -699,24 +693,24 @@ E(k, m)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, �
         <correct_choice_text>802.11i TKIP AES EAP</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 무선 LAN 보안)
-정답은 ①이다. 본 문항은 무선 LAN 보안에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 무선 LAN 보안 표준
+정답은 ①이다. IEEE 802.11i(㉠)는 강력한 프라이버시와 인증 기능을 포함하는 무선 LAN 보안 표준이며, 그 과정에서 Wi-Fi 연합이 WPA와 WPA2를 공표하였다. WPA는 WEP를 보완한 TKIP(㉡)를, WPA2는 AES 기반 CCMP(㉢)를 사용한다. EAP(㉣)는 엄격한 보안 네트워크에서 확장된 인증 과정을 수행하는 인증 프로토콜이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>802.11i TKIP AES EAP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>㉠ 802.11i, ㉡ TKIP, ㉢ AES, ㉣ EAP이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>802.11i DES TKIP RADIUS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>WPA는 DES가 아니라 TKIP을 사용하며, RADIUS는 인증 서버이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>802.1x DES TKIP EAP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>802.1X는 포트 기반 접근 제어 표준이며 WPA는 DES를 사용하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>802.1x TKIP AES RADIUS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>㉠은 802.1X가 아니라 802.11i이고, ㉣은 인증 서버가 아니라 인증 프로토콜인 EAP이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

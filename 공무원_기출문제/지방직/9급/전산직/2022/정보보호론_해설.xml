@@ -30,24 +30,24 @@
         <correct_choice_text>ARP spoofing</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 수신자, 주소, 가로채, 공격자)
-정답은 ①이다. 본 문항은 수신자, 주소, 가로채, 공격자에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · ARP 스푸핑
+정답은 ①이다. ARP 스푸핑은 위조된 ARP 응답을 보내 송수신자의 ARP 캐시에 저장된 상대방 MAC 주소를 공격자의 MAC 주소로 바꾸어, 둘 사이의 패킷이 공격자를 거치게 하는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ARP spoofing</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>MAC 주소를 공격자의 MAC 주소로 바꾸는 공격은 ARP 스푸핑이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Ping of Death</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Ping of Death는 최대 크기를 초과하는 ICMP 패킷으로 시스템을 마비시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SYN Flooding</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SYN Flooding은 대량의 SYN 패킷으로 연결 대기 큐를 고갈시키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DDoS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DDoS는 다수의 좀비 시스템으로 대상을 공격하는 분산 서비스 거부 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -63,24 +63,24 @@
         <correct_choice_text>SSID를 이용한 방법</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 스니핑 공격의 탐지 방법)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 스니핑 탐지 방법
+정답은 ④이다. 스니핑하는 호스트는 무차별 모드로 동작하므로, 존재하지 않는 MAC 주소로 ping을 보내 응답 여부를 확인하는 방법, 위조된 ARP 요청에 대한 응답을 확인하는 방법, 가짜 IP 접속 후 역질의(DNS 조회) 여부를 확인하는 방법, 유인(decoy) 방법 등으로 탐지한다. SSID는 무선랜 네트워크 이름으로 스니핑 탐지 방법이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>ping을 이용한 방법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ping을 이용한 방법은 스니핑 탐지 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>ARP를 이용한 방법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ARP를 이용한 방법은 스니핑 탐지 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DNS를 이용한 방법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>DNS 역질의를 이용한 방법은 스니핑 탐지 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>SSID를 이용한 방법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SSID는 무선 네트워크 식별자로 스니핑 탐지와 관련이 없으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -99,24 +99,24 @@
         <correct_choice_text>백도어</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 공격자, 해킹, 통해, 시스템)
-정답은 ④이다. 본 문항은 공격자, 해킹, 통해, 시스템에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 백도어
+정답은 ④이다. 백도어는 공격자가 시스템에 침입하여 관리자 권한을 얻은 뒤, 정상적인 인증 절차를 거치지 않고 다시 쉽게 접근하기 위해 설치하는 비밀 통로 프로그램이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>랜섬웨어</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>랜섬웨어는 파일을 암호화하고 금전을 요구하는 악성코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>논리폭탄</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>논리폭탄은 특정 조건이 충족되면 동작하는 악성 코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>슬래머 웜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>슬래머 웜은 MS SQL 서버 취약점을 이용해 2003년에 확산된 웜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>백도어</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>재침입 시 권한을 쉽게 획득하기 위한 악성 소프트웨어는 백도어이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -135,24 +135,24 @@
         <correct_choice_text>SSO(Single Sign On)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: NAC(Network Access Control), SSO(Single Sign On), DRM(Digital Right Management), DLP(Data Leak Prevention))
-정답은 ②이다. 본 문항은 NAC(Network Access Control), SSO(Single Sign On), DRM(Digital Right Management), DLP(Data Leak Prevention)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · SSO
+정답은 ②이다. SSO(Single Sign On)는 한 번의 인증으로 여러 시스템에 재인증 없이 접근할 수 있게 하는 방식으로, 편리하지만 최초 인증 정보가 탈취되면 연결된 모든 시스템이 위험해지는 단일 실패 지점 문제가 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>NAC(Network Access Control)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NAC는 보안 정책을 준수한 단말만 네트워크에 접근시키는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSO(Single Sign On)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>한 번의 인증으로 여러 시스템에 접근하는 것은 SSO이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>DRM(Digital Right Management)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DRM은 디지털 콘텐츠의 저작권을 보호하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DLP(Data Leak Prevention)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DLP는 중요 정보의 외부 유출을 방지하는 기술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -170,24 +170,24 @@
         <correct_choice_text>메시지 내용 공개(release of message contents)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 신분 위장(masquerade), 메시지 수정(modification of message), 서비스 거부(denial of service))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 적극적 공격과 소극적 공격
+정답은 ①이다. 메시지 내용 공개(도청)와 트래픽 분석은 데이터를 변경하지 않는 소극적 공격이다. 신분 위장, 메시지 수정, 재전송, 서비스 거부는 데이터나 시스템에 영향을 주는 적극적 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>메시지 내용 공개(release of message contents)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>메시지 내용 공개는 소극적 공격이므로 나머지와 유형이 달라 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>신분 위장(masquerade)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>신분 위장은 적극적 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>메시지 수정(modification of message)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>메시지 수정은 적극적 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>서비스 거부(denial of service)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서비스 거부는 적극적 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -206,24 +206,24 @@
         <correct_choice_text>사용자 이름(Subject name)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 발행자 이름(Issuer name), 사용자 이름(Subject name), 폐지된 인증서(Revoked certificate), 금번 업데이트 날짜(This update date))
-정답은 ②이다. 본 문항은 발행자 이름(Issuer name), 사용자 이름(Subject name), 폐지된 인증서(Revoked certificate), 금번 업데이트 날짜(This update date)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · X.509 인증서 폐기 목록
+정답은 ②이다. X.509 CRL에는 서명 알고리즘, 발행자 이름, 이번 업데이트 날짜, 다음 업데이트 날짜, 폐지된 인증서 목록(일련번호와 폐지 날짜)이 포함된다. 폐지된 인증서는 일련번호로 식별하므로 사용자(주체) 이름 필드는 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>발행자 이름(Issuer name)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>발행자 이름은 CRL 필드에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>사용자 이름(Subject name)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자 이름은 CRL 필드에 포함되지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>폐지된 인증서(Revoked certificate)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>폐지된 인증서 목록은 CRL 필드에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>금번 업데이트 날짜(This update date)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이번 업데이트 날짜는 CRL 필드에 포함된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -239,24 +239,24 @@
         <correct_choice_text>첫 번째 라운드를 수행하기 전에 먼저 초기 평문과 라운드 키의 NOR 연산을 수행한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: AES 알고리즘)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · AES 알고리즘
+정답은 ④이다. AES는 128비트 블록 암호로 128/192/256비트 키를 지원하며, DES의 짧은 키 길이 문제를 보완하기 위해 선정되었다. 첫 라운드 전에 평문과 라운드 키를 XOR하는 AddRoundKey를 수행한다. NOR 연산이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>블록 암호 체제를 갖추고 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>AES는 블록 암호 체제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>128/192/256bit 키 길이를 제공하고 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>AES는 128/192/256비트 키 길이를 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DES 알고리즘을 보완하기 위해 고안된 알고리즘이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>AES는 DES를 대체·보완하기 위해 선정되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>첫 번째 라운드를 수행하기 전에 먼저 초기 평문과 라운드 키의 NOR 연산을 수행한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>첫 라운드 전에는 NOR가 아니라 XOR 연산(AddRoundKey)을 수행하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -272,24 +272,24 @@
         <correct_choice_text>취약점 평가</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 술과 보안 평가를 위한 CC(Common Criteria))
-정답은 ②이다. 본 문항은 술과 보안 평가를 위한 CC(Common Criteria)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · CC의 보안 기능 요구사항
+정답은 ②이다. CC의 보안 기능 요구사항에는 보안 감사, 통신, 암호 지원, 사용자 데이터 보호, 식별과 인증, 보안 관리, 프라이버시, TSF 보호, 자원 활용, TOE 접근, 안전한 경로·채널이 있다. 취약점 평가(AVA)는 보증 요구사항이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>암호 지원</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>암호 지원(FCS)은 기능 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>취약점 평가</choice_text>
-          <commentary>'취약점 평'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>취약점 평가는 보증 요구사항이므로 기능 요구사항에 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>사용자 데이터 보호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사용자 데이터 보호(FDP)는 기능 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>식별과 인증</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>식별과 인증(FIA)은 기능 요구사항이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -308,24 +308,24 @@
         <correct_choice_text>네트워크 기반 인증 시스템으로 비대칭 키를 이용하여 인증을 수행한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 커버로스(Kerberos) 버전 4, 커버로스(Kerberos), 용자는 인증 서버에게 TGS(Ticket Granting Server), 를 이용하기 위한 TGT(Ticket Granting Ticket))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 커버로스 버전 4
+정답은 ④이다. 커버로스는 신뢰할 수 있는 제3자(인증 서버, TGS)를 이용한 네트워크 인증 시스템으로, 비대칭키가 아니라 대칭키 암호(DES 등)를 이용하여 인증과 티켓 발급을 수행한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>사용자를 인증하기 위해 사용자의 패스워드를 중앙집중식 DB에 저장하는 인증 서버를 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증 서버는 사용자의 패스워드(키)를 중앙 데이터베이스에 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>사용자는 인증 서버에게 TGS(Ticket Granting Server)를 이용하기 위한 TGT(Ticket Granting Ticket)를 요청한다.</choice_text>
-          <commentary>'사용자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자는 인증 서버에 TGS 이용을 위한 TGT를 요청한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>인증 서버가 사용자에게 발급한 TGT는 유효기간 동안 재사용 할 수 있다.</choice_text>
-          <commentary>'인증 서버'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>TGT는 유효기간 동안 재사용하여 여러 서비스 티켓을 받을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>네트워크 기반 인증 시스템으로 비대칭 키를 이용하여 인증을 수행한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>커버로스는 비대칭키가 아니라 대칭키를 이용하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -344,24 +344,24 @@
         <correct_choice_text>Slowloris</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 보안, 공격)
-정답은 ③이다. 본 문항은 다음에서, 설명하, 보안, 공격에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · Slowloris 공격
+정답은 ③이다. Slowloris는 HTTP 헤더의 끝을 나타내는 \r\n\r\n 중 하나를 제거한 불완전한 요청을 보내, 웹 서버가 헤더가 아직 끝나지 않은 것으로 보고 연결을 계속 유지하게 함으로써 연결 수를 소진시키는 서비스 거부 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>HTTP Cache Control</choice_text>
-          <commentary>제시문의 "○ 정상적인 HTTP GET 패킷의 헤더 부분의 마지막에 입력되는 2개의 개행 문자(⧹r⧹n⧹r⧹n) 중 하나(⧹r⧹n)를 제거한 패킷을 웹 서버에 전송할 경우, 웹 서버는 아직 HTTP 헤더 정보가 전달되지 않은 것으로 판단하여 계속 연결을 유지하게 된다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>HTTP Cache Control 공격은 캐시 관련 헤더를 조작하여 서버 부하를 일으키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Smurf</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Smurf는 ICMP 브로드캐스트를 이용한 증폭 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Slowloris</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>불완전한 HTTP 헤더로 연결을 유지시키는 것은 Slowloris이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Replay</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>재전송(Replay) 공격은 가로챈 메시지를 다시 보내는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -379,24 +379,24 @@
         <correct_choice_text>Bell-LaPadula Model Brewer-Nash Model</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 접근통제, 보안모델, 연결한)
-정답은 ②이다. 본 문항은 접근통제, 보안모델, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 접근통제 보안 모델
+정답은 ②이다. 벨-라파둘라 모델(가)은 기밀성을 위한 최초의 수학적 정보 흐름 모델로, 허가되지 않은 접근(No Read Up, No Write Down)을 방지한다. 브루어-내시(만리장성) 모델(나)은 직무 분리를 적용하여 이해가 충돌하는 회사 간 정보 흐름을 차단한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Bell-LaPadula Model Biba Integrity Model</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비바 모델은 무결성 모델로 이해 충돌 방지 모델이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Bell-LaPadula Model Brewer-Nash Model</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) 벨-라파둘라, (나) 브루어-내시이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Clark-Wilson Model Biba Integrity Model</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>클락-윌슨은 최초의 수학적 정보 흐름 모델이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Clark-Wilson Model Brewer-Nash Model</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 클락-윌슨이 아니라 벨-라파둘라 모델이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -415,24 +415,24 @@
         <correct_choice_text>022</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 수리·계산·자료해석형 (핵심어: 리눅스, 시스템에서, 따라, 생성된)
-정답은 ③이다. 본 문항은 리눅스, 시스템에서, 따라, 생성된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · umask 계산
+정답은 ③이다. 디렉터리 기본 권한은 777이며, 생성된 권한 drwxr-xr-x는 755이다. umask = 777 − 755 = 022이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>002</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>umask 002이면 권한은 775(drwxrwxr-x)가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>020</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>umask 020이면 권한은 757이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>022</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>777 − 755 = 022이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>026</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>umask 026이면 권한은 751(drwxr-x--x)이 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -450,26 +450,25 @@
         <correct_choice_text>응용 계층 게이트웨이  (application level gateway) 회선 계층 게이트웨이  (circuit level gateway)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 응용 계층 게이트웨이  (application level gateway), 회선 계층 게이트웨이  (circuit level gateway), 상태 검사  (stateful inspection))
-정답은 ①이다. 본 문항은 응용 계층 게이트웨이  (application level gateway), 회선 계층 게이트웨이  (circuit level gateway), 상태 검사  (stateful inspection)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| ① | 응용 계층 게이트웨이  (application level gateway) | 회선 계층 게이트웨이  (circuit level gateway) |"</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 침입차단시스템의 동작 방식
+정답은 ①이다. 응용 계층 게이트웨이(가)는 서비스마다 별도의 프록시가 있어 내부와 외부 네트워크가 직접 연결되지 않는다. 회선 계층 게이트웨이(나)는 서비스별 프록시 없이 하나의 회선 프록시로 동작하지만, 프록시 연결을 위한 전용 클라이언트 소프트웨어(예: SOCKS)가 필요하다.</overall_commentary>
       <passage_evidence>| ① | 응용 계층 게이트웨이  (application level gateway) | 회선 계층 게이트웨이  (circuit level gateway) |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>응용 계층 게이트웨이  (application level gateway) 회선 계층 게이트웨이  (circuit level gateway)</choice_text>
-          <commentary>제시문의 "| ① | 응용 계층 게이트웨이  (application level gateway) | 회선 계층 게이트웨이  (circuit level gateway) |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>(가) 응용 계층 게이트웨이, (나) 회선 계층 게이트웨이이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>응용 계층 게이트웨이  (application level gateway) 상태 검사  (stateful inspection)</choice_text>
-          <commentary>제시문의 "| ② | 응용 계층 게이트웨이  (application level gateway) | 상태 검사  (stateful inspection) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>상태 검사 방식은 전용 클라이언트 소프트웨어가 필요하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>네트워크 계층 패킷 필터링  (network level packet filtering) 상태 검사  (stateful inspection)</choice_text>
-          <commentary>제시문의 "| ③ | 네트워크 계층 패킷 필터링  (network level packet filtering) | 상태 검사  (stateful inspection) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>패킷 필터링은 프록시를 사용하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>네트워크 계층 패킷 필터링  (network level packet filtering) 회선 계층 게이트웨이  (circuit level gateway)</choice_text>
-          <commentary>제시문의 "| ④ | 네트워크 계층 패킷 필터링  (network level packet filtering) | 회선 계층 게이트웨이  (circuit level gateway) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>(가)는 패킷 필터링이 아니라 응용 계층 게이트웨이이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -485,24 +484,24 @@
         <correct_choice_text>전송 모드는 IP 헤더를 포함한 전체 IP 패킷을 보호한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: IPSec)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · IPSec
+정답은 ③이다. IPSec의 AH는 인증과 무결성을, ESP는 암호화와 선택적 인증을 제공하며, IKE는 Diffie-Hellman 키 교환을 기반으로 한다. 전송 모드는 IP 헤더를 제외한 페이로드만 보호하고, IP 헤더를 포함한 전체 패킷을 보호하는 것은 터널 모드이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>AH는 인증 기능을 제공한다.</choice_text>
-          <commentary>'AH'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>AH는 인증 기능을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>ESP는 암호화 기능을 제공한다.</choice_text>
-          <commentary>'ESP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ESP는 암호화 기능을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>전송 모드는 IP 헤더를 포함한 전체 IP 패킷을 보호한다.</choice_text>
-          <commentary>'전송 모드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전체 IP 패킷을 보호하는 것은 터널 모드이므로 전송 모드에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>IKE는 Diffie-Hellman 키 교환 알고리즘을 기반으로 한다.</choice_text>
-          <commentary>'IKE'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IKE는 Diffie-Hellman 키 교환을 기반으로 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -518,24 +517,24 @@
         <correct_choice_text>Teardrop 공격은 공격자가 자신이 전송하는 패킷을 다른 호스트의 IP 주소로 변조하여 수신자의 패킷 조립을 방해한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 보안 공격)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 서비스 거부 공격 유형
+정답은 ④이다. Teardrop 공격은 IP 단편의 오프셋(순서 번호) 값을 겹치거나 어긋나게 조작하여 수신 측의 패킷 재조합 과정에서 오류를 일으키는 공격이다. 자신의 패킷을 다른 호스트의 IP로 위조하는 것은 IP 스푸핑의 설명이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Land 공격은 패킷을 전송할 때 출발지와 목적지 IP를 동일하게 만들어서 공격 대상에게 전송한다.</choice_text>
-          <commentary>'Land 공격'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Land 공격은 출발지와 목적지 IP를 같게 만들어 보낸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>UDP Flooding 공격은 다수의 UDP 패킷을 전송하여 공격 대상 시스템을 마비시킨다.</choice_text>
-          <commentary>'UDP Flooding 공격'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP Flooding은 다수의 UDP 패킷으로 대상 시스템을 마비시킨다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ICMP Flooding 공격은 ICMP 프로토콜의 echo 패킷에 대한 응답인 reply 패킷의 폭주를 통해 공격 대상 시스템을 마비시킨다.</choice_text>
-          <commentary>'ICMP Flooding 공격'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ICMP Flooding은 echo 요청에 대한 reply 폭주로 대상 시스템을 마비시킨다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>Teardrop 공격은 공격자가 자신이 전송하는 패킷을 다른 호스트의 IP 주소로 변조하여 수신자의 패킷 조립을 방해한다.</choice_text>
-          <commentary>'Teardrop 공격'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Teardrop은 IP 주소 변조가 아니라 단편 오프셋 조작 공격이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -553,24 +552,24 @@
         <correct_choice_text>3년 과학기술정보통신부장관</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「지능정보화 기본법」, 「정보통신 진흥 및 융합 활성화 등에 관한 특별법」, 법령 조문)
-정답은 ①이다. 본 문항은 「지능정보화 기본법」, 「정보통신 진흥 및 융합 활성화 등에 관한 특별법」, 법령 조문에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 지능정보사회 종합계획
+정답은 ①이다. 「지능정보화 기본법」 제6조에 따르면 정부는 지능정보사회 종합계획을 3년 단위로 수립하며, 과학기술정보통신부 장관이 관계 중앙행정기관과 지방자치단체의 장의 의견을 들어 수립하고 정보통신 전략위원회의 심의를 거쳐 확정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>3년 과학기술정보통신부장관</choice_text>
-          <commentary>'3년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>(가) 3년, (나) 과학기술정보통신부 장관이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3년 행정안전부장관</choice_text>
-          <commentary>제시된 '3년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>수립 주체는 행정안전부 장관이 아니라 과학기술정보통신부 장관이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5년 과학기술정보통신부장관</choice_text>
-          <commentary>제시된 '5년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>수립 주기는 5년이 아니라 3년이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5년 행정안전부장관</choice_text>
-          <commentary>제시된 '5년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>주기와 수립 주체가 모두 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -593,25 +592,24 @@
         <correct_choice_text>“대상기관”이란 ｢개인정보 보호법 시행령｣ 제35조에 해당하는 개인정보파일을 구축․운용, 변경 또는 연계하려는 공공기관 및 민간기관을 말한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「개인정보 영향평가에 관한 고시」, 「개인정보 보호법 시행령」, 「개인정보 보호법」, ｢개인정보 영향평가, 법령 조문)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 법령: 「개인정보 보호법」(시행 2026-09-11): 개인정보·민감정보·고유식별정보·가명정보 정의, 개인정보 수집·이용·제3자 제공 요건, 개인정보 영향평가(제33조: 공공기관 의무), 정보주체의 열람·정정·삭제·전송요구권 및 개인정보보호위원회 조문 검증</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 개인정보 영향평가 고시의 용어
+정답은 ②이다. 「개인정보 보호법」 제33조에 따라 영향평가 의무는 공공기관에 있으므로, 고시상 '대상기관'은 시행령 제35조에 해당하는 개인정보파일을 구축·운용·변경·연계하려는 공공기관을 말한다. 민간기관은 포함되지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>“대상시스템”이란 ｢개인정보 보호법 시행령｣ 제35조에 해당하는 개인정보파일을 구축․운용, 변경 또는 연계하려는 정보시스템을 말한다.</choice_text>
-          <commentary>「개인정보 보호법 시행령」 제35조에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대상시스템은 시행령 제35조에 해당하는 개인정보파일을 구축·운용·변경·연계하려는 정보시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>“대상기관”이란 ｢개인정보 보호법 시행령｣ 제35조에 해당하는 개인정보파일을 구축․운용, 변경 또는 연계하려는 공공기관 및 민간기관을 말한다.</choice_text>
-          <commentary>「개인정보 보호법 시행령」 제35조에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대상기관은 공공기관이며 민간기관을 포함하지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>“개인정보 영향평가 관련 분야 수행실적”이란 ｢개인정보 보호법 시행령｣ 제37조제1항제1호에 따른 영향평가 업무 또는 이와 유사한 업무, 정보보호 컨설팅 업무 등을 수행한 실적을 말한다.</choice_text>
-          <commentary>「개인정보 보호법 시행령」 제37조제1항제1호에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>영향평가 관련 분야 수행 실적은 영향평가 업무나 유사 업무, 정보보호 컨설팅 업무 등의 실적이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>“개인정보 영향평가”란 ｢개인정보 보호법｣ 제33조제1항에 따라 공공기관의 장이 ｢개인정보 보호법 시행령｣ 제35조에 해당하는 개인정보파일의 운용으로 인하여 정보주체의 개인정보 침해가 우려되는 경우에 그 위험요인의 분석과 개선 사항 도출을 위한 평가를 말한다.</choice_text>
-          <commentary>「개인정보 보호법」 제33조제1항에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>개인정보 영향평가는 공공기관의 장이 개인정보파일 운용으로 인한 침해 위험을 분석하는 평가이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -629,24 +627,24 @@
         <correct_choice_text>지정받은 날부터 3개월 이내에 본인확인업무를 개시하지 아니하거나 3개월 이상 계속하여 본인확인업무를 휴지한 경우</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 법령·조문 적용형 (핵심어: 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, ｢정보통신망 이용촉진 및 정보보호 등, 법령 조문)
-정답은 ④이다. 본 문항은 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, ｢정보통신망 이용촉진 및 정보보호 등, 법령 조문에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 본인확인업무의 정지 및 지정 취소
+정답은 ④이다. 「정보통신망법」 제23조의4에 따르면 거짓·부정한 방법으로 지정받은 경우, 지정 기준에 적합하지 않게 된 경우, 업무 정지 명령을 위반한 경우, 지정받은 날부터 6개월 이내에 업무를 개시하지 않거나 6개월 이상 계속 휴지한 경우 등에 업무 정지나 지정 취소를 할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>｢정보통신망 이용촉진 및 정보보호 등에 관한 법률｣ 제23조의3제4항에 따른 지정기준에 적합하지 아니하게 된 경우</choice_text>
-          <commentary>「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 제23조의3제4항에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지정 기준에 적합하지 않게 된 경우는 정지·취소 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>거짓이나 그 밖의 부정한 방법으로 본인확인기관의 지정을 받은 경우</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>거짓이나 부정한 방법으로 지정받은 경우는 정지·취소 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>본인확인업무의 정지명령을 받은 자가 그 명령을 위반하여 업무를 정지하지 아니한 경우</choice_text>
-          <commentary>'본인확인업무의 정지명령을 받'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정지 명령을 위반하여 업무를 계속한 경우는 정지·취소 사유이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>지정받은 날부터 3개월 이내에 본인확인업무를 개시하지 아니하거나 3개월 이상 계속하여 본인확인업무를 휴지한 경우</choice_text>
-          <commentary>'지정받'에 관하여 '3개월' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>기간 요건은 3개월이 아니라 6개월이므로 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -662,24 +660,24 @@
         <correct_choice_text>PGP는 중앙 집중화된 키 인증 방식이고, PEM은 분산화된 키 인증 방식이다. / PGP를 이용하면 수신자가 이메일을 받고서도 받지 않았다고 발뺌할 수 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 메일 보안 기술)
-정답은 ①, ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ①, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 메일 보안 기술
+정답은 ①, ②이다. PGP는 사용자 간 신뢰를 바탕으로 한 분산형 키 인증(신뢰의 웹) 방식이고, PEM은 계층적 인증기관을 이용하는 중앙 집중형 키 인증 방식이다. PGP는 전자서명으로 송신 부인 방지를 제공하지만, 수신자가 메일을 받았다는 사실을 부인하지 못하게 하는 수신 부인 방지 기능은 제공하지 않는다. 공식 정답은 ①과 ②가 모두 정답이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>PGP는 중앙 집중화된 키 인증 방식이고, PEM은 분산화된 키 인증 방식이다.</choice_text>
-          <commentary>'PGP'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PGP는 분산형, PEM은 중앙 집중형이므로 반대로 서술한 이 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>PGP를 이용하면 수신자가 이메일을 받고서도 받지 않았다고 발뺌할 수 없다.</choice_text>
-          <commentary>'PGP를 이용하면 수신자'에 관하여 '할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>PGP는 수신 부인 방지를 제공하지 않으므로 수신자가 받지 않았다고 발뺌할 수 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>PGP는 인터넷으로 전송하는 이메일을 암호화 또는 복호화하여 제3자가 알아볼 수 없게 하는 보안 프로그램이다.</choice_text>
-          <commentary>'PGP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PGP는 이메일을 암호화하여 제3자가 알아볼 수 없게 하는 보안 프로그램이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>PEM에는 메시지를 암호화하여 통신 내용을 보호하는 기능, 메시지 위․변조, 검증 및 메시지 작성자를 인증하는 보안 기능이 있다.</choice_text>
-          <commentary>'PEM에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PEM은 기밀성, 무결성, 메시지 작성자 인증 기능을 제공한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -698,24 +696,24 @@
         <correct_choice_text>PAA PCA RA</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보보호론 · 핵심 개념·이론 이해형 (핵심어: 해당하, 트리형, 공개키, 기반)
-정답은 ②이다. 본 문항은 해당하, 트리형, 공개키, 기반에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보보호론 · 트리형 PKI 구성 기관
+정답은 ②이다. 트리형 PKI에서 PAA(정책 승인 기관)는 전체 PKI 정책을 결정하고 하위 기관의 정책을 승인하며(가), PCA(정책 인증 기관)는 PAA 아래에서 Root CA 인증서를 발급하고 CA가 준수할 정책을 수립한다(나). RA(등록 기관)는 CA를 대신하여 사용자의 신원을 확인하고 인증 요청을 처리한다(다).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>PAA RA PCA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)는 RA가 아니라 PCA이고 (다)는 RA이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>PAA PCA RA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) PAA, (나) PCA, (다) RA이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PCA RA PAA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 PCA가 아니라 PAA이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PCA PAA RA</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 PAA이고 (나)는 PCA이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

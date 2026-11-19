@@ -45,6 +45,16 @@ python3 exam_bank/build_db.py
 ```bash
 python3 exam_bank/server.py
 ```
+
+### 🌐 온라인으로 바로 보기 (GitHub Pages)
+
+설치 없이 브라우저에서 바로 이용할 수 있습니다.
+
+👉 **https://dup04205.github.io/Civil-Servant-Exam-Question-Bank-Website/**
+
+- GitHub Pages(정적 호스팅)에서는 SQLite 서버 대신 `공무원_기출문제/` XML을 브라우저에서 직접 불러와 동작합니다.
+- 풀이 기록·오답노트·북마크는 이용자 브라우저(localStorage)에만 저장됩니다.
+
 ---
 
 ## 3. 주요 기능

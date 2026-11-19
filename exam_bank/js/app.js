@@ -2,7 +2,6 @@ import {
   fetchFilters,
   fetchPaperDetail,
   fetchPapers,
-  fetchSessions,
   saveAttempt,
   saveExamSession,
   searchQuestions,
@@ -15,74 +14,75 @@ import {
 
 const state = {
   hierarchy: {},
-  stats: {},
-  currentView: "papers", // papers | solve | search | wrong | bookmarked | dashboard
-  solveMode: "study",    // study | exam
-  examSubmitted: false,
+  currentStep: "select", // select | solve | review | wrong
+  selectedExamType: "국가직",
+  selectedGrade: "9급",
+  selectedSeries: "",
   currentPaper: null,
   questions: [],
+  reviewFilter: "all",   // all | wrong | correct
+  wrongMode: "wrong",    // wrong | bookmarked | all
+  wrongOffset: 0,
+  wrongLimit: 20,
   timerSeconds: 0,
   timerId: null,
-  queryOffset: 0,
-  queryLimit: 20,
-  queryTotal: 0,
 };
 
 const els = {
-  sidebar: document.getElementById("sidebar"),
-  btnToggleSidebar: document.getElementById("btnToggleSidebar"),
-  navTabs: document.querySelectorAll(".nav-tab"),
-  filterExamType: document.getElementById("filterExamType"),
-  filterGrade: document.getElementById("filterGrade"),
-  filterSeries: document.getElementById("filterSeries"),
-  filterYear: document.getElementById("filterYear"),
-  filterSubject: document.getElementById("filterSubject"),
-  btnResetFilters: document.getElementById("btnResetFilters"),
-  sidebarStats: document.getElementById("sidebarStats"),
-  topbarBreadcrumb: document.getElementById("topbarBreadcrumb"),
-  topStatSolved: document.getElementById("topStatSolved"),
-  topStatAccuracy: document.getElementById("topStatAccuracy"),
+  btnHome: document.getElementById("btnHome"),
+  stepBtns: document.querySelectorAll(".step-btn"),
   navWrongCount: document.getElementById("navWrongCount"),
-  navBookmarkCount: document.getElementById("navBookmarkCount"),
-  // Views
-  viewPapers: document.getElementById("viewPapers"),
-  viewSolve: document.getElementById("viewSolve"),
-  viewQuery: document.getElementById("viewQuery"),
-  viewDashboard: document.getElementById("viewDashboard"),
-  // Papers
-  paperGrid: document.getElementById("paperGrid"),
-  paperListCount: document.getElementById("paperListCount"),
-  // Solve
-  btnBackToPapers: document.getElementById("btnBackToPapers"),
-  solvePaperTitle: document.getElementById("solvePaperTitle"),
-  solvePaperMeta: document.getElementById("solvePaperMeta"),
-  modeBtns: document.querySelectorAll(".mode-btn"),
-  examTimer: document.getElementById("examTimer"),
-  btnSubmitExam: document.getElementById("btnSubmitExam"),
-  questionStream: document.getElementById("questionStream"),
-  omrGrid: document.getElementById("omrGrid"),
-  omrProgress: document.getElementById("omrProgress"),
-  // Query / Wrong / Bookmarked
-  queryViewTitle: document.getElementById("queryViewTitle"),
-  queryViewDesc: document.getElementById("queryViewDesc"),
-  queryResultCount: document.getElementById("queryResultCount"),
-  searchForm: document.getElementById("searchForm"),
-  searchInput: document.getElementById("searchInput"),
-  queryStream: document.getElementById("queryStream"),
-  btnPrevPage: document.getElementById("btnPrevPage"),
-  btnNextPage: document.getElementById("btnNextPage"),
-  pageIndicator: document.getElementById("pageIndicator"),
-  // Dashboard
-  dashboardKpis: document.getElementById("dashboardKpis"),
-  sessionTableBody: document.getElementById("sessionTableBody"),
+  headerContext: document.getElementById("headerContext"),
+  // Step sections
+  stepSelect: document.getElementById("stepSelect"),
+  stepSolve: document.getElementById("stepSolve"),
+  stepReview: document.getElementById("stepReview"),
+  stepWrong: document.getElementById("stepWrong"),
+  // Step 1: Select
+  segmentBtns: document.querySelectorAll(".segment-btn"),
+  seriesCountLabel: document.getElementById("seriesCountLabel"),
+  seriesGrid: document.getElementById("seriesGrid"),
+  paperPickerBlock: document.getElementById("paperPickerBlock"),
+  selectedSeriesTitle: document.getElementById("selectedSeriesTitle"),
+  pickerYear: document.getElementById("pickerYear"),
+  pickerSubject: document.getElementById("pickerSubject"),
+  paperList: document.getElementById("paperList"),
+  // Step 2: Solve
+  btnBackToSelect: document.getElementById("btnBackToSelect"),
+  solveTitle: document.getElementById("solveTitle"),
+  solveMeta: document.getElementById("solveMeta"),
+  solveTimer: document.getElementById("solveTimer"),
+  solveProgress: document.getElementById("solveProgress"),
+  btnGoReview: document.getElementById("btnGoReview"),
+  btnGoReviewBottom: document.getElementById("btnGoReviewBottom"),
+  btnResetPaperAnswers: document.getElementById("btnResetPaperAnswers"),
+  solveQuestionList: document.getElementById("solveQuestionList"),
+  solveOmrNums: document.getElementById("solveOmrNums"),
+  // Step 3: Review
+  reviewPaperName: document.getElementById("reviewPaperName"),
+  reviewScoreText: document.getElementById("reviewScoreText"),
+  reviewFilterBtns: document.querySelectorAll("[data-review-filter]"),
+  btnGoWrongFromReview: document.getElementById("btnGoWrongFromReview"),
+  btnGoWrongBottom: document.getElementById("btnGoWrongBottom"),
+  btnBackToSolve: document.getElementById("btnBackToSolve"),
+  reviewQuestionList: document.getElementById("reviewQuestionList"),
+  // Step 4: Wrong
+  wrongSearchForm: document.getElementById("wrongSearchForm"),
+  wrongSearchInput: document.getElementById("wrongSearchInput"),
+  wrongModeBtns: document.querySelectorAll("[data-wrong-mode]"),
+  wrongTotalCount: document.getElementById("wrongTotalCount"),
+  wrongQuestionList: document.getElementById("wrongQuestionList"),
+  btnWrongPrev: document.getElementById("btnWrongPrev"),
+  btnWrongNext: document.getElementById("btnWrongNext"),
+  wrongPageLabel: document.getElementById("wrongPageLabel"),
   // Dialog
-  resultDialog: document.getElementById("resultDialog"),
-  resultDialogBody: document.getElementById("resultDialogBody"),
-  btnCloseResultDialog: document.getElementById("btnCloseResultDialog"),
-  btnConfirmResultDialog: document.getElementById("btnConfirmResultDialog"),
+  scoreDialog: document.getElementById("scoreDialog"),
+  scoreDialogBody: document.getElementById("scoreDialogBody"),
+  btnCloseScoreDialog: document.getElementById("btnCloseScoreDialog"),
+  btnConfirmScoreDialog: document.getElementById("btnConfirmScoreDialog"),
 };
 
-/* ==================== 유틸 ==================== */
+/* ==================== 공통 유틸 ==================== */
 function formatTime(sec) {
   const m = String(Math.floor(sec / 60)).padStart(2, "0");
   const s = String(sec % 60).padStart(2, "0");
@@ -99,60 +99,117 @@ function stopTimer() {
 function startTimer() {
   stopTimer();
   state.timerSeconds = 0;
-  els.examTimer.textContent = "00:00";
+  els.solveTimer.textContent = "00:00";
   state.timerId = setInterval(() => {
     state.timerSeconds++;
-    els.examTimer.textContent = formatTime(state.timerSeconds);
+    els.solveTimer.textContent = formatTime(state.timerSeconds);
   }, 1000);
 }
 
-function switchView(viewName) {
-  state.currentView = viewName;
-  if (viewName !== "solve") stopTimer();
+function cleanUserText(text) {
+  if (!text) return "";
+  return text
+    .replace(/\[법제처 국가법령정보센터\(MCP\)\s*법령 검증\]/g, "[관련 법령]")
+    .replace(/법제처\(migrated-claude_korean_law\)\s*검증 보완/g, "공식 정답")
+    .replace(/\(법령ID:\s*\d+,\s*MST:\s*\d+,\s*/g, "(");
+}
 
-  for (const tab of els.navTabs) {
-    const active = tab.dataset.view === viewName || (viewName === "solve" && tab.dataset.view === "papers");
-    tab.classList.toggle("is-active", active);
+function parseAnswerNums(ansStr) {
+  return (ansStr || "")
+    .split(/[,\s]+/)
+    .filter(Boolean)
+    .map(Number);
+}
+
+function isQuestionCorrect(q) {
+  const sel = q.user_state?.selected_choice;
+  if (!sel) return false;
+  return parseAnswerNums(q.answer).includes(Number(sel));
+}
+
+function setStep(stepName) {
+  state.currentStep = stepName;
+  if (stepName !== "solve") stopTimer();
+
+  els.stepBtns.forEach((btn) => {
+    btn.classList.toggle("is-active", btn.dataset.step === stepName);
+  });
+
+  els.stepSelect.classList.toggle("is-active", stepName === "select");
+  els.stepSolve.classList.toggle("is-active", stepName === "solve");
+  els.stepReview.classList.toggle("is-active", stepName === "review");
+  els.stepWrong.classList.toggle("is-active", stepName === "wrong");
+
+  if (state.currentPaper) {
+    els.headerContext.textContent = `${state.currentPaper.year} ${state.currentPaper.exam_type} ${state.currentPaper.grade} · ${state.currentPaper.subject_name}`;
+  } else if (state.selectedSeries) {
+    els.headerContext.textContent = `${state.selectedExamType} ${state.selectedGrade} · ${state.selectedSeries}`;
+  } else {
+    els.headerContext.textContent = "직렬을 선택해 시작하세요";
   }
 
-  els.viewPapers.classList.toggle("is-active", viewName === "papers");
-  els.viewSolve.classList.toggle("is-active", viewName === "solve");
-  els.viewQuery.classList.toggle("is-active", ["search", "wrong", "bookmarked"].includes(viewName));
-  els.viewDashboard.classList.toggle("is-active", viewName === "dashboard");
-
-  const labels = {
-    papers: "시험지 목록",
-    solve: state.currentPaper ? `${state.currentPaper.year} ${state.currentPaper.subject_name}` : "문제 풀이",
-    search: "키워드 · 법령 검색",
-    wrong: "오답노트",
-    bookmarked: "북마크 문항",
-    dashboard: "학습 기록 · 통계",
-  };
-  els.topbarBreadcrumb.textContent = labels[viewName] || "";
-  els.sidebar.classList.remove("is-open");
+  window.scrollTo({ top: 0, behavior: "instant" });
 }
 
-function updateStatsUI(stats) {
-  state.stats = stats;
-  const solved = stats.solved_count || 0;
-  const correct = stats.correct_count || 0;
-  const acc = solved > 0 ? `${Math.round((correct / solved) * 100)}%` : "-";
-  els.topStatSolved.textContent = `풀이 ${solved.toLocaleString()}문항`;
-  els.topStatAccuracy.textContent = `정답률 ${acc}`;
-  els.navWrongCount.textContent = String(stats.wrong_count || 0);
-  els.navBookmarkCount.textContent = String(stats.bookmarked_count || 0);
-  els.sidebarStats.textContent = `시험지 ${(stats.unique_papers || 0).toLocaleString()}종 · ${(stats.unique_questions || 0).toLocaleString()}문항`;
-}
-
-async function refreshStats() {
+async function refreshGlobalCounts() {
   const data = await fetchFilters();
   state.hierarchy = data.hierarchy;
-  updateStatsUI(data.stats);
+  els.navWrongCount.textContent = String(data.stats?.wrong_count || 0);
 }
 
-/* ==================== 계층형 필터 ==================== */
+/* ==================== 1단계: 직렬 선택 ==================== */
+function renderSeriesGrid() {
+  const seriesMap = state.hierarchy?.[state.selectedExamType]?.[state.selectedGrade] || {};
+  const seriesNames = Object.keys(seriesMap).sort((a, b) => {
+    if (a.startsWith("00_")) return -1;
+    if (b.startsWith("00_")) return 1;
+    return a.localeCompare(b, "ko");
+  });
+
+  els.seriesCountLabel.textContent = `${seriesNames.length}개 직렬`;
+  els.seriesGrid.replaceChildren();
+
+  for (const name of seriesNames) {
+    const info = seriesMap[name];
+    const displayName = name.replace(/^00_/, "").replaceAll("_", " · ");
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `series-card ${state.selectedSeries === name ? "is-selected" : ""}`;
+    btn.addEventListener("click", () => selectSeries(name));
+
+    const title = document.createElement("span");
+    title.className = "series-name";
+    title.textContent = displayName;
+
+    const meta = document.createElement("span");
+    meta.className = "series-meta tabular-nums";
+    meta.textContent = `${info.subjects.length}과목 · ${info.years[info.years.length - 1]}–${info.years[0]}`;
+
+    btn.append(title, meta);
+    els.seriesGrid.appendChild(btn);
+  }
+}
+
+async function selectSeries(seriesName) {
+  state.selectedSeries = seriesName;
+  renderSeriesGrid();
+
+  const info = state.hierarchy?.[state.selectedExamType]?.[state.selectedGrade]?.[seriesName];
+  if (!info) return;
+
+  const displayName = seriesName.replace(/^00_/, "").replaceAll("_", " · ");
+  els.selectedSeriesTitle.textContent = `${state.selectedExamType} ${state.selectedGrade} · ${displayName} 시험지`;
+  els.headerContext.textContent = `${state.selectedExamType} ${state.selectedGrade} · ${displayName}`;
+
+  populateSelect(els.pickerYear, info.years, "전체 연도");
+  populateSelect(els.pickerSubject, info.subjects, "전체 과목");
+
+  els.paperPickerBlock.hidden = false;
+  await loadSeriesPapers();
+  els.paperPickerBlock.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
 function populateSelect(selectEl, items, defaultLabel) {
-  const prev = selectEl.value;
   selectEl.replaceChildren();
   const def = document.createElement("option");
   def.value = "";
@@ -164,186 +221,290 @@ function populateSelect(selectEl, items, defaultLabel) {
     opt.textContent = String(val);
     selectEl.appendChild(opt);
   }
-  if (items.map(String).includes(prev)) {
-    selectEl.value = prev;
-  }
 }
 
-function syncFilterOptions() {
-  const h = state.hierarchy;
-  const examTypes = Object.keys(h);
-  populateSelect(els.filterExamType, examTypes, "전체 (국가직 · 지방직)");
-  const et = els.filterExamType.value;
+async function loadSeriesPapers() {
+  const { papers } = await fetchPapers({
+    exam_type: state.selectedExamType,
+    grade: state.selectedGrade,
+    series: state.selectedSeries,
+    year: els.pickerYear.value,
+    subject: els.pickerSubject.value,
+  });
 
-  const grades = new Set();
-  for (const t of et ? [et] : examTypes) {
-    for (const g of Object.keys(h[t] || {})) grades.add(g);
-  }
-  populateSelect(els.filterGrade, [...grades], "전체 (9급 · 7급)");
-  const gr = els.filterGrade.value;
-
-  const seriesSet = new Set();
-  for (const t of et ? [et] : examTypes) {
-    for (const g of gr ? [gr] : Object.keys(h[t] || {})) {
-      for (const s of Object.keys((h[t] && h[t][g]) || {})) seriesSet.add(s);
-    }
-  }
-  populateSelect(els.filterSeries, [...seriesSet].sort(), "전체 직렬");
-  const sr = els.filterSeries.value;
-
-  const yearsSet = new Set();
-  const subjectsSet = new Set();
-  for (const t of et ? [et] : examTypes) {
-    for (const g of gr ? [gr] : Object.keys(h[t] || {})) {
-      for (const s of sr ? [sr] : Object.keys((h[t] && h[t][g]) || {})) {
-        const info = h[t]?.[g]?.[s];
-        if (!info) continue;
-        info.years.forEach((y) => yearsSet.add(y));
-        info.subjects.forEach((sj) => subjectsSet.add(sj));
-      }
-    }
-  }
-  populateSelect(els.filterYear, [...yearsSet].sort((a, b) => b - a), "전체 연도");
-  populateSelect(els.filterSubject, [...subjectsSet].sort(), "전체 과목");
-}
-
-function getFilterParams() {
-  return {
-    exam_type: els.filterExamType.value,
-    grade: els.filterGrade.value,
-    series: els.filterSeries.value,
-    year: els.filterYear.value,
-    subject: els.filterSubject.value,
-  };
-}
-
-async function loadPaperList() {
-  const { papers } = await fetchPapers(getFilterParams());
-  els.paperListCount.textContent = `${papers.length}개 시험지`;
-  els.paperGrid.replaceChildren();
-
+  els.paperList.replaceChildren();
   if (papers.length === 0) {
     const empty = document.createElement("div");
-    empty.className = "empty-state";
-    empty.textContent = "선택한 조건에 해당하는 시험지가 없습니다.";
-    els.paperGrid.appendChild(empty);
+    empty.className = "empty-box";
+    empty.textContent = "선택한 조건의 시험지가 없습니다.";
+    els.paperList.appendChild(empty);
     return;
   }
 
   for (const p of papers) {
-    const card = document.createElement("button");
-    card.type = "button";
-    card.className = "paper-card";
-    card.addEventListener("click", () => openPaper(p.subject_row_id, p.series));
+    const row = document.createElement("button");
+    row.type = "button";
+    row.className = "paper-row";
+    row.addEventListener("click", () => openPaperToSolve(p.subject_row_id));
 
-    const top = document.createElement("div");
-    top.className = "paper-card-top";
-    const badges = document.createElement("div");
-    badges.className = "paper-badges";
+    const left = document.createElement("div");
+    left.className = "paper-row-left";
 
-    for (const [txt, isAccent] of [
-      [`${p.exam_type} ${p.grade}`, true],
-      [String(p.year), false],
-      [`${p.booklet_type || "대표"}책형`, false],
-    ]) {
-      const b = document.createElement("span");
-      b.className = isAccent ? "badge badge-accent" : "badge";
-      b.textContent = txt;
-      badges.appendChild(b);
-    }
-    top.appendChild(badges);
+    const yr = document.createElement("span");
+    yr.className = "paper-year tabular-nums";
+    yr.textContent = `${p.year}`;
 
-    const title = document.createElement("h3");
-    title.className = "paper-card-title";
-    title.textContent = p.subject_name;
+    const subj = document.createElement("span");
+    subj.className = "paper-subject";
+    subj.textContent = p.subject_name;
 
-    const sub = document.createElement("div");
-    sub.className = "paper-card-sub";
-    sub.textContent = `${p.series} · ${p.exam_title}`;
+    const booklet = document.createElement("span");
+    booklet.className = "paper-booklet";
+    booklet.textContent = `${p.booklet_type || "대표"}책형 · ${p.total_questions}문항`;
 
-    const foot = document.createElement("div");
-    foot.className = "paper-card-foot tabular-nums";
-    const qCnt = document.createElement("span");
-    qCnt.textContent = `총 ${p.total_questions}문항`;
-    const prog = document.createElement("span");
-    prog.textContent = p.solved_count > 0 ? `풀이 ${p.solved_count}/${p.total_questions} (정답 ${p.correct_count})` : "미응시";
-    foot.append(qCnt, prog);
+    left.append(yr, subj, booklet);
 
-    card.append(top, title, sub, foot);
-    els.paperGrid.appendChild(card);
+    const right = document.createElement("div");
+    right.className = "paper-row-right tabular-nums";
+
+    const status = document.createElement("span");
+    status.textContent = p.solved_count > 0 ? `이전 기록 ${p.correct_count}/${p.total_questions}` : "";
+
+    const go = document.createElement("span");
+    go.className = "paper-go";
+    go.textContent = "문제 풀기 →";
+
+    right.append(status, go);
+    row.append(left, right);
+    els.paperList.appendChild(row);
   }
 }
 
-/* ==================== 문항 카드 빌더 (통일된 스타일) ==================== */
-function buildQuestionCard(q, options = {}) {
-  const { showPaperTag = false, onSelectChoice } = options;
-  const card = document.createElement("article");
-  card.className = "q-card";
-  card.id = `q-card-${q.q_no}`;
+/* ==================== 2단계: 문제 풀기 ==================== */
+async function openPaperToSolve(subjectRowId) {
+  const data = await fetchPaperDetail(subjectRowId);
+  state.currentPaper = data.paper;
+  state.questions = data.questions;
 
-  // 1. 헤더
-  const header = document.createElement("div");
-  header.className = "q-header";
-  const hLeft = document.createElement("div");
-  hLeft.className = "q-header-left";
+  els.solveTitle.textContent = `${data.paper.year}년 ${data.paper.subject_name}`;
+  els.solveMeta.textContent = `${data.paper.exam_type} ${data.paper.grade} · ${data.paper.booklet_type || "대표"}책형 · ${data.questions.length}문항`;
 
-  const numBadge = document.createElement("span");
-  numBadge.className = "q-number tabular-nums";
-  numBadge.textContent = String(q.q_no).padStart(2, "0");
-  hLeft.appendChild(numBadge);
+  setStep("solve");
+  renderSolveQuestions();
+  renderSolveOmr();
+  startTimer();
+}
+
+function renderSolveQuestions() {
+  els.solveQuestionList.replaceChildren();
+  for (const q of state.questions) {
+    els.solveQuestionList.appendChild(buildQuestionBlock(q, { mode: "solve" }));
+  }
+}
+
+function renderSolveOmr() {
+  els.solveOmrNums.replaceChildren();
+  let answered = 0;
+
+  for (const q of state.questions) {
+    const hasSel = Boolean(q.user_state?.selected_choice);
+    if (hasSel) answered++;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `omr-num-btn tabular-nums ${hasSel ? "is-answered" : ""}`;
+    btn.textContent = String(q.q_no);
+    btn.addEventListener("click", () => {
+      document.getElementById(`solve-q-${q.q_no}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    els.solveOmrNums.appendChild(btn);
+  }
+
+  els.solveProgress.textContent = `${answered} / ${state.questions.length}`;
+}
+
+async function finishSolveAndGoReview() {
+  stopTimer();
+
+  const total = state.questions.length;
+  let correct = 0;
+  let answered = 0;
+
+  for (const q of state.questions) {
+    if (q.user_state?.selected_choice) {
+      answered++;
+      if (isQuestionCorrect(q)) correct++;
+    }
+  }
+
+  const score = total > 0 ? Math.round((correct / total) * 1000) / 10 : 0;
+
+  if (state.currentPaper) {
+    await saveExamSession({
+      subject_row_id: state.currentPaper.subject_row_id,
+      exam_title: state.currentPaper.exam_title,
+      subject_name: state.currentPaper.subject_name,
+      year: state.currentPaper.year,
+      total_count: total,
+      correct_count: correct,
+      score,
+      elapsed_seconds: state.timerSeconds,
+    });
+  }
+
+  await refreshGlobalCounts();
+
+  state.reviewFilter = "all";
+  els.reviewFilterBtns.forEach((b) => b.classList.toggle("is-active", b.dataset.reviewFilter === "all"));
+
+  els.reviewPaperName.textContent = `${state.currentPaper.year}년 ${state.currentPaper.exam_type} ${state.currentPaper.grade} · ${state.currentPaper.subject_name}`;
+  els.reviewScoreText.textContent = `${score}점 (${correct} / ${total} 정답 · ${formatTime(state.timerSeconds)})`;
+
+  setStep("review");
+  renderReviewQuestions();
+
+  els.scoreDialogBody.replaceChildren();
+  const p1 = document.createElement("p");
+  p1.textContent = `총 ${total}문항 중 ${answered}문항을 풀었고, ${correct}문항을 맞혔습니다.`;
+  const p2 = document.createElement("p");
+  p2.className = "tabular-nums";
+  const strong = document.createElement("strong");
+  strong.textContent = `점수 ${score}점 · 소요 시간 ${formatTime(state.timerSeconds)}`;
+  p2.appendChild(strong);
+  els.scoreDialogBody.append(p1, p2);
+  els.scoreDialog.showModal();
+}
+
+/* ==================== 3단계: 해설 보기 ==================== */
+function renderReviewQuestions() {
+  els.reviewQuestionList.replaceChildren();
+
+  if (!state.currentPaper || state.questions.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty-box";
+    empty.textContent = "먼저 1단계에서 직렬과 시험지를 선택해 주세요.";
+    els.reviewQuestionList.appendChild(empty);
+    return;
+  }
+
+  const filtered = state.questions.filter((q) => {
+    if (state.reviewFilter === "wrong") return !isQuestionCorrect(q);
+    if (state.reviewFilter === "correct") return isQuestionCorrect(q);
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty-box";
+    empty.textContent = "해당 조건의 문항이 없습니다.";
+    els.reviewQuestionList.appendChild(empty);
+    return;
+  }
+
+  for (const q of filtered) {
+    els.reviewQuestionList.appendChild(buildQuestionBlock(q, { mode: "review" }));
+  }
+}
+
+/* ==================== 4단계: 오답노트 ==================== */
+async function loadWrongList() {
+  const data = await searchQuestions({
+    q: els.wrongSearchInput.value.trim(),
+    mode: state.wrongMode,
+    limit: state.wrongLimit,
+    offset: state.wrongOffset,
+  });
+
+  els.wrongTotalCount.textContent = `${data.total.toLocaleString()}문항`;
+  els.wrongQuestionList.replaceChildren();
+
+  if (data.items.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty-box";
+    empty.textContent =
+      state.wrongMode === "wrong"
+        ? "틀린 문항이 아직 없습니다. 문제를 풀면 오답이 자동으로 여기에 모입니다."
+        : state.wrongMode === "bookmarked"
+          ? "북마크한 문항이 없습니다."
+          : "검색 결과가 없습니다.";
+    els.wrongQuestionList.appendChild(empty);
+  } else {
+    for (const q of data.items) {
+      els.wrongQuestionList.appendChild(buildQuestionBlock(q, { mode: "wrong", showPaperTag: true }));
+    }
+  }
+
+  const totalPages = Math.max(1, Math.ceil(data.total / state.wrongLimit));
+  const curPage = Math.floor(state.wrongOffset / state.wrongLimit) + 1;
+  els.wrongPageLabel.textContent = `${curPage} / ${totalPages}`;
+  els.btnWrongPrev.disabled = curPage <= 1;
+  els.btnWrongNext.disabled = curPage >= totalPages;
+}
+
+/* ==================== 통일된 문항 렌더링 컴포넌트 ==================== */
+function buildQuestionBlock(q, { mode = "solve", showPaperTag = false } = {}) {
+  const item = document.createElement("article");
+  item.className = "q-item";
+  if (mode === "solve") item.id = `solve-q-${q.q_no}`;
+
+  // 1. 상단 메타
+  const top = document.createElement("div");
+  top.className = "q-top";
+
+  const topLeft = document.createElement("div");
+  topLeft.className = "q-top-left";
+
+  const noEl = document.createElement("span");
+  noEl.className = "q-no tabular-nums";
+  noEl.textContent = String(q.q_no).padStart(2, "0");
+  topLeft.appendChild(noEl);
 
   if (showPaperTag && q.paper_meta) {
-    const pTag = document.createElement("span");
-    pTag.className = "q-paper-tag";
-    pTag.textContent = `${q.paper_meta.year} ${q.paper_meta.exam_type} ${q.paper_meta.grade} · ${q.paper_meta.subject_name}`;
-    hLeft.appendChild(pTag);
+    const ctx = document.createElement("span");
+    ctx.className = "q-context-tag";
+    ctx.textContent = `${q.paper_meta.year} ${q.paper_meta.exam_type} ${q.paper_meta.grade} · ${q.paper_meta.subject_name}`;
+    topLeft.appendChild(ctx);
   }
 
-  if (q.polarity) {
-    const typeTag = document.createElement("span");
-    typeTag.className = "q-type-tag";
-    typeTag.textContent = `${q.polarity} · ${q.category || ""}`;
-    hLeft.appendChild(typeTag);
-  }
-
-  if (q.explanation?.law_refs?.length > 0) {
-    const lawBadge = document.createElement("span");
-    lawBadge.className = "q-law-badge";
-    lawBadge.textContent = `법제처 MCP 검증 (${q.explanation.law_refs.map((l) => l.name).slice(0, 2).join(", ")})`;
-    hLeft.appendChild(lawBadge);
+  if (mode === "review" || mode === "wrong") {
+    const sel = q.user_state?.selected_choice;
+    const judge = document.createElement("span");
+    const ok = isQuestionCorrect(q);
+    judge.className = `q-judge-tag ${ok ? "is-correct" : "is-wrong"}`;
+    judge.textContent = !sel ? "미응답" : ok ? "정답" : "오답";
+    topLeft.appendChild(judge);
   }
 
   const bookmarkBtn = document.createElement("button");
   bookmarkBtn.type = "button";
-  bookmarkBtn.className = `btn-bookmark ${q.user_state?.is_bookmarked ? "is-active" : ""}`;
-  bookmarkBtn.textContent = q.user_state?.is_bookmarked ? "★ 북마크됨" : "☆ 북마크";
+  bookmarkBtn.className = `q-bookmark-btn ${q.user_state?.is_bookmarked ? "is-active" : ""}`;
+  bookmarkBtn.textContent = q.user_state?.is_bookmarked ? "북마크됨" : "북마크";
   bookmarkBtn.addEventListener("click", async () => {
     const next = !q.user_state.is_bookmarked;
     q.user_state.is_bookmarked = next;
     bookmarkBtn.classList.toggle("is-active", next);
-    bookmarkBtn.textContent = next ? "★ 북마크됨" : "☆ 북마크";
+    bookmarkBtn.textContent = next ? "북마크됨" : "북마크";
     await saveAttempt({ question_id: q.question_id, is_bookmarked: next });
-    refreshStats();
   });
 
-  header.append(hLeft, bookmarkBtn);
-  card.appendChild(header);
+  top.append(topLeft, bookmarkBtn);
+  item.appendChild(top);
 
   // 2. 발문
-  const stemEl = document.createElement("h2");
+  const stemEl = document.createElement("h3");
   stemEl.className = "q-stem";
   stemEl.appendChild(renderInlineFragment(q.stem));
-  card.appendChild(stemEl);
+  item.appendChild(stemEl);
 
-  // 3. 지문 (있을 경우 통일된 문단·표 스타일로 렌더링)
+  // 3. 지문 (통일 문단/표)
   if (q.passage) {
     const passageBox = document.createElement("div");
     passageBox.className = "q-passage";
     renderStructuredContent(q.passage, passageBox, false);
-    card.appendChild(passageBox);
+    item.appendChild(passageBox);
   }
 
-  // 4. <보기> / 보조지문
+  // 4. <보기>
   if (q.sub_passage) {
     const bogiBox = document.createElement("div");
     bogiBox.className = "q-bogi-box";
@@ -352,23 +513,15 @@ function buildQuestionCard(q, options = {}) {
     bogiHead.textContent = "보 기";
     bogiBox.appendChild(bogiHead);
     renderStructuredContent(q.sub_passage, bogiBox, true);
-    card.appendChild(bogiBox);
+    item.appendChild(bogiBox);
   }
 
-  // 5. 선지 목록
+  // 5. 선지
   const choicesWrap = document.createElement("div");
   choicesWrap.className = "q-choices";
+  const ansNums = parseAnswerNums(q.answer);
+  const showAnswerState = mode === "review" || (mode === "wrong" && Boolean(q._revealed));
 
-  const showResult =
-    state.currentView !== "solve"
-      ? Boolean(q.user_state?.selected_choice)
-      : state.solveMode === "study"
-        ? Boolean(q.user_state?.selected_choice)
-        : state.examSubmitted;
-
-  const ansNums = (q.answer || "").split(/[,\s]+/).filter(Boolean).map(Number);
-
-  const choiceButtons = [];
   for (const ch of q.choices) {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -387,133 +540,130 @@ function buildQuestionCard(q, options = {}) {
     const isSelected = String(q.user_state?.selected_choice) === String(ch.no);
     const isAns = ansNums.includes(ch.no);
 
-    if (showResult) {
+    if (showAnswerState) {
       if (isAns) {
         btn.classList.add("is-correct");
-        markSpan.textContent = isSelected ? "정답 (선택)" : "정답";
+        markSpan.textContent = isSelected ? "정답 (내 선택)" : "정답";
       } else if (isSelected) {
         btn.classList.add("is-wrong");
-        markSpan.textContent = "오답";
+        markSpan.textContent = "내 선택";
       }
     } else if (isSelected) {
       btn.classList.add("is-selected");
     }
 
     btn.append(noSpan, textSpan, markSpan);
-    btn.addEventListener("click", async () => {
-      if (state.currentView === "solve" && state.solveMode === "exam" && state.examSubmitted) return;
-      const correctFlag = ansNums.includes(ch.no) ? 1 : 0;
-      q.user_state.selected_choice = String(ch.no);
-      q.user_state.is_correct = correctFlag;
 
-      await saveAttempt({
-        question_id: q.question_id,
-        selected_choice: String(ch.no),
-        is_correct: correctFlag,
+    if (mode === "solve" || mode === "wrong") {
+      btn.addEventListener("click", async () => {
+        const correctFlag = ansNums.includes(ch.no) ? 1 : 0;
+        q.user_state.selected_choice = String(ch.no);
+        q.user_state.is_correct = correctFlag;
+        if (mode === "wrong") q._revealed = true;
+
+        await saveAttempt({
+          question_id: q.question_id,
+          selected_choice: String(ch.no),
+          is_correct: correctFlag,
+        });
+
+        const fresh = buildQuestionBlock(q, { mode, showPaperTag });
+        item.replaceWith(fresh);
+        if (mode === "solve") renderSolveOmr();
+        refreshGlobalCounts();
       });
+    }
 
-      if (onSelectChoice) onSelectChoice(q);
-
-      // 카드 UI 즉시 갱신
-      const freshCard = buildQuestionCard(q, options);
-      card.replaceWith(freshCard);
-      refreshStats();
-    });
-
-    choiceButtons.push(btn);
     choicesWrap.appendChild(btn);
   }
-  card.appendChild(choicesWrap);
+  item.appendChild(choicesWrap);
 
-  // 6. 하단 액션 & 해설 토글
-  const actions = document.createElement("div");
-  actions.className = "q-actions";
+  // 6. 해설 영역 (3단계 해설에서는 항상 표시, 4단계 오답에서는 다시 풀거나 토글 시 표시)
+  if (mode === "review" || mode === "wrong") {
+    const expPanel = buildExplanationPanel(q);
+    if (mode === "wrong" && !q._revealed) {
+      expPanel.hidden = true;
+      const revealBtn = document.createElement("button");
+      revealBtn.type = "button";
+      revealBtn.className = "btn-outline";
+      revealBtn.style.marginTop = "12px";
+      revealBtn.textContent = "해설 보기";
+      revealBtn.addEventListener("click", () => {
+        expPanel.hidden = !expPanel.hidden;
+        revealBtn.textContent = expPanel.hidden ? "해설 보기" : "해설 접기";
+      });
+      item.append(revealBtn, expPanel);
+    } else {
+      item.appendChild(expPanel);
+    }
+  }
 
-  const toggleExpBtn = document.createElement("button");
-  toggleExpBtn.type = "button";
-  toggleExpBtn.className = "btn-secondary";
-  const shouldAutoOpen = showResult && state.solveMode === "study" && q.user_state?.selected_choice;
-  toggleExpBtn.textContent = shouldAutoOpen ? "해설 접기" : "정답 · 해설 보기";
-
-  const expBox = buildExplanationBox(q);
-  expBox.hidden = !shouldAutoOpen;
-
-  toggleExpBtn.addEventListener("click", () => {
-    expBox.hidden = !expBox.hidden;
-    toggleExpBtn.textContent = expBox.hidden ? "정답 · 해설 보기" : "해설 접기";
-  });
-
-  actions.appendChild(toggleExpBtn);
-  card.append(actions, expBox);
-  return card;
+  return item;
 }
 
-function buildExplanationBox(q) {
-  const box = document.createElement("div");
-  box.className = "q-explanation-box";
+function buildExplanationPanel(q) {
+  const panel = document.createElement("div");
+  panel.className = "exp-panel";
   const exp = q.explanation || {};
 
-  const head = document.createElement("div");
-  head.className = "exp-head";
-  const ansPill = document.createElement("span");
-  ansPill.className = "exp-answer-pill";
-  ansPill.textContent = `정답 ${q.answer}번 (${q.answer_source || "공식발표"})`;
-  const hist = document.createElement("span");
-  hist.className = "q-type-tag";
-  hist.textContent = exp.repeat_str || "";
-  head.append(ansPill, hist);
-  box.appendChild(head);
+  const ansLine = document.createElement("div");
+  ansLine.className = "exp-answer-line";
+  const ansText = document.createElement("span");
+  ansText.textContent = `정답 ${q.answer}번`;
+  const repeatText = document.createElement("span");
+  repeatText.style.fontSize = "12px";
+  repeatText.style.fontWeight = "500";
+  repeatText.style.color = "var(--ink-muted)";
+  repeatText.textContent = exp.repeat_count > 1 ? exp.repeat_str : "";
+  ansLine.append(ansText, repeatText);
+  panel.appendChild(ansLine);
 
   if (exp.overall_commentary) {
     const overall = document.createElement("div");
     overall.className = "exp-overall";
-    overall.textContent = exp.overall_commentary;
-    box.appendChild(overall);
+    overall.textContent = cleanUserText(exp.overall_commentary);
+    panel.appendChild(overall);
   }
 
   if (exp.law_refs && exp.law_refs.length > 0) {
-    const lawCard = document.createElement("div");
-    lawCard.className = "exp-law-card";
-    const h4 = document.createElement("h4");
-    h4.textContent = "법제처 국가법령정보센터(MCP) 검증 조문";
-    lawCard.appendChild(h4);
+    const laws = document.createElement("div");
+    laws.className = "exp-laws";
+    const title = document.createElement("div");
+    title.className = "exp-laws-title";
+    title.textContent = "관련 법령";
+    laws.appendChild(title);
     for (const lr of exp.law_refs) {
-      const item = document.createElement("div");
-      item.className = "exp-law-item";
-      item.textContent = `• 「${lr.name}」 (법령ID: ${lr.law_id}, 시행: ${lr.effective_date}) — ${lr.note}`;
-      lawCard.appendChild(item);
+      const row = document.createElement("div");
+      row.className = "exp-law-row";
+      row.textContent = `• 「${lr.name}」 (시행 ${lr.effective_date}) — ${lr.note}`;
+      laws.appendChild(row);
     }
-    box.appendChild(lawCard);
+    panel.appendChild(laws);
   }
 
   if (exp.choice_explanations && exp.choice_explanations.length > 0) {
     const list = document.createElement("div");
-    list.className = "exp-choice-list";
+    list.className = "exp-choices";
     for (const ce of exp.choice_explanations) {
-      const item = document.createElement("div");
-      item.className = `exp-choice-item ${ce.is_answer ? "is-ans" : ""}`;
+      const row = document.createElement("div");
+      row.className = "exp-choice-row";
       const strong = document.createElement("strong");
       strong.textContent = `${getCircledNumber(ce.no)} [${ce.judgment}] `;
-      item.append(strong, document.createTextNode(ce.commentary));
-      list.appendChild(item);
+      row.append(strong, document.createTextNode(ce.commentary));
+      list.appendChild(row);
     }
-    box.appendChild(list);
+    panel.appendChild(list);
   }
 
-  // 개인 오답/학습 메모 DB 저장
-  const memoBox = document.createElement("div");
-  memoBox.className = "memo-box";
-  const memoLabel = document.createElement("label");
-  memoLabel.textContent = "개인 학습 메모 (SQLite DB 저장)";
   const memoRow = document.createElement("div");
   memoRow.className = "memo-row";
   const memoInput = document.createElement("input");
   memoInput.type = "text";
   memoInput.value = q.user_state?.memo || "";
-  memoInput.placeholder = "헷갈리는 판례나 핵심 포인트를 메모하세요...";
+  memoInput.placeholder = "개인 메모를 남겨두면 자동 저장됩니다";
   const memoBtn = document.createElement("button");
   memoBtn.type = "button";
-  memoBtn.className = "btn-secondary";
+  memoBtn.className = "btn-outline";
   memoBtn.textContent = "메모 저장";
   memoBtn.addEventListener("click", async () => {
     q.user_state.memo = memoInput.value;
@@ -522,223 +672,14 @@ function buildExplanationBox(q) {
     setTimeout(() => { memoBtn.textContent = "메모 저장"; }, 1200);
   });
   memoRow.append(memoInput, memoBtn);
-  memoBox.append(memoLabel, memoRow);
-  box.appendChild(memoBox);
+  panel.appendChild(memoRow);
 
-  return box;
+  return panel;
 }
 
-/* ==================== 시험지 풀기 & OMR ==================== */
-async function openPaper(subjectRowId, seriesLabel = "") {
-  const data = await fetchPaperDetail(subjectRowId);
-  state.currentPaper = data.paper;
-  state.questions = data.questions;
-  state.examSubmitted = false;
-
-  els.solvePaperTitle.textContent = `${data.paper.year} ${data.paper.subject_name} (${data.paper.exam_type} ${data.paper.grade})`;
-  els.solvePaperMeta.textContent = `${seriesLabel ? seriesLabel + " · " : ""}${data.paper.exam_title} · ${data.paper.booklet_type || "대표"}책형 · ${data.questions.length}문항`;
-
-  switchView("solve");
-  renderSolveStream();
-  renderOMR();
-  startTimer();
-}
-
-function renderSolveStream() {
-  els.questionStream.replaceChildren();
-  for (const q of state.questions) {
-    els.questionStream.appendChild(
-      buildQuestionCard(q, {
-        showPaperTag: false,
-        onSelectChoice: () => renderOMR(),
-      })
-    );
-  }
-}
-
-function renderOMR() {
-  els.omrGrid.replaceChildren();
-  let answeredCount = 0;
-
-  for (const q of state.questions) {
-    const sel = q.user_state?.selected_choice;
-    if (sel) answeredCount++;
-
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "omr-btn tabular-nums";
-    btn.textContent = String(q.q_no);
-
-    const showJudge = state.solveMode === "study" ? Boolean(sel) : state.examSubmitted;
-    if (showJudge && sel) {
-      btn.classList.add(q.user_state.is_correct === 1 ? "is-correct" : "is-wrong");
-    } else if (sel) {
-      btn.classList.add("is-answered");
-    }
-
-    btn.addEventListener("click", () => {
-      document.getElementById(`q-card-${q.q_no}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-    els.omrGrid.appendChild(btn);
-  }
-
-  els.omrProgress.textContent = `${answeredCount} / ${state.questions.length}`;
-}
-
-async function submitExam() {
-  stopTimer();
-  state.examSubmitted = true;
-
-  const total = state.questions.length;
-  let correct = 0;
-  for (const q of state.questions) {
-    const ansNums = (q.answer || "").split(/[,\s]+/).filter(Boolean).map(Number);
-    if (q.user_state?.selected_choice && ansNums.includes(Number(q.user_state.selected_choice))) {
-      correct++;
-    }
-  }
-  const score = total > 0 ? Math.round((correct / total) * 1000) / 10 : 0;
-
-  await saveExamSession({
-    subject_row_id: state.currentPaper.subject_row_id,
-    exam_title: state.currentPaper.exam_title,
-    subject_name: state.currentPaper.subject_name,
-    year: state.currentPaper.year,
-    total_count: total,
-    correct_count: correct,
-    score,
-    elapsed_seconds: state.timerSeconds,
-  });
-
-  renderSolveStream();
-  renderOMR();
-  refreshStats();
-
-  els.resultDialogBody.replaceChildren();
-  const summary = document.createElement("p");
-  summary.textContent = `${state.currentPaper.year}년 ${state.currentPaper.subject_name} 모의고사 채점이 완료되었습니다.`;
-  const scoreP = document.createElement("p");
-  scoreP.className = "tabular-nums";
-  scoreP.innerHTML = "";
-  const strong = document.createElement("strong");
-  strong.textContent = `총 ${total}문항 중 ${correct}문항 정답 (${score}점) · 소요 시간 ${formatTime(state.timerSeconds)}`;
-  scoreP.appendChild(strong);
-  els.resultDialogBody.append(summary, scoreP);
-
-  els.resultDialog.showModal();
-}
-
-/* ==================== 검색 / 오답노트 / 북마크 뷰 ==================== */
-async function loadQueryView(mode) {
-  const titles = {
-    search: ["키워드 · 법령 검색", "전체 기출문제 DB에서 발문, 지문, 선지, 인용 법령명으로 검색합니다."],
-    wrong: ["오답노트", "틀린 문항이 SQLite DB에서 자동으로 수집됩니다. 다시 풀고 정복하세요."],
-    bookmarked: ["북마크 문항", "중요 표시한 문항과 개인 학습 메모를 모아볼 수 있습니다."],
-  };
-  const [title, desc] = titles[mode];
-  els.queryViewTitle.textContent = title;
-  els.queryViewDesc.textContent = desc;
-
-  const data = await searchQuestions({
-    q: els.searchInput.value.trim(),
-    exam_type: els.filterExamType.value,
-    grade: els.filterGrade.value,
-    subject: els.filterSubject.value,
-    mode,
-    limit: state.queryLimit,
-    offset: state.queryOffset,
-  });
-
-  state.queryTotal = data.total;
-  els.queryResultCount.textContent = `${data.total.toLocaleString()}건`;
-  els.queryStream.replaceChildren();
-
-  if (data.items.length === 0) {
-    const empty = document.createElement("div");
-    empty.className = "empty-state";
-    empty.textContent = mode === "wrong"
-      ? "아직 오답노트에 기록된 문항이 없습니다. 시험지를 풀면 자동으로 저장됩니다."
-      : mode === "bookmarked"
-        ? "북마크한 문항이 없습니다."
-        : "검색 조건에 일치하는 문항이 없습니다.";
-    els.queryStream.appendChild(empty);
-  } else {
-    for (const q of data.items) {
-      els.queryStream.appendChild(buildQuestionCard(q, { showPaperTag: true }));
-    }
-  }
-
-  const totalPages = Math.max(1, Math.ceil(data.total / state.queryLimit));
-  const curPage = Math.floor(state.queryOffset / state.queryLimit) + 1;
-  els.pageIndicator.textContent = `${curPage} / ${totalPages}`;
-  els.btnPrevPage.disabled = curPage <= 1;
-  els.btnNextPage.disabled = curPage >= totalPages;
-}
-
-/* ==================== 학습 통계 대시보드 ==================== */
-async function loadDashboard() {
-  await refreshStats();
-  const { sessions } = await fetchSessions();
-  const s = state.stats;
-
-  const solved = s.solved_count || 0;
-  const correct = s.correct_count || 0;
-  const acc = solved > 0 ? `${Math.round((correct / solved) * 100)}%` : "-";
-
-  els.dashboardKpis.replaceChildren();
-  const kpis = [
-    ["DB 수록 고유 시험지", `${(s.unique_papers || 0).toLocaleString()}종`],
-    ["DB 수록 고유 문항", `${(s.unique_questions || 0).toLocaleString()}문항`],
-    ["법제처 MCP 검증 문항", `${(s.law_verified_questions || 0).toLocaleString()}문항`],
-    ["누적 풀이 / 정답률", `${solved.toLocaleString()}문항 (${acc})`],
-    ["모의고사 응시 횟수", `${(s.session_count || 0).toLocaleString()}회`],
-  ];
-  for (const [label, val] of kpis) {
-    const card = document.createElement("div");
-    card.className = "kpi-card";
-    const l = document.createElement("div");
-    l.className = "kpi-label";
-    l.textContent = label;
-    const v = document.createElement("div");
-    v.className = "kpi-value tabular-nums";
-    v.textContent = val;
-    card.append(l, v);
-    els.dashboardKpis.appendChild(card);
-  }
-
-  els.sessionTableBody.replaceChildren();
-  if (sessions.length === 0) {
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
-    td.colSpan = 6;
-    td.textContent = "아직 저장된 실전 모의고사 응시 기록이 없습니다.";
-    tr.appendChild(td);
-    els.sessionTableBody.appendChild(tr);
-    return;
-  }
-
-  for (const row of sessions) {
-    const tr = document.createElement("tr");
-    for (const text of [
-      row.created_at,
-      `${row.year} ${row.exam_title}`,
-      row.subject_name,
-      `${row.correct_count} / ${row.total_count}`,
-      `${row.score}점`,
-      formatTime(row.elapsed_seconds),
-    ]) {
-      const td = document.createElement("td");
-      td.className = "tabular-nums";
-      td.textContent = text;
-      tr.appendChild(td);
-    }
-    els.sessionTableBody.appendChild(tr);
-  }
-}
-
-/* ==================== 이벤트 바인딩 & 초기화 ==================== */
-function setupDialogLightDismissFallback() {
-  const dialog = els.resultDialog;
+/* ==================== 이벤트 & 초기화 ==================== */
+function setupDialog() {
+  const dialog = els.scoreDialog;
   if (!("closedBy" in HTMLDialogElement.prototype)) {
     dialog.addEventListener("click", (event) => {
       if (event.target !== dialog) return;
@@ -751,94 +692,124 @@ function setupDialogLightDismissFallback() {
       if (!inside) dialog.close();
     });
   }
-  els.btnCloseResultDialog.addEventListener("click", () => dialog.close());
-  els.btnConfirmResultDialog.addEventListener("click", () => dialog.close());
+  els.btnCloseScoreDialog.addEventListener("click", () => dialog.close());
+  els.btnConfirmScoreDialog.addEventListener("click", () => dialog.close());
 }
 
 async function init() {
-  setupDialogLightDismissFallback();
-  await refreshStats();
-  syncFilterOptions();
-  await loadPaperList();
+  setupDialog();
+  await refreshGlobalCounts();
+  renderSeriesGrid();
 
-  els.btnToggleSidebar.addEventListener("click", () => {
-    els.sidebar.classList.toggle("is-open");
-  });
-
-  for (const tab of els.navTabs) {
-    tab.addEventListener("click", async () => {
-      const view = tab.dataset.view;
-      switchView(view);
-      if (view === "papers") await loadPaperList();
-      else if (["search", "wrong", "bookmarked"].includes(view)) {
-        state.queryOffset = 0;
-        await loadQueryView(view);
-      } else if (view === "dashboard") {
-        await loadDashboard();
-      }
-    });
-  }
-
-  for (const sel of [els.filterExamType, els.filterGrade, els.filterSeries, els.filterYear, els.filterSubject]) {
-    sel.addEventListener("change", async () => {
-      syncFilterOptions();
-      if (state.currentView === "papers") await loadPaperList();
-      else if (["search", "wrong", "bookmarked"].includes(state.currentView)) {
-        state.queryOffset = 0;
-        await loadQueryView(state.currentView);
-      }
-    });
-  }
-
-  els.btnResetFilters.addEventListener("click", async () => {
-    els.filterExamType.value = "";
-    els.filterGrade.value = "";
-    els.filterSeries.value = "";
-    els.filterYear.value = "";
-    els.filterSubject.value = "";
-    syncFilterOptions();
-    if (state.currentView === "papers") await loadPaperList();
-  });
-
-  els.btnBackToPapers.addEventListener("click", () => {
-    switchView("papers");
-    loadPaperList();
-  });
-
-  for (const btn of els.modeBtns) {
-    btn.addEventListener("click", () => {
-      state.solveMode = btn.dataset.solveMode;
-      state.examSubmitted = false;
-      for (const b of els.modeBtns) b.classList.toggle("is-active", b === btn);
-      els.btnSubmitExam.hidden = state.solveMode !== "exam";
-      renderSolveStream();
-      renderOMR();
-    });
-  }
-
-  els.btnSubmitExam.addEventListener("click", submitExam);
-
-  els.searchForm.addEventListener("submit", async (e) => {
+  // 상단 홈 & 4단계 네비게이션
+  els.btnHome.addEventListener("click", (e) => {
     e.preventDefault();
-    state.queryOffset = 0;
-    const mode = ["wrong", "bookmarked"].includes(state.currentView) ? state.currentView : "search";
-    await loadQueryView(mode);
+    setStep("select");
   });
 
-  els.btnPrevPage.addEventListener("click", async () => {
-    state.queryOffset = Math.max(0, state.queryOffset - state.queryLimit);
-    await loadQueryView(state.currentView);
+  els.stepBtns.forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const target = btn.dataset.step;
+      if ((target === "solve" || target === "review") && !state.currentPaper) {
+        setStep("select");
+        return;
+      }
+      setStep(target);
+      if (target === "review") renderReviewQuestions();
+      if (target === "wrong") {
+        state.wrongOffset = 0;
+        await loadWrongList();
+      }
+    });
+  });
+
+  // 1단계: 시험구분/직급 세그먼트
+  els.segmentBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.selectedExamType = btn.dataset.exam;
+      state.selectedGrade = btn.dataset.grade;
+      state.selectedSeries = "";
+      els.segmentBtns.forEach((b) => b.classList.toggle("is-active", b === btn));
+      els.paperPickerBlock.hidden = true;
+      renderSeriesGrid();
+    });
+  });
+
+  els.pickerYear.addEventListener("change", loadSeriesPapers);
+  els.pickerSubject.addEventListener("change", loadSeriesPapers);
+
+  // 2단계: 문제 풀기 버튼
+  els.btnBackToSelect.addEventListener("click", () => setStep("select"));
+  els.btnGoReview.addEventListener("click", finishSolveAndGoReview);
+  els.btnGoReviewBottom.addEventListener("click", finishSolveAndGoReview);
+
+  els.btnResetPaperAnswers.addEventListener("click", async () => {
+    for (const q of state.questions) {
+      if (q.user_state?.selected_choice) {
+        q.user_state.selected_choice = "";
+        q.user_state.is_correct = null;
+        await saveAttempt({ question_id: q.question_id, selected_choice: "", is_correct: null });
+      }
+    }
+    renderSolveQuestions();
+    renderSolveOmr();
+    refreshGlobalCounts();
+  });
+
+  // 3단계: 해설 필터 & 오답 이동
+  els.reviewFilterBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.reviewFilter = btn.dataset.reviewFilter;
+      els.reviewFilterBtns.forEach((b) => b.classList.toggle("is-active", b === btn));
+      renderReviewQuestions();
+    });
+  });
+
+  els.btnBackToSolve.addEventListener("click", () => {
+    setStep("solve");
+    renderSolveQuestions();
+    renderSolveOmr();
+  });
+
+  const goWrongHandler = async () => {
+    state.wrongMode = "wrong";
+    state.wrongOffset = 0;
+    els.wrongModeBtns.forEach((b) => b.classList.toggle("is-active", b.dataset.wrongMode === "wrong"));
+    setStep("wrong");
+    await loadWrongList();
+  };
+  els.btnGoWrongFromReview.addEventListener("click", goWrongHandler);
+  els.btnGoWrongBottom.addEventListener("click", goWrongHandler);
+
+  // 4단계: 오답노트
+  els.wrongModeBtns.forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      state.wrongMode = btn.dataset.wrongMode;
+      state.wrongOffset = 0;
+      els.wrongModeBtns.forEach((b) => b.classList.toggle("is-active", b === btn));
+      await loadWrongList();
+    });
+  });
+
+  els.wrongSearchForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    state.wrongOffset = 0;
+    await loadWrongList();
+  });
+
+  els.btnWrongPrev.addEventListener("click", async () => {
+    state.wrongOffset = Math.max(0, state.wrongOffset - state.wrongLimit);
+    await loadWrongList();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  els.btnNextPage.addEventListener("click", async () => {
-    state.queryOffset += state.queryLimit;
-    await loadQueryView(state.currentView);
+  els.btnWrongNext.addEventListener("click", async () => {
+    state.wrongOffset += state.wrongLimit;
+    await loadWrongList();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 
 init().catch((err) => {
   console.error(err);
-  els.paperGrid.textContent = `초기화 오류: ${err.message}`;
 });

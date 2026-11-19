@@ -3,238 +3,188 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>공무원 기출문제 은행 · 국가직·지방직 9급·7급 5개년 아카이브</title>
+  <title>공무원 기출문제</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="app-shell">
-    <!-- 좌측 사이드바: 직렬/과목 필터 및 메뉴 -->
-    <aside class="sidebar" id="sidebar" aria-label="시험 탐색 메뉴">
-      <div class="sidebar-brand">
-        <div class="brand-mark" aria-hidden="true">公</div>
-        <div class="brand-text">
-          <strong>공무원 기출문제 은행</strong>
-          <span>국가직·지방직 9·7급 · SQLite DB</span>
-        </div>
-      </div>
+  <!-- 상단 고정 헤더 & 4단계 흐름 내비게이션 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="site-title" id="btnHome">공무원 기출문제</a>
 
-      <nav class="nav-tabs" aria-label="주요 학습 모드">
-        <button type="button" class="nav-tab is-active" data-view="papers">
-          <span class="nav-icon" aria-hidden="true">▤</span>
-          <span>시험지 풀기</span>
+      <nav class="step-nav" aria-label="학습 단계">
+        <button type="button" class="step-btn is-active" data-step="select">
+          <span class="step-num tabular-nums">1</span>
+          <span>직렬 선택</span>
         </button>
-        <button type="button" class="nav-tab" data-view="search">
-          <span class="nav-icon" aria-hidden="true">⌕</span>
-          <span>키워드·법령 검색</span>
+        <span class="step-sep" aria-hidden="true">/</span>
+        <button type="button" class="step-btn" data-step="solve">
+          <span class="step-num tabular-nums">2</span>
+          <span>문제</span>
         </button>
-        <button type="button" class="nav-tab" data-view="wrong">
-          <span class="nav-icon" aria-hidden="true">✕</span>
-          <span>오답노트</span>
-          <span class="nav-badge tabular-nums" id="navWrongCount">0</span>
+        <span class="step-sep" aria-hidden="true">/</span>
+        <button type="button" class="step-btn" data-step="review">
+          <span class="step-num tabular-nums">3</span>
+          <span>해설</span>
         </button>
-        <button type="button" class="nav-tab" data-view="bookmarked">
-          <span class="nav-icon" aria-hidden="true">★</span>
-          <span>북마크 문항</span>
-          <span class="nav-badge tabular-nums" id="navBookmarkCount">0</span>
-        </button>
-        <button type="button" class="nav-tab" data-view="dashboard">
-          <span class="nav-icon" aria-hidden="true">◫</span>
-          <span>학습 기록·통계</span>
+        <span class="step-sep" aria-hidden="true">/</span>
+        <button type="button" class="step-btn" data-step="wrong">
+          <span class="step-num tabular-nums">4</span>
+          <span>오답</span>
+          <span class="step-count tabular-nums" id="navWrongCount">0</span>
         </button>
       </nav>
 
-      <section class="filter-panel" aria-label="시험지 필터">
-        <div class="filter-header">
-          <h2>시험지 필터</h2>
-          <button type="button" class="btn-text" id="btnResetFilters">초기화</button>
-        </div>
+      <div class="header-meta tabular-nums" id="headerContext">직렬을 선택해 시작하세요</div>
+    </div>
+  </header>
 
-        <div class="filter-group">
-          <label for="filterExamType">시험 구분</label>
-          <select id="filterExamType">
-            <option value="">전체 (국가직 · 지방직)</option>
-          </select>
-        </div>
+  <main class="page-container">
+    <!-- ==================== 1단계: 직렬 선택 ==================== -->
+    <section class="step-section is-active" id="stepSelect" aria-label="1단계 직렬 선택">
+      <div class="section-intro">
+        <h1>응시할 직렬을 선택하세요</h1>
+        <p>시험 구분과 직렬을 고른 뒤 연도·과목별 기출문제를 바로 풀 수 있습니다.</p>
+      </div>
 
-        <div class="filter-group">
-          <label for="filterGrade">직급</label>
-          <select id="filterGrade">
-            <option value="">전체 (9급 · 7급)</option>
-          </select>
-        </div>
+      <!-- 시험 구분 · 직급 세그먼트 -->
+      <div class="segment-bar" id="examGradeSegments" role="tablist" aria-label="시험 구분 및 직급">
+        <button type="button" class="segment-btn is-active" data-exam="국가직" data-grade="9급">국가직 9급</button>
+        <button type="button" class="segment-btn" data-exam="지방직" data-grade="9급">지방직 9급</button>
+        <button type="button" class="segment-btn" data-exam="국가직" data-grade="7급">국가직 7급</button>
+        <button type="button" class="segment-btn" data-exam="지방직" data-grade="7급">지방직 7급</button>
+      </div>
 
-        <div class="filter-group">
-          <label for="filterSeries">직렬</label>
-          <select id="filterSeries">
-            <option value="">전체 직렬</option>
-          </select>
+      <!-- 직렬 목록 -->
+      <div class="block-section">
+        <div class="block-head">
+          <h2>직렬</h2>
+          <span class="block-sub tabular-nums" id="seriesCountLabel">0개 직렬</span>
         </div>
+        <div class="series-grid" id="seriesGrid"></div>
+      </div>
 
-        <div class="filter-row">
-          <div class="filter-group">
-            <label for="filterYear">연도</label>
-            <select id="filterYear">
+      <!-- 선택된 직렬의 과목 · 연도 선택 영역 -->
+      <div class="block-section" id="paperPickerBlock" hidden>
+        <div class="block-head">
+          <h2 id="selectedSeriesTitle">과목 및 연도 선택</h2>
+          <div class="inline-filters">
+            <select id="pickerYear" aria-label="연도 선택">
               <option value="">전체 연도</option>
             </select>
-          </div>
-          <div class="filter-group">
-            <label for="filterSubject">과목</label>
-            <select id="filterSubject">
+            <select id="pickerSubject" aria-label="과목 선택">
               <option value="">전체 과목</option>
             </select>
           </div>
         </div>
-      </section>
-
-      <footer class="sidebar-footer">
-        <div class="db-status">
-          <span class="status-dot" aria-hidden="true"></span>
-          <span>SQLite DB &amp; 법제처 MCP 검증 연동</span>
-        </div>
-        <div class="db-summary tabular-nums" id="sidebarStats">로딩 중...</div>
-      </footer>
-    </aside>
-
-    <!-- 메인 워크스페이스 -->
-    <main class="main-area">
-      <!-- 상단 바 -->
-      <header class="topbar">
-        <div class="topbar-left">
-          <button type="button" class="btn-icon mobile-menu-btn" id="btnToggleSidebar" aria-label="메뉴 열기">☰</button>
-          <div class="breadcrumb" id="topbarBreadcrumb">시험지 목록</div>
-        </div>
-        <div class="topbar-right">
-          <div class="stat-pill tabular-nums" id="topStatSolved">풀이 0문항</div>
-          <div class="stat-pill tabular-nums" id="topStatAccuracy">정답률 -</div>
-        </div>
-      </header>
-
-      <!-- 뷰 1: 시험지 목록 -->
-      <section class="view-section is-active" id="viewPapers" aria-label="시험지 목록">
-        <div class="section-head">
-          <div>
-            <h1>직렬별·연도별 기출 시험지</h1>
-            <p class="section-desc">인사혁신처 공식 기출문제와 법제처(MCP) 검증 해설이 수록된 시험지를 선택해 바로 풀 수 있습니다.</p>
-          </div>
-          <div class="paper-count tabular-nums" id="paperListCount">0개 시험지</div>
-        </div>
-
-        <div class="paper-grid" id="paperGrid"></div>
-      </section>
-
-      <!-- 뷰 2: 문제 풀이 / 모의고사 뷰 -->
-      <section class="view-section" id="viewSolve" aria-label="문제 풀이 화면">
-        <div class="solve-toolbar">
-          <div class="solve-toolbar-left">
-            <button type="button" class="btn-secondary" id="btnBackToPapers">← 목록으로</button>
-            <div class="solve-title-wrap">
-              <h1 id="solvePaperTitle">시험지 제목</h1>
-              <span class="solve-meta tabular-nums" id="solvePaperMeta"></span>
-            </div>
-          </div>
-
-          <div class="solve-toolbar-right">
-            <div class="mode-switch" role="group" aria-label="풀이 방식 선택">
-              <button type="button" class="mode-btn is-active" data-solve-mode="study">학습 모드 (즉시 해설)</button>
-              <button type="button" class="mode-btn" data-solve-mode="exam">실전 모의고사 (일괄 채점)</button>
-            </div>
-            <div class="timer-box tabular-nums" id="examTimer" aria-label="경과 시간">00:00</div>
-            <button type="button" class="btn-primary" id="btnSubmitExam" hidden>시험 제출 및 채점</button>
-          </div>
-        </div>
-
-        <div class="solve-layout">
-          <div class="question-stream" id="questionStream"></div>
-
-          <!-- 우측 OMR 답안지 / 문항 네비게이터 -->
-          <aside class="omr-panel" aria-label="문항 빠른 이동 및 OMR">
-            <div class="omr-header">
-              <h2>문항 현황 (OMR)</h2>
-              <span class="tabular-nums" id="omrProgress">0 / 20</span>
-            </div>
-            <div class="omr-grid" id="omrGrid"></div>
-            <div class="omr-legend">
-              <span><i class="dot dot-answered"></i>풀이 완료</span>
-              <span><i class="dot dot-correct"></i>정답</span>
-              <span><i class="dot dot-wrong"></i>오답</span>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <!-- 뷰 3: 키워드·법령 검색 / 오답노트 / 북마크 통합 뷰 -->
-      <section class="view-section" id="viewQuery" aria-label="문항 검색 및 오답노트">
-        <div class="section-head">
-          <div>
-            <h1 id="queryViewTitle">키워드 · 법령 검색</h1>
-            <p class="section-desc" id="queryViewDesc">전체 50,000+ 기출 데이터에서 발문, 지문, 선지, 인용 법령명으로 문항을 검색합니다.</p>
-          </div>
-          <div class="tabular-nums paper-count" id="queryResultCount">0건</div>
-        </div>
-
-        <form class="search-bar" id="searchForm">
-          <input type="search" id="searchInput" placeholder="예: 행정기본법, 신뢰보호, 위법수집증거, 과태료, 감가상각..." aria-label="검색어 입력">
-          <button type="submit" class="btn-primary">검색</button>
-        </form>
-
-        <div class="question-stream" id="queryStream"></div>
-
-        <div class="pagination-bar" id="queryPagination">
-          <button type="button" class="btn-secondary" id="btnPrevPage">이전</button>
-          <span class="tabular-nums" id="pageIndicator">1 / 1</span>
-          <button type="button" class="btn-secondary" id="btnNextPage">다음</button>
-        </div>
-      </section>
-
-      <!-- 뷰 4: 학습 기록 · 통계 대시보드 -->
-      <section class="view-section" id="viewDashboard" aria-label="학습 통계 대시보드">
-        <div class="section-head">
-          <div>
-            <h1>학습 기록 및 DB 통계</h1>
-            <p class="section-desc">SQLite 데이터베이스에 저장된 모의고사 응시 결과와 누적 풀이 현황입니다.</p>
-          </div>
-        </div>
-
-        <div class="kpi-grid" id="dashboardKpis"></div>
-
-        <div class="dashboard-card">
-          <h2>최근 모의고사 응시 기록</h2>
-          <div tabindex="0" role="region" aria-labelledby="sessionTableTitle" class="table-wrapper">
-            <table class="data-table">
-              <caption id="sessionTableTitle" class="sr-only">최근 모의고사 응시 기록 테이블</caption>
-              <thead>
-                <tr>
-                  <th>응시 일시</th>
-                  <th>시험명</th>
-                  <th>과목</th>
-                  <th>맞힌 문항</th>
-                  <th>점수</th>
-                  <th>소요 시간</th>
-                </tr>
-              </thead>
-              <tbody id="sessionTableBody"></tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <!-- 모의고사 채점 결과 다이얼로그 (modern-web-guidance: closedby="any" + showModal) -->
-  <dialog id="resultDialog" closedby="any" aria-labelledby="resultDialogTitle">
-    <div class="dialog-inner">
-      <div class="dialog-header">
-        <h2 id="resultDialogTitle">모의고사 채점 결과</h2>
-        <button type="button" class="btn-icon" id="btnCloseResultDialog" aria-label="닫기">✕</button>
+        <div class="paper-list" id="paperList"></div>
       </div>
-      <div class="dialog-body" id="resultDialogBody"></div>
-      <div class="dialog-footer">
-        <button type="button" class="btn-primary" id="btnConfirmResultDialog">오답 및 해설 확인하기</button>
+    </section>
+
+    <!-- ==================== 2단계: 문제 풀기 ==================== -->
+    <section class="step-section" id="stepSolve" aria-label="2단계 문제 풀기">
+      <div class="sticky-subbar">
+        <div class="subbar-left">
+          <button type="button" class="btn-ghost" id="btnBackToSelect">← 직렬 다시 선택</button>
+          <div class="subbar-title">
+            <strong id="solveTitle">시험지</strong>
+            <span class="tabular-nums" id="solveMeta"></span>
+          </div>
+        </div>
+        <div class="subbar-right">
+          <span class="timer-pill tabular-nums" id="solveTimer">00:00</span>
+          <span class="progress-pill tabular-nums" id="solveProgress">0 / 20</span>
+          <button type="button" class="btn-solid" id="btnGoReview">채점하고 해설 보기 →</button>
+        </div>
+      </div>
+
+      <div class="solve-grid">
+        <div class="question-list" id="solveQuestionList"></div>
+
+        <aside class="omr-rail" aria-label="문항 번호 바로가기">
+          <div class="omr-title">문항 이동</div>
+          <div class="omr-nums" id="solveOmrNums"></div>
+        </aside>
+      </div>
+
+      <div class="bottom-cta-bar">
+        <button type="button" class="btn-ghost" id="btnResetPaperAnswers">선택 초기화</button>
+        <button type="button" class="btn-solid" id="btnGoReviewBottom">채점하고 해설 보기 →</button>
+      </div>
+    </section>
+
+    <!-- ==================== 3단계: 해설 보기 ==================== -->
+    <section class="step-section" id="stepReview" aria-label="3단계 해설 보기">
+      <div class="summary-strip" id="reviewSummaryStrip">
+        <div class="summary-main">
+          <div class="summary-label" id="reviewPaperName">채점 결과</div>
+          <div class="summary-score tabular-nums" id="reviewScoreText">-</div>
+        </div>
+        <div class="summary-actions">
+          <div class="filter-pills" role="group" aria-label="해설 필터">
+            <button type="button" class="pill-btn is-active" data-review-filter="all">전체 문항</button>
+            <button type="button" class="pill-btn" data-review-filter="wrong">틀린 문항만</button>
+            <button type="button" class="pill-btn" data-review-filter="correct">맞힌 문항만</button>
+          </div>
+          <button type="button" class="btn-solid" id="btnGoWrongFromReview">오답노트로 이동 →</button>
+        </div>
+      </div>
+
+      <div class="question-list" id="reviewQuestionList"></div>
+
+      <div class="bottom-cta-bar">
+        <button type="button" class="btn-ghost" id="btnBackToSolve">← 문제 다시 보기</button>
+        <button type="button" class="btn-solid" id="btnGoWrongBottom">오답노트로 이동 →</button>
+      </div>
+    </section>
+
+    <!-- ==================== 4단계: 오답노트 ==================== -->
+    <section class="step-section" id="stepWrong" aria-label="4단계 오답노트">
+      <div class="section-intro-row">
+        <div class="section-intro">
+          <h1>오답노트</h1>
+          <p>틀린 문항을 모아서 다시 풀고, 해설과 메모를 복습할 수 있습니다.</p>
+        </div>
+        <div class="wrong-controls">
+          <form class="inline-search" id="wrongSearchForm">
+            <input type="search" id="wrongSearchInput" placeholder="오답 내 키워드 검색" aria-label="오답 검색">
+            <button type="submit" class="btn-outline">검색</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="wrong-tabs">
+        <button type="button" class="pill-btn is-active" data-wrong-mode="wrong">틀린 문항</button>
+        <button type="button" class="pill-btn" data-wrong-mode="bookmarked">북마크 문항</button>
+        <button type="button" class="pill-btn" data-wrong-mode="all">전체 문항 검색</button>
+        <span class="wrong-total tabular-nums" id="wrongTotalCount">0문항</span>
+      </div>
+
+      <div class="question-list" id="wrongQuestionList"></div>
+
+      <div class="pagination" id="wrongPagination">
+        <button type="button" class="btn-outline" id="btnWrongPrev">이전</button>
+        <span class="tabular-nums" id="wrongPageLabel">1 / 1</span>
+        <button type="button" class="btn-outline" id="btnWrongNext">다음</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 채점 완료 안내 다이얼로그 -->
+  <dialog id="scoreDialog" closedby="any" aria-labelledby="scoreDialogTitle">
+    <div class="dialog-box">
+      <div class="dialog-head">
+        <h2 id="scoreDialogTitle">채점 완료</h2>
+        <button type="button" class="btn-close" id="btnCloseScoreDialog" aria-label="닫기">×</button>
+      </div>
+      <div class="dialog-body" id="scoreDialogBody"></div>
+      <div class="dialog-foot">
+        <button type="button" class="btn-solid" id="btnConfirmScoreDialog">해설 확인하기</button>
       </div>
     </div>
   </dialog>
 
-  <script type="module" src="/js/app.js"></script>
+  <script type="module" src="./js/app.js"></script>
 </body>
 </html>

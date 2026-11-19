@@ -13,7 +13,7 @@
     <booklet_type>나</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>알고리즘_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-9C11BA0C246D79D8-Q1" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
@@ -28,7 +28,7 @@
         <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="1">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 알고리즘의 조건 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="1">정답 ② · 복합 보기 검증형 (알고리즘의 조건) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X)</explanation_ref>
     </question>
     <question no="2" id="PRB-9C11BA0C246D79D8-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>알고리즘의 수행 시간 분석에 대한 설명으로 옳지 않은 것은?</stem>
@@ -39,7 +39,7 @@
         <choice no="4" is_answer="false">알고리즘의 수행 시간 분석에는 최악의 경우, 평균의 경우, 최선의 경우가 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="2">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 알고리즘의 수행 시간 분석 | 정답 선지: 최선의 경우의 알고리즘 수행 시간은 모든 입력의 수행 시간에 대한 상한이 된다.</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="2">정답 ③ · 핵심 개념·이론 이해형 (알고리즘의 수행 시간 분석)</explanation_ref>
     </question>
     <question no="3" id="PRB-9C11BA0C246D79D8-Q3" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음은 그래프에서 너비 우선 탐색(breadth first search) 알고리즘이 동작하는 과정이다. (가) ～ (다)에 들어갈 내용을 바르게 연결한 것은?</stem>
@@ -54,7 +54,7 @@
         <choice no="4" is_answer="false">Stack Push Pop</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="3">[정답 2번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 그래프에서 너비 우선 탐색(breadth first search) | 정답 선지: Queue Enqueue Dequeue</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="3">정답 ② · 핵심 개념·이론 이해형 (그래프에서 너비 우선 탐색(breadth first search))</explanation_ref>
     </question>
     <question no="4" id="PRB-9C11BA0C246D79D8-Q4" type="부정형(옳지 않은 것 고르기)" category="어법·규범·어휘형">
       <stem>입력 크기 $n$에 대한 수행 횟수를 빅오(big-oh) 표기법으로 표현했을 때 옳지 않은 것은?</stem>
@@ -72,7 +72,7 @@
         <choice no="4" is_answer="false">$3 n + 5 n \log n + 2 \rightarrow O ( n \log n )$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="4">[정답 1번] 부정형(옳지 않은 것 고르기) (어법·규범·어휘형) | 핵심어: 입력 크기 $n$, 에 대한 수행 횟수를 빅오(big-oh) | 정답 선지: $n^{4} + 2^{n} + 5 \rightarrow O ( n^{4} )$</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="4">정답 ① · 어법·규범·어휘형 (입력 크기 $n$, 에 대한 수행 횟수를 빅오(big-oh))</explanation_ref>
     </question>
     <question no="5" id="PRB-9C11BA0C246D79D8-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 의사코드(pseudo code)가 설명하는 정렬 알고리즘은?</stem>
@@ -94,7 +94,7 @@ return A</passage>
         <choice no="4" is_answer="false">퀵 정렬(quick sort)</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="5">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 의사코드(pseudo code), return A 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 선택 정렬(selection sort), 퀵 정렬(quick sort) | 정답 선지: 선택 정렬(selection sort)</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="5">정답 ③ · 핵심 개념·이론 이해형 (다음 의사코드(pseudo code), return A 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 선택 정렬(selection sort), 퀵 정렬(quick sort))</explanation_ref>
     </question>
     <question no="6" id="PRB-9C11BA0C246D79D8-Q6" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
       <stem>다음 fib() 함수는 피보나치 수열을 계산한다. fib(6)을 실행할 때, fib() 함수의 호출 횟수는? (단, fib(6)의 호출은 제외한다)</stem>
@@ -111,7 +111,7 @@ return ( fib(n-1) + fib(n-2) );
         <choice no="4" is_answer="true">24번</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: int fib(int n), fib(n-1), fib(n-2) | 정답 선지: 24번</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="6">정답 ④ · 수리·계산·자료해석형 (int fib(int n), fib(n-1), fib(n-2))</explanation_ref>
     </question>
     <question no="7" id="PRB-9C11BA0C246D79D8-Q7" type="빈칸/기호 추론형" category="어법·규범·어휘형">
       <stem>(가) ～ (다)에 들어갈 점근 표기법은?</stem>
@@ -159,7 +159,7 @@ return ( fib(n-1) + fib(n-2) );
         <choice no="4" is_answer="false">$\Theta ( g ( n ) )$ $\Omega ( g ( n ) )$ $O ( g ( n ) )$</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="7">[정답 3번] 빈칸/기호 추론형 (어법·규범·어휘형) | 핵심어: g ( n ), leq f ( n ), f ( n ), leq cg ( n ), geq cg ( n ) | 정답 선지: $\Theta ( g ( n ) )$ $O ( g ( n ) )$ $\Omega ( g ( n ) )$</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="7">정답 ③ · 어법·규범·어휘형 (g ( n ), leq f ( n ), f ( n ), leq cg ( n ), geq cg ( n ))</explanation_ref>
     </question>
     <question no="8" id="PRB-9C11BA0C246D79D8-Q8" type="빈칸/기호 추론형" category="수리·계산·자료해석형">
       <stem>다음 재귀함수 power()는 x^(n)을 계산한다. 빈칸에 들어갈 내용은?</stem>
@@ -175,7 +175,7 @@ return x * [   ]
         <choice no="4" is_answer="false">power(x-1, n-1);</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="8">[정답 2번] 빈칸/기호 추론형 (수리·계산·자료해석형) | 핵심어: double power(double x, int n), power(x, n), power(x, n-1), power(x-1, n), power(x-1, n-1) | 정답 선지: power(x, n-1);</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="8">정답 ② · 수리·계산·자료해석형 (double power(double x, int n), power(x, n), power(x, n-1), power(x-1, n), power(x-1, n-1))</explanation_ref>
     </question>
     <question no="9" id="PRB-9C11BA0C246D79D8-Q9" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>힙 정렬(heap sort)을 수행하기 위해 다음 데이터를 왼쪽부터 차례대로 하나씩 삽입하여 최소힙(min heap)을 구성하였다. 이후 루트를 한 번 삭제하고 최소힙 특성을 유지하기 위해 재조정한 후, 루트의 왼쪽 자식 노드의 값은?</stem>
@@ -187,7 +187,7 @@ return x * [   ]
         <choice no="4" is_answer="false">6</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="9">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 힙 정렬(heap sort), 대로 하나씩 삽입하여 최소힙(min heap) | 정답 선지: 4</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="9">정답 ② · 수리·계산·자료해석형 (힙 정렬(heap sort), 대로 하나씩 삽입하여 최소힙(min heap))</explanation_ref>
     </question>
     <question no="10" id="PRB-9C11BA0C246D79D8-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 조건으로 퀵 정렬(quick sort)을 수행할 때, 처음 데이터 교환이 발생하는 배열의 인덱스 쌍은?</stem>
@@ -204,7 +204,7 @@ return x * [   ]
         <choice no="4" is_answer="false">3, 8</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 조건으로 퀵 정렬(quick sort), 피벗(pivot) | 정답 선지: 2, 6</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="10">정답 ② · 수리·계산·자료해석형 (다음 조건으로 퀵 정렬(quick sort), 피벗(pivot))</explanation_ref>
     </question>
     <question no="11" id="PRB-9C11BA0C246D79D8-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>재귀 알고리즘에 대한 설명으로 옳지 않은 것은?</stem>
@@ -215,7 +215,7 @@ return x * [   ]
         <choice no="4" is_answer="true">재귀함수는 실행 시간과 메모리 공간 사용 측면에서 반복문보다 효율성이 높다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 재귀 알고리즘, 재귀함수로 작성된 병합 정렬(merge sort) | 정답 선지: 재귀함수는 실행 시간과 메모리 공간 사용 측면에서 반복문보다 효율성이 높다.</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="11">정답 ④ · 핵심 개념·이론 이해형 (재귀 알고리즘, 재귀함수로 작성된 병합 정렬(merge sort))</explanation_ref>
     </question>
     <question no="12" id="PRB-9C11BA0C246D79D8-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>동적 계획(dynamic programming) 알고리즘에 대한 설명으로 옳지 않은 것은?</stem>
@@ -226,7 +226,7 @@ return x * [   ]
         <choice no="4" is_answer="false">한 번 계산된 부분 문제들의 해는 재사용을 위해 저장된다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="12">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 동적 계획(dynamic programming) | 정답 선지: 상위 문제의 해를 분할하여 하위 문제의 해를 구한다.</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="12">정답 ② · 핵심 개념·이론 이해형 (동적 계획(dynamic programming))</explanation_ref>
     </question>
     <question no="13" id="PRB-9C11BA0C246D79D8-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 이진 탐색 트리(binary search tree)에서 키 48을 검색할 때, 방문하는 노드의 순서는?</stem>
@@ -241,7 +241,7 @@ return x * [   ]
         <choice no="4" is_answer="false">55 － 15 － 60 － 8 － 28 － 90 － 3 － 18 － 30 － 16 － 48</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="13">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 이진 탐색 트리(binary search tree) | 정답 선지: 55 － 15 － 28 － 30 － 48</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="13">정답 ① · 핵심 개념·이론 이해형 (다음 이진 탐색 트리(binary search tree))</explanation_ref>
     </question>
     <question no="14" id="PRB-9C11BA0C246D79D8-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 정렬 알고리즘의 평균 시간복잡도를 바르게 연결한 것은?</stem>
@@ -273,7 +273,7 @@ return x * [   ]
         <choice no="4" is_answer="true">$O ( n^{2} )$ $O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n^{2} )$</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="14">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: O ( n ) | 정답 선지: $O ( n^{2} )$ $O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n^{2} )$</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="14">정답 ④ · 핵심 개념·이론 이해형 (O ( n ))</explanation_ref>
     </question>
     <question no="15" id="PRB-9C11BA0C246D79D8-Q15" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>(가)에 들어갈 내용은?</stem>
@@ -286,7 +286,7 @@ return x * [   ]
         <choice no="4" is_answer="true">트라이(trie)</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="15">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: AVL 트리(AVL tree), 블랙 트리(red-black tree), 트라이(trie) | 정답 선지: 트라이(trie)</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="15">정답 ④ · 핵심 개념·이론 이해형 (AVL 트리(AVL tree), 블랙 트리(red-black tree), 트라이(trie))</explanation_ref>
     </question>
     <question no="16" id="PRB-9C11BA0C246D79D8-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음에서 설명하는 알고리즘 설계 기법에 해당하지 않는 것은?</stem>
@@ -298,7 +298,7 @@ return x * [   ]
         <choice no="4" is_answer="false">허프만(Huffman) 코딩 알고리즘</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="16">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다익스트라(Dijkstra), 알고리즘 프림(Prim), 워셜(Floyd-Warshall), 알고리즘 허프만(Huffman) | 정답 선지: 플로이드－워셜(Floyd-Warshall) 알고리즘</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="16">정답 ③ · 핵심 개념·이론 이해형 (다익스트라(Dijkstra), 알고리즘 프림(Prim), 워셜(Floyd-Warshall), 알고리즘 허프만(Huffman))</explanation_ref>
     </question>
     <question no="17" id="PRB-9C11BA0C246D79D8-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그래프에서 Kruskal 알고리즘을 사용하여 최소 신장 트리(minimum spanning tree)를 찾을 때, 최소 신장 트리의 간선을 나열한 것은?</stem>
@@ -313,7 +313,7 @@ return x * [   ]
         <choice no="4" is_answer="false">(a,b) (b,c) (c,d) (c,e) (e,g) (f,g) (g,h)</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="17">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 을 사용하여 최소 신장 트리(minimum spanning tree), (a,b) | 정답 선지: (a,b) (b,c) (c,d) (c,e) (c,h) (f,g) (g,h)</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="17">정답 ③ · 핵심 개념·이론 이해형 (을 사용하여 최소 신장 트리(minimum spanning tree), (a,b))</explanation_ref>
     </question>
     <question no="18" id="PRB-9C11BA0C246D79D8-Q18" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>알고리즘 설계 기법 중 분할정복(divide-and-conquer)에 대한 설명으로 옳지 않은 것은?</stem>
@@ -324,7 +324,7 @@ return x * [   ]
         <choice no="4" is_answer="false">분할된 문제들이 서로 중첩되지 않는 경우에 적합하다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="18">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 리즘 설계 기법 중 분할정복(divide-and-conquer), 이진 탐색(binary search), 인 정렬 방법에는 병합 정렬(merge sort) | 정답 선지: 이진 탐색(binary search)을 위해 분할정복을 적용할 수 없다.</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="18">정답 ① · 핵심 개념·이론 이해형 (리즘 설계 기법 중 분할정복(divide-and-conquer), 이진 탐색(binary search), 인 정렬 방법에는 병합 정렬(merge sort))</explanation_ref>
     </question>
     <question no="19" id="PRB-9C11BA0C246D79D8-Q19" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>입력으로 길이 $n$의 텍스트 문자열(T)과 길이 $m$의 패턴 문자열(P)이 있을 때, 문자열 매칭(string matching) 알고리즘에 대한 설명으로 옳지 않은 것은?</stem>
@@ -340,7 +340,7 @@ return x * [   ]
         <choice no="4" is_answer="false">KMP(Knuth-Morris-Pratt) 알고리즘은 P의 각 문자에 대해 매칭 실패 시 비교를 다시 시작할 위치를 계산해 놓는다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="19">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 문자열 매칭(string matching), 포스(brute-force), O ( mn ), 카프(Rabin-Karp), 알고리즘은 P의 해시(hash) | 정답 선지: 보이어－무어(Boyer-Moore) 알고리즘은 P의 각 문자를 왼쪽에서 오른쪽으로 스캔하면서 T와 비교한다.</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="19">정답 ③ · 복합 보기 검증형 (문자열 매칭(string matching), 포스(brute-force), O ( mn ), 카프(Rabin-Karp), 알고리즘은 P의 해시(hash))</explanation_ref>
     </question>
     <question no="20" id="PRB-9C11BA0C246D79D8-Q20" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>백트래킹(backtracking)에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
@@ -354,7 +354,7 @@ return x * [   ]
         <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="알고리즘_해설.xml" question_no="20">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 백트래킹(backtracking), 너비 우선 탐색(breadth first search) | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:O</explanation_ref>
+      <explanation_ref file="알고리즘_해설.xml" question_no="20">정답 ③ · 복합 보기 검증형 (백트래킹(backtracking), 너비 우선 탐색(breadth first search)) — 보기 판정: ㄱ(X), ㄴ(O), ㄷ(O)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

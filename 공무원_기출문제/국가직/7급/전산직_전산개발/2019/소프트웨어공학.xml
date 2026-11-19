@@ -13,7 +13,7 @@
     <booklet_type>가</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>소프트웨어공학_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-19FF65901C7EF919-Q1" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
@@ -25,7 +25,7 @@
         <choice no="4" is_answer="false">개인과 상호작용보다는 도구나 프로세스에 더 가치를 둔다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="1">[정답 1번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 애자일, 선언문, 방법론, 추구하고 | 정답 선지: 포괄적인 문서보다는 제대로 동작하는 소프트웨어에 더 가치를 둔다.</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="1">정답 ① · 수리·계산·자료해석형 (애자일, 선언문, 방법론, 추구하고)</explanation_ref>
     </question>
     <question no="2" id="PRB-19FF65901C7EF919-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음에서 설명하는 아키텍처는?</stem>
@@ -41,7 +41,7 @@
         <choice no="4" is_answer="true">마이크로서비스(microservice) 아키텍처</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 피어(peer-to-peer), 아키텍처 저장소(repository), 슬레이브(master-slave), 아키텍처 마이크로서비스(microservice) | 정답 선지: 마이크로서비스(microservice) 아키텍처</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="2">정답 ④ · 핵심 개념·이론 이해형 (피어(peer-to-peer), 아키텍처 저장소(repository), 슬레이브(master-slave), 아키텍처 마이크로서비스(microservice))</explanation_ref>
     </question>
     <question no="3" id="PRB-19FF65901C7EF919-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 무엇에 사용되는 도구인가?</stem>
@@ -55,7 +55,7 @@
         <choice no="4" is_answer="true">소프트웨어 테스팅</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="3">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 무엇, 사용되, 도구인 | 정답 선지: 소프트웨어 테스팅</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="3">정답 ④ · 핵심 개념·이론 이해형 (무엇, 사용되, 도구인)</explanation_ref>
     </question>
     <question no="4" id="PRB-19FF65901C7EF919-Q4" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>CMMI 프로세스 성숙도 수준(maturity level) 중 관리(Managed) 단계의 특징으로만 묶은 것은?</stem>
@@ -70,7 +70,7 @@
         <choice no="4" is_answer="false">ㄴ, ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="4">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: MMI 프로세스 성숙도 수준(maturity level), 중 관리(Managed) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="4">정답 ① · 복합 보기 검증형 (MMI 프로세스 성숙도 수준(maturity level), 중 관리(Managed)) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)</explanation_ref>
     </question>
     <question no="5" id="PRB-19FF65901C7EF919-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>그림과 같이 서비스 구현 클래스의 a( ), b( ) 연산을 사용하는 클라이언트 클래스가 서비스 구현 클래스에 직접 의존하는 관계에서 클라이언트 클래스가 서비스 인터페이스에 의존하고 서비스 구현 클래스는 서비스 인터페이스를 구현하는 것으로 설계를 변경하였다. 다음 중 이와 가장 관련이 깊은 SOLID 설계 원칙은?</stem>
@@ -87,7 +87,7 @@
         <choice no="4" is_answer="false">인터페이스 분리 원칙(Interface Segregation Principle)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="5">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과, 서비스, 구현, 클래스 | 정답 선지: 의존관계 역전 원칙(Dependency Inversion Principle)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="5">정답 ③ · 핵심 개념·이론 이해형 (그림과, 서비스, 구현, 클래스)</explanation_ref>
     </question>
     <question no="6" id="PRB-19FF65901C7EF919-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>어떤 웹 서비스 시스템은 다음과 같은 특징을 가지고 있다. 이 시스템과 관련하여 ISO/IEC 9126 품질 특성 중에서 개선할 필요가 있는 것은?</stem>
@@ -101,7 +101,7 @@
         <choice no="4" is_answer="false">유지보수성(maintainability)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="6">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 효율성(efficiency), 사용성(usability), 이식성(portability), 유지보수성(maintainability) | 정답 선지: 사용성(usability)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="6">정답 ② · 핵심 개념·이론 이해형 (효율성(efficiency), 사용성(usability), 이식성(portability), 유지보수성(maintainability))</explanation_ref>
     </question>
     <question no="7" id="PRB-19FF65901C7EF919-Q7" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>스크럼(Scrum)의 제품 백로그(product backlog)에 대한 설명으로 옳지 않은 것은?</stem>
@@ -112,7 +112,7 @@
         <choice no="4" is_answer="false">제품 책임자(product owner)가 제품 백로그를 관리한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="7">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 스크럼(Scrum), 의 제품 백로그(product backlog), 제품 책임자(product owner) | 정답 선지: 제품 백로그에 있는 업무의 우선순위를 결정한 후에는 변경하지 않는다.</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="7">정답 ③ · 핵심 개념·이론 이해형 (스크럼(Scrum), 의 제품 백로그(product backlog), 제품 책임자(product owner))</explanation_ref>
     </question>
     <question no="8" id="PRB-19FF65901C7EF919-Q8" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
       <stem>개발자 A는 &lt;명세&gt;에 따라 &lt;코드&gt;를 작성한 후 테스팅을 수행하였다. A는 100 % 문장 커버리지를 달성하면서 동시에 프로그램의 오류를 발견할 수 있었다. A가 사용한 테스트 입력은? (단, 단축 연산(short-circuit evaluation)은 수행하지 않는다)</stem>
@@ -137,7 +137,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">(v1 ＝ 0, v2 ＝ 0)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="8">[정답 1번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: 단축 연산(short-circuit evaluation) | 정답 선지: (v1 ＝ －2, v2 ＝ 2)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="8">정답 ① · 지문 독해·추론형 (단축 연산(short-circuit evaluation))</explanation_ref>
     </question>
     <question no="9" id="PRB-19FF65901C7EF919-Q9" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>&lt;그림&gt;은 &lt;보기&gt;에서 기술하고 있는 병원 진료 시스템의 일부 명세에 해당하는 유스케이스 다이어그램이다. &lt;그림&gt;에서 ‘사용자’와 ‘보호자’, ‘사용자’와 ‘환자’ 사이에 들어갈 관계와 ‘진료예약’과 ‘로그인’, ‘진료예약취소’와 ‘로그인’ 사이에 들어갈 관계로 옳은 것은? (단, A, B, C, D는 다이어그램의 구성 요소가 아니며 관계의 방향을 지시한다)</stem>
@@ -169,7 +169,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">(A) (B), (C) (D)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="9">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 사용자, 보호자, 환자, 진료예약, 로그인 | 정답 선지: (A) (B), (C) (D)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="9">정답 ① · 핵심 개념·이론 이해형 (사용자, 보호자, 환자, 진료예약, 로그인)</explanation_ref>
     </question>
     <question no="10" id="PRB-19FF65901C7EF919-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 어떤 시스템의 유지보수를 위한 요구사항의 일부이다. 아래 요구사항에 따라 수행한 유지보수 활동이 기존 기능에 영향을 끼쳤는지 알아보기 위해 수행하는 테스팅은?</stem>
@@ -184,7 +184,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">보안성 테스팅(security testing)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="10">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 회귀 테스팅(regression testing), 사용성 테스팅(usability testing), 성능 테스팅(performance testing), 보안성 테스팅(security testing) | 정답 선지: 회귀 테스팅(regression testing)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="10">정답 ① · 핵심 개념·이론 이해형 (회귀 테스팅(regression testing), 사용성 테스팅(usability testing), 성능 테스팅(performance testing), 보안성 테스팅(security testing))</explanation_ref>
     </question>
     <question no="11" id="PRB-19FF65901C7EF919-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 클래스 다이어그램으로 표현한 설계에서 사용한 디자인 패턴은?</stem>
@@ -199,7 +199,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">Factory Method 패턴</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="11">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 클래스, 다이어그램으, 표현한, 설계에서 | 정답 선지: Composite 패턴</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="11">정답 ② · 핵심 개념·이론 이해형 (클래스, 다이어그램으, 표현한, 설계에서)</explanation_ref>
     </question>
     <question no="12" id="PRB-19FF65901C7EF919-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>어떤 소프트웨어의 고장 간 평균 시간(MTBF; Mean Time Between Failures)이 2,500시간이고 평균 수리 시간(MTTR; Mean Time To Repair)이 100시간일 때 평균 가동 시간(MTTF; Mean Time To Failure)과 가용성(availability)은? (단, 소수점 이하에서 반올림한다)</stem>
@@ -210,7 +210,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">2,600시간, 96 %</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="12">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 과 가용성(availability) | 정답 선지: 2,400시간, 96 %</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="12">정답 ② · 핵심 개념·이론 이해형 (과 가용성(availability))</explanation_ref>
     </question>
     <question no="13" id="PRB-19FF65901C7EF919-Q13" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>형상관리의 형상 제어(configuration control) 활동에서 수행하는 작업으로만 묶은 것은?</stem>
@@ -225,7 +225,7 @@ int foo(int v1, int v2) {
         <choice no="4" is_answer="false">ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="13">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 형상관리의 형상 제어(configuration control) | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:O, ㄹ:X</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="13">정답 ② · 복합 보기 검증형 (형상관리의 형상 제어(configuration control)) — 보기 판정: ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(X)</explanation_ref>
     </question>
     <question no="14" id="PRB-19FF65901C7EF919-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 리팩토링 전후의 코드 변화이다. 적용된 리팩토링 기법에 해당하는 것은?</stem>
@@ -251,7 +251,7 @@ System.out.println("Odd");
         <choice no="4" is_answer="false">메소드를 매개변수로 전환(Parameterize Method)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="14">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: c void myMethod(int n), boolean isEven(int number), 메소드 은폐(Hide Method), 메소드 추출(Extract Method), 메소드 내용 직접 삽입(Inline Method) | 정답 선지: 메소드 내용 직접 삽입(Inline Method)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="14">정답 ③ · 핵심 개념·이론 이해형 (c void myMethod(int n), boolean isEven(int number), 메소드 은폐(Hide Method), 메소드 추출(Extract Method), 메소드 내용 직접 삽입(Inline Method))</explanation_ref>
     </question>
     <question no="15" id="PRB-19FF65901C7EF919-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>소프트웨어 테스팅 문서에 관한 국제 표준은?</stem>
@@ -262,7 +262,7 @@ System.out.println("Odd");
         <choice no="4" is_answer="false">IEEE 1042</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="15">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 소프트웨어 테스팅 문서 | 정답 선지: IEEE 829</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="15">정답 ③ · 핵심 개념·이론 이해형 (소프트웨어 테스팅 문서)</explanation_ref>
     </question>
     <question no="16" id="PRB-19FF65901C7EF919-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 두 정수를 입력받아 큰 값을 출력하는 프로그램이다. 이 프로그램에서 caller 함수와 max 함수 간의 결합도와 max 함수의 응집도를 바르게 나열한 것은?</stem>
@@ -281,7 +281,7 @@ else return v2;
         <choice no="4" is_answer="true">데이터(data) 결합도, 기능적(functional) 응집도</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="16">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: void caller(int x, int y), max(x, y), int max(int v1, int v2), 제어(control), 논리적(logical) | 정답 선지: 데이터(data) 결합도, 기능적(functional) 응집도</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="16">정답 ④ · 핵심 개념·이론 이해형 (void caller(int x, int y), max(x, y), int max(int v1, int v2), 제어(control), 논리적(logical))</explanation_ref>
     </question>
     <question no="17" id="PRB-19FF65901C7EF919-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 용어에 대한 설명으로 옳은 것은?</stem>
@@ -292,7 +292,7 @@ else return v2;
         <choice no="4" is_answer="true">순환 복잡도(Cyclomatic Complexity)는 원시 코드의 복잡도를 정량적으로 평가하는 척도이며 기본 경로(basis path) 테스팅과 밀접한 관련이 있다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="17">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 용어, 사용자 스토리(User Story), 베이스라인(Baseline), 기능 점수(Function Point), 순환 복잡도(Cyclomatic Complexity) | 정답 선지: 순환 복잡도(Cyclomatic Complexity)는 원시 코드의 복잡도를 정량적으로 평가하는 척도이며 기본 경로(...</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="17">정답 ④ · 핵심 개념·이론 이해형 (용어, 사용자 스토리(User Story), 베이스라인(Baseline), 기능 점수(Function Point), 순환 복잡도(Cyclomatic Complexity))</explanation_ref>
     </question>
     <question no="18" id="PRB-19FF65901C7EF919-Q18" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
       <stem>&lt;명세&gt;는 어떤 과목의 통과 여부를 결정하는 프로그램에 대한 명세이다. &lt;코드&gt;의 프로그램은 &lt;명세&gt;에 따라 작성하였지만 오류가 있다. &lt;코드&gt;의 오류를 검출할 수 있는 테스팅 기법과 테스트 입력을 바르게 짝 지은 것은?</stem>
@@ -315,7 +315,7 @@ int passOrNot(int score) {
         <choice no="4" is_answer="false">동등 분할 기법, 80</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="18">[정답 1번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: &lt;명세&gt;는 어떤 과목의 통과 여부를 결정하는 프로그램 | 정답 선지: 경계 값 분석 기법, 70</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="18">정답 ① · 지문 독해·추론형 (&lt;명세&gt;는 어떤 과목의 통과 여부를 결정하는 프로그램)</explanation_ref>
     </question>
     <question no="19" id="PRB-19FF65901C7EF919-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>유스케이스 분석 기법에서는 유스케이스를 바탕으로 세 가지 유형의 클래스들을 도출한다. 다음 중에서 이에 해당하지 않는 클래스 유형은?</stem>
@@ -326,7 +326,7 @@ int passOrNot(int score) {
         <choice no="4" is_answer="false">엔티티(entity) 클래스</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="19">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 제어(control), 클래스 경계(boundary), 클래스 싱글톤(singleton), 클래스 엔티티(entity) | 정답 선지: 싱글톤(singleton) 클래스</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="19">정답 ③ · 핵심 개념·이론 이해형 (제어(control), 클래스 경계(boundary), 클래스 싱글톤(singleton), 클래스 엔티티(entity))</explanation_ref>
     </question>
     <question no="20" id="PRB-19FF65901C7EF919-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 Java 코드의 MyEmployeeService, EmployeeService, EmployeeDao, Employee 클래스를 UML 클래스 다이어그램으로 표현하였을 때 클래스 다이어그램에 나타나지 않는 관계는? (단, MyEmployeeService, EmployeeService, EmployeeDao, Employee 클래스는 이 외 다른 클래스와 아무 관계가 없다)</stem>
@@ -352,7 +352,7 @@ class Employee { ... }</passage>
         <choice no="4" is_answer="true">실체화(realization)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="소프트웨어공학_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: setEmployeeDao(EmployeeDao dao), yee getEmployee(String id), get(id), oid addEmployee(Employee emp), insert(emp) | 정답 선지: 실체화(realization)</explanation_ref>
+      <explanation_ref file="소프트웨어공학_해설.xml" question_no="20">정답 ④ · 핵심 개념·이론 이해형 (setEmployeeDao(EmployeeDao dao), yee getEmployee(String id), get(id), oid addEmployee(Employee emp), insert(emp))</explanation_ref>
     </question>
   </questions>
 </exam_paper>

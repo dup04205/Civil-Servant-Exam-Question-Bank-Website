@@ -13,7 +13,7 @@
     <booklet_type>D</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>통신이론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-C9D862B55F549B49-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
@@ -33,7 +33,7 @@
         <choice no="4" is_answer="false">0.24</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="1">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: P ( A ), P ( B ), P ( A vert B ), P ( B vert A ) | 정답 선지: 0.2</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="1">정답 ③ · 수리·계산·자료해석형 (P ( A ), P ( B ), P ( A vert B ), P ( B vert A ))</explanation_ref>
     </question>
     <question no="2" id="PRB-C9D862B55F549B49-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>푸리에 변환 관계식으로 옳지 않은 것은? (단, $F \left[ \right]$는 푸리에 변환, $\delta ( t )$는 단위 임펄스 함수, $u ( t )$는 단위 계단 함수, $a$, $b$는 상수, $*$는 컨벌루션 연산, $X ( f ) = F \left[ x ( t ) \right]$)</stem>
@@ -57,7 +57,7 @@
         <choice no="4" is_answer="false">$F \left[ u ( t ) \right] = \frac{1}{j2 \pi f} + \frac{1}{2} \delta ( f )$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="2">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 푸리에 변환 관계식, delta ( t ), u ( t ), X ( f ), x ( t ) | 정답 선지: $F \left[ \delta ( t ) \right] = \infty$</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="2">정답 ① · 핵심 개념·이론 이해형 (푸리에 변환 관계식, delta ( t ), u ( t ), X ( f ), x ( t ))</explanation_ref>
     </question>
     <question no="3" id="PRB-C9D862B55F549B49-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>비트 구간의 중간에서 펄스의 극성이 반전되는 라인코드는?</stem>
@@ -68,7 +68,7 @@
         <choice no="4" is_answer="false">극성(polar) NRZ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="3">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 쌍극성(bipolar), RZ 맨체스터 단극성(unipolar), RZ 극성(polar) | 정답 선지: 맨체스터</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="3">정답 ② · 핵심 개념·이론 이해형 (쌍극성(bipolar), RZ 맨체스터 단극성(unipolar), RZ 극성(polar))</explanation_ref>
     </question>
     <question no="4" id="PRB-C9D862B55F549B49-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>OFDM 방식에 대한 설명으로 옳지 않은 것은?</stem>
@@ -79,7 +79,7 @@
         <choice no="4" is_answer="false">각 부반송파 간의 직교성을 이용해 스펙트럼을 중첩시켜 주파수를 효율적으로 사용한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="4">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: OFDM 방식, 서로 다른 부반송파(subcarrier) | 정답 선지: 단일 반송파를 사용하는 변조 방식보다 전송 신호의 PAPR(peak to average power ratio)이 낮다...</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="4">정답 ② · 핵심 개념·이론 이해형 (OFDM 방식, 서로 다른 부반송파(subcarrier))</explanation_ref>
     </question>
     <question no="5" id="PRB-C9D862B55F549B49-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>메시지 신호와 PN(pseudo noise) 신호를 곱하여 대역을 확산시키는 방식은?</stem>
@@ -90,7 +90,7 @@
         <choice no="4" is_answer="true">직접 부호열(direct sequence)</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="5">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 메시지 신호와 PN(pseudo noise), 주파수 도약(frequency hopping), 시간 도약(time hopping), 직접 부호열(direct sequence) | 정답 선지: 직접 부호열(direct sequence)</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="5">정답 ④ · 핵심 개념·이론 이해형 (메시지 신호와 PN(pseudo noise), 주파수 도약(frequency hopping), 시간 도약(time hopping), 직접 부호열(direct sequence))</explanation_ref>
     </question>
     <question no="6" id="PRB-C9D862B55F549B49-Q6" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>랜덤변수 $X$는 평균 $m_{X}$, 분산 $\sigma_{X}^{2}$인 정규분포를 따른다. 랜덤변수 $Y = 2 X + 1$이라고 할 때, 옳지 않은 것은?</stem>
@@ -115,7 +115,7 @@
         <choice no="4" is_answer="false">$X$와 $Y$의 상관계수는 $\rho_{XY} = 1$이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="6">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 랜덤변수, 평균, 분산, 정규분포 | 정답 선지: $Y$의 분산은 $2 \sigma_{X}^{2}$이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="6">정답 ② · 복합 보기 검증형 (랜덤변수, 평균, 분산, 정규분포)</explanation_ref>
     </question>
     <question no="7" id="PRB-C9D862B55F549B49-Q7" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>모든 시간 $t$에 대하여 다음 조건을 만족하는 신호 $x ( t )$에 대한 설명으로 옳지 않은 것은? (단, $x ( t ) = 0$인 신호는 제외한다)</stem>
@@ -136,7 +136,7 @@
         <choice no="4" is_answer="false">신호의 전체 에너지는 무한대이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="7">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), x ( - t ) | 정답 선지: 우함수 신호이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="7">정답 ② · 핵심 개념·이론 이해형 (x ( t ), x ( - t ))</explanation_ref>
     </question>
     <question no="8" id="PRB-C9D862B55F549B49-Q8" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>MIMO 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -147,7 +147,7 @@
         <choice no="4" is_answer="false">신호대잡음비(SNR)가 높은 채널 환경에서, 공간 다중화를 통해 전송속도를 높일 수 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="8">[정답 1번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: MIMO 시스템, 빔 형성(beam forming), 신호대잡음비(SNR) | 정답 선지: OFDM 기술과 혼용하여 사용하지 않는다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="8">정답 ① · 복합 보기 검증형 (MIMO 시스템, 빔 형성(beam forming), 신호대잡음비(SNR))</explanation_ref>
     </question>
     <question no="9" id="PRB-C9D862B55F549B49-Q9" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>대역 제한 AWGN 채널의 채널용량 $C = B \times \log_{2} ( 1 + \frac{S}{N} )$의 설명으로 옳지 않은 것은?</stem>
@@ -165,7 +165,7 @@
         <choice no="4" is_answer="false">$C$는 주어진 채널을 통해 오류 없이 정보를 전송할 수 있는 최대 전송율로 단위는 [bps]이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="9">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 대역, 제한, 채널, 채널용량 | 정답 선지: $N$은 잡음의 전력밀도 스펙트럼으로 단위는 [W/Hz]이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="9">정답 ③ · 핵심 개념·이론 이해형 (대역, 제한, 채널, 채널용량)</explanation_ref>
     </question>
     <question no="10" id="PRB-C9D862B55F549B49-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>M진 QAM 방식에 대한 설명으로 옳지 않은 것은?</stem>
@@ -180,7 +180,7 @@
         <choice no="4" is_answer="false">직교위상 반송파 $\cos ( 2 \pi f_{c} t )$와 $- \sin ( 2 \pi f_{c} t )$를 이용하여 QAM 신호를 생성할 수 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="10">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: M진 QAM 방식 | 정답 선지: M이 증가할수록 비트 오율이 감소한다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="10">정답 ① · 핵심 개념·이론 이해형 (M진 QAM 방식)</explanation_ref>
     </question>
     <question no="11" id="PRB-C9D862B55F549B49-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>이진 랜덤변수 $X$의 발생확률이 각각 $p$ 및 $( 1 - p )$일 때, 이진 무기억 정보원의 엔트로피 $H ( X )$에 대한 설명으로 옳지 않은 것은?</stem>
@@ -198,7 +198,7 @@
         <choice no="4" is_answer="true">$H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: H ( X ), 2 ( 1 - p ) | 정답 선지: $H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="11">정답 ④ · 핵심 개념·이론 이해형 (H ( X ), 2 ( 1 - p ))</explanation_ref>
     </question>
     <question no="12" id="PRB-C9D862B55F549B49-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>현재의 입력뿐만 아니라 과거의 입력이나 상태를 참조하여 부호화하는 채널부호는?</stem>
@@ -209,7 +209,7 @@
         <choice no="4" is_answer="false">Reed Solomon 부호</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="12">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 현재, 입력뿐만, 아니라, 과거 | 정답 선지: Convolutional 부호</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="12">정답 ③ · 핵심 개념·이론 이해형 (현재, 입력뿐만, 아니라, 과거)</explanation_ref>
     </question>
     <question no="13" id="PRB-C9D862B55F549B49-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>메시지 신호가 정현파일 때, AM 신호의 변조지수 $m$이 $\frac{\sqrt{7}}{3}$이고 송출전력이 100 [kW]이면, 전송효율 μ [%]는?</stem>
@@ -224,7 +224,7 @@
         <choice no="4" is_answer="true">28</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="13">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 메시지, 신호, 정현파일, 변조지수 | 정답 선지: 28</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="13">정답 ④ · 수리·계산·자료해석형 (메시지, 신호, 정현파일, 변조지수)</explanation_ref>
     </question>
     <question no="14" id="PRB-C9D862B55F549B49-Q14" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>디지털 변조에 대한 설명으로 옳지 않은 것은?</stem>
@@ -235,7 +235,7 @@
         <choice no="4" is_answer="true">BPSK는 심볼 오율과 비트 오율이 다르다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="14">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 디지털 변조 | 정답 선지: BPSK는 심볼 오율과 비트 오율이 다르다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="14">정답 ④ · 복합 보기 검증형 (디지털 변조)</explanation_ref>
     </question>
     <question no="15" id="PRB-C9D862B55F549B49-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>(7, 4) Hamming 부호에 대한 설명으로 옳지 않은 것은?</stem>
@@ -249,7 +249,7 @@
         <choice no="4" is_answer="false">부호율은 $\frac{4}{7}$이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="15">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: (7, 4) Hamming 부호 | 정답 선지: 패리티 비트 수는 4이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="15">정답 ③ · 핵심 개념·이론 이해형 ((7, 4) Hamming 부호)</explanation_ref>
     </question>
     <question no="16" id="PRB-C9D862B55F549B49-Q16" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>위성통신 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -260,7 +260,7 @@
         <choice no="4" is_answer="false">정지궤도 위성의 공전 주기는 지구의 자전 주기와 같아, 일정 지역에 지속적으로 서비스를 제공할 수 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="16">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 위성통신 시스템 | 정답 선지: C 밴드에서 상향 링크의 주파수는 하향 링크보다 낮다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="16">정답 ③ · 핵심 개념·이론 이해형 (위성통신 시스템)</explanation_ref>
     </question>
     <question no="17" id="PRB-C9D862B55F549B49-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>주파수 변조(FM)에 대한 설명으로 옳은 것은?</stem>
@@ -277,7 +277,7 @@
         <choice no="4" is_answer="false">메시지 신호의 주파수 대역폭이 $f_{m}$일 때, 광대역 FM 신호의 주파수 대역폭은 $2 f_{m}$이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="17">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 주파수 변조(FM) | 정답 선지: 포락선 검파기를 이용하여 복조할 수 있다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="17">정답 ① · 핵심 개념·이론 이해형 (주파수 변조(FM))</explanation_ref>
     </question>
     <question no="18" id="PRB-C9D862B55F549B49-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>메시지 신호는 $m ( t ) = 2 \cos ( 2 \pi f_{m} t )$이고, 양측파대 반송파억압(DSB-SC) 방식을 이용하여 변조할 때, 상측파대 신호의 스펙트럼은? (단, 반송파는 $\cos ( 2 \pi f_{c} t )$이고, $f_{c} &gt; &gt; f_{m}$이다)</stem>
@@ -297,7 +297,7 @@
         <choice no="4" is_answer="false">$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="18">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: m ( t ), 양측파대 반송파억압(DSB-SC) | 정답 선지: $\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} ...</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="18">정답 ① · 핵심 개념·이론 이해형 (m ( t ), 양측파대 반송파억압(DSB-SC))</explanation_ref>
     </question>
     <question no="19" id="PRB-C9D862B55F549B49-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>입력 신호가 $x ( t )$이고 출력 신호가 $y ( t )$일 때, 입출력 관계가 $y ( t ) = \int_{0}^{t + 1} {x ( \tau )} d \tau$인 시스템에 대한 설명으로 옳은 것은?</stem>
@@ -313,7 +313,7 @@
         <choice no="4" is_answer="false">무기억(memoryless) 시스템이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="19">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: x ( t ), y ( t ), 선형(linear), 시불변(time-invariant), 인과(causal) | 정답 선지: 선형(linear) 시스템이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="19">정답 ① · 핵심 개념·이론 이해형 (x ( t ), y ( t ), 선형(linear), 시불변(time-invariant), 인과(causal))</explanation_ref>
     </question>
     <question no="20" id="PRB-C9D862B55F549B49-Q20" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>이동통신 시스템의 세대별 설명으로 옳지 않은 것은?</stem>
@@ -324,7 +324,7 @@
         <choice no="4" is_answer="false">4세대는 IMT-Advanced라고 하며, OFDMA를 사용한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="통신이론_해설.xml" question_no="20">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 이동통신 시스템의 세대별 설명 | 정답 선지: 2세대는 1세대보다 고품질의 음성통신을 지원하며 아날로그 통신 방식이다.</explanation_ref>
+      <explanation_ref file="통신이론_해설.xml" question_no="20">정답 ② · 핵심 개념·이론 이해형 (이동통신 시스템의 세대별 설명)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

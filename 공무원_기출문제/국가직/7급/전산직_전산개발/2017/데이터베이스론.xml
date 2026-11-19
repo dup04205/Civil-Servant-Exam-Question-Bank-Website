@@ -13,7 +13,7 @@
     <booklet_type>가</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>데이터베이스론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-788662A00F67B497-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
@@ -25,7 +25,7 @@
         <choice no="4" is_answer="false">저장 데이터 관리자는 디스크에 저장되어 있는 사용자 데이터베이스와 시스템 카탈로그의 접근을 책임진다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 관리 시스템(DBMS)의 역할, 데이터베이스 관리 시스템(DBMS), 데이터 조작어(DML) | 정답 선지: 데이터 조작어(DML)로 스키마의 구조를 기술하여 시스템 카탈로그(혹은 데이터 사전)에 저장한 후 필요할 때 활용한다...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">정답 ① · 핵심 개념·이론 이해형 (데이터베이스 관리 시스템(DBMS)의 역할, 데이터베이스 관리 시스템(DBMS), 데이터 조작어(DML))</explanation_ref>
     </question>
     <question no="2" id="PRB-788662A00F67B497-Q2" type="&lt;보기&gt; 조합형(옳지 않은 것 고르기)" category="복합 보기 검증형">
       <stem>관계형 데이터베이스에 대한 설명으로 옳지 않은 것만을 모두 고른 것은?</stem>
@@ -40,7 +40,7 @@
         <choice no="4" is_answer="false">ㄱ, ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 3번] &lt;보기&gt; 조합형(옳지 않은 것 고르기) (복합 보기 검증형) | 핵심어: 관계형 데이터베이스, 성의 일부 요소 속성에서 널(NULL) | 보기 판정: ㄱ:X, ㄴ:X, ㄷ:X, ㄹ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">정답 ③ · 복합 보기 검증형 (관계형 데이터베이스, 성의 일부 요소 속성에서 널(NULL)) — 보기 판정: ㄱ(X), ㄴ(X), ㄷ(X), ㄹ(O)</explanation_ref>
     </question>
     <question no="3" id="PRB-788662A00F67B497-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>테이블의 튜플 데이터를 파일 내에 저장하기 위한 구조는 힙(heap) 파일구조, 순차(sequential) 파일구조, 해시(hash) 파일구조로 구분될 수 있다. 일반적으로 테이블에 가장 빈번하게 이루어지는 연산에 의해 사용될 파일 구조가 결정된다. 다음에 주어진 각각의 연산에 대하여 가장 효율적인 파일구조를 바르게 연결한 것은?</stem>
@@ -55,7 +55,7 @@
         <choice no="4" is_answer="false">해시 힙 순차</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 에 저장하기 위한 구조는 힙(heap), 순차(sequential), 해시(hash), 고 이에 해당하는 튜플 검색(range search) | 정답 선지: 순차 힙 해시</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">정답 ② · 핵심 개념·이론 이해형 (에 저장하기 위한 구조는 힙(heap), 순차(sequential), 해시(hash), 고 이에 해당하는 튜플 검색(range search))</explanation_ref>
     </question>
     <question no="4" id="PRB-788662A00F67B497-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>부서와 사원 테이블을 생성하는 SQL 문장을 수행한 후 튜플 삽입으로 두 테이블의 상태가 다음과 같을 때, 테이블 연산 수행에 대한 설명으로 옳지 않은 것은?</stem>
@@ -86,7 +86,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">부서 테이블에 (1, ‘연구부’) 튜플을 삽입한다면 참조 무결성 제약조건을 위배한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 부서명 VARCHAR(20), 이름 VARCHAR(20) | 정답 선지: 부서 테이블에 (1, ‘연구부’) 튜플을 삽입한다면 참조 무결성 제약조건을 위배한다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">정답 ④ · 핵심 개념·이론 이해형 (부서명 VARCHAR(20), 이름 VARCHAR(20))</explanation_ref>
     </question>
     <question no="5" id="PRB-788662A00F67B497-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>인덱싱(indexing) 기법에 대한 설명으로 옳은 것은?</stem>
@@ -100,7 +100,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">100명이 저장된 학생 테이블의 ‘성별’ 속성에 대하여 비트맵 인덱스를 만들 때, 남학생의 비트맵 인덱스 크기는 남학생 수에 영향을 받는다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인덱싱(indexing) 기법, 인덱싱(indexing), 순서(ordered), 트리의 내부 노드 차수(degree) | 정답 선지: B트리와 B+트리의 노드 크기가 동일한 경우, B+트리의 내부 노드 차수(degree)가 B트리 노드 차수보다 더 크...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">정답 ③ · 핵심 개념·이론 이해형 (인덱싱(indexing) 기법, 인덱싱(indexing), 순서(ordered), 트리의 내부 노드 차수(degree))</explanation_ref>
     </question>
     <question no="6" id="PRB-788662A00F67B497-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>두 트랜잭션 T_(1)과 T_(2)가 다음과 같은 트랜잭션 스케줄로 실행될 때 발생하는 문제는? (단, 데이터 항목 X와 Y의 초깃값은 각각 200과 300이고, read(X)와 write(X)는 각각 트랜잭션이 데이터 항목 X를 읽고 쓰는 연산이다)</stem>
@@ -119,7 +119,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">반복할 수 없는 읽기 문제(unrepeatable read problem)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 갱신 손실 문제(lost update problem), 오손 읽기 문제(dirty read problem), 부정확한 요약 문제(incorrect summary problem), 반복할 수 없는 읽기 문제(unrepeatable read problem) | 정답 선지: 갱신 손실 문제(lost update problem)</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">정답 ① · 핵심 개념·이론 이해형 (갱신 손실 문제(lost update problem), 오손 읽기 문제(dirty read problem), 부정확한 요약 문제(incorrect summary problem), 반복할 수 없는 읽기 문제(unrepeatable read problem))</explanation_ref>
     </question>
     <question no="7" id="PRB-788662A00F67B497-Q7" type="부정형(옳지 않은 것 고르기)" category="어법·규범·어휘형">
       <stem>ISA 관계를 슈퍼타입(혹은 상위클래스)과 서브타입(혹은 하위클래스)으로 표현한 EER(Enhanced E-R) 다이어그램의 한 예를 다음 그림에서 보여주고 있다. 이 그림에서 슈퍼타입은 전체 세분화(total specialization)되어 있고, 서브타입들은 서로 분리(disjoint)되어 있다. 이 EER 다이어그램에 대한 설명으로 옳지 않은 것은? (단, 밑줄은 기본키를 의미한다)</stem>
@@ -138,7 +138,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">승용차와 트럭이 중복(overlap)되었다면 자동차 엔터티는 테이블로 변환할 수 없다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 4번] 부정형(옳지 않은 것 고르기) (어법·규범·어휘형) | 핵심어: 으로 표현한 EER(Enhanced E-R), 에서 슈퍼타입은 전체 세분화(total specialization), 서브타입들은 서로 분리(disjoint), 승용차와 트럭이 중복(overlap) | 정답 선지: 승용차와 트럭이 중복(overlap)되었다면 자동차 엔터티는 테이블로 변환할 수 없다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">정답 ④ · 어법·규범·어휘형 (으로 표현한 EER(Enhanced E-R), 에서 슈퍼타입은 전체 세분화(total specialization), 서브타입들은 서로 분리(disjoint), 승용차와 트럭이 중복(overlap))</explanation_ref>
     </question>
     <question no="8" id="PRB-788662A00F67B497-Q8" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>데이터베이스 관리 시스템의 캐시 관리방식에 대한 설명으로 옳지 않은 것은?</stem>
@@ -149,7 +149,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">force 방식은 트랜잭션이 완료되기 전에 그 트랜잭션이 갱신한 모든 페이지들을 디스크에 저장하게 한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 1번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 데이터베이스 관리 시스템의 캐시 관리방식, 완료된(committed) | 정답 선지: no-steal 방식에서는 회복과정 중 UNDO와 REDO 연산의 수행이 모두 필요하다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">정답 ① · 복합 보기 검증형 (데이터베이스 관리 시스템의 캐시 관리방식, 완료된(committed))</explanation_ref>
     </question>
     <question no="9" id="PRB-788662A00F67B497-Q9" type="긍정형(옳은/적절한 것 고르기)" category="어법·규범·어휘형">
       <stem>다음 그림은 릴레이션 R과 그 함수적 종속성을 표현하고 있다. 속성 C는 릴레이션 R의 후보키이며, 이 릴레이션은 이미 제1정규화를 수행하였다. 이 릴레이션을 후보키까지 고려하여 제2정규화하였을 때, 분해된 릴레이션 중 기본키가 A, B가 아닌 릴레이션은? (단, 밑줄은 기본키를 의미한다)</stem>
@@ -166,7 +166,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">제2정규화하더라도 변화 없음</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 2번] 긍정형(옳은/적절한 것 고르기) (어법·규범·어휘형) | 핵심어: 그림, 릴레이션, 함수적, 종속성 | 정답 선지: [수식/도표 선지 2번]</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">정답 ② · 어법·규범·어휘형 (그림, 릴레이션, 함수적, 종속성)</explanation_ref>
     </question>
     <question no="10" id="PRB-788662A00F67B497-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>병렬 데이터베이스 구조에 대한 설명으로 옳지 않은 것은?</stem>
@@ -177,7 +177,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">비공유 구조는 공유 디스크 구조에 비해 한 프로세서에서 다른 프로세서가 관리하는 비지역(non-local) 디스크 접근에 대한 비용이 높을 수 있다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 병렬 데이터베이스 구조, 공유 메모리(shared memory), 구조는 비공유(shared nothing), 공유 디스크(shared disk), 리적으로는 다중 분리 메모리(multiple disjoint memory) | 정답 선지: 공유 디스크(shared disk) 구조는 공유 메모리 구조에 비해 메모리 버스의 병목현상과 프로세서 간 통신 속도를...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">정답 ② · 핵심 개념·이론 이해형 (병렬 데이터베이스 구조, 공유 메모리(shared memory), 구조는 비공유(shared nothing), 공유 디스크(shared disk), 리적으로는 다중 분리 메모리(multiple disjoint memory))</explanation_ref>
     </question>
     <question no="11" id="PRB-788662A00F67B497-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>RAID에 대한 설명으로 옳지 않은 것은?</stem>
@@ -188,7 +188,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">Level 5는 모든 디스크가 읽기 작업에 참여한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: RAID | 정답 선지: Level 0은 동일한 데이터를 여러 디스크에 중복하여 저장함으로써 읽기 성능을 향상시킨다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">정답 ② · 핵심 개념·이론 이해형 (RAID)</explanation_ref>
     </question>
     <question no="12" id="PRB-788662A00F67B497-Q12" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>다음 과일 테이블에 대한 SQL 문장 내의 비교조건을 해석한 것으로 옳지 않은 것은? (단, 밑줄은 기본키를 의미한다)</stem>
@@ -205,7 +205,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">“19 = ALL (SELECT 과일코드 FROM 과일)”은 거짓이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 과일 테이블 | 정답 선지: “15 &lt; ALL (SELECT 과일코드 FROM 과일)”은 참이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">정답 ③ · 복합 보기 검증형 (과일 테이블)</explanation_ref>
     </question>
     <question no="13" id="PRB-788662A00F67B497-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스의 위협 요소와 보안에 대한 설명으로 옳지 않은 것은?</stem>
@@ -216,7 +216,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">통계 데이터베이스는 원본 데이터로부터 통계 정보를 추출한 것이므로 보안의 대상이 아니다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스의 위협 요소와 보안, 데이터베이스에 대한 무결성(integrity) | 정답 선지: 통계 데이터베이스는 원본 데이터로부터 통계 정보를 추출한 것이므로 보안의 대상이 아니다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">정답 ④ · 핵심 개념·이론 이해형 (데이터베이스의 위협 요소와 보안, 데이터베이스에 대한 무결성(integrity))</explanation_ref>
     </question>
     <question no="14" id="PRB-788662A00F67B497-Q14" type="긍정형(옳은/적절한 것 고르기)" category="어법·규범·어휘형">
       <stem>다음 ERD(Entity-Relationship Diagram)를 관계형 데이터베이스 스키마로 가장 적절하게 변환한 것은? (단, 밑줄은 기본키, 이탤릭체는 외래키를 의미한다)</stem>
@@ -231,7 +231,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">직원(&lt;u&gt;직원번호&lt;/u&gt;, 직원이름, &lt;i&gt;부하직원번호&lt;/i&gt;), 프로젝트(&lt;u&gt;프로젝트번호&lt;/u&gt;, 프로젝트이름), 참가(&lt;u&gt;직원번호&lt;/u&gt;&lt;i&gt;, &lt;/i&gt;&lt;u&gt;프로젝트번호&lt;/u&gt;, 시간)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 3번] 긍정형(옳은/적절한 것 고르기) (어법·규범·어휘형) | 핵심어: 관계형, 데이터베이스, 스키마, 적절하게 | 정답 선지: 직원(&lt;u&gt;직원번호&lt;/u&gt;, 직원이름, &lt;i&gt;상사직원번호&lt;/i&gt;), 프로젝트(&lt;u&gt;프로젝트번호&lt;/u&gt;, 프로젝트이름)...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">정답 ③ · 어법·규범·어휘형 (관계형, 데이터베이스, 스키마, 적절하게)</explanation_ref>
     </question>
     <question no="15" id="PRB-788662A00F67B497-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>메인 메모리 데이터베이스(main memory database) 시스템의 동작에 대한 설명으로 옳지 않은 것은?</stem>
@@ -242,7 +242,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">그룹 완료(group commit) 기법은 트랜잭션이 완료를 요청하더라도 즉시 처리하는 대신, 완료를 기다리는 트랜잭션의 개수가 일정 수 이상이 되거나 일정 시간이 경과한 후 완료 연산을 수행하는 것이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 메인 메모리 데이터베이스(main memory database), 하여 연산을 수행하지만 로깅(logging), 그룹 완료(group commit) | 정답 선지: 메인 메모리 데이터베이스와 디스크 기반 데이터베이스가 동일한 데이터를 저장하고 관리한다면 내부 인덱스 구조도 동일해야...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">정답 ① · 핵심 개념·이론 이해형 (메인 메모리 데이터베이스(main memory database), 하여 연산을 수행하지만 로깅(logging), 그룹 완료(group commit))</explanation_ref>
     </question>
     <question no="16" id="PRB-788662A00F67B497-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그림은 키 값에 대한 해시함수 h의 결과와, 확장 가능 해싱(extendible hashing) 기법에 의해 최초에 키 값 4, 8, 9를 순서대로 입력하여 수행한 결과이다. 이후 키 값 11, 7, 2, 5, 13을 순서대로 입력하는 경우에 대한 설명으로 옳은 것은? (단, 버킷(bucket)의 크기는 2이고 입력된 키 값은 삽입한 순서대로 버킷 내의 왼쪽부터 저장된다)</stem>
@@ -266,7 +266,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">모든 키 값이 삽입된 후 디렉토리 인덱스 111이 가리키는 버킷의 첫 번째 키 값은 11이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림은 키 값, 확장 가능 해싱(extendible hashing), 버킷(bucket) | 정답 선지: 모든 키 값이 삽입된 후 디렉토리 인덱스 111이 가리키는 버킷의 첫 번째 키 값은 11이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">정답 ④ · 핵심 개념·이론 이해형 (그림은 키 값, 확장 가능 해싱(extendible hashing), 버킷(bucket))</explanation_ref>
     </question>
     <question no="17" id="PRB-788662A00F67B497-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그림은 다중 단위크기 로킹(multiple granularity locking) 기법에서 3계층 단위크기의 예를 보여주고 있다. 다중 단위크기 2단계 로킹 기법의 동작에 대한 설명으로 옳지 않은 것은? (단, 그림에서 DB는 F_(1)과 F_(2)로 구성되어 있고 F_(1)은 P_(1), P_(2), P_(3)으로 구성되어 있음을 의미하며, 로크 S는 공유(Shared), X는 배타(eXclusive), I는 의도(Intention)를 의미한다)</stem>
@@ -280,7 +280,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">트랜잭션 T_(1)이 P_(1), P_(4)에 순서대로 작업을 해야할 때, P_(4)와 관련된 로크를 걸기 전이라도 P_(1)에 대한 작업을 완료하자마자 로크를 해제해주어 다른 트랜잭션들이 로크를 걸기 위해 대기하는 시간을 줄일 수 있다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 로크 S는 공유(Shared), X는 배타(eXclusive), I는 의도(Intention) | 정답 선지: 트랜잭션 T_(1)이 P_(1), P_(4)에 순서대로 작업을 해야할 때, P_(4)와 관련된 로크를 걸기 전이라도 ...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">정답 ④ · 핵심 개념·이론 이해형 (로크 S는 공유(Shared), X는 배타(eXclusive), I는 의도(Intention))</explanation_ref>
     </question>
     <question no="18" id="PRB-788662A00F67B497-Q18" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>데이터베이스 관리자 DBA가 생성한 테이블 T에 대해 사용자 USR1이 T에 대한 뷰 V를 생성한 후 사용자 USR2가 V에 대한 검색을 실행할 수 있도록 할 때, 반드시 필요한 권한부여 작업만을 모두 나열한 것은?</stem>
@@ -296,7 +296,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">ㄴ, ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 데이터베이스, 관리자, 생성한, 테이블 | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:O, ㄹ:X, ㅁ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">정답 ③ · 복합 보기 검증형 (데이터베이스, 관리자, 생성한, 테이블) — 보기 판정: ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X), ㅁ(O)</explanation_ref>
     </question>
     <question no="19" id="PRB-788662A00F67B497-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그림은 ARIES 회복 기법에 의해 시스템 고장 전에 마지막으로 기록된 DBMS 로그이다. 이 로그를 사용하여 수행하는 회복 과정에 대한 설명으로 옳지 않은 것은? (단, LSN은 로그순차번호(Log Sequence Number)이며, 표현되지 않은 로그의 다른 속성은 고려하지 않는다)</stem>
@@ -315,7 +315,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="false">UNDO 단계에서는 로그의 끝에서부터 반대 방향으로 완료되지 않은 트랜잭션에서 수행된 갱신 연산을 UNDO한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: LSN은 로그순차번호(Log Sequence Number), 은 처리 중(in progress), 단계에서 오손 페이지 테이블(dirty page table), 료되지 않은 트랜잭션의 복귀(rollback), O에 대해 보상 로그 레코드(compensation log record) | 정답 선지: UNDO 단계에서 완료되지 않은 트랜잭션의 복귀(rollback) 시 수행한 갱신연산에 해당하는 UNDO에 대해 보상...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">정답 ③ · 핵심 개념·이론 이해형 (LSN은 로그순차번호(Log Sequence Number), 은 처리 중(in progress), 단계에서 오손 페이지 테이블(dirty page table), 료되지 않은 트랜잭션의 복귀(rollback), O에 대해 보상 로그 레코드(compensation log record))</explanation_ref>
     </question>
     <question no="20" id="PRB-788662A00F67B497-Q20" type="긍정형(옳은/적절한 것 고르기)" category="어법·규범·어휘형">
       <stem>다음 그림은 학생, 교수, 과목, 수강 4개의 테이블 스키마와 그 인스턴스를 보여주고 있다. 이 데이터베이스에 SQL문을 수행하였을 때, 오류가 발생하지 않는 것은? (단, 밑줄은 기본키를 의미한다)</stem>
@@ -361,7 +361,7 @@ FOREIGN KEY(부서번호) REFERENCES 부서(부서번호));
         <choice no="4" is_answer="true">CREATE VIEW 교수명단 AS SELECT 교수번호, 이름 FROM 교수; INSERT INTO 교수명단 VALUES (6000, ‘진상오’);</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (어법·규범·어휘형) | 핵심어: 그림, 학생, 교수, 과목 | 정답 선지: CREATE VIEW 교수명단 AS SELECT 교수번호, 이름 FROM 교수; INSERT INTO 교수명단 VAL...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">정답 ④ · 어법·규범·어휘형 (그림, 학생, 교수, 과목)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

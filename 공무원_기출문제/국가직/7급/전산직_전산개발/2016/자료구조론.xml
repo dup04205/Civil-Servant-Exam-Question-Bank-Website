@@ -13,7 +13,7 @@
     <booklet_type>2</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>자료구조론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-F1A1089677611567-Q1" type="수치/계산 도출형" category="수리·계산·자료해석형">
@@ -26,7 +26,7 @@
         <choice no="4" is_answer="false">10</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="1">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 후위 표기법(postfix notation) | 정답 선지: 9</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="1">정답 ③ · 수리·계산·자료해석형 (후위 표기법(postfix notation))</explanation_ref>
     </question>
     <question no="2" id="PRB-F1A1089677611567-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>노드의 개수가 177인 완전 이진 트리(complete binary tree)에서 마지막 레벨(level)에 위치한 노드의 개수는? (단, 루트 노드는 첫 번째 레벨에 위치한다)</stem>
@@ -37,7 +37,7 @@
         <choice no="4" is_answer="false">127</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="2">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 가 177인 완전 이진 트리(complete binary tree), 에서 마지막 레벨(level) | 정답 선지: 50</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="2">정답 ② · 수리·계산·자료해석형 (가 177인 완전 이진 트리(complete binary tree), 에서 마지막 레벨(level))</explanation_ref>
     </question>
     <question no="3" id="PRB-F1A1089677611567-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 C 언어 함수를 이용하여 asterisk(9)를 수행할 때 출력되는 ‘*’의 개수는?</stem>
@@ -57,7 +57,7 @@ printf("*");
         <choice no="4" is_answer="false">9</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="3">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: void asterisk(int i) | 정답 선지: 7</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="3">정답 ② · 수리·계산·자료해석형 (void asterisk(int i))</explanation_ref>
     </question>
     <question no="4" id="PRB-F1A1089677611567-Q4" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>가장 낮은 자릿수(LSD : Least Significant Digit) 우선 방식의 기수 정렬(radix sort)을 이용하여, 다음과 같이 배열에 저장된 10진수 데이터를 오름차순으로 정렬하고자 한다. 오른쪽에서 두 번째 자릿수(digit) 기준의 정렬 단계 후에 위치 [3]에 있는 데이터로 옳은 것은? (단, 각 단계별 정렬의 기준이 되는 자릿수는 0에서 9까지의 값을 가진다)</stem>
@@ -71,7 +71,7 @@ printf("*");
         <choice no="4" is_answer="false">216</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="4">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 우선 방식의 기수 정렬(radix sort), 오른쪽에서 두 번째 자릿수(digit) | 정답 선지: 630</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="4">정답 ① · 수리·계산·자료해석형 (우선 방식의 기수 정렬(radix sort), 오른쪽에서 두 번째 자릿수(digit))</explanation_ref>
     </question>
     <question no="5" id="PRB-F1A1089677611567-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>해시 테이블 HT의 크기는 11이고 0부터 10까지의 인덱스를 가진다. 해시 함수 h(x)는 제산 함수로서 h(x) ＝ x mod 11로 표현된다. 충돌 해결책으로는 이차 조사법(quadratic probing)을 사용한다. 해싱을 통해 해시 테이블에 저장할 레코드들의 키 값 순서는 다음과 같다. 마지막 레코드가 저장되는 해시 테이블 위치는? (단, 첫 번째 레코드가 저장되기 전에 해시 테이블은 비어 있고, 해시 테이블 버킷(bucket)당 슬롯(slot) 수는 1개이다)</stem>
@@ -83,7 +83,7 @@ printf("*");
         <choice no="4" is_answer="true">HT[9]</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="5">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 돌 해결책으로는 이차 조사법(quadratic probing), 해시 테이블 버킷(bucket), 당 슬롯(slot) | 정답 선지: HT[9]</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="5">정답 ④ · 핵심 개념·이론 이해형 (돌 해결책으로는 이차 조사법(quadratic probing), 해시 테이블 버킷(bucket), 당 슬롯(slot))</explanation_ref>
     </question>
     <question no="6" id="PRB-F1A1089677611567-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>시작 정점이 A일 때, 다음 그래프에 대한 깊이 우선 탐색(DFS : Depth First Search) 및 너비 우선 탐색(BFS : Breadth First Search)의 방문 순서로 옳은 것은? (단, 인접한 정점들은 알파벳 순서로 방문한다)</stem>
@@ -97,7 +97,7 @@ printf("*");
         <choice no="4" is_answer="false">DFS : A, B, C, F, H, G, E, D, I BFS : A, B, C, D, E, G, F, H, I</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="6">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시작 정점이 A일 때, 다음 그래프 | 정답 선지: DFS : A, B, C, F, H, G, D, E, I BFS : A, B, D, E, C, G, F, H, I</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="6">정답 ② · 핵심 개념·이론 이해형 (시작 정점이 A일 때, 다음 그래프)</explanation_ref>
     </question>
     <question no="7" id="PRB-F1A1089677611567-Q7" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 C 프로그램의 실행 결과로 첫 번째 줄에 출력되는 값과 두 번째 줄에 출력되는 값의 차이 값은? (단, int로 선언된 정수형 변수는 4바이트를 차지하고 char로 선언된 문자형 변수는 1바이트를 차지한다)</stem>
@@ -119,7 +119,7 @@ printf("%d\n", &amp;A[4]);
         <choice no="4" is_answer="false">80</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="7">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 프로그램, 실행, 결과, 번째 | 정답 선지: 64</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="7">정답 ② · 수리·계산·자료해석형 (프로그램, 실행, 결과, 번째)</explanation_ref>
     </question>
     <question no="8" id="PRB-F1A1089677611567-Q8" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 AVL 트리에 정수 23을 삽입하면 AVL 트리로서의 균형이 깨진다. 회전을 통해 이 트리를 AVL 트리로 변환한 후에 전위순회(preorder traversal)를 수행하였을 때 노드 방문 순서는?</stem>
@@ -133,7 +133,7 @@ printf("%d\n", &amp;A[4]);
         <choice no="4" is_answer="false">27, 19, 7, 30, 23, 41</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="8">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 트리로 변환한 후에 전위순회(preorder traversal) | 정답 선지: 27, 19, 7, 23, 30, 41</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="8">정답 ③ · 수리·계산·자료해석형 (트리로 변환한 후에 전위순회(preorder traversal))</explanation_ref>
     </question>
     <question no="9" id="PRB-F1A1089677611567-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 가중 그래프(weighted graph)는 9개의 정점과 1부터 19까지의 가중치(비용)를 갖는 19개의 간선으로 구성되어 있다. Kruskal 알고리즘을 사용하여 최소 비용 신장 트리(minimum cost spanning tree)를 구성할 때, 최소 비용과 마지막으로 선택되는 간선을 순서대로 나열한 것은?</stem>
@@ -147,7 +147,7 @@ printf("%d\n", &amp;A[4]);
         <choice no="4" is_answer="true">44, (B, F)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="9">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 가중 그래프(weighted graph) | 정답 선지: 44, (B, F)</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="9">정답 ④ · 핵심 개념·이론 이해형 (다음 가중 그래프(weighted graph))</explanation_ref>
     </question>
     <question no="10" id="PRB-F1A1089677611567-Q10" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>허프만 코딩(Huffman coding) 알고리즘을 이용하여 다음 19개 문자로 구성된 문자열을 압축하였다. 압축된 문자열에 사용된 비트 수는?</stem>
@@ -177,7 +177,7 @@ e</passage>
         <choice no="4" is_answer="false">46</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="10">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 허프만 코딩(Huffman coding) | 정답 선지: 42</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="10">정답 ② · 수리·계산·자료해석형 (허프만 코딩(Huffman coding))</explanation_ref>
     </question>
     <question no="11" id="PRB-F1A1089677611567-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>C 언어에서 행 우선(row major) 순서로 저장되는 2차원 배열 a[4][5]가 있을 때, 나타내는 원소가 다른 것은?</stem>
@@ -188,7 +188,7 @@ e</passage>
         <choice no="4" is_answer="false">a[1][2]</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="11">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: C 언어에서 행 우선(row major) | 정답 선지: **((a+1)+2)</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="11">정답 ③ · 핵심 개념·이론 이해형 (C 언어에서 행 우선(row major))</explanation_ref>
     </question>
     <question no="12" id="PRB-F1A1089677611567-Q12" type="긍정형(옳은/적절한 것 고르기)" category="어법·규범·어휘형">
       <stem>다음 알고리즘의 시간 복잡도를 빅세타($\Theta$) 표기법으로 표현한 것은? (단, n &gt; 0)</stem>
@@ -213,7 +213,7 @@ return count;
         <choice no="4" is_answer="false">$\Theta$(n^(2))</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (어법·규범·어휘형) | 핵심어: int iterate(int n) | 정답 선지: $\Theta$(log n)</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="12">정답 ① · 어법·규범·어휘형 (int iterate(int n))</explanation_ref>
     </question>
     <question no="13" id="PRB-F1A1089677611567-Q13" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음은 동적 메모리 할당을 통해 구조체 공간을 확보하고 이름과 학번을 입력받아 구조체에 저장하는 C 언어 함수이다. ㉠, ㉡에 들어갈 내용으로 옳게 짝지어진 것은?</stem>
@@ -244,7 +244,7 @@ return p;
         <choice no="4" is_answer="true">(struct student *)malloc(sizeof(struct student)) &amp;(p-&gt;id)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="13">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: sizeof(struct student), id (struct student) | 정답 선지: (struct student *)malloc(sizeof(struct student)) &amp;(p-&gt;id)</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="13">정답 ④ · 핵심 개념·이론 이해형 (sizeof(struct student), id (struct student))</explanation_ref>
     </question>
     <question no="14" id="PRB-F1A1089677611567-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그래프의 위상 정렬(topological sorting) 결과로 나올 수 있는 위상 순서(topological order)로 옳지 않은 것은?</stem>
@@ -258,7 +258,7 @@ return p;
         <choice no="4" is_answer="true">C, A, D, B, E, F</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="14">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 그래프의 위상 정렬(topological sorting), 로 나올 수 있는 위상 순서(topological order) | 정답 선지: C, A, D, B, E, F</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="14">정답 ④ · 핵심 개념·이론 이해형 (다음 그래프의 위상 정렬(topological sorting), 로 나올 수 있는 위상 순서(topological order))</explanation_ref>
     </question>
     <question no="15" id="PRB-F1A1089677611567-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>공백 상태인 이진 탐색 트리(binary search tree)에 1부터 5까지의 정수를 삽입하고자 한다. 삽입 결과, 이진 탐색 트리의 높이가 가장 낮은 삽입 순서는?</stem>
@@ -269,7 +269,7 @@ return p;
         <choice no="4" is_answer="false">4, 3, 5, 2, 1</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 공백 상태인 이진 탐색 트리(binary search tree) | 정답 선지: 3, 1, 2, 4, 5</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="15">정답 ③ · 수리·계산·자료해석형 (공백 상태인 이진 탐색 트리(binary search tree))</explanation_ref>
     </question>
     <question no="16" id="PRB-F1A1089677611567-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 최대 힙(max heap)에 13을 삽입하는 연산을 수행한 후에 루트 노드를 삭제하는 연산을 수행하였다. 그 결과, 루트 노드의 오른쪽 자식 노드의 값으로 옳은 것은? (단, 삽입 및 삭제 연산은 최대 힙으로의 복원 과정을 포함한다)</stem>
@@ -284,7 +284,7 @@ return p;
         <choice no="4" is_answer="false">18</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="16">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음 최대 힙(max heap) | 정답 선지: 9</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="16">정답 ① · 수리·계산·자료해석형 (다음 최대 힙(max heap))</explanation_ref>
     </question>
     <question no="17" id="PRB-F1A1089677611567-Q17" type="빈칸/기호 추론형" category="수리·계산·자료해석형">
       <stem>다음은 구현하고자 하는 원형 큐(circular queue)에 대한 &lt;조건&gt;과 &lt;설명&gt;이다. &lt;설명&gt;의 괄호 안에 들어갈 수로 옳게 짝지어진 것은?</stem>
@@ -309,7 +309,7 @@ return p;
         <choice no="4" is_answer="true">5 4 3</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="17">[정답 4번] 빈칸/기호 추론형 (수리·계산·자료해석형) | 핵심어: 은 구현하고자 하는 원형 큐(circular queue) | 정답 선지: 5 4 3</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="17">정답 ④ · 수리·계산·자료해석형 (은 구현하고자 하는 원형 큐(circular queue))</explanation_ref>
     </question>
     <question no="18" id="PRB-F1A1089677611567-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 C 언어 함수를 이용하여 do_something(660, 735)를 수행한 결과 값은?</stem>
@@ -330,7 +330,7 @@ return x;
         <choice no="4" is_answer="false">25</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="18">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: something(660, 735) | 정답 선지: 15</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="18">정답 ③ · 수리·계산·자료해석형 (something(660, 735))</explanation_ref>
     </question>
     <question no="19" id="PRB-F1A1089677611567-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 이진 트리에 대하여 전위순회(preorder traversal), 중위순회(inorder traversal), 후위순회(postorder traversal)를 수행하였다. 3가지 순회 방법 중 2가지 이상에서 방문 순서가 동일한 노드 수는? (예를 들어, 3개의 노드 A, B, C를 갖는 이진 트리에서 전위순회 : B-A-C, 중위순회 : A-B-C, 후위순회 : A-C-B의 결과를 얻었다면, 중위순회 및 후위순회에서 노드 A에 대한 방문 순서가 동일하고 전위순회 및 중위순회에서 노드 C에 대한 방문 순서가 동일하므로, 2가지 이상에서 방문 순서가 동일한 노드 수는 2개 이다)</stem>
@@ -344,7 +344,7 @@ return x;
         <choice no="4" is_answer="true">5</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="19">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 이진 트리에 대하여 전위순회(preorder traversal), 중위순회(inorder traversal), 후위순회(postorder traversal) | 정답 선지: 5</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="19">정답 ④ · 수리·계산·자료해석형 (이진 트리에 대하여 전위순회(preorder traversal), 중위순회(inorder traversal), 후위순회(postorder traversal))</explanation_ref>
     </question>
     <question no="20" id="PRB-F1A1089677611567-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>Dijkstra 알고리즘을 이용하여 다음 그래프의 정점 A에서 각 정점으로의 최단경로를 구할 때, 최단경로 발견 순서가 정점 G 바로 다음인 정점은? (단, 간선 옆의 수는 각 정점들 사이의 거리를 나타낸다)</stem>
@@ -358,7 +358,7 @@ return x;
         <choice no="4" is_answer="false">정점 F</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자료구조론_해설.xml" question_no="20">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 알고리즘, 이용하여, 그래프, 정점 | 정답 선지: 정점 C</explanation_ref>
+      <explanation_ref file="자료구조론_해설.xml" question_no="20">정답 ① · 핵심 개념·이론 이해형 (알고리즘, 이용하여, 그래프, 정점)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

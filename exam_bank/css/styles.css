@@ -762,6 +762,27 @@ body {
   color: var(--ink-secondary);
 }
 
+/* 코딩 문제 코드 블록 (들여쓰기 및 줄바꿈 보존) */
+.q-code-block {
+  margin: 10px 0;
+  padding: 14px 18px;
+  background: #F6F6F6;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink);
+  white-space: pre;
+  overflow-x: auto;
+  tab-size: 4;
+}
+
+.q-code-block code {
+  font-family: inherit;
+  display: block;
+}
+
 /* 반응형 도표 */
 .table-wrapper {
   overflow: auto;

@@ -13,7 +13,7 @@
     <booklet_type>2</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>데이터베이스론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-9F9EC185A61DE8AC-Q1" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
@@ -39,7 +39,7 @@ COLUMNS
         <choice no="4" is_answer="true">데이터베이스 시스템의 스스로를 기술하는 성질</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 4번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: 데이터베이스, 어떤, 테이블, 보인 | 정답 선지: 데이터베이스 시스템의 스스로를 기술하는 성질</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">정답 ④ · 지문 독해·추론형 (데이터베이스, 어떤, 테이블, 보인)</explanation_ref>
     </question>
     <question no="2" id="PRB-9F9EC185A61DE8AC-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>하나의 데이터베이스 시스템 내에서 적절한 제어 없이 트랜잭션들을 동시에 실행하였을 경우 여러 문제가 발생할 수 있다. 이를 해결하기 위한 동시성 제어가 올바르게 동작하지 않을 경우 발생할 수 있는 문제점으로 옳지 않은 것은?</stem>
@@ -50,7 +50,7 @@ COLUMNS
         <choice no="4" is_answer="true">지역적 오류 문제</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 하나, 데이터베이스, 시스템, 내에서 | 정답 선지: 지역적 오류 문제</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">정답 ④ · 핵심 개념·이론 이해형 (하나, 데이터베이스, 시스템, 내에서)</explanation_ref>
     </question>
     <question no="3" id="PRB-9F9EC185A61DE8AC-Q3" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 데이터를 순서적으로 삽입하여 B-트리를 구성할 때 루트노드에 존재하는 키 값은? (단, B-트리의 차수는 3이라고 가정한다)</stem>
@@ -62,7 +62,7 @@ COLUMNS
         <choice no="4" is_answer="false">9</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 데이터, 순서적으, 삽입하여, 트리 | 정답 선지: 5</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">정답 ② · 수리·계산·자료해석형 (데이터, 순서적으, 삽입하여, 트리)</explanation_ref>
     </question>
     <question no="4" id="PRB-9F9EC185A61DE8AC-Q4" type="개수 파악형(긍정)" category="수리·계산·자료해석형">
       <stem>두 릴레이션 R1(A, B, C), R2(B, C, D)를 오른쪽 외부조인(Right Outer Join)을 한 결과에 나타나는 튜플의 수는?</stem>
@@ -85,7 +85,7 @@ COLUMNS
         <choice no="4" is_answer="false">6개</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 3번] 개수 파악형(긍정) (수리·계산·자료해석형) | 핵심어: 두 릴레이션 R1(A, B, C), R2(B, C, D), 를 오른쪽 외부조인(Right Outer Join) | 정답 선지: 5개</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">정답 ③ · 수리·계산·자료해석형 (두 릴레이션 R1(A, B, C), R2(B, C, D), 를 오른쪽 외부조인(Right Outer Join))</explanation_ref>
     </question>
     <question no="5" id="PRB-9F9EC185A61DE8AC-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 두 릴레이션 R, S에 대한 조인 결과로 옳지 않은 것은? (단, $\bowtie _{N}$은 자연조인(Natural Join), 은 왼쪽 외부조인(Left Outer Join), 은 오른쪽 외부 조인(Right Outer Join)을 의미한다)</stem>
@@ -121,7 +121,7 @@ COLUMNS
         <choice no="4" is_answer="false">| R $_{b = b \land c = c}$ S | R $_{b = b \land c = c}$ S |  | | | | |---|---|---|---|---|---| | A | B | C | B | C | D | | a1 | b1 | c1 | b1 | c1 | d1 | | NULL | NULL | NULL | b1 | c2 | d2 | | a3 | b3 | c3 | b3 | c3 | d3 | | a4 | b4 | c4 | b4 | c4 | d4 |</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 두 릴레이션 R, S, 은 자연조인(Natural Join), 은 왼쪽 외부조인(Left Outer Join), 은 오른쪽 외부 조인(Right Outer Join) | 정답 선지: | R $\bowtie _{b = b \land c = c}$ S | R $\bowtie _{b = b \land c...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">정답 ② · 핵심 개념·이론 이해형 (두 릴레이션 R, S, 은 자연조인(Natural Join), 은 왼쪽 외부조인(Left Outer Join), 은 오른쪽 외부 조인(Right Outer Join))</explanation_ref>
     </question>
     <question no="6" id="PRB-9F9EC185A61DE8AC-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>도서(&lt;u&gt;도서번호&lt;/u&gt;, 도서제목, 출판사명, 발행년도) 테이블에서, 2000년 이후에 10권 이상의 책을 발행한 출판사의 이름을 중복 없이 출력하는 SQL문으로 옳은 것은? (단, 출판사명이 동일한 출판사는 존재하지 않는 것으로 가정한다. 도서번호는 도서 테이블의 기본키이다)</stem>
@@ -132,7 +132,7 @@ COLUMNS
         <choice no="4" is_answer="true">SELECT 출판사명 FROM 도서 WHERE 발행년도 &gt;= 2000 GROUP BY 출판사명 HAVING COUNT(도서번호) &gt;= 10;</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 도서, 도서번호, 도서제목, 출판사명 | 정답 선지: SELECT 출판사명 FROM 도서 WHERE 발행년도 &gt;= 2000 GROUP BY 출판사명 HAVING COUNT...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">정답 ④ · 핵심 개념·이론 이해형 (도서, 도서번호, 도서제목, 출판사명)</explanation_ref>
     </question>
     <question no="7" id="PRB-9F9EC185A61DE8AC-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>지연 갱신을 통한 점진적 로깅(incremental logging with deferred updates) 기법을 사용하는 복구 시스템으로 옳은 것은?</stem>
@@ -143,7 +143,7 @@ COLUMNS
         <choice no="4" is_answer="false">Begin Transaction과 Commit Transaction 레코드만을 로그에 저장하면 된다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 지연, 갱신, 통한, 점진적 | 정답 선지: 갱신된 데이터 아이템의 갱신 후 수정된 값만을 로그에 저장한다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">정답 ② · 핵심 개념·이론 이해형 (지연, 갱신, 통한, 점진적)</explanation_ref>
     </question>
     <question no="8" id="PRB-9F9EC185A61DE8AC-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스에서 동시성 제어가 적절하게 이루어지지 않으면서 다음과 같이 두 트랜잭션 T1, T2가 동시에 실행될 때 문제점이 발생할 수 있다. 이 문제점이 발생하지 않을 수 있는 트랜잭션의 격리 수준(isolation level)을 모두 고른 것은?</stem>
@@ -160,7 +160,7 @@ COLUMNS
         <choice no="4" is_answer="false">직렬 가능</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 있는 트랜잭션의 격리 수준(isolation level) | 정답 선지: 완료 읽기, 반복가능 읽기, 직렬 가능</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">정답 ② · 핵심 개념·이론 이해형 (있는 트랜잭션의 격리 수준(isolation level))</explanation_ref>
     </question>
     <question no="9" id="PRB-9F9EC185A61DE8AC-Q9" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>다음 ERD(Entity-Relationship Diagram)를 구성하는 두 릴레이션 Dept, Emp에 대해 참조무결성 제약조건을 정의하였다고 가정하자. 정의한 참조무결성 제약조건의 영향을 받는 연산들로만 모두 묶은 것은?</stem>
@@ -180,7 +180,7 @@ COLUMNS
         <choice no="4" is_answer="true">ㄱ, ㄴ, ㅁ, ㅂ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 구성하, 릴레이션, 대해, 참조무결성 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X, ㅁ:O, ㅂ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">정답 ④ · 복합 보기 검증형 (구성하, 릴레이션, 대해, 참조무결성) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X), ㅁ(O), ㅂ(O)</explanation_ref>
     </question>
     <question no="10" id="PRB-9F9EC185A61DE8AC-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스는 다양한 응용을 위해 사용되고 있으며 이를 위해서 새로운 데이터베이스 기술이 등장하였다. 새로운 데이터베이스 기술에 대한 설명으로 옳지 않은 것은?</stem>
@@ -191,7 +191,7 @@ COLUMNS
         <choice no="4" is_answer="false">공간 데이터 마이닝의 주요 기법은 공간 분류, 공간 연관성 분석, 공간 클러스터링이 있으며, 이때 공간 데이터에 대해서는 트랜잭션 개념을 가지고 분할하여 분석하지 않는다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스, 다양한, 응용, 위해 | 정답 선지: 공간조인은 주로 지도상의 점, 선, 폴리곤과 이에 대한 속성데이터를 조인하는 데에 사용된다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">정답 ③ · 핵심 개념·이론 이해형 (데이터베이스, 다양한, 응용, 위해)</explanation_ref>
     </question>
     <question no="11" id="PRB-9F9EC185A61DE8AC-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터 추상화는 다음 그림과 같이 3단계로 구성된다. 각 단계에 대한 설명으로 옳지 않은 것은?</stem>
@@ -206,7 +206,7 @@ COLUMNS
         <choice no="4" is_answer="true">사용자들은 뷰 단계를 통하여 데이터베이스 전반에 걸친 상세 내용을 접근한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터, 추상화, 그림과, 단계 | 정답 선지: 사용자들은 뷰 단계를 통하여 데이터베이스 전반에 걸친 상세 내용을 접근한다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">정답 ④ · 핵심 개념·이론 이해형 (데이터, 추상화, 그림과, 단계)</explanation_ref>
     </question>
     <question no="12" id="PRB-9F9EC185A61DE8AC-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>정규화에 대한 설명으로 옳지 않은 것은?</stem>
@@ -217,7 +217,7 @@ COLUMNS
         <choice no="4" is_answer="false">정규화가 잘못되면 데이터의 불필요한 중복이 발생하여 릴레이션 조작 시 문제를 유발할 수 있다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 정규화 | 정답 선지: 정규화의 목적은 각 릴레이션에 분산된 종속성을 하나의 릴레이션으로 통합하는 것이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">정답 ① · 핵심 개념·이론 이해형 (정규화)</explanation_ref>
     </question>
     <question no="13" id="PRB-9F9EC185A61DE8AC-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>두 트랜잭션 $T_{1}$, $T_{2}$가 다음과 같은 트랜잭션 스케줄로 실행될 때, 발생되는 충돌(conflict)로 옳은 것은? (단, $R$은 읽기연산, $W$는 쓰기연산에 해당하며, $R_{1} ( A )$는 “트랜잭션 $T_{1}$이 $A$를 읽는다”, $W_{2} ( B )$는 “트랜잭션 $T_{2}$가 $B$에 값을 쓴다”는 의미이다)</stem>
@@ -242,7 +242,7 @@ COLUMNS
         <choice no="4" is_answer="false">쓰기－쓰기 충돌(write-write conflict)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 발생되는 충돌(conflict), 쓰기 충돌(read-write conflict), 읽기 충돌(read-read conflict), 쓰기 충돌(write-write conflict) | 정답 선지: 읽기－쓰기 충돌(read-write conflict)</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">정답 ② · 핵심 개념·이론 이해형 (발생되는 충돌(conflict), 쓰기 충돌(read-write conflict), 읽기 충돌(read-read conflict), 쓰기 충돌(write-write conflict))</explanation_ref>
     </question>
     <question no="14" id="PRB-9F9EC185A61DE8AC-Q14" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
       <stem>다음과 같이 사원과 부서 테이블을 이용하는 회사가 직원의 급여를 인상할 때 오류를 방지하기 위해 &lt;설명&gt;과 같은 SQL99 표준에 따른 트리거를 정의하여 사용 중이다. 이와 같은 조건에서 직원들의 급여 인상을 위한 &lt;보기&gt;의 질의를 수행하였다. 급여 인상의 결과를 보기 위해 질의 “SELECT 사번, 이름, 급여 FROM 사원”을 수행한 결과로 옳은 것은?</stem>
@@ -295,7 +295,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">| 사원 |  | | |---|---|---| | 사번 | 이름 | 급여 | | 100 | 홍길동 | 605 | | 200 | 이몽룡 | 440 | | 300 | 성춘향 | 330 | | 400 | 박대감 | 385 |</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 3번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: 다음과, 사원과, 부서, 테이블 | 정답 선지: | 사원 |  | | |---|---|---| | 사번 | 이름 | 급여 | | 100 | 홍길동 | 605 | | ...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">정답 ③ · 지문 독해·추론형 (다음과, 사원과, 부서, 테이블)</explanation_ref>
     </question>
     <question no="15" id="PRB-9F9EC185A61DE8AC-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>검사점(checkpoint) 회복 기법과 관련하여 트랜잭션의 실행 상태가 다음 그림과 같다고 하자. 데이터 A, B, C, D의 초깃값이 각각 100, 200, 100, 200일 때 T1은 A에 100을 더하고, T2는 B에서 100을 빼고, T3은 C에 100을 더하고, T4는 D에서 100을 뺀다고 하자. 회복이 수행된 후 A, B, C, D의 값으로 옳은 것은?</stem>
@@ -309,7 +309,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">200 100 200 100</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 검사점(checkpoint) | 정답 선지: 200 200 100 100</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">정답 ③ · 수리·계산·자료해석형 (검사점(checkpoint))</explanation_ref>
     </question>
     <question no="16" id="PRB-9F9EC185A61DE8AC-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>고객들 중 꽃을 한번도 구매하지 않은 고객의 고객ID, 이름, 주소를 다음 데이터베이스로부터 검색하려 할 때 옳은 것은? (단, PK는 PRIMARY KEY, FK는 FOREIGN KEY를 의미함)</stem>
@@ -339,7 +339,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">SELECT C.고객ID, C.이름, C.주소 FROM 고객 C WHERE EXISTS (SELECT * FROM 주문 O WHERE C.고객ID = O.고객ID);</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 꽃ID(FK), 고객ID(FK) | 정답 선지: SELECT C.고객ID, C.이름, C.주소 FROM 고객 C WHERE C.고객ID NOT IN (SELECT C...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">정답 ① · 핵심 개념·이론 이해형 (꽃ID(FK), 고객ID(FK))</explanation_ref>
     </question>
     <question no="17" id="PRB-9F9EC185A61DE8AC-Q17" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
       <stem>트랜잭션의 교착상태 방지(deadlock prevention) 프로토콜 중에서 &lt;보기&gt;의 설명을 만족하는 프로토콜은?</stem>
@@ -377,7 +377,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">대기－죽음(wait-die)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 2번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: 트랜잭션의 교착상태 방지(deadlock prevention), 는 철회(abort), 됨 무 대기(no waiting), 신중 대기(cautious waiting), 대기(wound-wait) | 정답 선지: 신중 대기(cautious waiting)</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">정답 ② · 지문 독해·추론형 (트랜잭션의 교착상태 방지(deadlock prevention), 는 철회(abort), 됨 무 대기(no waiting), 신중 대기(cautious waiting), 대기(wound-wait))</explanation_ref>
     </question>
     <question no="18" id="PRB-9F9EC185A61DE8AC-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>릴레이션 R(A, B, C, D, E)에 대한 종속성의 집합 F = {A → C, AC → D, D → C, D → E}가 주어졌을 때, 종속성 집합 F의 최소집합(minimal set)으로 옳은 것은?</stem>
@@ -388,7 +388,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">{A → C, A → D}</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션 R(A, B, C, D, E), 종속성 집합 F의 최소집합(minimal set) | 정답 선지: {A → D, D → C, D → E}</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">정답 ③ · 핵심 개념·이론 이해형 (릴레이션 R(A, B, C, D, E), 종속성 집합 F의 최소집합(minimal set))</explanation_ref>
     </question>
     <question no="19" id="PRB-9F9EC185A61DE8AC-Q19" type="부정형(옳지 않은 것 고르기)" category="어법·규범·어휘형">
       <stem>학과_등록 테이블이 다음과 같을 때, 학과_등록 테이블에 대한 설명으로 옳지 않은 것은? (단, 밑줄은 기본키이다)</stem>
@@ -407,7 +407,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">아직 수강생이 없는 새로운 과목을 삽입할 때, 삽입이상이 발생한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 2번] 부정형(옳지 않은 것 고르기) (어법·규범·어휘형) | 핵심어: 학과_등록 테이블이 다음과 같을 때, 학과_등록 테이블 | 정답 선지: 제2 정규형을 만족시킨다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">정답 ② · 어법·규범·어휘형 (학과_등록 테이블이 다음과 같을 때, 학과_등록 테이블)</explanation_ref>
     </question>
     <question no="20" id="PRB-9F9EC185A61DE8AC-Q20" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음은 데이터로부터의 지식발견(KDD : Knowledge Discovery from Data)을 위한 단계별 과정이다. 빈칸에 들어갈 말로 옳은 것은?</stem>
@@ -424,7 +424,7 @@ UPDATE 사원 SET 급여 = 급여 * 1.1 WHERE 사번 = 100;</sub_passage>
         <choice no="4" is_answer="false">패턴평가 및 표현 데이터마이닝 데이터 통합</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 데이터로부터, 지식발견, 위한, 단계별 | 정답 선지: 데이터 통합 데이터마이닝 패턴평가 및 표현</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">정답 ① · 핵심 개념·이론 이해형 (데이터로부터, 지식발견, 위한, 단계별)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

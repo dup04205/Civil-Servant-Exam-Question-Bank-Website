@@ -13,7 +13,7 @@
     <booklet_type>나</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>자동제어_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-0FEB328D59AA57F3-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
@@ -32,7 +32,7 @@
         <choice no="4" is_answer="true">제어 가능하지도 관측 가능하지도 않다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="1">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 선형시스템 | 정답 선지: 제어 가능하지도 관측 가능하지도 않다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="1">정답 ④ · 핵심 개념·이론 이해형 (선형시스템)</explanation_ref>
     </question>
     <question no="2" id="PRB-0FEB328D59AA57F3-Q2" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>그림과 같은 블록선도를 갖는 폐루프 시스템의 극점은? (단, $U ( s )$는 입력, $Y ( s )$는 출력을 나타낸다)</stem>
@@ -55,7 +55,7 @@
         <choice no="4" is_answer="false">$1 , 2$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="2">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: U ( s ), Y ( s ) | 정답 선지: $- 1 , - 1$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="2">정답 ① · 수리·계산·자료해석형 (U ( s ), Y ( s ))</explanation_ref>
     </question>
     <question no="3" id="PRB-0FEB328D59AA57F3-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그림은 제어시스템의 구성도를 나타낸 것이다. ㉠ ～ ㉢에 해당하는 신호를 옳게 짝 지은 것은?</stem>
@@ -70,7 +70,7 @@
         <choice no="4" is_answer="false">조작량 제어신호 동작신호</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="3">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림, 제어시스템, 구성도, 나타낸 | 정답 선지: 동작신호 제어신호 조작량</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="3">정답 ③ · 핵심 개념·이론 이해형 (그림, 제어시스템, 구성도, 나타낸)</explanation_ref>
     </question>
     <question no="4" id="PRB-0FEB328D59AA57F3-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음과 같은 피드백 시스템의 블록선도에 대한 설명으로 옳지 않은 것은?</stem>
@@ -89,7 +89,7 @@
         <choice no="4" is_answer="false">개루프 전달함수의 변화에 대한 폐루프 시스템의 감도(sensitivity)는 $\frac{1}{1 + G ( s ) H ( s )}$이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="4">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 과 같은 피드백 시스템의 블록선도, G ( s ), H ( s ), 대한 폐루프 시스템의 감도(sensitivity) | 정답 선지: 피드백 시스템은 잡음과 외란에 민감하고 기준 입력에는 둔감하도록 설계되어야 한다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="4">정답 ② · 핵심 개념·이론 이해형 (과 같은 피드백 시스템의 블록선도, G ( s ), H ( s ), 대한 폐루프 시스템의 감도(sensitivity))</explanation_ref>
     </question>
     <question no="5" id="PRB-0FEB328D59AA57F3-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>제어시스템의 특성방정식 $Q ( s )$가 다음과 같이 주어질 때 임계안정이 되도록 하는 $K$ 값과 이때의 극점 $p$의 값은? (단, $j = \sqrt{- 1}$이다)</stem>
@@ -114,7 +114,7 @@
         <choice no="4" is_answer="false">4 $- 2 , \pm 2 j$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="5">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Q ( s ) | 정답 선지: 8 $- 2 , \pm 2 j$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="5">정답 ① · 핵심 개념·이론 이해형 (Q ( s ))</explanation_ref>
     </question>
     <question no="6" id="PRB-0FEB328D59AA57F3-Q6" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 그림은 어떤 전달함수 $G ( s )$와 $( s + 1 ) G ( s )$의 나이퀴스트(Nyquist) 선도를 동시에 보여 주고 있다. 이 선도들에 부합하는 전달함수 $G ( s )$는?</stem>
@@ -138,7 +138,7 @@
         <choice no="4" is_answer="true">$\frac{s + 2}{s^{2} + 6 s + 2}$</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="6">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: G ( s ), 의 나이퀴스트(Nyquist) | 정답 선지: $\frac{s + 2}{s^{2} + 6 s + 2}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="6">정답 ④ · 핵심 개념·이론 이해형 (G ( s ), 의 나이퀴스트(Nyquist))</explanation_ref>
     </question>
     <question no="7" id="PRB-0FEB328D59AA57F3-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>어떤 제어시스템의 임펄스 응답 $g ( t )$가 다음과 같이 주어질 때, 안정하지 않은 제어시스템은? (단, $u ( t )$는 단위 계단 함수이다)</stem>
@@ -161,7 +161,7 @@
         <choice no="4" is_answer="false">$g ( t ) = 10 e^{- t} \cos ( 5 t ) u ( t )$</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: g ( t ), u ( t ), cos ( 5 t ) | 정답 선지: $g ( t ) = u ( t )$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="7">정답 ① · 핵심 개념·이론 이해형 (g ( t ), u ( t ), cos ( 5 t ))</explanation_ref>
     </question>
     <question no="8" id="PRB-0FEB328D59AA57F3-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 블록선도에서 단일 입력 $R ( s )$, $D ( s )$와 단일 출력 $Y ( s )$ 간의 전달함수로 옳은 것은?</stem>
@@ -189,7 +189,7 @@
         <choice no="4" is_answer="true">$\frac{Y ( s )}{R ( s )} = \frac{G ( s ) K_{2} ( s )}{1 + G ( s ) K_{2} ( s )} ,$ $\frac{Y ( s )}{D ( s )} = \frac{G ( s ) \left\{1 - K_{1} ( s ) K_{2} ( s ) \right\}}{1 + G ( s ) K_{2} ( s )}$</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: R ( s ), D ( s ), Y ( s ), G ( s ) | 정답 선지: $\frac{Y ( s )}{R ( s )} = \frac{G ( s ) K_{2} ( s )}{1 + G ( s )...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="8">정답 ④ · 핵심 개념·이론 이해형 (R ( s ), D ( s ), Y ( s ), G ( s ))</explanation_ref>
     </question>
     <question no="9" id="PRB-0FEB328D59AA57F3-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>피드백 시스템의 루프 전달함수 $L ( s )$가 다음과 같이 시간 지연계를 포함한다고 가정하자. 보드(Bode) 선도에서 $K$와 $T_d$ 값이 각각 1일 때 이득여유가 10 dB이라고 한다면 이득여유를 0 dB로 만들기 위한 임계값 $K$는? (단, $a$와 $b$는 실수이며, $T_d$ 값은 일정하다)</stem>
@@ -215,7 +215,7 @@
         <choice no="4" is_answer="false">$\sqrt{20}$</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="9">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: L ( s ), 보드(Bode) | 정답 선지: $\sqrt{10}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="9">정답 ② · 핵심 개념·이론 이해형 (L ( s ), 보드(Bode))</explanation_ref>
     </question>
     <question no="10" id="PRB-0FEB328D59AA57F3-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음과 같은 단위 피드백 시스템의 폐루프 극점이 $- 1 \pm 1 j$에 위치하도록 진상보상기(lead compensator)를 설계하여 제어하고자 한다. 진상보상기의 영점을 -1에 배치할 경우, 진상보상기 극점의 위치는? (단, $j = \sqrt{- 1}$이다)</stem>
@@ -234,7 +234,7 @@
         <choice no="4" is_answer="false">－4</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="10">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 에 위치하도록 진상보상기(lead compensator) | 정답 선지: －2</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="10">정답 ② · 핵심 개념·이론 이해형 (에 위치하도록 진상보상기(lead compensator))</explanation_ref>
     </question>
     <question no="11" id="PRB-0FEB328D59AA57F3-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>루프 전달함수가 $\frac{K ( s + 10 )}{( s + 1 ) ( s + 9 )}$인 피드백 시스템의 근궤적(root locus)에 대한 설명으로 옳지 않은 것은?</stem>
@@ -251,7 +251,7 @@
         <choice no="4" is_answer="false">근궤적의 분지(branch) 수는 2개이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="11">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 인 피드백 시스템의 근궤적(root locus), 근궤적의 분지(branch) | 정답 선지: 근궤적의 점근선은 2개이다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="11">정답 ① · 핵심 개념·이론 이해형 (인 피드백 시스템의 근궤적(root locus), 근궤적의 분지(branch))</explanation_ref>
     </question>
     <question no="12" id="PRB-0FEB328D59AA57F3-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>단위 피드백 제어시스템의 루프 전달함수 $G ( s ) = \frac{K}{(} s + 1 )^2$에서 $K = 4$일 때, 위상여유는?</stem>
@@ -266,7 +266,7 @@
         <choice no="4" is_answer="false">30 °</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="12">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: G ( s ) | 정답 선지: 60 °</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="12">정답 ③ · 핵심 개념·이론 이해형 (G ( s ))</explanation_ref>
     </question>
     <question no="13" id="PRB-0FEB328D59AA57F3-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>입력이 $x$, 출력이 $y$인 시스템의 입출력 관계가 다음과 같은 2차 미분방정식으로 주어질 때, 이 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -284,7 +284,7 @@
         <choice no="4" is_answer="false">이 시스템의 고유주파수는 $2 \sqrt{5}$ rad/sec이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: y ( t ), 20 y ( t ), 20 x ( t ) | 정답 선지: 시스템의 감쇠비가 1 미만이며, 출력의 과도응답에 진동하는 파형을 포함한다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="13">정답 ② · 핵심 개념·이론 이해형 (y ( t ), 20 y ( t ), 20 x ( t ))</explanation_ref>
     </question>
     <question no="14" id="PRB-0FEB328D59AA57F3-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 제어시스템의 상태공간 방정식에 대한 설명으로 옳지 않은 것은? (단, $t geq 0$이다)</stem>
@@ -304,7 +304,7 @@
         <choice no="4" is_answer="false">제어 가능하고 관측 가능하다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="14">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 제어시스템의 상태공간 방정식, d x ( t ), x ( t ), u ( t ), y ( t ) | 정답 선지: 상태천이행렬은 $\begin{bmatrix}3 e^- 2 t - 2 e^- 3 t &amp; e^- 2 t - e^- 3 t...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="14">정답 ③ · 핵심 개념·이론 이해형 (제어시스템의 상태공간 방정식, d x ( t ), x ( t ), u ( t ), y ( t ))</explanation_ref>
     </question>
     <question no="15" id="PRB-0FEB328D59AA57F3-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 그림은 개루프 전달함수 $G ( s ) = \frac{k ( s - 1 )}{s^{3} + s^{2} + s + 1}$를 가지는 단위 피드백 시스템의 근궤적(root locus)을 나타내며 이득이 $k = 3$일 때의 폐루프 전달함수 극점 3개가 사각형(□)으로 표시되어 있다. 이들 3개 극점을 $\alpha , \beta , \gamma$라고 할 때, $\alpha \beta \gamma$의 값은? (단, 그림에서 ○와 ×는 각각 개루프 전달함수의 영점과 극점을 표시함)</stem>
@@ -325,7 +325,7 @@
         <choice no="4" is_answer="false">3</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: G ( s ), k ( s - 1 ), 단위 피드백 시스템의 근궤적(root locus) | 정답 선지: 2</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="15">정답 ③ · 수리·계산·자료해석형 (G ( s ), k ( s - 1 ), 단위 피드백 시스템의 근궤적(root locus))</explanation_ref>
     </question>
     <question no="16" id="PRB-0FEB328D59AA57F3-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음과 같은 폐루프 시스템이 안정하기 위한 제어이득 $k$의 범위는? (단, $k \geq 0$이다)</stem>
@@ -348,7 +348,7 @@
         <choice no="4" is_answer="false">$60 \leq k &lt; 66$</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="16">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음과, 폐루프, 시스템, 안정하기 | 정답 선지: $0 \leq k &lt; 60$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="16">정답 ② · 핵심 개념·이론 이해형 (다음과, 폐루프, 시스템, 안정하기)</explanation_ref>
     </question>
     <question no="17" id="PRB-0FEB328D59AA57F3-Q17" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>폐루프 전달함수 $T ( s ) = \frac{100}{s^{2} + 10 s + 100}$인 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -365,7 +365,7 @@
         <choice no="4" is_answer="true">각주파수 20 rad/sec인 정현파 입력신호에 대한 정상상태 출력의 진폭은 입력신호의 진폭의 $\frac{1}{2}$ 이상이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="17">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: T ( s ), cos ( 10 t ), 만큼 지연된(delayed) | 정답 선지: 각주파수 20 rad/sec인 정현파 입력신호에 대한 정상상태 출력의 진폭은 입력신호의 진폭의 $\frac{1}{2}...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="17">정답 ④ · 핵심 개념·이론 이해형 (T ( s ), cos ( 10 t ), 만큼 지연된(delayed))</explanation_ref>
     </question>
     <question no="18" id="PRB-0FEB328D59AA57F3-Q18" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음과 같은 피드백 제어시스템의 개루프 전달함수 $L ( s )$가 $L ( s ) = C ( s ) P ( s ) = \frac{K}{s ( s + 1 ) ( s + 4 )}$와 같이 주어질 때, 이득여유와 위상여유를 각각 0 dB, 0 °로 만드는 $K$와 이와 같은 이득여유와 위상여유가 발생하는 주파수($\omega_c$) [rad/sec]를 옳게 짝 지은 것은?</stem>
@@ -387,7 +387,7 @@
         <choice no="4" is_answer="false">80 8</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="18">[정답 2번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: L ( s ), C ( s ), P ( s ) | 정답 선지: 20 2</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="18">정답 ② · 수리·계산·자료해석형 (L ( s ), C ( s ), P ( s ))</explanation_ref>
     </question>
     <question no="19" id="PRB-0FEB328D59AA57F3-Q19" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>전달함수 $G ( s ) = \frac{5}{3 + 2 s}$에 대해서 각주파수 $\omega = 2$ rad/sec인 정현파를 입력으로 주었을 때, 전달함수의 이득[dB]은?</stem>
@@ -402,7 +402,7 @@
         <choice no="4" is_answer="false">－14</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="19">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: G ( s ) | 정답 선지: 0</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="19">정답 ① · 수리·계산·자료해석형 (G ( s ))</explanation_ref>
     </question>
     <question no="20" id="PRB-0FEB328D59AA57F3-Q20" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 블록선도와 같이 속도 피드백을 가지는 서보(servo) 시스템에서 감쇠비가 $\zeta = 0 . 5$이고 고유주파수가 $\omega_{n} = 4$ rad/sec가 되도록 하는 &lt;i&gt;K&lt;/i&gt;와 &lt;i&gt;K&lt;/i&gt;_(h)의 값을 옳게 짝 지은 것은?</stem>
@@ -431,7 +431,7 @@
         <choice no="4" is_answer="true">$16$ $\frac{1}{16}$</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="20">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 속도 피드백을 가지는 서보(servo) | 정답 선지: $16$ $\frac{1}{16}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="20">정답 ④ · 핵심 개념·이론 이해형 (속도 피드백을 가지는 서보(servo))</explanation_ref>
     </question>
   </questions>
 </exam_paper>

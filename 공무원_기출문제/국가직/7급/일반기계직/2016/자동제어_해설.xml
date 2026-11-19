@@ -13,7 +13,7 @@
     <booklet_type>2</booklet_type>
     <total_questions>20</total_questions>
     <question_file>자동제어.xml</question_file>
-    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+    <verification_source>인사혁신처 공식 확정정답 및 법제처 국가법령정보센터 기준</verification_source>
   </metadata>
   <explanations>
     <question_explanation no="1" id="PRB-4E7FFC43113E0DB9-Q1">
@@ -29,28 +29,28 @@
         <correct_choice_text>시간응답은 선형시스템에서만 존재한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] 단위계단(unit step) 입력, 단위계단(unit step), 시간응답의 최댓값은 감쇠비(damping ratio)
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 단위계단(unit step) 입력, 단위계단(unit step), 시간응답의 최댓값은 감쇠비(damping ratio))
+정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
+관련 수식: $±$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>시간응답은 과도응답과 정상상태응답으로 나누어진다.</choice_text>
-          <commentary>논점: 시간응답.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O">
+        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
           <choice_text>시간응답의 최댓값은 감쇠비(damping ratio)에 의존한다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O">
+        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
           <choice_text>정착시간을 정상상태응답의 $\pm$2 % 이내에 도달하는 시간으로 정의할 때, 정착시간은 시스템 시정수의 약 4배이다.</choice_text>
-          <commentary>‘…이내에’ 서술이 맞다. 확인 포인트: 비교 우열·정족수·기한 수치의 정확성.</commentary>
+          <commentary>'이내에'라고 한 기준·정족수·기한 조건은 관련 법리·이론 및 제시문 기준에 부합하므로 옳다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>시간응답은 선형시스템에서만 존재한다.</choice_text>
-          <commentary>논점: 시간응답.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="2" id="PRB-4E7FFC43113E0DB9-Q2">
       <question_stem>다음 피드백 제어시스템에서 감쇠비를 $\frac{1}{\sqrt{2}}$로 설정하기 위한 제어이득 K의 값은?</question_stem>
@@ -66,28 +66,28 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] 피드백, 제어시스템에서, 감쇠비, 설정하기
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: 피드백, 제어시스템에서, 감쇠비, 설정하기)
+정답은 ③이다. 본 문항은 피드백, 제어시스템에서, 감쇠비, 설정하기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $\frac{1}{\sqrt{2}}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>4</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>6</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>8</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>10</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="3" id="PRB-4E7FFC43113E0DB9-Q3">
       <question_stem>다음 상태공간 방정식으로 표현된 시스템의 전달함수 $G ( s ) = \frac{Y ( s )}{U ( s )}$가 중복극점 $s = - 1$을 가질 때 $a + b$의 값은?</question_stem>
@@ -102,28 +102,28 @@
         <correct_choice_text>－1</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] G ( s ), Y ( s ), U ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: G ( s ), Y ( s ), U ( s ))
+정답은 ②이다. 본 문항은 G ( s ), Y ( s ), U ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s ) = \frac{Y ( s )}{U ( s )}$; $s = - 1$; $a + b$; ${bmatrix {\dot{x_{1}} # \dot{x_{2}}}} = {bmatrix {a &amp; b # 1 &amp; - 2}} {bmatrix {x_{1} # x_{2}}} + \left[ pile {1 # 0} \right] u # # y = \left[ 10 \right] {bmatrix {x_{1} # x_{2}}}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>－2</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>－1</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>0</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>1</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="4" id="PRB-4E7FFC43113E0DB9-Q4">
       <question_stem>다음 상태공간 방정식으로 주어진 개루프 시스템에 상태 피드백 제어기를 설계한다. 제어시스템의 극점이 $- 2 \pm j2$가 되도록 하는 제어기 이득 $k_{1}$, $k_{2}$의 값은?</question_stem>
@@ -139,28 +139,28 @@
         <correct_choice_text>7 2</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] 상태공간, 주어진, 개루프
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: 상태공간, 방정식으, 주어진, 개루프)
+정답은 ④이다. 본 문항은 상태공간, 방정식으, 주어진, 개루프에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $- 2 \pm j2$; $k_{1}$; $k_{2}$; ${bmatrix {\dot{x_{1}} # \dot{x_{2}}}} = {bmatrix {0 &amp; 1 # - 1 &amp; - 2}} {bmatrix {x_{1} # x_{2}}} + {bmatrix {0 # 1}} u # u = - {bmatrix {k_{1} &amp; k_{2}}} {bmatrix {x_{1} # x_{2}}}$; $k_{1}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>2 4</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>4 2</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>2 7</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>7 2</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="5" id="PRB-4E7FFC43113E0DB9-Q5">
       <question_stem>다음 기계진동 시스템에서 전달함수 $\frac{Y_{2} ( s )}{F ( s )}$의 극점은? (단, 질량 $M$ ＝ 5 [kg], 점성 마찰계수 $B$ ＝ 10 [N․s/m], 스프링 상수 $K$ ＝ 20 [N/m]이다)</question_stem>
@@ -173,28 +173,28 @@
         <correct_choice_text>$s = 0 , s = - 2$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] F ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: F ( s ))
+정답은 ①이다. 본 문항은 F ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $\frac{Y_{2} ( s )}{F ( s )}$; $M$; $B$; $K$; $s = 0 , s = - 2$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$s = 0 , s = - 2$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$s = 0 , s = 2$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$s = 2 , s = - 4$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$s = - 2 , s = 4$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="6" id="PRB-4E7FFC43113E0DB9-Q6">
       <question_stem>다음 상태공간 방정식에서 가제어성(controllability)을 만족하기 위한 $b$의 조건은?</question_stem>
@@ -207,28 +207,28 @@
         <correct_choice_text>$b \neq 0$ 이고 $b \neq 1$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 상태공간 방정식에서 가제어성(controllability)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 상태공간 방정식에서 가제어성(controllability))
+정답은 ③이다. 본 문항은 상태공간 방정식에서 가제어성(controllability)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $b$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = \left[ {matrix {- 1 &amp; &amp; 2 # 0 &amp; &amp; 1}} \right] \left[ pile {x_{1} # x_{2}} \right] + \left[ {matrix {1 # b}} \right] u # y = [ {matrix {1 &amp; &amp; 1}} ] \left[ pile {x_{1} # x_{2}} \right]$; $b = 0$; $b = 1$; $b = 0$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$b = 0$ 또는 $b = 1$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$b = 0$ 또는 $b = 2$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$b \neq 0$ 이고 $b \neq 1$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$b \neq 0$ 이고 $b \neq 2$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="7" id="PRB-4E7FFC43113E0DB9-Q7">
       <question_stem>다음 전방경로(forward path) 전달함수를 갖는 단위 피드백 제어시스템이 안정할 $K$의 범위와 안정한계(marginally stable)에 놓일 때의 주파수 $\omega_{s}$[rad/sec]는?</question_stem>
@@ -243,28 +243,28 @@
         <correct_choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 다음 전방경로(forward path), 의 범위와 안정한계(marginally stable), G ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 다음 전방경로(forward path), 의 범위와 안정한계(marginally stable), G ( s ))
+정답은 ②이다. 본 문항은 다음 전방경로(forward path), 의 범위와 안정한계(marginally stable), G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $K$; $\omega_{s}$; $G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$; $K &gt; 6000 , \omega_{s} = \sqrt{200}$; $0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
-          <commentary>근거: “$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$”</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$")</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
-          <commentary>근거: “$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$”</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "$G ( s ) = \frac{K}{s ( s + 10 ) ( s + 20 )}$")</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="8" id="PRB-4E7FFC43113E0DB9-Q8">
       <question_stem>단위 피드백 제어시스템의 전달함수가 $\frac{KG ( s )}{1 + KG ( s )}$인 경우, 다음은 안정한 전달함수 $KG ( s )$의 나이퀴스트(Nyquist) 선도를 나타낸다. 폐루프 시스템에 대한 설명으로 옳지 않은 것은? (단, $K &gt; 0$인 상수이다)</question_stem>
@@ -279,28 +279,28 @@
         <correct_choice_text>$K = 1$인 경우 이득여유는 0.5 이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] KG ( s ), 의 나이퀴스트(Nyquist), 가 증가하면 이득여유(gain margin)
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: KG ( s ), 의 나이퀴스트(Nyquist), 가 증가하면 이득여유(gain margin))
+정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
+관련 수식: $\frac{KG ( s )}{1 + KG ( s )}$; $KG ( s )$; $K &gt; 0$; $K$; $K = 2$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>$K$가 증가하면 이득여유(gain margin)는 작아진다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O">
+        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
           <choice_text>$K = 2$인 경우 허수축에 극점을 갖는다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O">
+        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
           <choice_text>$K &lt; 2$인 경우 안정하다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>$K = 1$인 경우 이득여유는 0.5 이다.</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="9" id="PRB-4E7FFC43113E0DB9-Q9">
       <question_stem>전달함수 $G ( s ) = \frac{1}{s^{2} + s + 1}$인 시스템의 정현파 입력신호 $sinwt$에 대한 출력진폭이 최대가 되는 주파수(ω)와 최댓값($A ( \omega )$)은?</question_stem>
@@ -313,28 +313,28 @@
         <correct_choice_text>$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] G ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: G ( s ))
+정답은 ②이다. 본 문항은 G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s ) = \frac{1}{s^{2} + s + 1}$; $sinwt$; $\omega$; $A ( \omega )$; $\omega$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\sqrt{2}$ $\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\sqrt{2}$ $\frac{2}{\sqrt{3}}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="10" id="PRB-4E7FFC43113E0DB9-Q10">
       <question_stem>다음 상태공간 방정식을 갖는 시스템에서 모든 극점의 실수부가 －2보다 작기 위한 $K$의 범위는?</question_stem>
@@ -350,28 +350,28 @@
         <correct_choice_text>$4 &lt; K &lt; 8$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 상태공간, 방정식, 모든
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 상태공간, 방정식, 시스템에서, 모든)
+정답은 ②이다. 본 문항은 상태공간, 방정식, 시스템에서, 모든에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $K$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = {bmatrix {- K &amp; - 12 # 1 &amp; 0}} \left[ pile {x_{1} # x_{2}} \right] + \left[ pile {1 # 0} \right] u # y = \left[ 12 \right] \left[ pile {x_{1} # x_{2}} \right]$; $0 &lt; K &lt; 8$; $4 &lt; K &lt; 8$; $- 4 &lt; K &lt; 8$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$0 &lt; K &lt; 8$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$4 &lt; K &lt; 8$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$- 4 &lt; K &lt; 8$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$- 8 &lt; K &lt; 4$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="11" id="PRB-4E7FFC43113E0DB9-Q11">
       <question_stem>다음 블록선도는 감쇠비($0 &lt; \zeta &lt; 1$), 고유주파수($\omega_{n}$)를 갖는 2차 제어대상에 대한 비례 제어시스템을 나타낸다. 비례제어 영향이 가장 적게 나타나는 성능지수는?</question_stem>
@@ -387,28 +387,28 @@
         <correct_choice_text>2 % 정착시간(settling time)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 정착시간(settling time), 상승시간(rising time), 첨두시간(peak time), 최대 오버슈트(maximum overshoot)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 정착시간(settling time), 상승시간(rising time), 첨두시간(peak time), 최대 오버슈트(maximum overshoot))
+정답은 ①이다. 본 문항은 정착시간(settling time), 상승시간(rising time), 첨두시간(peak time), 최대 오버슈트(maximum overshoot)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $0 &lt; \zeta &lt; 1$; $\omega_{n}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>2 % 정착시간(settling time)</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>상승시간(rising time)</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>첨두시간(peak time)</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>최대 오버슈트(maximum overshoot)</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="12" id="PRB-4E7FFC43113E0DB9-Q12">
       <question_stem>다음 보드선도에 알맞은 전달함수 $G ( s )$는?</question_stem>
@@ -421,28 +421,28 @@
         <correct_choice_text>$G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] G ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: G ( s ))
+정답은 ①이다. 본 문항은 G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s )$; $G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{10 ( 2 + s )}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{100 s}{( 20 + s ) ( 100 + s )}$; $G ( s ) = \frac{10 ( 20 + s )}{( 2 + s ) ( 100 + s )}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$G ( s ) = \frac{10^{4} ( 2 + s )}{( 20 + s ) ( 100 + s )}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$G ( s ) = \frac{10 ( 2 + s )}{( 20 + s ) ( 100 + s )}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$G ( s ) = \frac{100 s}{( 20 + s ) ( 100 + s )}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$G ( s ) = \frac{10 ( 20 + s )}{( 2 + s ) ( 100 + s )}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="13" id="PRB-4E7FFC43113E0DB9-Q13">
       <question_stem>다음 피드백 제어시스템의 근궤적(root locus) 작도법에 대한 설명으로 옳지 않은 것은? (단, $G ( s )$는 개루프 전달함수, $K &gt; 0$는 $G ( s )$에 포함된 근궤적 파라미터이다)</question_stem>
@@ -457,28 +457,28 @@
         <correct_choice_text>실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] 피드백 제어시스템의 근궤적(root locus) 작도법, 피드백 제어시스템의 근궤적(root locus), G ( s )
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 피드백 제어시스템의 근궤적(root locus) 작도법, 피드백 제어시스템의 근궤적(root locus), G ( s ))
+정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
+관련 수식: $G ( s )$; $K &gt; 0$; $G ( s )$; $K$; $\infty$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>$K$가 0에서 ∞로 증가함에 따라 근궤적은 개루프 극점에서 출발하여 개루프 영점에 종착한다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O">
+        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
           <choice_text>근궤적의 개수는 폐루프 극점의 개수와 같다.</choice_text>
-          <commentary>논점: 근궤적의 개수.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O">
+        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
           <choice_text>점근선의 개수는 개루프 유한극점 $n$과 유한영점 $m$의 차, 즉 ($n - m$)개이다.</choice_text>
-          <commentary>논점: 점근선의 개수.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="14" id="PRB-4E7FFC43113E0DB9-Q14">
       <question_stem>단위 피드백 제어시스템의 루프(loop) 전달함수 $G ( s ) =$$\frac{K}{( s + 1 ) ( s + a )}$에서 위상이 $- 180$ °되는 주파수(ω)가 0이라고 할 때, 이득여유(gain margin)가 항상 40[dB]이 되기 위한 $K$와 $a$의 관계식은? (단, $a &gt; 0$인 상수이다)</question_stem>
@@ -493,28 +493,28 @@
         <correct_choice_text>$K = 0 . 01 a$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 위 피드백 제어시스템의 루프(loop), G ( s ), 이득여유(gain margin)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 위 피드백 제어시스템의 루프(loop), G ( s ), 이득여유(gain margin))
+정답은 ②이다. 본 문항은 위 피드백 제어시스템의 루프(loop), G ( s ), 이득여유(gain margin)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s ) =$; $\frac{K}{( s + 1 ) ( s + a )}$; $- 180$; $\omega$; $K$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K = 0 . 1 a$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$K = 0 . 01 a$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K = 0 . 05 a$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K = 0 . 5 a$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="15" id="PRB-4E7FFC43113E0DB9-Q15">
       <question_stem>제어대상 $G$가 아래와 같은 상태공간 방정식으로 주어질 때, 피드백 제어시스템의 모든 극점의 실수부가 0보다 작기 위한 $K$의 범위는?</question_stem>
@@ -530,28 +530,28 @@
         <correct_choice_text>$K &gt; 2$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 제어대, 아래와, 상태공간
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 제어대, 아래와, 상태공간, 방정식으)
+정답은 ④이다. 본 문항은 제어대, 아래와, 상태공간, 방정식으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G$; $K$; $\left[ pile {\dot{x_{1}} # \dot{x_{2}}} \right] = \left[ {matrix {0 &amp; &amp; 1 # - 1 &amp; &amp; 2}} \right] \left[ pile {x_{1} # x_{2}} \right] + \left[ {matrix {0 # 1}} \right] u # y = [ 01 ] \left[ pile {x_{1} # x_{2}} \right]$; $0 &lt; K &lt; 1$; $K &gt; 1$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$0 &lt; K &lt; 1$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$K &gt; 1$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$0 &lt; K &lt; 2$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$K &gt; 2$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="16" id="PRB-4E7FFC43113E0DB9-Q16">
       <question_stem>다음 피드백 제어시스템에서 단위계단(unit step) 입력에 대한 정상상태의 목표 출력값은 1이다. 전달함수 $G ( s ) = \frac{2}{s + 1}$일 때 정상상태 오차가 $\pm$0.2 이하가 되기 위한 $K$의 범위는?</question_stem>
@@ -566,28 +566,28 @@
         <correct_choice_text>$\frac{1}{3} \leq K \leq \frac{3}{4}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 피드백 제어시스템에서 단위계단(unit step) 입력, 드백 제어시스템에서 단위계단(unit step), G ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 피드백 제어시스템에서 단위계단(unit step) 입력, 드백 제어시스템에서 단위계단(unit step), G ( s ))
+정답은 ③이다. 본 문항은 피드백 제어시스템에서 단위계단(unit step) 입력, 드백 제어시스템에서 단위계단(unit step), G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s ) = \frac{2}{s + 1}$; $±$; $K$; $\frac{1}{5} \leq K \leq \frac{7}{6}$; $\frac{1}{4} \leq K \leq \frac{6}{5}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{5} \leq K \leq \frac{7}{6}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{4} \leq K \leq \frac{6}{5}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$\frac{1}{3} \leq K \leq \frac{3}{4}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{2} \leq K \leq \frac{4}{3}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="17" id="PRB-4E7FFC43113E0DB9-Q17">
       <question_stem>전달함수 $G ( s ) = \frac{c}{s^{2} + as + b}$의 나이퀴스트(Nyquist) 선도가 다음과 같을 때 파라미터 $a , b , c$의 값은?</question_stem>
@@ -601,28 +601,28 @@
         <correct_choice_text>2 2 3</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] G ( s ), 의 나이퀴스트(Nyquist)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: G ( s ), 의 나이퀴스트(Nyquist))
+정답은 ①이다. 본 문항은 G ( s ), 의 나이퀴스트(Nyquist)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s ) = \frac{c}{s^{2} + as + b}$; $a , b , c$; $a$; $b$; $c$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>2 2 3</choice_text>
-          <commentary>논점: 2 3.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>1 3 2</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>2 3 2</choice_text>
-          <commentary>논점: 2 3.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>1 2 3</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="18" id="PRB-4E7FFC43113E0DB9-Q18">
       <question_stem>다음 그림 (가)와 같은 피드백 제어시스템에서 $G ( s )$의 보드선도가 그림 (나)와 같을 때 단위계단 입력에 대한 정상상태오차는?</question_stem>
@@ -635,28 +635,28 @@
         <correct_choice_text>$\frac{1}{11}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] G ( s )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: G ( s ))
+정답은 ①이다. 본 문항은 G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $G ( s )$; $\frac{1}{11}$; $\frac{1}{21}$; $\frac{1}{5}$; $\frac{1}{7}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$\frac{1}{11}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{21}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{5}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{1}{7}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="19" id="PRB-4E7FFC43113E0DB9-Q19">
       <question_stem>다음 블록선도에서 $Y ( s \frac{)}{R} ( s )$의 전달함수는?</question_stem>
@@ -670,28 +670,28 @@
         <correct_choice_text>$\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 블록선도에서, 전달함수
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 블록선도에서, 전달함수)
+정답은 ②이다. 본 문항은 블록선도에서, 전달함수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $Y ( s \frac{)}{R} ( s )$; $\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$; $\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$; $\frac{K_1 ( K_2 s + K_3 )}{s^2 + K_1 K_2 s + K_3}$; $\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{3}}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$\frac{K_{1} ( K_{2} s + K_{3} )}{s^{2} + K_{1} K_{2} s + K_{1} K_{3}}$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{K_1 ( K_2 s + K_3 )}{s^2 + K_1 K_2 s + K_3}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\frac{K_{1} K_{2} s + K_{3}}{s^{2} + K_{1} K_{2} s + K_{3}}$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="20" id="PRB-4E7FFC43113E0DB9-Q20">
       <question_stem>두 개의 시스템을 직렬로 연결한 전체 시스템이 아래와 같을 때, 다음 상태공간 방정식의 시스템 행렬 $A , B$는?</question_stem>
@@ -707,30 +707,30 @@
         <correct_choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 시스템, 직렬, 전체
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.
-[근거] “${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$”</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 시스템, 직렬, 연결한, 전체)
+정답은 ②이다. 본 문항은 시스템, 직렬, 연결한, 전체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+제시문 근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$"
+관련 수식: $A , B$; ${bmatrix {\dot{x}_{1} # \dot{x}_{2}}} = A {bmatrix {x_{1} # x_{2}}} + B u$; $A$; $B$; ${bmatrix {A_{1} &amp; 0 # B_{2} C_{1} &amp; A_{2}}}$</overall_commentary>
       <passage_evidence>${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "${\begin{bmatrix}\dot{x}_{1} \\ \dot{x}_{2}\end{bmatrix}} = A {\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}} + B u$")</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2016 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
   </explanations>
 </exam_explanations>

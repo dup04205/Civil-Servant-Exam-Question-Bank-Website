@@ -13,7 +13,7 @@
     <booklet_type>가</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>자동제어_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-7E3135BE17F5CFDB-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
@@ -38,7 +38,7 @@ $y ( t ) = x_{1} ( t )$</passage>
         <choice no="4" is_answer="false">$\frac{- b}{s^{2} - a}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="1">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Y ( s ), U ( s ), bu ( t ), y ( t ) | 정답 선지: $\frac{b}{s^{2} - a}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="1">정답 ② · 핵심 개념·이론 이해형 (Y ( s ), U ( s ), bu ( t ), y ( t ))</explanation_ref>
     </question>
     <question no="2" id="PRB-7E3135BE17F5CFDB-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음과 같은 블록선도를 갖는 시스템의 전달함수 $\frac{Y ( s )}{R ( s )}$는?</stem>
@@ -61,7 +61,7 @@ $y ( t ) = x_{1} ( t )$</passage>
         <choice no="4" is_answer="false">$\frac{bs}{s^2 + bs + k}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="2">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Y ( s ), R ( s ) | 정답 선지: $\frac{k}{s^{2} + bs + k}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="2">정답 ② · 핵심 개념·이론 이해형 (Y ( s ), R ( s ))</explanation_ref>
     </question>
     <question no="3" id="PRB-7E3135BE17F5CFDB-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 시스템의 $t \geq 0$일 때의 출력 $y ( t )$는? (단, 초기 조건은 $0$이고, $u ( t )$는 단위 계단(unit step) 함수이다)</stem>
@@ -86,7 +86,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$1 - \frac{1}{2} e^{- 2 t} ( \cos ( 5 t ) + \sin ( 5 t ) )$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: y ( t ), u ( t ), 는 단위 계단(unit step), cos ( 2 t ), sin ( 2 t ) | 정답 선지: $1 - e^{- 2 t} ( \cos ( 2 t ) + \sin ( 2 t ) )$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="3">정답 ① · 핵심 개념·이론 이해형 (y ( t ), u ( t ), 는 단위 계단(unit step), cos ( 2 t ), sin ( 2 t ))</explanation_ref>
     </question>
     <question no="4" id="PRB-7E3135BE17F5CFDB-Q4" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>다음 미분 방정식으로 표현된 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -103,7 +103,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">단위 계단(unit step) 입력에 대한 정상상태 출력값은 1이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="4">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 미분 방정식으로 표현된 시스템, 20 x ( t ), 20 r ( t ), X ( s ), R ( s ) | 정답 선지: 이 시스템은 고주파통과필터(high-pass filter)의 형태를 취한다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="4">정답 ③ · 복합 보기 검증형 (미분 방정식으로 표현된 시스템, 20 x ( t ), 20 r ( t ), X ( s ), R ( s ))</explanation_ref>
     </question>
     <question no="5" id="PRB-7E3135BE17F5CFDB-Q5" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 시스템에 대한 설명으로 옳지 않은 것은?</stem>
@@ -126,7 +126,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">단위 경사(unit ramp) 입력에 대한 정상상태오차는 $\infty$이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="5">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시스템, 단위 계단(unit step), 단위 경사(unit ramp) | 정답 선지: 단위 계단(unit step) 입력에 대한 정상상태오차는 $\frac{2}{3}$이다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="5">정답 ③ · 핵심 개념·이론 이해형 (시스템, 단위 계단(unit step), 단위 경사(unit ramp))</explanation_ref>
     </question>
     <question no="6" id="PRB-7E3135BE17F5CFDB-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>그림과 같은 나이퀴스트(Nyquist) 선도를 갖는 시스템의 단위 계단(unit step) 입력에 대한 정상상태 출력값은?</stem>
@@ -144,7 +144,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">∞</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="6">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 그림과 같은 나이퀴스트(Nyquist), 를 갖는 시스템의 단위 계단(unit step) | 정답 선지: 4</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="6">정답 ③ · 수리·계산·자료해석형 (그림과 같은 나이퀴스트(Nyquist), 를 갖는 시스템의 단위 계단(unit step))</explanation_ref>
     </question>
     <question no="7" id="PRB-7E3135BE17F5CFDB-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>개루프 전달함수 $KG ( s )$를 갖는 음의 단위 피드백 시스템(negative unity-feedback system)의 근궤적(root locus)이 그림과 같다. $G ( s )$로 가장 적합한 것은? (단, $K$는 양의 제어 이득이고, 그림에서 ○는 영점을, ×는 극점을 의미한다)</stem>
@@ -168,7 +168,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="true">$\frac{- s + 1}{s ( s + 1 )}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="7">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: KG ( s ), 의 근궤적(root locus), G ( s ) | 정답 선지: $\frac{- s + 1}{s ( s + 1 )}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="7">정답 ④ · 핵심 개념·이론 이해형 (KG ( s ), 의 근궤적(root locus), G ( s ))</explanation_ref>
     </question>
     <question no="8" id="PRB-7E3135BE17F5CFDB-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>특성 방정식(characteristic equation)이 다음과 같이 주어진 3차 시스템의 근궤적(root locus)이 허수축과 만날 때의 허수축의 좌표와 그때의 $K$의 값은?</stem>
@@ -193,7 +193,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="true">$\pm j2 \sqrt{2}$ $6$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="8">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 특성 방정식(characteristic equation), 주어진 3차 시스템의 근궤적(root locus) | 정답 선지: $\pm j2 \sqrt{2}$ $6$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="8">정답 ④ · 핵심 개념·이론 이해형 (특성 방정식(characteristic equation), 주어진 3차 시스템의 근궤적(root locus))</explanation_ref>
     </question>
     <question no="9" id="PRB-7E3135BE17F5CFDB-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 블록선도에서 신호 $N ( s )$는 시스템에 작용하는 외란을 나타내고, $G_{d} ( s )$는 $N ( s )$의 영향을 줄이기 위한 전달함수이다. $R ( s ) = 0$일 때, $N ( s )$의 영향이 출력 $Y ( s )$에서 완전히 제거되도록 하는 $G_{d} ( s )$로 적합한 것은?</stem>
@@ -222,7 +222,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$- \frac{5}{s ( s + 5 )}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="9">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: N ( s ), R ( s ), Y ( s ) | 정답 선지: $\frac{s ( s + 5 )}{5}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="9">정답 ① · 핵심 개념·이론 이해형 (N ( s ), R ( s ), Y ( s ))</explanation_ref>
     </question>
     <question no="10" id="PRB-7E3135BE17F5CFDB-Q10" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음과 같은 진상보상기(lead compensator)의 위상이 최대가 되는 주파수($\omega_{m}$)와 그때의 위상값($\Phi_{m}$)은?</stem>
@@ -251,7 +251,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$\frac{1}{\alpha \sqrt{T}}$ $\sin^{- 1} \frac{\alpha + 1}{\alpha - 1}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="10">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음과 같은 진상보상기(lead compensator), H ( s ) | 정답 선지: $\frac{1}{\sqrt{\alpha} T}$ $\sin^{- 1} \frac{\alpha - 1}{\alpha ...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="10">정답 ① · 핵심 개념·이론 이해형 (다음과 같은 진상보상기(lead compensator), H ( s ))</explanation_ref>
     </question>
     <question no="11" id="PRB-7E3135BE17F5CFDB-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>개루프 전달함수가 다음과 같이 주어진 음의 단위 피드백 시스템의 근궤적에 대한 설명으로 옳지 않은 것은?</stem>
@@ -275,7 +275,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="true">복소극점 $s = - 4 + j4$ 에서의 근궤적의 출발각은 $- 90 ^\circ$이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="11">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: KG ( s ) | 정답 선지: 복소극점 $s = - 4 + j4$ 에서의 근궤적의 출발각은 $- 90 ^\circ$이다.</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="11">정답 ④ · 핵심 개념·이론 이해형 (KG ( s ))</explanation_ref>
     </question>
     <question no="12" id="PRB-7E3135BE17F5CFDB-Q12" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 함수 $f ( t )$의 라플라스 변환으로 옳은 것은?</stem>
@@ -298,7 +298,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$F ( s ) = 5 - 2 e^{- s} + 2 e^{- 3 s} - 5 e^{- 4 s}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="12">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 함수 $f ( t )$의 라플라스 변환, f ( t ), F ( s ) | 정답 선지: $F ( s ) = \frac{1}{s} ( 5 - 3 e^{- s} + 3 e^{- 3 s} - 5 e^{- 4 s...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="12">정답 ① · 핵심 개념·이론 이해형 (함수 $f ( t )$의 라플라스 변환, f ( t ), F ( s ))</explanation_ref>
     </question>
     <question no="13" id="PRB-7E3135BE17F5CFDB-Q13" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 블록선도의 전달함수 $\frac{Y ( s )}{R ( s )}$는?</stem>
@@ -321,7 +321,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$\frac{1}{s^{3} + 9 s^{2} + 24 s + 26}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="13">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: Y ( s ), R ( s ) | 정답 선지: $\frac{16}{s^{3} + 9 s^{2} + 24 s + 26}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="13">정답 ③ · 핵심 개념·이론 이해형 (Y ( s ), R ( s ))</explanation_ref>
     </question>
     <question no="14" id="PRB-7E3135BE17F5CFDB-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>직류이득(DC gain)이 20 [dB]이면서 그림과 같은 보드선도로 표현되는 전달함수로 가장 적합한 것은?</stem>
@@ -342,7 +342,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$\frac{( s + 0 . 1 ) ( s + 1 )}{10 ( s + 0 . 01 ) ( s + 10 )}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="14">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 직류이득(DC gain) | 정답 선지: $\frac{10 ( s + 0 . 1 ) ( s + 1 )}{( s + 0 . 01 ) ( s + 10 )}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="14">정답 ③ · 핵심 개념·이론 이해형 (직류이득(DC gain))</explanation_ref>
     </question>
     <question no="15" id="PRB-7E3135BE17F5CFDB-Q15" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음의 피드백 제어 시스템에서 단위 계단(unit step) 입력에 대한 정상상태오차가 $0$이고, 폐루프 시스템의 극점을 $s = - 1 + j$와 $s = - 1 - j$에 위치시키는 $K_1$, $K_2$, $K_3$의 값은?</stem>
@@ -380,7 +380,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="true">$\frac{2}{3}$ $3$ $3$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="15">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 제어 시스템에서 단위 계단(unit step) | 정답 선지: $\frac{2}{3}$ $3$ $3$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="15">정답 ④ · 핵심 개념·이론 이해형 (제어 시스템에서 단위 계단(unit step))</explanation_ref>
     </question>
     <question no="16" id="PRB-7E3135BE17F5CFDB-Q16" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음과 같은 나이퀴스트(Nyquist) 선도를 갖는 시스템의 이득여유가 $20 \log \alpha$ [dB]이고, 위상여유가 β [deg]일 때 $\alpha \beta$의 값은?</stem>
@@ -400,7 +400,7 @@ $y ( t ) = \left[ 10 \right] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">60</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="16">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 다음과 같은 나이퀴스트(Nyquist) | 정답 선지: 40</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="16">정답 ③ · 수리·계산·자료해석형 (다음과 같은 나이퀴스트(Nyquist))</explanation_ref>
     </question>
     <question no="17" id="PRB-7E3135BE17F5CFDB-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 시스템이 단위 계단(unit step) 입력에 대하여 안정하면서 감쇠비 $\zeta = 0 . 8$, 정착시간(settling time) $t_{s} = 0 . 5$초를 만족하게 하는 상태 피드백 제어기 $u ( t )$의 제어이득 $k_{1}$, $k_{2}$의 값은? (단, $b \neq 0$이고, $t_{s} = \frac{4}{\zeta \omega_{n}}$로 정의하며, 여기서 $\omega_{n}$은 비감쇠 고유 진동수를 나타낸다)</stem>
@@ -436,7 +436,7 @@ $u ( t ) = - [ k_{1} k_{2} ] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$\frac{100 - a}{b}$ $- \frac{16}{b}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="17">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음 시스템이 단위 계단(unit step), 정착시간(settling time), u ( t ) | 정답 선지: $\frac{100 + a}{b}$ $\frac{16}{b}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="17">정답 ① · 핵심 개념·이론 이해형 (다음 시스템이 단위 계단(unit step), 정착시간(settling time), u ( t ))</explanation_ref>
     </question>
     <question no="18" id="PRB-7E3135BE17F5CFDB-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>그림과 같은 단위 계단(unit step) 응답을 갖는 선형 시불변(time-invariant) 시스템의 전달함수로 가장 적합한 것은?</stem>
@@ -457,7 +457,7 @@ $u ( t ) = - [ k_{1} k_{2} ] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">$\frac{1 - s}{s^{2} + s + 1}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="18">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 그림과 같은 단위 계단(unit step), 응답을 갖는 선형 시불변(time-invariant) | 정답 선지: $1 - \frac{s}{s^{2} + s + 2}$</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="18">정답 ② · 핵심 개념·이론 이해형 (그림과 같은 단위 계단(unit step), 응답을 갖는 선형 시불변(time-invariant))</explanation_ref>
     </question>
     <question no="19" id="PRB-7E3135BE17F5CFDB-Q19" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 시스템을 상태공간모델로 바르게 표현한 것은?</stem>
@@ -485,7 +485,7 @@ $u ( t ) = - [ k_{1} k_{2} ] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">${\begin{bmatrix}0 &amp; - 21 \\ 1 &amp; - 10\end{bmatrix}} x ( t ) + {\begin{bmatrix}10 \\ 0\end{bmatrix}} u ( t )$ ${\begin{bmatrix}0 &amp; 1\end{bmatrix}} x ( t )$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="19">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: y ( t ), x ( t ), u ( t ) | 정답 선지: ${\begin{bmatrix}- 21 &amp; - 10 \\ 1 &amp; 0\end{bmatrix}} x ( t ) + {\b...</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="19">정답 ③ · 핵심 개념·이론 이해형 (y ( t ), x ( t ), u ( t ))</explanation_ref>
     </question>
     <question no="20" id="PRB-7E3135BE17F5CFDB-Q20" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>폐루프 전달함수 $T ( s )$가 다음과 같이 주어진 음의 단위 피드백 시스템에서 정적속도오차상수(static velocity error constant) $\mathbf{} K_{v}$가 5일 때, 상수 $\mathbf{} a$와 $\mathbf{} K$값은?</stem>
@@ -507,7 +507,7 @@ $u ( t ) = - [ k_{1} k_{2} ] \left[ \begin{matrix}x_{1} ( t ) \\ x_{2} ( t )\end
         <choice no="4" is_answer="false">0 40</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="자동제어_해설.xml" question_no="20">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: T ( s ), Y ( s ), R ( s ) | 정답 선지: 10 2,000</explanation_ref>
+      <explanation_ref file="자동제어_해설.xml" question_no="20">정답 ① · 수리·계산·자료해석형 (T ( s ), Y ( s ), R ( s ))</explanation_ref>
     </question>
   </questions>
 </exam_paper>

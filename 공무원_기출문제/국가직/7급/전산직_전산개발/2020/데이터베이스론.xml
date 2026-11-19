@@ -13,7 +13,7 @@
     <booklet_type>나</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>데이터베이스론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-A91A0FDDBB904E56-Q1" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
@@ -29,7 +29,7 @@
         <choice no="4" is_answer="false">ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 관계 데이터 모델의 키와 제약 조건, 레이션에서 기본키가 복합키 (A, B) | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:O, ㄹ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">정답 ③ · 복합 보기 검증형 (관계 데이터 모델의 키와 제약 조건, 레이션에서 기본키가 복합키 (A, B)) — 보기 판정: ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(X)</explanation_ref>
     </question>
     <question no="2" id="PRB-A91A0FDDBB904E56-Q2" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>릴레이션 스키마의 표현은 릴레이션명(속성명1:도메인1, 속성명2:도메인2, …, 속성명n:도메인n)이다. 이 표현을 따르는 릴레이션 스키마 A(a:int, x:int, c:int)와 B(b:int, x:int, d:int)에 대한 관계대수식 $\pi_{a , b} \left( \sigma_{a &gt; 10} ( A \bowtie _{A . x = B . x} B ) \right)$와 동등한 관계대수식은?</stem>
@@ -47,7 +47,7 @@
         <choice no="4" is_answer="true">$\pi_{a , b} \left( \sigma_{a &gt; 10} ( A ) \bowtie _{A . x = B . x} B \right)$</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션, 스키마, 표현, 릴레이션명 | 정답 선지: $\pi_{a , b} \left( \sigma_{a &gt; 10} ( A ) \bowtie _{A . x = B . x...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">정답 ④ · 핵심 개념·이론 이해형 (릴레이션, 스키마, 표현, 릴레이션명)</explanation_ref>
     </question>
     <question no="3" id="PRB-A91A0FDDBB904E56-Q3" type="빈칸/기호 추론형" category="지문 독해·추론형">
       <stem>스키마가 사원(&lt;u&gt;사원번호&lt;/u&gt;, 직급, 보너스)인 사원 테이블의 인스턴스가 &lt;보기 1&gt;과 같을 때, &lt;보기 2&gt;의 ㉠, ㉡에 들어갈 말로 옳게 짝 지은 것은?</stem>
@@ -66,7 +66,7 @@
         <choice no="4" is_answer="false">이행적 함수 종속 제 3 정규형</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 3번] 빈칸/기호 추론형 (지문 독해·추론형) | 핵심어: 스키마, 사원, 사원번호, 직급 | 정답 선지: 이행적 함수 종속 제 2 정규형</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">정답 ③ · 지문 독해·추론형 (스키마, 사원, 사원번호, 직급)</explanation_ref>
     </question>
     <question no="4" id="PRB-A91A0FDDBB904E56-Q4" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스 시스템에서 데이터 저장 요구량이 빠르게 증가하고 있어서 많은 수의 디스크가 요구된다. 다수의 디스크 드라이브를 사용하여 저장 용량을 늘리고 읽기와 쓰기를 병렬로 수행하기도 하며, 디스크의 고장에 대비하기 위해 RAID(Redundant Arrays of Independent Disks)를 구성하여 활용한다. 이와 같은 RAID에서 1 TByte 디스크 드라이브 6개를 이용하여 RAID를 구성할 때, 구성된 RAID의 저장 용량이 가장 작은 구성 방법은?</stem>
@@ -77,7 +77,7 @@
         <choice no="4" is_answer="false">레벨 6</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스, 시스템에서, 데이터, 저장 | 정답 선지: 레벨 1</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">정답 ② · 핵심 개념·이론 이해형 (데이터베이스, 시스템에서, 데이터, 저장)</explanation_ref>
     </question>
     <question no="5" id="PRB-A91A0FDDBB904E56-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 산업통계 테이블이다. 이 테이블을 대상으로 아래 결과를 출력하고자 한다. 이를 위한 SQL 질의문은?</stem>
@@ -104,7 +104,7 @@ SQL 실행결과
         <choice no="4" is_answer="false">SELECT 대분류, 소분류, MAX(종사자수), 평균연봉 FROM 산업통계 GROUP BY 대분류;</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 산업통계, 테이블이다, 테이블, 대상으 | 정답 선지: SELECT A.* FROM 산업통계 A, (SELECT 대분류, MAX(종사자수) AS 종사자수 FROM 산업통계 ...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">정답 ③ · 핵심 개념·이론 이해형 (산업통계, 테이블이다, 테이블, 대상으)</explanation_ref>
     </question>
     <question no="6" id="PRB-A91A0FDDBB904E56-Q6" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>버킷 용량 $C = 2$인 버킷들의 주소 공간이 $0 \sim ( N - 1 )$인 해시에서 키를 $K$로 하는 해시 함수 $h ( K ) = K mod N$이고, $N$ 값은 5이다. 이때 일련의 $K$ 값들이 3, 5, 7, 9, 11, 13, 18, 14 순서로 삽입된 후 4번 버킷의 값은? (단, 버킷에서의 충돌은 충돌 발생 버킷 주소 $i$에 대하여 $( i + 1 ) mod N$을 통해 지정하는 선형탐색 개방 주소법을 이용하여 해결한다)</stem>
@@ -125,7 +125,7 @@ SQL 실행결과
         <choice no="4" is_answer="true">9, 18</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 4번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: sim ( N - 1 ), h ( K ) | 정답 선지: 9, 18</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">정답 ④ · 수리·계산·자료해석형 (sim ( N - 1 ), h ( K ))</explanation_ref>
     </question>
     <question no="7" id="PRB-A91A0FDDBB904E56-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 트랜잭션 스케줄의 선행그래프(precedence graph)로 옳은 것은? (단, $t_i$는 시간 단위, $T_j$는 트랜잭션, R(A)는 A항목 읽기, W(A)는 A항목 쓰기를 나타낸다)</stem>
@@ -166,7 +166,7 @@ SQL 실행결과
         <choice no="4" is_answer="false">[그림/도표 선지 4번 (첨부 이미지 참조)]</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션 스케줄의 선행그래프(precedence graph) | 정답 선지: [그림/도표 선지 1번 (첨부 이미지 참조)]</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">정답 ① · 핵심 개념·이론 이해형 (트랜잭션 스케줄의 선행그래프(precedence graph))</explanation_ref>
     </question>
     <question no="8" id="PRB-A91A0FDDBB904E56-Q8" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 SQL 구문에 대한 설명으로 옳지 않은 것은?</stem>
@@ -186,7 +186,7 @@ AND D.LOC = 'SEOUL' )
         <choice no="4" is_answer="false">위의 SQL에서 명세하고 있는 조건에 따라 DB연산이 수행되지 않을 수 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SQL 구문 | 정답 선지: 명시된 이벤트가 발생할 때마다 DBMS가 자동적으로 수행하는 구문이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">정답 ① · 핵심 개념·이론 이해형 (SQL 구문)</explanation_ref>
     </question>
     <question no="9" id="PRB-A91A0FDDBB904E56-Q9" type="&lt;보기&gt; 조합형(옳지 않은 것 고르기)" category="복합 보기 검증형">
       <stem>XML Schema와 DTD에 대한 비교 중 옳지 않은 것으로만 묶은 것은?</stem>
@@ -203,7 +203,7 @@ AND D.LOC = 'SEOUL' )
         <choice no="4" is_answer="false">ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 3번] &lt;보기&gt; 조합형(옳지 않은 것 고르기) (복합 보기 검증형) | 핵심어: XML Schema와 DTD | 정답 선지: ㄴ, ㄹ</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">정답 ③ · 복합 보기 검증형 (XML Schema와 DTD)</explanation_ref>
     </question>
     <question no="10" id="PRB-A91A0FDDBB904E56-Q10" type="&lt;보기&gt; 조합형(옳지 않은 것 고르기)" category="복합 보기 검증형">
       <stem>즉시 갱신(Immediate Update) 전략을 이용하는 회복 시스템에서 &lt;보기 1&gt;의 로그 레코드 형식으로 &lt;보기 2&gt;의 로그 레코드가 형성되어 있다. 복구는 REDO 단계 실행 후 UNDO 단계를 실행한다. 이 시스템에서 복구 절차에 대한 설명으로 옳지 않은 것으로만 묶은 것은?</stem>
@@ -258,7 +258,7 @@ AND D.LOC = 'SEOUL' )
         <choice no="4" is_answer="false">ㄹ, ㅂ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 2번] &lt;보기&gt; 조합형(옳지 않은 것 고르기) (복합 보기 검증형) | 핵심어: 즉시 갱신(Immediate Update) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:O, ㄹ:O, ㅁ:X, ㅂ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">정답 ② · 복합 보기 검증형 (즉시 갱신(Immediate Update)) — 보기 판정: ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(O), ㅁ(X), ㅂ(O)</explanation_ref>
     </question>
     <question no="11" id="PRB-A91A0FDDBB904E56-Q11" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스에 대한 설명으로 옳지 않은 것은?</stem>
@@ -269,7 +269,7 @@ AND D.LOC = 'SEOUL' )
         <choice no="4" is_answer="false">데이터 일관성이란 여러 개의 데이터가 모두 하나의 사실을 나타낸다면 논리적으로 그 내용이 모두 동일해야 함을 의미한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 | 정답 선지: 데이터 중복성이란 한 시스템 내에 내용이 같은 데이터가 중복 저장 관리되는 것을 의미하며, 경제성 문제는 발생하나 보...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">정답 ② · 핵심 개념·이론 이해형 (데이터베이스)</explanation_ref>
     </question>
     <question no="12" id="PRB-A91A0FDDBB904E56-Q12" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>트랜잭션의 특성에 대한 설명으로 옳지 않은 것은?</stem>
@@ -280,7 +280,7 @@ AND D.LOC = 'SEOUL' )
         <choice no="4" is_answer="true">S은행 계좌에서 K은행 계좌로 이체하는 트랜잭션을 수행하는 동안 다른 트랜잭션이 관여할 수 없으나 참조할 수는 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션의 특성 | 정답 선지: S은행 계좌에서 K은행 계좌로 이체하는 트랜잭션을 수행하는 동안 다른 트랜잭션이 관여할 수 없으나 참조할 수는 있다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">정답 ④ · 핵심 개념·이론 이해형 (트랜잭션의 특성)</explanation_ref>
     </question>
     <question no="13" id="PRB-A91A0FDDBB904E56-Q13" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음의 사원 테이블에 대한 SQL 질의문의 결과는? (단, 열 A, B는 모두 INTEGER 타입이고, 값이 표시되어 있지 않은 열은 NULL이다)</stem>
@@ -301,8 +301,8 @@ FROM 사원;</passage>
         <choice no="4" is_answer="false">4 3 4000</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 1번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 의 사원 테이블, 의문
-SELECT COUNT( A ), COUNT( DISTINCT A ) | 정답 선지: 3 2 3000</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">정답 ① · 수리·계산·자료해석형 (의 사원 테이블, 의문
+SELECT COUNT( A ), COUNT( DISTINCT A ))</explanation_ref>
     </question>
     <question no="14" id="PRB-A91A0FDDBB904E56-Q14" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 트랜잭션의 수행 중에 장애가 발생할 경우의 회복(Recovery) 기법을 적용하여 트랜잭션의 상태를 복구시키는 사례이다. 로그는 그대로 기록을 유지하면서, 회복 관리자가 정하는 일정한 시간 간격으로 검사점을 생성하는 Checkpoint 회복기법을 적용하는 경우에 트랜잭션들의 상태를 설명한 것으로 옳지 않은 것은?</stem>
@@ -317,7 +317,7 @@ SELECT COUNT( A ), COUNT( DISTINCT A ) | 정답 선지: 3 2 3000</explanation_re
         <choice no="4" is_answer="false">T_(4)는 트랜잭션 전체에 대하여 UNDO 연산을 수행해야 한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 장애가 발생할 경우의 회복(Recovery) | 정답 선지: T_(2)는 트랜잭션 전체에 대하여 UNDO 연산을 수행해야 한다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">정답 ② · 핵심 개념·이론 이해형 (장애가 발생할 경우의 회복(Recovery))</explanation_ref>
     </question>
     <question no="15" id="PRB-A91A0FDDBB904E56-Q15" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 테이블을 생성하는 SQL 구문이다. 이 테이블에 대한 연산을 설명하는 것으로 옳지 않은 것은?</stem>
@@ -336,7 +336,7 @@ FOREIGN KEY(부서번호) REFERENCES
         <choice no="4" is_answer="false">직원 번호에 동일한 번호를 입력했더니 처리되지 않았다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 은 테이블을 생성하는 SQL 구문이다. 이 테이블, 직원이름 CHAR(10), 부서번호 IN (1,2,3,4) | 정답 선지: 부서가 없는 신입사원을 입력했더니 부서번호가 널값이 되었다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">정답 ② · 핵심 개념·이론 이해형 (은 테이블을 생성하는 SQL 구문이다. 이 테이블, 직원이름 CHAR(10), 부서번호 IN (1,2,3,4))</explanation_ref>
     </question>
     <question no="16" id="PRB-A91A0FDDBB904E56-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>두 트랜잭션 스케줄 $s_1$, $s_2$에 대하여, $s_1$의 비연쇄(Cascadeless) 스케줄 여부와 $s_2$의 $s_1$에 대한 뷰 동치 여부로 옳게 짝 지어진 것은? (단, $r_i$, $w_i$, $c_i$는 각각 트랜잭션 $T_i$의 읽기, 쓰기, 완료 연산을 의미한다)</stem>
@@ -390,7 +390,7 @@ $s_2$: $r_1 ( a )$ $r_1 ( b )$ $r_2 ( b )$ $r_2 ( c )$ $r_{3} ( c )$ $w_1 ( a )$
         <choice no="4" is_answer="false">비연쇄 스케줄 아님 뷰 동치 아님</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 의 비연쇄(Cascadeless), 1 ( a ), 1 ( b ), 2 ( b ), 2 ( c ) | 정답 선지: 비연쇄 스케줄 뷰 동치 아님</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">정답 ② · 핵심 개념·이론 이해형 (의 비연쇄(Cascadeless), 1 ( a ), 1 ( b ), 2 ( b ), 2 ( c ))</explanation_ref>
     </question>
     <question no="17" id="PRB-A91A0FDDBB904E56-Q17" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>다음 시스템 카탈로그(System Catalog)에 대한 설명으로 옳은 것으로만 묶은 것은?</stem>
@@ -406,7 +406,7 @@ $s_2$: $r_1 ( a )$ $r_1 ( b )$ $r_2 ( b )$ $r_2 ( c )$ $r_{3} ( c )$ $w_1 ( a )$
         <choice no="4" is_answer="false">ㄴ, ㅁ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 시스템 카탈로그(System Catalog), 다음 시스템 카탈로그(System Catalog), 저장된 정보를 메타 데이터(Meta-Data) | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:X, ㄹ:O, ㅁ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">정답 ③ · 복합 보기 검증형 (시스템 카탈로그(System Catalog), 다음 시스템 카탈로그(System Catalog), 저장된 정보를 메타 데이터(Meta-Data)) — 보기 판정: ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O), ㅁ(X)</explanation_ref>
     </question>
     <question no="18" id="PRB-A91A0FDDBB904E56-Q18" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 제품 데이터베이스의 스키마 다이어그램과 인스턴스를 나타낸 것이다. 데이터베이스를 구성하는 이 두 테이블을 대상으로 아래 결과를 출력하고자 한다. 이를 위한 SQL 질의문은?</stem>
@@ -421,7 +421,7 @@ $s_2$: $r_1 ( a )$ $r_1 ( b )$ $r_2 ( b )$ $r_2 ( c )$ $r_{3} ( c )$ $w_1 ( a )$
         <choice no="4" is_answer="false">SELECT * FROM Product Pro WHERE Pro.P_Model = 'VGA' AND Pro.P_Price &gt; ALL (SELECT P.P_Price FROM Product P LEFT JOIN Company C ON (C.ID = P.Company_ID) WHERE C.Company_Name = 'AMD');</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 제품, 데이터베이스, 스키마, 다이어그램과 | 정답 선지: SELECT * FROM Product Pro WHERE Pro.P_Model = 'VGA' AND Pro.P_Pri...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">정답 ③ · 핵심 개념·이론 이해형 (제품, 데이터베이스, 스키마, 다이어그램과)</explanation_ref>
     </question>
     <question no="19" id="PRB-A91A0FDDBB904E56-Q19" type="&lt;보기&gt; 조합형(옳지 않은 것 고르기)" category="복합 보기 검증형">
       <stem>다음 데이터베이스 시스템의 질의최적화에 대한 설명으로 옳지 않은 것으로만 묶은 것은?</stem>
@@ -437,7 +437,7 @@ $s_2$: $r_1 ( a )$ $r_1 ( b )$ $r_2 ( b )$ $r_2 ( c )$ $r_{3} ( c )$ $w_1 ( a )$
         <choice no="4" is_answer="false">ㄹ, ㅁ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 3번] &lt;보기&gt; 조합형(옳지 않은 것 고르기) (복합 보기 검증형) | 핵심어: 데이터베이스 시스템의 질의최적화, SQL 질의문을 내부 표현(internal representation), 규칙기반 최적화 기법(rule-based optimization), 이 질의실행계획(query execution plan), 비용기반 최적화 기법(cost-based optimization) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X, ㅁ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">정답 ③ · 복합 보기 검증형 (데이터베이스 시스템의 질의최적화, SQL 질의문을 내부 표현(internal representation), 규칙기반 최적화 기법(rule-based optimization), 이 질의실행계획(query execution plan), 비용기반 최적화 기법(cost-based optimization)) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X), ㅁ(O)</explanation_ref>
     </question>
     <question no="20" id="PRB-A91A0FDDBB904E56-Q20" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>트랜잭션 고립 수준 중 REPEATABLE READ 모드에서 발생할 수 있는 문제를 모두 고르면?</stem>
@@ -451,7 +451,7 @@ $s_2$: $r_1 ( a )$ $r_1 ( b )$ $r_2 ( b )$ $r_2 ( c )$ $r_{3} ( c )$ $w_1 ( a )$
         <choice no="4" is_answer="false">ㄴ, ㄷ</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 1번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 트랜잭션, 고립, 수준, 모드에서 | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">정답 ① · 복합 보기 검증형 (트랜잭션, 고립, 수준, 모드에서) — 보기 판정: ㄱ(O), ㄴ(X), ㄷ(X)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

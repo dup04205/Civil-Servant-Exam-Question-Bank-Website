@@ -13,7 +13,7 @@
     <booklet_type>가</booklet_type>
     <total_questions>20</total_questions>
     <question_file>자료구조론.xml</question_file>
-    <verification_source>법제처 국가법령정보센터(migrated-claude_korean_law MCP) 및 인사혁신처 확정정답 검증 완료</verification_source>
+    <verification_source>인사혁신처 공식 확정정답 및 법제처 국가법령정보센터 기준</verification_source>
   </metadata>
   <explanations>
     <question_explanation no="1" id="PRB-9701334D7592AF47-Q1">
@@ -29,28 +29,27 @@
         <correct_choice_text>540</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] int function(int n), function(n-1), function(n-3)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: int function(int n), function(n-1), function(n-3))
+정답은 ③이다. 본 문항은 int function(int n), function(n-1), function(n-3)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>60</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>84</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>540</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>672</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="2" id="PRB-9701334D7592AF47-Q2">
       <question_stem>다음 이진 트리(binary tree)의 순회 방법으로 옳지 않은 것은?</question_stem>
@@ -67,28 +66,27 @@
         <correct_choice_text>후위(postorder) 순회 : G D H B F E I C A</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] 이진 트리(binary tree)의 순회 방법, 다음 이진 트리(binary tree), 전위(preorder), H D C E F I 중위(inorder), D A C F E I 후위(postorder)
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ③, 옳은 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 이진 트리(binary tree)의 순회 방법, 다음 이진 트리(binary tree), 전위(preorder), H D C E F I 중위(inorder), D A C F E I 후위(postorder))
+정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>전위(preorder) 순회 : A B G H D C E F I</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O">
+        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
           <choice_text>중위(inorder) 순회 : G B H D A C F E I</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>후위(postorder) 순회 : G D H B F E I C A</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O">
+        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
           <choice_text>레벨 순서(level order) 순회 : A B C G H E D F I</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="3" id="PRB-9701334D7592AF47-Q3">
       <question_stem>다음과 같이 인접 행렬로 표현된 가중 그래프(weighted graph)에 대하여 최소 비용 신장 트리(minimum cost spanning tree)를 구성했을 때, 최소 비용은?</question_stem>
@@ -101,25 +99,24 @@
         <correct_choice_text>7</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] 행렬로 표현된 가중 그래프(weighted graph)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 행렬로 표현된 가중 그래프(weighted graph))
+정답은 ②이다. 본 문항은 행렬로 표현된 가중 그래프(weighted graph)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>6</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>7</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>8</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>9</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -136,28 +133,27 @@
         <correct_choice_text>72</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] 78개의 간선(edge), 으로 이루어진 이진 트리(binary tree)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 78개의 간선(edge), 으로 이루어진 이진 트리(binary tree))
+정답은 ②이다. 본 문항은 78개의 간선(edge), 으로 이루어진 이진 트리(binary tree)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>71</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>72</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>73</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>74</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="5" id="PRB-9701334D7592AF47-Q5">
       <question_stem>1과 1000 사이의 정수로 구성된 이진 탐색 트리(binary search tree)에서 숫자 629를 탐색한다고 할 때, 옳지 않은 비교 순서는?</question_stem>
@@ -170,28 +166,27 @@
         <correct_choice_text>926, 87, 813, 318, 572, 826, 635, 598, 580, 629</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] 수로 구성된 이진 탐색 트리(binary search tree)
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 수로 구성된 이진 탐색 트리(binary search tree))
+정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>19, 929, 172, 891, 224, 735, 405, 674, 537, 629</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O">
+        <choice_explanation no="2" is_answer="false" judgment="옳은 설명">
           <choice_text>876, 807, 24, 186, 314, 717, 690, 428, 512, 629</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O">
+        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
           <choice_text>29, 829, 815, 137, 369, 504, 805, 589, 692, 629</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>926, 87, 813, 318, 572, 826, 635, 598, 580, 629</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="6" id="PRB-9701334D7592AF47-Q6">
       <question_stem>단순 연결 리스트(singly linked list)의 노드를 나타내는 구조체 node에 다음 노드를 가리키는 포인터 link가 있다고 하자. 2개의 노드로 구성된 단순 연결 리스트에서 첫 번째 노드와 두 번째 노드의 사이에 새로운 노드를 삽입하면서 리스트의 순서를 역순으로 변환하고자 한다. p에는 리스트의 시작 주소가 저장되어 있으며, new에는 새로운 노드의 주소가 저장되어 있다고 가정할 때, 명령문의 실행 순서로 옳은 것은? (단, 역순 변환 후 p에는 리스트의 새로운 시작 주소가 저장되어 있어야 한다)</question_stem>
@@ -204,25 +199,24 @@
         <correct_choice_text>new→link = p; p = p→link; p→link = new; new→link→link = NULL;</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 단순 연결 리스트(singly linked list)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 단순 연결 리스트(singly linked list))
+정답은 ④이다. 본 문항은 단순 연결 리스트(singly linked list)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>p→link = new; p = p→link; new→link = p; new→link→link = NULL;</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>p = p→link; p→link = new; new→link = p; new→link→link = NULL;</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>new→link = p; p→link = new; p = p→link; new→link→link = NULL;</choice_text>
-          <commentary>논점: new→link = p; p→link new; p p→l.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>new→link = p; p = p→link; p→link = new; new→link→link = NULL;</choice_text>
-          <commentary>논점: new→link = p; p p→link; p→link.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -241,28 +235,27 @@
         <correct_choice_text>삽입정렬 선택정렬 합병정렬 퀵정렬</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 중간의 행들은 합병정렬(merge sort), 삽입정렬(insertion sort), 선택정렬(selection sort), 퀵정렬(quick sort)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 중간의 행들은 합병정렬(merge sort), 삽입정렬(insertion sort), 선택정렬(selection sort), 퀵정렬(quick sort))
+정답은 ①이다. 본 문항은 중간의 행들은 합병정렬(merge sort), 삽입정렬(insertion sort), 선택정렬(selection sort), 퀵정렬(quick sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>삽입정렬 선택정렬 합병정렬 퀵정렬</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>삽입정렬 퀵정렬 합병정렬 선택정렬</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>합병정렬 선택정렬 삽입정렬 퀵정렬</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>합병정렬 퀵정렬 선택정렬 삽입정렬</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="8" id="PRB-9701334D7592AF47-Q8">
       <question_stem>다음은 차수가 3인 B+ 트리(tree)의 초기 상태이다. 이 트리에 색인키 'F', 'I', 'J'를 순서대로 삽입한 후의 모습은? (단, 단말 노드는 최대 2개의 원소를 포함할 수 있으며, 단말 노드의 분할 시 중간 위치의 값은 오른쪽 노드에 포함되도록 한다)</question_stem>
@@ -275,25 +268,24 @@
         <correct_choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 비교불가(선택지 텍스트 없음))</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 트리(tree)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 트리(tree))
+정답은 ④이다. 본 문항은 트리(tree)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -309,25 +301,24 @@
         <correct_choice_text>50, 60, 30, 10, 20, 70, 40</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 그림과 같은 최대 힙(max heap)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 그림과 같은 최대 힙(max heap))
+정답은 ④이다. 본 문항은 그림과 같은 최대 힙(max heap)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>50, 30, 40, 70, 60, 10, 20</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>10, 60, 50, 70, 20, 30, 40</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>10, 20, 40, 30, 60, 50, 70</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>50, 60, 30, 10, 20, 70, 40</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -343,28 +334,27 @@
         <correct_choice_text>| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1] | 6 | 0 | 2 | | [2] | 1 | 4 | 0 |</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 옳은·적절한 것 고르기
-[키워드] 그래프
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 그래프)
+정답은 ②이다. 본 문항은 그래프에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | ∞ | | [1] | 6 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice_text>
-          <commentary>논점: | [0.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1] | 6 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice_text>
-          <commentary>논점: | [0.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | 5 | | [1] | 3 | 0 | 2 | | [2] | 1 | 4 | 0 |</choice_text>
-          <commentary>논점: | [0.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>| | [0] | [1] | [2] | |---|---|---|---| | [0] | 0 | 3 | ∞ | | [1] | 6 | 0 | 2 | | [2] | 1 | 5 | 0 |</choice_text>
-          <commentary>논점: | [0.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="11" id="PRB-9701334D7592AF47-Q11">
       <question_stem>다음은 연결 스택(linked stack)에서 새로운 노드를 삽입하는 C 언어 프로그램이다. ㉠, ㉡에 들어갈 내용으로 옳게 짝지은 것은? (단, top은 스택의 첫 번째 노드를 가리키는 포인터이며, top이 NULL이면 공백 스택이다)</question_stem>
@@ -379,30 +369,29 @@
         <correct_choice_text>tmp→link = top top = tmp</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 빈칸·기호 추론형
-[키워드] 다음은 연결 스택(linked stack), void push(int data), sizeof(StackNode)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.
-[근거] “tmp→link = NULL;”</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 다음은 연결 스택(linked stack), void push(int data), sizeof(StackNode))
+정답은 ①이다. 본 문항은 다음은 연결 스택(linked stack), void push(int data), sizeof(StackNode)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+제시문 근거: "tmp→link = NULL;"</overall_commentary>
       <passage_evidence>tmp→link = NULL;</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>tmp→link = top top = tmp</choice_text>
-          <commentary>논점: tmp→link = top tmp.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "tmp→link = NULL;")</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>top→link = tmp tmp = top→link</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "tmp→link = NULL;")</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>top→link = tmp tmp = top</choice_text>
-          <commentary>논점: top→link = tmp top.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "tmp→link = NULL;")</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>tmp→link = top top = tmp→link</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "tmp→link = NULL;")</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="12" id="PRB-9701334D7592AF47-Q12">
       <question_stem>다음 키(key)를 갖는 데이터들을 공백 AVL 트리에 차례대로 저장하였다. 생성된 AVL 트리를 T라고 할 때, 다음 설명 중에서 옳은 것은?</question_stem>
@@ -415,28 +404,27 @@
         <correct_choice_text>키가 9인 노드와 키가 16인 노드는 형제 노드이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 다음 키(key)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 다음 키(key))
+정답은 ④이다. 본 문항은 다음 키(key)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>T에 키가 25인 노드를 삽입하면 루트 노드가 바뀌게 된다.</choice_text>
-          <commentary>‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
+          <commentary>'된다'라고 한 부분에서 성립 요건 또는 해당 여부를 잘못 서술하였다. 따라서 옳지 않다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>T에서 키가 9인 노드를 삭제하면 T의 높이가 1 감소한다.</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>T에 키가 7인 노드를 삽입하면 T의 높이가 1 증가한다.</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>키가 9인 노드와 키가 16인 노드는 형제 노드이다.</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="13" id="PRB-9701334D7592AF47-Q13">
       <question_stem>다음 C 언어 함수의 시간 복잡도를 빅오(O) 표기법으로 표현한 것은? (단, $n &gt; 1$)</question_stem>
@@ -451,25 +439,25 @@
         <correct_choice_text>O(nlogn)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 어법·규범·어휘형 · 옳은·적절한 것 고르기
-[키워드] void testing(int n), O(nlogn), O(logn)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 어법·규범·어휘형 (핵심어: void testing(int n), O(nlogn), O(logn))
+정답은 ③이다. 본 문항은 void testing(int n), O(nlogn), O(logn)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $n &gt; 1$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>O(n)</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>O(n^(2))</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>O(nlogn)</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>O(logn)</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -485,30 +473,29 @@
         <correct_choice_text>ptr != NULL temp = temp→link temp != ptr</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 빈칸·기호 추론형
-[키워드] 다음은 원형 연결 리스트(circular linked list)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.
-[근거] “temp = ptr;”</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 다음은 원형 연결 리스트(circular linked list))
+정답은 ①이다. 본 문항은 다음은 원형 연결 리스트(circular linked list)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+제시문 근거: "temp = ptr;"</overall_commentary>
       <passage_evidence>temp = ptr;</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>ptr != NULL temp = temp→link temp != ptr</choice_text>
-          <commentary>논점: ptr != NULL temp = temp→link !.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "temp = ptr;")</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ptr == NULL temp = temp→link temp == ptr</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "temp = ptr;")</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ptr != NULL ptr = temp→link temp != ptr</choice_text>
-          <commentary>논점: ptr != NULL = temp→link temp.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "temp = ptr;")</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ptr == NULL ptr = temp→link temp == ptr</choice_text>
-          <commentary>논점: ptr == NULL = temp→link temp.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "temp = ptr;")</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="15" id="PRB-9701334D7592AF47-Q15">
       <question_stem>이중 연결 리스트(doubly linked list)의 노드를 나타내는 구조체 node에 이전 노드를 가리키는 포인터 llink와 다음 노드를 가리키는 포인터 rlink가 있다고 하자. 포인터 new_node가 가리키는 노드를 포인터 p가 가리키는 노드의 왼쪽에 삽입할 때, 문장의 수행순서를 바르게 나열한 것은?</question_stem>
@@ -521,28 +508,27 @@
         <correct_choice_text>ㄷ → ㄹ → ㅂ → ㅅ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 이중 연결 리스트(doubly linked list)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 이중 연결 리스트(doubly linked list))
+정답은 ④이다. 본 문항은 이중 연결 리스트(doubly linked list)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ㄱ → ㄴ</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ㅂ → ㅅ → ㄷ → ㄹ</choice_text>
-          <commentary>논점: ㅂ → ㅅ ㄷ ㄹ.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>ㄷ → ㅂ → ㄹ → ㅁ</choice_text>
-          <commentary>논점: ㄷ → ㅂ ㄹ ㅁ.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="4" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>ㄷ → ㄹ → ㅂ → ㅅ</choice_text>
-          <commentary>논점: ㄷ → ㄹ ㅂ ㅅ.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="16" id="PRB-9701334D7592AF47-Q16">
       <question_stem>다음은 C 언어를 사용하여 원형 큐(circular queue)의 삽입(enqueue)과 삭제(dequeue) 연산을 구현한 것이다.</question_stem>
@@ -558,25 +544,24 @@
         <correct_choice_text>7 9 0 2 4 8 6 5</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] C 언어를 사용하여 원형 큐(circular queue), 의 삽입(enqueue), 과 삭제(dequeue), void enqueue(int item)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: C 언어를 사용하여 원형 큐(circular queue), 의 삽입(enqueue), 과 삭제(dequeue), void enqueue(int item))
+정답은 ③이다. 본 문항은 C 언어를 사용하여 원형 큐(circular queue), 의 삽입(enqueue), 과 삭제(dequeue), void enqueue(int item)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>0 7 9 2 4 8 6 5</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>2 4 8 6 5 7 9 0</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>7 9 0 2 4 8 6 5</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>9 0 2 4 8 6 5 7</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -592,30 +577,29 @@
         <correct_choice_text>a+1 = 2293536, *(*a+2) = 20, *(*(a+1)+2) = 40</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] C 프로그램의 출력 값
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.
-[근거] “int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},”</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: C 프로그램의 출력 값)
+정답은 ②이다. 본 문항은 C 프로그램의 출력 값에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+제시문 근거: "int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},"</overall_commentary>
       <passage_evidence>int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>a+1 = 2293521, *(*a+2) = 50, *(*(a+1)+2) = 55</choice_text>
-          <commentary>근거: “{50, 55, 60, 65}};”</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "{50, 55, 60, 65}};")</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>a+1 = 2293536, *(*a+2) = 20, *(*(a+1)+2) = 40</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다. (근거: "int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},")</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>a+1 = 2293521, *(*a+2) = 20, *(*(a+1)+2) = 40</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "int a[3][4] = {{10, 15, 20, 25}, {30, 35, 40, 45},")</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>a+1 = 2293536, *(*a+2) = 50, *(*(a+1)+2) = 55</choice_text>
-          <commentary>근거: “{50, 55, 60, 65}};”</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다. (근거: "{50, 55, 60, 65}};")</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="18" id="PRB-9701334D7592AF47-Q18">
       <question_stem>다음 인접행렬이 표현하는 그래프의 부분 그래프 중에서 간선(edge)이 최소한 1개 이상인 연결 그래프의 개수는?</question_stem>
@@ -628,28 +612,27 @@
         <correct_choice_text>14</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
-[키워드] 의 부분 그래프 중에서 간선(edge)
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 의 부분 그래프 중에서 간선(edge))
+정답은 ③이다. 본 문항은 의 부분 그래프 중에서 간선(edge)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X">
+        <choice_explanation no="1" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>12</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>13</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="3" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>14</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>15</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
     <question_explanation no="19" id="PRB-9701334D7592AF47-Q19">
       <question_stem>기수 정렬(radix sort)을 수행하여 다음 원소들을 오름차순으로 정렬하고자 한다. 각 단계별 정렬 순서로 나타날 수 없는 것은? (단, 정수 $K$는 $0 \leq K \leq 999$ 범위에 있고 각 자리수를 나타내는 3개의 서브키($K^{1}$, $K^{2}$, $K^{3}$)로 구성되어 있다고 생각한다. 여기서 $K^{1}$는 일의 자리 수, $K^{2}$는 십의 자리 수, $K^{3}$는 백의 자리 수를 의미하고, $0 \leq K^{i} \leq 9$이다)</question_stem>
@@ -662,25 +645,25 @@
         <correct_choice_text>92, 3, 33, 129, 308, 506, 841</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
-[키워드] 기수 정렬(radix sort)
-[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ②, 옳은 선지는 ①·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 기수 정렬(radix sort))
+정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
+관련 수식: $K$; $0 \leq K \leq 999$; $K^{1}$; $K^{2}$; $K^{3}$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O">
+        <choice_explanation no="1" is_answer="false" judgment="옳은 설명">
           <choice_text>3, 506, 308, 129, 33, 841, 92</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="X · 정답">
+        <choice_explanation no="2" is_answer="true" judgment="옳지 않은 설명 (정답)">
           <choice_text>92, 3, 33, 129, 308, 506, 841</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O">
+        <choice_explanation no="3" is_answer="false" judgment="옳은 설명">
           <choice_text>841, 92, 3, 33, 506, 308, 129</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O">
+        <choice_explanation no="4" is_answer="false" judgment="옳은 설명">
           <choice_text>3, 33, 92, 129, 308, 506, 841</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -699,28 +682,28 @@
         <correct_choice_text>$\alpha + 3 \bullet ( j - 1 ) + ( i - j )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
-[키워드] 이러한 행렬을 삼중대각행렬(tridiagonal matrix), 를 열 우선(column major), bullet ( j - 1 ), bullet ( i - 1 )
-[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 이러한 행렬을 삼중대각행렬(tridiagonal matrix), 를 열 우선(column major), bullet ( j - 1 ), bullet ( i - 1 ))
+정답은 ①이다. 본 문항은 이러한 행렬을 삼중대각행렬(tridiagonal matrix), 를 열 우선(column major), bullet ( j - 1 ), bullet ( i - 1 )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
+관련 수식: $M = ( a_{ij} )$; $\left | i - j \right | &gt; 1$; $6 \times 6$; $1 \leq i \leq m$; $1 \leq j \leq n$</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
+        <choice_explanation no="1" is_answer="true" judgment="옳은 설명 (정답)">
           <choice_text>$\alpha + 3 \bullet ( j - 1 ) + ( i - j )$</choice_text>
-          <commentary>옳은 내용이다.</commentary>
+          <commentary>관련 이론·법리 및 제시문의 취지에 부합하는 옳은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X">
+        <choice_explanation no="2" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\alpha + 3 \bullet ( j - 1 ) + ( j - i )$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X">
+        <choice_explanation no="3" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\alpha + 3 \bullet ( i - 1 ) + ( i - j )$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X">
+        <choice_explanation no="4" is_answer="false" judgment="옳지 않은 설명">
           <choice_text>$\alpha + 3 \bullet ( i - 1 ) + ( j - i )$</choice_text>
-          <commentary>옳지 않은 내용이다.</commentary>
+          <commentary>관련 이론·법리 또는 제시문의 내용과 어긋나는 옳지 않은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
-      <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2017 / 시험: 7급 공개경쟁채용시험)</exam_history>
+      <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
     </question_explanation>
   </explanations>
 </exam_explanations>

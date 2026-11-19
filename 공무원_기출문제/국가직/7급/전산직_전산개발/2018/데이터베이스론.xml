@@ -13,7 +13,7 @@
     <booklet_type>나</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>데이터베이스론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-425A482C65C09718-Q1" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
@@ -25,7 +25,7 @@
         <choice no="4" is_answer="false">데이터 갱신 시 중복된 모든 데이터를 찾아내어 갱신해야 하므로 갱신 비용이 추가된다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 1번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 파일처리 시스템에서 데이터 중복의 단점 | 정답 선지: 같은 데이터가 여러 곳에 중복되어 있어 동일 수준의 보안이 가능하다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">정답 ① · 핵심 개념·이론 이해형 (파일처리 시스템에서 데이터 중복의 단점)</explanation_ref>
     </question>
     <question no="2" id="PRB-425A482C65C09718-Q2" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>다음 데이터베이스 설계의 주요 단계를 순서대로 바르게 나열한 것은?</stem>
@@ -39,7 +39,7 @@
         <choice no="4" is_answer="false">ㄷ, ㅂ, ㄹ, ㄱ, ㅁ, ㄴ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 데이터베이스, 설계, 주요, 단계 | 보기 판정: ㄱ:O, ㄷ:O, ㅁ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">정답 ③ · 복합 보기 검증형 (데이터베이스, 설계, 주요, 단계) — 보기 판정: ㄱ(O), ㄷ(O), ㅁ(O)</explanation_ref>
     </question>
     <question no="3" id="PRB-425A482C65C09718-Q3" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>함수적 종속성과 정규화에 대한 설명으로 옳지 않은 것은?</stem>
@@ -50,7 +50,7 @@
         <choice no="4" is_answer="false">정규화는 함수적 종속성과 기본키를 기반으로 주어진 릴레이션 스키마를 분석하는 과정이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 2번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 함수적 종속성과 정규화 | 정답 선지: 함수적 종속성은 릴레이션 상태(외연)의 특성이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">정답 ② · 복합 보기 검증형 (함수적 종속성과 정규화)</explanation_ref>
     </question>
     <question no="4" id="PRB-425A482C65C09718-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>위치 기반 서비스(Location-Based Services)를 제공하는 시스템의 요소로 옳지 않은 것은?</stem>
@@ -61,7 +61,7 @@
         <choice no="4" is_answer="false">윈도우 질의</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 위치 기반 서비스(Location-Based Services), 푸시(push) | 정답 선지: TSQL2 언어</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">정답 ③ · 핵심 개념·이론 이해형 (위치 기반 서비스(Location-Based Services), 푸시(push))</explanation_ref>
     </question>
     <question no="5" id="PRB-425A482C65C09718-Q5" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>SQL 질의문은 동치인 관계대수식으로 변환할 수 있다. 다음 SQL 질의문을 관계대수식으로 변환한 것 중 옳은 것은? (단, 제품 테이블 P, 판매 테이블 S, 집계함수 표현을 위한 관계대수 연산자 기호는 $IMAG$로 한다)</stem>
@@ -85,7 +85,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="true">$\begin{gathered}{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( \\ \sigma_{P . pName =^{\prime} P1^{\prime}} ( P ) \bowtie _{P . pId = S . pId} S \\ )\end{gathered}$</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: SELECT SUM(sAmount) | 정답 선지: $\begin{gathered}{}_{sDate} IMAG_{\text{SUM} ( sAmount )} ( \\ \s...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">정답 ④ · 핵심 개념·이론 이해형 (SELECT SUM(sAmount))</explanation_ref>
     </question>
     <question no="6" id="PRB-425A482C65C09718-Q6" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 트랜잭션의 선행그래프 및 그와 동치인 직렬 가능한 스케줄의 쌍들이다. 이 쌍들 중 옳지 않은 것은?</stem>
@@ -105,7 +105,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="false">동치 직렬 스케줄: T3 → T1 → T2</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 트랜잭션, 선행그래프, 그와, 동치인 | 정답 선지: 동치 직렬 스케줄: T3 → T1 → T2</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">정답 ② · 핵심 개념·이론 이해형 (트랜잭션, 선행그래프, 그와, 동치인)</explanation_ref>
     </question>
     <question no="7" id="PRB-425A482C65C09718-Q7" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음 ‘사원’ 테이블을 생성하는 SQL문에서 부서의 속성값을 ‘인사’, ‘연구’, ‘영업’으로 제한하고자 한다. ㉠, ㉡에 들어갈 내용으로 옳은 것은?</stem>
@@ -121,7 +121,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="true">CHECK IN</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 이름 CHAR(10), 직급 CHAR(10), 부서 CHAR(10), 사원, 인사 | 정답 선지: CHECK IN</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">정답 ④ · 핵심 개념·이론 이해형 (이름 CHAR(10), 직급 CHAR(10), 부서 CHAR(10), 사원, 인사)</explanation_ref>
     </question>
     <question no="8" id="PRB-425A482C65C09718-Q8" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>2개의 계좌 A1, A2의 잔액이 각각 2,000,000원, 3,000,000원이라고 하자. 이 상태에서 각 계좌의 관리를 수행하는 트랜잭션 T1 및 T2의 실행이 다음과 같을 때, 발생한 현상으로 옳은 것은?</stem>
@@ -136,7 +136,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="false">유령 판독(phantom read)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 의 수행이 실패함 오손 판독(dirty read), 반복할 수 없는 판독(non-repeatable read), 부정확한 요약(incorrect summary), 유령 판독(phantom read) | 정답 선지: 오손 판독(dirty read)</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">정답 ① · 핵심 개념·이론 이해형 (의 수행이 실패함 오손 판독(dirty read), 반복할 수 없는 판독(non-repeatable read), 부정확한 요약(incorrect summary), 유령 판독(phantom read))</explanation_ref>
     </question>
     <question no="9" id="PRB-425A482C65C09718-Q9" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>로킹(locking)을 이용한 DBMS 동시성 제어 기법의 설명으로 옳은 것은?</stem>
@@ -147,7 +147,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="false">2단계 로킹 프로토콜을 활용하면 불필요한 교착상태(deadlock)를 회피할 수 있어서 트랜잭션의 철회(rollback)를 막을 수 있다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 로킹(locking), 을 제어하면 항상 직렬 가능(serializable), 로크가 걸려있는 노드에 IS(intention-shared), 활용하면 불필요한 교착상태(deadlock), 수 있어서 트랜잭션의 철회(rollback) | 정답 선지: 다중 단위 로킹(multiple granularity locking) 프로토콜에서 SIX(intention-share...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">정답 ③ · 핵심 개념·이론 이해형 (로킹(locking), 을 제어하면 항상 직렬 가능(serializable), 로크가 걸려있는 노드에 IS(intention-shared), 활용하면 불필요한 교착상태(deadlock), 수 있어서 트랜잭션의 철회(rollback))</explanation_ref>
     </question>
     <question no="10" id="PRB-425A482C65C09718-Q10" type="부정형(옳지 않은 것 고르기)" category="어법·규범·어휘형">
       <stem>다음 ERD(Entity-Relationship Diagram)를 관계형 데이터베이스 스키마로 변환한 것으로 옳지 않은 것은?(단, 밑줄은 기본키이다)</stem>
@@ -162,7 +162,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="true">E1(&lt;u&gt;KA1&lt;/u&gt;, A2, KA2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3, A4)</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 4번] 부정형(옳지 않은 것 고르기) (어법·규범·어휘형) | 핵심어: 관계형, 데이터베이스, 스키마, 변환한 | 정답 선지: E1(&lt;u&gt;KA1&lt;/u&gt;, A2, KA2) E2(&lt;u&gt;KA2&lt;/u&gt;, A3, A4)</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">정답 ④ · 어법·규범·어휘형 (관계형, 데이터베이스, 스키마, 변환한)</explanation_ref>
     </question>
     <question no="11" id="PRB-425A482C65C09718-Q11" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>(가), (나), (다)는 데이터베이스의 보안 위협에서 보호되어야 하는 성질을 설명하고 있다. ㉠, ㉡, ㉢에 들어갈 용어로 옳은 것은?</stem>
@@ -176,7 +176,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="false">기밀성 무결성 조직성</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 2번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 데이터베이스, 보안, 위협에서, 보호되어야 | 정답 선지: 무결성 가용성 기밀성</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">정답 ② · 핵심 개념·이론 이해형 (데이터베이스, 보안, 위협에서, 보호되어야)</explanation_ref>
     </question>
     <question no="12" id="PRB-425A482C65C09718-Q12" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>다음 관계형 데이터베이스 릴레이션의 특성으로 옳은 것만을 모두 고르면?</stem>
@@ -192,7 +192,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="true">ㄱ, ㄴ, ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 4번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 관계형 데이터베이스 릴레이션의 특성, 릴레이션에서 속성은 다중값(multiple value) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:O, ㄹ:O, ㅁ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">정답 ④ · 복합 보기 검증형 (관계형 데이터베이스 릴레이션의 특성, 릴레이션에서 속성은 다중값(multiple value)) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(O), ㄹ(O), ㅁ(X)</explanation_ref>
     </question>
     <question no="13" id="PRB-425A482C65C09718-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 장바구니 트랜잭션의 예이다. 연관규칙(Association Rule)을 발견하기 위해 Apriori 알고리즘을 적용한다고 가정할 때, 다음 설명으로 옳지 않은 것은?</stem>
@@ -210,7 +210,7 @@ GROUP BY sDate;</passage>
         <choice no="4" is_answer="false">규칙 A → B의 지지도는 40 %이다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 연관규칙(Association Rule), 의 지지도(support), 의 신뢰도(confidence) | 정답 선지: 규칙 A → {B, D}의 신뢰도(confidence)가 {A, B} → D의 신뢰도보다 크거나 같다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">정답 ③ · 핵심 개념·이론 이해형 (연관규칙(Association Rule), 의 지지도(support), 의 신뢰도(confidence))</explanation_ref>
     </question>
     <question no="14" id="PRB-425A482C65C09718-Q14" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 EMPLOYEE, PROJECT, WORKSON 테이블로 구성된 데이터베이스에서, “모든 프로젝트에 참가하는 직원의 이름을 검색하라.”를 수행하기 위한 SQL문으로 옳은 것은?</stem>
@@ -224,7 +224,7 @@ WORKSON( &lt;u&gt;eNo, pNo&lt;/u&gt; )</passage>
         <choice no="4" is_answer="false">SELECT eName FROM EMPLOYEE E WHERE EXISTS ( ( SELECT pNo FROM PROJECT) EXCEPT ( SELECT pNo FROM WORKSON W WHERE E.eNo = W.eNo ) );</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 테이블, 구성된, 데이터베이스에서, 모든 | 정답 선지: SELECT eName FROM EMPLOYEE E WHERE NOT EXISTS ( SELECT P.pNo FROM...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">정답 ② · 핵심 개념·이론 이해형 (테이블, 구성된, 데이터베이스에서, 모든)</explanation_ref>
     </question>
     <question no="15" id="PRB-425A482C65C09718-Q15" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>하루 수천 건의 거래가 발생하는 온라인 쇼핑몰에서 ‘주문정보’ 테이블은 대용량의 데이터를 저장해야 하고 트랜잭션이 자주 발생하기 때문에 주문정보 시스템의 성능에 크게 영향을 준다. 다음 질의가 빈번하게 발생하는 상태에서 성능향상을 위하여 ‘주문정보’ 테이블의 ‘주문일자’ ＋ ‘순번’ 속성으로 구성된 키(key)에 대해 인덱스를 생성하고자 할 때, 성능향상에 적합한 인덱스 구조로 옳은 것만을 모두 고르면?</stem>
@@ -242,7 +242,7 @@ WHERE 주문일자 BETWEEN '03-01-2016' AND '03-31-2016';
         <choice no="4" is_answer="false">ㄱ, ㄴ, ㄹ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 속성으로 구성된 키(key), 비트맵(bitmap), 주문정보, 주문일자, 순번 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X, ㄹ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">정답 ② · 복합 보기 검증형 (속성으로 구성된 키(key), 비트맵(bitmap), 주문정보, 주문일자, 순번) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)</explanation_ref>
     </question>
     <question no="16" id="PRB-425A482C65C09718-Q16" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
       <stem>다음의 ‘선택적필드’를 갖는 가변길이 레코드 10,000개가 저장된 PLAYER 파일이 있다. PLAYER 파일 내의 레코드는 &lt;필드유형, 필드값&gt;으로 표현되는 ‘선택적필드’들로 구성되어 있으며, 레코드 끝 부분에 1바이트의 ‘삭제표시자’와 1바이트의 ‘레코드 끝 표시자’를 포함한다. PLAYER 파일에 저장되어 있는 레코드들의 상태는 &lt;선택적필드를 갖는 가변길이 레코드 저장 상태&gt; 표에 제시되어 있으며, 레코드를 저장하기 위한 블록 구조 역시 &lt;PLAYER 파일 구성을 위한 블록 구조&gt; 표에 제시되어 있다. 이와 같은 상태에서 PLAYER 파일에 저장되어 있는 레코드들의 평균 크기와 필요한 블록 수를 계산한 결과는?</stem>
@@ -273,7 +273,7 @@ WHERE 주문일자 BETWEEN '03-01-2016' AND '03-31-2016';
         <choice no="4" is_answer="false">71바이트 294개</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 1번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 신장(spanned), 선택적필드, 삭제표시자, 레코드 끝 표시자 | 정답 선지: 70바이트 293개</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">정답 ① · 수리·계산·자료해석형 (신장(spanned), 선택적필드, 삭제표시자, 레코드 끝 표시자)</explanation_ref>
     </question>
     <question no="17" id="PRB-425A482C65C09718-Q17" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>릴레이션 스키마 R(A, B, C, D, E, F, G, H, I)에 대하여 다음과 같은 함수적 종속성의 집합 F가 주어졌을 때, 스키마 R의 속성들의 부분집합 {A, G}에 대하여, F 하의 {A, G}의 폐포(closure) {A, G}^(＋)로 옳은 것은?</stem>
@@ -285,7 +285,7 @@ WHERE 주문일자 BETWEEN '03-01-2016' AND '03-31-2016';
         <choice no="4" is_answer="true">{A, B, C, E, G, I, F}</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션 스키마 R(A, B, C, D, E, F, G, H, I), 의 폐포(closure) | 정답 선지: {A, B, C, E, G, I, F}</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">정답 ④ · 핵심 개념·이론 이해형 (릴레이션 스키마 R(A, B, C, D, E, F, G, H, I), 의 폐포(closure))</explanation_ref>
     </question>
     <question no="18" id="PRB-425A482C65C09718-Q18" type="긍정형(옳은/적절한 것 고르기)" category="수리·계산·자료해석형">
       <stem>다음은 장애 발생 시 지연 갱신 회복 기법으로 복구하는 데이터베이스 시스템의 로그 기록이다. T3를 수행하던 도중 시스템 장애가 발생했을 때 수행되는 복구 절차로 옳은 것은?</stem>
@@ -300,7 +300,7 @@ WHERE 주문일자 BETWEEN '03-01-2016' AND '03-31-2016';
         <choice no="4" is_answer="false">T1과 T2는 이미 데이터베이스에 반영되어 있으므로 별도의 연산을 수행하지 않고, T3를 redo 연산을 수행하여 복구한다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 3번] 긍정형(옳은/적절한 것 고르기) (수리·계산·자료해석형) | 핵심어: 장애, 발생, 지연, 갱신 | 정답 선지: T1과 T2를 redo 연산을 수행하여 복구하고, T3에 대해서는 별도의 연산을 수행하지 않는다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">정답 ③ · 수리·계산·자료해석형 (장애, 발생, 지연, 갱신)</explanation_ref>
     </question>
     <question no="19" id="PRB-425A482C65C09718-Q19" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>다음은 트랜잭션 격리수준(Isolation Level) 설정을 위한 SQL 표준 형식이다. 이를 이용하여 설정할 수 있는 트랜잭션 격리수준에 대한 설명으로 옳지 않은 것은?</stem>
@@ -316,7 +316,7 @@ ISOLATION LEVEL {READ UNCOMMITTED
         <choice no="4" is_answer="true">SERIALIZABLE로 설정된 트랜잭션은 격리성을 완전하게 유지함으로써 트랜잭션의 일관성을 보존하고 동시에 수행 중인 트랜잭션들의 처리율을 향상시킨다.</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 다음은 트랜잭션 격리수준(Isolation Level) | 정답 선지: SERIALIZABLE로 설정된 트랜잭션은 격리성을 완전하게 유지함으로써 트랜잭션의 일관성을 보존하고 동시에 수행 중...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">정답 ④ · 복합 보기 검증형 (다음은 트랜잭션 격리수준(Isolation Level))</explanation_ref>
     </question>
     <question no="20" id="PRB-425A482C65C09718-Q20" type="긍정형(옳은/적절한 것 고르기)" category="지문 독해·추론형">
       <stem>&lt;보기 1&gt;은 관계형 데이터베이스 스키마와 이 스키마에 대하여 “1980년 이후에 출생하고 프로젝트명이 ‘DBMS개발’인 프로젝트를 수행하는 연구원 이름을 검색하라.”를 SQL로 표현한 것이다. &lt;보기 2&gt;는 경험적 최적화 기법을 적용하여 최적화를 수행하기 위해, &lt;보기 1&gt;의 SQL 질의문에서 생성되는 초기 질의트리를 최적화된 질의트리로 변환하는 과정에서 유도되는 관계대수식의 목록이다. 최적화 순서에 맞도록 바르게 나열한 것은? (단, 연구원 테이블 R, 프로젝트 테이블 P, 프로젝트 팀 테이블 T라 한다)</stem>
@@ -372,7 +372,7 @@ SQL 질의문:
         <choice no="4" is_answer="false">ㄱ → ㄴ → ㄷ → ㄹ → ㅁ</choice>
       </choices>
       <answer source="정답표 (책형교차대조: 일치)" cross_check="일치">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 3번] 긍정형(옳은/적절한 것 고르기) (지문 독해·추론형) | 핵심어: DBMS개발 | 정답 선지: ㄴ → ㄷ → ㅁ → ㄹ → ㄱ</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">정답 ③ · 지문 독해·추론형 (DBMS개발)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

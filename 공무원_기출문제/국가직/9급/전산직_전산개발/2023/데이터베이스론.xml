@@ -13,7 +13,7 @@
     <booklet_type>나</booklet_type>
     <total_questions>20</total_questions>
     <explanation_file>데이터베이스론_해설.xml</explanation_file>
-    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형) · 법제처 국가법령정보센터(MCP) 검증 완료</source>
+    <source>인사혁신처 사이버국가고시센터 (공공누리 제1유형)</source>
   </metadata>
   <questions>
     <question no="1" id="PRB-49C3151822DACB4E-Q1" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
@@ -27,7 +27,7 @@
         <choice no="4" is_answer="false">회귀 분석</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">[정답 3번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 다음에서, 설명하, 데이터, 마이닝 | 정답 선지: 연관 분석</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="1">정답 ③ · 핵심 개념·이론 이해형 (다음에서, 설명하, 데이터, 마이닝)</explanation_ref>
     </question>
     <question no="2" id="PRB-49C3151822DACB4E-Q2" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>시스템 카탈로그에 대한 설명으로 옳지 않은 것은?</stem>
@@ -38,7 +38,7 @@
         <choice no="4" is_answer="false">RDBMS마다 서로 다른 형태로 시스템 카탈로그를 제공한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 시스템 카탈로그, 데이터 사전(data dictionary) | 정답 선지: 일반 사용자도 시스템 카탈로그에 내용을 추가하거나 수정할 수 있다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="2">정답 ③ · 핵심 개념·이론 이해형 (시스템 카탈로그, 데이터 사전(data dictionary))</explanation_ref>
     </question>
     <question no="3" id="PRB-49C3151822DACB4E-Q3" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음에서 설명하는 데이터베이스 무결성 제약조건(integrity constraint)은?</stem>
@@ -51,7 +51,7 @@
         <choice no="4" is_answer="false">참조 무결성 제약조건</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 무결성 제약조건(integrity constraint), 기본키 제약(primary key constraint), 기본키는 널(NULL) | 정답 선지: 개체 무결성 제약조건</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="3">정답 ① · 핵심 개념·이론 이해형 (데이터베이스 무결성 제약조건(integrity constraint), 기본키 제약(primary key constraint), 기본키는 널(NULL))</explanation_ref>
     </question>
     <question no="4" id="PRB-49C3151822DACB4E-Q4" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스 모델에서 사용되는 키(key)에 대한 설명으로 옳지 않은 것은?</stem>
@@ -62,7 +62,7 @@
         <choice no="4" is_answer="false">널(NULL) 값을 가질 수 있는 속성이 포함된 후보키는 기본키로 부적합하다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">[정답 3번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 모델에서 사용되는 키(key), 베이스 모델에서 사용되는 키(key), 후보키(candidate key), 슈퍼키(super key), 대체키(alternate key) | 정답 선지: 대체키(alternate key)는 기본키(primary key)로 선택되지 못한 외래키(foreign key)들이다...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="4">정답 ③ · 핵심 개념·이론 이해형 (데이터베이스 모델에서 사용되는 키(key), 베이스 모델에서 사용되는 키(key), 후보키(candidate key), 슈퍼키(super key), 대체키(alternate key))</explanation_ref>
     </question>
     <question no="5" id="PRB-49C3151822DACB4E-Q5" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>릴레이션 R_(1), R_(2), R_(3)의 스키마는 R_(1)(&lt;u&gt;A&lt;/u&gt;, B, C), R_(2)(&lt;u&gt;C&lt;/u&gt;, D, E), R_(3)(&lt;u&gt;E&lt;/u&gt;, F)이고, 기본키는 각각 A, C, E이다. 튜플의 수가 R_(1)은 100개, R_(2)는 150개, R_(3)은 75개라고 할 때, R_(1) ⋈_(N) R_(2) ⋈_(N) R_(3)의 결과에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
@@ -76,7 +76,7 @@
         <choice no="4" is_answer="false">ㄱ, ㄴ, ㄷ</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">[정답 3번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 릴레이션, 스키마, 이고, 기본키 | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:X</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="5">정답 ③ · 복합 보기 검증형 (릴레이션, 스키마, 이고, 기본키) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(X)</explanation_ref>
     </question>
     <question no="6" id="PRB-49C3151822DACB4E-Q6" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>데이터베이스의 스키마와 인스턴스에 관한 설명을 바르게 연결한 것은?</stem>
@@ -91,7 +91,7 @@
         <choice no="4" is_answer="false">ㄴ, ㄹ ㄱ, ㄷ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 데이터베이스의 스키마와 인스턴스, DDL(Data Definition Language) | 보기 판정: ㄱ:O, ㄴ:O, ㄷ:O, ㄹ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="6">정답 ② · 복합 보기 검증형 (데이터베이스의 스키마와 인스턴스, DDL(Data Definition Language)) — 보기 판정: ㄱ(O), ㄴ(O), ㄷ(O), ㄹ(O)</explanation_ref>
     </question>
     <question no="7" id="PRB-49C3151822DACB4E-Q7" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>데이터베이스 회복(recovery) 기법에 대한 설명으로 옳은 것은?</stem>
@@ -102,7 +102,7 @@
         <choice no="4" is_answer="false">즉시갱신에 기반을 둔 회복 기법은 NO-UNDO/REDO에 의해 수행된다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">[정답 1번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 데이터베이스 회복(recovery) 기법, 데이터베이스 회복(recovery) | 정답 선지: 트랜잭션이 갱신한 캐시 버퍼 페이지를 트랜잭션이 완료되기 전에 디스크에 기록할 수 있는 방식을 steal이라고 한다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="7">정답 ① · 핵심 개념·이론 이해형 (데이터베이스 회복(recovery) 기법, 데이터베이스 회복(recovery))</explanation_ref>
     </question>
     <question no="8" id="PRB-49C3151822DACB4E-Q8" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>SQL에서 다음 상품 테이블에 대한 ANY와 ALL 연산의 결과로 옳지 않은 것은?</stem>
@@ -119,7 +119,7 @@
         <choice no="4" is_answer="false">‘30000 &gt; ALL (SELECT 가격 FROM 상품)’은 거짓이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">[정답 3번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: SQL에서 다음 상품 테이블 | 정답 선지: ‘30000 &lt;&gt; ALL (SELECT 가격 FROM 상품)’은 참이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="8">정답 ③ · 복합 보기 검증형 (SQL에서 다음 상품 테이블)</explanation_ref>
     </question>
     <question no="9" id="PRB-49C3151822DACB4E-Q9" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>SQL 명령어 중에서 데이터 제어어(DCL)만을 모두 고르면?</stem>
@@ -134,7 +134,7 @@
         <choice no="4" is_answer="false">ㄴ, ㄷ, ㄹ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 명령어 중에서 데이터 제어어(DCL) | 보기 판정: ㄱ:X, ㄴ:O, ㄷ:X, ㄹ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="9">정답 ② · 복합 보기 검증형 (명령어 중에서 데이터 제어어(DCL)) — 보기 판정: ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O)</explanation_ref>
     </question>
     <question no="10" id="PRB-49C3151822DACB4E-Q10" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>역정규화(denormalization)에 대한 설명으로 옳지 않은 것은?</stem>
@@ -145,7 +145,7 @@
         <choice no="4" is_answer="false">여러 테이블을 결합하는 데 시간이 오래 걸리는 경우, 역정규화를 통해 검색 시간을 단축할 수 있다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 역정규화(denormalization), 갱신 시간이 중요한(time critical) | 정답 선지: 갱신 시간이 중요한(time critical) 연산을 지원하기 위해 사용된다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="10">정답 ② · 핵심 개념·이론 이해형 (역정규화(denormalization), 갱신 시간이 중요한(time critical))</explanation_ref>
     </question>
     <question no="11" id="PRB-49C3151822DACB4E-Q11" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음은 CLUB 테이블과 MEETING 테이블에 대한 SQL문이다. 실행 결과에 대한 설명으로 옳은 것은?</stem>
@@ -179,7 +179,7 @@ WHERE 참석수&gt;=3);</passage>
         <choice no="4" is_answer="true">검색된 레코드의 합은 45이다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">[정답 4번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 은 CLUB 테이블과 MEETING 테이블 | 정답 선지: 검색된 레코드의 합은 45이다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="11">정답 ④ · 핵심 개념·이론 이해형 (은 CLUB 테이블과 MEETING 테이블)</explanation_ref>
     </question>
     <question no="12" id="PRB-49C3151822DACB4E-Q12" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음 릴레이션 고객과 주문에 대한 완전외부조인(full outer join) 연산의 결과로 (가), (라)에 들어갈 내용은?</stem>
@@ -206,7 +206,7 @@ WHERE 참석수&gt;=3);</passage>
         <choice no="4" is_answer="true">ok NULL</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 릴레이션 고객과 주문, 과 주문에 대한 완전외부조인(full outer join) | 정답 선지: ok NULL</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="12">정답 ④ · 핵심 개념·이론 이해형 (릴레이션 고객과 주문, 과 주문에 대한 완전외부조인(full outer join))</explanation_ref>
     </question>
     <question no="13" id="PRB-49C3151822DACB4E-Q13" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>분산 데이터베이스에 대한 설명으로 옳지 않은 것은?</stem>
@@ -217,7 +217,7 @@ WHERE 참석수&gt;=3);</passage>
         <choice no="4" is_answer="false">각 노드들은 독립적으로 동작할 수 있는 자치성을 가진다.</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">[정답 2번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 분산 데이터베이스 | 정답 선지: 수평적 단편화는 릴레이션을 속성 단위로 나눈다.</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="13">정답 ② · 핵심 개념·이론 이해형 (분산 데이터베이스)</explanation_ref>
     </question>
     <question no="14" id="PRB-49C3151822DACB4E-Q14" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음은 인덱스에 관한 내용이다. (가), (나)에 들어갈 용어를 바르게 연결한 것은?</stem>
@@ -230,7 +230,7 @@ WHERE 참석수&gt;=3);</passage>
         <choice no="4" is_answer="true">비트맵 인덱스 확장성 해싱</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">[정답 4번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: 은 인덱스, 은 디렉터리(directory), 와 버킷(bucket) | 정답 선지: 비트맵 인덱스 확장성 해싱</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="14">정답 ④ · 핵심 개념·이론 이해형 (은 인덱스, 은 디렉터리(directory), 와 버킷(bucket))</explanation_ref>
     </question>
     <question no="15" id="PRB-49C3151822DACB4E-Q15" type="수치/계산 도출형" category="수리·계산·자료해석형">
       <stem>다음 도서 테이블에 대한 SQL문을 수행하였을 때, 결과 테이블의 튜플 수는?</stem>
@@ -257,7 +257,7 @@ WHERE 저자명 = ‘Anderson’;</passage>
         <choice no="4" is_answer="false">4</choice>
       </choices>
       <answer source="정답표" cross_check="">3</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">[정답 3번] 수치/계산 도출형 (수리·계산·자료해석형) | 핵심어: 도서 테이블 | 정답 선지: 3</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="15">정답 ③ · 수리·계산·자료해석형 (도서 테이블)</explanation_ref>
     </question>
     <question no="16" id="PRB-49C3151822DACB4E-Q16" type="긍정형(옳은/적절한 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>다음 릴레이션 R1과 R2에 대한 디비전 연산(R1 ÷ R2)의 결과는?</stem>
@@ -285,7 +285,7 @@ WHERE 저자명 = ‘Anderson’;</passage>
         <choice no="4" is_answer="false">A1 s1 s2 s3 s4 s5</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">[정답 2번] 긍정형(옳은/적절한 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 릴레이션 R1과 R2 | 정답 선지: A1 s2 s3</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="16">정답 ② · 핵심 개념·이론 이해형 (릴레이션 R1과 R2)</explanation_ref>
     </question>
     <question no="17" id="PRB-49C3151822DACB4E-Q17" type="&lt;보기&gt; 조합형(옳은 것 고르기)" category="복합 보기 검증형">
       <stem>다음은 5개 트랜잭션의 충돌 직렬가능(conflict serializable) 스케줄에 대한 우선순위 그래프이다. 이에 대한 설명으로 옳은 것만을 모두 고르면?</stem>
@@ -303,7 +303,7 @@ WHERE 저자명 = ‘Anderson’;</passage>
         <choice no="4" is_answer="false">ㄴ, ㄹ</choice>
       </choices>
       <answer source="정답표" cross_check="">2</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">[정답 2번] &lt;보기&gt; 조합형(옳은 것 고르기) (복합 보기 검증형) | 핵심어: 개 트랜잭션의 충돌 직렬가능(conflict serializable) | 보기 판정: ㄱ:O, ㄴ:X, ㄷ:X, ㄹ:O</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="17">정답 ② · 복합 보기 검증형 (개 트랜잭션의 충돌 직렬가능(conflict serializable)) — 보기 판정: ㄱ(O), ㄴ(X), ㄷ(X), ㄹ(O)</explanation_ref>
     </question>
     <question no="18" id="PRB-49C3151822DACB4E-Q18" type="O/X 판별 조합형" category="복합 보기 검증형">
       <stem>다음 SQL문을 통해 생성된 학생 테이블에 새로운 속성으로 ‘나이’를 추가하고자 한다. 이를 위한 SQL문으로 옳은 것은? (단, ‘나이’의 데이터 타입은 CHAR(3)이다)</stem>
@@ -319,7 +319,7 @@ WHERE 저자명 = ‘Anderson’;</passage>
         <choice no="4" is_answer="true">ALTER TABLE 학생 ADD 나이 CHAR(3);</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">[정답 4번] O/X 판별 조합형 (복합 보기 검증형) | 핵심어: 학번 CHAR(10), 이름 CHAR(20), 주소 CHAR(50), 전화번호 CHAR(13), 나이 | 정답 선지: ALTER TABLE 학생 ADD 나이 CHAR(3);</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="18">정답 ④ · 복합 보기 검증형 (학번 CHAR(10), 이름 CHAR(20), 주소 CHAR(50), 전화번호 CHAR(13), 나이)</explanation_ref>
     </question>
     <question no="19" id="PRB-49C3151822DACB4E-Q19" type="부정형(옳지 않은 것 고르기)" category="핵심 개념·이론 이해형">
       <stem>도서관 데이터베이스의 도서 테이블이 ‘도서ID’, ‘도서명’, ‘대출횟수’를 포함하여 총 30개의 속성으로 구성되어 있다. 100번 이상 대출된 도서만을 대상으로 별도의 서비스를 준비하기 위해 다음과 같이 ‘인기도서’ 뷰를 생성하였을 때 이에 대한 설명으로 옳지 않은 것은? (단, 도서 테이블의 기본키는 ‘도서ID’이며, 도서 테이블에 ‘도서ID’가 123인 레코드는 저장되어 있지 않다)</stem>
@@ -334,7 +334,7 @@ WITH CHECK OPTION;</passage>
         <choice no="4" is_answer="true">‘INSERT INTO 인기도서 VALUES(123, ‘데이터베이스’, 5);’를 수행하면 도서 테이블에 레코드가 추가된다.</choice>
       </choices>
       <answer source="정답표" cross_check="">4</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">[정답 4번] 부정형(옳지 않은 것 고르기) (핵심 개념·이론 이해형) | 핵심어: 도서ID, 도서명, 대출횟수, 인기도서 | 정답 선지: ‘INSERT INTO 인기도서 VALUES(123, ‘데이터베이스’, 5);’를 수행하면 도서 테이블에 레코드가 추...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="19">정답 ④ · 핵심 개념·이론 이해형 (도서ID, 도서명, 대출횟수, 인기도서)</explanation_ref>
     </question>
     <question no="20" id="PRB-49C3151822DACB4E-Q20" type="빈칸/기호 추론형" category="핵심 개념·이론 이해형">
       <stem>다음은 A고객의 포인트 1000점을 B고객에게 전송하는 SQL문이다. 이 SQL문을 하나의 트랜잭션으로 처리할 때 이에 대한 설명으로 옳지 않은 것은? (단, A고객과 B고객의 ‘ID’는 각각 123과 456이며, 트랜잭션 수행 전 ‘포인트’는 각각 5000과 200이다)</stem>
@@ -351,7 +351,7 @@ WHERE ID = 456; ················· (나)</passage>
         <choice no="4" is_answer="false">트랜잭션이 (나)까지 성공적으로 완료되면 A고객과 B고객의 포인트 변경 결과는 장애가 발생하더라도 손실되지 않도록 보장되어야 한다.</choice>
       </choices>
       <answer source="정답표" cross_check="">1</answer>
-      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">[정답 1번] 빈칸/기호 추론형 (핵심 개념·이론 이해형) | 핵심어: ID, 포인트 | 정답 선지: 동시 공유라는 데이터베이스의 특성으로 인해 (가)까지 수행된 결과를 다른 트랜잭션에서 접근할 수 있도록 허용해야 한다...</explanation_ref>
+      <explanation_ref file="데이터베이스론_해설.xml" question_no="20">정답 ① · 핵심 개념·이론 이해형 (ID, 포인트)</explanation_ref>
     </question>
   </questions>
 </exam_paper>

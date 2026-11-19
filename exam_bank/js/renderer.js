@@ -144,7 +144,119 @@ function buildUnifiedTable(tableLines) {
 }
 
 /**
- * 지문/사례/보기 텍스트를 문단, 표, 상자 라벨, ㄱ·ㄴ·ㄷ·ㄹ 항목으로 정규화하여 렌더링합니다.
+ * 프로그래밍 코드 라인인지 판별합니다.
+ */
+function isCodeLine(line) {
+  const t = line.trim();
+  if (!t) return false;
+  return (
+    /^#(include|define|ifdef|ifndef|endif)\b/.test(t) ||
+    /^(int|void|char|float|double|long|short|struct|typedef|class|public|private|protected|static|using|namespace|return|break|continue|switch|case|default|import|from|def|elif|else|try|except|finally|SELECT|INSERT|UPDATE|DELETE|CREATE|ALTER|DROP|FROM|WHERE|GROUP BY|ORDER BY)\b/.test(t) ||
+    /\b(printf|scanf|cout|cin|System\.out|println|print|malloc|free|sizeof)\s*\(/.test(t) ||
+    /^(for|while|if|do)\s*\(/.test(t) ||
+    /^[{}];?$/.test(t) ||
+    /;\s*$/.test(t)
+  );
+}
+
+/**
+ * 한 줄로 붙었거나 들여쓰기가 소실된 C/Java/Python/SQL 코드를
+ * 줄바꿈 및 중괄호·콜론 깊이 기반 들여쓰기로 정돈합니다.
+ */
+function formatCodeLines(rawLines) {
+  // 1단계: 한 줄에 붙은 중괄호/세미콜론 분리 (예: "{ int *ip;" -> "{\nint *ip;")
+  const expanded = [];
+  for (const raw of rawLines) {
+    let line = raw.replace(/\t/g, "    ");
+    const trimmed = line.trim();
+    if (!trimmed) {
+      expanded.push("");
+      continue;
+    }
+    // '{' 뒤에 코드가 바로 붙어 있는 경우 분리 (배열 초기화 "= {1, 2, 3}" 제외)
+    if (/^\{\s+\S/.test(trimmed) && !/=\s*\{/.test(trimmed)) {
+      expanded.push("{");
+      expanded.push(trimmed.slice(1).trim());
+      continue;
+    }
+    // 한 줄에 여러 문장이 세미콜론으로 붙어 있고 for(...) 헤더가 아닌 경우 분리
+    if (
+      !/^\s*for\s*\(/.test(trimmed) &&
+      (trimmed.match(/;/g) || []).length >= 2 &&
+      trimmed.length > 45
+    ) {
+      const parts = trimmed.split(/;\s*/).filter(Boolean);
+      for (let idx = 0; idx < parts.length; idx++) {
+        const suffix = idx < parts.length - 1 || trimmed.endsWith(";") ? ";" : "";
+        expanded.push(parts[idx] + suffix);
+      }
+      continue;
+    }
+    expanded.push(line);
+  }
+
+  // 2단계: 이미 원본 들여쓰기가 살아있는지 확인 (Python 등)
+  const hasExistingIndent = expanded.some((l) => /^\s{2,}\S/.test(l));
+  if (hasExistingIndent) {
+    return expanded;
+  }
+
+  // 3단계: 중괄호({}) 또는 Python 콜론(:) 기반 자동 들여쓰기 복원
+  const usesBraces = expanded.some((l) => /[{}]/.test(l));
+  const formatted = [];
+  let depth = 0;
+
+  for (const raw of expanded) {
+    const t = raw.trim();
+    if (!t) {
+      formatted.push("");
+      continue;
+    }
+
+    if (usesBraces) {
+      const leadingClose = (t.match(/^\}+/) || [""])[0].length;
+      if (leadingClose > 0) {
+        depth = Math.max(0, depth - leadingClose);
+      }
+      formatted.push("    ".repeat(depth) + t);
+      const opens = (t.match(/\{/g) || []).length;
+      const closes = (t.match(/\}/g) || []).length - leadingClose;
+      depth = Math.max(0, depth + opens - closes);
+    } else {
+      // Python / 의사코드 스타일
+      if (/^(elif|else|except|finally)\b/.test(t)) {
+        depth = Math.max(0, depth - 1);
+      } else if (/^(def|class)\b/.test(t)) {
+        depth = 0;
+      }
+      formatted.push("    ".repeat(depth) + t);
+      if (/:\s*$/.test(t)) {
+        depth++;
+      } else if (/^return\b/.test(t) && depth > 0) {
+        depth = Math.max(0, depth - 1);
+      }
+    }
+  }
+  return formatted;
+}
+
+function buildCodeBlock(codeLines) {
+  const pre = document.createElement("pre");
+  pre.className = "q-code-block";
+  const code = document.createElement("code");
+  const formatted = formatCodeLines(codeLines);
+  formatted.forEach((ln, idx) => {
+    code.appendChild(renderInlineFragment(ln));
+    if (idx < formatted.length - 1) {
+      code.appendChild(document.createTextNode("\n"));
+    }
+  });
+  pre.appendChild(code);
+  return pre;
+}
+
+/**
+ * 지문/사례/보기 텍스트를 문단, 표, 코드 블록, 상자 라벨, ㄱ·ㄴ·ㄷ·ㄹ 항목으로 정규화하여 렌더링합니다.
  */
 export function renderStructuredContent(rawText, container, isBogi = false) {
   if (!rawText) return;
@@ -153,7 +265,8 @@ export function renderStructuredContent(rawText, container, isBogi = false) {
 
   let i = 0;
   while (i < lines.length) {
-    const line = lines[i].trim();
+    const rawLine = lines[i];
+    const line = rawLine.trim();
     if (!line) {
       i++;
       continue;
@@ -184,7 +297,40 @@ export function renderStructuredContent(rawText, container, isBogi = false) {
       continue;
     }
 
-    // 3. ㄱ. ㄴ. ㄷ. ㄹ. ㅁ. 보기 항목 행 통일 정렬
+    // 3. 프로그래밍 코드 블록 감지 (연속 2줄 이상 코드이거나 #include / int main / def 등 명시적 코드 시작)
+    if (isCodeLine(line)) {
+      const codeLines = [];
+      let j = i;
+      let codeCount = 0;
+      while (j < lines.length) {
+        const cur = lines[j];
+        const curTrim = cur.trim();
+        if (!curTrim) {
+          // 빈 줄 뒤에도 코드가 이어지면 포함
+          if (j + 1 < lines.length && isCodeLine(lines[j + 1])) {
+            codeLines.push("");
+            j++;
+            continue;
+          }
+          break;
+        }
+        if (curTrim.startsWith("|") || /^\[[가-힣A-Za-z0-9\s/]+\]$/.test(curTrim)) break;
+        if (isCodeLine(curTrim) || /^\s{2,}/.test(cur) || /[{}();=]/.test(curTrim)) {
+          codeLines.push(cur);
+          if (isCodeLine(curTrim)) codeCount++;
+          j++;
+        } else {
+          break;
+        }
+      }
+      if (codeCount >= 2 || /^#(include|define)\b|^(int|void)\s+main\b|^def\s+\w+\(/.test(line)) {
+        container.appendChild(buildCodeBlock(codeLines));
+        i = j;
+        continue;
+      }
+    }
+
+    // 4. ㄱ. ㄴ. ㄷ. ㄹ. ㅁ. 보기 항목 행 통일 정렬
     const bogiMatch = line.match(/^([ㄱㄴㄷㄹㅁㅂ])\s*[.．)）:：]?\s+(.+)$/);
     if (bogiMatch) {
       const row = document.createElement("div");
@@ -200,7 +346,7 @@ export function renderStructuredContent(rawText, container, isBogi = false) {
       continue;
     }
 
-    // 4. 일반 본문 문단 (<p>)
+    // 5. 일반 본문 문단 (<p>)
     const p = document.createElement("p");
     p.appendChild(renderInlineFragment(line));
     container.appendChild(p);

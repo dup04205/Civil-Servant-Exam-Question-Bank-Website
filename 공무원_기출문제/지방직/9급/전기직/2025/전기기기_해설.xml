@@ -27,8 +27,8 @@
         <correct_choice_text>ㄱ, ㄹ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 복합 보기 검증형 (핵심어: 직류기에서 정류를 양호하게 하는 방법)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 정류 개선 방법
+정답은 ②이다. 양호한 정류를 위해서는 보극을 설치하거나 브러시 위치를 옮겨 리액턴스전압을 상쇄하는 전압(정류전압)을 정류 코일에 유도하고, 정류주기를 길게 하며 접촉저항이 큰 탄소 브러시를 쓴다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>보극을 설치한다.</statement>
@@ -50,19 +50,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>브러시 접촉저항은 크게 해야 하므로 ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄹ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>정류주기는 길게 해야 하므로 ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -78,24 +78,24 @@
         <correct_choice_text>각 변압기의 상회전방향이 같아야 한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 단상변압기의 병렬운전 조건)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 단상변압기의 병렬운전 조건
+정답은 ③이다. 단상변압기 병렬운전에는 극성, 권수비, 1·2차 정격전압이 같고 %임피던스와 저항·리액턴스 비가 같아야 한다. 상회전방향과 위상변위 조건은 3상변압기에 추가되는 조건이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>각 변압기의 극성이 같아야 한다.</choice_text>
-          <commentary>'각 변압기의 극성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>극성이 다르면 큰 순환전류가 흐른다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>각 변압기의 권수비가 같아야 한다.</choice_text>
-          <commentary>'각 변압기의 권수비'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>권수비가 다르면 순환전류가 흐른다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>각 변압기의 상회전방향이 같아야 한다.</choice_text>
-          <commentary>'각 변압기의 상회전방향'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상회전방향은 3상변압기의 조건이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>각 변압기의 1차 및 2차 정격전압이 같아야 한다.</choice_text>
-          <commentary>'각 변압기의 1차 및 2차 정격전압'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정격전압이 같아야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -113,25 +113,24 @@
         <correct_choice_text>중성점을 접지시키면 제3고조파에 의해 통신장애가 일어날 수 있다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 상변압기, 결선방식, 특징으)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $TRIANGLE - TRIANGLE$</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · Δ-Δ 결선의 특징
+정답은 ③이다. Δ-Δ 결선은 제3고조파 여자전류가 Δ 내부를 순환해 기전력 파형이 정현파가 되고 통신장애가 없으며, 1대 고장 시 V결선이 가능하다. 중성점이 없어 접지할 수 없고 지락 검출이 어렵다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>제3고조파 전류가 순환한다.</choice_text>
-          <commentary>'제3고조파 전류'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제3고조파 전류가 Δ 내부를 순환한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>지락 사고의 검출이 어렵다.</choice_text>
-          <commentary>'지락 사고의 검출'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>중성점이 없어 지락 검출이 어렵다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>중성점을 접지시키면 제3고조파에 의해 통신장애가 일어날 수 있다.</choice_text>
-          <commentary>'중성점을 접지시키면 제3고조파에 의해 통신장애'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Δ-Δ는 중성점이 없어 접지할 수 없으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>단상변압기 3대 중 1대가 고장났을 경우 나머지 2대로 V결선할 수 있다.</choice_text>
-          <commentary>'단상변압기 3대 중 1대'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>1대 고장 시 V결선으로 운전할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -147,24 +146,24 @@
         <correct_choice_text>전기자 반작용이 크고, 단락비가 작은 발전기를 사용한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 동기발전기의 자기여자현상 방지대책)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 자기여자현상 방지대책
+정답은 ③이다. 자기여자현상은 무부하 송전선의 충전(진상)전류가 발전기를 증자시켜 전압이 상승하는 현상이다. 단락비가 크고 전기자 반작용이 작은 발전기를 쓰고, 병렬 운전·분로리액터·동기조상기로 충전전류를 상쇄한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>발전기 여러 대를 병렬로 접속한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>여러 대를 병렬 접속하면 충전전류가 분담된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>송전선의 말단에 뒤진전류가 흐르도록 전력용리액터를 접속한다.</choice_text>
-          <commentary>'송전선의 말단에 뒤진전류'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>분로리액터의 지상전류가 충전전류를 상쇄한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>전기자 반작용이 크고, 단락비가 작은 발전기를 사용한다.</choice_text>
-          <commentary>'전기자 반작용'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단락비가 크고 반작용이 작아야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>수전단에 동기조상기를 접속하여 충전전류를 감소하도록 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>동기조상기를 부족여자로 운전해 충전전류를 줄인다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -183,24 +182,24 @@
         <correct_choice_text>16</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 변압기에서, 자기, 인덕턴스, 각각)
-정답은 ①이다. 본 문항은 변압기에서, 자기, 인덕턴스, 각각에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 상호 인덕턴스
+정답은 ①이다. M = K√(L1L2) = 1 × √(8 × 32) = √256 = 16 mH이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>16</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>M = 16 mH이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>24 mH는 평균값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>40 mH는 합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>256</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>256은 제곱근을 취하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -219,24 +218,24 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 동기발전기, 회전자, 동기속도, 회전하고)
-정답은 ①이다. 본 문항은 동기발전기, 회전자, 동기속도, 회전하고에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 동기발전기의 극수
+정답은 ①이다. Ns = 120f/P이므로 P = 120 × 60 ÷ 900 = 8극이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>8극이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10극이면 720 rpm이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>극수는 홀수일 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>극수는 홀수일 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -252,8 +251,8 @@
         <correct_choice_text>ㄱ, ㄷ, ㄹ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 복합 보기 검증형 (핵심어: 단락비가 큰 동기발전기)
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄱ, ㄷ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 단락비가 큰 동기발전기
+정답은 ④이다. 단락비가 크면 동기임피던스가 작아 전압변동률이 작고 과부하 내량과 안정도가 높다. 대신 철기계(철을 많이 쓰는 기계)가 되어 철손이 크고 효율이 낮다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>전압변동률이 작다.</statement>
@@ -275,19 +274,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄹ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>동기임피던스는 작아지므로 ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄷ, ㄹ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -303,24 +302,24 @@
         <correct_choice_text>2차저항 기동법</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 농형 유도전동기의 기동 방식)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 농형 유도전동기의 기동법
+정답은 ④이다. 농형 유도전동기는 전전압 기동, Y-Δ 기동, 리액터 기동, 기동보상기법 등을 쓴다. 2차저항 기동법은 슬립링으로 2차 저항을 바꿀 수 있는 권선형 전동기의 기동법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>기동보상기법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>기동보상기(단권변압기)로 전압을 낮추어 기동한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>리액터 기동법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>리액터로 전압을 낮추어 기동한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전전압 기동법</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>소용량은 전전압으로 직접 기동한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>2차저항 기동법</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2차저항 기동은 권선형 전용이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -336,24 +335,24 @@
         <correct_choice_text>철심의 고유저항을 높게 하면 손실이 증가한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 철심의 와전류 손실)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 와전류 손실
+정답은 ④이다. 와전류 손실은 자속 변화로 철심 안에 유도되는 와전류에 의한 손실로 Pe ∝ (tfBm)²/ρ이다. 고유저항을 높이면 와전류가 줄어 손실이 감소한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>철심을 성층하여 손실을 저감한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>얇은 강판을 성층하면 손실이 줄어든다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>자속변화에 의해 철심내부에 발생한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자속 변화로 철심 내부에 생긴다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>자속밀도를 낮게 하여 손실을 저감한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자속밀도를 낮추면 손실이 줄어든다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>철심의 고유저항을 높게 하면 손실이 증가한다.</choice_text>
-          <commentary>'철심의 고유저항을 높게 하면 손실'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>고유저항을 높이면 손실이 감소하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -370,24 +369,24 @@
         <correct_choice_text>콘덴서 기동형</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 회로도와, 유도전동기)
-정답은 ③이다. 본 문항은 회로도와, 유도전동기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 콘덴서 기동형 단상 유도전동기
+정답은 ③이다. 콘덴서 기동형은 보조권선에 기동용 콘덴서와 원심력 스위치를 직렬로 연결해 기동 시 큰 위상차로 큰 기동토크를 얻고 기동 후 보조회로를 분리한다. 회로도가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 제시된 회로는 콘덴서 기동형이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>분상 기동형</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분상 기동형은 콘덴서가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>셰이딩 코일형</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>셰이딩 코일형은 자극에 단락 코일을 감는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>콘덴서 기동형</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 콘덴서 기동형이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>콘덴서 구동(운전)형</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>콘덴서 구동형은 운전 중에도 콘덴서가 연결되어 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -403,8 +402,8 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 복합 보기 검증형 (핵심어: 동기전동기를 기동하는 방식)
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄱ, ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 동기전동기의 기동법
+정답은 ③이다. 동기전동기는 제동권선에 의한 자기 기동, 기동전동기로 동기속도까지 가속하는 방법, 주파수변환기로 주파수를 서서히 올리는 방법으로 기동한다. 기동용 유도전동기는 동기속도보다 슬립만큼 느리므로 동기전동기보다 극수가 2개 적은 것을 쓴다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>제동권선에 의한 기동토크를 이용한다.</statement>
@@ -426,19 +425,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄷ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄴ, ㄷ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>극수는 2만큼 작게 해야 하므로 ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -457,25 +456,24 @@
         <correct_choice_text>$\frac{500}{\sqrt{500^{2} + 300^{2}}}$</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 어떤, 공장에서, 역률, 운전하)
-정답은 ③이다. 본 문항은 어떤, 공장에서, 역률, 운전하에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{300}{\sqrt{300^{2} + 300^{2}}}$; $\frac{400}{\sqrt{400^{2} + 300^{2}}}$; $\frac{500}{\sqrt{500^{2} + 300^{2}}}$; $\frac{600}{\sqrt{600^{2} + 300^{2}}}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 합성 부하의 역률
+정답은 ③이다. 동기전동기는 유효전력 100 kW, 무효전력 0이다. 유도전동기는 유효전력 500 × 0.8 = 400 kW, 무효전력 500 × 0.6 = 300 kVar이다. 합계 유효 500 kW, 무효 300 kVar이므로 역률 = 500/√(500² + 300²)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{300}{\sqrt{300^{2} + 300^{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유효전력 합계가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{400}{\sqrt{400^{2} + 300^{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>동기전동기 전력을 빠뜨렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{500}{\sqrt{500^{2} + 300^{2}}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>500/√(500² + 300²)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{600}{\sqrt{600^{2} + 300^{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유효전력 합계가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -491,24 +489,24 @@
         <correct_choice_text>브러시가 없는 모터이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: BLDC 모터)
-정답은 ②이다. 본 문항은 BLDC 모터에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · BLDC 모터
+정답은 ②이다. BLDC 모터는 브러시와 정류자 대신 인버터와 회전자 위치 센서로 전자적으로 정류하는 영구자석 모터이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인버터가 필요 없다.</choice_text>
-          <commentary>'인버터'에 관하여 '필요 없다' 부분에서 필수적 절차나 요건의 이행 여부를 반대로 서술하였다.</commentary>
+          <commentary>전자적 정류를 위해 인버터가 필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>브러시가 없는 모터이다.</choice_text>
-          <commentary>'브러시'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>브러시가 없는 모터이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>영구자석이 없는 모터이다.</choice_text>
-          <commentary>'영구자석'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회전자에 영구자석을 쓴다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>회전자의 위치 인식이 필요 없다.</choice_text>
-          <commentary>'회전자의 위치 인식'에 관하여 '필요 없다' 부분에서 필수적 절차나 요건의 이행 여부를 반대로 서술하였다.</commentary>
+          <commentary>상 전환을 위해 회전자 위치 인식이 필요하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -524,24 +522,24 @@
         <correct_choice_text>회전자계와 반대방향으로 회전자가 회전한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 유도발전기)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 유도발전기
+정답은 ④이다. 유도발전기는 회전자를 회전자계와 같은 방향으로 동기속도보다 빠르게 돌려 슬립이 음수가 되며, 출력 주파수는 계통 주파수로 정해지고 난조가 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>난조가 발생하지 않는다.</choice_text>
-          <commentary>'난조'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>동기화가 필요 없어 난조가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>슬립은 음(－)의 부호를 갖는다.</choice_text>
-          <commentary>'슬립'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>슬립은 음수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>발전기의 주파수는 회전속도와 무관하다.</choice_text>
-          <commentary>'발전기의 주파수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주파수는 접속된 계통 주파수로 정해진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>회전자계와 반대방향으로 회전자가 회전한다.</choice_text>
-          <commentary>'회전자계와 반대방향으로 회전자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회전자는 회전자계와 같은 방향으로 회전하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -559,24 +557,24 @@
         <correct_choice_text>듀티비(D)가 커질수록 출력전압은 증가한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: DC－DC 컨버터 중 부스트(Boost) 컨버터, DC 컨버터 중 부스트(Boost), 스위치가 닫혀(on))
-정답은 ②이다. 본 문항은 DC－DC 컨버터 중 부스트(Boost) 컨버터, DC 컨버터 중 부스트(Boost), 스위치가 닫혀(on)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 부스트 컨버터
+정답은 ②이다. 부스트 컨버터의 출력전압 Vo = Vi/(1 − D)이므로 듀티비가 커질수록 출력전압이 증가하고 항상 입력 이상이다. 스위치가 켜지면 다이오드는 역바이어스되어 인덕터에 에너지가 저장된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>출력전압은 입력전압보다 항상 낮다.</choice_text>
-          <commentary>'출력전압'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>출력전압은 입력전압보다 높다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>듀티비(D)가 커질수록 출력전압은 증가한다.</choice_text>
-          <commentary>'듀티비(D)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>D가 커질수록 Vo가 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>전압의 강압과 승압이 모두 가능한 변환기이다.</choice_text>
-          <commentary>'전압의 강압과 승압'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>강압·승압이 모두 가능한 것은 벅-부스트 컨버터이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>스위치가 닫혀(on) 있으면 다이오드는 순방향으로 바이어스가 걸리게 된다.</choice_text>
-          <commentary>'스위치'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스위치 on 시 다이오드는 역바이어스된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -595,24 +593,24 @@
         <correct_choice_text>200 100</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 유기기전력, 전기자전류, 단중, 중권)
-정답은 ②이다. 본 문항은 유기기전력, 전기자전류, 단중, 중권에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 중권과 파권의 비교
+정답은 ②이다. 유기기전력 E ∝ Z/a이고 병렬회로 수는 중권 a = 4, 파권 a = 2이다. 파권으로 바꾸면 기전력은 2배인 200 V가 되고, 병렬회로당 전류 200/4 = 50 A가 같으므로 전기자전류는 2 × 50 = 100 A가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>50 100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기전력이 감소하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>200 100</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>200 V, 100 A이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200 200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전기자전류가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>200 400</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전기자전류가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -631,24 +629,24 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 정격, 타여자, 직류발전기, 있다)
-정답은 ①이다. 본 문항은 정격, 타여자, 직류발전기, 있다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 타여자발전기의 전압차
+정답은 ①이다. 정격전류 I = 6,600 ÷ 220 = 30 A이다. 전압차 = IRa + 브러시 강하 = 30 × 0.2 + 2 = 8 V이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>8 V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10 V는 계산 결과와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>12 V는 계산 결과와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>14 V는 계산 결과와 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -667,24 +665,24 @@
         <correct_choice_text>400 1배</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 이상적인, 단상변압기, 차측, 전압)
-정답은 ③이다. 본 문항은 이상적인, 단상변압기, 차측, 전압에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 주파수와 전압 변화 시 2차 전압과 자속
+정답은 ③이다. 이상 변압기의 권수비는 300 : 200 = 1.5이므로 1차 600 V이면 2차는 400 V이다. 자속 Φ ∝ V/f이므로 전압과 주파수가 모두 2배이면 자속은 1배로 변하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200 1배</choice_text>
-          <commentary>제시된 '1배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>2차 전압이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200 2배</choice_text>
-          <commentary>제시된 '2배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>2차 전압과 자속이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>400 1배</choice_text>
-          <commentary>'1배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>400 V, 1배이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400 2배</choice_text>
-          <commentary>제시된 '2배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>자속은 변하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -700,25 +698,24 @@
         <correct_choice_text>단상전파회로의 출력전압 평균값은 단상반파회로의 2배이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 핵심 개념·이론 이해형 (핵심어: 단상다이오드 정류회로)
-정답은 ①이다. 본 문항은 단상다이오드 정류회로에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{1}{\sqrt{2}}$; $\frac{1}{\sqrt{2}}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 단상 다이오드 정류회로
+정답은 ①이다. 저항 부하에서 반파 정류의 평균전압은 Vm/π, 전파 정류는 2Vm/π로 2배이다. 정류효율은 반파 40.6%, 전파 81.2%이고, 반파의 출력 실효값은 Vm/2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>단상전파회로의 출력전압 평균값은 단상반파회로의 2배이다.</choice_text>
-          <commentary>'단상전파회로의 출력전압 평균값'에 관하여 '2배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>전파의 평균전압은 반파의 2배이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>단상반파회로의 정류효율은 단상전파회로 정류효율의 $\frac{1}{\sqrt{2}}$배이다.</choice_text>
-          <commentary>'단상반파회로의 정류효율'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반파 정류효율은 전파의 1/2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>단상전파회로의 직류전류 평균값은 단상반파회로의 평균값과 같다.</choice_text>
-          <commentary>'단상전파회로의 직류전류 평균값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전파의 평균전류는 반파의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>단상반파회로의 출력전압의 실횻값은 입력 교류전압 최댓값의 $\frac{1}{\sqrt{2}}$배이다.</choice_text>
-          <commentary>'단상반파회로의 출력전압의 실횻값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반파 출력 실효값은 Vm/2이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -737,24 +734,24 @@
         <correct_choice_text>256</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기기기 · 수리·계산·자료해석형 (핵심어: 정격출력, 직류, 내분권, 복권발전기)
-정답은 ④이다. 본 문항은 정격출력, 직류, 내분권, 복권발전기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기기기 · 내분권 복권발전기의 유기기전력
+정답은 ④이다. 부하전류 I = 20,000 ÷ 200 = 100 A이고, 직권계자 강하 100 × 0.2 = 20 V이므로 전기자 단자전압은 220 V이다. 분권계자전류 = 220 ÷ 11 = 20 A, 전기자전류 = 120 A이므로 E = 220 + 120 × 0.3 = 256 V이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>144</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>144 V는 계산 결과와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>220</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>220 V는 전기자 단자전압이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>236</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>236 V는 전기자 강하를 빠뜨렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>256</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>E = 256 V이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

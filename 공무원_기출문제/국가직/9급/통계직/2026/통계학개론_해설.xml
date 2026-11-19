@@ -27,40 +27,39 @@
         <correct_choice_text>ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 복합 보기 검증형 (&lt;보기&gt; 조합형(옳은 것 고르기)) | 핵심 키워드: 상자그림
-2. [정답 및 핵심 결론] 정답은 3번("ㄴ, ㄷ")입니다.
-3. [보기 정오 요약] ㄱ(X), ㄴ(O), ㄷ(O) → 따라서 조건을 만족하는 조합은 3번입니다.
-6. [포함 수식(LaTeX)] $4$; $2$; $2$; $5$; $50$</overall_commentary>
+      <overall_commentary>[유형] 복합 보기 검증형 · &lt;보기&gt; 조합 · 옳은 것 고르기
+[키워드] 상자그림
+[보기 정오] ㄱ(X) ㄴ(O) ㄷ(O) → 정답 ③</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="X (옳지 않은 설명 - 정답 조합 제외)">
+        <bogi_item symbol="ㄱ" judgment="X">
           <statement>자료의 평균은 $4$이다.</statement>
-          <commentary>보기 [ㄱ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 자료의 평균] 문장 내 '...자료의 평균은 $4$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "자료의 평균은 $4$이다.")</commentary>
+          <commentary>논점: 자료의 평균.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄴ" judgment="O">
           <statement>사분위수범위는 $2$보다 크다.</statement>
-          <commentary>보기 [ㄴ]은(는) 옳은 진술(O)입니다. [핵심 논점: 사분위수범위] 문장 말미의 '...사분위수범위는 $2$보다 크다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "사분위수범위는 $2$보다")</commentary>
+          <commentary>논점: 사분위수범위.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄷ" judgment="O">
           <statement>$2$ 이상이고 $5$ 이하의 값을 갖는 자료는 전체의 $50$ % 이상이다.</statement>
-          <commentary>보기 [ㄷ]은(는) 옳은 진술(O)입니다. [핵심 논점: $2$] 문장 말미의 '...을 갖는 자료는 전체의 $50$ % 이상이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "$2$ 이상이고 $5$ 이하의 값을 갖는 자료는 전체의 $50$ % 이상이다.")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="1" is_answer="false" judgment="오답">
           <choice_text>ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄴ(O)이 빠졌다. 정답 조합은 ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="2" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄱ(X)을 잘못 넣었고 ㄷ(O)이 빠졌다. 정답 조합은 ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="정답 조합">
+        <choice_explanation no="3" is_answer="true" judgment="정답">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>[정답 선지] 발문에서 요구한 조건(&lt;보기&gt; 조합형(옳은 것 고르기))을 정확히 만족하는 보기 조합(ㄴ, ㄷ)입니다.</commentary>
+          <commentary>보기 정오: ㄱ(X), ㄴ(O), ㄷ(O).</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="4" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄱ(X)을 잘못 넣었다. 정답 조합은 ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -77,26 +76,25 @@
         <correct_choice_text>중앙값은 제1사분위수보다 제3사분위수에 더 가깝다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 히스토그램, 왜도(skewness)
-2. [정답 및 핵심 결론] 정답은 4번("중앙값은 제1사분위수보다 제3사분위수에 더 가깝다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
-6. [포함 수식(LaTeX)] $50$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 히스토그램, 왜도(skewness)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>평균은 중앙값보다 크다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 평균은 중앙값보다 크다.] 문장 말미의 '...평균은 중앙값보다 크다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>자료의 범위는 $50$ 이상이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 자료의 범위] 문장 말미의 '...자료의 범위는 $50$ 이상이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: 자료의 범위.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>왜도(skewness)의 값은 양수이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 왜도(skewness)의 값] 문장 말미의 '...왜도(skewness)의 값은 양수이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
           <choice_text>중앙값은 제1사분위수보다 제3사분위수에 더 가깝다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 중앙값은 제1사분위수보다 제3사분위수에 더] 문장 내 '...은 제1사분위수보다 제3사분위수에 더 가깝다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -113,26 +111,25 @@
         <correct_choice_text>$\frac{5}{6}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: P ( A ), P ( B )
-2. [정답 및 핵심 결론] 정답은 3번("$\frac{5}{6}$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, P ( A ), P ( B )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $A$; $B$; $P ( A )$; $\frac{1}{2}$; $P ( B )$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] P ( A ), P ( B )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$1 \frac{3}{1} 8$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $1 \frac{3}{1} 8$] 문장 내 '...$1 \frac{3}{1} 8$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$\frac{7}{9}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{7}{9}$] 문장 내 '...$\frac{7}{9}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>$\frac{5}{6}$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{5}{6}$] 문장 말미의 '...$\frac{5}{6}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$\frac{8}{9}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{8}{9}$] 문장 내 '...$\frac{8}{9}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -151,26 +148,25 @@
         <correct_choice_text>$6$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 확률변수, 관계, 다음과, 같다
-2. [정답 및 핵심 결론] 정답은 2번("$6$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 확률변수, 관계, 다음과, 같다에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $X$; $Y$; $Z$; $W$; $X$</overall_commentary>
+      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
+[키워드] 확률변수, 관계, 다음과, 같다
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$4$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $4$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>$6$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $6$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$8$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $8$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$10$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $10$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -189,26 +185,25 @@
         <correct_choice_text>$\frac{1}{4}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 자료, 단순선형회귀모형, 최소제곱법으, 적합하여
-2. [정답 및 핵심 결론] 정답은 1번("$\frac{1}{4}$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 자료, 단순선형회귀모형, 최소제곱법으, 적합하여에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $( x_{i} , y_{i} ) ( i = 1 , 2 , CDOTS , 32 )$; $y_i$; $\beta_{0} + \beta_{1} x_{i} + \epsilon_{i}$; $\epsilon_{i}$; $N ( 0 , \sigma^2 )$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 자료, 단순선형회귀모형, 최소제곱법으
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{1}{4}$] 문장 말미의 '...$\frac{1}{4}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$\frac{1}{3}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{3}$] 문장 내 '...$\frac{1}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{2}$] 문장 내 '...$\frac{1}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{2}{3}$] 문장 내 '...$\frac{2}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -227,26 +222,25 @@
         <correct_choice_text>$1 \frac{0}{3}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 어느, 기관에서, 성인, 임의추출한
-2. [정답 및 핵심 결론] 정답은 3번("$1 \frac{0}{3}$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 어느, 기관에서, 성인, 임의추출한에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $60$; $A$; $B$; $C$; $D$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 어느, 성인
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$\frac{7}{3}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{7}{3}$] 문장 내 '...$\frac{7}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$\frac{8}{3}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{8}{3}$] 문장 내 '...$\frac{8}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>$1 \frac{0}{3}$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $1 \frac{0}{3}$] 문장 말미의 '...$1 \frac{0}{3}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$1 \frac{1}{3}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $1 \frac{1}{3}$] 문장 내 '...$1 \frac{1}{3}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -262,26 +256,25 @@
         <correct_choice_text>회귀분석 분산분석</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 지난 $1$년간 측정된 일별 풍속과 미세먼지
-2. [정답 및 핵심 결론] 정답은 2번("회귀분석 분산분석")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 지난 $1$년간 측정된 일별 풍속과 미세먼지에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $1$; $t$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 지난 $1$년간 측정된 일별 풍속과 미세먼지
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>상관분석 적합도검정</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 상관분석 적합도검정] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>회귀분석 분산분석</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 회귀분석 분산분석] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>회귀분석 적합도검정</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 회귀분석 적합도검정] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$t$－검정 분산분석</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $t$－검정 분산분석] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -298,28 +291,27 @@
         <correct_choice_text>$\frac{15}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: E ( N ), Var ( N )
-2. [정답 및 핵심 결론] 정답은 2번("$\frac{15}{2}$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, E ( N ), Var ( N )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !"
-6. [포함 수식(LaTeX)] $N$; $E ( N ) + Var ( N )$; $c$; $P ( N = k ) = cases {\frac{c}{k ! ( 10 - k ) !} \left( \frac{1}{2} \right)^{10} , k = 0 , 1 , CDOTS , 10 # # 0 , 그 외}$; $\frac{13}{2}$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] E ( N ), Var ( N )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.
+[근거] “$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !”</overall_commentary>
       <passage_evidence>$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$\frac{13}{2}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{13}{2}$] 문장 내 '...$\frac{13}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>$\frac{15}{2}$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{15}{2}$] 문장 말미의 '...$\frac{15}{2}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$\frac{17}{2}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{17}{2}$] 문장 내 '...$\frac{17}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$\frac{19}{2}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{19}{2}$] 문장 내 '...$\frac{19}{2}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "$P ( N = k ) = \left\{\begin{array}{l}\frac{c}{k !")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -336,26 +328,25 @@
         <correct_choice_text>$P ( Z \geq 1 . 6 )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: times P ( Z ge1 ), times P ( Z ge1 . 6 )
-2. [정답 및 핵심 결론] 정답은 2번("$P ( Z \geq 1 . 6 )$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, times P ( Z ge1 ), times P ( Z ge1 . 6 )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $10$; $64$; $5 . 2$; $1$; $10$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] times P ( Z ge1 ), times P ( Z ge1 . 6 )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$P ( Z \geq 1 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $P ( Z \geq 1 )$] 문장 내 '...$P ( Z \geq 1 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>$P ( Z \geq 1 . 6 )$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $P ( Z \geq 1 . 6 )$] 문장 말미의 '...$P ( Z \geq 1 . 6 )$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$2 \times P ( Z ge1 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $2 \times P ( Z ge1 )$] 문장 내 '...$2 \times P ( Z ge1 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$2 \times P ( Z ge1 . 6 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $2 \times P ( Z ge1 . 6 )$] 문장 내 '...2 \times P ( Z ge1 . 6 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -371,28 +362,27 @@
         <correct_choice_text>$\frac{1}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: Var ( X )
-2. [정답 및 핵심 결론] 정답은 2번("$\frac{1}{2}$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, Var ( X )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |"
-6. [포함 수식(LaTeX)] $X$; $E ( X^{2} )$; $\frac{3}{2}$; $Var ( X )$; $x$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] Var ( X )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.
+[근거] “| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |”</overall_commentary>
       <passage_evidence>| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{4}$] 문장 내 '...$\frac{1}{4}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $\frac{1}{2}$] 문장 말미의 '...$\frac{1}{2}$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$\frac{3}{4}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{3}{4}$] 문장 내 '...$\frac{3}{4}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| $P ( X = x )$ | $\frac{1}{4}$ | ( ) | ( ) | $1$ |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$1$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $1$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -408,28 +398,27 @@
         <correct_choice_text>$7 . 81$ 없다</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 2 ( k )
-2. [정답 및 핵심 결론] 정답은 1번("$7 . 81$ 없다")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 2 ( k )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "81$, $\chi_{0 ."
-6. [포함 수식(LaTeX)] $100$; $50$; $4$; $A$; $B$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 빈칸·기호 추론형
+[키워드] 2 ( k )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.
+[근거] “81$, $\chi_{0 .”</overall_commentary>
       <passage_evidence>81$, $\chi_{0 .</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
           <choice_text>$7 . 81$ 없다</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $7 . 81$ 없다] 문장 말미의 '없다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (가능/인정 여부(긍정↔부정) 확인) (지문 근거: "81$, $\chi_{0 .")</commentary>
+          <commentary>‘…없다’ 서술이 맞다. 확인 포인트: 가능·인정 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$7 . 81$ 있다</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $7 . 81$ 있다] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다. (대조 근거: "81$, $\chi_{0 .")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$14 . 07$ 없다</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $14 . 07$ 없다] 문장 내 '없다' 부분에서 가능/인정 여부(긍정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| II | $9$ | $11$ | $14$ | $16$ | $50$ |")</commentary>
+          <commentary>‘…없다’ 부분이 틀렸다. 확인 포인트: 가능·인정 여부. 근거: “| II | $9$ | $11$ | $14$ | $16$ | $50$ |”</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$14 . 07$ 있다</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $14 . 07$ 있다] 문장 내 '...$14 . 07$ 있다' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| II | $9$ | $11$ | $14$ | $16$ | $50$ |")</commentary>
+          <commentary>근거: “| II | $9$ | $11$ | $14$ | $16$ | $50$ |”</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,40 +435,39 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 복합 보기 검증형 (&lt;보기&gt; 조합형(옳은 것 고르기)) | 핵심 키워드: Cov ( X , Y ), P ( - 3 leq 3 X - 4 Y leq 5 )
-2. [정답 및 핵심 결론] 정답은 4번("ㄱ, ㄴ, ㄷ")입니다.
-3. [보기 정오 요약] ㄱ(O), ㄴ(O), ㄷ(O) → 따라서 조건을 만족하는 조합은 4번입니다.
-6. [포함 수식(LaTeX)] $X$; $Y$; $Z$; $P ( Z \geq 0 . 6 ) = 0 . 2743$; $P ( Z \leq 1 ) = 0 . 8413$</overall_commentary>
+      <overall_commentary>[유형] 복합 보기 검증형 · &lt;보기&gt; 조합 · 옳은 것 고르기
+[키워드] Cov ( X, Y ), P ( - 3 leq 3 X - 4 Y leq 5 )
+[보기 정오] ㄱ(O) ㄴ(O) ㄷ(O) → 정답 ④</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄱ" judgment="O">
           <statement>$E ( X^{2} Y^{2} ) = 1$</statement>
-          <commentary>보기 [ㄱ]은(는) 옳은 진술(O)입니다. [핵심 논점: $E ( X^{2} Y^{2} ) = 1$] 문장 말미의 '...$E ( X^{2} Y^{2} ) = 1$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄴ" judgment="O">
           <statement>$Cov ( X , Y ) = 0$</statement>
-          <commentary>보기 [ㄴ]은(는) 옳은 진술(O)입니다. [핵심 논점: $Cov ( X] 문장 말미의 '...$Cov ( X , Y ) = 0$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "$Cov ( X , Y ) = 0$")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄷ" judgment="O">
           <statement>$P ( - 3 leq 3 X - 4 Y leq 5 ) = 0 . 5670$</statement>
-          <commentary>보기 [ㄷ]은(는) 옳은 진술(O)입니다. [핵심 논점: $P ( - 3 leq 3 X - 4 Y leq 5 ) = 0...] 문장 말미의 '...- 4 Y leq 5 ) = 0 . 5670$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "$P ( - 3 leq 3 X - 4 Y leq 5 ) = 0 .")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="1" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄷ(O)이 빠졌다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="2" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄴ(O)이 빠졌다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="3" is_answer="false" judgment="오답">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄱ(O)이 빠졌다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="정답 조합">
+        <choice_explanation no="4" is_answer="true" judgment="정답">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>[정답 선지] 발문에서 요구한 조건(&lt;보기&gt; 조합형(옳은 것 고르기))을 정확히 만족하는 보기 조합(ㄱ, ㄴ, ㄷ)입니다.</commentary>
+          <commentary>보기 정오: ㄱ(O), ㄴ(O), ㄷ(O).</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -498,26 +486,25 @@
         <correct_choice_text>$400$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 어느, 제품, 무게, 표준편차
-2. [정답 및 핵심 결론] 정답은 4번("$400$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 어느, 제품, 무게, 표준편차에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $2$; $n$; $barX$; $\mu$; $P \left( \left | {\bar{X}} - \mu \right | \leq 0 . 2 \right) \geq 0 . 9544$</overall_commentary>
+      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
+[키워드] 어느, 제품, 표준편차
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$64$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $64$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$100$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $100$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$225$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $225$] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
           <choice_text>$400$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $400$] 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다.</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -533,26 +520,25 @@
         <correct_choice_text>평균제곱오차($MSE$)의 값이 커지면 신뢰구간의 폭이 넓어진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 단순선형회귀모형에서 기울기
-2. [정답 및 핵심 결론] 정답은 3번("평균제곱오차($MSE$)의 값이 커지면 신뢰구간의 폭이 넓어진다.")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 단순선형회귀모형에서 기울기에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $100 ( 1 - \alpha )$; $\alpha ( 0 &lt; \alpha &lt; 1 )$; $MSE$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 단순선형회귀모형에서 기울기
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>기울기의 추정값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 기울기의 추정값] 문장 내 '...의 추정값이 커지면 신뢰구간의 폭이 넓어진다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 기울기의 추정값.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$\alpha ( 0 &lt; \alpha &lt; 1 )$의 값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\alpha ( 0 &lt; \alpha &lt; 1 )$의 값] 문장 내 '...)$의 값이 커지면 신뢰구간의 폭이 넓어진다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>평균제곱오차($MSE$)의 값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 평균제곱오차($MSE$)의 값] 문장 말미의 '...$)의 값이 커지면 신뢰구간의 폭이 넓어진다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>독립변수의 편차의 제곱합이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 독립변수의 편차의 제곱합] 문장 내 '...의 제곱합이 커지면 신뢰구간의 폭이 넓어진다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -568,26 +554,25 @@
         <correct_choice_text>확률변수 $X$가 분자와 분모의 자유도가 각각 (가), (나)인 $F$분포를 따를 때, (라)는 $P ( X &lt; ( 다 ) )$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 과 같은 일원배치 분산분석표
-2. [정답 및 핵심 결론] 정답은 4번("확률변수 $X$가 분자와 분모의 자유도가 각각 (가), (나)인 $F$분포를 따를 때, (라)는 $P ( X &lt; ( 다 ) )$이다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
-6. [포함 수식(LaTeX)] $F$; $p$; $SSA$; $MSA$; $SSE$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 빈칸·기호 추론형
+[키워드] 과 같은 일원배치 분산분석표
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>처리의 수가 $3$일 경우 (가)의 값은 $2$이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 처리의 수] 문장 말미의 '...수가 $3$일 경우 (가)의 값은 $2$이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>전체 자료의 수가 $25$이고 처리의 수가 $3$일 때, (나)의 값은 $22$이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 전체 자료의 수] 문장 말미의 '...가 $3$일 때, (나)의 값은 $22$이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>(다)는 $SSA$ × (나) $SSE$ × (가) 이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: (다)는 $SSA$ × (나) $SSE$ × (] 문장 말미의 '...SA$ × (나) $SSE$ × (가) 이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| 처리 | $SSA$ | (가) | $MSA$ | (다) | (라) |")</commentary>
+          <commentary>근거: “| 처리 | $SSA$ | (가) | $MSA$ | (다) | (라) |”</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
           <choice_text>확률변수 $X$가 분자와 분모의 자유도가 각각 (가), (나)인 $F$분포를 따를 때, (라)는 $P ( X &lt; ( 다 ) )$이다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 확률변수 $X$] 문장 내 '...(라)는 $P ( X &lt; ( 다 ) )$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -603,26 +588,25 @@
         <correct_choice_text>$0 . 1$ $0 . 2$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 수리·계산·자료해석형 (수치/계산 도출형) | 핵심 키워드: 그림은 모평균 μ
-2. [정답 및 핵심 결론] 정답은 1번("$0 . 1$ $0 . 2$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 그림은 모평균 μ에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $\mu$; $H_0 : \mu = \mu_0$; $H_1 : \mu &lt; \mu_0$; $\mu$; $\gamma ( \mu )$</overall_commentary>
+      <overall_commentary>[유형] 수리·계산·자료해석형 · 수치·계산 도출형
+[키워드] 그림은 모평균 μ
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
           <choice_text>$0 . 1$ $0 . 2$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $0 . 1$ $0 . 2$] 문장 말미의 '...$0 . 1$ $0 . 2$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$0 . 1$ $0 . 8$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 . 1$ $0 . 8$] 문장 내 '...$0 . 1$ $0 . 8$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$0 . 2$ $0 . 1$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 . 2$ $0 . 1$] 문장 내 '...$0 . 2$ $0 . 1$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$0 . 2$ $0 . 9$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $0 . 2$ $0 . 9$] 문장 내 '...$0 . 2$ $0 . 9$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -639,26 +623,25 @@
         <correct_choice_text>$( 0 , 0 . 01 )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 1 ( 2 , 9 ), 05 ( 2 , 9 )
-2. [정답 및 핵심 결론] 정답은 1번("$( 0 , 0 . 01 )$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 1 ( 2 , 9 ), 05 ( 2 , 9 )에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
-6. [포함 수식(LaTeX)] $( x_1 i , x_2 i , y_i )$; $( i = 1 , 2 , cdots , 12 )$; $y_i$; $\beta_{0} + \beta_{1} x_{1 i} + \beta_{2} x_{2 i} + \epsilon_{i}$; $H_0 : \beta_1 = \beta_2 = 0$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 1 ( 2, 9 ), 05 ( 2, 9 )
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
           <choice_text>$( 0 , 0 . 01 )$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $( 0] 문장 말미의 '...$( 0 , 0 . 01 )$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>$( 0 . 01 , 0 . 05 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $( 0 . 01] 문장 내 '...$( 0 . 01 , 0 . 05 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$( 0 . 05 , 0 . 1 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $( 0 . 05] 문장 내 '...$( 0 . 05 , 0 . 1 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$( 0 . 1 , 1 )$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $( 0 . 1] 문장 내 '...$( 0 . 1 , 1 )$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -677,28 +660,27 @@
         <correct_choice_text>교호작용 $A \times B$는 유의수준 $5$ %에서 유의하지 않다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 수준조합에서, 반복수, 일정한, 이원배치법으로부터
-2. [정답 및 핵심 결론] 정답은 4번("교호작용 $A \times B$는 유의수준 $5$ %에서 유의하지 않다.")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 수준조합에서, 반복수, 일정한, 이원배치법으로부터에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "| 교호작용  $A \times B$ | | | $57 ."
-6. [포함 수식(LaTeX)] $F$; $p$; $A$; $310 . 08$; $310 . 08$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 수준조합에서, 반복수, 이원배치법으로부터
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.
+[근거] “| 교호작용  $A \times B$ | | | $57 .”</overall_commentary>
       <passage_evidence>| 교호작용  $A \times B$ | | | $57 .</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>인자 $A$의 수준수는 $3$이다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 인자 $A$의 수준수] 문장 내 '...인자 $A$의 수준수는 $3$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 인자 $A$ | $310 .")</commentary>
+          <commentary>근거: “| 인자 $A$ | $310 .”</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>인자 $B$의 제곱합의 자유도는 $3$이다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 인자 $B$의 제곱합의 자유도] 문장 내 '...인자 $B$의 제곱합의 자유도는 $3$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 인자 $A$ | $310 .")</commentary>
+          <commentary>근거: “| 인자 $A$ | $310 .”</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>각 수준조합에서의 반복수는 $4$이다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 각 수준조합에서의 반복수] 문장 내 '...각 수준조합에서의 반복수는 $4$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
           <choice_text>교호작용 $A \times B$는 유의수준 $5$ %에서 유의하지 않다.</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 교호작용 $A \times B$] 문장 말미의 '...B$는 유의수준 $5$ %에서 유의하지 않다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| 교호작용  $A \times B$ | | | $57 .")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -717,26 +699,25 @@
         <correct_choice_text>모평균 μ가 구간 $( 90 , 110 )$에 포함될 확률은 $0 . 95$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 모분산, 알려진, 정규분포, 따르
-2. [정답 및 핵심 결론] 정답은 3번("모평균 μ가 구간 $( 90 , 110 )$에 포함될 확률은 $0 . 95$이다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 3번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
-6. [포함 수식(LaTeX)] $\mu$; $95$; $( 90 , 110 )$; $barx$; $100$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 모분산, 알려진, 정규분포, 따르
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ③, 옳은 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>표본평균 $\bar{x}$는 $100$이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 표본평균 $\bar{x}$] 문장 말미의 '...표본평균 $\bar{x}$는 $100$이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>$95$ % 신뢰수준에서 $\bar{x}$의 오차한계는 $10$이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: $95$ % 신뢰수준에서 $\bar{x}$의 오차한계] 문장 말미의 '...$\bar{x}$의 오차한계는 $10$이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="X · 정답">
           <choice_text>모평균 μ가 구간 $( 90 , 110 )$에 포함될 확률은 $0 . 95$이다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 모평균 μ] 문장 내 '...0 )$에 포함될 확률은 $0 . 95$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 모평균 μ.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>가설 $H_0 : \mu = 98$ 대 $H_1 : muneq 98$을 유의수준 $5$ %에서 검정할 때, 귀무가설을 기각하지 못한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 가설 $H_0 : \mu = 98$ 대 $H_1 : muneq...] 문장 말미의 '...에서 검정할 때, 귀무가설을 기각하지 못한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -755,28 +736,27 @@
         <correct_choice_text>$- \frac{1}{6} 4$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 통계(통계학개론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 이산확률변수, 결합확률분포, 다음과, 공분산
-2. [정답 및 핵심 결론] 정답은 2번("$- \frac{1}{6} 4$")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 이산확률변수, 결합확률분포, 다음과, 공분산에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |"
-6. [포함 수식(LaTeX)] $X$; $Y$; $X^{2}$; $Y^{2}$; $Y$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 이산확률변수, 결합확률분포, 다음과, 공분산
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.
+[근거] “| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |”</overall_commentary>
       <passage_evidence>| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>$- \frac{1}{8}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $- \frac{1}{8}$] 문장 내 '...$- \frac{1}{8}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>$- \frac{1}{6} 4$</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: $- \frac{1}{6} 4$] 문장 말미의 '...$- \frac{1}{6} 4$' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>$\frac{1}{64}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{64}$] 문장 내 '...$\frac{1}{64}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>$\frac{1}{8}$</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: $\frac{1}{8}$] 문장 내 '...$\frac{1}{8}$' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| $0$ | $\frac{1}{8}$ | $\frac{1}{4}$ |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

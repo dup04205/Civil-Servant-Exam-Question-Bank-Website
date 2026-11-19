@@ -30,25 +30,25 @@
         <correct_choice_text>‘on delete cascade’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열을 삭제한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 관계형, 데이터베이스에서, 참조, 무결성
-2. [정답 및 핵심 결론] 정답은 2번("‘on delete cascade’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열을 삭제한다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 2번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 관계형, 데이터베이스에서, 참조, 무결성
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ②, 옳은 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>‘on delete set null’은 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열에 null을 저장한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: ‘on delete set null’] 문장 말미의 '...행에 있는 외래키 열에 null을 저장한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="X · 정답">
           <choice_text>‘on delete cascade’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열을 삭제한다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: ‘on delete cascade’] 문장 내 '...는 테이블의 행에 있는 외래키 열을 삭제한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>‘on delete set default’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열에 사전에 정의된 default 값을 저장한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: ‘on delete set default’] 문장 말미의 '...사전에 정의된 default 값을 저장한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>‘on delete no action’은 참조되는 테이블의 행을 삭제하려고 할 때, 참조하는 테이블의 행이 존재할 경우 삭제 명령이 수행되지 못하도록 한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: ‘on delete no action’] 문장 말미의 '...할 경우 삭제 명령이 수행되지 못하도록 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -67,27 +67,27 @@
         <correct_choice_text>SELECT 동아리, SUM(과제수) FROM 과제 GROUP BY 동아리 HAVING SUM(학생수) &gt;= 10 ;</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 과제, 테이블, 학년별, 동아리
-2. [정답 및 핵심 결론] 정답은 1번("SELECT 동아리, SUM(과제수) FROM 과제 GROUP BY 동아리 HAVING SUM(학생수) &gt;= 10 ;")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 과제, 테이블, 학년별, 동아리에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 1번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "| 학년 | 동아리 | 학생수 | 과제수 |"</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 과제, 테이블, 학년별, 동아리
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ①, 틀린 선지는 ②·③·④이다.
+[근거] “| 학년 | 동아리 | 학생수 | 과제수 |”</overall_commentary>
       <passage_evidence>| 학년 | 동아리 | 학생수 | 과제수 |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="O · 정답">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 GROUP BY 동아리 HAVING SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: SELECT 동아리] 문장 말미의 '...리 HAVING SUM(학생수) &gt;= 10 ;' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| 학년 | 동아리 | 학생수 | 과제수 |")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 WHERE SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: SELECT 동아리] 문장 내 '...과제 WHERE SUM(학생수) &gt;= 10 ;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 학년 | 동아리 | 학생수 | 과제수 |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 HAVING SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: SELECT 동아리] 문장 내 '...제 HAVING SUM(학생수) &gt;= 10 ;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 학년 | 동아리 | 학생수 | 과제수 |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 WHERE 학생수 &gt;= 10 GROUP BY 동아리 ;</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: SELECT 동아리] 문장 내 '...학생수 &gt;= 10 GROUP BY 동아리 ;' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 학년 | 동아리 | 학생수 | 과제수 |")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -106,25 +106,25 @@
         <correct_choice_text>트리거 저장 프로시저 인덱스</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (빈칸/기호 추론형) | 핵심 키워드: 관계형 데이터베이스의 세 가지 기능적 요소, 인덱스 트리거(trigger), 주장(assertion), 주장 인덱스 저장 프로시저(stored procedure)
-2. [정답 및 핵심 결론] 정답은 4번("트리거 저장 프로시저 인덱스")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 관계형 데이터베이스의 세 가지 기능적 요소, 인덱스 트리거(trigger), 주장(assertion), 주장 인덱스 저장 프로시저(stored procedure)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 빈칸·기호 추론형
+[키워드] 관계형 데이터베이스의 세 가지 기능적 요소, 인덱스 트리거(trigger), 주장(assertion), 주장 인덱스 저장 프로시저(stored procedure)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>인덱스 트리거(trigger) 주장(assertion)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 인덱스 트리거(trigger) 주장(assertion)] 문장 내 '...리거(trigger) 주장(assertion)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>주장 인덱스 저장 프로시저(stored procedure)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 주장 인덱스 저장 프로시저(stored procedure)] 문장 내 '...저장 프로시저(stored procedure)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>주장 인덱스 트리거</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 주장 인덱스 트리거] 관련 법리·이론·제시문 기준과 어긋나는 오답 명제(X)입니다.</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
           <choice_text>트리거 저장 프로시저 인덱스</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 트리거 저장 프로시저 인덱스] 문장 말미의 '...트리거 저장 프로시저 인덱스' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -144,25 +144,25 @@
         <correct_choice_text>데이터베이스 관리자(DBA)가 각 사용자에게 데이터베이스에 대한 접근 권한을 부여하거나 취소할 때 grant 명령을 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 데이터베이스 보안과 관련한 설명, SQL 삽입(injection), 데이터베이스 관리자(DBA), 터베이스에 대한 권한은 역할(role), 전자 서명(digital signature)
-2. [정답 및 핵심 결론] 정답은 2번("데이터베이스 관리자(DBA)가 각 사용자에게 데이터베이스에 대한 접근 권한을 부여하거나 취소할 때 grant 명령을 사용한다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 2번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 데이터베이스 보안과 관련한 설명, SQL 삽입(injection), 데이터베이스 관리자(DBA), 터베이스에 대한 권한은 역할(role), 전자 서명(digital signature)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ②, 옳은 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>SQL 삽입(injection) 공격은 공격자가 악의적으로 만든 SQL 명령을 응용 프로그램이 수행하도록 하는 것이다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: SQL 삽입(injection) 공격] 문장 말미의 '...령을 응용 프로그램이 수행하도록 하는 것이다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="X · 정답">
           <choice_text>데이터베이스 관리자(DBA)가 각 사용자에게 데이터베이스에 대한 접근 권한을 부여하거나 취소할 때 grant 명령을 사용한다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 데이터베] 문장 내 '...하거나 취소할 때 grant 명령을 사용한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 데이터베.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>데이터베이스에 대한 권한은 역할(role)에도 부여할 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 데이터베] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+          <commentary>논점: 데이터베. ‘…할 수 있다’ 서술이 맞다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>전자 서명(digital signature)은 공개키 암호화 기법의 특성을 이용하여 인증을 수행한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 전자 서명(digital signature)] 문장 말미의 '...호화 기법의 특성을 이용하여 인증을 수행한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -178,25 +178,25 @@
         <correct_choice_text>모든 사원은 적어도 하나 이상의 과제를 수행하여야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 어법·규범·어휘형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: ERD를 릴레이션으로 사상(mapping)
-2. [정답 및 핵심 결론] 정답은 2번("모든 사원은 적어도 하나 이상의 과제를 수행하여야 한다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 2번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 어법·규범·어휘형 · 옳지 않은 것 고르기
+[키워드] ERD를 릴레이션으로 사상(mapping)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ②, 옳은 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>주어진 ERD를 릴레이션으로 사상(mapping)하면, 4개의 릴레이션이 생성된다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 주어진 ERD를 릴레] 문장 말미의 '된다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+          <commentary>‘…된다’ 서술이 맞다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="X · 정답">
           <choice_text>모든 사원은 적어도 하나 이상의 과제를 수행하여야 한다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 모든 사원] 문장 내 '하여야 한다' 부분에서 의무(기속) 규정인지 임의(재량) 규정인지 구별이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 모든 사원. ‘…하여야 한다’ 부분이 틀렸다. 확인 포인트: 의무(기속)·임의(재량) 규정 구별.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>모든 부서는 적어도 1명 이상의 사원이 존재하여야 하며, 사원도 반드시 하나의 부서에 소속되어야 한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 모든 부서] 문장 말미의 '...사원도 반드시 하나의 부서에 소속되어야 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>사원은 2개의 부서에 동시에 소속될 수 없다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 사원은 2개의 부서에 동시에 소속될 수 없다.] 문장 말미의 '없다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (가능/인정 여부(긍정↔부정) 확인)</commentary>
+          <commentary>‘…없다’ 서술이 맞다. 확인 포인트: 가능·인정 여부.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -212,25 +212,25 @@
         <correct_choice_text>FD_(min) ＝ {Y → X, Z → Y, Z → W}</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 종속성 집합 FD의 최소커버(minimal cover)
-2. [정답 및 핵심 결론] 정답은 2번("FD_(min) ＝ {Y → X, Z → Y, Z → W}")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 종속성 집합 FD의 최소커버(minimal cover)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 종속성 집합 FD의 최소커버(minimal cover)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → Y, Z → W}</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: FD_(min) ＝ {Y → X] 문장 내 '...→ X, Z → X, Z → Y, Z → W}' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>‘…→ X, Z → X, Z → Y, Z → W}’ 부분이 틀렸다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>FD_(min) ＝ {Y → X, Z → Y, Z → W}</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: FD_(min) ＝ {Y → X] 문장 말미의 '...) ＝ {Y → X, Z → Y, Z → W}' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → W}</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: FD_(min) ＝ {Y → X] 문장 내 '...) ＝ {Y → X, Z → X, Z → W}' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → Y}</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: FD_(min) ＝ {Y → X] 문장 내 '...) ＝ {Y → X, Z → X, Z → Y}' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -249,43 +249,43 @@
         <correct_choice_text>ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 복합 보기 검증형 (&lt;보기&gt; 조합형(옳은 것 고르기)) | 핵심 키워드: 인덱스 기법, 트리의 각 노드를 전위 순회(preorder traversal), 밀집(dense), 인덱스는 희소(sparse)
-2. [정답 및 핵심 결론] 정답은 4번("ㄴ, ㄹ")입니다.
-3. [보기 정오 요약] ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O) → 따라서 조건을 만족하는 조합은 4번입니다.</overall_commentary>
+      <overall_commentary>[유형] 복합 보기 검증형 · &lt;보기&gt; 조합 · 옳은 것 고르기
+[키워드] 인덱스 기법, 트리의 각 노드를 전위 순회(preorder traversal), 밀집(dense), 인덱스는 희소(sparse)
+[보기 정오] ㄱ(X) ㄴ(O) ㄷ(X) ㄹ(O) → 정답 ④</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="X (옳지 않은 설명 - 정답 조합 제외)">
+        <bogi_item symbol="ㄱ" judgment="X">
           <statement>B-트리 전체를 노드 내의 키 값에 따라 순차 검색하기 위해서는 트리의 각 노드를 전위 순회(preorder traversal)한다.</statement>
-          <commentary>보기 [ㄱ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: B-트리 전체를 노드 내의 키 값에 따라 순차 검색하기 위해서] 문장 내 '...순회(preorder traversal)한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "B-트리 전체를 노드 내의 키 값에 따라 순차 검색하기 위해서는 트리의 각 노드를 전위 순회(preorder traversal)한다.")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄴ" judgment="O">
           <statement>밀집(dense) 인덱스는 희소(sparse) 인덱스에 비해 액세스 시간은 빠르지만 더 많은 공간을 필요로 한다.</statement>
-          <commentary>보기 [ㄴ]은(는) 옳은 진술(O)입니다. [핵심 논점: 밀집(dense) 인덱스] 문장 말미의 '...시간은 빠르지만 더 많은 공간을 필요로 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "밀집(dense) 인덱스는 희소(sparse) 인덱스에 비해 액세스 시간은 빠르지만 더 많은 공간을 필요로 한다.")</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="X (옳지 않은 설명 - 정답 조합 제외)">
+        <bogi_item symbol="ㄷ" judgment="X">
           <statement>B-트리에서 오버플로가 발생하여 리프 노드가 분할될 때, 중간 키 값이 부모 노드뿐만 아니라 새로 분할된 노드에도 저장된다.</statement>
-          <commentary>보기 [ㄷ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: B-트리에서 오버플로] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "B-트리에서 오버플로가 발생하여 리프 노드가 분할될 때, 중간 키 값이 부모 노드뿐만 아니라 새로 분할된 노드에도 저장된다.")</commentary>
+          <commentary>‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄹ" judgment="O (옳은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄹ" judgment="O">
           <statement>1,000명의 사원 정보가 저장된 ‘사원’ 테이블의 ‘부서’ 필드에 대하여, 30명이 소속된 ‘총무과’ 사원에 대한 비트맵 인덱스를 구성할 경우 1,000비트가 필요하다.</statement>
-          <commentary>보기 [ㄹ]은(는) 옳은 진술(O)입니다. [핵심 논점: 1,000명의 사원 정보가 저장된 ‘사원’ 테이블의 ‘부서’ 필...] 문장 말미의 '필요하다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (의무(기속) 규정인지 임의(재량) 규정인지 구별 확인) (지문 근거: "1,000명의 사원 정보가 저장된 ‘사원’ 테이블의 ‘부서’ 필드에 대하여, 30명이 소속된 ‘총무과’ 사원에 대한 비트맵 인덱스를 구성할 경우 1,000비트가 필요하다.")</commentary>
+          <commentary>‘…필요하다’ 서술이 맞다. 확인 포인트: 의무(기속)·임의(재량) 규정 구별.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="1" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄱ(X), ㄷ(X)을 잘못 넣었고 ㄴ(O), ㄹ(O)이 빠졌다. 정답 조합은 ㄴ, ㄹ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="2" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄱ(X)을 잘못 넣었고 ㄴ(O)이 빠졌다. 정답 조합은 ㄴ, ㄹ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="3" is_answer="false" judgment="오답">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄷ(X)을 잘못 넣었고 ㄹ(O)이 빠졌다. 정답 조합은 ㄴ, ㄹ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="정답 조합">
+        <choice_explanation no="4" is_answer="true" judgment="정답">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>[정답 선지] 발문에서 요구한 조건(&lt;보기&gt; 조합형(옳은 것 고르기))을 정확히 만족하는 보기 조합(ㄴ, ㄹ)입니다.</commentary>
+          <commentary>보기 정오: ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O).</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -304,25 +304,25 @@
         <correct_choice_text>redo 연산은 T_(5), T_(3) 순서로 수행된다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 수리·계산·자료해석형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 시스템, 고장, 발생할, 트랜잭션
-2. [정답 및 핵심 결론] 정답은 4번("redo 연산은 T_(5), T_(3) 순서로 수행된다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 수리·계산·자료해석형 · 옳지 않은 것 고르기
+[키워드] 시스템, 고장, 트랜잭션
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>T_(1)은 어떠한 undo와 redo 연산도 수행하지 않는다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: T_(1)] 문장 말미의 '...undo와 redo 연산도 수행하지 않는다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: T_(1).</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>데이터 항목 A와 B의 값은 각각 700과 900으로 갱신된다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 데이터 항목 A와 B의 값] 문장 말미의 '된다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인) (지문 근거: "| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)...")</commentary>
+          <commentary>‘…된다’ 서술이 맞다. 확인 포인트: 성립·해당 여부. 근거: “| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)...”</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>데이터 항목 C와 D의 값은 각각 5000과 700으로 갱신된다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 데이터 항목 C와 D의 값] 문장 말미의 '된다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인) (지문 근거: "| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)...")</commentary>
+          <commentary>‘…된다’ 서술이 맞다. 확인 포인트: 성립·해당 여부. 근거: “| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)...”</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
           <choice_text>redo 연산은 T_(5), T_(3) 순서로 수행된다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: redo 연산] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: redo 연산. ‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -340,27 +340,27 @@
         <correct_choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 3 | 공급C | | | |</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 지문 독해·추론형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 업체명 VARCHAR(20), 부품명 VARCHAR(20), 색상 VARCHAR(20)
-2. [정답 및 핵심 결론] 정답은 3번("| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 3 | 공급C | | | |")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 업체명 VARCHAR(20), 부품명 VARCHAR(20), 색상 VARCHAR(20)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.
-5. [제시문 핵심 근거] "| 업체번호 | 업체명 |"</overall_commentary>
+      <overall_commentary>[유형] 지문 독해·추론형 · 옳은·적절한 것 고르기
+[키워드] 업체명 VARCHAR(20), 부품명 VARCHAR(20), 색상 VARCHAR(20)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.
+[근거] “| 업체번호 | 업체명 |”</overall_commentary>
       <passage_evidence>| 업체번호 | 업체명 |</passage_evidence>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>| 업체번호 | 업체명 | |---|---| | | |</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: | 업체번호 | 업체명 | |---|---| | | |] 문장 내 '...호 | 업체명 | |---|---| | | |' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 업체번호 | 업체명 |")</commentary>
+          <commentary>논점: | 업체번호 업체명 |---|---|.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 2 | 공급B |</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: | 업체번호 | 업체명 | |---|---| | 2 | 공급B...] 문장 내 '...명 | |---|---| | 2 | 공급B |' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 업체번호 | 업체명 |")</commentary>
+          <commentary>논점: | 업체번호 업체명 |---|---| 2 공급B.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 3 | 공급C | | | |</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: | 업체번호 | 업체명 | |---|---| | 1 | 공급A...] 문장 말미의 '...| 공급A | | 3 | 공급C | | | |' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "| 업체번호 | 업체명 |")</commentary>
+          <commentary>논점: | 업체번호 업체명 |---|---| 1 공급A.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 2 | 공급B | | 3 | 공급C |</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: | 업체번호 | 업체명 | |---|---| | 1 | 공급A...] 문장 내 '...| | 2 | 공급B | | 3 | 공급C |' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "| 업체번호 | 업체명 |")</commentary>
+          <commentary>논점: | 업체번호 업체명 |---|---| 1 공급A.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -377,26 +377,25 @@
         <correct_choice_text>$\left| R \right|$을 릴레이션 $R$의 투플의 수로 정의할 때, $R \bowtie _A = B S$ 에 대하여 $A$가 $R$의 기본키이면 $\left| ( R \bowtie _{A = B} S ) \right| \leq \left| S \right|$이고 조인 선택률(&lt;i&gt;js&lt;/i&gt;)은 $js &gt; 1 / \left| R \right|$이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: SQL문에 대하여 질의 최적화를 수행하고자 한다. 이, 는 기본적으로 중첩 루프(nested loop)
-2. [정답 및 핵심 결론] 정답은 4번("$\left| R \right|$을 릴레이션 $R$의 투플의 수로 정의할 때, $R \bowtie _A = B S$ 에 대하여 $A$가 $R$의 기본키이면 $\left| ( R \...")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.
-6. [포함 수식(LaTeX)] $학생 ⋈_{학과코드 = 학과코드} 학과$; $RM학과 . 학과코드 = ‘ CS ’$; $\left | R \right |$; $R$; $R ⋈_A = B S$</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] SQL문에 대하여 질의 최적화를 수행하고자 한다. 이, 는 기본적으로 중첩 루프(nested loop)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>카탈로그는 해당 테이블에 대한 통계 정보를 저장하고 있어 비용 계산에 활용될 수 있지만, 통계 정보를 실시간으로 갱신하려면 부하가 커서 주기적으로 갱신하기도 한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 카탈로그] 문장 말미의 '...려면 부하가 커서 주기적으로 갱신하기도 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: 카탈로그.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>조인연산 $학생 \bowtie _{학과코드 = 학과코드} 학과$는 기본적으로 중첩 루프(nested loop)를 이용하여 구현하지만, ‘학과.학과코드’에 인덱스가 구축되어 있다면 비용을 감소시킬 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 조인연산 $학생 \bowtie _{학과코드 = 학과코드} 학과$] 문장 말미의 '...가 구축되어 있다면 비용을 감소시킬 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "WHERE 학생.학과코드 = 학과.학과코드")</commentary>
+          <commentary>근거: “WHERE 학생.학과코드 = 학과.학과코드”</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>경험적 질의 최적화 기법에서는 주어진 SQL문의 WHERE절에서 조인연산보다 $학과 . 학과코드 = ‘ CS ’$를 먼저 수행하도록 한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 경험적 질의 최적화 기법에서] 문장 말미의 '...드 = ‘ CS ’$를 먼저 수행하도록 한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "AND 학과.학과코드 = ‘CS’ ;")</commentary>
+          <commentary>근거: “AND 학과.학과코드 = ‘CS’ ;”</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
           <choice_text>$\left| R \right|$을 릴레이션 $R$의 투플의 수로 정의할 때, $R \bowtie _A = B S$ 에 대하여 $A$가 $R$의 기본키이면 $\left| ( R \bowtie _{A = B} S ) \right| \leq \left| S \right|$이고 조인 선택률(&lt;i&gt;js&lt;/i&gt;)은 $js &gt; 1 / \left| R \right|$이다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: $\left| R \right|$을 릴레] 문장 내 '...1 / \left| R \right|$이다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -415,25 +414,25 @@
         <correct_choice_text>외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 릴레이션, 관계, 대수, 연산
-2. [정답 및 핵심 결론] 정답은 4번("외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 릴레이션, 관계, 대수, 연산에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 릴레이션, 관계, 대수, 연산
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>완전 외부조인(⟗) 외부 합집합(U+) 왼쪽 외부조인(⟕)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 완전 외부조인(⟗) 외부 합집합(U+) 왼쪽 외부조인(⟕)] 문장 내 '...(⟗) 외부 합집합(U+) 왼쪽 외부조인(⟕)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>완전 외부조인(⟗) 외부 합집합(U+) 오른쪽 외부조인(⟖)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 완전 외부조인(⟗) 외부 합집합(U+) 오른쪽 외부조인(⟖)] 문장 내 '...⟗) 외부 합집합(U+) 오른쪽 외부조인(⟖)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>외부 합집합(U+) 완전 외부조인(⟗) 왼쪽 외부조인(⟕)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 외부 합집합(U+) 완전 외부조인(⟗) 왼쪽 외부조인(⟕)] 문장 내 '...U+) 완전 외부조인(⟗) 왼쪽 외부조인(⟕)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
           <choice_text>외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)] 문장 말미의 '...+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -451,25 +450,25 @@
         <correct_choice_text>기본 테이블들만으로 작성된 질의 처리 성능을 향상시키기 위해 개발되었다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: SQL에서 뷰(view)의 역할, SQL에서 뷰(view), 기본 테이블(base table)
-2. [정답 및 핵심 결론] 정답은 3번("기본 테이블들만으로 작성된 질의 처리 성능을 향상시키기 위해 개발되었다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 3번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] SQL에서 뷰(view)의 역할, SQL에서 뷰(view), 기본 테이블(base table)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ③, 옳은 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>기본 테이블(base table)들만으로 작성된 질의를 간소화시킬 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 기본 테] 문장 말미의 '...)들만으로 작성된 질의를 간소화시킬 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>사용자의 접근권한에 따라 동일한 기본 테이블의 속성들을 선택적으로 제공할 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 사용자의 접근권한에 따라 동일한 기본 테] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+          <commentary>‘…할 수 있다’ 서술이 맞다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="X · 정답">
           <choice_text>기본 테이블들만으로 작성된 질의 처리 성능을 향상시키기 위해 개발되었다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 기본 테] 문장 내 '...질의 처리 성능을 향상시키기 위해 개발되었다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>기본 테이블들의 물리적 구조를 변경시키지 않고 사용자가 원하는 새로운 가상 테이블을 생성시킬 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 기본 테] 문장 말미의 '...하는 새로운 가상 테이블을 생성시킬 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -488,25 +487,25 @@
         <correct_choice_text>데이터 종속성(data dependency)을 유지하여 데이터와 이를 이용하는 프로그램이 밀접하게 연결되어 동작하도록 도와준다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 데이터베이스와 데이터베이스 관리시스템(DBMS), 스와 데이터베이스 관리시스템(DBMS), 데이터 종속성(data dependency), 역의 DBMS는 지역 자치성(local autonomy)
-2. [정답 및 핵심 결론] 정답은 1번("데이터 종속성(data dependency)을 유지하여 데이터와 이를 이용하는 프로그램이 밀접하게 연결되어 동작하도록 도와준다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 1번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(2, 3, 4번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 데이터베이스와 데이터베이스 관리시스템(DBMS), 스와 데이터베이스 관리시스템(DBMS), 데이터 종속성(data dependency), 역의 DBMS는 지역 자치성(local autonomy)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ①, 옳은 선지는 ②·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="1" is_answer="true" judgment="X · 정답">
           <choice_text>데이터 종속성(data dependency)을 유지하여 데이터와 이를 이용하는 프로그램이 밀접하게 연결되어 동작하도록 도와준다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 데이터 종속성(data dependency)을 유지하여 데] 문장 내 '...그램이 밀접하게 연결되어 동작하도록 도와준다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>데이터베이스 사용자들에게 공용 데이터에 대한 다양한 관점을 제공해 준다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 데이터베] 문장 말미의 '...용 데이터에 대한 다양한 관점을 제공해 준다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: 데이터베.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>데이터베이스 시스템의 자기 기술성은 데이터베이스 구조와 제약조건에 대한 정의를 가지고 있음을 의미한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 데이터베] 문장 말미의 '...약조건에 대한 정의를 가지고 있음을 의미한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: 데이터베.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="4" is_answer="false" judgment="O">
           <choice_text>분산 데이터베이스 시스템에 포함된 각 지역의 DBMS는 지역 자치성(local autonomy)을 가질 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 분산 데] 문장 말미의 '...local autonomy)을 가질 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -525,25 +524,25 @@
         <correct_choice_text>S_(2): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); c_(2); a_(1);</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 트랜잭션, 스케줄, 회복, 불가능한
-2. [정답 및 핵심 결론] 정답은 2번("S_(2): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); c_(2); a_(1);")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 트랜잭션, 스케줄, 회복, 불가능한에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 2번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 트랜잭션, 스케줄, 회복
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ②, 틀린 선지는 ①·③·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>S_(1): r_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); w_(1)(Y); a_(1); r_(2)(Y); c_(2);</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: S_(1): r_(1)(X); r_(2)(X); r_(1)(Y)...] 문장 내 '...; a_(1); r_(2)(Y); c_(2);' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="2" is_answer="true" judgment="O · 정답">
           <choice_text>S_(2): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); c_(2); a_(1);</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: S_(2): r_(1)(X); w_(1)(X); r_(2)(X)...] 문장 말미의 '...; w_(2)(X); c_(2); a_(1);' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>S_(3): r_(1)(X); w_(1)(X); r_(2)(Y); w_(2)(Y); w_(2)(X); c_(2); c_(1);</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: S_(3): r_(1)(X); w_(1)(X); r_(2)(Y)...] 문장 내 '...; w_(2)(X); c_(2); c_(1);' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>S_(4): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); w_(1)(Y); a_(1); a_(2);</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: S_(4): r_(1)(X); w_(1)(X); r_(2)(X)...] 문장 내 '...; w_(1)(Y); a_(1); a_(2);' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -563,25 +562,25 @@
         <correct_choice_text>R1(A,B,D), R2(C,D)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 릴레이션 스키마 R(A, B, C, D), R1(B,C,D), R2(A,B), R1(A,C,D), R2(B,C,D)
-2. [정답 및 핵심 결론] 정답은 3번("R1(A,B,D), R2(C,D)")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 릴레이션 스키마 R(A, B, C, D), R1(B,C,D), R2(A,B), R1(A,C,D), R2(B,C,D)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 릴레이션 스키마 R(A, B, C, D), R1(B, C, D), R2(A, B), R1(A, C, D), R2(B, C, D)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>R1(B,C,D), R2(A,B)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: R1(B] 문장 내 '...R1(B,C,D), R2(A,B)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>R1(A,C,D), R2(B,C,D)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: R1(A] 문장 내 '...R1(A,C,D), R2(B,C,D)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>R1(A,B,D), R2(C,D)</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: R1(A] 문장 말미의 '...R1(A,B,D), R2(C,D)' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>R1(A,B,C), R2(C,D)</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: R1(A] 문장 내 '...R1(A,B,C), R2(C,D)' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -600,25 +599,25 @@
         <correct_choice_text>T_(1)과 T_(2)가 모두 교착 상태에 빠진다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 다음과, 트랜잭션, 대하여, 현재
-2. [정답 및 핵심 결론] 정답은 4번("T_(1)과 T_(2)가 모두 교착 상태에 빠진다.")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음과, 트랜잭션, 대하여, 현재에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 4번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 다음과, 트랜잭션, 현재
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ④, 틀린 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>T_(1)은 성공적으로 완료되지만 T_(2)는 교착 상태에 빠진다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T_(1)] 문장 내 '...완료되지만 T_(2)는 교착 상태에 빠진다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: T_(1).</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>T_(1)은 교착 상태에 빠지지만 T_(2)는 성공적으로 완료된다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T_(1)] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: T_(1). ‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="3" is_answer="false" judgment="X">
           <choice_text>T_(1)과 T_(2)가 모두 성공적으로 완료된다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: T_(1)과 T_(2)] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="O · 정답">
           <choice_text>T_(1)과 T_(2)가 모두 교착 상태에 빠진다.</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: T_(1)과 T_(2)] 문장 말미의 '...1)과 T_(2)가 모두 교착 상태에 빠진다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -635,25 +634,25 @@
         <correct_choice_text>빅데이터 분석 과정에서 추출된 정보를 시각화하는 기술로 Hadoop의 맵 리듀스(MapReduce)를 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (부정형(옳지 않은 것 고르기)) | 핵심 키워드: 빅데이터(big data), 로 Hadoop의 맵 리듀스(MapReduce)
-2. [정답 및 핵심 결론] 정답은 4번("빅데이터 분석 과정에서 추출된 정보를 시각화하는 기술로 Hadoop의 맵 리듀스(MapReduce)를 사용한다.")입니다.
-3. [해설 포인트] 본 문항은 '옳지 않은 것(부정형)'을 찾는 문제입니다. 4번 선지가 출제 포인트에서 벗어난 오문(X)이며, 나머지 선지(1, 2, 3번)는 모두 옳은 설명(O)이므로 주요 정문(正文) 지문으로 함께 정리해 두어야 합니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳지 않은 것 고르기
+[키워드] 빅데이터(big data), 로 Hadoop의 맵 리듀스(MapReduce)
+[풀이] 옳지 않은 것을 고르는 문제다. 틀린 선지는 ④, 옳은 선지는 ①·②·③이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="1" is_answer="false" judgment="O">
           <choice_text>디지털 환경에서 생성되는 데이터로 규모가 방대하고, 정형, 반정형, 비정형 등 다양한 형태의 데이터를 포함한다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: 디지털 환경에서 생성되] 문장 말미의 '...비정형 등 다양한 형태의 데이터를 포함한다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="2" is_answer="false" judgment="O">
           <choice_text>NoSQL 시스템은 반구조적이고 자기 기술적인 데이터를 허용하므로 대개는 스키마를 요구하지 않는다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: NoSQL 시스템] 문장 말미의 '...허용하므로 대개는 스키마를 요구하지 않는다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="O (옳은 지문 · 정문)">
+        <choice_explanation no="3" is_answer="false" judgment="O">
           <choice_text>NoSQL의 키-값(key-value) 데이터 모델은 키와 값의 쌍으로 저장하며, 값은 이미지나 동영상 등 다양한 형태의 데이터가 될 수 있다.</choice_text>
-          <commentary>[옳은 지문(O) · 정문 학습] [핵심 논점: NoSQL의 키-값(key-value) 데] 문장 말미의 '...영상 등 다양한 형태의 데이터가 될 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>옳은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="true" judgment="X (옳지 않은 지문 · 정답)">
+        <choice_explanation no="4" is_answer="true" judgment="X · 정답">
           <choice_text>빅데이터 분석 과정에서 추출된 정보를 시각화하는 기술로 Hadoop의 맵 리듀스(MapReduce)를 사용한다.</choice_text>
-          <commentary>[옳지 않은 지문(X) · 정답] [핵심 논점: 빅데이터 분석 과정에서 추출된 정보를 시각화하] 문장 내 '...의 맵 리듀스(MapReduce)를 사용한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -672,25 +671,25 @@
         <correct_choice_text>XQuery 질의문은 FOR, LET, WHERE, RETURN 절로 구성되고 둘 이상의 변수에 대한 조인연산을 작성할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 복합 보기 검증형 (O/X 판별 조합형) | 핵심 키워드: DTD(Document Type Definition), 마 문서와 달리 네임스페이스(namespace), 데이터베이스 테이블에 맵핑(mapping), 이터를 제외한 다른 데이터형(data type)
-2. [정답 및 핵심 결론] 정답은 3번("XQuery 질의문은 FOR, LET, WHERE, RETURN 절로 구성되고 둘 이상의 변수에 대한 조인연산을 작성할 수 있다.")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, DTD(Document Type Definition), 마 문서와 달리 네임스페이스(namespace), 데이터베이스 테이블에 맵핑(mapping), 이터를 제외한 다른 데이터형(data type)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 복합 보기 검증형 · O·X 판별 조합형
+[키워드] DTD(Document Type Definition), 마 문서와 달리 네임스페이스(namespace), 데이터베이스 테이블에 맵핑(mapping), 이터를 제외한 다른 데이터형(data type)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>DTD(Document Type Definition) 문서는 XML 문서를 작성하기 위한 구문 규칙과 동일한 방식으로 작성된다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: DTD(Document Type Definition) 문서] 문장 내 '된다' 부분에서 성립/해당 여부(인정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>‘…된다’ 부분이 틀렸다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>DTD(Document Type Definition) 문서는 XML 스키마 문서와 달리 네임스페이스(namespace)를 지원한다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: DTD(Document Type Definition) 문서] 문장 내 '...네임스페이스(namespace)를 지원한다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>XQuery 질의문은 FOR, LET, WHERE, RETURN 절로 구성되고 둘 이상의 변수에 대한 조인연산을 작성할 수 있다.</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: XQuery 질의문] 문장 말미의 '할 수 있다' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (성립/해당 여부(인정↔부정) 확인)</commentary>
+          <commentary>‘…할 수 있다’ 서술이 맞다. 확인 포인트: 성립·해당 여부.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>XML 스키마는 XML 문서의 요소 및 속성을 데이터베이스 테이블에 맵핑(mapping)할 때 문자열 데이터를 제외한 다른 데이터형(data type)을 지정할 수 없다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: XML 스키마] 문장 내 '할 수 없다' 부분에서 가능/인정 여부(긍정↔부정)이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: XML 스키마. ‘…할 수 없다’ 부분이 틀렸다. 확인 포인트: 가능·인정 여부.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -708,25 +707,25 @@
         <correct_choice_text>뷰 직렬 가능하지만, 충돌 직렬 가능하지 않다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 핵심 개념·이론 이해형 (긍정형(옳은/적절한 것 고르기)) | 핵심 키워드: 다음과 같은 스케줄의 뷰(view), 충돌(conflict), 직렬 가능성(serializability)
-2. [정답 및 핵심 결론] 정답은 3번("뷰 직렬 가능하지만, 충돌 직렬 가능하지 않다.")입니다.
-3. [해설 포인트] 본 문항은 '옳은/적절한 것(긍정형)'을 찾는 문제로, 다음과 같은 스케줄의 뷰(view), 충돌(conflict), 직렬 가능성(serializability)에 관한 정확한 개념 이해 및 지문·조건 적용 능력을 평가합니다. 3번 선지가 기준에 부합하는 정문(O)입니다.</overall_commentary>
+      <overall_commentary>[유형] 핵심 개념·이론 이해형 · 옳은·적절한 것 고르기
+[키워드] 다음과 같은 스케줄의 뷰(view), 충돌(conflict), 직렬 가능성(serializability)
+[풀이] 옳은 것을 고르는 문제다. 옳은 선지는 ③, 틀린 선지는 ①·②·④이다.</overall_commentary>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="1" is_answer="false" judgment="X">
           <choice_text>뷰 직렬 가능하며, 동시에 충돌 직렬 가능하다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 뷰 직렬] 문장 내 '...직렬 가능하며, 동시에 충돌 직렬 가능하다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 뷰 직렬.</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="2" is_answer="false" judgment="X">
           <choice_text>뷰 직렬 가능하지 않으며, 충돌 직렬 가능하지 않다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 뷰 직렬] 문장 내 '...가능하지 않으며, 충돌 직렬 가능하지 않다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 뷰 직렬.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="true" judgment="O (옳은/적절한 지문 · 정답)">
+        <choice_explanation no="3" is_answer="true" judgment="O · 정답">
           <choice_text>뷰 직렬 가능하지만, 충돌 직렬 가능하지 않다.</choice_text>
-          <commentary>[옳은/적절한 지문(O) · 정답] [핵심 논점: 뷰 직렬] 문장 말미의 '...직렬 가능하지만, 충돌 직렬 가능하지 않다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인)</commentary>
+          <commentary>논점: 뷰 직렬.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="X (옳지 않은/부적절한 지문)">
+        <choice_explanation no="4" is_answer="false" judgment="X">
           <choice_text>뷰 직렬 가능하지 않지만, 충돌 직렬 가능하다.</choice_text>
-          <commentary>[옳지 않은/부적절한 지문(X)] [핵심 논점: 뷰 직렬] 문장 내 '...직렬 가능하지 않지만, 충돌 직렬 가능하다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X).</commentary>
+          <commentary>논점: 뷰 직렬.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>
@@ -742,43 +741,43 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>1. [출제 영역 및 유형] 전산(데이터베이스론) - 복합 보기 검증형 (&lt;보기&gt; 조합형(옳지 않은 것 고르기)) | 핵심 키워드: 관계형 데이터베이스 역정규화(denormalization)
-2. [정답 및 핵심 결론] 정답은 1번("ㄱ, ㄴ, ㄷ")입니다.
-3. [보기 정오 요약] ㄱ(X), ㄴ(X), ㄷ(X), ㄹ(O) → 따라서 조건을 만족하는 조합은 1번입니다.</overall_commentary>
+      <overall_commentary>[유형] 복합 보기 검증형 · &lt;보기&gt; 조합 · 옳지 않은 것 고르기
+[키워드] 관계형 데이터베이스 역정규화(denormalization)
+[보기 정오] ㄱ(X) ㄴ(X) ㄷ(X) ㄹ(O) → 정답 ①</overall_commentary>
       <bogi_analysis>
-        <bogi_item symbol="ㄱ" judgment="X (옳지 않은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄱ" judgment="X">
           <statement>릴레이션들은 역정규화한 후 정규형 수준이 높아진다.</statement>
-          <commentary>보기 [ㄱ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 릴레이션들] 문장 내 '...션들은 역정규화한 후 정규형 수준이 높아진다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "릴레이션들은 역정규화한 후 정규형 수준이 높아진다.")</commentary>
+          <commentary>논점: 릴레이션들.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄴ" judgment="X (옳지 않은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄴ" judgment="X">
           <statement>데이터베이스의 데이터 무결성을 강화할 목적으로 개발되었다.</statement>
-          <commentary>보기 [ㄴ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 데이터베] 문장 내 '...데이터 무결성을 강화할 목적으로 개발되었다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "데이터베이스의 데이터 무결성을 강화할 목적으로 개발되었다.")</commentary>
+          <commentary>논점: 데이터베.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄷ" judgment="X (옳지 않은 설명 - 정답 조합 포함)">
+        <bogi_item symbol="ㄷ" judgment="X">
           <statement>릴레이션들의 데이터 중복을 줄임으로써 데이터베이스의 크기를 감소시킨다.</statement>
-          <commentary>보기 [ㄷ]은(는) 옳지 않은 진술(X)입니다. [핵심 논점: 릴레이션들의 데] 문장 내 '...줄임으로써 데이터베이스의 크기를 감소시킨다.' 부분에서 핵심 요건 및 서술부 결론의 타당성이(가) 실제 법리·이론·제시문 기준과 반대로 서술되었거나 요건이 왜곡되어 옳지 않습니다(X). (대조 근거: "릴레이션들의 데이터 중복을 줄임으로써 데이터베이스의 크기를 감소시킨다.")</commentary>
+          <commentary>옳지 않은 내용이다.</commentary>
         </bogi_item>
-        <bogi_item symbol="ㄹ" judgment="O (옳은 설명 - 정답 조합 제외)">
+        <bogi_item symbol="ㄹ" judgment="O">
           <statement>둘 이상의 릴레이션들에 대하여 조인한 결과를 빈번하게 이용하는 경우, 역정규화 함으로써 질의응답 시간이 단축될 수 있다.</statement>
-          <commentary>보기 [ㄹ]은(는) 옳은 진술(O)입니다. [핵심 논점: 둘 이상의 릴레] 문장 말미의 '...화 함으로써 질의응답 시간이 단축될 수 있다.' 서술은 관련 법리·이론·제시문에 부합하는 올바른 설명(O)입니다. (핵심 요건 및 서술부 결론의 타당성 확인) (지문 근거: "둘 이상의 릴레이션들에 대하여 조인한 결과를 빈번하게 이용하는 경우, 역정규화 함으로써 질의응답 시간이 단축될 수 있다.")</commentary>
+          <commentary>논점: 둘 이상의 릴레.</commentary>
         </bogi_item>
       </bogi_analysis>
       <choice_explanations>
-        <choice_explanation no="1" is_answer="true" judgment="정답 조합">
+        <choice_explanation no="1" is_answer="true" judgment="정답">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>[정답 선지] 발문에서 요구한 조건(&lt;보기&gt; 조합형(옳지 않은 것 고르기))을 정확히 만족하는 보기 조합(ㄱ, ㄴ, ㄷ)입니다.</commentary>
+          <commentary>보기 정오: ㄱ(X), ㄴ(X), ㄷ(X), ㄹ(O).</commentary>
         </choice_explanation>
-        <choice_explanation no="2" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="2" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄹ(O)을 잘못 넣었고 ㄷ(X)이 빠졌다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="3" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="3" is_answer="false" judgment="오답">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄹ(O)을 잘못 넣었고 ㄱ(X)이 빠졌다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
-        <choice_explanation no="4" is_answer="false" judgment="오답 조합">
+        <choice_explanation no="4" is_answer="false" judgment="오답">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>[오답 선지] 옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ, ㄹ)입니다. 상단 &lt;bogi_analysis&gt;의 개별 보기(ㄱ·ㄴ·ㄷ·ㄹ) 정오 판정을 참조하세요.</commentary>
+          <commentary>ㄹ(O)을 잘못 넣었다. 정답 조합은 ㄱ, ㄴ, ㄷ이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">동일/유사 문항 총 2회 출제 (출제연도: 2019 / 시험: 7급 공개경쟁채용시험)</exam_history>

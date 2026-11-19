@@ -27,24 +27,24 @@
         <correct_choice_text>알고리즘 단계들에는 순서가 정해져 있지 않다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 컴퓨터 알고리즘의 조건)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 알고리즘의 조건
+정답은 ②이다. 알고리즘은 입력, 출력, 명확성(각 명령이 모호하지 않음), 유한성(유한한 단계 후 종료), 유효성(실행 가능한 연산)을 갖추어야 하며, 각 단계는 정해진 순서에 따라 수행된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>각 명령어의 의미는 모호하지 않고 명확해야 한다.</choice_text>
-          <commentary>'각 명령어의 의미'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>각 명령어의 의미가 명확해야 한다는 것은 명확성 조건이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>알고리즘 단계들에는 순서가 정해져 있지 않다.</choice_text>
-          <commentary>'알고리즘 단계들에'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>알고리즘의 단계는 정해진 순서에 따라 수행되어야 하므로 순서가 정해져 있지 않다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>한정된 수의 단계 후에는 반드시 종료되어야 한다.</choice_text>
-          <commentary>'한정된 수의 단계 후에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>한정된 단계 후 반드시 종료되어야 한다는 것은 유한성 조건이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>각 명령어들은 실행 가능한 연산이어야 한다.</choice_text>
-          <commentary>'각 명령어들'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>각 명령어가 실행 가능한 연산이어야 한다는 것은 유효성 조건이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -64,26 +64,25 @@
         <correct_choice_text>센싱 기술 등을 활용하여 사물과 주위 환경으로부터 정보 획득(sensor)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 에서 설명하는 빅데이터의 3대 특징, 주위 환경으로부터 정보 획득(sensor), 방대한 양의 데이터 처리(volume), 다양한 유형의 데이터로 구성(variety), 빠른 속도로 수집 및 분석(velocity))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-제시문 근거: "빅데이터는 대용량의 데이터 집합으로부터 가치 있는 정보를 효율적으로 추출하고 결과를 분석하는 기술이다."</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 빅데이터의 3V
+정답은 ①이다. 빅데이터의 3대 특징(3V)은 규모(Volume), 다양성(Variety), 속도(Velocity)이다. 센서를 이용한 정보 획득은 사물인터넷의 특징으로 3V에 해당하지 않는다.</overall_commentary>
       <passage_evidence>빅데이터는 대용량의 데이터 집합으로부터 가치 있는 정보를 효율적으로 추출하고 결과를 분석하는 기술이다.</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>센싱 기술 등을 활용하여 사물과 주위 환경으로부터 정보 획득(sensor)</choice_text>
-          <commentary>제시문의 "빅데이터는 대용량의 데이터 집합으로부터 가치 있는 정보를 효율적으로 추출하고 결과를 분석하는 기술이다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>센서로 정보를 획득하는 것은 3V에 포함되지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>방대한 양의 데이터 처리(volume)</choice_text>
-          <commentary>제시문의 "빅데이터는 대용량의 데이터 집합으로부터 가치 있는 정보를 효율적으로 추출하고 결과를 분석하는 기술이다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>방대한 양의 데이터 처리는 규모(Volume)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정형 데이터와 비정형 데이터 등 다양한 유형의 데이터로 구성(variety)</choice_text>
-          <commentary>제시문의 "빅데이터는 대용량의 데이터 집합으로부터 가치 있는 정보를 효율적으로 추출하고 결과를 분석하는 기술이다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>정형·비정형 등 다양한 유형의 데이터는 다양성(Variety)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>실시간으로 생산되며 빠른 속도로 수집 및 분석(velocity)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>실시간 생성과 빠른 수집·분석은 속도(Velocity)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -99,24 +98,24 @@
         <correct_choice_text>3 1 5 2 4 9</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 료를 오름차순으로 삽입 정렬(insertion sort))
-정답은 ③이다. 본 문항은 료를 오름차순으로 삽입 정렬(insertion sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 삽입 정렬 과정
+정답은 ③이다. 삽입 정렬은 두 번째 원소부터 앞의 정렬된 부분에 알맞은 위치로 삽입한다. [3, 1, 4, 2, 9, 5]에서 1을 삽입하면 [1, 3, 4, 2, 9, 5], 4는 그대로, 2를 삽입하면 [1, 2, 3, 4, 9, 5], 9는 그대로, 5를 삽입하면 [1, 2, 3, 4, 5, 9]가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 3 4 2 9 5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1을 삽입한 첫 단계의 결과로 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 2 3 4 9 5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2를 삽입한 단계의 결과로 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3 1 5 2 4 9</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3, 1이 정렬되지 않은 채 뒤쪽 원소만 바뀐 상태는 삽입 정렬 과정에서 나올 수 없으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1 2 3 4 5 9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5를 삽입한 마지막 단계의 결과로 나타난다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -133,24 +132,24 @@
         <correct_choice_text>소프트웨어의 내부 경로에 대한 지식을 보지 않고 테스트 대상의 기능이나 성능을 테스트하는 기술이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 소프트웨어의 화이트박스 테스트, 글래스 박스(Glass-box))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 화이트박스 테스트
+정답은 ②이다. 화이트박스 테스트는 소스 코드의 내부 논리 구조와 경로를 보면서 검사하는 구조적 테스트로, 글래스박스 테스트라고도 하며 문장·분기·조건 커버리지 등을 기준으로 한다. 내부 구조를 보지 않고 기능을 검사하는 것은 블랙박스 테스트이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>글래스 박스(Glass-box) 테스트라고 부른다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>화이트박스 테스트는 글래스박스 테스트라고도 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>소프트웨어의 내부 경로에 대한 지식을 보지 않고 테스트 대상의 기능이나 성능을 테스트하는 기술이다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>내부 경로를 보지 않고 기능을 테스트하는 것은 블랙박스 테스트이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>문장 커버리지, 분기 커버리지, 조건 커버리지 등의 검증 기준이 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>문장, 분기, 조건 커버리지는 화이트박스 테스트의 검증 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>모듈의 논리적인 구조를 체계적으로 점검하기 때문에 구조적 테스트라고도 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>모듈의 논리 구조를 점검하므로 구조적 테스트라고도 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -167,24 +166,24 @@
         <correct_choice_text>1020</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 진수, 변환한)
-정답은 ①이다. 본 문항은 진수, 변환한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 16진수의 8진수 변환
+정답은 ①이다. 16진수 210을 2진수로 바꾸면 2 = 0010, 1 = 0001, 0 = 0000이므로 0010 0001 0000이다. 이를 오른쪽부터 3비트씩 묶으면 001 000 010 000이므로 8진수 1020이다. 검증하면 210₁₆ = 528 = 1 × 512 + 2 × 8이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1020</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1020₈ = 528이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2100₈ = 1,088로 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10210</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10210₈은 4,232로 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>20100₈은 8,256으로 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -203,24 +202,24 @@
         <correct_choice_text>회피</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 은행원, 알고리즘, 교착상태, 해결하)
-정답은 ②이다. 본 문항은 은행원, 알고리즘, 교착상태, 해결하에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 은행원 알고리즘
+정답은 ②이다. 은행원 알고리즘은 자원을 할당하기 전에 할당 후에도 시스템이 안전 상태를 유지하는지 검사하여, 안전할 때만 할당하는 교착상태 회피 기법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>예방</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>예방은 교착상태의 필요조건 중 하나를 제거하는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>회피</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>안전 상태를 유지하며 자원을 할당하는 것은 회피이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>검출</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>검출은 교착상태 발생 여부를 탐지하는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>회복</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회복은 프로세스 종료나 자원 선점으로 교착상태를 해소하는 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -240,8 +239,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 리피터(Repeater), 더미허브(Dummy Hub), 라우터(Router), 게이트웨이(Gateway), 브릿지(Bridge))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X), ㅁ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 물리 계층 장치
+정답은 ①이다. 리피터와 더미 허브는 신호를 증폭·전달만 하는 물리 계층 장치이다. 브리지는 데이터 링크 계층, 라우터는 네트워크 계층, 게이트웨이는 전송 계층 이상(응용 계층 등)에서 동작한다. 따라서 ㄱ, ㄴ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>리피터(Repeater)</statement>
@@ -267,19 +266,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>리피터와 더미 허브는 물리 계층 장치이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>라우터는 네트워크 계층 장치이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>게이트웨이는 상위 계층 장치이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄹ, ㅁ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄹ, ㅁ)이다.</commentary>
+          <commentary>게이트웨이와 브리지는 물리 계층 장치가 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -295,24 +294,24 @@
         <correct_choice_text>CMYK 방식에서 C는 Cyan을 의미한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 이미지 표현을 위한 RGB 방식과 CMYK 방식)
-정답은 ②이다. 본 문항은 이미지 표현을 위한 RGB 방식과 CMYK 방식에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · RGB와 CMYK
+정답은 ②이다. RGB(Red, Green, Blue)는 빛의 삼원색을 더하는 가산 혼합 방식으로 모니터 등에 쓰인다. CMYK(Cyan, Magenta, Yellow, Black)는 색을 겹칠수록 어두워지는 감산 혼합 방식으로 프린터와 인쇄에 쓰인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CMYK 방식은 가산 혼합 모델로 빛이 하나도 없을 때 검은색을 표현한다.</choice_text>
-          <commentary>'CMYK 방식'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가산 혼합 모델은 RGB이며, CMYK는 감산 혼합 모델이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>CMYK 방식에서 C는 Cyan을 의미한다.</choice_text>
-          <commentary>'CMYK 방식에서 C'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>CMYK에서 C는 Cyan을 의미하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>RGB 방식은 주로 컬러 프린터, 인쇄, 페인팅 등에 적용된다.</choice_text>
-          <commentary>'RGB 방식'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>컬러 프린터와 인쇄에 적용되는 것은 CMYK 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>RGB 방식에서 B는 Black을 의미한다.</choice_text>
-          <commentary>'RGB 방식에서 B'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RGB에서 B는 Black이 아니라 Blue이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -331,24 +330,24 @@
         <correct_choice_text>T_(2 )트랜잭션에는 별다른 회복조치를 하지 않지만, T_(1 )트랜잭션에는 redo(T_(1)) 연산을 실행한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 계좌에서, 계좌, 이체하, 이체)
-정답은 ④이다. 본 문항은 계좌에서, 계좌, 이체하, 이체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 지연 갱신 회복 기법
+정답은 ④이다. 지연 갱신 기법은 트랜잭션이 완료(commit)될 때까지 데이터베이스 갱신을 미루고 로그에만 기록한다. 장애 시점 (가)에서 T1은 commit 기록이 있으므로 redo(T1)을 수행하고, T2는 commit 전이므로 데이터베이스에 반영된 것이 없어 로그만 무시하면 되며 undo가 필요 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>T_(1), T_(2 )트랜잭션 모두 별다른 조치를 수행하지 않는다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>T1은 완료되었으므로 redo가 필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>T_(1 )트랜잭션의 로그 내용을 무시하고 버린다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>T1은 완료되었으므로 로그를 버리지 않고 redo해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>T_(1 )트랜잭션에는 별다른 회복조치를 하지 않지만, T_(2 )트랜잭션에는 redo(T_(2)) 연산을 실행한다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>T2는 완료되지 않았으므로 redo하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>T_(2 )트랜잭션에는 별다른 회복조치를 하지 않지만, T_(1 )트랜잭션에는 redo(T_(1)) 연산을 실행한다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>T2는 조치하지 않고 T1은 redo하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -367,24 +366,24 @@
         <correct_choice_text>3단계</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 해당하, 모델, 성숙, 단계)
-정답은 ②이다. 본 문항은 해당하, 모델, 성숙, 단계에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · CMMI 성숙 단계
+정답은 ②이다. CMMI 3단계(정의 단계)는 조직 차원의 표준 프로세스를 정립하는 단계로, 요구사항 개발, 기술적 솔루션, 제품 통합, 검증, 확인, 조직 프로세스 정립·개선, 조직 교육 훈련, 통합 프로젝트 관리, 위험 관리, 의사결정 분석 및 해결 등의 프로세스 영역을 포함한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2단계</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2단계(관리 단계)는 요구사항 관리, 프로젝트 계획·통제 등 프로젝트 차원의 관리 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3단계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제시된 영역은 조직 차원의 프로세스 정의를 다루는 3단계이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4단계</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4단계(정량적 관리 단계)는 프로세스 성과를 정량적으로 관리한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5단계</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5단계(최적화 단계)는 지속적인 프로세스 개선과 원인 분석을 다룬다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -403,24 +402,24 @@
         <correct_choice_text>Q 0 1 Q'</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 정논리, 사용하, 플립플롭, 진리표이다)
-정답은 ③이다. 본 문항은 정논리, 사용하, 플립플롭, 진리표이다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · JK 플립플롭
+정답은 ③이다. JK 플립플롭은 J = 0, K = 0이면 현재 상태 유지(Q), J = 0, K = 1이면 리셋(0), J = 1, K = 0이면 세트(1), J = 1, K = 1이면 반전(Q′)된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Q 1 0 Q'</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>J = 0, K = 1이면 0, J = 1, K = 0이면 1이므로 (나), (다)가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Q' 1 0 Q</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>J = 0, K = 0이면 유지이며 J = K = 1이면 반전이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Q 0 1 Q'</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) Q, (나) 0, (다) 1, (라) Q′이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Q' 0 1 Q</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유지와 반전, 세트와 리셋이 모두 바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -440,26 +439,25 @@
         <correct_choice_text>INSERT INTO Book (ISBN, TITLE, AUTHOR) VALUES ('978-89-8914-892-4', '데이터베이스 개론', '홍길동');</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 다음 SQL(Structured Query Language), ISBN CHAR(17), TITLE VARCHAR(30), AUTHOR VARCHAR(30), SERT INTO Book (ISBN, TITLE, PRICE))
-정답은 ④이다. 본 문항은 다음 SQL(Structured Query Language), ISBN CHAR(17), TITLE VARCHAR(30), AUTHOR VARCHAR(30), SERT INTO Book (ISBN, TITLE, PRICE)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · SQL INSERT와 NOT NULL 제약
+정답은 ④이다. Book 테이블에서 ISBN은 기본키, TITLE과 PRICE는 NOT NULL 제약이 있다. ④는 PRICE 값을 지정하지 않아 NULL이 들어가게 되므로 NOT NULL 제약을 위반하여 삽입되지 않는다.</overall_commentary>
       <passage_evidence>CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>INSERT INTO Book (ISBN, TITLE, PRICE, AUTHOR) VALUES ('978-89-8914-892-1', '데이터베이스 개론', 20000, '홍길동');</choice_text>
-          <commentary>제시문의 "CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>NOT NULL 열(ISBN, TITLE, PRICE)에 모두 값이 있으므로 정상 동작한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>INSERT INTO Book VALUES ('978-89-8914-892-2', '데이터베이스 개론', 20000, '2022-06-18', '홍길동');</choice_text>
-          <commentary>제시문의 "CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>모든 열에 순서대로 값을 넣으므로 정상 동작한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>INSERT INTO Book (ISBN, TITLE, PRICE) VALUES ('978-89-8914-892-3', '데이터베이스 개론', 20000);</choice_text>
-          <commentary>제시문의 "CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>NOT NULL 열에 모두 값이 있고 나머지는 NULL이 허용되므로 정상 동작한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>INSERT INTO Book (ISBN, TITLE, AUTHOR) VALUES ('978-89-8914-892-4', '데이터베이스 개론', '홍길동');</choice_text>
-          <commentary>제시문의 "CREATE TABLE Book (ISBN CHAR(17) PRIMARY KEY, TITLE VARCHAR(30) NOT NULL, PRICE INT NOT NULL, PUBDATE DATE, AUTHOR VARCHAR(30));" 내용과 일치하므로 옳다.</commentary>
+          <commentary>PRICE를 생략하여 NOT NULL 제약을 위반하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -476,24 +474,24 @@
         <correct_choice_text>패킷 교환 네트워크에서는 동시에 2쌍 이상의 통신이 불가능하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 패킷 교환 네트워크, 패킷 크기는 옥텟(Octet))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 패킷 교환 네트워크
+정답은 ④이다. 패킷 교환 방식은 데이터를 송수신지 정보를 담은 패킷으로 나누어 전송하며, 하나의 회선을 여러 통신이 공유하므로 동시에 여러 쌍의 통신이 가능하다. 접속 방식에 따라 데이터그램 방식과 가상회선 방식이 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>패킷 크기는 옥텟(Octet) 단위로 사용한다.</choice_text>
-          <commentary>'패킷 크기'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>패킷 크기는 옥텟(8비트) 단위로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>네트워크로 전송되는 모든 데이터는 송․수신지 정보를 포함하는 패킷들로 구성된다.</choice_text>
-          <commentary>'네트워크로 전송되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전송되는 모든 데이터는 송수신지 정보를 포함한 패킷으로 구성된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>패킷 교환 방식은 접속 방식에 따라 데이터그램 방식과 가상회선 방식이 있다.</choice_text>
-          <commentary>'패킷 교환 방식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>패킷 교환 방식에는 데이터그램 방식과 가상회선 방식이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>패킷 교환 네트워크에서는 동시에 2쌍 이상의 통신이 불가능하다.</choice_text>
-          <commentary>'패킷 교환 네트워크에서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회선을 공유하여 동시에 여러 쌍의 통신이 가능하므로 불가능하다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -509,24 +507,24 @@
         <correct_choice_text>신속하고 효율적인 인터럽트 처리를 위하여 컴퓨터는 항상 인터럽트 요청을 승인하도록 구성된다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 인터럽트)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 인터럽트
+정답은 ③이다. 인터럽트 요청은 우선순위나 마스크 설정에 따라 승인되지 않거나 지연될 수 있다. 예를 들어 우선순위가 높은 인터럽트를 처리하는 중이거나 인터럽트가 금지(마스크)된 경우에는 요청을 바로 승인하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>내부 인터럽트가 발생하면 컴퓨터는 더 이상 프로그램을 실행할 수 없다.</choice_text>
-          <commentary>'내부 인터럽트'에 관하여 '할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>0으로 나누기 같은 내부 인터럽트가 발생하면 해당 프로그램은 정상적으로 계속 실행될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>프로세서는 인터럽트 요구가 있으면 현재 수행 중인 프로그램의 주소 값을 스택이나 메모리의 0번지와 같은 특정 장소에 저장한다.</choice_text>
-          <commentary>'프로세서'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>프로세서는 인터럽트 발생 시 현재 프로그램의 복귀 주소를 스택 등 특정 장소에 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>신속하고 효율적인 인터럽트 처리를 위하여 컴퓨터는 항상 인터럽트 요청을 승인하도록 구성된다.</choice_text>
-          <commentary>'신속하고 효율적인 인터럽트 처리를 위하여 컴퓨터'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인터럽트 요청은 마스크나 우선순위에 따라 승인되지 않을 수 있으므로 항상 승인한다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>인터럽트 핸들러 또는 인터럽트 서비스 루틴은 인터럽트 소스가 요청한 작업에 대한 프로그램으로 기억장치에 적재되어야 한다.</choice_text>
-          <commentary>'인터럽트 핸들러 또'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인터럽트 서비스 루틴은 요청된 작업을 처리하는 프로그램으로 기억장치에 적재되어 있어야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -545,24 +543,24 @@
         <correct_choice_text>9</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 프로그램, 실행하면서, 사용자, 차례대)
-정답은 ③이다. 본 문항은 프로그램, 실행하면서, 사용자, 차례대에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · C 배열과 반복문
+정답은 ③이다. 입력 후 ary = {1, 2, 3, 4}이다. 두 번째 반복문은 i = 3, 2, 1에서 실행되고 i = 0에서는 조건 i &gt; 0이 거짓이 되어 종료한다. sum = ary[3] + ary[2] + ary[1] = 4 + 3 + 2 = 9이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3은 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>6은 ary[0]부터 ary[2]까지의 합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>9</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4 + 3 + 2 = 9이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10은 ary[0]까지 포함한 합이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -578,24 +576,24 @@
         <correct_choice_text>임곗값이 9가 되고, 혼잡 윈도우값은 1로 감소한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 느린 출발(slow-start))
-정답은 ②이다. 본 문항은 느린 출발(slow-start)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · TCP Tahoe의 혼잡 제어
+정답은 ②이다. TCP Tahoe에서는 타임아웃이 발생하면 느린 출발 임곗값(ssthresh)을 현재 혼잡 윈도우의 절반으로 설정하고, 혼잡 윈도우를 1로 줄여 느린 출발을 다시 시작한다. 혼잡 윈도우 18에서 타임아웃이 발생하면 임곗값은 9, 혼잡 윈도우는 1이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>임곗값은 변하지 않고, 혼잡 윈도우값은 1로 감소한다.</choice_text>
-          <commentary>'임곗값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>타임아웃 시 임곗값은 현재 윈도우의 절반으로 바뀐다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>임곗값이 9가 되고, 혼잡 윈도우값은 1로 감소한다.</choice_text>
-          <commentary>'임곗값'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>임곗값 9, 혼잡 윈도우 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>임곗값이 9가 되고, 혼잡 윈도우값은 현재 값의 반으로 감소한다.</choice_text>
-          <commentary>'임곗값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Tahoe에서는 혼잡 윈도우를 절반이 아니라 1로 줄인다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>임곗값은 변하지 않고, 혼잡 윈도우값은 현재 값의 반으로 감소한다.</choice_text>
-          <commentary>'임곗값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>임곗값이 바뀌며 윈도우는 1로 줄어든다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -611,24 +609,24 @@
         <correct_choice_text>가변분할 메모리 할당은 프로세스의 크기에 따라 메모리를 나누는 것으로 단편화 문제가 발생하지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 다중 프로그래밍 환경에서 연속 메모리 할당 방법)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 연속 메모리 할당
+정답은 ①이다. 가변 분할 할당은 프로세스 크기에 맞게 메모리를 나누어 내부 단편화는 없지만, 할당과 해제가 반복되면서 사용할 수 없는 작은 빈 공간이 흩어지는 외부 단편화가 발생한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>가변분할 메모리 할당은 프로세스의 크기에 따라 메모리를 나누는 것으로 단편화 문제가 발생하지 않는다.</choice_text>
-          <commentary>'가변분할 메모리 할당'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가변 분할 할당은 외부 단편화가 발생하므로 단편화 문제가 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>가변분할 메모리 할당의 메모리 배치방법으로는 최초 적합, 최적 적합, 최악 적합 방법이 있다.</choice_text>
-          <commentary>'가변분할 메모리 할당의 메모리 배치방법으로'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가변 분할의 배치 방법에는 최초·최적·최악 적합이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>고정분할 메모리 할당은 프로세스의 크기와 상관없이 메모리를 같은 크기로 나누는 것이다.</choice_text>
-          <commentary>'고정분할 메모리 할당'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고정 분할 할당은 프로세스 크기와 관계없이 메모리를 정해진 크기로 나눈다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>고정분할 메모리 할당에서는 쓸모없는 공간으로 인해 메모리 낭비가 발생할 수 있다.</choice_text>
-          <commentary>'고정분할 메모리 할당에서'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>고정 분할 할당에서는 분할 영역 내부에 남는 공간(내부 단편화)으로 메모리가 낭비될 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -645,24 +643,24 @@
         <correct_choice_text>각 프로세서의 메모리 접근법 분류에 따르면 UMA는 약결합형 다중처리기 시스템, NUMA 및 NORMA는 강결합형 다중처리기 시스템에 해당한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 병렬 프로세서, 공유 메모리 프로세서(SMP))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 병렬 프로세서
+정답은 ④이다. UMA(균일 메모리 접근)는 모든 프로세서가 공유 메모리에 같은 시간으로 접근하는 강결합형 구조이다. NUMA는 강결합형이며, NORMA(원격 메모리 접근 불가)는 각 프로세서가 독립 메모리를 갖는 약결합형 구조이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>프로세스 수준 병렬성은 다수의 프로세서를 이용하여 독립적인 프로그램 여러 개를 동시에 수행한다.</choice_text>
-          <commentary>'프로세스 수준 병렬성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>프로세스 수준 병렬성은 여러 프로세서로 독립된 프로그램을 동시에 수행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>클러스터는 근거리 네트워크를 통하여 연결된 컴퓨터들이 하나의 대형 멀티 프로세서로 동작하는 시스템이다.</choice_text>
-          <commentary>'클러스터'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>클러스터는 근거리 네트워크로 연결된 컴퓨터들이 하나의 다중 프로세서처럼 동작한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공유 메모리 프로세서(SMP)는 단일 실제 주소 공간을 갖는 병렬 프로세서를 의미한다.</choice_text>
-          <commentary>'공유 메모리 프로세서(SMP)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공유 메모리 프로세서(SMP)는 단일 실제 주소 공간을 갖는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>각 프로세서의 메모리 접근법 분류에 따르면 UMA는 약결합형 다중처리기 시스템, NUMA 및 NORMA는 강결합형 다중처리기 시스템에 해당한다.</choice_text>
-          <commentary>'각 프로세서의 메모리 접근법 분류'에 관하여 '해당한다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>UMA는 강결합형이고 NORMA는 약결합형이므로 반대로 서술한 이 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -680,26 +678,25 @@
         <correct_choice_text>10 5</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 프로그램, 실행, 결과)
-정답은 ③이다. 본 문항은 프로그램, 실행, 결과에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "int star = 10;"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 전역 변수와 지역 변수
+정답은 ③이다. printStar()에서 사용하는 star는 함수 안에 지역 변수가 없으므로 전역 변수 star = 10이다. main 안에서 선언한 지역 변수 star = 5는 전역 변수를 가릴 뿐 printStar()에는 영향을 주지 않는다. 따라서 10, 5 순으로 출력된다.</overall_commentary>
       <passage_evidence>int star = 10;</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5 5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>printStar()는 전역 변수 10을 출력한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5 10</choice_text>
-          <commentary>제시문의 "int star = 10;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>출력 순서와 값이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 5</choice_text>
-          <commentary>제시문의 "int star = 10;" 내용과 일치하므로 옳다.</commentary>
+          <commentary>printStar()가 10, main이 5를 출력하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10 10</choice_text>
-          <commentary>제시문의 "int star = 10;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>main의 printf는 지역 변수 5를 출력한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -715,24 +712,24 @@
         <correct_choice_text>13 7</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 태 큐에 도착했을 때 SJF(Shortest Job First))
-정답은 ④이다. 본 문항은 태 큐에 도착했을 때 SJF(Shortest Job First)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · SJF 스케줄링의 반환·대기 시간
+정답은 ④이다. 모든 프로세스가 동시에 도착하였으므로 실행 시간이 짧은 순서인 P3(0~4), P1(4~9), P2(9~15), P4(15~24)로 실행한다. 반환 시간은 4, 9, 15, 24로 평균 52 ÷ 4 = 13이다. 대기 시간은 0, 4, 9, 15로 평균 28 ÷ 4 = 7이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6 6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평균 반환 시간은 13, 평균 대기 시간은 7이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6 7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평균 반환 시간은 6이 아니라 13이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>13 6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평균 대기 시간은 6이 아니라 7이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>13 7</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>평균 반환 시간 13, 평균 대기 시간 7이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

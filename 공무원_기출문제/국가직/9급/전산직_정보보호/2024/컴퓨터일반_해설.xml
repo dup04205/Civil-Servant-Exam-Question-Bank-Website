@@ -30,24 +30,24 @@
         <correct_choice_text>GB, TB, PB, EB</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 컴퓨터에서, 사용하, 정보량, 단위)
-정답은 ④이다. 본 문항은 컴퓨터에서, 사용하, 정보량, 단위에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 정보량의 단위
+정답은 ④이다. 정보량 단위는 1,024배씩 커지며 KB &lt; MB &lt; GB &lt; TB &lt; PB &lt; EB &lt; ZB &lt; YB 순이다. 따라서 GB, TB, PB, EB 순으로 커진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>EB, GB, PB, TB</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>EB가 가장 큰 단위이므로 맨 앞에 둘 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>EB, PB, GB, TB</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>EB와 PB가 GB보다 크므로 순서가 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>GB, TB, EB, PB</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PB가 EB보다 작으므로 EB, PB 순서는 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>GB, TB, PB, EB</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>GB &lt; TB &lt; PB &lt; EB이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>0 1 1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 논리회로도에서, 출력, 입력, 조합)
-정답은 ③이다. 본 문항은 논리회로도에서, 출력, 입력, 조합에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 논리회로의 출력
+정답은 ③이다. 이 문항의 논리회로도는 이미지로만 제공되었다. 공식 정답에 따르면 출력 F가 0이 되는 입력 조합은 (0, 1, 1)이다. 논리회로 문제는 각 게이트의 출력을 입력 단에서부터 차례로 구하여 최종 출력을 확인하는 방식으로 풀이한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0 0 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 (0, 0, 1)에서는 출력 F가 0이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0 1 0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 (0, 1, 0)에서는 출력 F가 0이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0 1 1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따라 (0, 1, 1)에서 출력 F가 0이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1 0 0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 (1, 0, 0)에서는 출력 F가 0이 되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -102,24 +102,24 @@
         <correct_choice_text>RSA</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 암호화, 복호화, 위하여, 개인키와)
-정답은 ③이다. 본 문항은 암호화, 복호화, 위하여, 개인키와에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 비대칭키 암호화
+정답은 ③이다. RSA는 큰 수의 소인수분해의 어려움에 기반한 공개키(비대칭키) 암호 알고리즘으로, 공개키로 암호화하고 개인키로 복호화한다. AES, DES, SEED는 암호화와 복호화에 같은 키를 쓰는 대칭키 블록 암호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AES</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AES는 대칭키 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DES</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DES는 56비트 키를 사용하는 대칭키 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>RSA</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RSA는 공개키와 개인키를 사용하는 비대칭키 암호이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SEED</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SEED는 우리나라가 개발한 대칭키 블록 암호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,24 +138,24 @@
         <correct_choice_text>SLIP</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 모형, 네트워크, 계층, 프로토콜)
-정답은 ④이다. 본 문항은 모형, 네트워크, 계층, 프로토콜에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 네트워크 계층 프로토콜
+정답은 ④이다. IP, ICMP, IGMP, ARP 등은 네트워크 계층 프로토콜이다. SLIP(Serial Line Internet Protocol)은 직렬 회선에서 IP 패킷을 전송하기 위한 데이터 링크 계층 프로토콜이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ICMP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ICMP는 IP의 오류 보고와 진단을 담당하는 네트워크 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IGMP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IGMP는 멀티캐스트 그룹 관리를 위한 네트워크 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IP는 패킷의 주소 지정과 라우팅을 담당하는 네트워크 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>SLIP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SLIP은 데이터 링크 계층 프로토콜이므로 네트워크 계층에 속하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -174,24 +174,24 @@
         <correct_choice_text>PaaS</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 클라우드, 컴퓨팅, 서비스에서, 애플리케이션)
-정답은 ③이다. 본 문항은 클라우드, 컴퓨팅, 서비스에서, 애플리케이션에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 클라우드 서비스 모델
+정답은 ③이다. PaaS(Platform as a Service)는 애플리케이션을 개발·테스트·배포할 수 있는 플랫폼(운영체제, 개발 도구, 데이터베이스 등)을 서비스로 제공한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IaaS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IaaS는 서버, 스토리지, 네트워크 등 인프라를 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>NAS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NAS는 네트워크에 연결된 저장 장치로 클라우드 서비스 모델이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>PaaS</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>애플리케이션 개발·테스트·배포 환경을 제공하는 것은 PaaS이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SaaS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SaaS는 완성된 소프트웨어를 서비스로 제공한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -210,24 +210,24 @@
         <correct_choice_text>1111 1011</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 진수, 뺄셈, 보수, 이용하여)
-정답은 ④이다. 본 문항은 진수, 뺄셈, 보수, 이용하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 2의 보수 뺄셈
+정답은 ④이다. 7 − 12 = 7 + (−12)이다. 8비트에서 7은 00000111, 12는 00001100이고 −12의 2의 보수는 11110100이다. 00000111 + 11110100 = 11111011이며, 이는 −5의 2의 보수 표현이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0000 0100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>00000100은 +4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0000 0101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>00000101은 +5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1111 0101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>11110101은 −11의 2의 보수 표현이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1111 1011</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>11111011은 −5의 2의 보수 표현이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,24 +243,24 @@
         <correct_choice_text>RAID 레벨 1: 패리티 비트를 사용하여 오류를 검출한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 레벨)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · RAID 레벨
+정답은 ②이다. RAID 1은 같은 데이터를 두 개 이상의 디스크에 복제하여 저장하는 미러링(mirroring) 방식으로, 패리티를 사용하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>RAID 레벨 0: 패리티 없이 데이터를 분산 저장한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RAID 0은 패리티 없이 데이터를 여러 디스크에 분산 저장하는 스트라이핑 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>RAID 레벨 1: 패리티 비트를 사용하여 오류를 검출한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RAID 1은 미러링 방식이며 패리티 비트를 사용하지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>RAID 레벨 2: 해밍 코드를 사용하여 오류 검출 및 정정이 가능하다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RAID 2는 해밍 코드를 사용하여 오류를 검출하고 정정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>RAID 레벨 5: 데이터와 함께 패리티 정보를 블록 단위로 분산 저장한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RAID 5는 데이터와 패리티를 블록 단위로 모든 디스크에 분산 저장한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -276,24 +276,24 @@
         <correct_choice_text>명령어의 길이가 고정적이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: RISC와 비교하여 CISC의 특징)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · CISC의 특징
+정답은 ②이다. CISC는 명령어의 종류가 많고 길이가 가변적이며 주소 지정 방식이 다양하여 회로가 복잡하고 파이프라인 처리가 비효율적이다. 명령어 길이가 고정적인 것은 RISC의 특징이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>명령어의 종류가 많다.</choice_text>
-          <commentary>'명령어의 종류'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>CISC는 명령어의 종류가 많다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>명령어의 길이가 고정적이다.</choice_text>
-          <commentary>'명령어의 길이'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>명령어 길이가 고정적인 것은 RISC의 특징이므로 CISC의 특징으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>명령어 파이프라인이 비효율적이다.</choice_text>
-          <commentary>'명령어 파이프라인'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가변 길이 명령어로 인해 파이프라인이 비효율적이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>회로 구성이 복잡하다.</choice_text>
-          <commentary>'회로 구성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>복잡한 명령어를 처리하기 위해 회로 구성이 복잡하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -310,26 +310,25 @@
         <correct_choice_text>high = mid - 1 low = mid + 1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: def binary(ds, key), len(ds))
-정답은 ②이다. 본 문항은 def binary(ds, key), len(ds)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "mid = (low+high) // 2"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 이진 탐색의 범위 조정
+정답은 ②이다. 이진 탐색에서 key가 ds[mid]보다 작으면 왼쪽 절반을 탐색해야 하므로 high = mid − 1로 바꾸고(가), 크면 오른쪽 절반을 탐색해야 하므로 low = mid + 1로 바꾼다(나).</overall_commentary>
       <passage_evidence>mid = (low+high) // 2</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>high = mid - 1 low = mid - 1</choice_text>
-          <commentary>제시문의 "mid = (low+high) // 2" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>(나)에서 low = mid − 1로 하면 탐색 범위가 줄지 않아 무한 반복될 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>high = mid - 1 low = mid + 1</choice_text>
-          <commentary>제시문의 "mid = (low+high) // 2" 내용과 일치하므로 옳다.</commentary>
+          <commentary>(가) high = mid − 1, (나) low = mid + 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>high = mid + 1 low = mid - 1</choice_text>
-          <commentary>제시문의 "mid = (low+high) // 2" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>(가)에서 high = mid + 1로 하면 범위가 좁혀지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>high = mid + 1 low = mid + 1</choice_text>
-          <commentary>제시문의 "mid = (low+high) // 2" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>(가)에서 high = mid + 1로 하면 범위가 좁혀지지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -348,24 +347,24 @@
         <correct_choice_text>LRU(Least Recently Used)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 4 5 1 4 3 FIFO(First In First Out), LFU(Least Frequently Used), LRU(Least Recently Used), MFU(Most Frequently Used))
-정답은 ③이다. 본 문항은 4 5 1 4 3 FIFO(First In First Out), LFU(Least Frequently Used), LRU(Least Recently Used), MFU(Most Frequently Used)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 페이지 교체 알고리즘 비교
+정답은 ③이다. 참조열 2 1 2 3 1 4 5 1 4 3을 프레임 3개로 추적한다. FIFO는 2, 1, 3, 4, 5, 1, 3에서 부재가 발생하여 7회이다. LRU는 2, 1, 3, 4(2 교체), 5(3 교체), 3(5 교체)에서 부재가 발생하여 6회이다. LFU(동일 빈도는 오래된 것 교체)는 2, 1, 3, 4(3 교체), 5(4 교체), 4(5 교체), 3(4 교체)으로 7회이다. MFU는 2, 1, 3, 4(2 교체), 5(1 교체), 1(3 교체), 3(4 교체)으로 7회이다. 따라서 LRU가 가장 적다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>FIFO(First In First Out)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>FIFO는 페이지 부재가 7회이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>LFU(Least Frequently Used)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>LFU는 페이지 부재가 7회이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>LRU(Least Recently Used)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>LRU가 6회로 가장 적으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>MFU(Most Frequently Used)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MFU는 페이지 부재가 7회이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -385,24 +384,24 @@
         <correct_choice_text>선점(preemption)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 교착상태(deadlock), 상호 배제(mutual exclusion), 선점(preemption), 순환 대기(circular wait), 점유와 대기(hold and wait))
-정답은 ②이다. 본 문항은 교착상태(deadlock), 상호 배제(mutual exclusion), 선점(preemption), 순환 대기(circular wait), 점유와 대기(hold and wait)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 교착상태의 필요조건
+정답은 ②이다. 교착상태가 발생하려면 상호 배제, 점유와 대기, 비선점, 순환 대기의 네 가지 조건이 동시에 성립해야 한다. 자원을 강제로 빼앗을 수 있는 선점은 오히려 교착상태를 막는 조건이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>상호 배제(mutual exclusion)</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상호 배제는 자원을 한 프로세스만 사용할 수 있다는 필요조건이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>선점(preemption)</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>필요조건은 선점이 아니라 비선점이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>순환 대기(circular wait)</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순환 대기는 프로세스들이 원형으로 자원을 기다리는 필요조건이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>점유와 대기(hold and wait)</choice_text>
-          <commentary>교착상태(Deadlock)는 상호배제, 점유와 대기, 비선점, 순환대기의 4가지 필요조건이 모두 성립할 때 발생하며, 이 중 하나만 제거해도 예방할 수 있다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>점유와 대기는 자원을 가진 채 다른 자원을 기다리는 필요조건이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -420,8 +419,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: FCFS(First Come First Served), RR(Round Robin), SRT(Shortest Remaining Time))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 비선점형 스케줄링
+정답은 ①이다. 비선점형 스케줄링은 프로세스가 CPU를 할당받으면 종료되거나 스스로 반납할 때까지 CPU를 빼앗기지 않는다. FCFS와 HRN(응답률 = (대기 시간 + 실행 시간) ÷ 실행 시간)은 비선점형이다. RR은 시간 할당량이 끝나면, SRT는 남은 시간이 더 짧은 프로세스가 오면 CPU를 빼앗는 선점형이다. 따라서 ㄱ, ㄴ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>FCFS(First Come First Served) 스케줄링</statement>
@@ -443,19 +442,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>FCFS와 HRN은 비선점형이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>SRT는 선점형이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>RR은 선점형이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>RR과 SRT는 모두 선점형이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -471,24 +470,24 @@
         <correct_choice_text>병목 현상이 나타나지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 속 형태 중 트리형 토폴로지(topology))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 트리형 토폴로지
+정답은 ②이다. 트리형 토폴로지는 중앙 노드에서 계층적으로 노드를 연결하는 구조로, 확장이 쉽고 분산 처리를 구현할 수 있다. 그러나 상위 노드에 트래픽이 집중되어 병목 현상이 생길 수 있으며, 상위 노드에 장애가 나면 하위 전체에 영향을 준다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>네트워크의 확장이 용이하다.</choice_text>
-          <commentary>'네트워크의 확장'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>트리형은 하위 노드를 추가하여 확장하기 쉽다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>병목 현상이 나타나지 않는다.</choice_text>
-          <commentary>'병목 현상'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상위 노드에 트래픽이 몰려 병목 현상이 나타날 수 있으므로 나타나지 않는다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>분산처리 방식을 구현할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>계층 구조를 이용해 분산 처리 방식을 구현할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>중앙의 서버 컴퓨터에 장애가 발생하면 전체 네트워크에 영향을 준다.</choice_text>
-          <commentary>'중앙의 서버 컴퓨터에 장애'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>중앙(상위) 서버에 장애가 생기면 전체 네트워크에 영향을 준다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -507,24 +506,24 @@
         <correct_choice_text>128.128.128.128</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 주소, 클래스별, 분류했, 클래스)
-정답은 ③이다. 본 문항은 주소, 클래스별, 분류했, 클래스에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · IPv4 클래스 B
+정답은 ③이다. IPv4 클래스 B는 첫 바이트가 128~191인 주소이다. 128.128.128.128의 첫 바이트는 128이므로 클래스 B이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>12.23.34.45</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>첫 바이트 12는 클래스 A(1~126)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>111.111.11.11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>첫 바이트 111은 클래스 A이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>128.128.128.128</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>첫 바이트 128은 클래스 B이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>222.111.222.111</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>첫 바이트 222는 클래스 C(192~223)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -543,24 +542,24 @@
         <correct_choice_text>내용 결합도(content coupling)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 공통 결합도(common coupling), 내용 결합도(content coupling), 외부 결합도(external coupling), 자료 결합도(data coupling))
-정답은 ②이다. 본 문항은 공통 결합도(common coupling), 내용 결합도(content coupling), 외부 결합도(external coupling), 자료 결합도(data coupling)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 내용 결합도
+정답은 ②이다. 내용 결합도는 한 모듈이 다른 모듈의 내부 기능이나 자료를 직접 참조하거나, 다른 모듈 내부로 제어를 이동하는 경우로, 가장 강한(나쁜) 결합도이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>공통 결합도(common coupling)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공통 결합도는 여러 모듈이 전역 변수 등 공통 데이터 영역을 공유하는 경우이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>내용 결합도(content coupling)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다른 모듈의 내부를 직접 참조하거나 제어가 이동하는 것은 내용 결합도이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>외부 결합도(external coupling)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>외부 결합도는 모듈이 외부에서 선언된 데이터(외부 변수)를 참조하는 경우이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>자료 결합도(data coupling)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자료 결합도는 단순한 매개변수만 주고받는 가장 약한 결합도이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -577,26 +576,25 @@
         <correct_choice_text>| | | 배열 | 인덱스 | |---|---|---|---| | | | | 3 | | top | | P | 2 | | | | R | 1 | | | | S | 0 |</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 지문 독해·추론형 (핵심어: Create(s, n), Push(s, e))
-정답은 ①이다. 본 문항은 Create(s, n), Push(s, e)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다."</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 스택 연산 추적
+정답은 ①이다. Create로 top = −1이다. Push S → s[0] = S, top 0. Push T → s[1] = T, top 1. Pop → top 0. Push R → s[1] = R, top 1. Push P → s[2] = P, top 2. Push Q → s[3] = Q, top 3. Pop → top 2. 최종 상태는 s[0] = S, s[1] = R, s[2] = P이고 top은 인덱스 2를 가리킨다.</overall_commentary>
       <passage_evidence>○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다.</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>| | | 배열 | 인덱스 | |---|---|---|---| | | | | 3 | | top | | P | 2 | | | | R | 1 | | | | S | 0 |</choice_text>
-          <commentary>제시문의 "○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>S, R, P가 아래부터 저장되고 top이 인덱스 2이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>| | | 배열 | 인덱스 | |---|---|---|---| | | | | 3 | | top | | S | 2 | | | | R | 1 | | | | P | 0 |</choice_text>
-          <commentary>제시문의 "○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>S와 P의 위치가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>| | | 배열 | 인덱스 | |---|---|---|---| | top | | | 3 | | | | P | 2 | | | | R | 1 | | | | S | 0 |</choice_text>
-          <commentary>제시문의 "○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>top은 인덱스 3이 아니라 2를 가리킨다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| | | 배열 | 인덱스 | |---|---|---|---| | top | | | 3 | | | | S | 2 | | | | R | 1 | | | | P | 0 |</choice_text>
-          <commentary>제시문의 "○ Create(s, n): 스택을 위한 크기 n의 비어 있는 배열 s를 생성하고, top의 값을 －1로 지정한다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>원소 위치와 top 위치가 모두 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -615,24 +613,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 전체, 버킷, 개수, 개이고)
-정답은 ④이다. 본 문항은 전체, 버킷, 개수, 개이고에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 선형 조사법 해시 테이블
+정답은 ④이다. h(k) = k mod 11로 저장 위치를 구한다. 12 → 1, 33 → 0, 13 → 2에 저장된다. 55 → 0이 충돌하여 1, 2도 차 있으므로 3에 저장된다. 23 → 1이 충돌하여 2, 3을 지나 4에 저장된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버킷 1은 12가 차지하고 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버킷 2는 13이 차지하고 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버킷 3은 55가 차지하고 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>23은 1, 2, 3이 모두 차 있어 버킷 4에 저장되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -653,30 +651,25 @@ def avg(self)</keyword>
         <correct_choice_text>self.sum() / 2 std to.id, to.avg()</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: eng
-def sum(self), eng
-def avg(self), sum(self), avg(self))
-정답은 ①이다. 본 문항은 eng
-def sum(self), eng
-def avg(self), sum(self), avg(self)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "def __init__(self, id, kor, eng):"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 파이썬 클래스와 메서드 호출
+정답은 ①이다. 메서드 내부에서 같은 객체의 다른 메서드는 self.sum()으로 호출하므로 (가)는 self.sum() / 2이다. 리스트 std의 각 객체를 순회하므로 (나)는 std이다. 반복 변수 to로 속성과 메서드에 접근하므로 (다)는 to.id, to.avg()이다.</overall_commentary>
       <passage_evidence>def __init__(self, id, kor, eng):</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>self.sum() / 2 std to.id, to.avg()</choice_text>
-          <commentary>제시문의 "def __init__(self, id, kor, eng):" 내용과 일치하므로 옳다.</commentary>
+          <commentary>(가) self.sum() / 2, (나) std, (다) to.id, to.avg()이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>self.sum() / 2 Student Student.id, Student.avg()</choice_text>
-          <commentary>제시문의 "def __init__(self, id, kor, eng):" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>클래스 Student 자체는 반복 가능한 객체가 아니며, 클래스로 인스턴스 속성에 접근할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>sum(self) / 2 std to.id, to.avg(self)</choice_text>
-          <commentary>제시문의 "def __init__(self, id, kor, eng):" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>sum(self)는 내장 함수 sum을 호출하는 것이 되어 오류가 발생하고, to.avg(self)는 정의되지 않은 변수 self를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>sum(self) / 2 Student Student.id, Student.avg(self)</choice_text>
-          <commentary>제시문의 "def __init__(self, id, kor, eng):" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>(가), (나), (다)가 모두 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -692,24 +685,24 @@ def avg(self), sum(self), avg(self)에 관한 정확한 이해와 적용 능력�
         <correct_choice_text>2단계 로킹 규약을 적용하면 트랜잭션 스케줄의 직렬 가능성을 보장할 수 있으나 교착상태가 발생할 수도 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: DBMS에서의 병행 수행 및 병행 제어)
-정답은 ①이다. 본 문항은 DBMS에서의 병행 수행 및 병행 제어에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 병행 제어
+정답은 ①이다. 2단계 로킹 규약(확장 단계와 축소 단계로 나누어 로크를 획득·해제)은 트랜잭션 스케줄의 직렬 가능성을 보장하지만, 서로의 로크를 기다리는 교착상태가 발생할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>2단계 로킹 규약을 적용하면 트랜잭션 스케줄의 직렬 가능성을 보장할 수 있으나 교착상태가 발생할 수도 있다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>2단계 로킹은 직렬 가능성을 보장하지만 교착상태가 발생할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>트랜잭션이 데이터에 공용 lock 연산을 수행하면 해당 데이터에 read, write 연산을 모두 수행할 수 있다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. '트랜잭션'에 관하여 '할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>공용(공유) lock을 설정하면 read만 할 수 있고 write는 할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>연쇄 복귀는 하나의 트랜잭션이 여러 개의 데이터 변경 연산을 수행할 때 일관성 없는 상태의 데이터베이스에서 데이터를 가져와 연산을 수행함으로써 모순된 결과가 발생하는 것이다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>일관성 없는 데이터를 읽어 모순된 결과가 발생하는 것은 불일치성(inconsistency) 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>갱신 분실은 트랜잭션이 완료되기 전에 장애가 발생하여 rollback 연산을 수행하면, 이 트랜잭션이 장애 발생 전에 변경한 데이터를 가져가 변경 연산을 수행한 또 다른 트랜잭션에도 rollback 연산을 수행하여야 한다는 것이다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>rollback된 트랜잭션의 변경 데이터를 읽은 다른 트랜잭션도 rollback해야 하는 것은 연쇄 복귀이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -728,24 +721,24 @@ def avg(self), sum(self), avg(self)에 관한 정확한 이해와 적용 능력�
         <correct_choice_text>3 5 3 8 8</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: int recursive(int n), recursive(n-1), recursive(n-2), int main(void))
-정답은 ④이다. 본 문항은 int recursive(int n), recursive(n-1), recursive(n-2), int main(void)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 재귀 호출과 출력 순서
+정답은 ④이다. recursive(5) = recursive(4) + recursive(3)이다. recursive(4) = recursive(3) + recursive(2)이고, recursive(3) = recursive(2) + recursive(1) = 2 + 1 = 3이므로 3을 출력한다. recursive(4) = 3 + 2 = 5를 출력한다. 이어 recursive(5)의 오른쪽 recursive(3)이 다시 3을 출력한다. recursive(5) = 5 + 3 = 8을 출력하고, main에서 결과 8을 출력한다. 출력은 '3 5 3 8 8'이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 2 3 5 7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1 2 3 5 7은 재귀 호출 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 3 5 7 9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1 3 5 7 9는 재귀 호출 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3 3 5 9 9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3 3 5 9 9는 출력 순서와 합계가 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>3 5 3 8 8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3, 5, 3, 8, 8 순으로 출력되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -31,24 +31,24 @@
         <correct_choice_text>의존성(dependency)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스에서 트랜잭션(transaction), 원자성(atomicity), 일관성(consistency), 독립성(isolation), 의존성(dependency))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 트랜잭션의 성질
+정답은 ④이다. 트랜잭션은 원자성(Atomicity), 일관성(Consistency), 독립성(Isolation), 영속성(Durability)의 ACID 특성을 가져야 한다. 의존성은 트랜잭션의 성질이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>원자성(atomicity)</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>원자성은 트랜잭션의 연산이 모두 반영되거나 전혀 반영되지 않아야 한다는 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>일관성(consistency)</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>일관성은 트랜잭션 수행 전후에 데이터베이스가 일관된 상태를 유지해야 한다는 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>독립성(isolation)</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>독립성(고립성)은 동시에 수행되는 트랜잭션이 서로 간섭하지 않아야 한다는 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>의존성(dependency)</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>의존성은 ACID 특성에 포함되지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -64,24 +64,24 @@
         <correct_choice_text>IPv6는 16바이트 주소 체계이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: IP 주소)
-정답은 ②이다. 본 문항은 IP 주소에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · IPv4와 IPv6 주소
+정답은 ②이다. IPv4는 32비트(4바이트), IPv6는 128비트(16바이트) 주소 체계이다. IPv6의 기본 헤더는 40바이트로 고정되어 있다. IPv4 주소 143.248.166.12의 첫 바이트 143은 128~191 범위이므로 클래스 B이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IPv4는 8바이트 주소 체계이다.</choice_text>
-          <commentary>'IPv4'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPv4는 8바이트가 아니라 4바이트 주소 체계이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>IPv6는 16바이트 주소 체계이다.</choice_text>
-          <commentary>'IPv6'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IPv6는 128비트, 즉 16바이트 주소 체계이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IPv6의 헤더 크기는 20바이트이다.</choice_text>
-          <commentary>'IPv6의 헤더 크기'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPv6의 기본 헤더 크기는 20바이트가 아니라 40바이트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IPv4 주소가 143.248.166.12이면 클래스 C에 해당한다.</choice_text>
-          <commentary>'IPv4 주소'에 관하여 '해당한다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>첫 바이트 143은 클래스 B 범위이므로 클래스 C라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -97,8 +97,8 @@
         <correct_choice_text>ㄱ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 것만)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · EBCDIC 코드
+정답은 ①이다. EBCDIC은 8비트(존 비트 4 + 디지트 비트 4)로 한 문자를 표현하여 2⁸ = 256개의 문자를 표현할 수 있으며, IBM 대형 컴퓨터에서 사용되었다. ㄴ의 6비트 코드는 BCD 코드이고, ㄷ의 7비트 데이터 + 1비트 패리티 구성은 ASCII 코드에 대한 설명이다. 따라서 ㄱ만 옳다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>표현할 수 있는 문자 수는 총 256개이다.</statement>
@@ -116,19 +116,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ)이다.</commentary>
+          <commentary>ㄱ만 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ)이다.</commentary>
+          <commentary>ㄴ은 6비트 BCD 코드에 대한 설명이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 ASCII 코드에 대한 설명이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ과 ㄷ은 모두 EBCDIC에 대한 설명이 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -147,26 +147,25 @@
         <correct_choice_text>3, 11, 9, 17, 23, 31, 32, 70</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 입력으, 들어온, 배열, 대하여)
-정답은 ②이다. 본 문항은 입력으, 들어온, 배열, 대하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 버블 정렬의 단계 추적
+정답은 ②이다. 버블 정렬은 인접한 두 원소를 비교하여 큰 값을 뒤로 보내는 과정을 반복한다. 단계 2의 [11, 3, 17, 9, 31, 23, 32, 70]에서 단계 3을 수행하면, 11과 3을 교환 → [3, 11, …], 11과 17은 유지, 17과 9를 교환 → [3, 11, 9, 17, …], 17과 31은 유지, 31과 23을 교환 → [3, 11, 9, 17, 23, 31, 32, 70], 31과 32는 유지된다.</overall_commentary>
       <passage_evidence>&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3, 9, 11, 23, 17, 31, 32, 70</choice_text>
-          <commentary>제시문의 "&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>3, 9, 11, …은 한 단계에서 9가 두 칸 이동한 것이므로 버블 정렬 한 단계 결과가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3, 11, 9, 17, 23, 31, 32, 70</choice_text>
-          <commentary>제시문의 "&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]" 내용과 일치하므로 옳다.</commentary>
+          <commentary>단계 3의 결과 3, 11, 9, 17, 23, 31, 32, 70이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>11, 3, 9, 17, 23, 31, 32, 70</choice_text>
-          <commentary>제시문의 "&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>첫 비교에서 11과 3이 교환되어야 하므로 11이 맨 앞에 남을 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11, 3, 17, 9, 23, 31, 32, 70</choice_text>
-          <commentary>제시문의 "&lt;초기 상태&gt; 단계 0: [70, 11, 31, 3, 17, 9, 32, 23]" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>11과 3, 17과 9가 교환되지 않은 상태이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -185,8 +184,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 프로그램, 내장, 방식, 적용한)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 프로그램 내장 방식 컴퓨터
+정답은 ①이다. 프로그램 내장 방식(폰 노이만 구조)은 프로그램과 데이터를 기억장치에 저장하여 실행하는 방식이다. EDSAC(1949)은 최초로 이를 실용화한 컴퓨터이고, EDVAC은 폰 노이만이 설계에 참여한 프로그램 내장 방식 컴퓨터이다. ENIAC은 배선을 바꿔 프로그래밍하는 외부 프로그램 방식이고, MARK I은 전기기계식 계산기이다. 따라서 ㄱ, ㄴ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>EDSAC(Electronic Delay Storage Automatic Computer)</statement>
@@ -208,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>EDSAC과 EDVAC은 프로그램 내장 방식이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>MARK I은 프로그램 내장 방식이 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ENIAC은 외부 배선 방식이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ENIAC과 MARK I은 모두 프로그램 내장 방식이 아니므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -239,24 +238,24 @@
         <correct_choice_text>최적 적합(best fit)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 중앙 적합(center fit), 최악 적합(worst fit), 최적 적합(best fit), 최초 적합(first fit))
-정답은 ③이다. 본 문항은 중앙 적합(center fit), 최악 적합(worst fit), 최적 적합(best fit), 최초 적합(first fit)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 가변 분할 메모리 할당
+정답은 ③이다. 12KB 요청에 대해 수용 가능한 공간은 2번(25KB), 3번(30KB), 4번(15KB)이다. 최초 적합은 처음 발견한 2번, 최악 적합은 가장 큰 3번, 최적 적합은 남는 공간이 가장 작은 4번(15KB)을 선택한다. 4번에 할당되었으므로 최적 적합이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>중앙 적합(center fit)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>중앙 적합은 일반적인 메모리 할당 기법이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>최악 적합(worst fit)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최악 적합이면 가장 큰 3번(30KB)에 할당된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>최적 적합(best fit)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>남는 공간이 가장 작은 4번에 할당하였으므로 최적 적합이 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>최초 적합(first fit)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최초 적합이면 처음 수용 가능한 2번(25KB)에 할당된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -275,24 +274,24 @@
         <correct_choice_text>스택(stack) 영역</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 데이터(data), 영역 스택(stack), 영역 코드(code), 영역 힙(heap))
-정답은 ②이다. 본 문항은 데이터(data), 영역 스택(stack), 영역 코드(code), 영역 힙(heap)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 스택 영역
+정답은 ②이다. 스택 영역은 함수 호출 시 지역 변수, 매개변수, 복귀 주소 등을 저장하며 함수가 종료되면 해제되는 영역이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>데이터(data) 영역</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>데이터 영역은 전역 변수와 정적 변수를 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>스택(stack) 영역</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>지역 변수, 매개변수, 복귀 주소를 저장하는 것은 스택 영역이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>코드(code) 영역</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>코드 영역은 실행할 프로그램 코드를 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>힙(heap) 영역</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>힙 영역은 실행 중 동적으로 할당되는 메모리이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -309,24 +308,24 @@
         <correct_choice_text>ICMP는 MAC 주소로부터 IP 주소를 구하기 위한 프로토콜이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 컴퓨터 네트워크, TCP는 연결 지향적(connection-oriented))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 네트워크 프로토콜
+정답은 ③이다. ICMP는 IP 통신 중 발생한 오류를 보고하고 진단(ping, traceroute)하는 프로토콜이다. MAC 주소로부터 IP 주소를 구하는 프로토콜은 RARP이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>TCP는 연결 지향적(connection-oriented)인 프로토콜이다.</choice_text>
-          <commentary>'TCP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>TCP는 3-way handshake로 연결을 설정하는 연결 지향 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>ARP는 IP 주소로부터 MAC 주소를 구하기 위한 프로토콜이다.</choice_text>
-          <commentary>'ARP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ARP는 IP 주소로 MAC 주소를 구하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>ICMP는 MAC 주소로부터 IP 주소를 구하기 위한 프로토콜이다.</choice_text>
-          <commentary>'ICMP'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>MAC 주소로 IP 주소를 구하는 것은 RARP이므로 ICMP에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>IPv4에서 클래스 B는 마지막 16비트를 호스트 주소로 사용한다.</choice_text>
-          <commentary>'IPv4에서 클래스 B'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IPv4 클래스 B는 앞 16비트가 네트워크 주소, 마지막 16비트가 호스트 주소이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -345,24 +344,24 @@
         <correct_choice_text>D, B, H, E, I, A, F, C, G</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 이진, 트리, 중위, 순회하)
-정답은 ③이다. 본 문항은 이진, 트리, 중위, 순회하에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 이진 트리 중위 순회
+정답은 ③이다. 이 문항의 트리 그림은 이미지로만 제공되었다. 중위 순회는 왼쪽 서브트리 → 루트 → 오른쪽 서브트리 순으로 방문한다. 공식 정답에 따르면 순서는 D, B, H, E, I, A, F, C, G이다. 루트 A가 중간에 위치하고, 왼쪽 서브트리(D, B, H, E, I)와 오른쪽 서브트리(F, C, G)가 각각 그 앞뒤에 놓인 형태이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A, B, D, E, H, I, C, F, G</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>루트 A를 먼저 방문하는 것은 전위 순회의 형태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>A, B, D, E, H, I, F, C, G</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>루트를 먼저 방문하므로 중위 순회가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>D, B, H, E, I, A, F, C, G</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>왼쪽 서브트리, 루트 A, 오른쪽 서브트리 순서인 중위 순회 결과이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>D, H, I, E, B, F, G, C, A</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>루트 A를 마지막에 방문하는 것은 후위 순회의 형태이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -381,24 +380,24 @@
         <correct_choice_text>메타버스(metaverse)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 메타버스(metaverse), 사물인터넷(Internet of Things), 텔레메틱스(telematics), NFT(Non-Fungible Token))
-정답은 ①이다. 본 문항은 메타버스(metaverse), 사물인터넷(Internet of Things), 텔레메틱스(telematics), NFT(Non-Fungible Token)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 메타버스
+정답은 ①이다. 메타버스는 가상(meta)과 세계(universe)의 합성어로, 현실을 디지털 가상 세계로 확장하여 사회·경제·문화 활동을 할 수 있는 3차원 가상 공간을 말한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>메타버스(metaverse)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>현실과 가상이 공존하는 가상 세계는 메타버스이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사물인터넷(Internet of Things)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사물인터넷은 사물에 센서와 통신 기능을 부여하여 인터넷으로 연결하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>텔레메틱스(telematics)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>텔레매틱스는 통신과 정보 기술을 결합하여 차량 등에 정보를 제공하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NFT(Non-Fungible Token)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NFT는 블록체인 기반의 대체 불가능한 토큰이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -417,24 +416,24 @@
         <correct_choice_text>약 6 Mbyte</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 샘플링하고, 비트, 양자화하여, 스테레오)
-정답은 ②이다. 본 문항은 샘플링하고, 비트, 양자화하여, 스테레오에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 오디오 파일 크기 계산
+정답은 ②이다. 파일 크기 = 샘플링 주파수 × 양자화 비트 × 채널 수 × 시간이다. 40,000 × 10비트 × 2(스테레오) × 60초 = 48,000,000비트이다. 바이트로 환산하면 48,000,000 ÷ 8 = 6,000,000바이트로 약 6MB이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>약 2 Mbyte</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>약 2MB는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>약 6 Mbyte</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>48,000,000비트 ÷ 8 = 약 6MB이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>약 16 Mbyte</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>약 16MB는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>약 48 Mbyte</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>약 48MB는 비트를 바이트로 환산하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -450,24 +449,24 @@
         <correct_choice_text>128바이트</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 대하여 직접 주소 지정 방식(direct addressing mode))
-정답은 ①이다. 본 문항은 대하여 직접 주소 지정 방식(direct addressing mode)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 직접 주소 지정 방식의 주소 공간
+정답은 ①이다. 직접 주소 지정 방식에서는 명령어의 주소부 값이 곧 유효 주소이다. 주소부가 7비트이므로 2⁷ = 128개의 주소를 지정할 수 있고, 주소 하나가 1바이트이므로 최대 128바이트이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>128바이트</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2⁷ = 128바이트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>256바이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>256바이트는 주소부가 8비트일 때이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>512바이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>512바이트는 주소부가 9비트일 때이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,024바이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,024바이트는 주소부가 10비트일 때이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -484,24 +483,24 @@
         <correct_choice_text>(46)_(10)에 대하여 왼쪽 산술 시프트 1회</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 값이 (01100000), (60))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 진법 변환과 시프트
+정답은 ④이다. (01100000)₂ = 96이다. (60)₁₆ = 6 × 16 = 96이다. (60)₈ = 48이므로 48 + 48 = 96이다. (00110000)₂ = 48이므로 48 × 2 = 96이다. 46을 왼쪽 산술 시프트 1회 하면 46 × 2 = 92가 되어 96이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>(60)_(16)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(60)₁₆ = 96이므로 같은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>(60)_(8 )＋ (60)_(8)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>48 + 48 = 96이므로 같은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>(00110000)_(2 )× (00000010)_(2)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>48 × 2 = 96이므로 같은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>(46)_(10)에 대하여 왼쪽 산술 시프트 1회</choice_text>
-          <commentary>제시된 '1회' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>46 × 2 = 92로 96이 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -517,24 +516,24 @@
         <correct_choice_text>128</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 을 따르는 캐시(cache))
-정답은 ③이다. 본 문항은 을 따르는 캐시(cache)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 집합 연관 캐시의 집합 수
+정답은 ③이다. 캐시 블록 수 = 32KB ÷ 64B = 32,768 ÷ 64 = 512개이다. 4-way 집합 연관 사상이므로 한 집합에 4개 블록이 있어 집합 수 = 512 ÷ 4 = 128개이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>32</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>32는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>64</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>64는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>128</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>512 ÷ 4 = 128이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>256</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>256은 2-way일 때의 집합 수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -550,24 +549,24 @@
         <correct_choice_text>x: 80, y: 300</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: int main(void))
-정답은 ①이다. 본 문항은 int main(void)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 포인터 교환
+정답은 ①이다. (*px) −= 10으로 x = 90, (*py) += 50으로 y = 250이 된다. 이후 px와 py가 가리키는 대상을 교환하여 px는 y를, py는 x를 가리킨다. (*px) += 50으로 y = 300, (*py) −= 10으로 x = 80이 된다. 출력은 'x: 80, y: 300'이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>x: 80, y: 300</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>x = 80, y = 300이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>x: 140, y: 240</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>포인터 교환을 반영하지 않고 같은 변수에 연산을 누적한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>x: 240, y: 140</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>x와 y의 값을 잘못 추적한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>x: 300, y: 80</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>x와 y의 값을 바꾸어 출력한 결과이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -585,26 +584,25 @@
         <correct_choice_text>11 ms</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 스가 4 ms인 라운드 로빈(round-robin), 도착 시간(ms), 실행 시간(ms))
-정답은 ②이다. 본 문항은 스가 4 ms인 라운드 로빈(round-robin), 도착 시간(ms), 실행 시간(ms)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 라운드 로빈 스케줄링의 평균 대기 시간
+정답은 ②이다. 타임 슬라이스 4ms로 실행하면 P1(0~4), P2(4~8, 종료), P3(8~12), P4(12~16), P1(16~20, 종료), P3(20~22, 종료), P4(22~23, 종료) 순이다. 대기 시간 = 종료 시간 − 도착 시간 − 실행 시간이므로 P1 = 20 − 0 − 8 = 12, P2 = 8 − 1 − 4 = 3, P3 = 22 − 2 − 6 = 14, P4 = 23 − 3 − 5 = 15이다. 평균 = 44 ÷ 4 = 11ms이다.</overall_commentary>
       <passage_evidence>| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4 ms</choice_text>
-          <commentary>제시문의 "| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>4ms는 타임 슬라이스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>11 ms</choice_text>
-          <commentary>제시문의 "| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>44 ÷ 4 = 11ms이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>18 ms</choice_text>
-          <commentary>제시문의 "| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>18ms는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>44 ms</choice_text>
-          <commentary>제시문의 "| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>44ms는 대기 시간의 합계이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -621,24 +619,24 @@
         <correct_choice_text>30</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: len(val), print(rst))
-정답은 ④이다. 본 문항은 len(val), print(rst)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 파이썬 range와 인덱싱
+정답은 ④이다. range(2, 12, 3)은 2, 5, 8, 11을 생성한다. val[2] = 3, val[5] = 6, val[8] = 9, val[11] = 12이므로 rst = 3 + 6 + 9 + 12 = 30이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>21</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>21은 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>24는 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>26</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>26은 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>30</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3 + 6 + 9 + 12 = 30이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -656,24 +654,24 @@
         <correct_choice_text>구현 단계에서는 고객의 추가 요구 사항을 반영하지 않는다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 애자일(agile) 방법론, 애자일(agile), 익스트림 프로그래밍(XP))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 애자일 방법론
+정답은 ③이다. 애자일은 짧은 반복 주기로 개발하면서 고객과 지속적으로 협력하고 요구 사항 변화를 수용하는 방법론이다. 구현 단계에서도 고객의 추가 요구 사항을 반영할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>고객의 요구 사항 변화를 허용하는 개발 방식이다.</choice_text>
-          <commentary>'고객의 요구 사항 변화를 허용하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>애자일은 고객 요구 사항의 변화를 허용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>익스트림 프로그래밍(XP)은 애자일 기법 중 하나이다.</choice_text>
-          <commentary>'익스트림 프로그래밍(XP)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>익스트림 프로그래밍(XP)은 대표적인 애자일 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>구현 단계에서는 고객의 추가 요구 사항을 반영하지 않는다.</choice_text>
-          <commentary>'구현 단계에서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>애자일은 구현 단계에서도 요구 사항 변경을 반영하므로 반영하지 않는다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>포괄적인 문서보다는 작동하는 프로그램에 더 가치를 둔다.</choice_text>
-          <commentary>'포괄적인 문서보다'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>애자일 선언은 포괄적인 문서보다 작동하는 소프트웨어를 중시한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -689,24 +687,24 @@
         <correct_choice_text>의존관계 역전 원칙(dependency inversion principle)</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 폐쇄 원칙(open-closed principle))
-정답은 ④이다. 본 문항은 폐쇄 원칙(open-closed principle)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · SOLID 원칙
+정답은 ④이다. 의존관계 역전 원칙(DIP)은 고수준 모듈이 저수준 모듈의 구체 클래스에 의존하지 않고 둘 다 추상화(인터페이스)에 의존해야 한다는 원칙이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>개방－폐쇄 원칙(open-closed principle)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개방-폐쇄 원칙은 확장에는 열려 있고 수정에는 닫혀 있어야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>단일 책임 원칙(single responsibility principle)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단일 책임 원칙은 클래스가 하나의 책임만 가져야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>인터페이스 분리 원칙(interface segregation principle)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인터페이스 분리 원칙은 클라이언트가 사용하지 않는 메서드에 의존하지 않도록 인터페이스를 분리해야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>의존관계 역전 원칙(dependency inversion principle)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>추상화에 의존해야 한다는 것은 의존관계 역전 원칙이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -722,24 +720,24 @@
         <correct_choice_text>ㄱ, ㄹ</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 위상 정렬(topological sort))
-정답은 ②이다. 본 문항은 위상 정렬(topological sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 위상 정렬이 가능한 그래프
+정답은 ②이다. 이 문항의 그래프 그림은 이미지로만 제공되었다. 위상 정렬은 방향 비순환 그래프(DAG)에서만 가능하다. 즉 간선에 방향이 있고 사이클이 없어야 한다. 공식 정답에 따르면 위상 정렬이 가능한 그래프는 ㄱ과 ㄹ이며, ㄴ과 ㄷ은 사이클이 있거나 방향 그래프가 아닌 경우이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>공식 정답에 따르면 ㄴ은 위상 정렬이 불가능한 그래프이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>공식 정답에 따라 방향 비순환 그래프인 ㄱ과 ㄹ이 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>공식 정답에 따르면 ㄴ과 ㄷ은 위상 정렬이 불가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>공식 정답에 따르면 ㄷ은 위상 정렬이 불가능한 그래프이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

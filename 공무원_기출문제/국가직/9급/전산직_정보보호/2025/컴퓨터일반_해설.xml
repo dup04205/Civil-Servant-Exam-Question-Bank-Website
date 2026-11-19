@@ -30,24 +30,24 @@
         <correct_choice_text>클라우드 컴퓨팅</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 사용자, 언제, 어디서나, 필요한)
-정답은 ④이다. 본 문항은 사용자, 언제, 어디서나, 필요한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 클라우드 컴퓨팅
+정답은 ④이다. 클라우드 컴퓨팅은 인터넷을 통해 서버, 저장 공간, 소프트웨어 등 컴퓨팅 자원을 필요할 때 언제 어디서나 빌려 쓰고 사용한 만큼 비용을 지불하는 서비스 환경이다. IaaS, PaaS, SaaS 등의 서비스 모델이 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>빅데이터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>빅데이터는 대용량·다양·고속의 데이터를 수집·분석하여 가치를 창출하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>가상현실</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가상현실은 컴퓨터로 만든 가상 환경을 실제처럼 체험하게 하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>사물인터넷</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>사물인터넷은 사물에 센서와 통신 기능을 내장하여 인터넷으로 연결하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>클라우드 컴퓨팅</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>필요한 컴퓨팅 자원에 언제 어디서나 접근하여 활용하는 환경은 클라우드 컴퓨팅이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>은행 대기열</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 스택, 이용하여, 구현할, 아닌)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 스택의 응용
+정답은 ④이다. 스택은 LIFO 구조로 괄호 매칭 검사, 진법 변환(나머지를 쌓았다가 역순 출력), 후위 표기식 계산, 함수 호출 관리 등에 활용된다. 은행 대기열은 먼저 온 고객이 먼저 처리되는 FIFO 구조이므로 큐로 구현한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>괄호 매칭</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>괄호 매칭은 여는 괄호를 스택에 쌓았다가 닫는 괄호와 짝을 맞추어 구현한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>진법 변환</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>진법 변환은 나머지를 스택에 쌓은 후 역순으로 꺼내어 구현한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>후위표현 연산</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>후위 표현 연산은 피연산자를 스택에 쌓고 연산자를 만나면 꺼내어 계산한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>은행 대기열</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>은행 대기열은 FIFO 구조인 큐로 구현하므로 스택으로 구현하는 것이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,24 +101,24 @@
         <correct_choice_text>모든 거래는 거래 당사자만 확인할 수 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 블록체인, 특징, 아닌)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 블록체인의 특징
+정답은 ②이다. 블록체인은 거래 기록을 분산 원장에 저장하여 P2P 네트워크의 모든 참여자가 공유하고 검증하는 기술이다. 각 블록은 이전 블록의 해시값을 포함하여 변조를 방지하고, 합의 알고리즘으로 이중 지불을 막는다. 공개형 블록체인에서는 모든 참여자가 거래 내역을 확인할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>해시값을 사용하여 변조를 방지한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해시값 연결로 블록의 변조를 방지한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>모든 거래는 거래 당사자만 확인할 수 있다.</choice_text>
-          <commentary>'모든 거래'에 관하여 '할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>모든 참여자가 원장을 공유하여 거래를 확인할 수 있으므로 거래 당사자만 확인할 수 있다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모든 노드는 P2P 네트워크를 이용해 연결되어 있다.</choice_text>
-          <commentary>'모든 노드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>모든 노드는 P2P 네트워크로 연결된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>원장을 조작한 이중 지불을 방지하기 위해 합의 알고리즘을 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>작업 증명 등 합의 알고리즘으로 이중 지불을 방지한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,24 +137,24 @@
         <correct_choice_text>메모리 버퍼 레지스터</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 기억장치, 저장될, 데이터, 기억장치로부터)
-정답은 ④이다. 본 문항은 기억장치, 저장될, 데이터, 기억장치로부터에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 메모리 버퍼 레지스터
+정답은 ④이다. 메모리 버퍼 레지스터(MBR, MDR)는 기억장치에 쓸 데이터나 기억장치에서 읽은 데이터를 일시적으로 저장하는 CPU 내부 레지스터이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>프로그램 카운터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>프로그램 카운터는 다음에 실행할 명령어의 주소를 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>명령어 레지스터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>명령어 레지스터는 현재 실행 중인 명령어를 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>메모리 주소 레지스터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>메모리 주소 레지스터는 접근할 기억장치의 주소를 저장한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>메모리 버퍼 레지스터</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>기억장치와 주고받는 데이터를 일시 저장하는 것은 메모리 버퍼 레지스터이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -173,24 +173,24 @@
         <correct_choice_text>워드프로세서</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 언어, 번역, 프로그램, 해당하지)
-정답은 ④이다. 본 문항은 언어, 번역, 프로그램, 해당하지에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 언어 번역 프로그램
+정답은 ④이다. 언어 번역 프로그램은 원시 프로그램을 기계어 등 실행 가능한 형태로 변환하는 시스템 소프트웨어로, 어셈블러(어셈블리어 → 기계어), 컴파일러(고급 언어 전체 번역), 인터프리터(한 줄씩 번역·실행)가 있다. 워드프로세서는 문서 작성용 응용 소프트웨어이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>어셈블러</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>어셈블러는 어셈블리어를 기계어로 번역하는 언어 번역 프로그램이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>컴파일러</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>컴파일러는 고급 언어 프로그램 전체를 목적 코드로 번역한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>인터프리터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인터프리터는 원시 코드를 한 줄씩 해석하여 실행한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>워드프로세서</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>워드프로세서는 응용 소프트웨어이므로 언어 번역 프로그램이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -208,24 +208,24 @@
         <correct_choice_text>릴레이션의 함수 종속 관계에서 모든 결정자가 슈퍼키면 보이스/코드 정규형(BCNF)에 속한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스 정규화, 코드 정규형(BCNF), 든 속성의 도메인이 원자 값(atomic value))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 데이터베이스 정규화
+정답은 ③이다. 보이스/코드 정규형(BCNF)은 릴레이션의 모든 결정자가 후보키인 경우이다. 슈퍼키는 유일성만 만족하면 되므로 BCNF의 정의로는 후보키가 정확한 표현이다. 공식 정답에 따르면 '모든 결정자가 슈퍼키'라는 표현은 BCNF의 정의로 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정규화 과정에서 고려해야 하는 속성 간의 관련성을 함수적 종속성이라고 한다.</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 따라서 옳은 서술이다.</commentary>
+          <commentary>정규화에서 고려하는 속성 간의 관련성을 함수적 종속성이라고 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정규화는 이상 현상이 발생하는 릴레이션을 분해하여 이상 현상을 없애는 과정이다.</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 따라서 옳은 서술이다.</commentary>
+          <commentary>정규화는 이상 현상이 있는 릴레이션을 분해하여 이상 현상을 제거하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>릴레이션의 함수 종속 관계에서 모든 결정자가 슈퍼키면 보이스/코드 정규형(BCNF)에 속한다.</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. '릴레이션의 함수 종속 관계에서 모든 결정자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>BCNF는 모든 결정자가 후보키여야 하므로 슈퍼키라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>릴레이션에 속한 모든 속성의 도메인이 원자 값(atomic value)만으로 구성되어 있으면 제1 정규형에 속한다.</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. '릴레이션에 속한 모든 속성의 도메인'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>모든 속성의 도메인이 원자 값으로만 구성되면 제1 정규형이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,8 +245,8 @@
         <correct_choice_text>ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 프로세스 메모리 배치, 전역 변수는 스택(stack), 프로그램 코드는 텍스트(text), 힙(heap), 주소 및 지역변수는 데이터(data))
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 프로세스의 메모리 배치
+정답은 ③이다. 프로세스 메모리는 텍스트(코드), 데이터, 힙, 스택 영역으로 구성된다. ㄴ. 프로그램 코드는 텍스트 영역에 적재된다. ㄷ. 힙은 실행 중 malloc, new 등으로 동적 할당되는 영역이다. ㄱ. 전역 변수와 정적 변수는 데이터 영역에 할당된다. ㄹ. 함수의 매개변수, 복귀 주소, 지역 변수는 스택 영역에 할당된다. 따라서 ㄴ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>전역 변수는 스택(stack) 영역에 할당된다.</statement>
@@ -268,19 +268,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ은 전역 변수가 데이터 영역에 할당되므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ과 ㄹ이 모두 옳지 않으므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ과 ㄷ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 매개변수와 지역 변수가 스택 영역에 할당되므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -299,8 +299,8 @@
         <correct_choice_text>ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: TCP와 UDP의 공통 설명, 헤더에 근원지(source), 와 목적지(destination), 체크섬(checksum))
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O), ㅁ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄴ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · TCP와 UDP의 공통점
+정답은 ②이다. ㄴ. TCP와 UDP 헤더에는 모두 출발지 포트 번호와 목적지 포트 번호가 있다. ㄹ. 두 프로토콜 모두 헤더에 체크섬 필드가 있다. ㄱ. 연결 지향은 TCP만의 특징이다. ㄷ. 재전송 기능은 TCP만 제공한다. ㅁ. 헤더 크기는 TCP가 최소 20바이트, UDP가 8바이트로 다르다. 따라서 ㄴ, ㄹ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>연결 지향 프로토콜이다.</statement>
@@ -326,19 +326,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ은 TCP만의 특징이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ과 ㄹ이 공통 특징이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄷ은 TCP만의 특징이므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄹ, ㅁ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄹ, ㅁ)이다.</commentary>
+          <commentary>ㅁ은 헤더 크기가 다르므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -357,24 +357,24 @@
         <correct_choice_text>0.9</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 다음과, 접근, 시간, 주어졌)
-정답은 ③이다. 본 문항은 다음과, 접근, 시간, 주어졌에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 캐시 적중률
+정답은 ③이다. 평균 접근 시간 = 적중률 × 캐시 접근 시간 + (1 − 적중률) × 주기억장치 접근 시간이다. 2.5 = 1.5h + 11.5(1 − h) = 11.5 − 10h이므로 h = 0.9이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>h = 0.8이면 평균 접근 시간은 3.5ms가 되어 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.85</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>h = 0.85이면 평균 접근 시간은 3.0ms가 되어 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.9</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>11.5 − 10h = 2.5에서 h = 0.9이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.95</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>h = 0.95이면 평균 접근 시간은 2.0ms가 되어 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -393,24 +393,24 @@
         <correct_choice_text>listen( ) accept( ) 데이터 송수신</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 그림, 기반, 서버와, 클라이언트)
-정답은 ③이다. 본 문항은 그림, 기반, 서버와, 클라이언트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · TCP 소켓 통신 함수
+정답은 ③이다. 이 문항의 그림은 이미지로만 제공되었다. TCP 서버는 socket() → bind() → listen() → accept() → 데이터 송수신(read/write) → close() 순으로, 클라이언트는 socket() → connect() → 데이터 송수신 → close() 순으로 동작한다. 공식 정답에 따르면 (가)는 listen(), (나)는 accept(), (다)는 데이터 송수신이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>request( ) accept( ) 연결 종료 요청</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>request()는 소켓 API의 표준 함수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>accept( ) connect( ) 연결 종료 요청</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>accept()는 listen() 이후에 호출되며, connect()는 클라이언트 함수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>listen( ) accept( ) 데이터 송수신</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>listen()으로 연결 대기, accept()로 연결 수락 후 데이터 송수신을 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>request( ) connect( ) 데이터 송수신</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>request()는 표준 소켓 함수가 아니며, 서버 측에서 connect()를 호출하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -429,24 +429,24 @@
         <correct_choice_text>지명 파이프(named pipe)는 서로 통신하는 프로세스 간 부모－자식 관계가 반드시 필요하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 프로세스 간 통신, 파이프(pipe), 지명 파이프(named pipe), 신호(signal))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 프로세스 간 통신
+정답은 ②이다. 익명 파이프는 부모-자식처럼 관련된 프로세스 사이에서만 사용할 수 있지만, 지명 파이프(named pipe, FIFO)는 파일 시스템에 이름이 있어 부모-자식 관계가 없는 프로세스 사이에서도 통신할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>파이프(pipe)는 두 프로세스가 통신할 수 있게 하는 전달자로서 동작한다.</choice_text>
-          <commentary>'파이프(pipe)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파이프는 두 프로세스가 통신할 수 있도록 데이터를 전달하는 통로 역할을 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>지명 파이프(named pipe)는 서로 통신하는 프로세스 간 부모－자식 관계가 반드시 필요하다.</choice_text>
-          <commentary>'지명 파이프(named pipe)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지명 파이프는 부모-자식 관계가 없어도 사용할 수 있으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>신호(signal)는 알려 줄 사건의 근원지나 이유에 따라 비동기식으로도 전달될 수 있다.</choice_text>
-          <commentary>'신호(signal)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>신호는 사건의 근원지나 이유에 따라 비동기적으로 전달될 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>공유 메모리를 사용하는 프로세스 간 통신에서 프로세스들은 동시에 동일한 위치에 쓰지 않도록 책임져야 한다.</choice_text>
-          <commentary>'공유 메모리를 사용하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공유 메모리 방식에서는 프로세스들이 동시에 같은 위치에 쓰지 않도록 스스로 동기화해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -462,24 +462,24 @@
         <correct_choice_text>제어 해저드는 서로 다른 단계에서 실행되는 명령이 컴퓨터 내의 장치 하나를 동시에 사용하려고 할 때 발생한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 파이프라이닝 기법)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 파이프라이닝과 해저드
+정답은 ④이다. 서로 다른 단계의 명령어가 하나의 하드웨어 자원을 동시에 사용하려 할 때 발생하는 것은 구조적 해저드이다. 제어 해저드는 분기 명령어 등으로 다음에 실행할 명령어의 주소가 결정되지 않아 발생한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>데이터 해저드는 앞의 명령 결과가 다음 명령의 입력으로 사용될 때 발생한다.</choice_text>
-          <commentary>'데이터 해저드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>데이터 해저드는 앞 명령어의 결과를 다음 명령어가 입력으로 사용할 때 발생한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>이론적으로는 파이프라인의 단계 수만큼 빨라지지만, 이것을 방해하는 요소인 해저드가 발생할 수 있다.</choice_text>
-          <commentary>'이론적으로'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>이론적으로 파이프라인 단계 수만큼 속도가 향상되지만 해저드로 성능이 저하될 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>파이프라이닝은 명령어 하나를 여러 단계로 나누어 각각을 독립적인 장치에서 동시에 실행하는 기법이다.</choice_text>
-          <commentary>'파이프라이닝'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파이프라이닝은 명령어를 여러 단계로 나누어 각 단계를 중첩하여 동시에 실행하는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>제어 해저드는 서로 다른 단계에서 실행되는 명령이 컴퓨터 내의 장치 하나를 동시에 사용하려고 할 때 발생한다.</choice_text>
-          <commentary>'제어 해저드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>장치를 동시에 사용하려 할 때 생기는 것은 구조적 해저드이므로 제어 해저드에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -495,24 +495,24 @@
         <correct_choice_text>하나의 노드에서 모든 노드로의 접근이 가능하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 원형 연결 리스트)
-정답은 ①이다. 본 문항은 원형 연결 리스트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 원형 연결 리스트
+정답은 ①이다. 원형 연결 리스트는 마지막 노드의 링크가 첫 노드를 가리키는 구조로, 어느 노드에서 출발해도 링크를 따라가면 모든 노드에 접근할 수 있고 다시 자기 자신으로 돌아온다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>하나의 노드에서 모든 노드로의 접근이 가능하다.</choice_text>
-          <commentary>'하나의 노드에서 모든 노드로의 접근'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>어느 노드에서든 모든 노드에 접근할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>하나의 노드에서 링크를 계속 따라가면 모든 노드를 거쳐도 자기 자신으로 되돌아올 수 없다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>링크를 계속 따라가면 모든 노드를 거쳐 자기 자신으로 돌아온다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>마지막 노드의 링크 필드 값은 NULL이다.</choice_text>
-          <commentary>'마지막 노드의 링크 필드 값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>마지막 노드의 링크는 NULL이 아니라 첫 노드를 가리킨다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>리스트의 끝에 노드를 삽입하는 연산이 단순 연결 리스트보다 비효율적이다.</choice_text>
-          <commentary>'리스트의 끝에 노드를 삽입하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>마지막 노드를 가리키는 포인터를 유지하면 끝에 삽입하는 연산이 오히려 효율적이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -528,24 +528,24 @@
         <correct_choice_text>13</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: 다음 파이썬(Python))
-정답은 ③이다. 본 문항은 다음 파이썬(Python)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 파이썬 자료형의 특성
+정답은 ③이다. 리스트 a는 중복을 허용하므로 append(3) 후 [1, 3, 5, 7, 3]으로 길이 5이다. 집합 b는 중복을 허용하지 않으므로 add(3) 후에도 {1, 3, 5, 7}로 길이 4이다. 튜플 c는 길이 4이다. 출력은 5 + 4 + 4 = 13이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10은 계산 결과와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>12는 리스트에 원소가 추가되지 않은 것으로 본 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>13</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5 + 4 + 4 = 13이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>14는 집합에도 중복 원소가 추가된 것으로 본 결과이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -561,24 +561,24 @@
         <correct_choice_text>오버플로</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 외부 인터럽트(External Interrupt))
-정답은 ②이다. 본 문항은 외부 인터럽트(External Interrupt)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 외부 인터럽트
+정답은 ②이다. 외부 인터럽트는 CPU 외부의 하드웨어에서 발생하는 인터럽트로, 입출력 장치의 요청, 전원 이상, 기계 오작동, 타이머 등이 원인이다. 오버플로, 0으로 나누기 등 프로그램 실행 중 발생하는 오류는 내부 인터럽트(트랩)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>입ㆍ출력</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>입출력 장치의 요청은 외부 인터럽트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>오버플로</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>오버플로는 연산 중 발생하는 내부 인터럽트이므로 외부 인터럽트가 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>전원 이상</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전원 이상은 외부 인터럽트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기계 오작동</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기계 오작동은 외부 인터럽트이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -594,24 +594,24 @@
         <correct_choice_text>컴퓨터의 각 장치 간에 데이터를 전달할 때 사용하는 데이터 버스는 단방향성을 가지고 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 컴퓨터의 버스)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 시스템 버스
+정답은 ④이다. 시스템 버스는 주소 버스, 데이터 버스, 제어 버스로 구성된다. 주소 버스는 CPU에서 기억장치·입출력 장치로 주소를 보내는 단방향 버스이고, 데이터 버스는 데이터를 읽고 쓰기 위해 양방향으로 동작한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템 버스의 종류에는 제어 버스, 데이터 버스, 주소 버스가 있다.</choice_text>
-          <commentary>'시스템 버스의 종류에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시스템 버스에는 제어 버스, 데이터 버스, 주소 버스가 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>제어 버스는 제어 신호를 전달하기 위해 사용된다.</choice_text>
-          <commentary>'제어 버스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제어 버스는 읽기·쓰기 등의 제어 신호를 전달한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>버스의 폭은 전송량을 의미하며, 컴퓨터의 성능에 영향을 준다.</choice_text>
-          <commentary>'버스의 폭'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>버스의 폭은 한 번에 전송하는 비트 수로 성능에 영향을 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>컴퓨터의 각 장치 간에 데이터를 전달할 때 사용하는 데이터 버스는 단방향성을 가지고 있다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>데이터 버스는 양방향성이므로 단방향성이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -627,24 +627,24 @@
         <correct_choice_text>빠른 속도로 증가하는 대용량 데이터를 처리하는 데 적합하지 않다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: NoSQL의 특징)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · NoSQL의 특징
+정답은 ③이다. NoSQL은 고정된 스키마 없이 키-값, 문서, 컬럼, 그래프 등 다양한 모델을 지원하며, 수평 확장(scale-out)에 유리하여 빠르게 증가하는 대용량·비정형 데이터 처리에 적합하다. 일관성보다 가용성과 확장성을 중시하여 ACID보다 BASE 특성을 따른다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>동적 스키마를 지원할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>NoSQL은 동적 스키마를 지원한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>다양한 형태의 비정형 데이터들도 다룬다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>NoSQL은 다양한 형태의 비정형 데이터를 다룬다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>빠른 속도로 증가하는 대용량 데이터를 처리하는 데 적합하지 않다.</choice_text>
-          <commentary>'빠른 속도로 증가하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NoSQL은 대용량 데이터 처리에 적합하므로 적합하지 않다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>관계형 데이터베이스보다는 ACID 특성을 중요시하지 않는다.</choice_text>
-          <commentary>'관계형 데이터베이스보다'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>NoSQL은 관계형 데이터베이스보다 ACID 특성을 덜 중시한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -662,25 +662,24 @@
         <correct_choice_text>삽입 시간 복잡도는 $O ( 1 )$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 힙(Heap), O ( 1 ), 최대 힙(Max Heap))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $O ( 1 )$</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 힙
+정답은 ①이다. 힙은 완전 이진 트리 기반의 우선순위 큐로, 최대 힙은 부모 노드의 키가 자식 노드의 키보다 크거나 같다. 삽입 시 마지막 위치에 노드를 추가한 뒤 부모와 비교하며 위로 올라가므로(up-heap) 시간 복잡도는 O(log n)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>삽입 시간 복잡도는 $O ( 1 )$이다.</choice_text>
-          <commentary>'삽입 시간 복잡도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>힙의 삽입 시간 복잡도는 O(1)이 아니라 O(log n)이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>힙은 우선순위 큐의 한 종류이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>힙은 우선순위 큐를 구현하는 대표적 자료 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>힙은 완전 이진 트리를 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>힙은 완전 이진 트리를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>최대 힙(Max Heap)은 부모노드의 키값이 자식노드의 키값보다 크거나 같다.</choice_text>
-          <commentary>'최대 힙(Max Heap)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최대 힙은 부모 노드의 키가 자식 노드의 키보다 크거나 같다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -696,24 +695,24 @@
         <correct_choice_text>사용자나 응용 프로그램이 커널을 거치지 않고 하드웨어에 직접 접근할 수 있도록 제공하는 함수의 집합을 시스템 호출이라고 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 운영체제 구조)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 운영체제 구조
+정답은 ④이다. 시스템 호출은 사용자나 응용 프로그램이 하드웨어에 직접 접근하지 않고 커널을 통해 운영체제의 서비스를 이용하도록 제공되는 인터페이스이다. 커널을 거치지 않고 하드웨어에 직접 접근하게 하는 것이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>커널은 운영체제의 핵심 기능을 모아 놓은 것이다.</choice_text>
-          <commentary>'커널'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>커널은 프로세스·메모리·파일·입출력 관리 등 운영체제의 핵심 기능을 모은 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>다양한 장치를 효율적으로 사용할 수 있는 하드웨어와의 인터페이스를 디바이스 드라이버라고 한다.</choice_text>
-          <commentary>'다양한 장치를 효율적으로 사용할 수 있'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>디바이스 드라이버는 다양한 장치를 효율적으로 사용하기 위한 하드웨어 인터페이스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>사용자 인터페이스는 커널에 명령을 전달하고, 실행 결과를 사용자와 응용 프로그램에 전달한다.</choice_text>
-          <commentary>'사용자 인터페이스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자 인터페이스(셸 등)는 커널에 명령을 전달하고 결과를 사용자에게 보여 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>사용자나 응용 프로그램이 커널을 거치지 않고 하드웨어에 직접 접근할 수 있도록 제공하는 함수의 집합을 시스템 호출이라고 한다.</choice_text>
-          <commentary>'사용자나 응용 프로그램'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시스템 호출은 커널을 통해 서비스를 이용하는 인터페이스이므로 커널을 거치지 않는다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -732,24 +731,24 @@
         <correct_choice_text>SMTP TCP Telnet TCP</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 제시된, 표에서, 애플리케이션, 계층)
-정답은 ①이다. 본 문항은 제시된, 표에서, 애플리케이션, 계층에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 응용 계층 프로토콜과 전송 계층
+정답은 ①이다. 전자메일 전송에는 SMTP가 사용되며 신뢰성 있는 전송을 위해 TCP(25번 포트)를 사용한다. 원격 접속에는 Telnet이 사용되며 TCP(23번 포트)를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>SMTP TCP Telnet TCP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) SMTP, (나) TCP, (다) Telnet, (라) TCP이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SNMP UDP DNS UDP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SNMP는 네트워크 관리 프로토콜이고 DNS는 도메인 이름 변환 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SNMP TCP Telnet UDP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SNMP는 전자메일 프로토콜이 아니며 Telnet은 TCP를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SMTP UDP DNS TCP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SMTP는 UDP가 아니라 TCP를 사용하며, DNS는 원격 접속 프로토콜이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

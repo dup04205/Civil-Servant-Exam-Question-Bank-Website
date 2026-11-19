@@ -27,24 +27,24 @@
         <correct_choice_text>블루－레이 디스크</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 병렬 처리를 수행하는 기법)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 병렬 처리 기법
+정답은 ①이다. 병렬 처리 기법에는 명령어를 여러 단계로 나누어 중첩 실행하는 파이프라인, 여러 파이프라인으로 한 사이클에 여러 명령어를 실행하는 슈퍼스칼라, 컴파일러가 병렬 실행 가능한 명령어를 하나의 긴 명령어로 묶는 VLIW 등이 있다. 블루레이 디스크는 광학 저장 매체이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>블루－레이 디스크</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블루레이 디스크는 저장 매체이므로 병렬 처리 기법이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>VLIW</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>VLIW는 여러 연산을 하나의 긴 명령어로 묶어 동시에 실행하는 병렬 처리 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>파이프라인</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파이프라인은 명령어 처리 단계를 중첩하여 실행하는 병렬 처리 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>슈퍼스칼라</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>슈퍼스칼라는 여러 실행 장치로 동시에 여러 명령어를 처리하는 병렬 처리 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -63,24 +63,24 @@
         <correct_choice_text>DHCP</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 인터넷, 통신에서, 주소, 동적으)
-정답은 ④이다. 본 문항은 인터넷, 통신에서, 주소, 동적으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · DHCP
+정답은 ④이다. DHCP(Dynamic Host Configuration Protocol)는 네트워크에 접속한 호스트에 IP 주소, 서브넷 마스크, 게이트웨이, DNS 서버 주소 등을 자동으로(동적으로) 할당하는 프로토콜이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>TCP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>TCP는 신뢰성 있는 연결 지향 전송 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DNS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DNS는 도메인 이름을 IP 주소로 변환하는 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SOAP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SOAP는 표준화된 구조의 메시지로 웹 서비스 간 정보를 교환하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>DHCP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IP 주소를 동적으로 할당하는 것은 DHCP이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -96,24 +96,24 @@
         <correct_choice_text>순차적인 데이터 전송을 통해 전송을 보장한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: UDP 프로토콜)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · UDP
+정답은 ②이다. UDP는 비연결형·비신뢰성 전송 계층 프로토콜로, 연결 설정, 흐름 제어, 순서 보장, 재전송 기능이 없어 오버헤드가 작고 빠르다. 순차적 전송을 통해 전송을 보장하는 것은 TCP의 특징이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>흐름 제어가 필요없는 비신뢰적 통신에 사용한다.</choice_text>
-          <commentary>'흐름 제어'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP는 흐름 제어가 필요 없는 비신뢰적 통신에 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>순차적인 데이터 전송을 통해 전송을 보장한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순차 전송과 전송 보장은 TCP의 특징이므로 UDP에 대한 설명으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>비연결지향으로 송신자와 수신자 사이에 연결 설정 없이 데이터 전송이 가능하다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP는 연결 설정 없이 데이터를 전송하는 비연결지향 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전송되는 데이터 중 일부가 손실되는 경우 손실 데이터에 대한 재전송을 요구하지 않는다.</choice_text>
-          <commentary>'전송되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP는 손실된 데이터에 대해 재전송을 요구하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -129,24 +129,24 @@
         <correct_choice_text>배열 프로세서</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 플린(Flynn))
-정답은 ④이다. 본 문항은 플린(Flynn)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 플린의 분류와 MIMD
+정답은 ④이다. 플린 분류에서 MIMD는 여러 프로세서가 각각 다른 명령어로 다른 데이터를 처리하는 구조로, 대칭형 다중 프로세서(SMP), 불균일 기억장치 액세스(NUMA), 클러스터 등이 해당한다. 배열 프로세서는 하나의 명령어로 여러 데이터를 동시에 처리하는 SIMD 구조이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>클러스터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>클러스터는 독립된 컴퓨터들을 연결한 MIMD 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>대칭형 다중 프로세서</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대칭형 다중 프로세서는 MIMD 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>불균일 기억장치 액세스</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>불균일 기억장치 액세스(NUMA)는 MIMD 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>배열 프로세서</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>배열 프로세서는 SIMD 구조이므로 MIMD에 속하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -162,8 +162,8 @@
         <correct_choice_text>ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 복합 보기 검증형 (핵심어: 컴퓨터의 구성요소)
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 컴퓨터의 구성 요소
+정답은 ③이다. ㄴ. 명령어 실행 단계에서는 제어장치, 레지스터, 연산기(ALU)가 필요하다. ㄷ. 명령어 인출 단계에서는 인출된 명령어를 저장하는 명령어 레지스터(IR)와 다음 명령어 주소를 저장하는 프로그램 카운터(PC)가 필요하다. ㄱ. 입출력장치는 기계적 동작을 수반하므로 주기억장치보다 느리다. ㄹ. DMA 방식에서는 CPU 개입 없이 입출력장치와 기억장치 사이에 데이터를 교환할 수 있다. 따라서 ㄴ, ㄷ이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>입출력장치는 기계적 동작을 수반하기 때문에 동작 속도가 주기억장치보다 빠르다.</statement>
@@ -185,19 +185,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ은 입출력장치가 주기억장치보다 느리므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ과 ㄹ이 모두 옳지 않으므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ과 ㄷ이 옳으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 DMA처럼 CPU의 제어 없이도 데이터 교환이 가능하므로 정답이 될 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -213,24 +213,24 @@
         <correct_choice_text>SIGCHLD: 프로세스의 종료 혹은 중지를 부모에게 알리는 시그널</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 유닉스 시스템 신호)
-정답은 ④이다. 본 문항은 유닉스 시스템 신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 유닉스 시그널
+정답은 ④이다. SIGCHLD는 자식 프로세스가 종료되거나 중지될 때 부모 프로세스에 전달되는 시그널이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>SIGKILL: abort()에서 발생되는 종료 시그널</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>abort()로 발생하는 시그널은 SIGABRT이며, SIGKILL은 프로세스를 강제 종료하는 시그널이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SIGTERM: 잘못된 하드웨어 명령어를 수행하는 시그널</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>잘못된 하드웨어 명령어 실행 시 발생하는 시그널은 SIGILL이며, SIGTERM은 정상 종료를 요청하는 시그널이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SIGILL: 터미널에서 CTRL ＋ Z 할 때 발생하는 중지 시그널</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>터미널에서 Ctrl+Z로 발생하는 중지 시그널은 SIGTSTP이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>SIGCHLD: 프로세스의 종료 혹은 중지를 부모에게 알리는 시그널</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SIGCHLD는 자식 프로세스의 종료 또는 중지를 부모에게 알리므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -249,26 +249,25 @@
         <correct_choice_text>역 페이지 테이블</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 설명, 해당하, 페이지, 테이블)
-정답은 ③이다. 본 문항은 설명, 해당하, 페이지, 테이블에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "물리 메모리의 프레임당 단 한 개의 페이지 테이블 항목을 할당함으로써 페이지 테이블이 차지하는 공간을 줄이는 기술"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 역 페이지 테이블
+정답은 ③이다. 역 페이지 테이블은 프로세스마다 페이지 테이블을 두지 않고, 물리 메모리의 프레임마다 하나의 항목(프로세스 ID, 페이지 번호)만 두어 페이지 테이블이 차지하는 공간을 줄이는 기법이다.</overall_commentary>
       <passage_evidence>물리 메모리의 프레임당 단 한 개의 페이지 테이블 항목을 할당함으로써 페이지 테이블이 차지하는 공간을 줄이는 기술</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>변환 참조 버퍼</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>변환 참조 버퍼(TLB)는 페이지 테이블 항목을 저장하는 고속 캐시이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>계층적 페이지 테이블</choice_text>
-          <commentary>제시문의 "물리 메모리의 프레임당 단 한 개의 페이지 테이블 항목을 할당함으로써 페이지 테이블이 차지하는 공간을 줄이는 기술" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>계층적 페이지 테이블은 페이지 테이블을 여러 단계로 나누어 관리하는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>역 페이지 테이블</choice_text>
-          <commentary>제시문의 "물리 메모리의 프레임당 단 한 개의 페이지 테이블 항목을 할당함으로써 페이지 테이블이 차지하는 공간을 줄이는 기술" 내용과 일치하므로 옳다.</commentary>
+          <commentary>프레임당 하나의 항목만 두는 것은 역 페이지 테이블이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>해시 페이지 테이블</choice_text>
-          <commentary>제시문의 "물리 메모리의 프레임당 단 한 개의 페이지 테이블 항목을 할당함으로써 페이지 테이블이 차지하는 공간을 줄이는 기술" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>해시 페이지 테이블은 가상 페이지 번호를 해시하여 항목을 찾는 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -286,24 +285,24 @@
         <correct_choice_text>－15, 241</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 프로그램, 출력, 결과)
-정답은 ③이다. 본 문항은 프로그램, 출력, 결과에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 비트 시프트와 형 변환
+정답은 ③이다. 0x15213F10 &gt;&gt; 4 = 0x015213F1이다. char로 변환하면 하위 1바이트 0xF1만 남는다. 0xF1 = 11110001이며, signed char로 해석하면 최상위 비트가 1이므로 2의 보수로 −15이다. unsigned char로 해석하면 241이다. 출력은 '−15, 241'이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－15, 15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>unsigned char는 0xF1을 241로 해석한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－241, 15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>signed char는 −15로 해석하며, unsigned char도 241이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>－15, 241</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>−15, 241이 출력되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－241, 241</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>signed char의 값은 −241이 아니라 −15이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -322,24 +321,24 @@
         <correct_choice_text>ICMP</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 인터넷, 계층에서, 동작하, 프로토콜로서)
-정답은 ①이다. 본 문항은 인터넷, 계층에서, 동작하, 프로토콜로서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · ICMP
+정답은 ①이다. ICMP는 인터넷 계층에서 IP 패킷 전송 중의 오류 보고(목적지 도달 불가 등), 상황 보고, 경로 제어 정보(리디렉트) 전달 기능을 수행한다. ping과 traceroute에 사용된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ICMP</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>오류 보고, 상황 보고, 경로 제어 정보 전달은 ICMP의 기능이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>RARP</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RARP는 MAC 주소로 IP 주소를 구하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ARP</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ARP는 IP 주소로 MAC 주소를 구하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IGMP</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IGMP는 멀티캐스트 그룹의 가입·탈퇴를 관리하는 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -356,24 +355,24 @@
         <correct_choice_text>시프트 레지스터</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 제어장치, 해당하지)
-정답은 ③이다. 본 문항은 제어장치, 해당하지에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 제어장치의 구성 요소
+정답은 ③이다. 제어장치는 명령어 해독기, 순서 제어 논리 장치, 제어 주소 레지스터, 서브루틴 레지스터 등으로 구성된다. 시프트 레지스터는 데이터를 비트 단위로 이동시키는 연산장치 쪽 구성 요소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>순서 제어 논리 장치</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서 제어 논리 장치는 마이크로 명령어 실행 순서를 결정하는 제어장치 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>명령어 해독기</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>명령어 해독기는 명령어를 해석하는 제어장치 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>시프트 레지스터</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시프트 레지스터는 연산장치의 구성 요소이므로 제어장치에 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>서브루틴 레지스터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>서브루틴 레지스터는 마이크로 서브루틴의 복귀 주소를 저장하는 제어장치 요소이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -392,24 +391,24 @@
         <correct_choice_text>표본화</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 시간적으, 연속적인, 아날로그, 신호)
-정답은 ①이다. 본 문항은 시간적으, 연속적인, 아날로그, 신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 아날로그-디지털 변환
+정답은 ①이다. PCM 방식의 아날로그-디지털 변환은 표본화 → 양자화 → 부호화 순으로 이루어진다. 표본화는 연속적인 아날로그 신호에서 일정한 시간 간격으로 값을 추출하는 과정이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>표본화</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>일정 시간 간격으로 신호 값을 추출하는 것은 표본화이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>양자화</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>양자화는 표본화된 값을 이산적인 크기 단계로 근사하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>부호화</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호화는 양자화된 값을 2진 부호로 변환하는 과정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>자동화</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자동화는 아날로그-디지털 변환 과정의 단계가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -427,24 +426,24 @@
         <correct_choice_text>9, 12</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 수리·계산·자료해석형 (핵심어: int funa(int), int funa(int n), funa(n-2))
-정답은 ②이다. 본 문항은 int funa(int), int funa(int n), funa(n-2)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 재귀 함수 추적
+정답은 ②이다. funa(5) = 5 + funa(3) = 5 + 3 + funa(1)이고, funa(1)은 1 % 2 = 1이므로 funa(5) = 9이다. funa(6) = 6 + funa(4) = 6 + 4 + funa(2) = 6 + 4 + 2 + funa(0)이고, funa(0)은 0 % 2 = 0이므로 funa(6) = 12이다. 출력은 '9, 12'이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5, 6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5, 6은 재귀 호출을 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>9, 12</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>9, 12가 출력되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15, 21</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>15, 21은 1부터 n까지의 합으로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>120, 720</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>120, 720은 팩토리얼로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -463,24 +462,24 @@
         <correct_choice_text>폴딩함수</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 해시, 함수)
-정답은 ④이다. 본 문항은 다음에서, 설명하, 해시, 함수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 폴딩 해시 함수
+정답은 ④이다. 폴딩(folding) 함수는 탐색 키를 여러 부분으로 나눈 뒤 각 부분을 더하거나 XOR하여 해시 주소를 구하는 방법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>숫자분석함수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>숫자 분석 함수는 키의 각 자릿수 분포를 분석하여 고르게 분포된 자릿수를 주소로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>제산함수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>제산 함수는 키를 테이블 크기(소수)로 나눈 나머지를 주소로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>중간제곱함수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>중간 제곱 함수는 키를 제곱한 값의 중간 부분을 주소로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>폴딩함수</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>키를 나누어 더하거나 XOR하는 것은 폴딩 함수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -497,24 +496,24 @@
         <correct_choice_text>머신러닝 인공지능 딥러닝</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 해당하, 연결한)
-정답은 ③이다. 본 문항은 해당하, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 인공지능, 머신러닝, 딥러닝
+정답은 ③이다. 인공지능(나)은 인간의 지적 능력을 컴퓨터로 구현하는 가장 넓은 개념이다. 머신러닝(가)은 인공지능의 한 분야로 데이터에서 스스로 학습하여 예측·판단하는 기술이다. 딥러닝(다)은 머신러닝의 한 분야로 여러 계층의 인공 신경망을 이용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인공지능 머신러닝 딥러닝</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 인공지능이 아니라 머신러닝이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인공지능 딥러닝 머신러닝</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)는 인공지능이고 (다)는 딥러닝이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>머신러닝 인공지능 딥러닝</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) 머신러닝, (나) 인공지능, (다) 딥러닝이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>머신러닝 딥러닝 인공지능</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)는 딥러닝이 아니라 인공지능이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -533,24 +532,24 @@
         <correct_choice_text>소단위 명세서를 작성하는 도구에는 구조적언어, 의사결정표 등이 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 자료사전은 계획(ISP), 분석(BAA), 설계(BSD), 구축(SC))
-정답은 ④이다. 본 문항은 자료사전은 계획(ISP), 분석(BAA), 설계(BSD), 구축(SC)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 구조적 분석 도구
+정답은 ④이다. 소단위 명세서(mini-spec)는 자료흐름도의 최하위 처리 과정의 논리를 기술하며, 구조적 언어(구조적 영어), 의사결정표, 의사결정나무 등을 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>자료흐름도에서 자료저장소는 원으로 표현한다.</choice_text>
-          <commentary>'자료흐름도에서 자료저장소'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자료흐름도에서 원은 처리 과정(프로세스)이며, 자료 저장소는 평행선으로 표현한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>자료사전은 계획(ISP), 분석(BAA), 설계(BSD), 구축(SC)의 절차로 작성한다.</choice_text>
-          <commentary>'자료사전'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계획(ISP), 분석(BAA), 설계(BSD), 구축(SC)은 정보공학 방법론의 단계이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>자료사전에서 사용하는 기호 중 ( )는 선택에 사용되는 기호이다.</choice_text>
-          <commentary>'자료사전에서 사용하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자료 사전에서 ( )는 생략 가능, [ ]는 선택을 나타낸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>소단위 명세서를 작성하는 도구에는 구조적언어, 의사결정표 등이 있다.</choice_text>
-          <commentary>'소단위 명세서를 작성하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>소단위 명세서 작성 도구에는 구조적 언어와 의사결정표 등이 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -568,24 +567,24 @@
         <correct_choice_text>자기 통제의 법칙</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 내용, 해당하, 법칙)
-정답은 ①이다. 본 문항은 내용, 해당하, 법칙에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 레만의 소프트웨어 진화 법칙
+정답은 ①이다. 레만(Lehman)의 법칙 중 자기 통제(self-regulation)의 법칙은 시스템 진화 과정이 단기적으로는 변동이 있어도 장기적으로는 일정한 추세를 따르는 자기 조절적 과정이라는 것이다. 주가가 단기적으로 급변해도 장기적으로 추세를 보이는 것에 비유된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>자기 통제의 법칙</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단기 변동에도 장기적으로 일정한 추세를 보이는 것은 자기 통제의 법칙이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>복잡도 증가의 법칙</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>복잡도 증가의 법칙은 시스템이 변경될수록 구조가 복잡해진다는 법칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>피드백 시스템의 법칙</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>피드백 시스템의 법칙은 진화 과정이 다단계·다중 피드백 시스템이라는 법칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>지속적 변경의 법칙</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지속적 변경의 법칙은 시스템이 계속 변경되지 않으면 점점 유용성이 떨어진다는 법칙이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -604,24 +603,24 @@
         <correct_choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)] / [그림/도표 선지 2번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 그림과, 테이블과, 테이블, 실행)
-정답은 ①, ②이다. 본 문항은 그림과, 테이블과, 테이블, 실행에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ①, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · LEFT JOIN 결과
+정답은 ①, ②이다. 이 문항의 테이블과 선택지는 이미지로만 제공되었다. LEFT JOIN은 왼쪽 테이블 S의 모든 행을 결과에 포함하고, 조건 S.b = T.c를 만족하는 T의 행이 있으면 그 값을, 없으면 NULL을 채운다. 공식 정답은 ①과 ②가 모두 정답으로 처리되었다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따라 정답으로 인정된 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따라 정답으로 인정된 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 LEFT JOIN 결과로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 LEFT JOIN 결과로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -637,24 +636,24 @@
         <correct_choice_text>fork( ) 호출 시 부모 프로세스와 자식 프로세스가 차지하는 메모리 위치는 동일하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: 운영체제 시스템 호출)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · fork()와 exec()
+정답은 ②이다. fork()는 실행 중인 부모 프로세스를 복사하여 자식 프로세스를 생성하며, 자식은 부모와 같은 내용이지만 별도의 메모리 공간(서로 다른 물리적 위치)을 가진다. exec()는 기존 프로세스 구조를 재활용하여 새 프로그램으로 메모리를 덮어쓴다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>fork( )는 실행 중인 프로세스를 복사하는 함수이다.</choice_text>
-          <commentary>'fork( )'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>fork()는 실행 중인 프로세스를 복사하는 시스템 호출이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>fork( ) 호출 시 부모 프로세스와 자식 프로세스가 차지하는 메모리 위치는 동일하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부모와 자식 프로세스는 서로 다른 메모리 공간을 차지하므로 동일하다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>exec( )는 이미 만들어진 프로세스의 구조를 재활용하는 함수이다.</choice_text>
-          <commentary>'exec( )'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>exec()는 이미 만들어진 프로세스의 구조를 재활용하여 새 프로그램을 적재한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>exec( ) 호출에 사용되는 함수 중 wait( )는 프로세스 종료 대기를 처리한다.</choice_text>
-          <commentary>'exec( ) 호출에 사용되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>wait()는 자식 프로세스의 종료를 기다리는 시스템 호출로, 공식 정답에 따라 이 선택지는 옳은 것으로 처리되었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -670,24 +669,24 @@
         <correct_choice_text>복잡한 질의를 간단하게 표현할 수 있게 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: SQL 뷰)
-정답은 ①이다. 본 문항은 SQL 뷰에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · SQL 뷰
+정답은 ①이다. 뷰는 하나 이상의 테이블에서 유도된 가상 테이블로, 복잡한 질의를 간단히 표현하고, 논리적 데이터 독립성과 보안을 제공한다. 같은 데이터에 대해 여러 뷰를 만들 수 있으며 제거할 때는 DROP VIEW를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>복잡한 질의를 간단하게 표현할 수 있게 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>뷰는 복잡한 질의를 간단하게 표현할 수 있게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>데이터 무결성을 보장하지만 독립성을 제공하지는 않는다.</choice_text>
-          <commentary>'데이터 무결성을 보장하지만 독립성을 제공하지'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>뷰는 논리적 데이터 독립성을 제공한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>제거할 때는 DELETE문을 사용한다.</choice_text>
-          <commentary>'제거할 때'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>뷰를 제거할 때는 DELETE가 아니라 DROP VIEW를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>동일한 데이터에 대해 하나의 뷰만 생성 가능하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>동일한 데이터에 대해 여러 개의 뷰를 생성할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,26 +704,25 @@
         <correct_choice_text>－2 0 0 1 20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 컴퓨터일반 · 핵심 개념·이론 이해형 (핵심어: int C(int v), C(10), C(20))
-정답은 ①이다. 본 문항은 int C(int v), C(10), C(20)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "if(b &amp; C(20))"</overall_commentary>
+      <overall_commentary>출제 영역: 컴퓨터일반 · 논리 연산과 단락 평가
+정답은 ①이다. a = −2이고 b = !a = 0이다(0이 아닌 값의 부정은 0). a &amp;&amp; b = 0, a || b = 1이므로 '−2 0 0 1 '이 출력된다. if (b &amp;&amp; C(10))에서는 b가 0이므로 단락 평가로 C(10)이 호출되지 않는다. if (b &amp; C(20))의 비트 연산 &amp;는 단락 평가를 하지 않으므로 C(20)이 호출되어 '20 '이 출력되고, 0 &amp; 1 = 0이므로 'B'는 출력되지 않는다. 결과는 '−2 0 0 1 20'이다.</overall_commentary>
       <passage_evidence>if(b &amp; C(20))</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>－2 0 0 1 20</choice_text>
-          <commentary>제시문의 "if(b &amp; C(20))" 내용과 일치하므로 옳다.</commentary>
+          <commentary>−2 0 0 1 20이 출력되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－2 0 0 1 10 20</choice_text>
-          <commentary>제시문의 "if(b &amp;&amp; C(10))" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>&amp;&amp; 연산은 단락 평가로 C(10)을 호출하지 않으므로 10은 출력되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>－2 1 0 1 10 20</choice_text>
-          <commentary>제시문의 "if(b &amp;&amp; C(10))" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>!(−2)는 0이므로 b는 1이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－2 2 1 1 10 A 20 B</choice_text>
-          <commentary>제시문의 "if(b &amp;&amp; C(10))" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>b는 2가 아니라 0이며 A와 B도 출력되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

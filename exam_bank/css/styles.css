@@ -706,10 +706,10 @@ body {
 
 .q-bogi-row {
   display: grid;
-  grid-template-columns: 1.75rem 1fr;
-  gap: 6px;
-  margin-bottom: 6px;
-  align-items: baseline;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.55em;
+  margin-bottom: 10px;
+  align-items: start;
 }
 
 .q-bogi-row:last-child {
@@ -719,6 +719,31 @@ body {
 .q-bogi-sym {
   font-weight: 700;
   color: var(--ink);
+  white-space: nowrap;
+  line-height: 1.75;
+}
+
+.q-bogi-sym.is-bullet {
+  font-weight: 400;
+}
+
+.q-bogi-text {
+  text-align: justify;
+  word-break: normal;
+  line-height: 1.75;
+}
+
+.q-passage .q-bogi-sym,
+.q-passage .q-bogi-text {
+  line-height: 1.8;
+}
+
+.q-choice-header {
+  margin: 0 0 8px 34px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.04em;
 }
 
 /* 인라인 서식 통일 */

@@ -256,7 +256,31 @@ function buildCodeBlock(codeLines) {
 }
 
 /**
- * 지문/사례/보기 텍스트를 문단, 표, 코드 블록, 상자 라벨, ㄱ·ㄴ·ㄷ·ㄹ 항목으로 정규화하여 렌더링합니다.
+ * 지문/보기 맨 마지막 줄에 짝짓기형 선지 열 헤더(예: <u>(가) (나) (다)</u>)가 붙어 있는 경우
+ * 상자 밖(선지 바로 위)으로 분리하기 위해 추출합니다.
+ */
+export function splitTrailingChoiceHeader(rawText) {
+  if (!rawText) return { body: rawText, choiceHeader: "" };
+  const lines = rawText.replace(/\r\n/g, "\n").trimEnd().split("\n");
+  if (lines.length < 2) return { body: rawText, choiceHeader: "" };
+
+  const lastLine = lines[lines.length - 1].trim();
+  const unwrapped = lastLine.replace(/^<u>([\s\S]*?)<\/u>$/, "$1").trim();
+  // 2~5개의 짧은 기호 열 헤더 패턴: (가) (나) (다), ㄱ ㄴ ㄷ, A B C 등
+  const isHeaderPattern =
+    /^(\([가-하]\)|[ㄱ-ㅎ]|[A-E])(\s+(\([가-하]\)|[ㄱ-ㅎ]|[A-E])){1,4}$/.test(unwrapped);
+
+  if (isHeaderPattern) {
+    return {
+      body: lines.slice(0, -1).join("\n").trimEnd(),
+      choiceHeader: lastLine,
+    };
+  }
+  return { body: rawText, choiceHeader: "" };
+}
+
+/**
+ * 지문/사례/보기 텍스트를 문단, 표, 코드 블록, 상자 라벨, ㄱ·ㄴ·ㄷ·ㄹ 및 ○·• 목록 항목으로 정규화하여 렌더링합니다.
  */
 export function renderStructuredContent(rawText, container, isBogi = false) {
   if (!rawText) return;
@@ -330,16 +354,32 @@ export function renderStructuredContent(rawText, container, isBogi = false) {
       }
     }
 
-    // 4. ㄱ. ㄴ. ㄷ. ㄹ. ㅁ. 보기 항목 행 통일 정렬
+    // 4. ㄱ·ㄴ·ㄷ·ㄹ 및 ○·•·※·(가)·가. 등 보기/목록 항목 행 통일 정렬 (내어쓰기)
     const bogiMatch = line.match(/^([ㄱㄴㄷㄹㅁㅂ])\s*[.．)）:：]?\s+(.+)$/);
-    if (bogiMatch) {
+    const bulletMatch = line.match(/^([○◦•·▪▫□■◎◈※\-–—])\s+(.+)$/);
+    const labelMatch = line.match(/^(\([가-하]\)|[가-하]\.)\s+(.+)$/);
+
+    const isMultiItemInline =
+      labelMatch && /\s+(\([나-하]\)|[나-하]\.)\s+/.test(labelMatch[2]);
+
+    if (bogiMatch || bulletMatch || (labelMatch && !isMultiItemInline)) {
+      const symText = bogiMatch
+        ? `${bogiMatch[1]}.`
+        : bulletMatch
+          ? bulletMatch[1]
+          : labelMatch[1];
+      const bodyText = (
+        bogiMatch ? bogiMatch[2] : bulletMatch ? bulletMatch[2] : labelMatch[2]
+      ).trim();
+
       const row = document.createElement("div");
       row.className = "q-bogi-row";
       const sym = document.createElement("span");
-      sym.className = "q-bogi-sym";
-      sym.textContent = `${bogiMatch[1]}.`;
+      sym.className = bulletMatch ? "q-bogi-sym is-bullet" : "q-bogi-sym";
+      sym.textContent = symText;
       const body = document.createElement("div");
-      body.appendChild(renderInlineFragment(bogiMatch[2].trim()));
+      body.className = "q-bogi-text";
+      body.appendChild(renderInlineFragment(bodyText));
       row.append(sym, body);
       container.appendChild(row);
       i++;

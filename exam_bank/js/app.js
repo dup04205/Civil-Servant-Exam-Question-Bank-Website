@@ -10,6 +10,7 @@ import {
   getCircledNumber,
   renderInlineFragment,
   renderStructuredContent,
+  splitTrailingChoiceHeader,
 } from "./renderer.js";
 
 const state = {
@@ -496,24 +497,47 @@ function buildQuestionBlock(q, { mode = "solve", showPaperTag = false } = {}) {
   stemEl.appendChild(renderInlineFragment(q.stem));
   item.appendChild(stemEl);
 
-  // 3. 지문 (통일 문단/표)
+  // 3. 지문 (통일 문단/표) 및 4. <보기> + 짝짓기형 선지 헤더 분리
+  let trailingChoiceHeader = "";
+
   if (q.passage) {
-    const passageBox = document.createElement("div");
-    passageBox.className = "q-passage";
-    renderStructuredContent(q.passage, passageBox, false);
-    item.appendChild(passageBox);
+    const split = splitTrailingChoiceHeader(q.passage);
+    if (split.choiceHeader && !q.sub_passage) {
+      trailingChoiceHeader = split.choiceHeader;
+    }
+    const passageBody = !q.sub_passage ? split.body : q.passage;
+    if (passageBody) {
+      const passageBox = document.createElement("div");
+      passageBox.className = "q-passage";
+      renderStructuredContent(passageBody, passageBox, false);
+      item.appendChild(passageBox);
+    }
   }
 
   // 4. <보기>
   if (q.sub_passage) {
-    const bogiBox = document.createElement("div");
-    bogiBox.className = "q-bogi-box";
-    const bogiHead = document.createElement("div");
-    bogiHead.className = "q-bogi-header";
-    bogiHead.textContent = "보 기";
-    bogiBox.appendChild(bogiHead);
-    renderStructuredContent(q.sub_passage, bogiBox, true);
-    item.appendChild(bogiBox);
+    const split = splitTrailingChoiceHeader(q.sub_passage);
+    if (split.choiceHeader) {
+      trailingChoiceHeader = split.choiceHeader;
+    }
+    if (split.body) {
+      const bogiBox = document.createElement("div");
+      bogiBox.className = "q-bogi-box";
+      const bogiHead = document.createElement("div");
+      bogiHead.className = "q-bogi-header";
+      bogiHead.textContent = "보 기";
+      bogiBox.appendChild(bogiHead);
+      renderStructuredContent(split.body, bogiBox, true);
+      item.appendChild(bogiBox);
+    }
+  }
+
+  // 4.5. 상자 밖으로 분리된 짝짓기형 선지 열 헤더 (예: (가) (나) (다))
+  if (trailingChoiceHeader) {
+    const headerRow = document.createElement("div");
+    headerRow.className = "q-choice-header";
+    headerRow.appendChild(renderInlineFragment(trailingChoiceHeader));
+    item.appendChild(headerRow);
   }
 
   // 5. 선지

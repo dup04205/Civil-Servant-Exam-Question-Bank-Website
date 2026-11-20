@@ -27,25 +27,24 @@
         <correct_choice_text>변동계수는 서로 같다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 두 자료 A, B의 줄기－잎 그림)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $0$; $0$; $9$; $5$; $5$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 위치 이동과 산포의 측도
+정답은 ①이다. 자료 B는 자료 A의 각 값에 50을 더한 것이다. 모든 값에 같은 상수를 더하면 범위, 사분위수범위, 표준편차는 변하지 않고 평균만 50 증가한다. 변동계수는 표준편차/평균이므로 평균이 달라지면 값이 달라진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>변동계수는 서로 같다.</choice_text>
-          <commentary>'변동계수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평균이 달라 변동계수가 다르므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>범위는 서로 같다.</choice_text>
-          <commentary>'범위'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>범위는 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>사분위수범위는 서로 같다.</choice_text>
-          <commentary>'사분위수범위'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사분위수범위는 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>표준편차는 서로 같다.</choice_text>
-          <commentary>'표준편차'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>표준편차는 같으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -62,27 +61,25 @@
         <correct_choice_text>$P ( X + Y = 2 ) = \frac{1}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: E ( X ), Var ( X ))
-정답은 ④이다. 본 문항은 E ( X ), Var ( X )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |"
-관련 수식: $X$; $Y$; $X$; $Y$; $0$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 결합확률분포
+정답은 ④이다. 열이 X(0, 2), 행이 Y(0, 2)인 표이다. P(X = 0) = P(X = 2) = 1/2이므로 E(X) = 1, Var(X) = 4 × 1/2 − 1 = 1이다. P(Y = 2) = 3/4이므로 E(Y) = 3/2, E(X + Y) = 5/2이다. P(X + Y = 2) = P(X = 2, Y = 0) + P(X = 0, Y = 2) = 1/8 + 3/8 = 1/2이다.</overall_commentary>
       <passage_evidence>| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$E ( X ) = \frac{3}{4}$</choice_text>
-          <commentary>제시문의 "| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>E(X) = 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$Var ( X ) = \frac{1}{2}$</choice_text>
-          <commentary>제시문의 "| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>Var(X) = 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$E ( X + Y ) = \frac{3}{2}$</choice_text>
-          <commentary>제시문의 "| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>E(X + Y) = 5/2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P ( X + Y = 2 ) = \frac{1}{2}$</choice_text>
-          <commentary>제시문의 "| $0$ | $\frac{1}{8}$ | $\frac{1}{8}$ |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>P(X + Y = 2) = 1/2이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,25 +98,24 @@
         <correct_choice_text>$0 . 3$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 수리·계산·자료해석형 (핵심어: 정규분포, 따르, 확률변수, 대하여)
-정답은 ②이다. 본 문항은 정규분포, 따르, 확률변수, 대하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $P ( X \leq 2 ) = 0 . 2$; $P ( X \leq 12 ) = 0 . 8$; $P ( 2 \leq X \leq 7 )$; $0 . 35$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 정규분포의 대칭성
+정답은 ②이다. P(X ≤ 2) = 0.2, P(X ≥ 12) = 0.2로 두 꼬리 확률이 같으므로 평균은 (2 + 12)/2 = 7이다. P(2 ≤ X ≤ 7) = P(X ≤ 7) − P(X ≤ 2) = 0.5 − 0.2 = 0.3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 . 35$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.35가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0 . 3$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$0 . 25$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.25가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0 . 2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.2가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,25 +134,24 @@
         <correct_choice_text>$0 . 58$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 수리·계산·자료해석형 (핵심어: 확률변수, 각각, 성공, 확률)
-정답은 ④이다. 본 문항은 확률변수, 각각, 성공, 확률에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $Y$; $0 . 3$; $0 . 7$; $P ( X \neq Y )$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 독립인 베르누이 확률변수
+정답은 ④이다. X ≠ Y인 경우는 (X, Y) = (1, 0) 또는 (0, 1)이다. P = 0.3 × 0.3 + 0.7 × 0.7 = 0.09 + 0.49 = 0.58이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 . 09$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.09는 (1, 0)의 확률이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$0 . 21$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.21은 (1, 1)의 확률이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$0 . 49$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.49는 (0, 1)의 확률이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0 . 58$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.58이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -175,27 +170,25 @@
         <correct_choice_text>기대도수의 최솟값은 $10$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 어느, 회사에서, 경력, 따라)
-정답은 ③이다. 본 문항은 어느, 회사에서, 경력, 따라에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| $1$년 이상 $3$년 미만 | $20$ | $30$ | $40$ | $10$ |"
-관련 수식: $1$; $1$; $3$; $3$; $100$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 동질성 검정의 기대도수
+정답은 ③이다. 열 합계는 60, 90, 90, 60이고 각 행 합계는 100이므로 기대도수는 각 행에서 20, 30, 30, 20이다. 기대도수의 최솟값은 20, 최댓값은 30이다. 관측도수와의 차의 절댓값은 0(예: 1~3년, 3,000 미만)부터 30(3년 이상, 5,000 이상)까지이다.</overall_commentary>
       <passage_evidence>| $1$년 이상 $3$년 미만 | $20$ | $30$ | $40$ | $10$ |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기대도수와 관측도수 차의 절댓값의 최솟값은 $0$이다.</choice_text>
-          <commentary>'기대도수와 관측도수 차의 절댓값의 최솟값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>차이의 최솟값은 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>기대도수와 관측도수 차의 절댓값의 최댓값은 $30$이다.</choice_text>
-          <commentary>제시문의 "| $1$년 미만 | $30$ | $50$ | $20$ | $0$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>차이의 최댓값은 30이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>기대도수의 최솟값은 $10$이다.</choice_text>
-          <commentary>제시문의 "| $1$년 이상 $3$년 미만 | $20$ | $30$ | $40$ | $10$ |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>기대도수의 최솟값은 20이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기대도수의 최댓값은 $30$이다.</choice_text>
-          <commentary>제시문의 "| $1$년 미만 | $30$ | $50$ | $20$ | $0$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>기대도수의 최댓값은 30이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -214,25 +207,24 @@
         <correct_choice_text>$P \left( W \geq \frac{8}{3} \right)$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 정규분포, 따르, 모집단, 에서)
-정답은 ②이다. 본 문항은 정규분포, 따르, 모집단, 에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $N ( \mu_{X} , \sigma_{X}^{2} )$; $N ( \mu_{Y} , \sigma_{Y}^{2} )$; $X_{1} , X_{2} , . . . , X_{5}$; $Y_{1} , Y_{2} , . . . , Y_{6}$; $24$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 두 모분산 비의 검정
+정답은 ②이다. 귀무가설하에서 S_X²/S_Y²는 자유도 (5 − 1, 6 − 1) = (4, 5)인 F분포를 따른다. 검정통계량은 24/9 = 8/3이고 우측 단측검정이므로 유의확률은 P(W ≥ 8/3)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$P \left( W \geq \frac{3}{8} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>역수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P \left( W \geq \frac{8}{3} \right)$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>P(W ≥ 8/3)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$P \left( W \geq \frac{15}{32} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자유도를 곱한 값과 혼동한 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$P \left( W \geq \frac{32}{15} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>32/15가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -251,25 +243,24 @@
         <correct_choice_text>$18$ $20$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 수리·계산·자료해석형 (핵심어: 고혈압, 환자, 임의추출한, 명으)
-정답은 ④이다. 본 문항은 고혈압, 환자, 임의추출한, 명으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $20$; $10$; $10$; $4$; $k$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 합동분산과 신뢰구간
+정답은 ④이다. 자유도는 10 + 10 − 2 = 18이다. 신뢰구간의 반폭은 (−3.8 − (−12.2))/2 = 4.2 = 2.1 × S_p × √(1/10 + 1/10)이므로 S_p√0.2 = 2, S_p² × 0.2 = 4에서 S_p² = 20이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$9$ $10$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자유도와 분산이 모두 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$9$ $20$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>자유도가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$18$ $10$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분산이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$18$ $20$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>18, 20이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -288,25 +279,24 @@
         <correct_choice_text>$- 2$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 수리·계산·자료해석형 (핵심어: 자료, 단순선형회귀모형, 최소제곱법으, 적합하여)
-정답은 ②이다. 본 문항은 자료, 단순선형회귀모형, 최소제곱법으, 적합하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $( x_{i} , y_i )$; $( i = 1 , 2 , LDOTS , 6 )$; $y_{i} = \beta_{0} + \beta_{1} x_{i} + \epsilon_{i}$; $\sum_{i = 1}^{6} ( y_{i} - {\hat{y_{i}}} )^{2} = 150$; $\sum_{i = 1}^{6} ( y_{i} - {\bar{y}} )^{2} = 270$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 기울기 추정값
+정답은 ②이다. SSR = SST − SSE = 270 − 150 = 120이고 SSR = β̂₁² × S_xx이므로 β̂₁² = 120/30 = 4이다. 상관계수가 음수이므로 β̂₁ = −2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- 2$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>−2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{5}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>√5가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- \sqrt{5}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>−√5가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -325,25 +315,24 @@
         <correct_choice_text>(다), (라)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 학생, 집단, 시험성적, 비교하기)
-정답은 ④이다. 본 문항은 학생, 집단, 시험성적, 비교하기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $4$; $F$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 집단 통합 후의 분산분석표
+정답은 ④이다. 집단을 다시 묶어도 전체 자료는 그대로이므로 총제곱합(다)과 총자유도(라)는 변하지 않는다. 처리 수가 3에서 2로 바뀌므로 처리제곱합(가)과 오차 자유도(나)는 달라진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가), (나)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)와 (나)는 변한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(가), (다)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 변한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(나), (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)는 변한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(다), (라)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(다), (라)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -362,25 +351,24 @@
         <correct_choice_text>$P ( U = 0 )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 어느, 영업사원에게, 걸려오, 전화통화)
-정답은 ①이다. 본 문항은 어느, 영업사원에게, 걸려오, 전화통화에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $6$; $U$; $V$; $2$; $6$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 포아송 과정
+정답은 ①이다. 한 시간 평균 6건이면 20분 동안의 통화 수는 평균 6 × 20/60 = 2인 포아송분포를 따른다. 처음 전화가 9시 20분 이후에 온다는 것은 20분 동안 전화가 0건이라는 뜻이므로 P(U = 0)과 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P ( U = 0 )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>P(U = 0)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$P ( U = 1 )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>20분 동안 1건일 확률이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$P ( V = 0 )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1시간 동안 0건일 확률이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$P ( V = 1 )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1시간 동안 1건일 확률이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -399,8 +387,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 복합 보기 검증형 (핵심어: 자료, 퍼진, 정도, 나타내)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 산포의 측도와 단위
+정답은 ①이다. 표준편차와 사분위수범위는 원자료와 같은 단위를 갖는다. 분산은 단위의 제곱이고, 변동계수는 단위가 없다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>표준편차</statement>
@@ -422,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>분산은 단위의 제곱이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>변동계수는 단위가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>분산과 변동계수는 원자료와 단위가 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,25 +441,24 @@
         <correct_choice_text>$\frac{45}{2^{9}}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 동전, 연속해서, 던질, 처음)
-정답은 ③이다. 본 문항은 동전, 연속해서, 던질, 처음에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $10$; $6$; $2$; $4$; $2$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 독립 시행의 확률
+정답은 ③이다. 처음 6번 중 뒷면이 2번 나올 확률은 C(6, 2)/2⁶ = 15/2⁶, 나머지 4번 중 앞면이 2번 나올 확률은 C(4, 2)/2⁴ = 6/2⁴이다. 곱하면 90/2¹⁰ = 45/2⁹이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{15}{2^{9}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>15/2⁹가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{15}{2^{10}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>15/2¹⁰이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{45}{2^{9}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>45/2⁹이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{45}{2^{10}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>45/2¹⁰이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -490,25 +477,24 @@
         <correct_choice_text>$\frac{5}{29}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 단순선형회귀모형, 분산분석표, 일부이다, 모형)
-정답은 ②이다. 본 문항은 단순선형회귀모형, 분산분석표, 일부이다, 모형에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $y_{i} = \beta_{0} + \beta_{1} x_{i} + \epsilon_{i} ( i = 1 , 2 , LDOTS , 26 )$; $\epsilon_{i}$; $N ( 0 , \sigma^{2} )$; $F$; $5$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 결정계수
+정답은 ②이다. 총자유도 25이므로 회귀 자유도 1, 잔차 자유도 24이다. MSE = 120/24 = 5이고 F = 5이므로 MSR = SSR = 25이다. 결정계수는 25/(25 + 120) = 25/145 = 5/29이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4}{2} 9$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4/29가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{5}{29}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5/29이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{6}{29}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>6/29가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{7}{29}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>7/29가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -527,25 +513,24 @@
         <correct_choice_text>$T$의 값이 $t_{0 . 05} ( 9 )$보다 커서 귀무가설을 기각한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 확률변수, 이변량, 정규분포, 따르고)
-정답은 ③이다. 본 문항은 확률변수, 이변량, 정규분포, 따르고에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $Y$; $\rho$; $H_{0} : \rho = 0$; $H_{1} : \rho &gt; 0$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 상관계수의 검정
+정답은 ③이다. T = √9 × 0.6/√(1 − 0.36) = 3 × 0.6/0.8 = 2.25이다. 대립가설이 ρ &gt; 0인 우측 단측검정이므로 임계값은 t₀.₀₅(9) ≈ 1.833이고, T가 이보다 크므로 귀무가설을 기각한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$T$의 값이 $t_{0 . 025} ( 9 )$보다 커서 귀무가설을 기각한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단측검정이므로 t₀.₀₂₅(9)와 비교하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$T$의 값이 $t_{0 . 025} ( 9 )$보다 작아서 귀무가설을 기각하지 못한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단측검정이며 귀무가설을 기각한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$T$의 값이 $t_{0 . 05} ( 9 )$보다 커서 귀무가설을 기각한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>T가 t₀.₀₅(9)보다 커서 기각하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$T$의 값이 $t_{0 . 05} ( 9 )$보다 작아서 귀무가설을 기각하지 못한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T는 임계값보다 크다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -561,27 +546,25 @@
         <correct_choice_text>인자 A는 유의하지 않고, 인자 B는 유의하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 는 인자 A와 B의 교호작용(interaction))
-정답은 ③이다. 본 문항은 는 인자 A와 B의 교호작용(interaction)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?"
-관련 수식: $4$; $3$; $3$; $F$; $54$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 이원배치법의 유의성
+정답은 ③이다. 관측값은 4 × 3 × 3 = 36개로 총자유도 35, A의 자유도 3, B의 자유도 2, 오차 자유도 30이다. SSE = 396 − 54 − 72 = 270이므로 MSE = 9이다. F_A = 18/9 = 2 &lt; 2.92로 유의하지 않고, F_B = 36/9 = 4 &gt; 3.32로 유의하다.</overall_commentary>
       <passage_evidence>유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인자 A, B는 모두 유의하다.</choice_text>
-          <commentary>제시문의 "유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>인자 A는 유의하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인자 A는 유의하고, 인자 B는 유의하지 않다.</choice_text>
-          <commentary>제시문의 "유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>유의성이 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>인자 A는 유의하지 않고, 인자 B는 유의하다.</choice_text>
-          <commentary>제시문의 "유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?" 내용과 일치하므로 옳다.</commentary>
+          <commentary>A는 유의하지 않고 B는 유의하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>인자 A, B는 모두 유의하지 않다.</choice_text>
-          <commentary>제시문의 "유의수준 $5 \%$에서 검정할 때, 인자 A와 B의 유의성에 대한 설명으로 옳은 것은?" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>인자 B는 유의하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -597,25 +580,24 @@
         <correct_choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: F ( x ))
-정답은 ④이다. 본 문항은 F ( x )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $F ( x )$; $( - \infty &lt; x &lt; \infty )$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 누적분포함수와 분산
+정답은 ④이다. 그림을 확인할 수 없으나, 공식 정답에 따르면 4번 그래프의 분산이 가장 크다. 정규분포의 누적분포함수는 분산이 클수록 평균 부근에서 완만하게 증가하는 S자 곡선이 되고, 분산이 작을수록 평균 부근에서 급격하게 증가한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 분산이 가장 크지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 분산이 가장 크지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 분산이 가장 크지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가장 완만하게 증가하는 곡선이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -634,25 +616,24 @@
         <correct_choice_text>${\hat{y}} = - 1 + 2 x$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 자료, 로부터, 결과, 얻었)
-정답은 ①이다. 본 문항은 자료, 로부터, 결과, 얻었에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $( x_{i} , y_i )$; $( i = 1 , 2 , LDOTS , 10 )$; $\bar x = 2$; ${\bar{y}} = 3$; $r = \frac{1}{3}$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 회귀식의 추정
+정답은 ①이다. β̂₁ = r × √(S_yy/S_xx) = (1/3) × √(36/1) = 2이고, β̂₀ = ȳ − β̂₁x̄ = 3 − 2 × 2 = −1이다. 따라서 ŷ = −1 + 2x이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\hat{y}} = - 1 + 2 x$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ŷ = −1 + 2x이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\hat{y}} = - 2 + x$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기울기와 절편이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\hat{y}} = - 4 + 2 x$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>절편이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\hat{y}} = - 4 + x$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기울기와 절편이 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -668,25 +649,24 @@
         <correct_choice_text>위 가설에 대한 유의확률은 $0 . 03$보다 작다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 어느 사과 농장에서 수확한 사과의 평균 무게 μ)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\mu$; $H_{0} : \mu = 350$; $H_{1} : \mu \neq 350$; $49$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 신뢰구간과 유의확률
+정답은 ④이다. 구간의 중심은 355, 반폭은 6이므로 표준오차는 6/1.96 ≈ 3.06이다. 검정통계량은 (355 − 350)/3.06 ≈ 1.63이고 양측 유의확률은 약 0.10이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유의수준 $5 \%$에서 검정할 때 $H_0$을 기각할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>350이 95% 신뢰구간 안에 있으므로 5%에서 기각할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>유의수준 $2 \%$에서 검정할 때 $H_0$을 기각할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>유의확률이 약 0.10이므로 2%에서도 기각할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위 가설에 대한 유의확률은 $0 . 01$보다 크다.</choice_text>
-          <commentary>'위 가설'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유의확률은 약 0.10으로 0.01보다 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>위 가설에 대한 유의확률은 $0 . 03$보다 작다.</choice_text>
-          <commentary>'위 가설'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유의확률은 0.03보다 크므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,27 +685,25 @@
         <correct_choice_text>알코올 중독자 중에서 질병 A의 유병률은 $\frac{53}{76}$으로 추정된다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 핵심 개념·이론 이해형 (핵심어: 알코올, 중독자와, 비중독자, 질병)
-정답은 ③이다. 본 문항은 알코올, 중독자와, 비중독자, 질병에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| 중독 여부  질병 A의 유무 | 중독자 | 비중독자 | 계 |"
-관련 수식: $76$; $109$; $53$; $28$; $81$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 표집 설계와 추정
+정답은 ③이다. 중독자 76명과 비중독자 109명을 각각 미리 정해 추출하였으므로 중독 여부의 비율은 조사자가 정한 것이다. 따라서 중독자의 비율이나 전체 유병률, 유병자 중 중독자 비율은 추정할 수 없고, 각 집단 안에서의 유병률만 추정할 수 있다.</overall_commentary>
       <passage_evidence>| 중독 여부  질병 A의 유무 | 중독자 | 비중독자 | 계 |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>알코올 중독자의 비율은 $\frac{76}{185}$으로 추정된다.</choice_text>
-          <commentary>제시문의 "| 계 | $76$ | $109$ | $185$ |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>중독자 수는 표집 설계로 정해졌으므로 추정할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>질병 A의 유병률은 $\frac{81}{185}$로 추정된다.</choice_text>
-          <commentary>제시문의 "| 중독 여부  질병 A의 유무 | 중독자 | 비중독자 | 계 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>전체 유병률은 표집 비율에 좌우되어 추정할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>알코올 중독자 중에서 질병 A의 유병률은 $\frac{53}{76}$으로 추정된다.</choice_text>
-          <commentary>제시문의 "| 중독 여부  질병 A의 유무 | 중독자 | 비중독자 | 계 |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>중독자 중 유병률 53/76은 추정할 수 있으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>질병 A의 유병자 중에서 알코올 중독자의 비율은 $\frac{53}{81}$으로 추정된다.</choice_text>
-          <commentary>제시문의 "| 중독 여부  질병 A의 유무 | 중독자 | 비중독자 | 계 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>유병자 중 중독자 비율은 추정할 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -744,25 +722,24 @@
         <correct_choice_text>$100$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통계학개론 · 수리·계산·자료해석형 (핵심어: 어느, 지역, 남성, 흡연율)
-정답은 ②이다. 본 문항은 어느, 지역, 남성, 흡연율에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $p$; $n$; $\hat p$; $p$; $P \left( \left  {\hat{p}} - p \right  \leq 0 . 098 \right) \geq 0 . 95$</overall_commentary>
+      <overall_commentary>출제 영역: 통계학개론 · 표본비율의 표본 크기
+정답은 ②이다. 정규근사에서 1.96 × √(p(1 − p)/n) ≤ 0.098이 모든 p에 대해 성립하려면 p(1 − p)의 최댓값 1/4을 사용한다. 1.96 × 0.5/√n ≤ 0.098에서 √n ≥ 10이므로 n의 최솟값은 100이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$64$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>64가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$100$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>100이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$400$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>400이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$625$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>625가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

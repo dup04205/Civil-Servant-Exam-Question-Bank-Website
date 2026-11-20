@@ -29,25 +29,24 @@
         <correct_choice_text>≥ ≤</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 어법·규범·어휘형 (핵심어: f ( n ), bullet g ( n ), g ( n ))
-정답은 ④이다. 본 문항은 f ( n ), bullet g ( n ), g ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $O$; $c$; $n_{0}$; $n$; $n_{0}$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 빅오 표기법의 정의
+정답은 ④이다. f(n) = O(g(n))은 양의 상수 c와 n₀이 존재하여 n ≥ n₀인 모든 n에 대해 f(n) ≤ c·g(n)이 성립하는 것이다. 즉 충분히 큰 n에서 g(n)의 상수배가 f(n)의 상한이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>≥ ≥</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)가 ≥이면 오메가(Ω) 표기의 정의가 되므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>≤ ≤</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)는 n ≥ n₀이어야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>≤ ≥</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>두 관계연산자가 모두 반대이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>≥ ≤</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>≥, ≤이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -67,24 +66,24 @@
         <correct_choice_text>퀵 정렬(quick sort)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 안정 정렬(stable sort), 퀵 정렬(quick sort), 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 병합 정렬(merge sort))
-정답은 ①이다. 본 문항은 안정 정렬(stable sort), 퀵 정렬(quick sort), 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 병합 정렬(merge sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 안정 정렬
+정답은 ①이다. 안정 정렬은 같은 키를 가진 원소들의 상대적 순서가 정렬 후에도 유지되는 정렬이다. 버블·삽입·병합 정렬은 안정 정렬이고, 퀵 정렬은 분할 과정에서 원소가 멀리 교환되어 순서가 바뀔 수 있으므로 불안정 정렬이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>퀵 정렬(quick sort)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>퀵 정렬은 불안정 정렬이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>버블 정렬(bubble sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버블 정렬은 인접 원소만 교환하므로 안정 정렬이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>삽입 정렬은 같은 값을 건너뛰지 않으므로 안정 정렬이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>병합 정렬(merge sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>병합 정렬은 병합 시 앞쪽 원소를 먼저 택하므로 안정 정렬이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -100,24 +99,24 @@
         <correct_choice_text>840원</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 그리디(greedy))
-정답은 ③이다. 본 문항은 그리디(greedy)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 분할 가능 배낭 문제
+정답은 ③이다. 단위 무게당 이익은 A 20원, B 50원, C 100원이다. 큰 순으로 C 4kg(400원), B 6kg(300원)을 넣으면 남은 용량은 17 − 10 = 7kg이고, A를 7kg만 넣어 7 × 20 = 140원을 얻는다. 최대 이익은 400 + 300 + 140 = 840원이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>600원</choice_text>
-          <commentary>제시된 '600원' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>600원이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>750원</choice_text>
-          <commentary>제시된 '750원' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>750원이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>840원</choice_text>
-          <commentary>'840원' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>840원이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>900원</choice_text>
-          <commentary>제시된 '900원' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>900원이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -134,25 +133,24 @@
         <correct_choice_text>$2 n^{2} + logn + 1000 \rightarrow \Omega ( n^{2} logn )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 어법·규범·어휘형 (핵심어: 입력 크기 $n$, Theta ( n logn ))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $n$; $n^{3} + 10 \rightarrow THETA ( n^{3} )$; $n^{2} + 100 n \rightarrow O ( n^{3} )$; $4 n logn + 2 logn \rightarrow THETA ( n logn )$; $2 n^{2} + logn + 1000 \rightarrow OMEGA ( n^{2} logn )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 점근적 표기
+정답은 ④이다. 2n² + log n + 1000의 최고차항은 n²이므로 Θ(n²)이다. n² log n은 n²보다 빠르게 증가하므로 이 함수는 Ω(n² log n)에 속하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$n^{3} + 10 \rightarrow \Theta ( n^{3} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최고차항이 n³이므로 Θ(n³)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$n^{2} + 100 n \rightarrow O ( n^{3} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>n²은 n³ 이하로 증가하므로 O(n³)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$4 n logn + 2 logn \rightarrow \Theta ( n logn )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최고차항이 4n log n이므로 Θ(n log n)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$2 n^{2} + logn + 1000 \rightarrow \Omega ( n^{2} logn )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Ω(n² log n)이 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -170,24 +168,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 다음 이진트리(binary tree), 가 이진탐색트리(binary search tree), 면 제거되어야 할 단말 노드(leaf node))
-정답은 ③이다. 본 문항은 다음 이진트리(binary tree), 가 이진탐색트리(binary search tree), 면 제거되어야 할 단말 노드(leaf node)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 이진 탐색 트리의 조건
+정답은 ③이다. 문제의 이진트리가 그림으로만 제시되어 노드 값을 확인할 수 없으며, 공식 정답에 따르면 제거해야 할 단말 노드의 최소 개수는 3개이다. 이진 탐색 트리는 모든 노드에서 왼쪽 서브트리의 값은 작고 오른쪽 서브트리의 값은 커야 하므로, 조상 노드와의 대소 관계까지 위반하는 단말 노드를 모두 제거해야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -204,25 +202,24 @@
         <correct_choice_text>$\Theta ( n^{3} )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 를 만들 때 시간복잡도(time complexity), Theta ( n logn ))
-정답은 ②이다. 본 문항은 를 만들 때 시간복잡도(time complexity), Theta ( n logn )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $n \times n$; $A$; $n \times n$; $B$; $C$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 행렬 곱셈의 시간복잡도
+정답은 ②이다. C의 원소는 n × n = n²개이고, 각 원소를 구하는 데 k를 0부터 n−1까지 n번 곱하고 더한다. 따라서 전체 연산은 n² × n = n³이므로 Θ(n³)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( n^{2} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>원소 개수만 고려한 것이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\Theta ( n^{3} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Θ(n³)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( 2^{n} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지수 시간이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( n logn )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>n log n이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -241,9 +238,8 @@
         <correct_choice_text>ㄱ, ㄷ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 복합 보기 검증형 (핵심어: 힙(heap)과 힙 정렬, 힙은 완전이진트리(complete binary tree), O ( logn ), O ( n logn ))
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄱ, ㄷ, ㄹ)이다.
-관련 수식: $n$; $O ( logn )$; $O ( n logn )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 힙과 힙 정렬
+정답은 ④이다. 힙은 완전이진트리이므로 배열에 빈칸 없이 저장할 수 있고, i번 노드의 자식은 2i, 2i+1(1번부터 시작할 때)로 바로 찾을 수 있다. 삽입·삭제는 트리 높이만큼 이동하므로 O(log n)이고, 힙 정렬은 n개를 삭제하므로 O(n log n)이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>힙은 완전이진트리(complete binary tree) 구조를 가진다.</statement>
@@ -265,19 +261,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄴ은 힙이 배열 구현에 적합하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ이 옳지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄷ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -297,27 +293,25 @@
         <correct_choice_text>선택 정렬(selection sort) $O ( n^{2} )$ $O ( n^{2} )$ $O ( n logn )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 입력 크기가 $n$인 정렬 알고리즘, 삽입 정렬(insertion sort), O ( n ), 선택 정렬(selection sort), O ( n logn ))
-정답은 ②이다. 본 문항은 입력 크기가 $n$인 정렬 알고리즘, 삽입 정렬(insertion sort), O ( n ), 선택 정렬(selection sort), O ( n logn )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우"
-관련 수식: $n$; $O ( n^{2} )$; $O ( n^{2} )$; $O ( n )$; $O ( n^{2} )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 정렬 알고리즘의 시간복잡도
+정답은 ②이다. 선택 정렬은 입력 상태와 관계없이 매번 남은 원소 전체에서 최솟값을 찾으므로 최악·평균·최선 모두 O(n²)이다.</overall_commentary>
       <passage_evidence>정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort) $O ( n^{2} )$ $O ( n^{2} )$ $O ( n )$</choice_text>
-          <commentary>제시문의 "정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>삽입 정렬은 이미 정렬된 경우 O(n)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>선택 정렬(selection sort) $O ( n^{2} )$ $O ( n^{2} )$ $O ( n logn )$</choice_text>
-          <commentary>제시문의 "정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우" 내용과 일치하므로 옳다.</commentary>
+          <commentary>선택 정렬의 최선은 O(n²)이므로 바르게 연결되지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>퀵 정렬 $O ( n^{2} )$ $O ( n logn )$ $O ( n logn )$</choice_text>
-          <commentary>제시문의 "정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>퀵 정렬은 최악 O(n²), 평균·최선 O(n log n)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>병합 정렬 $O ( n logn )$ $O ( n logn )$ $O ( n logn )$</choice_text>
-          <commentary>제시문의 "정렬 알고리즘   최악의 경우   평균적인 경우   최선의 경우" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>병합 정렬은 항상 O(n log n)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -334,24 +328,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 은 문자들, 문자들에 대한 허프만 코드(Huffman code))
-정답은 ③이다. 본 문항은 은 문자들, 문자들에 대한 허프만 코드(Huffman code)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 허프만 코드의 길이
+정답은 ③이다. a(1)+b(9)=10, 10+e(11)=21, f(12)+c(18)=30, 21+30=51, d(48)+51=99로 트리를 만든다. d는 1비트, e·f·c는 3비트, a·b는 4비트이다. 따라서 가장 긴 코드는 4비트이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2비트가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3비트가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4비트이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5비트가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -370,25 +364,24 @@
         <correct_choice_text>$O ( n )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: abc(n - 1), O ( 1 ), O ( logn ), O ( n ))
-정답은 ③이다. 본 문항은 abc(n - 1), O ( 1 ), O ( logn ), O ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $n$; $O ( 1 )$; $O ( logn )$; $O ( n )$; $THETA ( 2^{n} )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 재귀 팩토리얼의 시간복잡도
+정답은 ③이다. abc(n)은 n! 을 계산하며, abc(n−1), abc(n−2), …, abc(1)을 한 번씩 호출하므로 T(n) = T(n−1) + c이다. 따라서 T(n) = O(n)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$O ( 1 )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>n번 호출되므로 상수 시간이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$O ( logn )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>매번 1씩 줄어들므로 로그 시간이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$O ( n )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>O(n)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( 2^{n} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>호출이 한 갈래이므로 지수 시간이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -404,24 +397,24 @@
         <correct_choice_text>16</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 서 생성이 가능한 신장 트리(spanning tree))
-정답은 ③이다. 본 문항은 서 생성이 가능한 신장 트리(spanning tree)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 신장 트리의 개수
+정답은 ③이다. 문제의 그래프가 그림으로만 제시되어 정점과 간선을 확인할 수 없으며, 공식 정답에 따르면 생성 가능한 신장 트리의 최대 개수는 16개이다. 신장 트리는 모든 정점을 포함하고 사이클이 없는 부분 그래프로, 정점이 n개이면 간선은 n−1개이다. 예를 들어 정점 4개의 완전 그래프는 케일리 공식 n^(n−2) = 4² = 16개의 신장 트리를 가진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>16</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>16개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>32</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -437,24 +430,24 @@
         <correct_choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 위상 정렬(topological sort))
-정답은 ③이다. 본 문항은 위상 정렬(topological sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 위상 정렬
+정답은 ③이다. 문제의 그래프 선지가 그림으로만 제시되어 확인할 수 없으며, 공식 정답에 따르면 3번 그래프는 모든 정점을 포함하는 위상 정렬 결과를 만들 수 없다. 위상 정렬은 진입 차수가 0인 정점을 차례로 제거하는 방식이므로, 방향 사이클이 있는 그래프에서는 사이클의 정점이 끝까지 남아 모든 정점을 나열할 수 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 위상 정렬이 가능한 그래프이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 위상 정렬이 가능한 그래프이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>방향 사이클이 있어 위상 정렬이 불가능하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 위상 정렬이 가능한 그래프이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -474,25 +467,24 @@
         <correct_choice_text>플로이드－워셜(Floyd-Warshall) 알고리즘</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 모든 쌍 최단 거리(all pairs shortest path), 음수의 가중치를 가진 간선(edge), 동적 계획법(dynamic programming), 프림(Prim), 워셜(Floyd-Warshall))
-정답은 ②이다. 본 문항은 모든 쌍 최단 거리(all pairs shortest path), 음수의 가중치를 가진 간선(edge), 동적 계획법(dynamic programming), 프림(Prim), 워셜(Floyd-Warshall)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $O ( n^{3} )$; $n$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 플로이드-워셜 알고리즘
+정답은 ②이다. 플로이드-워셜 알고리즘은 경유 정점 k를 하나씩 늘리며 D[i][j] = min(D[i][j], D[i][k] + D[k][j])를 갱신하는 동적 계획법으로, 모든 쌍 최단 거리를 O(n³)에 구한다. 음의 가중치 간선이 있어도(음의 사이클만 없으면) 동작한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>프림(Prim) 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>프림 알고리즘은 최소 신장 트리 알고리즘이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>플로이드－워셜(Floyd-Warshall) 알고리즘</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>플로이드-워셜 알고리즘이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>다익스트라(Dijkstra) 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>다익스트라 알고리즘은 단일 출발점이며 음의 가중치를 허용하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>KMP(Knuth-Morris-Pratt) 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>KMP 알고리즘은 문자열 매칭 알고리즘이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -508,24 +500,24 @@
         <correct_choice_text>1101</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: void foo(int n))
-정답은 ④이다. 본 문항은 void foo(int n)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 재귀를 이용한 2진수 변환
+정답은 ④이다. foo(n)은 n/2를 먼저 재귀 호출한 뒤 n%2를 출력하므로 상위 비트부터 출력된다. 13 → 6 → 3 → 1 → 0 순으로 호출되고, 되돌아오며 1%2=1, 3%2=1, 6%2=0, 13%2=1을 출력하여 1101이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1010</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1010은 10의 2진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1011</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1011은 11의 2진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1100은 12의 2진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1101</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1101이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -541,24 +533,24 @@
         <correct_choice_text>6</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 포스(brute-force))
-정답은 ④이다. 본 문항은 포스(brute-force)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 브루트-포스 문자열 검색
+정답은 ④이다. 텍스트 01001에서 패턴 001을 한 칸씩 옮기며 비교한다. 위치 0: 0=0, 1≠0으로 2회, 위치 1: 1≠0으로 1회, 위치 2: 0=0, 0=0, 1=1로 3회 비교 후 발견한다. 총 2 + 1 + 3 = 6회이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1회가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3회가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5회가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6회이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -574,8 +566,8 @@
         <correct_choice_text>ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 복합 보기 검증형 (핵심어: 카프(Rabin-Karp))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 그리디 알고리즘
+정답은 ①이다. 다익스트라 알고리즘은 매 단계 아직 확정되지 않은 정점 중 거리가 가장 짧은 정점을 선택하므로 그리디 알고리즘이다. 라빈-카프는 해시 기반 문자열 매칭, 병합 정렬은 분할 정복, 플로이드-워셜은 동적 계획법이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>라빈－카프(Rabin-Karp) 알고리즘</statement>
@@ -597,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄷ)이다.</commentary>
+          <commentary>ㄷ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>라빈-카프와 병합 정렬은 그리디가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>라빈-카프는 그리디가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>라빈-카프와 플로이드-워셜은 그리디가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -628,24 +620,24 @@
         <correct_choice_text>피벗(pivot)을 최대값으로 정한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 피벗(pivot), 피벗을 랜덤(random), 피벗을 중간값(median), 피벗을 파티션(partition))
-정답은 ①이다. 본 문항은 피벗(pivot), 피벗을 랜덤(random), 피벗을 중간값(median), 피벗을 파티션(partition)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 퀵 정렬의 최악의 경우
+정답은 ①이다. 피벗이 최댓값(또는 최솟값)이면 분할 결과가 n−1개와 0개로 극단적으로 나뉘어 T(n) = T(n−1) + n이 되므로 O(n²)이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>피벗(pivot)을 최대값으로 정한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>피벗을 최댓값으로 정하면 최악이 되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>피벗을 랜덤(random)하게 정한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>랜덤 피벗은 평균적으로 O(n log n)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>피벗을 중간값(median)으로 정한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>중간값을 피벗으로 하면 균등하게 분할되어 최선에 가깝다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>피벗을 파티션(partition)의 중간에 위치한 값으로 정한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>중간 위치의 값은 정렬된 입력에서도 균등 분할에 유리하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -661,24 +653,24 @@
         <correct_choice_text>63</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 분할 정복(divide-conquer))
-정답은 ③이다. 본 문항은 분할 정복(divide-conquer)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 토너먼트 경기 수
+정답은 ③이다. 1:1 토너먼트에서는 한 경기마다 정확히 한 팀이 탈락하고, 우승팀을 제외한 63팀이 탈락해야 하므로 63경기가 필요하다(32 + 16 + 8 + 4 + 2 + 1 = 63).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>61</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>61경기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>62</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>62경기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>63</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>63경기이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>64</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>64경기가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -695,26 +687,25 @@
         <correct_choice_text>NP－완전(NP-complete) 문제</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 하드(NP-hard), 완전(NP-complete))
-정답은 ④이다. 본 문항은 하드(NP-hard), 완전(NP-complete)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "○ 모든 NP 문제들은 다항식 시간에 문제 A로 변환할 수 있다."</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · NP-완전 문제
+정답은 ④이다. NP에 속하면서 모든 NP 문제를 다항 시간에 그 문제로 환원할 수 있는 문제는 NP-완전 문제이다. NP에 속하지 않아도 되고 환원 조건만 만족하면 NP-하드 문제이다.</overall_commentary>
       <passage_evidence>○ 모든 NP 문제들은 다항식 시간에 문제 A로 변환할 수 있다.</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>P 문제</choice_text>
-          <commentary>제시문의 "어떤 문제 A가 다음을 모두 만족하면 (가)이다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>P 문제는 다항 시간에 해결할 수 있는 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>NP 문제</choice_text>
-          <commentary>제시문의 "○ 모든 NP 문제들은 다항식 시간에 문제 A로 변환할 수 있다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>NP 문제는 다항 시간에 해를 검증할 수 있는 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NP－하드(NP-hard) 문제</choice_text>
-          <commentary>제시문의 "○ 모든 NP 문제들은 다항식 시간에 문제 A로 변환할 수 있다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>NP-하드는 NP 소속 조건이 필요하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>NP－완전(NP-complete) 문제</choice_text>
-          <commentary>제시문의 "○ 모든 NP 문제들은 다항식 시간에 문제 A로 변환할 수 있다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>NP-완전 문제이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -732,25 +723,24 @@
         <correct_choice_text>$T ( n ) = T ( \frac{n}{2} ) + c$, $\Theta ( \log_{2} n )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 다음 의사코드(pseudo-code), T ( n ), Theta ( n ))
-정답은 ②이다. 본 문항은 다음 의사코드(pseudo-code), T ( n ), Theta ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $T ( n )$; $T ( n )$; $T ( n )$; $n$; $c$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 재귀 수행시간
+정답은 ②이다. algo(n)은 algo(n/2)를 한 번 호출하고 상수 시간의 덧셈을 하므로 T(n) = T(n/2) + c이다. n이 1이 될 때까지 log₂n번 반으로 줄어들므로 Θ(log₂n)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = T ( \frac{n}{2} ) + c$, $\Theta ( n )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>점근적 복잡도는 Θ(n)이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$T ( n ) = T ( \frac{n}{2} ) + c$, $\Theta ( \log_{2} n )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>T(n) = T(n/2) + c, Θ(log₂n)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = 2 T ( \frac{n}{2} ) + c$, $\Theta ( n )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>재귀 호출은 한 번이므로 2T(n/2)가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = 2 T ( \frac{n}{2} ) + n$, $\Theta ( n \log_{2} n )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>병합 정렬의 점화식이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

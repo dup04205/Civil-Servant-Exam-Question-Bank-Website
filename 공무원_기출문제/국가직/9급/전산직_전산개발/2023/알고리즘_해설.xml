@@ -27,8 +27,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 복합 보기 검증형 (핵심어: 알고리즘의 조건)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄴ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 알고리즘의 조건
+정답은 ②이다. 알고리즘은 입력, 출력, 명확성(모호하지 않은 명령), 유한성(유한한 단계 후 종료), 유효성(실행 가능한 연산)을 만족해야 한다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>모든 명령은 모호하지 않고 명확해야 한다.</statement>
@@ -46,19 +46,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ)이다.</commentary>
+          <commentary>ㄴ의 유효성도 알고리즘의 조건이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 유한성에 어긋나므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 무한히 실행되어서는 안 된다는 유한성 조건에 어긋나므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -74,24 +74,24 @@
         <correct_choice_text>최선의 경우의 알고리즘 수행 시간은 모든 입력의 수행 시간에 대한 상한이 된다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 알고리즘의 수행 시간 분석)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 수행 시간 분석
+정답은 ③이다. 최선의 경우 수행 시간은 모든 입력에 대한 수행 시간의 하한이고, 최악의 경우 수행 시간이 상한이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>알고리즘의 수행 시간은 컴퓨터 성능에 관계없이 명확하게 정의되어야 한다.</choice_text>
-          <commentary>'알고리즘의 수행 시간'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수행 시간은 기본 연산 횟수로 정의하여 컴퓨터 성능과 무관하게 분석하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>알고리즘의 시간복잡도는 수행하는 기본적인 연산 횟수를 입력 크기에 대한 함수로 표현한다.</choice_text>
-          <commentary>'알고리즘의 시간복잡도'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시간복잡도는 기본 연산 횟수를 입력 크기의 함수로 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>최선의 경우의 알고리즘 수행 시간은 모든 입력의 수행 시간에 대한 상한이 된다.</choice_text>
-          <commentary>'최선의 경우의 알고리즘 수행 시간'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최선의 경우는 상한이 아니라 하한이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>알고리즘의 수행 시간 분석에는 최악의 경우, 평균의 경우, 최선의 경우가 있다.</choice_text>
-          <commentary>'알고리즘의 수행 시간 분석에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최악·평균·최선의 경우로 분석하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,24 +107,24 @@
         <correct_choice_text>Queue Enqueue Dequeue</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 그래프에서 너비 우선 탐색(breadth first search))
-정답은 ②이다. 본 문항은 그래프에서 너비 우선 탐색(breadth first search)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 너비 우선 탐색의 동작
+정답은 ②이다. BFS는 큐(Queue)를 사용한다. 시작 정점을 방문 표시하고 큐에 삽입(Enqueue)한 뒤, 큐에서 정점을 꺼내고(Dequeue) 그 인접 정점 중 미방문 정점을 표시하여 큐에 삽입하는 과정을 큐가 빌 때까지 반복한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Queue Dequeue Enqueue</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)와 (다)가 바뀌었으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Queue Enqueue Dequeue</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Queue, Enqueue, Dequeue이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Stack Pop Push</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스택은 깊이 우선 탐색에 사용하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Stack Push Pop</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스택은 깊이 우선 탐색에 사용하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -141,25 +141,24 @@
         <correct_choice_text>$n^{4} + 2^{n} + 5 \rightarrow O ( n^{4} )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 어법·규범·어휘형 (핵심어: 입력 크기 $n$, 에 대한 수행 횟수를 빅오(big-oh))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $n$; $n^{4} ＋ 2^{n} ＋ 5 \rightarrow O ( n^{4} )$; $3 n^{2} ＋ 8 n ＋ 7 \rightarrow O ( n^{2} )$; $2 n^{2} ＋ 2 n \log it n ＋ 4 n \rightarrow O ( n^{2} )$; $3 n ＋ 5 n \log it n ＋ 2 \rightarrow O ( n \log it n )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 빅오 표기법
+정답은 ①이다. 2ⁿ은 어떤 다항식보다도 빠르게 증가하므로 n⁴ + 2ⁿ + 5의 최고차항은 2ⁿ이며 O(2ⁿ)이다. 따라서 O(n⁴)라는 표현은 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>$n^{4} + 2^{n} + 5 \rightarrow O ( n^{4} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2ⁿ이 지배하므로 O(n⁴)가 아니어서 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$3 n^{2} + 8 n + 7 \rightarrow O ( n^{2} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최고차항이 3n²이므로 O(n²)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$2 n^{2} + 2 n \log n + 4 n \rightarrow O ( n^{2} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최고차항이 2n²이므로 O(n²)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$3 n + 5 n \log n + 2 \rightarrow O ( n \log n )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최고차항이 5n log n이므로 O(n log n)은 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -179,24 +178,24 @@
         <correct_choice_text>선택 정렬(selection sort)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 다음 의사코드(pseudo code), return A 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 선택 정렬(selection sort), 퀵 정렬(quick sort))
-정답은 ③이다. 본 문항은 다음 의사코드(pseudo code), return A 버블 정렬(bubble sort), 삽입 정렬(insertion sort), 선택 정렬(selection sort), 퀵 정렬(quick sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 선택 정렬
+정답은 ③이다. 의사코드는 i번째 위치부터 끝까지 중 최솟값의 위치 min을 찾아 A[i]와 교환하는 과정을 반복하므로 선택 정렬이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>버블 정렬(bubble sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>버블 정렬은 인접 원소를 비교·교환한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>삽입 정렬은 정렬된 앞부분에 원소를 끼워 넣는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>선택 정렬(selection sort)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>선택 정렬이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>퀵 정렬(quick sort)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>퀵 정렬은 피벗을 기준으로 분할한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -214,24 +213,24 @@
         <correct_choice_text>24번</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: int fib(int n), fib(n-1), fib(n-2))
-정답은 ④이다. 본 문항은 int fib(int n), fib(n-1), fib(n-2)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 피보나치 재귀 호출 횟수
+정답은 ④이다. fib(n)의 전체 호출 횟수를 C(n)이라 하면 C(0) = C(1) = 1, C(n) = 1 + C(n−1) + C(n−2)이다. C(2)=3, C(3)=5, C(4)=9, C(5)=15, C(6)=25이다. fib(6) 자신의 호출을 빼면 25 − 1 = 24번이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>21번</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>21번이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>22번</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>22번이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>23번</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>23번이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>24번</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>24번이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -251,25 +250,24 @@
         <correct_choice_text>$\Theta ( g ( n ) )$ $O ( g ( n ) )$ $\Omega ( g ( n ) )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 어법·규범·어휘형 (핵심어: g ( n ), leq f ( n ), f ( n ), leq cg ( n ), geq cg ( n ))
-정답은 ③이다. 본 문항은 g ( n ), leq f ( n ), f ( n ), leq cg ( n ), geq cg ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $n \geq n_{0}$; $n$; $c_{1} g ( n ) \leq f ( n ) \leq c_{2} g ( n )$; $c_{1}$; $c_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 점근 표기법의 정의
+정답은 ③이다. 상한과 하한을 모두 만족하면 Θ(g(n)), 상한만 만족하면 O(g(n)), 하한만 만족하면 Ω(g(n))이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\Omega ( g ( n ) )$ $O ( g ( n ) )$ $\Theta ( g ( n ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)와 (다)가 바뀌었으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\Omega ( g ( n ) )$ $\Theta ( g ( n ) )$ $O ( g ( n ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모두 잘못 연결되었으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\Theta ( g ( n ) )$ $O ( g ( n ) )$ $\Omega ( g ( n ) )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Θ, O, Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( g ( n ) )$ $\Omega ( g ( n ) )$ $O ( g ( n ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)와 (다)가 바뀌었으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -289,26 +287,25 @@
         <correct_choice_text>power(x, n-1);</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: double power(double x, int n), power(x, n), power(x, n-1), power(x-1, n), power(x-1, n-1))
-정답은 ②이다. 본 문항은 double power(double x, int n), power(x, n), power(x, n-1), power(x-1, n), power(x-1, n-1)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "double power(double x, int n)"</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 거듭제곱 재귀 함수
+정답은 ②이다. xⁿ = x × xⁿ⁻¹이고 x⁰ = 1이므로 power(x, n) = x × power(x, n−1)로 정의한다.</overall_commentary>
       <passage_evidence>double power(double x, int n)</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>power(x, n);</choice_text>
-          <commentary>제시문의 "double power(double x, int n)" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>n이 줄지 않아 재귀가 끝나지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>power(x, n-1);</choice_text>
-          <commentary>제시문의 "double power(double x, int n)" 내용과 일치하므로 옳다.</commentary>
+          <commentary>power(x, n-1);이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>power(x-1, n);</choice_text>
-          <commentary>제시문의 "double power(double x, int n)" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>밑 x를 줄이면 거듭제곱이 되지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>power(x-1, n-1);</choice_text>
-          <commentary>제시문의 "double power(double x, int n)" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>밑을 줄이면 거듭제곱이 되지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -325,24 +322,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 힙 정렬(heap sort), 대로 하나씩 삽입하여 최소힙(min heap))
-정답은 ②이다. 본 문항은 힙 정렬(heap sort), 대로 하나씩 삽입하여 최소힙(min heap)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 최소힙 삽입과 삭제
+정답은 ②이다. 차례로 삽입하며 부모보다 작으면 위로 올리면 최종 배열(1번부터)은 [1, 2, 3, 4, 7, 8, 5, 6, 9]이다. 루트 1을 삭제하고 마지막 원소 9를 루트로 옮긴 뒤 아래로 내리면 9↔2, 9↔4, 9↔6 교환이 일어나 [2, 4, 3, 6, 7, 8, 5, 9]가 된다. 루트의 왼쪽 자식은 4이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3은 루트의 오른쪽 자식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5는 3의 오른쪽 자식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>6은 4의 왼쪽 자식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -359,24 +356,24 @@
         <correct_choice_text>2, 6</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 수리·계산·자료해석형 (핵심어: 다음 조건으로 퀵 정렬(quick sort), 피벗(pivot))
-정답은 ②이다. 본 문항은 다음 조건으로 퀵 정렬(quick sort), 피벗(pivot)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 퀵 정렬의 분할
+정답은 ②이다. 문제의 배열이 그림으로만 제시되어 원소 값을 확인할 수 없으며, 공식 정답에 따르면 처음 교환이 일어나는 인덱스 쌍은 2, 6이다. 이 방식의 분할에서는 low를 오른쪽으로 옮기며 피벗보다 큰 값을, high를 왼쪽으로 옮기며 피벗보다 작은 값을 찾은 뒤 low &lt; high이면 두 값을 교환한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1, 8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2, 6</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2, 6이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2, 7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3, 8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -393,24 +390,24 @@
         <correct_choice_text>재귀함수는 실행 시간과 메모리 공간 사용 측면에서 반복문보다 효율성이 높다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 재귀 알고리즘, 재귀함수로 작성된 병합 정렬(merge sort))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 재귀 알고리즘
+정답은 ④이다. 재귀함수는 호출할 때마다 스택 프레임을 쌓으므로 함수 호출 비용과 메모리 사용이 늘어난다. 일반적으로 같은 기능의 반복문보다 실행 시간과 메모리 측면에서 효율이 낮다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>재귀호출은 함수가 자기 자신을 호출하는 것이다.</choice_text>
-          <commentary>'재귀호출'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>재귀호출은 함수가 자기 자신을 호출하는 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>재귀함수는 재귀호출이 끝나는 종료 조건이 있어야 한다.</choice_text>
-          <commentary>'재귀함수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>종료 조건이 없으면 무한히 호출되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>재귀함수로 작성된 병합 정렬(merge sort) 알고리즘은 반복문을 이용하여 구현할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>병합 정렬은 상향식 반복문으로도 구현할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>재귀함수는 실행 시간과 메모리 공간 사용 측면에서 반복문보다 효율성이 높다.</choice_text>
-          <commentary>'재귀함수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>재귀함수가 반복문보다 효율이 높다는 것은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -426,24 +423,24 @@
         <correct_choice_text>상위 문제의 해를 분할하여 하위 문제의 해를 구한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 동적 계획(dynamic programming))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 동적 계획 알고리즘
+정답은 ②이다. 동적 계획법은 작은 하위 문제의 해를 먼저 구해 저장하고, 이를 결합하여 상위 문제의 해를 구하는 방식이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최적화 문제에 적용할 수 있는 알고리즘이다.</choice_text>
-          <commentary>'최적화 문제에 적용할 수 있'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최적화 문제에 적용할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>상위 문제의 해를 분할하여 하위 문제의 해를 구한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상위 문제의 해를 분할해 하위 문제의 해를 구하는 것이 아니라 하위 문제의 해로 상위 문제의 해를 구하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>최적해를 구하는 방법을 재귀적으로 정의한다.</choice_text>
-          <commentary>'최적해를 구하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최적해를 점화식으로 재귀적으로 정의하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>한 번 계산된 부분 문제들의 해는 재사용을 위해 저장된다.</choice_text>
-          <commentary>'한 번 계산된 부분 문제들의 해'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>계산한 부분 문제의 해를 저장하여 재사용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -459,24 +456,24 @@
         <correct_choice_text>55 － 15 － 28 － 30 － 48</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 다음 이진 탐색 트리(binary search tree))
-정답은 ①이다. 본 문항은 다음 이진 탐색 트리(binary search tree)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 이진 탐색 트리의 검색
+정답은 ①이다. 문제의 트리가 그림으로만 제시되어 있으나, 이진 탐색 트리의 검색은 루트에서 시작하여 찾는 키가 작으면 왼쪽, 크면 오른쪽 자식으로 한 경로만 따라 내려간다. 48은 55보다 작아 왼쪽(15)으로, 15·28·30보다 커서 오른쪽으로 이동하므로 55 − 15 − 28 − 30 − 48 순으로 방문한다. 공식 정답도 1번이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>55 － 15 － 28 － 30 － 48</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>한 경로만 따라 내려가므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>55 － 60 － 90 － 15 － 28 － 30 － 48</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>48 &lt; 55이므로 오른쪽 60으로 가지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>55 － 15 － 8 － 3 － 28 － 18 － 16 － 30 － 48</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>48 &gt; 15이므로 왼쪽 8로 가지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>55 － 15 － 60 － 8 － 28 － 90 － 3 － 18 － 30 － 16 － 48</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>레벨 순서로 모든 노드를 방문한 것이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -492,25 +489,24 @@
         <correct_choice_text>$O ( n^{2} )$ $O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n^{2} )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: O ( n ))
-정답은 ④이다. 본 문항은 O ( n )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $O ( n )$; $O ( n^{2} )$; $O ( n {\log} itn )$; $O ( n^{2} )$; $O ( n )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 정렬의 평균 시간복잡도
+정답은 ④이다. 평균 시간복잡도는 선택 정렬 O(n²), 삽입 정렬 O(n²), 퀵 정렬 O(n log n), 버블 정렬 O(n²)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$O ( n )$ $O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n^{2} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>선택 정렬은 O(n)이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$O ( n )$ $O ( n^{2} )$ $O ( n^{2} )$ $O ( n {\log} itn )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>선택·퀵·버블 정렬이 모두 잘못 연결되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n )$ $O ( n^{2} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>삽입 정렬과 퀵 정렬이 잘못 연결되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$O ( n^{2} )$ $O ( n^{2} )$ $O ( n {\log} itn )$ $O ( n^{2} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>O(n²), O(n²), O(n log n), O(n²)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -528,24 +524,24 @@
         <correct_choice_text>트라이(trie)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: AVL 트리(AVL tree), 블랙 트리(red-black tree), 트라이(trie))
-정답은 ④이다. 본 문항은 AVL 트리(AVL tree), 블랙 트리(red-black tree), 트라이(trie)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 트라이
+정답은 ④이다. 트라이는 문자 하나하나를 간선(링크)으로 하는 N진 트리로, 루트부터 탐색키의 문자를 차례로 따라가며 검색하므로 길이 m인 문자열을 O(m)에 찾을 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AVL 트리(AVL tree)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AVL 트리는 높이 균형을 유지하는 이진 탐색 트리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>B＋ 트리(B＋ tree)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>B+ 트리는 데이터를 단말 노드에 저장하는 다진 균형 탐색 트리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>레드－블랙 트리(red-black tree)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>레드-블랙 트리는 색 규칙으로 균형을 유지하는 이진 탐색 트리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>트라이(trie)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>트라이이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -564,24 +560,24 @@
         <correct_choice_text>플로이드－워셜(Floyd-Warshall) 알고리즘</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 다익스트라(Dijkstra), 알고리즘 프림(Prim), 워셜(Floyd-Warshall), 알고리즘 허프만(Huffman))
-정답은 ③이다. 본 문항은 다익스트라(Dijkstra), 알고리즘 프림(Prim), 워셜(Floyd-Warshall), 알고리즘 허프만(Huffman)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 탐욕 알고리즘
+정답은 ③이다. 설명은 매 순간 최적으로 보이는 것을 선택하는 탐욕(그리디) 기법이다. 다익스트라, 프림, 허프만 코딩은 그리디 알고리즘이고, 플로이드-워셜은 동적 계획법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>다익스트라(Dijkstra) 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>다익스트라는 그리디 알고리즘이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>프림(Prim) 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>프림은 그리디 알고리즘이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>플로이드－워셜(Floyd-Warshall) 알고리즘</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>플로이드-워셜은 동적 계획법이므로 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>허프만(Huffman) 코딩 알고리즘</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>허프만 코딩은 그리디 알고리즘이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -598,24 +594,24 @@
         <correct_choice_text>(a,b) (b,c) (c,d) (c,e) (c,h) (f,g) (g,h)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 을 사용하여 최소 신장 트리(minimum spanning tree), (a,b))
-정답은 ③이다. 본 문항은 을 사용하여 최소 신장 트리(minimum spanning tree), (a,b)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 크루스칼 알고리즘
+정답은 ③이다. 문제의 그래프가 그림으로만 제시되어 간선 가중치를 확인할 수 없으며, 공식 정답에 따르면 최소 신장 트리의 간선은 (a,b), (b,c), (c,d), (c,e), (c,h), (f,g), (g,h)이다. 정점 8개이므로 7개의 간선을 가중치 오름차순으로 사이클 없이 선택한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(a,b) (a,f) (b,c) (c,d) (c,e) (f,g) (g,h)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(a,b) (a,f) (b,c) (c,d) (e,g) (f,g) (g,h)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>(a,b) (b,c) (c,d) (c,e) (c,h) (f,g) (g,h)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따른 최소 신장 트리이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(a,b) (b,c) (c,d) (c,e) (e,g) (f,g) (g,h)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -633,24 +629,24 @@
         <correct_choice_text>이진 탐색(binary search)을 위해 분할정복을 적용할 수 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 핵심 개념·이론 이해형 (핵심어: 리즘 설계 기법 중 분할정복(divide-and-conquer), 이진 탐색(binary search), 인 정렬 방법에는 병합 정렬(merge sort))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 분할정복
+정답은 ①이다. 분할정복은 문제를 서로 겹치지 않는 작은 문제로 나누어 해결하고 결과를 결합한다. 이진 탐색은 가운데 값을 기준으로 탐색 범위를 반으로 나누는 대표적인 분할정복 알고리즘이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>이진 탐색(binary search)을 위해 분할정복을 적용할 수 없다.</choice_text>
-          <commentary>'할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>이진 탐색에도 분할정복을 적용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>분할정복을 사용한 대표적인 정렬 방법에는 병합 정렬(merge sort)이 있다.</choice_text>
-          <commentary>'분할정복을 사용한 대표적인 정렬 방법에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>병합 정렬은 대표적인 분할정복 정렬이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>문제를 작은 문제로 분할하고 그 문제들의 해를 병합한다.</choice_text>
-          <commentary>'문제를 작'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>분할 후 해를 병합하는 것이 분할정복이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>분할된 문제들이 서로 중첩되지 않는 경우에 적합하다.</choice_text>
-          <commentary>'분할된 문제들'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>하위 문제가 중첩되면 동적 계획법이 적합하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -670,25 +666,24 @@
         <correct_choice_text>보이어－무어(Boyer-Moore) 알고리즘은 P의 각 문자를 왼쪽에서 오른쪽으로 스캔하면서 T와 비교한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 복합 보기 검증형 (핵심어: 문자열 매칭(string matching), 포스(brute-force), O ( mn ), 카프(Rabin-Karp), 알고리즘은 P의 해시(hash))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $n$; $m$; $O ( mn )$</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 문자열 매칭 알고리즘
+정답은 ③이다. 보이어-무어 알고리즘은 패턴 P를 오른쪽에서 왼쪽으로 비교하며, 불일치가 생기면 이동표를 이용해 패턴을 크게 이동시킨다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>브루트－포스(brute-force) 방식의 수행 시간은 $O ( mn )$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>브루트-포스는 최대 (n−m+1) × m회 비교하므로 O(mn)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>라빈－카프(Rabin-Karp) 알고리즘은 P의 해시(hash) 값을 이용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>라빈-카프는 패턴과 텍스트 부분 문자열의 해시값을 비교한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>보이어－무어(Boyer-Moore) 알고리즘은 P의 각 문자를 왼쪽에서 오른쪽으로 스캔하면서 T와 비교한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보이어-무어는 오른쪽에서 왼쪽으로 비교하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>KMP(Knuth-Morris-Pratt) 알고리즘은 P의 각 문자에 대해 매칭 실패 시 비교를 다시 시작할 위치를 계산해 놓는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>KMP는 실패 함수로 다시 비교를 시작할 위치를 미리 계산한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,8 +700,8 @@
         <correct_choice_text>ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 알고리즘 · 복합 보기 검증형 (핵심어: 백트래킹(backtracking), 너비 우선 탐색(breadth first search))
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 알고리즘 · 백트래킹
+정답은 ③이다. 백트래킹은 깊이 우선 탐색을 기반으로 해를 찾다가 유망하지 않으면 직전 단계로 되돌아가 다른 경로를 탐색하는 기법으로, 미로 찾기와 N-여왕 문제가 대표적이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>너비 우선 탐색(breadth first search) 방식을 기반으로 한다.</statement>
@@ -724,19 +719,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ)이다.</commentary>
+          <commentary>백트래킹은 너비 우선이 아니라 깊이 우선 탐색 기반이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ)이다.</commentary>
+          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ, ㄷ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ이 옳지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

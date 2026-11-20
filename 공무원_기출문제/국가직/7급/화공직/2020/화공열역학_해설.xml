@@ -30,25 +30,24 @@
         <correct_choice_text>$dA = - PdV - SdT$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 지문 독해·추론형 (핵심어: 관계식으로부터, 추론할, 열역학, 관계식)
-정답은 ③이다. 본 문항은 관계식으로부터, 추론할, 열역학, 관계식에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\left( \frac{Partial P}{Partial T} \right)_{V} = \left( \frac{Partial S}{Partial V} \right)_{T}$; $dU = - TdS - PdV$; $dH = TdS - VdP$; $dA = - PdV - SdT$; $dG = - VdP - SdT$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 맥스웰 관계식
+정답은 ③이다. 맥스웰 관계식은 완전미분인 열역학 퍼텐셜의 교차 2차 편미분이 같다는 데서 나온다. dA = −PdV − SdT이면 (∂A/∂V)_T = −P, (∂A/∂T)_V = −S이므로 (∂P/∂T)_V = (∂S/∂V)_T가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$dU = - TdS - PdV$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>dU = TdS − PdV이며, 이로부터는 (∂T/∂V)_S = −(∂P/∂S)_V가 나온다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$dH = TdS - VdP$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>dH = TdS + VdP이며, 이로부터는 (∂T/∂P)_S = (∂V/∂S)_P가 나온다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$dA = - PdV - SdT$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>dA = −PdV − SdT이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$dG = - VdP - SdT$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>dG = VdP − SdT이며, 이로부터는 (∂V/∂T)_P = −(∂S/∂P)_T가 나온다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -65,24 +64,24 @@
         <correct_choice_text>액체 상태의 묽은 설탕물</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 자유도, 개수)
-정답은 ②이다. 본 문항은 자유도, 개수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 상률과 자유도
+정답은 ②이다. 깁스 상률 F = C − P + 2(C: 성분 수, P: 상의 수)를 적용한다. 묽은 설탕물은 C = 2, P = 1이므로 F = 3으로 가장 크다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>삼중점 상태의 물</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>삼중점의 물은 C = 1, P = 3이므로 F = 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>액체 상태의 묽은 설탕물</choice_text>
-          <commentary>'액체 상태의 묽'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>C = 2, P = 1이므로 F = 3으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>초임계 상태의 이산화탄소</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초임계 이산화탄소는 C = 1, P = 1이므로 F = 2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기－액 평형을 이루고 있는 에탄올 수용액</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기–액 평형 에탄올 수용액은 C = 2, P = 2이므로 F = 2이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,25 +100,24 @@
         <correct_choice_text>2,800</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 어떤, 기체, 일정, 압력)
-정답은 ③이다. 본 문항은 어떤, 기체, 일정, 압력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{5}{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 이상기체의 엔탈피 변화
+정답은 ③이다. 이상기체는 C_P = C_V + R = (5/2)R + R = (7/2)R = 28J/(mol·K)이다. ΔH = nC_PΔT = 1 × 28 × (400 − 300) = 2,800J이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1,200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,200J은 열용량을 (3/2)R로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>C_V로 계산한 내부에너지 변화량이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,800</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2,800J이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5,600</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>열용량을 두 배로 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -135,25 +133,24 @@
         <correct_choice_text>224</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 1몰이 수증기 개질(steam reforming))
-정답은 ②이다. 본 문항은 1몰이 수증기 개질(steam reforming)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $DELTA H_{f , 300 it}^{o it}$; $DELTA H_{f , 300 it}^{o it}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 온도에 따른 반응열
+정답은 ②이다. 반응식은 CH₄ + 2H₂O → CO₂ + 4H₂이다. ΔH°₃₀₀ = (−390 + 0) − (−70 + 2 × (−240)) = 160kJ이다. ΔC_P = (1 + 4 − 1 − 2) × 40 = 80J/K이므로 ΔH°₁₁₀₀ = 160 + 0.080 × (1,100 − 300) = 160 + 64 = 224kJ이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>160</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>300K의 반응열이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>224</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>224kJ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>256</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ΔC_P를 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>320</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>320kJ이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,24 +169,24 @@
         <correct_choice_text>720</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 어떤, 냉장고, 제거, 속도)
-정답은 ④이다. 본 문항은 어떤, 냉장고, 제거, 속도에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 냉장고의 에너지 수지
+정답은 ④이다. 냉장고는 저온부에서 제거한 열과 공급한 일을 합한 만큼 고온부로 열을 방출한다. 전력 4kW = 4kJ/s × 60 = 240kJ/min이므로 방출열은 480 + 240 = 720kJ/min이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>240</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공급 일에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>480</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>제거한 열에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>600</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>600kJ/min이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>720</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>720kJ/min이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -205,24 +202,24 @@
         <correct_choice_text>등온 압축률은 0이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 이상 기체)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 이상기체의 성질
+정답은 ②이다. 이상기체의 등온 압축률은 κ = −(1/V)(∂V/∂P)_T = 1/P이므로 0이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Joule-Thomson 계수는 0이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이상기체의 엔탈피는 온도만의 함수이므로 줄-톰슨 계수는 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>등온 압축률은 0이다.</choice_text>
-          <commentary>'등온 압축률'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>등온 압축률은 1/P이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>압력 조건에 무관하게 압축인자(&lt;i&gt;Z&lt;/i&gt;)가 일정하다.</choice_text>
-          <commentary>'압력 조건에 무관하게 압축인자(Z)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>압축인자 Z = PV/(RT) = 1로 일정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정압 몰 열용량과 정적 몰 열용량의 차이는 기체 상수(&lt;i&gt;R&lt;/i&gt;)와 같다.</choice_text>
-          <commentary>'정압 몰 열용량과 정적 몰 열용량의 차이'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>C_P − C_V = R이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -238,24 +235,24 @@
         <correct_choice_text>2,058</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 표는 100 °C의 물)
-정답은 ③이다. 본 문항은 표는 100 °C의 물에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 기화 시 내부에너지 변화
+정답은 ③이다. ΔU = ΔH − PΔV이다. 액체의 비부피를 무시하면 ΔV = 2m³/kg이므로 PΔV = 101kN/m² × 2m³ = 202kJ이다. ΔU = 2,260 − 202 = 2,058kJ이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>202</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PΔV 항에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1,130</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,130kJ이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,058</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2,058kJ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2,462</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PΔV를 더한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -274,25 +271,24 @@
         <correct_choice_text>5,025</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 에서, 메테인, 연소, 반응식과)
-정답은 ①이다. 본 문항은 에서, 메테인, 연소, 반응식과에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $DELTA$; $DELTA$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 단열 화염 온도
+정답은 ①이다. 50% 과잉 산소이면 O₂ 3몰을 공급하고 1몰이 남는다. 생성물은 CO₂ 1몰, H₂O 2몰, O₂ 1몰로 총 4몰이며 열용량은 4 × 40 = 160J/°C이다. 반응열 800kJ이 모두 생성물 가열에 쓰이므로 ΔT = 800,000/160 = 5,000°C이고, 최고 온도는 25 + 5,000 = 5,025°C이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>5,025</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5,025°C이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5,415</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>생성물 몰수를 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5,800</choice_text>
-          <commentary>제시문의 "CH_(4)(g) ＋ 2O_(2)(g) → CO_(2)(g) ＋ 2H_(2)O(g) $\Delta$H° ＝ －800 kJ" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>5,800°C가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6,690</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>과잉 산소를 고려하지 않은 값과 유사하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,25 +307,24 @@
         <correct_choice_text>$- \frac{2}{3}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 온도, 질량, 강철구, 기름)
-정답은 ②이다. 본 문항은 온도, 질량, 강철구, 기름에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $DeltaS_1$; $DeltaS_2$; $\frac{DeltaS_1}{DeltaS_2}$; $- 3 over2$; $- \frac{2}{3}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 혼합 후 엔트로피 변화
+정답은 ②이다. 강철구 열용량은 50 × 0.3 = 15kJ/K, 기름은 4.5 × 5 = 22.5kJ/K이다. 최종 온도는 (15 × 450 + 22.5 × 200)/37.5 = 300K이다. ΔS₁ = 15 ln(300/450) = −15 ln1.5, ΔS₂ = 22.5 ln(300/200) = 22.5 ln1.5이므로 ΔS₁/ΔS₂ = −15/22.5 = −2/3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{3}{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비가 뒤집혀 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \frac{2}{3}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>−2/3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>강철구의 엔트로피는 감소하므로 부호가 음이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호와 크기가 모두 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -345,24 +340,24 @@
         <correct_choice_text>단계 3 → 4는 정온 가압에 의해 포화 액체를 생성하는 과정이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 그림은 Rankine 순환 공정을 나타낸 것이다. 이)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 랭킨 사이클
+정답은 ③이다. 랭킨 사이클은 펌프 가압(4→1) → 보일러 정압 가열(1→2) → 터빈 가역 단열 팽창(2→3) → 응축기 정압 냉각(3→4)으로 구성된다. 3→4는 터빈 출구의 습증기가 일정한 압력과 온도에서 열을 방출하며 응축되어 포화 액체가 되는 과정이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>단계 1 → 2는 보일러에서 정압 가열에 의해 과열 증기가 발생하는 과정을 포함한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보일러에서의 정압 가열로 과열 증기가 생기므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>단계 2 → 3은 터빈 내 증기가 가역 단열 팽창하는 과정이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>터빈 내 가역 단열 팽창이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>단계 3 → 4는 정온 가압에 의해 포화 액체를 생성하는 과정이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가압이 아니라 정압 응축 과정이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>단계 4 → 1은 포화 액체를 보일러로 이송하여 과냉각 액체를 생성하는 과정이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>펌프로 포화 액체를 보일러 압력까지 가압하여 압축(과냉각) 액체가 되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -381,25 +376,24 @@
         <correct_choice_text>251</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 어떤, 순물질, 액체, 부피)
-정답은 ④이다. 본 문항은 어떤, 순물질, 액체, 부피에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\beta$; $\kappa$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 정적 가열 시 압력 상승
+정답은 ④이다. dV/V = βdT − κdP이고 부피 변화가 없으므로 dP = (β/κ)dT이다. ΔP = (1.5 × 10⁻³ / 60 × 10⁻⁶) × 10 = 25 × 10 = 250bar이므로 최종 압력은 1 + 250 = 251bar이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.4bar가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2.4bar가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>압력 변화량이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>251</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>251bar이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -418,25 +412,24 @@
         <correct_choice_text>$\Delta$&lt;i&gt;A&lt;/i&gt; ＝ $\Delta$&lt;i&gt;G&lt;/i&gt;</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 기체, 정온, 가역, 과정으)
-정답은 ①이다. 본 문항은 기체, 정온, 가역, 과정으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $DELTA$; $DELTA$; $DELTA$; $DELTA$; $DELTA$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 등온 과정의 자유에너지 변화
+정답은 ①이다. 이상기체의 등온 과정에서 ΔA = −∫PdV = nRT ln(V₁/V₂), ΔG = ∫VdP = nRT ln(P₂/P₁)이다. 등온에서 P₂/P₁ = V₁/V₂이므로 ΔA = ΔG이다. 또한 ΔG − ΔA = Δ(PV) = nRΔT = 0으로도 확인된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\Delta$&lt;i&gt;A&lt;/i&gt; ＝ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ΔA = ΔG이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\Delta$&lt;i&gt;A&lt;/i&gt; ＞ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>두 값은 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\Delta$&lt;i&gt;A&lt;/i&gt; ＜ $\Delta$&lt;i&gt;G&lt;/i&gt;</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>두 값은 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Delta$&lt;i&gt;A&lt;/i&gt; ＝ －$\Delta$&lt;i&gt;G&lt;/i&gt;</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 반대가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -455,24 +448,24 @@
         <correct_choice_text>0.1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 밀폐된, 용기, 넣고, 반응)
-정답은 ②이다. 본 문항은 밀폐된, 용기, 넣고, 반응에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 평형상수
+정답은 ②이다. 평형에서 NO₂ 압력이 1.5 → 0.5atm으로 1.0atm 감소하였으므로 역반응이 진행되어 N₂O₄는 0.5atm 증가한 2.5atm이 된다. K_P = (P_NO₂)²/P_N₂O₄ = 0.5²/2.5 = 0.1이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.04</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.04가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.1이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>N₂O₄ 압력 변화를 반영하지 않으면 0.125가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.4가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -491,8 +484,8 @@
         <correct_choice_text>ㄱ, ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 복합 보기 검증형 (핵심어: 수평관, 통한, 비압축성, 액체)
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄱ, ㄴ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 비압축성 유체의 비가역 단열 흐름
+정답은 ③이다. 단면적이 일정하므로 연속 방정식에 따라 유속은 일정하다. 마찰에 의한 비가역성으로 엔트로피가 생성되어 증가하고, 단열이므로 마찰열이 유체 온도를 높인다. 에너지 수지에서 ΔH = 0이고 ΔH = C_PΔT + VΔP이므로 온도가 오르면 압력은 낮아진다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>엔트로피는 출구가 입구보다 크다.</statement>
@@ -514,19 +507,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄹ도 옳으므로 빠진 것이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>유속은 일정하므로 ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄴ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>유속은 일정하므로 ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -542,24 +535,24 @@
         <correct_choice_text>주어진 온도와 압력에서 평형 상태 계의 총 Gibbs 에너지는 0이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 닫힌 계에서 이성분 혼합물이 이루는 기－액 평형)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 기–액 평형의 조건
+정답은 ②이다. 주어진 온도와 압력에서 평형 상태의 총 깁스 에너지는 0이 아니라 최솟값을 가진다. 평형 조건은 각 성분의 화학 퍼텐셜(또는 퓨개시티)이 모든 상에서 같다는 것이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>계의 모든 평형 상태는 온도－압력－조성의 3차원 공간에 나타낼 수 있다.</choice_text>
-          <commentary>'계의 모든 평형 상태'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이성분계의 평형 상태는 T–P–조성 공간에 나타낼 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>주어진 온도와 압력에서 평형 상태 계의 총 Gibbs 에너지는 0이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>총 깁스 에너지는 0이 아니라 최소이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>주어진 온도와 압력에서 평형 상태 계의 각 성분은 기상 화학 포텐셜과 액상 화학 포텐셜이 같다.</choice_text>
-          <commentary>'주어진 온도와 압력에서 평형 상태 계의 각 성분'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>각 성분의 화학 퍼텐셜이 상 사이에서 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>주어진 온도와 압력에서 평형 상태 계의 각 성분은 기상 퓨개시티와 액상 퓨개시티가 같다.</choice_text>
-          <commentary>'주어진 온도와 압력에서 평형 상태 계의 각 성분'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>각 성분의 퓨개시티가 상 사이에서 같다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -575,24 +568,24 @@
         <correct_choice_text>0.375</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 가스는 수증기 개질(steam reforming))
-정답은 ③이다. 본 문항은 가스는 수증기 개질(steam reforming)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 반응 진행도와 몰분율
+정답은 ③이다. 반응식은 CH₄ + H₂O → CO + 3H₂이다. 진행도를 ξ라 하면 CH₄ = 2 − ξ, H₂O = 1 − ξ, CO = ξ, H₂ = 3ξ이다. 2 − ξ = 3ξ에서 ξ = 0.5이고, 총 몰수는 3 + 2ξ = 4이다. CH₄ 몰분율은 1.5/4 = 0.375이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.125</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.125가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.25가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.375</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.375이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.5가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -611,24 +604,24 @@
         <correct_choice_text>(가)의 최대 열효율은 50 %이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 효율, 작동하, 열기관, 고온)
-정답은 ①이다. 본 문항은 효율, 작동하, 열기관, 고온에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 카르노 효율과 제2법칙 효율
+정답은 ①이다. 최대 열효율은 카르노 효율 1 − T_C/T_H이다. (가)는 1 − 300/600 = 50%, (나)는 1 − 300/1,000 = 70%이다. 제2법칙 효율은 실제 효율/카르노 효율로 (가)는 30/50 = 60%, (나)는 30/70 ≈ 43%이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>(가)의 최대 열효율은 50 %이다.</choice_text>
-          <commentary>'(가)의 최대 열효율'에 관하여 '50 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>(가)의 최대 열효율은 50%이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(나)의 최대 열효율은 30 %이다.</choice_text>
-          <commentary>'(나)의 최대 열효율'에 관하여 제시된 '30 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>(나)의 최대 열효율은 70%이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(가)의 열역학 제2법칙 열효율은 40 %이다.</choice_text>
-          <commentary>'(가)의 열역학 제2법칙 열효율'에 관하여 제시된 '40 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>(가)의 제2법칙 효율은 60%이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(나)의 열역학 제2법칙 열효율은 50 %이다.</choice_text>
-          <commentary>'(나)의 열역학 제2법칙 열효율'에 관하여 제시된 '50 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>(나)의 제2법칙 효율은 약 43%이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -644,25 +637,24 @@
         <correct_choice_text>A 상태의 기체를 조름 공정(throttling process)으로 팽창시키면 온도가 증가한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: A 상태의 기체를 조름 공정(throttling process))
-정답은 ④이다. 본 문항은 A 상태의 기체를 조름 공정(throttling process)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 줄-톰슨 계수
+정답은 ④이다. 그림을 확인할 수 없으나 공식 정답에 따르면 A 상태는 줄-톰슨 계수 μ = (∂T/∂P)_H &lt; 0인 영역(역전 곡선 바깥)이다. μ &lt; 0이면 등엔탈피 팽창(압력 감소) 시 온도가 증가하며, 이는 분자 간 척력이 인력보다 우세한 상태이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>500 atm보다 낮은 압력에서는 액화되지 않는다.</choice_text>
-          <commentary>'500 atm보다 낮'에 관하여 '되지 않는다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>공식 정답에 따르면 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>A 상태에서는 분자 간 인력이 척력보다 우세하다.</choice_text>
-          <commentary>'A 상태에서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>μ &lt; 0 영역은 척력이 우세하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>A 상태에서는 등엔탈피 과정으로 압력이 증가하면 온도가 증가한다.</choice_text>
-          <commentary>'A 상태에서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>μ &lt; 0이면 압력 증가 시 온도는 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>A 상태의 기체를 조름 공정(throttling process)으로 팽창시키면 온도가 증가한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>조름 팽창 시 온도가 증가하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -681,24 +673,24 @@
         <correct_choice_text>－30</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 닫힌, 기체, 상태, 에서)
-정답은 ①이다. 본 문항은 닫힌, 기체, 상태, 에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 순환 과정의 제1법칙
+정답은 ①이다. (1)→(2)에서 ΔU = Q − W = 80 − 30 = 50J이다. 순환 과정이므로 (2)→(1)에서 ΔU = −50J이고, −50 = Q − 20에서 Q = −30J이다. 즉 30J의 열을 방출한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>－30</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>−30J이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>−10J이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10J이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -717,24 +709,24 @@
         <correct_choice_text>상태 3은 상태 4보다 액체의 양이 적다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 그림, 어떤, 순물질, 상평형)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · P–V 상평형도
+정답은 ④이다. 그림을 확인할 수 없으나 공식 정답에 따르면 상태 3과 4는 기–액 공존 영역 안의 점이다. 공존 영역에서 같은 압력이면 부피가 작은 쪽(포화 액체선에 가까운 쪽)일수록 액체의 비율이 크다(지렛대 규칙).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>상태 1은 임계점이다.</choice_text>
-          <commentary>'상태 1'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 상태 1은 임계점이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>상태 2는 과냉각 액체이다.</choice_text>
-          <commentary>'상태 2'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 상태 2는 과냉각(압축) 액체이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>상태 5는 과열 증기이다.</choice_text>
-          <commentary>'상태 5'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 상태 5는 과열 증기이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>상태 3은 상태 4보다 액체의 양이 적다.</choice_text>
-          <commentary>'상태 3'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 상태 3이 상태 4보다 액체의 양이 많으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

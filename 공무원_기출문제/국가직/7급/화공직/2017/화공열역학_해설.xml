@@ -31,24 +31,24 @@
         <correct_choice_text>엔트로피는 경로(path) 함수이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 열역학적 변수들, 밀도는 세기(intensive), 질량은 크기(extensive), 엔트로피는 경로(path), 엔탈피는 상태(state))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 열역학적 변수
+정답은 ③이다. 엔트로피는 내부에너지, 엔탈피와 마찬가지로 상태에 의해서만 값이 정해지는 상태함수이다. 열과 일은 경로에 따라 값이 달라지는 경로함수이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>온도, 압력, 밀도는 세기(intensive) 성질이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>온도, 압력, 밀도는 계의 크기와 무관한 세기 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>부피, 질량은 크기(extensive) 성질이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>부피와 질량은 계의 크기에 비례하는 크기 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>엔트로피는 경로(path) 함수이다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>엔트로피는 상태함수이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>엔탈피는 상태(state) 함수이다.</choice_text>
-          <commentary>'엔탈피'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>엔탈피는 상태함수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -64,9 +64,8 @@
         <correct_choice_text>ㄱ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 복합 보기 검증형 (핵심어: 실제 기체의 열용량)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ)이다.
-관련 수식: $C_{v}$; $C_{p}$; $C_{v}$; $C_{p}$; $C_{v}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 실제 기체의 열용량
+정답은 ①이다. 실제 기체의 C_V와 C_P는 일반적으로 온도(와 압력)의 함수이다. 기체에서는 항상 C_P &gt; C_V이며, 과정의 종류에 따라 열용량의 크기가 같아지지 않는다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>$C_{v}$는 온도의 함수이다.</statement>
@@ -84,19 +83,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ)이다.</commentary>
+          <commentary>ㄱ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ)이다.</commentary>
+          <commentary>C_P와 C_V는 같아지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>C_P도 온도의 함수이므로 ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -112,24 +111,24 @@
         <correct_choice_text>반응평형상수 값은 Gibbs 에너지의 변화와 무관하다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: Gibbs 에너지)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 깁스 에너지
+정답은 ③이다. 반응 평형상수는 ΔG° = −RT ln K의 관계로 표준 깁스 에너지 변화와 직접 연결되어 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>일정한 온도와 압력에서 닫힌 계의 평형상태는 전체 Gibbs 에너지가 최소인 상태이다.</choice_text>
-          <commentary>'일정한 온도와 압력에서 닫힌 계의 평형상태'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>일정 T, P에서 평형은 깁스 에너지가 최소인 상태이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>일정한 온도와 압력에서 기체의 혼합과정 중 Gibbs 에너지는 감소한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이상기체의 혼합에서 ΔG_mix = RTΣx_i ln x_i &lt; 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>반응평형상수 값은 Gibbs 에너지의 변화와 무관하다.</choice_text>
-          <commentary>'반응평형상수 값'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평형상수는 ΔG°로 결정되므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>단일 성분 계에서 Gibbs 에너지는 온도와 압력의 함수이다.</choice_text>
-          <commentary>'단일 성분 계에서 Gibbs 에너지'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단일 성분계에서 dG = VdP − SdT이므로 G는 T와 P의 함수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -145,25 +144,24 @@
         <correct_choice_text>$\frac{\kappa}{\beta}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 기체의 부피 팽창률(volume expansivity))
-정답은 ④이다. 본 문항은 기체의 부피 팽창률(volume expansivity)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\beta$; $\kappa$; $\left( \frac{Partial T}{Partial P} \right)_{V}$; $- \frac{\beta}{\kappa}$; $- \frac{\kappa}{\beta}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · (∂T/∂P)_V의 표현
+정답은 ④이다. 순환 관계식에 따라 (∂T/∂P)_V = −(∂V/∂P)_T/(∂V/∂T)_P이다. β = (1/V)(∂V/∂T)_P, κ = −(1/V)(∂V/∂P)_T이므로 (∂T/∂P)_V = κV/(βV) = κ/β이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{\beta}{\kappa}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호와 비가 모두 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{\kappa}{\beta}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\beta}{\kappa}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비가 뒤집혀 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\kappa}{\beta}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>κ/β이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -182,25 +180,24 @@
         <correct_choice_text>0</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 닫힌, 계에서, 어떤, 기체)
-정답은 ②이다. 본 문항은 닫힌, 계에서, 어떤, 기체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $P = \frac{RT}{V - b}$; $U$; $\left( \frac{Partial U}{Partial V} \right)_{T}$; $V$; $R$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 내부에너지의 부피 의존성
+정답은 ②이다. 열역학적 상태방정식 (∂U/∂V)_T = T(∂P/∂T)_V − P를 이용한다. P = RT/(V − b)이면 (∂P/∂T)_V = R/(V − b)이므로 (∂U/∂V)_T = RT/(V − b) − P = 0이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$b$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>b가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{V^{2}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반데르발스 식에서 a/V²에 해당하는 형태이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -219,25 +216,24 @@
         <correct_choice_text>250</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 기압, 공기, 매우, 느린)
-정답은 ②이다. 본 문항은 기압, 공기, 매우, 느린에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $( u_{1} \approx 0 )$; $( u_{2} )$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 정상상태 흐름의 에너지 수지
+정답은 ②이다. ΔH + Δ(u²/2) = Q + W이다. 입구와 출구 온도가 같으므로 이상기체의 ΔH = 0이다. 운동에너지 증가는 500²/2 = 125,000J/kg = 125kJ/kg이고 Q = −125kJ이므로 W = 125 + 125 = 250kJ이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>125</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>운동에너지 증가분만 고려한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>250</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>250kJ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>375</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>375kJ이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>500</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>500kJ이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -253,25 +249,24 @@
         <correct_choice_text>㉢의 변화를 주면, 엔진의 효율이 감소한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: Carnot 엔진)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $T - S$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 카르노 엔진의 T–S 선도
+정답은 ③이다. 그림을 확인할 수 없으나 공식 정답에 따르면 ㉢의 변화에 대한 설명이 옳지 않다. 카르노 효율은 η = 1 − T_C/T_H로 고온과 저온의 온도에만 의존하며, T–S 선도에서 사각형의 넓이가 일을 나타낸다. 등온 과정의 엔트로피 폭만 늘리는 변화는 일은 늘리지만 효율은 바꾸지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>㉠의 변화를 주면, 엔진의 효율이 증가한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>㉡의 변화를 주면, 엔진이 하는 일의 양이 증가한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>㉢의 변화를 주면, 엔진의 효율이 감소한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 효율이 감소하지 않으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>㉣의 변화를 주면, 엔진이 하는 일의 양이 증가한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -290,25 +285,24 @@
         <correct_choice_text>$RT \ln \left( \frac{V_{1} - b}{V_{2} - b} \right)$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 닫힌, 계에서, 어떤, 기체)
-정답은 ④이다. 본 문항은 닫힌, 계에서, 어떤, 기체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V = \frac{RT}{P} + b$; $( V_{1} \rightarrow V_{2} )$; $W$; $\left | W \right |$; $V$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 등온 압축의 일
+정답은 ④이다. V = RT/P + b에서 P = RT/(V − b)이다. 가역 등온 과정의 일은 |W| = ∫PdV = RT ln((V₁ − b)/(V₂ − b))이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부피가 변하므로 일은 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$RT \ln \left( \frac{V_{1}}{V_{2}} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이상기체의 경우이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$RT \ln \left( \frac{V_{1} + b}{V_{2} + b} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>b의 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$RT \ln \left( \frac{V_{1} - b}{V_{2} - b} \right)$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RT ln((V₁ − b)/(V₂ − b))이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -327,25 +321,24 @@
         <correct_choice_text>$exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} - x_{B} x_{C} )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 삼성분계에서, 과잉, 에너지, 표시될)
-정답은 ①이다. 본 문항은 삼성분계에서, 과잉, 에너지, 표시될에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A$; $B$; $C$; $G^{E}$; $G^{E} = x_{A} x_{B} x_{C} R T$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 과잉 깁스 에너지와 활동도 계수
+정답은 ①이다. nG^E/RT = n_An_Bn_C/n²이고 ln γ_A = [∂(nG^E/RT)/∂n_A]이다. 미분하면 ln γ_A = x_Bx_C − 2x_Ax_Bx_C이고, x_A = 1 − x_B − x_C를 대입하면 ln γ_A = 2x_B²x_C + 2x_Bx_C² − x_Bx_C이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} - x_{B} x_{C} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>exp(2x_B²x_C + 2x_Bx_C² − x_Bx_C)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$exp ( x_{B}^{2} x_{C} + x_{B} x_{C}^{2} - x_{B} x_{C} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수 2가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$exp ( 2 x_{B}^{2} x_{C} + 2 x_{B} x_{C}^{2} + x_{B} x_{C} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>마지막 항의 부호가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$exp ( x_{B}^{2} x_{C} + x_{B} x_{C}^{2} + x_{B} x_{C} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수와 부호가 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -362,25 +355,24 @@
         <correct_choice_text>$T_{1}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 어떤 기체의 압력$( P )$, 의 비리얼(virial))
-정답은 ①이다. 본 문항은 어떤 기체의 압력$( P )$, 의 비리얼(virial)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $( P )$; $Z$; $P - Z$; $Z = 1 + B prime P + C prime P^{2} + CDOTS$; $B prime$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 비리얼 계수
+정답은 ①이다. 그림을 확인할 수 없으나, Z = 1 + B′P + …에서 저압 영역의 Z–P 곡선 기울기가 B′이다. 공식 정답에 따르면 T₁에서 기울기가 가장 큰 음의 값(가장 가파르게 감소)을 가지므로 B′이 가장 작다. 일반적으로 온도가 낮을수록 분자 간 인력의 영향이 커져 B′이 작아진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$T_{1}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>T₁이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$T_{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 가장 작지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$T_{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 가장 작지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$T_{4}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 가장 작지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -399,9 +391,8 @@
         <correct_choice_text>ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 복합 보기 검증형 (핵심어: 부피와, 온도, 단열, 상자)
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄴ, ㄹ)이다.
-관련 수식: $Ar$; $N e$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 단열 혼합
+정답은 ④이다. 단열 상자에서 일과 열의 출입이 없으므로 내부에너지가 일정하고, 이상기체이므로 온도가 일정하여 엔탈피도 변하지 않는다. 혼합으로 엔트로피는 증가하고 깁스 에너지는 감소한다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>엔트로피</statement>
@@ -423,19 +414,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>엔트로피와 깁스 에너지는 변한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>엔트로피는 증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>깁스 에너지는 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -451,25 +442,24 @@
         <correct_choice_text>비가역 단열 흐름에서 온도는 흐름방향으로 감소한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 수평관 내에서 이상기체의 흐름공정)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $DELTA H = 0$; $DELTA S = 0$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 수평관의 흐름공정
+정답은 ②이다. 수평관에서 일과 열이 없고 운동에너지 변화를 무시하면 ΔH = 0이다. 이상기체의 엔탈피는 온도만의 함수이므로 비가역 단열 흐름에서도 온도는 일정하게 유지된다. 공식 정답에 따라 온도가 흐름방향으로 감소한다는 설명은 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>터빈은 내부에너지를 운동에너지로 변환시킨다.</choice_text>
-          <commentary>'터빈'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>터빈은 유체의 에너지를 운동에너지와 축일로 변환하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>비가역 단열 흐름에서 온도는 흐름방향으로 감소한다.</choice_text>
-          <commentary>'비가역 단열 흐름에서 온도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>온도가 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>조름공정은 등엔탈피($\Delta H = 0$) 과정이다.</choice_text>
-          <commentary>'조름공정'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>조름공정은 ΔH = 0인 과정이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>가역 단열압축 공정은 등엔트로피($\Delta S = 0$) 과정이다.</choice_text>
-          <commentary>'가역 단열압축 공정'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가역 단열 과정은 등엔트로피 과정이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -485,25 +475,24 @@
         <correct_choice_text>$a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로에서 한 일은 0이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: $P - V$ 선도에서 $a$와 $b$사이의 가역 과정)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $P - V$; $a$; $b$; $a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$; $a \rightarrow e \rightarrow b$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · P–V 선도의 순환 과정
+정답은 ④이다. 순환 경로에서 상태함수의 변화는 0이지만, 일은 경로함수이므로 P–V 선도에서 순환 경로가 둘러싼 넓이만큼의 일을 한다. 그림을 확인할 수 없으나 경로 a→c→b와 b→d→a가 서로 다르므로 순환 일은 0이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로의 내부에너지 변화량은 0이다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>순환 과정의 내부에너지 변화는 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$a \rightarrow e \rightarrow b$ 경로와 $b \rightarrow d \rightarrow a$ 경로에 대한 엔탈피 변화량의 절댓값은 같다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>같은 두 상태 사이의 엔탈피 변화 크기는 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$a \rightarrow c \rightarrow b$ 경로와 $a \rightarrow e \rightarrow b$ 경로에서 한 일의 양은 서로 다르다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>일은 경로에 따라 다르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$a \rightarrow c \rightarrow b \rightarrow d \rightarrow a$ 순환 경로에서 한 일은 0이다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>순환 일은 둘러싼 넓이로 0이 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -522,25 +511,24 @@
         <correct_choice_text>$R \ln \left( \frac{1}{10} \right)$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 이상기체, 기압에서, 기압으, 등온)
-정답은 ①이다. 본 문항은 이상기체, 기압에서, 기압으, 등온에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $DELTA S$; $R$; $R \ln \left( \frac{1}{10} \right)$; $- R \ln left ( \frac{1}{10} \right)$; $\frac{R}{10}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 등온 압축의 엔트로피 변화
+정답은 ①이다. 이상기체의 등온 과정에서 ΔS = −R ln(P₂/P₁) = −R ln10 = R ln(1/10)이다. 압축하면 엔트로피는 감소한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$R \ln \left( \frac{1}{10} \right)$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>R ln(1/10)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- R \ln \left ( \frac{1}{10} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{R}{10}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>로그 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{R}{10}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>로그 형태가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -559,25 +547,24 @@
         <correct_choice_text>일정 부피에서 가압한 후, 3 기압을 유지하며 냉각</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 기압, 이상기체, 압축할, 필요한)
-정답은 ③이다. 본 문항은 기압, 이상기체, 압축할, 필요한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $W$; $\left | W \right |$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 경로에 따른 압축 일
+정답은 ③이다. 최종 부피는 V₁/3이다. 등온 가역 압축 일은 RT ln3 ≈ 1.1RT이다. 정적 가압 후 3기압 정압 냉각은 |W| = 3P₁(V₁ − V₁/3) = 2P₁V₁ = 2RT로 가장 크다. 1기압 정압 수축 후 정적 가열은 |W| = P₁(V₁ − V₁/3) = (2/3)RT로 가장 작다. 단열 압축 후 정압 냉각은 그 사이 값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>300 K을 유지하며 가역적으로 압축</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RT ln3로 3번보다 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>가역적으로 단열 압축한 후, 3 기압을 유지하며 냉각</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3번보다 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>일정 부피에서 가압한 후, 3 기압을 유지하며 냉각</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2RT로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1 기압을 유지하며 수축한 후, 일정 부피를 유지하며 가열</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(2/3)RT로 가장 작다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -596,25 +583,24 @@
         <correct_choice_text>$\frac{2}{7}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 닫힌, 계에서, 이원자분자, 이상기체)
-정답은 ③이다. 본 문항은 닫힌, 계에서, 이원자분자, 이상기체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $C_{v} = \frac{5}{2} R$; $R$; $\frac{2}{3}$; $\frac{2}{5}$; $\frac{2}{7}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 정압 팽창에서 일의 비율
+정답은 ③이다. 정압 과정에서 Q = nC_PΔT, W = PΔV = nRΔT이다. 이원자분자 이상기체는 C_P = C_V + R = (7/2)R이므로 W/Q = R/C_P = 2/7이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2/3이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{5}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>R/C_V에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{7}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2/7이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{9}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2/9가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -632,25 +618,24 @@
         <correct_choice_text>1.25</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 2 ( g ), 2 O ( l ), O ( l ))
-정답은 ②이다. 본 문항은 2 ( g ), 2 O ( l ), O ( l )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $2 H_2 ( g ) + O_2 ( g ) \rightarrow 2 H_2 O ( l )$; $H_{2} O ( l )$; $H_2 ( g )$; $O_2 ( g )$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 연료전지의 기전력
+정답은 ②이다. ΔH° = 2 × (−290) = −580kJ, ΔS° = 2 × 70 − (2 × 130 + 205) = −325J/K이다. ΔG° = ΔH° − TΔS° = −580 + 300 × 0.325 = −482.5kJ이다. 전자 수는 4이므로 E = −ΔG°/(nF) = 482,500/(4 × 96,500) = 1.25V이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.0V가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.25</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1.25V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ΔH°만으로 계산한 값에 가깝다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전자 수를 2로 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -666,25 +651,24 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 2 HI ( g ))
-정답은 ③이다. 본 문항은 2 HI ( g )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H_{2} ( g ) + I_{2} ( g )$; $2 HI ( g )$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 평형상수
+정답은 ③이다. 그래프를 확인할 수 없으나 공식 정답에 따르면 평형상수는 8이다. 평형상수는 K = [HI]²/([H₂][I₂])로, 농도가 더 이상 변하지 않는 평형 구간의 값을 대입하여 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>8이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>16이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -703,25 +687,24 @@
         <correct_choice_text>20.75</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 수리·계산·자료해석형 (핵심어: 어떤, 온도, 에서, 에탄올)
-정답은 ④이다. 본 문항은 어떤, 온도, 에서, 에탄올에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $T [ K ]$; $P^{sat}$; $P^{sat} = exp ( 13 - \frac{2500}{T} )$; $K$; $kJ mol^{- 1}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · 증기압 식과 증발잠열
+정답은 ④이다. 클라우지우스-클라페이롱 식 d ln P^sat/d(1/T) = −ΔH_vap/R이다. ln P^sat = 13 − 2,500/T이므로 ΔH_vap/R = 2,500이고, ΔH_vap = 2,500 × 8.3 = 20,750J/mol = 20.75kJ/mol이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>12.25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>12.25kJ/mol이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>15.75</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>15.75kJ/mol이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>18.25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>18.25kJ/mol이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>20.75</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>20.75kJ/mol이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -740,25 +723,24 @@
         <correct_choice_text>$N_{L} w_{V} = N_{V} w_{L}$의 관계를 만족한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 화공열역학 · 핵심 개념·이론 이해형 (핵심어: 어떤, 일정, 온도에서, 성분)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $P - x_{1} - y_{1}$; $N_{V}$; $N_{L}$; $x_{1}$; $y_{1}$</overall_commentary>
+      <overall_commentary>출제 영역: 화공열역학 · P–x–y 선도와 지렛대 규칙
+정답은 ②이다. 지렛대 규칙에 따르면 2상 영역에서 각 상의 몰수는 반대쪽 선분의 길이에 비례한다. 그림을 확인할 수 없으나 공식 정답에 따르면 표시된 길이에 대한 올바른 관계는 N_Lw_L = N_Vw_V 꼴이므로 2번의 관계식은 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>성분 1이 성분 2보다 휘발성이 높다.</choice_text>
-          <commentary>'성분 1'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 성분 1이 더 휘발성이 높다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$N_{L} w_{V} = N_{V} w_{L}$의 관계를 만족한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지렛대 규칙의 관계가 맞지 않으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>용액이 Raoult의 법칙을 따를 경우, $P - x_{1}$ 선도는 직선이다.</choice_text>
-          <commentary>'용액'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>라울 법칙을 따르면 P = x₁P₁^sat + x₂P₂^sat로 직선이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>성분 2는 성분 1보다 끓는점이 높다.</choice_text>
-          <commentary>'성분 2'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>증기압이 낮은 성분 2가 끓는점이 높다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

@@ -27,24 +27,24 @@
         <correct_choice_text>가용성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 3대 요소 중 서비스 거부(Denial of Service))
-정답은 ①이다. 본 문항은 3대 요소 중 서비스 거부(Denial of Service)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 서비스 거부 공격과 가용성
+정답은 ①이다. 서비스 거부(DoS) 공격은 시스템 자원을 고갈시켜 정당한 사용자가 서비스를 이용하지 못하게 하므로 가용성을 침해한다. 기밀성은 도청, 무결성은 변조 공격으로 침해된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>가용성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>가용성이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>기밀성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성은 정보 노출과 관련된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>무결성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무결성은 정보 변조와 관련된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>익명성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>익명성은 정보보안 3대 요소가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -63,24 +63,24 @@
         <correct_choice_text>스캐닝(scanning)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 스캐닝(scanning), 스미싱(SMishing), 스위칭(switching), 스풀링(SPOOLing))
-정답은 ①이다. 본 문항은 스캐닝(scanning), 스미싱(SMishing), 스위칭(switching), 스풀링(SPOOLing)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 스캐닝
+정답은 ①이다. 스캐닝은 대상 서버의 작동 여부와 열린 포트, 제공 서비스를 확인하는 정보 수집 행위이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>스캐닝(scanning)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>스캐닝이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>스미싱(SMishing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스미싱은 문자메시지 피싱이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스위칭(switching)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스위칭은 프레임 전달 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>스풀링(SPOOLing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스풀링은 입출력 작업을 디스크에 모아 처리하는 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -96,24 +96,24 @@
         <correct_choice_text>SCTP(Stream Control Transmission Protocol)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: FTP(File Transfer Protocol))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 응용계층 프로토콜
+정답은 ②이다. FTP, SMTP, Telnet은 응용 계층 프로토콜이다. SCTP는 TCP·UDP와 같은 전송 계층 프로토콜로, 멀티스트리밍과 멀티호밍을 지원한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>FTP(File Transfer Protocol)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>SCTP(Stream Control Transmission Protocol)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전송 계층 프로토콜이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>SMTP(Simple Mail Transfer Protocol)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Telnet</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -130,24 +130,24 @@
         <correct_choice_text>SSID(Service Set IDentifier)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: OID(Object IDentifier), SSID(Service Set IDentifier))
-정답은 ②이다. 본 문항은 OID(Object IDentifier), SSID(Service Set IDentifier)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SSID
+정답은 ②이다. SSID는 무선랜에서 네트워크를 식별하는 이름(최대 32바이트)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>OID(Object IDentifier)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OID는 객체 식별자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSID(Service Set IDentifier)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SSID이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>RFID(Radio Frequency IDentification)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>RFID는 무선 주파수 식별 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NIDS(Network-based Intrusion Detection System)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NIDS는 네트워크 기반 침입탐지시스템이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -166,24 +166,24 @@
         <correct_choice_text>SSO</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 시스템, 인증, 통하여, 여러)
-정답은 ②이다. 본 문항은 시스템, 인증, 통하여, 여러에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SSO
+정답은 ②이다. SSO(Single Sign-On)는 한 번의 인증으로 여러 시스템에 재인증 없이 접근하게 하는 통합 인증 기술이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DRM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DRM은 디지털 저작권 관리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSO</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SSO이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SET</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SET는 전자상거래 결제 보안 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PGP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PGP는 이메일 보안 프로그램이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -200,24 +200,24 @@
         <correct_choice_text>스위치 대신 더미 허브 사용</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 스니핑(sniffing) 공격, 스니핑(sniffing))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 스니핑 대책
+정답은 ③이다. SSH, HTTPS, S/MIME은 통신 내용을 암호화하여 스니핑 피해를 줄인다. 더미 허브는 모든 포트로 패킷을 브로드캐스트하므로 스니핑이 더 쉬워진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>원격 접속 시 SSH 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>원격 접속 암호화로 대책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>웹 환경에서 HTTPS 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>웹 통신 암호화로 대책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>스위치 대신 더미 허브 사용</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스니핑을 쉽게 하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>이메일 환경에서 S/MIME 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이메일 암호화로 대책이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -235,24 +235,24 @@
         <correct_choice_text>PoS(Proof of Stake)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 블록체인에서 보유한 자산, PoS(Proof of Stake), PoW(Proof of Work))
-정답은 ①이다. 본 문항은 블록체인에서 보유한 자산, PoS(Proof of Stake), PoW(Proof of Work)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 지분증명
+정답은 ①이다. PoS(지분증명)는 보유한 자산(지분)의 비율에 비례하여 블록 생성과 의사결정 권한을 주는 합의 알고리즘이다. PoW는 연산 작업량, PBFT는 다수결 투표 기반 합의이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>PoS(Proof of Stake)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PoS이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>PoW(Proof of Work)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>작업증명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PRNG(Pseudo-Random Number Generator)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>의사난수 생성기이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PBFT(Practical Byzantine Fault Tolerance)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비잔틴 장애 허용 합의이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -270,8 +270,8 @@
         <correct_choice_text>ㄴ ㄱ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 복합 보기 검증형 (핵심어: 다음 랜(LAN), 이 ARP 스푸핑(spoofing), 공격시스템)
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄴ ㄱ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · ARP 스푸핑
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. ARP 스푸핑은 공격 시스템이 양쪽 시스템에 상대방의 IP에 대한 MAC 주소를 자신의 MAC 주소라고 거짓으로 알려, 통신이 공격자를 거치도록 하는 공격이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>시스템1의 MAC 주소를 AA-AA-AA라고 알린다.</statement>
@@ -293,19 +293,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ ㄱ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ ㄱ)이다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ ㄷ)이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄹ ㄱ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄹ ㄱ)이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄹ ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄹ ㄷ)이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -324,24 +324,24 @@
         <correct_choice_text>(사), (아)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 공격, 위한, 데이터그램, 헤더에서)
-정답은 ④이다. 본 문항은 공격, 위한, 데이터그램, 헤더에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · Land 공격
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번이 정답이다. Land 공격은 IP 헤더의 출발지 IP 주소와 목적지 IP 주소를 같은 값으로 설정한 패킷을 보내는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가), (나)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(다), (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(마), (바)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(사), (아)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -358,24 +358,24 @@
         <correct_choice_text>SYN flooding 공격</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: way 핸드셰이크(handshake), 개방(half-open))
-정답은 ③이다. 본 문항은 way 핸드셰이크(handshake), 개방(half-open)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SYN flooding
+정답은 ③이다. SYN flooding은 다수의 SYN 패킷을 보내고 마지막 ACK를 보내지 않아 서버의 half-open 연결 대기 큐(백로그)를 가득 채우는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Smurf 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Smurf는 ICMP 브로드캐스트를 이용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Teardrop 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Teardrop은 IP 단편의 오프셋 조작을 이용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>SYN flooding 공격</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SYN flooding이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Ping-of-death 공격</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Ping-of-death는 비정상적으로 큰 ICMP 패킷을 이용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -391,24 +391,24 @@
         <correct_choice_text>P2 P3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: N ARQ(Automatic Repeat reQuest))
-정답은 ③이다. 본 문항은 N ARQ(Automatic Repeat reQuest)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · Go-Back-N ARQ
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번(P2, P3)이 정답이다. Go-Back-N에서는 오류나 손실이 발생한 패킷부터 그 이후 전송한 모든 패킷을 다시 보낸다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>P0 P1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>P1 P2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>P2 P3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>P3 P4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -426,24 +426,24 @@
         <correct_choice_text>Authentication Header Protocol</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 프로토콜, 구조, 속하지)
-정답은 ④이다. 본 문항은 프로토콜, 구조, 속하지에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SSL/TLS 프로토콜 구조
+정답은 ④이다. SSL/TLS는 Record, Handshake, Change Cipher Spec, Alert 프로토콜로 구성된다. Authentication Header(AH)는 IPSec의 프로토콜이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Record Protocol</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SSL/TLS 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Handshake Protocol</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SSL/TLS 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Change Cipher Spec Protocol</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SSL/TLS 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Authentication Header Protocol</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IPSec 프로토콜이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -461,24 +461,24 @@
         <correct_choice_text>양방향성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 양방향성 충돌 저항성(resistance), 역상(preimage), 저항성 제2(second))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 해시 함수의 성질
+정답은 ①이다. 암호학적 해시 함수는 출력에서 입력을 구할 수 없는 일방향성을 가지며, 역상 저항성, 제2 역상 저항성, 충돌 저항성을 갖추어야 한다. 양방향성은 해시 함수의 성질이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>양방향성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>해시 함수는 일방향이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>충돌 저항성(resistance)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해시 함수의 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>역상(preimage) 저항성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해시 함수의 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>제2(second) 역상 저항성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해시 함수의 성질이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -498,24 +498,24 @@
         <correct_choice_text>리다이렉션(redirection) 사용</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 에서 설명하는 공격을 막는 방법, 비표(nonce), 사용 리다이렉션(redirection), 사용 타임스탬프(timestamp), 사용 순서 번호(sequence number))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · 재전송 공격 대응
+정답은 ②이다. 이전의 정상 메시지와 MAC을 다시 보내는 재전송(replay) 공격은 비표(nonce), 타임스탬프, 순서 번호로 메시지의 새로움을 확인하여 막는다. 리다이렉션은 재전송 공격 대책이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비표(nonce) 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대응 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>리다이렉션(redirection) 사용</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대응 방법이 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>타임스탬프(timestamp) 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대응 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>순서 번호(sequence number) 사용</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대응 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -533,24 +533,24 @@
         <correct_choice_text>(라) → (다) → (나) → (가)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 서비스 요청(service request), 키 교환 종료(end of key exchange), 알고리즘 협상(algorithm negotiation))
-정답은 ④이다. 본 문항은 서비스 요청(service request), 키 교환 종료(end of key exchange), 알고리즘 협상(algorithm negotiation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SSH 전송 계층 프로토콜
+정답은 ④이다. SSH 전송 계층 프로토콜은 식별 문자열(버전) 교환 → 알고리즘 협상 → 키 교환 및 종료 → 서비스 요청 순서로 진행된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (다) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(가) → (다) → (나) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(라) → (나) → (다) → (가)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(라) → (다) → (나) → (가)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(라) → (다) → (나) → (가)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -566,24 +566,24 @@
         <correct_choice_text>IPv4 주소체계에서만 지원하며, IPv6 주소체계에서는 지원하지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 사용하여 네트워크 프리픽스(prefix))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · CIDR
+정답은 ③이다. CIDR은 클래스 구분 없이 프리픽스 길이(/n)로 네트워크를 지정하여 주소 낭비를 줄이는 방식이다. IPv6도 2001:db8::/32처럼 CIDR 표기를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IP 주소 고갈 문제를 해결하기 위해 도입되었다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주소 고갈 대응으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>IP 주소를 클래스 구분 없이 지정할 수 있게 해 준다.</choice_text>
-          <commentary>'IP 주소를 클래스 구분 없'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>클래스 없는 할당으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>IPv4 주소체계에서만 지원하며, IPv6 주소체계에서는 지원하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IPv6에서도 사용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>슬래시(slash, ‘/’)를 사용하여 네트워크 프리픽스(prefix)의 길이를 표시한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>슬래시 표기로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -602,24 +602,24 @@
         <correct_choice_text>무선 WEP(Wired Equivalent Privacy)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 랜(LAN), 화 과정에서 24비트의 IV(Initial Vector), 무선 WEP(Wired Equivalent Privacy), 무선 WPA2(Wi-Fi Protected Access 2))
-정답은 ①이다. 본 문항은 랜(LAN), 화 과정에서 24비트의 IV(Initial Vector), 무선 WEP(Wired Equivalent Privacy), 무선 WPA2(Wi-Fi Protected Access 2)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · WEP
+정답은 ①이다. WEP는 무선랜 보안을 위해 RC4 스트림 암호와 24비트 IV를 사용한다. IV가 짧아 재사용되기 쉬워 취약하다. WPA2는 AES 기반 CCMP를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>무선 WEP(Wired Equivalent Privacy)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>무선, WEP이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>무선 WPA2(Wi-Fi Protected Access 2)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>WPA2는 AES를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>유선 WEP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>WEP는 무선랜 보안 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유선 WPA2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>유선 보안 방식이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -637,24 +637,24 @@
         <correct_choice_text>SSL VPN은 SA(Security Association)를 생성하기 위해 IKE(Internet Key Exchange)를 사용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: VPN(Virtual Private Network), SSL VPN은 SA(Security Association), 를 생성하기 위해 IKE(Internet Key Exchange))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · VPN
+정답은 ④이다. VPN은 터널링과 암호화로 공중망에서 사설망처럼 통신하게 하며, PPTP, L2TP, IPSec, SSL 등을 사용한다. IKE로 SA를 생성하는 것은 IPSec VPN이고, SSL VPN은 SSL/TLS 핸드셰이크를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>VPN 구현을 위해 터널링 기술을 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>터널링 사용으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>기밀성을 제공하기 위해 암호화 기술을 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>암호화 사용으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>VPN 구현을 위해 PPTP, L2TP 등을 사용할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>2계층 터널링 프로토콜로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>SSL VPN은 SA(Security Association)를 생성하기 위해 IKE(Internet Key Exchange)를 사용한다.</choice_text>
-          <commentary>'SSL VPN'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>IKE는 IPSec이 사용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -671,24 +671,24 @@
         <correct_choice_text>관리자는 에이전트로부터 정보를 가져올 수 있으나, 에이전트에 있는 정보를 설정할 수 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 에이전트(agent), 대한 경고 메시지를 관리자(manager))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · SNMP
+정답은 ④이다. SNMP는 UDP 위에서 동작하는 네트워크 관리 프로토콜이다. 관리자는 Get으로 정보를 가져오고 Set으로 에이전트의 정보를 설정할 수 있으며, 에이전트는 Trap으로 경고를 보낸다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>네트워크 관리에 필요한 정보를 주고받기 위해 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>네트워크 관리 정보 교환으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>하위 계층 프로토콜로 UDP를 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP 161·162번 포트를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>에이전트(agent)는 비정상적인 상황에 대한 경고 메시지를 관리자(manager)에게 보낼 수 있다.</choice_text>
-          <commentary>'에이전트(agent)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Trap 메시지로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>관리자는 에이전트로부터 정보를 가져올 수 있으나, 에이전트에 있는 정보를 설정할 수 없다.</choice_text>
-          <commentary>'관리자'에 관하여 '할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>Set으로 설정할 수 있으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -707,24 +707,24 @@
         <correct_choice_text>새 IP 헤더 ESP 헤더 기존 IP 헤더</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 네트워크보안 · 핵심 개념·이론 이해형 (핵심어: 터널, 모드, 동작하, 프로토콜에서)
-정답은 ④이다. 본 문항은 터널, 모드, 동작하, 프로토콜에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 네트워크보안 · ESP 터널 모드 패킷 구조
+정답은 ④이다. ESP 터널 모드는 원래 패킷 전체를 보호하기 위해 앞에 새 IP 헤더를 붙인다. 패킷 구조는 새 IP 헤더 → ESP 헤더 → 기존 IP 헤더 → TCP → 데이터 → ESP 트레일러 순이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ESP 헤더 기존 IP 헤더 새 IP 헤더</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ESP 헤더 새 IP 헤더 기존 IP 헤더</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>새 IP 헤더 기존 IP 헤더 ESP 헤더</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>새 IP 헤더 ESP 헤더 기존 IP 헤더</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>새 IP 헤더, ESP 헤더, 기존 IP 헤더이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

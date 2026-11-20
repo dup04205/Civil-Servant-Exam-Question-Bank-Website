@@ -30,24 +30,24 @@
         <correct_choice_text>ASLR</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 프로그램, 실행될, 때마다, 해당)
-정답은 ③이다. 본 문항은 프로그램, 실행될, 때마다, 해당에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · ASLR
+정답은 ③이다. ASLR은 프로그램이 실행될 때마다 스택, 힙, 공유 라이브러리 등의 메모리 주소를 무작위로 배치하여 공격자가 주소를 예측하기 어렵게 하는 기능이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DLL</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DLL은 동적 연결 라이브러리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Canary</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Canary는 스택 변조를 탐지하는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ASLR</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ASLR이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Packing</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Packing은 실행 파일 압축·암호화 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>crontab</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 어떠한, 작업, 주기적으, 실행시키기)
-정답은 ④이다. 본 문항은 어떠한, 작업, 주기적으, 실행시키기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · crontab
+정답은 ④이다. crontab은 분·시·일·월·요일을 지정하여 작업을 주기적으로 실행하도록 예약하는 명령이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>wc</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>wc는 단어·줄 수를 센다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ps</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ps는 프로세스 상태를 표시한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>df</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>df는 디스크 사용량을 표시한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>crontab</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>crontab이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -99,24 +99,24 @@
         <correct_choice_text>passwd /etc/shadow SetUID</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 적으로 파일 소유자인 관리자(root))
-정답은 ③이다. 본 문항은 적으로 파일 소유자인 관리자(root)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · passwd와 SetUID
+정답은 ③이다. passwd 명령은 root 소유이고 SetUID가 설정되어 있어, 일반 사용자가 실행해도 일시적으로 root 권한을 얻어 root만 접근할 수 있는 /etc/shadow 파일의 패스워드를 수정할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>passwrd /etc/shadow SetUID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>명령어 이름이 passwd이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>passwrd /etc/passwd SetRID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SetRID라는 권한은 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>passwd /etc/shadow SetUID</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>passwd, /etc/shadow, SetUID이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>passwd /etc/shadow SetRID</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SetRID라는 권한은 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -133,24 +133,24 @@
         <correct_choice_text>-rw-r--r--</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 파일(file1), 022)
-정답은 ③이다. 본 문항은 파일(file1), 022에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · umask
+정답은 ③이다. 파일의 기본 권한은 666이며 umask 022를 적용하면 666 - 022 = 644가 되어 -rw-r--r--이다. 디렉터리는 777에서 빼므로 755가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>-rwxr-xr-x</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>755는 디렉터리의 권한이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>-r-xrwxrwx</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권한 계산이 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>-rw-r--r--</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>-rw-r--r--(644)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>-rw-------</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>600은 umask 066일 때이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -166,24 +166,24 @@
         <correct_choice_text>utmp 로그는 특정 시간에 로그인한 사용자의 정보를 텍스트 형태로 기록한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 유닉스/리눅스 시스템의 로그 파일)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 유닉스 로그 파일
+정답은 ①이다. utmp는 현재 로그인한 사용자의 정보를 바이너리 형태로 기록하며 w, who 명령으로 확인한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>utmp 로그는 특정 시간에 로그인한 사용자의 정보를 텍스트 형태로 기록한다.</choice_text>
-          <commentary>'utmp 로그'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>텍스트가 아니라 바이너리 형태이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>wtmp 로그는 사용자의 로그인, 로그아웃, 시스템 재부팅 정보를 바이너리 형태로 기록한다.</choice_text>
-          <commentary>'wtmp 로그'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>wtmp는 로그인·로그아웃·재부팅 정보를 바이너리로 기록한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>su 로그는 su 명령어 수행에 따른 권한 변경 시도 및 변경 정보를 텍스트 형태로 기록한다.</choice_text>
-          <commentary>'su 로그'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>sulog는 su 사용 정보를 텍스트로 기록한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>pacct 로그는 시스템에 로그인한 모든 사용자가 수행한 프로그램의 정보를 바이너리 형태로 기록한다.</choice_text>
-          <commentary>'pacct 로그'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>pacct는 사용자 수행 명령을 바이너리로 기록한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -201,24 +201,24 @@
         <correct_choice_text>(다) → (라) → (나) → (가)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: UDP 사용자 데이터그램(user datagram), 포트 번호 67에 수동 개방(passive open), 포트 번호 68에 능동 개방(active open))
-정답은 ②이다. 본 문항은 UDP 사용자 데이터그램(user datagram), 포트 번호 67에 수동 개방(passive open), 포트 번호 68에 능동 개방(active open)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · DHCP 동작 과정
+정답은 ②이다. DHCP 서버가 먼저 UDP 67번 포트를 수동 개방하여 대기하고, 부팅된 클라이언트가 68번 포트를 능동 개방한 뒤 메시지를 UDP·IP 데이터그램으로 캡슐화하여 보내면, 서버는 목적지 68·발신지 67 포트로 응답한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(다) → (나) → (라) → (가)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(나)와 (라)의 순서가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>(다) → (라) → (나) → (가)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(다) → (라) → (나) → (가)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(라) → (다) → (가) → (나)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>서버가 먼저 수동 개방해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(라) → (다) → (나) → (가)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>서버가 먼저 수동 개방해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -237,24 +237,24 @@
         <correct_choice_text>블루프린팅 블루스나핑 블루버깅</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 블루재킹(Bluejacking), 블루스나핑(Bluesnarfing), 블루프린팅(Blueprinting), 루스나핑 블루프린팅 블루버깅(Bluebugging))
-정답은 ④이다. 본 문항은 블루재킹(Bluejacking), 블루스나핑(Bluesnarfing), 블루프린팅(Blueprinting), 루스나핑 블루프린팅 블루버깅(Bluebugging)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 블루투스 공격
+정답은 ④이다. 블루프린팅은 공격 대상 블루투스 장치를 검색하는 활동이고, 블루스나핑은 취약점을 이용해 장치의 정보에 접근하는 공격이며, 블루버깅은 취약한 연결 관리를 악용해 장치를 원격 제어하는 공격이다. 블루재킹은 스팸 메시지를 보내는 공격이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>블루재킹(Bluejacking) 블루스나핑(Bluesnarfing) 블루프린팅(Blueprinting)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)와 (다)가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>블루프린팅 블루스나핑 블루재킹</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(다)가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>블루스나핑 블루프린팅 블루버깅(Bluebugging)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>(가)와 (나)가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>블루프린팅 블루스나핑 블루버깅</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>블루프린팅, 블루스나핑, 블루버깅이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -270,24 +270,24 @@
         <correct_choice_text>EBP</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 용어)
-정답은 ④이다. 본 문항은 용어에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · EBP
+정답은 ④이다. EBP(베이스 포인터)는 현재 스택 프레임의 기준 주소를 가리키며, 매개변수와 지역변수는 EBP 기준 오프셋으로 접근한다. ESP는 스택의 최상단, EIP는 다음 실행 명령 주소를 가리킨다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ESI</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ESI는 출발지 인덱스 레지스터이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>EAX</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>EAX는 누산기 레지스터이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ECX</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ECX는 카운터 레지스터이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>EBP</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>EBP이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -303,24 +303,24 @@
         <correct_choice_text>루트킷</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 용어)
-정답은 ④이다. 본 문항은 용어에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 루트킷
+정답은 ④이다. 루트킷은 공격자가 시스템 제어를 유지하기 위해 설치하는 도구 모음으로, ls, ps 등 정상 명령어를 변조하여 공격자의 파일·디렉터리·프로세스를 숨기는 것 외에는 정상적으로 동작한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>랜섬웨어</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>랜섬웨어는 데이터를 암호화해 금전을 요구한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>키로거</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>키로거는 키 입력을 가로챈다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>웜</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>웜은 스스로 전파하는 악성코드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>루트킷</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>루트킷이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -336,24 +336,24 @@
         <correct_choice_text>Authorization은 지문 인식 시스템에 손가락을 댈 때 지문 자체를 의미한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: AAA)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · AAA
+정답은 ②이다. Authentication은 신원 증명, Authorization은 인증된 사용자에게 접근 권한을 부여하는 것, Accounting은 사용 내역을 기록하여 추적하는 것이다. 지문 자체는 인증 수단이며 권한 부여와 관계가 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Authentication은 자신의 신원을 시스템에 증명하는 과정을 의미한다.</choice_text>
-          <commentary>'Authentication'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인증의 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>Authorization은 지문 인식 시스템에 손가락을 댈 때 지문 자체를 의미한다.</choice_text>
-          <commentary>'Authorization'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권한 부여의 설명이 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Accounting은 시스템에 접근한 사용자 추적에 활용될 수 있다.</choice_text>
-          <commentary>'Accounting'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>계정 관리는 사용자 추적에 활용된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Accounting은 로그인했을 때 시스템이 이에 대한 기록을 남기는 활동을 의미한다.</choice_text>
-          <commentary>'Accounting'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>접속 기록을 남기는 활동이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -372,24 +372,24 @@
         <correct_choice_text>전자 서명(digital signature)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 전자 서명(digital signature), 대칭키 암호화(symmetric encryption), 앨리어스(alias), 커버로스(Kerberos))
-정답은 ①이다. 본 문항은 전자 서명(digital signature), 대칭키 암호화(symmetric encryption), 앨리어스(alias), 커버로스(Kerberos)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 송신 부인방지
+정답은 ①이다. 송신자의 개인키로 생성한 전자 서명은 송신자만 만들 수 있으므로 송신자가 메시지 전송 사실을 부인할 수 없게 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>전자 서명(digital signature)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전자 서명이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>대칭키 암호화(symmetric encryption)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대칭키는 양측이 같은 키를 가져 부인방지를 제공하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>앨리어스(alias)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>앨리어스는 별칭 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>커버로스(Kerberos)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>커버로스는 인증 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -408,24 +408,24 @@
         <correct_choice_text>Something You Have</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 기기, 어떤, 수단, 해당하는)
-정답은 ②이다. 본 문항은 기기, 어떤, 수단, 해당하는에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 소유 기반 인증
+정답은 ②이다. OTP 기기는 사용자가 소지한 장치로 일회용 비밀번호를 생성하므로 소유 기반 인증(Something You Have)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Something You Know</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지식 기반은 패스워드 등이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Something You Have</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>소유 기반이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Something You Are</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>생체 기반은 지문 등이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Something You Do</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>행위 기반은 서명 습관 등이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -443,24 +443,24 @@
         <correct_choice_text>Injection</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 발표된, 항목, 해당되)
-정답은 ④이다. 본 문항은 발표된, 항목, 해당되에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · Injection
+정답은 ④이다. Injection은 신뢰할 수 없는 데이터가 명령어나 질의문의 일부로 인터프리터에 전달될 때 발생하는 취약점으로, SQL·OS 명령어·LDAP 삽입 등이 해당한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Broken Access Control</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>접근 통제 취약점이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Broken Authentication</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인증 취약점이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Sensitive Data Exposure</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>민감 데이터 노출이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Injection</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Injection이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -479,24 +479,24 @@
         <correct_choice_text>Stored XSS</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 설명, 따라, 진행되, 공격)
-정답은 ①이다. 본 문항은 설명, 따라, 진행되, 공격에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · Stored XSS
+정답은 ①이다. 악성 스크립트를 서버에 저장해 두고 이를 요청한 희생자의 브라우저에서 실행되게 하는 방식은 저장형(Stored) XSS이다. 반사형은 요청에 포함된 스크립트가 응답으로 즉시 되돌아오는 방식이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>Stored XSS</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Stored XSS이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Reflected XSS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Reflected XSS는 서버에 저장되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Brute Force</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Brute Force는 대입 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Buffer Overflow</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Buffer Overflow는 메모리 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -513,24 +513,24 @@
         <correct_choice_text>로그인한 사용자 브라우저로 하여금 사용자의 세션 쿠키와 기타 인증 정보를 포함하는 위조된 HTTP 요청을 전송할 수 있는 취약점이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: CSRF, 조작된 XPath(XML Path Language))
-정답은 ④이다. 본 문항은 CSRF, 조작된 XPath(XML Path Language)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · CSRF
+정답은 ④이다. CSRF는 로그인한 사용자의 브라우저가 세션 쿠키 등 인증 정보를 포함한 위조된 HTTP 요청을 전송하도록 만드는 취약점이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>취약한 컴포넌트를 악용하여 공격하면 데이터 손실이나 서버 장악 문제가 발생할 수 있는 취약점이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>취약한 컴포넌트 사용의 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>조작된 XPath(XML Path Language) 쿼리를 보냄으로써 비정상적인 데이터를 쿼리를 이용해 가져올 수 있는 취약점이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>XPath 삽입의 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>적절히 보호되지 않은 쿠키를 사용하여, 쿠키 값 변조를 통한 다른 사용자로의 위장 및 권한 상승 등이 가능한 취약점이다.</choice_text>
-          <commentary>'적절히 보호되지 않'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>쿠키 변조의 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>로그인한 사용자 브라우저로 하여금 사용자의 세션 쿠키와 기타 인증 정보를 포함하는 위조된 HTTP 요청을 전송할 수 있는 취약점이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>CSRF의 설명으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -549,24 +549,24 @@
         <correct_choice_text>Tripwire</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 다음에서, 설명하, 검사, 도구)
-정답은 ①이다. 본 문항은 다음에서, 설명하, 검사, 도구에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · Tripwire
+정답은 ①이다. Tripwire는 특정 시점의 파일 정보와 해시값을 기준 자료로 저장한 뒤 주기적으로 비교하여 파일의 생성·수정·삭제와 위변조 여부를 알려주는 무결성 점검 도구이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>Tripwire</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Tripwire이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Burp Suite</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Burp Suite는 웹 프록시 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Snort</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Snort는 네트워크 침입탐지 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NESSUS</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Nessus는 취약점 스캐너이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -582,24 +582,24 @@
         <correct_choice_text>robots.txt 파일은 웹 루트 디렉터리에 위치한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: robots.txt 파일)
-정답은 ①이다. 본 문항은 robots.txt 파일에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · robots.txt
+정답은 ①이다. robots.txt는 웹 루트 디렉터리에 두어 검색 로봇의 수집 허용 여부를 지정하는 파일이다. User-agent는 검색 로봇의 종류를, Disallow는 접근을 금지할 경로를 지정하며 함께 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>robots.txt 파일은 웹 루트 디렉터리에 위치한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>웹 루트에 위치하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>User-agent는 접근거부 디렉터리를 나타내는 키워드이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>User-agent는 로봇 종류를 지정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Disallow는 검색 엔진 종류를 나타내는 키워드이다.</choice_text>
-          <commentary>'Disallow'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Disallow는 금지 경로를 지정한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>User-agent와 Disallow는 동시에 사용할 수 없다.</choice_text>
-          <commentary>'할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>두 키워드는 함께 사용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -618,24 +618,24 @@
         <correct_choice_text>(가)는 시스템 부팅 시마다 새롭게 부여되는 시스템 ID이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 운영체제, 설치된, 시스템에서, 출력한)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · Windows SID
+정답은 ①이다. SID 출력 화면을 확인할 수 없으며, 공식 정답에 따르면 (가)는 시스템(도메인)의 고유 식별자로 설치 시 부여되어 부팅할 때마다 바뀌지 않는다. (나)는 RID로 500은 Administrator, 501은 Guest, 일반 사용자는 1000 이상이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>(가)는 시스템 부팅 시마다 새롭게 부여되는 시스템 ID이다.</choice_text>
-          <commentary>'(가)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부팅 시마다 새로 부여되지 않으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>(나)는 RID를 나타내며, 500의 경우 Administrator임을 의미한다.</choice_text>
-          <commentary>'(나)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>500은 Administrator이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>(나)는 RID를 나타내며, 501의 경우 Guest임을 의미한다.</choice_text>
-          <commentary>'(나)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>501은 Guest이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>(나)는 RID를 나타내며, 일반 사용자에게는 1,000 이상의 숫자가 부여된다.</choice_text>
-          <commentary>'(나)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>일반 사용자는 1000 이상이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -654,24 +654,24 @@
         <correct_choice_text>(가) → (나) → (라) → (다)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 디지털, 포렌식, 절차에서, 사전준비)
-정답은 ②이다. 본 문항은 디지털, 포렌식, 절차에서, 사전준비에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · 디지털 포렌식 절차
+정답은 ②이다. 디지털 포렌식은 사전준비 → 증거 수집 → 보관 및 이송 → 증거 분석 및 조사 → 보고서 작성 순으로 진행된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (다) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분석이 보고서 작성보다 먼저이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>(가) → (나) → (라) → (다)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(가) → (나) → (라) → (다)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(나) → (가) → (다) → (라)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수집이 이송보다 먼저이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(나) → (라) → (가) → (다)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수집이 이송보다 먼저이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -688,24 +688,24 @@
         <correct_choice_text>연도 일련번호</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 정보시스템보안 · 핵심 개념·이론 이해형 (핵심어: 용어, 연결한)
-정답은 ④이다. 본 문항은 용어, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 정보시스템보안 · CVE 표기
+정답은 ④이다. CVE 식별자는 CVE-연도-일련번호 형식(예: CVE-2021-44228)으로 구성된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>일련번호 소프트웨어 버전</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연도가 먼저이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>연도 소프트웨어 버전</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>소프트웨어 버전은 포함되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>일련번호 연도</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>연도 일련번호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>연도, 일련번호이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

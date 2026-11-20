@@ -28,25 +28,24 @@
         <correct_choice_text>코사인 함수의 푸리에 변환은 사인 함수 모양을 갖는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 푸리에 변환, delta ( t ))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\delta ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 푸리에 변환
+정답은 ③이다. sinc 함수와 사각파는 서로 푸리에 변환 쌍이고, δ(t)의 푸리에 변환은 1이다. 주기 임펄스열의 푸리에 변환은 주파수 영역에서도 주기 임펄스열이다. cos(2πf₀t)의 푸리에 변환은 (1/2)[δ(f - f₀) + δ(f + f₀)]로 두 개의 임펄스이며, 사인 함수 모양이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>sinc 함수의 푸리에 변환은 사각파 함수 모양을 갖는다.</choice_text>
-          <commentary>'sinc 함수의 푸리에 변환'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사각파 모양이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>임펄스 함수 $\delta ( t )$의 푸리에 변환은 1이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>코사인 함수의 푸리에 변환은 사인 함수 모양을 갖는다.</choice_text>
-          <commentary>'코사인 함수의 푸리에 변환'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>코사인의 변환은 ±f₀의 임펄스이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>주기 임펄스 함수의 푸리에 변환은 주기 임펄스 함수 모양을 갖는다.</choice_text>
-          <commentary>'주기 임펄스 함수의 푸리에 변환'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주기 임펄스열이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -62,24 +61,24 @@
         <correct_choice_text>SSB(single sideband)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: SSB(single sideband))
-정답은 ③이다. 본 문항은 SSB(single sideband)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 변조 방식별 대역폭
+정답은 ③이다. 메시지 대역폭을 W라 하면 DSB-SC와 DSB-TC(AM)는 2W, 협대역 FM은 약 2W, SSB는 한쪽 측파대만 전송하므로 W로 가장 좁다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DSB-SC(double sideband-suppressed carrier)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭이 2W이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DSB-TC(double sideband-transmitted carrier)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭이 2W이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSB(single sideband)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대역폭이 W로 가장 좁으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>협대역 FM(narrow band frequency modulation)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭이 약 2W이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -95,24 +94,24 @@
         <correct_choice_text>자유공간 경로 손실은 주파수가 낮을수록 증가하는 경향이 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 마이크로파)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 마이크로파의 특성
+정답은 ④이다. 자유공간 경로손실은 L = (4πdf/c)²로 주파수의 제곱에 비례하므로, 주파수가 높을수록 커진다. 마이크로파는 강우 등으로 감쇠되고, 파장이 짧아 고지향성 안테나를 소형화하기 쉬우며, 위성통신과 레이더에 쓰인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비, 눈, 안개 등 기상조건에 따라 감쇠될 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>강우 감쇠가 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>단파에 비하여 고지향성을 갖는 안테나의 소형화에 유리하다.</choice_text>
-          <commentary>'단파에 비하여 고지향성을 갖'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파장이 짧아 소형화에 유리하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>마이크로파 응용 분야로는 위성통신, 레이더 등이 있다.</choice_text>
-          <commentary>'마이크로파 응용 분야로'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대표 응용 분야로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>자유공간 경로 손실은 주파수가 낮을수록 증가하는 경향이 있다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳지 않은 서술이다.</commentary>
+          <commentary>주파수가 높을수록 손실이 증가하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -131,24 +130,24 @@
         <correct_choice_text>신호의 전력이 10배가 된다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 신호, 전력, 증가한다, 의미)
-정답은 ④이다. 본 문항은 신호, 전력, 증가한다, 의미에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 데시벨
+정답은 ④이다. 전력비의 데시벨은 10log₁₀(P₂/P₁)이다. 10 dB = 10log₁₀(P₂/P₁)이면 P₂/P₁ = 10이므로 전력이 10배가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 변함없다.</choice_text>
-          <commentary>'신호의 전력'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0 dB의 의미이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 2배가 된다.</choice_text>
-          <commentary>'신호의 전력'에 관하여 제시된 '2배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>약 3 dB에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 5배가 된다.</choice_text>
-          <commentary>'신호의 전력'에 관하여 제시된 '5배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>약 7 dB에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>신호의 전력이 10배가 된다.</choice_text>
-          <commentary>'신호의 전력'에 관하여 '10배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>10배이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -167,24 +166,24 @@
         <correct_choice_text>HF(high frequency)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: HF(high frequency), VHF(very high frequency), UHF(ultra high frequency), SHF(super high frequency))
-정답은 ①이다. 본 문항은 HF(high frequency), VHF(very high frequency), UHF(ultra high frequency), SHF(super high frequency)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 전리층 반사
+정답은 ①이다. HF(3~30 MHz) 대역의 단파는 전리층(F층)에서 반사되어 원거리 통신에 쓰인다. VHF 이상은 대체로 전리층을 투과하므로 가시거리 통신이나 위성통신에 쓰인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>HF(high frequency)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>HF이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>VHF(very high frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전리층을 대부분 투과한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>UHF(ultra high frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전리층을 투과한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SHF(super high frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전리층을 투과한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -201,24 +200,24 @@
         <correct_choice_text>직류성분이 없을 때만 사용이 가능하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 인 VSB(vestigial sideband), 측파대 성형필터(VSB-shaping filter))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · VSB 변조
+정답은 ②이다. VSB는 한쪽 측파대 전체와 다른 쪽 측파대 일부를 전송하는 방식으로, 대역폭은 W + 0.25W = 1.25W로 DSB(2W)보다 좁다. 측파대 성형필터를 사용하며, 저주파·직류 성분이 있는 신호도 전송할 수 있어 아날로그 TV 영상 전송에 쓰였다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>측파대 성형필터(VSB-shaping filter)를 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>성형필터를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>직류성분이 없을 때만 사용이 가능하다.</choice_text>
-          <commentary>'직류성분'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>직류성분이 있어도 전송할 수 있으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DSB 방식보다 더 좁은 대역폭이 사용된다.</choice_text>
-          <commentary>'DSB 방식보다 더 좁'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1.25W로 좁으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>텔레비전 신호를 전송하기에 알맞다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>TV 영상 전송에 쓰였으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -235,25 +234,24 @@
         <correct_choice_text>$\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: m ( t ), M ( f ))
-정답은 ①이다. 본 문항은 m ( t ), M ( f )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t )$; $\cos ( 2 \pi f_{c} t )$; $m ( t )$; $M ( f )$; $\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · DSB-SC의 스펙트럼
+정답은 ①이다. m(t)cos(2πf_ct) = (1/2)m(t)[e^(j2πf_ct) + e^(-j2πf_ct)]이므로 주파수 천이 성질에 따라 푸리에 변환은 (1/2)[M(f - f_c) + M(f + f_c)]이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주파수 천이 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} M ( f )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기저대역 성분만 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$M ( f )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>변조되지 않은 스펙트럼이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$ ＋ $\frac{1}{2} M ( f )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기저대역 성분이 추가로 포함되어 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -272,24 +270,24 @@
         <correct_choice_text>송신 파형의 펄스폭</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 펄스파, 레이더, 거리, 분해능)
-정답은 ①이다. 본 문항은 펄스파, 레이더, 거리, 분해능에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 레이더 거리 분해능
+정답은 ①이다. 펄스 레이더의 거리 분해능은 ΔR = cτ/2로 펄스폭 τ에 비례한다. 펄스폭이 짧을수록 가까이 있는 두 표적을 구분할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>송신 파형의 펄스폭</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>펄스폭이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>송신 신호의 전력</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전력은 탐지거리에 영향을 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>송신 안테나 이득</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>안테나 이득은 탐지거리에 영향을 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>송신 펄스 반복 주파수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반복 주파수는 최대 비모호 거리에 영향을 준다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -308,24 +306,24 @@
         <correct_choice_text>선형성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 안테나, 성능, 나타내, 지표)
-정답은 ④이다. 본 문항은 안테나, 성능, 나타내, 지표에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 안테나 성능 지표
+정답은 ④이다. 안테나의 성능은 이득, 효율, 지향성, 빔폭, 대역폭, 임피던스 정합, 편파 등으로 나타낸다. 선형성은 증폭기 등 능동회로의 성능 지표이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>이득</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>안테나 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>효율</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>안테나 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>지향성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>안테나 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>선형성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>안테나 지표가 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -342,25 +340,24 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 로 신호를 PCM(pulse coded modulation), 표본당 비트(bit))
-정답은 ③이다. 본 문항은 로 신호를 PCM(pulse coded modulation), 표본당 비트(bit)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\cos$; $pit$; $\sin$; $pit$; $\pi$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · PCM 표본당 비트 수
+정답은 ③이다. cos(16,000πt)는 8 kHz, sin(4,000πt + π)는 2 kHz이므로 최고 주파수는 8 kHz이다. 나이퀴스트 표본화율은 2 × 8 = 16,000 samples/s이다. 전송률 16,000 byte/s = 128,000 bit/s이므로 표본당 비트 수는 128,000/16,000 = 8 bit이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>8비트이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -379,25 +376,24 @@
         <correct_choice_text>파장이 1 ～ 10 [μm]인 신호는 마이크로파이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 설명, 전파, 속도, 이다)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 전파의 분류와 안테나 길이
+정답은 ①이다. 마이크로파의 파장은 대략 1 mm~1 m이며, 1~10 μm는 적외선 영역이다. 밀리미터파는 1~10 mm이다. 300 MHz에서 λ = 3 × 10⁸/3 × 10⁸ = 1 m이므로 1/4 파장 모노폴의 길이는 25 cm이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>파장이 1 ～ 10 [μm]인 신호는 마이크로파이다.</choice_text>
-          <commentary>'파장'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>적외선 영역이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>파장이 1 ～ 10 [mm]인 신호는 밀리미터파이다.</choice_text>
-          <commentary>'파장'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>밀리미터파의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동작 주파수가 높을수록 안테나의 크기를 줄일 수 있다.</choice_text>
-          <commentary>'동작 주파수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파장이 짧아지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>자유공간에서 주파수가 300 [MHz]인 신호에 대한 1 4 파장 모노폴 안테나의 길이는 25 [cm]이다.</choice_text>
-          <commentary>'자유공간에서 주파수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>λ/4 = 25 cm이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -413,24 +409,24 @@
         <correct_choice_text>변조된 신호의 진폭이 일정하므로 비선형 왜곡에 강하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 아날로그 FM 변조기법의 특성)
-정답은 ①이다. 본 문항은 아날로그 FM 변조기법의 특성에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · FM 변조의 특성
+정답은 ①이다. FM 신호는 진폭이 일정하므로 비선형 증폭기에서도 왜곡이 적다. 최대 주파수 편이 Δf는 정보신호의 진폭에 비례하므로 대역폭은 진폭에 따라 달라진다. Carson 법칙 B ≈ 2(Δf + W)에는 정보신호 대역폭 W가 포함되며, FM은 비선형 변조이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>변조된 신호의 진폭이 일정하므로 비선형 왜곡에 강하다.</choice_text>
-          <commentary>'변조된 신호의 진폭'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>진폭이 일정해 비선형 왜곡에 강하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정보신호의 진폭에 상관없이 변조된 신호의 대역폭이 일정하다.</choice_text>
-          <commentary>'정보신호의 진폭에 상관없'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭은 진폭에 따라 달라진다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Carson의 법칙으로 근사화할 경우 변조된 신호의 대역폭은 기저대역 정보신호의 대역폭과 상관없다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>W에 따라 달라진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>변조지수에 상관없이 기저대역 정보신호와 변조된 신호가 선형관계를 갖는다.</choice_text>
-          <commentary>'변조지수에 상관없'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>FM은 비선형 변조이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,25 +442,24 @@
         <correct_choice_text>220</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: m ( t ))
-정답은 ②이다. 본 문항은 m ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t )$; $f_{i} ( t ) = 10^{8} + 10^{5} m ( t )$; $\left | m ( t ) \right |$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · Carson 법칙
+정답은 ②이다. 최대 주파수 편이는 Δf = 10⁵ × 1 = 100 kHz이고, 정보신호 주파수는 W = 10 kHz이다. Carson 법칙에 따라 B ≈ 2(Δf + W) = 2(100 + 10) = 220 kHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2Δf만 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>220</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>220 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>240</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>260</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -483,24 +478,24 @@
         <correct_choice_text>9배</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 자유공간에서, 무지향성, 송신, 안테나와)
-정답은 ④이다. 본 문항은 자유공간에서, 무지향성, 송신, 안테나와에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 자유공간 전파 손실
+정답은 ④이다. 프리스 공식에서 수신전력은 거리의 제곱에 반비례한다. 거리가 3 km에서 9 km로 3배 늘어나면 손실이 3² = 9배 커지므로, 같은 수신전력을 얻으려면 송신전력을 9배로 늘려야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 2 배</choice_text>
-          <commentary>제시된 '2 배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2배</choice_text>
-          <commentary>제시된 '2배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3배</choice_text>
-          <commentary>제시된 '3배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>거리 비만 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>9배</choice_text>
-          <commentary>'9배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>9배이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,24 +514,24 @@
         <correct_choice_text>4개</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 무선항법시스템에서, 차원, 위치정보와, 수신기)
-정답은 ②이다. 본 문항은 무선항법시스템에서, 차원, 위치정보와, 수신기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 위성항법의 최소 위성 수
+정답은 ②이다. 수신기의 3차원 위치(x, y, z)와 수신기 시계오차까지 미지수가 4개이므로 최소 4개 위성의 의사거리 측정이 필요하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3개</choice_text>
-          <commentary>제시된 '3개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>시간오차를 구할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4개</choice_text>
-          <commentary>'4개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>4개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5개</choice_text>
-          <commentary>제시된 '5개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>최소 개수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6개</choice_text>
-          <commentary>제시된 '6개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>최소 개수가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -555,24 +550,24 @@
         <correct_choice_text>클러스터 크기가 작아질수록 각 셀에 할당되는 채널 수는 감소한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 가용, 채널, 정해진, 셀룰러)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 주파수 재사용
+정답은 ②이다. 총 채널 수를 S, 클러스터 크기를 N이라 하면 셀당 채널 수는 S/N이다. 클러스터 크기가 작아지면 셀당 채널 수는 증가한다. 클러스터가 클수록 동일채널 셀 간 거리가 멀어져 간섭이 감소한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>클러스터 크기가 증가할수록 동일채널 간섭이 감소한다.</choice_text>
-          <commentary>'클러스터 크기'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>재사용 거리가 커지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>클러스터 크기가 작아질수록 각 셀에 할당되는 채널 수는 감소한다.</choice_text>
-          <commentary>'클러스터 크기'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>셀당 채널 수는 증가하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>한정된 주파수 자원으로 가입자 수를 증가시키기 위한 방법이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주파수 재사용의 목적으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일채널 간섭을 줄이기 위하여 인접한 셀들은 서로 다른 주파수 대역을 사용한다.</choice_text>
-          <commentary>'동일채널 간섭을 줄이기 위하여 인접한 셀들'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인접 셀은 다른 주파수를 쓰므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,24 +583,24 @@
         <correct_choice_text>일정한 통신품질 제공을 위하여 정지궤도 위성은 하루에 2회 지구를 공전한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 지구국과 위성 간 통신시스템의 특성)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 위성통신의 특성
+정답은 ④이다. 정지궤도 위성은 지구 자전 주기와 같은 약 24시간에 한 번 공전하여 지상에서 정지한 것처럼 보인다. 저궤도 위성은 상대 속도가 커 도플러 편이가 크고, 정지궤도 위성은 거리가 멀어 지연이 길다. 태양 잡음 간섭(sun outage)처럼 정렬 상태에 따라 품질이 변하기도 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성은 정지궤도 위성보다 도플러 편이가 크다.</choice_text>
-          <commentary>'저궤도 위성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>상대 속도가 커서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정지궤도 위성은 저궤도 위성보다 전송 지연이 길다.</choice_text>
-          <commentary>'정지궤도 위성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>약 36,000 km 거리로 지연이 길어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>태양, 지구, 위성의 정렬 상태에 따라 통신품질이 변할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>태양 간섭 현상으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>일정한 통신품질 제공을 위하여 정지궤도 위성은 하루에 2회 지구를 공전한다.</choice_text>
-          <commentary>'일정한 통신품질 제공을 위하여 정지궤도 위성'에 관하여 제시된 '2회' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>하루에 1회 공전하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -621,24 +616,24 @@
         <correct_choice_text>최대 탐지거리는 송신 펄스의 주기에 반비례한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 펄스파 레이더)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 펄스 레이더
+정답은 ②이다. 레이더 방정식에서 최대 탐지거리는 R_max ∝ (P_tG²σλ²)^(1/4)로 안테나 이득과 유효 반사면적이 클수록 커진다. 최대 비모호 거리는 R = cT/2로 펄스 반복 주기 T에 비례하므로, 주기에 반비례한다는 설명은 틀렸다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>안테나의 이득이 클수록 최대 탐지거리가 증가한다.</choice_text>
-          <commentary>'안테나의 이득'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이득이 클수록 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대 탐지거리는 송신 펄스의 주기에 반비례한다.</choice_text>
-          <commentary>'최대 탐지거리'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>펄스 주기에 비례하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>목표물의 유효 반사면적이 클수록 최대 탐지거리가 증가한다.</choice_text>
-          <commentary>'목표물의 유효 반사면적'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>반사면적이 클수록 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>표적으로부터 반사된 신호를 이용하여 표적과의 거리를 계산한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>반사파의 왕복 시간으로 거리를 계산하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -654,24 +649,24 @@
         <correct_choice_text>다중 안테나를 이용하여 송신 다이버시티 이득을 얻기 위해서는 송신 안테나 간 상관도가 클수록 효과적이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 이동통신시스템에 적용되는 기술)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 이동통신 기술
+정답은 ②이다. 송신 다이버시티는 각 안테나 경로의 페이딩이 독립적일수록, 즉 안테나 간 상관도가 낮을수록 효과가 크다. 공간다중화는 전송률을 높이고, OFDMA는 PAPR이 커서 하향링크에, SC-FDMA는 PAPR이 작아 상향링크에 적합하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>다중 안테나를 이용한 공간다중화기법으로 전송률을 높일 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공간다중화로 전송률이 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>다중 안테나를 이용하여 송신 다이버시티 이득을 얻기 위해서는 송신 안테나 간 상관도가 클수록 효과적이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상관도가 작을수록 효과적이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>OFDMA(orthogonal frequency division multiple access) 신호는 PAPR(peak-to-average-power ratio)이 큰 특성을 갖는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다중 부반송파 합성으로 PAPR이 커서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>SC-FDMA(single carrier-frequency division multiple access)는 OFDMA에 비해 PAPR이 작기 때문에 상향링크에 적합한 방식이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단말 전력 효율에 유리하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -688,24 +683,24 @@
         <correct_choice_text>IEEE 802.15.3a는 UWB 표준이며, 스펙트럼밀도가 낮다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: WPAN 통신 규격, 1은 UWB(ultra wideband))
-정답은 ③이다. 본 문항은 WPAN 통신 규격, 1은 UWB(ultra wideband)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · WPAN 규격
+정답은 ③이다. IEEE 802.15.1은 블루투스 표준이다. IEEE 802.15.3a는 고속 UWB 표준으로, 넓은 대역에 신호를 분산하므로 전력 스펙트럼밀도가 매우 낮아 다른 시스템과 공존할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.1은 UWB(ultra wideband) 표준이며, 스펙트럼밀도가 낮다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>802.15.1은 블루투스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.1은 UWB 표준이며, 스펙트럼밀도가 높다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>802.15.1은 블루투스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>IEEE 802.15.3a는 UWB 표준이며, 스펙트럼밀도가 낮다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UWB 표준이며 스펙트럼밀도가 낮으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.3a는 UWB 표준이며, 스펙트럼밀도가 높다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>UWB는 스펙트럼밀도가 낮다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -27,24 +27,24 @@
         <correct_choice_text>800 15</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 섀넌(Shannon))
-정답은 ④이다. 본 문항은 섀넌(Shannon)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 섀넌 채널 용량 비교
+정답은 ④이다. C = B log₂(1 + SNR)이다. ① 500 × log₂64 = 500 × 6 = 3,000 Mbps, ② 600 × log₂32 = 600 × 5 = 3,000 Mbps, ③ 400 × log₂128 = 400 × 7 = 2,800 Mbps, ④ 800 × log₂16 = 800 × 4 = 3,200 Mbps이다. 따라서 ④가 가장 크다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>500 63</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3,000 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>600 31</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3,000 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>400 127</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2,800 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>800 15</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3,200 Mbps로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -60,24 +60,24 @@
         <correct_choice_text>전파의 주파수가 높을수록 회절이 잘되고 낮을수록 직진성이 좋아진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 전파의 특성)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 전파의 특성
+정답은 ④이다. 주파수가 낮을수록(파장이 길수록) 장애물 뒤로 돌아가는 회절이 잘 일어나고, 주파수가 높을수록 직진성이 강해진다. 선지는 이를 반대로 서술하였다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>파장이란 주기적으로 변화하는 에너지 레벨이 한 주기 동안 진행한 거리이다.</choice_text>
-          <commentary>'파장이란 주기적으로 변화하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>파장의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>회절이란 경계면에 도달한 전파가 새로운 파원이 되어 진행하는 현상을 말한다.</choice_text>
-          <commentary>'회절이란 경계면에 도달한 전파'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>하위헌스 원리에 따른 회절의 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전파의 직진과 반사의 특성을 이용한 것으로는 레이더가 있다.</choice_text>
-          <commentary>'전파의 직진과 반사의 특성을 이용한 것으로'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>레이더의 원리로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>전파의 주파수가 높을수록 회절이 잘되고 낮을수록 직진성이 좋아진다.</choice_text>
-          <commentary>'전파의 주파수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주파수와 회절·직진성의 관계가 뒤바뀌어 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -93,24 +93,24 @@
         <correct_choice_text>단일반송파 전송 방식에 비해 최대전력 대 평균전력비(peak-to-average power ratio)가 낮다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 고속 푸리에 역변환(IFFT))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · OFDM의 특징
+정답은 ③이다. OFDM은 다수의 부반송파를 IFFT로 합성하므로, 위상이 맞을 때 큰 첨두가 생겨 PAPR이 단일반송파 방식보다 높다. 보호구간(CP)으로 심벌 간 간섭을 줄인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>다수 개의 부반송파를 사용하여 데이터를 전송한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다중 부반송파 전송으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>심벌 간 간섭을 완화하기 위해 보호구간을 삽입한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보호구간 삽입으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>단일반송파 전송 방식에 비해 최대전력 대 평균전력비(peak-to-average power ratio)가 낮다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PAPR이 높으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>고속 푸리에 역변환(IFFT)을 사용하여 OFDM 변조 기능을 구현할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>IFFT로 구현하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -126,24 +126,24 @@
         <correct_choice_text>일반적으로 상향링크보다 하향링크에서 더 높은 주파수를 사용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 위성통신)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 위성통신
+정답은 ④이다. 상향링크는 지구국의 송신전력이 크고 안테나가 커서 감쇠가 큰 높은 주파수를, 하향링크는 위성의 전력 제약 때문에 감쇠가 작은 낮은 주파수를 사용한다(예: C밴드 6/4 GHz). 앙각이 클수록 위성까지 거리가 짧아져 지연이 줄어든다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>위성과 지구국의 앙각이 증가할수록 왕복지연시간이 짧아진다.</choice_text>
-          <commentary>'위성과 지구국의 앙각'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>거리가 짧아지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성통신은 정지궤도 위성통신보다 왕복지연시간이 짧아 신호 감도가 좋다.</choice_text>
-          <commentary>'저궤도 위성통신'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>저궤도의 짧은 지연과 작은 경로손실로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위성통신에서 사용되는 C밴드는 4 ～ 8 [GHz] 주파수 범위를 갖는다.</choice_text>
-          <commentary>'위성통신에서 사용되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>C밴드의 범위로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>일반적으로 상향링크보다 하향링크에서 더 높은 주파수를 사용한다.</choice_text>
-          <commentary>'일반적으로 상향링크보다 하향링크에서 더 높'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상향링크에 더 높은 주파수를 쓰므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -162,25 +162,24 @@
         <correct_choice_text>2 1 2 1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 디지털, 통신시스템, 수신, 신호전력)
-정답은 ③이다. 본 문항은 디지털, 통신시스템, 수신, 신호전력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $S$; $N$; $W$; $R$; $\frac{E_{b}}{N_{0}}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · Eb/N0 계산
+정답은 ③이다. E_b/N₀ = (S/N)(W/R)이다. ① (1/2)(4/1) = 2, ② (1/2)(2/4) = 0.25, ③ (2/1)(2/1) = 4, ④ (2/1)(1/2) = 1이다. 따라서 ③이 가장 크다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 2 4 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 2 2 4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.25이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 1 2 1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 1 1 2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -199,25 +198,24 @@
         <correct_choice_text>$\frac{1}{\pi^2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 송신기, 주파수와, 전력, 사용하여)
-정답은 ①이다. 본 문항은 송신기, 주파수와, 전력, 사용하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $3 \times 10^{8}$; $\frac{1}{\pi^2}$; $\frac{8}{\pi^2}$; $\frac{16}{\pi^2}$; $\frac{30}{\pi^2}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 프리스 전송 공식
+정답은 ①이다. λ = 3 × 10⁸/3 × 10⁸ = 1 m이고, 30 dB 이득은 1,000배이다. P_r = P_tG_tG_r(λ/4πd)² = 16 × 10³ × 10³ × [1/(4π × 10³)]² = 16 × 10⁶/(16π² × 10⁶) = 1/π² W이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{\pi^2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1/π² W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{8}{\pi^2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{16}{\pi^2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4π의 제곱을 누락한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{30}{\pi^2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -233,24 +231,24 @@
         <correct_choice_text>1040 25</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 카슨(Carson))
-정답은 ①이다. 본 문항은 카슨(Carson)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · Carson 대역폭과 변조지수
+정답은 ①이다. 변조지수 β = Δf/f_m = 500/20 = 25이다. Carson 대역폭 B = 2(Δf + f_m) = 2(500 + 20) = 1,040 kHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1040 25</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1,040 kHz, 25이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1040 200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>변조지수가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>520 25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>520 200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭과 변조지수가 모두 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -266,25 +264,24 @@
         <correct_choice_text>임의의 $E_{b} / N_{0}$에서 QPSK는 BPSK와 동일한 비트오율 성능을 얻을 수 있지만 대역폭 효율은 감소한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 디지털 변조 방식인 ASK, PSK, FSK 및 QAM)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $E_{b} / N_{0}$; $E_{b} / N_{0}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 디지털 변조 방식 비교
+정답은 ③이다. QPSK는 BPSK와 같은 E_b/N₀에서 같은 비트오율을 가지면서, 심벌당 2비트를 보내므로 대역폭 효율이 2배로 증가한다. 2진 동기 복조에서 PSK는 FSK보다 약 3 dB 적은 E_b/N₀로 같은 오율을 얻고, ASK와 FSK는 포락선 검파 등 비동기 복조가 가능하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이진 변조와 동기식 복조를 사용할 때, 동일한 비트오율을 얻기 위한 $E_{b} / N_{0}$는 PSK 방식이 FSK 방식에 비해 작다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PSK가 FSK보다 3 dB 유리하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>ASK와 FSK는 비동기 복조가 가능하므로 수신기의 복잡도를 낮출 수 있다.</choice_text>
-          <commentary>'ASK와 FSK'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>비동기 복조가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>임의의 $E_{b} / N_{0}$에서 QPSK는 BPSK와 동일한 비트오율 성능을 얻을 수 있지만 대역폭 효율은 감소한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭 효율이 증가하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>M진 QAM에서 M을 증가시킬 경우, 심벌당 전송할 수 있는 비트 수가 증가하여 대역폭 효율이 개선된다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>M이 커지면 심벌당 비트 수가 늘어 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -303,24 +300,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 송신기, 출력단, 특성임피던스, 무손실)
-정답은 ②이다. 본 문항은 송신기, 출력단, 특성임피던스, 무손실에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 반사 전력
+정답은 ②이다. 반사계수 Γ = (Z_L - Z₀)/(Z_L + Z₀) = (30 - 50)/(30 + 50) = -0.25이다. 반사 전력비는 |Γ|² = 1/16이므로 반사 전력은 64 × 1/16 = 4 W이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4 W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -339,25 +336,24 @@
         <correct_choice_text>1010</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 그림과, 주기, 사각파, 정보신호)
-정답은 ③이다. 본 문항은 그림과, 주기, 사각파, 정보신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $T$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 사각파 AM의 스펙트럼
+정답은 ③이다. 주기 200 μs인 대칭 사각파의 기본주파수는 1/200 μs = 5 kHz이고, 기수 고조파(5, 15, 25 kHz …)만 가진다. AM 신호는 1,000 ± 5 kHz, 1,000 ± 15 kHz … 에 성분이 나타난다. 1,010 kHz는 10 kHz(짝수 고조파)에 해당하므로 나타나지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>995</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,000 - 5 kHz 성분이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1005</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,000 + 5 kHz 성분이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1010</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>짝수 고조파 성분이므로 나타나지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1015</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1,000 + 15 kHz 성분이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -376,25 +372,24 @@
         <correct_choice_text>$\frac{1}{16}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 비유전율, 이고, 비투자율, 매질에서)
-정답은 ④이다. 본 문항은 비유전율, 이고, 비투자율, 매질에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\epsilon_{r}$; $\mu_{r}$; $16$; $4$; $\frac{1}{4}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 매질에서의 전파속도
+정답은 ④이다. 매질에서 v = c/√(ε_rμ_r) = c/√(64 × 4) = c/√256 = c/16이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$16$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{16}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1/16배이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,24 +405,24 @@
         <correct_choice_text>백색가우시안 잡음의 주요 원인은 다른 사용자들로부터 송신되는 전파에 의한 방해이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 마이크로파 신호의 무선 전파 환경)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 무선 전파 환경
+정답은 ②이다. 백색가우시안 잡음(AWGN)의 주요 원인은 수신기 내부의 열잡음이다. 다른 사용자의 전파에 의한 방해는 간섭(interference)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>통신거리가 증가함에 따라 전파의 세기가 감소하는 현상을 경로손실이라고 한다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>경로손실의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>백색가우시안 잡음의 주요 원인은 다른 사용자들로부터 송신되는 전파에 의한 방해이다.</choice_text>
-          <commentary>'백색가우시안 잡음의 주요 원인'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>열잡음이 주요 원인이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>건물, 지형 등 장애물에 의해 수신신호의 평균전력이 달라지는 현상을 섀도윙이라고 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>섀도윙의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>송신 신호의 회절, 반사, 산란 등에 의해 다중 경로가 발생한다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>다중경로의 발생 원인으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,24 +441,24 @@
         <correct_choice_text>EHF(extremely high frequency)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: EHF(extremely high frequency), VLF(very low frequency), HF(high frequency), UHF(ultra high frequency))
-정답은 ①이다. 본 문항은 EHF(extremely high frequency), VLF(very low frequency), HF(high frequency), UHF(ultra high frequency)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · EHF 대역
+정답은 ①이다. EHF(30~300 GHz)는 파장이 1~10 mm인 밀리미터파 대역으로, 5G 이동통신, 차량 레이더, 고해상도 레이더 등에 쓰인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>EHF(extremely high frequency)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>EHF이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>VLF(very low frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>VLF는 장파 대역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>HF(high frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>HF는 단파 대역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>UHF(ultra high frequency)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>UHF는 데시미터파 대역이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -482,25 +477,24 @@
         <correct_choice_text>250</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 지구국과, 주파수, 통신하, 정지궤도위성)
-정답은 ④이다. 본 문항은 지구국과, 주파수, 통신하, 정지궤도위성에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $3 \times 10^{8}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 도플러 편이와 최대 이동속도
+정답은 ④이다. 도플러 편이 f_d = vf/c이므로 v = f_dc/f = 10⁴ × 3 × 10⁸/(12 × 10⁹) = 250 m/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>250</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>250 m/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,25 +513,24 @@
         <correct_choice_text>150</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 펄스폭, 이고, 펄스, 반복)
-정답은 ②이다. 본 문항은 펄스폭, 이고, 펄스, 반복에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $3 \times 10^{8}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 레이더 거리 분해능
+정답은 ②이다. 거리 분해능 ΔR = cτ/2 = 3 × 10⁸ × 1 × 10⁻⁶/2 = 150 m이다. 펄스 반복 주파수는 최대 비모호 거리에 영향을 주며 거리 분해능과는 무관하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>150</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>150 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -556,24 +549,24 @@
         <correct_choice_text>6</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: 그림, 이동통신, 시스템에서, 주파수)
-정답은 ①이다. 본 문항은 그림, 이동통신, 시스템에서, 주파수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 동일채널 재사용 거리
+정답은 ①이다. 6각형 셀에서 재사용 거리는 D = R√(3N)이다. N = 3, R = 2 km이면 D = 2 × √9 = 6 km이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6 km이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -589,25 +582,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 수리·계산·자료해석형 (핵심어: m ( t ))
-정답은 ③이다. 본 문항은 m ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t ) = 2 + 5 \sin ( 2 \pi t )$; $\left[ A_{c} + m ( t ) \right] \cos ( 2 \pi f_{c} t )$; $A_{c}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 포락선 검파 조건
+정답은 ③이다. 포락선 검파를 하려면 모든 t에서 A_c + m(t) ≥ 0이어야 한다. m(t)의 최솟값은 2 - 5 = -3이므로 A_c ≥ 3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>과변조가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>과변조가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최솟값 3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가능하지만 최솟값이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -626,25 +618,24 @@
         <correct_choice_text>$\frac{1}{2} M ( f ) + \frac{1}{4} M ( f - 2 f_{c} ) + \frac{1}{4} M ( f + 2 f_{c} )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: y ( t ), Y ( f ), m ( t ), M ( f ))
-정답은 ④이다. 본 문항은 y ( t ), Y ( f ), m ( t ), M ( f )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $s_{m} ( t )$; $y ( t )$; $Y ( f )$; $s_m ( t ) = m ( t ) \cos ( 2 \pi f_c t )$; $m ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · DSB-SC 복조기 곱셈기 출력
+정답은 ④이다. 국부 반송파 cos(2πf_ct)를 곱하면 y(t) = m(t)cos²(2πf_ct) = (1/2)m(t) + (1/2)m(t)cos(4πf_ct)이다. 푸리에 변환하면 Y(f) = (1/2)M(f) + (1/4)M(f - 2f_c) + (1/4)M(f + 2f_c)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$M ( f ) + \frac{1}{2} M ( f - f_{c} ) + \frac{1}{2} M ( f + f_{c} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수와 천이 주파수가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$M ( f ) + \frac{1}{2} M ( f - 2 f_{c} ) + \frac{1}{2} M ( f + 2 f_{c} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} M ( f ) + \frac{1}{4} M ( f - f_{c} ) + \frac{1}{4} M ( f + f_{c} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>천이 주파수가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} M ( f ) + \frac{1}{4} M ( f - 2 f_{c} ) + \frac{1}{4} M ( f + 2 f_{c} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -663,25 +654,24 @@
         <correct_choice_text>$\frac{10}{\pi}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 등방성, 방사기, 송신전력으, 신호)
-정답은 ③이다. 본 문항은 등방성, 방사기, 송신전력으, 신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $\frac{2}{\pi}$; $\frac{5}{\pi}$; $\frac{10}{\pi}$; $\frac{20}{\pi}$</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 등방성 방사 전력밀도
+정답은 ③이다. 등방성 방사기의 전력밀도는 S = P_t/(4πd²) = 40/(4π × 10⁶) = 10 × 10⁻⁶/π W/m² = 10/π μW/m²이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{\pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5}{\pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{10}{\pi}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10/π μW/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{20}{\pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -699,24 +689,24 @@
         <correct_choice_text>차동 부호화된 데이터에서 현재 비트의 전송 오류는 다음 비트의 검출에 영향을 주지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 무선공학개론 · 핵심 개념·이론 이해형 (핵심어: 데이터에 대해 차동 부호화(differential encoding), 화된 데이터에 양극성 NRZ(non-return to zero), 에서도 차동 방식으로 복호화(decoding))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 무선공학개론 · 차동 부호화
+정답은 ②이다. 그림의 부호화 과정은 제공되지 않았으나, 공식 정답에 따르면 2번이 옳지 않은 설명이다. 차동 부호화는 이전 비트와의 관계로 정보를 표현하므로, 수신 측에서 한 비트에 오류가 생기면 그 비트와 다음 비트의 복호 결과가 함께 틀려 오류가 전파된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>차동 부호화된 데이터에 양극성 NRZ(non-return to zero)를 이용하여 라인 코딩하였다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 그림의 라인 코딩에 대한 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>차동 부호화된 데이터에서 현재 비트의 전송 오류는 다음 비트의 검출에 영향을 주지 않는다.</choice_text>
-          <commentary>'차동 부호화된 데이터에서 현재 비트의 전송 오류'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>다음 비트 검출에도 영향을 주므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기준 비트를 제외한 차동 부호화된 데이터는 XNOR 연산으로 생성할 수 있다.</choice_text>
-          <commentary>'기준 비트를 제외한 차동 부호화된 데이터'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>공식 정답에 따르면 그림의 부호화 규칙에 대한 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>수신기에서도 차동 방식으로 복호화(decoding)를 수행한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수신 측에서 차동 복호를 하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

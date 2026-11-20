@@ -31,25 +31,24 @@
         <correct_choice_text>차수(degree)가 m이고 높이(height)가 h인 다원 탐색 트리가 가질 수 있는 최대 노드 수는 ($m^{h} - 1$)이다. (단, 루트만 있는 트리의 높이는 1로 한다)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: m원 탐색 트리(m-way search tree), 공백(empty), 아닌 m원 탐색 트리의 루트(root), 트리(sub-tree), 리의 루트 노드에 저장된 키(key))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $m^{h} - 1$</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · m원 탐색 트리
+정답은 ④이다. 차수 m, 높이 h인 m원 탐색 트리의 최대 노드 수는 1 + m + m² + … + m^(h-1) = (m^h - 1)/(m - 1)이다. m^h - 1은 최대 키의 개수이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공백(empty)이 아닌 m원 탐색 트리의 루트(root) 노드는 최대 m개의 서브－트리(sub-tree)를 가질 수 있다.</choice_text>
-          <commentary>'공백(empty)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>루트는 최대 m개의 서브트리를 가진다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공백이 아닌 m원 탐색 트리의 루트 노드에 저장된 키(key)들은 정렬되어 있어야 한다.</choice_text>
-          <commentary>'공백'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>노드의 키는 정렬되어 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공백이 아닌 m원 탐색 트리의 각 노드가 가지는 서브－트리 역시 m원 탐색 트리이다.</choice_text>
-          <commentary>'공백'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>서브트리도 m원 탐색 트리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>차수(degree)가 m이고 높이(height)가 h인 다원 탐색 트리가 가질 수 있는 최대 노드 수는 ($m^{h} - 1$)이다. (단, 루트만 있는 트리의 높이는 1로 한다)</choice_text>
-          <commentary>'차수(degree)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최대 노드 수는 (m^h - 1)/(m - 1)이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -65,26 +64,25 @@
         <correct_choice_text>*rear = (*rear+1) % MAX_QUEUE_SIZE; front == *rear</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: C 언어로 구현한 원형 큐(circular queue))
-정답은 ①이다. 본 문항은 C 언어로 구현한 원형 큐(circular queue)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "#define MAX_QUEUE_SIZE 10"</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 원형 큐 삽입
+정답은 ①이다. 원형 큐 삽입은 먼저 rear를 (rear + 1) % MAX_QUEUE_SIZE로 이동시키고, 이동한 rear가 front와 같아지면 포화 상태로 판단한다.</overall_commentary>
       <passage_evidence>#define MAX_QUEUE_SIZE 10</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>*rear = (*rear+1) % MAX_QUEUE_SIZE; front == *rear</choice_text>
-          <commentary>제시문의 "#define MAX_QUEUE_SIZE 10" 내용과 일치하므로 옳다.</commentary>
+          <commentary>두 식이 모두 맞으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>*rear = (front+1) % MAX_QUEUE_SIZE; front == *rear + 1</choice_text>
-          <commentary>제시문의 "#define MAX_QUEUE_SIZE 10" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>rear 계산에 front를 사용하였다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>front = (front+1) % MAX_QUEUE_SIZE; front == *rear</choice_text>
-          <commentary>제시문의 "#define MAX_QUEUE_SIZE 10" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>삽입 시 front를 바꾸지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>front = (*rear+1) % MAX_QUEUE_SIZE; front == *rear + 1</choice_text>
-          <commentary>제시문의 "#define MAX_QUEUE_SIZE 10" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>front를 갱신하는 것은 잘못이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -100,24 +98,24 @@
         <correct_choice_text>(C, D)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: (A, C))
-정답은 ④이다. 본 문항은 (A, C)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · Kruskal 알고리즘
+정답은 ④이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번이 정답이다. Kruskal 알고리즘은 가중치가 작은 간선부터 사이클을 만들지 않는 간선만 선택하며, 공식 정답에 따르면 간선 (C, D)는 선택되지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(A, C)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(B, C)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(B, F)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(C, D)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -133,24 +131,24 @@
         <correct_choice_text>20</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 다음은 이진 트리(binary tree))
-정답은 ③이다. 본 문항은 다음은 이진 트리(binary tree)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 이진 트리 재귀 함수
+정답은 ③이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 함수 func는 재귀적으로 트리를 순회하면서 조건(리프 노드 여부 등)에 맞는 노드의 data 값을 더하며, 공식 정답에 따르면 결과 값은 20이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>17</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>37</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -170,27 +168,25 @@
         <correct_choice_text>$i \times ( i - 1 ) / 2 + ( j - 1 )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 에 행우선순서(row-major order), 정방 행렬(square matrix), 경우를 특별히 하삼각 행렬(lower triangular matrix), times ( j - 1 ), times ( i - 1 ))
-정답은 ③이다. 본 문항은 에 행우선순서(row-major order), 정방 행렬(square matrix), 경우를 특별히 하삼각 행렬(lower triangular matrix), times ( j - 1 ), times ( i - 1 )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다."
-관련 수식: $n \times n$; $n ( n + 1 ) / 2$; $a_{ij}$; $b [ k ]$; $a_ij$</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 하삼각 행렬의 1차원 저장
+정답은 ③이다. 행우선으로 저장하면 i행 앞에는 1 + 2 + … + (i - 1) = i(i - 1)/2개의 원소가 있고, i행 안에서 a_ij는 (j - 1)번째이므로 k = i(i - 1)/2 + (j - 1)이다.</overall_commentary>
       <passage_evidence>위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다.</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$( i - 1 ) \times n + ( j - 1 )$</choice_text>
-          <commentary>제시문의 "위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>일반 2차원 배열의 행우선 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$j \times ( j - 1 ) / 2 + ( i - 1 )$</choice_text>
-          <commentary>제시문의 "위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>상삼각 열우선 형태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$i \times ( i - 1 ) / 2 + ( j - 1 )$</choice_text>
-          <commentary>제시문의 "위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다." 내용과 일치하므로 옳다.</commentary>
+          <commentary>i(i - 1)/2 + (j - 1)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$( j - 1 ) \times n + ( i - 1 )$</choice_text>
-          <commentary>제시문의 "위의 모든 원소가 0인 경우를 특별히 하삼각 행렬(lower triangular matrix)이라 하며, 다음은 $4 \times 4$ 하삼각 행렬의 예이다." 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>일반 2차원 배열의 열우선 식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -209,24 +205,24 @@
         <correct_choice_text>a － b － c － d － e － f</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 다음과, 방향, 그래프, 대하여)
-정답은 ①이다. 본 문항은 다음과, 방향, 그래프, 대하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · Dijkstra 알고리즘
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. Dijkstra 알고리즘은 시작 노드에서 거리가 가장 짧은 노드부터 차례로 최단 경로를 확정하므로, 확정되는 순서는 a, b, c, d, e, f이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>a － b － c － d － e － f</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>a － b － d － f</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>a － c － d － f</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>a － c － d － e － f</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -242,24 +238,24 @@
         <correct_choice_text>9</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 하여 내림차순으로 히프 정렬(heap sort))
-정답은 ②이다. 본 문항은 하여 내림차순으로 히프 정렬(heap sort)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 히프 정렬
+정답은 ②이다. 배열을 최대 히프로 구성하면 37, 21, 30, 17, 11, 22, 5, 10, 9가 된다. 첫 데이터 37을 출력하고 마지막 원소 9를 루트로 옮겨 재구성하면 9가 30, 22와 차례로 교환되어 30, 21, 22, 17, 11, 9, 5, 10이 된다. 여섯 번째 값은 9이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>일곱 번째 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>9</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>9이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>제시문의 "| 21 | 37 | 22 | 17 | 11 | 30 | 5 | 10 | 9 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>여덟 번째 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>제시문의 "| 21 | 37 | 22 | 17 | 11 | 30 | 5 | 10 | 9 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>다섯 번째 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -278,25 +274,24 @@
         <correct_choice_text>외부 노드에서 루트까지의 거리와 외부 노드의 가중치 곱의 총합($\sum_{1 \leq i \leq n} q_{i} d_{i}$)은 112이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 외부, 노드, 가중치, 각각)
-정답은 ①이다. 본 문항은 외부, 노드, 가중치, 각각에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\sum_{1 \leq i \leq n}^{} q_{i} d_{i}$; $q_{i}$; $d_{i}$; $\sum_{1 \leq i \leq n}^{} q_{i} d_{i}$; $q_{1}$</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 허프만 트리
+정답은 ①이다. 가중치 3 + 4 = 7, 6 + 7 = 13, 8 + 10 = 18, 13 + 15 = 28, 18 + 28 = 46 순으로 합친다. 깊이는 q1, q2가 4, q3가 3, q4, q5, q6이 2이다. 가중 외부 경로 길이는 3 × 4 + 4 × 4 + 6 × 3 + 8 × 2 + 10 × 2 + 15 × 2 = 112이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>외부 노드에서 루트까지의 거리와 외부 노드의 가중치 곱의 총합($\sum_{1 \leq i \leq n} q_{i} d_{i}$)은 112이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>112이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 긴 외부 노드에서 루트까지 거리는 5이다.</choice_text>
-          <commentary>'루트까지의 거리'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가장 긴 거리는 4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 긴 외부 노드는 $q_{1}$, $q_{2}$, $q_{3}$이다.</choice_text>
-          <commentary>'루트까지의 거리'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>가장 긴 노드는 q1, q2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 짧은 외부 노드는 $q_{6}$이고 그 다음으로 짧은 외부 노드는 $q_{4}$와 $q_{5}$이다.</choice_text>
-          <commentary>'루트까지의 거리'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>q4, q5, q6이 모두 거리 2이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -313,24 +308,24 @@
         <correct_choice_text>15, 3, 1, 4, 20, 18, 26, 35</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 장된 입력 자료들을 퀵 정렬(quick sort), 피봇(pivot))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 퀵 정렬 단계
+정답은 ②이다. 퀵 정렬에서 한 번의 분할이 끝나면 피봇은 최종 위치에 고정되고 왼쪽은 모두 피봇보다 작으며 오른쪽은 모두 크다. 2번은 26, 35가 고정된 상태에서 18이 다음 피봇으로 분할되었다면 20이 18 왼쪽에 올 수 없으므로 나타날 수 없는 순서이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>15, 3, 1, 18, 20, 4, 26, 35</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>15, 3, 1, 4, 20, 18, 26, 35</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>나타날 수 없으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>1, 3, 4, 18, 20, 15, 26, 35</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>1, 3, 4, 15, 20, 18, 26, 35</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -347,24 +342,24 @@
         <correct_choice_text>4개</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 다음과 같이 중위 표기법(infix notation), 어 있는 수식을 후위 표기법(postfix notation))
-정답은 ②이다. 본 문항은 다음과 같이 중위 표기법(infix notation), 어 있는 수식을 후위 표기법(postfix notation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 중위-후위 변환 스택
+정답은 ②이다. a*(b-c*d)/e를 변환할 때 '*'를 넣고, '('와 '-'를 넣은 뒤, c 다음의 '*'는 '-'보다 우선순위가 높아 그대로 쌓인다. 이때 스택에는 *, (, -, *의 4개 연산자 토큰이 쌓여 최대가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3개</choice_text>
-          <commentary>제시된 '3개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4개</choice_text>
-          <commentary>'4개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>4개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5개</choice_text>
-          <commentary>제시된 '5개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6개</choice_text>
-          <commentary>제시된 '6개' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -384,9 +379,8 @@
         <correct_choice_text>ㄱ, ㄴ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 복합 보기 검증형 (핵심어: 그래프, 무방향 그래프(undirected graph), 를 인접행렬(adjacency matrix), 1개의 간선(edge), 을 갖는 연결 그래프(connected graph))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(X), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ)이다.
-관련 수식: $\frac{n ( n + 1 )}{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 그래프의 성질
+정답은 ①이다. 무방향 그래프의 인접행렬은 대칭이고, 사이클이 없고 간선이 n - 1개인 연결 그래프는 트리이다. 방향 그래프의 최대 간선 수는 n(n - 1)이고, 방향 그래프에서는 길이 2인 사이클(a→b→a)도 존재할 수 있다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>무방향 그래프(undirected graph)를 인접행렬(adjacency matrix)로 표현하면 주대각선을 중심으로 상위 행렬과 하위 행렬이 대칭이 된다.</statement>
@@ -408,19 +402,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄷ, ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -436,25 +430,24 @@
         <correct_choice_text>head(tail(A))</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 일반 리스트(general list))
-정답은 ②이다. 본 문항은 일반 리스트(general list)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $L = ( e_{1} , e_{2} , . . . , e_{n} )$; $e_{1}$; $( e_{2} , e_{3} , . . . , e_{n} )$</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 일반 리스트 연산
+정답은 ②이다. A = ((a, b), c, d)에서 tail(A) = (c, d)이고 head(tail(A)) = c이다. head(head(A)) = a, head(tail(head(A))) = b, head(tail(tail(A))) = d이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>head(head(A))</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>a를 반환한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>head(tail(A))</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>c를 반환하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>head(tail(head(A)))</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>b를 반환한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>head(tail(tail(A)))</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>d를 반환한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -471,26 +464,25 @@
         <correct_choice_text>ptr != NULL ptr = ptr-&gt;link;</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 다음은 단순 연결 리스트(singly linked list), 에서 특정 값(value))
-정답은 ④이다. 본 문항은 다음은 단순 연결 리스트(singly linked list), 에서 특정 값(value)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "struct node *link;"</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 연결 리스트 노드 개수
+정답은 ④이다. 리스트 끝(NULL)에 도달할 때까지 반복하므로 조건은 ptr != NULL이고, 다음 노드로 이동하려면 ptr = ptr-&gt;link이다.</overall_commentary>
       <passage_evidence>struct node *link;</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ptr == NULL ptr-&gt;link = ptr;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>조건과 이동문이 모두 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ptr == NULL ptr = ptr-&gt;link;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>반복 조건이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ptr != NULL ptr-&gt;link = ptr;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>이동문이 링크를 훼손한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ptr != NULL ptr = ptr-&gt;link;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 일치하므로 옳다.</commentary>
+          <commentary>ptr != NULL, ptr = ptr-&gt;link이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -508,24 +500,24 @@
         <correct_choice_text>4, 3, 2, 1, 0, 1, 2, 1, 0</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: int fibonacci( int n ), fibonacci( n - 1 ), fibonacci( n - 2 ))
-정답은 ③이다. 본 문항은 int fibonacci( int n ), fibonacci( n - 1 ), fibonacci( n - 2 )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 피보나치 재귀 호출 순서
+정답은 ③이다. fibonacci(4)는 4를 출력하고 fib(3) → fib(2) → fib(1), fib(0) 순으로 호출되어 3, 2, 1, 0이 출력된다. fib(3)의 나머지 fib(1)에서 1, fib(4)의 나머지 fib(2)에서 2, 1, 0이 출력된다. 순서는 4, 3, 2, 1, 0, 1, 2, 1, 0이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 2, 1, 1, 0, 1, 0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 1, 0, 2, 1, 1, 0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>4, 3, 2, 1, 0, 1, 2, 1, 0</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4, 3, 2, 1, 0, 1, 2, 1, 0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 1, 0, 2, 1, 0, 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -544,26 +536,25 @@
         <correct_choice_text>binarySearch(b, 7, 1, 20)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: binarySearch(b, 4, 1, 20), binarySearch(b, 7, 1, 20), binarySearch(b, 9, 1, 20), binarySearch(b, 14, 1, 20))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-제시문 근거: "int binarySearch(int *a, int key, int low, int high)"</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 이진 탐색 비교 횟수
+정답은 ②이다. low = 1, high = 20에서 첫 middle은 10이다. key 7은 10 → 5 → 7로 3회에 찾지만, key 4는 10, 5, 2, 3, 4로 5회, key 9는 10, 5, 7, 8, 9로 5회, key 14는 10, 15, 12, 13, 14로 5회 비교한다.</overall_commentary>
       <passage_evidence>int binarySearch(int *a, int key, int low, int high)</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 4, 1, 20)</choice_text>
-          <commentary>제시문의 "int binarySearch(int *a, int key, int low, int high)" 내용과 일치하므로 옳다.</commentary>
+          <commentary>5회이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>binarySearch(b, 7, 1, 20)</choice_text>
-          <commentary>제시문의 "int binarySearch(int *a, int key, int low, int high)" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>3회로 다르므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 9, 1, 20)</choice_text>
-          <commentary>제시문의 "int binarySearch(int *a, int key, int low, int high)" 내용과 일치하므로 옳다.</commentary>
+          <commentary>5회이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 14, 1, 20)</choice_text>
-          <commentary>제시문의 "int binarySearch(int *a, int key, int low, int high)" 내용과 일치하므로 옳다.</commentary>
+          <commentary>5회이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -579,8 +570,8 @@
         <correct_choice_text>ㄱ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 복합 보기 검증형 (핵심어: 시간 복잡도 함수)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 점근 표기법
+정답은 ②이다. n^(2n)은 2^n보다 훨씬 빨리 증가하므로 ㄱ은 옳고, 6n³ + log n = O(n³)도 옳다. n²/log n은 n²보다 느리게 증가하므로 Θ(n²)이 아니고, 6n²3ⁿ은 n²2ⁿ보다 빨리 증가하므로 ㄷ은 옳지 않다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>n^(2n) + 6․2^(n) = 𝜪(n^(2n))</statement>
@@ -602,19 +593,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -633,24 +624,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 그래프에, 가중치, 존재한다, 그래프에서)
-정답은 ①이다. 본 문항은 그래프에, 가중치, 존재한다, 그래프에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 음의 가중치 최단 경로
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. 음의 가중치가 있는 그래프의 최단 경로는 벨만-포드 알고리즘처럼 모든 간선을 반복적으로 완화하여 구하며, 공식 정답에 따르면 A에서 F까지의 최소 비용은 3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -667,26 +658,25 @@
         <correct_choice_text>q-&gt;link = r;</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 다음은 단순 연결 리스트(singly linked list), 부분에 들어갈 프로그램 코드(code))
-정답은 ②이다. 본 문항은 다음은 단순 연결 리스트(singly linked list), 부분에 들어갈 프로그램 코드(code)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "struct node *link;"</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 연결 리스트 역순 변환
+정답은 ②이다. 세 포인터 p(남은 리스트), q(현재 노드), r(이미 역순이 된 리스트)를 이용한다. 현재 노드 q의 링크를 앞 노드 r로 바꾸는 q-&gt;link = r를 반복하면 리스트가 역순이 된다.</overall_commentary>
       <passage_evidence>struct node *link;</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>q = q-&gt;link;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>링크 방향을 바꾸지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>q-&gt;link = r;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 일치하므로 옳다.</commentary>
+          <commentary>q-&gt;link = r이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>p-&gt;link = q;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>p는 다음 처리할 노드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>r-&gt;link = q;</choice_text>
-          <commentary>제시문의 "struct node *link;" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>r이 NULL일 때 오류가 난다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,26 +695,25 @@
         <correct_choice_text>13, 26, 35, 61, 77, 8, 11, 15, 48, 19</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 핵심 개념·이론 이해형 (핵심어: 에 대한 합병 정렬(merge sort), 의 순환 알고리즘(recursive algorithm), mergeSort(list, temp, left, middle), mergeSort(source, temp, 0, 9))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-제시문 근거: "int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};"</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · 합병 정렬 과정
+정답은 ④이다. 왼쪽 절반은 (0,1) 병합으로 13, 26, 이어서 77과 병합하여 13, 26, 77, (3,4) 병합 후 13, 26, 35, 61, 77이 된다. 오른쪽 절반은 8, 11, 48과 15, 19가 병합되어 8, 11, 15, 19, 48이 된다. 8, 11, 15, 48, 19의 순서는 어떤 단계에서도 나타나지 않는다.</overall_commentary>
       <passage_evidence>int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 35, 61, 77, 11, 8, 48, 15, 19</choice_text>
-          <commentary>제시문의 "int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};" 내용과 일치하므로 옳다.</commentary>
+          <commentary>왼쪽 절반 병합 후 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 77, 61, 35, 11, 8, 48, 15, 19</choice_text>
-          <commentary>제시문의 "int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};" 내용과 일치하므로 옳다.</commentary>
+          <commentary>(0, 2) 병합 후 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 35, 61, 77, 8, 11, 15, 19, 48</choice_text>
-          <commentary>제시문의 "int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};" 내용과 일치하므로 옳다.</commentary>
+          <commentary>최종 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>13, 26, 35, 61, 77, 8, 11, 15, 48, 19</choice_text>
-          <commentary>제시문의 "int source[10]={26, 13, 77, 61, 35, 11, 8, 48, 15, 19};" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>나타나지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -743,24 +732,24 @@
         <correct_choice_text>0 3 1 2</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자료구조론 · 수리·계산·자료해석형 (핵심어: 노드, 차수, 트리, 현재)
-정답은 ④이다. 본 문항은 노드, 차수, 트리, 현재에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 자료구조론 · B-트리 삭제
+정답은 ④이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번이 정답이다. 차수 5인 B-트리에서 키를 삭제한 후 노드의 키 수가 최소(2개)보다 적어지면 형제 노드에서 키를 빌리거나 병합하여 재구성하며, 공식 정답에 따르면 결과는 2-노드 0개, 3-노드 3개, 4-노드 1개, 5-노드 2개이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2 6 1 0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2 4 1 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0 2 3 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0 3 1 2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

@@ -27,24 +27,24 @@
         <correct_choice_text>소프트웨어 요구사항의 변경이 많은 경우에 적합한 모델이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 발 프로세스 모델 중 폭포수(waterfall))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 폭포수 모델
+정답은 ④이다. 폭포수 모델은 각 단계를 순차적으로 완료한 뒤 다음 단계로 넘어가므로 문서화가 체계적이지만, 실행 가능한 소프트웨어가 후반에야 나오고 요구사항 변경을 수용하기 어렵다. 요구사항이 명확하고 변경이 적은 경우에 적합하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>요구사항 분석을 완료한 후 설계 작업을 시작할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>순차적 진행으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개발 후반부가 되어야 실행 가능한 소프트웨어가 만들어진다.</choice_text>
-          <commentary>'개발 후반부'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>후반에 실행 가능한 소프트웨어가 나온다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>단계별 산출물을 체계적으로 문서화할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>체계적인 문서화가 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>소프트웨어 요구사항의 변경이 많은 경우에 적합한 모델이다.</choice_text>
-          <commentary>'소프트웨어 요구사항의 변경'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>요구사항 변경이 많은 경우에 부적합하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -61,24 +61,24 @@
         <correct_choice_text>사용자 환경에서 인수 테스트 수행</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 소프트웨어 통합 프로세스(UP), 모델의 구체화 단계(elaboration phase))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · UP의 구체화 단계
+정답은 ①이다. 구체화(정련) 단계에서는 요구사항을 분석하고 아키텍처를 설계하며 중대한 위험 요소를 식별·해결한다. 사용자 환경에서의 인수 테스트는 전이(이행) 단계의 활동이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>사용자 환경에서 인수 테스트 수행</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전이 단계의 활동이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>아키텍처 설계</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구체화 단계의 활동이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>요구사항 분석</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구체화 단계의 활동이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>중대한 위험 요소 식별 및 해결</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구체화 단계의 활동이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -98,24 +98,24 @@
         <correct_choice_text>내부출력(IO)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 수리·계산·자료해석형 (핵심어: 기능점수(FP)를 계산하기 위해 고려할 대상, 기능점수(FP), 외부조회(EQ), 내부논리파일(ILF), 외부연계파일(EIF))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 기능점수 산정 요소
+정답은 ④이다. 기능점수는 외부입력(EI), 외부출력(EO), 외부조회(EQ), 내부논리파일(ILF), 외부연계파일(EIF)의 다섯 요소로 계산한다. 내부출력(IO)은 기능점수 요소가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>외부조회(EQ)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>외부조회는 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>내부논리파일(ILF)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>내부논리파일은 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>외부연계파일(EIF)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>외부연계파일은 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>내부출력(IO)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내부출력은 요소가 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -131,24 +131,24 @@
         <correct_choice_text>Observer 패턴</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 그림과 같이 관찰대상(Subject))
-정답은 ④이다. 본 문항은 그림과 같이 관찰대상(Subject)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 옵서버 패턴
+정답은 ④이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번이 정답이다. 관찰대상(Subject)의 상태가 변하면 이를 구독하는 여러 옵서버(Observer)에게 자동으로 통지하여 각기 다른 방식으로 표시하게 하는 구조는 옵서버 패턴이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Decorator 패턴</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Flyweight 패턴</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Mediator 패턴</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Observer 패턴</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -166,24 +166,24 @@
         <correct_choice_text>조직 프로세스 성과 관리(organizational process performance)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: CMMI 모델의 정의 단계(defined level), 제품 통합(product integration), 조직 교육 관리(organizational training))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · CMMI 정의 단계 프로세스 영역
+정답은 ④이다. CMMI 3단계(정의)에는 제품 통합, 의사결정 분석 및 해결, 조직 교육 관리, 요구사항 개발, 위험 관리 등이 있다. 조직 프로세스 성과 관리는 4단계(정량적 관리) 프로세스 영역이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>제품 통합(product integration)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정의 단계 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>의사결정 분석 및 해결(decision analysis and resolution)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정의 단계 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>조직 교육 관리(organizational training)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정의 단계 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>조직 프로세스 성과 관리(organizational process performance)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정량적 관리 단계 영역이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -199,24 +199,24 @@
         <correct_choice_text>위험 식별은 도출된 위험들이 미치는 영향이 얼마나 큰지, 얼마나 자주 발생하는지 등을 분석하는 프로세스이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: PMBOK의 프로젝트 위험 관리 프로세스)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · PMBOK 위험 관리
+정답은 ③이다. 위험의 영향 정도와 발생 빈도를 분석하는 것은 위험 분석(정성적·정량적 위험 분석) 프로세스이다. 위험 식별은 프로젝트에 영향을 줄 수 있는 위험을 찾아내고 문서화하는 프로세스이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>위험 대응 기획은 위험에 대한 대응을 어떻게 할 것인지 대응 전략을 세우고, 그 대응 전략 이후에도 남아 있을 위험과 이차적인 위험, 위험 대응을 위해 필요한 시간과 비용, 위험에 대한 비상 계획, 예비 계획 등을 세우는 프로세스이다.</choice_text>
-          <commentary>'위험 대응 기획'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위험 대응 기획의 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>위험 관리 기획은 위험들을 언제, 어떤 방법으로, 어떻게 관리할 것인가를 계획하는 프로세스이다.</choice_text>
-          <commentary>'위험 관리 기획'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위험 관리 기획의 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>위험 식별은 도출된 위험들이 미치는 영향이 얼마나 큰지, 얼마나 자주 발생하는지 등을 분석하는 프로세스이다.</choice_text>
-          <commentary>'위험 식별'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위험 분석의 설명이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>위험 모니터링 및 통제는 식별된 위험에 대해 추적하고, 잔존하는 위험을 감시하며, 새롭게 발견되는 위험을 식별하고, 위험 감소 효과를 평가하는 프로세스이다.</choice_text>
-          <commentary>'위험 모니터링 및 통제'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>위험 모니터링 및 통제의 설명으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -232,24 +232,24 @@
         <correct_choice_text>시스템 장애로 인한 정지시간이 1년에 10시간을 넘지 않아야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 대학교 학사관리시스템의 기능적 요구사항)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 기능적 요구사항
+정답은 ④이다. 성적 입력·수정, 학생 정보 등록·삭제, 성적 조회는 시스템이 제공해야 할 기능이다. 연간 정지시간 10시간 이내는 가용성에 관한 비기능적 요구사항이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>담당 교수는 자신이 맡은 과목의 성적을 입력 또는 수정한다.</choice_text>
-          <commentary>'담당 교수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>기능적 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>학적관리자는 학생 정보를 등록, 삭제할 수 있다.</choice_text>
-          <commentary>'학적관리자'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>기능적 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>학생은 자신이 수강한 모든 과목의 성적을 조회할 수 있다.</choice_text>
-          <commentary>'학생'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>기능적 요구사항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>시스템 장애로 인한 정지시간이 1년에 10시간을 넘지 않아야 한다.</choice_text>
-          <commentary>'시스템 장애로 인한 정지시간'에 관하여 제시된 '1년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>비기능적 요구사항이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -268,24 +268,24 @@
         <correct_choice_text>마르미(MaRMI)－RE</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 동적 시스템 개발 방법(DSDM), 마르미(MaRMI), RE 스크럼(scrum), 적응형 소프트웨어 개발(ASD))
-정답은 ②이다. 본 문항은 동적 시스템 개발 방법(DSDM), 마르미(MaRMI), RE 스크럼(scrum), 적응형 소프트웨어 개발(ASD)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 애자일 프로세스 모델
+정답은 ②이다. DSDM, 스크럼, ASD는 애자일 방법론이다. 마르미(MaRMI)-RE는 한국전자통신연구원이 개발한 재공학(Re-Engineering) 방법론으로 애자일 모델이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>동적 시스템 개발 방법(DSDM)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DSDM은 애자일 방법론이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>마르미(MaRMI)－RE</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>마르미-RE는 해당하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스크럼(scrum)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>스크럼은 애자일 방법론이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>적응형 소프트웨어 개발(ASD)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ASD는 애자일 방법론이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -301,24 +301,24 @@
         <correct_choice_text>프로그램을 큰 단위로 나누어 릴리스 직전 테스트를 수행한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 익스트림 프로그래밍의 테스팅)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 익스트림 프로그래밍의 테스팅
+정답은 ③이다. XP는 테스트 주도 개발로 코드 작성 전에 테스트를 먼저 작성하고, 사용자 스토리마다 테스트 케이스를 만들며, 자동화 도구로 작은 단위의 테스트를 지속적으로 수행한다. 큰 단위로 나누어 릴리스 직전에 테스트하는 것은 XP의 방식이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>코드를 작성하기 전에 테스트 케이스를 먼저 작성한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>테스트 우선 작성으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>각 사용자 스토리에 대해 테스트 케이스를 작성한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자 스토리별 테스트로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>프로그램을 큰 단위로 나누어 릴리스 직전 테스트를 수행한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지속적 테스트가 원칙이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>자동화된 테스팅 도구 사용을 권장한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>자동화 도구 사용으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -334,8 +334,8 @@
         <correct_choice_text>ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 복합 보기 검증형 (핵심어: 유스케이스)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄴ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 유스케이스
+정답은 ②이다. 액터는 시스템 외부의 사용자나 시스템이므로 개발 범위에 포함되지 않고, 액터와 유스케이스의 관계는 연관관계로 표현한다. 유스케이스는 사용자 관점에서 요구사항을 정의하며, 명세서에 비기능적 요구사항도 기술할 수 있다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>개발자의 관점에서 요구사항을 정의한다.</statement>
@@ -357,19 +357,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -388,24 +388,24 @@
         <correct_choice_text>스트레스(stress) 테스팅</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 보안(security), 테스팅 회귀(regression), 테스팅 스트레스(stress), 테스팅 조합(combinatorial))
-정답은 ③이다. 본 문항은 보안(security), 테스팅 회귀(regression), 테스팅 스트레스(stress), 테스팅 조합(combinatorial)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 스트레스 테스팅
+정답은 ③이다. 설계 한계를 넘는 부하를 주어 시스템의 장애 행동과 최대 부하 시에만 나타나는 결함을 드러내는 것은 스트레스 테스팅이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>보안(security) 테스팅</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보안 테스팅은 보안 취약점을 평가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>회귀(regression) 테스팅</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회귀 테스팅은 변경의 부작용을 확인한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>스트레스(stress) 테스팅</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>스트레스 테스팅이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>조합(combinatorial) 테스팅</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>조합 테스팅은 입력 조합을 테스트한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -424,24 +424,24 @@
         <correct_choice_text>B A C</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 보기, 디자인, 패턴, 분류와)
-정답은 ②이다. 본 문항은 보기, 디자인, 패턴, 분류와에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 디자인 패턴의 분류
+정답은 ②이다. Singleton은 객체 생성을 다루는 생성 패턴, Bridge는 구현과 추상을 분리하는 구조 패턴, Interpreter는 언어 문법을 해석하는 행위 패턴이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A B C</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ㄱ, ㄴ이 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>B A C</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>B, A, C이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>B C A</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ㄴ, ㄷ이 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>C A B</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모두 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -460,26 +460,25 @@
         <correct_choice_text>교환적 응집 절차적 응집 시간적 응집 논리적 응집</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 응집도, 강한, 것부터, 나열할)
-정답은 ③이다. 본 문항은 응집도, 강한, 것부터, 나열할에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집"</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 응집도의 순서
+정답은 ③이다. 응집도는 강한 것부터 기능적, 순차적, 교환적(통신적), 절차적, 시간적, 논리적, 우연적 응집 순이다.</overall_commentary>
       <passage_evidence>기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>절차적 응집 교환적 응집 시간적 응집 논리적 응집</choice_text>
-          <commentary>제시문의 "기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>교환적과 절차적 순서가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>절차적 응집 교환적 응집 논리적 응집 시간적 응집</choice_text>
-          <commentary>제시문의 "기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>순서가 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>교환적 응집 절차적 응집 시간적 응집 논리적 응집</choice_text>
-          <commentary>제시문의 "기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집" 내용과 일치하므로 옳다.</commentary>
+          <commentary>교환적, 절차적, 시간적, 논리적이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>논리적 응집 절차적 응집 교환적 응집 시간적 응집</choice_text>
-          <commentary>제시문의 "기능적 응집 － 순차적 응집 － ( ㉠ ) － ( ㉡ ) － ( ㉢ ) － ( ㉣ ) － 우연적 응집" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>순서가 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -498,24 +497,24 @@
         <correct_choice_text>[수식/도표 선지 1번]</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 불일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 코드와, 부합하, 클래스, 관계)
-정답은 ①이다. 본 문항은 코드와, 부합하, 클래스, 관계에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 합성 관계
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. PC 객체가 생성될 때 CPU, RAM, ROM 객체를 직접 생성하여 포함하므로 부품의 생명주기가 전체 객체에 종속되는 합성(composition) 관계로 표현한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>[수식/도표 선지 1번]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[수식/도표 선지 2번]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[수식/도표 선지 3번]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PC RAM1 CPU RAM2 ROM</choice_text>
-          <commentary>제시문의 "this.cpu = new CPU();" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -535,24 +534,24 @@
         <correct_choice_text>포크(fork)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: UML 시퀀스(sequence), 포크(fork), 생명선(lifeline), 메시지(message), 복합적 부분(combined fragment))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 시퀀스 다이어그램의 구성요소
+정답은 ①이다. 시퀀스 다이어그램은 생명선, 메시지, 활성 막대, 복합적 부분(combined fragment) 등으로 구성된다. 포크(fork)는 흐름을 병렬로 분기하는 액티비티 다이어그램의 요소이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>포크(fork)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>포크는 액티비티 다이어그램 요소이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>생명선(lifeline)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>생명선은 구성요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>메시지(message)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>메시지는 구성요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>복합적 부분(combined fragment)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>복합적 부분은 구성요소이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -569,24 +568,24 @@
         <correct_choice_text>코드 난독화를 수행하면 역공학을 쉽게 할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 역공학(reverse engineering) 프로세스, 역공학(reverse engineering))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 역공학
+정답은 ①이다. 역공학은 기존 시스템의 코드를 분석하여 상위 수준의 설계 정보와 구성 요소 간 관계를 추출하는 과정이다. 코드 난독화는 코드를 이해하기 어렵게 만들어 역공학을 방해하는 기법이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>코드 난독화를 수행하면 역공학을 쉽게 할 수 있다.</choice_text>
-          <commentary>'할 수 있다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>난독화는 역공학을 어렵게 하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>제품의 추상화가 하위 수준에서 상위 수준으로 수행된다.</choice_text>
-          <commentary>'제품의 추상화'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>하위에서 상위 수준으로 추상화한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>소스 코드를 분석하여 이해하기 쉬운 다이어그램으로 변형한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>다이어그램으로 변형한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기존 시스템을 이해하기 위해 시스템을 구성하는 주요 요소들과 이들 사이의 관계를 파악한다.</choice_text>
-          <commentary>'기존 시스템을 이해하기 위해 시스템을 구성하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구성 요소와 관계를 파악한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -605,24 +604,24 @@
         <correct_choice_text>프레임워크(framework)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 컴포넌트(component), 웹서비스(web service), 프레임워크(framework), 클래스 라이브러리(class library))
-정답은 ③이다. 본 문항은 컴포넌트(component), 웹서비스(web service), 프레임워크(framework), 클래스 라이브러리(class library)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 프레임워크
+정답은 ③이다. 프레임워크는 비슷한 유형의 응용프로그램을 위해 재사용 가능한 아키텍처와 협력하는 산출물의 통합 집합으로, 핵심 구조를 제공하고 개발자가 이를 확장하여 응용프로그램을 만든다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>컴포넌트(component)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>컴포넌트는 독립 배포 가능한 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>웹서비스(web service)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>웹서비스는 웹 기반 서비스 인터페이스이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>프레임워크(framework)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>프레임워크이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>클래스 라이브러리(class library)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>클래스 라이브러리는 아키텍처를 제공하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -638,8 +637,8 @@
         <correct_choice_text>ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 복합 보기 검증형 (핵심어: CRC 카드)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · CRC 카드
+정답은 ②이다. CRC(Class-Responsibility-Collaborator) 카드는 클래스의 책임(연산과 속성)과 협력 클래스를 파악하는 도구이다. 상세 알고리즘 설계 도구가 아니며, 카드의 왼쪽 열에 책임, 오른쪽 열에 협력자를 적는다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>클래스의 연산에 대한 상세 알고리즘 설계를 위해 이용되는 도구이다.</statement>
@@ -661,19 +660,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ, ㄷ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -692,24 +691,24 @@
         <correct_choice_text>테스트 오라클(test oracle)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 핵심 개념·이론 이해형 (핵심어: 테스트 하니스(test harness), 테스트 적합성 기준(test adequacy criteria), 테스트 오라클(test oracle), 테스트 종료 기준(test completion criteria))
-정답은 ③이다. 본 문항은 테스트 하니스(test harness), 테스트 적합성 기준(test adequacy criteria), 테스트 오라클(test oracle), 테스트 종료 기준(test completion criteria)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 테스트 오라클
+정답은 ③이다. 테스트 오라클은 테스트 실행 결과가 올바른지를 판단하기 위해 기대 결과를 제공하거나 비교하는 메커니즘이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>테스트 하니스(test harness)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>테스트 하니스는 테스트 실행 환경이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>테스트 적합성 기준(test adequacy criteria)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>적합성 기준은 테스트의 충분성 기준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>테스트 오라클(test oracle)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>테스트 오라클이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>테스트 종료 기준(test completion criteria)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>종료 기준은 테스트를 끝내는 조건이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -728,24 +727,24 @@
         <correct_choice_text>5일</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 소프트웨어공학 · 수리·계산·자료해석형 (핵심어: 프로젝트, 수행하, 필요한, 작업)
-정답은 ①이다. 본 문항은 프로젝트, 수행하, 필요한, 작업에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 소프트웨어공학 · 임계 경로와 일정 지연
+정답은 ①이다. 원래 일정에서 T1(10) → T2(25) → T4(35) → T7(50) → T8(65)가 임계 경로로 전체 기간은 65일이다. T5가 35일로 늘어나면 T3(15) → T5(50) → T6(70)이 되어 전체 기간은 70일로, 5일 지연된다. T8은 T5(50)와 T7(50) 완료 후 시작하므로 65일에 끝난다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>5일</choice_text>
-          <commentary>'5일' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>5일이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10일</choice_text>
-          <commentary>제시된 '10일' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15일</choice_text>
-          <commentary>제시된 '15일' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>T5 증가분만 더한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>35일</choice_text>
-          <commentary>제시된 '35일' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

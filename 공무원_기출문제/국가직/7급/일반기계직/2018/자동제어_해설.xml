@@ -28,24 +28,24 @@
         <correct_choice_text>제어대상의 출력은 센서로부터 측정되어야만 하는 상태변수이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 피드백(feedback) 제어시스템, 피드백(feedback))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 피드백 제어시스템
+정답은 ②이다. 제어대상의 출력은 상태변수의 함수(y = Cx)로 표현되며, 반드시 센서로 측정해야 하는 상태변수일 필요는 없다. 상태변수는 시스템 상태를 기술하는 최소 변수 집합이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>상태변수는 제어대상의 상태를 설명하는데 필요한 임의의 최소 변수들의 집합이다.</choice_text>
-          <commentary>'상태변수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>상태변수의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>제어대상의 출력은 센서로부터 측정되어야만 하는 상태변수이다.</choice_text>
-          <commentary>'제어대상의 출력'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>출력이 반드시 측정되는 상태변수는 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>제어입력은 제어대상의 출력 값을 활용하여 제어대상에 인가되는 제어기의 출력이다.</choice_text>
-          <commentary>'제어입력'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>제어입력의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>피드백 제어는 제어대상의 출력과 기준입력의 차이를 감소시킬 수 있는 제어 방법이다.</choice_text>
-          <commentary>'피드백 제어'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>피드백 제어의 목적으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -65,9 +65,8 @@
         <correct_choice_text>ㄱ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 복합 보기 검증형 (핵심어: 안정한 선형 시불변(time invariant) 시스템, 안정한 선형 시불변(time invariant), 안정한 영점(zero), 축에 가까울수록 계단(step), 응답의 오버슈트(overshoot))
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄹ)이다.
-관련 수식: $j \omega$; $\frac{1}{Ts + 1}$; $1$; $T$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 안정한 LTI 시스템
+정답은 ②이다. 안정한 영점이 jω축에 가까울수록 미분 효과가 커져 계단응답의 오버슈트가 증가하고, 대역폭이 크면 응답이 빠르다. 안정 시스템의 극점 실수부는 0보다 작아야 하며, 1/(Ts + 1)에서 T가 커지면 상승시간이 길어진다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>안정한 영점(zero)이 $j \omega$축에 가까울수록 계단(step) 응답의 오버슈트(overshoot)를 증가시키는 경향이 있다.</statement>
@@ -89,19 +88,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -121,25 +120,24 @@
         <correct_choice_text>$\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: R ( s ), U ( s ), C ( s ), G ( s ), H ( s ))
-정답은 ②이다. 본 문항은 R ( s ), U ( s ), C ( s ), G ( s ), H ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R ( s )$; $U ( s )$; $U ( s \frac{)}{R ( s )}$; $\frac{1}{1 + C ( s ) G ( s ) H ( s )}$; $\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 제어입력 전달함수
+정답은 ②이다. 블록선도를 확인할 수 없으며, 공식 정답에 따르면 U(s)/R(s) = C(s)/(1 + C(s)G(s)H(s))이다. 기준입력에서 제어기 출력까지의 전향 경로 이득은 C(s)이고, 루프 이득은 C(s)G(s)H(s)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{1 + C ( s ) G ( s ) H ( s )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전향 경로 이득이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{C ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>C/(1 + CGH)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{C ( s ) G ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>출력까지의 전달함수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{C ( s ) G ( s ) H ( s )}{1 + C ( s ) G ( s ) H ( s )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>피드백 신호까지의 전달함수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -158,25 +156,24 @@
         <correct_choice_text>정착시간(settling time)이 짧아진다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: C ( s ), 단위계단(unit step), 정상상태오차(steady state error), 정착시간(settling time))
-정답은 ③이다. 본 문항은 C ( s ), 단위계단(unit step), 정상상태오차(steady state error), 정착시간(settling time)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $C ( s ) = 9$; $C ( s ) = 4 s + 9$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · PD 제어 효과
+정답은 ③이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 비례 제어기에 미분항(4s)을 추가하면 감쇠가 증가하여 진동이 줄고 정착시간이 짧아지지만, 시스템 형(type)은 변하지 않아 정상상태오차는 그대로이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>정상상태오차(steady state error)가 작아진다.</choice_text>
-          <commentary>'정상상태오차(steady state error)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>오버슈트가 사라진다.</choice_text>
-          <commentary>'오버슈트'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>정착시간(settling time)이 짧아진다.</choice_text>
-          <commentary>'정착시간(settling time)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>발산한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -195,25 +192,24 @@
         <correct_choice_text>$0$ $- \frac{1}{K_{I}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: 선형 제어시스템에서 단위계단 입력 $R ( s )$, R ( s ), W ( s ), 와 단위램프(unit ramp))
-정답은 ②이다. 본 문항은 선형 제어시스템에서 단위계단 입력 $R ( s )$, R ( s ), W ( s ), 와 단위램프(unit ramp)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R ( s )$; $W ( s ) = 0$; $e_{ssR}$; $W ( s )$; $R ( s ) = 0$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · PI 제어 정상상태 오차
+정답은 ②이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번이 정답이다. PI 제어기의 적분 작용으로 계단 기준입력에 대한 정상상태오차는 0이 되고, 램프 외란에 대해서는 적분이득에 반비례하는 일정한 오차 -1/KI가 남는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0$ $0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0$ $- \frac{1}{K_{I}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>∞ $0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>∞ $- \frac{1}{K_{I}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -232,27 +228,25 @@
         <correct_choice_text>$20 \sqrt{6} \sin ( 3 t - 45 ^\circ )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 다음 폐루프(closed loop), T ( s ), r ( t ), y ( t ))
-정답은 ④이다. 본 문항은 다음 폐루프(closed loop), T ( s ), r ( t ), y ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "$T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$"
-관련 수식: $T ( s )$; $r ( t ) = 20 \sin ( 3 t + 30 ° )$; $y ( t )$; $T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$; $120 \sin ( 3 t - 45 ° )$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 정현파 정상상태 응답
+정답은 ④이다. T(j3) = 6(3√3 + j3)/((3 + j3)(√3 + j3))이다. 크기는 6 × 6/(3√2 × 2√3) = √6이고, 위상은 30° - (45° + 60°) = -75°이다. 출력은 20√6 sin(3t + 30° - 75°) = 20√6 sin(3t - 45°)이다.</overall_commentary>
       <passage_evidence>$T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$120 \sin ( 3 t - 45 ^\circ )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>크기가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$20 \sqrt{6} \sin ( 3 t - 15 ^\circ )$</choice_text>
-          <commentary>제시문의 "$T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>위상이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$120 \sin ( 3 t - 15 ^\circ )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>크기와 위상이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$20 \sqrt{6} \sin ( 3 t - 45 ^\circ )$</choice_text>
-          <commentary>제시문의 "$T ( s ) = \frac{6 ( s + 3 \sqrt{3} )}{( s + 3 ) ( s + \sqrt{3} )}$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>20√6 sin(3t - 45°)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -271,25 +265,24 @@
         <correct_choice_text>가제어하고 가관측하다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 다음 제어시스템에서 가제어성(controllability), 과 가관측성(observability), 1 ( s ), 2 ( s ))
-정답은 ①이다. 본 문항은 다음 제어시스템에서 가제어성(controllability), 과 가관측성(observability), 1 ( s ), 2 ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X_1 ( s )$; $X_2 ( s )$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 가제어성과 가관측성
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. 블록선도로부터 상태방정식을 세워 제어가능성 행렬 [B AB]와 관측가능성 행렬 [C; CA]의 계수가 모두 2(풀랭크)인지 확인한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>가제어하고 가관측하다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>가제어하나 가관측하지 않다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>가제어하지 않으나 가관측하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>가제어하지 않고 가관측하지 않다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -305,25 +298,24 @@
         <correct_choice_text>$\frac{s}{( s + 1 ) ( s + 2 )}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 시불변 시스템에서 단위임펄스(unit impulse))
-정답은 ①이다. 본 문항은 시불변 시스템에서 단위임펄스(unit impulse)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $y_{i} ( t ) + y_{u} ( t ) = e^{- 2 t}$; $( t \geq 0 )$; $0$; $y_{i} ( t )$; $y_{u} ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 출력으로부터 전달함수 구하기
+정답은 ①이다. 임펄스와 계단 입력을 함께 가하면 입력은 1 + 1/s = (s + 1)/s이다. Y(s) = G(s)(s + 1)/s = 1/(s + 2)이어야 하므로 G(s) = s/((s + 1)(s + 2))이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{s}{( s + 1 ) ( s + 2 )}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>s/((s + 1)(s + 2))이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s + 2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>출력 자체의 라플라스 변환이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s + 1}{s ( s + 2 )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s ( s + 2 )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -340,25 +332,24 @@
         <correct_choice_text>$\sqrt{2}$ $45 ^\circ$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 피드백 제어시스템에서 단위램프 입력, 와 위상여유(phase margin))
-정답은 ③이다. 본 문항은 피드백 제어시스템에서 단위램프 입력, 와 위상여유(phase margin)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $e_{ss} = \frac{1}{\sqrt{2}}$; $K$; $K$; $1$; $30 °$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 램프 오차와 위상여유
+정답은 ③이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 램프 입력의 정상상태오차 1/Kv = 1/√2에서 K를 구하고, 이득교차주파수에서의 위상으로 위상여유를 구하며, 공식 정답에 따르면 K = √2, 위상여유 45°이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1$ $30 ^\circ$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1$ $45 ^\circ$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{2}$ $45 ^\circ$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2}$ $60 ^\circ$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -376,25 +367,24 @@
         <correct_choice_text>개루프 전달함수 $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 다음의 보드선도(bode diagram), G ( s ), 폐루프 전달함수의 감쇠비(damping ratio))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $K_{v} = \omega_{1}$; $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$; $\omega_{n} = \sqrt{\omega_{1} \omega_{2}}$; $\zeta = \frac{1}{2} \sqrt{\frac{\omega_{2}}{\omega_{1}}}$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 보드선도와 2차 시스템
+정답은 ②이다. 1형 시스템의 저주파 점근선이 0dB와 만나는 주파수가 Kv = ω1이고, 꺾임주파수가 ω2이므로 개루프 전달함수는 G(s) = ω1ω2/(s(s + ω2))이다. 폐루프 특성방정식 s² + ω2s + ω1ω2 = 0에서 ωn = √(ω1ω2), ζ = ω2/(2√(ω1ω2)) = (1/2)√(ω2/ω1)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정적속도오차상수(static velocity error constant) $K_{v} = \omega_{1}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>Kv = ω1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>개루프 전달함수 $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분자가 ω1ω2이어야 하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폐루프 전달함수의 고유주파수(undamped natural frequency) $\omega_{n} = \sqrt{\omega_{1} \omega_{2}}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ωn = √(ω1ω2)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>폐루프 전달함수의 감쇠비(damping ratio) $\zeta = \frac{1}{2} \sqrt{\frac{\omega_{2}}{\omega_{1}}}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>감쇠비 식으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -414,25 +404,24 @@
         <correct_choice_text>단위계단 입력에 대한 정상상태 출력은 $1$이며 과도응답(transient response)에 진동파형을 포함한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 미분방정식으로 표현된 시스템, 30 y ( t ), 20 x ( t ), 크기가 유한(bounded), 이며 과도응답(transient response))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\dot{y} ( t ) + 30 y ( t ) = 20 x ( t )$; $- 30$; $1$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 1차 시스템
+정답은 ④이다. 극점은 -30으로 안정한 1차 선형시불변 시스템이며 BIBO 안정하다. 단위계단 입력의 정상상태 출력은 20/30 = 2/3이고, 1차 시스템이므로 진동하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템의 극점은 $- 30$이며 안정하다.</choice_text>
-          <commentary>제시문의 "$\dot{y} ( t ) + 30 y ( t ) = 20 x ( t )$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>극점 -30으로 안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>크기가 유한(bounded)한 입력신호에 대하여 출력신호는 유한하다.</choice_text>
-          <commentary>'크기'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>BIBO 안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>선형 시불변 시스템이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>선형 시불변이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>단위계단 입력에 대한 정상상태 출력은 $1$이며 과도응답(transient response)에 진동파형을 포함한다.</choice_text>
-          <commentary>'단위계단 입력'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정상상태 출력이 2/3이고 진동이 없으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -449,25 +438,24 @@
         <correct_choice_text>감쇠비가 감소한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 공액 복소수(complex conjugate), 지연시간(delay time))
-정답은 ①이다. 본 문항은 공액 복소수(complex conjugate), 지연시간(delay time)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $2$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 극점 이동과 동특성
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. s평면에서 극점의 허수부는 감쇠진동주파수, 실수부는 감쇠율, 원점과 극점을 잇는 선의 각도는 감쇠비를 결정하며, 공식 정답에 따르면 A에서 B로 이동하면 감쇠비는 감소하지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>감쇠비가 감소한다.</choice_text>
-          <commentary>'감쇠비'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>상승시간이 단축된다.</choice_text>
-          <commentary>'상승시간'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>정착시간이 단축된다.</choice_text>
-          <commentary>'정착시간'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>지연시간(delay time)이 단축된다.</choice_text>
-          <commentary>'지연시간(delay time)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -486,25 +474,24 @@
         <correct_choice_text>이득교차 주파수(gain crossover frequency)는 $T [ rad / sec ]$이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 피드백 제어시스템의 상대안정도, 이득여유(gain margin), 위상교차 주파수(phase crossover frequency), 이득교차 주파수(gain crossover frequency))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $T &gt; 0$; $infinity$; $90$; $T [ rad / sec ]$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 상대안정도
+정답은 ④이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번이 정답이다. 적분 요소 형태의 개루프 전달함수는 위상이 -90°로 일정하여 위상교차주파수가 없고 이득여유가 무한대이며 위상여유는 90°이다. 이득교차주파수는 |G(jω)| = 1이 되는 1/T이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이득여유(gain margin)는 $infinity$이다.</choice_text>
-          <commentary>'이득여유(gain margin)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>위상여유는 $90$°이다.</choice_text>
-          <commentary>'위상여유'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위상교차 주파수(phase crossover frequency)는 존재하지 않는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>이득교차 주파수(gain crossover frequency)는 $T [ rad / sec ]$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -523,25 +510,24 @@
         <correct_choice_text>$K = \frac{1}{1 - b}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 제어기, 사용된, 제어시스템에서, 제어대상)
-정답은 ①이다. 본 문항은 제어기, 사용된, 제어시스템에서, 제어대상에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $s = - 1 ± j \sqrt{3}$; $K$; $b$; $K = \frac{1}{1 - b}$; $K = \frac{b}{1 - b}$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · PID 제어 극점 배치
+정답은 ①이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번이 정답이다. 원하는 극점 -1 ± j√3에 해당하는 특성방정식 s² + 2s + 4와 실제 특성방정식의 계수를 비교하여 K와 b의 관계를 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$K = \frac{1}{1 - b}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$K = \frac{b}{1 - b}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$K = \frac{1}{1 + b}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$K = \frac{b}{1 + b}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -558,25 +544,24 @@
         <correct_choice_text>$K_{P} &gt; K_{D} &gt; 0$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: u ( t ), y ( t ))
-정답은 ③이다. 본 문항은 u ( t ), y ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $u ( t ) = - K_{P} y ( t ) - K_{D} \dot{y} ( t )$; $- 1$; $K_{P} , K_{D}$; $y ( t )$; $x_{1} ( t ) , x_{2} ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · PD 제어 극점 조건
+정답은 ③이다. 폐루프 특성방정식은 s² + (2 + KD)s + (1 + KP) = 0이다. 근의 실수부가 -1보다 작으려면 s = z - 1로 치환한 z² + KDz + (KP - KD) = 0이 안정해야 하므로 KD &gt; 0, KP &gt; KD이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 1 , K_{D} &gt; 0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>조건이 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 0 , K_{D} &gt; 0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>조건이 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$K_{P} &gt; K_{D} &gt; 0$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>KP &gt; KD &gt; 0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 0 , K_{D} &gt; - 0 . 5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>조건이 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -595,25 +580,24 @@
         <correct_choice_text>$2$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: 피드백, 제어시스템에서, 이득, 에서)
-정답은 ②이다. 본 문항은 피드백, 제어시스템에서, 이득, 에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $K$; $0$; $+ \infty$; $\omega$; $1$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 무감쇠 진동 주파수
+정답은 ②이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번이 정답이다. 루스 표에서 한 행이 0이 되는 임계 K를 구하고, 그 위 행의 보조방정식의 근 ±jω가 지속 진동 주파수이며, 공식 정답에 따르면 ω = 2rad/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -630,25 +614,24 @@
         <correct_choice_text>$2$ $1$ $0$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: u ( t ), y ( t ))
-정답은 ②이다. 본 문항은 u ( t ), y ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $s$; $j \omega$; ${bmatrix {{\dot{x_{1}}} ( t ) # {\dot{x_{2}}} ( t ) # {\dot{x_{3}}} ( t )}} = {bmatrix {0 &amp; 3 &amp; 1 # 2 &amp; 8 &amp; 1 # - 10 &amp; - 5 &amp; - 2}} {bmatrix {x_{1} ( t ) # x_{2} ( t ) # x_{3} ( t )}} + {bmatrix {2 # 1 # 0}} u ( t )$; $y ( t ) = \left[ 001 \right] {bmatrix {x_{1} ( t ) # x_{2} ( t ) # x_{3} ( t )}}$; $j \omega$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 극점 위치의 판별
+정답은 ②이다. 특성방정식은 det(sI - A) = s³ - 6s² - 7s - 52 = 0이다. 루스 표의 제1열은 1, -6, -15.7, -52로 부호가 한 번 바뀌므로 우반면 극점이 1개, 좌반면 극점이 2개이며 jω축 위 극점은 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$3$ $0$ $0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>우반면 극점이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2$ $1$ $0$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2, 1, 0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1$ $1$ $1$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>jω축 극점은 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0$ $2$ $1$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -665,25 +648,24 @@
         <correct_choice_text>$1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 갖는 제어시스템의 나이퀴스트(Nyquist), G ( s ))
-정답은 ③이다. 본 문항은 갖는 제어시스템의 나이퀴스트(Nyquist), G ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $G ( s )$; $\frac{6}{(} s + 2 )^2$; $\frac{15}{s^{2} + s + 10}$; $1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}$; $3 \frac{0}{( s + 1 ) ( s + 2 ) ( s + 3 )}$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 나이퀴스트 선도와 전달함수
+정답은 ③이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 나이퀴스트 선도의 ω = 0에서의 시작점(직류 이득), ω → ∞에서의 접근 각도(상대 차수), 실수축 교차점을 각 전달함수와 비교하여 판별한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{6}{(} s + 2 )^2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{15}{s^{2} + s + 10}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 \frac{5}{( s + 1 ) ( s^2 + s + 10 )}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$3 \frac{0}{( s + 1 ) ( s + 2 ) ( s + 3 )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -703,25 +685,24 @@
         <correct_choice_text>$7$ $29$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 수리·계산·자료해석형 (핵심어: e ( t ), x ( t ), Ax ( t ), Bu ( t ), y ( t ))
-정답은 ④이다. 본 문항은 e ( t ), x ( t ), Ax ( t ), Bu ( t ), y ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $e ( it t ) = x ( it t ) - \hat{x} ( it t )$; $- 1$; $- 2$; $L$; $A = {bmatrix {0 &amp; 1 # - 1 &amp; 4}}$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 상태관측기 이득
+정답은 ④이다. 오차 동역학은 ė = (A - LC)e이고 특성방정식은 det(sI - A + LC) = s² + (l1 - 4)s + (1 - 4l1 + l2) = 0이다. 원하는 (s + 1)(s + 2) = s² + 3s + 2와 비교하면 l1 - 4 = 3에서 l1 = 7, 1 - 28 + l2 = 2에서 l2 = 29이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1$ $5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1$ $29$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>l1이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$7$ $5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>l2가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$7$ $29$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>7, 29이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -738,25 +719,24 @@
         <correct_choice_text>$a \neq 3$인 모든 상수</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 자동제어 · 핵심 개념·이론 이해형 (핵심어: 1 ( s ), 2 ( s ))
-정답은 ③이다. 본 문항은 1 ( s ), 2 ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $a$; $X_1 ( s )$; $X_2 ( s )$; $a \neq 1$; $a \neq 2$</overall_commentary>
+      <overall_commentary>출제 영역: 자동제어 · 제어가능 조건
+정답은 ③이다. 회로도(그림)가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 블록선도의 상태방정식으로 제어가능성 행렬 [B AB]의 행렬식을 구하여 0이 되지 않는 조건을 찾으며, 공식 정답에 따르면 a ≠ 3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$a \neq 1$인 모든 상수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$a \neq 2$인 모든 상수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$a \neq 3$인 모든 상수</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$a \neq 4$인 모든 상수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

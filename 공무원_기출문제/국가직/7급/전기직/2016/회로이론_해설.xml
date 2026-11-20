@@ -29,25 +29,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 회로에서, 합성, 저항)
-정답은 ③이다. 본 문항은 회로에서, 합성, 저항에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R_{AB}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 합성 저항
+정답은 ③이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 R_AB = 3kΩ이다. 직렬은 R = R₁ + R₂, 병렬은 R = R₁R₂/(R₁ + R₂)로 단계적으로 합성하고, 브리지 구조이면 평형 여부나 Δ–Y 변환을 이용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3kΩ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -66,25 +65,24 @@
         <correct_choice_text>$12$ $\frac{1}{3}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 최대, 전력, 전달하기)
-정답은 ②이다. 본 문항은 회로에서, 최대, 전력, 전달하기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R_{L}$; $R_{L}$; $R_{L}$; $P_{L}$; $R_{L}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 최대전력 전달
+정답은 ②이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 R_L = 12kΩ, P_L = 1/3mW이다. 최대전력은 R_L = R_Th일 때 P_max = V_Th²/(4R_Th)이므로, V_Th² = 4 × 12kΩ × (1/3)mW = 16V², 즉 V_Th = 4V임을 알 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$6$ $\frac{2}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$12$ $\frac{1}{3}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>12kΩ, 1/3mW이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$12$ $\frac{2}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>R_Th = 12kΩ일 때 최대전력이 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$6$ $\frac{1}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -103,25 +101,24 @@
         <correct_choice_text>$Z_{AB} = 6400 Z_{L}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 이용하여, 표현한, 변압기)
-정답은 ④이다. 본 문항은 회로에서, 이용하여, 표현한, 변압기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $Z_{AB}$; $Z_{L}$; $Z_{AB} = 64 Z_{L}$; $Z_{AB} = 80 Z_{L}$; $Z_{AB} = 800 Z_{L}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 변압기의 임피던스 변환
+정답은 ④이다. 회로가 그림으로만 제시되어 권선비를 확인할 수 없으며, 공식 정답에 따르면 Z_AB = 6,400Z_L이다. 이상적 변압기는 1차측에서 본 임피던스가 권선비의 제곱배이므로, 전체 권선비가 80 : 1(예: 두 변압기의 종속 연결로 8 × 10)이면 80² = 6,400배가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$Z_{AB} = 64 Z_{L}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권선비 8의 제곱에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$Z_{AB} = 80 Z_{L}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권선비를 제곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$Z_{AB} = 800 Z_{L}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$Z_{AB} = 6400 Z_{L}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6,400Z_L이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -138,25 +135,24 @@
         <correct_choice_text>[수식/도표 선지 3번]</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: H ( s ), 영점 선도(pole-zero diagram))
-정답은 ③이다. 본 문항은 H ( s ), 영점 선도(pole-zero diagram)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H ( s ) = \frac{s}{s^{2} + 2 s + 5}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 극-영점 선도
+정답은 ③이다. 특성방정식 s² + 2s + 5 = 0의 근은 s = −1 ± √(1 − 5) = −1 ± j2이다. 따라서 극점은 실수부 −1, 허수부 ±2인 위치에 표시된다. 영점은 분자 s = 0에서 원점에 있다. 선지 그림을 확인할 수 없으나 공식 정답은 3번이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[수식/도표 선지 1번]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 극점의 위치가 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－1 －2 －3 －1 1 －2 －3 2 3 &lt;i&gt;Im&lt;/i&gt; 1 2 3 X X X X</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 극점의 위치가 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>[수식/도표 선지 3번]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>극점 −1 ± j2를 나타낸 선도이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[수식/도표 선지 4번]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 극점의 위치가 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -173,25 +169,24 @@
         <correct_choice_text>6 －4</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: dv ( t ), di ( t ))
-정답은 ④이다. 본 문항은 dv ( t ), di ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v ( 0^{+} ) = 4$; $i ( 0^{+} ) = 2$; $\frac{dv ( t )}{dt} \right |_{t = 0^{+}}$; $\left . \frac{di ( t )}{dt} \right |_{t = 0^{+}}$; $t = 0^{+}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 초기 미분값
+정답은 ④이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 dv/dt(0⁺) = 6V/s, di/dt(0⁺) = −4A/s이다. 커패시터는 dv/dt = i_C/C, 인덕터는 di/dt = v_L/L이므로, t = 0⁺에서 v(0⁺) = 4V, i(0⁺) = 2A를 이용해 i_C(0⁺)와 v_L(0⁺)를 구한 뒤 계산한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6 4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>di/dt의 부호가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1 －4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>dv/dt가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6 －4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6V/s, −4A/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -209,24 +204,24 @@
         <correct_choice_text>5 1</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 이상적인, 연산증폭기, 회로에서)
-정답은 ③이다. 본 문항은 이상적인, 연산증폭기, 회로에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 연산증폭기 회로
+정답은 ③이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 V_o = 5V, I_x = 1mA이다. 가상 단락 조건으로 반전·비반전 단자 전압이 같음을 이용해 출력전압을 구하고, 해당 저항의 전압을 저항값으로 나누어 전류를 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10 2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>5 1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5V, 1mA이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5 2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -242,25 +237,24 @@
         <correct_choice_text>$10 ( e^{- t} - e^{- 2 t} )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: u ( t ))
-정답은 ②이다. 본 문항은 u ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v_{1} ( t ) = 5 e^{- t} u ( t )$; $t &gt; 0$; $v_{2} ( t )$; $v_{2} ( 0^{-} ) = 0$; $u ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 지수 입력에 대한 응답
+정답은 ②이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 v₂(t) = 10(e^(−t) − e^(−2t)) V이다. 입력 V₁(s) = 5/(s + 1)에 회로의 전달함수(극점 s = −2)를 곱하면 V₂(s) = K/((s + 1)(s + 2)) 꼴이 되고, 부분분수 전개로 역변환한다. v₂(0) = 0 조건도 만족한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$5 ( e^{- t} - e^{- 2 t} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$10 ( e^{- t} - e^{- 2 t} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10(e^(−t) − e^(−2t))이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$5 ( e^{- t} + e^{- 2 t} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>v₂(0) = 0 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$10 ( e^{- t} + e^{- 2 t} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>v₂(0) = 0 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -277,25 +271,24 @@
         <correct_choice_text>$20 ( e^{- 2 t} - e^{- 5 t} ) u ( t )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 6 u ( t ), u ( t ))
-정답은 ①이다. 본 문항은 6 u ( t ), u ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $i_{s} ( t ) = 6 u ( t )$; $v_{o} ( t )$; $u ( t )$; $20 ( e^{- 2 t} - e^{- 5 t} ) u ( t )$; $10 ( e^{- 2 t} - e^{- 5 t} ) u ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 계단 전류 입력에 대한 응답
+정답은 ①이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 v_o(t) = 20(e^(−2t) − e^(−5t))u(t) mV이다. 회로의 특성근이 −2, −5이고 초기값과 최종값이 모두 0인 응답이므로 두 지수 항의 차 형태가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$20 ( e^{- 2 t} - e^{- 5 t} ) u ( t )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>20(e^(−2t) − e^(−5t))u(t)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$10 ( e^{- 2 t} - e^{- 5 t} ) u ( t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$20 ( e^{- 5 t} + e^{- 2 t} ) u ( t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초기값이 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$10 ( e^{- 5 t} + e^{- 2 t} ) u ( t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초기값이 0이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -313,25 +306,24 @@
         <correct_choice_text>$\frac{1}{3}$ $6$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로, 전달, 함수)
-정답은 ②이다. 본 문항은 회로, 전달, 함수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H ( \omega ) = \frac{V_{o} ( \omega )}{V_{i} ( \omega )} = 0 . 4 \frac{1 + j \frac{\omega}{12}}{1 + j \frac{\omega}{30}}$; $L$; $R$; $L$; $R$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 전달함수와 소자값
+정답은 ②이다. 회로가 그림으로만 제시되어 소자 배치를 확인할 수 없으며, 공식 정답에 따르면 L = 1/3H, R = 6Ω이다. 회로의 전달함수를 K(1 + jω/ω_z)/(1 + jω/ω_p) 꼴로 정리하여 직류 이득 0.4, 영점 12rad/s, 극점 30rad/s와 비교한다. 예를 들어 R/L = 18 = 30 − 12처럼 시정수 관계에서 값을 결정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$ $4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{3}$ $6$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1/3H, 6Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$ $2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{6}$ $3$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -347,25 +339,24 @@
         <correct_choice_text>$H ( s ) = \frac{\frac{1}{R^{2} C_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{R^{2} C_{1} C_{2}}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: H ( s ))
-정답은 ③이다. 본 문항은 H ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H ( s ) = \frac{V_{o} ( s )}{V_{i} ( s )}$; $H ( s ) = \frac{\frac{1}{RC_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{R^{2} C_{1} C_{2}}}$; $H ( s ) = \frac{\frac{1}{R^{2} C_{1} C_{2}}}{s^{2} + \frac{2}{RC_{2}} s + \frac{1}{R^{2} C_{1} C_{2}}}$; $H ( s ) = \frac{\frac{1}{R^{2} C_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{R^{2} C_{1} C_{2}}}$; $H ( s ) = \frac{\frac{1}{RC_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{RC_{1} C_{2}}}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 2차 능동 저역통과필터
+정답은 ③이다. 회로가 그림으로만 제시되어 소자 배치를 확인할 수 없으며, 공식 정답에 따르면 H(s) = (1/(R²C₁C₂))/(s² + (2/(RC₁))s + 1/(R²C₁C₂))이다. 직류 이득이 1(s = 0에서 분자 = 상수항)인 살렌-키형 저역통과필터로, 차원이 일치하려면 상수항이 1/(R²C₁C₂)이어야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$H ( s ) = \frac{\frac{1}{RC_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{R^{2} C_{1} C_{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분자의 차원이 분모 상수항과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$H ( s ) = \frac{\frac{1}{R^{2} C_{1} C_{2}}}{s^{2} + \frac{2}{RC_{2}} s + \frac{1}{R^{2} C_{1} C_{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>s항 계수의 커패시터가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$H ( s ) = \frac{\frac{1}{R^{2} C_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{R^{2} C_{1} C_{2}}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따른 전달함수이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$H ( s ) = \frac{\frac{1}{RC_{1} C_{2}}}{s^{2} + \frac{2}{RC_{1}} s + \frac{1}{RC_{1} C_{2}}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>차원이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -384,25 +375,24 @@
         <correct_choice_text>$j \omega ( L_{1} + L_{2} + 2 M ) \mathbf{I}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 단자, 사이, 걸리)
-정답은 ②이다. 본 문항은 회로에서, 단자, 사이, 걸리에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: ${bold V}_{14}$; $j \omega ( L_{1} + L_{2} ) bold {I} it$; $j \omega ( L_{1} + L_{2} + 2 M ) bold {I} it$; $j \omega ( L_{1} + L_{2} - 2 M ) bold {I} it$; $j \omega ( L_{1} - L_{2} ) bold {I} it$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 결합 인덕터의 직렬 연결
+정답은 ②이다. 그림을 확인할 수 없으나 공식 정답에 따르면 두 코일이 가동 결합(전류가 두 코일의 점 단자로 모두 들어가는 방향)으로 직렬 연결된 경우이다. 이때 등가 인덕턴스는 L₁ + L₂ + 2M이므로 V₁₄ = jω(L₁ + L₂ + 2M)I이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} + L_{2} ) \mathbf{I}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상호 인덕턴스를 고려하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$j \omega ( L_{1} + L_{2} + 2 M ) \mathbf{I}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>jω(L₁ + L₂ + 2M)I이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} + L_{2} - 2 M ) \mathbf{I}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>차동 결합 직렬 연결의 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} - L_{2} ) \mathbf{I}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>직렬 연결의 식이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -418,25 +408,24 @@
         <correct_choice_text>$6 \sqrt{2} \cos ( t + 15 ^\circ )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: H ( s ))
-정답은 ③이다. 본 문항은 H ( s )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H ( s ) = \frac{V_{o} ( s )}{V_{i} ( s )} = \frac{s}{s^{2} + s + 2}$; $v_{i} ( t ) = 12 \cos ( t - 30 ° )$; $v_{o} ( t )$; $3 \sqrt{2} \cos ( t - 45 ° )$; $6 \sqrt{2} \cos ( t - 15 ° )$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 정현파 정상상태 응답
+정답은 ③이다. s = jω = j1을 대입하면 H(j1) = j/(−1 + j + 2) = j/(1 + j)이다. |H| = 1/√2, ∠H = 90° − 45° = 45°이다. 출력의 진폭은 12 × (1/√2) = 6√2, 위상은 −30° + 45° = +15°이므로 v_o(t) = 6√2 cos(t + 15°)V이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{2} \cos ( t - 45 ^\circ )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>진폭과 위상이 모두 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$6 \sqrt{2} \cos ( t - 15 ^\circ )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위상이 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$6 \sqrt{2} \cos ( t + 15 ^\circ )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6√2 cos(t + 15°)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{2} \cos ( t + 45 ^\circ )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>진폭과 위상이 모두 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -455,25 +444,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 이상적인, 연산증폭기, 회로에서, 의해)
-정답은 ①이다. 본 문항은 이상적인, 연산증폭기, 회로에서, 의해에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R_{L}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 연산증폭기 회로의 부하전력
+정답은 ①이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 R_L에서 소모되는 전력은 2W이다. 출력전압 또는 부하전류를 구한 뒤 P = V²/R_L = I²R_L로 계산한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -492,25 +480,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 회로에서, 이고, 파형, 각주파수)
-정답은 ④이다. 본 문항은 회로에서, 이고, 파형, 각주파수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v_{s} ( t ) = A \cos ( \omega t )$; $v_{C} ( t ) = B \cos ( \omega t - 45 ° )$; $\omega$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 위상차와 각주파수
+정답은 ④이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 ω = 2krad/s이다. RC 회로에서 커패시터 전압이 전원보다 45° 뒤지는 것은 ωRC = 1(차단주파수)일 때이므로 ω = 1/(R_eq·C)로 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2krad/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -529,25 +516,24 @@
         <correct_choice_text>$3 e^{- t / 0 . 24}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로, 에서, 정상상태, 도달하였다)
-정답은 ①이다. 본 문항은 회로, 에서, 정상상태, 도달하였다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $t &lt; 0$; $t = 0$; $t &gt; 0$; $v_{C} ( t )$; $3 e^{- t / 0 . 24}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · RC 회로의 방전
+정답은 ①이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 v_C(t) = 3e^(−t/0.24) V이다. 초기 전압 3V가 스위치를 닫은 뒤 시정수 τ = R_eq·C = 0.24초로 감쇠한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$3 e^{- t / 0 . 24}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3e^(−t/0.24)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$6 e^{- t / 0 . 24}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초기값이 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3 e^{- 0 . 24 t}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시정수가 0.24초이면 지수는 −t/0.24이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$6 e^{- 0 . 24 t}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초기값과 지수가 모두 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -566,25 +552,24 @@
         <correct_choice_text>5</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 회로에서, 입력전압, 그림과, 반파정류)
-정답은 ①이다. 본 문항은 회로에서, 입력전압, 그림과, 반파정류에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v_{s} ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 반파정류파의 평균전력
+정답은 ①이다. 회로와 파형이 그림으로만 제시되어 값을 확인할 수 없으며, 공식 정답에 따르면 평균전력은 5W이다. 반파정류 정현파의 실효값은 V_m/2이므로 저항 부하의 평균전력은 P = (V_m/2)²/R이며, 이는 같은 진폭 정현파 전력의 1/2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전파 정현파일 때의 전력에 해당할 수 있는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -600,25 +585,24 @@
         <correct_choice_text>$2 + 4 e^{- 3 t}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: i ( t ))
-정답은 ④이다. 본 문항은 i ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $t &lt; 0$; $t = 0$; $t &gt; 0$; $i ( t )$; $4 + 3 e^{- 2 t}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · RL 회로의 완전 응답
+정답은 ④이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 i(t) = 2 + 4e^(−3t) A이다. 1차 회로의 응답 i(t) = i(∞) + [i(0⁺) − i(∞)]e^(−t/τ)에서 최종값 2A, 초기값 6A, 시정수 1/3초임을 알 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$4 + 3 e^{- 2 t}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최종값과 시정수가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$4 + 3 e^{- 3 t}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최종값이 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 + 4 e^{- 2 t}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시정수가 공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 + 4 e^{- 3 t}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2 + 4e^(−3t)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -637,25 +621,24 @@
         <correct_choice_text>2.1</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 수리·계산·자료해석형 (핵심어: 포트, 회로망에서, 입출력, 전압)
-정답은 ②이다. 본 문항은 포트, 회로망에서, 입출력, 전압에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{1} = A V_{2} - B I_{2}$; $I_{1} = C V_{2} - D I_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 전송 파라미터의 합
+정답은 ②이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 A + B + C + D = 2.1이다. A = V₁/V₂(I₂ = 0), B = −V₁/I₂(V₂ = 0), C = I₁/V₂(I₂ = 0), D = −I₁/I₂(V₂ = 0)로 구하며, 상반 회로라면 AD − BC = 1을 만족한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2.1이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10.1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11.1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -674,25 +657,24 @@
         <correct_choice_text>$\frac{1}{2 \pi}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 계측기, 측정값, 전압)
-정답은 ①이다. 본 문항은 회로에서, 계측기, 측정값, 전압에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $L$; $\frac{1}{2 \pi}$; $\frac{1}{4 \pi}$; $\frac{1}{\pi}$; $\frac{1}{3 \pi}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 계측값으로 인덕턴스 구하기
+정답은 ①이다. 회로가 그림으로만 제시되어 소자 배치를 확인할 수 없으며, 공식 정답에 따르면 L = 1/(2π)H이다. 전력계는 유효전력 P, 전압계·전류계는 피상전력 S = VI = 1,200VA를 주므로 무효전력 Q = √(S² − P²)와 X_L = Q/I²의 관계, 또는 회로의 저항 조건과 임피던스 |Z| = V/I = 48Ω를 이용해 X_L = 2πfL을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2 \pi}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1/(2π)H이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4 \pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3 \pi}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -711,25 +693,24 @@
         <correct_choice_text>$\frac{2 s - 3}{s + 1}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 회로이론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 입출력, 관계, 표현할)
-정답은 ④이다. 본 문항은 회로에서, 입출력, 관계, 표현할에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{1} = h_{11} I_{1} + h_{12} V_{2}$; $h_{11} + h_{12}$; $\frac{2 s - 4}{s + 1}$; $\frac{s - 3}{s + 1}$; $\frac{s - 4}{s + 1}$</overall_commentary>
+      <overall_commentary>출제 영역: 회로이론 · 하이브리드 파라미터
+정답은 ④이다. 회로가 그림으로만 제시되어 소자값을 확인할 수 없으며, 공식 정답에 따르면 h₁₁ + h₁₂ = (2s − 3)/(s + 1)이다. h₁₁ = V₁/I₁(V₂ = 0)은 출력 단락 시 입력 임피던스이고, h₁₂ = V₁/V₂(I₁ = 0)는 입력 개방 시 역방향 전압비이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 s - 4}{s + 1}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s - 3}{s + 1}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s - 4}{s + 1}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2 s - 3}{s + 1}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>(2s − 3)/(s + 1)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

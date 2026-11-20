@@ -30,24 +30,24 @@
         <correct_choice_text>0.9</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 강도설계법, 사용하여, 구조물, 소요강도)
-정답은 ①이다. 본 문항은 강도설계법, 사용하여, 구조물, 소요강도에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 강도설계법 하중조합(고정하중+지진하중)
+정답은 ①이다. KDS 41 12 00 강도설계법 기본 하중조합 중 고정하중(D)과 지진하중(E)만으로 조합하는 경우는 0.9D + 1.0E(전도·인발 검토)이므로 고정하중에 적용하는 하중계수는 0.9이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.9</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고정하중과 지진하중만의 조합은 0.9D + 1.0E이므로 고정하중 계수는 0.9가 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.0은 지진하중의 계수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.2는 활하중·적설하중 등과 함께 조합할 때(1.2D + 1.0E + 1.0L + 0.2S)의 계수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.4는 고정하중 단독 조합(1.4D)의 계수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>모멘트골조방식</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 건축물, 내진설계기준에서, 수직하중과, 횡력)
-정답은 ②이다. 본 문항은 건축물, 내진설계기준에서, 수직하중과, 횡력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 모멘트골조방식
+정답은 ②이다. 건축물 내진설계기준상 수직하중과 횡력(지진·풍하중)을 보와 기둥이 강접합된 라멘골조의 휨저항으로 모두 저항하는 구조방식은 모멘트골조방식이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>건물골조방식</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>건물골조방식은 수직하중은 입체골조가, 지진하중은 전단벽이나 가새골조가 저항하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>모멘트골조방식</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수직하중과 횡력을 보·기둥 라멘골조가 저항하는 모멘트골조방식이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>내력벽방식</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내력벽방식은 수직하중과 횡력을 모두 내력벽(전단벽)이 저항하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>이중골조방식</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이중골조방식은 전단벽·가새골조와 지진력의 25% 이상을 부담하는 모멘트골조가 함께 저항하는 방식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -102,25 +102,24 @@
         <correct_choice_text>0.0033</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 모멘트, 부재, 콘크리트, 설계기준압축강도)
-정답은 ④이다. 본 문항은 모멘트, 부재, 콘크리트, 설계기준압축강도에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\epsilon_{cu}$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 콘크리트 압축연단 극한변형률(ε_cu)
+정답은 ④이다. KDS 14 20 20에 따르면 콘크리트 설계기준압축강도 f_ck ≤ 40 MPa인 경우 압축연단 콘크리트의 극한변형률 ε_cu는 0.0033이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.0030</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.0030은 구 ACI 기준값이며 현행 KDS 기준(f_ck ≤ 40 MPa)은 0.0033이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.0031</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.0031은 f_ck = 60 MPa 부근의 감소된 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.0032</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.0032는 f_ck = 50 MPa일 때의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.0033</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>f_ck = 40 MPa 이하일 때 극한변형률은 0.0033이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -139,24 +138,24 @@
         <correct_choice_text>프리즘</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 법령·조문 적용형 (핵심어: 조적식구조에서, 그라우트, 모르타르, 포함된)
-정답은 ②이다. 본 문항은 조적식구조에서, 그라우트, 모르타르, 포함된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 조적식구조 프리즘 시험체
+정답은 ②이다. KDS 41 60 00(조적식구조 설계기준)에서 벽돌·블록 등 단위조적 개체를 모르타르나 그라우트와 함께 쌓아 조적조의 압축강도 등 구조적 성질을 규정하기 위해 제작하는 시험체를 프리즘(prism)이라 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>면살</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>면살은 속빈 콘크리트 블록의 바깥쪽 벽면 부분이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>프리즘</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>조적조의 압축강도 등 성질을 시험하기 위해 만든 단위조적 조립 시험체는 프리즘이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>겹</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>겹(wythe)은 벽 두께 방향으로 한 켜의 단위조적 개체로 구성된 수직 벽체이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>대린벽</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대린벽은 내력벽에 직각으로 교차해 벽을 지지하는 벽이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -172,24 +171,24 @@
         <correct_choice_text>부재축에 평행하게 배치한 용접철망</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 철근콘크리트 부재의 전단철근)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 철근콘크리트 부재의 전단철근
+정답은 ①이다. KDS 14 20 22에 따라 전단철근은 부재축에 수직(직각)으로 배치한 스터럽·용접철망, 나선철근·원형 띠철근, 주인장철근에 45° 이상 각도로 설치한 스터럽, 30° 이상 구부린 굽힘철근 등을 사용한다. 부재축에 평행하게 배치한 용접철망은 전단균열을 가로지르지 못하므로 전단철근으로 부적절하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>부재축에 평행하게 배치한 용접철망</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>용접철망은 부재축에 수직으로 배치해야 전단철근 역할을 하므로 평행 배치는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>나선철근 또는 원형 띠철근</choice_text>
-          <commentary>'나선철근 또'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>나선철근이나 원형 띠철근은 기둥 등의 전단철근으로 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>주인장철근에 45도 이상의 각도로 설치되는 스터럽</choice_text>
-          <commentary>'주인장철근에 45도 이상의 각도로 설치되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주인장철근에 45° 이상 각도로 경사 배치한 스터럽은 전단철근으로 인정된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>주인장철근에 30도 이상의 각도로 구부린 굽힘철근</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주인장철근에 30° 이상 각도로 구부린 굽힘철근은 전단철근으로 인정된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -208,24 +207,24 @@
         <correct_choice_text>16</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 그림과, 단순보에서, 지점, 수직반력)
-정답은 ②이다. 본 문항은 그림과, 단순보에서, 지점, 수직반력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 단순보 지점 수직반력 산정
+정답은 ②이다. 제시된 단순보의 경간과 하중 이미지를 확인할 수 없으며, A점에 대한 모멘트 평형조건(ΣM_A = 0)으로 산정한 공식 정답에 따르면 B 지점의 수직반력은 16 kN이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10 kN은 공식 정답이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>16</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 B 지점 수직반력은 16 kN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>20 kN은 공식 정답이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>22</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>22 kN은 공식 정답이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -241,24 +240,24 @@
         <correct_choice_text>휨접합</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 고장력볼트의 접합 방법)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 고장력볼트의 접합 방법
+정답은 ①이다. 고장력볼트 접합은 하중 전달 기구에 따라 마찰접합(마찰력 이용), 지압접합(볼트 전단과 구멍 지압 이용), 인장접합(볼트 축방향 인장 이용)의 3가지로 구분한다. 휨접합은 고장력볼트의 접합 분류가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>휨접합</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>휨접합은 고장력볼트 접합 방법에 해당하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>마찰접합</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>마찰접합은 높은 조임력으로 접합면 마찰력에 의해 힘을 전달하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>인장접합</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인장접합은 볼트 축방향 인장력으로 외력에 저항하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>지압접합</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>지압접합은 볼트 몸체의 전단력과 판재 구멍의 지압력으로 힘을 전달하는 방식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -274,24 +273,24 @@
         <correct_choice_text>첫 번째 후프철근은 지지부재의 면부터 100 mm 이내에 위치하여야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 철근콘크리트 특수모멘트골조의 휨부재)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 특수모멘트골조 휨부재 후프철근 위치
+정답은 ③이다. KDS 14 20 80(내진설계)에 따라 철근콘크리트 특수모멘트골조 휨부재(보)에서 첫 번째 후프철근은 지지부재(기둥)의 면으로부터 100 mm 이내가 아니라 50 mm 이내에 위치하여야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>접합면에서 정모멘트에 대한 강도는 부모멘트에 대한 강도의 1/2 이상이어야 한다.</choice_text>
-          <commentary>'접합면에서 정모멘트'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>접합면에서 정모멘트 강도는 부모멘트 강도의 1/2 이상이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>부재의 어느 위치에서나 정 또는 부모멘트에 대한 강도는 부재 양단 접합면의 최대 휨강도의 1/4 이상이어야 한다.</choice_text>
-          <commentary>'부재의 어느 위치에서나 정 또'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>부재 어느 위치에서나 정·부모멘트 강도는 양단 접합면 최대 휨강도의 1/4 이상이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>첫 번째 후프철근은 지지부재의 면부터 100 mm 이내에 위치하여야 한다.</choice_text>
-          <commentary>'첫 번째 후프철근'에 관하여 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>첫 번째 후프철근은 지지부재 면에서 100 mm가 아니라 50 mm 이내에 배치해야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>보의 상부와 하부에 최소한 연속된 두 개의 축방향 철근으로 보강하여야 한다.</choice_text>
-          <commentary>'하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>보의 상부와 하부에 최소 2개 이상의 연속 축방향 철근을 배근해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -309,24 +308,24 @@
         <correct_choice_text>판두께 30 mm인 SN275: 265</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 구조용, 강재, 항복강도)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 구조용 강재의 판두께별 항복강도
+정답은 ④이다. 건축구조용 압연강재 SN275는 판두께가 40 mm 이하인 구간에서 두께 증가에 따른 강도 저감 없이 항복강도 275 MPa을 유지한다(SS275는 16 mm 초과 40 mm 이하에서 265 MPa로 저감). 따라서 판두께 30 mm인 SN275의 항복강도는 265 MPa이 아니라 275 MPa이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>판두께 15 mm인 SS275: 275</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SS275(t ≤ 16 mm)의 항복강도는 275 MPa이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>판두께 30 mm인 SS275: 265</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SS275(16 &lt; t ≤ 40 mm)의 항복강도는 265 MPa이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>판두께 15 mm인 SN275: 275</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SN275(t ≤ 16 mm)의 항복강도는 275 MPa이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>판두께 30 mm인 SN275: 265</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SN275는 판두께 40 mm 이하(30 mm 포함)에서 항복강도가 275 MPa이므로 265 MPa은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -345,24 +344,24 @@
         <correct_choice_text>27</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 콘크리트구조, 내구성, 설계기준에서, 보통)
-정답은 ②이다. 본 문항은 콘크리트구조, 내구성, 설계기준에서, 보통에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 탄산화 노출등급 EC3 최소 설계기준압축강도
+정답은 ②이다. KDS 14 20 40(콘크리트구조 내구성 설계기준)에 따라 보통 정도의 습도에 노출되어 탄산화 위험이 비교적 높은 경우(EC3 등급)의 최소 설계기준압축강도는 27 MPa이다(EC1 21 MPa, EC2 24 MPa, EC3 27 MPa, EC4 30 MPa).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>24 MPa은 EC2 등급의 최소 강도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>27</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>EC3 등급의 최소 설계기준압축강도는 27 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>30 MPa은 EC4 등급의 최소 강도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>35</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>35 MPa은 염해·동결융해 등 고위험 등급 기준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -381,25 +380,24 @@
         <correct_choice_text>$\frac{\omega \ell ^{4}}{8 EI}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 그림과, 등분포하중, 작용하, 캔틸레버보)
-정답은 ②이다. 본 문항은 그림과, 등분포하중, 작용하, 캔틸레버보에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\omega$; $E$; $I$; $\frac{\omega LITER^{4}}{3 EI}$; $\frac{\omega LITER^{4}}{8 EI}$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 등분포하중 캔틸레버보 최대 처짐
+정답은 ②이다. 길이 l, 휨강성 EI인 캔틸레버보 전 경간에 등분포하중 ω가 작용할 때 자유단에서 발생하는 최대 처짐 공식은 δ_max = ωl⁴ / (8EI)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\omega \ell ^{4}}{3 EI}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>ωl⁴ / (3EI)는 자유단 집중하중 캔틸레버보(Pl³ / 3EI)와 혼동한 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\omega \ell ^{4}}{8 EI}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>등분포하중 캔틸레버보의 최대 처짐은 ωl⁴ / (8EI)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\omega \ell ^{4}}{48 EI}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1 / 48은 중앙 집중하중 단순보(Pl³ / 48EI)의 계수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5 \omega \ell ^{4}}{384 EI}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5ωl⁴ / (384EI)는 등분포하중 단순보의 중앙 최대 처짐이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -418,24 +416,24 @@
         <correct_choice_text>서까래</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 목구조에서, 도리, 건너지르, 부재)
-정답은 ①이다. 본 문항은 목구조에서, 도리, 건너지르, 부재에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 목구조의 서까래
+정답은 ①이다. 목구조 지붕틀에서 도리(마룻도리·중도리·처마도리) 위에 경사지게 건너지르며 지붕 마감재와 적설 등 지붕 하중을 받아 도리로 전달하는 긴 부재는 서까래이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>서까래</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>도리 위에 걸쳐 지붕 하중을 도리로 전달하는 부재는 서까래이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>대들보</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대들보는 기둥과 기둥 사이를 연결해 상부 지붕 하중을 기둥으로 전달하는 큰 보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>종보</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>종보는 대들보 상부 대공 위에 걸리는 상층 보이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>개판</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>개판은 서까래 위에 깔아 지붕면을 형성하는 널판지이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -454,24 +452,24 @@
         <correct_choice_text>7차 부정정</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 그림과, 구조물, 판별, 결과)
-정답은 ③이다. 본 문항은 그림과, 구조물, 판별, 결과에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 구조물의 부정정 차수 판별
+정답은 ③이다. 제시된 구조물의 부재·절점·지점 이미지를 확인할 수 없으며, 부정정 차수 판별식으로 산정한 공식 정답은 7차 부정정이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>불안정</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>불안정 구조가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6차 부정정</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>6차 부정정은 공식 정답이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>7차 부정정</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 해당 구조물은 7차 부정정이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8차 부정정</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>8차 부정정은 공식 정답이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -490,24 +488,24 @@
         <correct_choice_text>복합기초</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 이상, 기둥, 하중, 하나)
-정답은 ③이다. 본 문항은 이상, 기둥, 하중, 하나에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 복합기초의 정의
+정답은 ③이다. 두 개 이상의 기둥 하중을 하나의 독립된 기초판(푸팅)으로 묶어 지반에 전달하는 기초 형식은 복합기초이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>연성기초</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연성기초는 기초판 강성이 작아 지반 변형에 따라 휘어지는 기초 개념이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>줄기초</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>줄기초(연속기초)는 벽체나 일렬의 기둥 아래에 띠 모양으로 길게 연속 설치하는 기초이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>복합기초</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>두 개 이상의 기둥 하중을 하나의 기초판으로 전달하는 기초는 복합기초이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>연속기초</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연속기초는 벽체나 일렬 기둥을 띠 모양으로 지지하는 줄기초와 같은 개념이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -526,24 +524,24 @@
         <correct_choice_text>10 27</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 용접, 형강, 판요소, 폭두께비)
-정답은 ①이다. 본 문항은 용접, 형강, 판요소, 폭두께비에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 용접 H형강 판요소의 폭두께비 계산
+정답은 ①이다. 용접 H형강 H-300×300×10×15에서 단면 높이 H = 300 mm, 플랜지 폭 B = 300 mm, 웨브 두께 t_w = 10 mm, 플랜지 두께 t_f = 15 mm이다. 플랜지 폭두께비는 (B / 2) / t_f = (300 / 2) / 15 = 150 / 15 = 10이고, 웨브 폭두께비는 (H - 2t_f) / t_w = (300 - 2 × 15) / 10 = 270 / 10 = 27이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 27</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>플랜지 10, 웨브 27이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10 30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>웨브 순높이는 H가 아니라 H - 2t_f = 270 mm이므로 30은 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20 27</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>플랜지 폭두께비는 전체 폭 B가 아니라 반폭 B/2 기준이므로 20은 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20 30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>플랜지와 웨브 폭두께비 모두 잘못 산정했다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -562,24 +560,24 @@
         <correct_choice_text>22 24</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 강구조, 연결, 설계기준, 따른)
-정답은 ③이다. 본 문항은 강구조, 연결, 설계기준, 따른에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · M20 고장력볼트 구멍 직경 기준
+정답은 ③이다. KDS 14 31 25(강구조 연결 설계기준)에 따라 공칭직경 d = 20 mm인 M20 고장력볼트의 표준구멍 직경은 d + 2 = 22 mm이고, 과대구멍(대형구멍) 직경은 d + 4 = 24 mm이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>20 22</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>20 mm는 볼트 자체의 공칭직경이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>21 23</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>21 mm는 M20 표준구멍 직경 기준이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>22 24</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>M20 볼트의 표준구멍 직경 22 mm, 과대구멍 직경 24 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>23 25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>23 mm와 25 mm는 기준과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -598,25 +596,24 @@
         <correct_choice_text>캔틸레버인 경우 $liter$/10</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 철근콘크리트, 슬래브, 길이, 이고)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $liter$; $liter$; $liter$; $liter$; $liter$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 리브 있는 1방향 슬래브 최소 두께
+정답은 ④이다. KDS 14 20 30에 따라 처짐을 계산하지 않는 보 또는 리브가 있는 1방향 슬래브의 최소 두께는 단순지지 l/16, 1단 연속 l/18.5, 양단 연속 l/21, 캔틸레버 l/8이다. 캔틸레버를 l/10으로 한 설명은 리브 없는 일반 1방향 슬래브 기준과 혼동한 것이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>단순 지지인 경우 $liter$/16</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단순지지 최소 두께는 l/16이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>1단 연속인 경우 $liter$/18.5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1단 연속 최소 두께는 l/18.5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>양단 연속인 경우 $liter$/21</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>양단 연속 최소 두께는 l/21이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>캔틸레버인 경우 $liter$/10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>리브가 있는 1방향 슬래브의 캔틸레버 최소 두께는 l/10이 아니라 l/8이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -635,24 +632,24 @@
         <correct_choice_text>8</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 수리·계산·자료해석형 (핵심어: 그림과, 단순보에서, 발생하, 휨모멘트)
-정답은 ②이다. 본 문항은 그림과, 단순보에서, 발생하, 휨모멘트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 단순보 C점의 휨모멘트
+정답은 ②이다. 제시된 단순보의 경간·하중·C점 위치 이미지를 확인할 수 없으며, 정역학 평형조건으로 산정한 공식 정답에 따르면 C점의 휨모멘트 절댓값은 8 kN·m이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>6 kN·m는 공식 정답이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 C점의 휨모멘트 절댓값은 8 kN·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>10 kN·m는 공식 정답이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>12 kN·m는 공식 정답이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -668,24 +665,24 @@
         <correct_choice_text>1.5</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 법령·조문 적용형 (핵심어: 은 옹벽 설계)
-정답은 ④이다. 본 문항은 은 옹벽 설계에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 옹벽 활동(미끄러짐) 안전율 기준
+정답은 ④이다. KDS 11 80 05(옹벽 설계기준)에 따라 평상시(지진하중 미고려) 옹벽의 지반 횡작용에 의한 활동(미끄러짐)에 대한 최소 안전율은 1.5 이상(전도에 대한 안전율은 2.0 이상)이어야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.2는 지진 시 활동 안전율 기준 부근이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.3은 평상시 활동 안전율 기준에 미달한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1.4는 평상시 활동 안전율 기준에 미달한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>평상시 옹벽의 활동 안전율은 1.5 이상이어야 하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -701,24 +698,24 @@
         <correct_choice_text>SN355 강재의 인장강도는 355 MPa이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조 · 핵심 개념·이론 이해형 (핵심어: 강구조의 재료 특성)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조 · 강구조 재료 기호(SN355)
+정답은 ③이다. KS 강재 기호에서 숫자(예: SN355의 355)는 인장강도가 아니라 최소 '항복강도(355 MPa)'를 나타낸다. SN355의 최소 인장강도는 490 MPa이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SHN275는 건축구조용 열간압연형강이다.</choice_text>
-          <commentary>'SHN275'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SHN275는 건축구조용 열간압연 H형강 기호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>구조용 강재의 전단탄성계수는 81,000 MPa이다.</choice_text>
-          <commentary>'구조용 강재의 전단탄성계수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구조용 강재의 전단탄성계수 G는 81,000 MPa이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>SN355 강재의 인장강도는 355 MPa이다.</choice_text>
-          <commentary>'SN355 강재의 인장강도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SN355의 355 MPa은 인장강도가 아니라 항복강도(인장강도는 490 MPa)이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>고장력볼트는 재료의 강도에 따라 F8T, F10T, F13T로 구분한다.</choice_text>
-          <commentary>'고장력볼트'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고장력볼트는 인장강도 등급에 따라 F8T, F10T, F13T로 구분한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

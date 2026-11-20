@@ -30,24 +30,24 @@
         <correct_choice_text>3.33 0.67</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 회분식, 반응기에서, 액상반응, 진행된다)
-정답은 ④이다. 본 문항은 회분식, 반응기에서, 액상반응, 진행된다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 반응 진행에 따른 농도 계산
+정답은 ④이다. A의 전환율이 20%이면 소비된 A는 10 × 0.2 = 2 mol/L이다. 양론비 3A : B : D = 3 : 1 : 1이므로 소비된 B와 생성된 D는 각각 2/3 ≈ 0.67 mol/L이다. 따라서 C_B = 4 - 0.67 = 3.33 mol/L, C_D = 0.67 mol/L이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2.67 2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4 0.67</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>B의 소비가 반영되지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.67 1.33</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>3.33 0.67</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3.33, 0.67이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>2.5</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 부피변화, 비가역, 반응, 혼합흐름)
-정답은 ④이다. 본 문항은 부피변화, 비가역, 반응, 혼합흐름에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 혼합흐름과 플러그흐름 반응기 부피비
+정답은 ④이다. 1차 반응에서 혼합흐름 반응기는 kτ_m = X/(1 - X) = 0.8/0.2 = 4이고, 플러그흐름 반응기는 kτ_p = -ln(1 - X) = -ln0.2 = 1.6이다. 부피비 V_m/V_p = 4/1.6 = 2.5이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>역수의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>플러그흐름 반응기의 kτ 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2.5배이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -102,27 +102,25 @@
         <correct_choice_text>$\frac{v_{A0} X_{A}}{kC_{A0}} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 기초반응, 등온, 정압, 혼합흐름)
-정답은 ②이다. 본 문항은 기초반응, 등온, 정압, 혼합흐름에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "$2 A \rightarrow R , - r_A = kC_{A}^{2}$"
-관련 수식: $A$; $X_A$; $V$; $A$; $R$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 변용계 혼합흐름 반응기 설계식
+정답은 ②이다. 2A → R에서 ε_A = (1 - 2)/2 = -0.5이므로 C_A = C_A0(1 - X)/(1 - 0.5X)이다. 혼합흐름 반응기 설계식 V = F_A0X/(-r_A) = v_A0C_A0X/[kC_A0²((1 - X)/(1 - 0.5X))²]이므로 V = [v_A0X/(kC_A0)]((1 - 0.5X)/(1 - X))²이다.</overall_commentary>
       <passage_evidence>$2 A \rightarrow R , - r_A = kC_{A}^{2}$</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0}}{kC_{A0}} \int_{0}^{X_{A}} {\left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2} dX_{A}}$</choice_text>
-          <commentary>제시문의 "$2 A \rightarrow R , - r_A = kC_{A}^{2}$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>적분형은 플러그흐름 반응기의 형태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{v_{A0} X_{A}}{kC_{A0}} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2}$</choice_text>
-          <commentary>제시문의 "$2 A \rightarrow R , - r_A = kC_{A}^{2}$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0} X_{A}}{kC_{A0}^{2}} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2}$</choice_text>
-          <commentary>제시문의 "$2 A \rightarrow R , - r_A = kC_{A}^{2}$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>C_A0의 지수가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0}}{kC_{A0}} \int_{0}^{X_{A}} {X_{A} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2} dX_{A}}$</choice_text>
-          <commentary>제시문의 "$2 A \rightarrow R , - r_A = kC_{A}^{2}$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>적분형이며 식도 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -141,27 +139,25 @@
         <correct_choice_text>$\frac{1}{50 R}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 온도, 에서, 어떤, 기상반응)
-정답은 ②이다. 본 문항은 온도, 에서, 어떤, 기상반응에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "(가) $- r_{A} [ mol L^{- 1} s^{- 1} ] = - \frac{dC_{A}}{dt} = 2 C_{A}^{2}$"
-관련 수식: $A$; $p sub A$; $k$; $A$; $R$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 농도 기준과 압력 기준 속도식 변환
+정답은 ②이다. C_A = p_A/(RT)를 대입하면 -(1/RT)(dp_A/dt) = 2p_A²/(RT)²이므로 -dp_A/dt = [2/(RT)]p_A²이다. T = 100 K이므로 k = 2/(100R) = 1/(50R)이다.</overall_commentary>
       <passage_evidence>(가) $- r_{A} [ mol L^{- 1} s^{- 1} ] = - \frac{dC_{A}}{dt} = 2 C_{A}^{2}$</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$50 R$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>역수의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{50 R}$</choice_text>
-          <commentary>제시문의 "(가) $- r_{A} [ mol L^{- 1} s^{- 1} ] = - \frac{dC_{A}}{dt} = 2 C_{A}^{2}$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>1/(50R)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$100 R$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{100 R}$</choice_text>
-          <commentary>제시문의 "(가) $- r_{A} [ mol L^{- 1} s^{- 1} ] = - \frac{dC_{A}}{dt} = 2 C_{A}^{2}$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>계수 2가 빠졌다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -180,25 +176,24 @@
         <correct_choice_text>$1 / ( 1 + 2 C_{A}^{0 . 5} C_{B} )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 다음과, 경쟁하, 반응, 있다)
-정답은 ③이다. 본 문항은 다음과, 경쟁하, 반응, 있다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A$; $R$; $A + B \rightarrow R$; $r_{R} = C_{A}^{0 . 5} C_{B}^{0 . 5}$; $A + B \rightarrow S$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 순간수율
+정답은 ③이다. R의 순간수율 φ = r_R/(r_R + r_S) = C_A^0.5C_B^0.5/(C_A^0.5C_B^0.5 + 2C_AC_B^1.5)이다. 분모와 분자를 C_A^0.5C_B^0.5로 나누면 φ = 1/(1 + 2C_A^0.5C_B)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + C_{A}^{0 . 5} C_{B} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수 2가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + C_{A}^{- 0 . 5} C_{B}^{- 1} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지수의 부호가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 / ( 1 + 2 C_{A}^{0 . 5} C_{B} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1/(1 + 2C_A^0.5C_B)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + 2 C_{A}^{- 0 . 5} C_{B}^{- 1} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>지수의 부호가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -217,24 +212,24 @@
         <correct_choice_text>10</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 회분식, 반응기에서, 진행된, 액상반응)
-정답은 ④이다. 본 문항은 회분식, 반응기에서, 진행된, 액상반응에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 2차 반응 속도상수
+정답은 ④이다. X/(1 - X)가 t에 대해 직선이면 2차 반응이며 X/(1 - X) = kC_A0t이다. 기울기 kC_A0 = 1 h⁻¹이므로 k = 1/0.1 = 10 L mol⁻¹ h⁻¹이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -250,25 +245,24 @@
         <correct_choice_text>$\frac{kC_{A}}{1 + \frac{k}{k_{m}}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 의 물질전달 플럭스(flux))
-정답은 ④이다. 본 문항은 의 물질전달 플럭스(flux)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $- r^{prime prime} = kC_{As}$; $A$; $J_{A} = k_{m} \left( C_{A} - C_{As} \right)$; $A$; $C_{A}$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 물질전달과 표면반응의 직렬 저항
+정답은 ④이다. 정상상태에서 kC_As = k_m(C_A - C_As)이므로 C_As = k_mC_A/(k + k_m)이다. 따라서 -r″ = kC_As = kk_mC_A/(k + k_m) = kC_A/(1 + k/k_m)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{kC_{A}}{k + k_{m}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>k_m이 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k_{m} C_{A}}{k + k_{m}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>k가 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k}{1 + \frac{k}{k_{m}} C_{A}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>C_A의 위치가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{kC_{A}}{1 + \frac{k}{k_{m}}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -285,25 +279,24 @@
         <correct_choice_text>[수식/도표 선지 3번]</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 의 연소 과정은 수축핵 모델(shrinking core model), 이는 연소되는 과정에서 회(ash))
-정답은 ③이다. 본 문항은 의 연소 과정은 수축핵 모델(shrinking core model), 이는 연소되는 과정에서 회(ash)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R$; $r_{c}$; $A$; $C_{Ag}$; $R$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 수축핵 모델의 농도 분포
+정답은 ③이다. 그림 선지가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번이 정답이다. 화학반응이 율속단계이면 기체경막과 회층의 확산저항이 무시되므로, 기체 반응물 농도는 입자 바깥에서 미반응 핵 표면까지 C_Ag로 일정하게 유지된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[수식/도표 선지 1번]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$R$ $r_C$ $0$ $r_C$ $R$ $R$ $r_C$ $0$ $r_C$ $R$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>[수식/도표 선지 3번]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$R$ $r_C$ $0$ $r_C$ $R$ $R$ $r_C$ $0$ $r_C$ $R$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -319,24 +312,24 @@
         <correct_choice_text>1차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응속도와 대류속도의 비이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 액상 비가역반응의 혼합흐름 반응기)
-정답은 ②이다. 본 문항은 액상 비가역반응의 혼합흐름 반응기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · Damköhler 수
+정답은 ②이다. 1차 반응에서 Da = kτ = (-r_A0V)/F_A0로, 입구 조건의 반응속도와 대류(유입)에 의한 A의 이송속도의 비이다. 혼합흐름 반응기에서 X = Da/(1 + Da)이므로 Da ≤ 0.1이면 X ≤ 9.1%이다. 2차 반응에서는 Da = kC_A0τ로 C_A0에 비례한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응물 &lt;i&gt;A&lt;/i&gt;의 유입유량과 출구 반응속도의 비이다.</choice_text>
-          <commentary>'1차 반응'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>입구 반응속도와 유입량의 비이며 설명이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응속도와 대류속도의 비이다.</choice_text>
-          <commentary>'1차 반응'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>반응속도와 대류속도의 비이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>&lt;i&gt;Da&lt;/i&gt;가 0.1 이하이면 단일반응기에서 전환율이 90 % 이상이다.</choice_text>
-          <commentary>'Da'에 관하여 제시된 '90 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>전환율은 약 9% 이하이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응물 &lt;i&gt;A&lt;/i&gt;의 초기농도(&lt;i&gt;C&lt;/i&gt;_(A0))의 제곱에 비례한다.</choice_text>
-          <commentary>'2차 반응'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>C_A0의 1제곱에 비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -355,25 +348,24 @@
         <correct_choice_text>$C_{R} = \frac{C_{A0} k_{1} \tau}{( 1 + k_{1} \tau )^{2}}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 혼합흐름, 반응기에서, 초기농도, 순수한)
-정답은 ④이다. 본 문항은 혼합흐름, 반응기에서, 초기농도, 순수한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $C_{A0}$; $A$; $A REL \rightarrow {k_{1}} {} R REL \rightarrow {k_{2}} {} S$; $k_{1}$; $k_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 혼합흐름 반응기 연속반응
+정답은 ④이다. C_A = C_A0/(1 + k₁τ)이고, R의 물질수지에서 C_R = k₁τC_A/(1 + k₂τ)이다. k₁ = k₂이면 C_R = C_A0k₁τ/(1 + k₁τ)²이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = \frac{C_{A0} k_1 \tau}{1 + k_{1} \tau}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분모의 제곱이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = \frac{C_{A0} k_1}{( 1 + k_{1} \tau )^{2}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분자의 τ가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = k_{1} C_{A0} e^{- k_{1} \tau}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>회분식 반응기의 형태와 유사하나 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$C_{R} = \frac{C_{A0} k_{1} \tau}{( 1 + k_{1} \tau )^{2}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -392,24 +384,24 @@
         <correct_choice_text>1차</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 정용, 회분식, 반응기에서, 반응물)
-정답은 ②이다. 본 문항은 정용, 회분식, 반응기에서, 반응물에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 반감기와 반응차수
+정답은 ②이다. t₁/₂ ∝ C_A0^(1-n)이므로 반감기가 초기농도와 무관하면 n = 1, 즉 1차 반응이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0차</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0차는 반감기가 C_A0에 비례한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1차</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1차이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2차</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2차는 반감기가 C_A0에 반비례한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3차</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3차는 반감기가 C_A0²에 반비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -428,24 +420,24 @@
         <correct_choice_text>0.005 920</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 회분식, 반응기에서, 비가역, 반응)
-정답은 ②이다. 본 문항은 회분식, 반응기에서, 비가역, 반응에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 1차 반응 속도상수와 시간
+정답은 ②이다. ln(C_A0/C_A) = kt에서 ln(5.0/0.5) = ln10 = 2.30 = k × 460이므로 k = 0.005 s⁻¹이다. 0.05 mol/L까지는 ln(5.0/0.05) = ln100 = 4.60이므로 t = 4.60/0.005 = 920 s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.005 1840</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시간이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.005 920</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.005 s⁻¹, 920 s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.010 1840</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>속도상수와 시간이 모두 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.010 920</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>속도상수가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -464,25 +456,24 @@
         <correct_choice_text>80</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 플러그흐름, 반응기에서, 비가역, 반응)
-정답은 ④이다. 본 문항은 플러그흐름, 반응기에서, 비가역, 반응에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $2 A \rightarrow R + P$; $- r_{A} = k {C_A}^2$; $A$; $A$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 2차 반응 플러그흐름 반응기 부피 증가
+정답은 ④이다. 2차 반응에서 kτC_A0 = X/(1 - X)이다. 1 L에서 X = 0.5이므로 kτC_A0 = 1이다. 4 L이면 τ가 4배이므로 X/(1 - X) = 4, X = 0.8, 즉 80%이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>65</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>70</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>75</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>80</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>80%이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -501,25 +492,24 @@
         <correct_choice_text>(나) － (라) － (가) － (다)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 반응물, 대해, 액상반응, 경쟁하여)
-정답은 ②이다. 본 문항은 반응물, 대해, 액상반응, 경쟁하여에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A$; $B$; $R$; $A + B \rightarrow R + T , r_{R} = k_{1} C_{A}^{3} C_{B}$; $A + B \rightarrow S + U , r_{S} = k_{2} C_{A} C_{B}^{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 평행반응의 반응기 접촉방식
+정답은 ②이다. 그림 선지가 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번이 정답이다. r_R/r_S = (k₁/k₂)C_A²/C_B이므로 C_A는 높게, C_B는 낮게 유지하는 접촉방식일수록 R의 수율이 높다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(나) － (가) － (라) － (다)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>(나) － (라) － (가) － (다)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(다) － (라) － (가) － (나)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(라) － (나) － (다) － (가)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -538,25 +528,24 @@
         <correct_choice_text>$r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{2 ( k_{2} + k_{3} C_{B} )}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 중간체, 거치, 단계, 반응으)
-정답은 ①이다. 본 문항은 중간체, 거치, 단계, 반응으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A_{2}^{*}$; $P$; $2 A REL EXARROW {k_{1}} {k_{2}} A_{2}^{*}$; $A_{2}^{*} + B REL \rightarrow {k_{3}} {} A + P$; $r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{2 ( k_{2} + k_{3} C_{B} )}$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 유사 정상상태 근사
+정답은 ①이다. 1단계의 k₁을 A의 소모속도 기준으로 정의하면 A₂*의 생성속도는 (1/2)k₁C_A²이다. 유사 정상상태에서 (1/2)k₁C_A² = k₂C_A₂* + k₃C_A₂*C_B이므로 C_A₂* = k₁C_A²/[2(k₂ + k₃C_B)]이다. 따라서 r_P = k₃C_A₂*C_B = k₁k₃C_A²C_B/[2(k₂ + k₃C_B)]이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{2 ( k_{2} + k_{3} C_{B} )}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{2 k_{1} k_{3} C_{A}^{2} C_{B}}{( k_{2} + k_{3} C_{B} )}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수 2의 위치가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{k_{2} + k_{3} C_{B}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>양론계수 1/2이 반영되지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{k_{2} + k_{3} C_{A}}{k_{1} k_{3} C_{A} C_{B}^{2}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분자와 분모가 뒤바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -575,25 +564,24 @@
         <correct_choice_text>최대 반응속도를 보이는 $\mathrm{A}$의 출구 전환율에서 플러그흐름 반응기와 혼합흐름 반응기의 부피는 같다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 반응, 위해, 동일한, 입구)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $A$; $R$; $A + R \rightarrow R + R , - r_{A} = kC_{A} C_{R}$; $A$; $A$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 자동촉매반응의 반응기 선택
+정답은 ③이다. C_A + C_R = 10으로 일정하므로 -r_A = kC_A(10 - C_A)이고, C_A = 5에서 최대이다. 이때 X_A = 4/9 ≈ 44.4%이다. 최대속도점까지는 속도가 증가하므로 출구의 최대속도로 운전하는 혼합흐름 반응기가 유리하다. 최대속도점의 전환율에서도 혼합흐름 반응기는 최대속도로 운전되지만 플러그흐름 반응기는 그보다 낮은 속도 구간을 거치므로 두 부피는 같지 않다. 전환율이 매우 높으면 플러그흐름 반응기가 유리하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반응속도가 최대일 때 $A$의 전환율은 약 44.4 %이다.</choice_text>
-          <commentary>'반응속도'에 관하여 '4 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>X_A = 4/9로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$A$의 출구 전환율이 30 %일 때 혼합흐름 반응기 부피가 플러그흐름 반응기 부피에 비해 작다.</choice_text>
-          <commentary>'30 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>속도 증가 구간이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대 반응속도를 보이는 $\mathrm{A}$의 출구 전환율에서 플러그흐름 반응기와 혼합흐름 반응기의 부피는 같다.</choice_text>
-          <commentary>'최대 반응속도를 보이'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>혼합흐름 반응기 부피가 더 작으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$A$의 출구 전환율이 90 %일 때 플러그흐름 반응기의 부피가 혼합흐름 반응기의 부피에 비해 작다.</choice_text>
-          <commentary>'90 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>고전환율에서는 플러그흐름 반응기가 유리하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -609,25 +597,24 @@
         <correct_choice_text>유효인자가 1이면 기공확산에 의한 저항은 무시할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 속도론에서 정의된 유효인자(effectiveness factor))
-정답은 ①이다. 본 문항은 속도론에서 정의된 유효인자(effectiveness factor)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $C_{A}$; $C_{As}$; $\frac{C_{A}}{C_{As}}$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 유효인자
+정답은 ①이다. 유효인자는 기공 내부 확산저항이 있을 때의 실제 반응속도를 입자 전체가 표면 농도에 노출되었을 때의 반응속도로 나눈 값이다. 유효인자가 1이면 기공확산 저항을 무시할 수 있다. 0차 반응은 농도와 무관하므로 C_A/C_As로 표현되지 않으며, 경막확산이 아니라 기공(내부)확산에 관한 개념이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>유효인자가 1이면 기공확산에 의한 저항은 무시할 수 있다.</choice_text>
-          <commentary>'유효인자'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>기공확산 저항이 무시되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>유효인자가 1보다 크면 반응의 율속단계는 물질전달 단계이다.</choice_text>
-          <commentary>'유효인자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>등온 조건에서 유효인자는 1을 넘지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{A}$를 기공 내 반응물의 농도, $C_{As}$를 기공 입구에서 반응물의 농도라 하면 0차 반응에서 유효인자는 $\frac{C_{A}}{C_{As}}$와 같다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0차 반응의 정의로 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유효인자는 경막확산이 개입할 때 반응속도와 경막확산이 없을 때 반응속도의 비로 정의된다.</choice_text>
-          <commentary>'유효인자'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>경막확산이 아니라 내부확산 기준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -646,24 +633,24 @@
         <correct_choice_text>저온 → 고온 → 저온</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 핵심 개념·이론 이해형 (핵심어: 복합반응에서, 농도, 최대, 하기)
-정답은 ③이다. 본 문항은 복합반응에서, 농도, 최대, 하기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 복합반응의 온도 진행
+정답은 ③이다. 반응 경로 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번(저온 → 고온 → 저온)이 정답이다. 원하는 반응의 활성화에너지가 경쟁 반응보다 크면 고온이, 작으면 저온이 유리하다는 원리를 단계별로 적용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>고온 → 고온 → 저온</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>저온 → 저온 → 저온</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>저온 → 고온 → 저온</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>고온 → 저온 → 저온</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -679,25 +666,24 @@
         <correct_choice_text>단열조작에서 $\frac{C_{p}}{- \Delta H_{R}}$ 값이 큰 반응에서는 혼합흐름 반응기가 적절하고, 이 값이 작은 반응에서는 플러그흐름 반응기가 적절하다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 복합 보기 검증형 (핵심어: 는 경우 반응기의 단열조작선(adiabatic operating line))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X_A$; $ALPHA$; $C_p$; $DeltaH_R$; $DeltaT$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 단열조작선
+정답은 ②이다. 단열 에너지수지에서 X_A = C_pΔT/(-ΔH_R)이다. 흡열반응이면 전환율이 증가할수록 온도가 내려가므로 기울기가 음수이고, 등온이면 수직선이 된다. C_p/(-ΔH_R)가 작아 온도 상승이 큰 반응은 혼합흐름 반응기, 그 값이 커 거의 등온인 반응은 플러그흐름 반응기가 적합하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반응물과 생성물의 비열 차이가 없는 경우, 단열조작선은 $X_{A} = \frac{C_{p} \Delta T}{- \Delta H_{R}}$로 표현된다.</choice_text>
-          <commentary>'반응물과 생성물의 비열 차이'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단열조작선의 식으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>단열조작에서 $\frac{C_{p}}{- \Delta H_{R}}$ 값이 큰 반응에서는 혼합흐름 반응기가 적절하고, 이 값이 작은 반응에서는 플러그흐름 반응기가 적절하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>적합한 반응기가 뒤바뀌어 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>흡열반응의 경우 온도 $T$에 대한 전환율 $X_{A}$ 그래프에서 단열조작선의 기울기가 음의 값으로 나타난다.</choice_text>
-          <commentary>'흡열반응'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>흡열반응의 기울기로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>등온조건의 경우 온도 $\mathrm{T}$에 대한 전환율 $X_{A}$ 그래프에서 단열조작선의 기울기는 무한대이다.</choice_text>
-          <commentary>'등온조건'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>등온 조건으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -716,25 +702,24 @@
         <correct_choice_text>0.175 0.02 0.025</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 반응공학 · 수리·계산·자료해석형 (핵심어: 기초반응들, 혼합흐름, 반응기에서, 일어난다)
-정답은 ①이다. 본 문항은 기초반응들, 혼합흐름, 반응기에서, 일어난다에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $ALPHA$; $k_{1} , k_{2} , k_{3}$; $A REL \rightarrow {k_{1}} {} R REL \rightarrow {k_{2}} {} S # A REL \rightarrow {k_{3}} {} P$</overall_commentary>
+      <overall_commentary>출제 영역: 반응공학 · 혼합흐름 반응기 속도상수 결정
+정답은 ①이다. 액상 단분자 반응이므로 총 몰수가 보존되어 출구 몰분율을 입구 C_A0 기준의 농도비로 쓸 수 있다. A의 수지는 1 - 0.2 = (k₁ + k₃) × 20 × 0.2이므로 k₁ + k₃ = 0.2이다. P의 수지는 0.1 = k₃ × 20 × 0.2이므로 k₃ = 0.025이고, k₁ = 0.175이다. R의 수지는 0.5 = k₁τ(0.2) - k₂τ(0.5) = 0.7 - 10k₂이므로 k₂ = 0.02이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.175 0.02 0.025</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.175, 0.02, 0.025이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.02 0.175 0.025</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.025 0.02 0.175</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.02 0.025 0.175</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순서가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

@@ -19,6 +19,7 @@ python3 extract.py queue        # work/queue.json 생성, 과목별 남은 수 �
    `git add 공무원_기출문제 tools/explain_pipeline && git commit -m "feat: {과목} … 기출해설 …" && git push origin main`
 
 ## 참고
+- 정답표와 풀이가 어긋난 문항은 `review.md`에 추가한다.
 - 법령 조회 도구는 https://mcp.gomdori.app/law (구 주소 korean-law-mcp.fly.dev는 2026-11-17 종료). 클라우드 세션이면 이 호스트 접근 허용 필요.
 - 저장소에는 문항 이미지 파일이 없다.
 - 정답은 문항 XML의 `<answer>`(공식 정답표)가 기준이며 바꾸지 않는다.

@@ -4,6 +4,8 @@
 `formulas`, `has_image`, `needs_rewrite`, `existing`(현재 해설).
 출력: `work/verified/{PID}.json` 하나. 작성 후 반드시 `python3 validate.py {TASK} {PID}` 가 `OK`가 될 때까지 고친다.
 
+입력에 표·〈상황〉 등이 빠져 보이면 원본 문항 XML(`../../공무원_기출문제/{files[0]에서 _해설 제거}.xml`)의 해당 `<question>`을 직접 읽는다.
+
 ## 출력 스키마
 ```json
 {"PID-Q3": {

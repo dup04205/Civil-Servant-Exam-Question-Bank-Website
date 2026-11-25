@@ -36,6 +36,7 @@ def extract(pid):
         d = {'id': qid, 'needs_rewrite': any(x in flat for x in GENERIC), 'no': int(qq.get('no')), 'polarity': he.find('question_type').get('polarity'),
              'stem': txt(qq.find('stem')),
              'passage': ' / '.join(txt(p) for p in qq.iter('passage')),
+             'sub_passage': ' / '.join(txt(p) for p in qq.iter('sub_passage')),
              'bogi': [{'symbol': b.get('symbol'), 'statement': txt(b.find('statement')), 'current_judgment': b.get('judgment')}
                       for b in he.iter('bogi_item')],
              'choices': {c.get('no'): txt(c) for c in qq.iter('choice')},
@@ -49,6 +50,7 @@ def extract(pid):
         if not d['bogi']: d.pop('bogi')
         if not d['formulas']: d.pop('formulas')
         if not d['passage']: d.pop('passage')
+        if not d['sub_passage']: d.pop('sub_passage')
         out['questions'].append(d)
     os.makedirs(os.path.join(WORK, 'papers'), exist_ok=True)
     p = os.path.join(WORK, 'papers', pid + '.json')

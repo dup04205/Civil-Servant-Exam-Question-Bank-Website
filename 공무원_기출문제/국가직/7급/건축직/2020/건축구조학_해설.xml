@@ -30,24 +30,24 @@
         <correct_choice_text>고장력볼트 지압접합</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 다층구조물, 강구조, 설계할, 기둥이음부)
-정답은 ②이다. 본 문항은 다층구조물, 강구조, 설계할, 기둥이음부에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 강구조 접합방법의 적용 제한
+정답은 ②이다. 높이가 큰 다층구조물의 기둥이음부에는 미끄러짐을 허용하는 지압접합을 쓸 수 없고 마찰접합·용접접합을 써야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>고장력볼트 마찰접합</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>고장력볼트 마찰접합은 설계볼트장력으로 접합면 마찰저항을 이용하므로 미끄러짐이 없어 기둥이음부에 적용할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>고장력볼트 지압접합</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>지압접합은 볼트가 구멍벽에 접촉할 정도의 미끄러짐을 허용하므로, 높이가 큰 다층구조물의 기둥이음부와 같이 슬립이 허용되지 않는 부위에는 적용할 수 없다. 따라서 적용할 수 없는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>그루브용접접합</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>그루브용접(완전용입)은 모재와 일체화되어 미끄러짐이 없으므로 기둥이음부에 적용할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>필릿용접접합</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>필릿용접도 용접접합으로서 미끄러짐이 없으므로 적용할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -66,24 +66,24 @@
         <correct_choice_text>5,600</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 수리·계산·자료해석형 (핵심어: 그림, 빗금, 부분과, 양면)
-정답은 ②이다. 본 문항은 그림, 빗금, 부분과, 양면에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 필릿용접의 유효면적
+정답은 ②이다. 필릿용접의 유효면적은 A_w = Σ(0.7s × L_e)이며 양면 용접이므로 2면의 합으로 계산한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4,200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4,200 mm²는 양면 중 한쪽만 취하거나 유효길이를 잘못 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>5,600</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>유효목두께 a = 0.7s, 유효면적 A_w = a·L_e이며 양면 필릿용접이므로 두 면을 합한다. 정답 5,600 mm²는 2 × 0.7 × (s·L_e) = 5,600, 곧 s·L_e = 4,000 mm²에 해당한다. 그림의 사이즈·길이 수치는 제공되지 않아 식 중심으로 서술한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5,880</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>5,880 mm²는 유효길이나 사이즈를 규정과 다르게 취한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>8,000 mm²는 0.7을 곱하지 않은 2 × s·L_e(= 8,000)로, 유효목두께 대신 사이즈를 쓴 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -99,24 +99,24 @@
         <correct_choice_text>높이 3층 경골목조건축물의 1층 내력벽면적은 실내벽을 포함한 전체 벽면적의 30 % 이상으로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 경골목구조 내력벽의 배치)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 경골목구조 내력벽 배치
+정답은 ③이다. 3층 경골목조건축물 1층의 내력벽 면적 비율은 선지의 30%보다 크게 규정되어 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>건축물에 작용하는 수직하중 및 수평하중을 안전하게 지지할 수 있도록 내력벽을 균형 있게 배치한다.</choice_text>
-          <commentary>'건축물에 작용하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수직·수평하중을 안전하게 지지하도록 내력벽을 균형 있게 배치한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>외벽 사이의 교차부에는 길이 900 mm 이상의 내력벽을 하나 이상 설치한다.</choice_text>
-          <commentary>'외벽 사이의 교차부에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>외벽 사이 교차부에는 길이 900 mm 이상의 내력벽을 하나 이상 설치한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>높이 3층 경골목조건축물의 1층 내력벽면적은 실내벽을 포함한 전체 벽면적의 30 % 이상으로 한다.</choice_text>
-          <commentary>'높이 3층 경골목조건축물의 1층 내력벽면적'에 관하여 제시된 '30 %' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>층수가 많을수록 하부층의 내력벽 비율을 높여야 하며, 3층 건축물 1층에 대해 전체 벽면적의 30% 이상으로 한다는 서술은 기준 수치보다 낮아 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>내력벽 사이의 거리는 12 m 이하로 한다.</choice_text>
-          <commentary>'내력벽 사이의 거리'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>내력벽 사이의 거리는 12 m 이하로 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -132,24 +132,24 @@
         <correct_choice_text>철근의 설계기준항복강도는 600 MPa 이하이어야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 인장력을 받는 확대머리 이형철근의 정착)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 확대머리 이형철근의 정착
+정답은 ①이다. 확대머리 이형철근은 설계기준항복강도 400 MPa 이하의 철근에 적용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>철근의 설계기준항복강도는 600 MPa 이하이어야 한다.</choice_text>
-          <commentary>'철근의 설계기준항복강도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>확대머리 이형철근의 f_y는 600 MPa가 아니라 400 MPa 이하이어야 한다. 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정착길이는 철근 공칭지름의 8배 또한 150 mm 이상이어야 한다.</choice_text>
-          <commentary>'정착길이'에 관하여 '8배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>정착길이는 철근 공칭지름의 8배 이상 또한 150 mm 이상이어야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>철근의 지름은 35 mm 이하이어야 한다.</choice_text>
-          <commentary>'철근의 지름'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>철근 지름은 D35(35 mm) 이하이어야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>확대머리 이형철근은 경량콘크리트에는 적용할 수 없다.</choice_text>
-          <commentary>'확대머리 이형철근'에 관하여 '할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>확대머리 철근은 경량콘크리트에는 적용할 수 없고 보통중량콘크리트에 적용한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -168,24 +168,24 @@
         <correct_choice_text>1,400년 재현주기지진은 기본설계지진의 1.5배에 해당하는 지진을 의미한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 건축물, 건물외, 구조물, 성능기반설계법으)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 성능기반설계의 재현주기별 설계지진
+정답은 ③이다. 기본설계지진(1,000년)을 1.0으로 할 때 재현주기별 계수는 50년 0.30, 100년 0.43, 200년 0.57, 500년 0.80, 1,000년 1.0, 1,400년 1.2, 2,400년 1.5이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>2,400년 재현주기지진은 최대고려지진으로 정의한다.</choice_text>
-          <commentary>'2,400년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>2,400년 재현주기지진은 기본설계지진의 1.5배로 최대고려지진이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>1,000년 재현주기지진은 기본설계지진으로 정의한다.</choice_text>
-          <commentary>'1,000년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>1,000년 재현주기지진이 기본설계지진이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>1,400년 재현주기지진은 기본설계지진의 1.5배에 해당하는 지진을 의미한다.</choice_text>
-          <commentary>제시된 '1,400년' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>기본설계지진의 1.5배는 1,400년이 아니라 2,400년 재현주기지진이다. 1,400년은 1.2배이다. 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>50년과 100년 재현주기지진은 기본설계지진에 각각 0.30과 0.43을 곱하여 구한다.</choice_text>
-          <commentary>'50년과 100년 재현주기지진'에 관하여 '50년' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>50년과 100년 재현주기지진은 기본설계지진에 각각 0.30, 0.43을 곱한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -204,24 +204,24 @@
         <correct_choice_text>15</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 수리·계산·자료해석형 (핵심어: 그림과, 힌지, 회전절점, 겔버보에서)
-정답은 ①이다. 본 문항은 그림과, 힌지, 회전절점, 겔버보에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 겔버보의 반력
+정답은 ①이다. 힌지 B에서 휨모멘트가 0이므로 보를 분리하여 하중 구간의 힌지 반력을 먼저 구하고 이를 고정단 A 쪽 캔틸레버에 전달하면 V_A = 15 kN이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>15</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>V_A = 15 kN이다. 힌지(M = 0) 조건으로 구조를 분리하고, 35 kN 하중이 있는 구간의 평형에서 힌지 B에 전달되는 힘을 구한 뒤, 이 힘을 A측 보에 반대 방향으로 가하여 ΣV = 0으로 V_A를 구한다. 정답이다. 그림의 치수는 제공되지 않아 절차만 서술한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>20 kN은 힌지 전달력 또는 지점 분담비를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>25 kN은 하중 35 kN 중 일부만 A로 전달된다고 본 오류로 평형을 만족하지 않는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>35</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>35 kN은 하중 전체가 고정단 A에 전달된다고 가정한 값이다. 중간 지점이 하중을 분담하므로 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -237,24 +237,24 @@
         <correct_choice_text>인장역작용을 사용하기 위해서는 웨브의 3면이 플랜지나 스티프너에 의해 지지되어 있어야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 강구조에서 전단력을 받는 부재의 설계)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 강구조 전단력을 받는 부재의 설계
+정답은 ③이다. 인장역작용은 웨브 패널의 네 면이 플랜지나 스티프너로 지지되어 있어야 사용할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비구속 또는 구속웨브를 갖는 부재에서 수직스티프너에 단속필릿용접을 사용하면 용접 간 순간격은 웨브두께의 16배 또는 250 mm 이하이어야 한다.</choice_text>
-          <commentary>'비구속 또'에 관하여 '16배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>수직스티프너에 단속필릿용접을 쓸 때 용접 간 순간격은 웨브두께의 16배, 250 mm 이하이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>비구속 또는 구속웨브를 갖는 부재에서 거더웨브에 수직스티프너를 접합시키는 볼트의 중심간격은 300 mm 이하로 한다.</choice_text>
-          <commentary>'비구속 또'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>거더웨브에 수직스티프너를 볼트로 접합할 때 볼트 중심간격은 300 mm 이하이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>인장역작용을 사용하기 위해서는 웨브의 3면이 플랜지나 스티프너에 의해 지지되어 있어야 한다.</choice_text>
-          <commentary>'인장역작용을 사용하기 위해서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인장역작용에는 웨브 패널의 4면이 플랜지나 스티프너로 지지되어 있어야 하므로 3면이라는 서술은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>웨브에 구멍이 있는 부분에 계수하중이나 구조해석으로 결정된 소요전단력이 설계전단강도를 초과하는 경우 이를 적절히 보강하여야 한다.</choice_text>
-          <commentary>'웨브에 구멍'에 관하여 '하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>웨브에 구멍이 있는 부분에서 소요전단강도가 설계전단강도를 초과하면 보강해야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -273,24 +273,24 @@
         <correct_choice_text>부재와 연결재의 설계강도는 전체구조물의 안정성을 고려하여 산정한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 하중저항계수설계법, 따른, 강구조, 골조)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 강구조 직접해석법
+정답은 ④이다. 직접해석법은 안정성 영향을 해석에서 직접 반영하므로 부재 설계강도는 전체구조물 안정성을 별도로 고려하지 않고 산정한다(K = 1.0).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>휨, 전단 및 축부재의 변형과 구조물의 변위에 영향을 유발하는 모든 구성요소 및 접합부의 변형을 고려하여 해석한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직접해석법은 휨·전단·축변형과 접합부 변형 등 변위에 영향을 주는 모든 변형을 고려한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>구조물의 안정성에 영향을 주는 모든 중력과 외력을 고려하여 해석한다.</choice_text>
-          <commentary>'구조물의 안정성에 영향을 주'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>구조물의 안정성에 영향을 주는 모든 중력하중과 외력을 고려한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개별부재의 비지지길이를 결정하는 가새는 가새절점에서의 부재이동을 제어할 수 있도록 충분한 강성과 강도를 가져야 한다.</choice_text>
-          <commentary>'개별부재의 비지지길이를 결정하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>부재의 비지지길이를 정하는 가새는 절점 이동을 제어할 충분한 강성과 강도를 가져야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>부재와 연결재의 설계강도는 전체구조물의 안정성을 고려하여 산정한다.</choice_text>
-          <commentary>'부재와 연결재의 설계강도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>직접해석법에서는 2차효과, 초기결함 등이 해석에 반영되므로 부재·연결재의 설계강도는 구조물 전체의 안정성을 다시 고려하지 않고(유효좌굴길이계수 K = 1.0) 산정한다. 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -306,24 +306,24 @@
         <correct_choice_text>층간변위 결정을 위한 각 층의 층변위는 건축물의 중요도계수에 비례한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 건축구조물의 내진설계에서 등가정적해석법)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 내진설계 등가정적해석법
+정답은 ④이다. 층간변위는 Δ = C_d·δ_xe / I_E로 구하므로 중요도계수에 반비례한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>철근콘크리트와 철골 모멘트저항골조에서 12층을 넘지 않고 층의 최소높이가 3 m 이상일 때 근사고유주기는 층수에 0.1을 곱하여 산정할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>모멘트저항골조(철근콘크리트·철골)가 12층 이하이고 층고 3 m 이상이면 근사고유주기 T_a = 0.1N이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>지진응답계수는 건축물의 중요도계수에 비례하고 반응수정계수에 반비례한다.</choice_text>
-          <commentary>'지진응답계수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>지진응답계수 C_s = S_DS/(R/I_E)이므로 중요도계수에 비례하고 반응수정계수에 반비례한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>밑면전단력을 수직분포시킨 층별 횡하중은 밑면전단력과 수직분포계수의 곱으로 산정한다.</choice_text>
-          <commentary>'밑면전단력을 수직분포시킨 층별 횡하중'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>층별 횡하중은 F_x = C_vx·V(수직분포계수×밑면전단력)이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>층간변위 결정을 위한 각 층의 층변위는 건축물의 중요도계수에 비례한다.</choice_text>
-          <commentary>'층간변위 결정을 위한 각 층의 층변위'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>층변위 δ_x = C_d δ_xe / I_E이므로 중요도계수에 반비례한다. 비례한다는 서술은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -339,25 +339,24 @@
         <correct_choice_text>장기처짐 효과를 고려 시 과도한 처짐에 의해 손상되기 쉬운 비구조 요소를 지지 또는 부착하지 않은 바닥구조인 경우, 활하중에 의한 순간 처짐의 허용 한계는 부재 길이의 $\frac{1}{180}$ 이하이어야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 콘크리트구조 사용성 설계 시 1방향 구조의 처짐)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\frac{1}{180}$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · RC 1방향 구조의 처짐 한계
+정답은 ①이다. 비구조요소 손상 우려가 없는 바닥구조의 활하중 순간처짐 한계는 ℓ/360이며, ℓ/180은 평지붕구조의 값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>장기처짐 효과를 고려 시 과도한 처짐에 의해 손상되기 쉬운 비구조 요소를 지지 또는 부착하지 않은 바닥구조인 경우, 활하중에 의한 순간 처짐의 허용 한계는 부재 길이의 $\frac{1}{180}$ 이하이어야 한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>바닥구조의 활하중 순간처짐 한계는 ℓ/360이다. ℓ/180은 과도한 처짐으로 손상되기 쉬운 비구조요소를 지지하지 않는 평지붕구조에 적용되므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>처짐을 계산할 때 하중의 작용에 의한 순간처짐은 탄성 처짐공식을 사용하여 계산한다.</choice_text>
-          <commentary>'처짐을 계산할 때 하중의 작용에 의한 순간처짐'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>순간처짐은 탄성처짐공식으로 계산한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>처짐 계산에 의하여 최대 허용처짐 규정을 만족하는 경우, 처짐을 계산하지 않는 1방향 슬래브 최소 두께 규정을 적용할 필요가 없다.</choice_text>
-          <commentary>'처짐 계산에 의하여 최대 허용처짐 규정을 만족하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>처짐 계산으로 허용처짐 규정을 만족하면 1방향 슬래브 최소두께 규정을 적용하지 않아도 된다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>연속부재인 경우에 정모멘트 및 부모멘트에 대한 위험단면의 유효단면2차모멘트를 구하고 그 평균값을 사용할 수 있다.</choice_text>
-          <commentary>'연속부재인 경우에 정모멘트 및 부모멘트'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>연속부재에서는 정·부모멘트 위험단면의 유효단면2차모멘트를 구해 평균값을 사용할 수 있다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -376,24 +375,24 @@
         <correct_choice_text>콘크리트의 균열</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 프리스트레스트, 콘크리트구조에서, 유효프리스트레스, 결정하기)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 프리스트레스 손실의 원인
+정답은 ②이다. 콘크리트의 균열은 프리스트레스 손실 원인에 포함되지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정착장치의 활동</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정착장치 활동은 긴장력 도입 직후의 즉시 손실이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>콘크리트의 균열</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>콘크리트의 균열은 손실 원인으로 규정되지 않는다. 손실 원인은 정착장치 활동, 탄성수축, 크리프, 건조수축, 릴랙세이션, 마찰이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>긴장재 응력의 릴랙세이션</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>긴장재 응력의 릴랙세이션은 시간 의존적 손실이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>포스트텐션 긴장재와 덕트 사이의 마찰</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>포스트텐션 긴장재와 덕트(쉬스) 사이의 마찰은 즉시 손실이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -412,25 +411,24 @@
         <correct_choice_text>16 : 1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 그림과, 캔틸레버보에서, 점과, 처짐)
-정답은 ①이다. 본 문항은 그림과, 캔틸레버보에서, 점과, 처짐에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $w1$; $w2$; $w1$; $w2$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 캔틸레버보의 처짐 비교
+정답은 ①이다. 등분포하중 캔틸레버의 끝단 처짐은 δ = wL⁴/(8EI)이므로 두 처짐이 같으려면 w₁:w₂ = (L₂/L₁)⁴이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>16 : 1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>δ = wL⁴/(8EI)에서 B, D의 처짐을 같게 하면 w₁L₁⁴ = w₂L₂⁴이다. 두 보의 길이비 L₂/L₁ = 2이면 w₁:w₂ = 2⁴ : 1 = 16 : 1이다. 정답이다. 그림의 치수는 제공되지 않아 식 중심으로 서술한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8 : 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>8 : 1은 길이비의 세제곱(2³)을 쓴 값으로, 처짐이 L⁴에 비례하는 것을 놓친 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4 : 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4 : 1은 길이비의 제곱(2²)을 쓴 값으로 처짐식과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 : 1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2 : 1은 길이비 자체를 쓴 값으로 처짐식과 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,24 +444,24 @@
         <correct_choice_text>동일 평면에서 평행한 철근 사이의 수평 순간격은 25 mm 미만 또한 철근의 공칭지름 미만으로 하여야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 철근콘크리트구조의 철근 배치에서 간격 제한)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · RC 철근 배치 간격
+정답은 ①이다. 평행한 철근 사이의 수평 순간격은 25 mm 이상 또한 철근 공칭지름 이상이어야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>동일 평면에서 평행한 철근 사이의 수평 순간격은 25 mm 미만 또한 철근의 공칭지름 미만으로 하여야 한다.</choice_text>
-          <commentary>'동일 평면에서 평행한 철근 사이의 수평 순간격'에 관하여 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>수평 순간격은 25 mm '미만'이 아니라 25 mm 이상이고 철근 공칭지름 이상이어야 한다. 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>상단과 하단에 2단 이상으로 배치된 경우 상․하 철근은 동일 연직면 내에 배치되어야 하고, 이때 상․하 철근의 순간격은 25 mm 이상으로 하여야 한다.</choice_text>
-          <commentary>'하여야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>2단 이상 배치 시 상·하 철근은 동일 연직면 내에 두고 순간격은 25 mm 이상으로 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>벽체 또는 슬래브에서 휨 주철근의 간격은 벽체나 슬래브 두께의 3배 이하 또한 450 mm 이하로 하여야 한다.</choice_text>
-          <commentary>'벽체 또'에 관하여 '3배' 기준 및 '하여야 한다'라는 의무·기속 규정을 정확히 서술하였다.</commentary>
+          <commentary>벽체·슬래브 휨 주철근 간격은 두께의 3배 이하, 450 mm 이하이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>2개 이상의 철근을 묶어서 사용하는 다발철근은 이형철근으로, 그 개수는 4개 이하이어야 한다.</choice_text>
-          <commentary>'2개 이상의 철근을 묶어서 사용하'에 관하여 '2개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>다발철근은 이형철근으로 4개 이하로 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -479,25 +477,24 @@
         <correct_choice_text>보가 없는 2방향 슬래브에서 주열대 내 받침부의 상부철근 중 $\frac{1}{5}$ 이상은 전체 경간에 걸쳐서 연속되어야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 콘크리트 내진 설계기준에서 중간모멘트골조)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\frac{1}{2}$; $\frac{1}{2}$; $\frac{1}{5}$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · RC 중간모멘트골조 요구사항
+정답은 ④이다. 보 없는 2방향 슬래브 주열대 받침부 상부철근 중 1/6 이상이 전 경간에 연속되어야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>보 부재에서 스터럽의 간격은 부재 전 길이에 걸쳐서 단면 유효깊이의 $\frac{1}{2}$ 이하이어야 한다.</choice_text>
-          <commentary>'보 부재에서 스터럽의 간격'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보의 스터럽 간격은 전 길이에 걸쳐 유효깊이의 1/2 이하이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>설계전단강도는 내진설계기준의 설계용 하중조합에서 지진하중을 2배로 하여 계산한 최대 전단력 이상이어야 한다.</choice_text>
-          <commentary>'설계전단강도'에 관하여 '2배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>설계전단강도는 지진하중을 2배로 한 하중조합의 최대 전단력 이상이어야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기둥 부재의 첫 번째 후프철근은 접합면으로부터 횡방향 철근 최대 간격의 $\frac{1}{2}$ 이내에 있어야 한다.</choice_text>
-          <commentary>'기둥 부재의 첫 번째 후프철근'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>기둥 첫 후프철근은 접합면에서 s_o/2 이내에 둔다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>보가 없는 2방향 슬래브에서 주열대 내 받침부의 상부철근 중 $\frac{1}{5}$ 이상은 전체 경간에 걸쳐서 연속되어야 한다.</choice_text>
-          <commentary>'보가 없'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>받침부 상부철근 중 연속시켜야 할 비율은 1/5이 아니라 1/6 이상이다. 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -513,24 +510,24 @@
         <correct_choice_text>승용차용 방호하중은 방호시스템 임의의 수평방향으로 30 kN의 집중하중을 바닥면으로부터 0.4 m와 0.8 m 사이에서 가장 큰 하중효과를 일으키는 높이에 적용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 법령·조문 적용형 (핵심어: 건축구조기준 설계하중에서 규정하고 있는 하중 산정)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 설계하중 산정
+정답은 ①이다. 승용차용 방호하중의 크기와 작용높이에 관한 선지의 서술이 설계하중 기준과 맞지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>승용차용 방호하중은 방호시스템 임의의 수평방향으로 30 kN의 집중하중을 바닥면으로부터 0.4 m와 0.8 m 사이에서 가장 큰 하중효과를 일으키는 높이에 적용한다.</choice_text>
-          <commentary>'승용차용 방호하중'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>방호하중은 임의의 수평방향으로 작용하는 집중하중을 가장 큰 하중효과를 일으키는 높이에 적용하며, 선지에 제시된 하중 크기와 작용높이 범위는 기준의 수치와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>중량차량의 주차장 활하중을 산정할 때 차량의 실제하중 크기와 배치를 합리적으로 고려하여 활하중을 산정한다면 이를 적용할 수 있으나, 그 값은 5 kN/m^(2) 이상이어야 하고 활하중 저감 규정을 적용할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>중량차량 주차장 활하중을 합리적으로 산정하는 경우에도 5 kN/m² 이상이어야 하며 활하중 저감을 적용할 수 없다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>활하중 5 kN/m^(2) 이하의 공중집회 용도에 대해서는 활하중을 저감할 수 없다.</choice_text>
-          <commentary>'할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>활하중 5 kN/m² 이하의 공중집회 용도는 활하중을 저감할 수 없다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>건축물 내부에 설치되는 이동성 경량칸막이벽 및 이와 유사한 것을 제외한 높이 1.8 m 이상의 각종 내벽은 벽면에 직각방향으로 작용하는 0.25 kN/m^(2) 이상의 등분포하중에 대하여 안전하도록 설계한다.</choice_text>
-          <commentary>'건축물 내부에 설치되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이동성 경량칸막이벽을 제외한 높이 1.8 m 이상의 내벽은 벽면 직각방향 0.25 kN/m² 이상의 하중에 안전하도록 설계한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -549,25 +546,24 @@
         <correct_choice_text>1.0</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 수리·계산·자료해석형 (핵심어: 강성, 이고, 무게, 구조물)
-정답은 ②이다. 본 문항은 강성, 이고, 무게, 구조물에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\pi$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 1자유도계의 고유주기
+정답은 ②이다. 질량 m = W/g = 20/10 = 2 kN·s²/m, T = 2π√(m/k) = 2×3×√(2/72) = 1.0초이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0.5초가 되려면 √(m/k) = 1/12이어야 하나 실제 √(m/k) = 1/6이므로 주기가 절반이 될 수 없다. 2π 곱셈 또는 질량 환산 착오의 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.0</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>m = W/g = 20/10 = 2 kN·s²/m이고 k = 72 kN/m이므로 T = 2π√(m/k) = 2×3×√(2/72) = 6×(1/6) = 1.0초이다. 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2.0초가 되려면 √(m/k) = 1/3이어야 하나 실제는 1/6이다. 한편 무게 20을 질량으로 그대로 쓰면 T = 6×√(20/72) ≈ 3.2초가 되어 이 값도 아니다. 계산 착오의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4.0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4.0초가 되려면 √(m/k) = 2/3이어야 하나 실제는 1/6이므로 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -583,24 +579,24 @@
         <correct_choice_text>보－기둥 접합부의 소요전단강도 산정을 위한 지진하중효과(E)는 보 소성힌지 사이의 거리에 비례한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 강구조 내진설계 시 특수모멘트골조)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 강구조 특수모멘트골조
+정답은 ③이다. 접합부의 소요전단강도에서 지진하중효과 E는 보 소성힌지 사이 거리 L_h에 반비례한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>보－기둥 접합부의 기둥 외주면에서 접합부의 계측 휨강도는 0.04 rad의 층간변위에서 적어도 보 공칭소성모멘트(M_(p))의 80 % 이상이 유지되어야 한다.</choice_text>
-          <commentary>'80 %' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>특수모멘트골조 보-기둥 접합부는 0.04 rad 층간변위에서 계측 휨강도가 보 공칭소성모멘트 M_p의 80% 이상이어야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>특수모멘트골조의 보 소성힌지영역은 보호영역으로 고려해야 하고, 접합부 성능인증요소의 하나로서 제시되어야 한다.</choice_text>
-          <commentary>'특수모멘트골조의 보 소성힌지영역'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>보 소성힌지영역은 보호영역으로 고려하고 성능인증요소로 제시한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>보－기둥 접합부의 소요전단강도 산정을 위한 지진하중효과(E)는 보 소성힌지 사이의 거리에 비례한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>소요전단강도는 V_u = 2(1.1R_yM_p)/L_h + V_g처럼 소성힌지 사이 거리 L_h에 반비례한다. 비례한다는 서술은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>보－기둥 접합부의 성능입증은 연구논문 또는 신뢰할 만한 연구보고서의 실험결과에 근거를 둘 수 있고, 이때 최소 2개의 반복재하 실험결과를 제시하여야 한다.</choice_text>
-          <commentary>'2개' 기준 및 '하여야 한다'라는 의무·기속 규정을 정확히 서술하였다.</commentary>
+          <commentary>접합부 성능입증은 연구논문·연구보고서의 실험에 근거할 수 있고 최소 2개의 반복재하 실험결과를 제시한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -616,24 +612,24 @@
         <correct_choice_text>수직벽체철근의 수평배근 최대간격은 1.5 m 이내로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 조적조에서 내진설계 적용대상 전단벽의 부재설계)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 조적조 내진 전단벽 철근배근
+정답은 ②이다. 수직벽체철근의 수평배근 최대간격은 1.2 m 이내이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최소단면적 130 mm^(2)의 수직벽체철근을 각 모서리와 벽의 단부, 각 개구부의 각 면 테두리에 연속적으로 배근해야 한다.</choice_text>
-          <commentary>'해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>단면적 130 mm² 이상의 수직철근을 각 모서리, 벽 단부, 개구부 각 면 테두리에 연속 배근한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>수직벽체철근의 수평배근 최대간격은 1.5 m 이내로 한다.</choice_text>
-          <commentary>'수직벽체철근의 수평배근 최대간격'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수직벽체철근의 최대간격은 1.5 m가 아니라 1.2 m이다. 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>수평벽체철근은 벽체개구부의 하단과 상단에서는 600 mm 또는 철근직경의 40배 이상 연장하여 배근한다.</choice_text>
-          <commentary>'수평벽체철근'에 관하여 '40배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>수평철근은 개구부 하단과 상단에서 600 mm 또는 철근직경의 40배 이상 연장한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>수평벽체철근은 균일하게 분포된 접합부철근이 있는 경우를 제외하고는 3 m의 최대간격을 유지한다.</choice_text>
-          <commentary>'수평벽체철근'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수평철근은 균일 분포 접합부철근이 있는 경우를 제외하고 최대간격 3 m를 유지한다. 옳은 설명이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -649,25 +645,24 @@
         <correct_choice_text>현장타설말뚝의 횡방향철근은 직경 10 mm 이상의 폐쇄띠철근이나 나선철근을 사용하고, 간격은 말뚝머리부터 말뚝직경의 3배 구간에는 주철근직경의 8배와 150 mm 중 작은 값 이하로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 말뚝기초의 내진상세)
-정답은 ②이다. 본 문항은 말뚝기초의 내진상세에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{1}{2}$; $\frac{1}{3}$</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 말뚝기초의 내진상세
+정답은 ②이다. 현장타설말뚝의 횡방향철근은 직경 10 mm 이상 폐쇄띠철근이나 나선철근으로 하고, 말뚝머리부터 말뚝직경 3배 구간의 간격은 주철근직경 8배와 150 mm 중 작은 값 이하로 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>내진설계범주 ‘C’로 분류된 구조물의 현장타설말뚝에서 종방향 주철근은 4개 이상 또한 설계단면적의 0.2 % 이상으로 하고, 말뚝머리로부터 말뚝길이의 $\frac{1}{2}$구간에 배근하여야 한다.</choice_text>
-          <commentary>'4개' 기준 또는 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>범주 C 현장타설말뚝의 종방향 주철근은 4개 이상, 단면적 0.25% 이상으로 하고 말뚝머리부터 말뚝길이의 1/3 구간에 배근한다. 선지의 0.2%와 1/2는 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>현장타설말뚝의 횡방향철근은 직경 10 mm 이상의 폐쇄띠철근이나 나선철근을 사용하고, 간격은 말뚝머리부터 말뚝직경의 3배 구간에는 주철근직경의 8배와 150 mm 중 작은 값 이하로 한다.</choice_text>
-          <commentary>'현장타설말뚝의 횡방향철근'에 관하여 '3배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>횡방향철근은 직경 10 mm 이상의 폐쇄띠철근 또는 나선철근을 쓰고, 말뚝머리부터 말뚝직경 3배 구간은 주철근직경 8배와 150 mm 중 작은 값 이하로 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>내진설계범주 ‘D’로 분류된 구조물의 현장타설말뚝의 종방향 주철근은 4개 이상 또한 설계단면적의 0.25 % 이상으로 하고, 말뚝머리로부터 말뚝길이의 $\frac{1}{3}$구간에 배근하여야 한다.</choice_text>
-          <commentary>'4개' 기준 또는 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>범주 D는 범주 C보다 엄격하여 종방향 주철근을 단면적 0.5% 이상, 말뚝길이의 1/2 구간에 배근한다. 선지의 0.25%와 1/3은 범주 C의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>내진설계범주 ‘C’ 또는 ‘D’로 분류된 구조물의 프리텐션이 사용되지 않은 기성콘크리트말뚝의 종방향 주철근비는 전체 길이에 대해 0.5 % 이상으로 하고, 횡방향철근은 직경 9 mm 이상의 폐쇄띠철근이나 나선철근을 사용하여야 한다.</choice_text>
-          <commentary>'5 %' 기준 또는 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>프리텐션이 아닌 기성콘크리트말뚝의 종방향 주철근비와 횡방향철근 직경은 기준 수치와 다르며, 선지의 0.5%와 9 mm는 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -683,24 +678,24 @@
         <correct_choice_text>압밀침하량은 지반을 탄성체로 보고 탄성이론에 기초한 지반의 탄성계수와 포아송비를 적절히 설정하여 산정한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 핵심 개념·이론 이해형 (핵심어: 기초구조)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 기초구조 일반 및 지반조사
+정답은 ④이다. 압밀침하량은 탄성이론이 아니라 압밀이론(간극비-하중 관계, 압축지수 C_c)으로 산정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>평판재하시험의 재하판은 지름 300 mm를 표준으로 하고, 최대 재하하중은 지반의 극한지지력 또는 예상되는 설계하중의 3배로 한다.</choice_text>
-          <commentary>'평판재하시험의 재하판'에 관하여 '3배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>평판재하시험의 재하판은 지름 300 mm가 표준이며 최대 재하하중은 극한지지력 또는 설계하중의 3배이다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>양호한 지반이란 상부구조물의 하중에 대하여 지반의 전단파괴나 과도한 침하 없이 충분히 지지할 수 있는 특성을 지닌 압밀된 세립토층이나 상대밀도가 큰 조립토층 또는 암반층을 말한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>양호한 지반은 전단파괴나 과도한 침하 없이 하중을 지지할 수 있는 압밀된 세립토층, 상대밀도가 큰 조립토층, 암반층을 말한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기초는 접지압이 지반의 허용지지력을 초과하지 않아야 하며, 또한 기초의 침하가 허용침하량 이내이고, 가능하면 균등해야 한다.</choice_text>
-          <commentary>'기초'에 관하여 '해야 한다'라는 의무·기속 규정이 법리 및 이론에 부합한다.</commentary>
+          <commentary>기초는 접지압이 허용지지력 이하이고 침하가 허용침하량 이내이며 가능하면 균등해야 한다. 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>압밀침하량은 지반을 탄성체로 보고 탄성이론에 기초한 지반의 탄성계수와 포아송비를 적절히 설정하여 산정한다.</choice_text>
-          <commentary>'압밀침하량'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>탄성계수와 포아송비를 이용한 탄성이론은 즉시(탄성)침하량 산정 방법이다. 압밀침하량은 압밀시험 결과(C_c, e_0 등)에 기초한 압밀이론으로 산정하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

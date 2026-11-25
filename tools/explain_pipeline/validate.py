@@ -13,7 +13,7 @@ def check(task, pid):
     P = json.load(open(os.path.join(WORK, 'papers', pid + '.json'), encoding='utf-8'))
     V = json.load(open(os.path.join(WORK, 'verified', pid + '.json'), encoding='utf-8'))
     err = []
-    qs = {q['id']: q for q in P['questions']}
+    qs = {q['id']: dict(q, bogi=q.get('bogi', [])) for q in P['questions']}
     for k in V:
         if k not in qs: err.append(k + ': 시험지에 없는 문항 ID')
     def txtcheck(where, t):

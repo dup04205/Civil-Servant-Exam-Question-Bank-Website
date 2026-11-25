@@ -44,10 +44,15 @@ def extract(pid):
              'has_image': qq.find('.//image') is not None,
              'existing': {'overall': he.findtext('overall_commentary'),
                           'choices': {c.get('no'): c.findtext('commentary') for c in he.iter('choice_explanation')}}}
+        if not (d['needs_rewrite'] or d['bogi']): continue          # 작업 불필요 문항 제외
+        if d['needs_rewrite']: d.pop('existing')                      # 다시 쓸 문항은 기존 해설 불필요
+        if not d['bogi']: d.pop('bogi')
+        if not d['formulas']: d.pop('formulas')
+        if not d['passage']: d.pop('passage')
         out['questions'].append(d)
     os.makedirs(os.path.join(WORK, 'papers'), exist_ok=True)
     p = os.path.join(WORK, 'papers', pid + '.json')
-    json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1); return p
+    json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':')); return p
 
 if __name__ == '__main__':
     if sys.argv[1] == 'queue':

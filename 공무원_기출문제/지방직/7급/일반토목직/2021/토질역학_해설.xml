@@ -27,8 +27,8 @@
         <correct_choice_text>ㄱ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 복합 보기 검증형 (핵심어: 유선망)
-정답은 ②이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(X), ㄷ(O), ㄹ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ②(ㄱ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 유선망
+정답은 ②이다. 유선과 등수두선은 서로 직교하고, 인접한 두 유선 사이(유로)를 흐르는 유량은 같다. 등수두선은 전수두가 같은 점을 연결한 선이며, 인접한 두 등수두선 사이의 손실수두는 모두 같다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>유선과 등수두선은 직교하도록 그려야 한다.</statement>
@@ -50,19 +50,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄴ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄷ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -78,25 +78,24 @@
         <correct_choice_text>D점은 자유수면 아래에 있어 모관 상승 방향으로 물이 흐른다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 과 같은 모관 상승 현상)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $- \gamma_{w} ㆍ h_{c}$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 모관 상승 현상
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번 설명이 옳지 않다이다. 모관수가 평형 상태이면 모관 내 모든 점의 전수두가 같아 물이 흐르지 않는다. 자유수면 위 높이 h의 수압은 -γw·h, 아래 깊이 h의 수압은 +γw·h이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>C점과 D점의 전수두는 같다.</choice_text>
-          <commentary>'C점과 D점의 전수두'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>A점에서의 수압은 $- \gamma_{w} \cdot h_{c}$이다.</choice_text>
-          <commentary>'A점에서의 수압'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>B점에서의 수압과 D점에서의 수압은 절댓값이 같다.</choice_text>
-          <commentary>'B점에서의 수압과 D점에서의 수압'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>D점은 자유수면 아래에 있어 모관 상승 방향으로 물이 흐른다.</choice_text>
-          <commentary>'D점'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -112,24 +111,24 @@
         <correct_choice_text>흙입자의 비표면적이 클수록 투수계수는 커진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 흙의 투수계수)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 흙의 투수계수
+정답은 ①이다. 비표면적이 큰 흙(세립토)은 입자 표면의 마찰 저항이 커서 투수계수가 작아진다. 포화도가 클수록 물이 흐를 통로가 많아 투수계수가 크고, 점성계수가 클수록 작아지며, 투수계수의 단위는 속도와 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>흙입자의 비표면적이 클수록 투수계수는 커진다.</choice_text>
-          <commentary>'흙입자의 비표면적'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>투수계수가 작아지므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>포화도가 클수록 투수계수는 커진다.</choice_text>
-          <commentary>'포화도'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>간극수의 점성계수가 클수록 투수계수는 작아진다.</choice_text>
-          <commentary>'간극수의 점성계수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>투수계수의 단위는 속도의 단위와 같다.</choice_text>
-          <commentary>'투수계수의 단위'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -148,24 +147,24 @@
         <correct_choice_text>수축 팽창</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 옹벽, 구조물, 배면, 정지토압상태에서)
-정답은 ③이다. 본 문항은 옹벽, 구조물, 배면, 정지토압상태에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 수동토압상태의 변형
+정답은 ③이다. 수동토압상태는 벽체가 배면 흙 쪽으로 밀려 들어가는 상태이므로 배면 지반은 수평방향으로 압축(수축)되고, 그 결과 연직방향으로는 부풀어 오르며 팽창한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>수축 수축</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연직방향은 팽창한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>팽창 팽창</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수평방향은 수축한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>수축 팽창</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>수축, 팽창이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>팽창 수축</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주동 상태의 변형이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -184,24 +183,24 @@
         <correct_choice_text>선분 AE와 AG는 주동파괴면의 방향을, 선분 CF와 CH는 수동파괴면의 방향을 나타낸다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 토압이론에서, 모래, 지반, 정지토압)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 토압 상태의 Mohr 원
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번 설명이 옳지 않다이다. Mohr 원에서 극점과 파괴포락선 접점을 이은 선이 파괴면의 방향을 나타내며, φ = 30°이면 Ka = 1/3, Kp = 3으로 Kp/Ka = 9이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>A점은 주동토압, D점은 수동토압을 나타낸다.</choice_text>
-          <commentary>'A점'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>선분 AE와 AG는 주동파괴면의 방향을, 선분 CF와 CH는 수동파괴면의 방향을 나타낸다.</choice_text>
-          <commentary>'선분 AE와 AG'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모래의 내부마찰각이 30 °일 때 수동토압계수는 주동토압계수보다 9배 크다.</choice_text>
-          <commentary>'모래의 내부마찰각'에 관하여 '9배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>E와 G점은 주동파괴면에 작용하는 응력상태를, F와 H점은 수동파괴면에 작용하는 응력상태를 나타낸다.</choice_text>
-          <commentary>'E와 G점'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -220,24 +219,24 @@
         <correct_choice_text>60 °</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 건조된, 사질토, 시료, 대해)
-정답은 ②이다. 본 문항은 건조된, 사질토, 시료, 대해에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 전단 파괴면의 각도
+정답은 ②이다. 구속압 σ₃ = 300 kPa, σ₁ = 300 + 600 = 900 kPa이므로 σ₁/σ₃ = 3 = tan²(45° + φ/2)에서 φ = 30°이다. 파괴면은 최대 주응력면과 45° + φ/2 = 60°를 이룬다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>30 °</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최소 주응력면과 이루는 각이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>60 °</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>60°이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15 °</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>45 °</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>φ = 0일 때의 각이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -256,24 +255,24 @@
         <correct_choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 원기둥, 형태, 말뚝기초, 깊이별)
-정답은 ④이다. 본 문항은 원기둥, 형태, 말뚝기초, 깊이별에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 말뚝의 하중전이 곡선
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 4번 곡선이 적절하다이다. 말뚝 축력은 깊이에 따라 그 위쪽 주면마찰력의 누적값만큼 줄어들므로, 단위주면마찰력 분포를 깊이로 적분한 값만큼 축력이 감소하는 곡선을 찾는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -292,25 +291,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 점토, 지반, 보강, 수직으)
-정답은 ②이다. 본 문항은 점토, 지반, 보강, 수직으에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\gamma_{t}$; $c_u$; $\phi$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 연직굴착 한계깊이
+정답은 ②이다. φ = 0인 점토의 연직굴착 한계깊이는 Hc = 4cu/γt = 4 × 30 ÷ 20 = 6 m이다. 안전율 1.5를 적용하면 최대 굴착깊이 = 6 ÷ 1.5 = 4 m이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>안전율을 적용하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -329,25 +327,24 @@
         <correct_choice_text>1.25</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 점토, 지반, 내부마찰각, 이고)
-정답은 ②이다. 본 문항은 점토, 지반, 내부마찰각, 이고에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $c_u$; $W$; $x$; $\theta$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 원호파괴 안전율
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 안전율은 1.25이다. φ = 0 해석에서 Fs = 저항모멘트/활동모멘트 = cu·R²·θ/(W·x)이며, 그림의 원호 반지름 R과 W·x = 160 × 4.5 = 720 kN·m/m를 대입한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.00</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.25</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.50</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.75</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -366,25 +363,24 @@
         <correct_choice_text>40</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 점착력, 이고, 시료, 등방압밀조건에서)
-정답은 ③이다. 본 문항은 점착력, 이고, 시료, 등방압밀조건에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\phi '$; $1 over3$; $p_{0} '$; $\sigma_3$; $\sigma_1$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · CU 시험의 과잉간극수압
+정답은 ③이다. c′ = 0, sinφ′ = 1/3이면 파괴 시 q_f = p′_f·sinφ′ = 90 × 1/3 = 30 kPa이다. σ₃를 일정하게 두고 σ₁만 증가시키므로 전응력 p는 q만큼 증가하여 p_f = 100 + 30 = 130 kPa이다. 과잉간극수압 = p_f - p′_f = 130 - 90 = 40 kPa이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>40</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>40 kPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -400,24 +396,24 @@
         <correct_choice_text>전단과정에서 시료 전체에 균일한 전단변형율이 발생하여 이를 전단탄성계수를 구하는 자료로 활용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 직접전단시험의 특징)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 직접전단시험의 특징
+정답은 ④이다. 직접전단시험은 정해진 전단면을 따라 파괴시키며, 전단상자 가장자리에 응력이 집중되어 시료 내부의 변형률이 균일하지 않다. 따라서 전단탄성계수를 구하는 자료로 쓰기 어렵다. 함수비 변화와 간극수압 측정의 어려움, 주응력면 회전에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전단시험 과정에서 시료의 함수비가 변화할 수 있으며 간극수압 측정이 어렵다.</choice_text>
-          <commentary>'전단시험 과정에서 시료의 함수비'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>시료 내부의 가장 약한 부분에서만 전단파괴가 발생하는 것은 아니다.</choice_text>
-          <commentary>'시료 내부의 가장 약한 부분에서만 전단파괴'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시험초기에는 시료의 수평면과 연직면이 주응력면이지만, 전단시험이 진행되면서 주응력면의 방향이 달라지게 된다.</choice_text>
-          <commentary>'시험초기에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>전단과정에서 시료 전체에 균일한 전단변형율이 발생하여 이를 전단탄성계수를 구하는 자료로 활용한다.</choice_text>
-          <commentary>'전단과정에서 시료 전체에 균일한 전단변형율'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>변형률이 균일하지 않으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -436,24 +432,24 @@
         <correct_choice_text>2,000</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 토취장에서, 채취하여, 부피, 제방)
-정답은 ②이다. 본 문항은 토취장에서, 채취하여, 부피, 제방에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 토취장 흙의 소요 부피
+정답은 ②이다. 흙입자 부피는 변하지 않으므로 V_borrow/(1 + e_borrow) = V_embankment/(1 + e_embankment)이다. V_borrow = 1,000 × (1 + 2.0)/(1 + 0.5) = 1,000 × 3 ÷ 1.5 = 2,000 m³이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1,500</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,000</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2,000 m³이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2,500</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -472,8 +468,8 @@
         <correct_choice_text>ㄱ, ㄷ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 복합 보기 검증형 (핵심어: 통일분류법, 사용하여, 현장, 분류하였다)
-정답은 ③이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄷ(O), ㅁ(X)로 정리되므로, 발문의 조건에 부합하는 조합은 ③(ㄱ, ㄷ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 통일분류법 시험 항목
+정답은 ③이다. CL-ML로 분류하려면 체분석으로 세립토 여부(200번 체 통과율)를 판정하고, 액성한계와 소성한계로 소성지수를 구해 소성도표에서 위치를 정해야 한다. 비중계 시험과 수축한계 시험은 필요하지 않다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>체분석 시험 ㄴ. 비중계 시험</statement>
@@ -491,19 +487,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>비중계 시험은 필요하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄹ)이다.</commentary>
+          <commentary>액성한계 시험이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄱ, ㄷ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ, ㅁ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄷ, ㄹ, ㅁ)이다.</commentary>
+          <commentary>체분석이 빠졌다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -522,25 +518,24 @@
         <correct_choice_text>$2 pic_u$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 비배수전단강도, 점토지반, 놓인, 연속기초)
-정답은 ③이다. 본 문항은 비배수전단강도, 점토지반, 놓인, 연속기초에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $c_u$; $B$; $q_ult$; $q_ult$; $pic_u$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 원형회전파괴 지지력
+정답은 ③이다. 공식 정답에 따르면 기초 가장자리 O점을 중심으로 반지름 B의 반원 활동면이 생긴다. 활동모멘트 q_ult × B × B/2와 저항모멘트 cu × (πB) × B를 같게 놓으면 q_ult = 2πcu이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$pic_u$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$( 2 + \pi ) c_u$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Prandtl 해의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 pic_u$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2πcu이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$4 pic_u$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -559,24 +554,24 @@
         <correct_choice_text>E점의 압력수두는 8 m이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 그림과, 흙기둥, 통해서, 흐르고)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 흙기둥 속 침투
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 E점 압력수두가 8 m라는 설명이 옳지 않다이다. 흙기둥의 동수경사 i = Δh/L로 구하고, 각 점의 압력수두 = 전수두 - 위치수두, 유효응력 = γ′z ± i·γw·z(침투 방향에 따라)로 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>B점과 C점에서의 압력수두 차이는 3.5 m이다.</choice_text>
-          <commentary>'B점과 C점에서의 압력수두 차이'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>흙시료 내부의 동수경사는 0.75로 일정하다.</choice_text>
-          <commentary>'흙시료 내부의 동수경사'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>E점의 압력수두는 8 m이다.</choice_text>
-          <commentary>'E점의 압력수두'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>D점의 연직유효응력은 10 kPa이다.</choice_text>
-          <commentary>'D점의 연직유효응력'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -592,24 +587,24 @@
         <correct_choice_text>형상계수, 근입깊이계수, 경사하중계수, 지지력계수</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 력을 구하는 Meyerhof(1963))
-정답은 ④이다. 본 문항은 력을 구하는 Meyerhof(1963)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · Meyerhof 지지력 공식의 구성
+정답은 ④이다. Meyerhof(1963) 지지력 공식은 지지력계수(Nc, Nq, Nγ)에 형상계수, 근입깊이계수, 경사하중계수를 곱하여 극한지지력을 구한다. 탄성계수는 침하 계산에 쓰는 값으로 지지력 공식의 구성 요소가 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>탄성계수, 근입깊이계수, 경사하중계수, 형상계수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>탄성계수가 포함되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>지지력계수, 탄성계수, 경사하중계수, 근입깊이계수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>탄성계수가 포함되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>형상계수, 지지력계수, 탄성계수, 경사하중계수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>탄성계수가 포함되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>형상계수, 근입깊이계수, 경사하중계수, 지지력계수</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳은 구성이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -625,24 +620,24 @@
         <correct_choice_text>Terzaghi 1차원 압밀이론에서 흙은 균질하고 포화되어 있으며 흙입자는 압축성이 있는 것으로 가정한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 설명)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 압밀이론
+정답은 ③이다. Terzaghi 1차원 압밀이론은 흙이 균질하고 완전 포화되어 있으며, 흙입자와 물은 비압축성이라고 가정한다. 압밀도의 위치 의존성과 평균압밀도, 침하량 산정 방법, 교란시료의 작은 압축지수에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>지반의 압밀도는 위치에 따라 다르며 평균압밀도는 시간계수의 함수로 나타낼 수 있다.</choice_text>
-          <commentary>'지반의 압밀도'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>압밀 침하량은 하중－간극비 곡선, 압축지수 및 선행압밀하중 등을 이용하여 결정할 수 있다.</choice_text>
-          <commentary>'압밀 침하량'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>Terzaghi 1차원 압밀이론에서 흙은 균질하고 포화되어 있으며 흙입자는 압축성이 있는 것으로 가정한다.</choice_text>
-          <commentary>'Terzaghi 1차원 압밀이론에서 흙'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>흙입자는 비압축성으로 가정하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일 점토시료에 대해 교란시료는 불교란시료에 비해 압축지수 값이 더 작게 나타난다.</choice_text>
-          <commentary>'동일 점토시료에 대해 교란시료'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -661,25 +656,24 @@
         <correct_choice_text>0.94</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 압밀계수, 점토층, 있다, 양면배수)
-정답은 ③이다. 본 문항은 압밀계수, 점토층, 있다, 양면배수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H_{A}$; $H_{B}$; $\left( H_{A} / H_{B} \right)^{2}$; $T_{50}$; $T_{90}$</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 배수조건과 압밀시간
+정답은 ③이다. 압밀시간 t = Tv·H_dr²/cv이다. A층은 양면배수로 배수거리 H_A/2, B층은 일면배수로 배수거리 H_B이다. 0.85 × (H_A/2)² = 0.2 × H_B²이므로 (H_A/H_B)² = 0.2 × 4 ÷ 0.85 ≒ 0.94이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.86</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.90</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.94</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.94이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.98</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -698,24 +692,24 @@
         <correct_choice_text>40,000시간</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 수리·계산·자료해석형 (핵심어: 모래층, 사이, 존재하, 두께)
-정답은 ①이다. 본 문항은 모래층, 사이, 존재하, 두께에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 현장 압밀시간 예측
+정답은 ①이다. 같은 압밀도에 도달하는 시간은 배수거리의 제곱에 비례한다. 시료는 양면배수로 배수거리 1 cm, 현장 점토층은 위아래 모래층으로 양면배수가 되어 배수거리 200 cm이다. 현장 시간 = 1시간 × (200/1)² = 40,000시간이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>40,000시간</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>40,000시간이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>60,000시간</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>80,000시간</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>100,000시간</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -734,24 +728,24 @@
         <correct_choice_text>A → B</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 토질역학 · 핵심 개념·이론 이해형 (핵심어: 다음과, 제방, 시공할, 지점에서)
-정답은 ①이다. 본 문항은 다음과, 제방, 시공할, 지점에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 토질역학 · 제방 시공과 응력경로
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 응력경로는 A → B이다. 제방 하부 Z점은 성토 하중으로 연직응력이 증가하고 수평응력도 일부 증가하는 응력 변화를 받으므로, 압밀배수 조건에서 이와 같은 방향의 유효응력경로를 선택한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>A → B</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>A → C</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>A → D</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>A → E</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

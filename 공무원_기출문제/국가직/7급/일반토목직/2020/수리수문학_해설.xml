@@ -27,27 +27,25 @@
         <correct_choice_text>$\frac{\partial \vec{V}}{\partial x} \neq 0$, $\frac{\partial \vec{V}}{\partial t} = 0$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 정상 부등류(steady non-uniform flow))
-정답은 ②이다. 본 문항은 정상 부등류(steady non-uniform flow)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "${\vec{V}} = {\vec{V}} ( x , t )$"
-관련 수식: $\vec{V}$; $x$; ${\vec{V}} = {\vec{V}} ( x , t )$; $\frac{partial \vec{V}}{partial x} = 0$; $\frac{partial \vec{V}}{partial t} = 0$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 정상 부등류
+정답은 ②이다. 정상류는 한 지점에서 시간에 따라 흐름 특성이 변하지 않는 흐름(∂V/∂t = 0)이고, 부등류는 위치에 따라 유속이 변하는 흐름(∂V/∂x ≠ 0)이다.</overall_commentary>
       <passage_evidence>${\vec{V}} = {\vec{V}} ( x , t )$</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial \vec{V}}{\partial x} = 0$, $\frac{\partial \vec{V}}{\partial t} = 0$</choice_text>
-          <commentary>제시문의 "${\vec{V}} = {\vec{V}} ( x , t )$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>정상 등류이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\partial \vec{V}}{\partial x} \neq 0$, $\frac{\partial \vec{V}}{\partial t} = 0$</choice_text>
-          <commentary>제시문의 "${\vec{V}} = {\vec{V}} ( x , t )$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>정상 부등류이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial \vec{V}}{\partial x} = 0$, $\frac{\partial \vec{V}}{\partial t} \neq 0$</choice_text>
-          <commentary>제시문의 "${\vec{V}} = {\vec{V}} ( x , t )$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>부정류 등류이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial \vec{V}}{\partial x} \neq 0$, $\frac{\partial \vec{V}}{\partial t} \neq 0$</choice_text>
-          <commentary>제시문의 "${\vec{V}} = {\vec{V}} ( x , t )$" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>부정류 부등류이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -63,24 +61,24 @@
         <correct_choice_text>관성력 중력 작다</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 연결한)
-정답은 ③이다. 본 문항은 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 사류의 특성
+정답은 ③이다. 프루드수 Fr = V/√(gh)는 관성력과 중력의 비이다. 사류는 Fr &gt; 1로 관성력이 중력보다 크며, 수심은 한계수심보다 작다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>점성력 관성력 작다</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>점성력과는 관계가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>관성력 점성력 크다</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>점성력과는 관계가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>관성력 중력 작다</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>관성력, 중력, 작다이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>관성력 중력 크다</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수심은 한계수심보다 작다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -96,24 +94,24 @@
         <correct_choice_text>정수역학은 전단응력과 수직응력 중 전단응력만을 고려한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 정수역학)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 정수역학
+정답은 ①이다. 정지 유체에는 상대운동이 없어 전단응력이 작용하지 않고 수직응력(압력)만 작용한다. 압력은 p = ρgh로 깊이에 비례하여 선형 증가하며, 밀폐된 유체에 가한 압력은 모든 곳에 같게 전달된다(파스칼의 원리).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>정수역학은 전단응력과 수직응력 중 전단응력만을 고려한다.</choice_text>
-          <commentary>'정수역학'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>수직응력만 고려하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>물속 한 점에서의 압력은 밀도, 중력가속도, 깊이에 의해 결정된다.</choice_text>
-          <commentary>'물속 한 점에서의 압력'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정수압만 고려한다면 비압축성 액체의 압력은 수면으로부터 깊어질수록 선형적으로 증가한다.</choice_text>
-          <commentary>'정수압만 고려한다면 비압축성 액체의 압력'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>밀폐된 시스템 내 유체의 한 점에서 가해진 압력의 변화는 시스템 내 유체의 모든 곳에서 동일하게 나타나며, 이러한 원리를 파스칼의 원리라 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -130,24 +128,24 @@
         <correct_choice_text>24 48</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 시간  (min), 강우량  (mm))
-정답은 ①이다. 본 문항은 시간  (min), 강우량  (mm)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 지속기간 30분 최대강우
+정답은 ①이다. 연속된 30분(10분 × 3개) 강우량 합의 최댓값을 구하면 20~40분 구간의 10 + 6 + 8 = 24 mm가 최대이다. 최대강우강도 = 24 mm ÷ 0.5 h = 48 mm/h이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>24 48</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>24 mm, 48 mm/h이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20 40</choice_text>
-          <commentary>제시문의 "| 시간  (min) | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 110 | 120 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>16 32</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>12 24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -166,24 +164,24 @@
         <correct_choice_text>흐름이 난류보다 층류일 때 관 벽면에서 전단응력은 더 크다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 관수, 흐름에서, 최대유속, 중심부에서)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 관수로 흐름의 특성
+정답은 ①이다. 난류는 관벽 근처의 유속경사가 커서 같은 조건에서 층류보다 벽면 전단응력이 크다. 전단응력은 관 중심에서 0이고, 난류는 유속분포가 평평하여 관계수가 크며, 상대조도가 클수록 관계수는 작아진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>흐름이 난류보다 층류일 때 관 벽면에서 전단응력은 더 크다.</choice_text>
-          <commentary>'흐름'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>난류일 때 더 크므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>관의 중심부에서 전단응력이 가장 작다.</choice_text>
-          <commentary>'관의 중심부에서 전단응력'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>흐름이 층류보다 난류일 때 관계수가 더 크다.</choice_text>
-          <commentary>'흐름'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Reynolds 수가 동일하면 관의 상대조도가 클수록 관계수는 작아진다.</choice_text>
-          <commentary>'Reynolds 수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -202,24 +200,24 @@
         <correct_choice_text>0.20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 피압대수층, 설치된, 우물, 사이)
-정답은 ④이다. 본 문항은 피압대수층, 설치된, 우물, 사이에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 피압대수층의 유량
+정답은 ④이다. 동수경사 i = (50 - 30) ÷ 200 = 0.1, 단면적 A = 5 × 40 = 200 m²이다. Darcy 법칙 Q = KiA = 0.01 × 0.1 × 200 = 0.20 m³/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.20 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -238,24 +236,24 @@
         <correct_choice_text>0.20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 수심, 비해, 하폭, 충분히)
-정답은 ③이다. 본 문항은 수심, 비해, 하폭, 충분히에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 마찰속도
+정답은 ③이다. 광폭 수로에서 동수반경은 수심과 같다(R ≒ h). 마찰속도 u* = √(gRS) = √(10 × 4 × 0.001) = √0.04 = 0.20 m/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.16</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.20 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -274,24 +272,24 @@
         <correct_choice_text>20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 그림과, 자형, 가지, 유체)
-정답은 ④이다. 본 문항은 그림과, 자형, 가지, 유체에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · U자관의 평형
+정답은 ④이다. 그림이 제공되지 않아 액주 높이는 확인할 수 없으며, 공식 정답에 따르면 유체 A의 단위중량은 20 kN/m³이다. 같은 유체로 연결된 같은 높이의 두 점은 압력이 같으므로, 경계면 높이에서 양쪽 액주의 γ × h를 같게 놓아 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>20 kN/m³이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -310,25 +308,24 @@
         <correct_choice_text>흐름은 물리적으로 존재하는 것이 불가능하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 차원, 비압축성, 흐름에서, 성분별)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $x$; $y$; $u = 4 x$; $v = - 4 y$; $x = 1$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 2차원 유속장
+정답은 ②이다. ∂u/∂x + ∂v/∂y = 4 - 4 = 0이므로 연속방정식을 만족하고, 와도 ∂v/∂x - ∂u/∂y = 0이므로 비회전류이다. ax = u ∂u/∂x + v ∂u/∂y = 4x × 4 = 16x이므로 x = 1에서 16으로 0이 아니다. 연속방정식을 만족하므로 물리적으로 존재할 수 있는 흐름이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>연속방정식을 만족한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>흐름은 물리적으로 존재하는 것이 불가능하다.</choice_text>
-          <commentary>'흐름'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>존재할 수 있으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$x = 1$인 지점에서 $x$방향 가속도 $a_{x}$는 0이 아니다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>비회전류 조건을 만족한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -347,25 +344,24 @@
         <correct_choice_text>6.3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 그림과, 여수, 월류하며, 단위폭당)
-정답은 ④이다. 본 문항은 그림과, 여수, 월류하며, 단위폭당에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: ${F}_x$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 여수로에 작용하는 수평력
+정답은 ④이다. 그림이 제공되지 않아 상하류 수심은 확인할 수 없으며, 공식 정답에 따르면 6.3 t/m이다. 상류와 하류 단면 사이에 연속방정식으로 유속을 구하고, 운동량 방정식 P₁ - P₂ - Fx = ρq(V₂ - V₁)을 적용하여 수평력을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4.9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5.9</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6.3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6.3 t/m이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -382,25 +378,24 @@
         <correct_choice_text>난류흐름에서 층류저층의 두께 δ가 조도 높이 e보다 6배 이상 크면 그 흐름은 거친 관 흐름이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 원형 관수로 흐름, u ( r ))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\delta$; ${{V}}$; $r$; $u ( r )$; $u_{c}$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 원형 관수로 흐름
+정답은 ①이다. 층류저층의 두께 δ가 조도 높이 e보다 충분히 크면 조도가 층류저층에 묻혀 매끈한 관 흐름이 된다. 반대로 조도가 층류저층보다 크게 돌출하면 거친 관 흐름이다. 층류 유속분포, 난류의 평균/최대유속비 &lt; 1, 층류의 에너지 보정계수가 크다는 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>난류흐름에서 층류저층의 두께 δ가 조도 높이 e보다 6배 이상 크면 그 흐름은 거친 관 흐름이다.</choice_text>
-          <commentary>제시된 '6배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>매끈한 관 흐름이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>층류흐름에서 평균유속 ${{V}}$를 알면 관로 내 중심선으로부터 $r$의 위치에 있는 유속 $u ( r )$을 구할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>난류흐름에서 관 중심에서의 유속 $u_{c}$에 대한 평균유속 ${{V}}$의 비는 1보다 작은 값을 갖는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>에너지 보정계수는 난류보다 층류의 경우에 더 크다.</choice_text>
-          <commentary>'에너지 보정계수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -419,25 +414,24 @@
         <correct_choice_text>13.1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 수심, 지점, 유속과, 소단면)
-정답은 ②이다. 본 문항은 수심, 지점, 유속과, 소단면에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{0 . 2}$; $V_{0 . 6}$; $V_{0 . 8}$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 3점법에 의한 유량
+정답은 ②이다. 각 소단면 평균유속 Vm = (V₀.₂ + 2V₀.₆ + V₀.₈)/4이다. 소단면 1: (0.5 + 0.6 + 0.1)/4 = 0.3 m/s, 소단면 2: (0.8 + 1.4 + 0.6)/4 = 0.7 m/s, 소단면 3: (1.2 + 1.4 + 0.6)/4 = 0.8 m/s이다. Q = 0.3 × 3 + 0.7 × 6 + 0.8 × 10 = 0.9 + 4.2 + 8.0 = 13.1 m³/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>8.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>13.1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>13.1 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>16.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>18.7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -456,25 +450,24 @@
         <correct_choice_text>직접유출 수문곡선의 시간적 분포는 유역의 선행강우에 따라 다르다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 특정, 시간, 동안, 균일한)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $T_{b}$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 단위유량도의 가정
+정답은 ③이다. 그림은 제공되지 않으나 이 문항은 단위유량도의 기본 가정으로 판단할 수 있다. 선형·시불변 시스템에서는 지속기간이 같으면 기저시간이 일정하고(일정 기저시간), 유효우량 강도에 비례하여 종거가 커진다(비례성). 직접유출 수문곡선의 시간 분포는 선행강우와 관계없이 같다고 가정한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유효강우의 지속기간이 같으면 기저시간 $T_{b}$는 강우강도에 관계없이 일정하다.</choice_text>
-          <commentary>'유효강우의 지속기간'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>유효우량의 강도가 2배 증가하면 직접유출의 종거도 2배가 된다.</choice_text>
-          <commentary>'유효우량의 강도'에 관하여 '2배' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>직접유출 수문곡선의 시간적 분포는 유역의 선행강우에 따라 다르다.</choice_text>
-          <commentary>'직접유출 수문곡선의 시간적 분포'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>선행강우와 무관하다고 가정하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>유효우량이 1 cm라면 직접유출 수문곡선은 단위유량도와 같다.</choice_text>
-          <commentary>'유효우량'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -491,24 +484,24 @@
         <correct_choice_text>기초지반 내에서 중력에 역행하는 흐름은 공동현상에 의해 발생한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 댐 파이핑, 점토를 이용한 불투수 블랭킷(blanket))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 댐 파이핑
+정답은 ②이다. 파이핑은 저수지의 물이 댐체나 기초지반으로 침투하면서 하류 출구에서 침투수압(동수경사)이 커져 토립자가 유실되고 물길이 생기는 현상이다. 공동현상이 원인이 아니다. 차수벽·불투수 블랭킷으로 예방하며, 부등침하나 붕괴를 일으킬 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>댐 상류 저수지의 물이 댐 본체나 기초지반으로 스며들어 이동하는 현상이다.</choice_text>
-          <commentary>'댐 상류 저수지의 물'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>기초지반 내에서 중력에 역행하는 흐름은 공동현상에 의해 발생한다.</choice_text>
-          <commentary>'기초지반 내에서 중력에 역행하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>침투수압에 의해 발생하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>널말뚝 차수벽이나 점토를 이용한 불투수 블랭킷(blanket)을 설치하여 예방할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>구조물의 부등침하나 전도 등의 위험을 초래할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -527,25 +520,24 @@
         <correct_choice_text>$\lambda^2 . 5 Q$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 핵심 개념·이론 이해형 (핵심어: 여수, 설계, 위하여, 축척)
-정답은 ④이다. 본 문항은 여수, 설계, 위하여, 축척에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\lambda$; $Q$; $\lambda Q$; $\lambda^1 . 5 Q$; $\lambda^2 Q$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 여수로 모형의 유량
+정답은 ④이다. 여수로는 중력이 지배하므로 프루드 상사를 적용하며 유량비는 길이비의 5/2제곱이다. 공식 정답에 따르면 축척 λ를 모형/원형 길이비로 보아 모형 유량 = λ^2.5 Q이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\lambda Q$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\lambda^1 . 5 Q$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\lambda^2 Q$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\lambda^2 . 5 Q$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>λ^2.5 Q이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -564,25 +556,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 직사각형, 단면, 수로, 유량)
-정답은 ②이다. 본 문항은 직사각형, 단면, 수로, 유량에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $10 \sqrt{20}$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 최소비에너지
+정답은 ②이다. 단위폭 유량 q = 10√20 ÷ 5 = 2√20 m²/s이다. 한계수심 hc = (q²/g)^(1/3) = (80/10)^(1/3) = 2 m이고, 직사각형 수로의 최소비에너지는 Emin = 1.5hc = 3 m이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>한계수심이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -601,24 +592,24 @@
         <correct_choice_text>640</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 유량, 직사각형, 수로에서, 도수)
-정답은 ③이다. 본 문항은 유량, 직사각형, 수로에서, 도수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 도수의 손실 동력
+정답은 ③이다. 에너지 손실수두 ΔE = (h₂ - h₁)³/(4h₁h₂) = 8³ ÷ (4 × 2 × 10) = 512 ÷ 80 = 6.4 m이다. 손실 동력 = γQΔE = 10 × 10 × 6.4 = 640 kW이다(γ = 10 kN/m³로 계산).</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>440</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>540</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>640</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>640 kW이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>740</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -637,25 +628,24 @@
         <correct_choice_text>0.05</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 안지름, 이고, 길이, 주철관)
-정답은 ③이다. 본 문항은 안지름, 이고, 길이, 주철관에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $f = 0 . 5$; $\pi = 4$</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 에너지 경사
+정답은 ③이다. 단면적 A = πD²/4 = 4 × 2² ÷ 4 = 4 m², 유속 V = 8 ÷ 4 = 2 m/s이다. 에너지 경사 S = hf/L = (f/D)(V²/2g) = (0.5/2) × (4/20) = 0.25 × 0.2 = 0.05이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.005</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.01</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.05</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.05이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -674,24 +664,24 @@
         <correct_choice_text>66.7</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 직각, 삼각형, 예연, 위어에서)
-정답은 ③이다. 본 문항은 직각, 삼각형, 예연, 위어에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · 삼각 위어 유량
+정답은 ③이다. 삼각 위어 유량 Q = (8/15)C√(2g) tan(θ/2) H^(5/2)이다. 직각(θ = 90°)이면 tan45° = 1이므로 Q = (8/15) × 0.5 × √20 × 5^2.5 ≒ 0.2667 × 4.472 × 55.9 ≒ 66.7 m³/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>19.1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>38.2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>66.7</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>66.7 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>76.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -707,24 +697,24 @@
         <correct_choice_text>29.5</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 수리수문학 · 수리·계산·자료해석형 (핵심어: 강우량(mm))
-정답은 ②이다. 본 문항은 강우량(mm)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 수리수문학 · Thiessen 법
+정답은 ②이다. 유역평균우량 = Σ(Aᵢ × Pᵢ)/ΣAᵢ = (20 × 20 + 15 × 30 + 25 × 40 + 30 × 25 + 10 × 35) ÷ 100 = (400 + 450 + 1,000 + 750 + 350) ÷ 100 = 29.5 mm이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>19.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>29.5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>29.5 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>39.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>49.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

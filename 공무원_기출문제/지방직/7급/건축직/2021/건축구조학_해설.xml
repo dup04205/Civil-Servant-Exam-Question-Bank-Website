@@ -30,25 +30,25 @@
         <correct_choice_text>1 : $\sqrt{2}$ : $\sqrt{3}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 케이블 구조물의 하중 비
-정답은 ①이다. 하중점에서 연직 평형을 세우면 P = 2T·sinθ (대칭 케이블)이므로 최대하중의 비는 sinθ의 비와 같고, 정답 ①은 sinθ의 비가 1 : √2 : √3인 경우이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 케이블 구조물의 최대하중
+정답은 ①이다. 그림이 제공되지 않아 케이블의 각도는 확인할 수 없으며, 공식 정답에 따르면 1 : √2 : √3이다. 각 케이블 장력은 절점의 힘의 평형(ΣV = 0)에서 하중과 케이블 경사각의 관계로 구하므로, 경사각에 따라 최대하중이 달라진다.</overall_commentary>
       <passage_evidence>| ① | 1 | : | $\sqrt{2}$ | : | $\sqrt{3}$ | | | |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1 : $\sqrt{2}$ : $\sqrt{3}$</choice_text>
-          <commentary>하중점 B에서 두 인장재의 장력이 한계 T일 때 연직 평형 ΣV = 0에서 P = 2T·sinθ(θ는 수평선과 이루는 각)이다. 따라서 P_1 : P_2 : P_3 = sinθ_1 : sinθ_2 : sinθ_3이며, 정답 ①의 1 : √2 : √3은 sinθ의 비가 이와 같을 때(예: θ = 30°, 45°, 60°이면 1/2 : √2/2 : √3/2) 성립한다. 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{3}$ : $\sqrt{2}$ : 1</choice_text>
-          <commentary>√3 : √2 : 1은 ①의 순서를 거꾸로 한 비로, 각이 커질수록 최대하중이 작아진다는 뜻이 된다. 연직 성분 T·sinθ는 각이 커질수록 커지므로 맞지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1 : $\frac{1}{\sqrt{2}}$ : $\frac{1}{\sqrt{3}}$</choice_text>
-          <commentary>1 : 1/√2 : 1/√3은 sinθ가 아니라 1/sinθ의 비에 해당하며, 하중이 장력 성분에 반비례한다고 잘못 본 결과이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\sqrt{3}}$ : $\frac{1}{\sqrt{2}}$ : 1</choice_text>
-          <commentary>1/√3 : 1/√2 : 1은 ③의 순서를 거꾸로 한 값이며, P = 2T·sinθ 관계와 일치하지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -67,24 +67,24 @@
         <correct_choice_text>D 구간</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · RC 기둥의 P-M 상관곡선 구간 판별
-정답은 ④이다. 정답은 D 구간으로, 균형변형률 상태(C 점, ε_s = ε_y)를 지나 인장철근이 항복한 인장지배 쪽 구간이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 기둥의 P-M 상관곡선
+정답은 ④이다. 그림이 제공되지 않아 변형률 분포는 확인할 수 없으며, 공식 정답에 따르면 D 구간이다. 압축연단이 극한변형률에 도달할 때 인장철근 변형률이 항복변형률을 넘으면 균형점보다 아래의 인장지배 쪽, 넘지 못하면 압축지배 쪽에 해당한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A 구간</choice_text>
-          <commentary>A 구간은 상관곡선에서 순수압축에 가까운 압축 우세 구간으로, 인장철근이 항복하지 않는 영역이다. 정답이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>B 구간</choice_text>
-          <commentary>B 구간은 균형점 이전의 압축지배 구간으로, 인장철근 변형률이 항복변형률 ε_y에 못 미치는 영역이다. 정답이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>C 점</choice_text>
-          <commentary>C 점은 균형파괴점으로 ε_c = ε_cu와 ε_s = ε_y가 동시에 성립하는 한 점이다. 정답이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>D 구간</choice_text>
-          <commentary>압축연단이 ε_cu에 도달할 때 인장철근 변형률이 ε_y를 넘는 변형률 분포는 균형점보다 인장 쪽, 곧 인장지배 구간에 대응하며 정답은 D 구간이다. 그림의 변형률 수치는 제공되지 않아 구간 정의에 따라 서술한다.</commentary>
+          <commentary>D 구간이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,24 +103,24 @@
         <correct_choice_text>지층의 전단파 속도</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 토질 주상도로 얻는 정보
-정답은 ③이다. 전단파 속도는 PS 검층·다운홀·크로스홀 시험 등 별도 탄성파 시험으로 얻으며 주상도에는 나타나지 않는다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 토질 주상도
+정답은 ③이다. 토질 주상도는 시추 결과를 깊이별로 정리한 것으로 지층의 구성과 두께, 표준관입시험 N값, 지하수위, 시료 채취 위치 등을 나타낸다. 전단파 속도는 탄성파 탐사 등 별도의 물리탐사로 얻는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>지하수위</choice_text>
-          <commentary>지하수위는 시추 중·후에 측정하여 주상도에 기록하는 항목이다.</commentary>
+          <commentary>얻을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>지층의 N값</choice_text>
-          <commentary>표준관입시험 N값은 심도별로 주상도에 기재된다.</commentary>
+          <commentary>얻을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>지층의 전단파 속도</choice_text>
-          <commentary>전단파 속도(V_s)는 PS 검층, 다운홀, 크로스홀 등 탄성파 시험으로 얻는 값이며, 일반적인 토질 주상도의 기재 항목이 아니다. 따라서 얻을 수 없는 정보이다.</commentary>
+          <commentary>별도 탐사로 얻으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>지층의 구성상태 및 두께</choice_text>
-          <commentary>지층의 구성 상태(토질·색조·견고도)와 층 두께는 주상도의 기본 정보이다.</commentary>
+          <commentary>얻을 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,24 +138,24 @@
         <correct_choice_text>연결재의 배치 및 간격은 수직거리 900 mm 이하, 수평거리 400 mm 이하로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 벽돌구조의 공간쌓기
-정답은 ①이다. 공간쌓기 연결재 간격은 수직거리 400 mm 이하, 수평거리 900 mm 이하이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 벽돌 공간쌓기
+정답은 ①이다. 공간쌓기의 연결재는 수직거리 400 mm 이하, 수평거리 900 mm 이하로 배치한다. 바깥쪽을 주벽체로 하고 안쪽을 반장쌓기로 하며, 공간 너비 50~70 mm, 방습·단열 목적에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>연결재의 배치 및 간격은 수직거리 900 mm 이하, 수평거리 400 mm 이하로 한다.</choice_text>
-          <commentary>연결재는 수직거리 400 mm 이하, 수평거리 900 mm 이하로 배치한다. 선지는 두 수치가 뒤바뀌어 옳지 않다.</commentary>
+          <commentary>수직과 수평 간격이 바뀌었으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>도면 또는 공사시방서에서 정한 바가 없을 때에는 바깥쪽을 주벽체로 하고 안쪽은 반장쌓기(0.5 B)로 하며, 공간 너비는 50 ～ 70 mm 정도로 한다.</choice_text>
-          <commentary>별도 지정이 없으면 바깥쪽을 주벽체로 하고 안쪽을 반장쌓기(0.5B)로 하며 공간 너비는 50~70 mm 정도로 한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>안쪽 반장쌓기(0.5 B)는 연결재를 사용하여 주벽체에 튼튼히 연결하며 연결재는 벽돌, 철선, 철망, 철근 등이 사용된다.</choice_text>
-          <commentary>안쪽 반장쌓기는 연결재(벽돌, 철선, 철망, 철근 등)로 주벽체에 튼튼히 연결한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>방습, 단열 등을 목적으로 한다.</choice_text>
-          <commentary>공간쌓기는 중간 공기층으로 방습·단열·방음을 얻기 위한 쌓기 방식이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -174,24 +174,24 @@
         <correct_choice_text>$M_C$ ＝ 54 kN․m</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 겔버보의 반력(고정단 C)
-정답은 ④이다. 활절점 B에서 모멘트가 0이라는 조건으로 보를 분리하여, 이동단 A와 힌지 B 사이 부분의 반력을 먼저 구하고 이를 고정단 C 쪽 캔틸레버에 전달하여 반력을 구한다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 게르버보의 고정단 반력
+정답은 ④이다. 그림이 제공되지 않아 하중과 경간은 확인할 수 없으며, 공식 정답에 따르면 M_C = 54 kN·m이다. 힌지 B에서 휨모멘트가 0이므로 AB 부분을 먼저 풀어 B점의 전단력을 구하고, 이를 BC 캔틸레버에 하중으로 작용시켜 고정단 반력을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$V_{C}$ ＝ 11 kN</choice_text>
-          <commentary>V_C = 11 kN은 정답이 아니다. 고정단의 수직반력은 B에서 전달되는 전단력과 C 쪽 구간 하중의 합으로 구해지며, 그 값이 11 kN이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$V_{C}$ ＝ 12 kN</choice_text>
-          <commentary>V_C = 12 kN도 정답이 아니다. 풀이 순서는 ①과 같으며 ①·② 모두 구한 값과 일치하지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$M_C$ ＝ 48 kN․m</choice_text>
-          <commentary>M_C = 48 kN·m는 정답이 아니다. 고정단 모멘트는 B의 전달력에 의한 모멘트와 C 쪽 구간 하중에 의한 모멘트를 합한 값이며 54 kN·m와 다르다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$M_C$ ＝ 54 kN․m</choice_text>
-          <commentary>힌지 B에서 휨모멘트 = 0으로 구조를 분리하고, A-B 구간(반력 R_A, R_B)을 단순보로 풀어 R_B를 C-B 캔틸레버 끝에 반대방향으로 작용시킨 뒤 ΣM_C = 0을 적용하면 M_C = 54 kN·m이다. 옳다. 그림의 하중 수치는 제공되지 않아 풀이 절차만 서술한다.</commentary>
+          <commentary>54 kN·m이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -211,23 +211,23 @@
         <answer_source>정답표</answer_source>
       </answer_info>
       <overall_commentary>출제 영역: 건축구조학 · 건축물의 중요도 분류
-정답은 ④이다. 연면적 1,000 m² 이상의 노인복지시설 등 복지시설은 중요도(1)이다.</overall_commentary>
+정답은 ④이다. 노인복지시설 등 노유자시설로서 연면적 5,000 m² 이상인 건축물은 중요도(1)이다. 긴급대피수용시설과 전신전화국은 중요도(특), 연면적 5,000 m² 미만인 판매시설은 중요도(2)에 해당한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>연면적 900 m^(2)인 태풍에 대한 긴급대피수용시설</choice_text>
-          <commentary>지진·태풍 등 비상시 긴급대피수용시설로 지정된 건축물은 연면적에 관계없이 중요도(특)에 해당한다.</commentary>
+          <commentary>중요도(특)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>연면적 5,200 m^(2)인 전신전화국</choice_text>
-          <commentary>연면적 1,000 m² 이상인 전신전화국은 방송국·소방서·발전소 등과 함께 중요도(특)이다.</commentary>
+          <commentary>중요도(특)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>연면적 4,200 m^(2)인 판매시설</choice_text>
-          <commentary>판매시설은 연면적 5,000 m² 이상일 때 중요도(1)이다. 4,200 m²는 이에 미달하여 중요도(2)이다.</commentary>
+          <commentary>중요도(2)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>연면적 5,200 m^(2)인 노인복지시설</choice_text>
-          <commentary>아동관련시설·노인복지시설·사회복지시설·근로복지시설은 중요도(1)이며, 연면적 5,200 m²인 노인복지시설이 이에 해당한다. 정답이다.</commentary>
+          <commentary>중요도(1)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,24 +243,24 @@
         <correct_choice_text>부분균열등급 휨부재의 사용하중에 의한 응력은 균열 환산단면을 사용하여 계산하여야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · PSC 부재 설계
-정답은 ②이다. 부분균열등급 휨부재의 사용하중 응력은 균열 환산단면이 아니라 총단면(비균열단면) 특성으로 계산한다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 프리스트레스트콘크리트 설계
+정답은 ②이다. 비균열등급과 부분균열등급 휨부재의 사용하중 응력은 균열되지 않은 총단면을 사용하여 계산하고, 완전균열등급은 균열 환산단면을 사용한다. 등급 구분, 손실 고려, 긴장 시 응력 한도에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>프리스트레스트콘크리트 휨부재는 미리 압축을 가한 인장구역에서 사용하중에 의한 인장연단응력에 따라 비균열등급, 부분균열등급, 완전균열등급으로 구분된다.</choice_text>
-          <commentary>인장연단응력 f_t에 따라 비균열(f_t ≤ 0.63√f_ck), 부분균열(0.63√f_ck &lt; f_t ≤ 1.0√f_ck), 완전균열(f_t &gt; 1.0√f_ck)로 구분한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>부분균열등급 휨부재의 사용하중에 의한 응력은 균열 환산단면을 사용하여 계산하여야 한다.</choice_text>
-          <commentary>비균열·부분균열등급 부재는 총단면으로 응력을 계산하고, 균열 환산단면은 완전균열등급에서 쓴다. 옳지 않다.</commentary>
+          <commentary>총단면을 사용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>유효프리스트레스를 결정하기 위하여 프리스트레스 손실 원인을 고려하여야 한다.</choice_text>
-          <commentary>유효프리스트레스는 정착장치 활동, 탄성수축, 크리프, 건조수축, 릴랙세이션, 마찰 등 손실을 고려하여 결정한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>긴장할 때 긴장재의 인장응력은 긴장재 설계기준인장강도의 80 % 또는 설계기준항복강도의 94 % 중 작은 값 이하로 하여야 한다.</choice_text>
-          <commentary>긴장 시 긴장재 인장응력은 0.80f_pu와 0.94f_py 중 작은 값 이하여야 한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -279,24 +279,24 @@
         <correct_choice_text>인장철근의 설계기준항복강도</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · RC 보의 순간처짐 산정 항목
-정답은 ①이다. 균열 단면의 순간처짐은 유효단면2차모멘트 I_e로 구하며, 이에 철근 항복강도는 필요하지 않다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 균열 복근보의 순간처짐
+정답은 ①이다. 순간처짐은 Ec(fck로 산정), 유효단면2차모멘트 Ie(Icr 산정에 인장·압축철근량 필요), 균열모멘트 Mcr(파괴계수 fr) 등으로 계산한다. 인장철근의 설계기준항복강도는 사용하중 상태의 탄성 처짐 계산에 필요하지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>인장철근의 설계기준항복강도</choice_text>
-          <commentary>사용하중 단계는 탄성 영역이므로 처짐 계산에 철근의 항복강도 f_y는 쓰이지 않는다. 따라서 필요한 항목이 아니다.</commentary>
+          <commentary>필요하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>인장철근량</choice_text>
-          <commentary>인장철근량 A_s는 균열단면2차모멘트 I_cr(환산단면, n = E_s/E_c) 계산에 필요하다.</commentary>
+          <commentary>필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>콘크리트의 설계기준압축강도</choice_text>
-          <commentary>f_ck는 탄성계수 E_c와 파괴계수 f_r = 0.63λ√f_ck의 산정, 곧 M_cr과 I_e 계산에 필요하다.</commentary>
+          <commentary>필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>압축철근량</choice_text>
-          <commentary>복근보에서는 압축철근량 A_s'도 환산단면에 포함되어 I_cr에 영향을 주므로 필요하다.</commentary>
+          <commentary>필요하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -312,24 +312,24 @@
         <correct_choice_text>기초판의 계수전단력 $V_{u}$가 콘크리트에 의한 설계전단강도 $\phi V_{c}$의 $1 / 2$을 초과하는 경우 최소 전단철근을 배치하여야 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · RC 전단철근 규정
-정답은 ④이다. 기초판은 최소 전단철근 배치 면제 대상이므로 V_u &gt; 0.5φV_c라도 최소 전단철근 규정이 적용되지 않는다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 전단철근
+정답은 ④이다. 계수전단력이 φVc의 1/2을 초과하면 최소 전단철근을 배치하지만, 슬래브와 기초판, 얕은 보 등은 이 규정에서 제외된다. 전단철근의 종류, 항복강도 제한, 간격 기준에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>부재축에 직각인 스터럽 및 용접철망, 주인장 철근에 45 ° 이상의 각도로 설치되는 스터럽, 주인장 철근에 30 ° 이상의 각도로 구부린 굽힘철근 등이 전단철근으로 사용될 수 있다.</choice_text>
-          <commentary>전단철근은 부재축에 직각인 스터럽·용접철망, 주인장철근과 45° 이상인 스터럽, 30° 이상 굽힘철근 등을 쓸 수 있다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전단철근의 설계기준항복강도는 500 MPa를 초과할 수 없지만 벽체의 전단철근 또는 용접 이형철망을 사용할 경우 전단철근의 설계기준항복강도는 600 MPa를 초과할 수 없다.</choice_text>
-          <commentary>전단철근의 설계기준항복강도는 500 MPa 이하이며, 벽체 전단철근과 용접 이형철망은 600 MPa 이하이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전단철근에 의한 전단강도 $V_s$가 $\lambda \left( \sqrt{f_{ck}} / 3 \right) b_{w} d$ 이하인 경우, 부재축에 직각으로 배치된 전단철근의 간격은 $d / 2$ 이하 또한 600 mm 이하로 하여야 한다.</choice_text>
-          <commentary>V_s ≤ λ(√f_ck/3)b_w d이면 간격은 d/2 이하, 600 mm 이하이다(초과하면 d/4, 300 mm). 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>기초판의 계수전단력 $V_{u}$가 콘크리트에 의한 설계전단강도 $\phi V_{c}$의 $1 / 2$을 초과하는 경우 최소 전단철근을 배치하여야 한다.</choice_text>
-          <commentary>V_u &gt; 0.5φV_c이면 최소 전단철근을 둔다는 규정은 슬래브와 기초판에는 적용되지 않는다. 옳지 않다.</commentary>
+          <commentary>기초판은 제외되므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -345,24 +345,24 @@
         <correct_choice_text>기성콘크리트말뚝의 허용압축응력은 콘크리트설계기준강도의 최대 1/4까지를 말뚝재료의 허용압축응력으로 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 말뚝기초 설계기준
-정답은 ③이다. 기성콘크리트말뚝의 허용압축응력은 콘크리트 설계기준강도의 1/4까지로 한다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 말뚝기초
+정답은 ③이다. 기성콘크리트말뚝의 허용압축응력은 콘크리트 설계기준강도의 최대 1/4까지로 한다. 현장타설콘크리트말뚝은 띠철근이나 나선철근으로 보강해야 하며, 공식 정답에 따르면 침하검토 생략 조건과 나무말뚝의 허용압축응력에 대한 설명은 기준과 맞지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>현장타설콘크리트말뚝은 특별한 경우를 제외하고 주근은 4개 이상 또한 설계단면적의 0.25 % 이상으로 하고 띠철근 또는 나선철근으로 보강할 필요는 없다.</choice_text>
-          <commentary>현장타설콘크리트말뚝은 주근 4개 이상, 단면적 0.25% 이상으로 하되 띠철근 또는 나선철근으로 보강해야 한다. 보강이 불필요하다는 서술은 옳지 않다.</commentary>
+          <commentary>띠철근 등으로 보강해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>침하검토가 중요하지 않은 말뚝기초에서는 말뚝하중이 설계용 한계값인 극한지지력의 1/2 이하인 경우에는 침하검토를 생략할 수 있다.</choice_text>
-          <commentary>침하검토를 생략할 수 있는 한계는 말뚝하중이 극한지지력의 1/3 이하일 때이다. 1/2는 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>기성콘크리트말뚝의 허용압축응력은 콘크리트설계기준강도의 최대 1/4까지를 말뚝재료의 허용압축응력으로 한다.</choice_text>
-          <commentary>기성콘크리트말뚝의 장기허용압축응력은 콘크리트 설계기준강도의 최대 1/4이다. 옳은 설명이다.</commentary>
+          <commentary>옳은 설명이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>낙엽송 나무말뚝의 허용압축응력은 상시 습윤상태에 있는 경우의 값과 5 MPa 중 작은 값을 택한다.</choice_text>
-          <commentary>나무말뚝의 허용압축응력은 수종과 상시 습윤 여부에 따라 기준에 정해진 값으로 하며, 이 선지의 수치 서술은 기준과 맞지 않아 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -378,24 +378,24 @@
         <correct_choice_text>풍동 내 대상건축물 및 주변 모형에 의한 단면폐쇄율은 풍동의 실험단면에 대하여 18 % 미만이 되도록 한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 건축구조기준의 풍동실험
-정답은 ④이다. 풍동 단면폐쇄율은 풍동 실험단면의 8% 미만이어야 한다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 풍동실험
+정답은 ④이다. 풍동실험에서 대상건축물과 주변 모형에 의한 단면폐쇄율은 풍동 실험단면의 8% 미만이 되도록 한다. 압력 분포 유지, 레이놀즈수 영향 최소화, 풍하중의 100% 사용에 대한 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>풍동 내의 압력 분포는 일정하게 유지한다.</choice_text>
-          <commentary>풍동 내 수평 압력 구배가 생기지 않도록 압력 분포를 일정하게 유지한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>레이놀즈수에 의한 영향은 최소화하여 실험한다.</choice_text>
-          <commentary>레이놀즈수 영향이 최소화되도록 모형 형상과 풍속을 선정한다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>풍동실험을 위해 재현한 상세 주변 모형의 범위 안에 대상건축물에 특별한 영향을 미칠 건축물이나 장애물이 없는 경우에는 풍동실험에서 얻어진 풍하중과 풍압을 100 % 사용하여 설계할 수 있다.</choice_text>
-          <commentary>상세 주변 모형 범위 안에 영향을 미칠 건축물이나 장애물이 없으면 얻어진 풍하중과 풍압을 100% 사용할 수 있다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>풍동 내 대상건축물 및 주변 모형에 의한 단면폐쇄율은 풍동의 실험단면에 대하여 18 % 미만이 되도록 한다.</choice_text>
-          <commentary>단면폐쇄율(막힘률)은 8% 미만이어야 하며 18%는 옳지 않다.</commentary>
+          <commentary>8% 미만이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -414,24 +414,24 @@
         <correct_choice_text>경골목구조</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 경골목구조 정의
-정답은 ②이다. 공칭두께 50 mm(실제 38 mm) 규격재로 건축한 목구조는 경골목구조이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 경골목구조
+정답은 ②이다. 경골목구조는 주요구조부가 공칭두께 50 mm(실제두께 38 mm)의 규격재로 구성된 목구조이다. 대형목구조와 중목구조는 단면이 큰 부재를 사용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>대형목구조</choice_text>
-          <commentary>대형목구조는 큰 단면의 집성재 등을 사용한 대규모 목구조로, 규격재 구조가 아니다.</commentary>
+          <commentary>대형 부재를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>경골목구조</choice_text>
-          <commentary>주요구조부를 공칭두께 2인치(50 mm, 실제 38 mm) 규격재로 건축한 구조가 경골목구조이다. 정답이다.</commentary>
+          <commentary>경골목구조이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>중목구조</choice_text>
-          <commentary>중목구조는 단면이 큰 제재목(기둥·보)을 사용하는 구조이다.</commentary>
+          <commentary>단면이 큰 부재를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>전통목구조</choice_text>
-          <commentary>전통목구조는 전통 방식의 기둥·보 가구식 구조이다.</commentary>
+          <commentary>전통 결구 방식을 사용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -450,24 +450,24 @@
         <correct_choice_text>6.5 kN 9.0 kN․m</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 라멘의 반력과 부재 모멘트
-정답은 ③이다. ΣM_A = 0으로 V_B를 구하고 ΣV = 0으로 V_A를 구한 뒤, 부재 DE 중앙 C의 모멘트를 구하면 V_B = 6.5 kN, M_C = 9.0 kN·m이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 라멘의 반력과 휨모멘트
+정답은 ③이다. 그림이 제공되지 않아 치수와 하중은 확인할 수 없으며, 공식 정답에 따르면 V_B = 6.5 kN, M_C = 9.0 kN·m이다. 지점 반력은 ΣM = 0, ΣV = 0, ΣH = 0으로 구하고, C점의 휨모멘트는 C점 한쪽의 힘과 모멘트를 합하여 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6.5 kN 8.0 kN․m</choice_text>
-          <commentary>V_B = 6.5 kN은 맞지만 M_C = 8.0 kN·m는 부재 DE의 중앙 모멘트와 다르다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>11.5 kN 8.0 kN․m</choice_text>
-          <commentary>V_B = 11.5 kN은 모멘트 평형에서 구한 값과 다르며 M_C도 맞지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>6.5 kN 9.0 kN․m</choice_text>
-          <commentary>A가 회전단, B가 이동단이므로 미지 반력은 H_A, V_A, V_B 세 개이다. ΣM_A = 0에서 V_B = 6.5 kN, ΣH = 0과 ΣV = 0에서 H_A, V_A를 구하고, 부재 DE를 C에서 자른 자유물체의 모멘트 평형으로 M_C = 9.0 kN·m를 얻는다. 정답이다. 그림 수치는 제공되지 않아 절차만 서술한다.</commentary>
+          <commentary>6.5 kN, 9.0 kN·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11.5 kN 9.0 kN․m</choice_text>
-          <commentary>V_B = 11.5 kN은 틀린 값이고 M_C = 9.0 kN·m만 맞는 조합이므로 정답이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -483,24 +483,24 @@
         <correct_choice_text>콘크리트 압축연단의 변형률이 극한변형률에 도달한 시점에서 최외단 인장철근의 순인장변형률이 항복변형률의 2.5배 및 0.004 이상인 경우 강도감소계수로 0.85를 적용한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · RC 보 휨설계 가정과 강도감소계수
-정답은 ②이다. 강도감소계수 0.85는 순인장변형률이 인장지배 한계(f_y ≤ 400 MPa이면 0.005, f_y &gt; 400 MPa이면 2.5ε_y) 이상일 때 적용된다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 휨 설계
+정답은 ②이다. 인장지배단면(φ = 0.85)은 최외단 인장철근의 순인장변형률이 인장지배변형률 한계(fy 400 MPa 이하는 0.005, 초과는 2.5εy) 이상인 단면이다. 0.004는 휨부재의 최소 허용변형률이다. SD600 철근의 항복변형률은 600 ÷ 200,000 = 0.003이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>콘크리트 압축연단의 극한변형률은 콘크리트 설계기준압축강도가 40 MPa 이하인 경우에는 0.0033으로 가정하고, 40 MPa를 초과하고 90 MPa 이하인 경우에는 매 10 MPa의 강도 증가에 대하여 0.0001씩 감소시킨다.</choice_text>
-          <commentary>극한변형률은 f_ck ≤ 40 MPa이면 0.0033이고, 40 MPa 초과 90 MPa 이하이면 10 MPa마다 0.0001씩 감소시킨다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>콘크리트 압축연단의 변형률이 극한변형률에 도달한 시점에서 최외단 인장철근의 순인장변형률이 항복변형률의 2.5배 및 0.004 이상인 경우 강도감소계수로 0.85를 적용한다.</choice_text>
-          <commentary>인장지배 단면의 변형률 한계는 항복변형률의 2.5배 또는 0.005이며(f_y ≤ 400 MPa이면 0.005), 0.004라는 값은 틀리다. 옳지 않다.</commentary>
+          <commentary>0.004는 인장지배 기준이 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>최대 및 최소 인장철근비는 철근콘크리트 보의 취성적인 파괴를 방지하기 위한 것이다.</choice_text>
-          <commentary>최대 철근비는 철근이 항복하기 전 콘크리트가 압괴되는 취성파괴를 막고, 최소 철근비는 균열 직후의 갑작스런 파괴를 막기 위한 것이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>SD600 철근의 설계기준 항복변형률은 0.003이 된다.</choice_text>
-          <commentary>SD600의 항복변형률은 ε_y = f_y/E_s = 600/200,000 = 0.003이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,24 +519,24 @@
         <correct_choice_text>2.14</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 횡좌굴모멘트 수정계수 C_b
-정답은 ③이다. C_b = 12.5M_max/(2.5M_max + 3M_A + 4M_B + 3M_C)로 구하며, 주어진 모멘트도에서 2.14이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 횡좌굴모멘트 수정계수
+정답은 ③이다. 그림이 제공되지 않아 하중 위치는 확인할 수 없으며, 공식 정답에 따르면 Cb = 2.14이다. Cb = 12.5M_max ÷ (2.5M_max + 3M_A + 4M_B + 3M_C)이며, M_A, M_B, M_C는 비지지 구간 1/4, 1/2, 3/4 지점의 모멘트 절댓값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.00</choice_text>
-          <commentary>C_b = 1.00은 양단 균등 휨모멘트(M_max = M_A = M_B = M_C)일 때의 값으로, 모멘트 구배가 있는 이 문제와 다르다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.67</choice_text>
-          <commentary>C_b = 1.67은 한쪽 단부에만 모멘트가 있는 경우(M_max = M, 1/4점 0.25M, 중앙 0.5M, 3/4점 0.75M)에 12.5/(2.5 + 0.75 + 2 + 2.25) = 1.67이 되는 값이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.14</choice_text>
-          <commentary>모멘트도의 M_max와 보 길이 1/4, 1/2, 3/4 지점의 절댓값 M_A, M_B, M_C를 식에 대입하여 12.5M_max/(2.5M_max + 3M_A + 4M_B + 3M_C)를 계산하고 소수점 셋째자리에서 반올림하면 2.14이다. 정답이다. 그림의 하중 수치는 제공되지 않아 식과 절차만 서술한다.</commentary>
+          <commentary>2.14이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.27</choice_text>
-          <commentary>C_b = 2.27은 양단 같은 크기의 역방향 모멘트일 때 12.5/(2.5 + 1.5 + 0 + 1.5) = 2.27이 되는 값이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -555,24 +555,24 @@
         <correct_choice_text>(라): C_(m )＝ 0.4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 보-기둥 모멘트구배계수 C_m
-정답은 ④이다. 횡하중이 없는 경우 C_m = 0.6 − 0.4(M_1/M_2)이며, 정답 (라)의 C_m = 0.4는 M_1/M_2 = +0.5(복곡률)에 해당한다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 모멘트 구배계수 Cm
+정답은 ④이다. 그림이 제공되지 않아 재단모멘트 분포는 확인할 수 없으며, 공식 정답에 따르면 (라)의 Cm = 0.4가 옳다. 횡하중이 없으면 Cm = 0.6 - 0.4(M₁/M₂)이며, 복곡률이면 M₁/M₂를 양, 단일곡률이면 음으로 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가): C_(m )＝ 1.0</choice_text>
-          <commentary>(가) C_m = 1.0은 단곡률로 양단 모멘트가 같은 경우(M_1/M_2 = −1)에만 성립한다. 해당 그림의 모멘트비로 계산한 값이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(나): C_(m )＝ 1.0</choice_text>
-          <commentary>(나) C_m = 1.0도 단곡률 동일모멘트일 때의 값으로, 그림의 모멘트비로 계산한 값이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(다): C_(m )＝ 0.2</choice_text>
-          <commentary>(다) C_m = 0.2는 복곡률 동일모멘트(M_1/M_2 = +1)일 때 나오는 값이며 그림의 모멘트비와 맞지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(라): C_(m )＝ 0.4</choice_text>
-          <commentary>M_1/M_2 = +0.5(복곡률)이면 C_m = 0.6 − 0.4(0.5) = 0.4이므로 (라)가 옳다. 그림의 단부모멘트 수치는 제공되지 않아 식 중심으로 서술한다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -591,24 +591,24 @@
         <correct_choice_text>302.5 MPa</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 강구조 내진설계 예상항복강도
-정답은 ②이다. 예상항복강도 R_yF_y = 1.1 × 275 = 302.5 MPa이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 예상항복강도
+정답은 ②이다. 예상항복강도는 Ry × Fy이다. SN275 강재의 재료초과강도계수 Ry는 1.1이고, 두께 20 mm의 항복강도는 275 MPa이므로 1.1 × 275 = 302.5 MPa이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>291.5 MPa</choice_text>
-          <commentary>291.5 MPa = 1.1 × 265이다. 두께 16 mm 초과 강재의 KS 규격 항복강도 265를 쓴 값이지만 기준의 F_y(두께 40 mm 이하 275 MPa)와 다르다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>302.5 MPa</choice_text>
-          <commentary>SN275의 공칭항복강도 F_y = 275 MPa(두께 40 mm 이하), 항복강도비 R_y = 1.1이므로 R_yF_y = 1.1 × 275 = 302.5 MPa이다. 두께 20 mm도 이 범위이다. 정답이다.</commentary>
+          <commentary>302.5 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>318.0 MPa</choice_text>
-          <commentary>318.0 MPa = 1.2 × 265이다. R_y = 1.2와 F_y = 265를 모두 잘못 적용한 값이다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>330.0 MPa</choice_text>
-          <commentary>330.0 MPa = 1.2 × 275이다. R_y가 SN275에서 1.1이므로 틀린 값이다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -627,24 +627,24 @@
         <correct_choice_text>2.4 mm</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 트러스의 처짐(단위하중법)
-정답은 ①이다. 단위하중법 δ = Σ(N·n·L)/(EA)를 쓰며, EA = 10^5 N/mm² × 100 mm² = 1.0×10^7 N이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 트러스의 처짐
+정답은 ①이다. 그림이 제공되지 않아 트러스 치수는 확인할 수 없으며, 공식 정답에 따르면 2.4 mm이다. 트러스 처짐은 가상일법 δ = Σ(NnL)/(EA)로 구하며, N은 실제 부재력, n은 A점에 단위하중을 작용시켰을 때의 부재력이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.4 mm</choice_text>
-          <commentary>실제 하중에 의한 부재력 N과 A점에 단위하중(1)을 연직으로 가했을 때의 n을 구하여 δ = ΣNnL/(EA)를 계산한다. 이때 EA = 10^5 × 100 = 1.0×10^7 N이므로 N·n·L의 합(N·mm 단위)을 10^7로 나누면 δ = 2.4 mm이다. 정답이다. 그림의 하중·치수는 제공되지 않아 절차만 서술한다.</commentary>
+          <commentary>2.4 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5.8 mm</choice_text>
-          <commentary>5.8 mm는 부재력 부호 처리나 길이 단위(m→mm) 환산 착오로 얻어지는 과대한 값으로 정답이 아니다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10.3 mm</choice_text>
-          <commentary>10.3 mm는 EA를 잘못 환산했거나 n을 곱하지 않고 합한 경우의 과대한 값이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>23.6 mm</choice_text>
-          <commentary>23.6 mm는 단위(kN·m 대 N·mm) 환산 착오로 약 10배 과대하게 나온 값이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -663,24 +663,24 @@
         <correct_choice_text>1,825 mm^(2)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 건축구조학 · 인장재의 블록전단 전단저항 순단면적
-정답은 ③이다. A_nv = t[L_gv − (n − 0.5)d_h]이며 정답 1,825 mm²는 총전단면적 2,500 mm²에서 구멍 공제 675 mm²를 뺀 값이다.</overall_commentary>
+      <overall_commentary>출제 영역: 건축구조학 · 블록전단의 전단저항순단면적
+정답은 ③이다. 그림이 제공되지 않아 볼트 배치는 확인할 수 없으며, 공식 정답에 따르면 1,825 mm²이다. Anv = (전단 파단선 길이 - 구멍 수 × 구멍 지름) × 두께로 구하며, M24 볼트의 표준구멍 지름은 27 mm, 두께는 10 mm이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>365 mm^(2)</choice_text>
-          <commentary>365 mm²는 구멍 공제량이나 일부 면적만 취한 값으로 전단저항 순단면적과 다르다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>500 mm^(2)</choice_text>
-          <commentary>500 mm²는 일부 길이(연단거리 등)만 취한 면적으로 전단면 전체를 반영하지 않는다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,825 mm^(2)</choice_text>
-          <commentary>L-100×100×10의 두께 t = 10 mm이다. 전단면의 총면적에서 구멍 공제분을 빼서 A_nv를 구하며, 정답 1,825 mm²와 총전단면적 2,500 mm²의 차 675 mm²는 t × 67.5 mm, 곧 M24 표준구멍 지름 27 mm의 2.5개분(10 × 2.5 × 27)과 같다. 정답이다.</commentary>
+          <commentary>1,825 mm²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2,500 mm^(2)</choice_text>
-          <commentary>2,500 mm²는 구멍을 공제하지 않은 총전단면적 A_gv에 해당하며 순단면적이 아니다.</commentary>
+          <commentary>구멍을 공제하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -697,23 +697,23 @@
         <answer_source>정답표</answer_source>
       </answer_info>
       <overall_commentary>출제 영역: 건축구조학 · 비구조요소의 내진설계
-정답은 ③이다. 소화배관과 스프링클러는 생명안전 시스템이므로 중요도계수 I_p = 1.5이다.</overall_commentary>
+정답은 ③이다. 소화배관과 스프링클러 시스템은 화재 시 기능이 유지되어야 하므로 중요도계수 Ip를 1.5로 한다. 파라펫과 외부 치장 벽돌·석재에 내진설계를 적용하고, 피난경로상 비구조요소의 Ip를 1.5로 하는 설명은 옳다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>건물 파라펫의 설계에는 내진설계기준을 적용해야 한다.</choice_text>
-          <commentary>건물 파라펫은 비구조요소 내진설계 적용 대상이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>건물외부의 치장 벽돌 및 외부치장마감석재의 설계에는 내진설계기준을 적용해야 한다.</choice_text>
-          <commentary>건물 외부의 치장 벽돌과 외부 치장 마감석재도 내진설계 적용 대상이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>소화배관과 스프링클러 시스템의 중요도계수 $I_{p}$는 1.0으로 한다.</choice_text>
-          <commentary>소화배관과 스프링클러 시스템은 지진 후 생명안전에 필요한 시스템이므로 I_p = 1.5이다. 1.0이라는 서술은 옳지 않다.</commentary>
+          <commentary>1.5로 하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>피난경로상의 계단, 캐노피, 비상유도등, 중량칸막이벽 등 손상 시 피난경로 확보에 지장을 주는 비구조요소의 중요도계수 $I_{p}$는 1.5로 한다.</choice_text>
-          <commentary>피난경로상 계단, 캐노피, 비상유도등, 중량칸막이벽 등 피난경로 확보에 영향을 주는 비구조요소는 I_p = 1.5이다. 옳은 설명이다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

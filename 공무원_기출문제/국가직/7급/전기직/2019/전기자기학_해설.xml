@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>점 $A$로부터$\sqrt{2} d$</choice_text>
-          <commentary>기준점이 B이어야 한다.</commentary>
+          <commentary>C가 A로부터 √2d이면 A와 B 사이에 놓여 B에 작용하는 힘의 방향이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>점 $A$로부터 $2 d$</choice_text>
-          <commentary>거리가 맞지 않다.</commentary>
+          <commentary>C가 A로부터 2d이면 B로부터 d 떨어져 2Q의 힘이 A의 힘의 2배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>점 $B$로부터$\sqrt{2} d$</choice_text>
-          <commentary>점 B로부터 √2·d이므로 정답이다.</commentary>
+          <commentary>2Q·Q/r² = Q²/d²에서 r = √2d이므로 C는 B로부터 √2d 떨어진 곳이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>점 $B$로부터 $2 d$</choice_text>
-          <commentary>거리가 맞지 않다.</commentary>
+          <commentary>B로부터 2d이면 2Q의 힘이 A의 힘의 1/2이 되어 평형을 이루지 못한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -69,19 +69,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{2 \pi varepsilon_{0}} {\vec{a_{y}}}$</choice_text>
-          <commentary>방향이 반대이다.</commentary>
+          <commentary>합성 전계의 방향이 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2 \pi varepsilon_{0}} {\vec{a_{y}}}$</choice_text>
-          <commentary>(1/2πε0)ay이므로 정답이다.</commentary>
+          <commentary>선전하 전계 (1/πε₀)ay에서 점전하 전계 1/(2πε₀)를 빼면 (1/2πε₀)ay이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{\pi varepsilon_{0}} \vec{a_{y}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>크기와 방향이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\pi varepsilon_{0}} \vec{a_{y}}$</choice_text>
-          <commentary>선전하에 의한 전계만 고려한 값이다.</commentary>
+          <commentary>점전하의 전계를 빼지 않은 선전하 전계 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -105,19 +105,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이 전하가 받는 전기력은 전하의 속도에 무관하다.</choice_text>
-          <commentary>전기력은 속도와 무관하다.</commentary>
+          <commentary>전기력 qE는 속도와 무관하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>${\vec{v}} = 0$일 경우, 이 전하는 전기력은 받지만 자기력은 받지 않는다.</choice_text>
-          <commentary>v = 0이면 자기력은 0이다.</commentary>
+          <commentary>v = 0이면 v × B = 0이므로 자기력을 받지 않아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>전하가 받는 전기력은 전계의 방향과 일치하고, 자기력은 자계의 방향과 일치한다.</choice_text>
-          <commentary>자기력은 자계 방향과 수직이므로 옳지 않아 정답이다.</commentary>
+          <commentary>자기력 qv × B는 자계 방향과 수직이다. 자계 방향과 일치한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전기력은 전하의 운동에너지를 변화시키지만, 자기력은 전하의 운동에너지를 변화시키지 않는다.</choice_text>
-          <commentary>자기력은 운동에너지를 변화시키지 않는다.</commentary>
+          <commentary>자기력은 속도에 수직이어서 일을 하지 않으므로 운동에너지를 바꾸지 않아 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -141,19 +141,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{I}{4 \pi \rho}$</choice_text>
-          <commentary>I/(4πρ)이므로 정답이다.</commentary>
+          <commentary>외부의 알짜 전류 I/2에 대해 H = (I/2)/(2πρ) = I/(4πρ)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{I}{2 \pi \rho}$</choice_text>
-          <commentary>내부 도체 전류만 고려한 값이다.</commentary>
+          <commentary>I/(2πρ)는 외부 도체의 반대 전류를 고려하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 I}{\pi \rho}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2I/(πρ)는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4 I}{\pi \rho}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4I/(πρ)는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -174,19 +174,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0$</choice_text>
-          <commentary>도체 내부와 외부의 전위는 다르다.</commentary>
+          <commentary>A와 B는 같은 등전위가 아니므로 전위차가 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{Q}{4 \pi varepsilon_{0}} ( \frac{1}{r_{i}} - \frac{1}{b} )$</choice_text>
-          <commentary>ri를 기준으로 한 값이다.</commentary>
+          <commentary>A는 도체 내부이므로 전위가 ro 기준이어야 하며 ri를 쓴 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{Q}{4 \pi varepsilon_{0}} ( \frac{1}{r_{o}} - \frac{1}{b} )$</choice_text>
-          <commentary>(Q/4πε0)(1/ro - 1/b)이므로 정답이다.</commentary>
+          <commentary>A는 도체 내부로 표면 전위 Q/(4πε₀ro)와 같으므로 전위차는 (Q/4πε₀)(1/ro - 1/b)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{Q}{4 \pi varepsilon_{0}} ( \frac{1}{a} - \frac{1}{b} )$</choice_text>
-          <commentary>도체를 고려하지 않은 값이다.</commentary>
+          <commentary>도체 내부의 전계가 0임을 반영하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>εr = 4이면 위상속도가 1.5 × 10⁸ m/s이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$9$</choice_text>
-          <commentary>9이므로 정답이다.</commentary>
+          <commentary>v = ω/β = 10⁸ m/s이므로 √εr = 3, εr = 9이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$16$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>εr = 16이면 위상속도가 0.75 × 10⁸ m/s이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$25$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>εr = 25이면 위상속도가 0.6 × 10⁸ m/s이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2 V/m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3 V/m는 접선성분 크기만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>법선성분만 계산한 값이다.</commentary>
+          <commentary>4 V/m는 법선성분 크기만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5V/m이므로 정답이다.</commentary>
+          <commentary>E₂x = -3, E₂z = 2 × 8/4 = 4이므로 |E₂| = 5 V/m이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -384,19 +384,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{2} {\vec{a_{z}}}$</choice_text>
-          <commentary>방향이 반대이다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} {\vec{a_{z}}}$</choice_text>
-          <commentary>(1/2)az이므로 정답이다.</commentary>
+          <commentary>v × B = -E에서 v = (1/2)az이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- 2 {\vec{a_{z}}}$</choice_text>
-          <commentary>크기와 방향이 다르다.</commentary>
+          <commentary>크기와 방향이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 {\vec{a_{z}}}$</choice_text>
-          <commentary>크기가 다르다.</commentary>
+          <commentary>크기가 계산값의 4배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -418,19 +418,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>외부자계의 변화에 따라 자성체에 잔류자속이 남는다.</choice_text>
-          <commentary>잔류자속이 남는다.</commentary>
+          <commentary>강자성체는 외부자계를 제거해도 잔류자속이 남으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>자기이력곡선 내부의 면적은 에너지 손실에 비례한다.</choice_text>
-          <commentary>면적은 에너지 손실에 비례한다.</commentary>
+          <commentary>이력곡선 내부 면적은 1주기당 히스테리시스 손실에 비례하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>소자 혹은 탈자(demagnetization)에 이용되는 비선형 곡선이다.</choice_text>
-          <commentary>탈자에 이용되는 비선형 곡선이다.</commentary>
+          <commentary>이력곡선은 비선형이며 교번 자계를 줄여 가며 탈자에 이용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>자속이 포화상태가 된 후 외부자계를 제거하면 잔류자속이 남지 않는다.</choice_text>
-          <commentary>잔류자속이 남으므로 옳지 않아 정답이다.</commentary>
+          <commentary>포화 후 외부자계를 제거해도 잔류자속밀도 Br이 남는다. 남지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,19 +453,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\nabla \bullet {\vec{J}} = - \frac{\partial \rho}{\partial t}$ $\frac{\partial \rho}{\partial t}$ 변위전류밀도</choice_text>
-          <commentary>∇·J = -∂ρ/∂t, ∂ρ/∂t, 변위전류밀도이므로 정답이다.</commentary>
+          <commentary>연속방정식 ∇·J = -∂ρ/∂t, 더할 항 ∂ρ/∂t, ∂D/∂t는 변위전류밀도이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\nabla \bullet {\vec{J}} = - \frac{\partial \rho}{\partial t}$ $- \frac{\partial \rho}{\partial t}$ 변위전류밀도</choice_text>
-          <commentary>㉡의 부호가 다르다.</commentary>
+          <commentary>㉡에 -∂ρ/∂t를 더하면 모순이 해소되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\nabla \bullet {\vec{J}} = \frac{\partial \rho}{\partial t}$ $\frac{\partial \rho}{\partial t}$ 전도전류밀도</choice_text>
-          <commentary>연속방정식의 부호가 다르다.</commentary>
+          <commentary>연속방정식의 부호가 옳지 않고 ∂D/∂t는 전도전류밀도가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\nabla \bullet {\vec{J}} = \frac{\partial \rho}{\partial t}$ $- \frac{\partial \rho}{\partial t}$ 전도전류밀도</choice_text>
-          <commentary>연속방정식과 ㉢이 다르다.</commentary>
+          <commentary>연속방정식의 부호와 ㉢이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -525,19 +525,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$10 {\vec{a_{x}}}$</choice_text>
-          <commentary>10ax이므로 정답이다.</commentary>
+          <commentary>∇ × H = 0.1 × 10² cos(10³t + 10²y)ax이므로 원점, t = 0에서 10ax A/m²이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$10 {\vec{a_{y}}}$</choice_text>
-          <commentary>방향이 다르다.</commentary>
+          <commentary>∇ × H의 성분은 ax 방향이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$10 {\vec{a_{z}}}$</choice_text>
-          <commentary>방향이 다르다.</commentary>
+          <commentary>자계와 같은 방향인 az 성분은 생기지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0$</choice_text>
-          <commentary>0이 아니다.</commentary>
+          <commentary>cos 0 = 1이므로 변위전류밀도는 0이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -561,19 +561,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0 &lt; &lt;i&gt;l &lt;/i&gt;&lt; 0.25$\lambda_{g}$이면 &lt;i&gt;X&lt;/i&gt;는 양수이다.</choice_text>
-          <commentary>X는 음수이다.</commentary>
+          <commentary>ZL &gt; Z₀일 때 0 &lt; l &lt; λg/4 구간은 스미스 차트 하반부를 지나 X &lt; 0(용량성)이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0 &lt; &lt;i&gt;l &lt;/i&gt;&lt; 0.25$\lambda_{g}$이면 0 &lt; &lt;i&gt;R &lt;/i&gt;&lt; 150 [Ω]이다.</choice_text>
-          <commentary>0 &lt; R &lt; 150Ω이므로 옳다.</commentary>
+          <commentary>이 구간에서 R은 150 Ω에서 16.7 Ω까지 줄어 0 &lt; R &lt; 150 Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.25$\lambda_{g}$ &lt; &lt;i&gt;l&lt;/i&gt; &lt; 0.5$\lambda_{g}$이면 &lt;i&gt;R &lt;/i&gt;&gt; 150 [Ω]이다.</choice_text>
-          <commentary>이 구간에서도 R은 150Ω을 넘지 않는다.</commentary>
+          <commentary>λg/4 &lt; l &lt; λg/2 구간에서 R은 16.7 Ω에서 다시 150 Ω으로 커지므로 150 Ω을 넘지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>&lt;i&gt;l &lt;/i&gt;＝ 0.25$\lambda_{g}$이면 &lt;i&gt;R&lt;/i&gt; ＝ 1 150 [Ω]이다.</choice_text>
-          <commentary>l = λg/4이면 약 16.7Ω이다.</commentary>
+          <commentary>l = λg/4이면 R = 2,500/150 ≒ 16.7 Ω이므로 공식 정답에 따르면 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -597,19 +597,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2배</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2배는 공극 자기저항만의 비율이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3배</choice_text>
-          <commentary>3배이므로 정답이다.</commentary>
+          <commentary>공극 자기저항이 철심의 2배이므로 전체는 1 + 2 = 3배이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4배</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4배는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5배</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5배는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -633,19 +633,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이 전자기파의 동작 주파수는 300 [MHz]이다.</choice_text>
-          <commentary>300MHz이다.</commentary>
+          <commentary>f = 6π × 10⁸/(2π) = 300 MHz이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>매질에서 전자기파의 전파속도는 1.5 × 10^(8) [m/s]이다.</choice_text>
-          <commentary>1.5 × 10⁸m/s이다.</commentary>
+          <commentary>v = ω/β = 1.5 × 10⁸ m/s이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>매질에서 전자기파의 평균전력밀도는 60π [W/m^(2)]이다.</choice_text>
-          <commentary>60πW/m²이다.</commentary>
+          <commentary>평균전력밀도 = EH/2 = 120π × 1/2 = 60π W/m²이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>매질의 비투자율은 $1$이다.</choice_text>
-          <commentary>비투자율이 2이므로 옳지 않아 정답이다.</commentary>
+          <commentary>η = 120π에서 μr = εr이고 μrεr = 4이므로 μr = 2이다. 1이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -669,19 +669,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0</choice_text>
-          <commentary>0이므로 정답이다.</commentary>
+          <commentary>균일 자계 속 폐루프는 ∮dl = 0이어서 알짜 힘이 0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>π</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>π N은 폐루프의 힘 상쇄를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2π</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2π N은 폐루프의 힘 상쇄를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3π</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3π N은 폐루프의 힘 상쇄를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -705,19 +705,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>두 코일 사이의 상호인덕턴스 $M_{12}$는 두 코일의 권선수 곱에 비례하는 $M_{12} \propto N_{1} N_{2}$로 표현할 수 있다.</choice_text>
-          <commentary>M ∝ N1N2이다.</commentary>
+          <commentary>M ∝ N₁N₂이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>두 코일 사이의 상호인덕턴스 $M_{12}$는 두 코일의 반지름 제곱의 곱에 비례하는 $M_{12} \propto ( b_{1} )^{2} ( b_{2} )^{2}$으로 표현할 수 있다.</choice_text>
-          <commentary>M ∝ b1²b2²이다.</commentary>
+          <commentary>먼 거리에서 M ∝ N₁N₂b₁²b₂²/d³이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>코일1에 흐르는 전류에 의해 코일2에 작용하는 힘의 크기 $| {\vec{F_{12}}} |$는 두 코일에 흐르는 전류의 곱에 비례하는 $| {\vec{F_{12}}} | \propto I_{1} I_{2}$로 표현할 수 있다.</choice_text>
-          <commentary>F ∝ I1I2이다.</commentary>
+          <commentary>두 루프 사이의 힘은 전류의 곱 I₁I₂에 비례하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>코일1과 코일2에 같은 방향으로 전류가 흐를 경우 코일1에 흐르는 전류에 의해 코일2에 작용하는 힘 ${\vec{F_{12}}}$의 방향은 $+ z$ 방향이다.</choice_text>
-          <commentary>인력이므로 +z 방향이 아니어서 옳지 않아 정답이다.</commentary>
+          <commentary>같은 방향 전류는 서로 끌어당기므로 코일2에 작용하는 힘은 코일1 쪽(-z)을 향한다. +z라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

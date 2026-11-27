@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>도체판의 면적을 2배로 넓히면 정전용량이 2배가 된다.</choice_text>
-          <commentary>면적에 비례하여 2배가 된다.</commentary>
+          <commentary>C = εS/d이므로 면적이 2배이면 정전용량도 2배가 되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>도체판 사이의 간격을 2배로 늘리면 정전용량이 2배가 된다.</choice_text>
-          <commentary>간격을 2배로 하면 1/2이 되므로 옳지 않아 정답이다.</commentary>
+          <commentary>간격을 2배로 늘리면 정전용량은 1/2이 된다. 2배라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>도체판 사이의 유전체를 비유전율이 2배인 물질로 바꾸면 정전용량은 2배가 된다.</choice_text>
-          <commentary>유전율에 비례하여 2배가 된다.</commentary>
+          <commentary>비유전율이 2배이면 정전용량도 2배가 되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전하량이 일정할 때, 정전용량과 전압은 반비례 관계를 갖는다.</choice_text>
-          <commentary>전하 일정 시 C와 V는 반비례한다.</commentary>
+          <commentary>Q = CV에서 Q가 일정하면 C와 V는 반비례하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>30 10</choice_text>
-          <commentary>30, 10이므로 정답이다.</commentary>
+          <commentary>M = 5 mH이므로 최댓값 30 mH, 최솟값 10 mH이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>30 5</choice_text>
-          <commentary>최솟값이 다르다.</commentary>
+          <commentary>최솟값은 L₁ + L₂ - 2M = 10 mH이므로 5 mH는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20 10</choice_text>
-          <commentary>최댓값이 다르다.</commentary>
+          <commentary>최댓값은 30 mH이므로 20 mH는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20 5</choice_text>
-          <commentary>두 값이 모두 다르다.</commentary>
+          <commentary>최댓값과 최솟값이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\mu_{2} \tan \theta_{1} = \mu_{1} \tan \theta_{2}$</choice_text>
-          <commentary>μ2 tan θ1 = μ1 tan θ2이므로 정답이다.</commentary>
+          <commentary>tan θ₁/μ₁ = tan θ₂/μ₂에서 μ₂ tan θ₁ = μ₁ tan θ₂이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\mu_{1} \cos \theta_{1} = \mu_{2} \cos \theta_{2}$</choice_text>
-          <commentary>경계조건 식이 아니다.</commentary>
+          <commentary>cos 관계는 굴절 법칙의 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\mu_{2} \cos \theta_{1} = \mu_{1} \cos \theta_{2}$</choice_text>
-          <commentary>경계조건 식이 아니다.</commentary>
+          <commentary>cos 관계는 굴절 법칙의 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\mu_{1} \tan \theta_{1} = \mu_{2} \tan \theta_{2}$</choice_text>
-          <commentary>투자율이 뒤바뀌었다.</commentary>
+          <commentary>μ₁과 μ₂의 위치가 바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -140,7 +140,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- 720 pivec {a}_{z}$</choice_text>
-          <commentary>크기가 2배이다.</commentary>
+          <commentary>크기가 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- 360 \vec{a}_{z}$</choice_text>
@@ -148,11 +148,11 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- 720 \vec{a}_{z}$</choice_text>
-          <commentary>크기가 맞지 않다.</commentary>
+          <commentary>π가 빠지고 크기도 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- 360 \pi \vec{a}_{z}$</choice_text>
-          <commentary>-360πaz이므로 정답이다.</commentary>
+          <commentary>E = ρs/(2ε₀) = 360π V/m이고 원점은 평면 아래쪽이므로 -az 방향이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -176,19 +176,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{Q^{2}}{2 \epsilon_{0} S}$</choice_text>
-          <commentary>Q²/(2ε0S)이므로 정답이다.</commentary>
+          <commentary>F = Q × Q/(2ε₀S) = Q²/(2ε₀S)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{Q}{2 \epsilon_{0} S}$</choice_text>
-          <commentary>Q의 제곱이 빠졌다.</commentary>
+          <commentary>전하를 한 번만 곱하여 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${Q^2} \frac{S}{2 \epsilon_{0}}$</choice_text>
-          <commentary>S의 위치가 잘못되었다.</commentary>
+          <commentary>S가 분자로 갔으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{QS}{2 \epsilon_{0}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>차원이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -248,19 +248,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\pi \epsilon_{0} \mu_{0}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>이 식은 μ₀가 포함되어 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\pi \epsilon_{0}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>계수 10이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{10 \pi \epsilon_{0} \mu_{0}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>μ₀가 포함되어 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{10 \pi \epsilon_{0}}$</choice_text>
-          <commentary>1/(10πε0)이므로 정답이다.</commentary>
+          <commentary>ω = σ/(10ε) = 1/(5ε₀)이므로 f = 1/(10πε₀) Hz이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -284,19 +284,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$10$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>10 cm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$7 . 5$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>7.5 cm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$5$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5 cm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$3$</choice_text>
-          <commentary>3cm이므로 정답이다.</commentary>
+          <commentary>판 내부 파장 0.06 m의 1/2인 3 cm일 때 반사가 최소가 되므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -320,19 +320,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{BP}{4 R}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>BP/(4R)는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{P}{4 RB}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>B가 분모로 갔으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{BP}{2 R}$</choice_text>
-          <commentary>BP/(2R)이므로 정답이다.</commentary>
+          <commentary>dR/dt = -P/(4πR²)이므로 emf = B·2πR·P/(4πR²) = BP/(2R)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{P}{2 RB}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>B가 분모로 갔으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -392,19 +392,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$E_{1 t} = E_{2 t}$</choice_text>
-          <commentary>옳은 경계조건이다.</commentary>
+          <commentary>전계의 접선성분은 연속이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$D_{1 n} - D_{2 n} = \rho_{s}$</choice_text>
-          <commentary>옳은 경계조건이다.</commentary>
+          <commentary>전속밀도 법선성분의 차는 표면전하밀도이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$H_{1 t} - H_{2 t} = J_{s}$</choice_text>
-          <commentary>옳은 경계조건이다.</commentary>
+          <commentary>자계 접선성분의 차는 표면전류밀도이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$B_{1 n} - B_{2 n} = \mu_{0}$</choice_text>
-          <commentary>B1n - B2n = 0이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>자속밀도의 법선성분은 연속(B₁n = B₂n)이다. 차가 μ₀라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -428,19 +428,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>삼각파</choice_text>
-          <commentary>삼각파는 전류가 램프일 때가 아니다.</commentary>
+          <commentary>삼각파는 전류가 일정하게 증가·감소할 때 그 적분 형태로 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정현파</choice_text>
-          <commentary>정현파 입력일 때의 결과이다.</commentary>
+          <commentary>정현파는 정현파 전류의 미분일 때 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>계단파</choice_text>
-          <commentary>계단파 전압은 유도되지 않는다.</commentary>
+          <commentary>계단파 전류의 미분은 계단파가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>펄스파</choice_text>
-          <commentary>펄스파이므로 정답이다.</commentary>
+          <commentary>v₂ = M(di₁/dt)이므로 계단이 바뀌는 순간에만 전압이 생기는 펄스파이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -464,19 +464,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2 \times 10^{- 2}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2 × 10⁻² V는 계산값의 1/4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$4 \times 10^{- 2}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4 × 10⁻² V는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$8 \times 10^{- 2}$</choice_text>
-          <commentary>8 × 10⁻²V이므로 정답이다.</commentary>
+          <commentary>e = 2 × 10⁻³ × 2 × 20 = 8 × 10⁻² V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$16 \times 10^{- 2}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>16 × 10⁻² V는 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -497,19 +497,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>매질의 비유전율이 1000, 비투자율이 1인 경우, 전계벡터의 크기는 자계벡터의 크기보다 작다.</choice_text>
-          <commentary>전계가 자계보다 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>η ≒ 11.9 Ω이므로 |E| = η|H|에서 전계의 크기가 자계보다 크다. 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>포인팅벡터의 방향은 전계벡터의 방향과 수직을 이룬다.</choice_text>
-          <commentary>포인팅벡터는 전계와 수직이다.</commentary>
+          <commentary>포인팅벡터 E × H는 전계와 수직이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>매질의 비유전율이 커지면 위상속도는 줄어든다.</choice_text>
-          <commentary>위상속도는 줄어든다.</commentary>
+          <commentary>vp = c/√(εrμr)이므로 비유전율이 커지면 위상속도가 줄어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전파전력 $0 . 1 [ mW ]$은 $- 10 [ dBm ]$에 해당한다.</choice_text>
-          <commentary>-10dBm이다.</commentary>
+          <commentary>10 log(0.1/1) = -10 dBm이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -533,11 +533,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$ $\frac{1}{2}$</choice_text>
-          <commentary>에너지비가 다르다.</commentary>
+          <commentary>에너지는 전압의 제곱에 비례하므로 1/2은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2}$ $\frac{1}{4}$</choice_text>
-          <commentary>1/2, 1/4이므로 정답이다.</commentary>
+          <commentary>QA/QB = 1/2, WA/WB = (1/2)² = 1/4이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2$ $2$</choice_text>
@@ -569,19 +569,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$R \sqrt{\frac{C}{L}}$ $\omega \frac{1}{\sqrt{LC}}$ $\sqrt{LC}$</choice_text>
-          <commentary>β와 vp가 다르다.</commentary>
+          <commentary>β와 vp가 서로 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$R \sqrt{\frac{L}{C}}$ $\omega \frac{1}{\sqrt{LC}}$ $\sqrt{LC}$</choice_text>
-          <commentary>모두 다르다.</commentary>
+          <commentary>α와 β, vp가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$R \sqrt{\frac{C}{L}}$ $\omega \sqrt{LC}$ $\frac{1}{\sqrt{LC}}$</choice_text>
-          <commentary>R√(C/L), ω√(LC), 1/√(LC)이므로 정답이다.</commentary>
+          <commentary>무왜곡 선로에서 α = R√(C/L), β = ω√(LC), vp = 1/√(LC)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$R \sqrt{\frac{L}{C}}$ $\omega \sqrt{LC}$ $\frac{1}{\sqrt{LC}}$</choice_text>
-          <commentary>α가 다르다.</commentary>
+          <commentary>α가 R√(L/C)가 아니라 R√(C/L)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -605,19 +605,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 + \frac{\mu_{r} l_{g}}{l}$</choice_text>
-          <commentary>1 + μrlg/l이므로 정답이다.</commentary>
+          <commentary>R'/R = 1 + μrlg/l이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 - \frac{\mu_{r} l_{g}}{l}$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>공극이 생기면 자기저항이 증가하므로 감소하는 식은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1 + \frac{\mu_{r} l_{g}}{lS}$</choice_text>
-          <commentary>단면적이 분모에 오지 않는다.</commentary>
+          <commentary>단면적 S는 비율에서 소거된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 - \frac{\mu_{r} l_{g}}{lS}$</choice_text>
-          <commentary>부호와 단면적이 모두 틀렸다.</commentary>
+          <commentary>부호와 단면적 처리가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -641,19 +641,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>7.5 C/m³는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>15 C/m³는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>30</choice_text>
-          <commentary>30C/m³이므로 정답이다.</commentary>
+          <commentary>D = ρvr/3에서 ρv = 3 × 20/2 = 30 C/m³이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>60 C/m³는 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -677,19 +677,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} \times 10$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>(2/3) × 10 Ω은 비를 뒤집은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} \times 10^2$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>(2/3) × 10² Ω은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3}{2} \times 10$</choice_text>
-          <commentary>(3/2) × 10Ω이므로 정답이다.</commentary>
+          <commentary>v = 10⁸ m/s이므로 Z₀ = 1/(vC) = 15 Ω = (3/2) × 10 Ω이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{2} \times 10^2$</choice_text>
-          <commentary>자릿수가 다르다.</commentary>
+          <commentary>(3/2) × 10² Ω은 계산값의 10배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -713,19 +713,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$C = - \frac{1}{omegaZ_{o} \tan \beta L}$</choice_text>
-          <commentary>단락 선로(tan)의 조건이다.</commentary>
+          <commentary>개방 선로의 입력 임피던스는 cot βL로 표현되므로 tan을 쓴 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$C = - \frac{1}{omegaZ_{o} cot \beta L}$</choice_text>
-          <commentary>-1/(ωZ0 cot βL)이므로 정답이다.</commentary>
+          <commentary>-Z₀ cot βL - 1/(ωC) = 0에서 C = -1/(ωZ₀ cot βL)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C = - \frac{\sin \beta L}{omegaZ_{o}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>sin βL은 입력 임피던스 식의 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$C = - \frac{\cos \beta L}{omegaZ_{o}}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>cos βL은 입력 임피던스 식의 형태가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

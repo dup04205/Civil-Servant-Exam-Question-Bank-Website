@@ -30,24 +30,24 @@
         <correct_choice_text>‘on delete cascade’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열을 삭제한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 관계형, 데이터베이스에서, 참조, 무결성)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 참조 무결성의 삭제 옵션
+정답은 ②이다. on delete cascade는 참조되는 행이 삭제되면 그 행을 참조하는 행 전체를 함께 삭제하는 옵션이다. 외래키 열만 삭제하는 것이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>‘on delete set null’은 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열에 null을 저장한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>외래키에 null을 저장하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>‘on delete cascade’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열을 삭제한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>참조하는 행 전체가 삭제되므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>‘on delete set default’는 참조되는 테이블의 행이 삭제되면, 참조하는 테이블의 행에 있는 외래키 열에 사전에 정의된 default 값을 저장한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>미리 정한 기본값을 저장하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>‘on delete no action’은 참조되는 테이블의 행을 삭제하려고 할 때, 참조하는 테이블의 행이 존재할 경우 삭제 명령이 수행되지 못하도록 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>참조하는 행이 있으면 삭제를 거부하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -66,26 +66,25 @@
         <correct_choice_text>SELECT 동아리, SUM(과제수) FROM 과제 GROUP BY 동아리 HAVING SUM(학생수) &gt;= 10 ;</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 과제, 테이블, 학년별, 동아리)
-정답은 ①이다. 본 문항은 과제, 테이블, 학년별, 동아리에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| 학년 | 동아리 | 학생수 | 과제수 |"</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · GROUP BY와 HAVING
+정답은 ①이다. 동아리별로 묶어 학생 수의 합이 10 이상인 그룹을 고르려면 GROUP BY 동아리 후 HAVING SUM(학생수) &gt;= 10을 사용해야 한다. 집계 함수 조건은 WHERE 절에 쓸 수 없다. 계산하면 A는 학생 40명·과제 45, B는 37명·과제 60, C는 13명·과제 23으로 세 동아리가 모두 출력된다.</overall_commentary>
       <passage_evidence>| 학년 | 동아리 | 학생수 | 과제수 |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 GROUP BY 동아리 HAVING SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>제시문의 "| 학년 | 동아리 | 학생수 | 과제수 |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>그룹별 합계 조건을 HAVING으로 지정하였으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 WHERE SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>제시문의 "| 학년 | 동아리 | 학생수 | 과제수 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>WHERE 절에 집계 함수를 사용할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 HAVING SUM(학생수) &gt;= 10 ;</choice_text>
-          <commentary>제시문의 "| 학년 | 동아리 | 학생수 | 과제수 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>GROUP BY가 없어 동아리별 집계가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SELECT 동아리, SUM(과제수) FROM 과제 WHERE 학생수 &gt;= 10 GROUP BY 동아리 ;</choice_text>
-          <commentary>제시문의 "| 학년 | 동아리 | 학생수 | 과제수 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>그룹 전체가 아닌 각 행의 학생 수로 걸러 의미가 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,24 +103,24 @@
         <correct_choice_text>트리거 저장 프로시저 인덱스</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 관계형 데이터베이스의 세 가지 기능적 요소, 인덱스 트리거(trigger), 주장(assertion), 주장 인덱스 저장 프로시저(stored procedure))
-정답은 ④이다. 본 문항은 관계형 데이터베이스의 세 가지 기능적 요소, 인덱스 트리거(trigger), 주장(assertion), 주장 인덱스 저장 프로시저(stored procedure)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 트리거, 저장 프로시저, 인덱스
+정답은 ④이다. 데이터 변경 시 조건을 만족하면 자동으로 동작하는 것은 트리거, 순서가 정해진 수행 단위로 컴파일되어 저장·실행되는 것은 저장 프로시저, 신속한 탐색을 위한 데이터 구조는 인덱스이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인덱스 트리거(trigger) 주장(assertion)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연결이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>주장 인덱스 저장 프로시저(stored procedure)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연결이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>주장 인덱스 트리거</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연결이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>트리거 저장 프로시저 인덱스</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>트리거, 저장 프로시저, 인덱스이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -141,24 +140,24 @@
         <correct_choice_text>데이터베이스 관리자(DBA)가 각 사용자에게 데이터베이스에 대한 접근 권한을 부여하거나 취소할 때 grant 명령을 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스 보안과 관련한 설명, SQL 삽입(injection), 데이터베이스 관리자(DBA), 터베이스에 대한 권한은 역할(role), 전자 서명(digital signature))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 데이터베이스 보안
+정답은 ②이다. 권한 부여에는 GRANT, 권한 취소에는 REVOKE 명령을 사용한다. 취소할 때도 grant를 사용한다는 설명은 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SQL 삽입(injection) 공격은 공격자가 악의적으로 만든 SQL 명령을 응용 프로그램이 수행하도록 하는 것이다.</choice_text>
-          <commentary>'SQL 삽입(injection) 공격'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>SQL 삽입 공격의 정의로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>데이터베이스 관리자(DBA)가 각 사용자에게 데이터베이스에 대한 접근 권한을 부여하거나 취소할 때 grant 명령을 사용한다.</choice_text>
-          <commentary>'데이터베이스 관리자(DBA)'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>권한 취소는 REVOKE이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>데이터베이스에 대한 권한은 역할(role)에도 부여할 수 있다.</choice_text>
-          <commentary>'데이터베이스'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>역할에 권한을 부여하고 사용자에게 역할을 부여할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전자 서명(digital signature)은 공개키 암호화 기법의 특성을 이용하여 인증을 수행한다.</choice_text>
-          <commentary>'전자 서명(digital signature)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전자 서명은 개인키로 서명하고 공개키로 검증하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -174,24 +173,24 @@
         <correct_choice_text>모든 사원은 적어도 하나 이상의 과제를 수행하여야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 어법·규범·어휘형 (핵심어: ERD를 릴레이션으로 사상(mapping))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 개체-관계 다이어그램의 해석
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번 설명이 옳지 않다이다. 관계선이 이중선이면 전체 참여(모든 개체가 반드시 참여), 단일선이면 부분 참여이며, 다대다 관계는 별도 릴레이션으로 사상된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>주어진 ERD를 릴레이션으로 사상(mapping)하면, 4개의 릴레이션이 생성된다.</choice_text>
-          <commentary>'4개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>모든 사원은 적어도 하나 이상의 과제를 수행하여야 한다.</choice_text>
-          <commentary>'모든 사원'에 관하여 '하여야 한다' 부분에서 임의(재량) 사항을 의무(기속) 사항으로 잘못 서술하였다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모든 부서는 적어도 1명 이상의 사원이 존재하여야 하며, 사원도 반드시 하나의 부서에 소속되어야 한다.</choice_text>
-          <commentary>'모든 부서'에 관하여 '1명' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>사원은 2개의 부서에 동시에 소속될 수 없다.</choice_text>
-          <commentary>'사원'에 관하여 '2개' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -207,24 +206,24 @@
         <correct_choice_text>FD_(min) ＝ {Y → X, Z → Y, Z → W}</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 종속성 집합 FD의 최소커버(minimal cover))
-정답은 ②이다. 본 문항은 종속성 집합 FD의 최소커버(minimal cover)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 최소 커버
+정답은 ②이다. Z → XYW를 분해하면 Z → X, Z → Y, Z → W이다. Z → Y와 Y → X에서 이행 규칙으로 Z → X가 유도되므로 Z → X는 중복이다. 따라서 최소 커버는 {Y → X, Z → Y, Z → W}이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → Y, Z → W}</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>중복된 Z → X가 포함되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>FD_(min) ＝ {Y → X, Z → Y, Z → W}</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최소 커버이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → W}</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Z → Y가 빠져 동등하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>FD_(min) ＝ {Y → X, Z → X, Z → Y}</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Z → W가 빠져 동등하지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -243,8 +242,8 @@
         <correct_choice_text>ㄴ, ㄹ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 복합 보기 검증형 (핵심어: 인덱스 기법, 트리의 각 노드를 전위 순회(preorder traversal), 밀집(dense), 인덱스는 희소(sparse))
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄴ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 인덱스 기법
+정답은 ④이다. 밀집 인덱스는 모든 레코드에 대한 항목을 가져 액세스가 빠르지만 공간을 더 사용하고(ㄴ), 비트맵 인덱스는 값마다 레코드 수만큼의 비트가 필요하므로 1,000비트가 필요하다(ㄹ). B-트리를 키 순서로 순차 검색하려면 중위 순회를 해야 하며(ㄱ 틀림), 분할 시 중간 키가 부모 노드와 새 노드에 함께 저장되는 것은 B+-트리의 특징이다(ㄷ 틀림).</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>B-트리 전체를 노드 내의 키 값에 따라 순차 검색하기 위해서는 트리의 각 노드를 전위 순회(preorder traversal)한다.</statement>
@@ -266,19 +265,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄱ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄷ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -297,24 +296,24 @@
         <correct_choice_text>redo 연산은 T_(5), T_(3) 순서로 수행된다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 수리·계산·자료해석형 (핵심어: 시스템, 고장, 발생할, 트랜잭션)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 즉시 갱신 회복(undo-redo)
+정답은 ④이다. 마지막 검사점(로그 9) 이후를 기준으로 하면 T1은 검사점 이전에 완료되어 회복 대상이 아니다. 완료된 T3, T5는 redo하고, 미완료인 T2, T4는 undo한다. 그 결과 A = 700, C = 5000(redo), B = 900, D = 700, E = 1300(undo)이 된다. redo는 로그를 순방향으로 진행하므로 T3(로그 8), T5(로그 11) 순서로 수행된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>T_(1)은 어떠한 undo와 redo 연산도 수행하지 않는다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>T1은 검사점 이전에 완료되었으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>데이터 항목 A와 B의 값은 각각 700과 900으로 갱신된다.</choice_text>
-          <commentary>제시문의 "| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)..." 내용과 일치하므로 옳다.</commentary>
+          <commentary>A는 redo로 700, B는 undo로 900이 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>데이터 항목 C와 D의 값은 각각 5000과 700으로 갱신된다.</choice_text>
-          <commentary>제시문의 "| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | &lt;T_(1) start&gt;  &lt;T_(1), A, 200, 400&gt;  &lt;T_(1) commit&gt;  &lt;T_(2) start&gt;  &lt;T_(2), B, 900, 1900&gt;  &lt;checkpoint&gt;  &lt;T_(3) start&gt;  &lt;T_(3), A, 400, 700&gt;  &lt;checkpoint&gt;  &lt;T_(5)..." 내용과 일치하므로 옳다.</commentary>
+          <commentary>C는 redo로 5000, D는 undo로 700이 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>redo 연산은 T_(5), T_(3) 순서로 수행된다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 'redo 연산'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>redo는 T3, T5 순서이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -332,26 +331,25 @@
         <correct_choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 3 | 공급C | | | |</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 지문 독해·추론형 (핵심어: 업체명 VARCHAR(20), 부품명 VARCHAR(20), 색상 VARCHAR(20))
-정답은 ③이다. 본 문항은 업체명 VARCHAR(20), 부품명 VARCHAR(20), 색상 VARCHAR(20)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| 업체번호 | 업체명 |"</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · NOT EXISTS 질의
+정답은 ③이다. 질의는 빨간색 부품을 공급하지 않는 공급업체를 찾는다. 빨간 부품은 부품 1이며 카탈로그에서 부품 1을 공급하는 업체는 2번뿐이다. 따라서 업체 1(공급A)과 업체 3(공급C)이 출력된다.</overall_commentary>
       <passage_evidence>| 업체번호 | 업체명 |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>| 업체번호 | 업체명 | |---|---| | | |</choice_text>
-          <commentary>제시문의 "| 업체번호 | 업체명 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>결과가 공집합이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 2 | 공급B |</choice_text>
-          <commentary>제시문의 "| 업체번호 | 업체명 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>빨간 부품을 공급하는 업체이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 3 | 공급C | | | |</choice_text>
-          <commentary>제시문의 "| 업체번호 | 업체명 |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>공급A, 공급C이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| 업체번호 | 업체명 | |---|---| | 1 | 공급A | | 2 | 공급B | | 3 | 공급C |</choice_text>
-          <commentary>제시문의 "| 업체번호 | 업체명 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>업체 2는 제외된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -368,25 +366,24 @@
         <correct_choice_text>$\left| R \right|$을 릴레이션 $R$의 투플의 수로 정의할 때, $R \bowtie _A = B S$ 에 대하여 $A$가 $R$의 기본키이면 $\left| ( R \bowtie _{A = B} S ) \right| \leq \left| S \right|$이고 조인 선택률(&lt;i&gt;js&lt;/i&gt;)은 $js &gt; 1 / \left| R \right|$이다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: SQL문에 대하여 질의 최적화를 수행하고자 한다. 이, 는 기본적으로 중첩 루프(nested loop))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $학생 ⋈_{학과코드 = 학과코드} 학과$; $RM학과 . 학과코드 = ‘ CS ’$; $\left | R \right |$; $R$; $R ⋈_A = B S$</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 질의 최적화
+정답은 ④이다. A가 R의 기본키이면 S의 각 튜플은 R의 튜플 하나와만 결합할 수 있으므로 |R ⋈ S| ≤ |S|이다. 조인 선택률은 |R ⋈ S| / (|R| × |S|)이므로 js ≤ 1/|R|이 되며, js &gt; 1/|R|이라는 설명은 옳지 않다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>카탈로그는 해당 테이블에 대한 통계 정보를 저장하고 있어 비용 계산에 활용될 수 있지만, 통계 정보를 실시간으로 갱신하려면 부하가 커서 주기적으로 갱신하기도 한다.</choice_text>
-          <commentary>'카탈로그'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>통계 정보는 부하 때문에 주기적으로 갱신하기도 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>조인연산 $학생 \bowtie _{학과코드 = 학과코드} 학과$는 기본적으로 중첩 루프(nested loop)를 이용하여 구현하지만, ‘학과.학과코드’에 인덱스가 구축되어 있다면 비용을 감소시킬 수 있다.</choice_text>
-          <commentary>제시문의 "WHERE 학생.학과코드 = 학과.학과코드" 내용과 일치하므로 옳다.</commentary>
+          <commentary>조인 속성에 인덱스가 있으면 인덱스 중첩 루프로 비용이 줄어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>경험적 질의 최적화 기법에서는 주어진 SQL문의 WHERE절에서 조인연산보다 $학과 . 학과코드 = ‘ CS ’$를 먼저 수행하도록 한다.</choice_text>
-          <commentary>제시문의 "AND 학과.학과코드 = ‘CS’ ;" 내용과 일치하므로 옳다.</commentary>
+          <commentary>경험적 기법은 선택 연산을 조인보다 먼저 수행하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$\left| R \right|$을 릴레이션 $R$의 투플의 수로 정의할 때, $R \bowtie _A = B S$ 에 대하여 $A$가 $R$의 기본키이면 $\left| ( R \bowtie _{A = B} S ) \right| \leq \left| S \right|$이고 조인 선택률(&lt;i&gt;js&lt;/i&gt;)은 $js &gt; 1 / \left| R \right|$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>js ≤ 1/|R|이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -405,24 +402,24 @@
         <correct_choice_text>외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 릴레이션, 관계, 대수, 연산)
-정답은 ④이다. 본 문항은 릴레이션, 관계, 대수, 연산에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 외부 합집합과 외부 조인
+정답은 ④이다. R1은 두 릴레이션을 조인하지 않고 속성을 합친 뒤 모든 튜플을 NULL로 채워 나열하였으므로 외부 합집합이다. R2는 일치하는 튜플을 결합하고 양쪽의 불일치 튜플(aa, 40 zz)을 모두 포함하므로 완전 외부조인이다. R3는 T2의 모든 튜플을 포함하고 불일치한 T1의 aa는 제외하므로 오른쪽 외부조인이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>완전 외부조인(⟗) 외부 합집합(U+) 왼쪽 외부조인(⟕)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>㉠, ㉡, ㉢이 모두 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>완전 외부조인(⟗) 외부 합집합(U+) 오른쪽 외부조인(⟖)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>㉠, ㉡이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>외부 합집합(U+) 완전 외부조인(⟗) 왼쪽 외부조인(⟕)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>㉢이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>외부 합집합(U+) 완전 외부조인(⟗) 오른쪽 외부조인(⟖)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>외부 합집합, 완전 외부조인, 오른쪽 외부조인이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -440,24 +437,24 @@
         <correct_choice_text>기본 테이블들만으로 작성된 질의 처리 성능을 향상시키기 위해 개발되었다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: SQL에서 뷰(view)의 역할, SQL에서 뷰(view), 기본 테이블(base table))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 뷰의 역할
+정답은 ③이다. 뷰는 가상 테이블로서 질의를 간소화하고 보안을 제공하며 논리적 독립성을 높인다. 뷰에 대한 질의는 기본 테이블에 대한 질의로 변환되어 수행되므로 처리 성능 향상을 목적으로 개발된 것이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>기본 테이블(base table)들만으로 작성된 질의를 간소화시킬 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>복잡한 질의를 간소화하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>사용자의 접근권한에 따라 동일한 기본 테이블의 속성들을 선택적으로 제공할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>접근 권한에 따라 일부 속성만 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>기본 테이블들만으로 작성된 질의 처리 성능을 향상시키기 위해 개발되었다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>성능 향상이 목적이 아니므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기본 테이블들의 물리적 구조를 변경시키지 않고 사용자가 원하는 새로운 가상 테이블을 생성시킬 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>물리적 구조 변경 없이 가상 테이블을 만들므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -476,24 +473,24 @@
         <correct_choice_text>데이터 종속성(data dependency)을 유지하여 데이터와 이를 이용하는 프로그램이 밀접하게 연결되어 동작하도록 도와준다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 데이터베이스와 데이터베이스 관리시스템(DBMS), 스와 데이터베이스 관리시스템(DBMS), 데이터 종속성(data dependency), 역의 DBMS는 지역 자치성(local autonomy))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 데이터베이스 시스템의 특징
+정답은 ①이다. DBMS는 데이터와 응용 프로그램을 분리하여 데이터 독립성을 제공한다. 데이터 종속성을 유지하여 프로그램과 데이터를 밀접하게 연결하는 것은 파일 시스템의 특징이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>데이터 종속성(data dependency)을 유지하여 데이터와 이를 이용하는 프로그램이 밀접하게 연결되어 동작하도록 도와준다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>데이터 독립성을 제공하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>데이터베이스 사용자들에게 공용 데이터에 대한 다양한 관점을 제공해 준다.</choice_text>
-          <commentary>'데이터베이스 사용자들에게 공용 데이터'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>사용자별 다양한 관점(뷰)을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>데이터베이스 시스템의 자기 기술성은 데이터베이스 구조와 제약조건에 대한 정의를 가지고 있음을 의미한다.</choice_text>
-          <commentary>'데이터베이스 시스템의 자기 기술성'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>카탈로그에 구조와 제약조건 정의를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>분산 데이터베이스 시스템에 포함된 각 지역의 DBMS는 지역 자치성(local autonomy)을 가질 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>분산 시스템의 각 지역 DBMS는 지역 자치성을 가지므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -512,24 +509,24 @@
         <correct_choice_text>S_(2): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); c_(2); a_(1);</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 트랜잭션, 스케줄, 회복, 불가능한)
-정답은 ②이다. 본 문항은 트랜잭션, 스케줄, 회복, 불가능한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 회복 불가능 스케줄
+정답은 ②이다. T2가 T1이 쓴 값을 읽은 뒤 T1보다 먼저 완료하고 이후 T1이 철회되면, 이미 완료된 T2를 취소할 수 없어 회복이 불가능하다. S2에서 T2는 w1(X) 후 r2(X)로 T1의 값을 읽고 c2 후에 a1이 발생하므로 회복 불가능하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>S_(1): r_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); w_(1)(Y); a_(1); r_(2)(Y); c_(2);</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T2는 T1이 쓴 값을 읽지 않았으므로 회복 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>S_(2): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); c_(2); a_(1);</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>회복 불가능하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>S_(3): r_(1)(X); w_(1)(X); r_(2)(Y); w_(2)(Y); w_(2)(X); c_(2); c_(1);</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T2가 T1의 값을 읽지 않았으므로 회복 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>S_(4): r_(1)(X); w_(1)(X); r_(2)(X); r_(1)(Y); w_(2)(X); w_(1)(Y); a_(1); a_(2);</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T2는 완료되지 않고 함께 철회되므로 회복 가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -549,24 +546,24 @@
         <correct_choice_text>R1(A,B,D), R2(C,D)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 릴레이션 스키마 R(A, B, C, D), R1(B,C,D), R2(A,B), R1(A,C,D), R2(B,C,D))
-정답은 ③이다. 본 문항은 릴레이션 스키마 R(A, B, C, D), R1(B,C,D), R2(A,B), R1(A,C,D), R2(B,C,D)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · BCNF 분해
+정답은 ③이다. A → BCD, B → ACD이므로 A와 B는 후보키이다. D → C에서 D는 후보키가 아니므로 BCNF를 위반한다. D → C를 분리하여 R2(C, D)를 만들고 나머지를 R1(A, B, D)로 두면 두 릴레이션 모두 BCNF를 만족한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>R1(B,C,D), R2(A,B)</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>D → C를 분리하지 않아 R1이 BCNF를 위반한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>R1(A,C,D), R2(B,C,D)</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>BCNF 위반 종속이 남는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>R1(A,B,D), R2(C,D)</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>R1(A, B, D), R2(C, D)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>R1(A,B,C), R2(C,D)</choice_text>
-          <commentary>데이터베이스 정규화는 삽입·삭제·갱신 이상을 제거하기 위해 1NF(원자값) → 2NF(부분함수종속 제거) → 3NF(이행함수종속 제거) → BCNF(모든 결정자가 후보키) 순으로 분해하는 과정이다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>D가 R1에 없어 무손실 분해가 되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -585,24 +582,24 @@
         <correct_choice_text>T_(1)과 T_(2)가 모두 교착 상태에 빠진다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 다음과, 트랜잭션, 대하여, 현재)
-정답은 ④이다. 본 문항은 다음과, 트랜잭션, 대하여, 현재에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 교착 상태
+정답은 ④이다. T1은 X에 배타 로크를 가진 채 Y에 배타 로크를 요청하지만, T2가 Y에 공유 로크를 갖고 있어 대기한다. T2는 Y의 공유 로크를 가진 채 X에 배타 로크를 요청하지만, T1이 X를 갖고 있어 대기한다. 서로 상대가 가진 로크를 기다리므로 두 트랜잭션 모두 교착 상태에 빠진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>T_(1)은 성공적으로 완료되지만 T_(2)는 교착 상태에 빠진다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T1도 Y를 얻지 못해 대기한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>T_(1)은 교착 상태에 빠지지만 T_(2)는 성공적으로 완료된다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>T2도 X를 얻지 못해 대기한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>T_(1)과 T_(2)가 모두 성공적으로 완료된다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>두 트랜잭션 모두 완료하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>T_(1)과 T_(2)가 모두 교착 상태에 빠진다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>모두 교착 상태이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -619,24 +616,24 @@
         <correct_choice_text>빅데이터 분석 과정에서 추출된 정보를 시각화하는 기술로 Hadoop의 맵 리듀스(MapReduce)를 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 빅데이터(big data), 로 Hadoop의 맵 리듀스(MapReduce))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 빅데이터
+정답은 ④이다. 맵리듀스는 대용량 데이터를 분산 노드에서 병렬로 처리하는 프로그래밍 모델이며, 시각화 기술이 아니다. 시각화는 분석 결과를 차트나 대시보드 등으로 표현하는 별도의 도구로 수행한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>디지털 환경에서 생성되는 데이터로 규모가 방대하고, 정형, 반정형, 비정형 등 다양한 형태의 데이터를 포함한다.</choice_text>
-          <commentary>'디지털 환경에서 생성되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>빅데이터의 규모와 다양성에 대한 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>NoSQL 시스템은 반구조적이고 자기 기술적인 데이터를 허용하므로 대개는 스키마를 요구하지 않는다.</choice_text>
-          <commentary>'NoSQL 시스템'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>NoSQL은 대개 고정 스키마를 요구하지 않으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>NoSQL의 키-값(key-value) 데이터 모델은 키와 값의 쌍으로 저장하며, 값은 이미지나 동영상 등 다양한 형태의 데이터가 될 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>키-값 모델의 값은 임의 형태가 될 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>빅데이터 분석 과정에서 추출된 정보를 시각화하는 기술로 Hadoop의 맵 리듀스(MapReduce)를 사용한다.</choice_text>
-          <commentary>'빅데이터 분석 과정에서 추출된 정보를 시각화하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>맵리듀스는 분산 처리 기술이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -655,24 +652,24 @@
         <correct_choice_text>XQuery 질의문은 FOR, LET, WHERE, RETURN 절로 구성되고 둘 이상의 변수에 대한 조인연산을 작성할 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 복합 보기 검증형 (핵심어: DTD(Document Type Definition), 마 문서와 달리 네임스페이스(namespace), 데이터베이스 테이블에 맵핑(mapping), 이터를 제외한 다른 데이터형(data type))
-정답은 ③이다. 본 문항은 DTD(Document Type Definition), 마 문서와 달리 네임스페이스(namespace), 데이터베이스 테이블에 맵핑(mapping), 이터를 제외한 다른 데이터형(data type)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 마크업 언어와 XQuery
+정답은 ③이다. XQuery는 FOR, LET, WHERE, ORDER BY, RETURN 절(FLWOR)로 구성되며, 둘 이상의 변수를 FOR 절에 두고 WHERE 절에서 값을 비교하여 조인을 표현할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DTD(Document Type Definition) 문서는 XML 문서를 작성하기 위한 구문 규칙과 동일한 방식으로 작성된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DTD는 문서 구문과 다른 전용 문법으로 작성되므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DTD(Document Type Definition) 문서는 XML 스키마 문서와 달리 네임스페이스(namespace)를 지원한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>네임스페이스를 지원하는 것은 스키마이며 DTD는 지원하지 못하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>XQuery 질의문은 FOR, LET, WHERE, RETURN 절로 구성되고 둘 이상의 변수에 대한 조인연산을 작성할 수 있다.</choice_text>
-          <commentary>'XQuery 질의문'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>FLWOR 구성과 조인 작성이 가능하므로 옳아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>XML 스키마는 XML 문서의 요소 및 속성을 데이터베이스 테이블에 맵핑(mapping)할 때 문자열 데이터를 제외한 다른 데이터형(data type)을 지정할 수 없다.</choice_text>
-          <commentary>'XML 스키마'에 관하여 '할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>스키마는 정수, 날짜 등 다양한 데이터형을 지정할 수 있으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -690,24 +687,24 @@
         <correct_choice_text>뷰 직렬 가능하지만, 충돌 직렬 가능하지 않다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 핵심 개념·이론 이해형 (핵심어: 다음과 같은 스케줄의 뷰(view), 충돌(conflict), 직렬 가능성(serializability))
-정답은 ③이다. 본 문항은 다음과 같은 스케줄의 뷰(view), 충돌(conflict), 직렬 가능성(serializability)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 뷰 직렬성과 충돌 직렬성
+정답은 ③이다. 충돌 관계는 r1(X) → w2(X)에 의한 T1 → T2와 w2(X) → w1(X)에 의한 T2 → T1이 있어 우선순위 그래프에 사이클이 생기므로 충돌 직렬 가능하지 않다. 그러나 직렬 스케줄 T1 → T2 → T3과 비교하면 T1이 초깃값을 읽고 최종 쓰기가 T3이라는 점이 같으므로 뷰 직렬 가능하다. 이는 블라인드 쓰기(w2, w3) 때문에 가능하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>뷰 직렬 가능하며, 동시에 충돌 직렬 가능하다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>충돌 직렬 가능하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>뷰 직렬 가능하지 않으며, 충돌 직렬 가능하지 않다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>뷰 직렬 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>뷰 직렬 가능하지만, 충돌 직렬 가능하지 않다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>뷰 직렬 가능하지만 충돌 직렬 가능하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>뷰 직렬 가능하지 않지만, 충돌 직렬 가능하다.</choice_text>
-          <commentary>트랜잭션은 데이터베이스의 논리적 작업 단위로 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)의 ACID 특성을 보장하여야 한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반대로 설명하였다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -723,8 +720,8 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 데이터베이스론 · 복합 보기 검증형 (핵심어: 관계형 데이터베이스 역정규화(denormalization))
-정답은 ①이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(X), ㄷ(X), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ①(ㄱ, ㄴ, ㄷ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 데이터베이스론 · 역정규화
+정답은 ①이다. 역정규화는 조인 결과를 미리 저장하는 등으로 정규형 수준을 낮추어 검색 성능을 높이는 기법이다. 정규형 수준은 낮아지고(ㄱ 틀림), 목적은 무결성 강화가 아닌 성능 향상이며(ㄴ 틀림), 중복이 늘어 데이터베이스 크기가 증가한다(ㄷ 틀림). 빈번한 조인 결과를 저장하면 응답 시간이 단축되므로 ㄹ은 옳다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X] (정답)">
           <statement>릴레이션들은 역정규화한 후 정규형 수준이 높아진다.</statement>
@@ -746,19 +743,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄴ, ㄷ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄹ은 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

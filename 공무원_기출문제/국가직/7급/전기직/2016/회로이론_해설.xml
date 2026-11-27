@@ -380,19 +380,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} + L_{2} ) \mathbf{I}$</choice_text>
-          <commentary>상호 인덕턴스를 고려하지 않았다.</commentary>
+          <commentary>jω(L₁ + L₂)I는 상호 인덕턴스를 무시한 것으로 결합 코일의 직렬 전압이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$j \omega ( L_{1} + L_{2} + 2 M ) \mathbf{I}$</choice_text>
-          <commentary>jω(L₁ + L₂ + 2M)I이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 가동 결합 직렬 연결이므로 등가 인덕턴스 L₁ + L₂ + 2M에 의해 V₁₄ = jω(L₁ + L₂ + 2M)I로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} + L_{2} - 2 M ) \mathbf{I}$</choice_text>
-          <commentary>차동 결합 직렬 연결의 식이다.</commentary>
+          <commentary>L₁ + L₂ - 2M은 차동 결합 직렬 연결의 등가 인덕턴스이므로 공식 정답의 결합 방향과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$j \omega ( L_{1} - L_{2} ) \mathbf{I}$</choice_text>
-          <commentary>직렬 연결의 식이 아니다.</commentary>
+          <commentary>두 코일이 직렬이면 자기 인덕턴스는 더해지므로 L₁ - L₂ 형태는 성립하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -413,19 +413,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{2} \cos ( t - 45 ^\circ )$</choice_text>
-          <commentary>진폭과 위상이 모두 다르다.</commentary>
+          <commentary>|H(j1)| = 1/√2이므로 진폭은 12/√2 = 6√2이며 3√2는 옳지 않고 위상도 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$6 \sqrt{2} \cos ( t - 15 ^\circ )$</choice_text>
-          <commentary>위상이 다르다.</commentary>
+          <commentary>진폭 6√2는 맞지만 ∠H = +45°이므로 위상은 -30° + 45° = +15°이고 -15°는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$6 \sqrt{2} \cos ( t + 15 ^\circ )$</choice_text>
-          <commentary>6√2 cos(t + 15°)이므로 정답이다.</commentary>
+          <commentary>H(j1) = j/(1 + j)에서 |H| = 1/√2, ∠H = 45°이므로 v_o = 6√2 cos(t + 15°)로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{2} \cos ( t + 45 ^\circ )$</choice_text>
-          <commentary>진폭과 위상이 모두 다르다.</commentary>
+          <commentary>진폭은 6√2이고 위상은 +15°이므로 3√2와 +45° 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

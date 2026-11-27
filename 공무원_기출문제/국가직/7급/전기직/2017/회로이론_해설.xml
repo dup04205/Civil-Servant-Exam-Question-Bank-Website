@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$wMI_{m} \cos ( wt + 30 ^\circ )$</choice_text>
-          <commentary>점 표시에 따른 부호가 반대인 경우이다.</commentary>
+          <commentary>+M(di₁/dt) = ωMI_m cos(ωt + 30°)는 부호가 양인 경우이며 공식 정답의 점 표시 조건과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$wMI_{m} \cos ( wt - 90 ^\circ )$</choice_text>
-          <commentary>위상이 맞지 않는다.</commentary>
+          <commentary>cos(ωt - 90°) = sin(ωt)로 위상 30°가 반영되지 않아 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$wMI_{m} \sin ( wt + 30 ^\circ )$</choice_text>
-          <commentary>미분에 따른 90° 위상 변화가 반영되지 않았다.</commentary>
+          <commentary>sin(ωt + 30°)는 미분에 따른 90° 위상 변화가 반영되지 않아 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$wMI_{m} \sin ( wt - 60 ^\circ )$</choice_text>
-          <commentary>ωMI_m sin(ωt − 60°)이므로 정답이다.</commentary>
+          <commentary>v₂ = -M(di₁/dt) = -ωMI_m cos(ωt + 30°) = ωMI_m sin(ωt - 60°)이므로 공식 정답에 따라 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,19 +245,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$5 \sqrt{2}$ $50$</choice_text>
-          <commentary>선전류와 부하전압이 모두 다르다.</commentary>
+          <commentary>선로를 포함한 한 상의 임피던스 |6 + j8| = 10Ω이므로 선전류는 5√2A가 아니라 10A이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5 \sqrt{2}$ $50 \sqrt{2}$</choice_text>
-          <commentary>선전류가 다르다.</commentary>
+          <commentary>선전류 5√2A는 부하 임피던스만으로 계산한 값으로 선로 임피던스를 빠뜨렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$10$ $50$</choice_text>
-          <commentary>부하전압이 다르다.</commentary>
+          <commentary>선전류 10A는 맞지만 부하전압은 10 × |5 + j5| = 50√2V이므로 50V는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$10$ $50 \sqrt{2}$</choice_text>
-          <commentary>10A, 50√2V이므로 정답이다.</commentary>
+          <commentary>선전류 100/10 = 10A, 부하전압 10 × 5√2 = 50√2V이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -314,19 +314,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10 5</choice_text>
-          <commentary>C의 크기가 공진 조건에 맞지 않는다.</commentary>
+          <commentary>R = 10Ω은 맞지만 C = 1/(20² × 0.005) = 0.5F = 500mF이므로 5는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 500</choice_text>
-          <commentary>R = 10Ω, C = 500mF이므로 정답이다.</commentary>
+          <commentary>동상이므로 공진 상태이며 R = 10/1 = 10Ω, C = 1/(ω²L) = 500mF이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>50 5</choice_text>
-          <commentary>R은 V/I = 10Ω이다.</commentary>
+          <commentary>공진 시 입력 임피던스는 R = 10Ω이므로 50Ω은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>50 500</choice_text>
-          <commentary>R은 10Ω이다.</commentary>
+          <commentary>C 값은 맞지만 R = V_m/I_m = 10Ω이므로 50Ω은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -589,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{CRs - 1}{CRs + 1}$</choice_text>
-          <commentary>(CRs − 1)/(CRs + 1)이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 H(s) = (CRs - 1)/(CRs + 1)로 크기 1의 전역통과 회로이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{CRs + 1}{CRs - 1}$</choice_text>
-          <commentary>극점이 우반면에 있다.</commentary>
+          <commentary>극점이 s = 1/(CR)로 우반면에 있어 불안정한 전달함수이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1 - CRs}{CRs + 1}$</choice_text>
-          <commentary>부호가 공식 정답과 다르다.</commentary>
+          <commentary>(1 - CRs)/(CRs + 1)은 공식 정답과 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{CRs + 1}$</choice_text>
-          <commentary>1차 저역통과필터이다.</commentary>
+          <commentary>1/(CRs + 1)은 1차 저역통과 필터의 전달함수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -625,19 +625,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인덕터 0.1 [H]</choice_text>
-          <commentary>인덕터를 추가하면 유도성이 더 커진다.</commentary>
+          <commentary>부하가 유도성(-j0.2S)이므로 인덕터를 추가하면 무효분이 더 커져 역률이 개선되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인덕터 0.2 [H]</choice_text>
-          <commentary>인덕터를 추가하면 유도성이 더 커진다.</commentary>
+          <commentary>인덕터는 유도성 서셉턴스를 더하므로 역률 1을 만들 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>커패시터 0.1 [F]</choice_text>
-          <commentary>0.1F로는 서셉턴스가 상쇄되지 않는다.</commentary>
+          <commentary>커패시터 0.1F는 +j0.1S만 더해 -j0.1S가 남으므로 역률이 1이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>커패시터 0.2 [F]</choice_text>
-          <commentary>커패시터 0.2F이므로 정답이다.</commentary>
+          <commentary>ωC = 0.2S의 커패시터를 병렬로 연결하면 서셉턴스가 상쇄되어 역률이 1이 되므로 C = 0.2F가 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

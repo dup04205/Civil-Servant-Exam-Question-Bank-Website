@@ -348,19 +348,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- 3 e^{- 3 t} + 5 e^{- 5 t}$</choice_text>
-          <commentary>−3e^(−3t) + 5e^(−5t)이므로 정답이다.</commentary>
+          <commentary>V_o(s) = 2s/((s + 3)(s + 5))의 부분분수 계수가 A = -3, B = 5이므로 v_o(t) = -3e^(-3t) + 5e^(-5t)로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5 e^{- 3 t} - 3 e^{- 5 t}$</choice_text>
-          <commentary>계수가 다르다.</commentary>
+          <commentary>t = 0⁺에서 5 - 3 = 2로 초기값은 맞지만 계수가 서로 뒤바뀌어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3 e^{- 3 t} - 5 e^{- 5 t}$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>t = 0⁺에서 3 - 5 = -2로 초기값 H(∞) = 2와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- 5 e^{- 3 t} + 3 e^{- 5 t}$</choice_text>
-          <commentary>계수가 다르다.</commentary>
+          <commentary>t = 0⁺에서 -5 + 3 = -2로 초기값이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -381,19 +381,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>30W가 아니다.</commentary>
+          <commentary>30W는 cosθ를 두 번 곱하거나 |Z|를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>60W가 아니다.</commentary>
+          <commentary>60W는 V_m²/(2|Z|) = 240W에 0.25를 곱한 값으로 역률 cos60° = 0.5와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>90</choice_text>
-          <commentary>90W가 아니다.</commentary>
+          <commentary>90W는 계산 근거가 없는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>120</choice_text>
-          <commentary>120W이므로 정답이다.</commentary>
+          <commentary>P = (120²/(2 × 30)) × cos(-60°) = 240 × 0.5 = 120W이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -414,19 +414,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Z_(AB) ＝ ( N_(1) N_(2) )Z_(L)</choice_text>
-          <commentary>권선비를 제곱해야 한다.</commentary>
+          <commentary>임피던스 변환에는 권선비의 제곱이 곱해지므로 1제곱은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Z_(AB) ＝ ( N_(2) N_(1) )Z_(L)</choice_text>
-          <commentary>권선비가 뒤집혀 있고 제곱하지 않았다.</commentary>
+          <commentary>권선비가 뒤집혀 있고 제곱도 빠져 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Z_(AB) ＝ ( N_(1) N_(2) )^(2)Z_(L)</choice_text>
-          <commentary>(N₁/N₂)²Z_L이므로 정답이다.</commentary>
+          <commentary>V₁/V₂ = N₁/N₂, I₁/I₂ = N₂/N₁이므로 Z_AB = (N₁/N₂)²Z_L로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Z_(AB) ＝ ( N_(2) N_(1) )^(2)Z_(L)</choice_text>
-          <commentary>권선비가 뒤집혀 있다.</commentary>
+          <commentary>제곱은 맞지만 권선비가 뒤집혀 2차측에서 본 1차 임피던스 형태이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -485,19 +485,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>1V가 아니다.</commentary>
+          <commentary>1V는 최종값 정리 계산 결과 5V와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>2V가 아니다.</commentary>
+          <commentary>2V는 분자 계수 2만 취한 값으로 (s + 5/2)의 s = 0 값 2.5를 빠뜨렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>2.5V가 아니다.</commentary>
+          <commentary>2.5V는 분자의 2배를 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5V이므로 정답이다.</commentary>
+          <commentary>v_c(∞) = lim(s→0) sV_c(s) = 2 × 2.5 / 1 = 5V이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5 [ 1 - 2 e^{- 2 s} + 2 e^{- 6 s} - e^{- 8 s} ]}{s}$</choice_text>
-          <commentary>램프 함수의 변환은 1/s²이므로 분모가 다르다.</commentary>
+          <commentary>램프 함수의 변환은 1/s²이므로 분모가 s인 것은 계단함수 조합에 해당하여 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5 [ 1 - 4 e^{- 2 s} + 4 e^{- 6 s} - e^{- 8 s} ]}{s}$</choice_text>
-          <commentary>계수와 분모가 다르다.</commentary>
+          <commentary>분모가 s이고 계수 4도 공식 정답의 파형과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{5 [ 1 - 2 e^{- 2 s} + 2 e^{- 6 s} - e^{- 8 s} ]}{s^{2}}$</choice_text>
-          <commentary>5[1 − 2e^(−2s) + 2e^(−6s) − e^(−8s)]/s²이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 f(t) = 5[r(t) - 2r(t - 2) + 2r(t - 6) - r(t - 8)]이고 ℒ{r(t - a)} = e^(-as)/s²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5 [ 1 - 4 e^{- 2 s} + 4 e^{- 6 s} - e^{- 8 s} ]}{s^{2}}$</choice_text>
-          <commentary>기울기 변화량이 다르다.</commentary>
+          <commentary>분모는 맞지만 계수 4는 기울기 변화량이 공식 정답의 파형과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -693,19 +693,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{I}{\sqrt{3}} \theta + 150 ^\circ$</choice_text>
-          <commentary>I_CA의 값이다.</commentary>
+          <commentary>크기 I/√3는 맞지만 θ + 150°는 I_CA의 위상이며 I_AC는 이와 반대 방향이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{I}{\sqrt{3}} \theta - 30 ^\circ$</choice_text>
-          <commentary>(I/√3)∠(θ − 30°)이므로 정답이다.</commentary>
+          <commentary>I_CA = (I/√3)∠(θ + 150°)이고 I_AC = -I_CA = (I/√3)∠(θ - 30°)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{3} I \theta - 30 ^\circ$</choice_text>
-          <commentary>상전류는 선전류보다 작다.</commentary>
+          <commentary>Δ결선에서 상전류는 선전류의 1/√3배이므로 √3I는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{3} I \theta + 150 ^\circ$</choice_text>
-          <commentary>크기와 위상이 모두 다르다.</commentary>
+          <commentary>크기와 위상 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

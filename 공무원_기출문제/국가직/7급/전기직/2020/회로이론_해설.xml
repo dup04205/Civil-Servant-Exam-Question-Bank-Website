@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>중첩의 원리는 모든 회로에서 적용된다.</choice_text>
-          <commentary>중첩의 원리는 선형 회로에만 적용되므로 옳지 않아 정답이다.</commentary>
+          <commentary>중첩의 원리는 선형 회로에서만 성립하며 다이오드 등 비선형 소자가 있는 회로에는 적용할 수 없다. 모든 회로라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>한 회로에서 테브난 등가회로의 등가저항은 노튼 등가회로의 등가저항과 같다.</choice_text>
-          <commentary>테브난 등가저항과 노튼 등가저항은 R_Th = V_oc / I_sc로 같으므로 옳다.</commentary>
+          <commentary>테브난 등가저항과 노튼 등가저항은 모두 독립전원을 제거하고 단자에서 본 저항으로 서로 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>한 회로 내의 임의의 마디에서 나가는 전류의 합은 그 마디로 들어오는 전류의 합과 같다.</choice_text>
-          <commentary>키르히호프의 전류 법칙(KCL)이므로 옳다.</commentary>
+          <commentary>키르히호프 전류법칙에 따라 마디로 들어오는 전류의 합과 나가는 전류의 합은 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>한 회로에서 부하저항이 그 회로의 테브난 등가저항과 같을 때, 부하저항에 최대전력이 전달된다.</choice_text>
-          <commentary>최대전력 전달 정리(R_L = R_Th)이므로 옳다.</commentary>
+          <commentary>최대전력전달정리에 따라 부하저항이 테브난 등가저항과 같을 때 최대전력이 전달되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -67,19 +67,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이상적인 연산증폭기는 입력저항이 무한대이고 출력저항은 0이다.</choice_text>
-          <commentary>이상적 연산증폭기는 입력저항 ∞, 출력저항 0이므로 옳다.</commentary>
+          <commentary>이상적인 연산증폭기는 입력저항이 무한대, 출력저항이 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>이상적인 연산증폭기에서 2개의 입력단자에 각각 흐르는 전류는 0이다.</choice_text>
-          <commentary>입력저항이 ∞이므로 입력단자 전류는 0이다.</commentary>
+          <commentary>입력저항이 무한대이므로 두 입력단자에 흐르는 전류는 0이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>연산증폭기 회로에서 출력단자와 반전단자를 연결하면 전압추종기(voltage follower)로 동작한다.</choice_text>
-          <commentary>출력을 반전단자에 직접 연결하면 v_o = v_+인 전압추종기가 된다.</commentary>
+          <commentary>출력단자를 반전단자에 직접 연결하면 이득 1의 전압추종기로 동작하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>연산증폭기 회로에서 저항을 사용하여 출력단자와 비반전단자에 연결하는 것을 부궤환(negative feedback)이라 한다.</choice_text>
-          <commentary>출력을 비반전단자로 연결하는 것은 정궤환이므로 옳지 않아 정답이다.</commentary>
+          <commentary>부궤환은 출력을 반전단자로 되돌리는 것이며 비반전단자로 되돌리면 정궤환이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -100,19 +100,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>직류 성분의 출력이 남으므로 0이 아니다.</commentary>
+          <commentary>직류 이득 H(0) = 4 / (1 × 2²) = 1이므로 계단 입력 1에 대한 정상상태 출력은 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1V이므로 정답이다.</commentary>
+          <commentary>H(0) = 1이고 3e^(-2t) 성분의 응답은 t → ∞에서 0으로 감쇠하므로 정상상태 출력은 1 × 1 = 1V로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>2V가 아니다.</commentary>
+          <commentary>출력이 2V가 되려면 직류 이득이 2여야 하나 H(0) = 1이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>∞</choice_text>
-          <commentary>모든 극점이 좌반면에 있어 발산하지 않는다.</commentary>
+          <commentary>모든 극점(-1, -2)이 좌반면에 있어 안정하므로 출력이 발산하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -134,19 +134,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{s} \left( 5 - 3 e^{- s} + 3 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice_text>
-          <commentary>공식 정답에 따른 변환이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 f(t) = 5u(t) - 3u(t-1) + 3u(t-3) - 5u(t-4)이고 u(t-a)의 변환이 e^(-as)/s이므로 이 식이 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s} \left( 5 - 2 e^{- s} + 2 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice_text>
-          <commentary>1초와 3초에서의 변화량이 공식 정답과 다르다.</commentary>
+          <commentary>계수 2는 1~3초 구간의 값이 3인 파형에 해당하므로 공식 정답의 파형과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s} \left( 5 + 2 e^{- s} - 2 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice_text>
-          <commentary>1초와 3초에서의 변화 방향이 공식 정답과 다르다.</commentary>
+          <commentary>+2e^(-s)는 1~3초 구간의 값이 7로 증가하는 파형에 해당하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s} \left( 5 + 3 e^{- s} - 3 e^{- 3 s} - 5 e^{- 4 s} \right)$</choice_text>
-          <commentary>1초와 3초에서의 변화 방향이 공식 정답과 다르다.</commentary>
+          <commentary>+3e^(-s)는 1~3초 구간의 값이 8로 증가하는 파형에 해당하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -273,19 +273,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{N_{1} + N_{2}}{N_{1}} \right) Z_{L}$</choice_text>
-          <commentary>권선비를 제곱하지 않았고 분모도 틀렸다.</commentary>
+          <commentary>권선비의 1제곱이 아니라 제곱이 곱해지고, 2차측 권선수는 N₂이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{N_{1} + N_{2}}{N_{1}} \right)^{2} Z_{L}$</choice_text>
-          <commentary>2차측 권선수는 N₁이 아니라 N₂이다.</commentary>
+          <commentary>기준 권선수를 N₁로 잡았으나 2차측 권선수는 N₂이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{N_{1} + N_{2}}{N_{2}} \right) Z_{L}$</choice_text>
-          <commentary>임피던스 변환은 권선비의 제곱에 비례한다.</commentary>
+          <commentary>임피던스 변환에는 권선비의 제곱이 곱해지므로 1제곱으로 나타낸 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left( \frac{N_{1} + N_{2}}{N_{2}} \right)^{2} Z_{L}$</choice_text>
-          <commentary>((N₁ + N₂)/N₂)² Z_L이므로 정답이다.</commentary>
+          <commentary>1차측 권선수 N₁ + N₂, 2차측 권선수 N₂이므로 Z_in = ((N₁ + N₂)/N₂)² Z_L로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -375,19 +375,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>임피던스 파라미터는 입출력 단자전압(V_(1), V_(2))을 입출력 단자전류(I_(1), I_(2))로 표시하기 위한 매개변수이다.</choice_text>
-          <commentary>임피던스 파라미터는 전압을 전류로 표시하는 매개변수이므로 옳다.</commentary>
+          <commentary>임피던스 파라미터는 V₁, V₂를 I₁, I₂로 표시하는 매개변수이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전원과 증폭기가 없고 저항 소자만으로 구성된 4단자망 회로에서 임피던스 파라미터 중 $z_{12}$는 $z_{21}$과 같다.</choice_text>
-          <commentary>수동 상반 회로에서는 z₁₂ = z₂₁이므로 옳다.</commentary>
+          <commentary>저항만으로 이루어진 수동 회로는 가역 회로이므로 z₁₂ = z₂₁이 성립하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>어드미턴스 파라미터 중 $y_11$은 입력 단자에 전류원을 연결하고 출력 단자는 단락하여 구한다.</choice_text>
-          <commentary>y₁₁은 입력에 전원을 연결하고 출력을 단락하여 구하므로 옳다.</commentary>
+          <commentary>y₁₁은 출력 단자를 단락(V₂ = 0)하고 입력에 전원을 연결하여 I₁/V₁으로 구하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>어드미턴스 파라미터 중 $y_11$은 임피던스 파라미터 중 $z_11$의 역수이다.</choice_text>
-          <commentary>y₁₁은 z₁₁의 역수가 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>y₁₁은 출력 단락 조건, z₁₁은 출력 개방 조건으로 구하므로 일반적으로 y₁₁ = z₂₂/Δz이며 z₁₁의 역수가 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -408,19 +408,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>고역통과필터 $\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}$</choice_text>
-          <commentary>고역통과필터, R₁R₂/((R₁ + R₂)L)이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 고역통과필터이며 인덕터에서 본 테브난 저항 R₁R₂/(R₁ + R₂)를 L로 나눈 값이 차단주파수이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>저역통과필터 $\frac{R_{1} R_{2}}{( R_{1} + R_{2} ) L}$</choice_text>
-          <commentary>필터의 종류가 다르다.</commentary>
+          <commentary>차단주파수 식은 맞으나 공식 정답에 따르면 필터 종류가 저역통과가 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>고역통과필터 $\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}$</choice_text>
-          <commentary>차단주파수의 차원이 맞지 않는다.</commentary>
+          <commentary>R·L의 곱은 [rad/s] 단위가 되지 않으므로 차단주파수 식으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>저역통과필터 $\frac{R_{1} R_{2} L}{( R_{1} + R_{2} )}$</choice_text>
-          <commentary>필터의 종류와 차단주파수가 모두 다르다.</commentary>
+          <commentary>필터 종류와 차단주파수 식이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -441,19 +441,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{10^{2} ( s + 10 )}{( s + 1 ) ( s + 100 )}$</choice_text>
-          <commentary>극점과 영점의 위치가 공식 정답과 다르다.</commentary>
+          <commentary>1rad/s 극점, 10rad/s 영점 구조로 공식 정답의 보드선도(1rad/s 영점, 100rad/s 이중 극점)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )}$</choice_text>
-          <commentary>이중 극점이 없어 고주파 기울기가 다르다.</commentary>
+          <commentary>100rad/s에 단일 극점만 있어 고주파 기울기가 -20dB/dec이므로 이중 극점 구조와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{10^{4} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}$</choice_text>
-          <commentary>이득 상수가 달라 크기가 맞지 않는다.</commentary>
+          <commentary>직류 이득이 10⁴ × 1 / (10 × 10⁴) = 0.1(-20dB)로 공식 정답의 직류 이득과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{10^{6} ( s + 1 )}{( s + 10 ) ( s + 100 )^{2}}$</choice_text>
-          <commentary>10⁶(s + 1)/((s + 10)(s + 100)²)이므로 정답이다.</commentary>
+          <commentary>직류 이득 10⁶ × 1 / (10 × 10⁴) = 10(20dB)이고 1rad/s 영점, 10rad/s 극점, 100rad/s 이중 극점을 가지므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -477,19 +477,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{2}$</choice_text>
-          <commentary>3√2 A가 아니다.</commentary>
+          <commentary>I = 3√2 ≈ 4.24A이면 P = √3 × 400 × 4.24 × 0.9 ≈ 2.65kW로 5.4kW가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$3 \sqrt{3}$</choice_text>
-          <commentary>3√3 A가 아니다.</commentary>
+          <commentary>I = 3√3 ≈ 5.20A이면 P = √3 × 400 × 5.20 × 0.9 ≈ 3.24kW로 5.4kW가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$5 \sqrt{2}$</choice_text>
-          <commentary>5√2 A가 아니다.</commentary>
+          <commentary>I = 5√2 ≈ 7.07A이면 P ≈ 4.41kW로 5.4kW가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$5 \sqrt{3}$</choice_text>
-          <commentary>5√3 A이므로 정답이다.</commentary>
+          <commentary>I_L = 5,400 / (√3 × 400 × 0.9) = 15/√3 = 5√3A이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -582,19 +582,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} - Mi_{1} i_{2}$</choice_text>
-          <commentary>공식 정답에 따르면 상호 인덕턴스 항의 부호가 다르다.</commentary>
+          <commentary>-M 항은 두 전류 중 하나가 점 단자로 들어가고 하나는 나올 때이다. 공식 정답에 따르면 이 회로는 자속이 더해지는 경우이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} L_{1} i_{1}^{2} + \frac{1}{2} L_{2} i_{2}^{2} + Mi_{1} i_{2}$</choice_text>
-          <commentary>(1/2)L₁i₁² + (1/2)L₂i₂² + Mi₁i₂이므로 정답이다.</commentary>
+          <commentary>결합 인덕터의 에너지는 (1/2)L₁i₁² + (1/2)L₂i₂² + Mi₁i₂이며 공식 정답에 따르면 자속이 더해지는 결합이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$L_{1} i_{1}^{2} + L_{2} i_{2}^{2} - 2 Mi_{1} i_{2}$</choice_text>
-          <commentary>자기 인덕턴스 항에 1/2이 빠졌다.</commentary>
+          <commentary>자기 인덕턴스 항에 1/2 계수가 빠져 에너지 식으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$L_{1} i_{1}^{2} + L_{2} i_{2}^{2} + 2 Mi_{1} i_{2}$</choice_text>
-          <commentary>자기 인덕턴스 항에 1/2이 빠졌다.</commentary>
+          <commentary>1/2 계수가 빠져 실제 에너지의 2배가 되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -689,19 +689,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{3} - \frac{R_{2}}{R_{1} + R_{2}}$</choice_text>
-          <commentary>1/3 − R₂/(R₁ + R₂)이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 빈 브리지의 RC 분배비 1/3에서 저항 분압비 R₂/(R₁ + R₂)를 뺀 값이 이득이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} - \frac{R_{2}}{R_{1} + R_{2}}$</choice_text>
-          <commentary>RC 회로망의 분배비는 2/3가 아니라 1/3이다.</commentary>
+          <commentary>ω₀에서 직렬·병렬 RC 회로망의 분배비는 2/3가 아니라 1/3이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3} + \frac{R_{2}}{R_{1} + R_{2}}$</choice_text>
-          <commentary>두 분배비의 차이므로 부호가 다르다.</commentary>
+          <commentary>출력은 두 분압 전압의 차이므로 분압비를 더한 형태는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} + \frac{R_{2}}{R_{1} + R_{2}}$</choice_text>
-          <commentary>분배비와 부호가 모두 다르다.</commentary>
+          <commentary>분배비 2/3와 덧셈 형태 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

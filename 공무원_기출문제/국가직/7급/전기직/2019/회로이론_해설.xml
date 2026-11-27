@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s}$</choice_text>
-          <commentary>1/s는 u(t)만의 변환이다.</commentary>
+          <commentary>1/s는 u(t)만의 변환이며 -e^(-t) 성분의 변환 -1/(s + 1)이 빠져 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s + 1}$</choice_text>
-          <commentary>1/(s + 1)은 e^(−t)u(t)의 변환이다.</commentary>
+          <commentary>1/(s + 1)은 e^(-t)u(t)의 변환이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s ( s - 1 )}$</choice_text>
-          <commentary>극점이 s = 1이면 e^t 항이 생기므로 옳지 않다.</commentary>
+          <commentary>분모의 (s - 1)은 e^(t) 성분에 해당하므로 감쇠 지수함수의 변환이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{s ( s + 1 )}$</choice_text>
-          <commentary>1/(s(s + 1))이므로 정답이다.</commentary>
+          <commentary>F(s) = 1/s - 1/(s + 1) = 1/(s(s + 1))이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{- X}{R^{2} + X^{2}}$</choice_text>
-          <commentary>−X/(R² + X²)이므로 정답이다.</commentary>
+          <commentary>Y = 1/(R + jX) = (R - jX)/(R² + X²)이므로 허수부인 서셉턴스는 -X/(R² + X²)로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{- R}{R^{2} + X^{2}}$</choice_text>
-          <commentary>허수부는 X에 비례하므로 옳지 않다.</commentary>
+          <commentary>-R/(R² + X²)는 컨덕턴스에 음의 부호를 붙인 값으로 서셉턴스가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{X}{R^{2} + X^{2}}$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>X/(R² + X²)는 부호가 반대이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{R}{R^{2} + X^{2}}$</choice_text>
-          <commentary>컨덕턴스이다.</commentary>
+          <commentary>R/(R² + X²)는 실수부인 컨덕턴스이므로 서셉턴스가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -239,19 +239,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.1A_(v )</choice_text>
-          <commentary>0.1배는 주파수가 10배일 때의 이득이다.</commentary>
+          <commentary>0.1A_v는 주파수가 10배일 때의 근사 이득이므로 100배인 경우와 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.01A_(v)</choice_text>
-          <commentary>0.01A_v이므로 정답이다.</commentary>
+          <commentary>ω ≫ ω₀에서 |H| ≈ ω₀/ω로 주파수에 반비례하므로 100배 주파수에서 이득은 0.01A_v로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10A_(v)log(0.01)</choice_text>
-          <commentary>이득의 배율을 로그로 나타낸 것이 아니다.</commentary>
+          <commentary>10A_v log(0.01)은 음수가 되어 전압 이득의 크기로 성립하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10log(0.01A_(v))</choice_text>
-          <commentary>데시벨 표현식이며 배율이 아니다.</commentary>
+          <commentary>10log(0.01A_v)는 데시벨 형태의 표현으로 전압 이득 자체가 아니며 계수도 20이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -377,19 +377,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{( s + 3 ) + 3^{2}}$</choice_text>
-          <commentary>(s + 3)이 제곱되지 않았다.</commentary>
+          <commentary>분모의 (s + 3)이 제곱되지 않아 주파수 이동을 잘못 적용하였으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3}{( s + 3 )^{2} + 3^{2}}$</choice_text>
-          <commentary>3/((s + 3)² + 3²)이므로 정답이다.</commentary>
+          <commentary>ℒ{sin 3t} = 3/(s² + 9)에 주파수 이동 s → s + 3을 적용하면 3/((s + 3)² + 3²)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s}{( s + 3 )^{2} + 3^{2}}$</choice_text>
-          <commentary>분자가 s이면 코사인 계열이다.</commentary>
+          <commentary>분자가 s인 형태는 코사인 함수의 변환 형태이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s + 3}{( s + 3 )^{2} + 3^{2}}$</choice_text>
-          <commentary>e^(−3t)cos(3t)의 변환이다.</commentary>
+          <commentary>(s + 3)/((s + 3)² + 3²)는 e^(-3t)cos(3t)의 변환이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -413,19 +413,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) － M</choice_text>
-          <commentary>분모의 M 계수는 2이다.</commentary>
+          <commentary>분모의 -M은 결합 계수를 한 번만 반영한 것으로 병렬 결합 인덕터의 등가식이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) － 2M</choice_text>
-          <commentary>(L₁L₂ − M²)/(L₁ + L₂ − 2M)이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 가동 결합 병렬 연결이므로 L_eq = (L₁L₂ - M²)/(L₁ + L₂ - 2M)으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) ＋ M</choice_text>
-          <commentary>분모의 M 계수와 부호가 다르다.</commentary>
+          <commentary>분모의 +M은 결합 항을 한 번만 반영한 것으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>L_(1)L_(2) － M^(2) L_(1) ＋ L_(2) ＋ 2M</choice_text>
-          <commentary>차동 결합 병렬 연결의 식이다.</commentary>
+          <commentary>분모의 +2M은 차동 결합 병렬 연결의 식이므로 공식 정답의 결합 방향과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -448,19 +448,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$( e^{- 2 t} - 2 e^{- t} ) u ( t )$</choice_text>
-          <commentary>(e^(−2t) − 2e^(−t))u(t)이므로 정답이다.</commentary>
+          <commentary>부분분수 전개로 A = -2, B = 1을 얻어 f(t) = (e^(-2t) - 2e^(-t))u(t)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$( e^{- 2 t} + 2 e^{- t} ) u ( t )$</choice_text>
-          <commentary>e^(−t) 항의 부호가 다르다.</commentary>
+          <commentary>e^(-t) 항의 계수 부호가 반대이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$( 2 e^{t} - e^{2 t} ) u ( t )$</choice_text>
-          <commentary>극점이 좌반면이므로 증가하는 지수 함수가 아니다.</commentary>
+          <commentary>극점이 -1, -2이므로 e^(t), e^(2t)처럼 증가하는 지수함수가 나올 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$( 2 e^{t} + e^{2 t} ) u ( t )$</choice_text>
-          <commentary>극점의 부호와 계수가 모두 다르다.</commentary>
+          <commentary>증가하는 지수함수 형태이고 부호도 맞지 않아 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -520,19 +520,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1200 \sqrt{3}$</choice_text>
-          <commentary>1,200√3W가 아니다.</commentary>
+          <commentary>1200√3 ≈ 2,078W는 Δ부하 전력 3,000W에도 미치지 않는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1200 \sqrt{5}$</choice_text>
-          <commentary>1,200√5W가 아니다.</commentary>
+          <commentary>1200√5 ≈ 2,683W는 피상전력과 유효전력을 혼동한 값으로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3600$</choice_text>
-          <commentary>한쪽 부하만 고려하거나 상전압을 잘못 적용한 값이다.</commentary>
+          <commentary>3,600W는 두 부하 전력의 합 6,000W와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$6000$</choice_text>
-          <commentary>6,000W이므로 정답이다.</commentary>
+          <commentary>Δ부하 3 × (30,000/180) × 6 = 3,000W와 Y부하 3 × (10,000/20) × 2 = 3,000W의 합은 6,000W이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.5</choice_text>
-          <commentary>2배 미만이므로 정답이다.</commentary>
+          <commentary>장변/단변 비가 1.5로 2 미만이면 2방향 슬래브로 해석해야 하므로 1방향 해석에 적합하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>1방향 슬래브로 해석할 수 있다.</commentary>
+          <commentary>비가 2.5로 2 이상이면 1방향 슬래브로 해석할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3.5</choice_text>
-          <commentary>1방향 슬래브로 해석할 수 있다.</commentary>
+          <commentary>비가 3.5로 2 이상이면 1방향 슬래브로 해석할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4.5</choice_text>
-          <commentary>1방향 슬래브로 해석할 수 있다.</commentary>
+          <commentary>비가 4.5로 2 이상이면 1방향 슬래브로 해석할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\phi [ 0 . 85 f_{ck} A_{g} + f_{y} A_{st} ]$</choice_text>
-          <commentary>콘크리트 면적과 계수가 틀렸다.</commentary>
+          <commentary>계수 0.80과 철근 면적 공제가 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\phi [ f_{ck} ( A_{g} - A_{st} ) + f_{y} A_{st} ]$</choice_text>
-          <commentary>계수가 틀렸다.</commentary>
+          <commentary>0.85fck와 계수 0.80이 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$0 . 85 \phi [ 0 . 85 f_{ck} ( A_{g} - A_{st} ) + f_{y} A_{st} ]$</choice_text>
-          <commentary>나선철근 기둥의 식이다.</commentary>
+          <commentary>계수 0.85는 나선철근 기둥의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0 . 80 \phi [ 0 . 85 f_{ck} ( A_{g} - A_{st} ) + f_{y} A_{st} ]$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>띠철근 기둥의 최대 설계축강도는 0.80φ[0.85fck(Ag - Ast) + fyAst]이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>콘크리트는 강재에 비해 높은 압축강도를 갖는다.</choice_text>
-          <commentary>강재보다 압축강도가 낮으므로 옳지 않아 정답이다.</commentary>
+          <commentary>콘크리트의 압축강도는 강재보다 훨씬 낮다. 높다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>콘크리트가 경화된 후, 철근과 콘크리트 사이에 강한 부착력이 유지된다.</choice_text>
-          <commentary>부착력이 유지되므로 옳다.</commentary>
+          <commentary>경화 후 철근과 콘크리트의 강한 부착으로 일체 거동하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>콘크리트와 철근의 열팽창 계수가 거의 같다.</choice_text>
-          <commentary>열팽창계수가 비슷하므로 옳다.</commentary>
+          <commentary>두 재료의 열팽창계수가 거의 같아 온도 변화에도 일체성이 유지되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>콘크리트는 철근을 부식과 화재로부터 보호한다.</choice_text>
-          <commentary>부식과 화재로부터 보호하므로 옳다.</commentary>
+          <commentary>콘크리트 피복은 철근을 부식과 화재로부터 보호하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -140,19 +140,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>인장지배단면: 0.85</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>인장지배단면의 강도감소계수는 0.85이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>나선철근으로 보강된 압축지배단면: 0.65</choice_text>
-          <commentary>0.70이므로 옳지 않아 정답이다.</commentary>
+          <commentary>나선철근으로 보강된 압축지배단면은 0.70이다. 0.65라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전단력과 비틀림모멘트: 0.75</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>전단력과 비틀림모멘트의 강도감소계수는 0.75이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>포스트텐션 정착구역: 0.85</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>포스트텐션 정착구역의 강도감소계수는 0.85이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>인장 이형철근의 정착길이 $l_{d}$는 기본정착길이 $l_{db}$에 보정계수를 고려하는 방법을 적용할 수 있다. 다만, 기본정착길이 $l_{db}$는 항상 300 mm 이상이어야 한다.</choice_text>
-          <commentary>옳지 않으므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 300 mm 이상 조건은 보정 후 정착길이 ld에 대한 것이다. 기본정착길이 ldb에 적용한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>인장 이형철근의 정착길이에 대한 보정계수는 배근 위치, 철근표면 도막 여부 등의 조건에 따라 정한다.</choice_text>
-          <commentary>보정계수 결정 조건으로 옳다.</commentary>
+          <commentary>보정계수는 배근 위치, 도막 여부, 철근 크기 등에 따라 정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동일 조건에서 D19 이하의 인장 이형철근에 대한 보정계수는 D22 이상의 인장 이형철근에 대한 보정계수보다 작다.</choice_text>
-          <commentary>D19 이하의 크기 보정계수(0.8)가 D22 이상(1.0)보다 작으므로 옳다.</commentary>
+          <commentary>D19 이하 철근의 크기 보정계수는 0.8로 D22 이상(1.0)보다 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>갈고리는 압축철근의 정착에 유효하지 않은 것으로 본다.</choice_text>
-          <commentary>갈고리는 압축 정착에 유효하지 않으므로 옳다.</commentary>
+          <commentary>갈고리는 압축철근 정착에 유효하지 않은 것으로 보므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -206,19 +206,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>특별히 수밀성이 요구되는 구조는 적절한 방법으로 균열에 대한 검토를 하여야 하며 이 경우 소요수밀성을 갖도록 허용균열폭을 설정하여 검토할 수 있다.</choice_text>
-          <commentary>수밀성 검토 방법으로 옳다.</commentary>
+          <commentary>수밀성이 필요한 구조는 소요 수밀성에 맞는 허용균열폭으로 검토하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>미관이 중요한 구조는 미관상의 허용균열폭을 설정하여 균열을 검토할 수 있다.</choice_text>
-          <commentary>미관상 허용균열폭 검토로 옳다.</commentary>
+          <commentary>미관이 중요한 구조는 미관상 허용균열폭을 설정해 검토할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>하중에 의한 균열을 제어하기 위해 필요한 철근 외에도 필요에 따라 온도변화, 건조수축 등에 의한 균열을 제어하기 위한 추가 보강철근을 배치해야 한다.</choice_text>
-          <commentary>온도·수축 철근 배치로 옳다.</commentary>
+          <commentary>온도변화·건조수축 균열을 위한 추가 보강철근을 배치하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>균열제어를 위한 철근은 필요로 하는 부재 단면의 주변에 분산시켜 배치해야 하고, 이 경우 철근의 지름은 가능한 한 작게, 철근의 간격은 가능한 한 넓게 하여야 한다.</choice_text>
-          <commentary>간격을 좁게 해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>균열 제어 철근은 지름을 작게, 간격을 좁게 배치해야 한다. 간격을 넓게 한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -242,19 +242,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.0030</choice_text>
-          <commentary>기준이 아니다.</commentary>
+          <commentary>0.0030은 fck가 70 MPa일 때의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.0031</choice_text>
-          <commentary>기준이 아니다.</commentary>
+          <commentary>0.0031은 fck가 60 MPa일 때의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.0032</choice_text>
-          <commentary>50 MPa의 값이다.</commentary>
+          <commentary>0.0032는 fck가 50 MPa일 때의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.0033</choice_text>
-          <commentary>0.0033이므로 정답이다.</commentary>
+          <commentary>fck 40 MPa 이하의 극한변형률은 0.0033이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -275,19 +275,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수축ㆍ온도철근비는 콘크리트 전체단면적에 대한 수축ㆍ온도철근 단면적의 비를 말한다.</choice_text>
-          <commentary>철근비의 정의로 옳다.</commentary>
+          <commentary>수축·온도철근비는 콘크리트 전체단면적에 대한 비이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>수축ㆍ온도철근은 설계기준항복강도를 발휘할 수 있도록 정착되어야 한다.</choice_text>
-          <commentary>정착 기준으로 옳다.</commentary>
+          <commentary>수축·온도철근은 설계기준항복강도를 발휘하도록 정착해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>수축ㆍ온도철근의 간격은 슬래브 두께의 3배 이하, 또한 500 mm 이하로 하여야 한다.</choice_text>
-          <commentary>5배·450 mm 이하이므로 옳지 않아 정답이다.</commentary>
+          <commentary>수축·온도철근 간격은 슬래브 두께의 5배 이하, 450 mm 이하이다. 3배, 500 mm라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>설계기준항복강도가 400 MPa 이하인 이형철근을 사용한 슬래브의 수축ㆍ온도철근비는 0.002 이상이어야 한다.</choice_text>
-          <commentary>최소 철근비 0.002로 옳다.</commentary>
+          <commentary>fy 400 MPa 이하 이형철근의 수축·온도철근비는 0.002 이상이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -311,19 +311,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>탄성처짐만이다.</commentary>
+          <commentary>15 mm는 탄성처짐만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>22</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>22 mm는 장기처짐 계수를 0.5로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>30</choice_text>
-          <commentary>30 mm이므로 정답이다.</commentary>
+          <commentary>λΔ = 2.0/(1 + 50 × 0.02) = 1.0이므로 최종 처짐은 15 + 15 = 30 mm이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>45</choice_text>
-          <commentary>압축철근 효과를 무시한 값이다.</commentary>
+          <commentary>45 mm는 압축철근의 처짐 감소 효과를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -344,19 +344,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전단력이 작용하는 부재의 단면은 설계전단강도 $\phi V_{n}$이 계수전단력 $V_{u}$ 이상이 되도록 설계해야 한다.</choice_text>
-          <commentary>설계 조건으로 옳다.</commentary>
+          <commentary>설계전단강도 φVn이 계수전단력 Vu 이상이어야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공칭전단강도 $V_{n}$은 콘크리트에 의한 단면의 공칭전단강도 $V_{c}$와 전단철근에 의한 단면의 공칭전단강도 $V_{s}$의 합이다.</choice_text>
-          <commentary>Vn = Vc + Vs이므로 옳다.</commentary>
+          <commentary>공칭전단강도는 Vn = Vc + Vs이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공칭전단강도 $V_{n}$을 결정할 때, 부재에 개구부가 있는 경우에는 그 영향을 고려하여야 한다.</choice_text>
-          <commentary>개구부 영향을 고려하므로 옳다.</commentary>
+          <commentary>개구부가 있으면 전단강도 산정에 그 영향을 고려해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>계수전단력 $V_{u}$가 콘크리트에 의한 설계전단강도 $\phi V_{c}$의 1/2 이하인 휨부재에는 최소전단철근을 배치하여야 한다.</choice_text>
-          <commentary>배치할 필요가 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>Vu가 ½φVc 이하이면 최소전단철근을 배치하지 않아도 된다. 배치해야 한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -380,19 +380,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- ( Kl_{px} + \mu_{p} \alpha_{px} )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>Ppx = Ppj e^-(Klpx + μpαpx)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- ( Kl_{px} - \mu_{p} \alpha_{px} )$</choice_text>
-          <commentary>부호가 틀렸다.</commentary>
+          <commentary>곡률마찰 항의 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$( K \alpha_{px} - \mu_{p} l_{px} )$</choice_text>
-          <commentary>변수가 바뀌었다.</commentary>
+          <commentary>길이와 각도의 계수가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$( K \alpha_{px} + \mu_{p} l_{px} )$</choice_text>
-          <commentary>부호와 변수가 틀렸다.</commentary>
+          <commentary>계수가 뒤바뀌고 부호도 양수여서 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -416,19 +416,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>400</choice_text>
-          <commentary>400 kN이므로 정답이다.</commentary>
+          <commentary>Vs = 200 × 400 × 500/100 = 400 kN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>440</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>440 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>480</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>480 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>520</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>520 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -452,19 +452,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2,200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2,200 N은 Fy × An = 275 × 8로 순단면을 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2,460</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2,460 N은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,750</choice_text>
-          <commentary>2,750 N이므로 정답이다.</commentary>
+          <commentary>총단면 항복의 공칭인장강도는 FyAg = 275 × 10 = 2,750 N이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4,100</choice_text>
-          <commentary>인장강도로 계산한 값이다.</commentary>
+          <commentary>4,100 N은 Fu × Ag로 파단 기준을 잘못 적용한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>앞부벽은 T형보로 설계하여야 하며, 뒷부벽은 직사각형보로 설계하여야 한다.</choice_text>
-          <commentary>바뀌었으므로 옳지 않아 정답이다.</commentary>
+          <commentary>앞부벽은 직사각형보, 뒷부벽은 T형보로 설계한다. 반대로 설명했으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>무근콘크리트 옹벽은 자중에 의하여 저항력을 발휘하는 중력식 형태로 설계하여야 한다.</choice_text>
-          <commentary>무근 옹벽은 중력식이므로 옳다.</commentary>
+          <commentary>무근콘크리트 옹벽은 자중으로 저항하는 중력식으로 설계하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>부벽식 옹벽의 전면벽은 3변 지지된 2방향 슬래브로 설계할 수 있다.</choice_text>
-          <commentary>전면벽은 3변 지지 2방향 슬래브로 설계할 수 있으므로 옳다.</commentary>
+          <commentary>부벽식 옹벽의 전면벽은 3변 지지 2방향 슬래브로 설계할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>지반에 유발되는 최대 지반반력은 지반의 허용지지력을 초과할 수 없다.</choice_text>
-          <commentary>지반반력은 허용지지력을 넘을 수 없으므로 옳다.</commentary>
+          <commentary>최대 지반반력은 허용지지력을 넘을 수 없으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -551,19 +551,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>휨모멘트에 대한 설계 시, 1방향 기초판 또는 2방향 정사각형 기초판에서 철근은 기초판 전체 폭에 걸쳐 균등하게 배치하여야 한다.</choice_text>
-          <commentary>철근 균등 배치로 옳다.</commentary>
+          <commentary>1방향 기초판과 2방향 정사각형 기초판의 철근은 전체 폭에 균등 배치하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>말뚝기초의 기초판 설계에서 말뚝의 반력은 각 말뚝의 중심에 집중된다고 가정하여 휨모멘트와 전단력을 계산할 수 있다.</choice_text>
-          <commentary>말뚝 반력 가정으로 옳다.</commentary>
+          <commentary>말뚝 반력은 각 말뚝 중심에 집중된다고 가정할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>기초판 윗면부터 하부철근까지 깊이는 직접기초의 경우는 100 mm 이상, 말뚝기초의 경우는 400 mm 이상으로 하여야 한다.</choice_text>
-          <commentary>150 mm, 300 mm이므로 옳지 않아 정답이다.</commentary>
+          <commentary>하부철근 위 깊이는 직접기초 150 mm, 말뚝기초 300 mm 이상이다. 100 mm, 400 mm라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기초판 각 단면의 휨모멘트는 기초판을 자른 수직면에서 그 수직면의 한쪽 전체 면적에 작용하는 힘에 대해 계산하여야 한다.</choice_text>
-          <commentary>휨모멘트 계산 방법으로 옳다.</commentary>
+          <commentary>각 단면의 휨모멘트는 자른 수직면 한쪽 면적의 힘으로 계산하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -584,19 +584,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>부재의 유효길이가 클수록 좌굴하중이 증가한다.</choice_text>
-          <commentary>감소하므로 옳지 않아 정답이다.</commentary>
+          <commentary>Pcr = π²EI/(KL)²이므로 유효길이가 클수록 좌굴하중은 감소한다. 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>단면2차모멘트가 클수록 좌굴하중이 증가한다.</choice_text>
-          <commentary>I가 크면 증가하므로 옳다.</commentary>
+          <commentary>단면2차모멘트가 클수록 좌굴하중이 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>강재의 탄성계수가 작을수록 좌굴하중이 감소한다.</choice_text>
-          <commentary>E가 작으면 감소하므로 옳다.</commentary>
+          <commentary>탄성계수가 작을수록 좌굴하중이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>단면2차반경이 작을수록 좌굴하중이 감소한다.</choice_text>
-          <commentary>r이 작으면 세장비가 커져 감소하므로 옳다.</commentary>
+          <commentary>단면2차반경이 작으면 세장비가 커져 좌굴하중이 감소하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -620,19 +620,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>28</choice_text>
-          <commentary>단위가 틀렸다.</commentary>
+          <commentary>28 kN은 단위 환산을 잘못한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>35</choice_text>
-          <commentary>단위가 틀렸다.</commentary>
+          <commentary>35 kN은 단위 환산을 잘못한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>280</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>280 kN은 fck를 fy처럼 곱한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>350</choice_text>
-          <commentary>350 kN이므로 정답이다.</commentary>
+          <commentary>C = T = 1,000 × 350 = 350 kN이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -710,19 +710,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>콘크리트 타설 순서가 틀렸다.</commentary>
+          <commentary>긴장재는 콘크리트가 경화된 뒤에 풀어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄹ, ㄷ</choice_text>
-          <commentary>ㄱ, ㄴ, ㄹ, ㄷ이므로 정답이다.</commentary>
+          <commentary>인장대 설치 → 긴장·고정 → 콘크리트 타설·양생 → 긴장재 해제·절단 순이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ, ㄷ, ㄴ</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>콘크리트를 치기 전에 긴장재를 먼저 긴장해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄹ, ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>인장대 설치와 긴장 전에 콘크리트를 칠 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

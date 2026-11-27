@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>Reynolds 수가 10,000이면 난류이다.</choice_text>
-          <commentary>10,000은 층류이므로 옳지 않아 정답이다.</commentary>
+          <commentary>평판 흐름의 임계 레이놀즈 수는 약 5 × 10⁵이므로 Re = 10,000은 층류이다. 난류라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Reynolds 수는 점성력에 대한 관성력의 비이다.</choice_text>
-          <commentary>관성력과 점성력의 비이다.</commentary>
+          <commentary>Re = ρvL/μ는 점성력에 대한 관성력의 비이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Reynolds 수는 유체의 점도에 반비례한다.</choice_text>
-          <commentary>점도에 반비례한다.</commentary>
+          <commentary>Re는 점도 μ에 반비례하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Reynolds 수는 강제대류의 Nusselt 수에 영향을 준다.</choice_text>
-          <commentary>Nusselt 수에 영향을 준다.</commentary>
+          <commentary>강제대류의 Nu는 Re와 Pr의 함수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -69,19 +69,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{2}{7}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>-2/7은 q/(q - 1)을 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{2}{9}$</choice_text>
-          <commentary>q 값 자체이다.</commentary>
+          <commentary>-2/9는 q 값 자체로 기울기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{11}$</choice_text>
-          <commentary>2/11이므로 정답이다.</commentary>
+          <commentary>q = -2/9이므로 기울기 q/(q - 1) = (-2/9)/(-11/9) = 2/11이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{9}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2/9는 q의 부호를 바꾼 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -105,19 +105,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>128.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>128.5 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>338.5</choice_text>
-          <commentary>338.5kN이므로 정답이다.</commentary>
+          <commentary>순압력 1,100 × 9.8 × 1,000 = 1.078 × 10⁷ Pa에 면적 0.0314 m²를 곱하면 약 338.5 kN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>541.6</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>541.6 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>751.6</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>751.6 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>분자량이 작아지면 확산계수가 커진다.</choice_text>
-          <commentary>분자량이 작으면 커진다.</commentary>
+          <commentary>DAB ∝ √(1/MA + 1/MB)이므로 분자량이 작으면 확산계수가 커져 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>온도가 높아지면 확산계수가 커진다.</choice_text>
-          <commentary>온도가 높으면 커진다.</commentary>
+          <commentary>DAB ∝ T^1.5이므로 온도가 높으면 확산계수가 커져 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>분자의 크기가 커지면 확산계수가 작아진다.</choice_text>
-          <commentary>분자가 크면 작아진다.</commentary>
+          <commentary>분자 크기 σ가 커지면 σ²에 반비례하여 확산계수가 작아지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>압력이 낮아지면 확산계수가 작아진다.</choice_text>
-          <commentary>압력이 낮으면 커지므로 옳지 않아 정답이다.</commentary>
+          <commentary>DAB는 압력에 반비례하므로 압력이 낮아지면 커진다. 작아진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>300</choice_text>
-          <commentary>300이므로 정답이다.</commentary>
+          <commentary>1/Ui = 1/600 + (5/6)/500 = 1/300이므로 Ui = 300 W/(m²·K)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>400 W/(m²·K)는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>500</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>500 W/(m²·K)는 외부 열전달계수 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>600</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>600 W/(m²·K)는 내부 열전달계수 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -206,19 +206,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1μm이므로 정답이다.</commentary>
+          <commentary>N = 1 mol/(m²·s)이고 L = 4 × 10⁻¹³ × 2.5 × 10⁶/1 = 1 × 10⁻⁶ m = 1 μm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>10 μm이면 몰플럭스가 1/10로 줄어든다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>100 μm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1,000 μm는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{\Delta P}{L} \right) \frac{R^{2}}{2 \mu}$</choice_text>
-          <commentary>평균속도의 2배를 잘못 적용한 식이다.</commentary>
+          <commentary>(ΔP/L)R²/(2μ)는 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{\Delta P}{L} \right) \frac{R}{2 \mu}$</choice_text>
-          <commentary>차원이 맞지 않다.</commentary>
+          <commentary>R의 차수가 1로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left( \frac{\Delta P}{L} \right) \frac{R^{2}}{4 \mu}$</choice_text>
-          <commentary>(ΔP/L)R²/(4μ)이므로 정답이다.</commentary>
+          <commentary>v(r) = (ΔP/L)(R² - r²)/(4μ)에서 r = 0일 때 (ΔP/L)R²/(4μ)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{\Delta P}{L} \right) \frac{R}{4 \mu}$</choice_text>
-          <commentary>차원이 맞지 않다.</commentary>
+          <commentary>R의 차수가 1로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -273,19 +273,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>69</choice_text>
-          <commentary>복사 손실만 고려한 근삿값이다.</commentary>
+          <commentary>69 W/m는 복사 손실만 계산한 값과 비슷하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>369</choice_text>
-          <commentary>369W/m이므로 정답이다.</commentary>
+          <commentary>대류 314 W/m와 복사 약 55 W/m를 합하면 약 369 W/m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1,069</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1,069 W/m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,569</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1,569 W/m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -309,19 +309,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.4배이면 액체경막저항이 커져 흡수속도가 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1배이면 흡수속도가 변하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.5</choice_text>
-          <commentary>2.5배이므로 정답이다.</commentary>
+          <commentary>총괄저항을 6에서 3으로 줄이려면 액체경막저항이 2가 되어야 하므로 계수는 5/2 = 2.5배이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4배이면 총괄저항이 1 + 1.25 = 2.25가 되어 흡수속도가 약 2.7배로 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -345,19 +345,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>e</choice_text>
-          <commentary>e배이므로 정답이다.</commentary>
+          <commentary>DAC/DBC = exp(RT₁/RT)이므로 T₁에서 e¹, T₁/2에서 e²가 되어 비는 e배이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>e^(2)</choice_text>
-          <commentary>T2에서의 비 자체이다.</commentary>
+          <commentary>e²는 T₂에서의 비 자체로, T₁에서의 비로 나누지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>e^(-1)</choice_text>
-          <commentary>역수이다.</commentary>
+          <commentary>e⁻¹은 비를 거꾸로 한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>e^(-2)</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>e⁻²는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -381,19 +381,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{cD_{AB}}{\left( 1 - y_{A} \right)} \frac{dy_{A}}{dz}$</choice_text>
-          <commentary>정지 기체 B 확산의 식이다.</commentary>
+          <commentary>NB = +NA(등몰 역확산 아님)처럼 잘못 본 경우의 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \frac{cD_{AB}}{\left( 1 + y_{A} \right)} \frac{dy_{A}}{dz}$</choice_text>
-          <commentary>-cDAB/(1 + yA)·dyA/dz이므로 정답이다.</commentary>
+          <commentary>NB = -2NA이므로 NA(1 + yA) = -cDAB(dyA/dz)가 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{cD_{AB}}{\left( 1 + 3 y_{A} \right)} \frac{dy_{A}}{dz}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1 + 3yA는 양론비를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{cD_{AB}}{\left( 1 - 3 y_{A} \right)} \frac{dy_{A}}{dz}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1 - 3yA는 양론비와 부호를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -417,19 +417,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A, 0.25</choice_text>
-          <commentary>열전도도가 가장 큰 것은 C이다.</commentary>
+          <commentary>A의 L/ΔT = 0.25로 가장 작으므로 A의 열전도도가 가장 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>A, 4</choice_text>
-          <commentary>C가 가장 크다.</commentary>
+          <commentary>A는 열전도도가 가장 작은 평판이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>C, 0.25</choice_text>
-          <commentary>kB/kA는 4이다.</commentary>
+          <commentary>kB/kA = 1/0.25 = 4이므로 0.25배라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>C, 4</choice_text>
-          <commentary>C, 4이므로 정답이다.</commentary>
+          <commentary>k ∝ L/ΔT에서 C가 4로 가장 크고 kB/kA = 4이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -451,19 +451,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.005</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.005는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.01</choice_text>
-          <commentary>0.01이므로 정답이다.</commentary>
+          <commentary>Re = 1,600인 층류이므로 f = 16/1,600 = 0.01이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.05</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.05는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.1은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -486,19 +486,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$k \frac{d^{2} T}{dx^{2}} - \frac{h}{D} \left( T - T_{b} \right) = 0$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>h/D는 둘레와 단면적의 비를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$k \frac{d^{2} T}{dx^{2}} - \frac{2 h}{D} \left( T - T_{b} \right) = 0$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>2h/D는 평판형 핀 등 다른 형상에 맞는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$k \frac{d^{2} T}{dx^{2}} - \frac{4 h}{D} \left( T - T_{b} \right) = 0$</choice_text>
-          <commentary>4h/D이므로 정답이다.</commentary>
+          <commentary>원형 핀에서 hP/A = h·πD/(πD²/4) = 4h/D이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$k \frac{d^{2} T}{dx^{2}} - \frac{8 h}{D} \left( T - T_{b} \right) = 0$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>8h/D는 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>10 m/s이면 ΔP = 65 Pa가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20m/s이므로 정답이다.</commentary>
+          <commentary>v = √(2 × 260/1.3) = √400 = 20 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>30 m/s이면 ΔP = 585 Pa가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>40 m/s이면 ΔP = 1,040 Pa가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -555,19 +555,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.1은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.4</choice_text>
-          <commentary>0.4이므로 정답이다.</commentary>
+          <commentary>c = 1.2 × 10⁴/(8.0 × 300) = 5 mol/m³이므로 N = 0.08 × 5 = 0.4 mol/(m²·s)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.8</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.8은 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -590,19 +590,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 D_{eq}}{T_{m} - T_{w}}$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>분모의 부호가 반대여서 Nu가 음수가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2 D_{eq}}{T_{w} - T_{m}}$</choice_text>
-          <commentary>2Deq/(Tw - Tm)이므로 정답이다.</commentary>
+          <commentary>q = -k(dT/dr) = 2k, h = 2k/(Tw - Tm)이므로 Nu = 2Deq/(Tw - Tm)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{D_{eq}}{2 ( T_{m} - T_{w} )}$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>계수와 부호가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{D_{eq}}{2 ( T_{w} - T_{m} )}$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>계수 2를 분모로 잘못 보낸 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -623,19 +623,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.31</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1.31 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2.65</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2.65 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3.92</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3.92 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>4.43</choice_text>
-          <commentary>4.43m이므로 정답이다.</commentary>
+          <commentary>L = 15 × 0.7/(2π × 0.0151 × 25) ≒ 4.43 m이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -656,19 +656,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$- x$ $y$</choice_text>
-          <commentary>연속방정식을 만족한다.</commentary>
+          <commentary>∂u/∂x + ∂v/∂y = -1 + 1 = 0으로 비압축성 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$3 y$ $3 x$</choice_text>
-          <commentary>연속방정식을 만족한다.</commentary>
+          <commentary>0 + 0 = 0으로 비압축성 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$4 x^{2} y^{3}$ $- 2 xy^{4}$</choice_text>
-          <commentary>연속방정식을 만족한다.</commentary>
+          <commentary>8xy³ - 8xy³ = 0으로 비압축성 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$4 xt$ $4 yt$</choice_text>
-          <commentary>8t ≠ 0이므로 비압축성이 아니어서 정답이다.</commentary>
+          <commentary>4t + 4t = 8t ≠ 0이므로 비압축성 흐름이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -689,19 +689,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2 kgf·m/kg은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4 kgf·m/kg은 높이 차만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>6이므로 정답이다.</commentary>
+          <commentary>10 + 0 + 20 = 20 + 4 + F에서 F = 6 kgf·m/kg이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>8 kgf·m/kg은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

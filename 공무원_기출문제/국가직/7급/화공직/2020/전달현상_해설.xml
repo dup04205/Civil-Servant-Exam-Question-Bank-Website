@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>Re = 100은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>Re = 200은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,000</choice_text>
-          <commentary>1,000이므로 정답이다.</commentary>
+          <commentary>평균 유속 0.1 m/s로 Re = 1,000 × 0.1 × 0.01/0.001 = 1,000이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2,000</choice_text>
-          <commentary>중심 유속을 평균유속으로 사용한 값이다.</commentary>
+          <commentary>Re = 2,000은 중심 최대유속 0.2 m/s를 평균 유속으로 잘못 쓴 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>절반으로 줄어든다.</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>유량은 반지름의 4제곱에 비례하므로 줄어들지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>그대로 일정하다.</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>반지름이 커지면 유량이 증가하므로 일정하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4배가 된다.</choice_text>
-          <commentary>반지름의 제곱에 비례한다고 본 값이다.</commentary>
+          <commentary>4배는 반지름의 제곱에 비례한다고 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>16배가 된다.</choice_text>
-          <commentary>16배이므로 정답이다.</commentary>
+          <commentary>Q ∝ r⁴이므로 2⁴ = 16배가 되어 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>입경에 비례한다고 본 값이다.</commentary>
+          <commentary>2는 입경비를 그대로 쓴 값으로 제곱을 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4이므로 정답이다.</commentary>
+          <commentary>스토크스 영역에서 vt ∝ D²이므로 2² = 4이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>입경의 세제곱에 비례한다고 본 값이다.</commentary>
+          <commentary>8은 입경비의 세제곱이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>16은 입경비의 4제곱이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>계수 2를 빠뜨린 값이다.</commentary>
+          <commentary>r = 1 mm는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>2mm이므로 정답이다.</commentary>
+          <commentary>q'''πr²L = q''·2πrL에서 r = 2q''/q''' = 0.002 m = 2 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>r = 10 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>r = 20 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>경계층 이론은 레이놀즈 수가 증가함에 따라 전단응력의 영향을 받는 영역이 감소한다는 개념에 기반한다.</choice_text>
-          <commentary>레이놀즈 수가 클수록 점성 영향 영역이 줄어든다.</commentary>
+          <commentary>레이놀즈 수가 커지면 점성의 영향을 받는 경계층이 얇아지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>경계층의 두께는 유체의 자유흐름속도(free stream velocity)의 99 %에 도달하는 거리로 정의된다.</choice_text>
-          <commentary>자유흐름속도의 99%에 도달하는 거리로 정의한다.</commentary>
+          <commentary>경계층 두께는 유속이 자유흐름속도의 99%에 이르는 거리로 정의하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>경계층 내부의 유체 흐름 거동은 흐름이 진행됨에 따라 층류에서 전이영역으로 변화하고 결국 난류로 바뀌게 된다.</choice_text>
-          <commentary>층류에서 전이영역을 거쳐 난류로 바뀐다.</commentary>
+          <commentary>경계층은 하류로 갈수록 층류에서 전이영역을 거쳐 난류로 바뀌므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>경계층의 국부 레이놀즈 수는 $\frac{\delta v \rho}{\mu}$로 정의된다. 이때 δ는 경계층의 두께, $v$는 유체의 자유흐름속도, ρ는 유체의 밀도, μ는 유체의 점도이다.</choice_text>
-          <commentary>δ가 아니라 x를 사용하므로 옳지 않아 정답이다.</commentary>
+          <commentary>국부 레이놀즈 수는 선단으로부터의 거리 x를 써서 Rex = xvρ/μ로 정의한다. δ를 쓴 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -204,19 +204,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>60배는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>120</choice_text>
-          <commentary>120배이므로 정답이다.</commentary>
+          <commentary>CD = 24/0.05 = 480은 투영면적 기준이므로 표면적(4배) 기준으로 480/4 = 120배이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>600</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>600배는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,200</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1,200배는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.16</choice_text>
-          <commentary>액주 압력만 계산한 값이다.</commentary>
+          <commentary>0.16 kgf/cm²는 액주 압력만 계산하고 표면 공기 압력을 더하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.28</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.28 kgf/cm²는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.36</choice_text>
-          <commentary>0.36kgf/cm²이므로 정답이다.</commentary>
+          <commentary>0.2 + 0.8 × 200/1,000 = 0.36 kgf/cm²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1 kgf/cm²는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -273,19 +273,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\pi}{3} L$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>(π/3)L은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2} L$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>√2L은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\pi}{2} L$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>(π/2)L은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{3} L$</choice_text>
-          <commentary>√3·L이므로 정답이다.</commentary>
+          <commentary>De = 4 × (3√3/2)L²/(6L) = √3L이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -308,19 +308,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>15는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>21</choice_text>
-          <commentary>21이므로 정답이다.</commentary>
+          <commentary>β = (30/10)/(10/70) = 3 × 7 = 21이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>27</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>27은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>33</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>33은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -344,19 +344,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>34</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>34 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>44</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>44 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>54</choice_text>
-          <commentary>54mm이므로 정답이다.</commentary>
+          <commentary>L = 0.03 × 20 × 45/500 = 0.054 m = 54 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>64</choice_text>
-          <commentary>6개 면을 적용하는 등 조건이 다른 값이다.</commentary>
+          <commentary>64 mm는 밑바닥까지 6개 면을 포함한 값에 가깝다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -377,19 +377,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4이므로 정답이다.</commentary>
+          <commentary>α = (0.8/0.5)/(0.2/0.5) = 4이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>6은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>8은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공급원료가 포화액체인 경우 원료 공급선은 기상 축($y$)과 평행하다.</choice_text>
-          <commentary>포화액체이면 y축과 평행하다.</commentary>
+          <commentary>포화액체는 q = 1로 공급선 기울기가 무한대인 수직선이 되어 y축과 평행하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>원료 공급선을 얻기 위해서는 일정몰 넘침(constant molal overflow)이라는 가정이 필요하다.</choice_text>
-          <commentary>일정몰 넘침 가정이 필요하다.</commentary>
+          <commentary>공급선 식은 일정몰 넘침 가정에서 유도되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공급원료가 비점보다 낮은 온도의 액체인 경우, 원료 공급선의 기울기는 1보다 크다.</choice_text>
-          <commentary>과냉 액체이면 기울기가 1보다 크다.</commentary>
+          <commentary>과냉 액체는 q &gt; 1이어서 기울기 q/(q - 1)이 1보다 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>원료 공급단을 최적 공급단의 아래쪽 단으로 정할 경우, 정류부의 단수는 감소한다.</choice_text>
-          <commentary>정류부 단수가 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>원료를 최적단보다 아래로 공급하면 정류부 조작선을 더 오래 사용해 정류부 단수가 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -444,19 +444,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최소환류비는 환류의 감소에 따른 조작선의 움직임으로 구할 수 있다.</choice_text>
-          <commentary>조작선의 움직임으로 최소환류비를 구한다.</commentary>
+          <commentary>환류비를 줄이면 조작선이 평형선에 다가가 접하는 지점에서 최소환류비를 구하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전환류(total reflux)에서 증류탑의 이론단수는 최소가 된다.</choice_text>
-          <commentary>전환류에서 이론단수가 최소이다.</commentary>
+          <commentary>전환류에서는 조작선이 대각선과 일치하여 이론단수가 최소이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>열교환 장치에 대한 고정비는 환류비가 증가함에 따라 감소한다.</choice_text>
-          <commentary>열교환 장치 고정비는 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>환류비가 커지면 응축기와 재비기의 열교환 면적이 커져 고정비가 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>최적환류비보다 큰 환류비를 사용하면 보다 좋은 조업 유연성을 얻을 수 있다.</choice_text>
-          <commentary>큰 환류비는 조업 유연성을 준다.</commentary>
+          <commentary>최적환류비보다 큰 환류비를 쓰면 운전 조건 변동에 여유가 생겨 조업 유연성이 좋아지므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -516,19 +516,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>흡수탑 내의 압력강하 증가</choice_text>
-          <commentary>압력강하가 증가한다.</commentary>
+          <commentary>액체 유량이 늘면 단 위 액층과 기체 저항이 커져 압력강하가 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>McCabe-Thiele 선도에서 조작선의 기울기 증가</choice_text>
-          <commentary>조작선 기울기가 증가한다.</commentary>
+          <commentary>용매 유량이 늘면 조작선 기울기 L/V가 커지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>기액평형 곡선의 기울기 증가</choice_text>
-          <commentary>평형 곡선은 변하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>기액평형 곡선은 온도와 압력으로 결정되어 유량에 따라 변하지 않는다. 기울기가 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>배출되는 용액 내 흡수되어 있는 용질의 농도 감소</choice_text>
-          <commentary>배출 용액의 용질 농도가 감소한다.</commentary>
+          <commentary>같은 양의 용질을 더 많은 용매가 흡수하므로 배출 용액 농도가 낮아져 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -549,19 +549,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>발생기 A를 사용한 물의 용존 산소 농도는 발생기 B보다 더 느리게 증가한다.</choice_text>
-          <commentary>큰 기포는 계면적이 작아 느리게 증가하므로 옳다.</commentary>
+          <commentary>기포가 큰 A는 단위부피당 계면적이 작아 산소 전달이 느리므로 용존 산소가 더 느리게 증가하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>발생기 A와 발생기 B에서 각각 발생한 기포들의 부피 감소 속도는 같다.</choice_text>
-          <commentary>계면적이 달라 부피 감소 속도가 다르다.</commentary>
+          <commentary>기포 크기에 따라 물질전달 속도가 달라 부피 감소 속도가 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>산소의 용해도(solubility)는 발생기 B를 이용한 경우가 발생기 A를 이용한 경우보다 더 높다.</choice_text>
-          <commentary>용해도는 기포 크기와 무관하다.</commentary>
+          <commentary>용해도는 온도와 분압으로 정해지며 기포 크기와 무관하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>공급하는 기체의 종류에 관계없이 물의 용존 산소 농도 증가 속도는 같다.</choice_text>
-          <commentary>산소 분압에 따라 속도가 다르다.</commentary>
+          <commentary>순수 산소는 공기보다 산소 분압이 높아 용존 속도가 빠르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -585,19 +585,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.05</choice_text>
-          <commentary>0.05이므로 정답이다.</commentary>
+          <commentary>NA = kG(pA,s - 0) = 0.5 × 0.1 = 0.05 gmol/(cm²·h)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.1은 증기압 값을 그대로 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>분압차를 반영하지 않은 값이다.</commentary>
+          <commentary>0.5는 물질전달 계수를 그대로 쓴 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -621,19 +621,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>253</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>253 °C는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>258</choice_text>
-          <commentary>258℃이므로 정답이다.</commentary>
+          <commentary>전도열 3,000 W에 대해 ΔT = 3,000 × 0.02/(30 × 0.25) = 8 °C이므로 258 °C이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>263</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>263 °C는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>268</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>268 °C는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -654,19 +654,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\partial T}{\partial t} = \alpha \frac{\partial ^{2} T}{\partial x^{2}}$</choice_text>
-          <commentary>열확산 방정식이므로 정답이다.</commentary>
+          <commentary>1차원 비정상 열전도 방정식은 ∂T/∂t = α∂²T/∂x²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial T}{\partial t} = \frac{1}{\alpha} \frac{\partial T}{\partial x}$</choice_text>
-          <commentary>차수와 계수가 맞지 않다.</commentary>
+          <commentary>공간에 대한 1차 미분과 1/α는 열전도 방정식의 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial T}{\partial t} = \alpha^{2} \frac{\partial ^{2} T}{\partial x^{2}}$</choice_text>
-          <commentary>α의 제곱이 아니다.</commentary>
+          <commentary>α²은 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\partial ^{2} T}{\partial t^{2}} = \alpha \frac{\partial T}{\partial x}$</choice_text>
-          <commentary>시간에 대해 1차 미분이다.</commentary>
+          <commentary>시간에 대한 2차 미분은 파동 방정식의 형태이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -690,19 +690,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.025</choice_text>
-          <commentary>m 단위의 값이다.</commentary>
+          <commentary>0.025 cm는 m 단위 값 0.025를 cm로 잘못 읽은 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.5 cm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.5</choice_text>
-          <commentary>2.5cm이므로 정답이다.</commentary>
+          <commentary>L = k/h = 250/10,000 = 0.025 m = 2.5 cm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5 cm는 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

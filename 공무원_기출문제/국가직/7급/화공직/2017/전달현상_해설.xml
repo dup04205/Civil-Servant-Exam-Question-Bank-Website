@@ -35,15 +35,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Reynolds 수</choice_text>
-          <commentary>Reynolds 수는 층류·난류 판별에 쓰인다.</commentary>
+          <commentary>Reynolds 수는 관성력과 점성력의 비로 층류·난류 판별에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Mach 수</choice_text>
-          <commentary>Mach 수이므로 정답이다.</commentary>
+          <commentary>Mach 수는 유속과 음속의 비로, Ma &lt; 0.3이면 비압축성으로 취급하므로 압축성 판별에 가장 적합하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Prandtl 수</choice_text>
-          <commentary>Prandtl 수는 운동량 확산과 열확산의 비이다.</commentary>
+          <commentary>Prandtl 수는 운동량 확산도와 열 확산도의 비이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Euler 수</choice_text>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>열확산도는 물질이 열에너지를 저장하는 능력에 대한 열에너지를 전도하는 능력의 정도를 나타낸다.</choice_text>
-          <commentary>전도 능력과 저장 능력의 비이다.</commentary>
+          <commentary>α = k/(ρcp)는 열을 전도하는 능력과 저장하는 능력의 비이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>열확산도가 작으면 주위의 열적 환경 변화에 따라 새로운 평형에 느리게 도달한다.</choice_text>
-          <commentary>α가 작으면 새로운 평형에 느리게 도달한다.</commentary>
+          <commentary>열확산도가 작으면 온도 변화가 느리게 전파되어 새 평형에 느리게 도달하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>열확산도 $\alpha = \frac{k}{\rho c_{p}}$로 정의된다.</choice_text>
-          <commentary>정의식으로 옳다.</commentary>
+          <commentary>열확산도는 α = k/(ρcp)로 정의되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>열확산도의 단위는 W․m^(-1)․K^(-1)이다.</choice_text>
-          <commentary>단위가 m²/s이므로 옳지 않아 정답이다.</commentary>
+          <commentary>열확산도의 단위는 m²/s이며 W/(m·K)는 열전도도의 단위이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>확산하는 기체 분자의 평균자유경로보다 미세 기공의 지름이 작을 때 발생한다.</choice_text>
-          <commentary>기공 지름이 평균자유경로보다 작을 때 발생한다.</commentary>
+          <commentary>Knudsen 확산은 기공 지름이 평균자유경로보다 작을 때 일어나므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전체 압력이 감소하면 Knudsen 수는 증가한다.</choice_text>
-          <commentary>압력이 감소하면 Kn이 증가한다.</commentary>
+          <commentary>압력이 감소하면 평균자유경로가 길어져 Knudsen 수가 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>온도가 증가하면 Knudsen 수는 감소한다.</choice_text>
-          <commentary>온도가 증가하면 Kn이 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>평균자유경로는 온도에 비례하므로 온도가 증가하면 Knudsen 수도 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>확산 기체의 분자량이 증가하면 Knudsen 확산계수는 감소한다.</choice_text>
-          <commentary>분자량이 증가하면 확산계수가 감소한다.</commentary>
+          <commentary>Knudsen 확산계수는 √(T/M)에 비례하므로 분자량이 증가하면 감소하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -212,19 +212,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- D_{A} \frac{1}{r^{2}} \frac{d}{dr} \left( r^{2} \frac{dC_{A}}{dr} \right) + kC_{A} = 0$</choice_text>
-          <commentary>구 좌표계 확산-반응 식이므로 정답이다.</commentary>
+          <commentary>구 좌표 껍질 수지에서 -DA(1/r²)d/dr(r²dCA/dr) + kCA = 0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- D_{A} \frac{1}{R} \frac{d}{dr} \left( r \frac{dC_{A}}{dr} \right) + kC_{A} = 0$</choice_text>
-          <commentary>원통 좌표 형태이며 R을 잘못 사용하였다.</commentary>
+          <commentary>1/R과 r은 원통 좌표 형태를 잘못 적용한 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- D_{A} \frac{1}{r^{2}} \frac{d}{dr} \left( r^{2} \frac{dC_{A}}{dr} \right) + kC_{A} / C_{B} = 0$</choice_text>
-          <commentary>반응속도에 CB가 포함되지 않는다.</commentary>
+          <commentary>1차 반응의 소멸항은 kCA이며 CB로 나누지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- D_{A} \frac{1}{R} \frac{d}{dr} \left( r \frac{dC_{A}}{dr} \right) + kC_{A} / C_{B} = 0$</choice_text>
-          <commentary>좌표계와 반응항이 모두 다르다.</commentary>
+          <commentary>좌표계와 반응항이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,19 +245,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.5 kg/min이면 B가 잃는 열이 A가 얻는 열의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1kg/min이므로 정답이다.</commentary>
+          <commentary>2 × 2c × 10 = mB × c × 40에서 mB = 1 kg/min이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2 kg/min이면 B가 잃는 열이 A가 얻는 열의 2배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4 kg/min이면 열수지에 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1.5는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.0</choice_text>
-          <commentary>2.0이므로 정답이다.</commentary>
+          <commentary>총괄저항이 1 + 9 = 10에서 1 + 4 = 5로 줄어 Ky2/Ky1 = 10/5 = 2.0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2.5는 액상 저항비 9/4 등 잘못된 비교에 따른 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3.0</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3.0은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -317,19 +317,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{gh}{1 - ( A_{b} / A_{a} )^{2}}$</choice_text>
-          <commentary>제곱근이 빠졌다.</commentary>
+          <commentary>제곱근을 취하지 않아 속도의 차원이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left[ \frac{gh}{1 - ( A_{b} / A_{a} )^{2}} \right]^{1 / 2}$</choice_text>
-          <commentary>[gh/(1 - (Ab/Aa)²)]^(1/2)이므로 정답이다.</commentary>
+          <commentary>ΔP = 0.5ρ₁gh이므로 Vb = [gh/(1 - (Ab/Aa)²)]^(1/2)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 gh}{1 - ( A_{b} / A_{a} )^{2}}$</choice_text>
-          <commentary>제곱근이 빠지고 계수도 다르다.</commentary>
+          <commentary>제곱근을 취하지 않았고 계수도 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\left[ \frac{2 gh}{1 - ( A_{b} / A_{a} )^{2}} \right]^{1 / 2}$</choice_text>
-          <commentary>밀도차 0.5ρ1을 반영하지 않은 식이다.</commentary>
+          <commentary>2gh는 마노미터 유체 밀도 차 0.5ρ₁을 반영하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -353,19 +353,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar V}_0 M$은 $D_{p}^{{1} / {2}}$에 비례한다.</choice_text>
-          <commentary>Dp^(1/2)에 비례하므로 정답이다.</commentary>
+          <commentary>난류 영역에서 V0M² ∝ Dp이므로 V0M ∝ Dp^(1/2)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\bar V}_0 M$은 ${D}_{p}$에 비례한다.</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>Dp에 비례하는 관계는 난류 영역의 결과가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\bar V}_0 M$은 ${D}_{p}^{{3} / {2}}$에 비례한다.</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>Dp^(3/2)는 어느 영역의 결과도 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\bar V}_0 M$은 ${D}_{p}^{2}$에 비례한다.</choice_text>
-          <commentary>층류 영역(Rep &lt; 1)의 관계이다.</commentary>
+          <commentary>Dp²에 비례하는 것은 Rep가 작은 층류 영역이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -387,19 +387,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>흑체의 총 방사력은 절대온도의 4제곱에 비례한다.</choice_text>
-          <commentary>슈테판-볼츠만 법칙으로 옳다.</commentary>
+          <commentary>흑체의 총 방사력은 E = σT⁴이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>복사에 의한 열전달은 매질이 없어도 가능하다.</choice_text>
-          <commentary>매질 없이 전달된다.</commentary>
+          <commentary>복사는 전자기파로 전달되어 매질 없이 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>온도가 증가하면 최대 단색광 복사에너지가 나타나는 파장($\lambda_{max}$)은 커진다.</choice_text>
-          <commentary>파장이 짧아지므로 옳지 않아 정답이다.</commentary>
+          <commentary>빈의 변위법칙에 따라 온도가 증가하면 λmax는 짧아진다. 커진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>복사는 전자기파에 의한 열전달이다.</choice_text>
-          <commentary>전자기파에 의한 열전달이다.</commentary>
+          <commentary>복사는 전자기파에 의한 열전달이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -423,19 +423,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>36</choice_text>
-          <commentary>36kW이므로 정답이다.</commentary>
+          <commentary>q = 20 × 10 × 180 = 36,000 W = 36 kW이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>72</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>72 kW는 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>360</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>360 kW는 단위 환산을 잘못한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>720</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>720 kW는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -493,19 +493,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>24는 몰평균속도를 빼지 않고 계산한 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－24</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>-24는 부호와 크기가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>144</choice_text>
-          <commentary>144이므로 정답이다.</commentary>
+          <commentary>v* = -2 m/s이므로 JA = 12 × (10 + 2) = 144 mol/(m²·s)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－144</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>-144는 부호가 반대이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -527,19 +527,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\ln 4}{\ln 9}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>ln 4/ln 9는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\ln 5}{\ln 10}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>ln 5/ln 10은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\ln 6}{\ln 11}$</choice_text>
-          <commentary>ln 6/ln 11이므로 정답이다.</commentary>
+          <commentary>S = 110 × 40/400 = 11이므로 ηo = ln(1 + 0.5 × 10)/ln 11 = ln 6/ln 11이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\ln 7}{\ln 12}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>ln 7/ln 12는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -560,19 +560,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>포화액체의 풀비등은 일반적으로 자연대류, 핵비등, 전이비등, 막비등의 네 구간으로 나눌 수 있다.</choice_text>
-          <commentary>네 구간으로 나뉜다.</commentary>
+          <commentary>풀비등은 자연대류, 핵비등, 전이비등, 막비등 구간으로 나누므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전이비등 구간에서 열플럭스는 Leidenfrost점에서 최소점에 도달한다.</choice_text>
-          <commentary>Leidenfrost점에서 열플럭스가 최소이다.</commentary>
+          <commentary>전이비등 구간 끝의 Leidenfrost점에서 열플럭스가 최소가 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>막비등 구간에서는 열전달의 주요 저항이 가열표면을 덮고 있는 증기막에 의해 나타난다.</choice_text>
-          <commentary>증기막이 주된 저항이다.</commentary>
+          <commentary>막비등에서는 가열면을 덮은 증기막이 주된 열저항이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>핵비등 구간에서는 복사 열전달이 중요한 역할을 한다.</choice_text>
-          <commentary>핵비등에서는 복사가 중요하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>복사가 중요한 것은 표면 온도가 매우 높은 막비등 구간이며, 핵비등은 기포에 의한 교반이 주된 기구이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -596,19 +596,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3 k_{1} k_{2}}{k_{1} + 2 k_{2}}$</choice_text>
-          <commentary>3k1k2/(k1 + 2k2)이므로 정답이다.</commentary>
+          <commentary>2L/k₁ + L/k₂ = 3L/keff에서 keff = 3k₁k₂/(k₁ + 2k₂)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k_{1} k_{2}}{k_{1} + 2 k_{2}}$</choice_text>
-          <commentary>계수 3이 빠졌다.</commentary>
+          <commentary>분자에 3이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 k_{1} k_{2}}{k_{1} + k_{2}}$</choice_text>
-          <commentary>두께가 같을 때의 식이다.</commentary>
+          <commentary>두께가 같은 두 평판에 해당하는 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k_{1} + 2 k_{2}}{3}$</choice_text>
-          <commentary>병렬 배치의 산술평균이다.</commentary>
+          <commentary>산술평균은 병렬 배치에 해당하는 형태이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -633,19 +633,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.01</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.01 cm는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.02</choice_text>
-          <commentary>0.02cm이므로 정답이다.</commentary>
+          <commentary>Sc = 1, Sh = 200이므로 δ = d/Sh = 4/200 = 0.02 cm이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.03</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.03 cm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.04</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.04 cm는 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -669,19 +669,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>40</choice_text>
-          <commentary>40N이므로 정답이다.</commentary>
+          <commentary>(1.2 - 0.2) × 4 × 10 = 40 N이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>50 N은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>60 N은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>70</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>70 N은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -706,19 +706,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>${\frac{A_{p} \rho_{p} C_{D} \rho}{2 g ( \rho_{p} - \rho ) m}}$</choice_text>
-          <commentary>역수이며 제곱근이 없다.</commentary>
+          <commentary>분자와 분모가 뒤바뀌고 제곱근도 취하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left [ {\frac{A_{p} \rho_{p} C_{D} \rho}{2 g ( \rho_{p} - \rho ) m}} \right ]^1 / 2$</choice_text>
-          <commentary>역수이다.</commentary>
+          <commentary>분자와 분모가 뒤바뀐 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\frac{2 g ( \rho_p - \rho ) m}{A_p \rho_p C_D \rho}}$</choice_text>
-          <commentary>제곱근이 빠졌다.</commentary>
+          <commentary>제곱근을 취하지 않아 속도의 제곱에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$[ {\frac{2 g ( \rho_p - \rho ) m}{A_p \rho_p C_D \rho} ]^1 / 2}$</choice_text>
-          <commentary>[2g(ρp - ρ)m/(ApρpCDρ)]^(1/2)이므로 정답이다.</commentary>
+          <commentary>mg(1 - ρ/ρp) = CDu²ρAp/2에서 u = [2g(ρp - ρ)m/(ApρpCDρ)]^(1/2)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

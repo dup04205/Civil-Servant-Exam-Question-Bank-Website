@@ -50,19 +50,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ은 옳지 않다. 중첩의 원리는 선형 회로에만 적용되기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>ㄴ, ㄷ, ㄹ이므로 정답이다.</commentary>
+          <commentary>ㄴ, ㄷ, ㄹ이 옳으므로 정답이다. 중첩의 원리는 키르히호프 법칙에 기초하고, 제거하는 전압원은 단락·전류원은 개방하며, 각 전원의 단독 응답을 합한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -86,19 +86,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>30 V는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>2 μF 커패시터의 전압이다.</commentary>
+          <commentary>50 V는 2 μF 커패시터의 전압이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100 V이므로 정답이다.</commentary>
+          <commentary>V₁ = 150 × 2/(1 + 2) = 100 V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>전체 전압이다.</commentary>
+          <commentary>150 V는 인가 전압 전체이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -122,19 +122,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.4는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.6</choice_text>
-          <commentary>무효율 3/5이다.</commentary>
+          <commentary>0.6은 IL/I = 3/5로 무효율이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8</choice_text>
-          <commentary>0.8이므로 정답이다.</commentary>
+          <commentary>IR = 4 A, IL = 3 A, I = 5 A이므로 역률 = 4/5 = 0.8이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -158,19 +158,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2}}{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>√2/3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2}}{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>√2/2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{3}}{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>√3/3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>√3/2이므로 정답이다.</commentary>
+          <commentary>cosθ = 3,300/(√3 × 220 × 10) = √3/2이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>인덕턴스가 1/4이 된다.</commentary>
+          <commentary>0.5배이면 인덕턴스가 1/4이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>2배이므로 정답이다.</commentary>
+          <commentary>L ∝ N²이므로 4배가 되려면 권선수가 2배여야 하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>인덕턴스가 16배가 된다.</commentary>
+          <commentary>4배이면 인덕턴스가 16배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>인덕턴스가 64배가 된다.</commentary>
+          <commentary>8배이면 인덕턴스가 64배가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,19 +446,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$20$</choice_text>
-          <commentary>20 A이므로 정답이다.</commentary>
+          <commentary>등가 Δ결선 저항 45 Ω에 900 V가 걸려 상전류 20 A이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$20 \sqrt{3}$</choice_text>
-          <commentary>선전류이다.</commentary>
+          <commentary>20√3 A는 Δ결선의 선전류에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$180$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>180 A는 Y→Δ 변환을 하지 않고 계산한 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$180 \sqrt{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>180√3 A는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 . 5 \times 10^{- 3}$</choice_text>
-          <commentary>2.5 × 10^-3 N·m이므로 정답이다.</commentary>
+          <commentary>T = 5 × 10⁻⁵ × 200 × 0.5 × sin30° = 2.5 × 10⁻³ N·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5 \times 10^{- 3}$</choice_text>
-          <commentary>sinθ를 고려하지 않은 값이다.</commentary>
+          <commentary>5 × 10⁻³ N·m는 sin30°를 곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$25 \times 10^{- 3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>25 × 10⁻³ N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$50 \times 10^{- 3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>50 × 10⁻³ N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

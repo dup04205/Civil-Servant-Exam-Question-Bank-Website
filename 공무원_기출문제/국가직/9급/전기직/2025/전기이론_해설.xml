@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.4는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.6</choice_text>
-          <commentary>무효율(Q/S)이다.</commentary>
+          <commentary>0.6은 Q/S로 무효율이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8</choice_text>
-          <commentary>0.8이므로 정답이다.</commentary>
+          <commentary>S = √(800² + 600²) = 1,000 VA이므로 역률 = 800/1,000 = 0.8이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>반발력이 작용하고, 크기는 1 4 배가 된다.</choice_text>
-          <commentary>같은 방향이면 흡인력이다.</commentary>
+          <commentary>같은 방향 전류 사이에는 흡인력이 작용하므로 반발력은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>반발력이 작용하고, 크기는 1 2 배가 된다.</choice_text>
-          <commentary>같은 방향이면 흡인력이다.</commentary>
+          <commentary>같은 방향 전류 사이에는 흡인력이 작용하므로 반발력은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>흡인력이 작용하고, 크기는 1 4 배가 된다.</choice_text>
-          <commentary>거리의 제곱에 반비례하지 않는다.</commentary>
+          <commentary>힘은 거리에 반비례하므로 1/4배가 아니라 1/2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>흡인력이 작용하고, 크기는 1 2 배가 된다.</choice_text>
-          <commentary>흡인력이고 1/2배이므로 정답이다.</commentary>
+          <commentary>같은 방향 전류이므로 흡인력이고, F = μ₀I₁I₂/(2πd)에서 간격 2배이면 1/2배가 되어 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -179,19 +179,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.6 × 10^(-3)</choice_text>
-          <commentary>1.6 × 10^-3 C이므로 정답이다.</commentary>
+          <commentary>Q = 8 × 10⁻⁶ × 200 = 1.6 × 10⁻³ C이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3.2 × 10^(-3)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3.2 × 10⁻³ C는 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.6 × 10^(-2)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1.6 × 10⁻² C는 계산값의 10배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3.2 × 10^(-2)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3.2 × 10⁻² C는 계산값의 20배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -213,19 +213,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$5 {\sqrt{3}}$ $5$</choice_text>
-          <commentary>임피던스 크기를 10 Ω으로 계산하였다.</commentary>
+          <commentary>|Z| = 40/2 = 20 Ω이므로 R = 5√3 Ω은 크기를 10으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5 {\sqrt{3}}$ $5 {\sqrt{3}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>R과 X가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$10 \sqrt{3}$ $10$</choice_text>
-          <commentary>10√3 Ω, 10 Ω이므로 정답이다.</commentary>
+          <commentary>R = 20cos30° = 10√3 Ω, X = 20sin30° = 10 Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$10 \sqrt{3}$ $10 \sqrt{3}$</choice_text>
-          <commentary>리액턴스가 틀렸다.</commentary>
+          <commentary>X = 10√3 Ω이면 위상각이 30°가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -285,19 +285,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$L_{a}$는 $L_{b}$의 1 4 배다.</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>La = 6 mH, Lb = 2 mH이므로 1/4배는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$L_{a}$는 $L_{b}$의 1 3 배다.</choice_text>
-          <commentary>비가 뒤집혔다.</commentary>
+          <commentary>1/3배는 La와 Lb를 바꾸어 비교한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$L_{a}$는 $L_{b}$의 3배다.</choice_text>
-          <commentary>3배이므로 정답이다.</commentary>
+          <commentary>M = 0.5 × √(2 × 2) = 1 mH이므로 La = 6 mH, Lb = 2 mH가 되어 3배이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$L_{a}$는 $L_{b}$의 4배다.</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4배는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -387,19 +387,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>순시전력은 복소전력의 크기이다.</choice_text>
-          <commentary>피상전력의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>순시전력은 p(t) = v(t)i(t)로 시간에 따라 변하며, 복소전력의 크기는 피상전력이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>유효전력은 저항에서 실제로 소비되는 전력이다.</choice_text>
-          <commentary>유효전력의 설명으로 옳다.</commentary>
+          <commentary>유효전력은 저항에서 실제로 소비되는 전력이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>피상전력은 전압 실횻값과 전류 실횻값의 곱이다.</choice_text>
-          <commentary>피상전력의 설명으로 옳다.</commentary>
+          <commentary>피상전력은 S = VI(실횻값의 곱)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>무효전력은 리액턴스에서 전원과 교환되는 전력이다.</choice_text>
-          <commentary>무효전력의 설명으로 옳다.</commentary>
+          <commentary>무효전력은 리액턴스와 전원 사이에서 주고받는 전력이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -420,19 +420,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>각 선전류의 위상차는 120 °이다.</choice_text>
-          <commentary>선전류는 120°씩 위상차가 있으므로 옳다.</commentary>
+          <commentary>평형 3상에서 각 선전류는 120°씩 위상차를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>상전압과 선간전압의 크기가 같다.</choice_text>
-          <commentary>Δ결선은 상전압과 선간전압이 같으므로 옳다.</commentary>
+          <commentary>Δ결선에서는 상전압과 선간전압의 크기가 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>상전류 크기는 선전류 크기의 $\sqrt{3}$배이다.</choice_text>
-          <commentary>반대이므로 옳지 않아 정답이다.</commentary>
+          <commentary>Δ결선에서는 선전류가 상전류의 √3배이다. 상전류가 선전류의 √3배라는 설명은 반대여서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>상전류와 선전류 사이의 위상차가 존재한다.</choice_text>
-          <commentary>30°의 위상차가 있으므로 옳다.</commentary>
+          <commentary>선전류는 상전류보다 30° 뒤지므로 위상차가 존재하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -563,19 +563,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\sqrt{5}}$ $50$</choice_text>
-          <commentary>√5 A, 50 W이므로 정답이다.</commentary>
+          <commentary>Is = √(4.5 + 0.5) = √5 A이고 P = 5 × 10 = 50 W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\sqrt{5}}$ $100$</choice_text>
-          <commentary>전력이 틀렸다.</commentary>
+          <commentary>평균전력 100 W는 최댓값 제곱합을 그대로 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{10}$ $50$</choice_text>
-          <commentary>실횻값이 틀렸다.</commentary>
+          <commentary>실횻값 √10 A는 최댓값의 제곱합을 그대로 제곱근한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{10}$ $100$</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>실횻값과 전력 모두 √2로 나누지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

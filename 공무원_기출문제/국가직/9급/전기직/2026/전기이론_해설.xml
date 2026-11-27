@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>이상적인 전압원과 전류원의 내부저항은 모두 0이다.</choice_text>
-          <commentary>전류원의 내부저항은 무한대이다.</commentary>
+          <commentary>이상적인 전류원의 내부저항이 0이면 단자가 단락되어 전류가 부하로 흐르지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>이상적인 전압원과 전류원의 내부저항은 모두 $\infty$이다.</choice_text>
-          <commentary>전압원의 내부저항은 0이다.</commentary>
+          <commentary>이상적인 전압원의 내부저항이 무한대이면 전류를 공급할 수 없으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>이상적인 전압원의 내부저항은 0이고, 이상적인 전류원의 내부저항은 $\infty$이다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>이상적인 전압원의 내부저항은 0, 이상적인 전류원의 내부저항은 무한대이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>이상적인 전압원의 내부저항은 $\infty$이고, 이상적인 전류원의 내부저항은 0이다.</choice_text>
-          <commentary>반대로 설명하였다.</commentary>
+          <commentary>두 전원의 내부저항을 서로 바꾸어 설명했으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -65,19 +65,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3은 XL의 증가분만 반영한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>6은 처음 비 2에 3을 곱한 값으로 XC의 감소를 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>XL/XC = 2를 반영하지 않은 값이다.</commentary>
+          <commentary>9는 주파수 효과만 반영하고 처음 비 2를 곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>18</choice_text>
-          <commentary>18이므로 정답이다.</commentary>
+          <commentary>XL1 = 3XL, XC1 = XC/3이므로 XL1/XC1 = 9 × 2 = 18이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -136,19 +136,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\mu_{0}}{4}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>μ₀/4는 반원 루프 중심의 자속밀도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\mu_{0}}{2}$</choice_text>
-          <commentary>μ0/2이므로 정답이다.</commentary>
+          <commentary>B = μ₀I/(2a) = μ₀/2 Wb/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\mu_{0}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>μ₀는 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 \mu_{0}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2μ₀는 계산값의 4배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2 \pi}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/(2π) A/m는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{\pi}$</choice_text>
-          <commentary>1/π이므로 정답이다.</commentary>
+          <commentary>H = I/(2πr) = 4/(4π) = 1/π A/m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>π</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>π A/m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 \pi$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2π A/m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -208,19 +208,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2 － $j$0.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>리액턴스의 크기가 켤레 조건(-j2)과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 － $j$2</choice_text>
-          <commentary>2 − j2 Ω이므로 정답이다.</commentary>
+          <commentary>전원 측 임피던스 2 + j2 Ω의 켤레복소수 2 - j2 Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2 ＋ $j$0.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>리액턴스 부호와 크기가 모두 켤레 조건과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 ＋ $j$2</choice_text>
-          <commentary>켤레를 취하지 않은 값이다.</commentary>
+          <commentary>2 + j2 Ω은 전원 측 임피던스 자체로 켤레가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -241,19 +241,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유효전력은 저항에서 소비되는 전력이다.</choice_text>
-          <commentary>유효전력은 저항에서 소비되므로 옳다.</commentary>
+          <commentary>유효전력은 저항에서 소비되는 전력이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>선간전압이 증가하면 유효전력은 증가한다.</choice_text>
-          <commentary>전압이 커지면 전류도 커져 유효전력이 증가하므로 옳다.</commentary>
+          <commentary>임피던스가 일정할 때 선간전압이 증가하면 전류가 늘어 유효전력이 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>3상회로 유효전력은 등가 단상회로 유효전력의 3배이다.</choice_text>
-          <commentary>3상 전력은 단상의 3배이므로 옳다.</commentary>
+          <commentary>평형 3상의 유효전력은 등가 단상(한 상) 전력의 3배이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>부하의 저항은 일정하고 리액턴스의 크기가 증가하면 유효전력은 증가한다.</choice_text>
-          <commentary>유효전력이 감소하므로 옳지 않아 정답이다.</commentary>
+          <commentary>리액턴스가 커지면 전류가 줄어 P = 3I²R이 감소한다. 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -454,19 +454,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2}$ $\frac{1}{2}$</choice_text>
-          <commentary>R과 XC가 틀렸다.</commentary>
+          <commentary>R = 10/5 = 2 Ω이므로 √2 Ω은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2}$ $\frac{1}{\sqrt{2}}$</choice_text>
-          <commentary>R이 틀렸다.</commentary>
+          <commentary>R 값이 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2 $\frac{1}{2}$</choice_text>
-          <commentary>XC가 틀렸다.</commentary>
+          <commentary>XC = 1/2 Ω이면 커패시터 전류가 20 A가 되어 전체 전류가 15 A와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 $\frac{1}{\sqrt{2}}$</choice_text>
-          <commentary>2, 1/√2이므로 정답이다.</commentary>
+          <commentary>R = 2 Ω, IC = √(15² - 5²) = 10√2 A이므로 XC = 1/√2 Ω이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -523,19 +523,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>대역폭은 $BW$ ＝ $\frac{R}{L}$[rad/s]이다.</choice_text>
-          <commentary>직렬회로의 대역폭이므로 옳지 않아 정답이다.</commentary>
+          <commentary>병렬 RLC의 대역폭은 1/(RC)이며 R/L은 직렬 RLC의 대역폭이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$\omega L &gt; \frac{1}{\omega C}$이면 용량성 회로이다.</choice_text>
-          <commentary>ωL &gt; 1/(ωC)이면 커패시터 전류가 더 커져 용량성이므로 옳다.</commentary>
+          <commentary>병렬회로에서 ωL &gt; 1/(ωC)이면 유도성 전류가 용량성 전류보다 작아 용량성 회로가 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공진주파수는 $f_0$ ＝ $\frac{1}{2 \pi \sqrt{LC}}$[Hz]이다.</choice_text>
-          <commentary>공진주파수 식으로 옳다.</commentary>
+          <commentary>공진주파수는 f₀ = 1/(2π√(LC))이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>병렬공진 시에 저항 $R$에 흐르는 전류 $I_R$은 전류 $I$와 같다.</choice_text>
-          <commentary>공진 시 L과 C 전류가 상쇄되어 전체 전류가 저항으로만 흐르므로 옳다.</commentary>
+          <commentary>병렬공진에서는 L과 C의 전류가 상쇄되어 전체 전류가 모두 R로 흐르므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -592,19 +592,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{3}$</choice_text>
-          <commentary>1/3이므로 정답이다.</commentary>
+          <commentary>3ωCΔVL² = 3ωCY(VL/√3)²에서 CΔ/CY = 1/3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\sqrt{3}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/√3은 전압비를 제곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>√3은 비를 거꾸로 하고 제곱도 하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>비가 뒤집혔다.</commentary>
+          <commentary>3은 비를 거꾸로 한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

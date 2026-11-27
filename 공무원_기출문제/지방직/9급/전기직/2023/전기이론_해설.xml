@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.5</choice_text>
-          <commentary>1.5 Wh이므로 정답이다.</commentary>
+          <commentary>W = 180 × 30/3,600 = 1.5 Wh이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>6 Wh는 시간 환산을 잘못한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>90</choice_text>
-          <commentary>초 단위를 분으로 환산한 값이다.</commentary>
+          <commentary>90 Wh는 30초를 0.5시간으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5,400</choice_text>
-          <commentary>단위가 W·s(J)인 값이다.</commentary>
+          <commentary>5,400은 W·s(J) 단위의 값으로 Wh가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -87,19 +87,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ은 옳지 않다.</commentary>
+          <commentary>ㄱ과 ㄴ은 옳지 않다. XC는 전류와 무관하고 주파수에 반비례하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ은 옳지 않다. XC는 전류와 무관하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ은 옳지 않다.</commentary>
+          <commentary>ㄴ은 옳지 않다. XC = 1/(2πfC)로 주파수에 반비례하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>ㄷ, ㄹ이므로 정답이다.</commentary>
+          <commentary>ㄷ, ㄹ이 옳으므로 정답이다. 커패시터는 에너지를 저장했다 되돌려 손실이 없고, XC는 커패시턴스에 반비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -120,19 +120,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>공진 시 전류가 최소로 된다.</choice_text>
-          <commentary>전류가 최대가 되므로 옳지 않아 정답이다.</commentary>
+          <commentary>직렬공진 시 임피던스가 R로 최소가 되어 전류는 최대가 된다. 최소라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전압과 전류가 동상이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>리액턴스가 상쇄되어 순저항 회로가 되므로 전압과 전류가 동상이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>임피던스 $Z = R$인 회로이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>공진 시 Z = R이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$wL - \frac{1}{wC} = 0$이다.</choice_text>
-          <commentary>공진 조건으로 옳다.</commentary>
+          <commentary>공진 조건은 ωL - 1/(ωC) = 0이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -156,19 +156,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>45 20</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>효율은 30/40 = 75%이므로 45%는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>45 10</choice_text>
-          <commentary>효율이 틀렸다.</commentary>
+          <commentary>효율 45%는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>75 20</choice_text>
-          <commentary>손실이 틀렸다.</commentary>
+          <commentary>손실은 40 - 30 = 10 W이므로 20 W는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>75 10</choice_text>
-          <commentary>75 %, 10 W이므로 정답이다.</commentary>
+          <commentary>효율 75%, 손실 10 W이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -258,19 +258,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>자기장을 형성하는 기자력은 전류와 턴수의 곱이다.</choice_text>
-          <commentary>기자력 F = NI이므로 옳다.</commentary>
+          <commentary>기자력은 F = NI로 전류와 턴수의 곱이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>릴럭턴스는 투자율에 비례한다.</choice_text>
-          <commentary>투자율에 반비례하므로 옳지 않아 정답이다.</commentary>
+          <commentary>릴럭턴스는 Rm = l/(μA)로 투자율에 반비례한다. 비례한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기자력을 릴럭턴스로 나누면 자속이 된다.</choice_text>
-          <commentary>Φ = F/Rm이므로 옳다.</commentary>
+          <commentary>자속은 Φ = F/Rm이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>릴럭턴스의 역수는 퍼미언스다.</choice_text>
-          <commentary>퍼미언스는 릴럭턴스의 역수이므로 옳다.</commentary>
+          <commentary>릴럭턴스의 역수를 퍼미언스라 하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -294,19 +294,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>r = 3 m이면 전위가 6 × 10⁹ V가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>r = 4 m이면 전위가 4.5 × 10⁹ V가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>r = 5 m이면 전위가 3.6 × 10⁹ V가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>6 m이므로 정답이다.</commentary>
+          <commentary>r = 9 × 10⁹ × 2/(3 × 10⁹) = 6 m이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -474,19 +474,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>200 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>400 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>600</choice_text>
-          <commentary>600 W이므로 정답이다.</commentary>
+          <commentary>I = 100/10 = 10 A이므로 P = 10² × 6 = 600 W이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>800</choice_text>
-          <commentary>무효전력 I²X이다.</commentary>
+          <commentary>800 W는 리액턴스 8 Ω을 저항처럼 쓴 값으로 무효전력에 해당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -507,19 +507,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유효전력은 순시 전력의 평균값이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>유효전력은 순시전력의 한 주기 평균값이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>역률은 평균전력과 복소전력의 비율이다.</choice_text>
-          <commentary>피상전력과의 비이므로 옳지 않아 정답이다.</commentary>
+          <commentary>역률은 평균전력과 피상전력(복소전력의 크기)의 비이다. 복소전력과의 비율이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>용량성 부하에서는 음의 무효전력이 전달된다.</choice_text>
-          <commentary>용량성 부하는 음의 무효전력을 가지므로 옳다.</commentary>
+          <commentary>용량성 부하는 무효전력을 공급하므로 음의 무효전력으로 표시되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정현파 부하 전압과 부하 전류의 위상차가 0 °이면 역률이 최대이다.</choice_text>
-          <commentary>위상차 0°에서 역률 1로 최대이므로 옳다.</commentary>
+          <commentary>위상차가 0°이면 cos 0° = 1로 역률이 최대이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -543,19 +543,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$500$</choice_text>
-          <commentary>500 var이므로 정답이다.</commentary>
+          <commentary>X = 10 sin30° = 5 Ω이므로 Q = 10² × 5 = 500 var이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$500 \sqrt{3}$</choice_text>
-          <commentary>유효전력이다.</commentary>
+          <commentary>500√3은 저항 성분 10cos30° = 5√3 Ω으로 계산한 유효전력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1 , 000$</choice_text>
-          <commentary>피상전력이다.</commentary>
+          <commentary>1,000 var는 임피던스 크기 10 Ω을 그대로 쓴 피상전력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 , 000 \sqrt{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,000√3 var는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -576,19 +576,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>각 상의 순시 전압값을 합하면 한 상의 전압값이 된다.</choice_text>
-          <commentary>순시값의 합은 0이다.</commentary>
+          <commentary>평형 3상 순시 전압의 합은 항상 0이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>각 상의 전압 크기가 같고 위상차는 120 °이다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>각 상의 전압 크기가 같고 위상차가 120°이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>각 상의 주파수 값은 서로 다르다.</choice_text>
-          <commentary>주파수는 모두 같다.</commentary>
+          <commentary>각 상의 주파수는 같으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>평형 3상 부하에 흐르는 각 상의 순시 전륫값을 합하면 항상 양수가 된다.</choice_text>
-          <commentary>순시 전류의 합은 0이다.</commentary>
+          <commentary>평형 3상 순시 전류의 합은 항상 0이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -612,19 +612,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$160$</choice_text>
-          <commentary>한 상의 유효전력 160 W이다.</commentary>
+          <commentary>160 W는 한 상의 유효전력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$160 \sqrt{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>160√3 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$360$</choice_text>
-          <commentary>무효전력 3I²X이다.</commentary>
+          <commentary>360 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$480$</choice_text>
-          <commentary>480 W이므로 정답이다.</commentary>
+          <commentary>상전류 100/50 = 2 A이므로 P = 3 × 2² × 40 = 480 W이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -648,19 +648,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.001</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.001초는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.01</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.01초는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.1초는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1초이므로 정답이다.</commentary>
+          <commentary>L = 2,000 × 0.06/10 = 12 H, τ = 12/12 = 1초이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -684,19 +684,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$R$－$C$ 직렬회로에서 $R$이 작아지면 과도현상 시간이 줄어든다.</choice_text>
-          <commentary>RC 회로에서 R이 작으면 τ가 작아 옳다.</commentary>
+          <commentary>τ = RC이므로 R이 작아지면 과도현상 시간이 줄어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$R$－$C$ 직렬회로에서 $C$가 커지면 과도현상 시간이 늘어난다.</choice_text>
-          <commentary>C가 크면 τ가 커 옳다.</commentary>
+          <commentary>C가 커지면 τ = RC가 커져 과도현상 시간이 늘어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$R$－$L$ 직렬회로에서 $R$이 작아지면 과도현상 시간이 줄어든다.</choice_text>
-          <commentary>R이 작으면 시간이 늘어나므로 옳지 않아 정답이다.</commentary>
+          <commentary>RL 회로의 τ = L/R은 R이 작아지면 커져 과도현상 시간이 늘어난다. 줄어든다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$R$－$L$ 직렬회로에서 $L$이 커지면 과도현상 시간이 늘어난다.</choice_text>
-          <commentary>L이 크면 τ가 커 옳다.</commentary>
+          <commentary>L이 커지면 τ = L/R이 커져 과도현상 시간이 늘어 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>300</choice_text>
-          <commentary>직류분 전력만 계산한 값이다.</commentary>
+          <commentary>300 W는 직류분 전력만 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>325</choice_text>
-          <commentary>325 W이므로 정답이다.</commentary>
+          <commentary>직류분 300 W와 기본파 ½ × 5 × 20 × cos60° = 25 W를 더하면 325 W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>365</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>365 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>위상차를 고려하지 않은 값이다.</commentary>
+          <commentary>400 W는 기본파 전력의 위상차를 반영하지 않은 값(300 + 50 + α)과도 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -102,19 +102,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0 A는 t = 0에서 q가 0이라는 점만 보고 전류를 0으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 A는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20 A는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>30</choice_text>
-          <commentary>30 A이므로 정답이다.</commentary>
+          <commentary>i = 30e^(0.1t) + 3te^(0.1t)에서 i(0) = 30 A이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.3 × 10^(－6)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.3 × 10⁻⁶ J은 경로 거리 3을 곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.6 × 10^(－6)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.6 × 10⁻⁶ J은 E의 y성분을 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.9 × 10^(－6)</choice_text>
-          <commentary>0.9 × 10^-6 J이므로 정답이다.</commentary>
+          <commentary>W = -q∫E·dl = -0.1 × 10⁻⁶ × (3 × (-3)) = 0.9 × 10⁻⁶ J이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.2 × 10^(－6)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1.2 × 10⁻⁶ J은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -174,19 +174,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$I_{B}$가 ＋$z$방향으로 흐르는 경우, 두 도선 간에 작용하는 힘은 흡인력이다.</choice_text>
-          <commentary>같은 방향이면 흡인력이므로 옳다.</commentary>
+          <commentary>같은 방향 전류 사이에는 흡인력이 작용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$I_{B}$가 ＋$z$방향으로 흐르는 경우, 두 도선 간에 작용하는 힘은 단위길이당 10^(－7) [N/m]이다.</choice_text>
-          <commentary>2 × 10^-7 N/m이므로 옳지 않아 정답이다.</commentary>
+          <commentary>F = 4π × 10⁻⁷ × 1 × 1/(2π × 1) = 2 × 10⁻⁷ N/m이다. 10⁻⁷ N/m라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$I_{B}$가 －$z$방향으로 흐르는 경우, 두 도선 사이의 영역에서 자속의 크기는 증가한다.</choice_text>
-          <commentary>반대 방향이면 사이 영역의 자속이 증가하므로 옳다.</commentary>
+          <commentary>반대 방향 전류이면 두 도선 사이에서 두 자계의 방향이 같아져 자속이 증가하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$I_{B}$가 －$z$방향으로 흐르는 경우, 두 도선 사이의 영역에서 자속의 방향은 －$x$방향이다.</choice_text>
-          <commentary>그림의 좌표 배치에 따른 자속 방향으로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 반대 방향 전류일 때 두 도선 사이 자속의 방향은 -x방향으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -210,19 +210,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3 × 10^(－3)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3 × 10⁻³ Wb는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>6 × 10^(－3)</choice_text>
-          <commentary>6 × 10^-3 Wb이므로 정답이다.</commentary>
+          <commentary>Φ = NI/Rm = 150/(0.25 × 10⁵) = 6 × 10⁻³ Wb이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3 × 10^(－4)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3 × 10⁻⁴ Wb는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6 × 10^(－4)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>6 × 10⁻⁴ Wb는 자릿수가 하나 작다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -316,19 +316,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>복소전력은 $\frac{V_{eff} I_{eff}}{2} \angle ( \theta - \phi )$이다.</choice_text>
-          <commentary>실횻값을 쓰므로 1/2이 붙지 않는다.</commentary>
+          <commentary>실횻값 페이저의 복소전력은 VeffIeff∠(θ - φ)이며 1/2이 붙지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>피상전력은 $\frac{V_{eff} I_{eff}}{2}$이다.</choice_text>
-          <commentary>실횻값을 쓰므로 1/2이 붙지 않는다.</commentary>
+          <commentary>피상전력은 VeffIeff이며 1/2이 붙지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>유효전력은 $V_{eff} I_{eff} \cos ( \theta - \phi )$이다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>유효전력은 P = VeffIeff cos(θ - φ)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>무효전력은 VA 단위를 사용한다.</choice_text>
-          <commentary>무효전력의 단위는 VAR이다.</commentary>
+          <commentary>무효전력의 단위는 VAR이며 VA는 피상전력의 단위이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -350,19 +350,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수동소자 커패시터 C의 임피던스는 $- \frac{j}{\omega C}$이다.</choice_text>
-          <commentary>커패시터 임피던스로 옳다.</commentary>
+          <commentary>커패시터의 임피던스는 1/(jωC) = -j/(ωC)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>임피던스는 옴(Ohm)의 단위를 사용하는 복소량이다.</choice_text>
-          <commentary>단위가 옴인 복소량이므로 옳다.</commentary>
+          <commentary>임피던스는 Ω 단위의 복소량이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>임피던스는 주파수 영역에서 페이저 전류 ${\dot{I}}$와 페이저 전압 ${\dot{V}}$의 비인 $Z = \frac{\dot{V}}{\dot{I}}$로 정의된다.</choice_text>
-          <commentary>임피던스의 정의로 옳다.</commentary>
+          <commentary>임피던스는 Z = V/I로 정의되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>임피던스는 페이저이므로 $e^{j \omega t}$를 곱하고 실수부분을 취하면 시간영역으로 변환할 수 있다.</choice_text>
-          <commentary>임피던스는 페이저가 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>임피던스는 페이저가 아닌 복소수 비이므로 e^(jωt)를 곱해 시간영역으로 바꾸는 대상이 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -421,19 +421,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>100 Ω이면 상전류 5 A로 소비전력이 6,000 W가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>300</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>300 Ω이면 소비전력이 약 2,000 W가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>500</choice_text>
-          <commentary>500 Ω이므로 정답이다.</commentary>
+          <commentary>Ip = 400/(500 × 0.8) = 1 A이므로 |Z| = 500 Ω이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>700</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>700 Ω이면 소비전력이 약 857 W가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -454,19 +454,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>y 성분의 크기이다.</commentary>
+          <commentary>3은 ay 성분의 크기만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>z 성분의 크기이다.</commentary>
+          <commentary>4는 az 성분의 크기만 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5 A/m²이므로 정답이다.</commentary>
+          <commentary>J = 3ay - 4az이므로 |J| = √(9 + 16) = 5 A/m²이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>6은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -526,19 +526,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>εr = 1이면 정전용량이 변하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>εr = 2이면 C = 5 + 10 = 15 μF이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>εr = 3이면 C = 5 + 15 = 20 μF이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4이므로 정답이다.</commentary>
+          <commentary>병렬 구조에서 5 + 5εr = 25이므로 εr = 4이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -670,19 +670,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>490</choice_text>
-          <commentary>한 상의 무효전력이다.</commentary>
+          <commentary>490 VAR은 한 상의 무효전력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,470</choice_text>
-          <commentary>1,470 VAR이므로 정답이다.</commentary>
+          <commentary>상전류 70√2/(10√2) = 7 A이므로 Q = 3 × 49 × 10 = 1,470 VAR이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1,600</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,600 VAR은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2,546</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2,546 VAR은 Y결선으로 착각하는 등 잘못 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0 2</choice_text>
-          <commentary>중앙값은 1이다.</commentary>
+          <commentary>중앙값은 0이 아니라 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0 3</choice_text>
-          <commentary>중앙값과 사분위범위가 모두 다르다.</commentary>
+          <commentary>중앙값은 1이고 사분위범위는 2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1 2</choice_text>
-          <commentary>1, 2이므로 정답이다.</commentary>
+          <commentary>중앙값 1, Q3 − Q1 = 2 − 0 = 2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1 3</choice_text>
-          <commentary>사분위범위는 2이다.</commentary>
+          <commentary>사분위범위는 3이 아니라 2이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$( n - 1 ) \sigma^2$ $2 ( n - 1 ) \sigma^{2}$</choice_text>
-          <commentary>μ를 알고 있으므로 자유도는 n이며 분산 단위도 다르다.</commentary>
+          <commentary>평균은 nσ²이고 분산은 2nσ⁴이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$( n - 1 ) \sigma^{2}$ $2 ( n - 1 ) \sigma^{4}$</choice_text>
-          <commentary>자유도는 n − 1이 아니라 n이다.</commentary>
+          <commentary>μ를 알고 있으므로 자유도는 n − 1이 아니라 n이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$n \sigma^2$ $2 n \sigma^{2}$</choice_text>
-          <commentary>분산은 σ⁴에 비례한다.</commentary>
+          <commentary>분산은 σ²이 아니라 σ⁴에 비례한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$n \sigma^{2}$ $2 n \sigma^{4}$</choice_text>
-          <commentary>nσ², 2nσ⁴이므로 정답이다.</commentary>
+          <commentary>Σ(X_i − μ)²/σ²가 χ²(n)이므로 평균 nσ², 분산 2nσ⁴이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{X_{1} + X_{2} + X_{3} + X_{4}}{4}$</choice_text>
-          <commentary>분산이 σ²/4로 가장 작으므로 정답이다.</commentary>
+          <commentary>계수 제곱합이 0.25로 가장 작아 분산이 가장 작으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 X_{1} + X_{2} + X_{3} + X_{4}}{6}$</choice_text>
-          <commentary>분산이 σ²/3이다.</commentary>
+          <commentary>계수 제곱합은 약 0.333이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{0 . 5 X_{1} + 1 . 5 X_{2} + X_{3} + 2 X_{4}}{5}$</choice_text>
-          <commentary>분산이 0.3σ²이다.</commentary>
+          <commentary>계수 제곱합은 0.3이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 X_{1} + X_{2} + 2 X_{3}}{5}$</choice_text>
-          <commentary>분산이 0.36σ²이다.</commentary>
+          <commentary>계수 제곱합은 0.36이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -154,19 +154,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄴ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄴ도 정규방정식에서 성립한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄷ</choice_text>
-          <commentary>ㄷ은 SSE이므로 옳지 않다.</commentary>
+          <commentary>ΣY_ie_i = SSE이므로 일반적으로 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
+          <commentary>정규방정식에서 Σe_i = 0(ㄱ), ΣX_ie_i = 0(ㄴ)이 성립하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ은 성립하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -190,19 +190,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.512</choice_text>
-          <commentary>0.512가 아니다.</commentary>
+          <commentary>0.512는 r³과 관련된 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.640</choice_text>
-          <commentary>0.640이 아니다.</commentary>
+          <commentary>0.640은 결정계수 r²이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.000</choice_text>
-          <commentary>1.000이므로 정답이다.</commentary>
+          <commentary>β̂₁ = 0.8 × 5/4 = 1.0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.250</choice_text>
-          <commentary>상관계수를 곱하지 않은 값이다.</commentary>
+          <commentary>1.250은 상관계수를 반영하지 않은 s_Y/s_X이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -226,19 +226,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>12 귀무가설을 기각함</choice_text>
-          <commentary>12, 귀무가설을 기각함이므로 정답이다.</commentary>
+          <commentary>χ² = 12 &gt; 9.49이므로 귀무가설을 기각하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>12 귀무가설을 기각하지 않음</choice_text>
-          <commentary>12 &gt; 9.49이므로 기각한다.</commentary>
+          <commentary>χ² = 12가 임계값을 넘으므로 기각한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15 귀무가설을 기각함</choice_text>
-          <commentary>검정통계량은 15가 아니다.</commentary>
+          <commentary>검정통계량은 15가 아니라 12이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>15 귀무가설을 기각하지 않음</choice_text>
-          <commentary>검정통계량과 결론이 모두 다르다.</commentary>
+          <commentary>검정통계량은 12이고 귀무가설을 기각한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -263,19 +263,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>총제곱합은 $\sum_{i = 1}^{k} \sum_{j = 1}^{n_{i}} Y_{ij}^{2} - n {\bar Y}^{2}$이고 자유도는 $n - 1$이다.</choice_text>
-          <commentary>총제곱합과 자유도로 옳다.</commentary>
+          <commentary>총제곱합과 자유도 n − 1이 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>처리제곱합은 $\sum_{i = 1}^k n_i {\bar Y}_i^{2} - n {\bar Y}^{2}$이고 자유도는 $k - 1$이다.</choice_text>
-          <commentary>처리제곱합과 자유도로 옳다.</commentary>
+          <commentary>처리제곱합과 자유도 k − 1이 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>오차제곱합(잔차제곱합)은 $\sum_{i = 1}^k \sum_{j = 1}^n{}_i Y_ij^2 - \sum_i = 1^k n_i {\bar Y}_i^{2}$이고 자유도는 $n - k$이다.</choice_text>
-          <commentary>오차제곱합과 자유도로 옳다.</commentary>
+          <commentary>오차제곱합과 자유도 n − k가 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>통계량 ${\sum_{i = 1}^{k} n_{i} {\bar{Y}}_{i}^{2}} - n {\bar Y}^\frac{2}{\sum_{i = 1}^{k} \sum_{j = 1}^{n_{i}} Y_{ij}^{2} - \sum_{i = 1}^{k} n_{i} {\bar Y}_{i}}^{2}$은 분자의 자유도가 $k - 1$, 분모의 자유도가 $n - k$인 $F$ 분포를 따른다.</choice_text>
-          <commentary>자유도로 나누지 않아 F분포를 따르지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>F 통계량은 평균제곱의 비이어야 하며 제곱합의 비는 F분포를 따르지 않는다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -299,19 +299,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$t_{\alpha} ( \nu ) = 9$</choice_text>
-          <commentary>제곱 관계가 반대이다.</commentary>
+          <commentary>F_α(1, ν)는 t의 제곱이므로 9가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$t_{\alpha / 2} ( \nu ) = 9$</choice_text>
-          <commentary>제곱 관계가 반대이다.</commentary>
+          <commentary>t 값의 제곱이 3이므로 9가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$t_{\alpha} ( \nu ) = \sqrt{3}$</choice_text>
-          <commentary>α가 아니라 α/2이다.</commentary>
+          <commentary>F_α(1, ν) = [t_(α/2)(ν)]²이므로 t_α가 아니라 t_(α/2)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$t_{\alpha / 2} ( \nu ) = \sqrt{3}$</choice_text>
-          <commentary>t_(α/2)(ν) = √3이므로 정답이다.</commentary>
+          <commentary>F_α(1, ν) = [t_(α/2)(ν)]² = 3이므로 t_(α/2)(ν) = √3이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -332,19 +332,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sum_{i = 1}^{16} \left( X_{i} - \bar{X} \right)^{2} \geq 2 \chi_{0 . 05}^{2} ( 15 )$</choice_text>
-          <commentary>σ₀² = 30을 곱해야 한다.</commentary>
+          <commentary>귀무가설의 분산 30을 곱해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sum_{i = 1}^{16} \left( X_{i} - \bar{X} \right)^{2} \geq 30 \chi_{0 . 05}^{2} ( 15 )$</choice_text>
-          <commentary>30χ²₀.₀₅(15)이므로 정답이다.</commentary>
+          <commentary>Σ(X_i − X̄)² ≥ 30χ²₀.₀₅(15)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sum_{i = 1}^{16} \left( X_{i} - \bar{X} \right)^{2} \geq 2 \chi_{0 . 05}^{2} ( 16 )$</choice_text>
-          <commentary>계수와 자유도가 모두 다르다.</commentary>
+          <commentary>분산값과 자유도가 모두 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sum_{i = 1}^{16} \left( X_{i} - \bar{X} \right)^{2} \geq 30 \chi_{0 . 05}^{2} ( 16 )$</choice_text>
-          <commentary>μ가 미지이므로 자유도는 15이다.</commentary>
+          <commentary>μ가 미지이므로 자유도는 16이 아니라 15이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -366,19 +366,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$y^n$</choice_text>
-          <commentary>최댓값의 누적분포함수이다.</commentary>
+          <commentary>yⁿ은 최댓값의 누적분포함수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$( 1 - y )^n$</choice_text>
-          <commentary>생존함수 P(Y &gt; y)이다.</commentary>
+          <commentary>(1 − y)ⁿ은 P(Y &gt; y)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$( 1 - e^{- y} )^{n}$</choice_text>
-          <commentary>지수분포와 혼동한 것이다.</commentary>
+          <commentary>지수분포와 관련된 식으로 균일분포에 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 - ( 1 - y )^{n}$</choice_text>
-          <commentary>1 − (1 − y)ⁿ이므로 정답이다.</commentary>
+          <commentary>F(y) = 1 − (1 − y)ⁿ이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -400,19 +400,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{4}{7}$</choice_text>
-          <commentary>4/7이므로 정답이다.</commentary>
+          <commentary>0.3 + 0.7P(B) = 0.7에서 P(B) = 4/7이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>1/2이 아니다.</commentary>
+          <commentary>1/2이면 P(A ∪ B) = 0.65이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4}{9}$</choice_text>
-          <commentary>4/9가 아니다.</commentary>
+          <commentary>4/9이면 P(A ∪ B)가 0.7이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{5}$</choice_text>
-          <commentary>배반사건으로 계산한 값이다.</commentary>
+          <commentary>2/5이면 P(A ∪ B) = 0.58이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -433,19 +433,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{8} \pi$</choice_text>
-          <commentary>전체 원환 넓이를 사용한 값이다.</commentary>
+          <commentary>계산값 1/(4π)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{4} \pi$</choice_text>
-          <commentary>1/(4π)이므로 정답이다.</commentary>
+          <commentary>영역 넓이 4π이므로 c = 1/(4π)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$4 \pi$</choice_text>
-          <commentary>역수가 아니다.</commentary>
+          <commentary>4π는 영역의 넓이이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$8 \pi$</choice_text>
-          <commentary>역수가 아니다.</commentary>
+          <commentary>8π는 원환 전체의 넓이이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -469,19 +469,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$CV_x &lt; CV_y , CV_x &gt; CV_z$</choice_text>
-          <commentary>CV_x와 CV_y는 같다.</commentary>
+          <commentary>y의 변동계수는 x와 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$CV_{x} &lt; CV_{y} , CV_{x} &lt; CV_{z}$</choice_text>
-          <commentary>CV_x와 CV_y는 같고 CV_z는 더 작다.</commentary>
+          <commentary>y의 변동계수는 같고 z의 변동계수는 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$CV_{x} = CV_{y} , CV_{x} &gt; CV_{z}$</choice_text>
-          <commentary>CV_x = CV_y, CV_x &gt; CV_z이므로 정답이다.</commentary>
+          <commentary>CV_y = CV_x이고 평균만 커지는 z는 CV가 작아지므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$CV_{x} = CV_{y} , CV_{x} &lt; CV_{z}$</choice_text>
-          <commentary>CV_z는 더 작다.</commentary>
+          <commentary>z의 변동계수는 x보다 작다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -502,19 +502,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$e^{- 2 / 3}$</choice_text>
-          <commentary>지수가 뒤집혀 있다.</commentary>
+          <commentary>e^(−2/3)은 λ와 시간을 뒤바꾼 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$e^{- 3 / 2}$</choice_text>
-          <commentary>e^(−3/2)이므로 정답이다.</commentary>
+          <commentary>λ = 1/2이므로 P(X ≥ 3) = e^(−3/2)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$e^{- 3}$</choice_text>
-          <commentary>λ = 1로 계산한 값이다.</commentary>
+          <commentary>e^(−3)은 λ = 1로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$e^{- 6}$</choice_text>
-          <commentary>λ = 2로 계산한 값이다.</commentary>
+          <commentary>e^(−6)은 λ = 2로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -538,19 +538,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.56</choice_text>
-          <commentary>0.56이 아니다.</commentary>
+          <commentary>0.56은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.58</choice_text>
-          <commentary>0.58이 아니다.</commentary>
+          <commentary>0.58은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.60</choice_text>
-          <commentary>0.60이므로 정답이다.</commentary>
+          <commentary>SSR = 60, SSE = 40이므로 R² = 0.60이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.62</choice_text>
-          <commentary>0.62가 아니다.</commentary>
+          <commentary>0.62는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -572,19 +572,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>4 귀무가설을 기각함</choice_text>
-          <commentary>자유도 4, 귀무가설을 기각함이므로 정답이다.</commentary>
+          <commentary>자유도 4, χ² ≒ 10.83 &gt; 9.49이므로 귀무가설을 기각하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4 귀무가설을 기각하지 않음</choice_text>
-          <commentary>10.83 &gt; 9.49이므로 기각한다.</commentary>
+          <commentary>χ²가 임계값을 넘으므로 기각한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5 귀무가설을 기각함</choice_text>
-          <commentary>자유도는 4이다.</commentary>
+          <commentary>범주 5개이므로 자유도는 4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5 귀무가설을 기각하지 않음</choice_text>
-          <commentary>자유도와 결론이 모두 다르다.</commentary>
+          <commentary>자유도는 4이고 귀무가설을 기각한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -608,19 +608,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$\frac{X_{1} - 2 X_{2}}{\sqrt{5}}$의 분포는 표준정규분포이다.</choice_text>
-          <commentary>표준정규분포이므로 옳다.</commentary>
+          <commentary>X₁ − 2X₂는 N(0, 5)이므로 √5로 나누면 표준정규분포여서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$\frac{X_{1} + X_{2}}{\sqrt{( X_{1} - X_{2} )^{2}}}$의 분포는 자유도가 1인 $t$ 분포이다.</choice_text>
-          <commentary>자유도 1인 t분포이므로 옳다.</commentary>
+          <commentary>X₁ + X₂와 X₁ − X₂는 독립인 N(0, 2)이므로 t(1)을 따라 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$\frac{X_{1}^{2}}{X_{2}^{2}}$의 분포는 자유도가 1인 카이제곱분포이다.</choice_text>
-          <commentary>F(1, 1)을 따르므로 옳지 않아 정답이다.</commentary>
+          <commentary>X₁²/X₂²은 F(1, 1)을 따르며 카이제곱분포가 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$\frac{( X_{1} - X_{2} )^{2}}{( X_{1} + X_{2} )^{2}}$의 분포는 분자의 자유도가 1, 분모의 자유도가 1인 $F$ 분포이다.</choice_text>
-          <commentary>F(1, 1)이므로 옳다.</commentary>
+          <commentary>두 독립 χ²(1)의 비이므로 F(1, 1)을 따라 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -641,19 +641,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P ( Z &gt; z_\alpha - \sqrt{1}0 )$</choice_text>
-          <commentary>P(Z &gt; z_α − √10)이므로 정답이다.</commentary>
+          <commentary>μ = 30에서 검정력은 P(Z &gt; z_α − √10)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$P ( Z &gt; z_{\alpha} + \sqrt{1}0 )$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>부호가 반대로 되어 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$P \left ( Z &gt; z_\alpha - \frac{\sqrt{1}0}{2} \right )$</choice_text>
-          <commentary>표준화가 잘못되었다.</commentary>
+          <commentary>표준화한 차이는 √10/2가 아니라 √10이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$P \left ( Z &gt; z_{\alpha} + \frac{\sqrt{1}0}{2} \right )$</choice_text>
-          <commentary>부호와 표준화가 모두 잘못되었다.</commentary>
+          <commentary>부호와 크기가 모두 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -677,19 +677,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.15</choice_text>
-          <commentary>두 분산의 단순 평균이다.</commentary>
+          <commentary>1.15는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.25</choice_text>
-          <commentary>1.25가 아니다.</commentary>
+          <commentary>1.25는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.28</choice_text>
-          <commentary>1.28이 아니다.</commentary>
+          <commentary>1.28은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.29</choice_text>
-          <commentary>1.29이므로 정답이다.</commentary>
+          <commentary>MSE = (31.5 + 7.2)/30 = 1.29이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -713,19 +713,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1 \frac{0}{3}$</choice_text>
-          <commentary>10/3이 아니다.</commentary>
+          <commentary>계산값 7/2와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{7}{2}$</choice_text>
-          <commentary>7/2이므로 정답이다.</commentary>
+          <commentary>β̂ = 63/18 = 7/2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{18}{5}$</choice_text>
-          <commentary>18/5가 아니다.</commentary>
+          <commentary>18/5는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 \frac{9}{6}$</choice_text>
-          <commentary>29/6이 아니다.</commentary>
+          <commentary>계산값 7/2와 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

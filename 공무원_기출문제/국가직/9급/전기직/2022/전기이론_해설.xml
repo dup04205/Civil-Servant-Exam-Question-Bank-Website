@@ -27,8 +27,8 @@
         <correct_choice_text>ㄴ, ㄷ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 복합 보기 검증형 (핵심어: 중첩의 원리를 이용한 회로해석 방법)
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(X), ㄴ(O), ㄷ(O), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄴ, ㄷ, ㄹ)이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 중첩의 원리
+정답은 ④이다. 중첩의 원리는 선형 회로에만 적용되며 키르히호프 법칙에 바탕을 둔다(ㄴ). 한 전원씩 남기고 나머지 전압원은 단락, 전류원은 개방하여 해석하고(ㄷ), 각 전원이 단독으로 있을 때의 응답을 더하면 전체 응답이 된다(ㄹ). 선형 소자에는 적용할 수 있고 비선형 소자에는 적용할 수 없다(ㄱ 틀림).</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[X]">
           <statement>중첩의 원리는 선형 소자에서는 적용이 불가능하다.</statement>
@@ -50,19 +50,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄹ)이다.</commentary>
+          <commentary>ㄱ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄱ은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄷ, ㄹ이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -81,25 +81,24 @@
         <correct_choice_text>100</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 정전용량, 커패시터, 직렬, 연결한)
-정답은 ③이다. 본 문항은 정전용량, 커패시터, 직렬, 연결한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $\mu$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 직렬 커패시터의 전압 분배
+정답은 ③이다. 직렬 커패시터에는 같은 전하가 저장되므로 전압은 정전용량에 반비례한다. 1 μF 커패시터의 전압은 V1 = 150 × C2/(C1 + C2) = 150 × 2/3 = 100 V이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2 μF 커패시터의 전압이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>100 V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전체 전압이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -118,24 +117,24 @@
         <correct_choice_text>0.8</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 저항, 유도성, 리액턴스, 병렬)
-정답은 ④이다. 본 문항은 저항, 유도성, 리액턴스, 병렬에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · RL 병렬회로의 역률
+정답은 ④이다. 병렬회로에서 저항 전류는 120/30 = 4 A, 인덕터 전류는 120/40 = 3 A이므로 전체 전류는 √(4² + 3²) = 5 A이다. 역률은 IR/I = 4/5 = 0.8이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>무효율 3/5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.8이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -154,25 +153,24 @@
         <correct_choice_text>$\frac{\sqrt{3}}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 모터, 선전압, 이고, 선전류)
-정답은 ④이다. 본 문항은 모터, 선전압, 이고, 선전류에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{\sqrt{2}}{3}$; $\frac{\sqrt{2}}{2}$; $\frac{\sqrt{3}}{3}$; $\frac{\sqrt{3}}{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 3상 모터의 역률
+정답은 ④이다. 3상 유효전력은 P = √3VLILcosθ이므로 cosθ = 3,300/(√3 × 220 × 10) = 1.5/√3 = √3/2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2}}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2}}{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{3}}{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>√3/2이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -191,25 +189,24 @@
         <correct_choice_text>5</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 직렬회로에서, 전류, 크기)
-정답은 ①이다. 본 문항은 그림, 직렬회로에서, 전류, 크기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $L$; $C$; $I_{r ms}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · LC 직렬회로의 전류
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 전류의 실횻값은 5 A이다이다. LC 직렬회로의 리액턴스는 X = XL − XC로 서로 상쇄되므로 I = V/|XL − XC|로 전류를 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -228,25 +225,24 @@
         <correct_choice_text>3</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 회로에서, 전압, 양단)
-정답은 ②이다. 본 문항은 그림, 회로에서, 전압, 양단에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $E$; $a$; $b$; $S$; $I$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 스위치 개폐에 따른 저항
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 R = 3 Ω이다이다. 스위치를 닫기 전후의 합성저항을 각각 R의 식으로 나타내고, 전압이 같을 때 전류가 2배가 되려면 합성저항이 1/2이 된다는 조건으로 R을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -265,25 +261,24 @@
         <correct_choice_text>저항 $R_{L}$의 값이 클수록 저항 3 [Ω]에 전달되는 전력이 커진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 그림, 회로에서, 저항, 변화함)
-정답은 ③이다. 본 문항은 그림, 회로에서, 저항, 변화함에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R_L$; $R_{L}$; $R_{L}$; $R_{L}$; $R_{L}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 부하 변화와 전달 전력
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 RL이 클수록 3 Ω 저항에 전달되는 전력이 커진다이다. RL이 3 Ω 저항과 병렬로 연결되어 전류를 나누어 가진다면, RL이 커질수록 RL 쪽으로 분류되는 전류가 줄어 3 Ω 저항의 전류와 전력이 증가한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>저항 $R_{L}$ ＝ 3 [Ω]일 때 저항 3 [Ω]에 최대전력이 전달된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>저항 $R_{L}$ ＝ 6 [Ω]일 때 저항 3 [Ω]에 최대전력이 전달된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>저항 $R_{L}$의 값이 클수록 저항 3 [Ω]에 전달되는 전력이 커진다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>저항 $R_{L}$의 값이 작을수록 저항 3 [Ω]에 전달되는 전력이 커진다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -302,25 +297,24 @@
         <correct_choice_text>(정답 선지 참조)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 회로에서, 병렬, 연결된)
-정답은 정답없음이다. 본 문항은 그림, 회로에서, 병렬, 연결된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, 정답없음 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_r$; $V_s$; $V_s$; $0 . 9$; $2 , 060$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 부하의 합성역률과 송전단 전압
+정답은 없음(모든 선지 정답 처리)이다. 이 문항은 공식 정답이 '정답 없음'으로 처리되어 모든 선지가 정답으로 인정되었다. 그림이 제공되지 않아 확인할 수 없으며, 일반적으로는 병렬 부하의 유효전력과 무효전력을 각각 합하여 합성역률 cosθ = P/√(P² + Q²)를 구하고, 선로 임피던스에 의한 전압강하를 수전단 전압에 더해 송전단 전압을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 . 9$ $2 , 060$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모든 선지가 정답으로 인정되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$0 . 9$ $2 , 090$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모든 선지가 정답으로 인정되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 \sqrt{10}}{10}$ $2 , 060$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모든 선지가 정답으로 인정되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 \sqrt{10}}{10}$ $2 , 090$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>모든 선지가 정답으로 인정되었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -339,25 +333,24 @@
         <correct_choice_text>20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 회로에서, 스위치, 충분히)
-정답은 ③이다. 본 문항은 그림, 회로에서, 스위치, 충분히에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $S$; $V_C$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 커패시터 전압의 연속성
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 VC(0+) = 20 V이다이다. 커패시터 전압은 순간적으로 변하지 않으므로, 스위치가 열리기 직전 직류 정상상태(커패시터 개방)에서 구한 전압이 개방 직후의 전압이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>25</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -376,25 +369,24 @@
         <correct_choice_text>$- 2 \sqrt{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 그림과, 전하, 정사각형, 형태)
-정답은 ①이다. 본 문항은 그림과, 전하, 정사각형, 형태에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $Q$; $- 2 \sqrt{2}$; $- 2$; $2$; $2 \sqrt{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 정사각형 배치 전하의 전계
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 Q = −2√2 C이다이다. 꼭짓점 C의 전계는 나머지 전하가 만드는 전계의 벡터 합이며, 대각선 방향 전하는 거리가 √2배이므로 전계가 1/2이 되는 점을 고려하여 합이 0이 되는 Q를 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- 2 \sqrt{2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- 2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 \sqrt{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -413,24 +405,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 이상적인, 조건에서, 철심, 들어있)
-정답은 ②이다. 본 문항은 이상적인, 조건에서, 철심, 들어있에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 환상 솔레노이드의 인덕턴스
+정답은 ②이다. 환상 솔레노이드의 인덕턴스는 L = μN²A/l로 권선수의 제곱에 비례한다. 인덕턴스를 4배로 만들려면 권선수를 2배로 해야 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인덕턴스가 1/4이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2배이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인덕턴스가 16배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인덕턴스가 64배가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -449,25 +441,24 @@
         <correct_choice_text>$20$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 저항, 결선회로와, 등가인, 결선)
-정답은 ①이다. 본 문항은 저항, 결선회로와, 등가인, 결선에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $TRIANGLE$; $20$; $20 \sqrt{3}$; $180$; $180 \sqrt{3}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · Y-Δ 변환과 상전류
+정답은 ①이다. 평형 Y결선의 저항 15 Ω을 등가 Δ결선으로 바꾸면 각 변의 저항은 3 × 15 = 45 Ω이다. Δ결선의 상전압이 900 V이므로 상전류는 900/45 = 20 A이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$20$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>20 A이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$20 \sqrt{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>선전류이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$180$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$180 \sqrt{3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -486,25 +477,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 회로에서, 순간, 스위치)
-정답은 ②이다. 본 문항은 그림, 회로에서, 순간, 스위치에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $S$; $a$; $b$; $i_{L}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 스위치 이동 후의 정상 전류
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 정상상태 전류 iL은 2 A이다이다. 충분한 시간이 지나면 인덕터는 단락으로 보므로, 스위치가 b에 연결된 회로의 직류 해석으로 인덕터 전류를 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -523,25 +513,24 @@
         <correct_choice_text>$2 . 5 \times 10^{- 3}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 자극, 세기, 막대자석, 평등)
-정답은 ①이다. 본 문항은 자극, 세기, 막대자석, 평등에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $5 \times 10^{- 5}$; $2 . 5 \times 10^{- 3}$; $5 \times 10^{- 3}$; $25 \times 10^{- 3}$; $50 \times 10^{- 3}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 막대자석의 회전력
+정답은 ①이다. 막대자석이 받는 회전력은 T = mHl sinθ = 5 × 10^-5 × 200 × 0.5 × sin30° = 2.5 × 10^-3 N·m이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 . 5 \times 10^{- 3}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2.5 × 10^-3 N·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5 \times 10^{- 3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>sinθ를 고려하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$25 \times 10^{- 3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$50 \times 10^{- 3}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -560,25 +549,24 @@
         <correct_choice_text>$1 . 4$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림, 회로에서, 인덕터, 흐르)
-정답은 ②이다. 본 문항은 그림, 회로에서, 인덕터, 흐르에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $0$; $1 . 4$; ${1 overpi} + 1 . 4$; ${2 overpi} + 1 . 4$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 인덕터의 평균 전류
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 인덕터의 평균 전류는 1.4 A이다이다. 정현파 교류 성분의 한 주기 평균은 0이므로 평균 전류는 직류 성분만으로 결정되며, 직류에서 인덕터는 단락으로 본다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 . 4$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\frac{1}{pi}} + 1 . 4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\frac{2}{pi}} + 1 . 4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -597,24 +585,24 @@
         <correct_choice_text>72</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 이상적인, 변압기, 포함한, 그림)
-정답은 ③이다. 본 문항은 이상적인, 변압기, 포함한, 그림에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 이상 변압기 회로의 평균 전력
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 전압원이 공급하는 평균 전력은 72 W이다이다. 2차 측 부하를 (N1/N2)²배 하여 1차 측으로 환산한 뒤 전원 측 등가회로의 전류를 구하고 P = I²R로 저항에서의 평균전력을 합산한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>48</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>72</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>96</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -633,25 +621,24 @@
         <correct_choice_text>$\frac{5 \sqrt{2}}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 그림, 회로에서, 정현파, 전원)
-정답은 ①이다. 본 문항은 그림, 회로에서, 정현파, 전원에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $I$; $\frac{5 \sqrt{2}}{2}$; $5$; $5 \sqrt{2}$; $\frac{20}{3} \sqrt{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 정현파 전원의 전류
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 전류의 실횻값은 5√2/2 A이다이다. 교류 회로의 합성 임피던스를 구해 최댓값 전류 Im = Vm/|Z|를 계산한 뒤 실횻값 I = Im/√2로 바꾼다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{5 \sqrt{2}}{2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$5 \sqrt{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{20}{3} \sqrt{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -668,25 +655,24 @@
         <correct_choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: v ( t ), i ( t ))
-정답은 ③이다. 본 문항은 v ( t ), i ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $v ( t )$; $i ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 커패시터 전압과 전류 파형
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 3번 전류 파형이 옳다이다. 커패시터 전류는 i = C(dv/dt)이므로 전압 파형의 기울기에 비례하며, 전압이 일정한 구간에서는 전류가 0, 직선으로 증가·감소하는 구간에서는 일정한 양·음의 전류가 흐른다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,25 +691,24 @@
         <correct_choice_text>$\frac{sint}{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 핵심 개념·이론 이해형 (핵심어: 이상적인, 연산, 증폭기, 포함한)
-정답은 ③이다. 본 문항은 이상적인, 연산, 증폭기, 포함한에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v_{s} ( t )$; $cost$; $v_{c} ( t )$; $- \frac{sint}{2}$; $- 2 sint$</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 연산증폭기 적분회로
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 vc(t) = (sin t)/2 V이다이다. 이상적인 연산증폭기에서는 가상단락으로 입력 전류가 저항을 통해 커패시터로 흐르므로 커패시터 전압은 입력 전압의 적분에 비례하며, ∫cos t dt = sin t이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{sint}{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- 2 sint$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{sint}{2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 sint$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -742,24 +727,24 @@
         <correct_choice_text>10 1.4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전기이론 · 수리·계산·자료해석형 (핵심어: 그림과, 일정한, 주기, 펄스)
-정답은 ①이다. 본 문항은 그림과, 일정한, 주기, 펄스에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전기이론 · 펄스 파형의 듀티비와 평균전압
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 듀티비 10 %, 평균전압 1.4 V이다이다. 듀티비는 주기에 대한 펄스 폭(ON 시간)의 비율이고, 평균전압은 한 주기 동안 전압 파형의 넓이를 주기로 나눈 값이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 1.4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10 1.8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20 1.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20 1.8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

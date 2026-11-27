@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>발진기 동작에는 입력신호가 필요치 않다.</choice_text>
-          <commentary>입력신호가 필요하지 않다.</commentary>
+          <commentary>발진기는 잡음을 정궤환으로 키워 스스로 발진하므로 입력신호가 필요 없어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>폐루프이득(closed loop gain)이 정상상태에서 1이어야 한다.</choice_text>
-          <commentary>정상상태 루프이득은 1이다.</commentary>
+          <commentary>정상상태에서 루프이득은 1이 되어 일정 진폭을 유지하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폐루프이득(closed loop gain)이 시동상태에서 1보다 커야 한다.</choice_text>
-          <commentary>시동 시 루프이득은 1보다 크다.</commentary>
+          <commentary>발진을 시작하려면 루프이득이 1보다 커야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>폐루프(closed loop)의 위상변이가 180 °이어야 한다.</choice_text>
-          <commentary>위상변이는 0° 또는 360°이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>루프의 위상변이는 0° 또는 360°의 정수배이어야 한다. 180°라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>표본화 주파수를 반영하지 않은 값이다.</commentary>
+          <commentary>80 kbps는 표본화 주파수를 10 kHz로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>160</choice_text>
-          <commentary>표본화 주파수나 비트 수를 잘못 적용한 값이다.</commentary>
+          <commentary>160 kbps는 표본화 주파수를 20 kHz로 보아 나이퀴스트 조건을 만족하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>240</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>240 kbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>320</choice_text>
-          <commentary>320kbps이므로 정답이다.</commentary>
+          <commentary>표본화 주파수 40 kHz × 8비트 = 320 kbps이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -136,19 +136,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>발진 주파수는 R_(2)와 관련이 있다.</choice_text>
-          <commentary>R2는 이득 결정에만 관여한다.</commentary>
+          <commentary>R₂는 증폭부 이득을 정할 뿐 발진 주파수와 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>발진 주파수는 R_(1)과 관련이 있다.</choice_text>
-          <commentary>R1은 이득 결정에만 관여한다.</commentary>
+          <commentary>R₁도 증폭부 이득을 정할 뿐 발진 주파수와 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>발진 주파수는 R과 관련이 있다.</choice_text>
-          <commentary>발진 주파수가 R과 관련되므로 옳다.</commentary>
+          <commentary>발진 주파수 f = 1/(2πRC)는 궤환 회로의 R과 C로 결정되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>R_(2)의 값은 R_(1)의 2배보다 작아야 한다.</choice_text>
-          <commentary>R2는 R1의 2배 이상이어야 한다.</commentary>
+          <commentary>이득 1 + R₂/R₁ ≥ 3이어야 하므로 R₂는 R₁의 2배 이상이어야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -206,19 +206,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7.5 5</choice_text>
-          <commentary>ID와 VDS가 모두 다르다.</commentary>
+          <commentary>ID는 5.625 mA이고 VDS도 8.75 V이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>5.625 8.75</choice_text>
-          <commentary>5.625mA, 8.75V이므로 정답이다.</commentary>
+          <commentary>ID = 10 × (1 - 2/8)² = 5.625 mA, VDS = 20 - 11.25 = 8.75 V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>7.5 8.75</choice_text>
-          <commentary>ID가 다르다.</commentary>
+          <commentary>ID는 7.5 mA가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5.625 5</choice_text>
-          <commentary>VDS가 다르다.</commentary>
+          <commentary>VDS는 5 V가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -447,19 +447,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.64</choice_text>
-          <commentary>0.64는 m²의 값이다.</commentary>
+          <commentary>0.64는 m² 값으로 측파대 전력 비가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.32</choice_text>
-          <commentary>0.32는 양측파대 합이다.</commentary>
+          <commentary>0.32는 양측파대 전력의 합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.16</choice_text>
-          <commentary>0.16이므로 정답이다.</commentary>
+          <commentary>양측파대 합 0.32Pc의 절반이므로 상측파대 전력은 0.16Pc이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.12</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.12는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>계수형 구조</choice_text>
-          <commentary>계수형은 최대 2ⁿ 클록이 필요하여 느리다.</commentary>
+          <commentary>계수형 구조는 최대 2ⁿ 클록이 필요해 느리다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>R-2R 사다리 구조</choice_text>
-          <commentary>R-2R 사다리는 D/A 변환기 구조이다.</commentary>
+          <commentary>R-2R 사다리 구조는 D/A 변환기 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>병렬(flash) 구조</choice_text>
-          <commentary>병렬(플래시) 구조이므로 정답이다.</commentary>
+          <commentary>병렬(플래시) 구조는 모든 비교기가 동시에 비교해 한 클록에 변환하므로 가장 빨라 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>이중 경사(dual slope) 적분 구조</choice_text>
-          <commentary>이중 경사 적분형은 정밀하지만 느리다.</commentary>
+          <commentary>이중 경사 적분 구조는 정밀하지만 변환 속도가 가장 느리다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>MOSFET는 일반적으로 cutoff, triode, saturation 영역이 존재한다.</choice_text>
-          <commentary>세 동작 영역이 존재하므로 옳다.</commentary>
+          <commentary>MOSFET은 차단, 선형(triode), 포화 영역을 가지므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>MOSFET 단자는 5개 이상의 옴 접촉(ohmic contact) 연결 단자를 가진다.</choice_text>
-          <commentary>MOSFET은 4단자 소자이다.</commentary>
+          <commentary>MOSFET은 게이트·드레인·소스·바디의 4단자 소자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>BJT는 전자(electron) 또는 홀(hole)의 단일 캐리어에 의해서 동작한다.</choice_text>
-          <commentary>BJT는 두 종류의 캐리어로 동작한다.</commentary>
+          <commentary>BJT는 전자와 정공이 모두 전도에 참여하는 쌍극성 소자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>MOSFET는 입력과 출력이 동일하게 연결된다.</choice_text>
-          <commentary>입력과 출력은 서로 다른 단자로 연결된다.</commentary>
+          <commentary>MOSFET의 입력(게이트)과 출력(드레인)은 서로 다른 단자이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$V_{r} = \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}$</choice_text>
-          <commentary>다이오드 1개와 반파 주파수를 적용한 식이다.</commentary>
+          <commentary>브릿지 정류는 다이오드 2개를 거치므로 2VD를 빼야 하고 리플 주파수도 2fin이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$V_{r} = \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}$</choice_text>
-          <commentary>반파 정류의 리플 주파수를 적용한 식이다.</commentary>
+          <commentary>전파 정류의 리플 주파수 2fin을 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$V_{r} = \frac{1}{2} \frac{V_{p} - V_{D}}{R_{L} C_{1} f_{i n}}$</choice_text>
-          <commentary>다이오드 강하가 1개로 계산되었다.</commentary>
+          <commentary>다이오드 2개의 전압강하를 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$V_{r} = \frac{1}{2} \frac{V_{p} - 2 V_{D}}{R_{L} C_{1} f_{i n}}$</choice_text>
-          <commentary>(1/2)(Vp - 2VD)/(RL·C1·fin)이므로 정답이다.</commentary>
+          <commentary>피크 Vp - 2VD와 리플 주파수 2fin을 반영한 Vr = (Vp - 2VD)/(2fin·RL·C1)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -224,19 +224,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>반도체 집적회로를 위한 레이아웃(layout)에서 PMOS와 NMOS 트랜지스터를 가능한 한 근접하게 배열하고, 또한 PMOS와 NMOS의 drain 면적을 넓게 할수록 latch-up 현상 발생 가능성은 줄어든다.</choice_text>
-          <commentary>근접 배치는 래치업 가능성을 높인다.</commentary>
+          <commentary>PMOS와 NMOS를 가깝게 배치하면 기생 BJT 결합이 강해져 래치업 가능성이 커진다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Latch-up 현상은 CMOS 반도체 공정을 사용하여 회로를 구현할 때 생기는 기생 bipolar 트랜지스터들의 상호작용으로 발생한다.</choice_text>
-          <commentary>기생 바이폴라 트랜지스터의 상호작용으로 발생하므로 옳다.</commentary>
+          <commentary>래치업은 기생 바이폴라 트랜지스터들이 PNPN 구조로 상호작용하여 발생하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PMOS와 NMOS 트랜지스터로 구현된 회로의 입/출력 신호가 빠른 rising과 falling 시간을 갖도록 설계하면 latch-up 현상은 발생하지 않는다.</choice_text>
-          <commentary>빠른 천이로 방지할 수 없다.</commentary>
+          <commentary>빠른 상승·하강 시간이 래치업을 막지는 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Latch-up 현상이 발생하면 회로의 동작속도가 크게 증가하므로 성능면에서 긍정적인 측면도 많다.</choice_text>
-          <commentary>회로를 파손시킬 수 있는 유해한 현상이다.</commentary>
+          <commentary>래치업이 생기면 큰 전류로 회로가 오동작하거나 손상된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -362,19 +362,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>33 0.30</choice_text>
-          <commentary>리플 값이 다르다.</commentary>
+          <commentary>시비율은 맞지만 리플 전류는 0.17 A이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>33 0.17</choice_text>
-          <commentary>33%, 0.17A이므로 정답이다.</commentary>
+          <commentary>D = 5/15 ≒ 33%, Δi = 10 × 0.333/(600 × 10⁻⁶ × 33 × 10³) ≒ 0.17 A이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30 0.30</choice_text>
-          <commentary>시비율과 리플이 모두 다르다.</commentary>
+          <commentary>시비율과 리플 전류가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>30 0.17</choice_text>
-          <commentary>시비율이 다르다.</commentary>
+          <commentary>시비율은 30%가 아니라 약 33%이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -395,19 +395,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>70 1.01 0.99</choice_text>
-          <commentary>변조지수와 주파수가 다르다.</commentary>
+          <commentary>변조지수는 75%이고 측파 주파수도 10.1, 9.9 MHz이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>70 10.1 9.9</choice_text>
-          <commentary>변조지수가 다르다.</commentary>
+          <commentary>변조지수는 15/20 = 75%이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>75 1.01 0.99</choice_text>
-          <commentary>주파수가 다르다.</commentary>
+          <commentary>반송파 주파수가 10 MHz이므로 측파 주파수는 10.1, 9.9 MHz이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>75 10.1 9.9</choice_text>
-          <commentary>75%, 10.1MHz, 9.9MHz이므로 정답이다.</commentary>
+          <commentary>m = 75%, fU = 10.1 MHz, fL = 9.9 MHz이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -431,19 +431,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>입력 신호에 인가되는 잡음의 영향을 줄이기 위해 사용될 수 있다.</choice_text>
-          <commentary>잡음 영향을 줄인다.</commentary>
+          <commentary>히스테리시스로 잡음에 의한 오동작을 줄이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>오실레이터(oscillator) 회로에 슈미트 트리거를 이용할 수 있다.</choice_text>
-          <commentary>발진기에 이용한다.</commentary>
+          <commentary>RC와 결합해 이완 발진기를 만들 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>슈미트 트리거의 입력과 출력 특성은 히스테리시스(hysteresis) 성질을 갖는다.</choice_text>
-          <commentary>히스테리시스 특성을 갖는다.</commentary>
+          <commentary>두 문턱전압 사이의 히스테리시스 특성을 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>여러 개의 입력 중 클럭 신호에 트리거된 하나의 입력을 선택하는 회로에 주로 사용된다.</choice_text>
-          <commentary>멀티플렉서의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>여러 입력 중 하나를 선택하는 것은 멀티플렉서의 기능이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -499,11 +499,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{2 k_{n} \frac{W}{L} I_{D}}$</choice_text>
-          <commentary>√(2kn(W/L)ID)이므로 정답이다.</commentary>
+          <commentary>gm = kn(W/L)(VGS - VTH) = √(2kn(W/L)ID)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{\frac{1}{2} k_{n} \frac{W}{L} I_{D}}$</choice_text>
-          <commentary>계수가 맞지 않다.</commentary>
+          <commentary>근호 안의 계수가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 k_{n} \frac{W}{L} \left( V_{GS} - V_{TH} \right)$</choice_text>
@@ -641,19 +641,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10이므로 정답이다.</commentary>
+          <commentary>비반전 증폭기 이득 1 + 1,800/200 = 10이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>15는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>20은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -710,19 +710,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>15 kΩ은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>25</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>25 kΩ은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>35</choice_text>
-          <commentary>35kΩ이므로 정답이다.</commentary>
+          <commentary>Iref = 0.1 mA, VGS = 1.5 V이므로 R = 3.5/0.1 mA = 35 kΩ이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>45</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>45 kΩ은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

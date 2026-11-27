@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>표본화 주파수를 15kHz로 계산한 값이다.</commentary>
+          <commentary>120 kbps는 표본화 주파수를 15 kHz로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>240</choice_text>
-          <commentary>240kbps이므로 정답이다.</commentary>
+          <commentary>30 kHz × 8비트 = 240 kbps이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>360</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>360 kbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>480</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>480 kbps는 표본화 주파수나 비트 수를 2배로 잘못 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$A$</choice_text>
-          <commentary>A가 아니다.</commentary>
+          <commentary>A는 간략화 결과와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$B$</choice_text>
-          <commentary>B가 아니다.</commentary>
+          <commentary>B는 간략화 결과의 보수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}}$</choice_text>
-          <commentary>A'이 아니다.</commentary>
+          <commentary>Ā는 간략화 결과와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar{B}}$</choice_text>
-          <commentary>B'이므로 정답이다.</commentary>
+          <commentary>모든 항에 B̄가 공통이고 나머지가 1이 되므로 Y = B̄이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -210,19 +210,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{3}}{R_{D} C_{D}}$ $\frac{1}{g_{m}}$</choice_text>
-          <commentary>RD의 최솟값이 다르다.</commentary>
+          <commentary>발진 주파수는 맞지만 RD 최솟값은 2/gm이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{R_{D} C_{D}}$ $\frac{1}{g_{m}}$</choice_text>
-          <commentary>발진 각주파수와 RD가 모두 다르다.</commentary>
+          <commentary>발진 주파수와 RD 최솟값이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\sqrt{3}}{R_{D} C_{D}}$ $\frac{2}{g_{m}}$</choice_text>
-          <commentary>√3/(RDCD), 2/gm이므로 정답이다.</commentary>
+          <commentary>tan⁻¹(ωRDCD) = 60°에서 ωo = √3/(RDCD), gmRD/2 ≥ 1에서 RD ≥ 2/gm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{R_{D} C_{D}}$ $\frac{2}{g_{m}}$</choice_text>
-          <commentary>발진 각주파수가 다르다.</commentary>
+          <commentary>발진 주파수가 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -426,19 +426,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>게이트 산화막 두께가 얇아질수록 트랜지스터의 전류는 증가한다.</choice_text>
-          <commentary>산화막이 얇을수록 전류가 증가하므로 옳다.</commentary>
+          <commentary>Cox = εox/tox이므로 산화막이 얇을수록 전류가 증가하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>드레인－소스 전압에 따라 전류의 크기가 변하는 현상을 몸체효과(body effect)라고 한다.</choice_text>
-          <commentary>드레인-소스 전압에 따른 전류 변화는 채널길이변조이다.</commentary>
+          <commentary>VDS에 따라 전류가 변하는 현상은 채널길이변조이며, 몸체효과는 소스-기판 전압에 따른 문턱전압 변화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>채널 길이가 짧아짐에 따라 채널길이변조(channel length modulation) 현상은 줄어든다.</choice_text>
-          <commentary>채널이 짧을수록 채널길이변조가 커진다.</commentary>
+          <commentary>채널 길이가 짧을수록 채널길이변조 효과는 커진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>게이트－소스 전압이 문턱 전압보다 크고 게이트－드레인 전압이 문턱 전압보다 작을 때 트랜지스터는 선형(linear) 영역에서 동작한다.</choice_text>
-          <commentary>VGD &lt; Vth이면 포화 영역이다.</commentary>
+          <commentary>VGS &gt; Vt이고 VGD &lt; Vt이면 포화 영역에서 동작한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -462,19 +462,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6,400</choice_text>
-          <commentary>체배가 아니라 분주이다.</commentary>
+          <commentary>6,400 MHz는 주파수를 곱한 값으로 분주와 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>800</choice_text>
-          <commentary>입력 주파수 그대로이다.</commentary>
+          <commentary>800 MHz는 입력 클럭 주파수 그대로이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>1단 분주 결과이다.</commentary>
+          <commentary>400 MHz는 1단 분주 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100MHz이므로 정답이다.</commentary>
+          <commentary>3단 T 플립플롭은 2³ = 8분주하므로 800/8 = 100 MHz이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -668,19 +668,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>발진하기 위한 저항 조건은$R_{1} &lt; \frac{1}{g_{m}}$ 이다.</choice_text>
-          <commentary>R1 &gt; 1/gm이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>발진 조건은 (gmR₁)² ≥ 1, 즉 R₁ ≥ 1/gm이다. R₁ &lt; 1/gm이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>이 발진기의 발진 주파수는 $\frac{1}{2 \pi \sqrt{L_{1} C_{1}}}$이다.</choice_text>
-          <commentary>발진 주파수는 LC 공진 주파수이다.</commentary>
+          <commentary>발진 주파수는 LC 탱크의 공진 주파수 1/(2π√(L₁C₁))이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>병렬 &lt;i&gt;LC&lt;/i&gt; 탱크를 이용한 교차 결합 발진기이다.</choice_text>
-          <commentary>병렬 LC 탱크를 이용한 교차 결합 발진기이다.</commentary>
+          <commentary>병렬 LC 탱크를 쓰는 교차 결합 발진기이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>&lt;i&gt;LC&lt;/i&gt; 부하를 가진 증폭기 2개로 구성되며 발진하기 위한 하나의 증폭기에서의 위상변화는 180도이다.</choice_text>
-          <commentary>각 증폭기의 위상변화는 180°이다.</commentary>
+          <commentary>LC 부하 증폭기 두 단이 각각 180°씩 위상을 바꿔 총 360°가 되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

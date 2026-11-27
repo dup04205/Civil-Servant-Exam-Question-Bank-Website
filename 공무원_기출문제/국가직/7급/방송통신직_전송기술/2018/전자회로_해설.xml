@@ -34,11 +34,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>회로를 증폭기로 사용하기 위해서는 트랜지스터 $M_1$이 포화영역(saturation region)에서 동작하도록 DC 동작조건을 설정해야 한다.</choice_text>
-          <commentary>포화영역에서 동작해야 하므로 옳다.</commentary>
+          <commentary>증폭기로 쓰려면 MOSFET이 포화영역에서 동작해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>회로가 증폭기로 동작하고 다른 모든 조건이 동일할 때 전압이득 $\left| A_{v} \right|$은 저항 $R_S$의 크기가 클수록 커진다.</choice_text>
-          <commentary>RS가 클수록 이득이 작아지므로 옳지 않아 정답이다.</commentary>
+          <commentary>|Av| = gmRD/(1 + gmRS)이므로 RS가 클수록 이득은 작아진다. 커진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>회로가 증폭기로 동작하고 다른 모든 조건이 동일할 때 전압이득 $\left| A_{v} \right|$은 저항 $R_D$의 크기가 클수록 커진다.</choice_text>
@@ -46,7 +46,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>트랜지스터 $M_1$에 게이트 누설전류(gate leakage current)가 없을 때 입력에서 바라본 입력저항은 무한대의 값을 갖는다.</choice_text>
-          <commentary>입력저항은 무한대이므로 옳다.</commentary>
+          <commentary>게이트 누설전류가 없으면 입력저항은 무한대이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -67,19 +67,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$C_{gs} + C_{gd} ( 1 - K )$ $C_{L} + C_{gd} \left( 1 - \frac{1}{K} \right)$</choice_text>
-          <commentary>Cgs + Cgd(1-K), CL + Cgd(1-1/K)이므로 정답이다.</commentary>
+          <commentary>입력 측 Cgd(1 - K), 출력 측 Cgd(1 - 1/K)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$C_{gs} + C_{gd} \left( 1 - \frac{1}{K} \right)$ $C_{L} + C_{gd} ( 1 - K )$</choice_text>
-          <commentary>입력과 출력 측이 뒤바뀌었다.</commentary>
+          <commentary>입력 측과 출력 측의 식이 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{gs} + \frac{C_{gd}}{( 1 - K )}$ $C_{L} + \left( \frac{C_{gd}}{1 - \frac{1}{K}} \right)$</choice_text>
-          <commentary>임피던스 식을 커패시턴스에 그대로 적용한 오류이다.</commentary>
+          <commentary>커패시턴스는 임피던스와 반대로 (1 - K)를 곱해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$C_{gs} + \left( \frac{C_{gd}}{1 - \frac{1}{K}} \right)$ $C_{L} + \frac{C_{gd}}{( 1 - K )}$</choice_text>
-          <commentary>입출력이 뒤바뀌고 식도 맞지 않다.</commentary>
+          <commentary>식의 형태와 위치가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -100,19 +100,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>2fm만 계산한 값이다.</commentary>
+          <commentary>20 kHz는 신호파 대역의 2배일 뿐 주파수 편이를 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>2Δf만 계산한 값이다.</commentary>
+          <commentary>100 kHz는 최대 주파수 편이의 2배만 반영한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>120</choice_text>
-          <commentary>120kHz이므로 정답이다.</commentary>
+          <commentary>BW = 2(50 + 10) = 120 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>150 kHz는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{R_{S} C_{S}}$</choice_text>
-          <commentary>-1/(RSCS)는 영점이다.</commentary>
+          <commentary>-1/(RSCS)는 소스단 RC의 영점 위치이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{g_{m}}{C_{S}}$</choice_text>
-          <commentary>극점이 아니다.</commentary>
+          <commentary>-gm/CS는 극점 식과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{( 1 + g_{m} R_{S} ) R_{S} C_{S}}$</choice_text>
-          <commentary>극점의 식이 아니다.</commentary>
+          <commentary>분모 형태가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \frac{1 + g_{m} R_{S}}{R_{S} C_{S}}$</choice_text>
-          <commentary>-(1 + gmRS)/(RSCS)이므로 정답이다.</commentary>
+          <commentary>분모 1 + gmRS + sRSCS = 0에서 s = -(1 + gmRS)/(RSCS)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -276,19 +276,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>PWM변조기 － 보상 푸시풀 스위칭 증폭기 － 저역통과필터</choice_text>
-          <commentary>PWM 변조기, 스위칭 증폭기, 저역통과필터 순이므로 정답이다.</commentary>
+          <commentary>PWM 변조, 푸시풀 스위칭 증폭, 저역통과필터 순이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>PWM변조기 － 저역통과필터 － 보상 푸시풀 스위칭 증폭기</choice_text>
-          <commentary>필터는 마지막 단에 위치한다.</commentary>
+          <commentary>저역통과필터는 스위칭 증폭 뒤에 두어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PCM변조기 － 보상 푸시풀 스위칭 증폭기 － 저역통과필터</choice_text>
-          <commentary>PCM이 아니라 PWM을 사용한다.</commentary>
+          <commentary>D급 증폭기는 PCM이 아니라 PWM 변조를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PCM변조기 － 저역통과필터 － 보상 푸시풀 스위칭 증폭기</choice_text>
-          <commentary>PCM이 아니며 순서도 다르다.</commentary>
+          <commentary>변조 방식과 순서가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -382,19 +382,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$F = \bar{x} + y + \bar{z}$</choice_text>
-          <commentary>x'은 해당하지 않는다.</commentary>
+          <commentary>출력이 0인 칸은 x'yz뿐이므로 x̄ + y + z̄는 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$F = x + \bar{y} + z$</choice_text>
-          <commentary>z가 아니라 z'이다.</commentary>
+          <commentary>x + ȳ + z는 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$F = x + \bar{y} + \bar{z}$</choice_text>
-          <commentary>x + y' + z'이므로 정답이다.</commentary>
+          <commentary>F' = x'yz이므로 F = x + ȳ + z̄이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$F = \bar{x} + y + z$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>x̄ + y + z는 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -490,19 +490,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정상적인 출력전압을 얻기 위해서는 드레인 단자를 풀업저항(pull-up resistor)을 통해 전원에 연결해야 한다.</choice_text>
-          <commentary>풀업저항이 필요하다.</commentary>
+          <commentary>출력에 풀업 소자가 없으므로 풀업저항을 연결해야 하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>개방 드레인 출력 단자들끼리 결선-AND(wired-AND) 연결이 가능하다.</choice_text>
-          <commentary>결선-AND 연결이 가능하다.</commentary>
+          <commentary>여러 개방 드레인 출력을 묶어 결선-AND를 만들 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>서로 다른 전원전압을 사용하는 논리게이트와의 인터페이스에 사용할 수 있다.</choice_text>
-          <commentary>다른 전원전압과 인터페이스할 수 있다.</commentary>
+          <commentary>풀업저항의 전원을 바꿔 다른 전압 체계와 인터페이스할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>일반적으로 표준 CMOS 논리게이트에 비해 출력단의 회로가 복잡하다.</choice_text>
-          <commentary>출력단이 더 단순하므로 옳지 않아 정답이다.</commentary>
+          <commentary>개방 드레인은 풀다운 NMOS만 있어 표준 CMOS보다 출력단이 단순하다. 복잡하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -526,19 +526,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1kΩ이므로 정답이다.</commentary>
+          <commentary>IR = 6 mA, 부하전류 최대 5 mA이므로 RL,min = 5/5 = 1 kΩ이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5 kΩ은 최솟값보다 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>6 kΩ은 최솟값보다 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>11 kΩ은 최솟값보다 크다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -561,19 +561,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0 1 0 $Q ( t - 1 )$</choice_text>
-          <commentary>(a)는 이전 상태 유지이다.</commentary>
+          <commentary>φ = 1, S = R = 0이면 이전 상태를 유지해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$Q ( t - 1 )$ 1 0 $Q ( t - 1 )$</choice_text>
-          <commentary>Q(t-1), 1, 0, Q(t-1)이므로 정답이다.</commentary>
+          <commentary>유지, 세트 1, 리셋 0, φ = 0에서 유지이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$Q ( t - 1 )$ 0 1 0</choice_text>
-          <commentary>(b), (c), (d)가 다르다.</commentary>
+          <commentary>S = 1이면 세트되어 1이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$Q ( t - 1 )$ 0 1 $Q ( t - 1 )$</choice_text>
-          <commentary>(b), (c)가 뒤바뀌었다.</commentary>
+          <commentary>세트와 리셋 값이 뒤바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -631,19 +631,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$V_{o} = - \left( \frac{kT}{q} \right) \ln \left( \frac{V_{i}}{I_{R} R} \right)$</choice_text>
-          <commentary>로그 증폭기의 출력식이므로 정답이다.</commentary>
+          <commentary>VF = (kT/q)ln(Vi/(IRR))이고 Vo = -VF이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$V_{o} = - \left( \frac{kT}{q} \right) \ln \left( \frac{I_{R} R}{V_{i}} \right)$</choice_text>
-          <commentary>로그의 인수가 뒤바뀌었다.</commentary>
+          <commentary>로그 안의 분자와 분모가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$V_{o} = - \left( \frac{q}{kT} \right) \ln \left( \frac{V_{i}}{I_{R} R} \right)$</choice_text>
-          <commentary>kT/q가 뒤바뀌었다.</commentary>
+          <commentary>계수 q/kT가 뒤집혔다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$V_{o} = - \left( \frac{q}{kT} \right) \ln \left( \frac{I_{R} R}{V_{i}} \right)$</choice_text>
-          <commentary>계수와 인수가 모두 뒤바뀌었다.</commentary>
+          <commentary>계수와 로그 안의 식이 모두 뒤바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -703,19 +703,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$I_{C} = h_{fe1} . h_{fe2} . I_{B}$</choice_text>
-          <commentary>근사식이며 정확한 표현이 아니다.</commentary>
+          <commentary>hfe1·hfe2·IB는 Q₁ 컬렉터 전류와 Q₂ 베이스의 (hfe1 + 1) 항을 빠뜨린 근삿값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$I_{C} = ( h_{fe1} + h_{fe2} ) . I_{B}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>전류이득을 더하는 것은 달링턴 관계식이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$I_{C} = h_{fe2} ( h_{fe1} + 1 ) . I_{B}$</choice_text>
-          <commentary>Q1의 컬렉터 전류가 누락되었다.</commentary>
+          <commentary>Q₁의 컬렉터 전류 hfe1·IB가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$I_{C} = h_{fe1} . I_{B} + h_{fe2} ( h_{fe1} + 1 ) . I_{B}$</choice_text>
-          <commentary>hfe1·IB + hfe2(hfe1 + 1)IB이므로 정답이다.</commentary>
+          <commentary>IC = hfe1·IB + hfe2(hfe1 + 1)IB이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

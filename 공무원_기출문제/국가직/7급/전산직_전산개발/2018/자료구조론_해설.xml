@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort)</choice_text>
-          <commentary>삽입 정렬은 원소를 정렬된 부분에 끼워 넣는다.</commentary>
+          <commentary>삽입 정렬은 원소를 정렬된 앞부분의 적절한 위치에 끼워 넣는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>선택 정렬(selection sort)</choice_text>
-          <commentary>선택 정렬은 최솟값을 찾아 한 번 교환한다.</commentary>
+          <commentary>선택 정렬은 최솟값(최댓값)을 찾아 한 번만 교환하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>힙 정렬(heap sort)</choice_text>
-          <commentary>힙 정렬은 힙 구조를 이용한다.</commentary>
+          <commentary>힙 정렬은 힙 구조를 만들어 루트를 꺼내는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>버블 정렬(bubble sort)</choice_text>
-          <commentary>버블 정렬이므로 정답이다.</commentary>
+          <commentary>인접한 두 원소를 비교·교환하여 큰 값을 뒤로 보내므로 버블 정렬이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1은 마지막 단계에서 push되는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>다섯 번째 삽입 값이다.</commentary>
+          <commentary>2는 다섯 번째와 일곱 번째로 push되는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>3이므로 정답이다.</commentary>
+          <commentary>4, 2, 6, 3, 2, 6, 2, 3 순으로 push되므로 여덟 번째 값은 3이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>첫 번째 삽입 값이다.</commentary>
+          <commentary>4는 첫 번째로 push되는 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -185,19 +185,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄴ도 옳다.</commentary>
+          <commentary>ㄴ도 옳으므로 ㄱ만 고른 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
+          <commentary>ㄱ, ㄴ이 옳으므로 정답이다. 선택 정렬에서 SWAP은 4회 수행되고, 2회 후 3, 4, 8, 6, 9가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ은 옳지 않다. 선택 정렬은 Θ(n²)이기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -218,19 +218,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>3, 4, 6, 5, 7, 8</choice_text>
-          <commentary>다른 모양이므로 정답이다.</commentary>
+          <commentary>두 번의 RR 회전으로 루트 6의 트리가 되어 나머지(루트 5)와 모양이 다르므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5, 4, 7, 3, 6, 8</choice_text>
-          <commentary>루트 5인 같은 모양이다.</commentary>
+          <commentary>루트 5, 왼쪽 4(3), 오른쪽 7(6, 8)의 모양이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>7, 5, 8, 6, 4, 3</choice_text>
-          <commentary>LL 회전 후 같은 모양이다.</commentary>
+          <commentary>회전 후 루트 5, 왼쪽 4(3), 오른쪽 7(6, 8)의 모양이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8, 7, 5, 4, 6, 3</choice_text>
-          <commentary>LL 회전 후 같은 모양이다.</commentary>
+          <commentary>회전 후 루트 5, 왼쪽 4(3), 오른쪽 7(6, 8)의 모양이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -254,19 +254,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>루트 노드의 키는 4와 6 중 한 개의 값을 가진다.</choice_text>
-          <commentary>4 또는 6이 루트가 된다.</commentary>
+          <commentary>루트 삭제 후 왼쪽 최댓값 4나 오른쪽 최솟값 6이 루트가 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>중위 순회(inorder traversal)할 경우 키 값이 1, 2, 3, 4, 6, 7, 8, 9인 노드들을 순서대로 방문한다.</choice_text>
-          <commentary>중위 순회는 정렬된 순서이다.</commentary>
+          <commentary>중위 순회는 남은 키의 오름차순 1, 2, 3, 4, 6, 7, 8, 9이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>모든 단말 노드들의 키 값들의 합은 21이다.</choice_text>
-          <commentary>단말 노드 합은 20이므로 옳지 않아 정답이다.</commentary>
+          <commentary>단말 노드는 1, 3, 7, 9로 합이 20이다. 21이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>모든 노드들의 차수(degree)들의 합은 7이다.</choice_text>
-          <commentary>차수의 합은 7이다.</commentary>
+          <commentary>노드 8개인 트리의 차수 합은 간선 수 7과 같으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -290,19 +290,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1이므로 정답이다.</commentary>
+          <commentary>인천-대구 20, 광주-대구 19이므로 차이는 1이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>4는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -326,19 +326,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1.4는 어떤 트리 구성으로도 얻을 수 없는 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.5</choice_text>
-          <commentary>1.5이므로 정답이다.</commentary>
+          <commentary>1을 루트, 2와 3을 차례로 오른쪽에 두면 0.6 + 0.6 + 0.3 = 1.5로 최소이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.6</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1.6은 최적 구성의 값이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.7</choice_text>
-          <commentary>2를 루트로 한 값이다.</commentary>
+          <commentary>1.7은 2를 루트로 한 경우의 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -398,19 +398,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>9, 5, 7, 2, 9, 4, 6, 3</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>스택은 후입선출이므로 삽입 순서대로 삭제되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>9, 2, 9, 4, 7, 3, 2, 6</choice_text>
-          <commentary>9, 2, 9, 4, 7, 3, 2, 6이므로 정답이다.</commentary>
+          <commentary>연산을 따라가면 9, 2, 9, 4, 7, 3, 2, 6 순으로 삭제되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2, 3, 6, 4, 9, 2, 7, 5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>삭제 순서가 연산과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9, 5, 9, 4, 7, 6, 2, 2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5는 마지막까지 스택에 남아 삭제되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -465,19 +465,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2800</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2800은 i의 오프셋을 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2804</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>2804는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5052</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5052는 k 오프셋 1개분이 빠진 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>5056</choice_text>
-          <commentary>5056이므로 정답이다.</commentary>
+          <commentary>2048 + (600 + 150 + 2) × 4 = 5,056이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -498,19 +498,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>current-&gt;next = current-&gt;next-&gt;next; current-&gt;next-&gt;prev = current;</choice_text>
-          <commentary>오른쪽 노드 삭제이다.</commentary>
+          <commentary>오른쪽 노드를 삭제하는 문장이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>current-&gt;next-&gt;prev = current; current-&gt;next = current-&gt;next-&gt;next;</choice_text>
-          <commentary>오른쪽 노드 삭제이며 순서도 틀렸다.</commentary>
+          <commentary>오른쪽 노드를 삭제하는 문장의 순서를 바꾼 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>current-&gt;prev = current-&gt;prev-&gt;prev; current-&gt;prev-&gt;next = current;</choice_text>
-          <commentary>왼쪽 노드 삭제 순서로 옳으므로 정답이다.</commentary>
+          <commentary>current-&gt;prev를 왼쪽의 왼쪽 노드로 바꾸고 그 노드의 next가 current를 가리키게 하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>current-&gt;prev-&gt;next = current; current-&gt;prev = current-&gt;prev-&gt;prev;</choice_text>
-          <commentary>순서가 틀려 잘못된 노드를 연결한다.</commentary>
+          <commentary>첫 문장에서 삭제할 노드의 next를 바꿔 연결이 올바르지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -533,19 +533,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>13, 5</choice_text>
-          <commentary>호출 횟수와 결과가 모두 다르다.</commentary>
+          <commentary>호출 횟수는 15이고 결과도 8이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>13, 8</choice_text>
-          <commentary>호출 횟수가 다르다.</commentary>
+          <commentary>호출 횟수가 15이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15, 5</choice_text>
-          <commentary>결과가 다르다.</commentary>
+          <commentary>결과값이 8이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>15, 8</choice_text>
-          <commentary>15, 8이므로 정답이다.</commentary>
+          <commentary>호출 횟수 C(5) = 15, 결과 R(5) = 8이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -563,23 +563,23 @@
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
       <overall_commentary>출제 영역: 자료구조론 · 보간 탐색
-정답은 ②이다. 첫 탐색 위치 = 0 + (24 - 3)/(93 - 3) × (13 - 0) = 21/90 × 13 ≒ 3.03이며 소수점 이하를 버리면 3이다.</overall_commentary>
+정답은 ②이다. 첫 탐색 위치 = 0 + (24 - 3)/(93 - 3) × (13 - 0) = 21/90 × 13 ≒ 3.03이며 소수점 이하를 반올림하면 3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>위치 2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>3이므로 정답이다.</commentary>
+          <commentary>21/90 × 13 ≒ 3.03을 반올림하면 3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>키 24의 실제 위치이다.</commentary>
+          <commentary>위치 4는 키 24가 실제 있는 위치이지만 첫 탐색 위치가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>위치 5는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -600,19 +600,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>new_node-&gt;link = last-&gt;link; last = new_node; last-&gt;link = new_node;</choice_text>
-          <commentary>last를 먼저 바꾸어 자기 자신을 가리킨다.</commentary>
+          <commentary>last를 먼저 바꾸면 기존 마지막 노드의 link를 갱신할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>new_node-&gt;link = last-&gt;link; last-&gt;link = new_node; last = new_node;</choice_text>
-          <commentary>순서가 옳으므로 정답이다.</commentary>
+          <commentary>new_node가 첫 노드를 가리키게 하고, 기존 마지막 노드가 new_node를 가리킨 뒤 last를 갱신하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>last-&gt;link = new_node; new_node-&gt;link = last-&gt;link; last = new_node;</choice_text>
-          <commentary>링크를 먼저 바꾸어 첫 노드를 잃는다.</commentary>
+          <commentary>last-&gt;link를 먼저 바꾸면 첫 노드 주소를 잃어버린다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>last = new_node; last-&gt;link = new_node; new_node-&gt;link = last-&gt;link;</choice_text>
-          <commentary>last를 먼저 바꾸어 리스트가 끊긴다.</commentary>
+          <commentary>last를 먼저 바꾸면 기존 리스트와의 연결이 끊긴다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -633,19 +633,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>{{4, 4, 4}, {0, 1, 5}, {0, 2, 2}, {1, 3, 1}, {3, 0, 3}}</choice_text>
-          <commentary>행·열 개수가 다르다.</commentary>
+          <commentary>A[0]의 행·열 개수는 4가 아니라 5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>{{4, 4, 4}, {3, 0, 3}, {0, 1, 5}, {0, 2, 2}, {1, 3, 1}}</choice_text>
-          <commentary>행·열 개수와 순서가 다르다.</commentary>
+          <commentary>행 개수가 틀리고 원소 순서도 행 오름차순이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>{{5, 5, 4}, {0, 1, 5}, {0, 2, 2}, {1, 3, 1}, {3, 0, 3}}</choice_text>
-          <commentary>{{5, 5, 4}, {0, 1, 5}, {0, 2, 2}, {1, 3, 1}, {3, 0, 3}}이므로 정답이다.</commentary>
+          <commentary>A[0] = {5, 5, 4}이고 원소가 행·열 오름차순으로 저장되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>{{5, 5, 4}, {3, 0, 3}, {0, 1, 5}, {0, 2, 2}, {1, 3, 1}}</choice_text>
-          <commentary>순서가 다르다.</commentary>
+          <commentary>원소 순서가 행 오름차순이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -668,19 +668,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>12는 케일리 공식 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>14는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>16</choice_text>
-          <commentary>16이므로 정답이다.</commentary>
+          <commentary>n^(n-2) = 4² = 16이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>18</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>18은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -703,19 +703,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1, 3, 6, 2, 9, 8, 7</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>루트가 2이므로 후위 순회 마지막은 2여야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1, 3, 7, 6, 9, 8, 2</choice_text>
-          <commentary>1, 3, 7, 6, 9, 8, 2이므로 정답이다.</commentary>
+          <commentary>최종 트리 2(1, 8(6(3, 7), 9))의 후위 순회는 1, 3, 7, 6, 9, 8, 2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1, 6, 3, 2, 9, 8, 7</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>루트가 2이므로 후위 순회 마지막은 2여야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1, 6, 3, 7, 9, 8, 2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>6의 자식 순서가 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

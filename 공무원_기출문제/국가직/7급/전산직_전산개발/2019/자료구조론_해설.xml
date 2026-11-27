@@ -36,19 +36,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공백(empty)이 아닌 m원 탐색 트리의 루트(root) 노드는 최대 m개의 서브－트리(sub-tree)를 가질 수 있다.</choice_text>
-          <commentary>루트는 최대 m개의 서브트리를 가진다.</commentary>
+          <commentary>m원 탐색 트리의 노드는 최대 m - 1개의 키와 m개의 서브트리를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공백이 아닌 m원 탐색 트리의 루트 노드에 저장된 키(key)들은 정렬되어 있어야 한다.</choice_text>
-          <commentary>노드의 키는 정렬되어 있다.</commentary>
+          <commentary>노드 안의 키들은 오름차순으로 정렬되어 있어야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공백이 아닌 m원 탐색 트리의 각 노드가 가지는 서브－트리 역시 m원 탐색 트리이다.</choice_text>
-          <commentary>서브트리도 m원 탐색 트리이다.</commentary>
+          <commentary>m원 탐색 트리의 각 서브트리도 m원 탐색 트리이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>차수(degree)가 m이고 높이(height)가 h인 다원 탐색 트리가 가질 수 있는 최대 노드 수는 ($m^{h} - 1$)이다. (단, 루트만 있는 트리의 높이는 1로 한다)</choice_text>
-          <commentary>최대 노드 수는 (m^h - 1)/(m - 1)이므로 옳지 않아 정답이다.</commentary>
+          <commentary>최대 노드 수는 (m^h - 1)/(m - 1)이며 m^h - 1은 최대 키 수이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>*rear = (*rear+1) % MAX_QUEUE_SIZE; front == *rear</choice_text>
-          <commentary>두 식이 모두 맞으므로 정답이다.</commentary>
+          <commentary>rear를 (rear + 1) % MAX로 먼저 이동하고 front와 같아지면 포화로 판단하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>*rear = (front+1) % MAX_QUEUE_SIZE; front == *rear + 1</choice_text>
-          <commentary>rear 계산에 front를 사용하였다.</commentary>
+          <commentary>rear 계산에 front를 사용하여 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>front = (front+1) % MAX_QUEUE_SIZE; front == *rear</choice_text>
-          <commentary>삽입 시 front를 바꾸지 않는다.</commentary>
+          <commentary>삽입 시 front를 이동시키면 안 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>front = (*rear+1) % MAX_QUEUE_SIZE; front == *rear + 1</choice_text>
-          <commentary>front를 갱신하는 것은 잘못이다.</commentary>
+          <commentary>front를 변경하고 포화 조건도 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -174,19 +174,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$( i - 1 ) \times n + ( j - 1 )$</choice_text>
-          <commentary>일반 2차원 배열의 행우선 식이다.</commentary>
+          <commentary>(i - 1) × n + (j - 1)은 전체 n × n 행렬을 행우선으로 저장할 때의 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$j \times ( j - 1 ) / 2 + ( i - 1 )$</choice_text>
-          <commentary>상삼각 열우선 형태이다.</commentary>
+          <commentary>j(j - 1)/2 + (i - 1)은 상삼각 행렬을 열우선으로 저장할 때의 형태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$i \times ( i - 1 ) / 2 + ( j - 1 )$</choice_text>
-          <commentary>i(i - 1)/2 + (j - 1)이므로 정답이다.</commentary>
+          <commentary>i행 앞에 i(i - 1)/2개의 원소가 있으므로 k = i(i - 1)/2 + (j - 1)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$( j - 1 ) \times n + ( i - 1 )$</choice_text>
-          <commentary>일반 2차원 배열의 열우선 식이다.</commentary>
+          <commentary>(j - 1) × n + (i - 1)은 전체 행렬을 열우선으로 저장할 때의 식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>일곱 번째 값이다.</commentary>
+          <commentary>5는 일곱 번째 위치의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>9</choice_text>
-          <commentary>9이므로 정답이다.</commentary>
+          <commentary>재구성 후 배열은 30, 21, 22, 17, 11, 9, 5, 10이므로 여섯 번째 값은 9이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>여덟 번째 값이다.</commentary>
+          <commentary>10은 여덟 번째 위치의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>다섯 번째 값이다.</commentary>
+          <commentary>11은 다섯 번째 위치의 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -279,19 +279,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>외부 노드에서 루트까지의 거리와 외부 노드의 가중치 곱의 총합($\sum_{1 \leq i \leq n} q_{i} d_{i}$)은 112이다.</choice_text>
-          <commentary>112이므로 정답이다.</commentary>
+          <commentary>가중 외부 경로 길이 = 12 + 16 + 18 + 16 + 20 + 30 = 112이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 긴 외부 노드에서 루트까지 거리는 5이다.</choice_text>
-          <commentary>가장 긴 거리는 4이다.</commentary>
+          <commentary>가장 긴 거리는 4이므로 5는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 긴 외부 노드는 $q_{1}$, $q_{2}$, $q_{3}$이다.</choice_text>
-          <commentary>가장 긴 노드는 q1, q2이다.</commentary>
+          <commentary>가장 긴 거리(4)에 있는 외부 노드는 q1, q2뿐이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>루트까지의 거리가 가장 짧은 외부 노드는 $q_{6}$이고 그 다음으로 짧은 외부 노드는 $q_{4}$와 $q_{5}$이다.</choice_text>
-          <commentary>q4, q5, q6이 모두 거리 2이다.</commentary>
+          <commentary>q4, q5, q6은 모두 거리 2로 같으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -313,19 +313,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>15, 3, 1, 18, 20, 4, 26, 35</choice_text>
-          <commentary>나타날 수 있는 순서이다.</commentary>
+          <commentary>첫 분할에서 피봇 26이 고정된 뒤 나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>15, 3, 1, 4, 20, 18, 26, 35</choice_text>
-          <commentary>나타날 수 없으므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 이 순서는 피봇 분할 규칙에 맞지 않아 나타날 수 없으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>1, 3, 4, 18, 20, 15, 26, 35</choice_text>
-          <commentary>나타날 수 있는 순서이다.</commentary>
+          <commentary>이후 단계에서 나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>1, 3, 4, 15, 20, 18, 26, 35</choice_text>
-          <commentary>나타날 수 있는 순서이다.</commentary>
+          <commentary>정렬이 거의 끝난 단계에서 나타날 수 있는 순서이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -347,19 +347,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3개</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>3개는 c 다음의 '*'를 넣기 전 상태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4개</choice_text>
-          <commentary>4개이므로 정답이다.</commentary>
+          <commentary>스택에 *, (, -, *의 4개 연산자 토큰이 쌓일 때가 최대이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5개</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>5개는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6개</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>6개는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -402,19 +402,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
+          <commentary>ㄱ, ㄴ이 옳으므로 정답이다. 무방향 그래프의 인접행렬은 대칭이고, 사이클 없이 n - 1개 간선의 연결 그래프는 트리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ은 옳지 않다. 방향 그래프의 최대 간선 수는 n(n - 1)이기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>ㄷ, ㄹ은 옳지 않다.</commentary>
+          <commentary>ㄹ은 옳지 않다. 방향 그래프에는 길이 2인 사이클도 있기 때문이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -435,19 +435,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>head(head(A))</choice_text>
-          <commentary>a를 반환한다.</commentary>
+          <commentary>head(head(A)) = a이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>head(tail(A))</choice_text>
-          <commentary>c를 반환하므로 정답이다.</commentary>
+          <commentary>tail(A) = (c, d)이므로 head(tail(A)) = c이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>head(tail(head(A)))</choice_text>
-          <commentary>b를 반환한다.</commentary>
+          <commentary>head(tail(head(A))) = b이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>head(tail(tail(A)))</choice_text>
-          <commentary>d를 반환한다.</commentary>
+          <commentary>head(tail(tail(A))) = d이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -470,19 +470,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ptr == NULL ptr-&gt;link = ptr;</choice_text>
-          <commentary>조건과 이동문이 모두 틀렸다.</commentary>
+          <commentary>반복 조건과 이동 코드가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ptr == NULL ptr = ptr-&gt;link;</choice_text>
-          <commentary>반복 조건이 틀렸다.</commentary>
+          <commentary>ptr == NULL이면 반복문에 들어가지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ptr != NULL ptr-&gt;link = ptr;</choice_text>
-          <commentary>이동문이 링크를 훼손한다.</commentary>
+          <commentary>ptr-&gt;link = ptr는 리스트를 끊고 자기 자신을 가리키게 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ptr != NULL ptr = ptr-&gt;link;</choice_text>
-          <commentary>ptr != NULL, ptr = ptr-&gt;link이므로 정답이다.</commentary>
+          <commentary>ptr != NULL 동안 반복하고 ptr = ptr-&gt;link로 이동하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -505,19 +505,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 2, 1, 1, 0, 1, 0</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>fib(2)의 호출 순서가 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 1, 0, 2, 1, 1, 0</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>fib(3)의 두 번째 호출 fib(1)이 빠진 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>4, 3, 2, 1, 0, 1, 2, 1, 0</choice_text>
-          <commentary>4, 3, 2, 1, 0, 1, 2, 1, 0이므로 정답이다.</commentary>
+          <commentary>4, 3, 2, 1, 0, 1, 2, 1, 0이 재귀 호출 순서이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4, 3, 2, 1, 0, 2, 1, 0, 1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>마지막 fib(2)의 호출 순서가 1, 0이어야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -542,19 +542,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 4, 1, 20)</choice_text>
-          <commentary>5회이다.</commentary>
+          <commentary>key 4는 10, 5, 2, 3, 4로 5회 비교한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>binarySearch(b, 7, 1, 20)</choice_text>
-          <commentary>3회로 다르므로 정답이다.</commentary>
+          <commentary>key 7은 10, 5, 7로 3회 비교하여 나머지와 다르므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 9, 1, 20)</choice_text>
-          <commentary>5회이다.</commentary>
+          <commentary>key 9는 10, 5, 7, 8, 9로 5회 비교한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>binarySearch(b, 14, 1, 20)</choice_text>
-          <commentary>5회이다.</commentary>
+          <commentary>key 14는 10, 15, 12, 13, 14로 5회 비교한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -593,19 +593,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ은 옳지 않다. 6n²3ⁿ은 n²2ⁿ보다 빨리 증가하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>ㄱ, ㄹ이므로 정답이다.</commentary>
+          <commentary>ㄱ, ㄹ이 옳으므로 정답이다. n^(2n)이 2ⁿ을 지배하고, 6n³ + log n = O(n³)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄴ은 옳지 않다. n²/log n은 Θ(n²)이 아니기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>ㄴ은 옳지 않다.</commentary>
+          <commentary>ㄴ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -664,19 +664,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>q = q-&gt;link;</choice_text>
-          <commentary>링크 방향을 바꾸지 않는다.</commentary>
+          <commentary>q = q-&gt;link는 리스트를 역순으로 바꾸지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>q-&gt;link = r;</choice_text>
-          <commentary>q-&gt;link = r이므로 정답이다.</commentary>
+          <commentary>현재 노드 q의 링크를 앞 노드 r로 바꾸는 q-&gt;link = r를 반복하면 역순이 되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>p-&gt;link = q;</choice_text>
-          <commentary>p는 다음 처리할 노드이다.</commentary>
+          <commentary>p-&gt;link = q는 남은 리스트를 손상시킨다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>r-&gt;link = q;</choice_text>
-          <commentary>r이 NULL일 때 오류가 난다.</commentary>
+          <commentary>r-&gt;link = q는 첫 반복에서 r가 NULL이어서 오류가 난다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -701,19 +701,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 35, 61, 77, 11, 8, 48, 15, 19</choice_text>
-          <commentary>왼쪽 절반 병합 후 나타난다.</commentary>
+          <commentary>왼쪽 절반 정렬이 끝난 단계에서 나타나는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 77, 61, 35, 11, 8, 48, 15, 19</choice_text>
-          <commentary>(0, 2) 병합 후 나타난다.</commentary>
+          <commentary>왼쪽 앞부분 병합 단계에서 나타나는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>13, 26, 35, 61, 77, 8, 11, 15, 19, 48</choice_text>
-          <commentary>최종 결과이다.</commentary>
+          <commentary>오른쪽 절반 정렬까지 끝난 단계에서 나타나는 순서이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>13, 26, 35, 61, 77, 8, 11, 15, 48, 19</choice_text>
-          <commentary>나타나지 않으므로 정답이다.</commentary>
+          <commentary>오른쪽 절반은 8, 11, 15, 19, 48로 병합되므로 8, 11, 15, 48, 19는 나타나지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

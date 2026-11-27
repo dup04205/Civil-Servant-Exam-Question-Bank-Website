@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>폴리카프로락탐(polycaprolactam)</choice_text>
-          <commentary>개환중합 고분자이므로 정답이다.</commentary>
+          <commentary>폴리카프로락탐(나일론 6)은 고리형 ε-카프로락탐의 개환중합으로 제조하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>폴리에틸렌(polyethylene)</choice_text>
-          <commentary>부가중합 고분자이다.</commentary>
+          <commentary>폴리에틸렌은 에틸렌 이중결합의 부가(사슬)중합으로 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>폴리프로필렌(polypropylene)</choice_text>
-          <commentary>부가중합 고분자이다.</commentary>
+          <commentary>폴리프로필렌은 프로필렌의 부가중합으로 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>폴리스타이렌(polystyrene)</choice_text>
-          <commentary>부가중합 고분자이다.</commentary>
+          <commentary>폴리스타이렌은 스타이렌의 부가중합으로 만든다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>밀도</choice_text>
-          <commentary>정의에 쓰인다.</commentary>
+          <commentary>밀도는 Sc = μ/(ρDAB)의 분모에 쓰이는 물성이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>점도</choice_text>
-          <commentary>정의에 쓰인다.</commentary>
+          <commentary>점도는 Sc의 분자에 쓰이는 물성이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>분자량</choice_text>
-          <commentary>쓰이지 않으므로 정답이다.</commentary>
+          <commentary>분자량은 Sc = μ/(ρDAB)의 정의에 쓰이지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>물질 확산계수</choice_text>
-          <commentary>정의에 쓰인다.</commentary>
+          <commentary>물질 확산계수 DAB는 Sc의 분모에 쓰이는 물성이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{w_{i} M_{i}}{\sum_{i = 1}^{N} w_{i} M_{i}}$</choice_text>
-          <commentary>몰분율을 질량분율로 환산하는 식과 형태가 다르다.</commentary>
+          <commentary>wiMi는 질량분율에 분자량을 곱한 값으로 몰수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{M_{i} / w_{i}}{\sum_{i = 1}^{N} ( M_{i} / w_{i} )}$</choice_text>
-          <commentary>분자와 분모가 역수이다.</commentary>
+          <commentary>Mi/wi는 몰수의 역수 형태로 몰분율이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{w_{i} / M_{i}}{\sum_{i = 1}^{N} ( w_{i} / M_{i} )}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>혼합물 1 g 속 성분 i의 몰수는 wi/Mi이므로 xi = (wi/Mi)/Σ(wi/Mi)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1 / ( w_{i} M_{i} )}{\sum_{i = 1}^{N} ( 1 / ( w_{i} M_{i} ) )}$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>1/(wiMi)는 몰수와 비례하지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -142,19 +142,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>외란 변화에 의한 영향을 예상하여 외란이 공정에 영향을 주기 전에 보정 작용을 한다.</choice_text>
-          <commentary>피드포워드 제어의 설명이다.</commentary>
+          <commentary>외란을 미리 측정하여 공정에 영향을 주기 전에 보정하는 것은 피드포워드 제어이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>주 루프(primary loop)의 속도가 종속 루프(secondary loop)의 속도보다 빨라야 효율적이다.</choice_text>
-          <commentary>종속 루프가 주 루프보다 빨라야 한다.</commentary>
+          <commentary>다단제어는 종속 루프가 주 루프보다 빨라야 2차 외란을 먼저 제거할 수 있으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>종속 루프의 설정점은 주 루프와 독립적으로 결정된다.</choice_text>
-          <commentary>종속 루프의 설정점은 주 제어기 출력으로 정해진다.</commentary>
+          <commentary>종속 루프의 설정점은 주 제어기의 출력으로 정해지므로 독립적이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>여러 개의 제어 루프를 계층적으로 구성하여 외란의 영향을 효과적으로 줄여준다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>다단제어는 주·종속 루프를 계층적으로 구성하여 외란의 영향을 효과적으로 줄이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -175,19 +175,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>유체의 층류와 난류 판단</choice_text>
-          <commentary>흐름 형태 판단이므로 정답이다.</commentary>
+          <commentary>Re = ρvD/μ는 관성력과 점성력의 비로 층류와 난류를 판단하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>열전달 효율 판단</choice_text>
-          <commentary>누셀트수 등의 용도이다.</commentary>
+          <commentary>열전달 효율은 누셀트수 등으로 판단한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>물질전달 속도 판단</choice_text>
-          <commentary>셔우드수 등의 용도이다.</commentary>
+          <commentary>물질전달 속도는 셔우드수 등으로 판단한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>화학반응 속도 판단</choice_text>
-          <commentary>담쾰러수 등의 용도이다.</commentary>
+          <commentary>화학반응 속도는 담쾰러수 등 반응 관련 무차원수로 판단한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -211,19 +211,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>C_(2)H_(4)</choice_text>
-          <commentary>에틸렌으로 불포화이다.</commentary>
+          <commentary>C₂H₄는 CnH2n을 만족하는 알켄(에틸렌)으로 불포화탄화수소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>C_(4)H_(8)</choice_text>
-          <commentary>뷰텐으로 불포화이다.</commentary>
+          <commentary>C₄H₈은 CnH2n으로 이중결합을 가진 불포화탄화수소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>C_(5)H_(10)</choice_text>
-          <commentary>펜텐으로 불포화이다.</commentary>
+          <commentary>C₅H₁₀은 선형이므로 CnH2n의 알켄으로 불포화탄화수소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>C_(6)H_(14)</choice_text>
-          <commentary>포화 탄화수소이므로 정답이다.</commentary>
+          <commentary>C₆H₁₄는 CnH2n+2를 만족하는 포화탄화수소(헥세인)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -244,19 +244,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>일반적으로 액체가 고체보다 크다.</choice_text>
-          <commentary>일반적으로 고체가 액체보다 크다.</commentary>
+          <commentary>일반적으로 고체의 열전도도가 액체보다 크므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>건물의 단열재로 열전도도가 큰 재료가 사용된다.</choice_text>
-          <commentary>단열재로는 열전도도가 작은 재료를 쓴다.</commentary>
+          <commentary>단열재에는 열전도도가 작은 재료를 사용하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>모든 물질의 열전도도는 온도가 변해도 변하지 않는다.</choice_text>
-          <commentary>열전도도는 온도에 따라 변한다.</commentary>
+          <commentary>열전도도는 온도에 따라 변하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>상온, 상압에서 구리의 열전도도는 철의 열전도도보다 크다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>상온에서 구리의 열전도도는 약 400 W/m·K로 철(약 80 W/m·K)보다 크므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -280,19 +280,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.25</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.25는 B의 기상 몰분율(120/480)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.50</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.50은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.75</choice_text>
-          <commentary>0.75이므로 정답이다.</commentary>
+          <commentary>pA = 360 mmHg, 전압 480 mmHg이므로 yA = 360/480 = 0.75이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.90</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.90은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -316,19 +316,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>5.7</choice_text>
-          <commentary>5.7 kJ이므로 정답이다.</commentary>
+          <commentary>W = RT ln(P₁/P₂) = 8.314 × 300 × 2.3 ≒ 5,737 J ≒ 5.7 kJ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>6.9</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>6.9 kJ은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>8.3 kJ은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>11.4 kJ은 계산값의 2배이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -350,19 +350,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－1,539</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>-1,539 kJ/mol은 C₃H₈의 연소열을 빼지 않고 더한 값과 관련되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>－107</choice_text>
-          <commentary>−107 kJ/mol이므로 정답이다.</commentary>
+          <commentary>ΔHf = 3(-394) + 4(-286) - (-2,219) = -107 kJ/mol이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>107</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>107 kJ/mol은 부호를 반대로 한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,539</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,539 kJ/mol은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -386,19 +386,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.148</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.148 m³/s이면 산소 분율이 약 1.3%로 주어진 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.198</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.198 m³/s이면 산소 분율이 1%로 주어진 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.998</choice_text>
-          <commentary>1.998이므로 정답이다.</commentary>
+          <commentary>0.002/(X + 0.002) = 0.001에서 X = 1.998 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.148</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2.148 m³/s는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -422,19 +422,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>15%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20%이므로 정답이다.</commentary>
+          <commentary>(18/30) × p/(760 - p) = 0.008에서 p = 10 mmHg이므로 상대습도 = 10/50 × 100 = 20%이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>30%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>50%는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -456,19 +456,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{a}{b}$</choice_text>
-          <commentary>역수이다.</commentary>
+          <commentary>a/b = 1/KM이므로 KM이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{b}{a}$</choice_text>
-          <commentary>b/a이므로 정답이다.</commentary>
+          <commentary>절편 a = 1/Vmax, 기울기 b = KM/Vmax이므로 KM = b/a이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{a}{b^2}$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>a/b²는 KM의 표현이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{b}{a^2}$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>b/a²는 KM·Vmax에 해당하여 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -489,19 +489,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>27</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>27 L이면 τ = 2.7 min, kτ = 0.54로 전환율이 0.9에 미치지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>54</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>54 L이면 kτ = 1.08로 전환율이 0.9에 미치지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>108</choice_text>
-          <commentary>108 L이므로 정답이다.</commentary>
+          <commentary>1/(1 + kτ)² = 0.1에서 kτ = 2.16, τ = 10.8 min이므로 V = 108 L이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>216</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>216 L은 계산값의 2배로 두 반응기 전체 부피에 해당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -522,19 +522,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>비금속 표면이 금속 표면보다 높다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>비금속 표면은 복사율이 대체로 0.8 이상으로 금속보다 높으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>금속 표면이 매끄러울수록 복사율이 높아진다.</choice_text>
-          <commentary>매끄러울수록 낮아진다.</commentary>
+          <commentary>금속 표면은 매끄러울수록 복사율이 낮아지므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>산화물층이 금속 표면에 형성되면 복사율이 낮아진다.</choice_text>
-          <commentary>산화되면 높아진다.</commentary>
+          <commentary>금속 표면에 산화물층이 생기면 복사율이 높아지므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>모든 금속 표면의 복사율은 온도 증가에 따라 낮아진다.</choice_text>
-          <commentary>금속의 복사율은 대체로 온도와 함께 증가한다.</commentary>
+          <commentary>금속의 복사율은 대체로 온도가 오르면 증가하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -555,19 +555,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>mol L^(-1 )min^(-1)</choice_text>
-          <commentary>0차 반응의 단위이다.</commentary>
+          <commentary>mol L⁻¹ min⁻¹은 0차 반응의 속도상수 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>min^(-1)</choice_text>
-          <commentary>1차 반응의 단위이다.</commentary>
+          <commentary>min⁻¹은 1차 반응의 속도상수 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>L mol^(-1 )min^(-1)</choice_text>
-          <commentary>2차 반응의 단위이다.</commentary>
+          <commentary>L mol⁻¹ min⁻¹은 2차 반응의 속도상수 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>L^(2 )mol^(-2 )min^(-1)</choice_text>
-          <commentary>3차 반응 단위이므로 정답이다.</commentary>
+          <commentary>기초반응이므로 -rA = kACA²CB의 3차 반응이고 단위는 L² mol⁻² min⁻¹이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,19 +588,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>15.5 L은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>25.2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>25.2 L은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>29.4</choice_text>
-          <commentary>29.4 L이므로 정답이다.</commentary>
+          <commentary>τopt = ln(k₁/k₂)/(k₁ - k₂) = ln 2.7/0.34 ≒ 2.94 min이므로 V = 29.4 L이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>50.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>50.5 L은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 m/s는 √(gh)에 가까운 값으로 2를 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>14</choice_text>
-          <commentary>14 m/s이므로 정답이다.</commentary>
+          <commentary>v = √(2gh) = √196 = 14 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>18</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>18 m/s는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>22</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>22 m/s는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -660,19 +660,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Knudsen 확산</choice_text>
-          <commentary>기공 지름이 분자 평균 자유 행로보다 작을 때의 기체 확산이다.</commentary>
+          <commentary>Knudsen 확산은 기공 지름이 분자의 평균자유행로보다 작을 때 기체 분자가 기공 벽과 충돌하며 이동하는 확산이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>틈새 확산</choice_text>
-          <commentary>작은 원자가 격자 사이의 틈새를 이동하는 확산이다.</commentary>
+          <commentary>틈새 확산은 작은 원자가 격자 사이의 틈새 자리로 이동하는 확산이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>빈자리 확산</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>원자가 이웃한 빈 격자점으로 도약하며 이동하는 확산은 빈자리(공공) 확산이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>기공 확산</choice_text>
-          <commentary>다공성 고체의 기공을 통한 확산이다.</commentary>
+          <commentary>기공 확산은 다공성 물질의 기공 속을 이동하는 확산이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -710,19 +710,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄱ만 옳으므로 정답이다.</commentary>
+          <commentary>ㄱ만 옳으므로 정답이다. 투석은 저분자 용질이 막을 통해 농도가 낮은 쪽으로 확산하여 분리된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ이 옳지 않다.</commentary>
+          <commentary>ㄷ은 옳지 않다. 투과증발은 액체가 막을 투과한 뒤 저압 측에서 증기로 제거되는 방식이기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ이 옳지 않다.</commentary>
+          <commentary>ㄴ은 옳지 않다. 역삼투는 농도가 높은 쪽에 압력을 가해 용매를 농도가 낮은 쪽으로 보내기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ이 옳지 않다.</commentary>
+          <commentary>ㄴ과 ㄷ이 옳지 않으므로 이 조합은 틀리다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

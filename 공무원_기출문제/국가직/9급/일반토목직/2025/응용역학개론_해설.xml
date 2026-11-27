@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>마찰력은 접촉면의 크기에 상관없다.</choice_text>
-          <commentary>쿨롱 마찰에서 마찰력은 수직력과 마찰계수로 정해지고 접촉 면적과 무관하므로 옳다.</commentary>
+          <commentary>쿨롱 마찰 법칙에서 마찰력은 접촉면의 크기와 무관하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대정지마찰력은 운동마찰력보다 작다.</choice_text>
-          <commentary>최대정지마찰력이 더 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>일반적으로 μs &gt; μk이므로 최대정지마찰력이 운동마찰력보다 크다. 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>마찰력은 항상 움직이는 방향의 반대 방향으로 작용한다.</choice_text>
-          <commentary>마찰력은 상대 운동(또는 운동하려는) 방향의 반대로 작용하므로 옳다.</commentary>
+          <commentary>마찰력은 상대 운동(또는 운동하려는) 방향과 반대로 작용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>마찰력이 최대정지마찰력에 도달했을 때 마찰각도 최댓값을 갖는다.</choice_text>
-          <commentary>마찰각은 tanφ = F/N이므로 최대정지마찰력일 때 최대가 되어 옳다.</commentary>
+          <commentary>마찰력이 최대정지마찰력에 이를 때 마찰각 tan⁻¹μs도 최대가 되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.25</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.25는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.35</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.35는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.4</choice_text>
-          <commentary>0.4이므로 정답이다.</commentary>
+          <commentary>εx = 0.005, εy = -0.002이므로 ν = 0.002/0.005 = 0.4이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -602,19 +602,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>t = 5 mm이면 σθ = 126 MPa로 허용응력을 넘는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>7</choice_text>
-          <commentary>7 mm이므로 정답이다.</commentary>
+          <commentary>t = 3 × 420/(2 × 90) = 7 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>9 mm는 최소 두께보다 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>11 mm는 최소 두께보다 크다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -638,19 +638,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>회전반경 $r = \frac{D}{4}$</choice_text>
-          <commentary>D/4이므로 옳다.</commentary>
+          <commentary>원형 단면의 회전반경은 √(I/A) = D/4이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>유효세장비 $\lambda_e = 4 \frac{L}{D}$</choice_text>
-          <commentary>유효세장비는 8L/D이므로 옳지 않아 정답이다.</commentary>
+          <commentary>유효길이 2L이므로 유효세장비는 2L/(D/4) = 8L/D이다. 4L/D라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>탄성좌굴하중 $P_cr = \frac{\pi^2 E I}{4 L^2}$</choice_text>
-          <commentary>유효길이 2L을 적용한 식으로 옳다.</commentary>
+          <commentary>유효길이 2L이므로 Pcr = π²EI/(4L²)이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>탄성좌굴응력 $\sigma_{cr} = \frac{\pi^{2} ED^{2}}{64 L^{2}}$</choice_text>
-          <commentary>r² = D²/16을 대입한 식으로 옳다.</commentary>
+          <commentary>σcr = π²Er²/(4L²) = π²ED²/(64L²)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

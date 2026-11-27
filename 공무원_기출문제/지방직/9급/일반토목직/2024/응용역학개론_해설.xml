@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>원형단면에서 반지름이 2배가 되면 단면계수는 8배가 된다.</choice_text>
-          <commentary>원형 단면계수 πr³/4는 반지름의 세제곱에 비례하므로 8배가 되어 옳다.</commentary>
+          <commentary>원형 단면계수 S = πr³/4이므로 반지름이 2배이면 8배가 되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>직사각형단면의 폭을 2배로 증가시키면 단면계수도 2배로 증가한다.</choice_text>
-          <commentary>S는 폭에 비례하므로 옳다.</commentary>
+          <commentary>S = bh²/6이므로 폭이 2배이면 단면계수도 2배가 되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>직사각형단면의 항복모멘트는 단면계수에 항복응력을 곱하여 구한다.</choice_text>
-          <commentary>My = σyS이므로 옳다.</commentary>
+          <commentary>항복모멘트는 My = σyS이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>면적이 같고 높이의 비가 1 : 2인 두 직사각형 단면의 단면계수 비는 1 : 4이다.</choice_text>
-          <commentary>1 : 2이므로 옳지 않아 정답이다.</commentary>
+          <commentary>면적이 같으면 S = Ah/6으로 높이에 비례하므로 단면계수 비는 1 : 2이다. 1 : 4라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.1</choice_text>
-          <commentary>0.1이므로 정답이다.</commentary>
+          <commentary>ε = 2 × 10⁻⁴, ε' = 2 × 10⁻⁵이므로 ν = 0.1이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.2는 계산값의 2배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.4는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -533,19 +533,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200(인장력)</choice_text>
-          <commentary>크기와 방향이 틀렸다.</commentary>
+          <commentary>200 kN은 계산값의 절반이고, 온도 상승 시 축력은 압축력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200(압축력)</choice_text>
-          <commentary>크기가 틀렸다.</commentary>
+          <commentary>200 kN은 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>400(인장력)</choice_text>
-          <commentary>온도 상승이므로 압축력이다.</commentary>
+          <commentary>온도 상승 시 팽창을 막으므로 인장력이 아니라 압축력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>400(압축력)</choice_text>
-          <commentary>400 kN 압축력이므로 정답이다.</commentary>
+          <commentary>P = EAαΔT = 2.0 × 10⁵ × 5,000 × 2.0 × 10⁻⁵ × 20 = 400 kN(압축력)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -671,11 +671,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>모든 탄성재료의 응력－변형률 선도는 직선이다.</choice_text>
-          <commentary>비선형 탄성재료가 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>고무처럼 비선형 탄성 거동을 하는 재료도 있으므로 모든 탄성재료의 선도가 직선인 것은 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>재료의 탄성계수 단위와 응력의 단위는 동일하다.</choice_text>
-          <commentary>변형률이 무차원이므로 탄성계수와 응력의 단위가 같아 옳다.</commentary>
+          <commentary>탄성계수 E = σ/ε에서 ε이 무차원이므로 단위가 응력과 같아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>연성재료의 경우 항복과 동시에 파괴되지는 않는다.</choice_text>
@@ -683,7 +683,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>소성구간에서 하중을 제거하면 영구변형이 발생한다.</choice_text>
-          <commentary>소성변형은 하중을 제거해도 남으므로 옳다.</commentary>
+          <commentary>소성구간에서 하중을 제거하면 영구변형이 남으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

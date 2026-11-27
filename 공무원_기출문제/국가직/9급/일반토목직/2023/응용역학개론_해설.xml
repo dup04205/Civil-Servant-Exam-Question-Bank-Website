@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>기둥이란 축방향 압축력을 주로 받는 부재이며, 장주의 경우에는 좌굴파괴가 일어날 수 있다.</choice_text>
-          <commentary>기둥의 정의와 장주의 파괴 형태로 옳다.</commentary>
+          <commentary>기둥은 축방향 압축력을 주로 받으며 장주는 좌굴파괴가 일어날 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>장주는 기둥의 단면 도심축 방향으로 인장력을 받아 좌굴파괴되는 기둥이다.</choice_text>
-          <commentary>장주는 압축력에 의해 좌굴하므로 옳지 않아 정답이다.</commentary>
+          <commentary>장주는 축방향 압축력에 의해 좌굴하며, 인장력으로는 좌굴이 일어나지 않는다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기둥에서 단면의 핵(Core)은 기둥 단면에 인장응력이 발생하지 않는 축하중 작용 범위이다.</choice_text>
-          <commentary>단면의 핵은 인장응력이 생기지 않는 하중 작용 범위이므로 옳다.</commentary>
+          <commentary>단면의 핵은 단면에 인장응력이 생기지 않는 하중 작용 범위이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>양단이 고정되어 있고, 길이가 $L$인 장주의 임계하중을 계산하기 위한 유효길이는 $\frac{L}{2}$이다.</choice_text>
-          <commentary>양단 고정의 유효길이 계수는 0.5이므로 옳다.</commentary>
+          <commentary>양단 고정 장주의 유효길이 계수는 0.5이므로 유효길이는 L/2이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

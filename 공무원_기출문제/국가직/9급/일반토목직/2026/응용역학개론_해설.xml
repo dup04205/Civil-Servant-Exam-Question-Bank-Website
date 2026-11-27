@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ν = 0.2이면 G = 300/2.4 = 125 GPa가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ν = 0.3이면 G ≒ 115 GPa가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ν = 0.4이면 G ≒ 107 GPa가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.5</choice_text>
-          <commentary>0.5이므로 정답이다.</commentary>
+          <commentary>1 + ν = 300/(2 × 100) = 1.5에서 ν = 0.5이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.002</choice_text>
-          <commentary>처음 2 mm까지의 일의 절반 정도에 해당하는 값이다.</commentary>
+          <commentary>0.002 N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.005</choice_text>
-          <commentary>0.005 N·m이므로 정답이다.</commentary>
+          <commentary>W = ½ × 2,000 × (0.003² - 0.002²) = 0.005 N·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.006</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.006 N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.008</choice_text>
-          <commentary>3 mm까지 늘이는 전체 일의 값에 가깝다.</commentary>
+          <commentary>0.008 N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>${I} _{x_2} - Ad^{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>Ad²만 빼면 Ic + 3Ad²이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${I}_{x_2} - {2Ad^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2Ad²을 빼면 Ic + 2Ad²이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>${I}_{x_2} - {3Ad^{2}}$</choice_text>
-          <commentary>Ix2 − 3Ad²이므로 정답이다.</commentary>
+          <commentary>Ix2 = Ic + 4Ad², Ix1 = Ic + Ad²이므로 Ix1 = Ix2 - 3Ad²이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${I}_{x_2} - {4Ad^{2}}$</choice_text>
-          <commentary>도심축에 대한 값 Ic이다.</commentary>
+          <commentary>4Ad²을 빼면 도심축 Ic가 되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -284,19 +284,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>균질재료는 재료 내 모든 점 및 모든 방향에서 탄성 성질이 같다.</choice_text>
-          <commentary>방향에 대한 성질은 등방성의 개념이므로 옳지 않아 정답이다.</commentary>
+          <commentary>균질재료는 모든 점에서 성질이 같은 재료이며, 모든 방향에서 같은 것은 등방성재료이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>재료의 포아송비는 선형탄성 영역에서만 일정한 값을 유지한다.</choice_text>
-          <commentary>포아송비는 선형탄성 범위에서 일정하므로 옳다.</commentary>
+          <commentary>포아송비는 선형탄성 영역에서 일정하고 소성 영역에서는 변하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>응력－변형률 곡선에서 응력이 최대치에 도달할 때의 응력을 극한응력이라고 한다.</choice_text>
-          <commentary>극한응력의 정의로 옳다.</commentary>
+          <commentary>응력-변형률 곡선의 최대 응력을 극한응력(인장강도)이라 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>재료에 탄성한도 이상으로 하중을 가한 후 하중을 완전히 제거해도 남아 있는 변형을 잔류변형 또는 영구변형이라 한다.</choice_text>
-          <commentary>잔류(영구)변형의 정의로 옳다.</commentary>
+          <commentary>탄성한도를 넘은 뒤 하중을 제거해도 남는 변형을 잔류(영구)변형이라 하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -500,19 +500,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.0015</choice_text>
-          <commentary>0.0015이므로 정답이다.</commentary>
+          <commentary>εv = (1 - 0.5) × 600/(2.0 × 10⁵) = 0.0015이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.0020</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.0020은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.0025</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.0025는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.0030</choice_text>
-          <commentary>포아송비 효과를 반영하지 않은 값이다.</commentary>
+          <commentary>0.0030은 (1 - 2ν)를 곱하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -605,19 +605,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = 80 mm이면 Pcr이 600 kN에 크게 못 미친다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = 120 mm이면 Pcr이 600 kN에 못 미친다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>160</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = 160 mm이면 I가 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>200</choice_text>
-          <commentary>200 mm이므로 정답이다.</commentary>
+          <commentary>I = 7.5 × 10⁻⁵ m⁴에서 d⁴ = 1.6 × 10⁻³이므로 d = 0.2 m = 200 mm이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

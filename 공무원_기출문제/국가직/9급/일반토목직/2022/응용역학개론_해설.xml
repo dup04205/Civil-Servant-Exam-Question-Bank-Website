@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>주축에 대한 관성모멘트는 0이다.</choice_text>
-          <commentary>0이 되는 것은 단면 상승모멘트이므로 옳지 않아 정답이다.</commentary>
+          <commentary>주축은 단면 상승모멘트 Ixy가 0이 되는 축이며, 단면2차모멘트는 0이 아니라 극값을 가진다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주축에 대한 단면2차 모멘트는 최대 및 최소가 된다.</choice_text>
-          <commentary>주축에 대한 단면2차모멘트가 최대·최소이므로 옳다.</commentary>
+          <commentary>주축에 대한 단면2차모멘트는 최대 및 최소가 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>주축의 방향 $\theta_{p}$는 $\tan 2 \theta_{itp} = - \frac{2 I_{ xy}}{I_{ x} - I_{ y}}$로 구할 수 있다.</choice_text>
-          <commentary>주축 방향의 식으로 옳다.</commentary>
+          <commentary>주축 방향은 tan 2θp = -2Ixy/(Ix - Iy)로 구하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>대칭축은 항상 주축이 되며, 그 축에 직교하는 축도 주축이 된다.</choice_text>
-          <commentary>대칭축과 그 직교축에서는 Ixy = 0이므로 주축이 되어 옳다.</commentary>
+          <commentary>대칭축에서는 Ixy = 0이므로 대칭축과 이에 직교하는 축은 주축이 되어 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -141,15 +141,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>전단응력은 순수굽힘이 작용하는 단면에서 곡선으로 변화한다.</choice_text>
-          <commentary>순수굽힘 단면에는 전단응력이 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>순수굽힘 단면에는 전단력이 0이어서 전단응력이 발생하지 않는다. 곡선으로 변화한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전단응력은 단면의 상․하연에서 0이고, 중립축에서 일반적으로 최대이다.</choice_text>
-          <commentary>상·하연 0, 중립축 최대이므로 옳다.</commentary>
+          <commentary>직사각형 단면의 전단응력은 상·하연에서 0이고 중립축에서 최대이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전단응력은 중립축으로부터의 거리에 따라서 포물선으로 변화한다.</choice_text>
-          <commentary>포물선 분포이므로 옳다.</commentary>
+          <commentary>τ = VQ/(Ib)에서 Q가 거리의 2차식이므로 포물선 분포가 되어 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -248,19 +248,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$I_{( a )}$ ＝ $I_{( b )}$이고, $Z_{( a )}$ ＝ $Z_{( b )}$이다.</choice_text>
-          <commentary>단면계수가 다르다.</commentary>
+          <commentary>단면계수는 (b)가 더 작으므로 Z(a) = Z(b)는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$I_{( a )}$ &gt; $I_{( b )}$이고, $Z_{( a )}$ &gt; $Z_{( b )}$이다.</choice_text>
-          <commentary>단면2차모멘트가 같다.</commentary>
+          <commentary>정사각형의 도심축 단면2차모멘트는 방향과 무관하므로 I(a) &gt; I(b)는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$I_{( a )}$ ＝ $I_{( b )}$이고, $Z_{( a )}$ &gt; $Z_{( b )}$이다.</choice_text>
-          <commentary>I(a) = I(b), Z(a) &gt; Z(b)이므로 정답이다.</commentary>
+          <commentary>I(a) = I(b) = h⁴/12이고, Z(a) = h³/6 &gt; Z(b) = √2h³/12이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$I_{( a )}$ &gt; $I_{( b )}$이고, $Z_{( a )}$ ＝ $Z_{( b )}$이다.</choice_text>
-          <commentary>단면2차모멘트는 같고 단면계수는 다르다.</commentary>
+          <commentary>I가 같고 Z가 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -320,19 +320,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>120 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>180</choice_text>
-          <commentary>온도 변형률을 빼서 계산한 값이다.</commentary>
+          <commentary>180 MPa는 온도 변형률의 부호를 반대로 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>240</choice_text>
-          <commentary>온도 변형률을 고려하지 않은 값이다.</commentary>
+          <commentary>240 MPa는 온도 변형률을 고려하지 않고 σ = Eε로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>300</choice_text>
-          <commentary>300 MPa이므로 정답이다.</commentary>
+          <commentary>σ/E = 2,400 × 10⁻⁶ + 600 × 10⁻⁶ = 3,000 × 10⁻⁶이므로 σ = 300 MPa이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -392,19 +392,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.20 × 10⁻³은 구속에 의한 σx를 고려하지 않은 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.22</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.22 × 10⁻³은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.24</choice_text>
-          <commentary>0.24 × 10^-3이므로 정답이다.</commentary>
+          <commentary>σx = -10 MPa이므로 εy = (-50 + 2)/200,000 = -0.24 × 10⁻³이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.26</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.26 × 10⁻³은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -500,19 +500,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{8 M_{p}}{L^{2}}$</choice_text>
-          <commentary>8Mp/L²이므로 정답이다.</commentary>
+          <commentary>중앙 소성힌지에서 wuL²/8 = Mp이므로 wu = 8Mp/L²이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4 M_{p}}{L^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4Mp/L²는 집중하중 기준식과 혼동한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 M_{p}}{L^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2Mp/L²는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{M_{p}}{L^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>Mp/L²는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -608,19 +608,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>200 GPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>220</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>220 GPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>240</choice_text>
-          <commentary>240 GPa이므로 정답이다.</commentary>
+          <commentary>E = Mρ/I = 50 × 4/(8.333 × 10⁻¹⁰) = 240 GPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>260</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>260 GPa는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

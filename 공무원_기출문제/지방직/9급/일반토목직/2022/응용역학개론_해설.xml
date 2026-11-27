@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>탄성계수 E보다 크고, 포아송비 $\nu$가 커짐에 따라 증가한다.</choice_text>
-          <commentary>G는 E보다 작고 ν가 커지면 감소한다.</commentary>
+          <commentary>G는 E/3~E/2 범위로 E보다 작고 ν가 커지면 감소하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>탄성계수 E보다 작고, 포아송비 $\nu$가 커짐에 따라 증가한다.</choice_text>
-          <commentary>ν가 커지면 감소한다.</commentary>
+          <commentary>ν가 커지면 G는 감소하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>탄성계수 E보다 크고, 포아송비 $\nu$가 커짐에 따라 감소한다.</choice_text>
-          <commentary>G는 E보다 작다.</commentary>
+          <commentary>G는 E보다 작으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>탄성계수 E보다 작고, 포아송비 $\nu$가 커짐에 따라 감소한다.</choice_text>
-          <commentary>E보다 작고 ν가 커지면 감소하므로 정답이다.</commentary>
+          <commentary>G = E/[2(1 + ν)]이므로 G는 E보다 작고 ν가 커질수록 감소하여 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -210,19 +210,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{P}{2 L}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>P/(2L)은 계산값의 1/4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{P}{L}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>P/L은 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2 P}{L}$</choice_text>
-          <commentary>2P/L이므로 정답이다.</commentary>
+          <commentary>PL/4 = wL²/8에서 w = 2P/L이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 P}{L}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3P/L은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -387,19 +387,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10 MPa</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 MPa는 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20 MPa</choice_text>
-          <commentary>20 MPa이므로 정답이다.</commentary>
+          <commentary>τmax = |-60 - (-20)|/2 = 20 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30 MPa</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>30 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40 MPa</choice_text>
-          <commentary>두 응력의 차이 자체이다.</commentary>
+          <commentary>40 MPa는 주응력 차 자체로 1/2을 곱하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -528,19 +528,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>200 kN은 길이 변화만 반영한 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>유효길이 계수를 고려하지 않은 값이다.</commentary>
+          <commentary>250 kN은 지지조건 변화를 반영하지 않은 값(160 × (5/4)²)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>800</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>800 kN은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,000</choice_text>
-          <commentary>1,000 kN이므로 정답이다.</commentary>
+          <commentary>유효길이가 5 m에서 2 m로 줄어 160 × (5/2)² = 1,000 kN이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2022년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

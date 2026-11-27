@@ -30,25 +30,24 @@
         <correct_choice_text>$A \bar{B} + \bar{A} B$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 논리, 회로에서, 출력, 논리식)
-정답은 ①이다. 본 문항은 논리, 회로에서, 출력, 논리식에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $A \bar{B} + \bar{A} B$; $AB ( A + B )$; $( \bar{A} + B ) ( A + \bar{B} )$; $AB$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 논리회로의 출력
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 X = AB̄ + ĀB이다이다. 게이트별 출력을 논리식으로 쓰고 간략화하면 두 입력이 서로 다를 때만 1이 되는 XOR 함수가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$A \bar{B} + \bar{A} B$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$AB ( A + B )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$( \bar{A} + B ) ( A + \bar{B} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$AB$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -64,27 +63,25 @@
         <correct_choice_text>${\bar{A}} + BC$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 다음 카르노 맵(Karnaugh map))
-정답은 ①이다. 본 문항은 다음 카르노 맵(Karnaugh map)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "| $BC$  $A$ | 00 | 01 | 11 | 10 |"
-관련 수식: $BC$; $A$; ${\bar{A}} + BC$; ${\bar{A}} + B$; $A + BC$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 카르노 맵의 간략화
+정답은 ①이다. A = 0인 행은 모두 1이므로 Ā로 묶이고, A = 1인 행에서는 BC = 11 칸만 1이며 이는 A = 0의 같은 열과 묶어 BC가 된다. 따라서 F = Ā + BC이다.</overall_commentary>
       <passage_evidence>| $BC$  $A$ | 00 | 01 | 11 | 10 |</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar{A}} + BC$</choice_text>
-          <commentary>제시문의 "| $BC$  $A$ | 00 | 01 | 11 | 10 |" 내용과 일치하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}} + B$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>A = 1, BC = 10까지 1로 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A + BC$</choice_text>
-          <commentary>제시문의 "| $BC$  $A$ | 00 | 01 | 11 | 10 |" 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>A가 아니라 Ā이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$A + C$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>일치하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,24 +98,24 @@
         <correct_choice_text>인덕터 두 개를 병렬 연결하면 등가 인덕턴스는 인덕터 한 개의 인덕턴스보다 크다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 인덕터와 커패시터, 전압이 인가된 후 정상 상태(steady state))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 인덕터와 커패시터
+정답은 ④이다. 인덕터를 병렬로 연결하면 등가 인덕턴스는 L1L2/(L1 + L2)로, 저항의 병렬처럼 각각의 인덕턴스보다 작아진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>무한대의 전압이 인가되지 않는 한 인덕터 전류는 불연속적으로 변할 수 없다.</choice_text>
-          <commentary>'무한대의 전압'에 관하여 '할 수 없다'라는 인정되지 않는다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>인덕터 전류는 연속이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>커패시터 전류는 인가되는 전압의 시간적 변화율의 영향을 받는다.</choice_text>
-          <commentary>'커패시터 전류'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>i = C(dv/dt)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>커패시터 양단에 직류 전압이 인가된 후 정상 상태(steady state)에 도달하면 커패시터는 개방 회로처럼 동작한다.</choice_text>
-          <commentary>'커패시터 양단에 직류 전압'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직류 정상상태에서 커패시터는 개방되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>인덕터 두 개를 병렬 연결하면 등가 인덕턴스는 인덕터 한 개의 인덕턴스보다 크다.</choice_text>
-          <commentary>'인덕터 두 개를 병렬 연결하면 등'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>등가 인덕턴스가 작아지므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,25 +134,24 @@
         <correct_choice_text>20</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 회로에서, 저항, 전류, 흐르지)
-정답은 ④이다. 본 문항은 회로에서, 저항, 전류, 흐르지에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 다이오드 회로의 저항
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 R = 20 kΩ이다이다. 2 kΩ 저항에 전류가 흐르지 않으려면 그 양단 전압이 같아야 하므로, 다이오드 전압강하 0.7 V를 고려하여 두 마디의 전압이 같아지는 분압 조건으로 R을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>18</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,24 +168,24 @@
         <correct_choice_text>잡음신호로 인한 채터링(chattering) 현상을 제거할 수 없다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 슈미트 트리거 회로의 특성, 잡음신호로 인한 채터링(chattering))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 슈미트 트리거
+정답은 ④이다. 슈미트 트리거는 정궤환으로 두 개의 문턱전압(히스테리시스)을 가지므로, 입력에 잡음이 섞여도 출력이 반복적으로 바뀌는 채터링 현상을 제거할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정궤환 회로에 해당한다.</choice_text>
-          <commentary>'해당한다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>정궤환 회로이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>멀티바이브레이터라고 하는 파형발생기로 사용될 수 있다.</choice_text>
-          <commentary>'멀티바이브레이터라고 하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RC와 결합하면 비안정 멀티바이브레이터로 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>히스테리시스 특성을 가진다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>히스테리시스를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>잡음신호로 인한 채터링(chattering) 현상을 제거할 수 없다.</choice_text>
-          <commentary>'할 수 없다' 부분에서 제한·부정 여부가 반대로 서술되어 있다.</commentary>
+          <commentary>채터링을 제거할 수 있으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -205,25 +201,24 @@
         <correct_choice_text>부하에 공급되는 전력은 $V^{2} / ( 4 R )$ [W]이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 부하가 저항 $R$인 반파정류회로)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $R$; $v_{s} ( t ) = \sqrt{2} V \sin \omega t$; $\sqrt{2} V / \pi$; $\sqrt{2} V / 2$; $V^{2} / ( 4 R )$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 반파정류회로
+정답은 ③이다. 반파정류 출력의 최댓값은 √2V이므로 평균치는 √2V/π, 실효치는 √2V/2 = V/√2이다. 부하 전력은 P = (V/√2)²/R = V²/(2R)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>출력전압의 평균치는 $\sqrt{2} V / \pi$ [V]이다.</choice_text>
-          <commentary>'출력전압의 평균치'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>평균치로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>출력전압의 실효치는 $\sqrt{2} V / 2$ [V]이다.</choice_text>
-          <commentary>'출력전압의 실효치'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>실효치로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>부하에 공급되는 전력은 $V^{2} / ( 4 R )$ [W]이다.</choice_text>
-          <commentary>'부하에 공급되'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>V²/(2R)이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>다이오드에 인가되는 역방향 최대전압은 $\sqrt{2} V$ [V]이다.</choice_text>
-          <commentary>'다이오드에 인가되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>역방향 최대전압은 입력 최댓값 √2V이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -242,24 +237,24 @@
         <correct_choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 트랜지스터, 회로, 순방향, 바이어스)
-정답은 ②이다. 본 문항은 트랜지스터, 회로, 순방향, 바이어스에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 트랜지스터의 순방향 바이어스
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 2번 연결 방향이 옳다이다. 트랜지스터를 활성영역으로 동작시키려면 이미터-베이스 접합은 순방향, 컬렉터-베이스 접합은 역방향이 되도록 NPN과 PNP의 극성에 맞추어 전원을 연결한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -276,24 +271,24 @@
         <correct_choice_text>출력전압의 위상은 입력전압의 위상과 반대이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로, 소스 팔로워(source-follower))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 소스 팔로워
+정답은 ③이다. 소스 팔로워(공통 드레인 증폭기)는 출력을 소스에서 얻으며 전압이득이 1보다 약간 작고, 입력임피던스가 매우 크며, 입력과 출력의 위상이 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전압이득은 1보다 작다.</choice_text>
-          <commentary>'전압이득'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>입력임피던스는 매우 크다.</choice_text>
-          <commentary>'입력임피던스'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>출력전압의 위상은 입력전압의 위상과 반대이다.</choice_text>
-          <commentary>'출력전압의 위상'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위상이 같으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>소스 팔로워(source-follower) 회로라 불린다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,24 +306,24 @@
         <correct_choice_text>그레이(Gray) 코드는 가중치를 가지므로 효율적 연산을 하는 데 유리하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 2진 코드, 그레이(Gray), 해밍(Hamming))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 2진 코드
+정답은 ②이다. 그레이 코드는 연속된 두 값이 한 비트만 다르도록 만든 비가중치 코드로, 각 비트에 자리값이 없어 산술 연산에는 적합하지 않고 위치 검출이나 A/D 변환 등에 쓰인다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>BCD 코드는 10진수를 표현하는 보편적인 방법이며 10진수 31에 대한 BCD 코드는 0011 0001이다.</choice_text>
-          <commentary>'BCD 코드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>31의 BCD는 0011 0001이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>그레이(Gray) 코드는 가중치를 가지므로 효율적 연산을 하는 데 유리하다.</choice_text>
-          <commentary>'그레이(Gray) 코드'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비가중치 코드이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ASCII 코드는 미국 표준 코드로 영문 대소문자, 특수 문자 등을 표현하기 위해 사용된다.</choice_text>
-          <commentary>'ASCII 코드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>ASCII의 설명으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>해밍(Hamming) 코드는 데이터의 전송 과정에서 발생하는 오류를 검출하고 정정하는 데 사용된다.</choice_text>
-          <commentary>'해밍(Hamming) 코드'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>해밍 코드는 오류 검출과 정정에 쓰이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -347,25 +342,24 @@
         <correct_choice_text>01 0110</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 논리, 회로에서, 출력, 입력)
-정답은 ②이다. 본 문항은 논리, 회로에서, 출력, 입력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $F$; $AB$; $VWXY$; $AB$; $VWXY$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 논리회로의 입력 조건
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 AB = 01, VWXY = 0110이다이다. 게이트 구성을 따라 출력식을 구한 뒤 선지의 입력값을 대입하여 F가 1이 되는 조합을 찾는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>00 0101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>01 0110</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10 0101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11 1010</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -382,24 +376,24 @@
         <correct_choice_text>높은 전류이득을 가진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 달링턴(darlington) 회로, 다음 달링턴(darlington))
-정답은 ①이다. 본 문항은 달링턴(darlington) 회로, 다음 달링턴(darlington)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 달링턴 회로
+정답은 ①이다. 달링턴 회로는 두 트랜지스터를 종속 연결하여 전체 전류이득이 β1β2로 매우 크고 입력임피던스가 높으며, 보통 이미터 폴로어로 쓰여 전압이득은 약 1이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>높은 전류이득을 가진다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>높은 전압이득을 가진다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전압이득은 약 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>낮은 입력임피던스를 가진다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>입력임피던스가 높다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>공통 에미터 회로이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공통 컬렉터 형태로 쓰인다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -417,9 +411,8 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ, ㄹ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 복합 보기 검증형 (핵심어: 보드(Bode) 선도, 보드(Bode), 에 대한 전달함수(transfer function))
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(O), ㄹ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄱ, ㄴ, ㄷ, ㄹ)이다.
-관련 수식: $\omega$; $j \omega$; $j \omega$; $20log_{10} \left | K \right |$; $j \omega$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 보드 선도
+정답은 ④이다. 보드 선도는 주파수에 따른 전달함수의 크기(dB)와 위상을 나타낸다(ㄱ). 음의 상수 K는 크기 20log|K|, 위상 180°이고(ㄴ), jω는 크기 20logω, 위상 90°이다(ㄷ). 2중 극점은 고주파에서 −20 dB/decade가 두 번 겹쳐 −40 dB/decade의 기울기를 가진다(ㄹ).</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>보드 선도는 입력신호의 각 주파수 ω에 대한 전달함수(transfer function) G($j \omega$)의 크기([dB])와 위상([degree])의 변화를 나타낸 그래프로서 근사적으로 표현 가능하다.</statement>
@@ -441,19 +434,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄹ)이다.</commentary>
+          <commentary>ㄴ, ㄷ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ, ㄹ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄹ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ, ㄷ, ㄹ)이다.</commentary>
+          <commentary>모두 옳으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -472,25 +465,24 @@
         <correct_choice_text>$V_{1} + V_{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 연산증폭기, 회로에서, 출력전압, 이상적인)
-정답은 ①이다. 본 문항은 연산증폭기, 회로에서, 출력전압, 이상적인에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{out}$; $V_{1} + V_{2}$; $V_{1} + 2 V_{2}$; $2 V_{1} + V_{2}$; $V_{1} \times V_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 연산증폭기 가산 회로
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 출력전압은 V1 + V2이다이다. 비반전 가산기는 입력 저항망의 평균 전압에 비반전 증폭기의 이득을 곱해 출력하며, 저항값이 같으면 두 입력의 합이 출력된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$V_{1} + V_{2}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$V_{1} + 2 V_{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 V_{1} + V_{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$V_{1} \times V_{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -510,24 +502,24 @@
         <correct_choice_text>TCP 세그먼트(segment)의 헤더(header)는 체크섬(checksum) 항목을 포함하지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 와 UDP(User Datagram Protocol), DP는 8바이트 크기의 헤더(header), TCP 세그먼트(segment), 의 헤더(header), 는 체크섬(checksum))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · TCP와 UDP
+정답은 ③이다. TCP 세그먼트 헤더에는 출발지·목적지 포트, 순서 번호, 확인 응답 번호, 윈도 크기와 함께 체크섬 필드가 포함되어 오류를 검출한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>UDP는 8바이트 크기의 헤더(header)를 포함한다.</choice_text>
-          <commentary>'UDP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP 헤더는 8바이트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>TCP는 UDP보다 신뢰성 있는 연결형 서비스를 제공한다.</choice_text>
-          <commentary>'TCP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>TCP는 연결형 신뢰성 서비스를 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>TCP 세그먼트(segment)의 헤더(header)는 체크섬(checksum) 항목을 포함하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>체크섬이 포함되므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>UDP는 흐름제어와 혼잡제어 기능을 수행하지 않는다.</choice_text>
-          <commentary>'UDP'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>UDP는 흐름·혼잡제어를 하지 않으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -546,25 +538,24 @@
         <correct_choice_text>10</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 증폭기, 교류, 회로에서, 베이스)
-정답은 ③이다. 본 문항은 증폭기, 교류, 회로에서, 베이스에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{b}$; ${r prime}_{e}$; $\beta_{ac}$; $V_{i n}$; $R_{S}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 증폭기의 베이스 전압
+정답은 ③이다. 베이스에서 본 입력 저항은 R1 ∥ R2 ∥ β(r′e + RE) = 20 ∥ 40 ∥ (100 × 0.4) = 20 ∥ 40 ∥ 40 = 10 kΩ이다. 신호원 저항 10 kΩ과의 분압으로 Vb = 20 × 10/(10 + 10) = 10 mV이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.149</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7.27</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10 mV이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -583,25 +574,24 @@
         <correct_choice_text>40</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 증폭기, 회로에서, 전류이득, 교류)
-정답은 ②이다. 본 문항은 증폭기, 회로에서, 전류이득, 교류에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: ${r prime}_{e}$; $A_{v it} SIMEQ 1$; $\beta_{ac}$; $V_{CC}$; $R_1$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 이미터 폴로어의 전류이득
+정답은 ②이다. 입력 저항은 R1 ∥ R2 ∥ βRE = 50 kΩ ∥ 200 kΩ = 40 kΩ이다. 전압이득이 약 1이고 출력이 RE에 걸리므로 전류이득은 Ai = Av × Rin/RE = 1 × 40/1 = 40이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>40</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>40이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -618,25 +608,24 @@
         <correct_choice_text>$5 \pi \times 10^4$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 오실로스코프로 측정된 정현파(sinusoidal wave), 현파 전압 신호의 각 주파수(angular frequency))
-정답은 ③이다. 본 문항은 오실로스코프로 측정된 정현파(sinusoidal wave), 현파 전압 신호의 각 주파수(angular frequency)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $5 times 10^4$; $1 times10^5$; $5 \pi times 10^4$; $\pi times 10^5$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 오실로스코프와 각주파수
+정답은 ③이다. 반 주기가 4칸 × 5 μs = 20 μs이므로 주기는 40 μs이고 주파수는 1/(40 × 10^-6) = 25 kHz이다. 각주파수는 ω = 2πf = 2π × 25,000 = 5π × 10^4 rad/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$5 \times 10^4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>2π를 곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 times10^5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$5 \pi \times 10^4$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>5π × 10^4 rad/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\pi \times 10^5$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반 주기를 주기로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -652,25 +641,24 @@
         <correct_choice_text>$1 / ( 2 \pi \sqrt{R_{1} R_{2} C_{1} C_{2}} )$ $0 . 586$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 와 근사 버터워스(Butterworth))
-정답은 ①이다. 본 문항은 와 근사 버터워스(Butterworth)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $f_{c}$; $R_4$; $R_{1}$; $R_{2}$; $C_{1}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 살렌-키 저역통과필터
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 fc = 1/(2π√(R1R2C1C2)), R4 = 0.586 kΩ이다이다. 2차 살렌-키 필터의 임계주파수는 1/(2π√(R1R2C1C2))이고, 버터워스 특성(Q = 0.707)을 얻으려면 R1 = R2, C1 = C2일 때 이득이 1 + R4/R3 = 1.586이어야 하므로 R4 = 0.586R3이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 / ( 2 \pi \sqrt{R_{1} R_{2} C_{1} C_{2}} )$ $0 . 586$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 2 \pi \sqrt{R_{1} R_{2} C_{1} C_{2}} )$ $1 . 414$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 2 \pi R_{1} R_{2} C_{1} C_{2} )$ $0 . 586$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 2 \pi R_{1} R_{2} C_{1} C_{2} )$ $1 . 414$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -686,25 +674,24 @@
         <correct_choice_text>6.7 －6.7</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 의 리미터(limiter))
-정답은 ③이다. 본 문항은 의 리미터(limiter)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $V_{i n}$; $V_{out}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 양·음 리미터
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 A = 6.7 V, B = −6.7 V이다이다. 다이오드 리미터는 출력이 바이어스 전압과 다이오드 순방향 전압 0.7 V의 합을 넘지 못하도록 제한하므로, 양쪽 기준전압에 0.7 V를 더해 제한 전압을 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5.3 －5.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5.7 －5.7</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>6.7 －6.7</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>7.3 －7.3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -720,24 +707,24 @@
         <correct_choice_text>부하전압 변동률은 입력전압의 변화량에 대한 출력전압 변화량의 백분율로 정의한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 전압 조정기(voltage regulator))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 전압 조정기
+정답은 ④이다. 부하전압 변동률(부하 조정률)은 부하가 무부하에서 전부하로 변할 때의 출력전압 변화율이다. 입력전압 변화에 대한 출력전압 변화의 비율은 입력(라인) 조정률이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전압 조정기는 입력전압이나 부하가 변동할 때 출력전압을 거의 일정하게 유지시킨다.</choice_text>
-          <commentary>'전압 조정기'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전압 조정기의 기능으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>선형 전압 조정기의 두 가지 기본형은 직렬형과 병렬형이다.</choice_text>
-          <commentary>'선형 전압 조정기의 두 가지 기본형'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직렬형과 병렬형이 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폴드－백 전류 제한(fold-back current limiting)은 전류가 많이 흐르는 전압 조정기에서 주로 사용되는 방법이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>폴드백 전류 제한의 이용으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>부하전압 변동률은 입력전압의 변화량에 대한 출력전압 변화량의 백분율로 정의한다.</choice_text>
-          <commentary>'부하전압 변동률'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>라인 조정률의 정의이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

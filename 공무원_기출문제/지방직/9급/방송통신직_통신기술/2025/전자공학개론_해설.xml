@@ -30,25 +30,24 @@
         <correct_choice_text>XOR 게이트</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 진리표, 가지, 논리, 게이트)
-정답은 ④이다. 본 문항은 진리표, 가지, 논리, 게이트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A$; $B$; $F$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 진리표와 논리 게이트
+정답은 ④이다. 두 입력이 서로 다를 때만 출력이 1이고 같으면 0인 게이트는 XOR(배타적 OR) 게이트이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AND 게이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>AND는 둘 다 1일 때만 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>NAND 게이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NAND는 둘 다 1일 때만 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NOR 게이트</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NOR는 둘 다 0일 때만 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>XOR 게이트</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>XOR 게이트이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -64,25 +63,24 @@
         <correct_choice_text>$J$ ＝ 1, $K$ ＝ 1일 때 $Q$는 현재 값을 유지한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: JK 플립플롭에서 출력 $Q$의 동작)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $Q$; $J$; $K$; $Q$; $J$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · JK 플립플롭
+정답은 ④이다. JK 플립플롭은 J = K = 0이면 유지, J = 1·K = 0이면 세트(1), J = 0·K = 1이면 리셋(0), J = K = 1이면 현재 값을 반전(토글)한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 1, $K$ ＝ 0일 때 $Q$는 1이 된다.</choice_text>
-          <commentary>'0일' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>세트 동작으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 0, $K$ ＝ 1일 때 $Q$는 0이 된다.</choice_text>
-          <commentary>'1일' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>리셋 동작으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 0, $K$ ＝ 0일 때 $Q$는 현재 값을 유지한다.</choice_text>
-          <commentary>'0일' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>유지 동작으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$J$ ＝ 1, $K$ ＝ 1일 때 $Q$는 현재 값을 유지한다.</choice_text>
-          <commentary>제시된 '1일' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>반전하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -101,24 +99,24 @@
         <correct_choice_text>01101011</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 저장하고, 있던, 비트, 순환)
-정답은 ③이다. 본 문항은 저장하고, 있던, 비트, 순환에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 순환 시프트 레지스터
+정답은 ③이다. 좌측 순환 시프트는 맨 왼쪽 비트를 맨 오른쪽으로 보낸다. 01101101을 세 번 좌측 순환하면 앞의 세 비트 011이 뒤로 이동하여 01101 + 011 = 01101011이 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>01101000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순환하지 않고 0을 채운 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10110101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>01101011</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>01101011이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10101101</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -134,24 +132,24 @@
         <correct_choice_text>대역폭이 감소한다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 부귀환(negative feedback))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 부귀환의 특성
+정답은 ②이다. 부귀환은 이득을 낮추는 대신 이득을 안정시키고 잡음과 비선형 왜곡을 줄이며, 이득-대역폭 곱이 일정하므로 대역폭을 넓힌다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>잡음이 감소한다.</choice_text>
-          <commentary>'잡음'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>잡음이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>대역폭이 감소한다.</choice_text>
-          <commentary>'대역폭'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역폭이 증가하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>비선형 왜곡이 감소한다.</choice_text>
-          <commentary>'비선형 왜곡'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>왜곡이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>안정적으로 조절 가능한 전압 이득을 제공한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이득이 안정되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -170,25 +168,24 @@
         <correct_choice_text>25</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 저항, 커패시터, 직렬회로, 각주파수)
-정답은 ①이다. 본 문항은 저항, 커패시터, 직렬회로, 각주파수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $R$; $C$; $it \mu$; $L$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 직렬공진의 인덕턴스
+정답은 ①이다. 공진 조건 ω = 1/√(LC)에서 L = 1/(ω²C) = 1/[(10^5)² × 4 × 10^-6] = 1/(4 × 10^4) = 25 × 10^-6 H = 25 μH이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>25</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>25 μH이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -207,24 +204,24 @@
         <correct_choice_text>반파정류회로</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로, 출력특성, 나타내, 다이오드와)
-정답은 ④이다. 본 문항은 회로, 출력특성, 나타내, 다이오드와에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 정밀 정류회로
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 반파정류회로이다이다. 연산증폭기의 귀환 경로에 다이오드를 넣으면 다이오드의 전압강하가 개루프 이득으로 보상되어, 입력의 한쪽 극성만 출력되는 정밀 반파정류 특성을 얻는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>클램프회로</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정전압회로</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>전파정류회로</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>반파정류회로</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -241,24 +238,24 @@
         <correct_choice_text>공통모드 이득이 클수록 증폭기의 성능이 우수하다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 차동증폭기의 특성, 공통모드 제거비(CMRR))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 차동증폭기
+정답은 ②이다. 차동증폭기는 두 입력의 차이만 증폭하고 공통 신호(잡음)는 억제해야 하므로, 공통모드 이득이 작고 CMRR이 클수록 성능이 우수하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>연산증폭기의 입력단으로 사용된다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>연산증폭기 입력단에 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>공통모드 이득이 클수록 증폭기의 성능이 우수하다.</choice_text>
-          <commentary>'공통모드 이득'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공통모드 이득이 작을수록 우수하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>두 개의 입력단에 유입되는 잡음을 제거하는 효과가 있다.</choice_text>
-          <commentary>'두 개의 입력단에 유입되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공통 잡음을 제거하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>공통모드 제거비(CMRR)는 차동모드 이득과 공통모드 이득의 비이다.</choice_text>
-          <commentary>'공통모드 제거비(CMRR)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>CMRR의 정의로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -277,25 +274,24 @@
         <correct_choice_text>$d$를 증가시킨다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 면적, 거리, 평행, 전극판)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $S$; $d$; $varepsilon$; $V$; $varepsilon$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 커패시터의 전하량
+정답은 ②이다. 전하량은 Q = CV = εSV/d이므로 유전율, 면적, 전압을 늘리면 커지고, 전극 간 거리 d를 늘리면 줄어든다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$varepsilon$을 증가시킨다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$d$를 증가시킨다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>감소하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$S$를 증가시킨다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$V$를 증가시킨다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>증가한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -311,25 +307,24 @@
         <correct_choice_text>10</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 이 신호의 맥동률(ripple factor))
-정답은 ②이다. 본 문항은 이 신호의 맥동률(ripple factor)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $10 \sqrt{2} \cos ( \omega t )$; $\omega$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 맥동률
+정답은 ②이다. 맥동률은 교류 맥동 성분의 실횻값을 직류 성분으로 나눈 값이다. 맥동 전압의 실횻값은 10√2/√2 = 10 V이므로 맥동률은 10/100 × 100 = 10 %이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10 %이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최댓값으로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -348,25 +343,24 @@
         <correct_choice_text>－3 ＋3</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 입력, 회로, 인가했, 출력전압)
-정답은 ④이다. 본 문항은 입력, 회로, 인가했, 출력전압에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $v_{i}$; $v_{o}$; $D_{1}$; $D_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 다이오드 클리퍼 출력
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 출력의 최솟값은 −3 V, 최댓값은 +3 V이다이다. 이상적인 다이오드와 직렬 기준전압으로 구성된 양방향 클리퍼는 입력이 각 기준 전압을 넘는 구간에서 출력을 그 전압으로 제한한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－2 ＋2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－2 ＋3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>－3 ＋2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>－3 ＋3</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -383,24 +377,24 @@
         <correct_choice_text>300</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 100인 연산증폭기로 귀환율(feedback factor), 005인 부귀환(negative feedback))
-정답은 ③이다. 본 문항은 100인 연산증폭기로 귀환율(feedback factor), 005인 부귀환(negative feedback)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 부귀환과 대역폭
+정답은 ③이다. 부귀환을 걸면 이득이 1 + Aβ배로 줄고 대역폭은 같은 배수로 늘어난다. 1 + Aβ = 1 + 100 × 0.005 = 1.5이므로 고역차단주파수는 200 × 1.5 = 300 kHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>귀환 전 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>300</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>300 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -417,24 +411,24 @@
         <correct_choice_text>순방향 전압에서는 전류가 흐르지 않는다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 제너 다이오드, 전압 조정기(regulator))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 제너 다이오드
+정답은 ①이다. 제너 다이오드도 순방향 전압에서는 일반 다이오드처럼 전류가 흐른다. 정전압 특성은 역방향 항복 영역에서 이용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>순방향 전압에서는 전류가 흐르지 않는다.</choice_text>
-          <commentary>'순방향 전압에서'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순방향에서도 전류가 흐르므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>항복 영역에서 제너 전압은 거의 일정하다.</choice_text>
-          <commentary>'항복 영역에서 제너 전압'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>항복 영역에서 전압이 거의 일정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전압 조정기(regulator) 회로를 구현하는 데 사용된다.</choice_text>
-          <commentary>'전압 조정기(regulator) 회로를 구현하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전압 조정기에 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>항복 전압을 줄이기 위해 불순물 도핑 농도를 크게 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>도핑 농도를 높이면 항복 전압이 낮아지므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -451,25 +445,24 @@
         <correct_choice_text>입력 임피던스가 매우 작다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로, 이미터 팔로워(emitter follower))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $v_\frac{o}{v}_i$; $v_{o}$; $v_{i}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 이미터 팔로워
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번 설명이 옳지 않다이다. 이미터 팔로워(공통 컬렉터)는 입력 임피던스가 rπ + (β + 1)RE로 매우 크고, 출력 임피던스가 작으며, 전압 이득은 1보다 약간 작고 입출력 위상이 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>입력 임피던스가 매우 작다.</choice_text>
-          <commentary>'입력 임피던스'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전압 이득 $v_{\frac{o}{v}_{i}}$는 1보다 작다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>이미터 팔로워(emitter follower) 회로이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>출력전압 $v_{o}$의 위상이 입력전압 $v_{i}$의 위상과 같다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -485,24 +478,24 @@
         <correct_choice_text>변조지수는 정보신호 진폭과 반송파 진폭의 합이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 변조)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 변조
+정답은 ③이다. 변조지수는 정보신호 진폭과 반송파 진폭의 비(AM의 경우 m = Am/Ac)이다. 두 진폭의 합이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>변조를 하면 수신 안테나의 길이를 줄일 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>반송파 주파수를 높여 안테나 길이를 줄일 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>변조를 하면 주파수 분할 다중 통신을 할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>서로 다른 반송파로 주파수 분할 다중화가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>변조지수는 정보신호 진폭과 반송파 진폭의 합이다.</choice_text>
-          <commentary>'변조지수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>변조는 반송파의 진폭, 주파수, 또는 위상 등에 정보 신호를 실어 보내는 것이다.</choice_text>
-          <commentary>'변조'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>변조의 정의로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -518,24 +511,24 @@
         <correct_choice_text>저역통과필터</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 다음 위상동기루프(phase-locked loop))
-정답은 ②이다. 본 문항은 다음 위상동기루프(phase-locked loop)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 위상동기루프
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 (가)는 저역통과필터이다이다. 위상동기루프는 위상검출기, 저역통과필터(루프 필터), 전압제어발진기로 구성되며, 저역통과필터가 위상검출기 출력의 고주파 성분을 제거하여 VCO 제어 전압을 만든다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>대역차단필터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>저역통과필터</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>고역통과필터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>대역통과필터</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -554,25 +547,24 @@
         <correct_choice_text>단안정 멀티바이브레이터 회로이다.</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로, 정귀환(positive feedback), 히스테리시스(hysteresis), 귀환율(feedback factor))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\frac{R_{1}}{R_{1} + R_{2}}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 슈미트 트리거
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 1번 설명이 옳지 않다이다. 출력을 저항 분배로 비반전 단자에 되돌리는 회로는 정귀환을 갖는 슈미트 트리거(비교기)로, 히스테리시스 특성을 가지며 귀환율은 R1/(R1 + R2)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>단안정 멀티바이브레이터 회로이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정귀환(positive feedback) 루프를 가진다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>히스테리시스(hysteresis) 특성을 가진다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>귀환율(feedback factor)은 $\frac{R_{1}}{R_{1} + R_{2}}$이다.</choice_text>
-          <commentary>'귀환율(feedback factor)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -589,24 +581,24 @@
         <correct_choice_text>신호의 초당 심벌(symbol) 수</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 신에서 디지털 신호의 보드율(baud rate), 비트 수 신호의 초당 심벌(symbol))
-정답은 ④이다. 본 문항은 신에서 디지털 신호의 보드율(baud rate), 비트 수 신호의 초당 심벌(symbol)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 보드율
+정답은 ④이다. 보드율은 1초에 전송되는 신호 요소, 즉 심벌의 수이다. 한 심벌이 여러 비트를 나타내면 비트율은 보드율보다 커진다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>신호의 반송파 주파수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반송파 주파수는 보드율이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신호의 비트 오류율</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비트 오류율은 보드율이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>신호의 초당 비트 수</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>초당 비트 수는 비트율이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>신호의 초당 심벌(symbol) 수</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -625,25 +617,24 @@
         <correct_choice_text>$- \frac{R_{F}}{R_{L}}$</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로, 전류, 이득, 연산증폭기)
-정답은 ③이다. 본 문항은 회로, 전류, 이득, 연산증폭기에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{i_{L}}{i_{s}}$; $\frac{R_{F}}{R_{L}}$; $\frac{R_{F}}{R_{S}}$; $- \frac{R_{F}}{R_{L}}$; $- \frac{R_{F}}{R_{S}}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 전류 증폭기
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 전류 이득은 −RF/RL이다이다. 이상적인 연산증폭기의 가상접지와 입력 전류 0 조건으로 귀환 저항 RF에 흐르는 전류와 출력 전압을 구한 뒤, 부하 전류 iL을 is로 나타낸다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{R_{F}}{R_{L}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{R_{F}}{R_{S}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \frac{R_{F}}{R_{L}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{R_{F}}{R_{S}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -662,25 +653,24 @@
         <correct_choice_text>0.8 ＋ $j 2 . 4$</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 핵심 개념·이론 이해형 (핵심어: 회로에서, 부하, 최대, 평균)
-정답은 ③이다. 본 문항은 회로에서, 부하, 최대, 평균에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $Z_L$; $Z_L$; $j 2$; $j 2$; $j 2 . 4$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 최대전력 전달 임피던스
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 ZL = 0.8 + j2.4 Ω이다이다. 부하 단자에서 본 테브난 등가 임피던스 Zth를 구하면 최대 평균전력을 위한 부하 임피던스는 그 켤레 Zth*이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4 ＋ $j 2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4 － $j 2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8 ＋ $j 2 . 4$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.8 － $j 2 . 4$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -699,25 +689,24 @@
         <correct_choice_text>1</correct_choice_text>
         <answer_source>정답가안</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 전자공학개론 · 수리·계산·자료해석형 (핵심어: 논리, 회로에서, 출력, 논리식)
-정답은 ②이다. 본 문항은 논리, 회로에서, 출력, 논리식에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $F$; ${\bar{C}}$; ${\bar{AB}}$</overall_commentary>
+      <overall_commentary>출제 영역: 전자공학개론 · 논리회로의 출력
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 출력 F는 항상 1이다이다. 각 게이트의 출력을 논리식으로 쓰고 X + X̄ = 1 등 불 대수 법칙으로 간략화하면 입력과 관계없이 1이 되는지 확인할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\bar{C}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\bar{AB}}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

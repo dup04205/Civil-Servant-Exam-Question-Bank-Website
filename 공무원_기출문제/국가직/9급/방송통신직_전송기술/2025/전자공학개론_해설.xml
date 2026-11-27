@@ -105,19 +105,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>789_(16)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>789₁₆ = 1,929로 2025가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7D7_(16)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>7D7₁₆ = 2,007로 2025가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>7E8_(16)</choice_text>
-          <commentary>1의 자리가 틀렸다.</commentary>
+          <commentary>7E8₁₆ = 2,024로 1이 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>7E9_(16)</choice_text>
-          <commentary>7E9이므로 정답이다.</commentary>
+          <commentary>2025 = 7 × 256 + 14 × 16 + 9이므로 7E9₁₆이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -177,19 +177,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1 \angle - 70 ^\circ$</choice_text>
-          <commentary>위상이 뒤졌다.</commentary>
+          <commentary>크기는 ωCV = 10 A이고 위상은 90° 앞서야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 \angle 20 ^\circ$</choice_text>
-          <commentary>위상차를 반영하지 않았다.</commentary>
+          <commentary>커패시터 전류는 전압보다 90° 앞서므로 20°는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$10 \angle - 70 ^\circ$</choice_text>
-          <commentary>크기는 맞지만 위상이 뒤졌다.</commentary>
+          <commentary>위상이 90° 앞서야 하는데 뒤진 값으로 적었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$10 \angle 110 ^\circ$</choice_text>
-          <commentary>10∠110° A이므로 정답이다.</commentary>
+          <commentary>I = jωCV = j × 10∠20° = 10∠110° A이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -349,19 +349,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>발진시키는 데 외부 입력신호는 필요치 않다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>귀환발진기는 잡음을 양귀환으로 증폭해 스스로 발진하므로 외부 입력이 필요 없어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>발진을 시작하기 위해서는 루프 이득이 1이어야 한다.</choice_text>
-          <commentary>시작하려면 1보다 커야 한다.</commentary>
+          <commentary>발진을 시작하려면 루프이득이 1보다 커야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>발진을 유지하기 위해서는 루프 이득이 1보다 커야 한다.</choice_text>
-          <commentary>유지하려면 1이어야 한다.</commentary>
+          <commentary>발진을 유지하려면 루프이득이 1이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>발진하기 위해서는 피드백 루프의 위상 천이(phase-shift)가 180 °이어야 한다.</choice_text>
-          <commentary>위상 천이는 0° 또는 360°이어야 한다.</commentary>
+          <commentary>피드백 루프의 위상 천이는 0° 또는 360°이어야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,19 +453,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전류이득이 매우 크다.</choice_text>
-          <commentary>전류이득이 매우 크므로 옳다.</commentary>
+          <commentary>달링턴 회로의 전류이득은 β₁β₂로 매우 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>전압이득이 매우 크다.</choice_text>
-          <commentary>전압이득은 약 1이므로 옳지 않아 정답이다.</commentary>
+          <commentary>달링턴 회로는 이미터 폴로어 형태로 전압이득이 약 1이다. 전압이득이 매우 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>높은 입력임피던스를 가진다.</choice_text>
-          <commentary>입력임피던스가 높으므로 옳다.</commentary>
+          <commentary>입력저항이 약 β₁β₂RE로 매우 높으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>달링턴(Darlington) 접속회로이다.</choice_text>
-          <commentary>달링턴 접속이므로 옳다.</commentary>
+          <commentary>두 트랜지스터를 종속 연결한 달링턴 접속회로이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -491,15 +491,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>BJT보다 FET의 입력 저항이 작다.</choice_text>
-          <commentary>FET의 입력 저항이 더 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>FET는 게이트가 절연되어 있어 입력저항이 BJT보다 매우 크다. 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>FET는 전자 또는 정공의 단일 캐리어에 의해 전류가 형성된다.</choice_text>
-          <commentary>단극성 소자이므로 옳다.</commentary>
+          <commentary>FET는 전자 또는 정공 한 종류의 캐리어만 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>BJT는 활성영역에서 베이스 전류에 의해 컬렉터 전류가 제어된다.</choice_text>
-          <commentary>BJT는 베이스 전류로 컬렉터 전류를 제어하므로 옳다.</commentary>
+          <commentary>BJT는 활성영역에서 IC = βIB로 베이스 전류가 컬렉터 전류를 제어하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -589,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>네트워크 토폴로지에는 버스, 링 방식 등이 있다.</choice_text>
-          <commentary>네트워크 토폴로지의 예로 옳다.</commentary>
+          <commentary>네트워크 토폴로지에는 버스, 링, 스타, 메시 등이 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>회선교환 방식은 데이터그램 방식과 가상회선 방식으로 나뉜다.</choice_text>
-          <commentary>패킷교환의 분류이므로 옳지 않아 정답이다.</commentary>
+          <commentary>데이터그램 방식과 가상회선 방식으로 나뉘는 것은 패킷교환 방식이다. 회선교환이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시스템들 간의 데이터 교환 방식에는 회선교환 방식, 패킷교환 방식 등이 있다.</choice_text>
-          <commentary>데이터 교환 방식의 종류로 옳다.</commentary>
+          <commentary>데이터 교환 방식에는 회선교환과 패킷교환 등이 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>네트워크 토폴로지란 네트워크상의 노드 위치나 노드 간의 케이블 연결들의 물리적인 배치를 의미한다.</choice_text>
-          <commentary>토폴로지의 정의로 옳다.</commentary>
+          <commentary>네트워크 토폴로지는 노드와 링크의 물리적 배치를 뜻하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -658,19 +658,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$A B {\bar{C}} + B C + {\bar{D}}$</choice_text>
-          <commentary>일치하지 않는다.</commentary>
+          <commentary>ABC̄ 항은 맵의 1인 칸과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$A {\bar{B}} C + B {\bar{C}} + D$</choice_text>
-          <commentary>D 항이 틀렸다.</commentary>
+          <commentary>D 항은 CD = 01, 11 열을 묶는 것으로 맵과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A {\bar{B}} C + B {\bar{C}} + {\bar{D}}$</choice_text>
-          <commentary>AB̄C 항이 틀렸다.</commentary>
+          <commentary>AB̄C 항은 1010, 1011을 뜻하는데 1011은 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar{A}} {\bar{B}} C + B {\bar{C}} + {\bar{D}}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>D̄, BC̄, ĀB̄C로 모든 1을 덮으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -694,19 +694,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>광 다이오드(photo diode)</choice_text>
-          <commentary>빛을 전류로 바꾸는 소자이다.</commentary>
+          <commentary>광 다이오드는 빛을 전류로 바꾸는 소자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>제너 다이오드(zener diode)</choice_text>
-          <commentary>제너 다이오드이므로 정답이다.</commentary>
+          <commentary>제너 다이오드는 역방향 항복영역에서 전압을 일정하게 유지하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>버랙터 다이오드(varactor diode)</choice_text>
-          <commentary>역바이어스 전압으로 정전용량이 변하는 소자이다.</commentary>
+          <commentary>버랙터 다이오드는 역바이어스에서 접합 용량이 변하는 가변용량 소자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>발광 다이오드(light-emitting diode)</choice_text>
-          <commentary>순방향 전류로 빛을 내는 소자이다.</commentary>
+          <commentary>발광 다이오드는 순방향 전류로 빛을 내는 소자이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

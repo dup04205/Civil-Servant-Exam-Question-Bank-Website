@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>PSK(phase shift keying)</choice_text>
-          <commentary>위상만 변화시킨다.</commentary>
+          <commentary>PSK는 반송파의 위상만 바꾼다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>FSK(frequency shift keying)</choice_text>
-          <commentary>주파수만 변화시킨다.</commentary>
+          <commentary>FSK는 반송파의 주파수만 바꾼다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ASK(amplitude shift keying)</choice_text>
-          <commentary>진폭만 변화시킨다.</commentary>
+          <commentary>ASK는 반송파의 진폭만 바꾼다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>QAM(quadrature amplitude modulation)</choice_text>
-          <commentary>QAM이므로 정답이다.</commentary>
+          <commentary>QAM은 직교하는 두 반송파를 진폭 변조해 진폭과 위상을 동시에 바꾸므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -67,19 +67,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>PN접합 부근에서는 전하 캐리어가 고갈되어 공핍영역이 생긴다.</choice_text>
-          <commentary>공핍영역의 형성으로 옳다.</commentary>
+          <commentary>접합 부근의 캐리어가 재결합으로 고갈되어 공핍영역이 생기므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>PN접합을 사이에 두고 공핍영역 양쪽 전계의 전위차가 발생하는데 이를 전위장벽이라 한다.</choice_text>
-          <commentary>전위장벽의 정의로 옳다.</commentary>
+          <commentary>공핍영역의 이온 전하가 만드는 전위차를 전위장벽이라 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>PN접합의 N영역 접합 부근은 음전하 층이 형성되고, P영역 접합 부근은 양전하 층이 형성된다.</choice_text>
-          <commentary>전하 층의 부호가 반대이므로 옳지 않아 정답이다.</commentary>
+          <commentary>N영역 접합 부근에는 도너 이온의 양전하, P영역에는 억셉터 이온의 음전하가 남는다. 반대로 설명했으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>PN접합이 형성되는 순간 접합 근처의 N영역에 있던 자유전자는 접합을 넘어 P영역으로 확산되어 접합 근처의 정공과 재결합한다.</choice_text>
-          <commentary>확산과 재결합 과정으로 옳다.</commentary>
+          <commentary>접합 순간 N영역 전자가 P영역으로 확산해 정공과 재결합하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 : 1 : 1</choice_text>
-          <commentary>W/L 차이를 고려하지 않았다.</commentary>
+          <commentary>W/L이 서로 달라 전류가 같지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1 : 2 : 2</choice_text>
-          <commentary>1 : 2 : 2이므로 정답이다.</commentary>
+          <commentary>W/L이 2, 4, 4이므로 전류비는 1 : 2 : 2이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2 : 1 : 1</choice_text>
-          <commentary>비가 뒤집혔다.</commentary>
+          <commentary>비가 거꾸로 되었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 : 2 : 1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>W/L 비와 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -309,19 +309,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$H ( \omega ) = \frac{R}{1 + jR \sqrt{\frac{L}{C}} \left( \frac{\omega}{\sqrt{LC}} - \frac{\sqrt{LC}}{\omega} \right)}$</choice_text>
-          <commentary>계수와 괄호 안의 식이 틀렸다.</commentary>
+          <commentary>괄호 안 항의 형태와 √(L/C)가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$H ( \omega ) = \frac{R}{1 + jR \sqrt{\frac{C}{L}} \left( \frac{\omega}{\sqrt{LC}} - \frac{\sqrt{LC}}{\omega} \right)}$</choice_text>
-          <commentary>괄호 안의 식이 틀렸다.</commentary>
+          <commentary>괄호 안 항의 형태가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$H ( \omega ) = \frac{R}{1 + jR \sqrt{\frac{C}{L}} \left( \omega \sqrt{LC} - \frac{1}{omegasqrt {LC}} \right)}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>Y = 1/R + j(ωC - 1/(ωL))을 정리하면 이 식과 같으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$H ( \omega ) = \frac{R}{1 + jR \sqrt{\frac{L}{C}} \left( \omega \sqrt{LC} - \frac{1}{\omega \sqrt{LC}} \right)}$</choice_text>
-          <commentary>√(C/L) 대신 √(L/C)를 썼다.</commentary>
+          <commentary>√(C/L)이 아니라 √(L/C)로 되어 차원이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -414,7 +414,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$X + Y$ $X \oplus Y$</choice_text>
-          <commentary>캐리가 틀렸다.</commentary>
+          <commentary>X + Y는 OR로 캐리가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$X \cdot Y$ $X \oplus Y$</choice_text>
@@ -422,11 +422,11 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$X \oplus Y$&lt;i&gt; $X + Y$&lt;/i&gt;</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>캐리와 합이 바뀌었고 합도 OR가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$X \oplus Y$&lt;i&gt; $X \cdot Y$&lt;/i&gt;</choice_text>
-          <commentary>순서가 바뀌었다.</commentary>
+          <commentary>캐리와 합이 서로 바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>$L ( j \omega_{0} ) = 0$을 만족하면서 발진한다.</choice_text>
-          <commentary>L(jω0) = 1이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>바르크하우젠 조건은 루프이득 1이다. 0이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>기본증폭기의 입력신호와 귀환신호의 크기는 같아야 한다.</choice_text>
-          <commentary>크기 조건으로 옳다.</commentary>
+          <commentary>루프이득 크기가 1이므로 입력신호와 귀환신호의 크기가 같아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기본증폭기의 입력신호와 귀환신호는 동일한 위상을 가져야 한다.</choice_text>
-          <commentary>위상 조건으로 옳다.</commentary>
+          <commentary>루프 위상이 0°(360°)이므로 두 신호가 동상이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>외부의 입력신호 없이도 출력이 지속적으로 발생되는 발진조건을 의미한다.</choice_text>
-          <commentary>발진조건의 의미로 옳다.</commentary>
+          <commentary>외부 입력 없이 출력이 지속되는 조건이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,19 +588,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>8 Ω이므로 정답이다.</commentary>
+          <commentary>RL = n²Rs = 0.04 × 200 = 8 Ω이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>n을 제곱하지 않은 값이다.</commentary>
+          <commentary>40 Ω은 n을 제곱하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,000 Ω은 n으로 나눈 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5000</choice_text>
-          <commentary>비를 거꾸로 적용한 값이다.</commentary>
+          <commentary>5,000 Ω은 n²으로 나눈 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -621,19 +621,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{k_{n} I_{D}}$</choice_text>
-          <commentary>√(2knID)에서 2가 빠졌다.</commentary>
+          <commentary>√(knID)는 √(2knID)에서 2가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{I_{D}}{V_{GS} - V_{tn}}$</choice_text>
-          <commentary>2가 빠졌다.</commentary>
+          <commentary>ID/(VGS - Vtn)는 2가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$k_{n} ( V_{GS} - V_{tn} )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>gm = ∂ID/∂VGS = kn(VGS - Vtn)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 k_{n} ( V_{GS} - V_{tn} )}{I_{D}}$</choice_text>
-          <commentary>식이 틀렸다.</commentary>
+          <commentary>차원이 맞지 않는 식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -654,19 +654,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$R_{C}$가 증가하면 중간주파수 대역의 전압이득이 증가한다.</choice_text>
-          <commentary>이득 gmRC가 커지므로 옳다.</commentary>
+          <commentary>전압이득 크기는 약 RC/re′이므로 RC가 커지면 증가하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>바이패스 커패시터는 중간주파수 대역의 전압이득을 증가시킨다.</choice_text>
-          <commentary>RE를 교류적으로 단락시켜 이득을 높이므로 옳다.</commentary>
+          <commentary>바이패스 커패시터가 RE를 교류적으로 단락시켜 이득을 높이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>중간주파수 대역에서 커패시터의 영향을 무시할 때 출력전압 $V_{out}$은 입력전압 $V_{i n}$과 180 °의 위상차가 난다.</choice_text>
-          <commentary>공통 이미터는 역상이므로 옳다.</commentary>
+          <commentary>공통 이미터 증폭기는 입출력이 180° 위상차를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>결합 커패시터와 바이패스 커패시터에 의해서 고주파 대역 응답특성과 상측 차단주파수가 결정된다.</choice_text>
-          <commentary>저주파 응답을 결정하므로 옳지 않아 정답이다.</commentary>
+          <commentary>결합·바이패스 커패시터는 저주파 응답과 하측 차단주파수를 결정한다. 고주파 응답이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

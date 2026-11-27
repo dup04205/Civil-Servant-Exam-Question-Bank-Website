@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>4개 상태만 표현한다.</commentary>
+          <commentary>2개로는 0~3의 4개 상태만 표현할 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>3개이므로 정답이다.</commentary>
+          <commentary>2³ = 8개 상태로 0~7을 표현하므로 최소 3개가 필요하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>16개 상태로 필요 이상이다.</commentary>
+          <commentary>4개는 0~15까지 표현할 수 있어 최소 개수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>32개 상태로 필요 이상이다.</commentary>
+          <commentary>5개는 최소 개수보다 많다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -100,19 +100,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$AB + B {\bar{C}} + A {\bar{C}}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>110·111은 AB, 010·110은 BC̄, 100·110은 AC̄로 묶이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$AB + {\bar{B}} C + A {\bar{C}}$</choice_text>
-          <commentary>B̄C는 001, 101로 출력이 0이다.</commentary>
+          <commentary>B̄C 항은 001, 101을 뜻하는데 두 칸 모두 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$AB + B {\bar{C}} + {\bar{A}} C$</choice_text>
-          <commentary>ĀC는 001, 011로 출력이 0이다.</commentary>
+          <commentary>ĀC 항은 001, 011을 뜻하는데 두 칸 모두 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}} B + B {\bar{C}} + A {\bar{C}}$</choice_text>
-          <commentary>ĀB는 011까지 포함하여 틀리다.</commentary>
+          <commentary>ĀB 항은 011 칸이 0이어서 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -133,19 +133,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>P형 반도체에서 다수 캐리어는 정공이다.</choice_text>
-          <commentary>P형의 다수 캐리어는 정공이므로 옳다.</commentary>
+          <commentary>P형 반도체의 다수 캐리어는 정공이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>진성반도체에서 전도대의 전자농도와 가전자대의 정공농도는 같다.</choice_text>
-          <commentary>진성반도체는 전자와 정공 농도가 같으므로 옳다.</commentary>
+          <commentary>진성반도체에서는 전자 농도와 정공 농도가 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>실리콘 단결정 반도체에서 P형 불순물로 As(비소)도 사용된다.</choice_text>
-          <commentary>As는 N형 불순물이므로 옳지 않아 정답이다.</commentary>
+          <commentary>As(비소)는 5족 원소로 실리콘에 넣으면 N형이 된다. P형 불순물이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>N형 반도체에서 불순물 농도가 증가함에 따라 페르미 준위가 전도대로 가까이 이동한다.</choice_text>
-          <commentary>N형에서 도핑이 늘면 페르미 준위가 전도대 쪽으로 이동하므로 옳다.</commentary>
+          <commentary>N형 반도체는 도핑 농도가 커질수록 페르미 준위가 전도대 쪽으로 이동하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -307,19 +307,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>JFET에서는 자유전자와 정공이 함께 도전현상에 기여한다.</choice_text>
-          <commentary>단극성 소자이므로 옳지 않아 정답이다.</commentary>
+          <commentary>JFET는 다수캐리어 한 종류만 전도에 기여하는 단극성 소자이다. 전자와 정공이 함께 기여한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>포토 다이오드를 이용하여 빛을 검출하려면 역방향 바이어스에서 동작시켜야 한다.</choice_text>
-          <commentary>포토 다이오드는 역바이어스에서 광전류를 검출하므로 옳다.</commentary>
+          <commentary>포토 다이오드는 역방향 바이어스에서 빛에 의한 광전류를 검출하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>JFET는 게이트와 소스 사이의 역방향 바이어스 전압의 크기에 의해 드레인 전류의 크기를 제어한다.</choice_text>
-          <commentary>JFET는 게이트 역바이어스로 전류를 제어하므로 옳다.</commentary>
+          <commentary>JFET는 게이트-소스 역바이어스 크기로 공핍층을 조절해 드레인 전류를 제어하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>BJT는 활성 모드 동작을 위해 이미터－베이스 접합은 순방향 바이어스되고, 컬렉터－베이스 접합은 역방향 바이어스가 된다.</choice_text>
-          <commentary>BJT 활성 모드의 바이어스 조건으로 옳다.</commentary>
+          <commentary>BJT 활성 모드는 EB 접합 순방향, CB 접합 역방향 바이어스이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>96</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>96 kbps는 표본화 주파수를 6 kHz로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>192</choice_text>
-          <commentary>표본화 주파수를 12 kHz로 본 값이다.</commentary>
+          <commentary>192 kbps는 표본화 주파수를 12 kHz로 본 값으로 나이퀴스트 조건을 만족하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>384</choice_text>
-          <commentary>384 kbps이므로 정답이다.</commentary>
+          <commentary>표본화 주파수 24 kHz × 16비트 = 384 kbps이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>768</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>768 kbps는 표본화 주파수를 48 kHz로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,19 +446,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2 \pi \sqrt{( L_{1} + L_{2} ) C}}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>하틀리 발진기의 주파수는 f = 1/[2π√((L₁ + L₂)C)]이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2 \pi \sqrt{L_{1} L_{2} C}}$</choice_text>
-          <commentary>인덕턴스의 곱을 썼다.</commentary>
+          <commentary>두 인덕터는 직렬로 더해지며 곱해지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 \pi}{\sqrt{( L_{1} + L_{2} ) C}}$</choice_text>
-          <commentary>식이 틀렸다.</commentary>
+          <commentary>2π가 분자에 있어 공식 형태가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 \pi}{\sqrt{L_{1} L_{2} C}}$</choice_text>
-          <commentary>식이 틀렸다.</commentary>
+          <commentary>인덕터 결합과 2π의 위치가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>길이 또는 형태(length or type)</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>길이/형태 필드는 이더넷 프레임에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>목적지 주소(destination address)</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>목적지 주소는 이더넷 프레임에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>송신자 주소(source address)</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>송신자 주소는 이더넷 프레임에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>패킷 번호(packet number)</choice_text>
-          <commentary>포함되지 않으므로 정답이다.</commentary>
+          <commentary>이더넷 프레임에는 패킷 번호 필드가 없으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -696,19 +696,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>부하저항 $R_{L}$에 걸리는 전압을 일정하게 유지시켜 준다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>제너 다이오드는 역방향 항복 상태에서 부하 양단 전압을 VZ로 일정하게 유지하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>부하저항 $R_{L}$의 값을 일정하게 유지시켜 준다.</choice_text>
-          <commentary>부하저항 값을 바꾸지는 않는다.</commentary>
+          <commentary>부하저항 값 자체는 제너 다이오드가 바꾸지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>순방향의 전압이 인가되면 빛을 발한다.</choice_text>
-          <commentary>발광 다이오드의 특성이다.</commentary>
+          <commentary>빛을 내는 것은 발광 다이오드이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>회로가 발진할 수 있게 한다.</choice_text>
-          <commentary>발진과 관계없다.</commentary>
+          <commentary>제너 다이오드는 발진 소자가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

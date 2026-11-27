@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AND 게이트</choice_text>
-          <commentary>AND는 둘 다 1일 때만 1이다.</commentary>
+          <commentary>AND 게이트는 두 입력이 모두 1일 때만 출력이 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>NAND 게이트</choice_text>
-          <commentary>NAND는 둘 다 1일 때만 0이다.</commentary>
+          <commentary>NAND 게이트는 두 입력이 모두 1일 때만 출력이 0이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NOR 게이트</choice_text>
-          <commentary>NOR는 둘 다 0일 때만 1이다.</commentary>
+          <commentary>NOR 게이트는 두 입력이 모두 0일 때만 출력이 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>XOR 게이트</choice_text>
-          <commentary>XOR 게이트이므로 정답이다.</commentary>
+          <commentary>두 입력이 다를 때만 1을 출력하므로 XOR 게이트이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 1, $K$ ＝ 0일 때 $Q$는 1이 된다.</choice_text>
-          <commentary>세트 동작으로 옳다.</commentary>
+          <commentary>J = 1, K = 0이면 세트되어 Q = 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 0, $K$ ＝ 1일 때 $Q$는 0이 된다.</choice_text>
-          <commentary>리셋 동작으로 옳다.</commentary>
+          <commentary>J = 0, K = 1이면 리셋되어 Q = 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$J$ ＝ 0, $K$ ＝ 0일 때 $Q$는 현재 값을 유지한다.</choice_text>
-          <commentary>유지 동작으로 옳다.</commentary>
+          <commentary>J = K = 0이면 현재 값을 유지하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$J$ ＝ 1, $K$ ＝ 1일 때 $Q$는 현재 값을 유지한다.</choice_text>
-          <commentary>반전하므로 옳지 않아 정답이다.</commentary>
+          <commentary>J = K = 1이면 현재 값을 반전(토글)한다. 유지한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>01101000</choice_text>
-          <commentary>순환하지 않고 0을 채운 값이다.</commentary>
+          <commentary>순환 시프트에서는 밀려난 비트가 버려지지 않고 반대편으로 들어온다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10110101</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10110101은 1회 우측 순환 시프트한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>01101011</choice_text>
-          <commentary>01101011이므로 정답이다.</commentary>
+          <commentary>앞의 세 비트 011이 뒤로 이동하여 01101011이 되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10101101</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10101101은 시프트 결과와 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>잡음이 감소한다.</choice_text>
-          <commentary>잡음이 감소하므로 옳다.</commentary>
+          <commentary>부귀환은 루프 안에서 생긴 잡음을 줄이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>대역폭이 감소한다.</choice_text>
-          <commentary>대역폭이 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>이득-대역폭 곱이 일정하므로 부귀환은 대역폭을 넓힌다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>비선형 왜곡이 감소한다.</choice_text>
-          <commentary>왜곡이 감소하므로 옳다.</commentary>
+          <commentary>부귀환은 비선형 왜곡을 줄이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>안정적으로 조절 가능한 전압 이득을 제공한다.</choice_text>
-          <commentary>이득이 안정되므로 옳다.</commentary>
+          <commentary>폐루프 이득이 저항비로 정해져 안정적으로 조절할 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>25</choice_text>
-          <commentary>25 μH이므로 정답이다.</commentary>
+          <commentary>L = 1/(ω²C) = 1/(10¹⁰ × 4 × 10⁻⁶) = 25 μH이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>50 μH이면 공진 각주파수가 약 7.1 × 10⁴ rad/s가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>100 μH이면 공진 각주파수가 5 × 10⁴ rad/s가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>250 μH이면 공진 각주파수가 약 3.2 × 10⁴ rad/s가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>연산증폭기의 입력단으로 사용된다.</choice_text>
-          <commentary>연산증폭기 입력단에 쓰이므로 옳다.</commentary>
+          <commentary>차동증폭기는 연산증폭기의 입력단으로 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>공통모드 이득이 클수록 증폭기의 성능이 우수하다.</choice_text>
-          <commentary>공통모드 이득이 작을수록 우수하므로 옳지 않아 정답이다.</commentary>
+          <commentary>공통모드 이득은 작을수록, 즉 CMRR이 클수록 성능이 우수하다. 클수록 우수하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>두 개의 입력단에 유입되는 잡음을 제거하는 효과가 있다.</choice_text>
-          <commentary>공통 잡음을 제거하므로 옳다.</commentary>
+          <commentary>두 입력에 공통으로 들어오는 잡음을 제거하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>공통모드 제거비(CMRR)는 차동모드 이득과 공통모드 이득의 비이다.</choice_text>
-          <commentary>CMRR의 정의로 옳다.</commentary>
+          <commentary>CMRR = Ad/Acm이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -279,19 +279,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$varepsilon$을 증가시킨다.</choice_text>
-          <commentary>증가한다.</commentary>
+          <commentary>Q = εSV/d이므로 ε를 늘리면 전하량이 증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$d$를 증가시킨다.</choice_text>
-          <commentary>감소하므로 정답이다.</commentary>
+          <commentary>d를 늘리면 정전용량이 줄어 전하량이 감소하므로 옳지 않은 방법이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$S$를 증가시킨다.</choice_text>
-          <commentary>증가한다.</commentary>
+          <commentary>S를 늘리면 전하량이 증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$V$를 증가시킨다.</choice_text>
-          <commentary>증가한다.</commentary>
+          <commentary>V를 늘리면 Q = CV로 전하량이 증가한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -312,19 +312,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>5%는 실횻값을 절반으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10 %이므로 정답이다.</commentary>
+          <commentary>맥동 실횻값 10 V를 직류 100 V로 나누면 10%이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>14</choice_text>
-          <commentary>최댓값으로 계산한 값이다.</commentary>
+          <commentary>14%는 최댓값 10√2 V를 실횻값으로 착각한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>15%는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -382,19 +382,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>100 kHz는 대역폭이 줄어든 값으로 부귀환 효과와 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>귀환 전 값이다.</commentary>
+          <commentary>200 kHz는 부귀환 전의 고역차단주파수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>300</choice_text>
-          <commentary>300 kHz이므로 정답이다.</commentary>
+          <commentary>1 + Aβ = 1.5이므로 고역차단주파수는 200 × 1.5 = 300 kHz이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>400 kHz는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -416,19 +416,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>순방향 전압에서는 전류가 흐르지 않는다.</choice_text>
-          <commentary>순방향에서도 전류가 흐르므로 옳지 않아 정답이다.</commentary>
+          <commentary>제너 다이오드도 순방향 전압에서는 전류가 흐른다. 흐르지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>항복 영역에서 제너 전압은 거의 일정하다.</choice_text>
-          <commentary>항복 영역에서 전압이 거의 일정하므로 옳다.</commentary>
+          <commentary>항복 영역에서 제너 전압은 거의 일정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전압 조정기(regulator) 회로를 구현하는 데 사용된다.</choice_text>
-          <commentary>전압 조정기에 쓰이므로 옳다.</commentary>
+          <commentary>정전압 특성으로 전압 조정기에 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>항복 전압을 줄이기 위해 불순물 도핑 농도를 크게 한다.</choice_text>
-          <commentary>도핑 농도를 높이면 항복 전압이 낮아지므로 옳다.</commentary>
+          <commentary>도핑 농도를 높이면 공핍층이 얇아져 항복 전압이 낮아지므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>변조를 하면 수신 안테나의 길이를 줄일 수 있다.</choice_text>
-          <commentary>반송파 주파수를 높여 안테나 길이를 줄일 수 있으므로 옳다.</commentary>
+          <commentary>변조로 주파수를 높이면 파장이 짧아져 안테나 길이를 줄일 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>변조를 하면 주파수 분할 다중 통신을 할 수 있다.</choice_text>
-          <commentary>서로 다른 반송파로 주파수 분할 다중화가 가능하므로 옳다.</commentary>
+          <commentary>여러 신호를 서로 다른 반송파에 실어 주파수 분할 다중화가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>변조지수는 정보신호 진폭과 반송파 진폭의 합이다.</choice_text>
-          <commentary>비이므로 옳지 않아 정답이다.</commentary>
+          <commentary>변조지수는 정보신호 진폭과 반송파 진폭의 비이다. 합이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>변조는 반송파의 진폭, 주파수, 또는 위상 등에 정보 신호를 실어 보내는 것이다.</choice_text>
-          <commentary>변조의 정의로 옳다.</commentary>
+          <commentary>변조는 반송파의 진폭, 주파수, 위상에 정보를 싣는 것이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -590,7 +590,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신호의 비트 오류율</choice_text>
-          <commentary>비트 오류율은 보드율이 아니다.</commentary>
+          <commentary>비트 오류율은 전송 품질 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>신호의 초당 비트 수</choice_text>
@@ -598,7 +598,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>신호의 초당 심벌(symbol) 수</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>보드율은 초당 전송되는 심벌 수이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

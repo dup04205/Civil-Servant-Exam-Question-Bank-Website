@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$n$&lt;i&gt; $2^{m}$&lt;/i&gt;</choice_text>
-          <commentary>멀티플렉서 입력 수가 틀렸다.</commentary>
+          <commentary>멀티플렉서의 입력 개수는 n이 아니라 2ⁿ이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2^{n}$^( $m$)</choice_text>
-          <commentary>디멀티플렉서 출력 수가 틀렸다.</commentary>
+          <commentary>디멀티플렉서의 출력 개수는 m이 아니라 2ᵐ이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2^{n}$^( $2^{m}$)</choice_text>
-          <commentary>2^n, 2^m이므로 정답이다.</commentary>
+          <commentary>선택 신호 n개로 2ⁿ개 입력, m개로 2ᵐ개 출력을 선택하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$n$&lt;i&gt; $m$&lt;/i&gt;</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>선택 신호 수와 입출력 개수를 같다고 본 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>플립플롭은 쌍안정 멀티바이브레이터이다.</choice_text>
-          <commentary>플립플롭은 쌍안정이므로 옳다.</commentary>
+          <commentary>플립플롭은 두 안정 상태를 갖는 쌍안정 멀티바이브레이터이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>단안정 멀티바이브레이터는 단일 펄스를 발생시킬 수 있다.</choice_text>
-          <commentary>단안정은 트리거마다 단일 펄스를 내므로 옳다.</commentary>
+          <commentary>단안정 멀티바이브레이터는 트리거마다 일정 폭의 단일 펄스를 만들므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>멀티바이브레이터는 쌍안정, 단안정, 비안정으로 분류된다.</choice_text>
-          <commentary>세 종류로 분류하므로 옳다.</commentary>
+          <commentary>멀티바이브레이터는 쌍안정, 단안정, 비안정으로 분류되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>비안정 멀티바이브레이터는 외부 트리거 펄스 신호에 의해 동작한다.</choice_text>
-          <commentary>외부 트리거가 필요 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>비안정 멀티바이브레이터는 외부 트리거 없이 스스로 발진한다. 외부 트리거로 동작한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -102,19 +102,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>90</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>90 V는 전부하 전압보다 낮아 변동률이 음수가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>전부하 전압이다.</commentary>
+          <commentary>100 V는 전부하 전압으로 변동률 0%이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>110</choice_text>
-          <commentary>110 V이므로 정답이다.</commentary>
+          <commentary>0.1 = (VNL - 100)/100에서 VNL = 110 V이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>120 V이면 변동률이 20%이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -135,19 +135,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>드레인 전류 $I_{D}$는 게이트와 소스 사이의 전압 $V_{GS}$의 영향을 받지 않는다.</choice_text>
-          <commentary>ID는 VGS에 의해 제어된다.</commentary>
+          <commentary>JFET의 드레인 전류는 VGS로 제어되므로 영향을 받지 않는다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>JFET의 채널 양 끝은 드레인과 소스이다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>JFET 채널의 양 끝은 드레인과 소스이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>핀치－오프 전압에서의 드레인 전류 $I_{D}$는 0이다.</choice_text>
-          <commentary>핀치오프 전압(VDS = VP)에서는 포화 전류 IDSS가 흐르며, ID = 0이 되는 것은 VGS가 차단 전압에 이를 때이다.</commentary>
+          <commentary>공식 정답에 따르면 핀치오프 전압(VDS = Vp)에서는 드레인 전류가 포화값으로 흐르므로 0이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>n채널 JFET의 n형 영역은 게이트와 연결되어 있다.</choice_text>
-          <commentary>n채널 JFET의 게이트는 p형 영역에 연결된다.</commentary>
+          <commentary>n채널 JFET에서 게이트는 p형 영역과 연결된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>응용(application) 계층</choice_text>
-          <commentary>TCP/IP 계층이다.</commentary>
+          <commentary>응용 계층은 TCP/IP 계층에 속한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>네트워크(network) 계층</choice_text>
-          <commentary>TCP/IP 계층이다.</commentary>
+          <commentary>네트워크(인터넷) 계층은 TCP/IP 계층에 속한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전송(transport) 계층</choice_text>
-          <commentary>TCP/IP 계층이다.</commentary>
+          <commentary>전송 계층은 TCP/IP 계층에 속한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>세션(session) 계층</choice_text>
-          <commentary>세션 계층이므로 정답이다.</commentary>
+          <commentary>세션 계층은 OSI 7계층에만 있으므로 TCP/IP 계층이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -208,19 +208,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$summ ( 1 , 2 , 3 , 4 , 5 , 6 )$ $summ ( 1 )$</choice_text>
-          <commentary>F·G가 틀렸다.</commentary>
+          <commentary>F + G에 5는 포함되지 않고 F·G에는 6도 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$summ ( 1 , 2 , 4 , 8 )$ $summ ( 2 , 4 , 16 )$</choice_text>
-          <commentary>모두 틀렸다.</commentary>
+          <commentary>최소항 번호가 3변수 범위(0~7)를 벗어난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$summ ( 2 , 4 , 8 , 16 )$ $summ ( 24 , 36 )$</choice_text>
-          <commentary>모두 틀렸다.</commentary>
+          <commentary>최소항 번호가 3변수 범위를 벗어난다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$summ ( 1 , 2 , 3 , 4 , 6 )$ $summ ( 1 , 6 )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>합집합 {1, 2, 3, 4, 6}과 교집합 {1, 6}이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -244,19 +244,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>D/A 변환</choice_text>
-          <commentary>응용 분야가 아니므로 정답이다.</commentary>
+          <commentary>D/A 변환은 저항 사다리 회로 등으로 구현하며 슈미트 트리거의 응용이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>구형파 발생</choice_text>
-          <commentary>응용 분야이다.</commentary>
+          <commentary>슈미트 트리거는 RC와 결합해 구형파 발생에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전압 비교</choice_text>
-          <commentary>응용 분야이다.</commentary>
+          <commentary>슈미트 트리거는 히스테리시스 비교기로 전압 비교에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>잡음 제거</choice_text>
-          <commentary>응용 분야이다.</commentary>
+          <commentary>히스테리시스로 입력 잡음에 의한 출력 떨림을 제거한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -310,19 +310,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공통 컬렉터 회로의 입력 신호와 출력 신호는 동일한 위상을 가진다.</choice_text>
-          <commentary>공통 컬렉터는 동상이므로 옳다.</commentary>
+          <commentary>공통 컬렉터는 입력과 출력이 동상이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>공통 베이스 회로의 입력 신호와 출력 신호는 180 °의 위상차를 가진다.</choice_text>
-          <commentary>공통 베이스는 동상이므로 옳지 않아 정답이다.</commentary>
+          <commentary>공통 베이스는 입력과 출력이 동상이다. 180° 위상차라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공통 이미터 회로의 입력 신호와 출력 신호는 180 °의 위상차를 가진다.</choice_text>
-          <commentary>공통 이미터는 역상이므로 옳다.</commentary>
+          <commentary>공통 이미터는 입력과 출력이 180° 위상차를 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>증폭기로 동작하기 위해서는 베이스－이미터 접합은 순방향 바이어스, 베이스－컬렉터 접합은 역방향 바이어스가 걸려야 한다.</choice_text>
-          <commentary>활성영역 바이어스 조건으로 옳다.</commentary>
+          <commentary>활성영역 동작을 위해 BE 접합은 순방향, BC 접합은 역방향 바이어스가 필요하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -413,19 +413,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>역방향 바이어스가 계속 증가하면 항복 전압에 도달한다.</choice_text>
-          <commentary>역방향 전압이 커지면 항복에 이르므로 옳다.</commentary>
+          <commentary>역방향 전압이 커지면 항복 전압에 이르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>순방향 바이어스가 인가되면 전류는 p에서 n 방향으로 흐를 수 있다.</choice_text>
-          <commentary>순방향에서 전류가 p에서 n으로 흐르므로 옳다.</commentary>
+          <commentary>순방향 바이어스에서 전류는 p에서 n으로 흐르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>역방향 바이어스가 인가되면 pn 접합의 공핍영역은 줄어든다.</choice_text>
-          <commentary>공핍영역이 넓어지므로 옳지 않아 정답이다.</commentary>
+          <commentary>역방향 바이어스에서는 공핍영역이 넓어진다. 줄어든다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>순방향 바이어스는 p쪽 전극에 양(＋)의 전압, n쪽 전극에 음(－)의 전압을 인가한 상태이다.</choice_text>
-          <commentary>순방향 바이어스의 정의로 옳다.</commentary>
+          <commentary>순방향 바이어스는 p쪽에 +, n쪽에 - 전압을 거는 것이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -517,19 +517,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>-5 V는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>－10</choice_text>
-          <commentary>−10 V이므로 정답이다.</commentary>
+          <commentary>계산값 -150 V가 최소 출력 -10 V보다 낮아 -10 V에서 포화하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>－15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>-15 V는 출력 범위를 벗어난다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－50</choice_text>
-          <commentary>포화를 고려하지 않았다.</commentary>
+          <commentary>-50 V는 출력 범위를 벗어난다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,19 +588,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>직류 출력 전압의 크기를 조절하는 정류기에 사용된다.</choice_text>
-          <commentary>위상 제어 정류기에 쓰이므로 옳다.</commentary>
+          <commentary>SCR은 점호각 제어로 직류 출력 전압을 조절하는 정류기에 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전류는 애노드(anode)에서 캐소드(cathode)로 흐른다.</choice_text>
-          <commentary>애노드에서 캐소드로 흐르므로 옳다.</commentary>
+          <commentary>SCR 전류는 애노드에서 캐소드로 흐르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>턴온(turn-on)된 후에는 게이트 신호가 없어도 턴온 상태를 유지할 수 있다.</choice_text>
-          <commentary>턴온 후 상태를 유지하므로 옳다.</commentary>
+          <commentary>턴온 후에는 게이트 신호 없이도 유지전류 이상이면 도통 상태가 유지되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>게이트 신호를 이용하여 턴온(turn-on)과 턴오프(turn-off)를 할 수 있다.</choice_text>
-          <commentary>게이트로 턴오프할 수 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>SCR은 게이트로 턴온만 가능하고 턴오프는 할 수 없다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -625,15 +625,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>피상전력은 전압 피크치와 전류 피크치의 곱으로 정의된다.</choice_text>
-          <commentary>실횻값의 곱이므로 옳지 않아 정답이다.</commentary>
+          <commentary>피상전력은 전압과 전류의 실횻값의 곱이다. 피크치의 곱이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>회로에 인가되는 전압과 전류가 직류이면 공급되는 평균전력은 전압과 전류의 곱이 된다.</choice_text>
-          <commentary>직류 전력은 VI이므로 옳다.</commentary>
+          <commentary>직류에서는 평균전력이 VI이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정현파 회로의 전압각이 θ, 전류각이 φ일 때, 역률은 $\cos ( \theta - \phi )$이다.</choice_text>
-          <commentary>역률의 정의로 옳다.</commentary>
+          <commentary>역률은 전압과 전류의 위상차의 코사인 cos(θ - φ)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -657,19 +657,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>인코더는 코드화된 정보를 원래의 형태로 복원하여 출력하는 회로이다.</choice_text>
-          <commentary>디코더의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>코드화된 정보를 원래 형태로 복원하는 것은 디코더이다. 인코더라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>전가산기 $n$개를 연결하면 $n$비트 가산기를 만들 수 있다.</choice_text>
-          <commentary>n비트 리플 캐리 가산기로 옳다.</commentary>
+          <commentary>전가산기 n개를 연결하면 n비트 리플 캐리 가산기가 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>반가산기는 1비트 두 개를 입력받아 합(sum)과 캐리(carry)를 계산하는 회로이다.</choice_text>
-          <commentary>반가산기의 정의로 옳다.</commentary>
+          <commentary>반가산기는 1비트 두 개의 합과 캐리를 계산하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>패리티(parity) 발생기는 데이터에 1비트를 추가하여 1의 개수를 짝수 또는 홀수로 맞추는 회로이다.</choice_text>
-          <commentary>패리티 발생기의 정의로 옳다.</commentary>
+          <commentary>패리티 발생기는 1비트를 추가해 1의 개수를 짝수 또는 홀수로 맞추므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

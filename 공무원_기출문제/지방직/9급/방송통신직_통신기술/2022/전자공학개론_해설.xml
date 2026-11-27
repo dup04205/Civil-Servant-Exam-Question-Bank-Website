@@ -69,19 +69,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar{A}} + BC$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>A = 0 행은 Ā, A = 1의 11 칸은 BC로 묶이므로 Ā + BC이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}} + B$</choice_text>
-          <commentary>A = 1, BC = 10까지 1로 만든다.</commentary>
+          <commentary>B 항은 A = 1, BC = 10 칸까지 1로 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A + BC$</choice_text>
-          <commentary>A가 아니라 Ā이다.</commentary>
+          <commentary>A 항은 A = 1인 0 칸까지 1로 만든다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$A + C$</choice_text>
-          <commentary>일치하지 않는다.</commentary>
+          <commentary>A + C는 맵과 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>무한대의 전압이 인가되지 않는 한 인덕터 전류는 불연속적으로 변할 수 없다.</choice_text>
-          <commentary>인덕터 전류는 연속이므로 옳다.</commentary>
+          <commentary>v = L(di/dt)이므로 전류가 순간적으로 변하려면 무한대 전압이 필요하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>커패시터 전류는 인가되는 전압의 시간적 변화율의 영향을 받는다.</choice_text>
-          <commentary>i = C(dv/dt)이므로 옳다.</commentary>
+          <commentary>i = C(dv/dt)이므로 커패시터 전류는 전압 변화율에 비례하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>커패시터 양단에 직류 전압이 인가된 후 정상 상태(steady state)에 도달하면 커패시터는 개방 회로처럼 동작한다.</choice_text>
-          <commentary>직류 정상상태에서 커패시터는 개방되므로 옳다.</commentary>
+          <commentary>직류 정상상태에서 dv/dt = 0이므로 전류가 흐르지 않아 개방처럼 동작하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>인덕터 두 개를 병렬 연결하면 등가 인덕턴스는 인덕터 한 개의 인덕턴스보다 크다.</choice_text>
-          <commentary>등가 인덕턴스가 작아지므로 옳지 않아 정답이다.</commentary>
+          <commentary>인덕터를 병렬 연결하면 L₁L₂/(L₁ + L₂)로 각각보다 작아진다. 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정궤환 회로에 해당한다.</choice_text>
-          <commentary>정궤환 회로이므로 옳다.</commentary>
+          <commentary>슈미트 트리거는 정궤환으로 히스테리시스를 만들므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>멀티바이브레이터라고 하는 파형발생기로 사용될 수 있다.</choice_text>
-          <commentary>RC와 결합하면 비안정 멀티바이브레이터로 쓰이므로 옳다.</commentary>
+          <commentary>RC와 결합해 비안정 멀티바이브레이터(파형발생기)로 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>히스테리시스 특성을 가진다.</choice_text>
-          <commentary>히스테리시스를 가지므로 옳다.</commentary>
+          <commentary>두 문턱전압 사이의 히스테리시스 특성을 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>잡음신호로 인한 채터링(chattering) 현상을 제거할 수 없다.</choice_text>
-          <commentary>채터링을 제거할 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>히스테리시스 덕분에 잡음에 의한 채터링을 제거할 수 있다. 제거할 수 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -206,19 +206,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>출력전압의 평균치는 $\sqrt{2} V / \pi$ [V]이다.</choice_text>
-          <commentary>평균치로 옳다.</commentary>
+          <commentary>반파정류 평균치는 Vm/π = √2V/π이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>출력전압의 실효치는 $\sqrt{2} V / 2$ [V]이다.</choice_text>
-          <commentary>실효치로 옳다.</commentary>
+          <commentary>반파정류 실효치는 Vm/2 = √2V/2이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>부하에 공급되는 전력은 $V^{2} / ( 4 R )$ [W]이다.</choice_text>
-          <commentary>V²/(2R)이므로 옳지 않아 정답이다.</commentary>
+          <commentary>부하 전력은 (V/√2)²/R = V²/(2R)이다. V²/(4R)이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>다이오드에 인가되는 역방향 최대전압은 $\sqrt{2} V$ [V]이다.</choice_text>
-          <commentary>역방향 최대전압은 입력 최댓값 √2V이므로 옳다.</commentary>
+          <commentary>다이오드의 역방향 최대전압은 입력 최댓값 √2V이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -276,19 +276,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전압이득은 1보다 작다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>소스 팔로워의 전압이득은 1보다 약간 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>입력임피던스는 매우 크다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>게이트가 절연되어 입력임피던스가 매우 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>출력전압의 위상은 입력전압의 위상과 반대이다.</choice_text>
-          <commentary>위상이 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>소스 팔로워는 입력과 출력의 위상이 같다. 반대라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>소스 팔로워(source-follower) 회로라 불린다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>출력을 소스에서 얻는 소스 팔로워 회로이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,19 +311,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>BCD 코드는 10진수를 표현하는 보편적인 방법이며 10진수 31에 대한 BCD 코드는 0011 0001이다.</choice_text>
-          <commentary>31의 BCD는 0011 0001이므로 옳다.</commentary>
+          <commentary>31의 BCD 코드는 각 자리 3, 1을 4비트로 나타낸 0011 0001이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>그레이(Gray) 코드는 가중치를 가지므로 효율적 연산을 하는 데 유리하다.</choice_text>
-          <commentary>비가중치 코드이므로 옳지 않아 정답이다.</commentary>
+          <commentary>그레이 코드는 비가중치 코드로 산술 연산에 부적합하다. 가중치를 가진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ASCII 코드는 미국 표준 코드로 영문 대소문자, 특수 문자 등을 표현하기 위해 사용된다.</choice_text>
-          <commentary>ASCII의 설명으로 옳다.</commentary>
+          <commentary>ASCII는 영문자, 숫자, 특수문자를 표현하는 미국 표준 코드이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>해밍(Hamming) 코드는 데이터의 전송 과정에서 발생하는 오류를 검출하고 정정하는 데 사용된다.</choice_text>
-          <commentary>해밍 코드는 오류 검출과 정정에 쓰이므로 옳다.</commentary>
+          <commentary>해밍 코드는 오류를 검출하고 1비트 오류를 정정하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -381,19 +381,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>높은 전류이득을 가진다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>달링턴 회로는 전류이득이 β₁β₂로 매우 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>높은 전압이득을 가진다.</choice_text>
-          <commentary>전압이득은 약 1이다.</commentary>
+          <commentary>이미터 폴로어 형태로 전압이득은 약 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>낮은 입력임피던스를 가진다.</choice_text>
-          <commentary>입력임피던스가 높다.</commentary>
+          <commentary>입력임피던스는 매우 높다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>공통 에미터 회로이다.</choice_text>
-          <commentary>공통 컬렉터 형태로 쓰인다.</commentary>
+          <commentary>달링턴 회로는 보통 공통 컬렉터(이미터 폴로어)로 쓰인다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -434,19 +434,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>ㄴ, ㄷ도 옳다.</commentary>
+          <commentary>ㄴ, ㄷ도 옳으므로 ㄱ, ㄹ만 고른 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ, ㄹ도 옳다.</commentary>
+          <commentary>ㄱ, ㄹ도 옳으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄹ도 옳다.</commentary>
+          <commentary>ㄹ도 옳으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>모두 옳으므로 정답이다.</commentary>
+          <commentary>ㄱ, ㄴ, ㄷ, ㄹ이 모두 옳으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -507,19 +507,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>UDP는 8바이트 크기의 헤더(header)를 포함한다.</choice_text>
-          <commentary>UDP 헤더는 8바이트이므로 옳다.</commentary>
+          <commentary>UDP 헤더는 출발지·목적지 포트, 길이, 체크섬의 8바이트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>TCP는 UDP보다 신뢰성 있는 연결형 서비스를 제공한다.</choice_text>
-          <commentary>TCP는 연결형 신뢰성 서비스를 제공하므로 옳다.</commentary>
+          <commentary>TCP는 연결형으로 UDP보다 신뢰성 있는 서비스를 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>TCP 세그먼트(segment)의 헤더(header)는 체크섬(checksum) 항목을 포함하지 않는다.</choice_text>
-          <commentary>체크섬이 포함되므로 옳지 않아 정답이다.</commentary>
+          <commentary>TCP 세그먼트 헤더에는 체크섬 필드가 포함된다. 포함하지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>UDP는 흐름제어와 혼잡제어 기능을 수행하지 않는다.</choice_text>
-          <commentary>UDP는 흐름·혼잡제어를 하지 않으므로 옳다.</commentary>
+          <commentary>UDP는 흐름제어와 혼잡제어를 하지 않으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -543,19 +543,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.149</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.149 mV는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7.27</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>7.27 mV는 입력 저항을 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10 mV이므로 정답이다.</commentary>
+          <commentary>입력 저항 10 kΩ과 RS 10 kΩ의 분압으로 Vb = 10 mV이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>16 mV는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -579,19 +579,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20은 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>40</choice_text>
-          <commentary>40이므로 정답이다.</commentary>
+          <commentary>Rin = 50 kΩ ∥ 200 kΩ = 40 kΩ이므로 Ai = 1 × 40/1 = 40이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>60은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>80은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -613,19 +613,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$5 \times 10^4$</choice_text>
-          <commentary>2π를 곱하지 않은 값이다.</commentary>
+          <commentary>5 × 10⁴는 2π를 곱하지 않은 값과 관련되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 times10^5$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1 × 10⁵는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$5 \pi \times 10^4$</choice_text>
-          <commentary>5π × 10^4 rad/s이므로 정답이다.</commentary>
+          <commentary>주기 40 μs, f = 25 kHz이므로 ω = 2π × 25,000 = 5π × 10⁴ rad/s이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\pi \times 10^5$</choice_text>
-          <commentary>반 주기를 주기로 본 값이다.</commentary>
+          <commentary>π × 10⁵는 반 주기를 주기로 착각한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -712,19 +712,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전압 조정기는 입력전압이나 부하가 변동할 때 출력전압을 거의 일정하게 유지시킨다.</choice_text>
-          <commentary>전압 조정기의 기능으로 옳다.</commentary>
+          <commentary>전압 조정기는 입력이나 부하 변동에도 출력전압을 일정하게 유지하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>선형 전압 조정기의 두 가지 기본형은 직렬형과 병렬형이다.</choice_text>
-          <commentary>직렬형과 병렬형이 있으므로 옳다.</commentary>
+          <commentary>선형 전압 조정기는 직렬형과 병렬형으로 나뉘므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폴드－백 전류 제한(fold-back current limiting)은 전류가 많이 흐르는 전압 조정기에서 주로 사용되는 방법이다.</choice_text>
-          <commentary>폴드백 전류 제한의 이용으로 옳다.</commentary>
+          <commentary>폴드-백 전류 제한은 대전류 조정기의 과전류 보호에 쓰이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>부하전압 변동률은 입력전압의 변화량에 대한 출력전압 변화량의 백분율로 정의한다.</choice_text>
-          <commentary>라인 조정률의 정의이므로 옳지 않아 정답이다.</commentary>
+          <commentary>입력전압 변화에 대한 출력 변화율은 라인 조정률이며, 부하전압 변동률은 부하 변화에 따른 출력 변화율이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

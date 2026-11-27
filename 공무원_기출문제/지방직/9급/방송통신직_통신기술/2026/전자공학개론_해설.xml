@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>1보다 작은 전류 이득을 갖는다.</choice_text>
-          <commentary>전류이득 α &lt; 1이므로 옳다.</commentary>
+          <commentary>공통 베이스의 전류이득 α는 1보다 약간 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>매우 작은 입력 저항을 갖는다.</choice_text>
-          <commentary>입력저항이 매우 작으므로 옳다.</commentary>
+          <commentary>이미터로 입력하므로 입력저항이 re 정도로 매우 작아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공통 컬렉터 증폭기보다 큰 출력 저항을 갖는다.</choice_text>
-          <commentary>출력저항이 공통 컬렉터보다 크므로 옳다.</commentary>
+          <commentary>컬렉터에서 출력을 얻어 출력저항이 커서 공통 컬렉터보다 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>입력은 컬렉터에 인가되고 출력은 이미터에서 얻는다.</choice_text>
-          <commentary>입력과 출력 단자가 반대이므로 옳지 않아 정답이다.</commentary>
+          <commentary>공통 베이스는 입력을 이미터에 가하고 출력을 컬렉터에서 얻는다. 반대로 설명했으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -66,19 +66,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$AB + {\bar{A}} {\bar{C}}$</choice_text>
-          <commentary>C의 보수가 틀렸다.</commentary>
+          <commentary>ĀC̄는 원래 식의 ĀC와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$AB + {\bar{A}} C$</choice_text>
-          <commentary>AB + ĀC이므로 정답이다.</commentary>
+          <commentary>AB + ABC = AB, ĀBC + ĀC = ĀC이므로 AB + ĀC이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A {\bar{B}} + {\bar{A}} C$</choice_text>
-          <commentary>B의 보수가 틀렸다.</commentary>
+          <commentary>AB̄는 원래 식에 없는 항이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}} B + {\bar{A}} C$</choice_text>
-          <commentary>첫 항이 틀렸다.</commentary>
+          <commentary>ĀB는 원래 식의 AB와 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -102,19 +102,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>동작점이 안정화된다.</choice_text>
-          <commentary>동작점이 안정화되므로 옳다.</commentary>
+          <commentary>RE의 부귀환으로 바이어스 변동이 억제되어 동작점이 안정화되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>입력 저항이 작아진다.</choice_text>
-          <commentary>입력저항이 커지므로 옳지 않아 정답이다.</commentary>
+          <commentary>입력저항은 rπ + (β + 1)RE로 커진다. 작아진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전압 이득이 감소한다.</choice_text>
-          <commentary>전압이득이 감소하므로 옳다.</commentary>
+          <commentary>전압이득이 약 RC/RE 수준으로 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전압 이득이 안정화된다.</choice_text>
-          <commentary>이득이 소자 특성 변화에 덜 민감해져 안정화되므로 옳다.</commentary>
+          <commentary>이득이 트랜지스터 파라미터보다 저항비에 좌우되어 안정화되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>입력 신호를 증폭하는 기능만 수행한다.</choice_text>
-          <commentary>증폭은 트랜지스터의 기능이다.</commentary>
+          <commentary>다이오드는 증폭 기능이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>전하를 저장하여 전압 변화를 완만하게 한다.</choice_text>
-          <commentary>전하 저장은 커패시터의 기능이다.</commentary>
+          <commentary>전하를 저장해 전압 변화를 완만하게 하는 것은 커패시터의 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>전류의 크기를 항상 일정하게 유지하는 소자이다.</choice_text>
-          <commentary>정전류 유지는 정전류 다이오드 등의 기능이다.</commentary>
+          <commentary>전류를 일정하게 유지하는 것은 정전류 소자의 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>전류가 한쪽 방향으로는 잘 흐르고, 반대 방향으로는 항복전압에 이르기 전까지 거의 흐르지 않는다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>정류 다이오드는 순방향으로 잘 흐르고 역방향으로는 항복 전까지 거의 흐르지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>저항이 병렬로 연결된 경우, 총저항은 증가한다.</choice_text>
-          <commentary>병렬 저항의 총저항은 감소한다.</commentary>
+          <commentary>저항을 병렬로 연결하면 총저항은 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인덕터가 병렬로 연결된 경우, 총인덕턴스는 증가한다.</choice_text>
-          <commentary>병렬 인덕터의 총인덕턴스는 감소한다.</commentary>
+          <commentary>인덕터를 병렬로 연결하면 총인덕턴스는 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>커패시터가 병렬로 연결된 경우, 총커패시턴스는 증가한다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>커패시터를 병렬로 연결하면 총커패시턴스는 각 용량의 합으로 증가하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>굵기가 일정한 전선의 저항은 길이와 단면적에 비례한다.</choice_text>
-          <commentary>전선의 저항은 길이에 비례하고 단면적에 반비례한다.</commentary>
+          <commentary>전선의 저항 R = ρL/A는 길이에 비례하고 단면적에 반비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -275,19 +275,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>1비트 오류뿐만 아니라 2비트 오류도 검출할 수 있다.</choice_text>
-          <commentary>2비트 오류를 검출할 수 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>단일 패리티 검사는 2비트 오류에서 1의 개수 짝·홀이 바뀌지 않아 검출할 수 없다. 검출할 수 있다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>3비트 이상의 데이터에 대해서는 비트 오류를 정정할 수 없다.</choice_text>
-          <commentary>오류 정정이 불가능하므로 옳다.</commentary>
+          <commentary>단일 패리티는 오류 위치를 알 수 없어 정정이 불가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>패리티 비트를 추가하여 데이터 전송 과정에서 발생한 오류를 검출할 수 있다.</choice_text>
-          <commentary>오류 검출이 가능하므로 옳다.</commentary>
+          <commentary>패리티 비트를 추가해 전송 오류를 검출하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>짝수(even) 패리티 방식은 패리티 비트를 추가하여 전체 부호어(codeword)의 1의 개수가 짝수가 되도록 맞춘다.</choice_text>
-          <commentary>짝수 패리티의 정의로 옳다.</commentary>
+          <commentary>짝수 패리티는 전체 1의 개수가 짝수가 되도록 맞추므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -347,19 +347,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>PLL의 귀환경로</choice_text>
-          <commentary>PLL은 하틀리 발진기의 구성 요소가 아니다.</commentary>
+          <commentary>PLL은 하틀리 발진기의 주파수 결정 요소가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>수정진동자의 크기</choice_text>
-          <commentary>수정발진기의 주파수 결정 요소이다.</commentary>
+          <commentary>수정진동자는 수정 발진기의 주파수 결정 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>트랜지스터의 이득</choice_text>
-          <commentary>트랜지스터 이득은 발진 유지 조건과 관련된다.</commentary>
+          <commentary>트랜지스터 이득은 발진 유지 조건에 관여할 뿐 주파수를 결정하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>귀환회로의 커패시턴스와 인덕턴스</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>하틀리 발진기는 귀환회로의 L과 C가 이루는 공진주파수에서 발진하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -430,19 +430,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ은 옳지 않다. 귀환 루프의 전체 위상천이는 0° 또는 360°이어야 하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ</choice_text>
-          <commentary>ㄷ도 옳다.</commentary>
+          <commentary>ㄷ도 옳으므로 ㄴ만 고른 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄱ은 옳지 않다.</commentary>
+          <commentary>ㄱ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ이므로 정답이다.</commentary>
+          <commentary>ㄴ, ㄷ이 옳으므로 정답이다. 발진기는 직류로 교류를 만들고, 정상 발진에서 루프이득은 1이 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -535,19 +535,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>진폭 변조(AM) 방식에 속한다.</choice_text>
-          <commentary>진폭 변조의 한 종류이므로 옳다.</commentary>
+          <commentary>SSB는 AM 계열의 변조 방식이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>변조 후 상측파대와 하측파대 중 한쪽 신호만 남는다.</choice_text>
-          <commentary>한쪽 측파대만 남으므로 옳다.</commentary>
+          <commentary>SSB는 상측파대와 하측파대 중 하나만 남기므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>점유 주파수 대역폭은 변조할 신호가 가지는 대역폭의 2배이다.</choice_text>
-          <commentary>대역폭이 신호 대역폭과 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>SSB의 점유 대역폭은 기저대역 신호의 대역폭과 같다. 2배라는 설명은 DSB에 해당하여 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>반송파 억압 양측파대(DSB-SC) 변조 방식에 비해 송신기의 소비 전력이 적다.</choice_text>
-          <commentary>한 측파대만 보내므로 소비 전력이 적어 옳다.</commentary>
+          <commentary>SSB는 한쪽 측파대만 전송하여 DSB-SC보다 송신 전력이 적으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

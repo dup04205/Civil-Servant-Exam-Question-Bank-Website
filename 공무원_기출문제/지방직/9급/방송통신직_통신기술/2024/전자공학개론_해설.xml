@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$8$ $8 \sin ( wt )$</choice_text>
-          <commentary>순시 전류의 최댓값이 틀렸다.</commentary>
+          <commentary>순시 전류의 최댓값은 8√2 A이므로 8 sin(ωt)는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$8$ $8 \sqrt{2} \sin ( wt )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>실횻값 120/15 = 8 A, 순시 전류 8√2 sin(ωt) A이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$8 \sqrt{2}$ $8 \sin ( wt )$</choice_text>
-          <commentary>실횻값과 최댓값이 바뀌었다.</commentary>
+          <commentary>실횻값은 8 A이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$8 \sqrt{2}$ $8 \sqrt{2} \sin ( wt )$</choice_text>
-          <commentary>실횻값이 틀렸다.</commentary>
+          <commentary>실횻값을 최댓값으로 착각했다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -66,19 +66,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>64개까지만 셀 수 있다.</commentary>
+          <commentary>6개로는 64개까지만 셀 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>128개까지만 셀 수 있다.</commentary>
+          <commentary>7개로는 128개까지만 셀 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>256개까지만 셀 수 있다.</commentary>
+          <commentary>8개로는 256개까지만 셀 수 있어 260개에 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>9</choice_text>
-          <commentary>9개이므로 정답이다.</commentary>
+          <commentary>2⁸ = 256 &lt; 260 ≤ 2⁹ = 512이므로 최소 9개가 필요하여 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$I_{E}$ ＝ $\alpha I_{C}$</choice_text>
-          <commentary>관계가 뒤집혔다.</commentary>
+          <commentary>IE = αIC이면 IE가 IC보다 작아져 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$I_{E}$ ＝ $\frac{1}{\alpha} I_{C}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>IC = αIE이므로 IE = IC/α이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$I_{E}$ ＝ $( \alpha + 1 ) I_{C}$</choice_text>
-          <commentary>관계식이 틀렸다.</commentary>
+          <commentary>(α + 1)IC는 IE와 IC의 관계식이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$I_{E}$ ＝ $\frac{1}{\alpha + 1} I_{C}$</choice_text>
-          <commentary>관계식이 틀렸다.</commentary>
+          <commentary>IC/(α + 1)은 IE와 IC의 관계식이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$A {\bar{B}}$ ＋ $A {\bar{C}}$</choice_text>
-          <commentary>일치하지 않는다.</commentary>
+          <commentary>AB̄ 항은 101 칸이 0이어서 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$A {\bar{B}}$ ＋ $B {\bar{C}}$</choice_text>
-          <commentary>일치하지 않는다.</commentary>
+          <commentary>AB̄와 BC̄ 조합은 맵과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\bar{A}} B$ ＋ $B {\bar{C}}$</choice_text>
-          <commentary>일치하지 않는다.</commentary>
+          <commentary>BC̄ 항은 010, 110을 덮지만 011과 100이 남는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\bar{A}} B$ ＋ $A {\bar{C}}$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>ĀB(010, 011)와 AC̄(100, 110)로 모든 1을 덮으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AB ＝ $1 \angle - 180 ^\circ$</choice_text>
-          <commentary>위상 조건이 틀렸다.</commentary>
+          <commentary>위상 -180°는 부귀환 조건으로 발진하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>AB ＝ $1 \angle 0 ^\circ$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>바크하우젠 조건에 따라 AB = 1∠0°이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>AB ＝ $0 \angle - 180 ^\circ$</choice_text>
-          <commentary>크기 조건이 틀렸다.</commentary>
+          <commentary>루프이득 크기가 0이면 발진하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>AB ＝ $0 \angle 0 ^\circ$</choice_text>
-          <commentary>크기 조건이 틀렸다.</commentary>
+          <commentary>루프이득 크기가 0이면 발진하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -344,19 +344,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.1 450</choice_text>
-          <commentary>변조지수가 틀렸다.</commentary>
+          <commentary>변조지수는 8/10 = 0.8이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.1 900</choice_text>
-          <commentary>변조지수와 주파수가 틀렸다.</commentary>
+          <commentary>변조지수와 하측파대 주파수가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8 450</choice_text>
-          <commentary>0.8, 450 Hz이므로 정답이다.</commentary>
+          <commentary>m = 0.8이고 하측파대 주파수는 500 - 50 = 450 Hz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.8 900</choice_text>
-          <commentary>각주파수로 계산한 값이다.</commentary>
+          <commentary>900 Hz는 각주파수 900π를 그대로 쓴 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>90</choice_text>
-          <commentary>90 Mbps이므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 심벌률 15 Msymbol/s × 6비트 = 90 Mbps이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>108</choice_text>
-          <commentary>공식 정답과 다르다.</commentary>
+          <commentary>108 Mbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>공식 정답과 다르다.</commentary>
+          <commentary>120 Mbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>공식 정답과 다르다.</commentary>
+          <commentary>150 Mbps는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -656,19 +656,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$v_i$ ＝ 0 [V]일 때, NMOS는 OFF된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>입력이 0 V이면 NMOS의 VGS가 0이어서 OFF되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$v_i$ ＝ 0 [V]일 때, PMOS는 ON된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>입력이 0 V이면 PMOS의 VSG가 커서 ON되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$v_i$ ＝ 5 [V]일 때, NMOS는 OFF된다.</choice_text>
-          <commentary>vi = 5 V이면 NMOS는 ON되므로 옳지 않아 정답이다.</commentary>
+          <commentary>입력이 5 V이면 NMOS는 ON된다. OFF된다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$v_i$ ＝ 5 [V]일 때, PMOS는 OFF된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>입력이 5 V이면 PMOS의 VSG가 0이어서 OFF되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

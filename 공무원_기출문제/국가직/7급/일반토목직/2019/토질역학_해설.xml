@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$e$ $G_{s}$ $wG_{s}$</choice_text>
-          <commentary>단위중량이 빠졌다.</commentary>
+          <commentary>중량에 γw가 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 $G_{s} \gamma_{w}$ $wG_{s} \gamma_{w}$</choice_text>
-          <commentary>간극 부피가 틀렸다.</commentary>
+          <commentary>간극 부피는 e이며 1이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$e$ $G_{s} \gamma_{w}$ $wG_{s} \gamma_{w}$</choice_text>
-          <commentary>물과 흙입자 중량이 바뀌었다.</commentary>
+          <commentary>물과 흙입자의 중량이 서로 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$e$ $wG_{s} \gamma_{w}$ $G_{s} \gamma_{w}$</choice_text>
-          <commentary>e, wGsγw, Gsγw이므로 정답이다.</commentary>
+          <commentary>Vv = e, Ww = wGsγw, Ws = Gsγw이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>전응력과 유효응력의 파괴포락선은 동일하지 않다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>CU 시험에서 전응력과 유효응력 포락선은 간극수압만큼 차이가 있어 다르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>파괴 시 간극수압을 측정할 수 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>CU 시험은 전단 중 간극수압을 측정할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>전단과정에서 시료의 체적변화가 발생한다.</choice_text>
-          <commentary>체적변화가 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>전단 과정에서는 배수를 막으므로 포화 시료의 체적이 변하지 않는다. 체적변화가 발생한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전응력 Mohr원과 유효응력 Mohr원의 크기는 같다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>전응력과 유효응력 Mohr 원은 간극수압만큼 이동할 뿐 크기는 같으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>흙은 완전히 포화되어 있다.</choice_text>
-          <commentary>가정이다.</commentary>
+          <commentary>흙의 완전 포화는 가정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>흙입자는 압축성이다.</choice_text>
-          <commentary>비압축성으로 가정하므로 옳지 않아 정답이다.</commentary>
+          <commentary>흙입자는 비압축성으로 가정한다. 압축성이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Darcy의 법칙이 성립된다.</choice_text>
-          <commentary>가정이다.</commentary>
+          <commentary>Darcy 법칙의 성립은 가정이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>물은 비압축성이다.</choice_text>
-          <commentary>가정이다.</commentary>
+          <commentary>물의 비압축성은 가정이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -181,11 +181,11 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100,000분</choice_text>
-          <commentary>100,000분이므로 정답이다.</commentary>
+          <commentary>cv = 0.052 cm²/min, t = 0.13 × 200²/0.052 = 100,000분이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400,000분</choice_text>
-          <commentary>일면배수로 본 값이다.</commentary>
+          <commentary>현장을 일면배수로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,7 +245,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>20 kN/m^(2)</choice_text>
-          <commentary>20 kN/m²이므로 정답이다.</commentary>
+          <commentary>tanφ = 0.4, c = 60 − 40 = 20 kN/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>40 kN/m^(2)</choice_text>
@@ -282,15 +282,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4.5 m</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>일축압축강도를 그대로 쓰지 않고 Hc를 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>6.0 m</choice_text>
-          <commentary>6.0 m이므로 정답이다.</commentary>
+          <commentary>Hc = 4 × 45/20 = 9.0 m를 1.5로 나눈 6.0 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9.0 m</choice_text>
-          <commentary>이론적 최대깊이이다.</commentary>
+          <commentary>안전율을 적용하지 않은 이론적 최대깊이이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,19 +311,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>일반적으로, 동일한 다짐에너지 조건에서 소성성이 작은 세립토가 소성성이 큰 세립토보다 최대건조단위중량이 작다.</choice_text>
-          <commentary>최대건조단위중량이 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>소성성이 작은 세립토는 소성성이 큰 세립토보다 최대건조단위중량이 크다. 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>일반적으로, 동일한 다짐에너지 조건에서 입도분포가 좋은 조립토가 입도분포가 나쁜 조립토보다 최대건조단위중량이 크다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>입도분포가 좋은 조립토는 입자가 잘 맞물려 최대건조단위중량이 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동일한 흙시료에 대해서 다짐에너지가 클수록 최대건조단위중량은 커지고 최적함수비는 작아진다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>다짐에너지가 클수록 최대건조단위중량은 커지고 최적함수비는 작아지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>일반적으로, 흙댐의 심벽 등 차수목적으로 흙을 다질 경우에는 습윤측 다짐을 하는 것이 좋다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>습윤측 다짐은 투수계수가 작고 변형에 유연해 차수용 심벽에 좋으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -347,7 +347,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>459 kN/m^(2)</choice_text>
-          <commentary>459 kN/m²이므로 정답이다.</commentary>
+          <commentary>180 + 189 + 90 = 459 kN/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>479 kN/m^(2)</choice_text>
@@ -383,19 +383,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>150 kN/m^(2 )750 kN/m^(2)</choice_text>
-          <commentary>150, 750 kN/m²이므로 정답이다.</commentary>
+          <commentary>점토는 폭과 무관하게 150, 모래는 폭에 비례해 750 kN/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>150 kN/m^(2 )150 kN/m^(2)</choice_text>
-          <commentary>모래의 크기 효과를 반영하지 않았다.</commentary>
+          <commentary>모래지반의 폭 효과를 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>750 kN/m^(2 )750 kN/m^(2)</choice_text>
-          <commentary>점토는 폭과 무관하다.</commentary>
+          <commentary>점토지반은 폭에 따라 극한지지력이 변하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>750 kN/m^(2 )150 kN/m^(2)</choice_text>
-          <commentary>점토와 모래가 바뀌었다.</commentary>
+          <commentary>점토와 모래의 결과가 바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -416,19 +416,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정지토압은 벽체의 수평변위가 전혀 발생하지 않을 때 벽체에 작용하는 토압이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>정지토압은 벽체 변위가 없을 때의 토압이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>수동토압은 흙이 벽체에게 밀려 수평방향 압축이 발생되어 파괴에 이르렀을 때의 토압이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>수동토압은 흙이 벽체에 밀려 수평 압축으로 파괴될 때의 토압이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>정지토압계수는 1.0보다 클 수 없다.</choice_text>
-          <commentary>1보다 클 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>과압밀이 큰 흙에서는 K₀가 1.0보다 클 수 있다. 클 수 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정지토압계수는 실내 삼축압축시험으로 구할 수도 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>K₀는 횡방향 변형을 억제한 삼축압축시험으로 구할 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -450,19 +450,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>루전(Lugeon) 시험</choice_text>
-          <commentary>원위치 시험이다.</commentary>
+          <commentary>루전 시험은 시추공에서 암반의 투수성을 재는 원위치 시험이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>콘관입시험</choice_text>
-          <commentary>원위치 시험이다.</commentary>
+          <commentary>콘관입시험은 현장에서 콘을 관입해 저항을 측정하는 원위치 시험이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공내재하시험</choice_text>
-          <commentary>원위치 시험이다.</commentary>
+          <commentary>공내재하시험은 시추공 벽을 가압해 지반의 변형특성을 구하는 원위치 시험이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>비중계(Hydrometer) 시험</choice_text>
-          <commentary>실내 시험이므로 정답이다.</commentary>
+          <commentary>비중계 시험은 실내에서 세립토 입도를 구하는 시험이므로 원위치 시험이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>사면의 안전율은 토층 두께에 반비례한다.</choice_text>
-          <commentary>두께와 무관하다.</commentary>
+          <commentary>사질토 무한사면의 안전율은 토층 두께와 관계없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>지하수위가 지표와 일치하는 경우 사면의 안전율은 지하수가 없을 경우 사면의 안전율보다 작다.</choice_text>
-          <commentary>옳은 설명이므로 정답이다.</commentary>
+          <commentary>지하수위가 지표와 같으면 침투력으로 안전율이 약 절반으로 작아지므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>지하수가 없을 경우 사면의 안전율은 $\frac{\tan \beta}{\tan \phi ^{\prime}}$로 표현된다.</choice_text>
-          <commentary>분자와 분모가 바뀌었다.</commentary>
+          <commentary>지하수가 없을 때의 안전율은 tanφ′/tanβ로 분자와 분모가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>지하수위가 지표와 일치하는 경우 사면의 안전율은 사면의 높이에 반비례한다.</choice_text>
-          <commentary>높이와 무관하다.</commentary>
+          <commentary>사면 높이와 관계없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -519,11 +519,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100 kN/m^(2)</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>유효수평응력만 구한 값에 가깝다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>150 kN/m^(2)</choice_text>
-          <commentary>재하 전 수평 전응력이다.</commentary>
+          <commentary>재하 전의 수평 전응력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200 kN/m^(2)</choice_text>
@@ -531,7 +531,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>250 kN/m^(2)</choice_text>
-          <commentary>250 kN/m²이므로 정답이다.</commentary>
+          <commentary>유효수평응력 50 + 간극수압 200 = 250 kN/m²이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -563,11 +563,11 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>360 kN</choice_text>
-          <commentary>360 kN이므로 정답이다.</commentary>
+          <commentary>20 × 9 × 2 = 360 kN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>720 kN</choice_text>
-          <commentary>축차응력을 cu로 쓴 값이다.</commentary>
+          <commentary>축차응력을 그대로 cu로 쓴 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -663,19 +663,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>12 m 60 %</choice_text>
-          <commentary>상승 수위가 틀렸다.</commentary>
+          <commentary>Δh가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>15 m 60 %</choice_text>
-          <commentary>15 m, 60%이므로 정답이다.</commentary>
+          <commentary>Δh = 150/10 = 15 m, U = 9/15 = 60%이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>12 m 40 %</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>Δh와 압밀도가 모두 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>15 m 40 %</choice_text>
-          <commentary>압밀도가 틀렸다.</commentary>
+          <commentary>압밀도를 남은 비율로 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

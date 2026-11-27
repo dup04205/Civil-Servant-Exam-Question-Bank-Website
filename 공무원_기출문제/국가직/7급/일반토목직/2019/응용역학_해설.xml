@@ -425,19 +425,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$nup_0$</choice_text>
-          <commentary>νp₀이므로 정답이다.</commentary>
+          <commentary>x방향 구속으로 εx = [σx - ν(-p₀)]/E = 0이므로 σx = -νp₀, 크기는 νp₀이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2nup_0$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>다른 수평 방향은 구속되지 않아 그 방향 응력이 0이므로 2νp₀는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$p_0$</choice_text>
-          <commentary>포아송 효과를 무시한 값이다.</commentary>
+          <commentary>p₀는 ν = 1일 때의 값으로 고무의 포아송비(0.5 미만)와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2p_0$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2p₀는 구속 조건에서 나올 수 없는 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -458,19 +458,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>안전계수 2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>안전계수 3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>안전계수 4는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5이므로 정답이다.</commentary>
+          <commentary>σ = pr/(2t) = 5 × 4,000 ÷ 200 = 100 MPa이므로 안전계수 = 500 ÷ 100 = 5이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -527,19 +527,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{bh^{2} \sigma_{ity}}{12 L}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>bh²σy/(12L)은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{bh^{2} \sigma_{ity}}{2 L}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>bh²σy/(2L)은 계산값의 1/2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{bh^{2} \sigma_{ity}}{L}$</choice_text>
-          <commentary>bh²σy/L이므로 정답이다.</commentary>
+          <commentary>Mp = σy·bh²/4이고 PuL/4 = Mp이므로 Pu = σy·bh²/L이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{bh^{2} \sigma_{ity}}{6 L}$</choice_text>
-          <commentary>탄성 단면계수를 쓴 값과 다르다.</commentary>
+          <commentary>bh²σy/(6L)은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -563,19 +563,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\alpha_{t} E \Delta Ta^{3}}{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>αtEΔTa³/2는 계산값의 3배이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\alpha_{t} E \Delta Ta^{3}}{4}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>αtEΔTa³/4는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\alpha_{t} E \Delta Ta^{3}}{6}$</choice_text>
-          <commentary>αtEΔTa³/6이므로 정답이다.</commentary>
+          <commentary>κ = 2αtΔT/a, I = a⁴/12이므로 M = EIκ = αtEΔTa³/6이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\alpha_{t} E \Delta Ta^{3}}{12}$</choice_text>
-          <commentary>온도차를 ΔT로 본 값이다.</commentary>
+          <commentary>αtEΔTa³/12는 온도차를 ΔT만 적용한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -599,19 +599,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>17.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>17.5 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20.0</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20.0 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>22.5</choice_text>
-          <commentary>22.5 MPa이므로 정답이다.</commentary>
+          <commentary>γxy = 2εb - εa - εc = 300 × 10⁻⁶, G = 75,000 MPa이므로 τxy = 22.5 MPa이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>25.0</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>25.0 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

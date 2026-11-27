@@ -212,19 +212,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\alpha \Delta TEI}{2 hL}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>R = αΔT·EI/(2hL)은 자유단 처짐 κL²/2를 되돌리는 조건 RL³/(3EI) = κL²/2에서 얻는 값의 1/3이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\alpha \Delta TEI}{hL}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>R = αΔT·EI/(hL)은 계산값의 2/3로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3 \alpha \Delta TEI}{2 hL}$</choice_text>
-          <commentary>3αΔT·EI/(2hL)이므로 정답이다.</commentary>
+          <commentary>RL³/(3EI) = (αΔT/h)L²/2에서 R = 3αΔT·EI/(2hL)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 \alpha \Delta TEI}{hL}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>R = 2αΔT·EI/(hL)은 계산값보다 크다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -284,19 +284,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2 \pi$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>T = 2π kN·m이면 τ = 16T/(πd³) = 32 MPa로 허용응력에 여유가 있어 최대가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$3 \pi$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>T = 3π kN·m이면 τ = 48 MPa로 최대가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$4 \pi$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>T = 4π kN·m이면 τ = 64 MPa로 최대가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$5 \pi$</choice_text>
-          <commentary>5π kN·m이므로 정답이다.</commentary>
+          <commentary>순수 비틀림의 주인장응력 σ₁ = τ이므로 허용인장응력 80 MPa가 지배하고, T = 80 × π × 100³ ÷ 16 = 5π kN·m이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -500,19 +500,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.20</choice_text>
-          <commentary>0.20 MPa이므로 정답이다.</commentary>
+          <commentary>εθ = (100p - 0.2 × 50p)/180,000 = p/2,000 ≤ 1 × 10⁻⁴에서 p ≤ 0.20 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.18</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.18 MPa는 허용 변형률에 여유가 남아 최댓값이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.15 MPa는 최대 내부압력이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.10 MPa는 허용 변형률의 절반만 사용하므로 최댓값이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

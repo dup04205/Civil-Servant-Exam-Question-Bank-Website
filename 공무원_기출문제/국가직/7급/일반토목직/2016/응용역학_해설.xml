@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\pi^{2} E I}{3 L^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>π²EI/(3L²)는 단면2차모멘트를 I/3으로 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\pi^{2} E I}{L^{2}}$</choice_text>
-          <commentary>약축 기준 π²EI/L²이므로 정답이다.</commentary>
+          <commentary>기둥은 단면2차모멘트가 작은 약축 Iyy = I에 대해 먼저 좌굴하므로 Pcr = π²EI/L²이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4 \pi^{2} E I}{3 L^{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4π²EI/(3L²)는 지지조건이나 단면2차모멘트를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 \pi^{2} E I}{L^{2}}$</choice_text>
-          <commentary>강축 기준 값이다.</commentary>
+          <commentary>3π²EI/L²는 강축 Ixx = 3I로 계산한 값으로, 약축 좌굴이 먼저 일어나므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -215,19 +215,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{P I_{2}}{I_{1} + I_{2}}$</choice_text>
-          <commentary>PI₂/(I₁ + I₂)이므로 정답이다.</commentary>
+          <commentary>(P - R)L³/(3EI₁) = RL³/(3EI₂)에서 R = PI₂/(I₁ + I₂)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 P I_{2}}{I_{1} + I_{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2PI₂/(I₁ + I₂)는 처짐 적합조건의 결과보다 2배 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{P I_{1}}{I_{1} + I_{2}}$</choice_text>
-          <commentary>휨강성이 바뀌었다.</commentary>
+          <commentary>PI₁/(I₁ + I₂)는 I₁과 I₂를 바꾸어 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 P I_{1}}{I_{1} + I_{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2PI₁/(I₁ + I₂)는 I₁과 I₂를 바꾸고 2배 한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -251,19 +251,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.40</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.40은 계산값 0.80의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.80</choice_text>
-          <commentary>0.80이므로 정답이다.</commentary>
+          <commentary>τA = 16T/(πd³), τB = 20T/(πd³)이므로 τA/τB = 0.80이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.25</choice_text>
-          <commentary>역수이다.</commentary>
+          <commentary>1.25는 τB/τA로 비를 거꾸로 구한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.50</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2.50은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -323,19 +323,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{9}{10} \right)^{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>(9/10)²는 횡변형률을 0.1로 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left ( 3 \frac{7}{4} 0 \right )^2$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>(37/40)²는 횡변형률 0.075에 해당하여 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\left( \frac{19}{20} \right)^{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>(19/20)²는 횡변형률 0.05에 해당하여 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left ( 3 \frac{9}{4} 0 \right )^2$</choice_text>
-          <commentary>(39/40)²이므로 정답이다.</commentary>
+          <commentary>ε = 0.1, 횡변형률 = 0.25 × 0.1 = 0.025이므로 지름이 (39/40)D가 되어 단면적 비는 (39/40)²이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -467,19 +467,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>50 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>간격을 고려하지 않은 값이다.</commentary>
+          <commentary>30 MPa는 간격 1 mm를 빼지 않고 자유 팽창량 3 mm를 모두 구속한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20 MPa이므로 정답이다.</commentary>
+          <commentary>자유 팽창 3 mm에서 간격 1 mm를 뺀 2 mm가 구속되어 σ = 100,000 × 2/10,000 = 20 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 MPa는 구속량을 1 mm로 잘못 적용한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -503,19 +503,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{ML}{3} EI$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ML/(3EI)는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{ML}{2} EI$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ML/(2EI)는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 \frac{ML}{3} EI$</choice_text>
-          <commentary>B점 모멘트만 고려한 값이다.</commentary>
+          <commentary>2ML/(3EI)는 B점에 작용하는 2M에 의한 회전각만 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$5 \frac{ML}{6} EI$</choice_text>
-          <commentary>5ML/(6EI)이므로 정답이다.</commentary>
+          <commentary>A점 M에 의한 ML/(6EI)와 B점 2M에 의한 2ML/(3EI)를 합하면 5ML/(6EI)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -719,19 +719,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.024</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.024 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.048</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.048 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.072</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.072 mm는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.096</choice_text>
-          <commentary>0.096 mm이므로 정답이다.</commentary>
+          <commentary>σy = -2 MPa, εx = (-10 + 0.4) ÷ 100,000 = -9.6 × 10⁻⁵이므로 변형량은 0.096 mm이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

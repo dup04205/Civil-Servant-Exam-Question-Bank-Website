@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>600</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>b = 600 mm이면 S = 600 × 500²/6 = 2.5 × 10⁷ mm³로 원래 단면계수 5.0 × 10⁷ mm³의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>900</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>b = 900 mm이면 S = 3.75 × 10⁷ mm³로 원래 단면계수와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>b = 1,000 mm이면 S ≒ 4.17 × 10⁷ mm³로 원래 단면계수와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,200</choice_text>
-          <commentary>1,200 mm이므로 정답이다.</commentary>
+          <commentary>300 × 1,000² = b × 500²에서 b = 1,200 mm이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최대전단응력은 주응력 차이의 $\frac{1}{2}$과 같다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>최대전단응력은 모어원의 반지름으로 (σ₁ - σ₂)/2와 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>모아(Mohr) 응력원 중심의 세로 좌푯값은 직교하는 두 축의 수직응력의 평균값과 같다.</choice_text>
-          <commentary>가로 좌푯값이 평균값이므로 옳지 않아 정답이다.</commentary>
+          <commentary>모어원의 중심은 수직응력 축 위에 있어 가로 좌푯값이 (σx + σy)/2이고 세로 좌푯값은 0이다. 세로 좌푯값이 평균값이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>주평면에서의 전단응력은 0이며, 최대전단응력은 주평면에 대해 45 ° 방향에서 일어난다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>주평면의 전단응력은 0이고, 모어원에서 90° 회전한 위치, 즉 실제 요소에서 45° 방향에 최대전단응력이 생기므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>평면응력요소의 수직면에 작용하는 수직응력의 합은 일정하다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>직교하는 두 면의 수직응력 합 σx + σy는 좌표 회전에 대해 불변량이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -244,19 +244,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{a}{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = a/3이면 작은 삼각형 면적이 전체의 1/2이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2} a}{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = √2a/3 ≒ 0.471a로 면적 이등분 조건 d = h/√2 ≒ 0.612a와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\sqrt{6} a}{4}$</choice_text>
-          <commentary>(√6/4)a이므로 정답이다.</commentary>
+          <commentary>닮음비에서 (d/h)² = 1/2이므로 d = h/√2 = (√3/2)a/√2 = (√6/4)a이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sqrt{2} a}{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>d = √2a/2 ≒ 0.707a는 삼각형 높이 0.866a 기준으로 면적 이등분 조건과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -316,19 +316,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>변형 후 반원의 곡률은 $\frac{2 \pi}{L}$이다.</choice_text>
-          <commentary>곡률은 π/L이다.</commentary>
+          <commentary>반원 길이 L = πr이므로 곡률 1/r = π/L이다. 2π/L이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>변형 후 보의 길이 $L = \frac{\pi EI}{M}$이다.</choice_text>
-          <commentary>옳은 설명이므로 정답이다.</commentary>
+          <commentary>곡률 1/r = M/EI이고 L = πr이므로 L = πEI/M이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>집중모멘트 $M = \frac{EI}{L}$이다.</choice_text>
-          <commentary>M = πEI/L이다.</commentary>
+          <commentary>L = πEI/M을 정리하면 M = πEI/L이므로 EI/L이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>변형 후 반원의 지름은 $\frac{EI}{M}$이다.</choice_text>
-          <commentary>지름은 2EI/M이다.</commentary>
+          <commentary>반지름 r = EI/M이므로 지름은 2EI/M이다. EI/M이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -640,19 +640,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2 PL}{3 \pi d^{2} E}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2PL/(3πd²E)는 적분 결과 4PL/(πE·d·2d)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 PL}{2 \pi d^{2} E}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3PL/(2πd²E)는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2 PL}{\pi d^{2} E}$</choice_text>
-          <commentary>2PL/(πd²E)이므로 정답이다.</commentary>
+          <commentary>δ = 4PL/(πE·d₁·d₂)에 d₁ = d, d₂ = 2d를 대입하면 2PL/(πd²E)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3 PL}{\pi d^{2} E}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3PL/(πd²E)는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

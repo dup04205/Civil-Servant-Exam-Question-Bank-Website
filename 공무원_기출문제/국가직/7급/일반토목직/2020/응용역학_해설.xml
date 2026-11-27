@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>모어원 중심의 수평 좌표값은 직교하는 두 축에 대한 수직응력의 평균값과 같다.</choice_text>
-          <commentary>옳은 설명이므로 정답이다.</commentary>
+          <commentary>모어원 중심의 수평 좌표는 두 수직응력의 평균 (σx + σy)/2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>최대 전단응력의 크기는 두 주응력의 차이와 같다.</choice_text>
-          <commentary>차이의 1/2이다.</commentary>
+          <commentary>최대 전단응력은 모어원의 반지름으로 두 주응력 차의 1/2이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>모어원이 그려지는 두 축 중 수직축은 수직응력의 크기를 나타낸다.</choice_text>
-          <commentary>수직축은 전단응력이다.</commentary>
+          <commentary>σ-τ 평면에서 수직축은 전단응력을 나타내므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>모어원으로부터 주응력의 크기는 구할 수 있으나, 주응력의 방향은 구할 수 없다.</choice_text>
-          <commentary>방향도 구할 수 있다.</commentary>
+          <commentary>모어원에서 기준점과 주응력점 사이의 각 2θ로 주응력의 방향도 구할 수 있으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ρ = 10 m이면 ε = 0.02 ÷ 10 = 0.002로 주어진 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ρ = 20 m이면 ε = 0.001로 주어진 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>ρ = 100 m이면 ε = 0.0002로 주어진 값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>200</choice_text>
-          <commentary>200 m이므로 정답이다.</commentary>
+          <commentary>ε = y/ρ에서 ρ = 0.02 ÷ 0.0001 = 200 m이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -140,19 +140,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>5 N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 N·m는 자연 길이에서 10 cm 늘릴 때의 일 ½ × 2,000 × 0.1²이므로 이미 5 cm 늘어난 상태를 반영하지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20 N·m이므로 정답이다.</commentary>
+          <commentary>k = 2,000 N/m이고 W = ½ × 2,000 × (0.15² - 0.05²) = 20 N·m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>40 N·m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>9 m는 힘에 의한 이동 거리 t³/3만 계산하고 초기 속도에 의한 거리 2t = 6 m를 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>12 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>15</choice_text>
-          <commentary>15 m이므로 정답이다.</commentary>
+          <commentary>a = 2t, v = 2 + t², x = 2t + t³/3이므로 t = 3초에서 6 + 9 = 15 m이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -313,7 +313,7 @@
         <answer_source>정답표</answer_source>
       </answer_info>
       <overall_commentary>출제 영역: 응용역학 · 휨응력과 전단응력의 비
-정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 이다. σA| : |τA| = 32 : 3|A점의 휨응력은 σ = My/I, 전단응력은 τ = VQ/(Ib)로 구하며, 하중 위치에 따른 A점의 M과 V를 먼저 구한다.</overall_commentary>
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 A점의 휨응력과 전단응력 크기의 비는 32 : 3이다. A점의 휨응력은 σ = My/I, 전단응력은 τ = VQ/(Ib)로 구하며, 하중 위치에 따른 A점의 M과 V를 먼저 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>32 : 5</choice_text>
@@ -425,19 +425,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>40</choice_text>
-          <commentary>40 MPa이므로 정답이다.</commentary>
+          <commentary>σ = EαΔT = 2.0 × 10⁶ × 1.0 × 10⁻⁶ × 20 = 40 MPa이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>30 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20 MPa는 온도 상승량 20을 그대로 곱하지 않은 값으로 계산값의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10 MPa는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -458,19 +458,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>양의 포아송비를 갖는 건설재료의 전단탄성계수는 항상 탄성계수보다 작다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>G = E/(2(1 + ν))이므로 ν &gt; 0이면 G는 항상 E보다 작아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>휨모멘트의 변화량은 해당 구간에서 전단력도의 면적을 계산하여 구할 수 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>dM/dx = V이므로 휨모멘트 변화량은 해당 구간 전단력도의 면적과 같아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>선형탄성재료의 응력과 변형률 사이의 관계를 표현하는 비례상수를 탄성계수라고 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>선형탄성재료에서 σ = Eε의 비례상수 E를 탄성계수라 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>0이 아닌 전단력이 작용하는 직사각형 보의 단면에서 전단응력은 직선적으로 분포한다.</choice_text>
-          <commentary>포물선 분포이므로 옳지 않아 정답이다.</commentary>
+          <commentary>직사각형 보의 전단응력은 τ = VQ/(Ib)로 중립축에서 최대인 포물선 분포이다. 직선적으로 분포한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -530,19 +530,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7,990</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>가운데 봉이 10 mm 짧으면 바깥 봉의 수축량 4 mm로는 접촉하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7,992</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>가운데 봉이 8 mm 짧으면 접촉하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>7,994</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>가운데 봉이 6 mm 짧으면 접촉하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>7,996</choice_text>
-          <commentary>7,996 mm이므로 정답이다.</commentary>
+          <commentary>바깥 봉 하나의 하중 80 kN에 의한 수축량 δ = 80,000 × 8,000 ÷ (80,000 × 2,000) = 4 mm이므로 가운데 봉 길이는 7,996 mm이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -563,19 +563,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>구조물의 변형에너지를 어떤 하중에 대해 편미분한 것은 그 하중에 상응하는 변위와 관계가 없다.</choice_text>
-          <commentary>상응하는 변위가 되므로 옳지 않다.</commentary>
+          <commentary>변형에너지를 어떤 하중으로 편미분하면 그 하중 위치·방향의 변위가 되므로 관계가 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>구조물에서 하중이 작용하지 않는 점에서의 변위를 계산하기 위해서는 필요한 변위에 상응하는 가상 하중을 구조물에 작용시켜야 한다.</choice_text>
-          <commentary>옳은 설명이므로 정답이다.</commentary>
+          <commentary>하중이 없는 점의 변위는 그 점에 가상 하중을 작용시켜 편미분한 뒤 0으로 놓아 구하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>내민보의 자유단에 집중하중 P가 작용할 때 변형에너지를 P에 대해 편미분하여 자유단의 처짐각을 계산할 수 있다.</choice_text>
-          <commentary>P로 편미분하면 처짐이 된다.</commentary>
+          <commentary>집중하중 P로 편미분하면 처짐이 구해지며 처짐각이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>내민보의 자유단에 모멘트 하중 M이 작용할 때 변형에너지를 M에 대해 편미분하여 자유단의 처짐을 계산할 수 있다.</choice_text>
-          <commentary>M으로 편미분하면 처짐각이 된다.</commentary>
+          <commentary>모멘트 하중 M으로 편미분하면 처짐각이 구해지며 처짐이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -599,19 +599,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{9}$ 1</choice_text>
-          <commentary>1/9, 1이므로 정답이다.</commentary>
+          <commentary>EI가 (1/3) × 27 = 9배가 되어 처짐비는 1/9이고, 정정 단순보의 휨모멘트는 변하지 않아 비가 1이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{9}$ 2</choice_text>
-          <commentary>휨모멘트는 변하지 않는다.</commentary>
+          <commentary>정정구조의 휨모멘트는 재료와 단면에 무관하므로 휨모멘트비 2는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$ 1</choice_text>
-          <commentary>처짐비가 틀렸다.</commentary>
+          <commentary>단면 높이 3배로 I가 27배가 되므로 처짐비 1/3은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$ 2</choice_text>
-          <commentary>둘 다 틀렸다.</commentary>
+          <commentary>처짐비와 휨모멘트비 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

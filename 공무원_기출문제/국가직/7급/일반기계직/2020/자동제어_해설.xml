@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>관측 가능하고 제어 가능하다.</choice_text>
-          <commentary>둘 다 가능하지 않다.</commentary>
+          <commentary>제어가능성 행렬과 관측가능성 행렬의 계수가 모두 1이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>관측 가능하나 제어 가능하지 않다.</choice_text>
-          <commentary>관측 가능하지 않다.</commentary>
+          <commentary>관측가능성 행렬 [C; CA]의 계수가 1이어서 관측 가능하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>제어 가능하나 관측 가능하지 않다.</choice_text>
-          <commentary>제어 가능하지 않다.</commentary>
+          <commentary>제어가능성 행렬 [B AB]의 계수가 1이어서 제어 가능하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>제어 가능하지도 관측 가능하지도 않다.</choice_text>
-          <commentary>제어 가능하지도 관측 가능하지도 않으므로 정답이다.</commentary>
+          <commentary>두 행렬의 계수가 모두 1로 상태 수 2보다 작아 제어·관측 모두 불가능하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>피드백 제어의 목적은 입력과 출력 사이의 오차를 최소화하는 것이다.</choice_text>
-          <commentary>오차 최소화가 목적이다.</commentary>
+          <commentary>피드백 제어는 기준 입력과 출력 사이의 오차를 줄이는 것이 목적이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>피드백 시스템은 잡음과 외란에 민감하고 기준 입력에는 둔감하도록 설계되어야 한다.</choice_text>
-          <commentary>잡음과 외란에 둔감해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>피드백 시스템은 기준입력은 정확히 추종하고 잡음과 외란에는 둔감하도록 설계한다. 반대로 설명했으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폐루프 시스템의 전달함수는 $\frac{G ( s )}{1 + G ( s ) H ( s )}$이다.</choice_text>
-          <commentary>폐루프 전달함수로 옳다.</commentary>
+          <commentary>폐루프 전달함수는 G/(1 + GH)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개루프 전달함수의 변화에 대한 폐루프 시스템의 감도(sensitivity)는 $\frac{1}{1 + G ( s ) H ( s )}$이다.</choice_text>
-          <commentary>감도 함수로 옳다.</commentary>
+          <commentary>개루프 변화에 대한 감도는 S = 1/(1 + GH)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>8 $- 2 , \pm 2 j$</choice_text>
-          <commentary>8, -2, ±2j이므로 정답이다.</commentary>
+          <commentary>K = 8에서 s¹ 행이 0이 되고, 보조방정식 2s² + 8 = 0에서 ±2j, 나머지 극점 -2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8 $- 2 , 1 \pm 2 j$</choice_text>
-          <commentary>복소근의 실수부가 0이어야 한다.</commentary>
+          <commentary>근의 합이 -2이어야 하므로 1 ± 2j와 -2의 조합은 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4 $- 2 , 1 \pm 2 j$</choice_text>
-          <commentary>K가 다르다.</commentary>
+          <commentary>K = 4에서는 s¹ 행이 2로 양수여서 안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4 $- 2 , \pm 2 j$</choice_text>
-          <commentary>K가 다르다.</commentary>
+          <commentary>K = 4에서는 임계안정이 되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$g ( t ) = u ( t )$</choice_text>
-          <commentary>적분이 발산하므로 정답이다.</commentary>
+          <commentary>g(t) = u(t)는 ∫|g|dt가 발산하므로 안정하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$g ( t ) = e^{- 2 t} u ( t )$</choice_text>
-          <commentary>지수 감쇠하여 안정하다.</commentary>
+          <commentary>e^(-2t)u(t)는 절대 적분 가능하여 안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$g ( t ) = t^{3} e^{- 2 t} u ( t )$</choice_text>
-          <commentary>t³e^-2t도 0으로 수렴하여 안정하다.</commentary>
+          <commentary>t³e^(-2t)u(t)는 지수 감쇠가 다항식 증가를 이겨 안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$g ( t ) = 10 e^{- t} \cos ( 5 t ) u ( t )$</choice_text>
-          <commentary>감쇠 진동하여 안정하다.</commentary>
+          <commentary>10e^(-t)cos(5t)u(t)는 감쇠 진동으로 안정하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -310,19 +310,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{5}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>√5는 이득 약 7 dB에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{10}$</choice_text>
-          <commentary>√10이므로 정답이다.</commentary>
+          <commentary>시간 지연은 크기에 영향이 없으므로 20log K = 10에서 K = √10이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{15}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>√15는 이득 약 11.8 dB에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{20}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>√20은 이득 약 13 dB에 해당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -377,19 +377,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>근궤적의 점근선은 2개이다.</choice_text>
-          <commentary>점근선은 1개이므로 옳지 않아 정답이다.</commentary>
+          <commentary>극점 2개, 영점 1개이므로 점근선은 1개이다. 2개라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>근궤적이 시작하는 점은 극점 $- 1$과 $- 9$이다.</choice_text>
-          <commentary>극점에서 시작한다.</commentary>
+          <commentary>근궤적은 개루프 극점 -1과 -9에서 시작하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$s = - 3$은 근궤적 상에 존재한다.</choice_text>
-          <commentary>s = -3은 근궤적 위에 있다.</commentary>
+          <commentary>-3의 오른쪽에 극점 -1 하나만 있어 홀수이므로 근궤적 위에 있어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>근궤적의 분지(branch) 수는 2개이다.</choice_text>
-          <commentary>분지는 2개이다.</commentary>
+          <commentary>분지 수는 극점 수와 같은 2개이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－60 °</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>위상여유는 양수 60°이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－30 °</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>위상여유는 양수 60°이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>60 °</choice_text>
-          <commentary>60°이므로 정답이다.</commentary>
+          <commentary>ω = √3에서 위상 -120°이므로 위상여유 60°이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>30 °</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>30°는 위상을 -150°로 잘못 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -445,19 +445,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>2차 선형시스템이며 안정하다.</choice_text>
-          <commentary>2차 선형 안정 시스템이다.</commentary>
+          <commentary>극점 -4, -5가 모두 음의 실수이므로 안정한 2차 선형시스템이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>시스템의 감쇠비가 1 미만이며, 출력의 과도응답에 진동하는 파형을 포함한다.</choice_text>
-          <commentary>감쇠비가 1보다 커 진동하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>ζ = 9/(2√20) ≒ 1.01 &gt; 1로 과제동이어서 진동하지 않는다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>단위 계단 입력신호에 대한 이 시스템의 정상상태 출력은 1이다.</choice_text>
-          <commentary>정상상태 출력은 1이다.</commentary>
+          <commentary>정상상태 이득은 20/20 = 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>이 시스템의 고유주파수는 $2 \sqrt{5}$ rad/sec이다.</choice_text>
-          <commentary>고유주파수는 2√5rad/s이다.</commentary>
+          <commentary>ωn = √20 = 2√5 rad/s이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>특성방정식은 $s^2 + 5 s + 6 = 0$이다.</choice_text>
-          <commentary>특성방정식으로 옳다.</commentary>
+          <commentary>det(sI - A) = s² + 5s + 6이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$u ( t ) = 1$일 때, 정상상태오차는 $\frac{5}{6}$이다.</choice_text>
-          <commentary>정상상태오차는 5/6이다.</commentary>
+          <commentary>정상상태에서 x₁ = 1/6, x₂ = 0이므로 y = 1/6, 오차 5/6이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>상태천이행렬은 $\begin{bmatrix}3 e^- 2 t - 2 e^- 3 t &amp; e^- 2 t - e^- 3 t \\ - 6 e^- 2 t + 6 e^- 3 t &amp; - 2 e^- 2 t - 3 e^- 3 t\end{bmatrix}$이다.</choice_text>
-          <commentary>(2, 2) 원소의 부호가 틀렸으므로 옳지 않아 정답이다.</commentary>
+          <commentary>상태천이행렬의 (2, 2) 원소는 -2e^(-2t) + 3e^(-3t)여야 한다. 제시된 행렬은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>제어 가능하고 관측 가능하다.</choice_text>
-          <commentary>제어 가능하고 관측 가능하다.</commentary>
+          <commentary>제어가능성·관측가능성 행렬이 모두 정칙이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>근의 곱이 0이면 상수항이 0이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>근의 곱 1은 상수항을 -1로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>2이므로 정답이다.</commentary>
+          <commentary>특성방정식 s³ + s² + 4s - 2 = 0에서 근의 곱은 2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>근의 곱 3은 k 값을 그대로 쓴 것이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -589,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템의 감쇠비는 1 미만으로, 단위 계단 입력에 대한 출력신호는 과도응답에 진동파형을 포함한다.</choice_text>
-          <commentary>부족제동으로 진동한다.</commentary>
+          <commentary>ζ = 0.5로 부족제동이어서 진동을 포함하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>입력 $10 \cos ( 10 t )$에 대한 정상상태 출력은 입력신호와 같은 주파수이고 $\frac{\pi}{2}$만큼 지연된(delayed) 코사인 신호이다.</choice_text>
-          <commentary>90° 지연된다.</commentary>
+          <commentary>T(j10) = -j이므로 같은 주파수에서 90° 지연된 출력이 나오므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시스템의 대역폭은 1 Hz보다 크다.</choice_text>
-          <commentary>대역폭은 1Hz보다 크다.</commentary>
+          <commentary>대역폭은 약 12.7 rad/s ≒ 2 Hz로 1 Hz보다 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>각주파수 20 rad/sec인 정현파 입력신호에 대한 정상상태 출력의 진폭은 입력신호의 진폭의 $\frac{1}{2}$ 이상이다.</choice_text>
-          <commentary>진폭은 1/2보다 작으므로 옳지 않아 정답이다.</commentary>
+          <commentary>ω = 20에서 |T| ≒ 0.28로 1/2보다 작다. 1/2 이상이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10 1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 10이면 이득여유가 0 dB이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20 2</choice_text>
-          <commentary>20, 2이므로 정답이다.</commentary>
+          <commentary>위상교차주파수 ω = 2에서 |L(j2)| = K/20 = 1이므로 K = 20이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40 4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>ω = 4에서는 위상이 -180°가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>80 8</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>ω = 8에서는 위상이 -180°가 되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -657,19 +657,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0</choice_text>
-          <commentary>0dB이므로 정답이다.</commentary>
+          <commentary>|G(j2)| = 5/|3 + j4| = 1이므로 0 dB이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－0.7</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>-0.7 dB은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.7</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0.7 dB은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－14</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>-14 dB은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

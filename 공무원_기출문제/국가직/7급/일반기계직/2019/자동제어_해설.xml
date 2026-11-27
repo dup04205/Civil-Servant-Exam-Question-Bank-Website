@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>감쇠비(damping ratio)를 증가시키면 최대 오버슈트(maximum overshoot)는 감소한다.</choice_text>
-          <commentary>오버슈트는 감소한다.</commentary>
+          <commentary>감쇠비가 커지면 최대 오버슈트 e^(-ζπ/√(1-ζ²))가 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>감쇠비(damping ratio)를 고정하고 비감쇠 고유진동주파수(undamped natural frequency)를 증가시키면 상승시간(rise time)은 감소한다.</choice_text>
-          <commentary>상승시간은 감소한다.</commentary>
+          <commentary>ζ를 고정하고 ωn을 키우면 응답이 빨라져 상승시간이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>감쇠비(damping ratio)를 고정하고 비감쇠 고유진동주파수(undamped natural frequency)를 증가시키면 정착시간(settling time)은 증가한다.</choice_text>
-          <commentary>정착시간은 감소하므로 옳지 않아 정답이다.</commentary>
+          <commentary>정착시간 ts ≒ 4/(ζωn)이므로 ωn을 키우면 감소한다. 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>s평면의 좌반평면(left half plane)에 복소극은 부족감쇠(underdamped) 응답을 일으킨다.</choice_text>
-          <commentary>복소극은 부족감쇠 응답을 낸다.</commentary>
+          <commentary>좌반평면 복소극은 감쇠 진동하는 부족감쇠 응답을 일으키므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left[ \begin{matrix}\dot{x_{1}} \\ \dot{x_{2}}\end{matrix} \right] = {\left [ \begin{matrix}0 &amp; 1 \\ - \frac{k}{m} &amp; - \frac{c}{m}\end{matrix} \right ] \left[ \begin{matrix}x_{1} \\ x_{2}\end{matrix} \right] + \left[ \begin{matrix}0 \\ \frac{1}{m}\end{matrix} \right] F}$</choice_text>
-          <commentary>상태공간 모델로 옳으므로 정답이다.</commentary>
+          <commentary>ẋ₁ = x₂, ẋ₂ = -(k/m)x₁ - (c/m)x₂ + F/m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left[ \begin{matrix}\dot{x_{1}} \\ \dot{x_{2}}\end{matrix} \right] = {\left [ \begin{matrix}0 &amp; 1 \\ - \frac{c}{m} &amp; - \frac{k}{m}\end{matrix} \right ] \left[ \begin{matrix}x_{1} \\ x_{2}\end{matrix} \right] + \left[ \begin{matrix}0 \\ \frac{1}{m}\end{matrix} \right] F}$</choice_text>
-          <commentary>k와 c의 위치가 뒤바뀌었다.</commentary>
+          <commentary>k/m과 c/m의 위치가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\left[ \begin{matrix}\dot{x_{1}} \\ \dot{x_{2}}\end{matrix} \right] = {\left [ \begin{matrix}- \frac{k}{m} &amp; - \frac{c}{m} \\ 0 &amp; 1\end{matrix} \right ] \left[ \begin{matrix}x_{1} \\ x_{2}\end{matrix} \right] + \left[ \begin{matrix}\frac{1}{m} \\ 1\end{matrix} \right] F}$</choice_text>
-          <commentary>행렬 구조가 틀렸다.</commentary>
+          <commentary>행렬의 행 순서와 입력 행렬이 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\left[ \begin{matrix}\dot{x_{1}} \\ \dot{x_{2}}\end{matrix} \right] = {\left [ \begin{matrix}- \frac{c}{m} &amp; - \frac{k}{m} \\ 0 &amp; 1\end{matrix} \right ] \left[ \begin{matrix}x_{1} \\ x_{2}\end{matrix} \right] + \left[ \begin{matrix}\frac{1}{m} \\ 1\end{matrix} \right] F}$</choice_text>
-          <commentary>행렬 구조가 틀렸다.</commentary>
+          <commentary>행렬과 입력 행렬이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -148,15 +148,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} ( e^{- t} - e^{- 3 t} )$</choice_text>
-          <commentary>(1/2)(e^-t - e^-3t)이므로 정답이다.</commentary>
+          <commentary>1/((s + 1)(s + 3)) = (1/2)[1/(s + 1) - 1/(s + 3)]이므로 y(t) = (1/2)(e^(-t) - e^(-3t))이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{2} ( - e^{- t} + e^{- 3 t} )$</choice_text>
-          <commentary>계수와 부호가 다르다.</commentary>
+          <commentary>계수와 부호가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{2} ( e^{- t} - e^{- 3 t} )$</choice_text>
-          <commentary>계수가 다르다.</commentary>
+          <commentary>계수 3/2가 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -181,19 +181,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>극점은 시스템의 안정성을 결정한다.</choice_text>
-          <commentary>극점은 안정성을 결정한다.</commentary>
+          <commentary>극점의 위치가 시스템의 안정성을 결정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>극점이 s평면의 우반평면(right half plane)에 위치하면 불안정하고 허수축으로부터 멀어질수록 발산 속도가 빨라진다.</choice_text>
-          <commentary>우반평면 극점은 불안정하다.</commentary>
+          <commentary>우반평면 극점은 불안정하며 실수부가 클수록 빨리 발산하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>s평면의 우반평면(right half plane)에 영점이 추가되면 비최소위상(nonminimum phase) 시스템이 된다.</choice_text>
-          <commentary>우반평면 영점은 비최소위상이 된다.</commentary>
+          <commentary>우반평면 영점이 있으면 비최소위상 시스템이 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>s평면의 우반평면(right half plane)에 영점이 추가되면 단위계단 입력에 대하여 오버슈트(overshoot) 현상을 일으킨다.</choice_text>
-          <commentary>언더슈트를 일으키므로 옳지 않아 정답이다.</commentary>
+          <commentary>우반평면 영점은 초기에 반대 방향으로 움직이는 언더슈트를 일으킨다. 오버슈트라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -250,19 +250,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 2이면 이득여유가 20 log 3 dB이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>3이므로 정답이다.</commentary>
+          <commentary>위상교차주파수 √2에서 |L| = K/6이므로 6/K = 2에서 K = 3이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 4이면 이득여유가 20 log 1.5 dB이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 5이면 이득여유가 20 log 1.2 dB이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -352,19 +352,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>점근선의 교차점은 $- 1$이다.</choice_text>
-          <commentary>점근선 교차점은 -1이다.</commentary>
+          <commentary>점근선 교차점은 (0 - 2 - 1 - 1)/4 = -1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>실수축 위의 구간 $- 2 \leq s \leq 0$은 근궤적에 포함된다.</choice_text>
-          <commentary>-2 ≤ s ≤ 0은 근궤적에 포함된다.</commentary>
+          <commentary>-2와 0 사이는 오른쪽에 극점이 1개(홀수)이므로 근궤적에 포함되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>양의 허수부를 갖는 복소 극점에서의 출발각도는 $- 60$ °이다.</choice_text>
-          <commentary>출발각은 -90°이므로 옳지 않아 정답이다.</commentary>
+          <commentary>출발각은 180° - (116.6° + 63.4° + 90°) = -90°이다. -60°라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>근궤적이 허수축과 교차한다.</choice_text>
-          <commentary>근궤적은 허수축과 교차한다.</commentary>
+          <commentary>극점 4개, 영점 0개로 점근선이 ±45°, ±135°이므로 근궤적이 허수축과 교차하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -425,19 +425,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시간지연(time delay)을 갖는 시스템이다.</choice_text>
-          <commentary>시간지연을 갖는다.</commentary>
+          <commentary>입력이 u(t - 1)이므로 1초의 시간지연을 가져 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>선형시변(linear time-varying) 시스템이다.</choice_text>
-          <commentary>선형시불변이므로 옳지 않아 정답이다.</commentary>
+          <commentary>계수가 상수이므로 선형시불변 시스템이다. 시변이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모든 유한한 크기의 입력에 대하여 출력도 유한하다.</choice_text>
-          <commentary>BIBO 안정하다.</commentary>
+          <commentary>극점이 -1로 안정하므로 유한 입력에 대해 출력이 유한하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>입력과 출력 관계를 전달함수로 나타낼 수 있다.</choice_text>
-          <commentary>전달함수로 나타낼 수 있다.</commentary>
+          <commentary>전달함수 e^(-s)/(s + 1)로 나타낼 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -493,19 +493,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>－3.5</choice_text>
-          <commentary>0.5 + (-4)이다.</commentary>
+          <commentary>a = 0.5, b = -4이면 합이 -3.5로 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>－3.25</choice_text>
-          <commentary>-3.25는 될 수 없으므로 정답이다.</commentary>
+          <commentary>가능한 합은 -1.5, -3.5, -1.75, -3.75뿐이므로 -3.25는 될 수 없어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>－1.75</choice_text>
-          <commentary>0.25 + (-2)이다.</commentary>
+          <commentary>a = 0.25, b = -2이면 합이 -1.75로 가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>－1.5</choice_text>
-          <commentary>0.5 + (-2)이다.</commentary>
+          <commentary>a = 0.5, b = -2이면 합이 -1.5로 가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -528,19 +528,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 $\sin 2 t$</choice_text>
-          <commentary>2, sin 2t이므로 정답이다.</commentary>
+          <commentary>실수부 4 - ω² = 0에서 ω = 2이고 T(j2) = -j이므로 y = sin 2t이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2 $- \sin 2 t$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>크기 1, 위상 -90°이면 cos(2t - 90°) = sin 2t이므로 -sin 2t는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>4 $\sin 4 t$</choice_text>
-          <commentary>주파수가 다르다.</commentary>
+          <commentary>ω = 4에서는 위상이 -90°가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4 $- \sin 4 t$</choice_text>
-          <commentary>주파수와 부호가 다르다.</commentary>
+          <commentary>ω = 4에서는 위상이 -90°가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -564,19 +564,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 &lt; K &lt; 7 . 5$ $\frac{K - 4}{K - 3}$</choice_text>
-          <commentary>K 범위가 다르다.</commentary>
+          <commentary>K &lt; 7.5이면 상수항 0.5K - 3.75가 음수가 되어 조건을 만족하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$0 &lt; K &lt; 7 . 5$ $\frac{K - 3}{K - 2}$</choice_text>
-          <commentary>K 범위와 오차가 다르다.</commentary>
+          <commentary>K의 범위와 오차식이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$K &gt; 7 . 5$ $\frac{K - 4}{K - 3}$</choice_text>
-          <commentary>K &gt; 7.5, (K - 4)/(K - 3)이므로 정답이다.</commentary>
+          <commentary>K &gt; 7.5에서 모든 극점의 실수부가 -0.5보다 작고 Ess = (K - 4)/(K - 3)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$K &gt; 7 . 5$ $\frac{K - 3}{K - 2}$</choice_text>
-          <commentary>오차식이 다르다.</commentary>
+          <commentary>오차식이 직류 이득 1/(K - 3)과 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -634,19 +634,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>지상보상기(lag compensator)이고, 보상기의 영점은 －0.09이다.</choice_text>
-          <commentary>지상보상기, 영점 -0.09이므로 정답이다.</commentary>
+          <commentary>z/p = 9에서 z = 0.09이고 영점이 극점보다 원점에서 멀어 지상보상기이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>지상보상기(lag compensator)이고, 보상기의 영점은 －0.05이다.</choice_text>
-          <commentary>영점 위치가 다르다.</commentary>
+          <commentary>영점 -0.05이면 직류 이득이 5배에 그쳐 오차 0.1을 만족하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>진상보상기(lead compensator)이고, 보상기의 영점은 －0.09이다.</choice_text>
-          <commentary>진상보상기가 아니다.</commentary>
+          <commentary>극점이 영점보다 원점에 가까우므로 진상보상기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>진상보상기(lead compensator)이고, 보상기의 영점은 －0.05이다.</choice_text>
-          <commentary>진상보상기가 아니며 영점도 다르다.</commentary>
+          <commentary>진상보상기가 아니며 영점 위치도 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

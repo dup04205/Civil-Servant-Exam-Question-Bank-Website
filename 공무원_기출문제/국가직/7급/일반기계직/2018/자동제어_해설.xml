@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>상태변수는 제어대상의 상태를 설명하는데 필요한 임의의 최소 변수들의 집합이다.</choice_text>
-          <commentary>상태변수의 정의로 옳다.</commentary>
+          <commentary>상태변수는 시스템 상태를 기술하는 최소 변수 집합이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>제어대상의 출력은 센서로부터 측정되어야만 하는 상태변수이다.</choice_text>
-          <commentary>출력이 반드시 측정되는 상태변수는 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>출력은 상태변수의 함수 y = Cx로 표현되며 반드시 측정해야 하는 상태변수는 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>제어입력은 제어대상의 출력 값을 활용하여 제어대상에 인가되는 제어기의 출력이다.</choice_text>
-          <commentary>제어입력의 정의로 옳다.</commentary>
+          <commentary>제어입력은 출력 정보를 활용한 제어기의 출력이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>피드백 제어는 제어대상의 출력과 기준입력의 차이를 감소시킬 수 있는 제어 방법이다.</choice_text>
-          <commentary>피드백 제어의 목적으로 옳다.</commentary>
+          <commentary>피드백 제어는 출력과 기준입력의 오차를 줄이는 방법이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -88,19 +88,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ은 옳지 않다. T가 커지면 시정수가 커져 상승시간이 길어지기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>ㄱ, ㄹ이므로 정답이다.</commentary>
+          <commentary>ㄱ, ㄹ이 옳으므로 정답이다. jω축에 가까운 안정한 영점은 오버슈트를 키우고, 대역폭이 크면 응답이 빠르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄴ은 옳지 않다. 안정 시스템의 극점 실수부는 음수여야 하기 때문이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>ㄴ은 옳지 않다.</commentary>
+          <commentary>ㄴ이 포함되어 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -234,19 +234,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$120 \sin ( 3 t - 45 ^\circ )$</choice_text>
-          <commentary>크기가 다르다.</commentary>
+          <commentary>크기는 √6배이므로 120은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$20 \sqrt{6} \sin ( 3 t - 15 ^\circ )$</choice_text>
-          <commentary>위상이 다르다.</commentary>
+          <commentary>위상 변화는 -75°이므로 -15°는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$120 \sin ( 3 t - 15 ^\circ )$</choice_text>
-          <commentary>크기와 위상이 다르다.</commentary>
+          <commentary>크기와 위상이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$20 \sqrt{6} \sin ( 3 t - 45 ^\circ )$</choice_text>
-          <commentary>20√6 sin(3t - 45°)이므로 정답이다.</commentary>
+          <commentary>|T(j3)| = √6, ∠T(j3) = -75°이므로 20√6 sin(3t - 45°)이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -303,19 +303,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{s}{( s + 1 ) ( s + 2 )}$</choice_text>
-          <commentary>s/((s + 1)(s + 2))이므로 정답이다.</commentary>
+          <commentary>G(s)(s + 1)/s = 1/(s + 2)에서 G(s) = s/((s + 1)(s + 2))이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s + 2}$</choice_text>
-          <commentary>출력 자체의 라플라스 변환이다.</commentary>
+          <commentary>1/(s + 2)는 출력의 라플라스 변환이며 전달함수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{s + 1}{s ( s + 2 )}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>이 전달함수로는 출력이 e^(-2t)가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{s ( s + 2 )}$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>이 전달함수로는 출력이 e^(-2t)가 되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -372,19 +372,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정적속도오차상수(static velocity error constant) $K_{v} = \omega_{1}$이다.</choice_text>
-          <commentary>Kv = ω1이다.</commentary>
+          <commentary>1형 시스템의 저주파 점근선이 0 dB과 만나는 주파수가 Kv이므로 Kv = ω₁이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>개루프 전달함수 $G ( s ) = \frac{\omega_{1}}{s ( s + \omega_{2} )}$이다.</choice_text>
-          <commentary>분자가 ω1ω2이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>Kv = ω₁이 되려면 G(s) = ω₁ω₂/(s(s + ω₂))이어야 한다. 분자를 ω₁로 쓴 것은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>폐루프 전달함수의 고유주파수(undamped natural frequency) $\omega_{n} = \sqrt{\omega_{1} \omega_{2}}$이다.</choice_text>
-          <commentary>ωn = √(ω1ω2)이다.</commentary>
+          <commentary>특성방정식 s² + ω₂s + ω₁ω₂ = 0에서 ωn = √(ω₁ω₂)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>폐루프 전달함수의 감쇠비(damping ratio) $\zeta = \frac{1}{2} \sqrt{\frac{\omega_{2}}{\omega_{1}}}$이다.</choice_text>
-          <commentary>감쇠비 식으로 옳다.</commentary>
+          <commentary>2ζωn = ω₂에서 ζ = (1/2)√(ω₂/ω₁)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -409,19 +409,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템의 극점은 $- 30$이며 안정하다.</choice_text>
-          <commentary>극점 -30으로 안정하다.</commentary>
+          <commentary>극점은 -30이고 좌반면에 있어 안정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>크기가 유한(bounded)한 입력신호에 대하여 출력신호는 유한하다.</choice_text>
-          <commentary>BIBO 안정하다.</commentary>
+          <commentary>안정한 선형 시스템이므로 BIBO 안정하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>선형 시불변 시스템이다.</choice_text>
-          <commentary>선형 시불변이다.</commentary>
+          <commentary>계수가 상수인 선형 미분방정식이므로 선형 시불변 시스템이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>단위계단 입력에 대한 정상상태 출력은 $1$이며 과도응답(transient response)에 진동파형을 포함한다.</choice_text>
-          <commentary>정상상태 출력이 2/3이고 진동이 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>정상상태 출력은 20/30 = 2/3이고 1차 시스템이라 진동하지 않는다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -549,19 +549,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 1 , K_{D} &gt; 0$</choice_text>
-          <commentary>조건이 부족하다.</commentary>
+          <commentary>KP &gt; 1, KD &gt; 0만으로는 KP &gt; KD 조건을 보장하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 0 , K_{D} &gt; 0$</choice_text>
-          <commentary>조건이 부족하다.</commentary>
+          <commentary>KP &gt; 0, KD &gt; 0만으로는 KP &gt; KD 조건을 보장하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$K_{P} &gt; K_{D} &gt; 0$</choice_text>
-          <commentary>KP &gt; KD &gt; 0이므로 정답이다.</commentary>
+          <commentary>z² + KDz + (KP - KD) = 0이 안정하려면 KD &gt; 0, KP &gt; KD이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$K_{P} &gt; 0 , K_{D} &gt; - 0 . 5$</choice_text>
-          <commentary>조건이 맞지 않다.</commentary>
+          <commentary>KD가 음수이면 근의 실수부가 -1보다 커질 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -619,19 +619,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$3$ $0$ $0$</choice_text>
-          <commentary>우반면 극점이 있다.</commentary>
+          <commentary>우반면 극점이 1개 있으므로 좌반면 3개는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2$ $1$ $0$</choice_text>
-          <commentary>2, 1, 0이므로 정답이다.</commentary>
+          <commentary>루스 표 제1열의 부호 변화가 1회이므로 좌반면 2개, 우반면 1개, 허수축 0개이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1$ $1$ $1$</choice_text>
-          <commentary>jω축 극점은 없다.</commentary>
+          <commentary>허수축 위 극점은 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0$ $2$ $1$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>좌반면 극점은 2개이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -690,19 +690,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1$ $5$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>l₂ = 5이면 상수항이 1 - 28 + 5 = -22가 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1$ $29$</choice_text>
-          <commentary>l1이 다르다.</commentary>
+          <commentary>l₁ = 1이면 s의 계수가 -3이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$7$ $5$</choice_text>
-          <commentary>l2가 다르다.</commentary>
+          <commentary>l₂ = 5이면 상수항이 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$7$ $29$</choice_text>
-          <commentary>7, 29이므로 정답이다.</commentary>
+          <commentary>l₁ - 4 = 3에서 l₁ = 7, 1 - 28 + l₂ = 2에서 l₂ = 29이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

@@ -35,15 +35,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{b}{s^{2} + a}$</choice_text>
-          <commentary>a의 부호가 반대이다.</commentary>
+          <commentary>분모의 a 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{b}{s^{2} - a}$</choice_text>
-          <commentary>b/(s² - a)이므로 정답이다.</commentary>
+          <commentary>s²X₁ = aX₁ + bU에서 Y/U = b/(s² - a)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{a}{s^{2} + b}$</choice_text>
-          <commentary>a와 b가 뒤바뀌었다.</commentary>
+          <commentary>a와 b의 위치가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{- b}{s^{2} - a}$</choice_text>
@@ -106,19 +106,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 - e^{- 2 t} ( \cos ( 2 t ) + \sin ( 2 t ) )$</choice_text>
-          <commentary>1 - e^-2t(cos 2t + sin 2t)이므로 정답이다.</commentary>
+          <commentary>G(s) = 8/(s² + 4s + 8)의 계단응답은 1 - e^(-2t)(cos 2t + sin 2t)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 - \frac{1}{2} e^{- 2 t} ( \cos ( 2 t ) + \sin ( 2 t ) )$</choice_text>
-          <commentary>계수가 다르다.</commentary>
+          <commentary>계수 1/2이 들어가면 y(0) = 0의 초기조건을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1 - e^{- 5 t} ( \cos ( 2 t ) + \sin ( 2 t ) )$</choice_text>
-          <commentary>감쇠율이 다르다.</commentary>
+          <commentary>감쇠 지수가 -2가 아니라 -5여서 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 - \frac{1}{2} e^{- 2 t} ( \cos ( 5 t ) + \sin ( 5 t ) )$</choice_text>
-          <commentary>진동 주파수와 계수가 다르다.</commentary>
+          <commentary>진동 주파수와 계수가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -143,19 +143,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템의 전달함수 $\frac{X ( s )}{R ( s )}$는 $\frac{20}{s + 20}$이다.</choice_text>
-          <commentary>전달함수로 옳다.</commentary>
+          <commentary>sX + 20X = 20R에서 X/R = 20/(s + 20)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>크기가 유한한(bounded) 입력신호에 대하여 이 시스템의 출력신호는 유한하다.</choice_text>
-          <commentary>BIBO 안정하다.</commentary>
+          <commentary>극점 -20의 안정한 시스템이므로 BIBO 안정하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>이 시스템은 고주파통과필터(high-pass filter)의 형태를 취한다.</choice_text>
-          <commentary>저역통과필터이므로 옳지 않아 정답이다.</commentary>
+          <commentary>20/(s + 20)은 고주파를 감쇠시키는 저역통과필터이다. 고역통과필터라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>단위 계단(unit step) 입력에 대한 정상상태 출력값은 1이다.</choice_text>
-          <commentary>정상상태 출력은 1이다.</commentary>
+          <commentary>직류 이득이 20/20 = 1이므로 정상상태 출력은 1이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\pm j2$ $3$</choice_text>
-          <commentary>교차점과 K가 다르다.</commentary>
+          <commentary>K = 3에서는 s¹ 행이 0이 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\pm j2 \sqrt{2}$ $3$</choice_text>
-          <commentary>K가 다르다.</commentary>
+          <commentary>K 값이 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\pm j2$ $6$</choice_text>
-          <commentary>교차점이 다르다.</commentary>
+          <commentary>교차점 좌표가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\pm j2 \sqrt{2}$ $6$</choice_text>
-          <commentary>±j2√2, 6이므로 정답이다.</commentary>
+          <commentary>3(2 + K) = 4K에서 K = 6이고 3s² + 24 = 0에서 s = ±j2√2이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -351,19 +351,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{\sqrt{\alpha} T}$ $\sin^{- 1} \frac{\alpha - 1}{\alpha + 1}$</choice_text>
-          <commentary>1/(√αT), sin⁻¹((α - 1)/(α + 1))이므로 정답이다.</commentary>
+          <commentary>ωm = 1/(√α·T), Φm = sin⁻¹((α - 1)/(α + 1))이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\alpha \sqrt{T}}$ $\sin^{- 1} \frac{\alpha - 1}{\alpha + 1}$</choice_text>
-          <commentary>ωm이 다르다.</commentary>
+          <commentary>ωm의 형태가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\sqrt{\alpha} T}$ $\sin^{- 1} \frac{\alpha + 1}{\alpha - 1}$</choice_text>
-          <commentary>Φm 식이 뒤집혔다.</commentary>
+          <commentary>Φm의 분수가 뒤집혀 1보다 커지므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\alpha \sqrt{T}}$ $\sin^{- 1} \frac{\alpha + 1}{\alpha - 1}$</choice_text>
-          <commentary>둘 다 다르다.</commentary>
+          <commentary>ωm과 Φm이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -384,19 +384,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>실수축에서의 근궤적은 $s = 0$과 $s = - 4$ 사이에서만 존재한다.</choice_text>
-          <commentary>실수축 근궤적으로 옳다.</commentary>
+          <commentary>실수축 근궤적은 오른쪽 극점 수가 홀수인 0과 -4 사이에만 존재하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>점근선은 실수축과 $- 3$에서 만난다.</choice_text>
-          <commentary>점근선 교차점은 -3이다.</commentary>
+          <commentary>점근선 교차점은 (0 - 4 - 4 - 4)/4 = -3이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>점근선의 개수는 $4$개이고, 점근선이 실수축과 만나는 각도는 실수축을 기준으로 $\pm 45 ^\circ$, $\pm 135 ^\circ$이다.</choice_text>
-          <commentary>점근선 개수와 각도로 옳다.</commentary>
+          <commentary>극점 4개, 영점 0개이므로 점근선 4개가 ±45°, ±135°로 뻗어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>복소극점 $s = - 4 + j4$ 에서의 근궤적의 출발각은 $- 90 ^\circ$이다.</choice_text>
-          <commentary>출발각은 -135°이므로 옳지 않아 정답이다.</commentary>
+          <commentary>출발각은 180° - (135° + 90° + 90°) = -135°이다. -90°라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -587,19 +587,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{100 + a}{b}$ $\frac{16}{b}$</choice_text>
-          <commentary>(100 + a)/b, 16/b이므로 정답이다.</commentary>
+          <commentary>ωn = 10, 2ζωn = 16이므로 k₁ = (100 + a)/b, k₂ = 16/b이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{100 - a}{b}$ $\frac{16}{b}$</choice_text>
-          <commentary>k1의 부호가 다르다.</commentary>
+          <commentary>bk₁ - a = 100에서 a의 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{100 + a}{b}$ $- \frac{16}{b}$</choice_text>
-          <commentary>k2의 부호가 다르다.</commentary>
+          <commentary>k₂의 부호가 반대여서 불안정해진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{100 - a}{b}$ $- \frac{16}{b}$</choice_text>
-          <commentary>k1과 k2가 모두 다르다.</commentary>
+          <commentary>k₁과 k₂가 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -691,19 +691,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 2,000</choice_text>
-          <commentary>10, 2,000이므로 정답이다.</commentary>
+          <commentary>K = 200a, K/(200 + 20a) = 5에서 a = 10, K = 2,000이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10 200</choice_text>
-          <commentary>K가 다르다.</commentary>
+          <commentary>K = 200이면 1형 조건 K = 200a를 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0 1,000</choice_text>
-          <commentary>a가 다르다.</commentary>
+          <commentary>a = 0이면 K = 0이 되어 모순이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0 40</choice_text>
-          <commentary>a와 K가 모두 다르다.</commentary>
+          <commentary>a = 0이면 1형 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

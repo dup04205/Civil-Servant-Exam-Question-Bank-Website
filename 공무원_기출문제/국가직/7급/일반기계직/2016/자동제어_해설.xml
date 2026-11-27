@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시간응답은 과도응답과 정상상태응답으로 나누어진다.</choice_text>
-          <commentary>과도응답과 정상상태응답으로 나뉜다.</commentary>
+          <commentary>시간응답은 과도응답과 정상상태응답으로 나뉘므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>시간응답의 최댓값은 감쇠비(damping ratio)에 의존한다.</choice_text>
-          <commentary>최댓값은 감쇠비에 의존한다.</commentary>
+          <commentary>최대 오버슈트는 감쇠비의 함수이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정착시간을 정상상태응답의 $\pm$2 % 이내에 도달하는 시간으로 정의할 때, 정착시간은 시스템 시정수의 약 4배이다.</choice_text>
-          <commentary>2% 정착시간은 시정수의 약 4배이다.</commentary>
+          <commentary>2% 정착시간은 ts ≒ 4/(ζωn)으로 시정수의 약 4배이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>시간응답은 선형시스템에서만 존재한다.</choice_text>
-          <commentary>비선형시스템에도 존재하므로 옳지 않아 정답이다.</commentary>
+          <commentary>시간응답은 비선형시스템에도 존재한다. 선형시스템에서만 존재한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -105,19 +105,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－2</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>-2는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>－1</choice_text>
-          <commentary>-1이므로 정답이다.</commentary>
+          <commentary>a = 0, b = -1이므로 a + b = -1이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>0은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>1은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -141,19 +141,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2 4</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>k₁ = 2이면 상수항이 3이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4 2</choice_text>
-          <commentary>k1과 k2가 뒤바뀌었다.</commentary>
+          <commentary>k₂ = 4이면 s의 계수가 6이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2 7</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>k₂ = 7이면 s의 계수가 9가 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>7 2</choice_text>
-          <commentary>7, 2이므로 정답이다.</commentary>
+          <commentary>s² + (2 + k₂)s + (1 + k₁) = s² + 4s + 8에서 k₁ = 7, k₂ = 2이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$b = 0$ 또는 $b = 1$</choice_text>
-          <commentary>제어 불가능한 조건이다.</commentary>
+          <commentary>b = 0 또는 1일 때는 오히려 제어 불가능하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$b = 0$ 또는 $b = 2$</choice_text>
-          <commentary>조건이 맞지 않다.</commentary>
+          <commentary>b = 2는 제어 불가능 조건이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$b \neq 0$ 이고 $b \neq 1$</choice_text>
-          <commentary>b ≠ 0이고 b ≠ 1이므로 정답이다.</commentary>
+          <commentary>행렬식 2b(1 - b) ≠ 0이어야 하므로 b ≠ 0이고 b ≠ 1이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$b \neq 0$ 이고 $b \neq 2$</choice_text>
-          <commentary>조건이 맞지 않다.</commentary>
+          <commentary>b = 2를 제외할 이유가 없고 b = 1을 제외해야 한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -242,19 +242,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
-          <commentary>K 범위가 반대이다.</commentary>
+          <commentary>K &gt; 6,000이면 불안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{200}$</choice_text>
-          <commentary>0 &lt; K &lt; 6,000, √200이므로 정답이다.</commentary>
+          <commentary>0 &lt; K &lt; 6,000에서 안정하고 안정한계 주파수는 √200 rad/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$K &gt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
-          <commentary>둘 다 다르다.</commentary>
+          <commentary>K 범위와 주파수가 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0 &lt; K &lt; 6000 , \omega_{s} = \sqrt{20}$</choice_text>
-          <commentary>주파수가 다르다.</commentary>
+          <commentary>안정한계 주파수는 √20이 아니라 √200이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -310,19 +310,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2}$ $\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>둘 다 다르다.</commentary>
+          <commentary>공진 주파수와 최댓값이 모두 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{2}{\sqrt{3}}$</choice_text>
-          <commentary>1/√2, 2/√3이므로 정답이다.</commentary>
+          <commentary>ωr = 1/√2 rad/s, Mr = 2/√3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{2}$ $\frac{2}{\sqrt{3}}$</choice_text>
-          <commentary>주파수가 다르다.</commentary>
+          <commentary>공진 주파수는 √2가 아니라 1/√2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{\sqrt{2}}$ $\frac{\sqrt{3}}{2}$</choice_text>
-          <commentary>최댓값이 다르다.</commentary>
+          <commentary>최댓값은 √3/2가 아니라 2/√3이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -346,19 +346,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 &lt; K &lt; 8$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K &lt; 4이면 근의 실수부가 -2보다 커질 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$4 &lt; K &lt; 8$</choice_text>
-          <commentary>4 &lt; K &lt; 8이므로 정답이다.</commentary>
+          <commentary>z² + (K - 4)z + (16 - 2K) = 0이 안정하려면 4 &lt; K &lt; 8이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- 4 &lt; K &lt; 8$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K가 음수이면 불안정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- 8 &lt; K &lt; 4$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K &lt; 4이면 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -382,19 +382,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 % 정착시간(settling time)</choice_text>
-          <commentary>정착시간이므로 정답이다.</commentary>
+          <commentary>비례제어는 ζωn을 바꾸지 않으므로 정착시간 4/(ζωn)이 가장 적게 영향을 받아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>상승시간(rising time)</choice_text>
-          <commentary>상승시간은 ωn 증가로 짧아진다.</commentary>
+          <commentary>상승시간은 ωn이 커지면 줄어들어 영향을 받는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>첨두시간(peak time)</choice_text>
-          <commentary>첨두시간은 짧아진다.</commentary>
+          <commentary>첨두시간 π/(ωn√(1 - ζ²))은 ωn이 커지면 줄어들어 영향을 받는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>최대 오버슈트(maximum overshoot)</choice_text>
-          <commentary>감쇠비 감소로 오버슈트가 커진다.</commentary>
+          <commentary>최대 오버슈트는 감쇠비가 줄어 증가하므로 영향을 받는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -450,19 +450,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$K$가 0에서 ∞로 증가함에 따라 근궤적은 개루프 극점에서 출발하여 개루프 영점에 종착한다.</choice_text>
-          <commentary>극점에서 출발하여 영점에 종착한다.</commentary>
+          <commentary>근궤적은 K가 0일 때 개루프 극점에서 출발해 K가 ∞일 때 영점에 도착하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>근궤적의 개수는 폐루프 극점의 개수와 같다.</choice_text>
-          <commentary>근궤적 개수는 폐루프 극점 수와 같다.</commentary>
+          <commentary>근궤적의 분지 수는 폐루프 극점 수와 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>점근선의 개수는 개루프 유한극점 $n$과 유한영점 $m$의 차, 즉 ($n - m$)개이다.</choice_text>
-          <commentary>점근선은 n - m개이다.</commentary>
+          <commentary>점근선의 개수는 n - m이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>실수축상의 근궤적은 임의의 구간에서 우측에 있는 실수축상의 개루프 극점의 개수가 홀수이면 그 구간에서 근궤적이 존재한다.</choice_text>
-          <commentary>극점과 영점을 함께 세야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>실수축 근궤적은 오른쪽의 실수 극점과 영점 개수의 합이 홀수일 때 존재한다. 극점만 센다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -485,19 +485,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$K = 0 . 1 a$</choice_text>
-          <commentary>이득여유 20dB에 해당한다.</commentary>
+          <commentary>K = 0.1a이면 이득여유가 20 dB이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$K = 0 . 01 a$</choice_text>
-          <commentary>K = 0.01a이므로 정답이다.</commentary>
+          <commentary>이득여유 a/K = 100(40 dB)이므로 K = 0.01a이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$K = 0 . 05 a$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 0.05a이면 이득여유가 약 26 dB이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$K = 0 . 5 a$</choice_text>
-          <commentary>맞지 않다.</commentary>
+          <commentary>K = 0.5a이면 이득여유가 약 6 dB이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -694,19 +694,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
-          <commentary>B 행렬의 순서가 뒤바뀌었다.</commentary>
+          <commentary>입력 행렬의 순서가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\begin{bmatrix}A_{1} &amp; 0 \\ B_{2} C_{1} &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
-          <commentary>두 행렬이 모두 맞으므로 정답이다.</commentary>
+          <commentary>ẋ₁ = A₁x₁ + B₁u, ẋ₂ = B₂C₁x₁ + A₂x₂ + B₂D₁u이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{1} \\ B_{2} D_{1}\end{matrix} \right]$</choice_text>
-          <commentary>A 행렬의 결합 위치가 다르다.</commentary>
+          <commentary>B₂C₁의 위치가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\begin{bmatrix}A_{1} &amp; B_{2} C_{1} \\ 0 &amp; A_{2}\end{bmatrix}}$ $\left[ \begin{matrix}B_{2} D_{1} \\ B_{1}\end{matrix} \right]$</choice_text>
-          <commentary>A와 B가 모두 다르다.</commentary>
+          <commentary>A 행렬과 B 행렬이 모두 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

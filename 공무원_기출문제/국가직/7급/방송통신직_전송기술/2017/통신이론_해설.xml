@@ -29,25 +29,24 @@
         <correct_choice_text>$x ( t ) \cos ( 2 \pi f_{0} t ) \leftrightarrow X ( f - f_{0} ) + X ( f + f_{0} )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), X ( f ), ftrightarrow X ( f ))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $x ( t )$; $X ( f )$; $x ( t - t_{0} ) \leftrightarrow X ( f ) e^{- j2 \pi ft_{0}}$; $x ( t ) e^{j2 \pi f_{0} t} \leftrightarrow X ( f - f_{0} )$; $x ( t ) * x ( t ) \leftrightarrow X^{2} ( f )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 푸리에 변환의 성질
+정답은 ④이다. cos(2πf0t) = (1/2)[e^{j2πf0t} + e^{−j2πf0t}]이므로 x(t)cos(2πf0t)의 변환은 (1/2)[X(f − f0) + X(f + f0)]이다. 계수 1/2이 빠졌다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$x ( t - t_{0} ) \leftrightarrow X ( f ) e^{- j2 \pi ft_{0}}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시간 이동 성질로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$x ( t ) e^{j2 \pi f_{0} t} \leftrightarrow X ( f - f_{0} )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주파수 이동 성질로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$x ( t ) * x ( t ) \leftrightarrow X^{2} ( f )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>컨볼루션 성질로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$x ( t ) \cos ( 2 \pi f_{0} t ) \leftrightarrow X ( f - f_{0} ) + X ( f + f_{0} )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수 1/2이 빠졌으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -63,24 +62,24 @@
         <correct_choice_text>적분기 역할을 수행한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: FM 수신기의 주파수 판별기(Frequency Discriminator))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · FM 주파수 판별기
+정답은 ②이다. 주파수 판별기는 미분기와 포락선 검파기로 이루어지며, 미분으로 FM 신호를 순시 주파수에 비례하는 진폭을 갖는 AM 형태로 바꾼다. 적분기가 아니라 미분기 역할을 한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수신신호의 순시주파수에 따라 선형적으로 변화하는 출력 전압을 발생한다.</choice_text>
-          <commentary>'수신신호의 순시주파수에 따라 선형적으로 변화하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>판별기의 출력 특성으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>적분기 역할을 수행한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>미분기 역할이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>판별기의 출력신호를 포락선 검파하여 본래의 정보신호를 검출할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>포락선 검파로 정보를 검출하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>FM 신호를 AM 신호로 변환하는 역할을 수행한다.</choice_text>
-          <commentary>'FM 신호를 AM 신호로 변환하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>FM-AM 변환으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -99,24 +98,24 @@
         <correct_choice_text>8,000</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 비트전송률, 정보, 통해, 전송할)
-정답은 ④이다. 본 문항은 비트전송률, 정보, 통해, 전송할에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 심벌전송률
+정답은 ④이다. 16-PAM은 심벌당 log2 16 = 4비트이므로 심벌전송률은 32,000/4 = 8,000 symbols/s이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>8,000</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>8,000이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -133,24 +132,24 @@
         <correct_choice_text>채널의 입력신호와 출력신호 사이의 최소 상호정보(Mutual Information)로 표현된다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: Shannon의 채널용량(Channel Capacity), 력신호 사이의 최소 상호정보(Mutual Information))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 샤논의 채널용량
+정답은 ①이다. 채널용량은 입력 분포에 대한 상호 정보량 I(X; Y)의 최댓값으로 정의된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>채널의 입력신호와 출력신호 사이의 최소 상호정보(Mutual Information)로 표현된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>최댓값이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>대역 제한된 AWGN 채널에서는 채널의 대역폭에 대하여 선형적으로 증가한다.</choice_text>
-          <commentary>'대역 제한된 AWGN 채널에서'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>C = B log2(1 + S/N)에서 SNR이 일정하면 B에 비례하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전송률의 한계를 정하는 것이지 오류의 한계를 정하는 것은 아니다.</choice_text>
-          <commentary>'전송률의 한계를 정하'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전송률의 상한을 정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>어떤 채널을 통해 전송할 수 있는 최대의 정보량을 나타내는 것이다.</choice_text>
-          <commentary>'어떤 채널을 통해 전송할 수 있'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최대 정보 전송량으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -169,24 +168,24 @@
         <correct_choice_text>1,000</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 이진, 대칭, 채널에서, 송신)
-정답은 ②이다. 본 문항은 이진, 대칭, 채널에서, 송신에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 이진 대칭 채널의 오류 비트 수
+정답은 ②이다. 오류 확률은 P(e) = 0.8 × 0.1 + 0.2 × 0.1 = 0.1이므로 오류 비트 수는 10,000 × 0.1 = 1,000개이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,000</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1,000개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8,000</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>0의 송신 개수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -202,25 +201,24 @@
         <correct_choice_text>${\frac{1}{2} \left( A + B \right)}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 의 우도(Likelihood))
-정답은 ②이다. 본 문항은 의 우도(Likelihood)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $- S$; $S$; $y_{1}$; $y_{2}$; $- S$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 최소 비트 오류 확률
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 최소 비트 오류 확률은 (1/2)(A + B)이다이다. 등확률 이진 신호에서 오류 확률은 P(0)P(e|0) + P(1)P(e|1)이며, 각 우도 함수가 판정 경계를 넘어가는 면적에 1/2을 곱해 더한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>${A + B}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\frac{1}{2} \left( A + B \right)}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\frac{1}{2} A}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${1 - A}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -237,25 +235,24 @@
         <correct_choice_text>10 0.4</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: m ( t ), min m ( t ))
-정답은 ①이다. 본 문항은 m ( t ), min m ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t )$; $x_{c} ( t ) =$; $A [ 1 + Bm_{n} ( t ) ] \cos ( 2 \pi f_{c} t )$; $A$; $B$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · AM 변조 파라미터
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 A = 10, B = 0.4이다이다. AM 신호 A[1 + Bmn(t)]에서 A는 반송파 진폭(포락선의 평균값)이고, B는 변조지수로 (최대 포락선 − 최소 포락선)/(최대 포락선 + 최소 포락선) 관계에서 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 0.4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10 0.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6 0.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6 0.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -271,24 +268,24 @@
         <correct_choice_text>FH방식의 주파수 도약 속도는 심벌 속도보다 반드시 느려야 한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: DS방식은 원근문제(Near-Far Problem))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · DS 방식과 FH 방식
+정답은 ③이다. FH 방식은 도약 속도가 심벌 속도보다 느린 저속 도약(SFH)과 빠른 고속 도약(FFH)이 모두 가능하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>DS방식은 PN부호 발생기가 필요하며, 송신기와 수신기는 같은 PN부호를 사용한다.</choice_text>
-          <commentary>'DS방식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>동일 PN 부호를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>DS방식은 원근문제(Near-Far Problem)가 발생하므로 정밀한 전력제어가 필요하다.</choice_text>
-          <commentary>'DS방식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>원근 문제 때문에 전력 제어가 필요하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>FH방식의 주파수 도약 속도는 심벌 속도보다 반드시 느려야 한다.</choice_text>
-          <commentary>'FH방식의 주파수 도약 속도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>고속 도약도 가능하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>FH방식은 주파수 합성기가 필요하다.</choice_text>
-          <commentary>'FH방식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주파수 합성기가 필요하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -307,25 +304,24 @@
         <correct_choice_text>| 1 | 0 | 1 | 1 | 0 | 1 | 1 | |---|---|---|---|---|---|---| | 0 | π | 0 | 0 | π | 0 | 0 |</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 어떤, 부호화기, 회로, 입출력)
-정답은 ③이다. 본 문항은 어떤, 부호화기, 회로, 입출력에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x_{n}$; $y_{n}$; $y_{n} = \bar{x_{n} OPLUS y_{n - 1}}$; $\pi$; $OPLUS$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · DPSK 부호화
+정답은 ③이다. yn = NOT(xn ⊕ yn−1)을 y0 = 1부터 적용하면 다음과 같다. x = 1이면 1 ⊕ 1 = 0이므로 y = 1, x = 0이면 0 ⊕ 1 = 1이므로 y = 0, x = 0이면 0 ⊕ 0 = 0이므로 y = 1, x = 1이면 y = 1, x = 0이면 y = 0, x = 0이면 y = 1, x = 1이면 y = 1이다. 따라서 출력은 1 0 1 1 0 1 1이고 전송 위상은 0 π 0 0 π 0 0이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>| 0 | 0 | 1 | 1 | 0 | 0 | 0 | |---|---|---|---|---|---|---| | π | π | 0 | 0 | π | π | π |</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>| 1 | 0 | 1 | 1 | 0 | 0 | 1 | |---|---|---|---|---|---|---| | 0 | π | 0 | 0 | π | π | 0 |</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>여섯 번째 이후가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>| 1 | 0 | 1 | 1 | 0 | 1 | 1 | |---|---|---|---|---|---|---| | 0 | π | 0 | 0 | π | 0 | 0 |</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>| 0 | 1 | 0 | 0 | 1 | 0 | 0 | |---|---|---|---|---|---|---| | π | 0 | π | π | 0 | π | π |</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -342,25 +338,24 @@
         <correct_choice_text>$- \frac{1}{4} \sin ( 2 \pi f_{0} t ) + j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 푸리에 변환된 신호 $X ( f )$의 시간 영역 표현, X ( f ))
-정답은 ③이다. 본 문항은 푸리에 변환된 신호 $X ( f )$의 시간 영역 표현, X ( f )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X ( f )$; $\frac{1}{4} \sin ( 2 \pi f_{0} t ) + j \frac{3}{4} \cos ( 2 \pi f_{0} t )$; $\frac{1}{4} \sin ( 2 \pi f_{0} t ) - j \frac{3}{4} \cos ( 2 \pi f_{0} t )$; $- \frac{1}{4} \sin ( 2 \pi f_{0} t ) + j \frac{3}{4} \cos ( 2 \pi f_{0} t )$; $- \frac{1}{4} \sin ( 2 \pi f_{0} t ) - j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 스펙트럼의 시간 영역 표현
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 시간 영역 신호는 −(1/4)sin(2πf0t) + j(3/4)cos(2πf0t)이다이다. δ(f ∓ f0)의 역변환은 e^{±j2πf0t}이며, 오일러 공식으로 cos(2πf0t) ↔ (1/2)[δ(f − f0) + δ(f + f0)], sin(2πf0t) ↔ (1/2j)[δ(f − f0) − δ(f + f0)]을 이용한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4} \sin ( 2 \pi f_{0} t ) + j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4} \sin ( 2 \pi f_{0} t ) - j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \frac{1}{4} \sin ( 2 \pi f_{0} t ) + j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- \frac{1}{4} \sin ( 2 \pi f_{0} t ) - j \frac{3}{4} \cos ( 2 \pi f_{0} t )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -379,25 +374,24 @@
         <correct_choice_text>$\left\{m_{3} , m_{1} , m_{1} , m_{2} \right\}$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 위상선도이다, 전송할, 디지털, 신호)
-정답은 ④이다. 본 문항은 위상선도이다, 전송할, 디지털, 신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x [ n ] = \left{0 , 1 , 1 , 0 , 1 , 0 , 0 , 0 \right} , n = 0 , 1 , 2 , CDOTS , 7$; $\left{m_{2} , m_{1} , m_{4} , m_{3} \right}$; $\left{m_{1} , m_{2} , m_{3} , m_{4} \right}$; $\left{m_{1} , m_{3} , m_{3} , m_{4} \right}$; $\left{m_{3} , m_{1} , m_{1} , m_{2} \right}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · QPSK 심벌 매핑
+정답은 ④이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 변조된 심벌 순서는 m3, m1, m1, m2이다이다. QPSK는 2비트씩 묶어(01, 10, 10, 00) 위상선도에 정해진 신호점에 대응시킨다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\left\{m_{2} , m_{1} , m_{4} , m_{3} \right\}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\left\{m_{1} , m_{2} , m_{3} , m_{4} \right\}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\left\{m_{1} , m_{3} , m_{3} , m_{4} \right\}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\left\{m_{3} , m_{1} , m_{1} , m_{2} \right\}$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -417,24 +411,24 @@
         <correct_choice_text>NRZ(Non-Return-to-Zero) 방식은 RZ(Return-to-Zero) 방식에 비해 더 넓은 대역폭을 사용한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 디지털 신호의 기저대역 전송을 위한 라인 코드, NRZ(Non-Return-to-Zero), 방식은 RZ(Return-to-Zero), 양극성(Polar), 단극성(Unipolar))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 라인 코드의 특성
+정답은 ①이다. NRZ는 펄스 폭이 비트 구간 전체이므로 펄스 폭이 절반인 RZ보다 대역폭이 좁다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>NRZ(Non-Return-to-Zero) 방식은 RZ(Return-to-Zero) 방식에 비해 더 넓은 대역폭을 사용한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>NRZ의 대역폭이 더 좁으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>RZ 방식은 NRZ 방식에 비해 동기 정보를 추출하기가 쉽다.</choice_text>
-          <commentary>'RZ 방식'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>RZ는 비트마다 천이가 있어 동기 추출이 쉬우므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동일한 진폭과 펄스 구간을 사용한다고 가정할 때, 양극성(Polar) NRZ 방식이 양극성 RZ 방식보다 잡음에 강하다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>NRZ의 비트 에너지가 더 커 잡음에 강하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일한 신호전력을 사용한다고 가정할 때, 단극성(Unipolar) 방식이 양극성 방식에 비해 비트오류 확률이 높다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>같은 전력이면 양극성의 신호 간 거리가 더 크므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -451,24 +445,24 @@
         <correct_choice_text>(+1, +1, +1, +1, -1, -1, -1, +1)</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: CDMA 시스템의 하향링크(Downlink), 른 채널들은 이 코드와 직교(Orthogonal))
-정답은 ①이다. 본 문항은 CDMA 시스템의 하향링크(Downlink), 른 채널들은 이 코드와 직교(Orthogonal)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 직교 부호
+정답은 ①이다. 파일럿 부호와의 내적이 0이어야 직교한다. 첫째 부호와의 내적은 1 − 1 + 1 − 1 − 1 + 1 − 1 − 1 = −2이므로 직교하지 않는다. 나머지 부호는 내적이 모두 0이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>(+1, +1, +1, +1, -1, -1, -1, +1)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직교하지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(+1, -1, +1, -1, -1, +1, -1, +1)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내적이 0으로 직교한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(-1, -1, +1, +1, -1, -1, +1, +1)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내적이 0으로 직교한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(+1, +1, -1, -1, -1, -1, +1, +1)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>내적이 0으로 직교한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -485,25 +479,24 @@
         <correct_choice_text>$X_{s} ( f ) = \frac{1}{T_{s}} \sum_{n = - \infty}^{\infty} X \left( f - \frac{n}{T_{s}} \right)$</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), X ( f ))
-정답은 ③이다. 본 문항은 x ( t ), X ( f )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t )$; $X ( f )$; $x ( t )$; $T_{s}$; $x_{s} ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 표본화 신호의 스펙트럼
+정답은 ③이다. 주기 Ts의 임펄스열로 표본화하면 스펙트럼은 원 스펙트럼이 fs = 1/Ts 간격으로 반복된 Xs(f) = (1/Ts)ΣX(f − n/Ts)가 된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$X_{s} ( f ) = \frac{1}{T_{s}} X ( f )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>반복 성분이 빠졌다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$X_{s} ( f ) = \frac{1}{T_{s}} \sum_{n = - \infty}^{\infty} X \left( f \right) \delta \left( f - nT_{s} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>형태가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$X_{s} ( f ) = \frac{1}{T_{s}} \sum_{n = - \infty}^{\infty} X \left( f - \frac{n}{T_{s}} \right)$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$X_{s} ( f ) = \frac{1}{T_{s}} \sum_{n = - \infty}^{\infty} X ( f ) \delta \left( f - \frac{n}{T_{s}} \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>형태가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -522,25 +515,24 @@
         <correct_choice_text>각 숫자가 적힌 카드를 동일한 확률로 꺼낼 때 최대의 엔트로피 값을 얻을 수 있다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 부터, 까지, 다른, 숫자)
-정답은 ③이다. 본 문항은 부터, 까지, 다른, 숫자에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $Y$; $X$; $Y$; $Y$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 카드 게임과 엔트로피
+정답은 ③이다. 10장의 카드를 같은 확률로 고를 때 엔트로피가 log2 10으로 최대가 되어 맞히기가 가장 어렵다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$Y$가 가장 맞히기 힘들게 하기 위해서는 $X$는 엔트로피 값이 최저가 되도록 카드를 선택하면 된다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>엔트로피가 최대가 되도록 선택해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$X$가 카드 한 장을 꺼내고 그 카드에 적힌 숫자가 짝수인지 홀수인지 힌트를 줬을 경우가 아무런 힌트를 주지 않는 경우보다 평균 정보량이 더 높아진다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>힌트를 주면 불확실성이 줄어 맞혀야 할 평균 정보량이 감소한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>각 숫자가 적힌 카드를 동일한 확률로 꺼낼 때 최대의 엔트로피 값을 얻을 수 있다.</choice_text>
-          <commentary>'각 숫자'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10장의 카드 중 항상 3 또는 4가 적힌 카드만 동일 확률로 꺼낸다면, 즉 3이 적힌 카드를 꺼낼 확률과 4가 적힌 카드를 꺼낼 확률이 각각 0.5이고 나머지 경우는 0이라면, 엔트로피 값은 0.5 log2가 된다.</choice_text>
-          <commentary>'10장의 카드 중 항상 3 또'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>엔트로피는 2 × 0.5log2 2 = 1 bit이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -557,24 +549,24 @@
         <correct_choice_text>FDM의 일종으로 부반송파들 간의 간섭을 방지하기 위하여 인접한 부반송파들 사이에 주파수 보호대역(Guard Band)이 필요하다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 파들 사이에 주파수 보호대역(Guard Band), 여 다중 경로로 인한 ISI(Inter Symbol Interference))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · OFDM의 특징
+정답은 ②이다. OFDM은 부반송파 간 직교성을 이용해 스펙트럼을 겹치므로 인접 부반송파 사이에 보호대역이 필요 없다. 보호대역이 필요한 것은 기존 FDM이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이산 푸리에 역변환을 사용하여 부반송파들 간의 직교성을 유지하는 OFDM 신호를 생성할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>IDFT로 생성하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>FDM의 일종으로 부반송파들 간의 간섭을 방지하기 위하여 인접한 부반송파들 사이에 주파수 보호대역(Guard Band)이 필요하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보호대역이 필요 없으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>신호의 큰 PAPR(Peak-to-Average Power Ratio)은 송신기의 전력증폭기를 포화시킬 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>높은 PAPR로 증폭기가 포화될 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일한 전송 대역폭의 단일 반송파 전송에 비하여 다중 경로로 인한 ISI(Inter Symbol Interference)의 영향을 덜 받으며, 심벌 사이에 보호시간을 삽입함으로써 ISI를 줄일 수 있다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>긴 심벌 길이와 보호 시간(CP)으로 ISI에 강하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -590,24 +582,24 @@
         <correct_choice_text>도플러 주파수 변이는 이동성으로 인하여 발생하고 반송파의 주파수가 낮을수록 변이 값이 크다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 무선 이동 통신 채널)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 무선 이동 통신 채널
+정답은 ④이다. 도플러 주파수는 fd = vfc cosθ/c로 반송파 주파수에 비례하므로, 반송파 주파수가 높을수록 변이가 크다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>한 송신기로부터 장소는 다르지만 거리가 같은 곳에 있는 수신기들의 평균 수신전력은 서로 다를 수 있다.</choice_text>
-          <commentary>'한 송신기로부터 장소'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>음영(쉐도잉) 효과로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>경로손실에 영향을 미치는 요인들로 기지국 안테나 높이, 이동국 안테나 높이, 반송파의 주파수 등이 있다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>오쿠무라-하타 모형 등의 요인으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전송신호가 서로 다른 시간 지연을 갖는 다중 전파 경로를 통해 수신기에 도달한다.</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 따라서 옳은 서술이다.</commentary>
+          <commentary>다중 경로 전파로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>도플러 주파수 변이는 이동성으로 인하여 발생하고 반송파의 주파수가 낮을수록 변이 값이 크다.</choice_text>
-          <commentary>'도플러 주파수 변이'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주파수가 높을수록 크므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -629,29 +621,24 @@
         <correct_choice_text>01 11 11</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 이 1
-2
-인 컨벌루션 부호(Convolutional Code), 를 위한 부호화기(Encoder), 기의 동작을 나타내는 상태도(State Diagram), 안의 숫자는 부호화기의 상태(State), 는 화살표에 따른 상태 천이(Transition))
-정답은 ①이다. 본 문항은 이 1
-2
-인 컨벌루션 부호(Convolutional Code), 를 위한 부호화기(Encoder), 기의 동작을 나타내는 상태도(State Diagram), 안의 숫자는 부호화기의 상태(State), 는 화살표에 따른 상태 천이(Transition)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $u_{1} u_{2}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 컨볼루션 부호 상태도
+정답은 ①이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 ㉠, ㉡, ㉢은 각각 01, 11, 11이다이다. 상태도의 각 천이 출력은 현재 입력 비트와 시프트 레지스터 상태를 생성 연결식에 따라 모듈로-2 합하여 구한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>01 11 11</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>00 11 01</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>01 10 01</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>00 10 11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -669,24 +656,24 @@
         <correct_choice_text>69</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 로 대역 제한(Band Limited), 된 10개의 기저대역(Baseband), 의 채널 간 보호대역(Guard Band))
-정답은 ④이다. 본 문항은 로 대역 제한(Band Limited), 된 10개의 기저대역(Baseband), 의 채널 간 보호대역(Guard Band)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · FDM 대역폭
+정답은 ④이다. DSB 변조 후 채널당 대역폭은 2 × 3 = 6 kHz이다. 10채널이면 60 kHz이고, 채널 사이 보호대역 9개(9 kHz)를 더해 69 kHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기저대역 합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>39</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기저대역에 보호대역을 더한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>보호대역을 빼고 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>69</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>69 kHz이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -702,25 +689,24 @@
         <correct_choice_text>$A = 2 B$를 항상 만족한다.</correct_choice_text>
         <answer_source>정답표 (책형교차대조: 일치)</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: exp ( - Bx ))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X$; $Y$; $A$; $B$; $f_{XY} ( x , y ) = A exp [ - B ( x + y ) ] , 0 \leq x &lt; \infty , 0 \leq y &lt; \infty$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 결합 확률밀도함수
+정답은 ①이다. ∫₀^∞∫₀^∞ Ae^{−B(x+y)}dxdy = A/B² = 1이므로 A = B²이다. 적분이 수렴하려면 B &gt; 0, 밀도가 양수이려면 A &gt; 0이다. 결합 밀도가 x와 y 함수의 곱으로 분리되므로 독립이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>$A = 2 B$를 항상 만족한다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>A = B²이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$f_{X} ( x ) = \frac{A}{B} exp ( - Bx )$이다.</choice_text>
-          <commentary>제시문의 "$f_{XY} ( x , y ) = A exp [ - B ( x + y ) ] , 0 \leq x &lt; \infty , 0 \leq y &lt; \infty$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>y에 대해 적분한 주변 밀도로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$f_{XY} ( x , y ) = f_{X} ( x ) f_{Y} ( y )$를 항상 만족한다.</choice_text>
-          <commentary>제시문의 "$f_{XY} ( x , y ) = A exp [ - B ( x + y ) ] , 0 \leq x &lt; \infty , 0 \leq y &lt; \infty$" 내용과 일치하므로 옳다.</commentary>
+          <commentary>분리 가능하여 독립이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$A$와 $B$는 항상 양수이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>양수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

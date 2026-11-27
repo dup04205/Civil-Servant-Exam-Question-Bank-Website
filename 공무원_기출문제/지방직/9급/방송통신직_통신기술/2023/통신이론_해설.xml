@@ -30,25 +30,24 @@
         <correct_choice_text>$- W \leq f \leq W$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 입력신호 $x ( t )$, x ( t ), y ( t ), 2 x ( t ))
-정답은 ①이다. 본 문항은 입력신호 $x ( t )$, x ( t ), y ( t ), 2 x ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t )$; $y ( t ) = 2 x ( t )$; $x ( t )$; $f$; $- W \leq f \leq W$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 선형 증폭과 스펙트럼
+정답은 ①이다. y(t) = 2x(t)이면 Y(f) = 2X(f)이므로 크기만 2배가 되고 주파수 범위는 −W ≤ f ≤ W로 그대로이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- W \leq f \leq W$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>범위가 같으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- 2 W \leq f \leq 2 W$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>크기만 변하고 대역은 넓어지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$- 3 W \leq f \leq 3 W$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역이 넓어지지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$- 4 W \leq f \leq 4 W$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역이 넓어지지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -68,25 +67,24 @@
         <correct_choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), u ( t - 1 ), h ( t ), delta ( t - 2 ), y ( t ))
-정답은 ②이다. 본 문항은 x ( t ), u ( t - 1 ), h ( t ), delta ( t - 2 ), y ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t ) = u ( t + 1 ) - u ( t - 1 )$; $h ( t ) = \delta ( t + 2 )$; $+ \delta ( t - 2 )$; $y ( t ) = x ( t ) AST h ( t )$; $u ( t )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 임펄스와의 컨볼루션
+정답은 ②이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 출력은 x(t + 2) + x(t − 2), 즉 −3 ≤ t ≤ −1과 1 ≤ t ≤ 3 구간의 높이 1인 두 사각 펄스이다이다. 임펄스 δ(t − t0)와의 컨볼루션은 신호를 t0만큼 이동시키므로, 폭 2의 사각 펄스가 −2와 +2만큼 각각 이동한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 1번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>[그림/도표 선지 2번 (첨부 이미지 참조)]</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 3번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>[그림/도표 선지 4번 (첨부 이미지 참조)]</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -103,25 +101,24 @@
         <correct_choice_text>12</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 이산(discrete), 의 rms(root mean square))
-정답은 ③이다. 본 문항은 이산(discrete), 의 rms(root mean square)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\left{14 , 2 \sqrt{10} , 14 , 12 \right}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · rms 값
+정답은 ③이다. rms = √[(14² + (2√10)² + 14² + 12²)/4] = √[(196 + 40 + 196 + 144)/4] = √(576/4) = √144 = 12이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>12</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>12이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>13</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -140,25 +137,24 @@
         <correct_choice_text>PSK</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 디지털, 데이터, 심볼당, 비트)
-정답은 ③이다. 본 문항은 디지털, 데이터, 심볼당, 비트에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\left{0 , 1 , 1 , 0 , 1 \right}$; $T$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 디지털 변조 파형 판별
+정답은 ③이다. 그림이 제공되지 않아 확인할 수 없으며, 공식 정답에 따르면 사용된 변조 방식은 PSK이다이다. 진폭과 주파수가 일정하고 비트 값에 따라 반송파의 위상(0 또는 π)만 바뀌는 파형은 PSK이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ASK</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>FSK</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>PSK</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>OOK</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공식 정답과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -175,25 +171,24 @@
         <correct_choice_text>6</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 에서만 값을 갖는 이산(discrete), 의 주기(period))
-정답은 ④이다. 본 문항은 에서만 값을 갖는 이산(discrete), 의 주기(period)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $n$; $x [ n ] = e^{j \frac{7 \pi}{3} n}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 이산 복소지수 신호의 주기
+정답은 ④이다. x[n + N] = x[n]이려면 (7π/3)N = 2πk이어야 하므로 N = 6k/7이다. N이 양의 정수가 되는 최소값은 k = 7일 때 N = 6이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>6이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -212,24 +207,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 주파수, 연속, 코사인, 신호)
-정답은 ③이다. 본 문항은 주파수, 연속, 코사인, 신호에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 표본화 신호의 스펙트럼
+정답은 ③이다. 표본화된 신호의 스펙트럼은 원 성분 ±1 Hz가 fs = 4 Hz 간격으로 반복된 ±1, 4 ± 1 = 3, 5, … Hz 등이다. 2 Hz 성분은 나타나지 않는다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>원 신호의 음의 주파수 성분이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>원 신호 성분이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>포함되지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>4 − 1 = 3 Hz 성분으로 포함된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -246,24 +241,24 @@
         <correct_choice_text>이상적인 저역통과 필터는 인과(causal) 시스템이므로 실현 가능하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 필터, 상적인 저역통과 필터는 인과(causal))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 필터의 특성
+정답은 ①이다. 이상적인 저역통과 필터의 임펄스 응답은 sinc 함수로, t &lt; 0에서도 값이 있는 비인과 시스템이므로 물리적으로 실현할 수 없다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>이상적인 저역통과 필터는 인과(causal) 시스템이므로 실현 가능하다.</choice_text>
-          <commentary>'이상적인 저역통과 필터'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비인과 시스템이라 실현 불가능하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주파수 선택 필터는 저역통과, 고역통과, 대역통과, 대역차단 필터 등으로 분류된다.</choice_text>
-          <commentary>'주파수 선택 필터'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>필터의 분류로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시간지연된 임펄스 응답을 갖는 이상적인 저역통과 필터의 위상 응답은 통과대역 내의 주파수에 따라 선형적으로 변한다.</choice_text>
-          <commentary>'시간지연된 임펄스 응답을 갖'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>지연 t0에 의한 선형 위상 −2πft0로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>이상적인 필터는 통과대역에서 진폭 응답은 0이 아닌 상수 값을 갖고, 억제 대역에서는 이득이 0이다.</choice_text>
-          <commentary>'이상적인 필터'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>이상 필터의 정의로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -282,25 +277,24 @@
         <correct_choice_text>$X + Y$의 평균은 $3$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 통계적, 독립, 랜덤변수, 각각)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X$; $Y$; $0 \leq x \leq 2$; $1 \leq y \leq 5$; $f_{X} ( x )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 균일 분포
+정답은 ④이다. fX = 1/2, fY = 1/4이다. E(X) = 1, Var(X) = 2²/12 = 1/3, E(Y) = 3, P(Y &gt; 2) = (5 − 2)/4 = 3/4이다. E(X + Y) = 1 + 3 = 4이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$f_{X} ( x ) = {\left\{\begin{array}{ll}\frac{1}{2} , &amp; 0 \leq x \leq 2 \\ 0 , &amp; otherwise\end{array}\right.}$, $f_{Y} ( y ) = {\left\{\begin{array}{ll}\frac{1}{4} , &amp; 1 \leq y \leq 5 \\ 0 , &amp; otherwise\end{array}\right.}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>확률밀도함수로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$X$의 평균은 1이고, 분산은 $\frac{1}{3}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>평균과 분산으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Y &gt; 2$인 확률은 $\frac{3}{4}$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3/4로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$X + Y$의 평균은 $3$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>평균은 4이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -319,25 +313,24 @@
         <correct_choice_text>$r$이 작아질수록 필터의 스펙트럼 차단 특성이 완만해진다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 롤오프(roll-off), 커질수록 필터의 임펄스 응답(impulse response), 의 부엽(sidelobe), 이상적인 싱크(sinc))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $r$; $r$; $r$; $r$; $r$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 상승 여현 필터
+정답은 ②이다. 롤오프 인수 r이 작을수록 대역폭은 줄지만 스펙트럼 차단 특성이 급격해지고 임펄스 응답의 부엽이 커진다. 대역폭은 (1 + r)/(2T)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$r$이 커질수록 필터의 대역폭이 증가한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대역폭 (1 + r)/(2T)로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$r$이 작아질수록 필터의 스펙트럼 차단 특성이 완만해진다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>차단 특성이 급격해지므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$r$이 커질수록 필터의 임펄스 응답(impulse response)의 부엽(sidelobe) 크기가 줄어든다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>부엽 감소로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$r$이 0일 때, 이상적인 싱크(sinc) 펄스 정현 필터와 같다.</choice_text>
-          <commentary>'0일' 수치·조건을 정확히 적용한 옳은 서술이다.</commentary>
+          <commentary>r = 0이면 이상적 sinc 필터로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -354,25 +347,24 @@
         <correct_choice_text>$X$와 $Y$가 모두 양의 값을 가질 경우 $\frac{X}{Y}$의 평균은 양수이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 두 랜덤변수 $X$와 $Y$, 의 공분산(covariance))
-정답은 ③이다. 본 문항은 두 랜덤변수 $X$와 $Y$, 의 공분산(covariance)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $X$; $Y$; $X$; $Y$; $0$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 기댓값의 성질
+정답은 ③이다. X, Y가 모두 양수이면 X/Y도 항상 양수이므로 그 평균도 양수이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$X + Y$의 평균은 $X$와 $Y$ 각각의 평균의 합보다 항상 크다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>항상 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$XY$의 평균은 $YX$의 평균과 같지 않을 수 있다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>XY = YX이므로 평균도 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$X$와 $Y$가 모두 양의 값을 가질 경우 $\frac{X}{Y}$의 평균은 양수이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$X$와 $Y$의 공분산(covariance)은 $XY$의 평균과 동일하다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>공분산은 E(XY) − E(X)E(Y)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -391,25 +383,24 @@
         <correct_choice_text>100</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 최대, 주파수, 대역, 제한된)
-정답은 ③이다. 본 문항은 최대, 주파수, 대역, 제한된에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 최대 표본화 주기
+정답은 ③이다. 나이퀴스트 표본화 주파수는 fs ≥ 2 × 5 kHz = 10 kHz이므로 표본화 주기는 Ts ≤ 1/10,000 s = 100 μs이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>100 μs이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정상 복원이 불가능하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -425,25 +416,24 @@
         <correct_choice_text>$\sum_{n = - \infty}^{\infty} X_{n} = 0$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: x ( t ))
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $f_{0}$; $x ( t ) = 2 \cos ( 2 \pi f_{0} t ) - 4 \sin ( 6 \pi f_{0} t )$; $x ( t ) = \sum_{n = - \infty}^{\infty} X_{n} e^{j2 \pi nf_{0} t}$; $X_{n}$; $X_{1} = 1$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 복소 푸리에 계수
+정답은 ③이다. 2cos(2πf0t)에서 X1 = X−1 = 1이다. −4sin(6πf0t) = −4[e^{j6πf0t} − e^{−j6πf0t}]/(2j)에서 X3 = −4/(2j) = 2j, X−3 = −2j이다. 계수의 합은 x(0) = 2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$X_{1} = 1$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>X1 = 1로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$X_{3} = 2 j$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>X3 = 2j로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$\sum_{n = - \infty}^{\infty} X_{n} = 0$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>합은 x(0) = 2이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>모든 $n$에 대해 $X_{n} + X_{- n}$은 실수이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>실신호이므로 X−n = Xn*이고 합은 실수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -462,24 +452,24 @@
         <correct_choice_text>GSM</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 포함되, 기술, 표준, 아닌)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · WPAN
+정답은 ②이다. 블루투스, 지그비, UWB는 근거리 개인 무선망 기술이다. GSM은 2세대 이동통신 표준이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Bluetooth</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>WPAN이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>GSM</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이동통신 표준이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ZigBee</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>WPAN이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>UWB</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>WPAN이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -495,24 +485,24 @@
         <correct_choice_text>성형 － 한 링크의 장애가 전체 네트워크를 사용할 수 없게 하는 형태이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 네트워크의 물리적 접속 형태)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 네트워크 토폴로지
+정답은 ②이다. 성형은 각 장치가 중앙 장치에 연결되므로 한 링크가 고장 나도 해당 장치만 영향을 받는다. 전체가 마비되는 것은 중앙 장치가 고장 날 때이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>링형 － 각 장치는 바로 이웃하는 장치에만 연결되어 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>링형의 특징으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>성형 － 한 링크의 장애가 전체 네트워크를 사용할 수 없게 하는 형태이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>그물형 － 네트워크상의 모든 장치가 다른 장치에 대해 점대점 링크를 갖는다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>그물형의 특징으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>버스형 － 하나의 긴 케이블이 네트워크상의 모든 장치를 연결하는 백본 네트워크 역할을 한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>버스형의 특징으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -528,25 +518,24 @@
         <correct_choice_text>$\frac{1}{8}$배로 감소 약 18 [dB] 증가</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 양자화 구간 폭(quantization step size))
-정답은 ④이다. 본 문항은 양자화 구간 폭(quantization step size)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{1}{3}$; $\frac{1}{3}$; $\frac{1}{8}$; $\frac{1}{8}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 양자화 비트 수와 SQNR
+정답은 ④이다. 비트 수가 3 증가하면 레벨 수가 2³ = 8배가 되어 구간 폭은 1/8배로 감소한다. SQNR은 1비트당 약 6 dB 증가하므로 약 18 dB 증가한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$배로 감소 약 12 [dB] 감소</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$배로 감소 약 12 [dB] 증가</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{8}$배로 감소 약 18 [dB] 감소</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>SQNR은 증가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{8}$배로 감소 약 18 [dB] 증가</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -566,9 +555,8 @@
         <correct_choice_text>ㄱ, ㄴ, ㄷ</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: h ( t ), x ( t ), y ( t ), H ( f ), X ( f ))
-정답은 ④이다. 각 보기의 정오를 판별하면 ㄱ(O), ㄴ(O), ㄷ(O)로 정리되므로, 발문의 조건에 부합하는 조합은 ④(ㄱ, ㄴ, ㄷ)이다.
-관련 수식: $h ( t )$; $x ( t )$; $y ( t )$; $H ( f )$; $X ( f )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 주파수 응답을 구하는 방법
+정답은 ④이다. ㄱ은 H(f)의 정의이다. ㄴ은 Y(f) = H(f)X(f)이므로 옳다. ㄷ은 복소지수 입력이 LTI 시스템의 고유함수이므로 출력이 H(f)e^{j2πft}가 되어 비가 H(f)이다.</overall_commentary>
       <bogi_analysis>
         <bogi_item symbol="ㄱ" judgment="[O] (정답)">
           <statement>$h ( t )$의 푸리에 변환을 구한다.</statement>
@@ -586,19 +574,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ)이다.</commentary>
+          <commentary>ㄴ, ㄷ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄱ, ㄴ)이다.</commentary>
+          <commentary>ㄷ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>옳은 보기와 옳지 않은 보기가 잘못 결합된 조합(ㄴ, ㄷ)이다.</commentary>
+          <commentary>ㄱ도 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>발문에서 요구하는 조건에 정확히 부합하는 보기 조합(ㄱ, ㄴ, ㄷ)이다.</commentary>
+          <commentary>모두 옳으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -617,24 +605,24 @@
         <correct_choice_text>소스코딩(source coding)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 인터리빙(interleaving), 라인코딩(line coding), 채널코딩(channel coding), 소스코딩(source coding))
-정답은 ④이다. 본 문항은 인터리빙(interleaving), 라인코딩(line coding), 채널코딩(channel coding), 소스코딩(source coding)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 소스 코딩
+정답은 ④이다. 소스 코딩은 정보원의 중복성을 줄여 데이터를 압축하는 부호화로 허프만 부호 등이 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인터리빙(interleaving)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>연집 오류를 분산시키는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>라인코딩(line coding)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전송 파형으로 바꾸는 부호화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>채널코딩(channel coding)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>잉여 비트를 추가하는 부호화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>소스코딩(source coding)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>압축하는 부호화이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -653,24 +641,24 @@
         <correct_choice_text>분산 서비스 거부(DDoS)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 분산 서비스 거부(DDoS), 스니핑(sniffing), 스푸핑(spoofing), 세션 하이재킹(session hijacking))
-정답은 ①이다. 본 문항은 분산 서비스 거부(DDoS), 스니핑(sniffing), 스푸핑(spoofing), 세션 하이재킹(session hijacking)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · DDoS
+정답은 ①이다. 다수의 시스템에서 대량의 접속을 발생시켜 자원을 소진시키는 가용성 공격은 분산 서비스 거부(DDoS)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>분산 서비스 거부(DDoS)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>스니핑(sniffing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기밀성 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스푸핑(spoofing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위장 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>세션 하이재킹(session hijacking)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>세션 탈취 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -686,24 +674,24 @@
         <correct_choice_text>45</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 각 링크는 전이중(full duplex))
-정답은 ②이다. 본 문항은 각 링크는 전이중(full duplex)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 그물형 연결의 링크 수
+정답은 ②이다. 전이중 링크로 n개 기기를 모두 점대점 연결하려면 n(n − 1)/2 = 10 × 9/2 = 45개의 링크가 필요하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>45</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>45개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>50</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>55</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -722,24 +710,24 @@
         <correct_choice_text>대역통과 디지털변조 용이성</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 디지털, 데이터, 기저대역, 전송)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 선로 부호의 선택 요소
+정답은 ④이다. 선로 부호 선택 시에는 타이밍 정보, 대역폭, 직류 성분, 오류 검출 능력, 전력 효율 등을 고려한다. 대역통과 변조는 기저대역 전송과 무관하다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비트 동기화</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고려 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주파수 대역폭</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고려 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>에러 검출 용이성</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고려 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>대역통과 디지털변조 용이성</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>고려 요소가 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2023년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

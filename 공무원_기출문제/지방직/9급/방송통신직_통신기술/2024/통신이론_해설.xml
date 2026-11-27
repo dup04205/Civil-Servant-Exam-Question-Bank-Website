@@ -29,25 +29,24 @@
         <correct_choice_text>π</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), cos ( 2 t ), sin ( 4 t ))
-정답은 ①이다. 본 문항은 x ( t ), cos ( 2 t ), sin ( 4 t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t ) = 2 \cos ( 2 t ) + \sin ( 4 t )$; $\pi$; $2 \pi$; $3 \pi$; $4 \pi$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 기본 주기
+정답은 ①이다. 2cos(2t)의 주기는 2π/2 = π, sin(4t)의 주기는 2π/4 = π/2이다. 두 주기의 최소공배수인 π가 기본 주기이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>π</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>π이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2 \pi$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기이지만 기본 주기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3 \pi$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$4 \pi$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주기이지만 기본 주기가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -63,25 +62,24 @@
         <correct_choice_text>$- \sin \left( \frac{2 \pi}{T} t \right)$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ))
-정답은 ④이다. 본 문항은 x ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $T$; $x ( t ) = \frac{e^{- j \frac{2 \pi}{T} t} - e^{j \frac{2 \pi}{T} t}}{j2}$; $j = \sqrt{- 1}$; $\cos \left( \frac{2 \pi}{T} t \right)$; $- \cos \left( \frac{2 \pi}{T} t \right)$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 오일러 공식
+정답은 ④이다. sinθ = (e^{jθ} − e^{−jθ})/(j2)이다. 주어진 식은 분자의 부호가 반대이므로 x(t) = −sin(2πt/T)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\cos \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- \cos \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sin \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \sin \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>−sin(2πt/T)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -100,24 +98,24 @@
         <correct_choice_text>MAC</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: OSI 7계층 모델에서 노드(node), 의 데이터 링크 계층(layer), 간 통신을 위해 식별자(identifier), 로 사용하는 주소(address))
-정답은 ①이다. 본 문항은 OSI 7계층 모델에서 노드(node), 의 데이터 링크 계층(layer), 간 통신을 위해 식별자(identifier), 로 사용하는 주소(address)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · MAC 주소
+정답은 ①이다. 데이터 링크 계층은 네트워크 인터페이스에 부여된 48비트 MAC 주소(물리 주소)로 노드를 식별한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>MAC</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>데이터 링크 계층 주소이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Port</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>전송 계층의 프로세스 식별자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>네트워크 계층 주소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ISP</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>인터넷 서비스 제공자로, 주소가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -133,25 +131,24 @@
         <correct_choice_text>$1$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ))
-정답은 ③이다. 본 문항은 x ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t ) = \cos ( 4 \pi t )$; $\cos ( 6 \pi t )$; $\frac{1}{4}$; $\frac{1}{2}$; $1$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 푸리에 급수 계수
+정답은 ③이다. cos(4πt)cos(6πt) = (1/2)cos(2πt) + (1/2)cos(10πt)이다. 지수형 푸리에 급수로 쓰면 ±1 Hz, ±5 Hz 성분의 계수가 각각 1/4이므로 총합은 4 × 1/4 = 1이다. 이는 t = 0에서의 값 x(0) = 1과 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계수 하나의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>삼각함수형 계수 하나의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -167,25 +164,24 @@
         <correct_choice_text>4</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 디지털 변조 방식에서 성상도(constellation))
-정답은 ②이다. 본 문항은 디지털 변조 방식에서 성상도(constellation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\frac{\pi}{8}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · M진 PSK의 비트 수
+정답은 ②이다. 신호점이 단위원 위에 π/8 간격으로 있으므로 신호점 수는 2π/(π/8) = 16개이다. 심벌당 비트 수는 log2 16 = 4이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>QPSK이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>16-PSK이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>64진 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>256진 방식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -201,25 +197,24 @@
         <correct_choice_text>$A_{c} m ( t ) \cos ( 2 \pi f_{c} t )$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: m ( t ))
-정답은 ④이다. 본 문항은 m ( t )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A_{c} \cos ( 2 \pi f_{c} t )$; $m ( t )$; $A_{c} \cos ( 2 \pi f_{c} t + m ( t ) )$; $A_{c} \cos ( 2 \pi f_{c} m ( t ) )$; $A_{c} m ( t ) \cos ( 2 \pi f_{c} t ) + A_{c} \sin ( 2 \pi f_{c} t + m ( t ) )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · DSB-SC 신호
+정답은 ④이다. DSB-SC는 메시지 신호와 반송파를 곱하기만 하여 반송파 성분이 없는 신호 s(t) = Acm(t)cos(2πfct)이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} \cos ( 2 \pi f_{c} t + m ( t ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>위상 변조 신호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} \cos ( 2 \pi f_{c} m ( t ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>변조 신호의 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} m ( t ) \cos ( 2 \pi f_{c} t ) + A_{c} \sin ( 2 \pi f_{c} t + m ( t ) )$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>DSB-SC 신호가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$A_{c} m ( t ) \cos ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>DSB-SC 신호이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -238,25 +233,24 @@
         <correct_choice_text>10</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 가산적, 백색, 가우시안, 잡음)
-정답은 ②이다. 본 문항은 가산적, 백색, 가우시안, 잡음에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 샤논 용량과 대역폭
+정답은 ②이다. SNR = 9/3 = 3이므로 log2(1 + 3) = 2이다. C = B × 2에서 B = 20/2 = 10 kHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>10 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -275,25 +269,24 @@
         <correct_choice_text>1</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 자유공간에서, 반송파, 주파수, 방송)
-정답은 ①이다. 본 문항은 자유공간에서, 반송파, 주파수, 방송에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $c$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 반파장 다이폴 안테나
+정답은 ①이다. 파장은 λ = c/f = 3 × 10⁸/(150 × 10⁶) = 2 m이므로 반파장 다이폴의 길이는 λ/2 = 1 m이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>파장이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -309,24 +302,24 @@
         <correct_choice_text>기본 헤더의 크기는 최소 40바이트이고 가변될 수 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: IPv6)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · IPv6의 특징
+정답은 ③이다. IPv6 기본 헤더는 40바이트 고정 길이이며, 추가 기능은 확장 헤더로 처리한다. 가변 길이 헤더는 IPv4의 특징이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Unicast, Multicast, Anycast 통신 방식을 모두 지원한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>IPv6가 지원하는 방식으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주소는 길이가 128비트이고 16진수 형식으로 표현된다.</choice_text>
-          <commentary>'주소'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>128비트 16진수 표기로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>기본 헤더의 크기는 최소 40바이트이고 가변될 수 있다.</choice_text>
-          <commentary>'기본 헤더의 크기'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기본 헤더는 40바이트 고정이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기본 헤더에는 오류 검출이 가능한 Header Checksum Field가 없다.</choice_text>
-          <commentary>'기본 헤더에'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>헤더 체크섬이 없으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -343,25 +336,24 @@
         <correct_choice_text>1,600</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: x ( t ), 를 4초 동안 표본화 정리(sampling theorem))
-정답은 ②이다. 본 문항은 x ( t ), 를 4초 동안 표본화 정리(sampling theorem)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t ) = 2 \sin ( 200 \pi t ) - 4 \cos ( 400 \pi t + \pi )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 나이퀴스트 표본화
+정답은 ②이다. 최고 주파수 성분은 cos(400πt)의 200 Hz이므로 최소 표본화 주파수는 2 × 200 = 400 Hz이다. 4초 동안의 표본 수는 400 × 4 = 1,600개이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3,200</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비트 수 기준이 아닌 계산 오류이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,600</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1,600개이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>800</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1초 동안의 표본 수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -378,25 +370,24 @@
         <correct_choice_text>$\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 간의 상관계수(correlation coefficient), 의 공분산(covariance))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X$; $Y$; $\rho$; $C_{XY}$; $X$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 상관계수
+정답은 ④이다. 상관계수는 ρ = CXY/(σXσY)로, 분산이 아니라 표준편차의 곱으로 나눈다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$\left| \rho \right| \leq 1$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>|ρ| ≤ 1로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$X$와 $Y$가 서로 독립이면 $\rho = 0$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>독립이면 공분산이 0이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Y = aX$ ($a \neq 0$)일 때, ρ는 1 혹은 －1이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>a의 부호에 따라 ±1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>표준편차의 곱으로 나누어야 하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -416,25 +407,24 @@
         <correct_choice_text>$x ( t )$가 단위 임펄스 신호일 때, $Y ( f )$는 전달함수와 동일하다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 저역통과 여파기(low pass filter), H ( f ), x ( t ), y ( t ), X ( f ))
-정답은 ②이다. 본 문항은 저역통과 여파기(low pass filter), H ( f ), x ( t ), y ( t ), X ( f )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $H ( f )$; $x ( t )$; $y ( t )$; $X ( f )$; $Y ( f )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 여파기의 성질
+정답은 ②이다. x(t) = δ(t)이면 X(f) = 1이므로 Y(f) = H(f)X(f) = H(f)이다. 즉 출력 스펙트럼은 전달함수와 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$Y ( f ) = X ( f ) * H ( f )$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>주파수 영역에서는 곱 Y(f) = X(f)H(f)이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$x ( t )$가 단위 임펄스 신호일 때, $Y ( f )$는 전달함수와 동일하다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\left| H ( f_{c} ) \right|^{2}}{\left| H ( f ) \right|_{max}^{2}} = \frac{1}{\sqrt{2}}$일 때, 이 여파기의 ‘3 dB 주파수 대역폭’은 $f_{c}$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>3 dB 대역폭은 전력비가 1/2일 때이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>이상적인 저역통과 여파기의 경우, 통과 대역 내의 위상 응답은 상수이다.</choice_text>
-          <commentary>'이상적인 저역통과 여파기'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>이상적인 LPF의 위상은 주파수에 비례하는 선형 위상이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -451,24 +441,24 @@
         <correct_choice_text>협대역 FM 변조된 신호를 대역이 확산되도록 광대역 FM 신호로 변환하는 시스템도 포함된다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 확산대역(spread spectrum) 통신 시스템, 확산대역(spread spectrum))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 대역 확산 시스템
+정답은 ④이다. 대역 확산은 정보와 무관한 PN 부호로 대역을 넓히는 방식이다. 광대역 FM은 메시지 자체가 대역폭을 결정하므로 대역 확산 시스템이 아니다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보 데이터의 전송에 요구되는 최소 대역폭보다 더 넓은 대역폭을 사용한다.</choice_text>
-          <commentary>'정보 데이터의 전송에 요구되'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최소 대역폭보다 넓은 대역을 쓰므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정보 데이터와 무관한 의사 랜덤 부호열에 의해 대역이 확산되는 시스템이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>PN 부호에 의한 확산으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>송신기에서 대역 확산에 사용된 부호열과 동기가 일치하는 동일한 부호열을 사용하여 수신기에서 역확산을 수행하는 시스템이다.</choice_text>
-          <commentary>'송신기에서 대역 확산에 사용된 부호열과 동기'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>동기된 동일 부호로 역확산하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>협대역 FM 변조된 신호를 대역이 확산되도록 광대역 FM 신호로 변환하는 시스템도 포함된다.</choice_text>
-          <commentary>'협대역 FM 변조된 신호를 대역'에 관하여 '포함된다' 부분에서 성립 요건 또는 인정 범위가 실제 기준과 반대로 서술되어 있다.</commentary>
+          <commentary>광대역 FM은 포함되지 않으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -487,24 +477,24 @@
         <correct_choice_text>000</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 인접한, 비트열, 그레, 매핑)
-정답은 ①이다. 본 문항은 인접한, 비트열, 그레, 매핑에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 그레이 매핑
+정답은 ①이다. 그레이 매핑에서는 인접 심벌이 한 비트만 달라야 한다. (A)는 001, 100과 각각 한 비트만 달라야 하므로 000이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>000</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>000이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>011</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>100과 세 비트가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>010</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>001과 두 비트가 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>111</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>001과 두 비트가 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -523,27 +513,25 @@
         <correct_choice_text>$\sqrt{2}$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 성상도에서, 심벌, 신호점, 위치)
-정답은 ③이다. 본 문항은 성상도에서, 심벌, 신호점, 위치에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-제시문 근거: "$\{( \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$,"
-관련 수식: $\left{\left( \frac{1}{\sqrt{2}}}$; $\frac{1}{\sqrt{2}} \right)$; $\left . \left( - \frac{1}{\sqrt{2}}$; $\frac{1}{\sqrt{2}} \right)$; $\left( - \frac{1}{\sqrt{2}}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · QPSK 신호점 간 거리
+정답은 ③이다. 인접한 (1/√2, 1/√2)와 (−1/√2, 1/√2)의 거리는 2/√2 = √2이다.</overall_commentary>
       <passage_evidence>$\{( \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$,</passage_evidence>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{\frac{1}{2}}$</choice_text>
-          <commentary>제시문의 "$\{( \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$," 내용과 배치되므로 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{2}$</choice_text>
-          <commentary>제시문의 "$\{( \frac{1}{\sqrt{2}}$, $\frac{1}{\sqrt{2}} )$," 내용과 일치하므로 옳다.</commentary>
+          <commentary>√2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대각선 방향 신호점 간의 거리이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -561,24 +549,24 @@
         <correct_choice_text>지구국에서 동일한 전력으로 신호를 송출하고 위성에서 수신할 때, 저궤도 위성의 수신신호세기는 정지궤도 위성보다 더 크다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 저궤도(LEO) 위성, 저궤도(LEO), 위성에 비해 신호 전파 지연(propagation delay))
-정답은 ④이다. 본 문항은 저궤도(LEO) 위성, 저궤도(LEO), 위성에 비해 신호 전파 지연(propagation delay)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 저궤도 위성
+정답은 ④이다. 저궤도 위성은 거리가 가까워 자유공간 손실이 작으므로, 같은 송신 전력에서 수신 신호 세기가 정지궤도 위성보다 크다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>위성 궤도는 적도 상공의 원형 궤도이다.</choice_text>
-          <commentary>'위성 궤도'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정지궤도 위성의 특징이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>위성이 지구를 공전하는 속도는 지구의 자전속도와 같다.</choice_text>
-          <commentary>'위성'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>정지궤도 위성의 특징이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>정지궤도 위성에 비해 신호 전파 지연(propagation delay) 시간이 더 길다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>거리가 짧아 지연이 더 짧다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>지구국에서 동일한 전력으로 신호를 송출하고 위성에서 수신할 때, 저궤도 위성의 수신신호세기는 정지궤도 위성보다 더 크다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -597,24 +585,24 @@
         <correct_choice_text>2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 정보원, 심벌, 구성된, 집합에서)
-정답은 ③이다. 본 문항은 정보원, 심벌, 구성된, 집합에서에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 등확률 정보원의 엔트로피
+정답은 ③이다. M개 심벌이 등확률이면 H = log2 M이므로 H = log2 4 = 2 bit/symbol이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>심벌 수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -634,24 +622,24 @@
         <correct_choice_text>맨체스터 부호는 타이밍 동기화 정보를 추출할 수 있지만, 단극성(unipolar) NRZ 부호보다 점유 주파수 대역폭이 넓다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 기저대역 전송을 위한 선 부호(line code), 저대역 전송을 위한 선 부호(line code), 단극성(unipolar), 단극성 NRZ 부호는 극성(polar), 부호는 비트 펄스 지속 시간(bit pulse duration))
-정답은 ①이다. 본 문항은 기저대역 전송을 위한 선 부호(line code), 저대역 전송을 위한 선 부호(line code), 단극성(unipolar), 단극성 NRZ 부호는 극성(polar), 부호는 비트 펄스 지속 시간(bit pulse duration)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 선로 부호
+정답은 ①이다. 맨체스터 부호는 비트 중앙에서 반드시 천이가 있어 타이밍 정보를 추출하기 쉽지만, 펄스 폭이 절반이라 NRZ보다 대역폭이 약 2배 넓다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>맨체스터 부호는 타이밍 동기화 정보를 추출할 수 있지만, 단극성(unipolar) NRZ 부호보다 점유 주파수 대역폭이 넓다.</choice_text>
-          <commentary>'맨체스터 부호'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>단극성 NRZ 부호는 극성(polar) RZ 부호보다 점유 주파수 대역폭이 2배 넓다.</choice_text>
-          <commentary>'단극성 NRZ 부호'에 관하여 제시된 '2배' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>RZ 부호가 NRZ보다 대역폭이 넓다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NRZ 부호는 비트 펄스 지속 시간(bit pulse duration) 동안에 펄스 전압의 부호를 1회 이상 반전시킨다.</choice_text>
-          <commentary>'NRZ 부호'에 관하여 제시된 '1회' 수치·기한 조건이 실제 기준과 달라 옳지 않다.</commentary>
+          <commentary>NRZ는 비트 구간 동안 레벨을 유지한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>단극성(unipolar)과 극성(polar)의 선 부호 모두 직류 성분을 포함하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>단극성 부호는 직류 성분을 포함한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -667,25 +655,24 @@
         <correct_choice_text>32</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 앞에 이 지연만큼의 순환전치(cyclic prefix))
-정답은 ②이다. 본 문항은 앞에 이 지연만큼의 순환전치(cyclic prefix)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\mu$; $\mu$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · OFDM 전송속도
+정답은 ②이다. 부반송파 간격은 1/8 μs = 125 kHz이므로 부반송파 수는 10 MHz/125 kHz = 80개이다. 16-QAM이므로 OFDM 심벌당 80 × 4 = 320비트이다. 순환전치를 포함한 심벌 길이는 8 + 2 = 10 μs이므로 전송속도는 320/10 μs = 32 Mbps이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>26</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>32</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>32 Mbps이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>순환전치를 빼고 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>48</choice_text>
-          <commentary>하우스(House)의 경로-목표모형은 리더십을 지시적·후원적(부하 배려 및 인간관계 중시)·참여적·성취지향적 리더십의 4가지 유형으로 구분한다. 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -702,25 +689,24 @@
         <correct_choice_text>1.2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: m ( t ), 에 의해 최대 주파수 편이(deviation))
-정답은 ②이다. 본 문항은 m ( t ), 에 의해 최대 주파수 편이(deviation)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t )$; $20 \cos ( 200 \times 10^{3} \pi t )$; $TRIANGLE f$; $f_{c}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 카슨의 법칙
+정답은 ②이다. 메시지 주파수는 fm = 200π × 10³/(2π) = 100 kHz이다. 카슨 법칙에 따라 B = 2(Δf + fm) = 2(500 + 100) = 1,200 kHz = 1.2 MHz이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.6</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>Δf + fm의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1.2 MHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.8</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.4</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

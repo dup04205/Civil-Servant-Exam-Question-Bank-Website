@@ -30,25 +30,24 @@
         <correct_choice_text>0.2</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: P ( A ), P ( B ), P ( A vert B ), P ( B vert A ))
-정답은 ③이다. 본 문항은 P ( A ), P ( B ), P ( A vert B ), P ( B vert A )에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $A$; $B$; $P ( A ) = 0 . 6$; $P ( B ) = 0 . 4$; $P ( A vert B ) = 0 . 3$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 조건부확률과 베이즈 정리
+정답은 ③이다. P(A∩B) = P(A|B)P(B) = 0.3 × 0.4 = 0.12이므로 P(B|A) = P(A∩B)/P(A) = 0.12/0.6 = 0.2이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.072</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.12</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>결합확률 P(A∩B)의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.2</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>0.2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -68,25 +67,24 @@
         <correct_choice_text>$F \left[ \delta ( t ) \right] = \infty$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 푸리에 변환 관계식, delta ( t ), u ( t ), X ( f ), x ( t ))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $F \left[ \right]$; $\delta ( t )$; $u ( t )$; $a$; $b$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 푸리에 변환의 성질
+정답은 ①이다. 단위 임펄스 함수의 푸리에 변환은 모든 주파수에서 크기가 1인 상수이다. 즉 F[δ(t)] = 1이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>$F \left[ \delta ( t ) \right] = \infty$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>F[δ(t)] = 1이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ ax_{1} ( t ) + bx_{2} ( t ) \right] = aX_{1} ( f ) + bX_{2} ( f )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>선형성으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ x_{1} ( t ) * x_{2} ( t ) \right] = X_{1} ( f ) X_{2} ( f )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>시간 영역 컨벌루션은 주파수 영역 곱이 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ u ( t ) \right] = \frac{1}{j2 \pi f} + \frac{1}{2} \delta ( f )$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>단위 계단 함수의 변환으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -104,24 +102,24 @@
         <correct_choice_text>맨체스터</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 쌍극성(bipolar), RZ 맨체스터 단극성(unipolar), RZ 극성(polar))
-정답은 ②이다. 본 문항은 쌍극성(bipolar), RZ 맨체스터 단극성(unipolar), RZ 극성(polar)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ② 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 맨체스터 부호
+정답은 ②이다. 맨체스터 부호는 각 비트 구간의 중앙에서 반드시 극성이 반전되므로 직류 성분이 없고 타이밍 정보를 쉽게 추출할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>쌍극성(bipolar) RZ</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>1을 교대로 ± 극성의 RZ 펄스로 나타내는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>맨체스터</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>비트 중앙에서 극성이 반전되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>단극성(unipolar) RZ</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>펄스가 구간 중간에 0으로 복귀할 뿐 극성 반전은 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>극성(polar) NRZ</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비트 구간 동안 일정 레벨을 유지한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -138,24 +136,24 @@
         <correct_choice_text>단일 반송파를 사용하는 변조 방식보다 전송 신호의 PAPR(peak to average power ratio)이 낮다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: OFDM 방식, 서로 다른 부반송파(subcarrier))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · OFDM의 특징
+정답은 ②이다. OFDM은 많은 부반송파 신호가 더해지므로 순간적으로 큰 첨두값이 생겨 단일 반송파 방식보다 PAPR이 높다는 단점이 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IDFT 연산으로 변조기를 구현할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>IFFT(IDFT)로 변조기를 구현하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>단일 반송파를 사용하는 변조 방식보다 전송 신호의 PAPR(peak to average power ratio)이 낮다.</choice_text>
-          <commentary>'단일 반송파를 사용하'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PAPR이 높으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>입력 데이터열을 다수의 저속 데이터열로 분할하여, 서로 다른 부반송파(subcarrier)에 실어 전송한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>고속 데이터를 병렬 저속 데이터로 나누어 전송하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>각 부반송파 간의 직교성을 이용해 스펙트럼을 중첩시켜 주파수를 효율적으로 사용한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직교성으로 스펙트럼 중첩이 가능하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -174,24 +172,24 @@
         <correct_choice_text>직접 부호열(direct sequence)</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 메시지 신호와 PN(pseudo noise), 주파수 도약(frequency hopping), 시간 도약(time hopping), 직접 부호열(direct sequence))
-정답은 ④이다. 본 문항은 메시지 신호와 PN(pseudo noise), 주파수 도약(frequency hopping), 시간 도약(time hopping), 직접 부호열(direct sequence)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 직접 확산 방식
+정답은 ④이다. 직접 확산(DS) 방식은 메시지 신호에 칩률이 훨씬 높은 PN 부호를 곱하여 대역을 넓힌다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>주파수 도약(frequency hopping)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PN 부호에 따라 반송파 주파수를 바꾸는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시간 도약(time hopping)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>PN 부호에 따라 전송 시점을 바꾸는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>시분할 다중화(time division multiplexing)</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>대역 확산 방식이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>직접 부호열(direct sequence)</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>직접 부호열 방식이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -210,25 +208,24 @@
         <correct_choice_text>$Y$의 분산은 $2 \sigma_{X}^{2}$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 랜덤변수, 평균, 분산, 정규분포)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X$; $m_{X}$; $\sigma_{X}^{2}$; $Y = 2 X + 1$; $Y$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 랜덤변수의 선형 변환
+정답은 ②이다. Y = aX + b이면 평균은 am + b, 분산은 a²σ²이다. 따라서 Y의 분산은 2²σX² = 4σX²이다. 정규분포의 선형 변환은 정규분포이고, a &gt; 0이므로 상관계수는 1이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$Y$의 평균은 $2 m_{X} + 1$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>2mX + 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$Y$의 분산은 $2 \sigma_{X}^{2}$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>분산은 4σX²이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Y$는 정규분포를 따른다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>정규분포를 따르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$X$와 $Y$의 상관계수는 $\rho_{XY} = 1$이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>양의 기울기를 갖는 선형관계이므로 ρXY = 1로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -245,25 +242,24 @@
         <correct_choice_text>우함수 신호이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), x ( - t ))
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $t$; $x ( t )$; $x ( t ) = 0$; $x ( t + T ) = x ( t )$; $T$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 주기신호와 기함수
+정답은 ②이다. x(t + T) = x(t)이므로 주기신호이고, x(t) = −x(−t)이므로 원점 대칭인 기함수이다. 0이 아닌 주기신호는 평균전력이 유한하고 에너지가 무한대인 전력신호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>주기신호이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>주기신호로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>우함수 신호이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기함수이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전력신호이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>전력신호로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>신호의 전체 에너지는 무한대이다.</choice_text>
-          <commentary>'신호의 전체 에너지'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>에너지가 무한대이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -281,24 +277,24 @@
         <correct_choice_text>OFDM 기술과 혼용하여 사용하지 않는다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: MIMO 시스템, 빔 형성(beam forming), 신호대잡음비(SNR))
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · MIMO 시스템
+정답은 ①이다. MIMO는 LTE, 5G NR, 무선 LAN 등에서 OFDM과 결합한 MIMO-OFDM 형태로 널리 사용된다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>OFDM 기술과 혼용하여 사용하지 않는다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>OFDM과 결합하여 사용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공간 다이버시티를 통해 전송의 신뢰성을 향상시킬 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공간 다이버시티 이득으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>빔 형성(beam forming)으로 수신 신호 이득을 증가시킬 수 있다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>빔포밍 이득으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>신호대잡음비(SNR)가 높은 채널 환경에서, 공간 다중화를 통해 전송속도를 높일 수 있다.</choice_text>
-          <commentary>'신호대잡음비(SNR)'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>공간 다중화 이득으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -317,25 +313,24 @@
         <correct_choice_text>$N$은 잡음의 전력밀도 스펙트럼으로 단위는 [W/Hz]이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 대역, 제한, 채널, 채널용량)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $C = B \times \log_{2} ( 1 + \frac{S}{N} )$; $B$; $S$; $N$; $C$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 샤논의 채널용량
+정답은 ③이다. 샤논 공식의 N은 대역 B 안의 잡음 전력으로 단위는 [W]이다. 잡음 전력밀도 N0 [W/Hz]를 쓰면 N = N0B이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$B$는 채널의 대역폭으로 단위는 [Hz]이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>대역폭 [Hz]로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$S$는 신호의 평균 전력으로 단위는 [W]이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>신호 평균 전력 [W]로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$N$은 잡음의 전력밀도 스펙트럼으로 단위는 [W/Hz]이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>잡음 전력 [W]이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$C$는 주어진 채널을 통해 오류 없이 정보를 전송할 수 있는 최대 전송율로 단위는 [bps]이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최대 무오류 전송률 [bps]로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -351,25 +346,24 @@
         <correct_choice_text>M이 증가할수록 비트 오율이 감소한다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: M진 QAM 방식)
-정답은 ①이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ① 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(②, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\cos ( 2 \pi f_{c} t )$; $- \sin ( 2 \pi f_{c} t )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · M진 QAM
+정답은 ①이다. M이 커지면 같은 평균 전력에서 신호점 사이의 거리가 좁아지므로, 대역효율은 높아지지만 비트 오율은 증가한다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>M이 증가할수록 비트 오율이 감소한다.</choice_text>
-          <commentary>'M이 증가할수록 비트 오율'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비트 오율이 증가하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>진폭과 위상을 변화시켜 변조를 수행한다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>진폭과 위상을 함께 변화시키므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>그레이 코드를 이용하여 비트 오율을 줄일 수 있다.</choice_text>
-          <commentary>'그레'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>인접 신호점의 비트 차이를 1개로 하여 오율을 줄이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>직교위상 반송파 $\cos ( 2 \pi f_{c} t )$와 $- \sin ( 2 \pi f_{c} t )$를 이용하여 QAM 신호를 생성할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>I·Q 직교 반송파로 생성하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -386,25 +380,24 @@
         <correct_choice_text>$H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: H ( X ), 2 ( 1 - p ))
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $X$; $p$; $( 1 - p )$; $H ( X )$; $H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 이진 엔트로피
+정답은 ④이다. 이진 엔트로피는 H(X) = −p log2 p − (1 − p) log2(1 − p)이다. p = 0 또는 1이면 최솟값 0, p = 0.5이면 최댓값 1 bit이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최솟값은 0이다.</choice_text>
-          <commentary>'최솟값'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최솟값 0으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>최댓값은 1이다.</choice_text>
-          <commentary>'최댓값'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>최댓값 1로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정보원의 평균 정보량이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>평균 정보량으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>음의 부호가 빠졌으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -423,24 +416,24 @@
         <correct_choice_text>Convolutional 부호</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 현재, 입력뿐만, 아니라, 과거)
-정답은 ③이다. 본 문항은 현재, 입력뿐만, 아니라, 과거에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ③ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 컨볼루션 부호
+정답은 ③이다. 컨볼루션 부호는 시프트 레지스터에 저장된 과거 입력과 현재 입력을 함께 이용해 부호화하는 기억(memory)을 가진 부호이다. 나머지는 블록 단위로 부호화하는 블록 부호이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>BCH 부호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블록 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>CRC 부호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블록 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Convolutional 부호</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>과거 입력을 참조하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Reed Solomon 부호</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>블록 부호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -459,25 +452,24 @@
         <correct_choice_text>28</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 수리·계산·자료해석형 (핵심어: 메시지, 신호, 정현파일, 변조지수)
-정답은 ④이다. 본 문항은 메시지, 신호, 정현파일, 변조지수에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ④ 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m$; $\frac{\sqrt 7}{3}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · AM 전송효율
+정답은 ④이다. 정현파 변조 AM의 전송효율은 μ = m²/(2 + m²)이다. m² = 7/9이므로 μ = (7/9)/(2 + 7/9) = (7/9)/(25/9) = 7/25 = 0.28, 즉 28%이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>22</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>26</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>28</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>28%이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -493,24 +485,24 @@
         <correct_choice_text>BPSK는 심볼 오율과 비트 오율이 다르다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 복합 보기 검증형 (핵심어: 디지털 변조)
-정답은 ④이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ④ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ③)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 디지털 변조의 기본 성질
+정답은 ④이다. BPSK는 심볼 하나가 비트 하나이므로 심볼 오율과 비트 오율이 같다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>OOK에서 심볼당 비트 수는 1이다.</choice_text>
-          <commentary>'OOK에서 심볼당 비트 수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>OOK는 이진 변조이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>QPSK에서 심볼당 비트 수는 2이다.</choice_text>
-          <commentary>'QPSK에서 심볼당 비트 수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>QPSK는 log2 4 = 2비트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>BFSK에서 비동기식 복조기를 사용할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>포락선 검파 방식의 비동기 복조가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>BPSK는 심볼 오율과 비트 오율이 다르다.</choice_text>
-          <commentary>'BPSK'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>심볼 오율과 비트 오율이 같으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -526,25 +518,24 @@
         <correct_choice_text>패리티 비트 수는 4이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: (7, 4) Hamming 부호)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.
-관련 수식: $\frac{4}{7}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · (7, 4) 해밍 부호
+정답은 ③이다. (n, k) = (7, 4)이므로 패리티 비트 수는 n − k = 3이다. 최소 거리 3이므로 1비트 오류를 정정할 수 있고, 부호율은 4/7이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>오류정정 가능 비트 수는 1이다.</choice_text>
-          <commentary>'오류정정 가능 비트 수'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>t = (3 − 1)/2 = 1로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>최소 Hamming 거리는 3이다.</choice_text>
-          <commentary>'최소 Hamming 거리'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>dmin = 3으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>패리티 비트 수는 4이다.</choice_text>
-          <commentary>'패리티 비트 수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>패리티 비트는 3개이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>부호율은 $\frac{4}{7}$이다.</choice_text>
-          <commentary>'부호율'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>k/n = 4/7로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -560,24 +551,24 @@
         <correct_choice_text>C 밴드에서 상향 링크의 주파수는 하향 링크보다 낮다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 위성통신 시스템)
-정답은 ③이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ③ 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ②, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 위성통신
+정답은 ③이다. C 밴드는 상향 링크 약 6 GHz, 하향 링크 약 4 GHz를 사용한다. 출력이 제한된 위성의 하향 링크에 감쇠가 적은 낮은 주파수를 쓰므로 상향 링크 주파수가 더 높다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성의 고도는 정지궤도 위성보다 낮다.</choice_text>
-          <commentary>'저궤도 위성의 고도'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>저궤도 위성의 고도가 낮으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>동시에 여러 지구국에 정보를 전달할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>광역성·동보성으로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>C 밴드에서 상향 링크의 주파수는 하향 링크보다 낮다.</choice_text>
-          <commentary>'C 밴드에서 상향 링크의 주파수'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상향 링크가 더 높으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정지궤도 위성의 공전 주기는 지구의 자전 주기와 같아, 일정 지역에 지속적으로 서비스를 제공할 수 있다.</choice_text>
-          <commentary>'정지궤도 위성의 공전 주기'에 관하여 '할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>정지궤도 위성의 특징으로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -593,25 +584,24 @@
         <correct_choice_text>포락선 검파기를 이용하여 복조할 수 있다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 주파수 변조(FM))
-정답은 ①이다. 본 문항은 주파수 변조(FM)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $\sqrt{2} A_{c} \cos ( 2 \pi f_{c} t )$; $\frac{A_{c}^{2}}{2}$; $f_{m}$; $2 f_{m}$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 주파수 변조
+정답은 ①이다. FM 신호를 미분기(주파수 판별기)에 통과시키면 순시 주파수에 비례하는 진폭 변화가 생기므로, 이를 포락선 검파기로 검출하여 복조할 수 있다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>포락선 검파기를 이용하여 복조할 수 있다.</choice_text>
-          <commentary>'할 수 있다'라는 인정·성립된다는 결론이 법리 및 이론에 부합한다.</commentary>
+          <commentary>판별기와 포락선 검파기로 복조하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 주파수에 따라 변조된 신호의 진폭이 변한다.</choice_text>
-          <commentary>'메시지 신호의 주파수에 따라 변조된 신호의 진폭'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>FM 신호의 진폭은 일정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>반송파가 $\sqrt{2} A_{c} \cos ( 2 \pi f_{c} t )$일 때, FM 신호의 평균 전력은 $\frac{A_{c}^{2}}{2}$이다.</choice_text>
-          <commentary>'반송파'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>진폭이 √2Ac이므로 평균 전력은 (√2Ac)²/2 = Ac²이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 주파수 대역폭이 $f_{m}$일 때, 광대역 FM 신호의 주파수 대역폭은 $2 f_{m}$이다.</choice_text>
-          <commentary>'메시지 신호의 주파수 대역폭'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>카슨 법칙에 따라 대역폭은 2(Δf + fm)이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -628,25 +618,24 @@
         <correct_choice_text>$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} + f_{m} ) ]$</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: m ( t ), 양측파대 반송파억압(DSB-SC))
-정답은 ①이다. 본 문항은 m ( t ), 양측파대 반송파억압(DSB-SC)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $m ( t ) = 2 \cos ( 2 \pi f_{m} t )$; $\cos ( 2 \pi f_{c} t )$; $f_{c} &gt; &gt; f_{m}$; $\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} + f_{m} ) ]$; $\frac{1}{2} [ \delta ( f - f_{c} + f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · DSB-SC의 상측파대
+정답은 ①이다. s(t) = 2cos(2πfmt)cos(2πfct) = cos[2π(fc + fm)t] + cos[2π(fc − fm)t]이다. 상측파대 성분 cos[2π(fc + fm)t]의 스펙트럼은 (1/2)[δ(f − fc − fm) + δ(f + fc + fm)]이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} + f_{m} ) ]$</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>상측파대 스펙트럼이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} + f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>하측파대 스펙트럼이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f + f_{c} + f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>음의 주파수 성분만 나타낸 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>상·하측파대 성분이 섞여 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -666,25 +655,24 @@
         <correct_choice_text>선형(linear) 시스템이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: x ( t ), y ( t ), 선형(linear), 시불변(time-invariant), 인과(causal))
-정답은 ①이다. 본 문항은 x ( t ), y ( t ), 선형(linear), 시불변(time-invariant), 인과(causal)에 관한 정확한 이해와 적용 능력을 평가하는 문제로, ① 선지가 관련 법리·이론 및 제시문의 기준에 부합하는 옳은 설명이다.
-관련 수식: $x ( t )$; $y ( t )$; $y ( t ) = \int_{0}^{t + 1} {x ( \tau )} d \tau$</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 시스템의 성질
+정답은 ①이다. 적분은 중첩의 원리를 만족하므로 선형이다. 적분 하한이 0으로 고정되어 입력을 이동해도 출력이 같은 만큼 이동하지 않으므로 시변 시스템이다. 미래 입력 x(t + 1)까지 쓰므로 비인과 시스템이고, 과거 입력을 누적하므로 기억 시스템이다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>선형(linear) 시스템이다.</choice_text>
-          <commentary>제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>선형 시스템이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시불변(time-invariant) 시스템이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>시변 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>인과(causal) 시스템이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>비인과 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>무기억(memoryless) 시스템이다.</choice_text>
-          <commentary>핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>기억 시스템이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -700,24 +688,24 @@
         <correct_choice_text>2세대는 1세대보다 고품질의 음성통신을 지원하며 아날로그 통신 방식이다.</correct_choice_text>
         <answer_source>정답표</answer_source>
       </answer_info>
-      <overall_commentary>출제 영역: 통신이론 · 핵심 개념·이론 이해형 (핵심어: 이동통신 시스템의 세대별 설명)
-정답은 ②이다. 본 문항은 옳지 않은 설명을 고르는 문제로, ② 선지가 관련 법리 및 기준에 어긋나는 서술에 해당한다. 나머지 선지(①, ③, ④)는 모두 타당한 설명이므로 핵심 정리 지문으로 숙지해 둘 필요가 있다.</overall_commentary>
+      <overall_commentary>출제 영역: 통신이론 · 이동통신의 세대별 특징
+정답은 ②이다. 2세대 이동통신(GSM, IS-95 CDMA)은 디지털 통신 방식으로 음성 품질과 용량을 개선하였다.</overall_commentary>
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>1세대는 아날로그 통신을 기반으로 하며, AMPS가 대표적이다.</choice_text>
-          <commentary>'1세대'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>1세대 AMPS로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>2세대는 1세대보다 고품질의 음성통신을 지원하며 아날로그 통신 방식이다.</choice_text>
-          <commentary>'2세대'에 관하여 핵심 요건 또는 결론이 실제 기준과 다르게 서술되어 옳지 않다.</commentary>
+          <commentary>디지털 방식이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>3세대는 멀티미디어 통신을 목표로 하며, W-CDMA가 3세대 통신 시스템에 속한다.</choice_text>
-          <commentary>'3세대'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>3세대 W-CDMA로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>4세대는 IMT-Advanced라고 하며, OFDMA를 사용한다.</choice_text>
-          <commentary>'4세대'에 관하여 제시된 요건과 결론이 타당하므로 옳다.</commentary>
+          <commentary>4세대 IMT-Advanced(LTE-A)로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

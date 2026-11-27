@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2.67 2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>D 농도 2는 소비된 A의 양을 그대로 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4 0.67</choice_text>
-          <commentary>B의 소비가 반영되지 않았다.</commentary>
+          <commentary>B 농도 4는 초기 농도로 반응이 진행되지 않은 경우이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.67 1.33</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>D 농도 1.33은 양론비를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>3.33 0.67</choice_text>
-          <commentary>3.33, 0.67이므로 정답이다.</commentary>
+          <commentary>소비된 A 2 mol/L의 1/3인 0.67 mol/L만큼 B가 줄고 D가 생기므로 C_B = 3.33, C_D = 0.67이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.4</choice_text>
-          <commentary>역수의 값이다.</commentary>
+          <commentary>0.4는 부피비의 역수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.6</choice_text>
-          <commentary>플러그흐름 반응기의 kτ 값이다.</commentary>
+          <commentary>1.6은 플러그흐름 반응기의 kτ 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.0</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2.0은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.5</choice_text>
-          <commentary>2.5배이므로 정답이다.</commentary>
+          <commentary>kτ_m = 4, kτ_p = 1.6이므로 V_m/V_p = 2.5이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -108,19 +108,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0}}{kC_{A0}} \int_{0}^{X_{A}} {\left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2} dX_{A}}$</choice_text>
-          <commentary>적분형은 플러그흐름 반응기의 형태이다.</commentary>
+          <commentary>적분 형태는 플러그흐름 반응기의 설계식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{v_{A0} X_{A}}{kC_{A0}} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2}$</choice_text>
-          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
+          <commentary>ε_A = −0.5를 반영한 혼합흐름 반응기 설계식은 [v_A0X/(kC_A0)]((1 − 0.5X)/(1 − X))²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0} X_{A}}{kC_{A0}^{2}} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2}$</choice_text>
-          <commentary>C_A0의 지수가 틀렸다.</commentary>
+          <commentary>분모의 C_A0 차수가 1이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{v_{A0}}{kC_{A0}} \int_{0}^{X_{A}} {X_{A} \left( \frac{1 - 0 . 5 X_{A}}{1 - X_{A}} \right)^{2} dX_{A}}$</choice_text>
-          <commentary>적분형이며 식도 틀렸다.</commentary>
+          <commentary>혼합흐름 반응기 설계식은 적분 형태가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -145,19 +145,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$50 R$</choice_text>
-          <commentary>역수의 값이다.</commentary>
+          <commentary>50R은 역수를 잘못 취한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{50 R}$</choice_text>
-          <commentary>1/(50R)이므로 정답이다.</commentary>
+          <commentary>k = 2/(RT) = 2/(100R) = 1/(50R)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$100 R$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>100R은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{100 R}$</choice_text>
-          <commentary>계수 2가 빠졌다.</commentary>
+          <commentary>1/(100R)은 계수 2를 빠뜨린 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -181,19 +181,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + C_{A}^{0 . 5} C_{B} )$</choice_text>
-          <commentary>계수 2가 빠졌다.</commentary>
+          <commentary>r_S의 계수 2가 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + C_{A}^{- 0 . 5} C_{B}^{- 1} )$</choice_text>
-          <commentary>지수의 부호가 틀렸다.</commentary>
+          <commentary>C_A, C_B의 지수 부호가 반대이고 계수 2도 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1 / ( 1 + 2 C_{A}^{0 . 5} C_{B} )$</choice_text>
-          <commentary>1/(1 + 2C_A^0.5C_B)이므로 정답이다.</commentary>
+          <commentary>분모·분자를 C_A^0.5C_B^0.5로 나누면 φ = 1/(1 + 2C_A^0.5C_B)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1 / ( 1 + 2 C_{A}^{- 0 . 5} C_{B}^{- 1} )$</choice_text>
-          <commentary>지수의 부호가 틀렸다.</commentary>
+          <commentary>C_A, C_B의 지수 부호가 반대로 되어 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -217,19 +217,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>7은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>8은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>9는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10이므로 정답이다.</commentary>
+          <commentary>kC_A0 = 1 h⁻¹, C_A0 = 0.1 mol/L이므로 k = 10 L mol⁻¹ h⁻¹이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -250,19 +250,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{kC_{A}}{k + k_{m}}$</choice_text>
-          <commentary>k_m이 빠져 있다.</commentary>
+          <commentary>분모가 k + k_m이면 분자에 k_m이 곱해져야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k_{m} C_{A}}{k + k_{m}}$</choice_text>
-          <commentary>k가 빠져 있다.</commentary>
+          <commentary>분자에 k가 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k}{1 + \frac{k}{k_{m}} C_{A}}$</choice_text>
-          <commentary>C_A의 위치가 틀렸다.</commentary>
+          <commentary>C_A가 분모에 잘못 들어가 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{kC_{A}}{1 + \frac{k}{k_{m}}}$</choice_text>
-          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
+          <commentary>C_As = k_mC_A/(k + k_m)이므로 −r″ = kC_A/(1 + k/k_m)이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -317,19 +317,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응물 &lt;i&gt;A&lt;/i&gt;의 유입유량과 출구 반응속도의 비이다.</choice_text>
-          <commentary>입구 반응속도와 유입량의 비이며 설명이 틀렸다.</commentary>
+          <commentary>1차 반응의 Da는 입구 조건의 반응속도와 A의 유입 이송속도의 비이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응속도와 대류속도의 비이다.</choice_text>
-          <commentary>반응속도와 대류속도의 비이므로 정답이다.</commentary>
+          <commentary>1차 반응의 Da = kτ는 반응속도와 대류속도의 비이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>&lt;i&gt;Da&lt;/i&gt;가 0.1 이하이면 단일반응기에서 전환율이 90 % 이상이다.</choice_text>
-          <commentary>전환율은 약 9% 이하이다.</commentary>
+          <commentary>Da ≤ 0.1이면 X ≤ 0.1/1.1 ≒ 9.1%로 전환율이 낮다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2차 반응의 경우 &lt;i&gt;Da&lt;/i&gt;는 반응물 &lt;i&gt;A&lt;/i&gt;의 초기농도(&lt;i&gt;C&lt;/i&gt;_(A0))의 제곱에 비례한다.</choice_text>
-          <commentary>C_A0의 1제곱에 비례한다.</commentary>
+          <commentary>2차 반응의 Da = kC_A0τ로 C_A0의 1제곱에 비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -353,19 +353,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = \frac{C_{A0} k_1 \tau}{1 + k_{1} \tau}$</choice_text>
-          <commentary>분모의 제곱이 빠졌다.</commentary>
+          <commentary>분모가 제곱이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = \frac{C_{A0} k_1}{( 1 + k_{1} \tau )^{2}}$</choice_text>
-          <commentary>분자의 τ가 빠졌다.</commentary>
+          <commentary>분자에 τ가 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{R} = k_{1} C_{A0} e^{- k_{1} \tau}$</choice_text>
-          <commentary>회분식 반응기의 형태와 유사하나 틀렸다.</commentary>
+          <commentary>지수 형태는 회분식·플러그흐름 반응기의 식과 관련된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$C_{R} = \frac{C_{A0} k_{1} \tau}{( 1 + k_{1} \tau )^{2}}$</choice_text>
-          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
+          <commentary>C_R = k₁τC_A/(1 + k₂τ)에서 k₁ = k₂이면 C_A0k₁τ/(1 + k₁τ)²이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -389,19 +389,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0차</choice_text>
-          <commentary>0차는 반감기가 C_A0에 비례한다.</commentary>
+          <commentary>0차 반응은 반감기가 초기농도에 비례한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1차</choice_text>
-          <commentary>1차이므로 정답이다.</commentary>
+          <commentary>반감기가 초기농도와 무관한 것은 1차 반응이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2차</choice_text>
-          <commentary>2차는 반감기가 C_A0에 반비례한다.</commentary>
+          <commentary>2차 반응은 반감기가 초기농도에 반비례한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3차</choice_text>
-          <commentary>3차는 반감기가 C_A0²에 반비례한다.</commentary>
+          <commentary>3차 반응은 반감기가 초기농도의 제곱에 반비례한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -425,19 +425,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.005 1840</choice_text>
-          <commentary>시간이 틀렸다.</commentary>
+          <commentary>k는 맞지만 t는 920 s이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.005 920</choice_text>
-          <commentary>0.005 s⁻¹, 920 s이므로 정답이다.</commentary>
+          <commentary>k = ln10/460 = 0.005 s⁻¹, t = ln100/0.005 = 920 s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.010 1840</choice_text>
-          <commentary>속도상수와 시간이 모두 틀렸다.</commentary>
+          <commentary>k와 t가 모두 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.010 920</choice_text>
-          <commentary>속도상수가 틀렸다.</commentary>
+          <commentary>k는 0.010이 아니라 0.005 s⁻¹이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -461,19 +461,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>65</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>65%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>70</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>70%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>75</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>75%는 X/(1 − X) = 3에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>80</choice_text>
-          <commentary>80%이므로 정답이다.</commentary>
+          <commentary>X/(1 − X) = 4이므로 X = 0.8, 즉 80%이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -533,15 +533,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{2 ( k_{2} + k_{3} C_{B} )}$</choice_text>
-          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
+          <commentary>A₂*의 생성속도가 (1/2)k₁C_A²이므로 r_P = k₁k₃C_A²C_B/[2(k₂ + k₃C_B)]이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{2 k_{1} k_{3} C_{A}^{2} C_{B}}{( k_{2} + k_{3} C_{B} )}$</choice_text>
-          <commentary>계수 2의 위치가 틀렸다.</commentary>
+          <commentary>계수 2가 분모가 아니라 분자에 잘못 들어가 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{k_{1} k_{3} C_{A}^{2} C_{B}}{k_{2} + k_{3} C_{B}}$</choice_text>
-          <commentary>양론계수 1/2이 반영되지 않았다.</commentary>
+          <commentary>계수 1/2이 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$r_{P} = \frac{k_{2} + k_{3} C_{A}}{k_{1} k_{3} C_{A} C_{B}^{2}}$</choice_text>
@@ -569,19 +569,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반응속도가 최대일 때 $A$의 전환율은 약 44.4 %이다.</choice_text>
-          <commentary>X_A = 4/9로 옳다.</commentary>
+          <commentary>C_A = 5일 때 속도가 최대이며 X_A = 4/9 ≒ 44.4%이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$A$의 출구 전환율이 30 %일 때 혼합흐름 반응기 부피가 플러그흐름 반응기 부피에 비해 작다.</choice_text>
-          <commentary>속도 증가 구간이므로 옳다.</commentary>
+          <commentary>최대속도점 이전에는 혼합흐름 반응기가 높은 출구 속도로 운전되어 부피가 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대 반응속도를 보이는 $\mathrm{A}$의 출구 전환율에서 플러그흐름 반응기와 혼합흐름 반응기의 부피는 같다.</choice_text>
-          <commentary>혼합흐름 반응기 부피가 더 작으므로 옳지 않아 정답이다.</commentary>
+          <commentary>최대속도점의 전환율에서는 혼합흐름 반응기가 최대속도로 운전되어 부피가 더 작다. 같다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$A$의 출구 전환율이 90 %일 때 플러그흐름 반응기의 부피가 혼합흐름 반응기의 부피에 비해 작다.</choice_text>
-          <commentary>고전환율에서는 플러그흐름 반응기가 유리하므로 옳다.</commentary>
+          <commentary>높은 전환율에서는 속도가 감소하는 구간이 길어 플러그흐름 반응기가 유리하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -602,19 +602,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>유효인자가 1이면 기공확산에 의한 저항은 무시할 수 있다.</choice_text>
-          <commentary>기공확산 저항이 무시되므로 정답이다.</commentary>
+          <commentary>유효인자가 1이면 기공 내부 농도가 표면과 같아 확산 저항을 무시할 수 있으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>유효인자가 1보다 크면 반응의 율속단계는 물질전달 단계이다.</choice_text>
-          <commentary>등온 조건에서 유효인자는 1을 넘지 않는다.</commentary>
+          <commentary>등온 촉매에서 유효인자는 1을 넘지 않으며, 1보다 작을 때 확산 영향이 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{A}$를 기공 내 반응물의 농도, $C_{As}$를 기공 입구에서 반응물의 농도라 하면 0차 반응에서 유효인자는 $\frac{C_{A}}{C_{As}}$와 같다.</choice_text>
-          <commentary>0차 반응의 정의로 틀렸다.</commentary>
+          <commentary>0차 반응의 속도는 농도와 무관하므로 유효인자를 C_A/C_As로 나타낼 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유효인자는 경막확산이 개입할 때 반응속도와 경막확산이 없을 때 반응속도의 비로 정의된다.</choice_text>
-          <commentary>경막확산이 아니라 내부확산 기준이다.</commentary>
+          <commentary>유효인자는 경막확산이 아니라 기공 내부 확산의 영향을 나타낸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -671,19 +671,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반응물과 생성물의 비열 차이가 없는 경우, 단열조작선은 $X_{A} = \frac{C_{p} \Delta T}{- \Delta H_{R}}$로 표현된다.</choice_text>
-          <commentary>단열조작선의 식으로 옳다.</commentary>
+          <commentary>비열 차이가 없으면 X_A = C_pΔT/(−ΔH_R)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>단열조작에서 $\frac{C_{p}}{- \Delta H_{R}}$ 값이 큰 반응에서는 혼합흐름 반응기가 적절하고, 이 값이 작은 반응에서는 플러그흐름 반응기가 적절하다.</choice_text>
-          <commentary>적합한 반응기가 뒤바뀌어 옳지 않으므로 정답이다.</commentary>
+          <commentary>C_p/(−ΔH_R)가 작아 온도 변화가 큰 반응은 혼합흐름, 큰 반응은 플러그흐름이 적절하다. 반대로 설명하여 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>흡열반응의 경우 온도 $T$에 대한 전환율 $X_{A}$ 그래프에서 단열조작선의 기울기가 음의 값으로 나타난다.</choice_text>
-          <commentary>흡열반응의 기울기로 옳다.</commentary>
+          <commentary>흡열반응은 전환율이 증가할수록 온도가 내려가므로 기울기가 음수여서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>등온조건의 경우 온도 $\mathrm{T}$에 대한 전환율 $X_{A}$ 그래프에서 단열조작선의 기울기는 무한대이다.</choice_text>
-          <commentary>등온 조건으로 옳다.</commentary>
+          <commentary>등온이면 온도 변화 없이 전환율만 증가하므로 수직선(기울기 무한대)이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -707,19 +707,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.175 0.02 0.025</choice_text>
-          <commentary>0.175, 0.02, 0.025이므로 정답이다.</commentary>
+          <commentary>k₁ + k₃ = 0.2, k₃ = 0.025에서 k₁ = 0.175, R 수지에서 k₂ = 0.02이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.02 0.175 0.025</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>k₁과 k₂가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.025 0.02 0.175</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>k₁과 k₃가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.02 0.025 0.175</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>세 속도상수의 배치가 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

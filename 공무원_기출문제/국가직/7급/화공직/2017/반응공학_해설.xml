@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$4 k$</choice_text>
-          <commentary>차원이 맞지 않는다.</commentary>
+          <commentary>4k는 차원이 시간의 역수로 공간시간이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{4}{k}$</choice_text>
-          <commentary>4/k이므로 정답이다.</commentary>
+          <commentary>τ = 0.8/(0.2k) = 4/k이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{k}{4}$</choice_text>
-          <commentary>차원이 맞지 않는다.</commentary>
+          <commentary>k/4는 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4 k}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1/(4k)는 X/(1 − X)를 0.25로 거꾸로 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>5 min은 50% 전환에 걸린 시간이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>10 min은 1차 반응처럼 계산한 값과도 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>15 min은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20 min이므로 정답이다.</commentary>
+          <commentary>X/(1 − X)가 1에서 4로 4배가 되므로 5 × 4 = 20 min이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공간속도가 3 h^(-1)이라는 것은 주어진 조건 하에서 1 h당 반응기 부피의 3배에 해당하는 공급물이 반응기에 유입된다는 뜻이다.</choice_text>
-          <commentary>공간속도의 의미로 옳다.</commentary>
+          <commentary>공간속도 3 h⁻¹은 1시간에 반응기 부피 3배의 공급물을 처리한다는 뜻이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공간시간은 주어진 조건에서 측정된 반응기 부피만큼의 공급물 처리에 필요한 시간을 의미한다.</choice_text>
-          <commentary>공간시간의 의미로 옳다.</commentary>
+          <commentary>공간시간은 반응기 부피만큼의 공급물을 처리하는 시간이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>공간시간의 역수가 공간속도이다.</choice_text>
-          <commentary>역수 관계로 옳다.</commentary>
+          <commentary>공간속도는 공간시간의 역수이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>공간시간은 반응기 부피를 반응기 출구에서의 부피유속으로 나눈 값이다.</choice_text>
-          <commentary>출구가 아니라 입구 부피유속을 기준으로 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>공간시간은 입구(공급) 조건의 부피유속으로 나눈 값이다. 출구 유속이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,11 +137,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>A 1</choice_text>
-          <commentary>A는 제한반응물이 아니다.</commentary>
+          <commentary>A는 과잉 반응물이며 최종농도도 1이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>B 1</choice_text>
-          <commentary>A의 최종농도는 1이 아니다.</commentary>
+          <commentary>B가 제한반응물이지만 A의 최종농도는 1이 아니라 4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>A 4</choice_text>
@@ -149,7 +149,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>B 4</choice_text>
-          <commentary>제한반응물 B, A의 최종농도 4이므로 정답이다.</commentary>
+          <commentary>B 2 mol/L가 소진될 때 A는 6 mol/L 소비되어 10 − 6 = 4 mol/L가 남으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1/3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>2/3이므로 정답이다.</commentary>
+          <commentary>K = 1.5/(1.5 × 1.5) = 2/3 L/mol이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1은 분모를 1.5로만 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{2}$</choice_text>
-          <commentary>역수의 값이다.</commentary>
+          <commentary>3/2는 평형상수의 역수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반응온도를 높이면 평형전환율은 감소한다.</choice_text>
-          <commentary>르 샤틀리에 원리에 따라 옳다.</commentary>
+          <commentary>발열반응은 온도가 높을수록 평형전환율이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>반응온도를 높이면 평형상수값은 감소한다.</choice_text>
-          <commentary>발열반응이므로 옳다.</commentary>
+          <commentary>발열반응은 온도가 높을수록 평형상수가 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>최적온도진행(optimum temperature progression)을 따르면 주어진 반응물의 전환율에 대하여 반응물 유입량에 대한 반응기 부피의 비를 최소화할 수 있다.</choice_text>
-          <commentary>최적온도진행의 정의로 옳다.</commentary>
+          <commentary>최적온도진행을 따르면 주어진 전환율에 필요한 반응기 부피를 최소화하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대속도궤적(locus of maximum rate)을 따르려면 반응온도는 반응 시작시점에서 낮게 유지할 필요가 있다.</choice_text>
-          <commentary>반응 초기에는 온도를 높게 유지해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>최대속도궤적은 반응 초기에 온도를 높게, 전환율이 높아질수록 낮게 유지한다. 초기에 낮게 유지한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100 min이므로 정답이다.</commentary>
+          <commentary>k = ln10/10이므로 10ln10 = kt에서 t = 100 min이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1,000 min은 계산값보다 10배 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10,000</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>10,000 min은 1차 반응 비례 관계를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>100,000</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>100,000 min은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -279,19 +279,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>8 1.2</choice_text>
-          <commentary>A의 농도가 틀렸다.</commentary>
+          <commentary>부피 8 L는 맞지만 A 농도는 2.0 mol/L이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>16 1.2</choice_text>
-          <commentary>부피와 A의 농도가 모두 틀렸다.</commentary>
+          <commentary>부피와 A 농도가 모두 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8 2.0</choice_text>
-          <commentary>8 L, 2.0 mol/L이므로 정답이다.</commentary>
+          <commentary>τ_opt = 2 min, V = 8 L, C_A = 6/3 = 2.0 mol/L이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16 2.0</choice_text>
-          <commentary>부피가 틀렸다.</commentary>
+          <commentary>부피 16 L는 τ를 4 min으로 잘못 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -312,19 +312,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5 0.2</choice_text>
-          <commentary>수율이 틀렸다.</commentary>
+          <commentary>τ는 맞지만 총괄수율은 0.08/0.2 = 0.4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>5 0.4</choice_text>
-          <commentary>5 min, 0.4이므로 정답이다.</commentary>
+          <commentary>τ = 1/0.2 = 5 min, Φ = 0.08/0.2 = 0.4이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10 0.2</choice_text>
-          <commentary>공간시간과 수율이 모두 틀렸다.</commentary>
+          <commentary>τ와 수율이 모두 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10 0.4</choice_text>
-          <commentary>공간시간이 틀렸다.</commentary>
+          <commentary>τ는 10이 아니라 5 min이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -345,19 +345,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>추적자 펄스가 혼합흐름 반응기의 입구로 주입되면, 단일 혼합흐름 반응기의 출구 농도는 $C = C_{0} e^{- t / \tau_{s}}$로 표현된다.</choice_text>
-          <commentary>혼합흐름 반응기의 출구 농도로 옳다.</commentary>
+          <commentary>펄스 주입 시 혼합흐름 반응기 출구 농도는 지수적으로 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>추적자 펄스가 혼합흐름 반응기의 입구로 주입되면, 단일 혼합흐름 반응기의 체류시간분포는 $\frac{e^{- t / \tau_{s}}}{\tau_{s}}$로 표현된다.</choice_text>
-          <commentary>E 곡선으로 옳다.</commentary>
+          <commentary>혼합흐름 반응기의 E(t) = e^(−t/τ_s)/τ_s이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>단일 플러그흐름 반응기의 체류시간분포는 $\tau_{p}$만큼 지연된다.</choice_text>
-          <commentary>지연 응답으로 옳다.</commentary>
+          <commentary>플러그흐름 반응기는 τ_p만큼 지연된 펄스를 내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>혼합흐름 반응기 → 플러그흐름 반응기 직렬계와 플러그흐름 반응기 → 혼합흐름 반응기 직렬계의 체류시간분포식은 서로 다르다.</choice_text>
-          <commentary>연결 순서와 무관하게 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>선형계에서 직렬 순서를 바꿔도 전체 체류시간분포는 같다. 다르다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -382,19 +382,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1단계 반응이 2단계 반응보다 매우 느리며 1단계가 속도결정단계이다.</choice_text>
-          <commentary>1단계가 속도결정단계이므로 정답이다.</commentary>
+          <commentary>전체 속도식이 1단계의 단분자 속도식과 같으므로 1단계가 느린 속도결정단계이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1단계 반응이 2단계 반응보다 매우 빠르며 2단계가 속도결정단계이다.</choice_text>
-          <commentary>2단계가 율속이면 속도식에 O 농도가 나타난다.</commentary>
+          <commentary>2단계가 속도결정단계라면 속도식에 O 농도가 포함되어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1단계 반응과 2단계 반응의 속도는 유사하다.</choice_text>
-          <commentary>속도가 유사하면 단순 1차 속도식이 되지 않는다.</commentary>
+          <commentary>두 단계 속도가 비슷하면 속도식이 단순한 1차 형태가 되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>알 수 없다.</choice_text>
-          <commentary>속도식으로 판단할 수 있다.</commentary>
+          <commentary>속도식으로 속도결정단계를 판단할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -418,19 +418,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$C_{A}$를 높인다.</choice_text>
-          <commentary>C_A는 선택도에 영향이 없다.</commentary>
+          <commentary>r_R/r_S에서 C_A는 약분되어 선택도에 영향이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$C_{B}$를 높인다.</choice_text>
-          <commentary>C_B를 높이는 것이므로 정답이다.</commentary>
+          <commentary>r_R/r_S = (k₁/k₂)C_B이므로 C_B를 높여야 하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$C_{A}$와 $C_{B}$를 모두 낮춘다.</choice_text>
-          <commentary>C_B를 낮추면 불리하다.</commentary>
+          <commentary>C_B를 낮추면 R의 상대 수율이 낮아진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>농도에 상관없다.</choice_text>
-          <commentary>C_B에 따라 달라진다.</commentary>
+          <commentary>선택도는 C_B에 의존하므로 농도와 무관하지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -454,19 +454,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{k} \ln \frac{1}{1 - itX_{A}}$</choice_text>
-          <commentary>1차 반응의 식이다.</commentary>
+          <commentary>ln 형태는 1차 반응의 PFR 공간시간이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{X_{A}}{kC_{A0} ( 1 - X_{A} )^{2}}$</choice_text>
-          <commentary>혼합흐름 반응기의 식이다.</commentary>
+          <commentary>(1 − X)² 분모는 2차 반응의 혼합흐름 반응기 식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{X_{A}}{kC_{A0} ( 1 - X_{A} )}$</choice_text>
-          <commentary>플러그흐름 반응기 2차 반응의 식이므로 정답이다.</commentary>
+          <commentary>2차 반응 PFR에서 τ = X/[kC_A0(1 − X)]이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{X_{A}}{k ( 1 - X_{A} )}$</choice_text>
-          <commentary>C_A0가 빠져 있다.</commentary>
+          <commentary>C_A0 항이 빠져 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -491,19 +491,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>혼합흐름 반응기 혼합흐름 반응기</choice_text>
-          <commentary>후반부에서 부피가 커진다.</commentary>
+          <commentary>C_A 1 이하 구간에서는 1/(−r_A)가 증가하므로 두 번째 반응기도 혼합흐름이면 불리하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>플러그흐름 반응기 플러그흐름 반응기</choice_text>
-          <commentary>전반부에서 부피가 커진다.</commentary>
+          <commentary>첫 구간에서는 1/(−r_A)가 감소하므로 플러그흐름이 불리하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>혼합흐름 반응기 플러그흐름 반응기</choice_text>
-          <commentary>혼합흐름 → 플러그흐름이므로 정답이다.</commentary>
+          <commentary>1/(−r_A)가 감소하는 앞 구간은 혼합흐름, 증가하는 뒤 구간은 플러그흐름이 유리하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>플러그흐름 반응기 혼합흐름 반응기</choice_text>
-          <commentary>순서가 뒤바뀌었다.</commentary>
+          <commentary>앞뒤 반응기 형식이 반대로 되어 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -527,19 +527,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.0</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>Da = 1.0이면 X = 0.5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.5</choice_text>
-          <commentary>1.5이므로 정답이다.</commentary>
+          <commentary>Da = 0.6/0.4 = 1.5이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.0</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>Da = 2.0이면 X = 2/3이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>Da = 2.5이면 X = 5/7이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -561,19 +561,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$v sub max$는 전체효소농도의 함수이다.</choice_text>
-          <commentary>v_max는 전체효소농도의 함수이므로 정답이다.</commentary>
+          <commentary>v_max = k_cat[E]₀이므로 전체효소농도의 함수이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$K sub m$이 클수록 기질과 효소 사이의 친화도는 증가한다.</choice_text>
-          <commentary>K_m이 클수록 친화도는 감소한다.</commentary>
+          <commentary>K_m이 클수록 친화도는 낮아진다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$[ S ] &gt; &gt; K sub m$인 경우, 반응속도는 1차반응에 가깝다.</choice_text>
-          <commentary>0차 반응에 가깝다.</commentary>
+          <commentary>[S] &gt;&gt; K_m이면 −r_S ≈ v_max로 0차에 가깝다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>모든 효소 촉매반응은 Michaelis-Menten 식을 따른다.</choice_text>
-          <commentary>모든 효소반응이 따르지는 않는다.</commentary>
+          <commentary>저해·알로스테릭 효소 등은 Michaelis-Menten 식을 따르지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -597,19 +597,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \ln \frac{4}{3}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>계수 1/2은 k/(R + 1)의 역수를 잘못 적용한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \ln \frac{13}{9}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>계수와 로그 안의 값이 모두 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{3} \ln \frac{4}{3}$</choice_text>
-          <commentary>(2/3)ln(4/3)이므로 정답이다.</commentary>
+          <commentary>R = 1, C_Af = 3이므로 3τ/2 = ln(8/6) = ln(4/3), τ = (2/3)ln(4/3)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} \ln \frac{13}{9}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>로그 안의 값이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -633,19 +633,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20%이므로 정답이다.</commentary>
+          <commentary>X = 1 × 40/(20 × 10) = 0.2, 즉 20%이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>25</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>25%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>30%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>35</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>35%는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -669,19 +669,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>촉매 표면에서의 반응속도 상수</choice_text>
-          <commentary>영향 요소이다.</commentary>
+          <commentary>반응속도상수 k는 Thiele 계수 φ = L√(k/D_e)에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>촉매의 입자크기</choice_text>
-          <commentary>영향 요소이다.</commentary>
+          <commentary>입자크기(특성길이 L)는 Thiele 계수에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>반응물의 유효 확산계수</choice_text>
-          <commentary>영향 요소이다.</commentary>
+          <commentary>유효 확산계수 D_e는 Thiele 계수에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>촉매 표면에서의 반응물 농도</choice_text>
-          <commentary>1차 반응에서는 영향이 없으므로 정답이다.</commentary>
+          <commentary>1차 반응의 Thiele 계수는 표면 농도와 무관하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -705,19 +705,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10.8</choice_text>
-          <commentary>공간시간의 값이다.</commentary>
+          <commentary>10.8은 공간시간(min)이며 부피가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>11.6</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>11.6은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>21.6</choice_text>
-          <commentary>21.6 L이므로 정답이다.</commentary>
+          <commentary>τ = 10.8 min, v₀ = 2 L/min이므로 V = 21.6 L이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>23.2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>23.2는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>

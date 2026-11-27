@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유량이 일정할 때 비에너지가 최소인 수심이 한계수심이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>유량이 일정할 때 비에너지가 최소인 수심이 한계수심이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>비에너지가 일정할 때 한계수심으로 흐르면 유량이 최소가 된다.</choice_text>
-          <commentary>유량이 최대가 되므로 옳지 않아 정답이다.</commentary>
+          <commentary>비에너지가 일정할 때 한계수심으로 흐르면 유량은 최대가 된다. 최소라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>등류일 때 모든 흐름 구간에서 비에너지는 일정하며, 에너지선은 수로바닥과 항상 평행하다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>등류는 수심과 유속이 일정하여 비에너지가 일정하고 에너지선이 수로바닥과 평행하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>비에너지는 개수로 바닥을 기준으로 한 전수두이며, 단위 무게당 에너지로 표현된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비에너지 He = h + V²/2g는 수로바닥 기준의 단위무게당 전수두이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -72,7 +72,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>평균유속이다.</commentary>
+          <commentary>평균유속 Q/A = 2 m/s이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
@@ -80,7 +80,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4 m/s이므로 정답이다.</commentary>
+          <commentary>층류의 중심 최대유속은 평균유속의 2배이므로 2 × 2 = 4 m/s로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,19 +101,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>난류영역에서의 마찰손실수두는 관의 상대조도보다 레이놀즈수가 더 중요한 변수가 된다.</choice_text>
-          <commentary>상대조도가 더 중요하므로 옳지 않아 정답이다.</commentary>
+          <commentary>난류에서는 레이놀즈수가 커질수록 상대조도의 영향이 커지며, 완전 난류에서는 상대조도가 주된 변수이다. 레이놀즈수가 더 중요하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>층류영역에서의 마찰손실수두는 관의 조도와 무관하다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>층류의 마찰손실은 관 조도와 무관하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>층류영역에서 마찰손실계수는 $\frac{64}{Re}$($Re$는 레이놀즈수)이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>층류의 마찰손실계수는 f = 64/Re이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>거친관의 마찰손실계수는 레이놀즈수가 10^(6) 이상이면 관의 상대조도에 의해 주로 영향을 받는다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>Re ≥ 10⁶ 정도의 거친관 흐름에서는 f가 상대조도에 의해 주로 결정되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5 0.15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>유속은 5 m/s가 아니고 유량도 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>5 0.30</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>유속이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>10 0.15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>유량이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>10 0.30</choice_text>
-          <commentary>10 m/s, 0.30 m³/s이므로 정답이다.</commentary>
+          <commentary>V = √(2 × 10 × 5) = 10 m/s, Q = 0.03 × 10 = 0.30 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -177,11 +177,11 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.49</choice_text>
-          <commentary>0.49이므로 정답이다.</commentary>
+          <commentary>1 − 0.8³ = 0.488 ≒ 0.49이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.51</choice_text>
-          <commentary>한 번도 발생하지 않을 확률이다.</commentary>
+          <commentary>3년 동안 한 번도 발생하지 않을 확률 0.512에 가까운 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.73</choice_text>
@@ -209,19 +209,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{ad}{bc} 10^{6}$</choice_text>
-          <commentary>옳은 식이므로 정답이다.</commentary>
+          <commentary>μ = Fy/(AV) = (ad/bc) × 10⁶이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{ad}{bc} 10^{- 6}$</choice_text>
-          <commentary>지수가 틀렸다.</commentary>
+          <commentary>단위 환산의 지수 부호가 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{bd}{ac} 10^{6}$</choice_text>
-          <commentary>변수 배치가 틀렸다.</commentary>
+          <commentary>a와 b의 위치가 바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{bd}{ac} 10^{- 6}$</choice_text>
-          <commentary>변수 배치와 지수가 틀렸다.</commentary>
+          <commentary>변수 위치와 지수가 모두 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,15 +245,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 : 1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>미소손실계수 합 1.5와 마찰손실계수 1.0의 비가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 : 2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>비가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3 : 2</choice_text>
-          <commentary>3 : 2이므로 정답이다.</commentary>
+          <commentary>미소손실 1.5V²/2g : 마찰손실 1.0V²/2g = 3 : 2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 : 1</choice_text>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>80</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>Lr²를 적용한 값의 5배 수준으로 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>160</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>Lr²에 가까운 배율을 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>320</choice_text>
-          <commentary>320 m³/s이므로 정답이다.</commentary>
+          <commentary>Qr = 4^(5/2) = 32이므로 10 × 32 = 320 m³/s로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>640</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>Lr³를 적용한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -321,7 +321,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.8</choice_text>
-          <commentary>0.8 m이므로 정답이다.</commentary>
+          <commentary>Fr₁ = 6, h₂/h₁ = ½(−1 + √(1 + 8 × 36)) = 8이므로 h₂ = 0.8 m로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.2</choice_text>
@@ -353,19 +353,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>초과강우량이 41 mm보다 커진다.</commentary>
+          <commentary>Φ = 8이면 초과강우량이 41 mm보다 커진다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>초과강우량이 41 mm보다 커진다.</commentary>
+          <commentary>Φ = 12이면 초과강우량이 41 mm보다 커진다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>14</choice_text>
-          <commentary>14 mm/h이므로 정답이다.</commentary>
+          <commentary>Φ = 14일 때 초과강우량이 (2 + 22 + 36 + 14 + 8) × 0.5 = 41 mm이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>18</choice_text>
-          <commentary>초과강우량이 41 mm보다 작아진다.</commentary>
+          <commentary>Φ = 18이면 초과강우량이 41 mm보다 작아진다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -461,7 +461,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>10,800</choice_text>
-          <commentary>10,800 m³이므로 정답이다.</commentary>
+          <commentary>V = 100 × 0.4 × 0.1 = 4 m/s, Q = 0.75 × 4 = 3 m³/s, 1시간 3 × 3,600 = 10,800 m³이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>21,600</choice_text>
@@ -497,19 +497,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>275</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>부력을 75 N으로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>300</choice_text>
-          <commentary>300 N이므로 정답이다.</commentary>
+          <commentary>부력 1,000 × 10 × 0.005 = 50 N이므로 350 − 50 = 300 N으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>325</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>부력을 25 N으로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>부력을 더한 값이다.</commentary>
+          <commentary>부력을 더한 값으로 부호가 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -570,7 +570,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.05</choice_text>
-          <commentary>0.05 N/m이므로 정답이다.</commentary>
+          <commentary>σ = ΔP·D/4 = 10 × 0.02/4 = 0.05 N/m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
@@ -599,19 +599,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>하천종단도는 유역경계선으로부터 하천출구점까지 하천의 수평거리에 대한 하상의 높이를 나타낸 것이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>하천종단도는 하천의 수평거리에 대한 하상고를 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>비유량은 하천유량을 유역면적으로 나눈 것이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비유량은 유량을 유역면적으로 나눈 값이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>하상계수는 하천의 임의 지점에서 특정 연도의 최소유량에 대한 최대유량의 비이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>하상계수는 최소유량에 대한 최대유량의 비이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>유황계수는 연중 15일 이상 지속되는 유량을 연중 350일 이상 지속되는 유량으로 나눈 값이다.</choice_text>
-          <commentary>공식 정답에 따르면 옳지 않아 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 유황계수의 정의가 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -643,7 +643,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.0</choice_text>
-          <commentary>2.0 m³/s이므로 정답이다.</commentary>
+          <commentary>I = 100 mm/h, Q = 0.6 × 100 × 12/360 = 2.0 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
@@ -675,11 +675,11 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>7</choice_text>
-          <commentary>7 m³/s이므로 정답이다.</commentary>
+          <commentary>8시간 종거 (6 + 8)/2 = 7 m³/s가 최대이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>2시간 단위유량도의 최대값이다.</commentary>
+          <commentary>2시간 단위유량도의 최대 종거이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
@@ -707,15 +707,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>500</choice_text>
-          <commentary>500 N이므로 정답이다.</commentary>
+          <commentary>F = ρA(V − u)² = 1,000 × 0.02 × 25 = 500 N이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>절대속도와 상대속도를 곱한 값이다.</commentary>
+          <commentary>상대속도를 쓰지 않고 ρAV(V − u)로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2,000</choice_text>
-          <commentary>평판이 정지한 경우의 값이다.</commentary>
+          <commentary>정지 평판에 대한 ρAV² 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3,000</choice_text>

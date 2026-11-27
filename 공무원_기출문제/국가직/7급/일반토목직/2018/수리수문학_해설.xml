@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>정상 등류</choice_text>
-          <commentary>시간 변화가 없는 흐름이다.</commentary>
+          <commentary>시간과 위치에 따라 변하지 않는 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정상 부등류</choice_text>
-          <commentary>시간 변화가 없는 흐름이다.</commentary>
+          <commentary>시간에 따라 변하지 않는 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>부정 등류</choice_text>
-          <commentary>위치에 따라 변하므로 등류가 아니다.</commentary>
+          <commentary>위치에 따라 변하지 않는 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>부정 부등류</choice_text>
-          <commentary>부정 부등류이므로 정답이다.</commentary>
+          <commentary>여수로 흐름은 시간에 따라 유량이 변하고 위치에 따라 수심이 변하므로 부정 부등류로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,11 +71,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>동수경사를 1로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20,000</choice_text>
-          <commentary>20,000 m²이므로 정답이다.</commentary>
+          <commentary>A = 10/(0.001 × 0.5) = 20,000 m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40,000</choice_text>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>점성저층에는 뉴턴의 점성법칙이 적용될 수 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>점성저층에서는 점성이 지배하므로 τ = μ du/dy가 적용되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>점성저층은 벽 근처에서 점성력이 흐름을 지배하여 난류의 영향이 없는 얇은 층이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>벽 근처에서 점성력이 지배하는 난류 영향 없는 얇은 층이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>수리학적으로 매끈한 관과 거친 관은 점성저층의 두께와 관벽 조도의 비에 따라 구별된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>점성저층 두께와 조도의 비로 매끈한 관과 거친 관을 구분하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>층류보다 난류일 때, 점성저층의 두께는 더 크다.</choice_text>
-          <commentary>난류에서 얇아지므로 옳지 않아 정답이다.</commentary>
+          <commentary>난류가 강할수록(Re가 클수록) 점성저층의 두께는 얇아진다. 더 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -144,7 +144,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>8.0</choice_text>
-          <commentary>8.0 km²이므로 정답이다.</commentary>
+          <commentary>A = 80/(0.2778 × 0.6 × 60) ≒ 8.0 km²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>9.0</choice_text>
@@ -213,7 +213,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.81</choice_text>
-          <commentary>단위가 틀렸다.</commentary>
+          <commentary>세 번째 해까지 월류하지 않을 확률과 혼동한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1.62</choice_text>
@@ -221,7 +221,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8.10</choice_text>
-          <commentary>8.10%이므로 정답이다.</commentary>
+          <commentary>0.9² × 0.1 = 0.081 = 8.10%이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16.2</choice_text>
@@ -282,19 +282,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$M_{1}$곡선은 $Fr$가 1보다 큰 흐름에 대해서 수심이 등류수심보다 크고 한계수심보다는 작은 경우의 수면형이다.</choice_text>
-          <commentary>M₁은 Fr &lt; 1이고 등류수심보다 크다.</commentary>
+          <commentary>M₁곡선은 Fr &lt; 1이고 수심이 등류수심보다 큰 경우이므로 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$M_{1}$곡선은 상류(上流)로 갈수록 수심이 감소하는 저하곡선으로 보의 상류측에서 나타난다.</choice_text>
-          <commentary>M₁은 배수곡선이다.</commentary>
+          <commentary>M₁곡선은 상류로 갈수록 수심이 감소해 등류수심에 접근하는 배수곡선이다. 저하곡선이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$M_{2}$곡선은 $Fr$가 1보다 작은 흐름에 대해서 수심이 한계수심보다 크고 등류수심보다는 작은 경우의 수면형이다.</choice_text>
-          <commentary>옳은 설명이므로 정답이다.</commentary>
+          <commentary>M₂곡선은 Fr &lt; 1이고 수심이 한계수심보다 크고 등류수심보다 작은 경우이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$M_{2}$곡선은 상류(上流)로 갈수록 수심이 감소하는 저하곡선으로 보의 월류부에서 나타난다.</choice_text>
-          <commentary>M₂는 하류로 갈수록 수심이 감소한다.</commentary>
+          <commentary>M₂곡선은 하류로 갈수록 수심이 감소하는 저하곡선이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -321,7 +321,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>14.0</choice_text>
-          <commentary>14.0 mm/h이므로 정답이다.</commentary>
+          <commentary>(120 − 3Φ) = 78에서 Φ = 14.0 mm/h이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>18.7</choice_text>
@@ -352,19 +352,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>비에너지 곡선에서 도수 전 수심 $y_1$에 대한 도수 후의 수심 $y_2$를 대응수심(alternate depth)이라 한다.</choice_text>
-          <commentary>공액수심이므로 옳지 않아 정답이다.</commentary>
+          <commentary>도수 전후의 수심은 비력이 같은 공액수심이며, 비에너지가 같은 대응수심이 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>비력 곡선에서 도수 전 수심 $y_1$에 대한 도수 후의 수심 $y_2$를 공액수심(conjugate depth)이라 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비력 곡선에서 도수 전후 수심은 공액수심이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>비에너지가 최소가 되거나 비력이 최소가 되는 수심 $y_0$를 한계수심(critical depth)이라 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비에너지와 비력이 최소가 되는 수심은 한계수심이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>도수로 인한 흐름 에너지 손실($\Delta E$)은 도수 전후의 수심차가 클수록 커진다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>ΔE = (y₂ − y₁)³/(4y₁y₂)이므로 수심차가 클수록 손실이 커져 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -390,7 +390,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>22</choice_text>
-          <commentary>22 mm/h이므로 정답이다.</commentary>
+          <commentary>최대 2시간 강우량 44 mm ÷ 2 = 22 mm/h이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>35</choice_text>
@@ -398,7 +398,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>44</choice_text>
-          <commentary>2시간 강우량이다.</commentary>
+          <commentary>2시간 강우량을 강도로 환산하지 않은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,19 +453,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{g_{r} L_r}$ 탄성력 $\nu_r L_r^{- 1}$ 표면장력</choice_text>
-          <commentary>옳게 연결되었으므로 정답이다.</commentary>
+          <commentary>㉠ √(gr·Lr), ㉡ 탄성력, ㉢ νr/Lr, ㉣ 표면장력이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\nu_r L_r^{- 1}$ 표면장력 $\sqrt{g_{r} L_r}$ 탄성력</choice_text>
-          <commentary>힘과 속도비가 바뀌었다.</commentary>
+          <commentary>힘과 속도비의 짝이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{\rho_r g_{r} L_{r}}$ 탄성력 $\sqrt{\nu_r^{- 1} L_{r}}$ 표면장력</choice_text>
-          <commentary>속도비가 틀렸다.</commentary>
+          <commentary>속도비 식이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{g_{r} L_r}$ 표면장력 $\nu_r L_r^{- 1}$ 탄성력</choice_text>
-          <commentary>지배하는 힘이 바뀌었다.</commentary>
+          <commentary>㉡과 ㉣의 힘이 바뀌었다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -489,19 +489,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$L = \frac{E_{1} - E_{2}}{S_{e} - S_{0}}$</choice_text>
-          <commentary>옳은 식이므로 정답이다.</commentary>
+          <commentary>E₁ − E₂ = (Se − S₀)L에서 L = (E₁ − E₂)/(Se − S₀)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$L = \frac{S_{e} - S_{0}}{E_{1} - E_{2}}$</choice_text>
-          <commentary>분자와 분모가 바뀌었다.</commentary>
+          <commentary>분자와 분모가 뒤집혔다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$L = \frac{E_{2} - E_{1}}{S_{e} - S_{0}}$</choice_text>
-          <commentary>부호가 틀렸다.</commentary>
+          <commentary>분자의 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$L = \frac{S_{0} - S_{e}}{E_{1} - E_{2}}$</choice_text>
-          <commentary>식이 틀렸다.</commentary>
+          <commentary>분자와 분모가 뒤집혔다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -529,7 +529,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.50</choice_text>
-          <commentary>1.50이므로 정답이다.</commentary>
+          <commentary>비중 = 3/(3 − 1) = 1.50이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.75</choice_text>
@@ -595,19 +595,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Bukingham π-정리에서 n개의 변수와 m개의 반복변수가 있다면, 무차원 변수의 수는 (n － m)개이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>n개 변수와 m개 반복변수가 있으면 무차원 변수는 (n − m)개이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>반복변수는 길이, 시간, 질량을 대표하는 [L], [T], [M]의 차원을 주로 사용한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>반복변수는 [M], [L], [T]를 대표하도록 고르므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>차원해석은 동차성의 원리에 기반하며 변수 간의 상관관계는 멱수－곱(power-product)형태로 표현한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>차원해석은 동차성 원리에 기반하며 변수 관계를 멱수-곱 형태로 표현하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>차원해석에서 종속변수는 차원량(dimensional quantity)이다.</choice_text>
-          <commentary>무차원량으로 표현하므로 옳지 않아 정답이다.</commentary>
+          <commentary>차원해석에서는 종속변수도 반복변수와 묶어 무차원량(π항)으로 나타낸다. 차원량이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -631,7 +631,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{10}$</choice_text>
-          <commentary>단위폭 유량이다.</commentary>
+          <commentary>폭 3 m를 곱하지 않은 단위폭 유량이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2 \sqrt{10}$</choice_text>
@@ -639,7 +639,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$3 \sqrt{10}$</choice_text>
-          <commentary>3√10이므로 정답이다.</commentary>
+          <commentary>hc = (2/3) × 1.5 = 1.0 m, q = √(10 × 1³) = √10이므로 Q = 3√10 m³/s로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$4 \sqrt{10}$</choice_text>
@@ -665,19 +665,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>관수로의 흐름 요소는 점성력과 압력차이며, 이로 인해 한 단면에서 유속과 전단응력 분포는 동일하다.</choice_text>
-          <commentary>분포가 서로 다르므로 옳지 않아 정답이다.</commentary>
+          <commentary>관수로에서 전단응력은 직선 분포, 유속은 포물선 등으로 분포가 다르다. 동일하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>관로 밸브의 급작스러운 개폐에 따른 압력파로 인해 관 내부에 수격현상이 발생한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>밸브를 갑자기 열고 닫으면 압력파로 수격현상이 생기므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>관로 밸브의 개폐 시 발생하는 충격파가 조압수조를 통해 완화되는 과정에서 수면이 진동하는 서징(surging)현상이 나타난다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>조압수조에서 수면이 오르내리며 충격을 흡수하는 서징이 나타나므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>공동현상은 유수 중에 압력이 증기압 이하로 낮아지면 물속에 포함되어 있는 기체가 물에서 빠져나와 기포가 발생하는 현상이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>압력이 증기압 이하로 낮아지면 기포가 생기는 공동현상이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>
@@ -699,19 +699,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>비회전류는 베르누이 방정식을 적용하기 위한 가정사항에 포함된다.</choice_text>
-          <commentary>기본 가정이 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>베르누이 방정식은 동일 유선을 따라 적용하면 비회전류 가정이 필요 없다. 가정사항에 포함된다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>베르누이 방정식은 일반적으로 압력수두, 속도수두 그리고 위치수두로 구성되며, 모두 길이의 차원으로 표현된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>압력수두, 속도수두, 위치수두는 모두 길이 차원이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>오일러 방정식을 구간 혹은 거리로 적분하면, 베르누이 방정식을 유도할 수 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>오일러 방정식을 유선을 따라 적분하면 베르누이 방정식을 유도할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>비압축성 및 비점성 흐름은 베르누이 방정식과 오일러 방정식 모두의 가정사항에 포함된다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비압축성과 비점성은 두 방정식 모두의 가정이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2018년 · 7급 공개경쟁채용시험)</exam_history>

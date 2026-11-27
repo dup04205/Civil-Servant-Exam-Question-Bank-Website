@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유량: [L^(3)T^(-1)]</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>유량은 부피/시간이므로 [L³T⁻¹]로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>압력: [ML^(-1)T^(-2)]</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>압력은 힘/면적이므로 [MLT⁻²]/[L²] = [ML⁻¹T⁻²]로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>표면장력: [MT^(-1)]</choice_text>
-          <commentary>[MT⁻²]이므로 옳지 않아 정답이다.</commentary>
+          <commentary>표면장력은 힘/길이이므로 [MT⁻²]이다. [MT⁻¹]은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>운동량: [MLT^(-1)]</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>운동량은 질량 × 속도이므로 [MLT⁻¹]로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -71,7 +71,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.0</choice_text>
-          <commentary>2.0 m/s이므로 정답이다.</commentary>
+          <commentary>V = √(2 × 10 × 0.2) = 2.0 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2.5</choice_text>
@@ -108,7 +108,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{235}$</choice_text>
-          <commentary>√235이므로 정답이다.</commentary>
+          <commentary>h² = 400 − 396 × 25/60 = 235이므로 h = √235 m로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{240}$</choice_text>
@@ -134,19 +134,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>유선이란 입자가 이동한 경로를 추적하여 연결한 선이다.</choice_text>
-          <commentary>유적선의 정의이므로 옳지 않아 정답이다.</commentary>
+          <commentary>입자의 이동 경로를 연결한 선은 유적선이다. 유선은 순간의 속도 벡터에 접하는 곡선이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>하나의 유선은 다른 유선과 교차하지 않는다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>한 점에서 속도 방향은 하나이므로 유선은 서로 교차하지 않아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정상류에서는 유선과 유적선(path line)이 일치한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>정상류에서는 유선이 변하지 않아 유적선과 일치하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>부정류에서는 유선이 시간에 따라 변화한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>부정류에서는 속도장이 변해 유선도 시간에 따라 변하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -174,7 +174,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>200</choice_text>
-          <commentary>200 kN이므로 정답이다.</commentary>
+          <commentary>T = 350 − 150 = 200 kN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>300</choice_text>
@@ -246,11 +246,11 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \pi u_{c} R^{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>포물선 분포(r²)일 때의 유량이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3}{5} \pi u_{c} R^{2}$</choice_text>
-          <commentary>(3/5)πu_c R²이므로 정답이다.</commentary>
+          <commentary>Q = 2πu_c(R²/2 − R²/5) = (3/5)πu_c R²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} \pi u_{c} R^{2}$</choice_text>
@@ -276,15 +276,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>360</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>기저유량을 더하지 않은 값에 가깝지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>380</choice_text>
-          <commentary>직접유출의 첨두이다.</commentary>
+          <commentary>기저유량을 더하지 않은 직접유출 첨두값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>400</choice_text>
-          <commentary>400 m³/s이므로 정답이다.</commentary>
+          <commentary>직접유출 첨두 380 + 기저유량 20 = 400 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>420</choice_text>
@@ -313,7 +313,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.040</choice_text>
-          <commentary>0.040 N·s/m²이므로 정답이다.</commentary>
+          <commentary>μ = 1 × 0.02/(0.1 × 5) = 0.040 N·s/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.100</choice_text>
@@ -378,19 +378,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>항력은 흐름 방향으로 물체가 받는 힘이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>항력은 흐름 방향으로 물체가 받는 힘이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>항력계수의 영향을 무시한다면, 항력은 물체의 흐름 방향 단면적에 비례하고, 흐름 속도의 제곱에 비례한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>D = CD·A·ρV²/2이므로 단면적에 비례하고 속도의 제곱에 비례하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>양력은 흐름의 직각방향으로 물체가 받는 힘이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>양력은 흐름에 직각 방향의 힘이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>비행기가 뜨는 이유는 날개 아래쪽의 유속이 위쪽보다 빨라서 생기는 양력 때문이다.</choice_text>
-          <commentary>위쪽 유속이 빠르므로 옳지 않아 정답이다.</commentary>
+          <commentary>비행기 날개는 위쪽 유속이 빨라 압력이 낮아져 양력이 생긴다. 아래쪽 유속이 빠르다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -414,19 +414,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유량이 변해도 흐름 상태가 심하게 변하지 않는 지점</choice_text>
-          <commentary>적절하다.</commentary>
+          <commentary>흐름 상태가 크게 변하지 않는 지점은 수위-유량관계가 안정되어 적절하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>시야 확보에 좋고 직선구간이 확보되는 지점</choice_text>
-          <commentary>적절하다.</commentary>
+          <commentary>시야가 좋고 직선 구간인 지점은 관측과 흐름이 안정되어 적절하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>갈수기에 하상이 잘 드러나 수위 관측이 용이한 지점</choice_text>
-          <commentary>적절하지 않으므로 정답이다.</commentary>
+          <commentary>갈수기에 하상이 드러나면 저수위를 관측할 수 없으므로 적절하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>유로나 하상의 변동이 심하지 않은 지점</choice_text>
-          <commentary>적절하다.</commentary>
+          <commentary>유로와 하상 변동이 적은 지점은 수위-유량관계가 안정되어 적절하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -448,19 +448,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수로바닥을 기준으로 측정한 단위 무게의 물이 가지는 흐름의 에너지이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>비에너지는 수로바닥 기준의 단위무게당 에너지이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>등류 흐름에서 비에너지는 위치에 관계없이 항상 일정한 값을 갖는다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>등류는 수심과 유속이 일정해 비에너지가 일정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>직사각형 개수로에 일정한 유량이 흐를 때, 비에너지가 최소가 되는 흐름에서의 비에너지는 수심의 1.5배이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>직사각형 수로의 최소비에너지는 Emin = 1.5hc이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>사류(supercritical flow)인 경우 수심의 감소에 따라 비에너지는 감소한다.</choice_text>
-          <commentary>비에너지가 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>사류에서는 수심이 감소하면 속도수두가 급증해 비에너지가 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -493,7 +493,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>9</choice_text>
-          <commentary>9 m/s이므로 정답이다.</commentary>
+          <commentary>Cv = 0.54/0.6 = 0.9, V = 0.9 × 10 = 9 m/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -521,15 +521,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>시간비를 1로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100분이므로 정답이다.</commentary>
+          <commentary>Lr = 100, Tr = √100 = 10이므로 10 × 10 = 100분으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>시간비를 길이비로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -551,15 +551,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4.8 × 10^(6 )</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>－0.8 × 10^(6)</choice_text>
-          <commentary>-0.8 × 10⁶이므로 정답이다.</commentary>
+          <commentary>건설 후 7.2 × 10⁶ − 건설 전 8.0 × 10⁶ = −0.8 × 10⁶ m³/year이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>－4.8 × 10^(6 )</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>증발접시계수를 반영하지 않는 등 계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>－12.8 × 10^(6)</choice_text>
@@ -623,19 +623,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>위험도가 20%를 넘는다.</commentary>
+          <commentary>T = 8이면 위험도가 20%를 넘는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>위험도가 20%를 넘는다.</commentary>
+          <commentary>T = 9이면 위험도가 약 21%로 20%를 넘는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10년이므로 정답이다.</commentary>
+          <commentary>T ≥ 9.3년이므로 가장 작은 정수 10년이 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>가능하지만 가장 작은 값이 아니다.</commentary>
+          <commentary>조건을 만족하지만 가장 작은 값이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -695,19 +695,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>M1</choice_text>
-          <commentary>완경사 곡선이다.</commentary>
+          <commentary>M1은 완경사 수로에서 수심이 등류수심보다 클 때의 곡선이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>S2</choice_text>
-          <commentary>S2이므로 정답이다.</commentary>
+          <commentary>hn = 1 m &lt; hc = 2 m인 급경사 수로에서 수심 1.5 m가 둘 사이에 있으므로 S2로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>M3</choice_text>
-          <commentary>완경사 곡선이다.</commentary>
+          <commentary>M3는 완경사 수로에서 수심이 한계수심보다 작을 때의 곡선이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>S3</choice_text>
-          <commentary>수심이 등류수심보다 작을 때의 곡선이다.</commentary>
+          <commentary>S3는 급경사 수로에서 수심이 등류수심보다 작을 때의 곡선이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

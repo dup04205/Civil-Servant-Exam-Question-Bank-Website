@@ -39,11 +39,11 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.68</choice_text>
-          <commentary>1.68 m/s이므로 정답이다.</commentary>
+          <commentary>(2.1 + 2 × 1.8 + 1.0)/4 = 1.675 ≒ 1.68 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.80</choice_text>
-          <commentary>0.6h 지점 유속이다.</commentary>
+          <commentary>0.6h 지점 유속만 쓴 1점법 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1.95</choice_text>
@@ -108,11 +108,11 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>120</choice_text>
-          <commentary>0~10분 강우량으로 계산한 값이다.</commentary>
+          <commentary>0~10분 강우량 20 mm로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>144</choice_text>
-          <commentary>144 mm/h이므로 정답이다.</commentary>
+          <commentary>5~15분 강우량 24 mm × 6 = 144 mm/h이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>180</choice_text>
@@ -176,7 +176,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$E = P - I \pm U + O \pm S$</choice_text>
-          <commentary>부호가 틀렸다.</commentary>
+          <commentary>지표수 유입량과 유출량의 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$E = P - I - U - O + S$</choice_text>
@@ -184,11 +184,11 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$E = P + I \pm U - O \pm S$</choice_text>
-          <commentary>옳은 식이므로 정답이다.</commentary>
+          <commentary>E = P + I ± U − O ± S이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$E = P + I + U + O + S$</choice_text>
-          <commentary>부호가 틀렸다.</commentary>
+          <commentary>유출량을 더한 것은 물수지 원리에 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -209,19 +209,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>상사법칙에는 일반적으로 기하학적 상사, 운동학적 상사, 동력학적 상사가 있다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>상사법칙에는 기하학적, 운동학적, 동력학적 상사가 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>수리학적으로 완전한 동력학적 상사가 성립되기 위해서는 먼저 기하학적 상사와 운동학적 상사가 성립되어야 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>동력학적 상사가 성립하려면 기하학적·운동학적 상사가 먼저 성립해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>수리모형실험 시 중력이 역학 시스템에서 가장 중요한 힘이라면 Froude수가 모형과 원형이 동일한 것이 일반적이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>중력이 지배적이면 모형과 원형의 프루드수를 같게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>하천 수리모형은 항상 수심, 수면폭, 수로의 흐름방향 길이를 정확하게 같은 축척 비율로 만들어야 한다.</choice_text>
-          <commentary>왜곡모형을 쓰므로 옳지 않아 정답이다.</commentary>
+          <commentary>하천 모형은 수심이 너무 얕아지는 것을 막기 위해 연직과 수평 축척을 다르게 하는 왜곡모형을 흔히 쓴다. 항상 같은 축척이어야 한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,11 +245,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>속도변화를 V로 본 값이다.</commentary>
+          <commentary>운동량 변화를 V만큼으로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10 t이므로 정답이다.</commentary>
+          <commentary>F = ρQ(2V) = 0.1 × 10 × 10 = 10 t이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
@@ -257,7 +257,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>밀도를 단위중량 1로 본 값에 가깝다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -285,7 +285,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20</choice_text>
-          <commentary>20 m³/s이므로 정답이다.</commentary>
+          <commentary>개발 후 60 − 기존 40 = 20 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
@@ -293,7 +293,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>기존 용량이다.</commentary>
+          <commentary>기존 용량 전체를 다시 설치하는 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -317,19 +317,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.25</choice_text>
-          <commentary>식을 만족하지 않는다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.50</choice_text>
-          <commentary>식을 만족하지 않는다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>0.75</choice_text>
-          <commentary>식을 만족하지 않는다.</commentary>
+          <commentary>계산이 틀렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.00</choice_text>
-          <commentary>1.00 m이므로 정답이다.</commentary>
+          <commentary>E₂ = 2.25 − 0.25 = 2.0 m에서 h₂ = 1.0 m이면 1 + 16/(16 × 1) = 2.0으로 성립하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -350,19 +350,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>관수로 내 손실수두는 속도수두에 비례한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>관수로의 손실수두는 hL = KV²/2g로 속도수두에 비례하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>관수로의 출구손실계수는 보통 1로 본다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>출구손실계수는 보통 1로 보므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>관수로 내 마찰손실수두는 관의 길이에 비례하고, 직경에 반비례한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>마찰손실 hf = f(L/D)(V²/2g)이므로 길이에 비례하고 직경에 반비례하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>관수로에서 관경에 대한 관의 총길이 비인 $\frac{l}{D}$이 1,000보다 크면 마찰손실 이외의 소손실은 무시할 수 있다.</choice_text>
-          <commentary>3,000 이상이 기준이므로 옳지 않아 정답이다.</commentary>
+          <commentary>소손실을 무시할 수 있는 장관은 보통 l/D ≥ 3,000인 경우이다. 1,000이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -383,19 +383,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>관의 형태를 지닌 모든 수로는 관수로이다.</choice_text>
-          <commentary>자유수면이 있으면 개수로이다.</commentary>
+          <commentary>관 형태라도 물이 일부만 차서 자유수면이 있으면 개수로이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>자유수면이 있는 수로는 개수로이다.</choice_text>
-          <commentary>항상 옳으므로 정답이다.</commentary>
+          <commentary>자유수면이 있는 수로는 개수로이므로 항상 옳아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>지하에 매설되어 있는 우수관거는 관수로이다.</choice_text>
-          <commentary>자유수면이 있으면 개수로이다.</commentary>
+          <commentary>우수관거는 대부분 자유수면을 가진 개수로 흐름이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>하천은 관수로라고 봐도 된다.</choice_text>
-          <commentary>하천은 개수로이다.</commentary>
+          <commentary>하천은 자유수면이 있으므로 개수로이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -418,19 +418,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>점성유체에 적용된다.</choice_text>
-          <commentary>점성유체에 적용되므로 정답이다.</commentary>
+          <commentary>운동량 보정계수는 점성에 의해 유속분포가 불균일한 실제 유체에 적용하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>이상유체에 적용된다.</choice_text>
-          <commentary>이상유체는 1이다.</commentary>
+          <commentary>이상유체는 유속분포가 균일하여 보정계수가 1이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>모든 유체유동에 적용된다.</choice_text>
-          <commentary>균일 유속분포에서는 불필요하다.</commentary>
+          <commentary>이상유체에는 보정이 필요 없으므로 모든 유동에 적용되는 것은 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유동단면이 원형일 때만 적용된다.</choice_text>
-          <commentary>단면 형태와 무관하다.</commentary>
+          <commentary>단면 형태와 관계없이 유속분포가 불균일하면 적용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -490,7 +490,7 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>6.3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>V를 2 m/s로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>8.7</choice_text>
@@ -498,7 +498,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>12.6</choice_text>
-          <commentary>12.6 m³/s이므로 정답이다.</commentary>
+          <commentary>8 = 0.5V²에서 V = 4 m/s, Q = π × 4 ≒ 12.6 m³/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>14.2</choice_text>
@@ -530,7 +530,7 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>3.2</choice_text>
-          <commentary>3.2 m이므로 정답이다.</commentary>
+          <commentary>(5 − 1)³/(4 × 1 × 5) = 3.2 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3.8</choice_text>
@@ -538,7 +538,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4.0</choice_text>
-          <commentary>수심차이다.</commentary>
+          <commentary>수심 차이를 그대로 손실로 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -570,7 +570,7 @@
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100 m/s이므로 정답이다.</commentary>
+          <commentary>V = √(2 × 5,000/1) = 100 m/s이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
@@ -598,19 +598,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수위－유량관계곡선은 하천의 수위관측소에서 수위와 이에 상응하는 유량을 동시에 측정하여 수위와 유량의 관계를 나타낸 곡선이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>수위와 이에 상응하는 유량을 동시에 측정해 관계를 나타낸 곡선이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정확하고 신뢰할 만한 수위－유량관계곡선을 개발하기 위해서는 갈수위, 저수위, 평수위, 풍수위, 홍수위에 대한 수위별 유량을 측정하여야 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>갈수위부터 홍수위까지 다양한 수위의 유량을 측정해야 신뢰성이 높으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>자연하천에서 수위는 하도의 통제를 받으므로 수위의 상승 시와 하강 시 유량이 같지 않기 때문에 수위와 유량의 관계는 고리형 관계를 나타낸다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>수위 상승 시와 하강 시 유량이 달라 고리형 관계가 나타나므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>하상변동이 큰 하천구간은 수위와 유량 관측 자료의 분산정도가 작기 때문에 작성된 수위－유량관계곡선을 주의해서 사용해야 한다.</choice_text>
-          <commentary>분산이 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>하상변동이 큰 구간은 자료의 분산이 크다. 분산이 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -634,11 +634,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>난류, 상류</choice_text>
-          <commentary>난류, 상류이므로 정답이다.</commentary>
+          <commentary>Re = 125,000으로 난류이고 Fr ≒ 0.08 &lt; 1로 상류이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>층류, 사류</choice_text>
-          <commentary>층류, 사류가 아니다.</commentary>
+          <commentary>층류도 사류도 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>층류, 상류</choice_text>
@@ -670,19 +670,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>도수는 사류에서 상류로 변할 때 발생한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>도수는 사류에서 상류로 변할 때 발생하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>도수 전후의 수위차가 클수록 에너지의 감세효과가 작아진다.</choice_text>
-          <commentary>감세효과가 커지므로 옳지 않아 정답이다.</commentary>
+          <commentary>수위차가 클수록 에너지 손실이 커져 감세효과가 커진다. 작아진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>상류수심 $h_{2} = - \frac{h_{1}}{2} + \sqrt{\frac{h_{1}^{2}}{4} + \frac{2 q^{2}}{g \cdot h_{1}}}$이다. (단, $g$는 중력가속도이다)</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>공액수심 식 h₂ = −h₁/2 + √(h₁²/4 + 2q²/(gh₁))은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>도수 후의 수심은 증가한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>도수 후의 수심은 증가하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -704,19 +704,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유량이 일정하게 유지될 때 특정 비에너지와 비력에 대한 수심은 일반적으로 2개가 존재한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>일정 유량에서 주어진 비에너지와 비력에 대해 보통 두 개의 대응수심이 존재하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>비에너지가 일정하게 유지될 때 유량이 최대가 될 경우의 수심을 한계수심이라 한다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>일정 비에너지에서 유량이 최대가 되는 수심이 한계수심이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>비력곡선에서 유량이 일정하게 유지될 때 비력이 최대가 될 경우 수심을 한계수심이라 한다.</choice_text>
-          <commentary>비력이 최소일 때이므로 옳지 않아 정답이다.</commentary>
+          <commentary>일정 유량에서 비력이 최소가 되는 수심이 한계수심이다. 최대라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>유량이 일정하게 유지될 때 한계수심보다 수심이 낮을 경우의 흐름은 사류이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>한계수심보다 얕으면 사류이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

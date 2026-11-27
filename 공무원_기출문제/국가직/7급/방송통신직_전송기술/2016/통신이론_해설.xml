@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>주파수 성분이 1개인 신호는 무왜곡(Distortionless) 전송이 가능하다.</choice_text>
-          <commentary>단일 주파수는 크기와 위상 변화만 받아 왜곡이 생기지 않으므로 옳다.</commentary>
+          <commentary>단일 주파수 신호는 진폭과 위상만 바뀌어 파형이 보존되므로 무왜곡 전송이 가능하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>무왜곡 시스템의 진폭응답은 주파수에 대해 상수이다.</choice_text>
-          <commentary>무왜곡 조건인 일정한 진폭 응답으로 옳다.</commentary>
+          <commentary>무왜곡 시스템은 H(f) = Ke^{−j2πftd}로 진폭응답이 상수이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>무왜곡 시스템의 위상응답을 주파수에 대해 미분하면 상수가 된다.</choice_text>
-          <commentary>선형 위상의 미분값은 상수(군지연)이므로 옳다.</commentary>
+          <commentary>위상응답이 주파수에 선형이므로 미분하면 상수(군지연)가 되어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>상호변조(Intermodulation) 왜곡이 발생할 수 있다.</choice_text>
-          <commentary>LTI 시스템에서는 발생하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>상호변조 왜곡은 비선형 시스템에서 생기며 LTI 시스템에서는 발생하지 않는다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>최소 거리가 3이므로 1비트 정정이 가능하여 0이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1비트이므로 정답이다.</commentary>
+          <commentary>최소 해밍 거리 3에서 정정 능력은 (3 − 1)/2 = 1비트이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>최소 거리 5 이상이 필요하다.</commentary>
+          <commentary>2비트 정정에는 최소 거리 5가 필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>최소 거리 7 이상이 필요하다.</commentary>
+          <commentary>3비트 정정에는 최소 거리 7이 필요하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -140,19 +140,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{T}$</choice_text>
-          <commentary>주기 T 임펄스열의 계수이다.</commentary>
+          <commentary>1/T는 주기 T인 임펄스열 하나의 계수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{T^{2}}$</choice_text>
-          <commentary>차원이 틀렸다.</commentary>
+          <commentary>1/T²은 차원이 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{T}$</choice_text>
-          <commentary>2/T이므로 정답이다.</commentary>
+          <commentary>두 임펄스열의 합은 주기 T/2인 임펄스열이므로 계수는 2/T이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{T^{2}}$</choice_text>
-          <commentary>차원이 틀렸다.</commentary>
+          <commentary>2/T²은 차원이 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -175,19 +175,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>690</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>690 kHz는 수신 주파수에서 2fIF를 뺀 값으로, 하측 헤테로다인의 영상 주파수와 혼동한 것이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>910</choice_text>
-          <commentary>2fIF의 값이다.</commentary>
+          <commentary>910 kHz는 2fIF이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1,145</choice_text>
-          <commentary>수신 주파수 − fIF의 값이다.</commentary>
+          <commentary>1,145 kHz는 수신 주파수에서 fIF를 뺀 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,510</choice_text>
-          <commentary>2,510 kHz이므로 정답이다.</commentary>
+          <commentary>영상 주파수는 fLO + fIF = 2,055 + 455 = 2,510 kHz이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -208,19 +208,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>－0.2</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>−0.2는 로그우도비의 부호를 반대로 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.2</choice_text>
-          <commentary>0.2이므로 정답이다.</commentary>
+          <commentary>ln 비 = [(x − 1)² − (x + 1)²]/4 = −x = 0.2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>－0.1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>−0.1은 분산을 4로 잘못 계산하고 부호도 반대로 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.1은 분모를 2σ² = 8로 잘못 잡은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -244,15 +244,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$n ( t )$가 정상적(Stationary)이면 $n_I ( t )$와 $n_Q ( t )$도 정상적이다.</choice_text>
-          <commentary>정상성이 유지되므로 옳다.</commentary>
+          <commentary>협대역 정상 잡음의 동위상·직교 성분은 정상 과정이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$n ( t )$가 가우스 잡음이면 $n_I ( t )$와 $n_Q ( t )$도 가우스 잡음이다.</choice_text>
-          <commentary>가우스성이 유지되므로 옳다.</commentary>
+          <commentary>가우스 잡음의 선형 변환 성분이므로 가우스 잡음이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$n_I ( t )$와 $n_Q ( t )$의 분산은 $n ( t )$ 분산의 $\frac{1}{2}$이다.</choice_text>
-          <commentary>분산은 n(t)와 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>동위상·직교 성분의 분산은 n(t)의 분산과 같다. 1/2이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$n_I ( t )$와 $n_Q ( t )$의 전력 스펙트럼 밀도는 동일하다.</choice_text>
@@ -279,19 +279,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$0 . 1$ $1 / 102$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>변조 지수는 0.2이며 효율도 1/51이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$0 . 2$ $1 / 51$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>β = 0.2, α = 0.04/2.04 = 1/51이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$0 . 1$ $1 / 51$</choice_text>
-          <commentary>변조 지수가 틀렸다.</commentary>
+          <commentary>변조 지수 0.1은 식의 0.2와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$0 . 2$ $1 / 102$</choice_text>
-          <commentary>효율이 틀렸다.</commentary>
+          <commentary>효율 1/102는 분모를 2배로 잘못 잡은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -312,19 +312,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>70,000</choice_text>
-          <commentary>70,000 bits/s이므로 정답이다.</commentary>
+          <commentary>H = 1.75 bits/symbol, 40,000 symbols/s이므로 70,000 bits/s이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>64,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>64,000은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>60,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>60,000은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>54,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>54,000은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -346,19 +346,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>평균은 1이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>단위 지수 분포의 평균은 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>표준편차는 1이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>분산이 1이므로 표준편차도 1이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$X$가 1보다 클 확률은 $e^{- 1}$이다.</choice_text>
-          <commentary>옳다.</commentary>
+          <commentary>P(X &gt; 1) = ∫₁^∞e^{−x}dx = e⁻¹이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$Y = \sqrt{X}$일 때, $Y$의 확률밀도함수 ${f}_{Y} ( y ) = 2 e^{- y^{2}} ( y \geq 0 )$이다.</choice_text>
-          <commentary>2ye^{−y²}이므로 옳지 않아 정답이다.</commentary>
+          <commentary>fY(y) = 2ye^{−y²}이며 y 인자가 빠져 있다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -412,19 +412,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>반송파 주파수</choice_text>
-          <commentary>영향이 없으므로 정답이다.</commentary>
+          <commentary>반송파 주파수는 스펙트럼 위치만 정하고 대역폭과 무관하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 대역폭</choice_text>
-          <commentary>fm으로 영향을 준다.</commentary>
+          <commentary>메시지 대역폭 fm은 카슨 대역폭에 직접 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>변조 지수(Modulation Index)</choice_text>
-          <commentary>β로 영향을 준다.</commentary>
+          <commentary>변조 지수가 클수록 의미 있는 측파대가 늘어 대역폭이 넓어진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 진폭</choice_text>
-          <commentary>Δf로 영향을 준다.</commentary>
+          <commentary>메시지 진폭이 클수록 주파수 편이 Δf가 커져 대역폭이 넓어진다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -448,19 +448,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>27</choice_text>
-          <commentary>앨리어싱이 발생한다.</commentary>
+          <commentary>27 ms는 11.5 Hz 성분을 최고 주파수로 잘못 본 값과 유사하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>12.5</choice_text>
-          <commentary>12.5 ms이므로 정답이다.</commentary>
+          <commentary>최고 주파수 40 Hz이므로 fs ≥ 80 Hz, Ts ≤ 12.5 ms이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>앨리어싱이 발생한다.</commentary>
+          <commentary>30 ms는 표본화 정리를 만족하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>72</choice_text>
-          <commentary>앨리어싱이 발생한다.</commentary>
+          <commentary>72 ms는 표본화 정리를 만족하지 못한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -484,19 +484,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>왕복 거리이다.</commentary>
+          <commentary>60 m는 왕복 거리를 그대로 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>30</choice_text>
-          <commentary>30 m이므로 정답이다.</commentary>
+          <commentary>왕복 지연 200 ns이므로 거리 = 3 × 10⁸ × 200 × 10⁻⁹/2 = 30 m이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>15 m는 지연을 절반으로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>7.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>7.5 m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -585,19 +585,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>무한 대역폭을 가진 이상적인 채널은 무한한 채널용량을 갖는다.</choice_text>
-          <commentary>유한하므로 옳지 않아 정답이다.</commentary>
+          <commentary>대역폭이 무한해도 잡음 전력도 커져 용량은 1.44S/N0로 수렴한다. 무한하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정보 비트 전송률이 채널용량보다 큰 경우, 오류 없이 정보를 전송하는 것은 불가능하다.</choice_text>
-          <commentary>샤논 정리로 옳다.</commentary>
+          <commentary>전송률이 채널용량을 넘으면 오류 없는 전송이 불가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$E_{b} / N_{0} &lt; \ln 2$이면 오류 없이 정보를 전송하는 것은 불가능하다.</choice_text>
-          <commentary>샤논 한계 Eb/N0 = ln 2(−1.6 dB)로 옳다.</commentary>
+          <commentary>섀넌 한계 Eb/N0 = ln 2(약 −1.6 dB) 미만에서는 오류 없는 전송이 불가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>신호 대 잡음 전력비가 1보다 충분히 크면 채널용량은 신호 대 잡음 전력비에 대하여 대수적(Logarithmic)으로 증가한다.</choice_text>
-          <commentary>고 SNR에서 로그 증가하므로 옳다.</commentary>
+          <commentary>높은 SNR에서 C ≈ B log2(S/N)로 SNR에 대해 로그적으로 증가하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -619,19 +619,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>해밍 부호의 경우 입력 메시지가 출력 부호의 일부에 포함될 수 있도록 부호를 설계할 수 있다.</choice_text>
-          <commentary>조직 해밍 부호로 옳다.</commentary>
+          <commentary>해밍 부호는 조직 부호로 설계할 수 있어 메시지가 부호어에 그대로 포함되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>선형 블록 부호의 최소 거리가 7인 경우 최대 3비트까지의 오류 정정을 보장한다.</choice_text>
-          <commentary>t = (7 − 1)/2 = 3으로 옳다.</commentary>
+          <commentary>dmin = 7이면 (7 − 1)/2 = 3비트까지 정정을 보장하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>오류 정정 부호화에서 부호율(Code Rate)이 클수록 많은 비트의 오류를 정정할 수 있다.</choice_text>
-          <commentary>부호율이 작을수록 정정 능력이 크므로 옳지 않아 정답이다.</commentary>
+          <commentary>부호율이 클수록 잉여 비트가 줄어 정정 능력이 낮아진다. 많이 정정할 수 있다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>콘볼루션 부호의 인코딩 과정에서 과거의 입력 메시지가 현재의 출력 부호에 영향을 줄 수 있다.</choice_text>
-          <commentary>기억을 갖는 부호로 옳다.</commentary>
+          <commentary>콘볼루션 부호는 과거 입력이 현재 출력에 영향을 주므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -653,19 +653,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>BFSK 방식은 동기 BPSK 방식보다 비트 오류 확률이 크다.</choice_text>
-          <commentary>BFSK가 3 dB 열세이므로 옳다.</commentary>
+          <commentary>BFSK는 BPSK보다 3 dB 불리하여 오류 확률이 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>동기 BPSK의 비트 오류 확률은 동기 QPSK의 비트 오류 확률보다 작다.</choice_text>
-          <commentary>두 방식의 비트 오류 확률은 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>동기 BPSK와 동기 QPSK는 같은 Eb/N0에서 비트 오류 확률이 같다. BPSK가 작다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DPSK 방식은 반송파의 위상 동기화가 필요 없는 비동기 복조가 가능하다.</choice_text>
-          <commentary>DPSK는 차동 검파가 가능하므로 옳다.</commentary>
+          <commentary>DPSK는 이전 심벌을 기준 위상으로 써서 반송파 동기 없이 복조하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>MSK 방식은 연속된 위상을 갖는 정 진폭(Constant Envelope) 변조 방식이다.</choice_text>
-          <commentary>MSK는 연속 위상 정포락선 방식이므로 옳다.</commentary>
+          <commentary>MSK는 위상이 연속인 정 진폭 변조 방식이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -688,19 +688,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>성상도(Constellation)상에 $M$개 심벌의 위치는 임의로 설계가 가능하며, 이에 따른 심벌 오류 확률은 항상 동일하다.</choice_text>
-          <commentary>신호점 배치에 따라 오류 확률이 달라진다.</commentary>
+          <commentary>심벌 배치에 따라 신호점 간 거리가 달라지므로 심벌 오류 확률도 달라진다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>전력 효율은 단위 대역폭당 비트 전송률(bits/sec/Hz)로 정의된다.</choice_text>
-          <commentary>bits/sec/Hz는 대역폭 효율의 정의이다.</commentary>
+          <commentary>단위 대역폭당 비트 전송률은 대역 효율의 정의이며, 전력 효율은 같은 오류율에 필요한 Eb/N0로 평가한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>심벌 오류가 발생했을 때, 인접한 심벌 간에 서로 다른 비트 값의 개수가 적을수록 비트 오류 확률이 커진다.</choice_text>
-          <commentary>다른 비트 수가 적을수록 비트 오류 확률이 작아진다.</commentary>
+          <commentary>인접 심벌 간 다른 비트 수가 적을수록(그레이 부호) 비트 오류 확률이 작아진다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>2개의 직교축에 각각 독립적인 1차원 PAM 변조기를 사용하여 2차원의 사각(Rectangular) 성상도를 갖는 $M$－QAM 변조기를 구성할 수 있다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>I·Q 직교축에 독립적인 √M-PAM을 쓰면 사각 M-QAM을 구성할 수 있으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

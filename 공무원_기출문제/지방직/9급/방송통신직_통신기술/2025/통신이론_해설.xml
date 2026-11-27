@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>AM</choice_text>
-          <commentary>진폭 변조이다.</commentary>
+          <commentary>AM은 반송파의 진폭에 정보를 싣는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>PM</choice_text>
-          <commentary>위상에 정보를 싣으므로 정답이다.</commentary>
+          <commentary>PM은 메시지에 비례하여 반송파 위상을 바꾸는 방식이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>DSB</choice_text>
-          <commentary>진폭 변조 계열이다.</commentary>
+          <commentary>DSB는 양측파대 진폭 변조 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SSB</choice_text>
-          <commentary>진폭 변조 계열이다.</commentary>
+          <commentary>SSB는 한쪽 측파대만 보내는 진폭 변조 방식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -69,19 +69,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>SNR = 3이면 C = 10k × log2 4 = 20 kbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>SNR = 7이면 C = 10k × log2 8 = 30 kbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>11</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>SNR = 11이면 log2 12 ≒ 3.58로 약 35.8 kbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>15</choice_text>
-          <commentary>15이므로 정답이다.</commentary>
+          <commentary>log2(1 + SNR) = 40k/10k = 4이므로 SNR = 2⁴ − 1 = 15이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -102,19 +102,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1은 잡음지수를 40으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2는 잡음지수를 20으로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4이므로 정답이다.</commentary>
+          <commentary>10 dB = 10이므로 SNRout = 40/10 = 4이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>8은 잡음지수를 5로 잘못 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/2은 (20 − 4)/(20 + 4)의 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>2/3이므로 정답이다.</commentary>
+          <commentary>m = (20 − 4)/(20 + 4) = 16/24 = 2/3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{4}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3/4은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4}{5}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4/5는 16/20으로, 분모를 잘못 잡은 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -174,19 +174,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>라인 코딩</choice_text>
-          <commentary>디지털 데이터를 전송에 알맞은 파형으로 바꾸는 방식이다.</commentary>
+          <commentary>라인 코딩은 비트열을 전송용 전기 파형으로 바꾸는 부호화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>소스 코딩</choice_text>
-          <commentary>중복을 줄여 압축하는 부호화이다.</commentary>
+          <commentary>소스 코딩은 중복성을 제거해 데이터를 압축하는 부호화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>채널 코딩</choice_text>
-          <commentary>오류 검출·정정을 위한 부호화이므로 정답이다.</commentary>
+          <commentary>잉여 비트를 추가해 오류를 검출·정정하는 것은 채널 코딩이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>허프만 코딩</choice_text>
-          <commentary>소스 코딩의 한 종류이다.</commentary>
+          <commentary>허프만 코딩은 발생 확률에 따라 가변 길이 부호를 주는 소스 코딩 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -210,19 +210,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>8개 레벨만 표현한다.</commentary>
+          <commentary>3비트는 8개 레벨만 표현할 수 있어 31개 레벨에 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>16개 레벨만 표현한다.</commentary>
+          <commentary>4비트는 16개 레벨만 표현할 수 있어 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5비트이므로 정답이다.</commentary>
+          <commentary>31개 레벨은 2⁵ = 32 이하이므로 최소 5비트가 필요해 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>최소 비트 수가 아니다.</commentary>
+          <commentary>6비트는 64개 레벨로 최소 비트 수가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -245,19 +245,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>터보 코드</choice_text>
-          <commentary>병렬 연접 오류정정 부호이다.</commentary>
+          <commentary>터보 코드는 두 개의 컨볼루션 부호를 인터리버로 병렬 연결한 오류정정 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>그레이 코드</choice_text>
-          <commentary>인접 심벌 간 1비트 차이이므로 정답이다.</commentary>
+          <commentary>인접 심벌 간 비트가 1개만 다르게 할당하는 것은 그레이 코드이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>길쌈 코드</choice_text>
-          <commentary>오류정정 부호이다.</commentary>
+          <commentary>길쌈 코드는 과거 입력을 기억해 부호화하는 오류정정 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>BCH 코드</choice_text>
-          <commentary>오류정정 블록 부호이다.</commentary>
+          <commentary>BCH 코드는 다중 오류를 정정하는 순환 블록 부호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -281,19 +281,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100 μs이므로 정답이다.</commentary>
+          <commentary>t = 2R/c = 2 × 15,000/(3 × 10⁸) = 100 μs이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>200 μs는 왕복 거리를 60 km로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>300</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>300 μs는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>400 μs는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -317,19 +317,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>스니핑(sniffing)</choice_text>
-          <commentary>패킷을 엿보는 공격이므로 정답이다.</commentary>
+          <commentary>네트워크를 지나는 남의 패킷을 엿보는 공격은 스니핑이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>스미싱(smishing)</choice_text>
-          <commentary>문자 메시지로 악성 링크를 유도하는 공격이다.</commentary>
+          <commentary>스미싱은 문자 메시지로 악성 링크를 보내는 사기 수법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스푸핑(spoofing)</choice_text>
-          <commentary>주소 등을 위조하여 다른 호스트로 가장하는 공격이다.</commentary>
+          <commentary>스푸핑은 IP·MAC 주소 등을 위조하여 다른 호스트로 가장하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>스머프(smurf)</choice_text>
-          <commentary>브로드캐스트 ICMP로 대상을 마비시키는 공격이다.</commentary>
+          <commentary>스머프는 ICMP 브로드캐스트를 이용한 서비스 거부 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -350,19 +350,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CDM</choice_text>
-          <commentary>부호로 사용자를 구분한다.</commentary>
+          <commentary>CDM은 확산 부호로 사용자를 구분하는 부호분할 다중화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>SDM</choice_text>
-          <commentary>공간으로 구분한다.</commentary>
+          <commentary>SDM은 공간(안테나·빔)으로 채널을 나누는 공간분할 다중화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>TDM</choice_text>
-          <commentary>시간으로 구분한다.</commentary>
+          <commentary>TDM은 시간 슬롯으로 채널을 나누는 시분할 다중화이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>OFDM</choice_text>
-          <commentary>OFDM이므로 정답이다.</commentary>
+          <commentary>부반송파 간격을 심벌 길이의 역수로 하여 직교시키는 멀티캐리어 방식은 OFDM이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -383,19 +383,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$s_{1} ( t )$</choice_text>
-          <commentary>위상이 π/2 차이 나는 신호이다.</commentary>
+          <commentary>s1(t) = sin(2πfct)는 위상이 π/2 어긋난 신호로 x(t)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- s_{2} ( t )$</choice_text>
-          <commentary>−s2(t)이므로 정답이다.</commentary>
+          <commentary>cos(θ − π) = −cosθ이므로 x(t) = −s2(t)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$s_{1} ( t )$ ＋ $s_{2} ( t )$</choice_text>
-          <commentary>위상과 진폭이 다르다.</commentary>
+          <commentary>s1 + s2는 √2 cos(θ − π/4)로 x(t)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$s_{1} ( t )$ － $s_{2} ( t )$</choice_text>
-          <commentary>위상과 진폭이 다르다.</commentary>
+          <commentary>s1 − s2는 √2 sin(θ − π/4)로 x(t)와 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -416,19 +416,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$N$ ＝ $2^{m} - 1$이다.</choice_text>
-          <commentary>주기로 옳다.</commentary>
+          <commentary>m단 LFSR의 m-시퀀스 주기는 N = 2ᵐ − 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>부호는 주기적이다.</choice_text>
-          <commentary>주기적으로 옳다.</commentary>
+          <commentary>m-시퀀스는 주기 N으로 반복되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>부호는 두 개의 자기상관 값을 갖는다.</choice_text>
-          <commentary>N과 −1 두 값만 가지므로 옳다.</commentary>
+          <commentary>자기상관은 지연 0에서 N, 그 외에서 −1의 두 값만 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>한 칩 지연 시 부호의 자기상관 값이 최대가 된다.</choice_text>
-          <commentary>자기상관 최대는 지연 0일 때이므로 옳지 않아 정답이다.</commentary>
+          <commentary>자기상관은 지연 0에서 최대이고 한 칩 지연에서는 −1로 작아진다. 한 칩 지연에서 최대라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -449,19 +449,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>주로 무선 LAN에서 사용된다.</choice_text>
-          <commentary>유선 LAN 방식이므로 옳지 않아 정답이다.</commentary>
+          <commentary>CSMA/CD는 유선 이더넷 방식이며 무선 LAN은 CSMA/CA를 쓴다. 주로 무선 LAN에서 쓴다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>충돌이 발생하면 각 호스트에 충돌 발생 정보를 통지한다.</choice_text>
-          <commentary>잼 신호로 충돌을 알리므로 옳다.</commentary>
+          <commentary>충돌을 감지하면 잼 신호로 각 호스트에 충돌을 알리므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>충돌이 발생하면 임의의 대기 시간을 기다린 후 다시 매체접근을 시도한다.</choice_text>
-          <commentary>이진 지수 백오프로 재시도하므로 옳다.</commentary>
+          <commentary>충돌 후 이진 지수 백오프로 임의 시간을 기다렸다 재전송하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>데이터 전송 중 공유 매체에서 발생할 수 있는 충돌을 감지하는 기능이 있다.</choice_text>
-          <commentary>충돌 감지 기능으로 옳다.</commentary>
+          <commentary>전송 중 신호를 감시하여 충돌을 감지하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>111</choice_text>
-          <commentary>1이 3개이므로 정답이다.</commentary>
+          <commentary>111은 1이 3개(홀수)이므로 짝수 패리티 부호어가 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>101</choice_text>
-          <commentary>1이 2개로 유효하다.</commentary>
+          <commentary>101은 1이 2개로 유효한 부호어이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>011</choice_text>
-          <commentary>1이 2개로 유효하다.</commentary>
+          <commentary>011은 1이 2개로 유효한 부호어이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>000</choice_text>
-          <commentary>1이 0개로 유효하다.</commentary>
+          <commentary>000은 1이 0개(짝수)로 유효한 부호어이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>Y의 분산이다.</commentary>
+          <commentary>1은 Y의 분산만 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>X의 분산이다.</commentary>
+          <commentary>4는 X의 분산만 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>5</choice_text>
-          <commentary>5이므로 정답이다.</commentary>
+          <commentary>독립이면 Var(X + Y) = 4 + 1 = 5이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>17</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>17은 분산을 제곱하여 더한 값(16 + 1)으로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -556,19 +556,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/4은 적분 계산과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2/3은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{4}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3/4은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{4}{3}$</choice_text>
-          <commentary>4/3이므로 정답이다.</commentary>
+          <commentary>E(X) = ∫₀² x²/2 dx = 8/6 = 4/3이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -591,19 +591,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>δ(t)의 변환이다.</commentary>
+          <commentary>1은 δ(t)의 변환으로 계수 3이 빠져 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$3$</choice_text>
-          <commentary>3이므로 정답이다.</commentary>
+          <commentary>선형성에 따라 F[3δ(t)] = 3 × 1 = 3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{1 - \omega}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/(1 − ω)는 임펄스 함수의 변환이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3 + \omega}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1/(3 + ω)는 지수함수 계열의 변환 형태로 임펄스와 무관하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -696,19 +696,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>표본화 정리</choice_text>
-          <commentary>표본화 주파수에 관한 정리이다.</commentary>
+          <commentary>표본화 정리는 최고 주파수의 2배 이상으로 표본화하면 원신호를 복원할 수 있다는 정리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>파스발 정리</choice_text>
-          <commentary>에너지 보존 정리이므로 정답이다.</commentary>
+          <commentary>시간 영역과 주파수 영역의 에너지가 같다는 것은 파스발 정리이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>베이즈 정리</choice_text>
-          <commentary>조건부 확률에 관한 정리이다.</commentary>
+          <commentary>베이즈 정리는 사전확률과 조건부확률로 사후확률을 구하는 정리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>중심 극한 정리</choice_text>
-          <commentary>독립 확률변수 합의 분포에 관한 정리이다.</commentary>
+          <commentary>중심 극한 정리는 독립 확률변수 합의 분포가 정규분포에 가까워진다는 정리이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2025년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

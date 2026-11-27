@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$A [ 1 + \cos ( 2 \pi f_{m} t ) ]$</choice_text>
-          <commentary>포락선이므로 정답이다.</commentary>
+          <commentary>포락선 검파기는 반송파를 제거하고 포락선 A[1 + cos(2πfmt)]를 출력하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$A [ 1 + \cos ( 2 \pi f_{c} t ) ]$</choice_text>
-          <commentary>반송파 주파수가 남아 있다.</commentary>
+          <commentary>반송파 주파수 fc 성분은 포락선 검파 과정에서 제거된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A [ 1 + \cos \left( 2 \pi ( f_{c} + f_{m} ) t \right) ]$</choice_text>
-          <commentary>상측파대 주파수이다.</commentary>
+          <commentary>fc + fm은 상측파대 주파수로 포락선이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$A [ 1 + \cos \left( 2 \pi ( f_{c} - f_{m} ) t \right) ]$</choice_text>
-          <commentary>하측파대 주파수이다.</commentary>
+          <commentary>fc − fm은 하측파대 주파수로 포락선이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>0001011</choice_text>
-          <commentary>거리 2로 최소이므로 정답이다.</commentary>
+          <commentary>1101011과 0001011은 앞 두 비트만 달라 거리 2로 가장 가까우므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1001101</choice_text>
-          <commentary>거리 3이다.</commentary>
+          <commentary>1001101과의 해밍 거리는 3이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1000110</choice_text>
-          <commentary>거리 4이다.</commentary>
+          <commentary>1000110과의 해밍 거리는 4이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0111101</choice_text>
-          <commentary>거리 4이다.</commentary>
+          <commentary>0111101과의 해밍 거리는 4이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>10은 잡음 전력을 10배 크게 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>100</choice_text>
-          <commentary>100이므로 정답이다.</commentary>
+          <commentary>수신 전력 10⁴ × 10⁻¹⁰ = 10⁻⁶ W, 잡음 10⁻⁸ W이므로 SNR = 100이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>200은 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -140,19 +140,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1,000</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,000 kbps는 log2 값을 4로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,250</choice_text>
-          <commentary>1,250 kbps이므로 정답이다.</commentary>
+          <commentary>SNR = 31이므로 C = 250 × log2 32 = 250 × 5 = 1,250 kbps이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1,350</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,350 kbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1,500</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1,500 kbps는 log2 값을 6으로 잘못 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.25</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.25는 출력 잡음과 입력 잡음의 비를 거꾸로 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>역수이다.</commentary>
+          <commentary>0.5는 SNRout/SNRin으로 분자·분모를 뒤바꾼 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2.0</choice_text>
-          <commentary>2.0이므로 정답이다.</commentary>
+          <commentary>F = SNRin/SNRout = 100/50 = 2.0이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4.0</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4.0은 잡음 전력 증가비만 본 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -209,19 +209,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>변조지수는 16이다.</choice_text>
-          <commentary>변조지수는 32π이므로 옳지 않아 정답이다.</commentary>
+          <commentary>위상 항이 2π × 16sin(…)이므로 변조지수는 2π × 16 = 32π이다. 16이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>반송파의 진폭은 10이다.</choice_text>
-          <commentary>진폭 10으로 옳다.</commentary>
+          <commentary>앞의 계수 10이 반송파 진폭이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>반송파의 주파수는 91.9 [MHz]이다.</choice_text>
-          <commentary>91.9 MHz로 옳다.</commentary>
+          <commentary>반송파 주파수는 91.9 × 10⁶ Hz = 91.9 MHz이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>메시지 신호의 주파수는 4 [kHz]이다.</choice_text>
-          <commentary>4 kHz로 옳다.</commentary>
+          <commentary>sin 안의 주파수 4 × 10³ Hz = 4 kHz가 메시지 주파수이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -246,19 +246,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>32</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>32 kbps는 4 kHz × 8비트로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>64</choice_text>
-          <commentary>나이퀴스트율로 계산한 값이다.</commentary>
+          <commentary>64 kbps는 나이퀴스트율 8 kHz × 8비트로, 1.5배를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>96</choice_text>
-          <commentary>96 kbps이므로 정답이다.</commentary>
+          <commentary>표본화율 1.5 × 8 = 12 kHz이므로 12k × 8 = 96 kbps이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>128</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>128 kbps는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -283,19 +283,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \left\{X ( f - f_{c} ) + X ( f + f_{c} ) \right\}$</choice_text>
-          <commentary>cos 곱의 경우이다.</commentary>
+          <commentary>1/2 계수는 cos(2πfct)를 곱한 경우의 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \left\{X ( f - f_{c} ) - X ( f + f_{c} ) \right\}$</choice_text>
-          <commentary>부호와 계수가 틀렸다.</commentary>
+          <commentary>차의 형태는 sin을 곱한 경우와 관련되며 계수도 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$X ( f - f_{c} ) + X ( f + f_{c} )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>e^{±j2πfct}를 곱하면 X(f ∓ fc)이므로 Y(f) = X(f − fc) + X(f + fc)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$X ( f - f_{c} ) - X ( f + f_{c} )$</choice_text>
-          <commentary>부호가 틀렸다.</commentary>
+          <commentary>두 지수 항이 더해지므로 차의 형태가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -352,19 +352,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>부호율은 $\frac{k}{n}$이다.</choice_text>
-          <commentary>k/n으로 옳다.</commentary>
+          <commentary>부호율은 정보 비트 수/부호어 길이 = k/n이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>부호어의 고정된 위치에 $k$개 비트가 정보 비트 블록과 항상 일치하는 경우 조직적인 부호화(systematic coding)라 한다.</choice_text>
-          <commentary>조직 부호의 정의로 옳다.</commentary>
+          <commentary>정보 비트가 그대로 고정 위치에 나타나면 조직적 부호이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>최소 해밍 거리가 3인 (7, 4) 이진 선형 블록 부호는 1비트의 오류를 정정할 수 있다.</choice_text>
-          <commentary>t = (3 − 1)/2 = 1로 옳다.</commentary>
+          <commentary>dmin = 3이면 ⌊(3 − 1)/2⌋ = 1비트를 정정할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>수신된 부호어에서 최소 해밍 거리 이상의 오류가 발생한 경우, 항상 오류 발생 여부를 정확히 판정할 수 있다.</choice_text>
-          <commentary>항상 판정할 수 있는 것은 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>dmin 이상의 오류는 다른 유효 부호어로 바뀔 수 있어 검출이 보장되지 않는다. 항상 판정할 수 있다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -388,19 +388,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2초는 심벌당 8비트로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4초이므로 정답이다.</commentary>
+          <commentary>16-QAM은 심벌당 4비트이므로 4 Mbps로 16 Mbit을 보내는 데 4초가 걸려 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>8초는 심벌당 2비트로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>심벌당 1비트로 본 값이다.</commentary>
+          <commentary>16초는 심벌당 1비트로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -422,19 +422,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2 \sin ( \omega_{0} \tau )$</choice_text>
-          <commentary>sin이 아니다.</commentary>
+          <commentary>자기상관 함수는 τ에 대한 우함수이므로 sin 형태가 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 \cos ( \omega_{0} \tau )$</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>R(τ) = (A²/2)cos(ω0τ) = (4/2)cos(ω0τ) = 2cos(ω0τ)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sin ( \omega_{0} \tau )$</choice_text>
-          <commentary>계수와 함수가 틀렸다.</commentary>
+          <commentary>sin 형태는 우함수가 아니어서 자기상관 함수가 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\cos ( \omega_{0} \tau )$</choice_text>
-          <commentary>계수가 틀렸다.</commentary>
+          <commentary>cos(ω0τ)는 진폭 √2인 정현파의 자기상관 함수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -459,19 +459,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2 t$</choice_text>
-          <commentary>계수가 틀렸다.</commentary>
+          <commentary>2t는 두 펄스 높이의 곱 4를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2 ( T - t )$</choice_text>
-          <commentary>형태가 틀렸다.</commentary>
+          <commentary>2(T − t)는 T &lt; t &lt; 2T 구간의 감소 형태와 관련되며 계수도 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$4 ( 2 T - t )$</choice_text>
-          <commentary>T ≤ t &lt; 2T 구간 형태와 관련된 식이다.</commentary>
+          <commentary>4(2T − t)는 T ≤ t &lt; 2T 구간의 출력이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$4 t$</choice_text>
-          <commentary>4t이므로 정답이다.</commentary>
+          <commentary>0 ≤ t &lt; T에서 y(t) = ∫₀ᵗ 2 × 2 dτ = 4t이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -494,19 +494,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>동일 주파수 대역폭을 사용할 때, OFDM은 FDM(Frequency Division Multiplexing)과 비교하여 주파수 스펙트럼 사용 효율이 높다.</choice_text>
-          <commentary>스펙트럼 중첩으로 효율이 높으므로 옳다.</commentary>
+          <commentary>부반송파 스펙트럼을 겹쳐 쓰므로 FDM보다 대역 효율이 높아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>부반송파 개수가 증가할수록 PAPR(Peak-to-Average-Power-Ratio)도 커진다.</choice_text>
-          <commentary>부반송파 수가 많을수록 PAPR이 커지므로 옳다.</commentary>
+          <commentary>부반송파가 많을수록 동위상 합이 커져 PAPR이 커지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>OFDM 심볼 사이에 보호 구간(guard interval)을 두고 전송하면 ISI(Inter-Symbol Interference) 문제를 완화한다.</choice_text>
-          <commentary>보호 구간(CP)이 ISI를 완화하므로 옳다.</commentary>
+          <commentary>보호 구간(순환전치)은 다중경로 지연에 의한 ISI를 완화하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>OFDM은 FFT(Fast Fourier Transform)를 이용하여 복조하므로 반송파 주파수 오차에 따른 수신 성능 변화가 없다.</choice_text>
-          <commentary>주파수 오차에 민감하므로 옳지 않아 정답이다.</commentary>
+          <commentary>반송파 주파수 오차는 직교성을 깨뜨려 ICI를 일으켜 성능이 떨어진다. 성능 변화가 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -529,19 +529,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>주파수 재사용 계수가 작아질수록 동일 채널 신호 간섭이 감소한다.</choice_text>
-          <commentary>N이 커지면 동일 채널 셀 간 거리가 멀어져 간섭이 줄어드므로 옳다.</commentary>
+          <commentary>재사용 계수 1/N이 작을수록 동일 채널 셀 간 거리가 멀어 간섭이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주파수 재사용 계수가 커질수록 서비스 가능한 총 통화용량은 증가한다.</choice_text>
-          <commentary>N이 작아지면 같은 면적에 클러스터가 많아져 총 용량이 늘어나므로 옳다.</commentary>
+          <commentary>재사용 계수가 클수록 N이 작아 셀당 채널이 많아지므로 총 용량이 증가하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>FDMA 또는 TDMA를 이용한 셀룰러 이동통신 시스템에서는 주파수 재사용 기술을 적용할 수 없다.</choice_text>
-          <commentary>적용할 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>FDMA·TDMA 셀룰러 시스템은 클러스터 단위 주파수 재사용을 적용한다. 적용할 수 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>CDMA를 이용한 셀룰러 이동통신 시스템에서 주파수 재사용 계수는 1이다.</choice_text>
-          <commentary>CDMA는 모든 셀이 같은 주파수를 쓰므로 옳다.</commentary>
+          <commentary>CDMA는 모든 셀이 같은 주파수를 쓰므로 재사용 계수가 1이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -566,19 +566,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$H ( X , Y ) = H ( X ) + H ( Y vert X )$</choice_text>
-          <commentary>연쇄 법칙으로 옳다.</commentary>
+          <commentary>결합 엔트로피의 연쇄 법칙이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$H ( X ) &lt; H ( X vert Y )$</choice_text>
-          <commentary>H(X|Y) ≤ H(X)이므로 옳지 않아 정답이다.</commentary>
+          <commentary>조건부 엔트로피는 원래 엔트로피 이하이므로 H(X|Y) ≤ H(X)이다. 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$H ( X )$는 0 이상의 값을 갖는다.</choice_text>
-          <commentary>엔트로피는 0 이상이므로 옳다.</commentary>
+          <commentary>엔트로피는 항상 0 이상이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$X$, $Y$가 서로 독립인 경우, $H ( X , Y ) = H ( X ) + H ( Y )$이다.</choice_text>
-          <commentary>독립이면 합이 되므로 옳다.</commentary>
+          <commentary>독립이면 H(Y|X) = H(Y)이므로 H(X, Y) = H(X) + H(Y)이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -599,19 +599,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>안쪽 점의 에너지이다.</commentary>
+          <commentary>2는 안쪽 4점의 에너지만 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2 + \sqrt{3}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2 + √3은 바깥쪽 에너지의 절반만 쓴 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3은 √3 항을 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$3 + \sqrt{3}$</choice_text>
-          <commentary>3 + √3이므로 정답이다.</commentary>
+          <commentary>[4 × 2 + 4 × (4 + 2√3)]/8 = 3 + √3이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -633,11 +633,11 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>위성과 지구국 통신에서 신호 전파 시간 지연은 발생하지 않는다.</choice_text>
-          <commentary>지연이 발생하므로 옳지 않아 정답이다.</commentary>
+          <commentary>정지궤도 위성은 고도 약 36,000 km로 왕복 약 0.25초의 전파 지연이 생긴다. 지연이 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>지구국에 의한 위성 추적이 단순하다.</choice_text>
-          <commentary>위성이 정지한 것처럼 보여 추적이 단순하므로 옳다.</commentary>
+          <commentary>위성이 지상에서 정지해 보이므로 추적이 단순하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위성과 지구국 통신에서 송신된 신호와 수신된 신호 간의 도플러 편이(Doppler shift)가 거의 나타나지 않는다.</choice_text>
@@ -645,7 +645,7 @@
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>120도 간격으로 분리된 3개의 위성을 사용하여 북극과 남극을 제외하고 지구 전체를 서비스할 수 있다.</choice_text>
-          <commentary>3개 위성으로 극지방을 제외한 전 지구를 서비스하므로 옳다.</commentary>
+          <commentary>120도 간격 3개 위성으로 극지방을 제외한 전 지구를 덮을 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -666,19 +666,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>오류가 없는 통신을 위하여 정보 전송률은 채널 용량보다 커야 한다.</choice_text>
-          <commentary>R ≤ C이어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>오류 없는 통신은 전송률이 채널 용량 이하일 때 가능하다. 커야 한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>신호 대 잡음 전력비가 증가하면 채널 용량도 증가한다.</choice_text>
-          <commentary>log2(1 + S/N)이 증가하므로 옳다.</commentary>
+          <commentary>C = B log2(1 + S/N)이므로 SNR이 증가하면 용량도 증가하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>AWGN 채널에서 채널 용량을 추정할 수 있다.</choice_text>
-          <commentary>AWGN 채널 용량 공식으로 옳다.</commentary>
+          <commentary>섀넌 공식은 AWGN 채널 용량을 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>채널 대역폭을 증가시키면 수신 신호 대 잡음 전력비는 감소한다.</choice_text>
-          <commentary>잡음 전력 N0B가 증가하여 SNR이 감소하므로 옳다.</commentary>
+          <commentary>잡음 전력 N = N0B가 대역폭에 비례해 커지므로 SNR은 감소하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

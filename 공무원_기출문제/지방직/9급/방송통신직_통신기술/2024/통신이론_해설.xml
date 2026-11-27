@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>π</choice_text>
-          <commentary>π이므로 정답이다.</commentary>
+          <commentary>두 성분의 주기 π와 π/2의 최소공배수는 π이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$2 \pi$</choice_text>
-          <commentary>주기이지만 기본 주기가 아니다.</commentary>
+          <commentary>2π도 주기이지만 가장 짧은 기본 주기는 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$3 \pi$</choice_text>
-          <commentary>주기가 아니다.</commentary>
+          <commentary>3π는 주기이지만 기본 주기는 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$4 \pi$</choice_text>
-          <commentary>주기이지만 기본 주기가 아니다.</commentary>
+          <commentary>4π는 주기이지만 기본 주기는 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -67,19 +67,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\cos \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>cos는 (e^{jθ} + e^{−jθ})/2로, 주어진 식과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$- \cos \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>옳지 않다.</commentary>
+          <commentary>−cos는 지수 항의 합에 음의 부호가 붙은 형태로 주어진 식과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sin \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>sinθ = (e^{jθ} − e^{−jθ})/(j2)이며 주어진 식은 분자 부호가 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$- \sin \left( \frac{2 \pi}{T} t \right)$</choice_text>
-          <commentary>−sin(2πt/T)이므로 정답이다.</commentary>
+          <commentary>분자 부호가 sin 공식과 반대이므로 x(t) = −sin(2πt/T)이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>MAC</choice_text>
-          <commentary>데이터 링크 계층 주소이므로 정답이다.</commentary>
+          <commentary>데이터 링크 계층의 노드 식별자는 MAC 주소이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Port</choice_text>
-          <commentary>전송 계층의 프로세스 식별자이다.</commentary>
+          <commentary>포트 번호는 전송 계층에서 프로세스를 구분하는 식별자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IP</choice_text>
-          <commentary>네트워크 계층 주소이다.</commentary>
+          <commentary>IP 주소는 네트워크 계층의 논리 주소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ISP</choice_text>
-          <commentary>인터넷 서비스 제공자로, 주소가 아니다.</commentary>
+          <commentary>ISP는 인터넷 서비스 제공자로 주소의 명칭이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -136,19 +136,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>계수 하나의 값이다.</commentary>
+          <commentary>1/4은 계수 하나의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>삼각함수형 계수 하나의 값이다.</commentary>
+          <commentary>1/2은 삼각형 급수의 진폭 계수 하나의 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$1$</choice_text>
-          <commentary>1이므로 정답이다.</commentary>
+          <commentary>±1 Hz, ±5 Hz 계수가 각각 1/4이므로 총합은 1(= x(0))이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2는 계수를 중복하여 더한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -169,19 +169,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>QPSK이다.</commentary>
+          <commentary>2비트는 신호점 4개(QPSK)로 간격이 π/2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>16-PSK이므로 정답이다.</commentary>
+          <commentary>2π/(π/8) = 16개 신호점이므로 log2 16 = 4비트이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>64진 방식이다.</commentary>
+          <commentary>6비트는 64개 신호점이 필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>256진 방식이다.</commentary>
+          <commentary>8비트는 256개 신호점이 필요하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -202,19 +202,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} \cos ( 2 \pi f_{c} t + m ( t ) )$</choice_text>
-          <commentary>위상 변조 신호이다.</commentary>
+          <commentary>Accos(2πfct + m(t))는 위상 변조 신호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} \cos ( 2 \pi f_{c} m ( t ) )$</choice_text>
-          <commentary>변조 신호의 형태가 아니다.</commentary>
+          <commentary>Accos(2πfcm(t)t)는 DSB-SC 형태가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$A_{c} m ( t ) \cos ( 2 \pi f_{c} t ) + A_{c} \sin ( 2 \pi f_{c} t + m ( t ) )$</choice_text>
-          <commentary>DSB-SC 신호가 아니다.</commentary>
+          <commentary>진폭 변조 성분과 각변조 성분이 섞여 있어 DSB-SC가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$A_{c} m ( t ) \cos ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>DSB-SC 신호이므로 정답이다.</commentary>
+          <commentary>메시지와 반송파의 곱 Acm(t)cos(2πfct)가 DSB-SC 신호이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -238,19 +238,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>5 kHz이면 C = 5k × 2 = 10 kbps로 부족하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>10</choice_text>
-          <commentary>10 kHz이므로 정답이다.</commentary>
+          <commentary>SNR = 3이므로 log2 4 = 2, B = 20k/2 = 10 kHz이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>20</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>20 kHz는 로그 값을 1로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>40 kHz는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -274,19 +274,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1</choice_text>
-          <commentary>1 m이므로 정답이다.</commentary>
+          <commentary>λ = 3 × 10⁸/(150 × 10⁶) = 2 m이므로 반파장은 1 m이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>파장이다.</commentary>
+          <commentary>2 m는 한 파장의 길이이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>3 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>4 m는 두 파장의 길이이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -307,19 +307,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Unicast, Multicast, Anycast 통신 방식을 모두 지원한다.</choice_text>
-          <commentary>IPv6가 지원하는 방식으로 옳다.</commentary>
+          <commentary>IPv6는 유니캐스트, 멀티캐스트, 애니캐스트를 지원하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>주소는 길이가 128비트이고 16진수 형식으로 표현된다.</choice_text>
-          <commentary>128비트 16진수 표기로 옳다.</commentary>
+          <commentary>주소는 128비트이며 16진수 콜론 표기로 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>기본 헤더의 크기는 최소 40바이트이고 가변될 수 있다.</choice_text>
-          <commentary>기본 헤더는 40바이트 고정이므로 옳지 않아 정답이다.</commentary>
+          <commentary>IPv6 기본 헤더는 40바이트 고정 길이이다. 가변된다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기본 헤더에는 오류 검출이 가능한 Header Checksum Field가 없다.</choice_text>
-          <commentary>헤더 체크섬이 없으므로 옳다.</commentary>
+          <commentary>IPv6 기본 헤더에는 헤더 체크섬 필드가 없으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -341,19 +341,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3,200</choice_text>
-          <commentary>비트 수 기준이 아닌 계산 오류이다.</commentary>
+          <commentary>3,200은 표본당 비트 수를 곱하는 과정을 잘못한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1,600</choice_text>
-          <commentary>1,600개이므로 정답이다.</commentary>
+          <commentary>최고 주파수가 200 Hz이므로 fs = 400 Hz이고, 4초 동안 1,600개 표본이 얻어지므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>800</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>800은 최고 주파수를 100 Hz로 잘못 잡은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>400</choice_text>
-          <commentary>1초 동안의 표본 수이다.</commentary>
+          <commentary>400은 1초 동안의 표본 수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -375,19 +375,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$\left| \rho \right| \leq 1$이다.</choice_text>
-          <commentary>|ρ| ≤ 1로 옳다.</commentary>
+          <commentary>상관계수의 절댓값은 1 이하이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$X$와 $Y$가 서로 독립이면 $\rho = 0$이다.</choice_text>
-          <commentary>독립이면 공분산이 0이므로 옳다.</commentary>
+          <commentary>독립이면 공분산이 0이므로 ρ = 0이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Y = aX$ ($a \neq 0$)일 때, ρ는 1 혹은 －1이다.</choice_text>
-          <commentary>a의 부호에 따라 ±1이므로 옳다.</commentary>
+          <commentary>Y = aX이면 a의 부호에 따라 ρ = ±1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$\rho = \frac{C_{XY}}{\sigma_{X}^{2} \sigma_{Y}^{2}}$이다.</choice_text>
-          <commentary>표준편차의 곱으로 나누어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>상관계수는 공분산을 표준편차의 곱 σXσY로 나눈 값이다. 분산의 곱으로 나눈 식은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -412,19 +412,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$Y ( f ) = X ( f ) * H ( f )$이다.</choice_text>
-          <commentary>주파수 영역에서는 곱 Y(f) = X(f)H(f)이다.</commentary>
+          <commentary>출력 스펙트럼은 Y(f) = X(f)H(f)로 곱이며 컨벌루션이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$x ( t )$가 단위 임펄스 신호일 때, $Y ( f )$는 전달함수와 동일하다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>입력이 임펄스이면 X(f) = 1이므로 Y(f) = H(f)이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\left| H ( f_{c} ) \right|^{2}}{\left| H ( f ) \right|_{max}^{2}} = \frac{1}{\sqrt{2}}$일 때, 이 여파기의 ‘3 dB 주파수 대역폭’은 $f_{c}$이다.</choice_text>
-          <commentary>3 dB 대역폭은 전력비가 1/2일 때이다.</commentary>
+          <commentary>3 dB 대역폭은 전력비가 1/2인 주파수이다. 1/√2는 진폭비 기준이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>이상적인 저역통과 여파기의 경우, 통과 대역 내의 위상 응답은 상수이다.</choice_text>
-          <commentary>이상적인 LPF의 위상은 주파수에 비례하는 선형 위상이다.</commentary>
+          <commentary>이상적 저역통과 여파기의 위상 응답은 상수가 아니라 주파수에 선형이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -446,19 +446,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보 데이터의 전송에 요구되는 최소 대역폭보다 더 넓은 대역폭을 사용한다.</choice_text>
-          <commentary>최소 대역폭보다 넓은 대역을 쓰므로 옳다.</commentary>
+          <commentary>확산대역 방식은 최소 필요 대역보다 넓은 대역을 쓰므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정보 데이터와 무관한 의사 랜덤 부호열에 의해 대역이 확산되는 시스템이다.</choice_text>
-          <commentary>PN 부호에 의한 확산으로 옳다.</commentary>
+          <commentary>정보와 무관한 PN 부호열로 대역을 확산하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>송신기에서 대역 확산에 사용된 부호열과 동기가 일치하는 동일한 부호열을 사용하여 수신기에서 역확산을 수행하는 시스템이다.</choice_text>
-          <commentary>동기된 동일 부호로 역확산하므로 옳다.</commentary>
+          <commentary>수신기는 송신과 동기된 같은 부호열로 역확산하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>협대역 FM 변조된 신호를 대역이 확산되도록 광대역 FM 신호로 변환하는 시스템도 포함된다.</choice_text>
-          <commentary>광대역 FM은 포함되지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>광대역 FM은 정보와 무관한 확산 부호를 쓰지 않으므로 확산대역 시스템이 아니다. 포함된다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -482,19 +482,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>000</choice_text>
-          <commentary>000이므로 정답이다.</commentary>
+          <commentary>000은 001, 100과 각각 한 비트만 달라 그레이 매핑을 만족하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>011</choice_text>
-          <commentary>100과 세 비트가 다르다.</commentary>
+          <commentary>011은 100과 세 비트가 달라 그레이 매핑을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>010</choice_text>
-          <commentary>001과 두 비트가 다르다.</commentary>
+          <commentary>010은 100과 두 비트가 달라 그레이 매핑을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>111</choice_text>
-          <commentary>001과 두 비트가 다르다.</commentary>
+          <commentary>111은 001과 두 비트가 달라 그레이 매핑을 만족하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\sqrt{\frac{1}{2}}$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>√(1/2)은 신호점의 한 좌표값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1은 원점에서 신호점까지의 거리이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\sqrt{2}$</choice_text>
-          <commentary>√2이므로 정답이다.</commentary>
+          <commentary>인접 신호점 사이의 거리는 2/√2 = √2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2$</choice_text>
-          <commentary>대각선 방향 신호점 간의 거리이다.</commentary>
+          <commentary>2는 원점 대칭인 대각 신호점 사이의 거리이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -554,19 +554,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>위성 궤도는 적도 상공의 원형 궤도이다.</choice_text>
-          <commentary>정지궤도 위성의 특징이다.</commentary>
+          <commentary>적도 상공 원형 궤도는 정지궤도 위성의 특징이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>위성이 지구를 공전하는 속도는 지구의 자전속도와 같다.</choice_text>
-          <commentary>정지궤도 위성의 특징이다.</commentary>
+          <commentary>공전 주기가 자전 주기와 같은 것은 정지궤도 위성이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>정지궤도 위성에 비해 신호 전파 지연(propagation delay) 시간이 더 길다.</choice_text>
-          <commentary>거리가 짧아 지연이 더 짧다.</commentary>
+          <commentary>저궤도 위성은 거리가 가까워 전파 지연이 정지궤도보다 짧다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>지구국에서 동일한 전력으로 신호를 송출하고 위성에서 수신할 때, 저궤도 위성의 수신신호세기는 정지궤도 위성보다 더 크다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>저궤도 위성은 거리가 가까워 경로 손실이 작으므로 수신 신호 세기가 더 커 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -590,19 +590,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.5</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.5 bit는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1 bit는 등확률 2개 심벌의 엔트로피이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2</choice_text>
-          <commentary>2이므로 정답이다.</commentary>
+          <commentary>H = log2 4 = 2 bit/symbol이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>심벌 수이다.</commentary>
+          <commentary>4는 심벌 개수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -627,19 +627,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>맨체스터 부호는 타이밍 동기화 정보를 추출할 수 있지만, 단극성(unipolar) NRZ 부호보다 점유 주파수 대역폭이 넓다.</choice_text>
-          <commentary>정답이다.</commentary>
+          <commentary>맨체스터 부호는 타이밍 추출이 쉽지만 NRZ보다 대역폭이 약 2배 넓으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>단극성 NRZ 부호는 극성(polar) RZ 부호보다 점유 주파수 대역폭이 2배 넓다.</choice_text>
-          <commentary>RZ 부호가 NRZ보다 대역폭이 넓다.</commentary>
+          <commentary>RZ는 펄스 폭이 절반이라 NRZ보다 대역폭이 넓으므로 반대로 설명하였다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NRZ 부호는 비트 펄스 지속 시간(bit pulse duration) 동안에 펄스 전압의 부호를 1회 이상 반전시킨다.</choice_text>
-          <commentary>NRZ는 비트 구간 동안 레벨을 유지한다.</commentary>
+          <commentary>NRZ는 비트 구간 동안 전압을 일정하게 유지하며 중간에 반전하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>단극성(unipolar)과 극성(polar)의 선 부호 모두 직류 성분을 포함하지 않는다.</choice_text>
-          <commentary>단극성 부호는 직류 성분을 포함한다.</commentary>
+          <commentary>단극성 부호는 평균값이 0이 아니어서 직류 성분을 포함한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -660,19 +660,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>26</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>26 Mbps는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>32</choice_text>
-          <commentary>32 Mbps이므로 정답이다.</commentary>
+          <commentary>80개 부반송파 × 4비트 = 320비트를 순환전치를 포함한 10 μs에 보내므로 32 Mbps이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40</choice_text>
-          <commentary>순환전치를 빼고 계산한 값이다.</commentary>
+          <commentary>40 Mbps는 순환전치를 고려하지 않고 320비트/8 μs로 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>48</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>48 Mbps는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -694,19 +694,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.6</choice_text>
-          <commentary>Δf + fm의 값이다.</commentary>
+          <commentary>0.6 MHz는 Δf + fm만 쓰고 2배를 하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>1.2</choice_text>
-          <commentary>1.2 MHz이므로 정답이다.</commentary>
+          <commentary>fm = 100 kHz이므로 B = 2(500 + 100) kHz = 1.2 MHz이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1.8</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>1.8 MHz는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2.4</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>2.4 MHz는 카슨 대역폭을 2배로 잘못 계산한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2024년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

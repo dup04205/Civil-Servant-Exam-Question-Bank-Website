@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>0.072</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.072는 0.3 × 0.4 × 0.6으로 잘못 곱한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>0.12</choice_text>
-          <commentary>결합확률 P(A∩B)의 값이다.</commentary>
+          <commentary>0.12는 P(A∩B)이며 P(B|A)가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>0.2</choice_text>
-          <commentary>0.2이므로 정답이다.</commentary>
+          <commentary>P(B|A) = P(A∩B)/P(A) = 0.12/0.6 = 0.2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>0.24</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>0.24는 0.4 × 0.6으로, 독립이라고 잘못 가정한 값이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -72,19 +72,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>$F \left[ \delta ( t ) \right] = \infty$</choice_text>
-          <commentary>F[δ(t)] = 1이므로 옳지 않아 정답이다.</commentary>
+          <commentary>F[δ(t)] = 1로 모든 주파수에서 크기가 1인 상수이다. 무한대라는 관계식은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ ax_{1} ( t ) + bx_{2} ( t ) \right] = aX_{1} ( f ) + bX_{2} ( f )$</choice_text>
-          <commentary>선형성으로 옳다.</commentary>
+          <commentary>푸리에 변환은 선형성을 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ x_{1} ( t ) * x_{2} ( t ) \right] = X_{1} ( f ) X_{2} ( f )$</choice_text>
-          <commentary>시간 영역 컨벌루션은 주파수 영역 곱이 되므로 옳다.</commentary>
+          <commentary>시간 영역의 컨벌루션은 주파수 영역의 곱이 되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$F \left[ u ( t ) \right] = \frac{1}{j2 \pi f} + \frac{1}{2} \delta ( f )$</choice_text>
-          <commentary>단위 계단 함수의 변환으로 옳다.</commentary>
+          <commentary>단위 계단 함수의 변환은 1/(j2πf) + (1/2)δ(f)이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>쌍극성(bipolar) RZ</choice_text>
-          <commentary>1을 교대로 ± 극성의 RZ 펄스로 나타내는 방식이다.</commentary>
+          <commentary>쌍극성 RZ는 1을 양·음으로 번갈아 표시하고 비트 중간에 0으로 돌아갈 뿐 극성 반전이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>맨체스터</choice_text>
-          <commentary>비트 중앙에서 극성이 반전되므로 정답이다.</commentary>
+          <commentary>맨체스터 부호는 비트 구간 중간에서 반드시 극성이 반전되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>단극성(unipolar) RZ</choice_text>
-          <commentary>펄스가 구간 중간에 0으로 복귀할 뿐 극성 반전은 없다.</commentary>
+          <commentary>단극성 RZ는 1일 때 비트 앞 절반만 펄스가 있고 0으로 돌아간다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>극성(polar) NRZ</choice_text>
-          <commentary>비트 구간 동안 일정 레벨을 유지한다.</commentary>
+          <commentary>극성 NRZ는 비트 구간 내내 같은 극성을 유지한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -141,19 +141,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IDFT 연산으로 변조기를 구현할 수 있다.</choice_text>
-          <commentary>IFFT(IDFT)로 변조기를 구현하므로 옳다.</commentary>
+          <commentary>OFDM 변조기는 IDFT(IFFT)로 구현하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>단일 반송파를 사용하는 변조 방식보다 전송 신호의 PAPR(peak to average power ratio)이 낮다.</choice_text>
-          <commentary>PAPR이 높으므로 옳지 않아 정답이다.</commentary>
+          <commentary>OFDM은 많은 부반송파가 더해져 PAPR이 단일 반송파 방식보다 높다. 낮다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>입력 데이터열을 다수의 저속 데이터열로 분할하여, 서로 다른 부반송파(subcarrier)에 실어 전송한다.</choice_text>
-          <commentary>고속 데이터를 병렬 저속 데이터로 나누어 전송하므로 옳다.</commentary>
+          <commentary>고속 데이터열을 다수의 저속 데이터열로 나누어 부반송파에 싣으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>각 부반송파 간의 직교성을 이용해 스펙트럼을 중첩시켜 주파수를 효율적으로 사용한다.</choice_text>
-          <commentary>직교성으로 스펙트럼 중첩이 가능하므로 옳다.</commentary>
+          <commentary>부반송파 간 직교성으로 스펙트럼을 겹쳐 대역효율을 높이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -177,19 +177,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>주파수 도약(frequency hopping)</choice_text>
-          <commentary>PN 부호에 따라 반송파 주파수를 바꾸는 방식이다.</commentary>
+          <commentary>주파수 도약은 PN 부호에 따라 반송파 주파수를 바꾸는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시간 도약(time hopping)</choice_text>
-          <commentary>PN 부호에 따라 전송 시점을 바꾸는 방식이다.</commentary>
+          <commentary>시간 도약은 PN 부호에 따라 전송 시점을 바꾸는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>시분할 다중화(time division multiplexing)</choice_text>
-          <commentary>대역 확산 방식이 아니다.</commentary>
+          <commentary>시분할 다중화는 시간 슬롯으로 채널을 나누는 다중화 방식으로 대역 확산이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>직접 부호열(direct sequence)</choice_text>
-          <commentary>직접 부호열 방식이므로 정답이다.</commentary>
+          <commentary>메시지에 PN 신호를 직접 곱해 대역을 넓히는 것은 직접 부호열 방식이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -213,19 +213,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$Y$의 평균은 $2 m_{X} + 1$이다.</choice_text>
-          <commentary>2mX + 1이므로 옳다.</commentary>
+          <commentary>E[Y] = 2mX + 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>$Y$의 분산은 $2 \sigma_{X}^{2}$이다.</choice_text>
-          <commentary>분산은 4σX²이므로 옳지 않아 정답이다.</commentary>
+          <commentary>Var(Y) = 2²σX² = 4σX²이다. 2σX²라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Y$는 정규분포를 따른다.</choice_text>
-          <commentary>정규분포를 따르므로 옳다.</commentary>
+          <commentary>정규분포의 선형 변환은 정규분포이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$X$와 $Y$의 상관계수는 $\rho_{XY} = 1$이다.</choice_text>
-          <commentary>양의 기울기를 갖는 선형관계이므로 ρXY = 1로 옳다.</commentary>
+          <commentary>Y는 X의 증가 선형함수이므로 상관계수는 1이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -247,19 +247,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>주기신호이다.</choice_text>
-          <commentary>주기신호로 옳다.</commentary>
+          <commentary>x(t + T) = x(t)를 만족하므로 주기신호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>우함수 신호이다.</choice_text>
-          <commentary>기함수이므로 옳지 않아 정답이다.</commentary>
+          <commentary>x(t) = −x(−t)는 기함수 조건이다. 우함수라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전력신호이다.</choice_text>
-          <commentary>전력신호로 옳다.</commentary>
+          <commentary>0이 아닌 주기신호는 평균전력이 유한한 전력신호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>신호의 전체 에너지는 무한대이다.</choice_text>
-          <commentary>에너지가 무한대이므로 옳다.</commentary>
+          <commentary>주기신호는 무한히 반복되므로 전체 에너지는 무한대이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -282,19 +282,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>OFDM 기술과 혼용하여 사용하지 않는다.</choice_text>
-          <commentary>OFDM과 결합하여 사용하므로 옳지 않아 정답이다.</commentary>
+          <commentary>MIMO는 LTE, 5G 등에서 OFDM과 결합한 MIMO-OFDM으로 쓰인다. 혼용하지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>공간 다이버시티를 통해 전송의 신뢰성을 향상시킬 수 있다.</choice_text>
-          <commentary>공간 다이버시티 이득으로 옳다.</commentary>
+          <commentary>여러 안테나 경로를 이용한 공간 다이버시티로 신뢰성을 높이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>빔 형성(beam forming)으로 수신 신호 이득을 증가시킬 수 있다.</choice_text>
-          <commentary>빔포밍 이득으로 옳다.</commentary>
+          <commentary>빔 형성으로 원하는 방향의 수신 이득을 높이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>신호대잡음비(SNR)가 높은 채널 환경에서, 공간 다중화를 통해 전송속도를 높일 수 있다.</choice_text>
-          <commentary>공간 다중화 이득으로 옳다.</commentary>
+          <commentary>높은 SNR에서 공간 다중화로 여러 데이터 스트림을 보내 전송속도를 높이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -318,19 +318,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$B$는 채널의 대역폭으로 단위는 [Hz]이다.</choice_text>
-          <commentary>대역폭 [Hz]로 옳다.</commentary>
+          <commentary>B는 채널 대역폭이고 단위는 Hz이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$S$는 신호의 평균 전력으로 단위는 [W]이다.</choice_text>
-          <commentary>신호 평균 전력 [W]로 옳다.</commentary>
+          <commentary>S는 신호의 평균 전력이고 단위는 W이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$N$은 잡음의 전력밀도 스펙트럼으로 단위는 [W/Hz]이다.</choice_text>
-          <commentary>잡음 전력 [W]이므로 옳지 않아 정답이다.</commentary>
+          <commentary>N은 대역 내 잡음 전력으로 단위는 W이며, N = N0B이다. 전력밀도라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$C$는 주어진 채널을 통해 오류 없이 정보를 전송할 수 있는 최대 전송율로 단위는 [bps]이다.</choice_text>
-          <commentary>최대 무오류 전송률 [bps]로 옳다.</commentary>
+          <commentary>C는 오류 없이 전송 가능한 최대 전송률로 단위는 bps이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -351,19 +351,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>M이 증가할수록 비트 오율이 감소한다.</choice_text>
-          <commentary>비트 오율이 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>M이 증가하면 신호점 간 거리가 좁아져 비트 오율이 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>진폭과 위상을 변화시켜 변조를 수행한다.</choice_text>
-          <commentary>진폭과 위상을 함께 변화시키므로 옳다.</commentary>
+          <commentary>QAM은 진폭과 위상을 함께 바꾸므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>그레이 코드를 이용하여 비트 오율을 줄일 수 있다.</choice_text>
-          <commentary>인접 신호점의 비트 차이를 1개로 하여 오율을 줄이므로 옳다.</commentary>
+          <commentary>인접 신호점이 1비트만 다르도록 그레이 코드를 쓰면 비트 오율이 줄어든다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>직교위상 반송파 $\cos ( 2 \pi f_{c} t )$와 $- \sin ( 2 \pi f_{c} t )$를 이용하여 QAM 신호를 생성할 수 있다.</choice_text>
-          <commentary>I·Q 직교 반송파로 생성하므로 옳다.</commentary>
+          <commentary>동상 성분 cos와 직교 성분 −sin 반송파를 조합하여 생성하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -385,19 +385,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>최솟값은 0이다.</choice_text>
-          <commentary>최솟값 0으로 옳다.</commentary>
+          <commentary>p = 0 또는 1이면 H(X) = 0이 최솟값이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>최댓값은 1이다.</choice_text>
-          <commentary>최댓값 1로 옳다.</commentary>
+          <commentary>p = 0.5이면 H(X) = 1 bit가 최댓값이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>정보원의 평균 정보량이다.</choice_text>
-          <commentary>평균 정보량으로 옳다.</commentary>
+          <commentary>엔트로피는 정보원의 평균 정보량이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$H ( X ) = p \log_2 p + ( 1 - p ) \log_2 ( 1 - p )$이다.</choice_text>
-          <commentary>음의 부호가 빠졌으므로 옳지 않아 정답이다.</commentary>
+          <commentary>엔트로피는 H(X) = −p log2 p − (1 − p) log2(1 − p)로 음의 부호가 붙어야 한다. 부호가 빠져 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -421,19 +421,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>BCH 부호</choice_text>
-          <commentary>블록 부호이다.</commentary>
+          <commentary>BCH 부호는 블록 단위로 부호화하는 순환 블록 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>CRC 부호</choice_text>
-          <commentary>블록 부호이다.</commentary>
+          <commentary>CRC 부호는 오류 검출용 순환 블록 부호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Convolutional 부호</choice_text>
-          <commentary>과거 입력을 참조하므로 정답이다.</commentary>
+          <commentary>과거 입력을 기억하는 시프트 레지스터로 부호화하는 것은 컨볼루션 부호이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Reed Solomon 부호</choice_text>
-          <commentary>블록 부호이다.</commentary>
+          <commentary>리드-솔로몬 부호는 심벌 단위의 비이진 블록 부호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -457,19 +457,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>22</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>22%는 μ = m²/(2 + m²) = 7/25의 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>24</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>24%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>26</choice_text>
-          <commentary>계산이 틀렸다.</commentary>
+          <commentary>26%는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>28</choice_text>
-          <commentary>28%이므로 정답이다.</commentary>
+          <commentary>μ = (7/9)/(2 + 7/9) = 7/25 = 28%이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -490,19 +490,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>OOK에서 심볼당 비트 수는 1이다.</choice_text>
-          <commentary>OOK는 이진 변조이므로 옳다.</commentary>
+          <commentary>OOK는 이진 변조로 심볼당 1비트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>QPSK에서 심볼당 비트 수는 2이다.</choice_text>
-          <commentary>QPSK는 log2 4 = 2비트이므로 옳다.</commentary>
+          <commentary>QPSK는 4개 위상으로 심볼당 2비트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>BFSK에서 비동기식 복조기를 사용할 수 있다.</choice_text>
-          <commentary>포락선 검파 방식의 비동기 복조가 가능하므로 옳다.</commentary>
+          <commentary>BFSK는 두 주파수의 에너지를 비교하는 비동기식 복조가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>BPSK는 심볼 오율과 비트 오율이 다르다.</choice_text>
-          <commentary>심볼 오율과 비트 오율이 같으므로 옳지 않아 정답이다.</commentary>
+          <commentary>BPSK는 심볼 하나가 1비트이므로 심볼 오율과 비트 오율이 같다. 다르다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -523,19 +523,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>오류정정 가능 비트 수는 1이다.</choice_text>
-          <commentary>t = (3 − 1)/2 = 1로 옳다.</commentary>
+          <commentary>최소 거리 3이므로 정정 가능 비트 수는 (3 − 1)/2 = 1이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>최소 Hamming 거리는 3이다.</choice_text>
-          <commentary>dmin = 3으로 옳다.</commentary>
+          <commentary>(7, 4) 해밍 부호의 최소 해밍 거리는 3이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>패리티 비트 수는 4이다.</choice_text>
-          <commentary>패리티 비트는 3개이므로 옳지 않아 정답이다.</commentary>
+          <commentary>패리티 비트 수는 n − k = 7 − 4 = 3이다. 4라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>부호율은 $\frac{4}{7}$이다.</choice_text>
-          <commentary>k/n = 4/7로 옳다.</commentary>
+          <commentary>부호율은 k/n = 4/7이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -556,19 +556,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성의 고도는 정지궤도 위성보다 낮다.</choice_text>
-          <commentary>저궤도 위성의 고도가 낮으므로 옳다.</commentary>
+          <commentary>저궤도 위성은 수백~수천 km, 정지궤도는 약 36,000 km이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>동시에 여러 지구국에 정보를 전달할 수 있다.</choice_text>
-          <commentary>광역성·동보성으로 옳다.</commentary>
+          <commentary>위성은 넓은 지역에 동시에 방송할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>C 밴드에서 상향 링크의 주파수는 하향 링크보다 낮다.</choice_text>
-          <commentary>상향 링크가 더 높으므로 옳지 않아 정답이다.</commentary>
+          <commentary>C 밴드는 상향 약 6 GHz, 하향 약 4 GHz로 상향 링크가 더 높다. 낮다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>정지궤도 위성의 공전 주기는 지구의 자전 주기와 같아, 일정 지역에 지속적으로 서비스를 제공할 수 있다.</choice_text>
-          <commentary>정지궤도 위성의 특징으로 옳다.</commentary>
+          <commentary>정지궤도 위성은 지구 자전과 같은 주기로 돌아 일정 지역에 지속 서비스하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -589,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>포락선 검파기를 이용하여 복조할 수 있다.</choice_text>
-          <commentary>판별기와 포락선 검파기로 복조하므로 정답이다.</commentary>
+          <commentary>주파수 판별기(미분기) 뒤에 포락선 검파기를 두어 FM을 복조할 수 있으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 주파수에 따라 변조된 신호의 진폭이 변한다.</choice_text>
-          <commentary>FM 신호의 진폭은 일정하다.</commentary>
+          <commentary>FM은 메시지에 따라 순시 주파수가 변하고 진폭은 일정하다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>반송파가 $\sqrt{2} A_{c} \cos ( 2 \pi f_{c} t )$일 때, FM 신호의 평균 전력은 $\frac{A_{c}^{2}}{2}$이다.</choice_text>
-          <commentary>진폭이 √2Ac이므로 평균 전력은 (√2Ac)²/2 = Ac²이다.</commentary>
+          <commentary>반송파 진폭이 √2Ac이면 평균 전력은 (√2Ac)²/2 = Ac²이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>메시지 신호의 주파수 대역폭이 $f_{m}$일 때, 광대역 FM 신호의 주파수 대역폭은 $2 f_{m}$이다.</choice_text>
-          <commentary>카슨 법칙에 따라 대역폭은 2(Δf + fm)이다.</commentary>
+          <commentary>카슨 법칙에 따른 광대역 FM 대역폭은 2(Δf + fm)으로 2fm보다 넓다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -623,19 +623,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} + f_{m} ) ]$</choice_text>
-          <commentary>상측파대 스펙트럼이므로 정답이다.</commentary>
+          <commentary>상측파대 성분 cos[2π(fc + fm)t]의 스펙트럼은 (1/2)[δ(f − fc − fm) + δ(f + fc + fm)]이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} + f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>하측파대 스펙트럼이다.</commentary>
+          <commentary>fc − fm 성분은 하측파대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f + f_{c} + f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>음의 주파수 성분만 나타낸 것이다.</commentary>
+          <commentary>두 임펄스가 모두 음의 주파수에 있어 실수 신호의 스펙트럼이 될 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ \delta ( f - f_{c} - f_{m} ) + \delta ( f + f_{c} - f_{m} ) ]$</choice_text>
-          <commentary>상·하측파대 성분이 섞여 있다.</commentary>
+          <commentary>양·음 주파수 성분이 대칭이 아니어서 상측파대 스펙트럼이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -660,19 +660,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>선형(linear) 시스템이다.</choice_text>
-          <commentary>선형 시스템이므로 정답이다.</commentary>
+          <commentary>적분은 중첩의 원리를 만족하므로 선형 시스템이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시불변(time-invariant) 시스템이다.</choice_text>
-          <commentary>시변 시스템이다.</commentary>
+          <commentary>적분 하한이 0으로 고정되어 입력 이동에 따라 출력이 그대로 이동하지 않으므로 시변 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>인과(causal) 시스템이다.</choice_text>
-          <commentary>비인과 시스템이다.</commentary>
+          <commentary>출력이 미래 입력 x(t + 1)까지 의존하므로 비인과 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>무기억(memoryless) 시스템이다.</choice_text>
-          <commentary>기억 시스템이다.</commentary>
+          <commentary>과거 입력 전체를 누적하므로 기억 시스템이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>
@@ -693,19 +693,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>1세대는 아날로그 통신을 기반으로 하며, AMPS가 대표적이다.</choice_text>
-          <commentary>1세대 AMPS로 옳다.</commentary>
+          <commentary>1세대는 아날로그 FDMA 방식인 AMPS가 대표적이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>2세대는 1세대보다 고품질의 음성통신을 지원하며 아날로그 통신 방식이다.</choice_text>
-          <commentary>디지털 방식이므로 옳지 않아 정답이다.</commentary>
+          <commentary>2세대(GSM, IS-95)는 디지털 통신 방식이다. 아날로그라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>3세대는 멀티미디어 통신을 목표로 하며, W-CDMA가 3세대 통신 시스템에 속한다.</choice_text>
-          <commentary>3세대 W-CDMA로 옳다.</commentary>
+          <commentary>3세대는 멀티미디어 통신을 목표로 하며 W-CDMA가 속하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>4세대는 IMT-Advanced라고 하며, OFDMA를 사용한다.</choice_text>
-          <commentary>4세대 IMT-Advanced(LTE-A)로 옳다.</commentary>
+          <commentary>4세대는 IMT-Advanced로 하향 링크에 OFDMA를 사용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2026년 · 제1회 지방직공무원 시험 | 제1회 지방직공무원 시험(시도교육청))</exam_history>

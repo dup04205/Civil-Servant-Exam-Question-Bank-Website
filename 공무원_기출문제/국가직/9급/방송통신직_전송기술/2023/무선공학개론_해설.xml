@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>500 63</choice_text>
-          <commentary>3,000 Mbps이다.</commentary>
+          <commentary>500 × log₂64 = 3,000 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>600 31</choice_text>
-          <commentary>3,000 Mbps이다.</commentary>
+          <commentary>600 × log₂32 = 3,000 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>400 127</choice_text>
-          <commentary>2,800 Mbps이다.</commentary>
+          <commentary>400 × log₂128 = 2,800 Mbps이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>800 15</choice_text>
-          <commentary>3,200 Mbps로 가장 크므로 정답이다.</commentary>
+          <commentary>800 × log₂16 = 3,200 Mbps로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -65,19 +65,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>파장이란 주기적으로 변화하는 에너지 레벨이 한 주기 동안 진행한 거리이다.</choice_text>
-          <commentary>파장의 정의로 옳다.</commentary>
+          <commentary>파장은 한 주기 동안 진행한 거리이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>회절이란 경계면에 도달한 전파가 새로운 파원이 되어 진행하는 현상을 말한다.</choice_text>
-          <commentary>하위헌스 원리에 따른 회절의 설명으로 옳다.</commentary>
+          <commentary>경계에서 새로운 파원이 되어 퍼지는 현상이 회절이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전파의 직진과 반사의 특성을 이용한 것으로는 레이더가 있다.</choice_text>
-          <commentary>레이더의 원리로 옳다.</commentary>
+          <commentary>레이더는 전파의 직진과 반사를 이용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>전파의 주파수가 높을수록 회절이 잘되고 낮을수록 직진성이 좋아진다.</choice_text>
-          <commentary>주파수와 회절·직진성의 관계가 뒤바뀌어 옳지 않으므로 정답이다.</commentary>
+          <commentary>주파수가 낮을수록 회절이 잘되고 높을수록 직진성이 좋다. 반대로 설명하여 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -98,19 +98,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>다수 개의 부반송파를 사용하여 데이터를 전송한다.</choice_text>
-          <commentary>다중 부반송파 전송으로 옳다.</commentary>
+          <commentary>다수 부반송파로 데이터를 전송하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>심벌 간 간섭을 완화하기 위해 보호구간을 삽입한다.</choice_text>
-          <commentary>보호구간 삽입으로 옳다.</commentary>
+          <commentary>보호구간(CP)을 삽입해 심벌 간 간섭을 완화하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>단일반송파 전송 방식에 비해 최대전력 대 평균전력비(peak-to-average power ratio)가 낮다.</choice_text>
-          <commentary>PAPR이 높으므로 옳지 않아 정답이다.</commentary>
+          <commentary>OFDM은 PAPR이 단일반송파 방식보다 높다. 낮다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>고속 푸리에 역변환(IFFT)을 사용하여 OFDM 변조 기능을 구현할 수 있다.</choice_text>
-          <commentary>IFFT로 구현하므로 옳다.</commentary>
+          <commentary>IFFT로 OFDM 변조를 구현하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -131,19 +131,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>위성과 지구국의 앙각이 증가할수록 왕복지연시간이 짧아진다.</choice_text>
-          <commentary>거리가 짧아지므로 옳다.</commentary>
+          <commentary>앙각이 클수록 위성까지 거리가 짧아 지연이 줄어드므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성통신은 정지궤도 위성통신보다 왕복지연시간이 짧아 신호 감도가 좋다.</choice_text>
-          <commentary>저궤도의 짧은 지연과 작은 경로손실로 옳다.</commentary>
+          <commentary>저궤도 위성은 거리가 가까워 지연과 경로손실이 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>위성통신에서 사용되는 C밴드는 4 ～ 8 [GHz] 주파수 범위를 갖는다.</choice_text>
-          <commentary>C밴드의 범위로 옳다.</commentary>
+          <commentary>C밴드는 4~8 GHz 범위이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>일반적으로 상향링크보다 하향링크에서 더 높은 주파수를 사용한다.</choice_text>
-          <commentary>상향링크에 더 높은 주파수를 쓰므로 옳지 않아 정답이다.</commentary>
+          <commentary>일반적으로 상향링크에 더 높은 주파수를 사용한다. 하향링크라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -167,19 +167,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 2 4 1</choice_text>
-          <commentary>2이다.</commentary>
+          <commentary>(1/2)(4/1) = 2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 2 2 4</choice_text>
-          <commentary>0.25이다.</commentary>
+          <commentary>(1/2)(2/4) = 0.25이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>2 1 2 1</choice_text>
-          <commentary>4로 가장 크므로 정답이다.</commentary>
+          <commentary>(2/1)(2/1) = 4로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2 1 1 2</choice_text>
-          <commentary>1이다.</commentary>
+          <commentary>(2/1)(1/2) = 1이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -203,19 +203,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{\pi^2}$</choice_text>
-          <commentary>1/π² W이므로 정답이다.</commentary>
+          <commentary>P_r = 16 × 10⁶ × [1/(4π × 10³)]² = 1/π² W이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{8}{\pi^2}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>8/π²는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{16}{\pi^2}$</choice_text>
-          <commentary>4π의 제곱을 누락한 값이다.</commentary>
+          <commentary>16/π²는 (4π)²의 16을 약분하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{30}{\pi^2}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>30/π²는 이득 dB 값을 그대로 쓴 것과 관련된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -236,15 +236,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>1040 25</choice_text>
-          <commentary>1,040 kHz, 25이므로 정답이다.</commentary>
+          <commentary>β = 500/20 = 25, B = 2(500 + 20) = 1,040 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1040 200</choice_text>
-          <commentary>변조지수가 틀렸다.</commentary>
+          <commentary>변조지수 200은 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>520 25</choice_text>
-          <commentary>대역폭이 틀렸다.</commentary>
+          <commentary>대역폭 520 kHz는 2배를 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>520 200</choice_text>
@@ -269,19 +269,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>이진 변조와 동기식 복조를 사용할 때, 동일한 비트오율을 얻기 위한 $E_{b} / N_{0}$는 PSK 방식이 FSK 방식에 비해 작다.</choice_text>
-          <commentary>PSK가 FSK보다 3 dB 유리하므로 옳다.</commentary>
+          <commentary>2진 동기 복조에서 PSK는 FSK보다 약 3 dB 적은 E_b/N₀로 같은 오율을 얻으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>ASK와 FSK는 비동기 복조가 가능하므로 수신기의 복잡도를 낮출 수 있다.</choice_text>
-          <commentary>비동기 복조가 가능하므로 옳다.</commentary>
+          <commentary>ASK와 FSK는 포락선 검파로 비동기 복조가 가능하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>임의의 $E_{b} / N_{0}$에서 QPSK는 BPSK와 동일한 비트오율 성능을 얻을 수 있지만 대역폭 효율은 감소한다.</choice_text>
-          <commentary>대역폭 효율이 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>QPSK는 BPSK와 같은 오율에 대역폭 효율이 2배로 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>M진 QAM에서 M을 증가시킬 경우, 심벌당 전송할 수 있는 비트 수가 증가하여 대역폭 효율이 개선된다.</choice_text>
-          <commentary>M이 커지면 심벌당 비트 수가 늘어 옳다.</commentary>
+          <commentary>M이 커지면 심벌당 비트 수가 늘어 대역폭 효율이 개선되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -305,19 +305,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2 W는 반사 전력비를 1/32로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4 W이므로 정답이다.</commentary>
+          <commentary>|Γ|² = (0.25)² = 1/16이므로 반사 전력은 64/16 = 4 W이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>8 W는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>10</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>10 W는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -341,19 +341,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>995</choice_text>
-          <commentary>1,000 - 5 kHz 성분이다.</commentary>
+          <commentary>995 kHz는 1,000 − 5 kHz 성분으로 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1005</choice_text>
-          <commentary>1,000 + 5 kHz 성분이다.</commentary>
+          <commentary>1,005 kHz는 1,000 + 5 kHz 성분으로 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1010</choice_text>
-          <commentary>짝수 고조파 성분이므로 나타나지 않아 정답이다.</commentary>
+          <commentary>1,010 kHz는 짝수 고조파 10 kHz에 해당하여 대칭 사각파에서는 나타나지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1015</choice_text>
-          <commentary>1,000 + 15 kHz 성분이다.</commentary>
+          <commentary>1,015 kHz는 3고조파 15 kHz 성분으로 나타난다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -377,19 +377,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$16$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>16배는 속도가 아니라 감속 비율의 역수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>4배는 √(ε_r)·√(μ_r)의 일부만 반영한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1/4은 √μ_r 또는 √ε_r 중 하나만 반영한 값과 관련된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{16}$</choice_text>
-          <commentary>1/16배이므로 정답이다.</commentary>
+          <commentary>v = c/√(64 × 4) = c/16이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -410,19 +410,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>통신거리가 증가함에 따라 전파의 세기가 감소하는 현상을 경로손실이라고 한다.</choice_text>
-          <commentary>경로손실의 정의로 옳다.</commentary>
+          <commentary>거리 증가에 따른 전파 세기 감소를 경로손실이라 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>백색가우시안 잡음의 주요 원인은 다른 사용자들로부터 송신되는 전파에 의한 방해이다.</choice_text>
-          <commentary>열잡음이 주요 원인이므로 옳지 않아 정답이다.</commentary>
+          <commentary>백색가우시안 잡음의 주요 원인은 수신기 내부 열잡음이며, 다른 사용자 전파는 간섭이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>건물, 지형 등 장애물에 의해 수신신호의 평균전력이 달라지는 현상을 섀도윙이라고 한다.</choice_text>
-          <commentary>섀도윙의 정의로 옳다.</commentary>
+          <commentary>장애물에 따른 평균 수신전력 변동을 섀도윙이라 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>송신 신호의 회절, 반사, 산란 등에 의해 다중 경로가 발생한다.</choice_text>
-          <commentary>다중경로의 발생 원인으로 옳다.</commentary>
+          <commentary>회절, 반사, 산란으로 다중 경로가 생기므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -446,19 +446,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>EHF(extremely high frequency)</choice_text>
-          <commentary>EHF이므로 정답이다.</commentary>
+          <commentary>EHF(30~300 GHz)는 밀리미터파 대역으로 레이더 등에 쓰이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>VLF(very low frequency)</choice_text>
-          <commentary>VLF는 장파 대역이다.</commentary>
+          <commentary>VLF는 매우 낮은 주파수로 수중·장거리 통신에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>HF(high frequency)</choice_text>
-          <commentary>HF는 단파 대역이다.</commentary>
+          <commentary>HF는 단파 대역으로 전리층 반사 통신에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>UHF(ultra high frequency)</choice_text>
-          <commentary>UHF는 데시미터파 대역이다.</commentary>
+          <commentary>UHF는 TV, 이동통신 등에 쓰이는 데시미터파 대역이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -482,19 +482,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>100 m/s는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>150</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>150 m/s는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>200 m/s는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>250</choice_text>
-          <commentary>250 m/s이므로 정답이다.</commentary>
+          <commentary>v = f_dc/f = 10⁴ × 3 × 10⁸/(12 × 10⁹) = 250 m/s이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -518,19 +518,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>100</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>100 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>150</choice_text>
-          <commentary>150 m이므로 정답이다.</commentary>
+          <commentary>ΔR = cτ/2 = 3 × 10⁸ × 10⁻⁶/2 = 150 m이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>200 m는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>250</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>250 m는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -554,19 +554,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>6 km이므로 정답이다.</commentary>
+          <commentary>D = R√(3N) = 2 × √9 = 6 km이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>7</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>7 km는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>8</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>8 km는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>9 km는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -587,19 +587,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>과변조가 된다.</commentary>
+          <commentary>A_c = 1이면 최솟값이 −2가 되어 과변조가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>과변조가 된다.</commentary>
+          <commentary>A_c = 2이면 최솟값이 −1이 되어 과변조가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>최솟값 3이므로 정답이다.</commentary>
+          <commentary>m(t)의 최솟값이 −3이므로 A_c ≥ 3이 최솟값이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>가능하지만 최솟값이 아니다.</commentary>
+          <commentary>A_c = 4도 가능하지만 최솟값이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -623,19 +623,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$M ( f ) + \frac{1}{2} M ( f - f_{c} ) + \frac{1}{2} M ( f + f_{c} )$</choice_text>
-          <commentary>계수와 천이 주파수가 틀렸다.</commentary>
+          <commentary>반송파 주파수 위치가 2f_c가 아니라 f_c로 되어 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$M ( f ) + \frac{1}{2} M ( f - 2 f_{c} ) + \frac{1}{2} M ( f + 2 f_{c} )$</choice_text>
-          <commentary>계수가 틀렸다.</commentary>
+          <commentary>계수가 1/2, 1/4이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} M ( f ) + \frac{1}{4} M ( f - f_{c} ) + \frac{1}{4} M ( f + f_{c} )$</choice_text>
-          <commentary>천이 주파수가 틀렸다.</commentary>
+          <commentary>고주파 성분의 위치가 2f_c이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} M ( f ) + \frac{1}{4} M ( f - 2 f_{c} ) + \frac{1}{4} M ( f + 2 f_{c} )$</choice_text>
-          <commentary>유도 결과와 일치하므로 정답이다.</commentary>
+          <commentary>y(t) = (1/2)m(t) + (1/2)m(t)cos(4πf_ct)이므로 (1/2)M(f) + (1/4)M(f ∓ 2f_c)이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -659,19 +659,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{\pi}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2/π는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{5}{\pi}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>5/π는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{10}{\pi}$</choice_text>
-          <commentary>10/π μW/m²이므로 정답이다.</commentary>
+          <commentary>S = 40/(4π × 10⁶) = 10/π μW/m²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{20}{\pi}$</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>20/π는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -694,19 +694,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>차동 부호화된 데이터에 양극성 NRZ(non-return to zero)를 이용하여 라인 코딩하였다.</choice_text>
-          <commentary>공식 정답에 따르면 그림의 라인 코딩에 대한 설명으로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 차동 부호화 데이터에 양극성 NRZ 라인 코딩을 적용한 것은 옳은 설명이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>차동 부호화된 데이터에서 현재 비트의 전송 오류는 다음 비트의 검출에 영향을 주지 않는다.</choice_text>
-          <commentary>다음 비트 검출에도 영향을 주므로 옳지 않아 정답이다.</commentary>
+          <commentary>차동 부호에서는 한 비트 오류가 그 비트와 다음 비트의 검출에 함께 영향을 준다. 영향을 주지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기준 비트를 제외한 차동 부호화된 데이터는 XNOR 연산으로 생성할 수 있다.</choice_text>
-          <commentary>공식 정답에 따르면 그림의 부호화 규칙에 대한 설명으로 옳다.</commentary>
+          <commentary>공식 정답에 따르면 기준 비트 이후의 차동 부호화 데이터는 XNOR 연산으로 생성되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>수신기에서도 차동 방식으로 복호화(decoding)를 수행한다.</choice_text>
-          <commentary>수신 측에서 차동 복호를 하므로 옳다.</commentary>
+          <commentary>수신기도 인접 비트를 비교하는 차동 방식으로 복호하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

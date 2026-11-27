@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>dBW</choice_text>
-          <commentary>1 W 기준 전력 단위이다.</commentary>
+          <commentary>dBW는 1 W 기준의 절대 전력 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>dBi</choice_text>
-          <commentary>등방성 안테나 기준 이득 단위이므로 정답이다.</commentary>
+          <commentary>dBi는 등방성 안테나 기준의 상대 이득 단위이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>dBm</choice_text>
-          <commentary>1 mW 기준 전력 단위이다.</commentary>
+          <commentary>dBm은 1 mW 기준의 절대 전력 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>dBmV</choice_text>
-          <commentary>1 mV 기준 전압 단위이다.</commentary>
+          <commentary>dBmV는 1 mV 기준의 절대 전압 단위이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.3</choice_text>
-          <commentary>유선 이더넷 표준이다.</commentary>
+          <commentary>IEEE 802.3은 유선 이더넷 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>IEEE 802.11</choice_text>
-          <commentary>무선랜 표준이므로 정답이다.</commentary>
+          <commentary>IEEE 802.11은 무선랜(Wi-Fi) 표준이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.16</choice_text>
-          <commentary>무선 도시권 통신망 표준이다.</commentary>
+          <commentary>IEEE 802.16은 WiMAX 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.22</choice_text>
-          <commentary>무선 지역 통신망 표준이다.</commentary>
+          <commentary>IEEE 802.22는 TV 유휴대역 WRAN 표준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>파장은 A가 B의 10배이고, 전파속도는 A와 B가 같다.</choice_text>
-          <commentary>파장은 A가 10배, 속도는 같으므로 정답이다.</commentary>
+          <commentary>λ = c/f이므로 A의 파장이 B의 10배이고 속도는 같으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>파장은 B가 A의 10배이고, 전파속도는 A와 B가 같다.</choice_text>
-          <commentary>파장 관계가 뒤바뀌었다.</commentary>
+          <commentary>주파수가 낮은 A의 파장이 더 길다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>파장은 A가 B의 10배이고, 전파속도는 B가 A의 10배이다.</choice_text>
-          <commentary>전파속도는 같다.</commentary>
+          <commentary>자유공간에서 전파속도는 주파수와 무관하게 같다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>파장은 B가 A의 10배이고, 전파속도는 A가 B의 10배이다.</choice_text>
-          <commentary>파장 관계와 속도가 모두 틀렸다.</commentary>
+          <commentary>파장 관계와 속도 관계가 모두 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -179,19 +179,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>완전 정합(Γ = 0)일 때의 값이다.</commentary>
+          <commentary>VSWR 1은 반사가 없는 완전 정합 상태이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>VSWR 2는 반사계수 1/3에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>3</choice_text>
-          <commentary>3이므로 정답이다.</commentary>
+          <commentary>VSWR = 1.5/0.5 = 3이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>4</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>VSWR 4는 반사계수 0.6에 해당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -212,19 +212,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>ASK는 반송파의 진폭을 변화시킨다.</choice_text>
-          <commentary>ASK의 설명으로 옳다.</commentary>
+          <commentary>ASK는 진폭을 바꾸므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>FSK는 반송파의 주파수를 변화시킨다.</choice_text>
-          <commentary>FSK의 설명으로 옳다.</commentary>
+          <commentary>FSK는 주파수를 바꾸므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>QAM은 반송파의 진폭과 주파수를 동시에 변화시킨다.</choice_text>
-          <commentary>진폭과 위상을 변화시키므로 옳지 않아 정답이다.</commentary>
+          <commentary>QAM은 진폭과 위상을 동시에 바꾼다. 주파수를 바꾼다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>DPSK는 이전 신호와 현재 신호의 반송파 간의 위상차를 알면 복조가 가능하다.</choice_text>
-          <commentary>DPSK의 설명으로 옳다.</commentary>
+          <commentary>DPSK는 이전 심볼과의 위상차로 복조하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -245,19 +245,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 \cos ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>2cos(2πf_ct)이므로 정답이다.</commentary>
+          <commentary>2cos(2πf_ct)를 곱하고 저역통과하면 m(t)가 그대로 얻어지므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\cos ( 2 \pi f_{c} t ) \sin ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>곱하면 m(t)가 복원되지 않는다.</commentary>
+          <commentary>cos·sin의 곱은 sin(4πf_ct)/2로 동기 반송파가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\sin ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>위상이 90° 어긋나 출력이 0이 된다.</commentary>
+          <commentary>sin 반송파는 위상이 90° 어긋나 출력이 0이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} \cos ( 2 \pi f_{c} t ) \sin ( 2 \pi f_{c} t )$</choice_text>
-          <commentary>곱하면 m(t)가 복원되지 않는다.</commentary>
+          <commentary>위상이 맞지 않아 m(t)를 복원할 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -314,19 +314,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) － (나) － (다) － (라) － (마)</choice_text>
-          <commentary>표본화와 부호화의 순서가 틀렸다.</commentary>
+          <commentary>표본화, 양자화, 부호화 순서가 뒤바뀌었다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>(가) － (라) － (다) － (나) － (마)</choice_text>
-          <commentary>아날로그 - 표본화 - 양자화 - 부호화 - 디지털이므로 정답이다.</commentary>
+          <commentary>아날로그 신호 → 표본화 → 양자화 → 부호화 → 디지털 신호 순이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(마) － (다) － (라) － (나) － (가)</choice_text>
-          <commentary>입출력이 뒤바뀌었다.</commentary>
+          <commentary>입출력과 순서가 모두 거꾸로 되어 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(마) － (라) － (나) － (다) － (가)</choice_text>
-          <commentary>입출력과 순서가 모두 틀렸다.</commentary>
+          <commentary>입출력이 거꾸로 되어 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -348,19 +348,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>등방성 안테나의 지향성은 1보다 크다.</choice_text>
-          <commentary>지향성은 1이므로 옳지 않아 정답이다.</commentary>
+          <commentary>등방성 안테나의 지향성은 1(0 dBi)이다. 1보다 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>다이폴(dipole) 안테나는 일반적으로 전방향성 빔 패턴을 갖는다.</choice_text>
-          <commentary>다이폴의 방사 특성으로 옳다.</commentary>
+          <commentary>다이폴 안테나는 수평면에서 전방향성 패턴을 가지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>기하학적 모양에 따라 도선 안테나, 개구면 안테나, 평면형 안테나 등으로 분류된다.</choice_text>
-          <commentary>안테나 분류로 옳다.</commentary>
+          <commentary>형상에 따라 도선, 개구면, 평면형 안테나 등으로 분류하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>등방성 안테나로부터 수신되는 신호의 전력밀도는 이론적으로 안테나로부터 거리의 제곱에 반비례한다.</choice_text>
-          <commentary>역제곱 법칙으로 옳다.</commentary>
+          <commentary>전력밀도는 P/(4πr²)로 거리 제곱에 반비례하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -381,19 +381,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 [THz]</choice_text>
-          <commentary>10¹² Hz이다.</commentary>
+          <commentary>1 THz는 10¹² Hz이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1 [GHz]</choice_text>
-          <commentary>10⁹ Hz이다.</commentary>
+          <commentary>1 GHz는 10⁹ Hz이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>1 [PHz]</choice_text>
-          <commentary>10¹⁵ Hz로 가장 크므로 정답이다.</commentary>
+          <commentary>1 PHz는 10¹⁵ Hz로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>1 [MHz]</choice_text>
-          <commentary>10⁶ Hz이다.</commentary>
+          <commentary>1 MHz는 10⁶ Hz이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -416,19 +416,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1.2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1.2 mW는 이득을 2,000배로 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2.4</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2.4 mW는 이득을 1,000배(30 dB)로 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>12</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>12 mW는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>24</choice_text>
-          <commentary>24 mW이므로 정답이다.</commentary>
+          <commentary>20 dB는 100배이므로 2.4 W/100 = 24 mW이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -449,19 +449,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$B \log_{2} \left( 1 + SNR \right)$</choice_text>
-          <commentary>섀넌 공식이므로 정답이다.</commentary>
+          <commentary>섀넌 용량 C = B log₂(1 + SNR)이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{B} \log_{2} \left( 1 + SNR \right)$</choice_text>
-          <commentary>대역폭이 분모에 있다.</commentary>
+          <commentary>용량은 대역폭에 비례하며 반비례하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$B \log_{2} \left( 1 + \frac{1}{SNR} \right)$</choice_text>
-          <commentary>SNR의 역수를 사용했다.</commentary>
+          <commentary>로그 안이 1 + SNR이어야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{B} \log_{2} \left( 1 + \frac{1}{SNR} \right)$</choice_text>
-          <commentary>대역폭과 SNR이 모두 잘못 적용되었다.</commentary>
+          <commentary>대역폭과 SNR의 위치가 모두 틀렸다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -482,19 +482,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>단일 반송파 전송 방식보다 등화기 구조가 간단하다.</choice_text>
-          <commentary>주파수 영역 단일 탭 등화로 간단하므로 옳다.</commentary>
+          <commentary>단일탭 주파수 영역 등화가 가능해 등화기가 간단하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>CP(cyclic prefix)의 길이가 길어질수록 심볼 전송률이 증가한다.</choice_text>
-          <commentary>전송률이 감소하므로 옳지 않아 정답이다.</commentary>
+          <commentary>CP는 오버헤드이므로 길어질수록 심볼 전송률이 감소한다. 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>CP의 길이를 최대 지연 시간보다 길게 설정하면 부반송파들 간의 직교성이 깨지는 현상을 방지할 수 있다.</choice_text>
-          <commentary>직교성 유지로 옳다.</commentary>
+          <commentary>CP를 최대 지연보다 길게 하면 부반송파 간 직교성 손실을 막으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>심볼에 보호구간을 삽입하여 다중경로 채널에 의해 발생하는 인접 심볼 간 간섭 문제를 해결할 수 있다.</choice_text>
-          <commentary>보호구간의 역할로 옳다.</commentary>
+          <commentary>보호구간 삽입으로 다중경로에 의한 ISI를 해결하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -517,19 +517,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>주파수 선택적 빠른 페이딩</choice_text>
-          <commentary>주파수 선택적 빠른 페이딩이므로 정답이다.</commentary>
+          <commentary>심볼 주기 &lt; 지연확산이면 주파수 선택적, 심볼 주기 &gt; 코히런스 시간이면 빠른 페이딩이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>주파수 선택적 느린 페이딩</choice_text>
-          <commentary>코히런스 시간보다 길어 느린 페이딩이 아니다.</commentary>
+          <commentary>심볼 주기가 코히런스 시간보다 크므로 느린 페이딩이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>주파수 비선택적 빠른 페이딩</choice_text>
-          <commentary>지연확산보다 짧아 비선택적이 아니다.</commentary>
+          <commentary>심볼 주기가 지연확산보다 작으므로 비선택적이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>주파수 비선택적 느린 페이딩</choice_text>
-          <commentary>두 조건 모두 맞지 않는다.</commentary>
+          <commentary>두 조건 모두와 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -550,19 +550,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>궤도 경사각이 0 °이다.</choice_text>
-          <commentary>적도 궤도이므로 옳다.</commentary>
+          <commentary>정지궤도는 적도면 궤도로 경사각이 0°이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>도플러 천이 특성이 거의 나타나지 않는다.</choice_text>
-          <commentary>상대운동이 없어 옳다.</commentary>
+          <commentary>지상과 상대운동이 거의 없어 도플러 천이가 작으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>지표면으로부터 약 36,000 [km]의 고도에서 운용된다.</choice_text>
-          <commentary>고도로 옳다.</commentary>
+          <commentary>고도 약 36,000 km에서 운용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>극지방에서는 앙각이 커서 수신 신호의 품질이 좋아진다.</choice_text>
-          <commentary>극지방은 앙각이 작아 품질이 나빠지므로 옳지 않아 정답이다.</commentary>
+          <commentary>극지방에서는 앙각이 매우 낮아 수신 품질이 나빠진다. 좋아진다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -586,19 +586,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>92</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>92 dB는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>94</choice_text>
-          <commentary>94 dB이므로 정답이다.</commentary>
+          <commentary>L = 20log(4 × 3 × 1,250/0.3) = 20log(5 × 10⁴) = 94 dB이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>96</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>96 dB는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>98</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>98 dB는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -619,19 +619,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>주파수는 Ku 밴드가 Ka 밴드보다 높다.</choice_text>
-          <commentary>Ka 밴드가 더 높다.</commentary>
+          <commentary>Ka 밴드가 Ku 밴드보다 주파수가 높다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>가용 주파수 대역폭은 L 밴드가 Ku 밴드보다 넓다.</choice_text>
-          <commentary>Ku 밴드가 더 넓다.</commentary>
+          <commentary>높은 대역인 Ku 밴드가 L 밴드보다 가용 대역폭이 넓다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>대기권이나 전리층을 통과할 수 있는 대역의 주파수를 사용한다.</choice_text>
-          <commentary>전리층·대기 통과 대역을 사용하므로 정답이다.</commentary>
+          <commentary>위성통신은 대기권과 전리층을 통과하는 대역을 사용하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>일반적으로 상향 링크보다 하향 링크에 더 높은 주파수 대역을 할당한다.</choice_text>
-          <commentary>상향링크에 더 높은 주파수를 할당한다.</commentary>
+          <commentary>일반적으로 상향 링크에 더 높은 주파수를 할당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -655,19 +655,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>15</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>15 km는 왕복 시간을 3으로 잘못 나눈 값과 관련된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>30</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>30 km는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>45</choice_text>
-          <commentary>45 km이므로 정답이다.</commentary>
+          <commentary>R = 3 × 10⁸ × 300 × 10⁻⁶/2 = 45 km이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>60</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>60 km는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -688,19 +688,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>GNSS(global navigation satellite system)의 일종이다.</choice_text>
-          <commentary>GNSS의 일종이므로 옳다.</commentary>
+          <commentary>GPS는 GNSS의 일종이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>GPS 위성과 수신기 사이의 전파시간으로부터 거리를 결정한다.</choice_text>
-          <commentary>전파시간으로 거리를 구하므로 옳다.</commentary>
+          <commentary>전파 도달시간으로 위성까지 거리를 구하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>지상으로부터 약 20,000 [km] 높이의 중궤도 위성으로 구성된다.</choice_text>
-          <commentary>중궤도 위성으로 옳다.</commentary>
+          <commentary>고도 약 20,000 km의 중궤도 위성으로 구성되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>GPS 수신기는 2개의 위성 신호만으로 지구상에서 자신의 위치를 파악할 수 있다.</choice_text>
-          <commentary>최소 4개 위성이 필요하므로 옳지 않아 정답이다.</commentary>
+          <commentary>3차원 위치와 시계오차를 구하려면 최소 4개 위성이 필요하다. 2개로 가능하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

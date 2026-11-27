@@ -33,19 +33,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>sinc 함수의 푸리에 변환은 사각파 함수 모양을 갖는다.</choice_text>
-          <commentary>사각파 모양이므로 옳다.</commentary>
+          <commentary>sinc 함수와 사각파는 서로 푸리에 변환 쌍이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>임펄스 함수 $\delta ( t )$의 푸리에 변환은 1이다.</choice_text>
-          <commentary>1이므로 옳다.</commentary>
+          <commentary>δ(t)의 푸리에 변환은 1이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>코사인 함수의 푸리에 변환은 사인 함수 모양을 갖는다.</choice_text>
-          <commentary>코사인의 변환은 ±f₀의 임펄스이므로 옳지 않아 정답이다.</commentary>
+          <commentary>코사인의 푸리에 변환은 ±f₀의 두 임펄스이며 사인 함수 모양이 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>주기 임펄스 함수의 푸리에 변환은 주기 임펄스 함수 모양을 갖는다.</choice_text>
-          <commentary>주기 임펄스열이므로 옳다.</commentary>
+          <commentary>주기 임펄스열의 푸리에 변환은 주파수 영역의 주기 임펄스열이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -66,19 +66,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DSB-SC(double sideband-suppressed carrier)</choice_text>
-          <commentary>대역폭이 2W이다.</commentary>
+          <commentary>DSB-SC는 양측파대를 보내므로 대역폭이 2W이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DSB-TC(double sideband-transmitted carrier)</choice_text>
-          <commentary>대역폭이 2W이다.</commentary>
+          <commentary>DSB-TC는 반송파와 양측파대를 보내므로 대역폭이 2W이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSB(single sideband)</choice_text>
-          <commentary>대역폭이 W로 가장 좁으므로 정답이다.</commentary>
+          <commentary>SSB는 한쪽 측파대만 보내 대역폭이 W로 가장 좁으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>협대역 FM(narrow band frequency modulation)</choice_text>
-          <commentary>대역폭이 약 2W이다.</commentary>
+          <commentary>협대역 FM도 대역폭이 약 2W이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -99,19 +99,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비, 눈, 안개 등 기상조건에 따라 감쇠될 수 있다.</choice_text>
-          <commentary>강우 감쇠가 있으므로 옳다.</commentary>
+          <commentary>마이크로파는 비·눈·안개에 의해 감쇠되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>단파에 비하여 고지향성을 갖는 안테나의 소형화에 유리하다.</choice_text>
-          <commentary>파장이 짧아 소형화에 유리하므로 옳다.</commentary>
+          <commentary>파장이 짧아 고지향성 안테나를 소형화하기 쉬우므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>마이크로파 응용 분야로는 위성통신, 레이더 등이 있다.</choice_text>
-          <commentary>대표 응용 분야로 옳다.</commentary>
+          <commentary>위성통신, 레이더 등에 응용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>자유공간 경로 손실은 주파수가 낮을수록 증가하는 경향이 있다.</choice_text>
-          <commentary>주파수가 높을수록 손실이 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>자유공간 경로손실은 주파수의 제곱에 비례하여 주파수가 높을수록 커진다. 낮을수록 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -135,19 +135,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 변함없다.</choice_text>
-          <commentary>0 dB의 의미이다.</commentary>
+          <commentary>0 dB일 때 전력이 변함없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 2배가 된다.</choice_text>
-          <commentary>약 3 dB에 해당한다.</commentary>
+          <commentary>약 3 dB일 때 전력이 2배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>신호의 전력이 5배가 된다.</choice_text>
-          <commentary>약 7 dB에 해당한다.</commentary>
+          <commentary>약 7 dB일 때 전력이 5배가 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>신호의 전력이 10배가 된다.</choice_text>
-          <commentary>10배이므로 정답이다.</commentary>
+          <commentary>10log₁₀(P₂/P₁) = 10에서 P₂/P₁ = 10이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>HF(high frequency)</choice_text>
-          <commentary>HF이므로 정답이다.</commentary>
+          <commentary>HF 단파는 전리층에서 반사되어 원거리 통신에 쓰이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>VHF(very high frequency)</choice_text>
-          <commentary>전리층을 대부분 투과한다.</commentary>
+          <commentary>VHF는 대체로 전리층을 투과하여 가시거리 통신에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>UHF(ultra high frequency)</choice_text>
-          <commentary>전리층을 투과한다.</commentary>
+          <commentary>UHF는 전리층을 투과하여 가시거리·위성 통신에 쓰인다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SHF(super high frequency)</choice_text>
-          <commentary>전리층을 투과한다.</commentary>
+          <commentary>SHF는 전리층을 투과하여 위성·마이크로파 통신에 쓰인다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -205,19 +205,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>측파대 성형필터(VSB-shaping filter)를 사용한다.</choice_text>
-          <commentary>성형필터를 사용하므로 옳다.</commentary>
+          <commentary>VSB는 측파대 성형필터를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>직류성분이 없을 때만 사용이 가능하다.</choice_text>
-          <commentary>직류성분이 있어도 전송할 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>VSB는 직류·저주파 성분이 있는 신호도 전송할 수 있다. 직류성분이 없을 때만 가능하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DSB 방식보다 더 좁은 대역폭이 사용된다.</choice_text>
-          <commentary>1.25W로 좁으므로 옳다.</commentary>
+          <commentary>대역폭이 1.25W로 DSB의 2W보다 좁으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>텔레비전 신호를 전송하기에 알맞다.</choice_text>
-          <commentary>TV 영상 전송에 쓰였으므로 옳다.</commentary>
+          <commentary>아날로그 TV 영상 신호 전송에 쓰였으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -239,19 +239,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$</choice_text>
-          <commentary>주파수 천이 결과와 일치하므로 정답이다.</commentary>
+          <commentary>주파수 천이 성질에 따라 (1/2)[M(f − f_c) + M(f + f_c)]이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} M ( f )$</choice_text>
-          <commentary>기저대역 성분만 있다.</commentary>
+          <commentary>(1/2)M(f)는 기저대역 스펙트럼으로 천이가 반영되지 않았다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$M ( f )$</choice_text>
-          <commentary>변조되지 않은 스펙트럼이다.</commentary>
+          <commentary>M(f)는 변조 전 정보신호의 스펙트럼이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2} [ M ( f - f_{c} ) + M ( f + f_{c} ) ]$ ＋ $\frac{1}{2} M ( f )$</choice_text>
-          <commentary>기저대역 성분이 추가로 포함되어 있다.</commentary>
+          <commentary>DSB-SC에는 기저대역 성분이 남지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -275,19 +275,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>송신 파형의 펄스폭</choice_text>
-          <commentary>펄스폭이므로 정답이다.</commentary>
+          <commentary>거리 분해능 ΔR = cτ/2는 펄스폭에 비례하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>송신 신호의 전력</choice_text>
-          <commentary>전력은 탐지거리에 영향을 준다.</commentary>
+          <commentary>송신 전력은 최대 탐지거리에 영향을 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>송신 안테나 이득</choice_text>
-          <commentary>안테나 이득은 탐지거리에 영향을 준다.</commentary>
+          <commentary>안테나 이득은 탐지거리와 각도 분해능에 영향을 준다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>송신 펄스 반복 주파수</choice_text>
-          <commentary>반복 주파수는 최대 비모호 거리에 영향을 준다.</commentary>
+          <commentary>펄스 반복 주파수는 최대 비모호 거리에 영향을 준다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,19 +311,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>이득</choice_text>
-          <commentary>안테나 지표이다.</commentary>
+          <commentary>이득은 안테나 성능 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>효율</choice_text>
-          <commentary>안테나 지표이다.</commentary>
+          <commentary>효율은 안테나 성능 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>지향성</choice_text>
-          <commentary>안테나 지표이다.</commentary>
+          <commentary>지향성은 안테나 성능 지표이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>선형성</choice_text>
-          <commentary>안테나 지표가 아니므로 정답이다.</commentary>
+          <commentary>선형성은 증폭기 등 능동회로의 지표로 안테나 지표가 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -345,19 +345,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>1비트이면 전송률은 16,000 bit/s에 불과하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2비트이면 전송률은 32,000 bit/s이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8</choice_text>
-          <commentary>8비트이므로 정답이다.</commentary>
+          <commentary>128,000 bit/s를 16,000 samples/s로 나누면 8비트이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>16</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>16비트이면 전송률은 256,000 bit/s가 된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -381,19 +381,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>파장이 1 ～ 10 [μm]인 신호는 마이크로파이다.</choice_text>
-          <commentary>적외선 영역이므로 옳지 않아 정답이다.</commentary>
+          <commentary>마이크로파의 파장은 약 1 mm~1 m이며 1~10 μm는 적외선이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>파장이 1 ～ 10 [mm]인 신호는 밀리미터파이다.</choice_text>
-          <commentary>밀리미터파의 정의로 옳다.</commentary>
+          <commentary>파장 1~10 mm는 밀리미터파이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>동작 주파수가 높을수록 안테나의 크기를 줄일 수 있다.</choice_text>
-          <commentary>파장이 짧아지므로 옳다.</commentary>
+          <commentary>주파수가 높을수록 파장이 짧아 안테나를 작게 만들 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>자유공간에서 주파수가 300 [MHz]인 신호에 대한 1 4 파장 모노폴 안테나의 길이는 25 [cm]이다.</choice_text>
-          <commentary>λ/4 = 25 cm이므로 옳다.</commentary>
+          <commentary>300 MHz의 파장은 1 m이므로 1/4 파장은 25 cm이어서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -414,19 +414,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>변조된 신호의 진폭이 일정하므로 비선형 왜곡에 강하다.</choice_text>
-          <commentary>진폭이 일정해 비선형 왜곡에 강하므로 정답이다.</commentary>
+          <commentary>FM 신호는 진폭이 일정하여 비선형 왜곡에 강하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정보신호의 진폭에 상관없이 변조된 신호의 대역폭이 일정하다.</choice_text>
-          <commentary>대역폭은 진폭에 따라 달라진다.</commentary>
+          <commentary>주파수 편이가 정보신호 진폭에 비례하므로 대역폭도 진폭에 따라 달라진다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Carson의 법칙으로 근사화할 경우 변조된 신호의 대역폭은 기저대역 정보신호의 대역폭과 상관없다.</choice_text>
-          <commentary>W에 따라 달라진다.</commentary>
+          <commentary>카슨 법칙 B ≈ 2(Δf + W)에는 정보신호 대역폭이 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>변조지수에 상관없이 기저대역 정보신호와 변조된 신호가 선형관계를 갖는다.</choice_text>
-          <commentary>FM은 비선형 변조이다.</commentary>
+          <commentary>FM은 비선형 변조로 정보신호와 변조된 신호가 선형관계가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -447,19 +447,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>200</choice_text>
-          <commentary>2Δf만 계산한 값이다.</commentary>
+          <commentary>200 kHz는 W를 빠뜨리고 2Δf만 계산한 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>220</choice_text>
-          <commentary>220 kHz이므로 정답이다.</commentary>
+          <commentary>B ≈ 2(100 + 10) = 220 kHz이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>240</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>240 kHz는 계산값과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>260</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>260 kHz는 계산값과 다르다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -483,19 +483,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1 2 배</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>거리가 늘면 손실이 커지므로 송신전력을 줄일 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>2배</choice_text>
-          <commentary>계산값과 다르다.</commentary>
+          <commentary>2배는 거리 비를 반영하지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>3배</choice_text>
-          <commentary>거리 비만 적용한 값이다.</commentary>
+          <commentary>3배는 거리에 단순 비례한다고 잘못 본 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>9배</choice_text>
-          <commentary>9배이므로 정답이다.</commentary>
+          <commentary>수신전력은 거리의 제곱에 반비례하므로 3² = 9배가 필요하여 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>3개</choice_text>
-          <commentary>시간오차를 구할 수 없다.</commentary>
+          <commentary>3개로는 위치 3개 미지수만 풀 수 있어 시계오차를 구할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>4개</choice_text>
-          <commentary>4개이므로 정답이다.</commentary>
+          <commentary>위치 3개와 시계오차 1개의 미지수 4개를 풀려면 최소 4개 위성이 필요하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5개</choice_text>
-          <commentary>최소 개수가 아니다.</commentary>
+          <commentary>5개는 최소 개수가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6개</choice_text>
-          <commentary>최소 개수가 아니다.</commentary>
+          <commentary>6개는 최소 개수가 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -555,19 +555,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>클러스터 크기가 증가할수록 동일채널 간섭이 감소한다.</choice_text>
-          <commentary>재사용 거리가 커지므로 옳다.</commentary>
+          <commentary>클러스터가 클수록 동일채널 셀 간 거리가 멀어 간섭이 감소하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>클러스터 크기가 작아질수록 각 셀에 할당되는 채널 수는 감소한다.</choice_text>
-          <commentary>셀당 채널 수는 증가하므로 옳지 않아 정답이다.</commentary>
+          <commentary>셀당 채널 수는 S/N이므로 클러스터가 작아지면 증가한다. 감소한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>한정된 주파수 자원으로 가입자 수를 증가시키기 위한 방법이다.</choice_text>
-          <commentary>주파수 재사용의 목적으로 옳다.</commentary>
+          <commentary>주파수 재사용은 한정된 자원으로 가입자 수를 늘리는 방법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일채널 간섭을 줄이기 위하여 인접한 셀들은 서로 다른 주파수 대역을 사용한다.</choice_text>
-          <commentary>인접 셀은 다른 주파수를 쓰므로 옳다.</commentary>
+          <commentary>인접 셀은 서로 다른 주파수를 써서 동일채널 간섭을 줄이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,19 +588,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>저궤도 위성은 정지궤도 위성보다 도플러 편이가 크다.</choice_text>
-          <commentary>상대 속도가 커서 옳다.</commentary>
+          <commentary>저궤도 위성은 상대 속도가 커 도플러 편이가 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>정지궤도 위성은 저궤도 위성보다 전송 지연이 길다.</choice_text>
-          <commentary>약 36,000 km 거리로 지연이 길어 옳다.</commentary>
+          <commentary>정지궤도 위성은 거리가 멀어 전송 지연이 길므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>태양, 지구, 위성의 정렬 상태에 따라 통신품질이 변할 수 있다.</choice_text>
-          <commentary>태양 간섭 현상으로 옳다.</commentary>
+          <commentary>태양-위성-지구 정렬 시 태양 잡음으로 품질이 떨어질 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>일정한 통신품질 제공을 위하여 정지궤도 위성은 하루에 2회 지구를 공전한다.</choice_text>
-          <commentary>하루에 1회 공전하므로 옳지 않아 정답이다.</commentary>
+          <commentary>정지궤도 위성은 하루에 1회 공전한다. 2회라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -621,19 +621,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>안테나의 이득이 클수록 최대 탐지거리가 증가한다.</choice_text>
-          <commentary>이득이 클수록 증가하므로 옳다.</commentary>
+          <commentary>안테나 이득이 클수록 최대 탐지거리가 늘어나므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>최대 탐지거리는 송신 펄스의 주기에 반비례한다.</choice_text>
-          <commentary>펄스 주기에 비례하므로 옳지 않아 정답이다.</commentary>
+          <commentary>최대 비모호 거리는 펄스 주기에 비례한다. 반비례한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>목표물의 유효 반사면적이 클수록 최대 탐지거리가 증가한다.</choice_text>
-          <commentary>반사면적이 클수록 증가하므로 옳다.</commentary>
+          <commentary>유효 반사면적이 클수록 반사 신호가 커져 탐지거리가 늘어나므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>표적으로부터 반사된 신호를 이용하여 표적과의 거리를 계산한다.</choice_text>
-          <commentary>반사파의 왕복 시간으로 거리를 계산하므로 옳다.</commentary>
+          <commentary>반사파의 왕복 시간으로 표적 거리를 계산하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -654,19 +654,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>다중 안테나를 이용한 공간다중화기법으로 전송률을 높일 수 있다.</choice_text>
-          <commentary>공간다중화로 전송률이 증가하므로 옳다.</commentary>
+          <commentary>공간다중화로 여러 스트림을 동시에 보내 전송률을 높이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>다중 안테나를 이용하여 송신 다이버시티 이득을 얻기 위해서는 송신 안테나 간 상관도가 클수록 효과적이다.</choice_text>
-          <commentary>상관도가 작을수록 효과적이므로 옳지 않아 정답이다.</commentary>
+          <commentary>송신 다이버시티는 안테나 간 상관도가 낮을수록 효과적이다. 클수록 효과적이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>OFDMA(orthogonal frequency division multiple access) 신호는 PAPR(peak-to-average-power ratio)이 큰 특성을 갖는다.</choice_text>
-          <commentary>다중 부반송파 합성으로 PAPR이 커서 옳다.</commentary>
+          <commentary>OFDMA는 다수 부반송파의 합으로 PAPR이 크므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>SC-FDMA(single carrier-frequency division multiple access)는 OFDMA에 비해 PAPR이 작기 때문에 상향링크에 적합한 방식이다.</choice_text>
-          <commentary>단말 전력 효율에 유리하므로 옳다.</commentary>
+          <commentary>SC-FDMA는 PAPR이 작아 단말 전력 효율이 중요한 상향링크에 적합하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -688,19 +688,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.1은 UWB(ultra wideband) 표준이며, 스펙트럼밀도가 낮다.</choice_text>
-          <commentary>802.15.1은 블루투스이다.</commentary>
+          <commentary>IEEE 802.15.1은 블루투스 표준으로 UWB가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.1은 UWB 표준이며, 스펙트럼밀도가 높다.</choice_text>
-          <commentary>802.15.1은 블루투스이다.</commentary>
+          <commentary>IEEE 802.15.1은 블루투스 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>IEEE 802.15.3a는 UWB 표준이며, 스펙트럼밀도가 낮다.</choice_text>
-          <commentary>UWB 표준이며 스펙트럼밀도가 낮으므로 정답이다.</commentary>
+          <commentary>IEEE 802.15.3a는 UWB 표준이며 넓은 대역에 분산되어 스펙트럼밀도가 낮으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IEEE 802.15.3a는 UWB 표준이며, 스펙트럼밀도가 높다.</choice_text>
-          <commentary>UWB는 스펙트럼밀도가 낮다.</commentary>
+          <commentary>UWB는 스펙트럼밀도가 낮아야 다른 시스템과 공존할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

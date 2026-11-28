@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>자료의 제$40$ 백분위수는 중앙값보다 작거나 같다.</choice_text>
-          <commentary>제40 백분위수는 제50 백분위수(중앙값) 이하이므로 옳다.</commentary>
+          <commentary>제40 백분위수는 자료를 크기순으로 놓았을 때 40% 위치의 값이고 중앙값은 50% 위치의 값이므로 중앙값보다 작거나 같아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>자료의 표준편차와 변동계수의 단위는 같다.</choice_text>
-          <commentary>변동계수는 단위가 없으므로 옳지 않아 정답이다.</commentary>
+          <commentary>변동계수는 표준편차를 평균으로 나눈 값(CV = s/x̄)이므로 단위가 없어, 표준편차와 단위가 같다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>자료 $1$, $2$의 산술평균은 기하평균보다 크다.</choice_text>
-          <commentary>산술평균 1.5는 기하평균 √2 ≈ 1.41보다 크므로 옳다.</commentary>
+          <commentary>자료 1, 2의 산술평균은 1.5, 기하평균은 √2 ≈ 1.414이므로 산술평균이 더 커서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$5$% 절사평균은 전체 자료의 $10$%를 삭제한 자료의 평균이다.</choice_text>
-          <commentary>5% 절사평균은 양쪽에서 5%씩, 모두 10%를 제외한 평균이므로 옳다.</commentary>
+          <commentary>5% 절사평균은 양 끝에서 각각 5%씩, 즉 전체의 10%를 삭제한 자료의 평균이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>4가 아니다.</commentary>
+          <commentary>4는 F값 계산 결과 27과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$8$</choice_text>
-          <commentary>8은 인자 B의 F값이다.</commentary>
+          <commentary>8은 계산 결과 27과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$27$</choice_text>
-          <commentary>27이므로 정답이다.</commentary>
+          <commentary>자유도는 A가 2, B가 5, 전체가 17, 오차가 17 − 2 − 5 = 10이므로 MSA = 540/2 = 270, MSE = 100/10 = 10이고 F = 270/10 = 27이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$54$</choice_text>
-          <commentary>오차 자유도를 5로 잘못 계산한 값이다.</commentary>
+          <commentary>54는 인자 A의 제곱합을 자유도로 나누지 않고 540/10으로 계산한 값이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -139,19 +139,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>제2종 오류는 대립가설이 참일 때 귀무가설을 기각하지 못하는 오류이다.</choice_text>
-          <commentary>제2종 오류의 정의로 옳다.</commentary>
+          <commentary>제2종 오류는 대립가설이 참인데 귀무가설을 기각하지 못하는 오류이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>검정력(power)은 대립가설이 참일 때 귀무가설을 기각하는 확률이다.</choice_text>
-          <commentary>검정력의 정의로 옳다.</commentary>
+          <commentary>검정력은 대립가설이 참일 때 귀무가설을 기각할 확률(1 − β)이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>유의확률(p-value)이 유의수준보다 작을 때 귀무가설을 기각한다.</choice_text>
-          <commentary>유의확률이 유의수준보다 작으면 기각하므로 옳다.</commentary>
+          <commentary>유의확률이 유의수준보다 작으면 귀무가설을 기각하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>자료를 관찰한 후 귀무가설과 대립가설을 설정한다.</choice_text>
-          <commentary>가설은 자료 관찰 전에 설정해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>가설은 자료를 관찰하기 전에 연구 목적에 따라 미리 설정해야 하며 자료를 본 뒤 정하면 검정의 객관성이 훼손되므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$8$ 귀무가설을 기각함</choice_text>
-          <commentary>8, 귀무가설을 기각함이므로 정답이다.</commentary>
+          <commentary>기대빈도는 각 칸 150 × 100/300 = 50이고 χ² = (10² + 10² + 0² + 10² + 10² + 0²)/50 = 400/50 = 8이며, 자유도 (2 − 1)(3 − 1) = 2의 임계값 5.99보다 커서 귀무가설을 기각하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$8$ 귀무가설을 기각하지 못함</choice_text>
-          <commentary>8은 임계값 5.99보다 크므로 기각한다.</commentary>
+          <commentary>χ² = 8이 임계값 5.99보다 크므로 귀무가설을 기각해야 하여 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$15$ 귀무가설을 기각함</choice_text>
-          <commentary>검정통계량은 15가 아니다.</commentary>
+          <commentary>검정통계량의 값은 15가 아니라 8이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$15$ 귀무가설을 기각하지 못함</choice_text>
-          <commentary>검정통계량과 결론이 모두 다르다.</commentary>
+          <commentary>검정통계량의 값이 15가 아니고 결론도 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$a = c$이고 $a &lt; b$</choice_text>
-          <commentary>a = c이고 a &lt; b이므로 정답이다.</commentary>
+          <commentary>자료 C는 A를 1/2배 하여 평균과 표준편차가 모두 1/2배가 되므로 a = c이고, 자료 B는 A에서 5를 빼서 표준편차는 같고 평균이 30에서 25로 작아지므로 a &lt; b이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$a = c$이고 $b &lt; a$</choice_text>
-          <commentary>b가 a보다 크다.</commentary>
+          <commentary>B는 평균만 작아져 변동계수가 커지므로 b &lt; a는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$a &lt; b &lt; c$</choice_text>
-          <commentary>a와 c는 같다.</commentary>
+          <commentary>a = c이므로 a &lt; b &lt; c는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$c &lt; b &lt; a$</choice_text>
-          <commentary>a와 c는 같다.</commentary>
+          <commentary>a = c이고 b가 가장 크므로 c &lt; b &lt; a는 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -243,19 +243,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$Var ( X ) = \frac{1}{4}$</choice_text>
-          <commentary>P(X = ±1) = 1/2이므로 Var(X) = 1이다.</commentary>
+          <commentary>X는 −1 또는 1의 값을 가지고 E(X) = 0이므로 Var(X) = E(X²) = 1이어서 1/4이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$E ( Y ) = \frac{3}{8}$</choice_text>
-          <commentary>E(Y) = −1/2 + 1/8 = −3/8이다.</commentary>
+          <commentary>빈칸은 P(X = −1, Y = 1) = 0, P(X = 1, Y = −1) = 1/8이므로 E(Y) = P(Y = 1) − P(Y = −1) = 1/8 − 1/2 = −3/8이어서 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$E ( X Y ) = \frac{1}{4}$</choice_text>
-          <commentary>E(XY) = 3/8 − 1/8 + 1/8 = 3/8이다.</commentary>
+          <commentary>E(XY) = 3/8 × 1 + 1/8 × (−1) + 0 × (−1) + 1/8 × 1 = 3/8이므로 1/4이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P ( X + Y = 0 ) = \frac{1}{8}$</choice_text>
-          <commentary>1/8이므로 정답이다.</commentary>
+          <commentary>확률의 합에서 두 빈칸의 합이 1/8이고 E(X) = 0에서 P(X = 1, Y = −1) = 1/8, P(X = −1, Y = 1) = 0이므로 P(X + Y = 0) = 0 + 1/8 = 1/8이어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -278,19 +278,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$P ( X \leq a ) = \frac{1}{4}$을 만족시키는 $a$의 값은 $\frac{3}{2}$이다.</choice_text>
-          <commentary>(1/6)a = 1/4에서 a = 3/2이므로 옳다.</commentary>
+          <commentary>F(a) = a/6 = 1/4에서 a = 3/2이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$P ( X = 3 ) = 0$</choice_text>
-          <commentary>2 ≤ x &lt; 4에서 F가 일정하므로 P(X = 3) = 0이다.</commentary>
+          <commentary>2 ≤ x &lt; 4 구간에서 F가 1/2로 일정하므로 P(X = 3) = 0이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>$P ( X geq 5 ) = \frac{2}{3}$</choice_text>
-          <commentary>P(X ≥ 5) = 1/6이므로 옳지 않아 정답이다.</commentary>
+          <commentary>F(5) = 5/6이므로 P(X ≥ 5) = 1 − 5/6 = 1/6이어서 2/3이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$P ( 1 &lt; X \leq 4 ) = \frac{1}{2}$</choice_text>
-          <commentary>F(4) − F(1) = 4/6 − 1/6 = 1/2이므로 옳다.</commentary>
+          <commentary>P(1 &lt; X ≤ 4) = F(4) − F(1) = 4/6 − 1/6 = 1/2이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -325,19 +325,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄴ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ은 옳지만 옳은 ㄴ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
+          <commentary>ㄱ 정규분포의 선형변환 5X + 100은 정규분포를 따르고, ㄴ (X − 1)²은 표준정규변수의 제곱이므로 자유도 1인 카이제곱분포를 따르므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ 독립인 두 표준정규변수의 비 X/Y는 자유도 1인 t분포(코시분포)를 따르며 F(1, 1)을 따르는 것은 X²/Y²이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄷ은 옳지 않다.</commentary>
+          <commentary>ㄷ이 옳지 않으므로 해당하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -361,19 +361,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$50$ $0 . 0228$</choice_text>
-          <commentary>가구 수가 다르다.</commentary>
+          <commentary>시청 가구 50이면 p̂ = 0.125, Z = 0.025/0.015 ≈ 1.67이 되어 Z = 2와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$50$ $0 . 0456$</choice_text>
-          <commentary>가구 수와 유의확률이 모두 다르다.</commentary>
+          <commentary>시청 가구 수가 50이 아니고 0.0456은 양측검정의 유의확률이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$52$ $0 . 0228$</choice_text>
-          <commentary>52, 0.0228이므로 정답이다.</commentary>
+          <commentary>표준오차 √(0.1 × 0.9/400) = 0.015에서 p̂ = 0.1 + 2 × 0.015 = 0.13이므로 시청 가구는 400 × 0.13 = 52이고, 우측 단측검정의 유의확률은 1 − 0.9772 = 0.0228이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$52$ $0 . 0456$</choice_text>
-          <commentary>양측검정의 유의확률이다.</commentary>
+          <commentary>단측검정이므로 유의확률은 0.0456이 아니라 0.0228이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -394,19 +394,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$90$</choice_text>
-          <commentary>90이 아니다.</commentary>
+          <commentary>90은 SST의 1/4로 계산 결과 240과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$120$</choice_text>
-          <commentary>회귀제곱합이다.</commentary>
+          <commentary>120은 SSR = β̂₁² × S_xx = 4 × 30의 값으로 잔차제곱합이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$240$</choice_text>
-          <commentary>240이므로 정답이다.</commentary>
+          <commentary>SSR = β̂₁² × S_xx = 2² × 30 = 120이므로 SSE = SST − SSR = 360 − 120 = 240이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$270$</choice_text>
-          <commentary>270이 아니다.</commentary>
+          <commentary>270은 계산 결과 240과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -430,19 +430,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{\sum_{i = 1}^{20} x_{i} y_{i}}{\sum_{i = 1}^{20} x_{i}^{2}}$</choice_text>
-          <commentary>Σx_iy_i / Σx_i²이므로 정답이다.</commentary>
+          <commentary>절편이 없는 모형에서 Σ(y_i − βx_i)²를 β로 미분하여 0으로 놓으면 β̂ = Σx_iy_i/Σx_i²이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sum_{i = 1}^{20} x_{i} y_{i}}{\sum_{i = 1}^{20} ( x_{i} - {\bar{x}} )^{2}}$</choice_text>
-          <commentary>분모가 편차제곱합이 아니다.</commentary>
+          <commentary>분모가 편차제곱합이 되는 것은 절편이 있는 모형의 형태이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sum_{i = 1}^{20} ( x_{i} - \bar x ) ( y_{i} - \bar y )}{\sum_{i = 1}^{20} x_{i}^{2}}$</choice_text>
-          <commentary>분자가 편차곱합이 아니다.</commentary>
+          <commentary>분자의 편차곱합과 분모의 Σx_i²를 섞은 식은 어떤 모형의 최소제곱추정량도 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{\sum_i = 1^20 ( x_i - \bar{x} ) ( y_i - \bar{y} )}{\sum_i = 1^20 ( x_i - \bar{x} )^2}$</choice_text>
-          <commentary>절편이 있는 모형의 기울기 추정량이다.</commentary>
+          <commentary>S_xy/S_xx는 절편이 있는 단순선형회귀모형의 기울기 추정량이므로 이 모형에 해당하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -466,19 +466,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{17}{2}$</choice_text>
-          <commentary>17/2가 아니다.</commentary>
+          <commentary>17/2는 자유도 10과 결정계수 1/2의 합 21/2와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{19}{2}$</choice_text>
-          <commentary>19/2가 아니다.</commentary>
+          <commentary>19/2는 계산 결과 21/2와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{21}{2}$</choice_text>
-          <commentary>21/2이므로 정답이다.</commentary>
+          <commentary>잔차 자유도는 12 − 2 = 10, MSR = 10 × 13 = 130 = SSR, SSE = 13 × 10 = 130이므로 R² = 130/260 = 1/2이고 합은 10 + 1/2 = 21/2이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{23}{2}$</choice_text>
-          <commentary>23/2가 아니다.</commentary>
+          <commentary>23/2는 계산 결과 21/2와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -502,19 +502,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{31}{360}$</choice_text>
-          <commentary>31/360이 아니다.</commentary>
+          <commentary>31/360은 전확률 계산 결과 37/360과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{37}{360}$</choice_text>
-          <commentary>37/360이므로 정답이다.</commentary>
+          <commentary>숫자 4가 있으려면 N ≥ 4이어야 하므로 P = (1/6)(1/4 + 1/5 + 1/6) = (1/6) × 37/60 = 37/360이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{43}{360}$</choice_text>
-          <commentary>43/360이 아니다.</commentary>
+          <commentary>43/360은 계산 결과 37/360과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{49}{360}$</choice_text>
-          <commentary>49/360이 아니다.</commentary>
+          <commentary>49/360은 계산 결과 37/360과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -535,19 +535,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>교통수단에 따라 소요 시간에 차이가 있는지를 일표본(one sample) $t$－검정으로 확인할 수 있다.</choice_text>
-          <commentary>분산분석을 사용해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>교통수단은 세 범주이므로 범주별 소요 시간 평균 차이는 일원배치 분산분석으로 확인하며 일표본 t-검정은 하나의 모평균을 특정 값과 비교하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>성별과 교통수단이 관련이 있는지를 독립성검정으로 확인할 수 있다.</choice_text>
-          <commentary>두 범주형 변수의 관련성은 독립성검정으로 확인하므로 옳다.</commentary>
+          <commentary>성별과 교통수단은 모두 범주형이므로 관련성은 카이제곱 독립성검정으로 확인할 수 있어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>출근 거리와 소요 시간 사이에 선형관계가 있는지를 상관분석으로 확인할 수 있다.</choice_text>
-          <commentary>두 연속형 변수의 선형관계는 상관분석으로 확인하므로 옳다.</commentary>
+          <commentary>출근 거리와 소요 시간은 연속형이므로 선형관계는 상관분석으로 확인할 수 있어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>교통수단이 대중교통, 자가용, 기타인 비율이 $6$ : $3$ : $1$인지를 적합도검정으로 확인할 수 있다.</choice_text>
-          <commentary>범주의 비율이 특정 비율인지는 적합도검정으로 확인하므로 옳다.</commentary>
+          <commentary>교통수단 비율이 6 : 3 : 1인지는 적합도검정으로 확인할 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -569,19 +569,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$F_{0} = \frac{5}{4} &gt; 0 . 12$이므로 귀무가설을 기각함</choice_text>
-          <commentary>F₀ 값과 임계값이 모두 잘못되었다.</commentary>
+          <commentary>MSE = 1,000/20 = 50이므로 F₀ = 40/50 = 4/5이며 5/4가 아니어서 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$F_{0} = \frac{5}{4} &lt; 8 . 66$이므로 귀무가설을 기각하지 못함</choice_text>
-          <commentary>F₀ 값과 임계값이 잘못되었다.</commentary>
+          <commentary>F₀의 값이 5/4가 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$F_{0} = \frac{4}{5} &gt; \frac{1}{8 . 66}$이므로 귀무가설을 기각함</choice_text>
-          <commentary>F₀는 임계값보다 작아 기각하지 못한다.</commentary>
+          <commentary>1/8.66은 하측 임계값에 해당하며 F₀ = 4/5는 상측 임계값보다 작아 귀무가설을 기각할 수 없으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$F_{0} = \frac{4}{5} &lt; \frac{1}{0 . 32}$이므로 귀무가설을 기각하지 못함</choice_text>
-          <commentary>F₀ = 4/5 &lt; 1/0.32이므로 정답이다.</commentary>
+          <commentary>F₀ = 4/5이고 임계값 F₀.₀₅(3, 20) = 1/F₀.₉₅(20, 3) = 1/0.32 ≈ 3.13이므로 F₀ &lt; 3.13이어서 귀무가설을 기각하지 못하며 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -605,19 +605,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$P \left( V &gt; 6 \right)$</choice_text>
-          <commentary>P(V &gt; 6)이 아니다.</commentary>
+          <commentary>P(V &gt; 6)은 P(S² &gt; 2)에 해당하므로 기각역 S² &gt; 6과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$P \left( V &gt; 12 \right)$</choice_text>
-          <commentary>P(V &gt; 12)가 아니다.</commentary>
+          <commentary>P(V &gt; 12)는 P(S² &gt; 4)에 해당하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P \left( V &gt; 18 \right)$</choice_text>
-          <commentary>P(V &gt; 18)이므로 정답이다.</commentary>
+          <commentary>귀무가설하에서 V = 12S²/4 = 3S²는 자유도 12인 카이제곱분포를 따르므로 P(S² &gt; 6) = P(3S² &gt; 18) = P(V &gt; 18)이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$P \left( V &gt; 24 \right)$</choice_text>
-          <commentary>P(V &gt; 24)가 아니다.</commentary>
+          <commentary>P(V &gt; 24)는 P(S² &gt; 8)에 해당하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -638,19 +638,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{3} \times t_0 . 025 ( 14 )$</choice_text>
-          <commentary>(1/3) × t₀.₀₂₅(14)이므로 정답이다.</commentary>
+          <commentary>표본평균은 302, 반폭 6 = t₀.₀₂₅(14) × s/√15이므로 t = (302 − 300)/(6/t₀.₀₂₅(14)) = (1/3) × t₀.₀₂₅(14)이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3} \times t_0 . 025 ( 14 )$</choice_text>
-          <commentary>2/3배가 아니다.</commentary>
+          <commentary>2/3 × t₀.₀₂₅(14)는 반폭을 3으로 잘못 본 값이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$t_0 . 025 ( 14 )$</choice_text>
-          <commentary>1배가 아니다.</commentary>
+          <commentary>t₀.₀₂₅(14)는 표본평균이 306일 때의 검정통계량이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4}{3} \times t_0 . 025 ( 14 )$</choice_text>
-          <commentary>4/3배가 아니다.</commentary>
+          <commentary>4/3 × t₀.₀₂₅(14)는 계산 결과와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -688,19 +688,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄴ은 옳지만 옳은 ㄷ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄴ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지만 옳은 ㄴ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지만 옳은 ㄱ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ, ㄴ, ㄷ이므로 정답이다.</commentary>
+          <commentary>μ = 5, σ² = 34 − 25 = 9이므로 X̄ ~ N(5, 0.6²)이다. ㄱ은 대칭성으로, ㄴ은 두 확률 모두 P(Z ≥ 5/3)로, ㄷ은 P(Z ≥ 1) + P(Z ≥ −1) = 1로 모두 옳아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -725,19 +725,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>유의확률은 증가하다가 감소한다.</choice_text>
-          <commentary>유의확률이 증가하다가 감소하므로 정답이다.</commentary>
+          <commentary>기대빈도는 월~목 200, 금 400이고 χ² = 7 + (a − 200)²/200 + (200 − a)²/400이므로 a가 200까지는 χ²가 감소하여 유의확률이 증가하고 그 이후에는 감소하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>유의확률은 감소하다가 증가한다.</choice_text>
-          <commentary>검정통계량의 변화 방향이다.</commentary>
+          <commentary>χ²가 감소하다가 증가하므로 유의확률은 증가하다가 감소하여 반대로 설명하였다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>유의확률은 지속적으로 증가한다.</choice_text>
-          <commentary>a = 200 이후에는 감소한다.</commentary>
+          <commentary>a = 200을 지나면 χ²가 다시 커져 유의확률이 감소하므로 지속적 증가는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유의확률은 지속적으로 감소한다.</choice_text>
-          <commentary>a = 200까지는 증가한다.</commentary>
+          <commentary>a가 200까지 증가하는 동안 χ²가 작아져 유의확률이 증가하므로 지속적 감소는 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>단순임의추출법(simple random sampling)</choice_text>
-          <commentary>단순임의추출법은 모든 개체가 같은 확률로 무작위 추출되는 방법이다.</commentary>
+          <commentary>단순임의추출법은 모집단의 모든 원소가 같은 확률로 뽑히도록 난수 등으로 추출하는 방법이므로 일정 간격 추출과 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>계통추출법(systematic sampling)</choice_text>
-          <commentary>계통추출법이므로 정답이다.</commentary>
+          <commentary>첫 표본을 정한 뒤 일정한 간격마다 투표자를 추출하는 것은 계통추출법이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>층화임의추출법(stratified random sampling)</choice_text>
-          <commentary>층화임의추출법은 모집단을 층으로 나눈 뒤 각 층에서 임의추출한다.</commentary>
+          <commentary>층화임의추출법은 모집단을 동질적인 층으로 나눈 뒤 각 층에서 임의추출하는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>집락추출법(cluster sampling)</choice_text>
-          <commentary>집락추출법은 모집단을 집락으로 나누어 일부 집락을 통째로 추출한다.</commentary>
+          <commentary>집락추출법은 모집단을 여러 집락으로 나누고 일부 집락을 뽑아 그 안의 원소를 조사하는 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -103,19 +103,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>－6</choice_text>
-          <commentary>−6이므로 정답이다.</commentary>
+          <commentary>두 식을 더하면 2E(XY) + E(X + Y) = 19이므로 E(XY) = 6, E(X) = 9 − 6 = 3, E(Y) = 10 − 6 = 4이고 Cov(X, Y) = 6 − 3 × 4 = −6이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>－5</choice_text>
-          <commentary>−5가 아니다.</commentary>
+          <commentary>−5는 계산 결과 −6과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>5가 아니다.</commentary>
+          <commentary>5는 부호와 크기가 모두 계산 결과와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>6</choice_text>
-          <commentary>부호가 반대이다.</commentary>
+          <commentary>6은 E(XY)의 값으로 공분산이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -140,19 +140,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$Var ( X + Y ) = Var ( X - Y )$</choice_text>
-          <commentary>Var(X + Y) − Var(X − Y) = 4Cov(X, Y)이므로 동치이다.</commentary>
+          <commentary>Var(X + Y) − Var(X − Y) = 4Cov(X, Y)이므로 두 분산이 같다는 것은 Cov(X, Y) = 0과 동치이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$E ( XY ) = E ( X ) E ( Y )$</choice_text>
-          <commentary>Cov = E(XY) − E(X)E(Y) = 0이므로 동치이다.</commentary>
+          <commentary>E(XY) = E(X)E(Y)는 Cov(X, Y) = E(XY) − E(X)E(Y) = 0과 동치이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$Cov ( - 2 X + 3 , 3 Y - 2 ) = 0$</choice_text>
-          <commentary>Cov(−2X + 3, 3Y − 2) = −6Cov(X, Y)이므로 동치이다.</commentary>
+          <commentary>Cov(−2X + 3, 3Y − 2) = −6Cov(X, Y)이므로 이 값이 0인 것은 Cov(X, Y) = 0과 동치이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$Cov ( X + Y , X - Y ) = 0$</choice_text>
-          <commentary>분산이 같다는 조건이므로 동치가 아니어서 정답이다.</commentary>
+          <commentary>Cov(X + Y, X − Y) = Var(X) − Var(Y)이므로 이 값이 0이라는 것은 두 분산이 같다는 뜻일 뿐 공분산과 무관하여 동치가 아니므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -173,19 +173,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>상관계수가 0이면 $X$, $Y$는 독립이다.</choice_text>
-          <commentary>상관계수 0이 독립을 의미하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>상관계수는 선형관계의 강도만 측정하므로 0이어도 비선형 관계가 있을 수 있어 독립이라 할 수 없으므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>상관계수는 측정단위의 영향을 받지 않는다.</choice_text>
-          <commentary>상관계수는 단위의 영향을 받지 않으므로 옳다.</commentary>
+          <commentary>상관계수는 공분산을 두 표준편차로 나눈 값이므로 측정단위의 영향을 받지 않아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>상관계수가 －0.7인 경우가 ＋0.5인 경우보다 선형관계가 강하다.</choice_text>
-          <commentary>절댓값이 클수록 선형관계가 강하므로 옳다.</commentary>
+          <commentary>선형관계의 강도는 상관계수의 절댓값으로 판단하므로 |−0.7| &gt; |0.5|여서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>$X$, $Y$의 표본상관계수가 0.5일 때, 동일 자료에서 $3 X$와 $5 Y$의 표본상관계수도 0.5이다.</choice_text>
-          <commentary>양수 배의 변환은 상관계수를 바꾸지 않으므로 옳다.</commentary>
+          <commentary>양의 상수배 변환은 상관계수를 바꾸지 않으므로 3X와 5Y의 상관계수도 0.5여서 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -209,19 +209,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$z_0 . 025 \times \sigma$</choice_text>
-          <commentary>z₀.₀₂₅는 95% 구간의 임계값이다.</commentary>
+          <commentary>z₀.₀₂₅ × σ는 약 1.96σ로 사분위수범위와 관계가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$z_0 . 25 \times \sigma$</choice_text>
-          <commentary>IQR의 절반이다.</commentary>
+          <commentary>z₀.₂₅ × σ는 중앙에서 Q3까지의 거리로 사분위수범위의 절반이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 timesz_0 . 025 \times \sigma$</choice_text>
-          <commentary>95% 구간의 폭이다.</commentary>
+          <commentary>2 × z₀.₀₂₅ × σ는 95% 중심구간의 길이이므로 사분위수범위가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$2 timesz_0 . 25 \times \sigma$</choice_text>
-          <commentary>2 × z₀.₂₅ × σ이므로 정답이다.</commentary>
+          <commentary>Q1 = μ − z₀.₂₅σ, Q3 = μ + z₀.₂₅σ이므로 IQR = 2 × z₀.₂₅ × σ(약 1.35σ)이며 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -246,19 +246,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>${\hat{\mu_{1}}}$</choice_text>
-          <commentary>μ̂₁이므로 정답이다.</commentary>
+          <commentary>μ̂₁은 계수의 합이 1이어서 불편이고 분산이 (1 + 1 + 4 + 1)/25 × σ² = 0.28σ²로 불편추정량 중 가장 작으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>${\hat{\mu_{2}}}$</choice_text>
-          <commentary>편향이 있다.</commentary>
+          <commentary>μ̂₂는 계수의 합이 5/4이어서 E(μ̂₂) = 1.25μ로 편향이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>${\hat{\mu_{3}}}$</choice_text>
-          <commentary>편향이 있다.</commentary>
+          <commentary>μ̂₃는 계수의 합이 6/5이어서 편향이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>${\hat{\mu_{4}}}$</choice_text>
-          <commentary>불편이지만 분산이 더 크다.</commentary>
+          <commentary>μ̂₄는 불편이지만 분산이 (4 + 1 + 1)/16 × σ² = 0.375σ²로 μ̂₁보다 크다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -293,19 +293,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ</choice_text>
-          <commentary>ㄱ이므로 정답이다.</commentary>
+          <commentary>ㄱ (가) + (나) = 1 − 0.25 = 3/4이므로 옳고, ㄴ과 ㄷ은 옳지 않으므로 ㄱ만 고른 것이 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ</choice_text>
-          <commentary>ㄴ은 옳지 않다.</commentary>
+          <commentary>ㄴ E(X) = −(가) + 0.25 = 1/8이면 (가) = 1/8, (나) = 5/8이므로 (나) = 3/8이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄷ은 표본평균의 분산이 아니라 모분산이다.</commentary>
+          <commentary>ㄷ (가) = 1/6이면 Var(X) = 5/12 − (1/12)² = 59/144이고 Var(X̄) = 59/144 ÷ 2 = 59/288이므로 59/144라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ 모두 옳지 않다.</commentary>
+          <commentary>ㄴ과 ㄷ이 모두 옳지 않으므로 해당하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -329,19 +329,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>결정계수가 0이면 모든 잔차가 0이다.</choice_text>
-          <commentary>모든 잔차가 0이면 결정계수는 1이다.</commentary>
+          <commentary>결정계수가 0이면 회귀가 아무것도 설명하지 못해 SSE = SST이므로 잔차가 모두 0이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>결정계수가 큰 모형일수록 설명력이 낮은 모형이다.</choice_text>
-          <commentary>결정계수가 클수록 설명력이 높다.</commentary>
+          <commentary>결정계수가 클수록 설명력이 높은 모형이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>결정계수는 $X$, $Y$의 표본상관계수를 이용하여 구할 수 있다.</choice_text>
-          <commentary>표본상관계수로 구할 수 있으므로 옳다.</commentary>
+          <commentary>단순선형회귀에서 결정계수는 X와 Y의 표본상관계수의 제곱(R² = r²)이므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>만약 새로운 독립변수를 모형에 추가한다면 결정계수는 감소한다.</choice_text>
-          <commentary>독립변수를 추가하면 결정계수는 감소하지 않는다.</commentary>
+          <commentary>독립변수를 추가하면 결정계수는 감소하지 않고 같거나 증가하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -365,19 +365,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>55 자유도가 1인 카이제곱분포</choice_text>
-          <commentary>(가)가 다르다.</commentary>
+          <commentary>(가) = 55이면 d = 5로 χ² = 4 × 25/50 = 2가 되어 8과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>55 자유도가 2인 카이제곱분포</choice_text>
-          <commentary>(가)와 자유도가 모두 다르다.</commentary>
+          <commentary>(가)가 55가 아니고 자유도도 1이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>60 자유도가 1인 카이제곱분포</choice_text>
-          <commentary>60, 자유도 1인 카이제곱분포이므로 정답이다.</commentary>
+          <commentary>기대빈도는 모두 50이고 χ² = 4d²/50 = 8에서 d = 10이므로 (가) = 60이며 자유도는 (2 − 1)(2 − 1) = 1이어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>60 자유도가 2인 카이제곱분포</choice_text>
-          <commentary>자유도는 1이다.</commentary>
+          <commentary>2 × 2 분할표의 자유도는 1이므로 자유도 2는 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -401,19 +401,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>평균은 1.05이다.</choice_text>
-          <commentary>평균은 1.05이므로 옳다.</commentary>
+          <commentary>평균은 (0 × 90 + 1 × 50 + 2 × 30 + 3 × 20 + 4 × 10)/200 = 210/200 = 1.05이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>중앙값은 1이다.</choice_text>
-          <commentary>중앙값은 1이므로 옳다.</commentary>
+          <commentary>누적도수가 0은 90, 1은 140이므로 100번째와 101번째 값인 중앙값은 1이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>최빈값은 0이다.</choice_text>
-          <commentary>최빈값은 0이므로 옳다.</commentary>
+          <commentary>도수가 가장 큰 값은 90일인 0이므로 최빈값은 0이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>제3사분위수는 3이다.</choice_text>
-          <commentary>제3사분위수는 2이므로 옳지 않아 정답이다.</commentary>
+          <commentary>누적도수가 1은 140, 2는 170이므로 150번째 값인 제3사분위수는 2이며 3이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -434,19 +434,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>4.29</choice_text>
-          <commentary>반폭에 해당한다.</commentary>
+          <commentary>4.29는 신뢰구간의 반폭(2.145 × 2)이므로 구간의 길이가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>4.73</choice_text>
-          <commentary>자유도 7을 쓴 반폭이다.</commentary>
+          <commentary>4.73은 자유도 7의 t값(2.365)으로 반폭을 계산한 값으로 자유도도 틀리고 길이도 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>8.58</choice_text>
-          <commentary>8.58이므로 정답이다.</commentary>
+          <commentary>합동분산 s_p² = (7 × 19 + 7 × 13)/14 = 16, 표준오차 4 × √(2/8) = 2, 반폭 2.145 × 2 = 4.29이므로 길이는 8.58이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>9.46</choice_text>
-          <commentary>자유도 7을 쓴 구간 길이이다.</commentary>
+          <commentary>9.46은 자유도 7의 t값으로 계산한 길이이므로 자유도 14를 써야 하는 이 문제에 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -470,19 +470,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{16}$</choice_text>
-          <commentary>앞면 5번의 확률 1/32과도 다르다.</commentary>
+          <commentary>1/16은 앞면이 4번 이상 나올 확률 3/16과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{16}$</choice_text>
-          <commentary>2/16이 아니다.</commentary>
+          <commentary>2/16은 계산 결과 3/16과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{3}{16}$</choice_text>
-          <commentary>3/16이므로 정답이다.</commentary>
+          <commentary>유의확률은 p = 1/2에서 앞면이 4번 이상 나올 확률이므로 [C(5, 4) + C(5, 5)]/2⁵ = 6/32 = 3/16이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{4}{16}$</choice_text>
-          <commentary>4/16이 아니다.</commentary>
+          <commentary>4/16은 계산 결과 3/16과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -507,19 +507,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>10대 이하</choice_text>
-          <commentary>차이는 0.5이다.</commentary>
+          <commentary>10대 이하의 관측도수 14와 기대도수 13.5의 차이는 0.5로 가장 작다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>20 ～ 30대</choice_text>
-          <commentary>차이가 10으로 가장 크므로 정답이다.</commentary>
+          <commentary>공통 비율이 81/300 = 0.27이므로 20~30대의 기대도수는 27이고 관측도수 37과의 차이가 10으로 가장 크므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>40 ～ 50대</choice_text>
-          <commentary>차이는 5이다.</commentary>
+          <commentary>40~50대의 관측도수 22와 기대도수 27의 차이는 5이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>60대 이상</choice_text>
-          <commentary>차이는 5.5이다.</commentary>
+          <commentary>60대 이상의 관측도수 8과 기대도수 13.5의 차이는 5.5이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -545,15 +545,15 @@
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>인자 $B$의 평균제곱은 교호작용 $A \times B$의 평균제곱과 동일하다.</choice_text>
-          <commentary>B의 평균제곱 12/1과 A × B의 24/2가 같으므로 옳다.</commentary>
+          <commentary>B의 평균제곱은 12/1 = 12, 교호작용의 평균제곱은 24/2 = 12로 같으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>오차 자유도는 6이다.</choice_text>
-          <commentary>오차 자유도는 6이므로 옳다.</commentary>
+          <commentary>오차 자유도는 12 − 1 − 2 − 1 − 2 = 6이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>유의성검정에서의 유의확률은 인자 $A$가 교호작용 $A \times B$보다 크다.</choice_text>
-          <commentary>인자 A의 유의확률이 더 작으므로 옳지 않아 정답이다.</commentary>
+          <commentary>F_A = 772/(62/6) ≈ 74.7, F_A×B = 12/(62/6) ≈ 1.16이므로 인자 A의 유의확률이 더 작아 크다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -591,19 +591,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄴ은 옳지만 옳은 ㄷ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄴ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지만 옳은 ㄴ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지만 옳은 ㄱ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ, ㄴ, ㄷ이므로 정답이다.</commentary>
+          <commentary>ㄱ R² = 420/480 = 0.875, ㄴ p-값 &lt; 0.001이므로 1%에서 유의, ㄷ (가) 420/2 = 210, (나) 60/20 = 3, (다) 210/3 = 70으로 합이 283이어서 모두 옳아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유의수준 $\alpha = 0 . 01$에서 귀무가설을 기각하는 검정 결과가 나왔다면 유의수준 $\alpha = 0 . 05$에서도 귀무가설을 기각하게 된다.</choice_text>
-          <commentary>1%에서 기각되면 5%에서도 기각되므로 옳다.</commentary>
+          <commentary>유의확률이 0.01보다 작으면 0.05보다도 작으므로 유의수준 0.05에서도 기각하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>모든 자연수 $n$에 대해 $t_{0 . 05} ( n ) &lt; t_{0 . 05} ( n + 1 )$이다(단, $t_{0 . 05} ( k )$는 자유도가 $k$인 $t$분포의 제95백분위수).</choice_text>
-          <commentary>자유도가 커지면 백분위수가 작아지므로 옳지 않아 정답이다.</commentary>
+          <commentary>t분포는 자유도가 커질수록 꼬리가 얇아져 제95백분위수가 작아지므로 t₀.₀₅(n) &gt; t₀.₀₅(n + 1)이어서 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모든 자연수 $n$에 대해 $\chi_{0 . 05}^{2} ( n ) &lt; \chi_{0 . 05}^{2} ( n + 1 )$이다(단, $\chi_{0 . 05}^{2} ( k )$는 자유도가 $k$인 카이제곱분포의 제95백분위수).</choice_text>
-          <commentary>카이제곱분포는 자유도가 커지면 오른쪽으로 이동하므로 옳다.</commentary>
+          <commentary>카이제곱분포의 평균은 자유도와 같아 자유도가 커질수록 제95백분위수가 커지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>두 사건 $A_{1}$, $A_{2}$가 서로 배반이고 $P ( B ) &gt; 0$일 때, $P ( A_{1} \cup A_{2} vert B )$$= P ( A_{1} vert B ) + P ( A_{2} vert B )$이다.</choice_text>
-          <commentary>조건부 확률도 확률의 가법성을 만족하므로 옳다.</commentary>
+          <commentary>A₁, A₂가 배반이면 A₁ ∩ B와 A₂ ∩ B도 배반이므로 조건부확률에도 덧셈법칙이 성립하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -661,19 +661,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\hat{\beta_1} = S_\frac{xy}{S_{yy}}$</choice_text>
-          <commentary>β̂₁ = S_xy/S_xx이다.</commentary>
+          <commentary>기울기 추정값은 β̂₁ = S_xy/S_xx이므로 S_yy로 나눈 식은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$SSE = S_{yy} - {\hat{\beta_{1}}} S_{xy}$</choice_text>
-          <commentary>SSE = S_yy − β̂₁S_xy이므로 정답이다.</commentary>
+          <commentary>SSR = β̂₁S_xy이므로 SSE = S_yy − SSR = S_yy − β̂₁S_xy이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$r^{2} = \frac{S_{xy}}{S_{xx} S_{yy}}$ (단, $r^2$은 결정계수)</choice_text>
-          <commentary>r² = S_xy²/(S_xxS_yy)이다.</commentary>
+          <commentary>결정계수는 r² = S_xy²/(S_xx S_yy)이므로 분자를 제곱하지 않은 식은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\sum_{i = 1}^{n} y_{i} e_{i} = 0$</choice_text>
-          <commentary>Σŷ_ie_i = 0이지만 Σy_ie_i = SSE이므로 0이 아니다.</commentary>
+          <commentary>Σŷ_ie_i = 0이지만 Σy_ie_i = Σŷ_ie_i + Σe_i² = SSE이므로 0이 아니어서 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -731,19 +731,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>60</choice_text>
-          <commentary>60이므로 정답이다.</commentary>
+          <commentary>전체 평균은 (5 × 6 + 10 × 3 + 15 × 2)/30 = 3이므로 처리제곱합은 5 × (6 − 3)² + 10 × 0² + 15 × (2 − 3)² = 45 + 0 + 15 = 60이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>90</choice_text>
-          <commentary>90이 아니다.</commentary>
+          <commentary>90은 수준별 합계의 총합이며 처리제곱합이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>270</choice_text>
-          <commentary>270이 아니다.</commentary>
+          <commentary>270은 계산 결과 60과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>330</choice_text>
-          <commentary>330이 아니다.</commentary>
+          <commentary>330은 계산 결과 60과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

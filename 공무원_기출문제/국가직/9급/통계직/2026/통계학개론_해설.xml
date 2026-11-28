@@ -150,19 +150,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$4$</choice_text>
-          <commentary>4가 아니다.</commentary>
+          <commentary>Cov(X, Y) = Corr(X, Y) × σ_X × σ_Y = 0.4 × 3 × 5 = 6이므로 4는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$6$</choice_text>
-          <commentary>6이므로 정답이다.</commentary>
+          <commentary>양의 계수로 선형변환해도 상관계수는 변하지 않아 Corr(X, Y) = 0.4이고, Cov(X, Y) = 0.4 × √9 × √25 = 0.4 × 3 × 5 = 6이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$8$</choice_text>
-          <commentary>8이 아니다.</commentary>
+          <commentary>8은 상관계수와 표준편차의 곱 6과 일치하지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$10$</choice_text>
-          <commentary>10이 아니다.</commentary>
+          <commentary>10은 상관계수를 적용하지 않은 값과도 맞지 않으며 계산 결과 6과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -186,19 +186,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>1/4이므로 정답이다.</commentary>
+          <commentary>F = MSR/MSE에서 MSE = 20/10 = 2, SSE = 2 × 30 = 60, SSR = 20 × 1 = 20, SST = 80이므로 R² = SSR/SST = 20/80 = 1/4이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{3}$</choice_text>
-          <commentary>1/3은 SSR/SSE이다.</commentary>
+          <commentary>1/3은 SSR/SSE = 20/60의 값으로 결정계수의 정의(SSR/SST)와 다르다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>1/2이 아니다.</commentary>
+          <commentary>1/2은 계산 결과 1/4과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{2}{3}$</choice_text>
-          <commentary>2/3이 아니다.</commentary>
+          <commentary>2/3은 계산 결과 1/4과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -255,19 +255,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>상관분석 적합도검정</choice_text>
-          <commentary>상관분석은 관계의 강도만 측정하고, 적합도검정은 범주형 분포의 적합 여부를 검정한다.</commentary>
+          <commentary>상관분석은 선형관계의 강도만 보며 영향의 방향과 크기를 모형화하지 않고, 적합도검정은 분포의 적합 여부를 검정하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>회귀분석 분산분석</choice_text>
-          <commentary>회귀분석, 분산분석이므로 정답이다.</commentary>
+          <commentary>(가) 한 변수가 다른 변수에 미치는 선형적 영향은 회귀분석으로, (나) 사계절이라는 세 개 이상 집단의 평균 차이는 분산분석으로 검정하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>회귀분석 적합도검정</choice_text>
-          <commentary>(나)는 분산분석이다.</commentary>
+          <commentary>(나) 적합도검정은 관측도수가 특정 분포를 따르는지를 검정하므로 평균 차이 검정에 적합하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$t$－검정 분산분석</choice_text>
-          <commentary>t-검정은 두 집단의 평균 비교에 사용한다.</commentary>
+          <commentary>(가) t-검정은 두 집단의 평균 비교에 쓰이므로 변수 간 선형 영향 분석에 적합하지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -290,19 +290,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{13}{2}$</choice_text>
-          <commentary>13/2가 아니다.</commentary>
+          <commentary>13/2는 E(N) + Var(N) = 5 + 2.5 = 7.5와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{15}{2}$</choice_text>
-          <commentary>15/2이므로 정답이다.</commentary>
+          <commentary>c = 10!이면 확률질량함수가 이항분포 B(10, 1/2)가 되므로 E(N) = 10 × 1/2 = 5, Var(N) = 10 × 1/2 × 1/2 = 2.5이고 합은 15/2이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{17}{2}$</choice_text>
-          <commentary>17/2가 아니다.</commentary>
+          <commentary>17/2는 계산 결과 15/2와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\frac{19}{2}$</choice_text>
-          <commentary>19/2가 아니다.</commentary>
+          <commentary>19/2는 계산 결과 15/2와 다르므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -324,19 +324,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$P ( Z \geq 1 )$</choice_text>
-          <commentary>표준오차를 반영하지 않은 값이다.</commentary>
+          <commentary>P(Z ≥ 1)은 검정통계량을 잘못 계산한 값으로, Z = (5.2 − 5)/(1/√64) = 1.6이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$P ( Z \geq 1 . 6 )$</choice_text>
-          <commentary>P(Z ≥ 1.6)이므로 정답이다.</commentary>
+          <commentary>증가 여부를 보므로 H₁: μ &gt; 5인 우측 단측검정이고 Z = (5.2 − 5)/(1/8) = 1.6이므로 유의확률은 P(Z ≥ 1.6)이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$2 \times P ( Z ge1 )$</choice_text>
-          <commentary>양측검정이 아니다.</commentary>
+          <commentary>2 × P(Z ≥ 1)은 양측검정 형태이고 검정통계량도 1.6이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$2 \times P ( Z ge1 . 6 )$</choice_text>
-          <commentary>단측검정이므로 2배하지 않는다.</commentary>
+          <commentary>2 × P(Z ≥ 1.6)은 양측검정의 유의확률이므로 단측검정인 이 문제에 맞지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -358,19 +358,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\frac{1}{4}$</choice_text>
-          <commentary>1/4이 아니다.</commentary>
+          <commentary>1/4은 E(X²) − [E(X)]² = 3/2 − 1 = 1/2과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\frac{1}{2}$</choice_text>
-          <commentary>1/2이므로 정답이다.</commentary>
+          <commentary>p₁ + p₂ = 3/4, p₁ + 4p₂ = 3/2에서 p₂ = 1/4, p₁ = 1/2이고 E(X) = 1/2 + 2 × 1/4 = 1이므로 Var(X) = 3/2 − 1² = 1/2이며 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\frac{3}{4}$</choice_text>
-          <commentary>3/4이 아니다.</commentary>
+          <commentary>3/4은 계산 결과 1/2과 다르므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$1$</choice_text>
-          <commentary>1이 아니다.</commentary>
+          <commentary>1은 E(X)의 값으로 분산이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -392,19 +392,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$7 . 81$ 없다</choice_text>
-          <commentary>7.81, 없다이므로 정답이다.</commentary>
+          <commentary>2 × 4 분할표의 자유도는 (2 − 1)(4 − 1) = 3이므로 임계값은 7.81이고, 2.25 &lt; 7.81이어서 귀무가설을 기각하지 못하므로 효과에 차이가 없다고 판단하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$7 . 81$ 있다</choice_text>
-          <commentary>귀무가설을 기각하지 못하므로 차이가 있다고 할 수 없다.</commentary>
+          <commentary>검정통계량이 임계값보다 작으면 귀무가설을 기각하지 못하므로 차이가 있다는 판단은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$14 . 07$ 없다</choice_text>
-          <commentary>자유도는 7이 아니라 3이다.</commentary>
+          <commentary>14.07은 자유도 7의 임계값이므로 자유도 3인 이 검정의 기준이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$14 . 07$ 있다</choice_text>
-          <commentary>자유도와 결론이 모두 다르다.</commentary>
+          <commentary>임계값이 14.07이 아니고 차이가 있다는 결론도 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -440,19 +440,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄴ은 옳지만 옳은 ㄷ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>ㄴ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄷ은 옳지만 옳은 ㄴ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄴ, ㄷ은 옳지만 옳은 ㄱ이 빠졌으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ, ㄷ</choice_text>
-          <commentary>ㄱ, ㄴ, ㄷ이므로 정답이다.</commentary>
+          <commentary>ㄱ E(X²Y²) = E(X²)E(Y²) = 1 × 1 = 1, ㄴ 독립이므로 Cov(X, Y) = 0, ㄷ 3X − 4Y ~ N(0, 25)이므로 P(−3 ≤ 3X − 4Y ≤ 5) = P(−0.6 ≤ Z ≤ 1) = 0.8413 − 0.2743 = 0.5670으로 모두 옳아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -476,19 +476,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$64$</choice_text>
-          <commentary>64가 아니다.</commentary>
+          <commentary>n = 64이면 2σ/√n = 4/8 = 0.5로 0.2보다 커서 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$100$</choice_text>
-          <commentary>100이 아니다.</commentary>
+          <commentary>n = 100이면 2σ/√n = 4/10 = 0.4로 0.2보다 커서 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$225$</choice_text>
-          <commentary>225가 아니다.</commentary>
+          <commentary>n = 225이면 2σ/√n = 4/15 ≈ 0.27로 0.2보다 커서 조건을 만족하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>$400$</choice_text>
-          <commentary>400이므로 정답이다.</commentary>
+          <commentary>P(|Z| ≤ 2) = 0.9544이므로 2 × 2/√n ≤ 0.2에서 √n ≥ 20, n ≥ 400이 되어 최솟값은 400이며 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -509,19 +509,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>기울기의 추정값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>구간의 폭은 추정값의 크기와 무관하다.</commentary>
+          <commentary>신뢰구간 β̂₁ ± t × √(MSE/S_xx)의 폭은 추정값 β̂₁의 크기와 무관하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$\alpha ( 0 &lt; \alpha &lt; 1 )$의 값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>α가 커지면 임계값이 작아져 폭이 좁아진다.</commentary>
+          <commentary>α가 커지면 신뢰수준이 낮아져 t 임계값이 작아지므로 폭이 좁아져 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>평균제곱오차($MSE$)의 값이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>MSE가 커지면 폭이 넓어지므로 정답이다.</commentary>
+          <commentary>MSE가 커지면 표준오차 √(MSE/S_xx)가 커져 신뢰구간의 폭이 넓어지므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>독립변수의 편차의 제곱합이 커지면 신뢰구간의 폭이 넓어진다.</choice_text>
-          <commentary>S_xx가 커지면 표준오차가 작아져 폭이 좁아진다.</commentary>
+          <commentary>독립변수의 편차제곱합 S_xx가 커지면 표준오차가 작아져 폭이 좁아지므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -609,19 +609,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>$( 0 , 0 . 01 )$</choice_text>
-          <commentary>(0, 0.01)이므로 정답이다.</commentary>
+          <commentary>SSR = 180 − 54 = 126, MSR = 126/2 = 63, MSE = 54/(12 − 3) = 6이므로 F = 63/6 = 10.5이고, 자유도 (2, 9)의 상위 1% 점 약 8.02보다 커서 유의확률은 (0, 0.01)에 속하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$( 0 . 01 , 0 . 05 )$</choice_text>
-          <commentary>F 값이 1% 임계값보다 크다.</commentary>
+          <commentary>F = 10.5가 상위 1% 점보다 크므로 유의확률이 0.01 이상일 수 없어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$( 0 . 05 , 0 . 1 )$</choice_text>
-          <commentary>F 값이 1% 임계값보다 크다.</commentary>
+          <commentary>유의확률이 0.05~0.1이 되려면 F가 상위 5% 점(약 4.26)보다 작아야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$( 0 . 1 , 1 )$</choice_text>
-          <commentary>F 값이 1% 임계값보다 크다.</commentary>
+          <commentary>유의확률이 0.1 이상이 되려면 F가 상위 10% 점보다 작아야 하므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -646,19 +646,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>인자 $A$의 수준수는 $3$이다.</choice_text>
-          <commentary>인자 A의 수준수는 2이다.</commentary>
+          <commentary>인자 A는 제곱합과 평균제곱이 같아 자유도가 1이므로 수준수는 2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인자 $B$의 제곱합의 자유도는 $3$이다.</choice_text>
-          <commentary>인자 B의 자유도는 2이다.</commentary>
+          <commentary>인자 B의 자유도는 42.00/21.00 = 2이므로 3이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>각 수준조합에서의 반복수는 $4$이다.</choice_text>
-          <commentary>반복수는 2이다.</commentary>
+          <commentary>전체 자유도 11이므로 관측값은 12개이고 수준조합은 2 × 3 = 6개이므로 반복수는 12/6 = 2이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>교호작용 $A \times B$는 유의수준 $5$ %에서 유의하지 않다.</choice_text>
-          <commentary>교호작용은 유의하지 않으므로 정답이다.</commentary>
+          <commentary>교호작용의 p-값 0.215가 0.05보다 크므로 유의수준 5%에서 유의하지 않아 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -682,19 +682,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>표본평균 $\bar{x}$는 $100$이다.</choice_text>
-          <commentary>표본평균은 100이므로 옳다.</commentary>
+          <commentary>신뢰구간 (90, 110)의 중심이 표본평균이므로 x̄ = (90 + 110)/2 = 100이어서 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$95$ % 신뢰수준에서 $\bar{x}$의 오차한계는 $10$이다.</choice_text>
-          <commentary>오차한계는 10이므로 옳다.</commentary>
+          <commentary>오차한계는 구간 폭의 절반인 (110 − 90)/2 = 10이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>모평균 μ가 구간 $( 90 , 110 )$에 포함될 확률은 $0 . 95$이다.</choice_text>
-          <commentary>신뢰구간의 해석이 잘못되었으므로 옳지 않아 정답이다.</commentary>
+          <commentary>모평균은 고정된 상수이므로 이미 구한 특정 구간에 포함될 확률을 0.95라고 할 수 없으며, 95%는 같은 방법으로 반복 구성한 구간 중 95%가 모평균을 포함한다는 뜻이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>가설 $H_0 : \mu = 98$ 대 $H_1 : muneq 98$을 유의수준 $5$ %에서 검정할 때, 귀무가설을 기각하지 못한다.</choice_text>
-          <commentary>98은 신뢰구간 안에 있으므로 귀무가설을 기각하지 못한다.</commentary>
+          <commentary>98이 95% 신뢰구간 (90, 110)에 포함되므로 유의수준 5%의 양측검정에서 귀무가설을 기각하지 못하여 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

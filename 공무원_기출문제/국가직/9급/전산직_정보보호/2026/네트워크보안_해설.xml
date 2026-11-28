@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>AES</choice_text>
-          <commentary>미국 표준이므로 정답이다.</commentary>
+          <commentary>AES는 미국 NIST가 표준으로 채택한 Rijndael 알고리즘이므로 국내 개발 알고리즘이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>LEA</choice_text>
-          <commentary>국내 개발 경량 블록 암호이다.</commentary>
+          <commentary>LEA는 2013년 국내에서 개발된 경량 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>ARIA</choice_text>
-          <commentary>국내 개발 블록 암호이다.</commentary>
+          <commentary>ARIA는 2004년 국내에서 개발된 128비트 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>SEED</choice_text>
-          <commentary>국내 개발 블록 암호이다.</commentary>
+          <commentary>SEED는 1999년 국내에서 개발된 128비트 블록 암호이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ARP</choice_text>
-          <commentary>네트워크 계층에 속한다.</commentary>
+          <commentary>ARP는 IP 주소로 MAC 주소를 구하는 프로토콜로 네트워크 계층으로 분류된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>UDP</choice_text>
-          <commentary>전송 계층 프로토콜이므로 정답이다.</commentary>
+          <commentary>UDP는 비연결형 전송 계층 프로토콜이므로 네트워크 계층에 포함되지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>OSPF</choice_text>
-          <commentary>네트워크 계층 라우팅 프로토콜이다.</commentary>
+          <commentary>OSPF는 IP 라우팅을 담당하는 네트워크 계층의 라우팅 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>RARP</choice_text>
-          <commentary>네트워크 계층에 속한다.</commentary>
+          <commentary>RARP는 MAC 주소로 IP 주소를 구하는 프로토콜로 네트워크 계층으로 분류된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -107,19 +107,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>라우터 스위치 허브</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>라우터는 네트워크 계층 장비이므로 (가)의 물리 계층 장비가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>허브 라우터 스위치</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>라우터는 MAC 주소가 아니라 IP 주소를 기반으로 동작하므로 (나)와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스위치 허브 라우터</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>스위치는 모든 포트로 브로드캐스팅하지 않으므로 (가)와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>허브 스위치 라우터</choice_text>
-          <commentary>허브, 스위치, 라우터이므로 정답이다.</commentary>
+          <commentary>(가) 허브, (나) 스위치, (다) 라우터로 각 계층의 장비가 바르게 연결되었으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -179,19 +179,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Alert Protocol</choice_text>
-          <commentary>오류 통보 프로토콜이다.</commentary>
+          <commentary>Alert 프로토콜은 오류나 경고를 상대방에게 통보한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Record Protocol</choice_text>
-          <commentary>데이터 보호 전송 프로토콜이다.</commentary>
+          <commentary>Record 프로토콜은 데이터를 단편화·압축하고 MAC을 붙여 암호화한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Handshake Protocol</choice_text>
-          <commentary>Handshake이므로 정답이다.</commentary>
+          <commentary>서버와 클라이언트의 인증과 암호·MAC 알고리즘, 암호키 협상은 Handshake 프로토콜의 역할이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Change Cipher Spec Protocol</choice_text>
-          <commentary>암호 방식 변경 신호이다.</commentary>
+          <commentary>Change Cipher Spec 프로토콜은 협상된 암호 설정을 적용하겠다고 알린다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -214,19 +214,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>재현의 원칙</choice_text>
-          <commentary>재현의 원칙이므로 정답이다.</commentary>
+          <commentary>같은 상황에서 같은 결과가 나와야 증거능력을 갖는다는 것은 재현의 원칙이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신속성의 원칙</choice_text>
-          <commentary>빠른 수집 원칙이다.</commentary>
+          <commentary>신속성의 원칙은 휘발성 증거를 빠르게 수집해야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>무결성의 원칙</choice_text>
-          <commentary>위·변조 방지 원칙이다.</commentary>
+          <commentary>무결성의 원칙은 수집한 증거가 위·변조되지 않았음을 보장해야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>연계 보관성의 원칙</choice_text>
-          <commentary>이동 경로 관리 원칙이다.</commentary>
+          <commentary>연계 보관성의 원칙은 증거의 획득부터 제출까지 경로를 기록·관리해야 한다는 원칙이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -250,19 +250,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(나) → (가) → (다) → (라) → (마)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>공격자가 게시물을 저장하지 않으면 서버가 XSS 코드를 전달할 수 없으므로 (나)를 처음에 둔 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(나) → (가) → (라) → (다) → (마)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>(나)와 (가)가 게시물 저장과 클릭보다 앞서 있어 순서가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(라) → (나) → (가) → (다) → (마)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>사용자가 게시물을 클릭하기 전에 서버가 전달하고 코드가 실행될 수 없으므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(라) → (다) → (나) → (가) → (마)</choice_text>
-          <commentary>(라) → (다) → (나) → (가) → (마)이므로 정답이다.</commentary>
+          <commentary>게시물 저장(라) → 사용자 클릭(다) → 서버의 전달(나) → 코드 실행(가) → 결과 전송(마)이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -283,19 +283,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>공격자는 적절한 시퀀스 넘버를 얻기 위해 스니핑을 한다.</choice_text>
-          <commentary>시퀀스 번호를 얻기 위한 스니핑으로 옳다.</commentary>
+          <commentary>공격자는 올바른 시퀀스 넘버를 얻기 위해 스니핑을 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>TCP 세션 하이재킹은 공격자가 동기화 상태를 무너뜨리는 것에서 시작한다.</choice_text>
-          <commentary>비동기화 상태 유발로 옳다.</commentary>
+          <commentary>TCP 세션 하이재킹은 서버와 클라이언트의 동기화 상태를 무너뜨리는 데서 시작하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>공격자는 네트워크에서 직접 클라이언트의 세션 ID를 수정하여 새로운 세션을 생성한다.</choice_text>
-          <commentary>기존 세션을 가로채는 것이므로 옳지 않아 정답이다.</commentary>
+          <commentary>TCP 세션 하이재킹은 기존 세션을 가로채는 공격이며 세션 ID를 수정해 새 세션을 생성하는 것이 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>서버와 클라이언트의 통신 시에 시퀀스 넘버의 제어에 문제점이 있음을 파악하고 악용한다.</choice_text>
-          <commentary>시퀀스 번호 제어의 허점을 이용하므로 옳다.</commentary>
+          <commentary>시퀀스 넘버 제어의 문제점을 파악하여 악용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -317,19 +317,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>-sS -v</choice_text>
-          <commentary>-sS, -v이므로 정답이다.</commentary>
+          <commentary>-sS는 TCP SYN 스캔, -v는 상세 출력 옵션이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>-sS -A</choice_text>
-          <commentary>-A는 상세 출력 옵션이 아니다.</commentary>
+          <commentary>-A는 운영체제·버전 탐지 등을 포함하는 공격적 스캔 옵션으로 상세 출력 옵션이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>-sT -v</choice_text>
-          <commentary>-sT는 connect 스캔이다.</commentary>
+          <commentary>-sT는 3-way handshake를 완료하는 TCP connect 스캔이므로 SYN 스캔이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>-sT -A</choice_text>
-          <commentary>-sT, -A 모두 틀렸다.</commentary>
+          <commentary>-sT와 -A 모두 제시된 기능과 맞지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -353,19 +353,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CFB</choice_text>
-          <commentary>CFB는 직전 암호문을 암호화한 출력과 평문을 XOR한다.</commentary>
+          <commentary>CFB 모드는 직전 암호문 블록을 암호화한 출력과 평문을 XOR하는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>CBC</choice_text>
-          <commentary>CBC이므로 정답이다.</commentary>
+          <commentary>현재 평문 블록을 직전 암호문 블록과 XOR한 후 암호 알고리즘에 입력하는 것은 CBC 모드이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>OFB</choice_text>
-          <commentary>OFB는 키 스트림을 피드백한다.</commentary>
+          <commentary>OFB 모드는 암호 알고리즘의 출력을 다시 입력으로 사용하여 키 스트림을 만드는 방식이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>CTR</choice_text>
-          <commentary>CTR은 카운터를 암호화한다.</commentary>
+          <commentary>CTR 모드는 카운터 값을 암호화한 키 스트림을 평문과 XOR하는 방식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -387,19 +387,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SMTP는 네트워크의 두 메일 서버 간에 이메일을 송수신할 때 사용되는 프로토콜이다.</choice_text>
-          <commentary>SMTP의 설명으로 옳다.</commentary>
+          <commentary>SMTP는 메일 서버 간 이메일 송수신에 사용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>DHCP는 네트워크의 각 노드에 IP 주소를 자동으로 할당하고 관리한다.</choice_text>
-          <commentary>DHCP의 설명으로 옳다.</commentary>
+          <commentary>DHCP는 노드에 IP 주소를 자동으로 할당·관리하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>ARP를 이용하여 LAN에 연결되어 있는 다른 노드의 포트 번호를 획득할 수 있다.</choice_text>
-          <commentary>ARP는 MAC 주소를 얻으므로 옳지 않아 정답이다.</commentary>
+          <commentary>ARP는 IP 주소에 대응하는 MAC 주소를 얻는 프로토콜이며 포트 번호를 얻을 수 없다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>ICMP의 송신지 억제(Source Quench) 메시지는 송신 노드에 혼잡 가능성을 알리고 전송 속도를 늦출 것을 요구한다.</choice_text>
-          <commentary>Source Quench의 설명으로 옳다.</commentary>
+          <commentary>ICMP Source Quench 메시지는 송신 노드에 혼잡을 알려 전송 속도를 늦추도록 요구하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -420,19 +420,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>랜드 공격은 패킷을 전송할 때 출발지 MAC 주소와 목적지 MAC 주소의 값을 같게 만들어서 공격 대상에게 보내는 공격이다.</choice_text>
-          <commentary>IP 주소를 같게 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>랜드 공격은 출발지와 목적지의 IP 주소(및 포트)를 같게 만든 패킷을 보내는 공격이며 MAC 주소가 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>스위치 재밍 공격은 스위치가 MAC 주소 테이블을 기반으로 패킷을 포트에 스위칭할 때 정상적인 스위칭 기능을 마비시키는 공격이다.</choice_text>
-          <commentary>스위치 재밍의 설명으로 옳다.</commentary>
+          <commentary>스위치 재밍은 위조 MAC 주소로 MAC 테이블을 채워 정상적인 스위칭을 마비시키므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>IP 스푸핑은 신뢰 관계에 있는 두 개의 호스트 사이에서 하나의 시스템을 마비시킨 후 자신이 신뢰 관계에 있는 호스트인 것처럼 속이는 공격이다.</choice_text>
-          <commentary>IP 스푸핑의 설명으로 옳다.</commentary>
+          <commentary>IP 스푸핑은 신뢰 관계의 한 호스트를 마비시키고 그 호스트로 위장하는 공격이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>HTTP GET 플러딩은 웹서버에서 처리할 수 없는 최대 성능 이상의 과도한 HTTP GET 요청을 전송함으로써 웹 서버가 자원을 모두 소비하여 정상적인 기능을 발휘하지 못하도록 하는 공격이다.</choice_text>
-          <commentary>HTTP GET 플러딩의 설명으로 옳다.</commentary>
+          <commentary>HTTP GET 플러딩은 과도한 GET 요청으로 웹 서버 자원을 고갈시키는 공격이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,19 +453,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>배스천 호스트는 내부 네트워크와 외부 네트워크 간의 게이트웨이 역할을 한다.</choice_text>
-          <commentary>게이트웨이 역할로 옳다.</commentary>
+          <commentary>배스천 호스트는 내부와 외부 네트워크 사이의 게이트웨이 역할을 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>스크리닝 라우터는 배스천 호스트에 비하여 통과하거나 거절당한 패킷의 기록을 관리하기 쉽다.</choice_text>
-          <commentary>로그 관리는 배스천 호스트가 쉬우므로 옳지 않아 정답이다.</commentary>
+          <commentary>스크리닝 라우터는 로그 관리 기능이 약하며 기록 관리는 배스천 호스트가 더 쉽다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>스크리닝 라우터는 네트워크 계층과 전송 계층에서 동작하는 프로토콜인 IP, TCP 또는 UDP의 헤더에 포함된 내용을 분석한다.</choice_text>
-          <commentary>헤더 분석으로 옳다.</commentary>
+          <commentary>스크리닝 라우터는 IP, TCP, UDP 헤더 내용을 분석하여 패킷을 필터링하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>배스천 호스트가 손상되면 내부 네트워크를 보호할 수 없다.</choice_text>
-          <commentary>배스천 호스트의 한계로 옳다.</commentary>
+          <commentary>배스천 호스트가 손상되면 내부 네트워크를 보호할 수 없으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -486,19 +486,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>호스트의 ARP 캐시가 업데이트된다.</choice_text>
-          <commentary>ARP 스푸핑의 결과이다.</commentary>
+          <commentary>ARP 캐시가 변조되는 것은 ARP 스푸핑의 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>특정 호스트의 MAC 주소가 도용된다.</choice_text>
-          <commentary>MAC 스푸핑의 결과이다.</commentary>
+          <commentary>특정 호스트의 MAC 주소가 도용되는 것은 MAC 스푸핑이나 ARP 스푸핑의 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스위치의 주소 테이블이 가득 차게 된다.</choice_text>
-          <commentary>스위치 재밍의 결과이다.</commentary>
+          <commentary>스위치의 주소 테이블이 가득 차는 것은 스위치 재밍의 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>호스트의 라우팅 테이블 정보가 업데이트된다.</choice_text>
-          <commentary>라우팅 테이블 변경이므로 정답이다.</commentary>
+          <commentary>ICMP 리다이렉트 메시지로 피해 호스트의 라우팅 테이블이 변경되므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -522,19 +522,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>-i</choice_text>
-          <commentary>인터페이스 정보이다.</commentary>
+          <commentary>-i는 네트워크 인터페이스별 정보를 출력한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>-p</choice_text>
-          <commentary>프로토콜·프로세스 지정 옵션이다.</commentary>
+          <commentary>-p는 특정 프로토콜의 연결 또는 프로세스 정보를 표시한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>-r</choice_text>
-          <commentary>라우팅 테이블이다.</commentary>
+          <commentary>-r은 라우팅 테이블을 출력한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>-s</choice_text>
-          <commentary>프로토콜별 통계이므로 정답이다.</commentary>
+          <commentary>-s는 프로토콜별 통계 현황을 출력하므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -555,19 +555,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IPv4에서 192.168.0.0은 사설 주소 영역에 해당된다.</choice_text>
-          <commentary>192.168.0.0/16은 사설 주소이므로 옳다.</commentary>
+          <commentary>192.168.0.0/16은 IPv4 사설 주소 영역이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>IPv4에서 IP 데이터그램의 최대 길이는 65,535바이트이다.</choice_text>
-          <commentary>총 길이 필드 16비트로 최대 65,535바이트이므로 옳다.</commentary>
+          <commentary>IPv4 헤더의 전체 길이 필드는 16비트이므로 데이터그램 최대 길이는 65,535바이트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>IPv6에서 주소 FCBB:0000:0000:0000:0000:0000:1ABC:BBCB는 FCBB:0:0:0:0:0:1ABC:BBCB으로 축약할 수 있다.</choice_text>
-          <commentary>0000을 0으로 축약할 수 있으므로 옳다.</commentary>
+          <commentary>IPv6 주소의 각 필드 앞의 0을 생략하여 0으로 쓸 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>IPv6에서 홉 제한은 패킷이 라우터에 의해 중개될 때마다 1씩 증가하여 128을 넘는 순간 패킷을 폐기한다.</choice_text>
-          <commentary>1씩 감소하여 0이 되면 폐기하므로 옳지 않아 정답이다.</commentary>
+          <commentary>IPv6 홉 제한은 라우터를 지날 때마다 1씩 감소하여 0이 되면 폐기하므로 증가한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -588,19 +588,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>타사 모델을 선택할 때는 포괄적인 AI 레드팀 및 평가를 수행한다.</choice_text>
-          <commentary>공급망 대응책이다.</commentary>
+          <commentary>타사 모델 선택 시 AI 레드팀과 평가를 수행하는 것은 공급망 항목의 대응책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>취약하거나 오래된 구성 요소를 완화하기 위해 패치 정책을 구현한다.</choice_text>
-          <commentary>공급망 대응책이다.</commentary>
+          <commentary>취약하거나 오래된 구성 요소의 패치 정책은 공급망 항목의 대응책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>모델이 의도하지 않은 데이터 소스에 접근하는 것을 방지하기 위해 인프라를 충분히 제어해야 한다.</choice_text>
-          <commentary>공급망 항목에 해당하지 않으므로 정답이다.</commentary>
+          <commentary>모델이 의도하지 않은 데이터 소스에 접근하지 않도록 인프라를 제어하는 것은 공급망 항목이 아니라 다른 위험 항목의 대응책이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>협업 모델 개발 환경에 대한 엄격한 모니터링 및 감사 관행을 구현하여 남용을 방지하고 신속하게 탐지한다.</choice_text>
-          <commentary>공급망 대응책이다.</commentary>
+          <commentary>협업 개발 환경의 모니터링과 감사는 공급망 항목의 대응책이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>trap 메시지를 이용하여 매니저가 에이전트에게 특정 상황 발생을 알린다.</choice_text>
-          <commentary>trap은 에이전트가 매니저에게 보내므로 옳지 않아 정답이다.</commentary>
+          <commentary>trap 메시지는 에이전트가 매니저에게 이벤트를 알리는 메시지이므로 매니저가 에이전트에게 보낸다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>setRequest 메시지를 이용하여 매니저가 특정 변숫값의 변경을 요청한다.</choice_text>
-          <commentary>setRequest의 설명으로 옳다.</commentary>
+          <commentary>setRequest는 매니저가 에이전트에 변숫값 변경을 요청하는 메시지이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>getResponse 메시지를 이용하여 에이전트가 매니저의 요청에 해당하는 변숫값을 전송한다.</choice_text>
-          <commentary>getResponse의 설명으로 옳다.</commentary>
+          <commentary>getResponse는 에이전트가 요청에 대한 변숫값을 매니저에게 보내는 메시지이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>getRequest 메시지를 이용하여 매니저가 변숫값을 읽어올 수 있다.</choice_text>
-          <commentary>getRequest의 설명으로 옳다.</commentary>
+          <commentary>getRequest는 매니저가 에이전트의 변숫값을 읽어오는 메시지이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -657,19 +657,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>203.237.10.128은 브로드캐스트 주소이다.</choice_text>
-          <commentary>.128은 다음 서브넷의 네트워크 주소이다.</commentary>
+          <commentary>203.237.10.0/25의 브로드캐스트 주소는 203.237.10.127이며 .128은 다음 서브넷의 네트워크 주소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3개의 서브넷을 만들 수 있다.</choice_text>
-          <commentary>하나의 /25 서브넷이다.</commentary>
+          <commentary>/25는 하나의 서브넷을 나타내며 /24를 나누면 2개의 /25 서브넷이 생기므로 3개라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>서브넷 마스크는 255.255.255.128이다.</choice_text>
-          <commentary>255.255.255.128이므로 정답이다.</commentary>
+          <commentary>/25는 상위 25비트가 네트워크 부분이므로 서브넷 마스크는 255.255.255.128로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>서브넷의 호스트 가용 IP 주소는 124개이다.</choice_text>
-          <commentary>가용 호스트는 126개이다.</commentary>
+          <commentary>호스트 비트 7개로 2⁷ - 2 = 126개의 가용 주소가 있으므로 124개는 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -690,19 +690,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Basic Constraints: 인증 주체가 CA인지를 식별한다.</choice_text>
-          <commentary>CA 여부 식별로 옳다.</commentary>
+          <commentary>Basic Constraints는 인증 주체가 CA인지와 경로 길이 제한을 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Authority Key Identifier: 인증서를 서명하는 데 사용하는 공개 키를 식별한다.</choice_text>
-          <commentary>서명 공개키 식별로 옳다.</commentary>
+          <commentary>Authority Key Identifier는 인증서 서명에 사용된 발급자의 공개키를 식별하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Key Usage: 인증서에 있는 암호화, 서명, 인증서 서명과 같은 키의 목적을 정의한다.</choice_text>
-          <commentary>키 용도 정의로 옳다.</commentary>
+          <commentary>Key Usage는 암호화, 서명, 인증서 서명 등 키의 용도를 정의하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>Subject Alternative Name: 인증서의 발급자에 대한 다양한 대체 이름을 제공하는 역할을 한다.</choice_text>
-          <commentary>발급자가 아니라 주체의 대체 이름이므로 옳지 않아 정답이다.</commentary>
+          <commentary>Subject Alternative Name은 인증서 주체의 대체 이름을 제공하며 발급자의 대체 이름은 Issuer Alternative Name이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

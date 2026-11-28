@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Port 번호</choice_text>
-          <commentary>포트 번호는 ARP와 관련이 없다.</commentary>
+          <commentary>포트 번호는 전송 계층의 정보로 ARP 스푸핑이 위조하는 대상이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ICMP 에코 요청 패킷</choice_text>
-          <commentary>ICMP 패킷은 ARP와 관련이 없다.</commentary>
+          <commentary>ICMP 에코 요청 패킷은 ping에 쓰이는 메시지로 ARP 스푸핑과 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>MAC 주소</choice_text>
-          <commentary>MAC 주소이므로 정답이다.</commentary>
+          <commentary>ARP 스푸핑은 IP 주소에 대응하는 MAC 주소를 공격자의 것으로 위조하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>DNS 응답 메시지</choice_text>
-          <commentary>DNS 스푸핑의 위조 대상이다.</commentary>
+          <commentary>DNS 응답 메시지를 위조하는 것은 DNS 스푸핑이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>traceroute</choice_text>
-          <commentary>traceroute는 패킷 경로를 추적한다.</commentary>
+          <commentary>traceroute는 목적지까지 거치는 라우터 경로를 확인하는 명령이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>tcpdump</choice_text>
-          <commentary>tcpdump는 패킷을 캡처한다.</commentary>
+          <commentary>tcpdump는 네트워크 패킷을 캡처하여 분석하는 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>netstat</choice_text>
-          <commentary>netstat이므로 정답이다.</commentary>
+          <commentary>netstat -r은 route 명령과 같은 라우팅 테이블 정보를 출력하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ping</choice_text>
-          <commentary>ping은 연결성을 확인한다.</commentary>
+          <commentary>ping은 ICMP Echo로 대상 호스트의 도달 가능성을 확인하는 명령이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -106,19 +106,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>NAT(Network Address Translation)</choice_text>
-          <commentary>NAT는 주소 변환 기술이다.</commentary>
+          <commentary>NAT는 사설 IP 주소와 공인 IP 주소를 변환하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>DMZ(Demilitarized Zone)</choice_text>
-          <commentary>DMZ이므로 정답이다.</commentary>
+          <commentary>외부 방화벽과 내부 방화벽 사이에서 외부 접근이 필요한 서버를 두는 구역은 DMZ이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>VPN(Virtual Private Network)</choice_text>
-          <commentary>VPN은 가상 사설망이다.</commentary>
+          <commentary>VPN은 공중망에서 터널링과 암호화로 사설망처럼 통신하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PAN(Personal Area Network)</choice_text>
-          <commentary>PAN은 개인 영역 통신망이다.</commentary>
+          <commentary>PAN은 개인 주변의 기기를 연결하는 근거리 개인 통신망이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -139,19 +139,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DAC 하나의 역할에만</choice_text>
-          <commentary>DAC는 소유자 재량 접근 제어이다.</commentary>
+          <commentary>DAC는 소유자가 사용자 ID에 따라 권한을 부여하는 방식이므로 (가)에 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>DAC 여러 개의 역할에</choice_text>
-          <commentary>DAC는 역할 기반이 아니다.</commentary>
+          <commentary>DAC는 역할이 아니라 사용자 ID 기반의 접근 제어이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>RBAC 하나의 역할에만</choice_text>
-          <commentary>하나의 역할에만 한정되지 않는다.</commentary>
+          <commentary>RBAC는 맞지만 사용자는 여러 개의 역할에 할당될 수 있으므로 하나의 역할에만이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>RBAC 여러 개의 역할에</choice_text>
-          <commentary>RBAC, 여러 개의 역할이므로 정답이다.</commentary>
+          <commentary>역할을 바탕으로 권한을 정의하는 RBAC에서 사용자는 여러 개의 역할에 정적 또는 동적으로 할당되므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>POST는 서버가 클라이언트에게 문서를 전달하는 데 사용한다.</choice_text>
-          <commentary>POST는 클라이언트가 서버로 데이터를 보내므로 옳지 않아 정답이다.</commentary>
+          <commentary>POST는 클라이언트가 서버에 데이터를 전송할 때 사용하므로 서버가 문서를 전달한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>GET은 클라이언트가 서버에게 문서를 요청할 때 사용한다.</choice_text>
-          <commentary>GET의 설명으로 옳다.</commentary>
+          <commentary>GET은 클라이언트가 서버에 문서를 요청할 때 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>HEAD는 클라이언트가 문서 자체가 아니라 문서에 대한 정보를 원할 때 사용한다.</choice_text>
-          <commentary>HEAD의 설명으로 옳다.</commentary>
+          <commentary>HEAD는 본문 없이 문서에 대한 헤더 정보만 요청할 때 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>TRACE는 클라이언트가 검사 목적으로 서버에게 정보 반환을 요청하는 데 사용한다.</choice_text>
-          <commentary>TRACE의 설명으로 옳다.</commentary>
+          <commentary>TRACE는 요청이 서버까지 어떻게 전달되는지 검사하기 위해 요청을 되돌려 받는 데 사용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -208,19 +208,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (다)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>공격자의 질의 확인과 위조 응답 전송이 클라이언트의 인식보다 먼저 일어나야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(나) → (가) → (다)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>위조 응답을 보내기 전에 스니핑으로 질의를 확인해야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(나) → (다) → (가)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>질의 확인(다)이 위조 응답 전송(나)보다 앞서야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(다) → (나) → (가)</choice_text>
-          <commentary>(다) → (나) → (가)이므로 정답이다.</commentary>
+          <commentary>질의 확인(다) → 위조 응답 전송(나) → 클라이언트의 인식(가) 순이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -241,19 +241,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>S/KEY 방식</choice_text>
-          <commentary>S/KEY 방식이므로 정답이다.</commentary>
+          <commentary>비밀값에 해시 함수를 반복 적용한 해시 체인으로 OTP를 생성하는 것은 S/KEY 방식이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>시간 동기화 방식</choice_text>
-          <commentary>시간 동기화는 시각을 입력값으로 한다.</commentary>
+          <commentary>시간 동기화 방식은 서버와 토큰의 시각을 기준으로 OTP를 생성한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>이벤트 동기화 방식</choice_text>
-          <commentary>이벤트 동기화는 카운터를 입력값으로 한다.</commentary>
+          <commentary>이벤트 동기화 방식은 인증 횟수 카운터를 기준으로 OTP를 생성한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>챌린지－응답 방식</choice_text>
-          <commentary>챌린지-응답은 서버의 난수에 응답한다.</commentary>
+          <commentary>챌린지-응답 방식은 서버가 보낸 난수에 대한 응답값을 OTP로 사용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -274,19 +274,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>WPA는 WEP의 보안 취약점을 보완하기 위해 제안되었다.</choice_text>
-          <commentary>WEP 보완 목적으로 옳다.</commentary>
+          <commentary>WPA는 WEP의 보안 취약점을 보완하기 위해 제안되었으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>WPA의 TKIP는 암호 알고리즘으로 AES를 사용한다.</choice_text>
-          <commentary>TKIP는 RC4를 사용하므로 옳지 않아 정답이다.</commentary>
+          <commentary>TKIP는 RC4 암호를 사용하며 키를 동적으로 바꾼다. AES는 WPA2의 CCMP에서 사용하므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>WPA-EAP는 인증을 위해서 RADIUS 서버를 이용할 수 있다.</choice_text>
-          <commentary>802.1X/EAP 인증에 RADIUS를 사용하므로 옳다.</commentary>
+          <commentary>WPA-EAP(엔터프라이즈)는 인증을 위해 RADIUS 서버를 이용할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>WPA-PSK는 사전에 공유된 비밀키를 사용한다.</choice_text>
-          <commentary>사전 공유키 방식으로 옳다.</commentary>
+          <commentary>WPA-PSK는 사전에 공유한 비밀키를 사용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -311,19 +311,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>스머프(Smurf) 공격은 발신지 주소가 거짓으로 조작된 ICMP 패킷을 받은 네트워크의 많은 컴퓨터들이 발신지 주소로 응답을 보내게 하여 트래픽 범람을 일으키는 것이다.</choice_text>
-          <commentary>스머프 공격의 설명으로 옳다.</commentary>
+          <commentary>스머프 공격은 발신지를 피해자로 위조한 ICMP를 브로드캐스트하여 응답이 피해자에게 몰리게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>티어드롭(Teardrop) 공격은 IP 패킷 헤더 정보를 조작해서 패킷 조각(fragment)이 중첩되도록 보내어 이를 전달받은 시스템의 IP 패킷 재조합 과정에서 오류를 발생시킨다.</choice_text>
-          <commentary>티어드롭 공격의 설명으로 옳다.</commentary>
+          <commentary>티어드롭 공격은 조각의 오프셋을 중첩되게 조작하여 재조합 오류를 일으키므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>슬로로리스(Slowloris) 공격은 HTTP 메시지 헤더의 Content-Length 필드에 임의의 큰 값을 설정하여 웹 서버가 클라이언트에서 해당 크기의 메시지를 전송할 때까지 연결을 유지하게 함으로써 정상적인 사용자의 접속을 받아들일 수 없게 하는 것이다.</choice_text>
-          <commentary>Slow HTTP POST의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>슬로로리스는 헤더 끝의 빈 줄을 보내지 않고 불완전한 헤더로 연결을 유지시키는 공격이며 Content-Length를 크게 설정하는 것은 RUDY 공격이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>HTTP GET 플러딩 공격은 정상적인 TCP 세션과 함께 정상적으로 보이는 과도한 HTTP GET을 요청받은 웹 서버에 과부하가 걸리게 한다.</choice_text>
-          <commentary>HTTP GET 플러딩의 설명으로 옳다.</commentary>
+          <commentary>HTTP GET 플러딩은 정상 세션으로 과도한 GET 요청을 보내 웹 서버에 과부하를 일으키므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -345,19 +345,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>IPSec 전송모드</choice_text>
-          <commentary>전송모드는 새 IP 헤더를 추가하지 않는다.</commentary>
+          <commentary>IPSec 전송모드는 원래 IP 헤더를 유지하고 페이로드만 보호하므로 새 IP 헤더를 추가하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>IPSec 터널모드</choice_text>
-          <commentary>IPSec 터널모드이므로 정답이다.</commentary>
+          <commentary>네트워크 레벨의 보안 프로토콜 모음은 IPSec이고, 새 IP 헤더를 추가하는 것은 터널모드이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>TLS 전송모드</choice_text>
-          <commentary>TLS는 네트워크 계층 프로토콜이 아니다.</commentary>
+          <commentary>TLS는 전송 계층 위에서 동작하는 보안 프로토콜로 네트워크 레벨의 패킷 보안 프로토콜이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>TLS 터널모드</choice_text>
-          <commentary>TLS는 네트워크 계층 프로토콜이 아니다.</commentary>
+          <commentary>TLS는 전송모드와 터널모드를 구분하지 않으므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -378,19 +378,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>CSMA/CD 2</choice_text>
-          <commentary>CSMA/CD는 유선 이더넷 방식이다.</commentary>
+          <commentary>무선랜은 충돌 감지가 어려워 CSMA/CD가 아닌 CSMA/CA를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>CSMA/CD 4</choice_text>
-          <commentary>CSMA/CD는 유선 이더넷 방식이다.</commentary>
+          <commentary>CSMA/CD는 유선 이더넷의 매체 접속 방식이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>CSMA/CA 2</choice_text>
-          <commentary>주소 필드는 4개이다.</commentary>
+          <commentary>CSMA/CA는 맞지만 802.11 MAC 프레임의 주소 필드는 최대 4개이므로 2개는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>CSMA/CA 4</choice_text>
-          <commentary>CSMA/CA, 4이므로 정답이다.</commentary>
+          <commentary>매체 접속은 CSMA/CA이고 MAC 프레임에는 4개의 주소 필드가 있으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -411,19 +411,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>난수</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>난수는 키 생성에 사용되도록 client_hello에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>클라이언트가 지원하는 암호 그룹(Cipher Suite) 목록</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>클라이언트가 지원하는 암호 그룹 목록은 client_hello에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>클라이언트가 지원하는 압축 방식 목록</choice_text>
-          <commentary>포함된다.</commentary>
+          <commentary>클라이언트가 지원하는 압축 방식 목록은 client_hello에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>인증서</choice_text>
-          <commentary>포함되지 않으므로 정답이다.</commentary>
+          <commentary>인증서는 서버가 Certificate 메시지로 보내는 것이므로 client_hello에 포함되지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -445,19 +445,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Broadcast Full-duplex</choice_text>
-          <commentary>㉡이 틀렸다.</commentary>
+          <commentary>(가) Broadcast는 맞지만 공격자의 NIC는 Full-duplex가 아닌 무차별 모드로 설정해야 한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Broadcast Promiscuous</choice_text>
-          <commentary>Broadcast, Promiscuous이므로 정답이다.</commentary>
+          <commentary>MAC 테이블이 가득 찬 스위치는 브로드캐스트 모드로 동작하고 공격자는 NIC를 Promiscuous 모드로 설정하여 패킷을 수집하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Unicast Full-duplex</choice_text>
-          <commentary>㉠, ㉡이 모두 틀렸다.</commentary>
+          <commentary>MAC 테이블이 가득 찬 스위치는 유니캐스트가 아니라 브로드캐스트로 동작하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Unicast Promiscuous</choice_text>
-          <commentary>㉠이 틀렸다.</commentary>
+          <commentary>Promiscuous는 맞지만 스위치의 동작은 Unicast가 아니라 Broadcast이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -481,19 +481,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>213 102 103 214</choice_text>
-          <commentary>ack 값이 틀렸다.</commentary>
+          <commentary>SYN-ACK의 ack는 클라이언트 seq + 1인 103이어야 하므로 102는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>102 103 103 214</choice_text>
-          <commentary>서버의 seq가 클라이언트와 같을 수 없고 ack도 틀렸다.</commentary>
+          <commentary>서버 seq를 102로 두면 클라이언트의 마지막 ack는 103이어야 하는데 214로 되어 있어 일관되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>103 102 213 214</choice_text>
-          <commentary>값이 틀렸다.</commentary>
+          <commentary>SYN-ACK의 ack가 102로 되어 있고 클라이언트 seq도 213이 되어 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>330 103 103 331</choice_text>
-          <commentary>330, 103, 103, 331이므로 정답이다.</commentary>
+          <commentary>서버 seq 330, ack 102 + 1 = 103, 클라이언트 seq 103, ack 330 + 1 = 331이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -514,19 +514,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SEED는 128비트의 블록 암호 알고리즘이며, SEED 128과 SEED 256의 키 길이는 각각 128비트와 256비트이다.</choice_text>
-          <commentary>SEED의 설명으로 옳다.</commentary>
+          <commentary>SEED는 128비트 블록 암호로 SEED 128과 SEED 256의 키 길이가 각각 128비트와 256비트이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>HIGHT는 경량 환경 및 하드웨어의 효율성 향상을 위해 개발된 128비트의 블록 암호 알고리즘이다.</choice_text>
-          <commentary>HIGHT는 64비트 블록이므로 옳지 않아 정답이다.</commentary>
+          <commentary>HIGHT는 64비트 블록, 128비트 키를 사용하는 경량 블록 암호이므로 128비트 블록이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DES는 64비트의 블록 암호 알고리즘으로 16라운드로 구성되어 있다.</choice_text>
-          <commentary>DES의 설명으로 옳다.</commentary>
+          <commentary>DES는 64비트 블록 암호로 16라운드로 구성되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>LEA는 국내에서 개발된 128비트의 블록 암호 알고리즘으로 128비트, 192비트, 256비트의 비밀키를 사용할 수 있다.</choice_text>
-          <commentary>LEA의 설명으로 옳다.</commentary>
+          <commentary>LEA는 국내에서 개발된 128비트 블록 암호로 128, 192, 256비트 키를 사용하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -547,19 +547,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IP 보안에서 메시지 인증 목적으로 사용된다.</choice_text>
-          <commentary>IPSec 메시지 인증으로 옳다.</commentary>
+          <commentary>HMAC은 IPSec에서 메시지 인증에 사용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>MD5, SHA-1, RIPEMD-160과 같은 해시 함수를 내장하고 있다.</choice_text>
-          <commentary>내장 해시 함수로 옳다.</commentary>
+          <commentary>HMAC은 MD5, SHA-1, RIPEMD-160 등의 해시 함수를 내장하여 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>비밀키를 적용한 블록 암호화와 해시 함수를 사용해서 결과를 산출한다.</choice_text>
-          <commentary>블록 암호를 쓰지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>HMAC은 비밀키와 해시 함수만으로 결과를 산출하며 블록 암호를 사용하는 것은 CMAC 등이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>IEEE 802.11i의 의사 난수 생성 과정에 사용된다.</choice_text>
-          <commentary>PRF 생성에 사용되므로 옳다.</commentary>
+          <commentary>HMAC은 IEEE 802.11i의 의사 난수 생성 과정에 사용되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -581,19 +581,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>DNS 응답 메시지에 대한 기밀성을 제공한다.</choice_text>
-          <commentary>기밀성은 제공하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>DNSSEC은 데이터를 암호화하지 않으므로 기밀성을 제공하지 않아 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>DNS 데이터에 공개키 기반 전자서명을 추가하여 데이터의 무결성을 제공한다.</choice_text>
-          <commentary>전자서명에 의한 무결성으로 옳다.</commentary>
+          <commentary>DNS 데이터에 공개키 전자서명을 추가하여 무결성을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DNS 응답 수신자(resolver)는 수신한 데이터에 대한 서명을 검증한다.</choice_text>
-          <commentary>리졸버의 서명 검증으로 옳다.</commentary>
+          <commentary>리졸버가 수신 데이터의 서명을 검증하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>DNSSEC는 DNS 캐시 포이즈닝 공격을 방어하도록 설계되었다.</choice_text>
-          <commentary>캐시 포이즈닝 방어로 옳다.</commentary>
+          <commentary>DNSSEC은 DNS 캐시 포이즈닝 공격을 방어하도록 설계되었으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -614,19 +614,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Handshake 페이로드 길이 확인</choice_text>
-          <commentary>Handshake 프로토콜이 아니다.</commentary>
+          <commentary>하트블리드는 Handshake가 아니라 Heartbeat 확장의 취약점이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Handshake 사용자 인증</choice_text>
-          <commentary>프로토콜과 원인이 모두 틀렸다.</commentary>
+          <commentary>Handshake와 사용자 인증 모두 하트블리드의 원인과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Heartbeat 페이로드 길이 확인</choice_text>
-          <commentary>Heartbeat, 페이로드 길이 확인이므로 정답이다.</commentary>
+          <commentary>Heartbeat 요청에서 페이로드 길이를 확인하지 않아 서버 메모리가 유출되는 취약점이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Heartbeat 사용자 인증</choice_text>
-          <commentary>사용자 인증 문제가 아니다.</commentary>
+          <commentary>Heartbeat는 맞지만 문제의 원인은 사용자 인증이 아니라 페이로드 길이 확인의 누락이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -647,19 +647,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SSH는 안전한 원격 로그온 기능을 제공하기 위해 설계되었다.</choice_text>
-          <commentary>원격 로그온 목적이므로 옳다.</commentary>
+          <commentary>SSH는 안전한 원격 로그온을 위해 설계되었으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>사용자 인증 프로토콜을 통해 사용자가 서버에게 인증받는다.</choice_text>
-          <commentary>사용자 인증 프로토콜로 옳다.</commentary>
+          <commentary>사용자 인증 프로토콜로 사용자가 서버에 인증받으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>포트 전달을 통해 임의의 안전하지 않은 TCP 연결을 안전한 SSH 연결로 변환시킬 수 있다.</choice_text>
-          <commentary>포트 전달 기능으로 옳다.</commentary>
+          <commentary>포트 전달로 안전하지 않은 TCP 연결을 SSH 연결로 보호할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>전송 계층 프로토콜은 하나의 SSH 연결을 여러 개의 논리적 통신 채널로 다중화한다.</choice_text>
-          <commentary>다중화는 연결 프로토콜의 기능이므로 옳지 않아 정답이다.</commentary>
+          <commentary>하나의 SSH 연결을 여러 논리 채널로 다중화하는 것은 연결 프로토콜이므로 전송 계층 프로토콜이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

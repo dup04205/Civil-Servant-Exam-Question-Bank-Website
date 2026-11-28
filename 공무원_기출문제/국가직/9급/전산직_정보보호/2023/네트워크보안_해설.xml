@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ICMP</choice_text>
-          <commentary>ICMP이므로 정답이다.</commentary>
+          <commentary>IP 전송 오류의 원인을 송신 호스트에 알리고 라우터가 자동으로 메시지를 생성하는 네트워크 계층 프로토콜은 ICMP이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IGMP</choice_text>
-          <commentary>IGMP는 멀티캐스트 그룹 관리 프로토콜이다.</commentary>
+          <commentary>IGMP는 멀티캐스트 그룹 가입과 탈퇴를 관리하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ARP</choice_text>
-          <commentary>ARP는 MAC 주소를 알아내는 프로토콜이다.</commentary>
+          <commentary>ARP는 IP 주소에 대응하는 MAC 주소를 구하는 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>FTP</choice_text>
-          <commentary>FTP는 파일 전송용 응용 계층 프로토콜이다.</commentary>
+          <commentary>FTP는 파일 전송을 위한 응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -70,19 +70,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>요청 문서 URL</choice_text>
-          <commentary>암호화된다.</commentary>
+          <commentary>요청 문서의 URL 경로는 HTTP 메시지에 포함되어 TLS로 암호화된다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>문서의 내용</choice_text>
-          <commentary>암호화된다.</commentary>
+          <commentary>문서의 내용은 HTTP 본문으로 암호화된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>포트 번호</choice_text>
-          <commentary>포트 번호는 암호화되지 않으므로 정답이다.</commentary>
+          <commentary>포트 번호는 TCP 헤더에 있는 하위 계층 정보이므로 HTTPS로 암호화되지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>HTTP 헤더의 내용</choice_text>
-          <commentary>암호화된다.</commentary>
+          <commentary>HTTP 헤더의 내용은 TLS 레코드 안에서 암호화된다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>MIT에서 개발되어 공공 및 상업 영역에서 사용된다.</choice_text>
-          <commentary>MIT 개발로 옳다.</commentary>
+          <commentary>커버로스는 MIT에서 개발되어 공공과 상업 영역에서 사용되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>신뢰하는 제3자 인증 서비스를 사용한다.</choice_text>
-          <commentary>제3자 인증으로 옳다.</commentary>
+          <commentary>커버로스는 신뢰하는 제3자인 키분배센터의 인증 서비스를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>클라이언트, 응용 서버, 커버로스 서버(키분배센터)로 구성된다.</choice_text>
-          <commentary>구성 요소로 옳다.</commentary>
+          <commentary>클라이언트, 응용 서버, 커버로스 서버(키분배센터)로 구성되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>원격 인증에 사용하기에는 부적절하다.</choice_text>
-          <commentary>원격 인증을 위해 설계되었으므로 옳지 않아 정답이다.</commentary>
+          <commentary>커버로스는 분산 환경의 원격 인증을 위해 설계되었으므로 부적절하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>네트워크 트래픽에서 데이터를 도청하는 수동적 공격이다.</choice_text>
-          <commentary>수동적 도청 공격이므로 정답이다.</commentary>
+          <commentary>스니핑은 네트워크 트래픽을 몰래 엿보는 수동적 공격이므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>네트워크 장비에 대량의 트래픽을 전송하여 서비스를 중단시키는 공격이다.</choice_text>
-          <commentary>DoS 공격이다.</commentary>
+          <commentary>대량 트래픽으로 서비스를 중단시키는 것은 서비스 거부 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>공격자가 다른 사용자의 IP 주소를 사용하여 네트워크에 접근하는 공격이다.</choice_text>
-          <commentary>IP 스푸핑이다.</commentary>
+          <commentary>다른 사용자의 IP 주소를 사용하는 것은 IP 스푸핑이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>공격자가 특정 값을 찾아내기 위해 모든 조합을 시도하는 공격이다.</choice_text>
-          <commentary>무차별 대입 공격이다.</commentary>
+          <commentary>모든 조합을 시도하는 것은 무차별 대입 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>BSS(Business Support System)</choice_text>
-          <commentary>BSS는 사업 지원 시스템이다.</commentary>
+          <commentary>BSS는 고객 관리, 과금 등 통신 사업자의 비즈니스를 지원하는 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>OSS(Operation Support System)</choice_text>
-          <commentary>OSS는 운영 지원 시스템이다.</commentary>
+          <commentary>OSS는 네트워크 운영과 장애 관리 등 통신 사업자의 운영을 지원하는 시스템이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>SDN(Software Defined Networking)</choice_text>
-          <commentary>SDN이므로 정답이다.</commentary>
+          <commentary>제어 평면과 데이터 평면을 분리하고 OpenFlow 등으로 네트워크를 프로그래밍하는 기술은 SDN이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>MPLS(Multi-Protocol Label Switching)</choice_text>
-          <commentary>MPLS는 레이블 기반 고속 전달 기술이다.</commentary>
+          <commentary>MPLS는 레이블을 붙여 고속으로 패킷을 전달하는 기술이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -205,19 +205,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ESP 공격</choice_text>
-          <commentary>IPSec 관련이므로 정답이다.</commentary>
+          <commentary>ESP는 IPSec의 프로토콜이므로 SSL/TLS 공격 유형에 해당하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>PKI 공격</choice_text>
-          <commentary>SSL/TLS 공격 유형이다.</commentary>
+          <commentary>PKI 공격은 인증서 위조 등 신뢰 체계를 노리는 SSL/TLS 공격 유형이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>레코드와 응용 데이터 프로토콜 공격</choice_text>
-          <commentary>SSL/TLS 공격 유형이다.</commentary>
+          <commentary>레코드와 응용 데이터 프로토콜 공격은 SSL/TLS 공격 유형이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>핸드셰이크 프로토콜 공격</choice_text>
-          <commentary>SSL/TLS 공격 유형이다.</commentary>
+          <commentary>핸드셰이크 프로토콜 공격은 협상 과정을 노리는 SSL/TLS 공격 유형이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -238,19 +238,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>POP3는 서버로부터 메일을 다운로드하는 기능을 제공한다.</choice_text>
-          <commentary>메일 다운로드 기능으로 옳다.</commentary>
+          <commentary>POP3는 서버로부터 메일을 다운로드하는 기능을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>POP3 서버의 well-known 포트는 25번이다.</choice_text>
-          <commentary>110번이므로 옳지 않아 정답이다.</commentary>
+          <commentary>POP3의 well-known 포트는 110번이며 25번은 SMTP 포트이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>＋OK 응답은 요구한 명령을 성공적으로 처리했음을 의미한다.</choice_text>
-          <commentary>+OK 응답의 의미로 옳다.</commentary>
+          <commentary>+OK 응답은 명령을 성공적으로 처리했음을 의미하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>POP3 클라이언트와 서버는 명령과 응답으로 동작한다.</choice_text>
-          <commentary>명령-응답 방식으로 옳다.</commentary>
+          <commentary>POP3 클라이언트와 서버는 명령과 응답으로 동작하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -272,19 +272,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>‘Flags’는 단편화(fragmentation)와 관련이 있는 필드이다.</choice_text>
-          <commentary>단편화 관련 필드로 옳다.</commentary>
+          <commentary>Flags 필드는 단편화 허용 여부와 추가 단편 존재를 표시하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>‘Time To Live’는 데이터그램이 방문할 수 있는 최대 라우터의 수를 나타내는 필드이다.</choice_text>
-          <commentary>TTL의 설명으로 옳다.</commentary>
+          <commentary>TTL은 데이터그램이 거칠 수 있는 최대 라우터 수를 나타내므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>‘Total Length’는 헤더를 제외한 IP 데이터그램의 길이를 나타내는 필드이다.</choice_text>
-          <commentary>헤더를 포함한 전체 길이이므로 옳지 않아 정답이다.</commentary>
+          <commentary>Total Length는 헤더를 포함한 데이터그램 전체 길이이므로 헤더를 제외한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>‘Protocol’은 IP 계층의 서비스를 사용하는 상위 계층 프로토콜을 나타내는 필드이다.</choice_text>
-          <commentary>Protocol의 설명으로 옳다.</commentary>
+          <commentary>Protocol 필드는 상위 계층 프로토콜을 나타내므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -309,19 +309,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>장애 관리</choice_text>
-          <commentary>장애 관리는 장애 탐지와 복구이다.</commentary>
+          <commentary>장애 관리는 네트워크 장애를 탐지·격리·복구하는 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>구성 관리</choice_text>
-          <commentary>구성 관리는 장비 구성 정보 관리이다.</commentary>
+          <commentary>구성 관리는 네트워크 장비와 구성 정보를 관리하는 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>성능 관리</choice_text>
-          <commentary>성능 관리이므로 정답이다.</commentary>
+          <commentary>통계 수집과 성능 측정으로 지연 시간, 대역폭, 처리율을 관리하는 것은 성능 관리이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>보안 관리</choice_text>
-          <commentary>보안 관리는 접근 통제와 보호이다.</commentary>
+          <commentary>보안 관리는 접근 통제와 보안 정책을 관리하는 기능이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -346,19 +346,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>등록(registration)</choice_text>
-          <commentary>종단 개체-CA 간 기능이다.</commentary>
+          <commentary>등록은 종단 개체가 CA에 자신을 알리는 관리 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>키 쌍 복구(key pair recovery)</choice_text>
-          <commentary>종단 개체-CA 간 기능이다.</commentary>
+          <commentary>키 쌍 복구는 분실한 키를 복구하는 종단 개체와 CA 간 관리 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>키 쌍 갱신(key pair update)</choice_text>
-          <commentary>종단 개체-CA 간 기능이다.</commentary>
+          <commentary>키 쌍 갱신은 만료된 키를 새 키로 교체하는 종단 개체와 CA 간 관리 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>교차 인증(cross-certification)</choice_text>
-          <commentary>CA 간 기능이므로 정답이다.</commentary>
+          <commentary>교차 인증은 CA와 CA 사이의 관리 기능이므로 종단 개체와 CA 간 기능이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -382,19 +382,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>보호되지 않는 무선 공유기의 사용을 금지한다.</choice_text>
-          <commentary>예방 방법이다.</commentary>
+          <commentary>보호되지 않는 무선 공유기 사용을 금지하는 것은 적절한 예방 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>스마트폰 환경 설정에서 알 수 없는 출처 앱 설치 기능을 허용한다.</choice_text>
-          <commentary>허용하면 위험하므로 옳지 않아 정답이다.</commentary>
+          <commentary>알 수 없는 출처의 앱 설치를 허용하면 악성 앱이 쉽게 설치되므로 예방 방법이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>모바일 백신을 설치하여 스마트폰의 보안 상태를 주기적으로 점검한다.</choice_text>
-          <commentary>예방 방법이다.</commentary>
+          <commentary>모바일 백신으로 보안 상태를 점검하는 것은 적절한 예방 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>스마트폰 운영체제를 항상 최신 버전으로 업데이트하여 보안상 취약점이 없도록 관리한다.</choice_text>
-          <commentary>예방 방법이다.</commentary>
+          <commentary>운영체제를 최신 버전으로 유지하는 것은 적절한 예방 방법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -418,19 +418,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>SSO</choice_text>
-          <commentary>SSO는 통합 인증이다.</commentary>
+          <commentary>SSO는 한 번의 인증으로 여러 시스템에 접근하게 하는 통합 인증 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>VLAN</choice_text>
-          <commentary>VLAN은 논리적 네트워크 분할이다.</commentary>
+          <commentary>VLAN은 물리적 네트워크를 논리적으로 분할하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>DLP</choice_text>
-          <commentary>DLP는 데이터 유출 방지이다.</commentary>
+          <commentary>DLP는 내부 정보의 외부 유출을 탐지·차단하는 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Firewall</choice_text>
-          <commentary>방화벽이므로 정답이다.</commentary>
+          <commentary>규칙에 따라 패킷을 차단·허용하고 패킷 필터링과 프록시 방식이 있는 것은 방화벽이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -453,19 +453,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (다) → (라)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>탐색이 인증보다 먼저 이루어지므로 인증을 처음에 둔 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (라) → (다)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>탐색이 인증보다 앞서야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>(나) → (가) → (라) → (다)</choice_text>
-          <commentary>(나) → (가) → (라) → (다)이므로 정답이다.</commentary>
+          <commentary>탐색 → 인증 → 키 생성 및 분배 → 안전 데이터 전송 순이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(나) → (라) → (가) → (다)</choice_text>
-          <commentary>키 생성은 인증 뒤에 이루어진다.</commentary>
+          <commentary>키 생성 및 분배는 인증을 거친 뒤에 이루어지므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -486,19 +486,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>MIB</choice_text>
-          <commentary>MIB이므로 정답이다.</commentary>
+          <commentary>관리 대상 장치의 객체 정보를 저장하는 저장소는 MIB이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Community</choice_text>
-          <commentary>Community는 SNMP v1/v2c의 인증 문자열이다.</commentary>
+          <commentary>Community는 SNMP v1/v2c에서 접근을 인증하는 문자열이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PDU</choice_text>
-          <commentary>PDU는 메시지 단위이다.</commentary>
+          <commentary>PDU는 SNMP 메시지의 데이터 단위이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Agent</choice_text>
-          <commentary>Agent는 관리 대상 장치의 SNMP 프로그램이다.</commentary>
+          <commentary>Agent는 관리 대상 장치에서 정보를 제공하는 소프트웨어이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -522,19 +522,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DNS 스푸핑 공격</choice_text>
-          <commentary>DNS 응답 위조 공격이다.</commentary>
+          <commentary>DNS 스푸핑은 위조된 DNS 응답으로 잘못된 IP 주소로 유도하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>E-mail 스푸핑 공격</choice_text>
-          <commentary>발신자 주소 위조 공격이다.</commentary>
+          <commentary>E-mail 스푸핑은 발신자 주소를 위조하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>IP 스푸핑 공격</choice_text>
-          <commentary>IP 주소 위조 공격이다.</commentary>
+          <commentary>IP 스푸핑은 출발지 IP 주소를 위조하는 공격으로 라우터로 위장하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ICMP 리다이렉트 공격</choice_text>
-          <commentary>ICMP 리다이렉트 공격이므로 정답이다.</commentary>
+          <commentary>자신을 다른 라우터라고 알려 패킷의 흐름을 바꾸는 것은 ICMP 리다이렉트 공격이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -558,19 +558,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>VWXGB</choice_text>
-          <commentary>VWXGB이므로 정답이다.</commentary>
+          <commentary>S → V, T → W, U → X, D → G, Y → (24 + 3) mod 26 = 1 → B이므로 VWXGB가 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>UVWFA</choice_text>
-          <commentary>2칸 이동한 결과이다.</commentary>
+          <commentary>UVWFA는 각 문자를 2만큼 이동한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>TUVEZ</choice_text>
-          <commentary>1칸 이동한 결과이다.</commentary>
+          <commentary>TUVEZ는 각 문자를 1만큼 이동한 결과이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>VWXFN</choice_text>
-          <commentary>마지막 두 글자가 틀렸다.</commentary>
+          <commentary>D는 G, Y는 B가 되어야 하므로 F와 N은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -591,19 +591,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>RSA 기법</choice_text>
-          <commentary>인증서를 사용한다.</commentary>
+          <commentary>RSA 기법은 서버가 인증서로 공개키를 전달하므로 Certificate 메시지를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Anonymous DH 기법</choice_text>
-          <commentary>인증서를 사용하지 않으므로 정답이다.</commentary>
+          <commentary>Anonymous DH는 인증서 없이 DH 공개값만 보내므로 Certificate 메시지를 사용하지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Ephermeral DH 기법</choice_text>
-          <commentary>서명 검증용 인증서를 사용한다.</commentary>
+          <commentary>Ephemeral DH는 임시 DH 값에 서명하고 그 서명 검증을 위해 인증서를 사용한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Fixed DH 기법</choice_text>
-          <commentary>DH 공개값이 담긴 인증서를 사용한다.</commentary>
+          <commentary>Fixed DH는 서버의 DH 공개값이 인증서에 들어 있어 Certificate 메시지를 사용한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -624,19 +624,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>서명된 문서는 기밀성이 보장된다.</choice_text>
-          <commentary>기밀성은 보장하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>전자 서명은 문서를 암호화하지 않으므로 기밀성은 보장되지 않아 옳지 않으므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>서명된 문서는 데이터가 변조되지 않았음을 보장하는 무결성을 만족한다.</choice_text>
-          <commentary>무결성 보장으로 옳다.</commentary>
+          <commentary>서명된 문서는 변조 여부를 검증할 수 있어 무결성을 만족하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>한 번 생성된 서명을 다른 문서의 서명으로 사용할 수 없다.</choice_text>
-          <commentary>재사용 불가로 옳다.</commentary>
+          <commentary>서명은 문서의 해시에 의존하므로 다른 문서에 재사용할 수 없어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>전자 서명과 관련된 표준으로 DSS가 있다.</choice_text>
-          <commentary>전자서명 표준 DSS로 옳다.</commentary>
+          <commentary>DSS는 미국 NIST의 전자 서명 표준이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -657,19 +657,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>ARP 방식은 차단하려는 단말에 ARP 스푸핑 패킷을 보내 네트워크 접근을 제어한다.</choice_text>
-          <commentary>ARP 방식의 설명으로 옳다.</commentary>
+          <commentary>ARP 방식은 차단 대상 단말에 ARP 스푸핑 패킷을 보내 접근을 제어하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>802.1x 방식은 802.1x RADIUS 서버와 802.1x를 지원하는 스위치가 필요하다.</choice_text>
-          <commentary>802.1X 방식의 요건으로 옳다.</commentary>
+          <commentary>802.1x 방식은 RADIUS 서버와 802.1x 지원 스위치가 필요하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>소프트웨어 에이전트 설치 방식은 네트워크에 접속하려는 모든 클라이언트에 에이전트를 설치할 필요는 없다.</choice_text>
-          <commentary>모든 단말에 설치해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>에이전트 설치 방식은 접속하는 모든 단말에 에이전트를 설치해야 통제할 수 있으므로 설치할 필요가 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>VLAN 방식은 인가받지 않은 클라이언트가 인가된 클라이언트와는 다른 별도의 VLAN으로 격리된다.</choice_text>
-          <commentary>VLAN 격리 방식으로 옳다.</commentary>
+          <commentary>VLAN 방식은 인가받지 않은 단말을 별도의 VLAN으로 격리하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -690,19 +690,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>네트워크 계층에서 동작하는 보안 프로토콜이다.</choice_text>
-          <commentary>네트워크 계층 보안 프로토콜로 옳다.</commentary>
+          <commentary>IPSec은 네트워크 계층에서 동작하는 보안 프로토콜이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>트래픽을 암호화하고, 무결성을 보장하며, 인증을 제공한다.</choice_text>
-          <commentary>보안 기능으로 옳다.</commentary>
+          <commentary>IPSec은 암호화, 무결성, 인증을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>전송 모드와 터널 모드가 있다.</choice_text>
-          <commentary>두 가지 모드로 옳다.</commentary>
+          <commentary>IPSec에는 전송 모드와 터널 모드가 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>IPSec에서 AH 프로토콜은 페이로드 데이터를 암호화한다.</choice_text>
-          <commentary>AH는 암호화하지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>AH는 무결성과 인증만 제공하고 암호화는 ESP가 담당하므로 AH가 페이로드를 암호화한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

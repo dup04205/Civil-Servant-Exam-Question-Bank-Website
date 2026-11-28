@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>가용성</choice_text>
-          <commentary>가용성이므로 정답이다.</commentary>
+          <commentary>DoS 공격은 자원을 고갈시켜 정당한 사용자가 서비스를 이용하지 못하게 하므로 가용성을 침해하여 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>기밀성</choice_text>
-          <commentary>기밀성은 정보 노출과 관련된다.</commentary>
+          <commentary>기밀성은 도청이나 스니핑처럼 정보를 몰래 엿보는 공격으로 침해된다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>무결성</choice_text>
-          <commentary>무결성은 정보 변조와 관련된다.</commentary>
+          <commentary>무결성은 정보를 위·변조하는 공격으로 침해된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>익명성</choice_text>
-          <commentary>익명성은 정보보안 3대 요소가 아니다.</commentary>
+          <commentary>익명성은 정보보안 3대 요소(기밀성, 무결성, 가용성)에 포함되지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>스캐닝(scanning)</choice_text>
-          <commentary>스캐닝이므로 정답이다.</commentary>
+          <commentary>스캐닝은 서버의 작동 여부와 열린 포트, 제공 서비스를 확인하는 행위이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>스미싱(SMishing)</choice_text>
-          <commentary>스미싱은 문자메시지 피싱이다.</commentary>
+          <commentary>스미싱은 문자 메시지로 악성 링크를 보내 정보를 탈취하는 사기 수법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>스위칭(switching)</choice_text>
-          <commentary>스위칭은 프레임 전달 기능이다.</commentary>
+          <commentary>스위칭은 MAC 주소를 기반으로 프레임을 특정 포트로 전달하는 기능이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>스풀링(SPOOLing)</choice_text>
-          <commentary>스풀링은 입출력 작업을 디스크에 모아 처리하는 기법이다.</commentary>
+          <commentary>스풀링은 입출력 데이터를 버퍼에 저장하여 처리 속도 차이를 줄이는 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -101,19 +101,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>FTP(File Transfer Protocol)</choice_text>
-          <commentary>응용 계층 프로토콜이다.</commentary>
+          <commentary>FTP는 파일 전송을 위한 응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>SCTP(Stream Control Transmission Protocol)</choice_text>
-          <commentary>전송 계층 프로토콜이므로 정답이다.</commentary>
+          <commentary>SCTP는 멀티스트리밍과 멀티호밍을 지원하는 전송 계층 프로토콜이므로 응용 계층 프로토콜이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>SMTP(Simple Mail Transfer Protocol)</choice_text>
-          <commentary>응용 계층 프로토콜이다.</commentary>
+          <commentary>SMTP는 메일 전송을 위한 응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>Telnet</choice_text>
-          <commentary>응용 계층 프로토콜이다.</commentary>
+          <commentary>Telnet은 원격 접속을 위한 응용 계층 프로토콜이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -135,19 +135,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>OID(Object IDentifier)</choice_text>
-          <commentary>OID는 객체 식별자이다.</commentary>
+          <commentary>OID는 SNMP MIB 등에서 객체를 식별하는 계층적 식별자이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSID(Service Set IDentifier)</choice_text>
-          <commentary>SSID이므로 정답이다.</commentary>
+          <commentary>SSID는 IEEE 802.11 무선랜에서 네트워크를 식별하는 이름이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>RFID(Radio Frequency IDentification)</choice_text>
-          <commentary>RFID는 무선 주파수 식별 기술이다.</commentary>
+          <commentary>RFID는 무선 주파수로 태그를 인식하는 자동 식별 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>NIDS(Network-based Intrusion Detection System)</choice_text>
-          <commentary>NIDS는 네트워크 기반 침입탐지시스템이다.</commentary>
+          <commentary>NIDS는 네트워크 기반 침입 탐지 시스템이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -171,19 +171,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>DRM</choice_text>
-          <commentary>DRM은 디지털 저작권 관리이다.</commentary>
+          <commentary>DRM은 디지털 콘텐츠의 불법 복제와 사용을 막는 저작권 보호 기술이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>SSO</choice_text>
-          <commentary>SSO이므로 정답이다.</commentary>
+          <commentary>한 번의 인증으로 여러 시스템에 재인증 없이 접근하게 하는 것은 SSO이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>SET</choice_text>
-          <commentary>SET는 전자상거래 결제 보안 프로토콜이다.</commentary>
+          <commentary>SET은 신용카드 기반 전자상거래의 안전한 결제를 위한 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PGP</choice_text>
-          <commentary>PGP는 이메일 보안 프로그램이다.</commentary>
+          <commentary>PGP는 전자우편의 암호화와 전자서명을 제공하는 보안 프로그램이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -205,19 +205,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>원격 접속 시 SSH 사용</choice_text>
-          <commentary>원격 접속 암호화로 대책이다.</commentary>
+          <commentary>SSH는 원격 접속 내용을 암호화하여 스니핑 피해를 막으므로 적절한 대책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>웹 환경에서 HTTPS 사용</choice_text>
-          <commentary>웹 통신 암호화로 대책이다.</commentary>
+          <commentary>HTTPS는 웹 통신을 암호화하므로 적절한 대책이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>스위치 대신 더미 허브 사용</choice_text>
-          <commentary>스니핑을 쉽게 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>더미 허브는 모든 포트로 패킷을 브로드캐스트하여 스니핑을 쉽게 하므로 대책이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>이메일 환경에서 S/MIME 사용</choice_text>
-          <commentary>이메일 암호화로 대책이다.</commentary>
+          <commentary>S/MIME은 이메일을 암호화하고 서명하므로 적절한 대책이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -240,19 +240,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>PoS(Proof of Stake)</choice_text>
-          <commentary>PoS이므로 정답이다.</commentary>
+          <commentary>보유 지분율에 비례하여 의사결정 권한을 주는 합의 알고리즘은 PoS이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>PoW(Proof of Work)</choice_text>
-          <commentary>작업증명이다.</commentary>
+          <commentary>PoW는 연산 작업량을 증명한 노드에게 블록 생성 권한을 주는 합의 알고리즘이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>PRNG(Pseudo-Random Number Generator)</choice_text>
-          <commentary>의사난수 생성기이다.</commentary>
+          <commentary>PRNG는 의사 난수를 생성하는 알고리즘으로 합의 알고리즘이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>PBFT(Practical Byzantine Fault Tolerance)</choice_text>
-          <commentary>비잔틴 장애 허용 합의이다.</commentary>
+          <commentary>PBFT는 노드 간 투표로 비잔틴 장애를 허용하며 합의하는 알고리즘이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -363,19 +363,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Smurf 공격</choice_text>
-          <commentary>Smurf는 ICMP 브로드캐스트를 이용한다.</commentary>
+          <commentary>Smurf 공격은 브로드캐스트 주소로 ICMP Echo 요청을 보내 피해자에게 응답이 몰리게 하는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Teardrop 공격</choice_text>
-          <commentary>Teardrop은 IP 단편의 오프셋 조작을 이용한다.</commentary>
+          <commentary>Teardrop 공격은 조각난 패킷의 오프셋을 겹치게 조작하여 재조립 오류를 일으키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>SYN flooding 공격</choice_text>
-          <commentary>SYN flooding이므로 정답이다.</commentary>
+          <commentary>half-open 연결을 저장하는 한정된 큐를 SYN 패킷으로 가득 채우는 것은 SYN flooding 공격이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Ping-of-death 공격</choice_text>
-          <commentary>Ping-of-death는 비정상적으로 큰 ICMP 패킷을 이용한다.</commentary>
+          <commentary>Ping-of-death는 최대 크기를 넘는 ICMP 패킷으로 시스템 오류를 일으키는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -431,19 +431,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Record Protocol</choice_text>
-          <commentary>SSL/TLS 구성 요소이다.</commentary>
+          <commentary>Record 프로토콜은 SSL/TLS의 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Handshake Protocol</choice_text>
-          <commentary>SSL/TLS 구성 요소이다.</commentary>
+          <commentary>Handshake 프로토콜은 SSL/TLS의 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Change Cipher Spec Protocol</choice_text>
-          <commentary>SSL/TLS 구성 요소이다.</commentary>
+          <commentary>Change Cipher Spec 프로토콜은 SSL/TLS의 구성 요소이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>Authentication Header Protocol</choice_text>
-          <commentary>IPSec 프로토콜이므로 정답이다.</commentary>
+          <commentary>Authentication Header는 IPSec의 프로토콜이므로 SSL/TLS 구조에 속하지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -466,19 +466,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>양방향성</choice_text>
-          <commentary>해시 함수는 일방향이므로 정답이다.</commentary>
+          <commentary>해시 함수는 출력에서 입력을 구할 수 없는 일방향성을 가지므로 양방향성은 성질이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>충돌 저항성(resistance)</choice_text>
-          <commentary>해시 함수의 성질이다.</commentary>
+          <commentary>같은 해시값을 갖는 서로 다른 두 입력을 찾기 어려운 충돌 저항성은 해시 함수의 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>역상(preimage) 저항성</choice_text>
-          <commentary>해시 함수의 성질이다.</commentary>
+          <commentary>해시값으로부터 원래 입력을 찾기 어려운 역상 저항성은 해시 함수의 성질이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>제2(second) 역상 저항성</choice_text>
-          <commentary>해시 함수의 성질이다.</commentary>
+          <commentary>주어진 입력과 같은 해시값을 갖는 다른 입력을 찾기 어려운 제2 역상 저항성은 해시 함수의 성질이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -503,19 +503,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>비표(nonce) 사용</choice_text>
-          <commentary>대응 방법이다.</commentary>
+          <commentary>비표는 한 번만 쓰는 임의 값으로 메시지의 새로움을 확인하므로 재전송 공격을 막는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>리다이렉션(redirection) 사용</choice_text>
-          <commentary>대응 방법이 아니므로 정답이다.</commentary>
+          <commentary>리다이렉션은 요청을 다른 위치로 보내는 기능으로 재전송 공격의 대책이 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>타임스탬프(timestamp) 사용</choice_text>
-          <commentary>대응 방법이다.</commentary>
+          <commentary>타임스탬프는 메시지의 생성 시각을 확인하여 오래된 메시지를 거부하므로 재전송 공격을 막는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>순서 번호(sequence number) 사용</choice_text>
-          <commentary>대응 방법이다.</commentary>
+          <commentary>순서 번호는 이미 받은 번호의 메시지를 거부하므로 재전송 공격을 막는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -538,19 +538,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>(가) → (나) → (다) → (라)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>서비스 요청은 키 교환이 끝난 뒤의 마지막 단계이므로 처음에 둘 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(가) → (다) → (나) → (라)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>서비스 요청을 처음에 둔 것은 순서가 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(라) → (나) → (다) → (가)</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>알고리즘 협상이 끝나야 키 교환을 할 수 있으므로 키 교환 종료를 먼저 둔 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>(라) → (다) → (나) → (가)</choice_text>
-          <commentary>(라) → (다) → (나) → (가)이므로 정답이다.</commentary>
+          <commentary>식별 문자열 교환 → 알고리즘 협상 → 키 교환 종료 → 서비스 요청 순이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -571,19 +571,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IP 주소 고갈 문제를 해결하기 위해 도입되었다.</choice_text>
-          <commentary>주소 고갈 대응으로 옳다.</commentary>
+          <commentary>CIDR은 클래스 기반 할당으로 인한 IP 주소 낭비와 고갈 문제를 해결하기 위해 도입되었으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>IP 주소를 클래스 구분 없이 지정할 수 있게 해 준다.</choice_text>
-          <commentary>클래스 없는 할당으로 옳다.</commentary>
+          <commentary>CIDR은 클래스 구분 없이 IP 주소를 지정할 수 있게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>IPv4 주소체계에서만 지원하며, IPv6 주소체계에서는 지원하지 않는다.</choice_text>
-          <commentary>IPv6에서도 사용하므로 옳지 않아 정답이다.</commentary>
+          <commentary>IPv6도 2001:db8::/32처럼 CIDR 표기를 사용하므로 IPv4에서만 지원한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>슬래시(slash, ‘/’)를 사용하여 네트워크 프리픽스(prefix)의 길이를 표시한다.</choice_text>
-          <commentary>슬래시 표기로 옳다.</commentary>
+          <commentary>슬래시 뒤에 네트워크 프리픽스의 길이를 표시하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -607,19 +607,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>무선 WEP(Wired Equivalent Privacy)</choice_text>
-          <commentary>무선, WEP이므로 정답이다.</commentary>
+          <commentary>WEP는 무선랜 보안을 위해 RC4와 24비트 IV를 사용하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>무선 WPA2(Wi-Fi Protected Access 2)</choice_text>
-          <commentary>WPA2는 AES를 사용한다.</commentary>
+          <commentary>WPA2는 AES 기반 CCMP를 사용하므로 RC4와 24비트 IV를 기본으로 하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>유선 WEP</choice_text>
-          <commentary>WEP는 무선랜 보안 방식이다.</commentary>
+          <commentary>WEP는 유선이 아니라 무선 랜의 보안 프로토콜이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유선 WPA2</choice_text>
-          <commentary>유선 보안 방식이 아니다.</commentary>
+          <commentary>WPA2는 무선 랜의 보안 프로토콜이며 RC4를 기본으로 하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -642,19 +642,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>VPN 구현을 위해 터널링 기술을 사용한다.</choice_text>
-          <commentary>터널링 사용으로 옳다.</commentary>
+          <commentary>VPN은 터널링 기술로 공중망에 가상의 전용 통로를 만들므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>기밀성을 제공하기 위해 암호화 기술을 사용한다.</choice_text>
-          <commentary>암호화 사용으로 옳다.</commentary>
+          <commentary>VPN은 암호화로 기밀성을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>VPN 구현을 위해 PPTP, L2TP 등을 사용할 수 있다.</choice_text>
-          <commentary>2계층 터널링 프로토콜로 옳다.</commentary>
+          <commentary>PPTP, L2TP 등 터널링 프로토콜로 VPN을 구현할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>SSL VPN은 SA(Security Association)를 생성하기 위해 IKE(Internet Key Exchange)를 사용한다.</choice_text>
-          <commentary>IKE는 IPSec이 사용하므로 옳지 않아 정답이다.</commentary>
+          <commentary>IKE로 SA를 생성하는 것은 IPSec VPN이며 SSL VPN은 SSL/TLS 핸드셰이크를 사용한다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -676,19 +676,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>네트워크 관리에 필요한 정보를 주고받기 위해 사용한다.</choice_text>
-          <commentary>네트워크 관리 정보 교환으로 옳다.</commentary>
+          <commentary>SNMP는 네트워크 관리에 필요한 정보를 주고받기 위한 프로토콜이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>하위 계층 프로토콜로 UDP를 사용한다.</choice_text>
-          <commentary>UDP 161·162번 포트를 사용하므로 옳다.</commentary>
+          <commentary>SNMP는 하위 계층 프로토콜로 UDP를 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>에이전트(agent)는 비정상적인 상황에 대한 경고 메시지를 관리자(manager)에게 보낼 수 있다.</choice_text>
-          <commentary>Trap 메시지로 옳다.</commentary>
+          <commentary>에이전트는 Trap 메시지로 비정상 상황을 관리자에게 알릴 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>관리자는 에이전트로부터 정보를 가져올 수 있으나, 에이전트에 있는 정보를 설정할 수 없다.</choice_text>
-          <commentary>Set으로 설정할 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>관리자는 Set 메시지로 에이전트의 정보를 설정할 수 있으므로 설정할 수 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -712,19 +712,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ESP 헤더 기존 IP 헤더 새 IP 헤더</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>ESP 헤더를 맨 앞에 둔 것은 터널 모드 패킷 구조와 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ESP 헤더 새 IP 헤더 기존 IP 헤더</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>새 IP 헤더가 맨 앞에 와야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>새 IP 헤더 기존 IP 헤더 ESP 헤더</choice_text>
-          <commentary>순서가 틀렸다.</commentary>
+          <commentary>ESP 헤더는 새 IP 헤더와 기존 IP 헤더 사이에 위치하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>새 IP 헤더 ESP 헤더 기존 IP 헤더</choice_text>
-          <commentary>새 IP 헤더, ESP 헤더, 기존 IP 헤더이므로 정답이다.</commentary>
+          <commentary>터널 모드 ESP는 새 IP 헤더 → ESP 헤더 → 기존 IP 헤더 → TCP → 데이터 순이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

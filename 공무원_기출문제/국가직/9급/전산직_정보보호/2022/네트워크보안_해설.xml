@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>hostname: 컴퓨터 이름을 확인한다.</choice_text>
-          <commentary>hostname의 설명으로 옳다.</commentary>
+          <commentary>hostname은 컴퓨터 이름을 확인하는 명령이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>nslookup: DNS를 통해 도메인 이름을 검색한다.</choice_text>
-          <commentary>nslookup의 설명으로 옳다.</commentary>
+          <commentary>nslookup은 DNS에 질의하여 도메인 이름과 IP 주소를 조회하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>ipconfig: 인터페이스에 설정된 라우팅 테이블을 검색한다.</choice_text>
-          <commentary>라우팅 테이블 확인 명령이 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>ipconfig는 IP 주소, 서브넷 마스크, 기본 게이트웨이 등 IP 설정을 확인하는 명령이며 라우팅 테이블은 route print나 netstat -r로 확인한다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>ping: 컴퓨터의 네트워크 상태를 점검한다.</choice_text>
-          <commentary>ping의 설명으로 옳다.</commentary>
+          <commentary>ping은 ICMP Echo로 네트워크 연결 상태를 점검하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -68,19 +68,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>wireshark</choice_text>
-          <commentary>wireshark는 패킷 분석 도구이다.</commentary>
+          <commentary>wireshark는 GUI 기반의 패킷 캡처·분석 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>tcpdump</choice_text>
-          <commentary>tcpdump는 패킷 캡처 도구이다.</commentary>
+          <commentary>tcpdump는 명령행 기반의 패킷 캡처 도구이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>traceroute</choice_text>
-          <commentary>traceroute이므로 정답이다.</commentary>
+          <commentary>TTL을 늘려 가며 경로와 구간별 응답 속도를 표시하는 도구는 traceroute이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>netstat</choice_text>
-          <commentary>netstat은 연결·통계 확인 도구이다.</commentary>
+          <commentary>netstat은 연결 상태, 라우팅 테이블, 통계 등을 출력하는 도구이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>가용성</choice_text>
-          <commentary>가용성과 관련이 없다.</commentary>
+          <commentary>가용성은 서비스를 필요할 때 이용할 수 있는 성질로 공개키 암호화와 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>인증</choice_text>
-          <commentary>송신자 개인키 서명으로 얻는다.</commentary>
+          <commentary>인증은 송신자의 개인키로 서명할 때 얻을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>부인방지</choice_text>
-          <commentary>송신자 개인키 서명으로 얻는다.</commentary>
+          <commentary>부인방지는 송신자의 개인키 서명으로 얻을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>기밀성</choice_text>
-          <commentary>기밀성이므로 정답이다.</commentary>
+          <commentary>수신자의 공개키로 암호화하면 개인키를 가진 수신자만 복호화할 수 있어 기밀성이 보장되므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -137,19 +137,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>FIN 스캔</choice_text>
-          <commentary>스텔스 스캔이다.</commentary>
+          <commentary>FIN 스캔은 FIN 플래그만 보내 연결 없이 포트 상태를 확인하는 스텔스 스캔이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>NULL 스캔</choice_text>
-          <commentary>스텔스 스캔이다.</commentary>
+          <commentary>NULL 스캔은 플래그를 모두 끈 패킷을 보내는 스텔스 스캔이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>XMAS 스캔</choice_text>
-          <commentary>스텔스 스캔이다.</commentary>
+          <commentary>XMAS 스캔은 FIN, PSH, URG 플래그를 함께 설정한 스텔스 스캔이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>TCP Open 스캔</choice_text>
-          <commentary>완전 연결 스캔이므로 정답이다.</commentary>
+          <commentary>TCP Open 스캔은 3-way handshake를 완료하여 로그가 남으므로 스텔스 스캔이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -172,19 +172,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>스위치 MAC 테이블의 저장 용량을 넘으면 더미 허브(dummy hub)처럼 브로드캐스트(broadcast) 한다.</choice_text>
-          <commentary>MAC 테이블이 넘치면 브로드캐스트하므로 정답이다.</commentary>
+          <commentary>MAC 테이블이 가득 차면 스위치가 더미 허브처럼 모든 포트로 브로드캐스트하므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>방어대책은 게이트웨이 MAC 주소를 동적으로 설정한다.</choice_text>
-          <commentary>정적으로 설정해야 한다.</commentary>
+          <commentary>ARP 관련 공격의 방어는 게이트웨이 MAC 주소를 정적으로 설정하는 것이며 스위치 재밍은 포트 보안으로 방어하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>공격자는 클라이언트가 DNS 서버로 전송하는 DNS Query 패킷을 중간에 가로챈다.</choice_text>
-          <commentary>DNS 스푸핑의 설명이다.</commentary>
+          <commentary>DNS Query를 가로채는 것은 DNS 스푸핑에 관한 설명이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>MAC flooding은 스위치에 이상이 있을 때 자동으로 모든 보안 기능을 차단하는 것이다.</choice_text>
-          <commentary>MAC flooding의 정의가 틀렸다.</commentary>
+          <commentary>MAC flooding은 위조 MAC 주소로 MAC 테이블을 채우는 공격이며 보안 기능을 차단하는 기능이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -208,19 +208,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>netstat -an</choice_text>
-          <commentary>모든 연결과 포트를 숫자로 표시한다.</commentary>
+          <commentary>netstat -an은 모든 연결과 수신 대기 포트를 숫자 주소로 표시한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>netstat -e</choice_text>
-          <commentary>이더넷 통계이므로 정답이다.</commentary>
+          <commentary>netstat -e는 이더넷 인터페이스의 송수신 바이트와 패킷 통계를 표시하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>netstat -r</choice_text>
-          <commentary>라우팅 테이블을 표시한다.</commentary>
+          <commentary>netstat -r은 라우팅 테이블을 출력한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>netstat -s</choice_text>
-          <commentary>프로토콜별 통계를 표시한다.</commentary>
+          <commentary>netstat -s는 프로토콜별 통계를 출력한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -241,19 +241,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ChangeCipherSpec 프로토콜은 오류와 비정상 상태를 알기 위해 사용한다.</choice_text>
-          <commentary>Alert 프로토콜의 기능이다.</commentary>
+          <commentary>오류와 비정상 상태를 알리는 것은 Alert 프로토콜이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>Handshake 프로토콜은 대기와 활성 상태 사이에서 이동되는 값들의 처리 과정을 규정한다.</choice_text>
-          <commentary>ChangeCipherSpec 프로토콜의 기능이다.</commentary>
+          <commentary>대기 상태의 값을 활성 상태로 바꾸는 것은 ChangeCipherSpec 프로토콜이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>Record 프로토콜은 기밀성과 메시지 무결성을 제공한다.</choice_text>
-          <commentary>Record 프로토콜의 기능이므로 정답이다.</commentary>
+          <commentary>Record 프로토콜은 MAC과 암호화를 적용하여 기밀성과 무결성을 제공하므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Alert 프로토콜은 암호 그룹 협의와 클라이언트와 서버 간 인증 정보를 교환하기 위해 사용한다.</choice_text>
-          <commentary>Handshake 프로토콜의 기능이다.</commentary>
+          <commentary>암호 그룹 협의와 인증 정보 교환은 Handshake 프로토콜이므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -314,19 +314,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>TLS는 SSL을 기반으로 만들어진 인터넷 표준이다.</choice_text>
-          <commentary>TLS는 SSL 3.0 기반 IETF 표준이므로 옳다.</commentary>
+          <commentary>TLS는 SSL 3.0을 기반으로 IETF가 표준화한 프로토콜이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>TLS의 의사난수 함수(pseudorandom function)는 데이터 확장 함수(data-expansion function)를 활용한다.</choice_text>
-          <commentary>PRF는 데이터 확장 함수를 활용하므로 옳다.</commentary>
+          <commentary>TLS의 PRF는 데이터 확장 함수를 활용하여 원하는 길이의 출력을 만들므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>TLS의 의사난수 함수는 비밀(secret), 식별용 라벨(label), 종자(seed)를 입력받는다.</choice_text>
-          <commentary>PRF의 입력 요소로 옳다.</commentary>
+          <commentary>TLS의 PRF는 비밀, 라벨, 종자를 입력받으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>TLS의 마스터 비밀(master secret) 생성을 위해 데이터 확장 함수는 사전 마스터 비밀(pre-master secret), ‘master secret’ 문자, 2개의 임의의 수를 입력받는다.</choice_text>
-          <commentary>마스터 비밀 생성의 입력 주체를 잘못 서술하여 옳지 않으므로 정답이다.</commentary>
+          <commentary>공식 정답에 따르면 마스터 비밀은 PRF에 사전 마스터 비밀, 라벨, 두 난수를 입력하여 생성하므로 데이터 확장 함수가 직접 입력받는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -347,19 +347,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>하드웨어적인 공격 기법이며, 전력분석, 시차분석, 전자파분석 등의 공격이 있다.</choice_text>
-          <commentary>하드웨어적 공격 기법이므로 정답이다.</commentary>
+          <commentary>부채널 공격은 전력, 처리 시간, 전자파 등 물리적 누설 정보를 분석하는 하드웨어적 공격이므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>은닉 채널을 이용해 암호화 알고리즘이나 시스템 동작에서 발생하는 다양한 누수 정보를 획득한다.</choice_text>
-          <commentary>은닉 채널이 아니라 물리적 누설 정보를 이용한다.</commentary>
+          <commentary>은닉 채널은 정보를 몰래 전달하는 통신 경로로 부채널 공격과 다른 개념이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>역어셈블러, 디버거를 이용해 소프트웨어의 오류 및 결함을 찾아 악용하는 공격이다.</choice_text>
-          <commentary>역공학 공격의 설명이다.</commentary>
+          <commentary>역어셈블러와 디버거로 소프트웨어 결함을 찾는 것은 역공학 기반 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>숨겨진 메시지를 사진이나 동영상 속에 부호화하는 스테가노그래피는 부채널 공격에 대응하기 위해 개발되었다.</choice_text>
-          <commentary>스테가노그래피는 정보 은닉 기술이다.</commentary>
+          <commentary>스테가노그래피는 정보를 숨기는 기술로 부채널 공격 대응을 위해 개발된 것이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -380,19 +380,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>무결성</choice_text>
-          <commentary>무결성이므로 정답이다.</commentary>
+          <commentary>증거가 위조·변조되지 않았음을 증명하는 원칙은 무결성이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>신속성</choice_text>
-          <commentary>신속성은 빠른 수집 원칙이다.</commentary>
+          <commentary>신속성은 휘발성 증거를 빠르게 수집해야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>재현성</choice_text>
-          <commentary>재현성은 같은 결과의 재현 원칙이다.</commentary>
+          <commentary>재현성은 같은 조건에서 같은 결과가 나와야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>정당성</choice_text>
-          <commentary>정당성은 적법 절차 원칙이다.</commentary>
+          <commentary>정당성은 증거가 적법한 절차로 수집되어야 한다는 원칙이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -413,19 +413,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>ARIA</choice_text>
-          <commentary>대칭키 암호이다.</commentary>
+          <commentary>ARIA는 국내에서 개발한 대칭키 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>SEED</choice_text>
-          <commentary>대칭키 암호이다.</commentary>
+          <commentary>SEED는 국내에서 개발한 대칭키 블록 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>DES</choice_text>
-          <commentary>대칭키 암호이다.</commentary>
+          <commentary>DES는 64비트 블록의 대칭키 암호이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>ECC</choice_text>
-          <commentary>공개키 암호이므로 정답이다.</commentary>
+          <commentary>ECC는 타원곡선을 이용하는 공개키 암호이므로 대칭키 알고리즘이 아니어서 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -447,19 +447,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>SMTP(Simple Message Transfer Protocol): 25</choice_text>
-          <commentary>SMTP 25번으로 옳다.</commentary>
+          <commentary>SMTP의 기본 포트는 25번이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>DNS(Domain Name Service): 53</choice_text>
-          <commentary>DNS 53번으로 옳다.</commentary>
+          <commentary>DNS의 기본 포트는 53번이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>RPC(Remote Procedure Call): 111</choice_text>
-          <commentary>RPC 111번으로 옳다.</commentary>
+          <commentary>RPC(portmapper)의 기본 포트는 111번이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>SNMP(Simple Network Management Protocol): 143</choice_text>
-          <commentary>SNMP는 161번이므로 옳지 않아 정답이다.</commentary>
+          <commentary>SNMP의 기본 포트는 161번이며 143번은 IMAP이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -481,19 +481,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>침입탐지 유형에는 비정상행위 탐지(anomaly detection)와 오용 탐지(misuse detection) 등으로 구분된다.</choice_text>
-          <commentary>탐지 유형 구분으로 옳다.</commentary>
+          <commentary>침입탐지는 비정상행위 탐지와 오용 탐지로 구분되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>비정상행위 탐지는 알려지지 않은 공격을 탐지하기에 효과적이지만 False Positive가 높아질 수 있다.</choice_text>
-          <commentary>비정상행위 탐지의 장단점으로 옳다.</commentary>
+          <commentary>비정상행위 탐지는 미지의 공격 탐지에 효과적이나 오탐(False Positive)이 높을 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>오용 탐지는 알려진 공격 패턴을 기반으로 공격을 탐지하므로 알려지지 않은 공격 탐지에는 효과적이지 못하다.</choice_text>
-          <commentary>오용 탐지의 한계로 옳다.</commentary>
+          <commentary>오용 탐지는 알려진 패턴 기반이므로 미지의 공격 탐지에 약하여 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>전문가 시스템 모델은 비정상행위 탐지에 널리 사용되는 기법이다.</choice_text>
-          <commentary>오용 탐지에 사용되므로 옳지 않아 정답이다.</commentary>
+          <commentary>전문가 시스템은 알려진 공격 규칙을 추론하는 오용 탐지 기법이므로 비정상행위 탐지라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -519,19 +519,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>티어드롭 공격(teardrop attack)</choice_text>
-          <commentary>티어드롭은 단편 재조합 오류를 이용한다.</commentary>
+          <commentary>티어드롭 공격은 조각 패킷의 오프셋을 겹치게 조작하여 재조립 오류를 일으키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>스머프 공격(smurf attack)</choice_text>
-          <commentary>스머프 공격이므로 정답이다.</commentary>
+          <commentary>ICMP와 다이렉트 브로드캐스트를 이용해 응답을 증폭시켜 피해자에게 보내는 것은 스머프 공격이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>죽음의 핑 공격(ping of death attack)</choice_text>
-          <commentary>죽음의 핑은 비정상적으로 큰 ICMP 패킷을 이용한다.</commentary>
+          <commentary>죽음의 핑은 최대 크기를 넘는 ICMP 패킷으로 시스템 오류를 일으키는 공격이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SYN 플러딩 공격(SYN flooding attack)</choice_text>
-          <commentary>SYN 플러딩은 half-open 연결을 이용한다.</commentary>
+          <commentary>SYN 플러딩은 half-open 연결로 서버의 연결 대기 큐를 채우는 공격이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -553,19 +553,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>RST</choice_text>
-          <commentary>RST이므로 정답이다.</commentary>
+          <commentary>공격자는 먼저 RST 패킷을 보내 기존 연결을 끊고 비동기화 상태를 만들므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>FIN</choice_text>
-          <commentary>FIN은 정상 종료에 쓰인다.</commentary>
+          <commentary>FIN은 정상적인 연결 종료를 요청하는 플래그로 하이재킹의 첫 단계에 쓰이지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ACK</choice_text>
-          <commentary>ACK는 이후 단계에서 쓰인다.</commentary>
+          <commentary>ACK는 비동기화 이후 세션을 이어갈 때 사용된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>SYN</choice_text>
-          <commentary>SYN은 연결 요청에 쓰인다.</commentary>
+          <commentary>SYN은 새 연결을 시작하는 플래그로 기존 세션 가로채기의 첫 패킷이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -587,19 +587,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>전송 계층에서의 오류 탐지를 위해 사용한다.</choice_text>
-          <commentary>네트워크 계층 프로토콜이다.</commentary>
+          <commentary>ICMP는 네트워크 계층의 오류를 알리는 프로토콜이므로 전송 계층이라는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>송신자의 패킷이 목적지에 도달하지 못했을 때 송신자는 ICMP Echo Reply 메시지를 수신한다.</choice_text>
-          <commentary>Destination Unreachable 메시지를 받는다.</commentary>
+          <commentary>목적지에 도달하지 못하면 Destination Unreachable 메시지를 받으며 Echo Reply는 ping 응답이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>TTL이 0이 되면 ICMP 시간초과(time exceeded) 오류 메시지가 발생한다.</choice_text>
-          <commentary>TTL 0일 때 시간초과 메시지가 발생하므로 정답이다.</commentary>
+          <commentary>TTL이 0이 되면 라우터가 Time Exceeded 메시지를 보내므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>UDP에 의해 전송된다.</choice_text>
-          <commentary>IP에 의해 전송된다.</commentary>
+          <commentary>ICMP는 UDP가 아니라 IP 데이터그램에 직접 캡슐화되므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -622,19 +622,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>방해 공격을 방지하기 위해 비표(nonce)를 사용한다.</choice_text>
-          <commentary>방해 공격은 쿠키로 막으므로 옳지 않아 정답이다.</commentary>
+          <commentary>방해(clogging) 공격은 쿠키로 막고 비표는 재전송 공격을 막는 데 쓰이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>두 당사자가 군(group)을 협상할 수 있다.</choice_text>
-          <commentary>군 협상으로 옳다.</commentary>
+          <commentary>IKE에서는 두 당사자가 DH 군을 협상할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Diffie-Hellman 공개키 값의 교환이 가능하다.</choice_text>
-          <commentary>DH 공개값 교환으로 옳다.</commentary>
+          <commentary>Diffie-Hellman 공개키 값을 교환하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>중간자 공격을 방지하기 위해 Diffie-Hellman 교환을 인증한다.</choice_text>
-          <commentary>DH 교환 인증으로 옳다.</commentary>
+          <commentary>DH 교환을 인증하여 중간자 공격을 방지하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -656,19 +656,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>보안 매개변수 색인(security parameters index)</choice_text>
-          <commentary>식별 매개변수이다.</commentary>
+          <commentary>보안 매개변수 색인(SPI)은 SA 식별 매개변수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>발신지 IP 주소</choice_text>
-          <commentary>식별 매개변수가 아니므로 정답이다.</commentary>
+          <commentary>발신지 IP 주소는 SA 식별 매개변수가 아니므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>수신지 IP 주소</choice_text>
-          <commentary>식별 매개변수이다.</commentary>
+          <commentary>수신지 IP 주소는 SA 식별 매개변수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>보안 프로토콜 식별자(security protocol identifier)</choice_text>
-          <commentary>식별 매개변수이다.</commentary>
+          <commentary>보안 프로토콜 식별자(AH 또는 ESP)는 SA 식별 매개변수이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -692,19 +692,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>스턱스넷(stuxnet): 사용자가 키보드로 입력하는 내용을 몰래 가로채어 기록한다.</choice_text>
-          <commentary>키로거의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>스턱스넷은 산업 제어 시스템을 노린 웜이며 키 입력을 기록하는 것은 키로거이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>랜섬웨어(ransomware): 시스템의 폴더 또는 파일 등을 암호화하여 금전을 요구한다.</choice_text>
-          <commentary>랜섬웨어의 설명으로 옳다.</commentary>
+          <commentary>랜섬웨어는 파일을 암호화하고 금전을 요구하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>트로이 목마(trojan horse): 겉으로는 정상적인 프로그램으로 보이지만 악성코드가 숨겨져 있다.</choice_text>
-          <commentary>트로이 목마의 설명으로 옳다.</commentary>
+          <commentary>트로이 목마는 정상 프로그램으로 위장한 악성코드이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>스파이웨어(spyware): 사용자 정보를 무단으로 수집하여 동의 없이 다른 곳으로 보낸다.</choice_text>
-          <commentary>스파이웨어의 설명으로 옳다.</commentary>
+          <commentary>스파이웨어는 사용자 정보를 무단으로 수집하여 외부로 보내므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

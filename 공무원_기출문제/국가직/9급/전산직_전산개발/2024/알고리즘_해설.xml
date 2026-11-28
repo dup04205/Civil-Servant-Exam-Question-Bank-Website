@@ -34,19 +34,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>≥ ≥</choice_text>
-          <commentary>(나)가 ≥이면 오메가(Ω) 표기의 정의가 되므로 옳지 않다.</commentary>
+          <commentary>f(n) ≥ c·g(n)은 하한을 뜻하는 오메가 표기의 정의이므로 (나)에 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>≤ ≤</choice_text>
-          <commentary>(가)는 n ≥ n₀이어야 하므로 옳지 않다.</commentary>
+          <commentary>n ≤ n₀이면 작은 n에서만 성립하는 것이 되어 점근적 상한의 정의가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>≤ ≥</choice_text>
-          <commentary>두 관계연산자가 모두 반대이므로 옳지 않다.</commentary>
+          <commentary>n ≤ n₀과 f(n) ≥ c·g(n) 모두 빅오의 정의와 반대이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>≥ ≤</choice_text>
-          <commentary>≥, ≤이므로 정답이다.</commentary>
+          <commentary>n ≥ n₀인 모든 n에 대해 f(n) ≤ c·g(n)이 성립하는 것이 빅오의 정의이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>퀵 정렬(quick sort)</choice_text>
-          <commentary>퀵 정렬은 불안정 정렬이므로 정답이다.</commentary>
+          <commentary>퀵 정렬은 분할 과정에서 원소가 멀리 교환되어 같은 키의 순서가 바뀔 수 있으므로 안정 정렬이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>버블 정렬(bubble sort)</choice_text>
-          <commentary>버블 정렬은 인접 원소만 교환하므로 안정 정렬이다.</commentary>
+          <commentary>버블 정렬은 인접 원소만 교환하므로 같은 키의 순서가 유지되는 안정 정렬이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort)</choice_text>
-          <commentary>삽입 정렬은 같은 값을 건너뛰지 않으므로 안정 정렬이다.</commentary>
+          <commentary>삽입 정렬은 같은 키 앞에서 멈추므로 안정 정렬이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>병합 정렬(merge sort)</choice_text>
-          <commentary>병합 정렬은 병합 시 앞쪽 원소를 먼저 택하므로 안정 정렬이다.</commentary>
+          <commentary>병합 정렬은 합병 시 같은 키는 앞쪽 원소를 먼저 넣으므로 안정 정렬이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -104,19 +104,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>600원</choice_text>
-          <commentary>600원이 아니다.</commentary>
+          <commentary>600원은 B와 C 일부 조합 등으로 무게당 이익 순서를 따르지 않은 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>750원</choice_text>
-          <commentary>750원이 아니다.</commentary>
+          <commentary>750원은 그리디 선택의 결과와 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>840원</choice_text>
-          <commentary>840원이므로 정답이다.</commentary>
+          <commentary>무게당 이익이 큰 C 4kg(400원), B 6kg(300원), A 7kg(140원)을 넣어 840원이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>900원</choice_text>
-          <commentary>900원이 아니다.</commentary>
+          <commentary>900원은 세 분말을 모두 넣을 때의 이익으로 17kg 제한을 넘는 20kg이 필요하다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -138,19 +138,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>$n^{3} + 10 \rightarrow \Theta ( n^{3} )$</choice_text>
-          <commentary>최고차항이 n³이므로 Θ(n³)은 옳다.</commentary>
+          <commentary>n³ + 10의 최고차항은 n³이므로 Θ(n³)는 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>$n^{2} + 100 n \rightarrow O ( n^{3} )$</choice_text>
-          <commentary>n²은 n³ 이하로 증가하므로 O(n³)은 옳다.</commentary>
+          <commentary>n² + 100n은 n³ 이하로 증가하므로 O(n³)는 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>$4 n logn + 2 logn \rightarrow \Theta ( n logn )$</choice_text>
-          <commentary>최고차항이 4n log n이므로 Θ(n log n)은 옳다.</commentary>
+          <commentary>4n log n + 2 log n의 최고차항은 n log n이므로 Θ(n log n)은 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>$2 n^{2} + logn + 1000 \rightarrow \Omega ( n^{2} logn )$</choice_text>
-          <commentary>Ω(n² log n)이 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>2n² + log n + 1000은 Θ(n²)로 n² log n보다 느리게 증가하므로 Ω(n² log n)은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -207,19 +207,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( n^{2} )$</choice_text>
-          <commentary>원소 개수만 고려한 것이므로 옳지 않다.</commentary>
+          <commentary>Θ(n²)은 결과 원소의 개수만 반영한 것으로 각 원소의 n번 곱셈을 빠뜨렸다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$\Theta ( n^{3} )$</choice_text>
-          <commentary>Θ(n³)이므로 정답이다.</commentary>
+          <commentary>n²개의 원소마다 n번의 곱셈과 덧셈을 하므로 Θ(n³)이 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( 2^{n} )$</choice_text>
-          <commentary>지수 시간이 아니다.</commentary>
+          <commentary>Θ(2ⁿ)은 지수 시간으로 삼중 반복문의 행렬 곱셈과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( n logn )$</choice_text>
-          <commentary>n log n이 아니다.</commentary>
+          <commentary>Θ(n log n)은 행렬 곱셈의 연산량보다 훨씬 작다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -261,19 +261,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄴ은 힙이 배열 구현에 적합하므로 옳지 않다.</commentary>
+          <commentary>ㄴ 힙은 완전이진트리이므로 배열로 구현하기에 적합하여 ㄴ이 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄹ</choice_text>
-          <commentary>ㄷ도 옳으므로 빠진 것이 있다.</commentary>
+          <commentary>ㄱ, ㄹ: 노드 추가가 O(log n)인 ㄷ도 옳으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ이 옳지 않으므로 옳지 않다.</commentary>
+          <commentary>ㄴ이 옳지 않으므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>ㄱ, ㄷ, ㄹ이므로 정답이다.</commentary>
+          <commentary>ㄱ 완전이진트리 구조, ㄷ 삽입 O(log n), ㄹ 힙 정렬 O(n log n)이 옳으므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -299,19 +299,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>삽입 정렬(insertion sort) $O ( n^{2} )$ $O ( n^{2} )$ $O ( n )$</choice_text>
-          <commentary>삽입 정렬은 이미 정렬된 경우 O(n)이므로 옳다.</commentary>
+          <commentary>삽입 정렬은 최악·평균 O(n²), 이미 정렬된 경우 최선 O(n)이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>선택 정렬(selection sort) $O ( n^{2} )$ $O ( n^{2} )$ $O ( n logn )$</choice_text>
-          <commentary>선택 정렬의 최선은 O(n²)이므로 바르게 연결되지 않아 정답이다.</commentary>
+          <commentary>선택 정렬은 최선의 경우에도 남은 원소 전체를 비교하므로 O(n²)이다. 최선을 O(n log n)으로 연결한 것은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>퀵 정렬 $O ( n^{2} )$ $O ( n logn )$ $O ( n logn )$</choice_text>
-          <commentary>퀵 정렬은 최악 O(n²), 평균·최선 O(n log n)이므로 옳다.</commentary>
+          <commentary>퀵 정렬은 최악 O(n²), 평균·최선 O(n log n)이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>병합 정렬 $O ( n logn )$ $O ( n logn )$ $O ( n logn )$</choice_text>
-          <commentary>병합 정렬은 항상 O(n log n)이므로 옳다.</commentary>
+          <commentary>병합 정렬은 모든 경우 O(n log n)이므로 옳은 연결이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -333,19 +333,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2</choice_text>
-          <commentary>2비트가 아니다.</commentary>
+          <commentary>2비트 코드는 허프만 트리에서 가장 긴 코드가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>3비트가 아니다.</commentary>
+          <commentary>e, f, c가 3비트이지만 a와 b는 더 깊은 4비트이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>4</choice_text>
-          <commentary>4비트이므로 정답이다.</commentary>
+          <commentary>a(1)와 b(9)가 가장 먼저 합쳐져 가장 깊은 위치에 놓이므로 4비트가 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>5비트가 아니다.</commentary>
+          <commentary>5비트 코드를 가진 문자는 허프만 트리에 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -369,19 +369,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$O ( 1 )$</choice_text>
-          <commentary>n번 호출되므로 상수 시간이 아니다.</commentary>
+          <commentary>O(1)은 입력 크기와 무관한 상수 시간이므로 n번 재귀 호출하는 함수와 맞지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>$O ( logn )$</choice_text>
-          <commentary>매번 1씩 줄어들므로 로그 시간이 아니다.</commentary>
+          <commentary>O(log n)은 매번 크기가 절반으로 줄 때의 복잡도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>$O ( n )$</choice_text>
-          <commentary>O(n)이므로 정답이다.</commentary>
+          <commentary>abc(n)은 abc(n-1)을 한 번씩 호출하여 T(n) = T(n-1) + c이므로 O(n)이 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$\Theta ( 2^{n} )$</choice_text>
-          <commentary>호출이 한 갈래이므로 지수 시간이 아니다.</commentary>
+          <commentary>Θ(2ⁿ)은 매번 두 번씩 재귀 호출할 때의 복잡도이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -472,15 +472,15 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>프림(Prim) 알고리즘</choice_text>
-          <commentary>프림 알고리즘은 최소 신장 트리 알고리즘이다.</commentary>
+          <commentary>프림 알고리즘은 최소 신장 트리를 구하는 그리디 알고리즘이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>플로이드－워셜(Floyd-Warshall) 알고리즘</choice_text>
-          <commentary>플로이드-워셜 알고리즘이므로 정답이다.</commentary>
+          <commentary>모든 쌍 최단 거리를 동적 계획법으로 O(n³)에 구하며 음의 가중치 간선을 허용하는 것은 플로이드-워셜 알고리즘이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>다익스트라(Dijkstra) 알고리즘</choice_text>
-          <commentary>다익스트라 알고리즘은 단일 출발점이며 음의 가중치를 허용하지 않는다.</commentary>
+          <commentary>다익스트라 알고리즘은 단일 출발점 최단 경로를 구하며 음의 가중치를 허용하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>KMP(Knuth-Morris-Pratt) 알고리즘</choice_text>
@@ -505,19 +505,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1010</choice_text>
-          <commentary>1010은 10의 2진수이다.</commentary>
+          <commentary>1010은 10의 이진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>1011</choice_text>
-          <commentary>1011은 11의 2진수이다.</commentary>
+          <commentary>1011은 11의 이진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>1100</choice_text>
-          <commentary>1100은 12의 2진수이다.</commentary>
+          <commentary>1100은 12의 이진수이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>1101</choice_text>
-          <commentary>1101이므로 정답이다.</commentary>
+          <commentary>재귀 후 n%2를 출력하므로 13의 이진수가 상위 비트부터 1101로 출력되어 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -538,19 +538,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>1</choice_text>
-          <commentary>1회가 아니다.</commentary>
+          <commentary>1회 비교로는 패턴을 찾을 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>3</choice_text>
-          <commentary>3회가 아니다.</commentary>
+          <commentary>3회는 패턴을 찾은 마지막 위치의 비교 횟수만 센 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>5</choice_text>
-          <commentary>5회가 아니다.</commentary>
+          <commentary>5회는 위치 1의 불일치 비교 1회를 빠뜨린 값이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>6</choice_text>
-          <commentary>6회이므로 정답이다.</commentary>
+          <commentary>위치 0에서 2회, 위치 1에서 1회, 위치 2에서 3회 비교하여 총 6회이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -589,19 +589,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄷ</choice_text>
-          <commentary>ㄷ이므로 정답이다.</commentary>
+          <commentary>다익스트라 알고리즘만 매 단계 가장 가까운 정점을 선택하는 그리디 알고리즘이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>라빈-카프와 병합 정렬은 그리디가 아니다.</commentary>
+          <commentary>라빈-카프는 해시 기반 문자열 매칭, 병합 정렬은 분할 정복이므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ</choice_text>
-          <commentary>라빈-카프는 그리디가 아니다.</commentary>
+          <commentary>라빈-카프는 그리디 알고리즘이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>라빈-카프와 플로이드-워셜은 그리디가 아니다.</commentary>
+          <commentary>플로이드-워셜은 동적 계획법 알고리즘이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -625,19 +625,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>피벗(pivot)을 최대값으로 정한다.</choice_text>
-          <commentary>피벗을 최댓값으로 정하면 최악이 되므로 정답이다.</commentary>
+          <commentary>피벗이 최댓값이면 분할이 n-1개와 0개로 나뉘어 T(n) = T(n-1) + n = O(n²)이 되므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>피벗을 랜덤(random)하게 정한다.</choice_text>
-          <commentary>랜덤 피벗은 평균적으로 O(n log n)이다.</commentary>
+          <commentary>랜덤 피벗은 평균적으로 균형 잡힌 분할을 만들어 최악의 경우를 피하는 방법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>피벗을 중간값(median)으로 정한다.</choice_text>
-          <commentary>중간값을 피벗으로 하면 균등하게 분할되어 최선에 가깝다.</commentary>
+          <commentary>중간값을 피벗으로 하면 분할이 균등해져 최선에 가까운 O(n log n)이 된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>피벗을 파티션(partition)의 중간에 위치한 값으로 정한다.</choice_text>
-          <commentary>중간 위치의 값은 정렬된 입력에서도 균등 분할에 유리하다.</commentary>
+          <commentary>파티션 중간 위치의 값을 피벗으로 하면 정렬된 입력에서 최악을 피할 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -658,19 +658,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>61</choice_text>
-          <commentary>61경기가 아니다.</commentary>
+          <commentary>61경기로는 우승팀 외 63팀을 모두 탈락시킬 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>62</choice_text>
-          <commentary>62경기가 아니다.</commentary>
+          <commentary>62경기로는 탈락해야 할 63팀을 모두 탈락시킬 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>63</choice_text>
-          <commentary>63경기이므로 정답이다.</commentary>
+          <commentary>한 경기에 한 팀이 탈락하고 63팀이 탈락해야 하므로 32 + 16 + 8 + 4 + 2 + 1 = 63경기가 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>64</choice_text>
-          <commentary>64경기가 아니다.</commentary>
+          <commentary>64경기는 필요한 경기 수보다 1경기 많다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -693,19 +693,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>P 문제</choice_text>
-          <commentary>P 문제는 다항 시간에 해결할 수 있는 문제이다.</commentary>
+          <commentary>P 문제는 다항 시간에 해를 구할 수 있는 문제이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>NP 문제</choice_text>
-          <commentary>NP 문제는 다항 시간에 해를 검증할 수 있는 문제이다.</commentary>
+          <commentary>NP 문제는 해를 다항 시간에 검증할 수 있는 문제로 모든 NP 문제의 환원 조건은 필요하지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>NP－하드(NP-hard) 문제</choice_text>
-          <commentary>NP-하드는 NP 소속 조건이 필요하지 않다.</commentary>
+          <commentary>NP-하드 문제는 환원 조건만 만족하면 되며 NP에 속할 필요가 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>NP－완전(NP-complete) 문제</choice_text>
-          <commentary>NP-완전 문제이므로 정답이다.</commentary>
+          <commentary>NP에 속하면서 모든 NP 문제가 다항 시간에 환원되는 문제는 NP-완전 문제이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -728,19 +728,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = T ( \frac{n}{2} ) + c$, $\Theta ( n )$</choice_text>
-          <commentary>점근적 복잡도는 Θ(n)이 아니다.</commentary>
+          <commentary>점화식은 맞지만 n이 매번 절반으로 줄어 Θ(log₂n)이 되므로 Θ(n)은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>$T ( n ) = T ( \frac{n}{2} ) + c$, $\Theta ( \log_{2} n )$</choice_text>
-          <commentary>T(n) = T(n/2) + c, Θ(log₂n)이므로 정답이다.</commentary>
+          <commentary>algo(n/2)를 한 번 호출하고 상수 시간을 더하므로 T(n) = T(n/2) + c이고 Θ(log₂n)이 되어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = 2 T ( \frac{n}{2} ) + c$, $\Theta ( n )$</choice_text>
-          <commentary>재귀 호출은 한 번이므로 2T(n/2)가 아니다.</commentary>
+          <commentary>재귀 호출이 한 번이므로 2T(n/2)는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>$T ( n ) = 2 T ( \frac{n}{2} ) + n$, $\Theta ( n \log_{2} n )$</choice_text>
-          <commentary>병합 정렬의 점화식이므로 옳지 않다.</commentary>
+          <commentary>2T(n/2) + n은 병합 정렬의 점화식이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>

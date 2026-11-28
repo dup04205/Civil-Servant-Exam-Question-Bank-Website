@@ -35,19 +35,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>포괄적인 문서보다는 제대로 동작하는 소프트웨어에 더 가치를 둔다.</choice_text>
-          <commentary>작동하는 소프트웨어를 중시하므로 정답이다.</commentary>
+          <commentary>애자일 선언문은 포괄적인 문서보다 작동하는 소프트웨어에 더 가치를 두므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>고객과의 협력보다는 계약 협상에 더 가치를 둔다.</choice_text>
-          <commentary>고객 협력을 더 중시한다.</commentary>
+          <commentary>애자일 선언문은 계약 협상보다 고객과의 협력에 더 가치를 두므로 반대로 설명하여 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>변화에 대응하는 것보다는 계획을 따르는 것에 더 가치를 둔다.</choice_text>
-          <commentary>변화 대응을 더 중시한다.</commentary>
+          <commentary>애자일 선언문은 계획을 따르기보다 변화에 대응하는 것에 더 가치를 두므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>개인과 상호작용보다는 도구나 프로세스에 더 가치를 둔다.</choice_text>
-          <commentary>개인과 상호작용을 더 중시한다.</commentary>
+          <commentary>애자일 선언문은 프로세스와 도구보다 개인과 상호작용에 더 가치를 두므로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -71,19 +71,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>피어－투－피어(peer-to-peer) 아키텍처</choice_text>
-          <commentary>피어-투-피어는 대등한 노드 간 통신 구조이다.</commentary>
+          <commentary>피어-투-피어 아키텍처는 각 노드가 클라이언트이자 서버로 동등하게 자원을 공유하는 구조이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>저장소(repository) 아키텍처</choice_text>
-          <commentary>저장소 아키텍처는 중앙 저장소를 공유한다.</commentary>
+          <commentary>저장소 아키텍처는 컴포넌트들이 하나의 중앙 저장소를 공유하므로 데이터베이스가 독립적이라는 특징과 맞지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>마스터－슬레이브(master-slave) 아키텍처</choice_text>
-          <commentary>마스터-슬레이브는 마스터가 슬레이브를 제어한다.</commentary>
+          <commentary>마스터-슬레이브 아키텍처는 마스터가 작업을 분배하고 슬레이브가 수행하는 구조로 독립 배포와는 관련이 적다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>마이크로서비스(microservice) 아키텍처</choice_text>
-          <commentary>마이크로서비스 아키텍처이므로 정답이다.</commentary>
+          <commentary>독립 기능의 서비스, 서비스별 데이터베이스 분리, 장애 격리, 독립 배포에 따른 지속적 통합·배포는 마이크로서비스 아키텍처의 특징이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -106,19 +106,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>버전 관리</choice_text>
-          <commentary>버전 관리 도구가 아니다.</commentary>
+          <commentary>버전 관리 도구에는 Git, SVN 등이 있으며 제시된 도구와 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>프로젝트 관리</choice_text>
-          <commentary>프로젝트 관리 도구가 아니다.</commentary>
+          <commentary>프로젝트 관리 도구에는 Jira, Redmine 등이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>소프트웨어 설계</choice_text>
-          <commentary>설계 도구가 아니다.</commentary>
+          <commentary>소프트웨어 설계 도구에는 UML 모델링 도구 등이 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>소프트웨어 테스팅</choice_text>
-          <commentary>소프트웨어 테스팅이므로 정답이다.</commentary>
+          <commentary>JUnit은 단위 테스트, Mockito는 모의 객체, JMeter는 성능·부하 테스트에 쓰이므로 소프트웨어 테스팅 도구로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -158,19 +158,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ, ㄴ이므로 정답이다.</commentary>
+          <commentary>ㄱ 기본 프로젝트 관리 프로세스에 의한 비용·일정·기능 추적과 ㄴ 이전 성공 경험에 근거한 계획·관리는 관리 단계의 특징이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄷ은 정의 단계의 특징이다.</commentary>
+          <commentary>ㄷ 프로세스 전담 그룹은 정의(Defined) 단계의 특징이므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>ㄹ은 최적화 단계의 특징이다.</commentary>
+          <commentary>ㄹ 지속적 프로세스 개선은 최적화(Optimizing) 단계의 특징이므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>ㄷ, ㄹ은 상위 단계의 특징이다.</commentary>
+          <commentary>ㄷ과 ㄹ은 각각 정의 단계와 최적화 단계의 특징이므로 해당하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -230,19 +230,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>효율성(efficiency)</choice_text>
-          <commentary>효율성은 자원과 응답 시간에 관한 특성이다.</commentary>
+          <commentary>효율성은 자원과 시간 사용의 적절성에 관한 특성으로 제시된 도움말·메뉴·탐색 문제와 관련이 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>사용성(usability)</choice_text>
-          <commentary>사용성이므로 정답이다.</commentary>
+          <commentary>도움말 부재, 이해하기 어려운 메뉴명, 홈 버튼 부재는 이해·학습·운용 용이성인 사용성의 문제이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>이식성(portability)</choice_text>
-          <commentary>이식성은 환경 이전에 관한 특성이다.</commentary>
+          <commentary>이식성은 다른 환경으로 옮겨 사용할 수 있는 정도에 관한 특성이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>유지보수성(maintainability)</choice_text>
-          <commentary>유지보수성은 수정 용이성에 관한 특성이다.</commentary>
+          <commentary>유지보수성은 수정과 변경의 용이성에 관한 특성이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -265,19 +265,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>제품 백로그에 있는 업무 목록은 프로젝트를 수행하는 동안 수정되고 정제된다.</choice_text>
-          <commentary>지속적으로 수정·정제된다.</commentary>
+          <commentary>제품 백로그의 업무 목록은 프로젝트 진행 중 계속 수정·정제되므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>제품 백로그의 업무 중 높은 우선순위를 갖는 항목부터 개발한다.</choice_text>
-          <commentary>우선순위가 높은 항목부터 개발한다.</commentary>
+          <commentary>우선순위가 높은 항목부터 스프린트 백로그로 가져와 개발하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>제품 백로그에 있는 업무의 우선순위를 결정한 후에는 변경하지 않는다.</choice_text>
-          <commentary>우선순위는 변경될 수 있으므로 옳지 않아 정답이다.</commentary>
+          <commentary>제품 백로그의 우선순위는 상황 변화에 따라 계속 조정되므로 변경하지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>제품 책임자(product owner)가 제품 백로그를 관리한다.</choice_text>
-          <commentary>제품 책임자가 관리한다.</commentary>
+          <commentary>제품 백로그는 제품 책임자가 관리하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -299,19 +299,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>(v1 ＝ －2, v2 ＝ 2)</choice_text>
-          <commentary>(-2, 2)이므로 정답이다.</commentary>
+          <commentary>(-2, 2)는 조건이 참이 되어 모든 문장을 실행하고, 명세상 결과 -4와 달리 코드가 0을 반환하여 오류를 발견하므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>(v1 ＝ 2, v2 ＝ 0)</choice_text>
-          <commentary>명세와 코드 결과가 같아 오류를 발견하지 못한다.</commentary>
+          <commentary>(2, 0)은 모든 문장을 실행하지만 명세와 코드의 결과가 모두 합 2로 같아 오류를 발견할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>(v1 ＝ －2, v2 ＝ －2)</choice_text>
-          <commentary>if문 안의 문장이 실행되지 않는다.</commentary>
+          <commentary>(-2, -2)는 조건이 거짓이 되어 v3 = v1 + v2 문장이 실행되지 않으므로 100% 문장 커버리지를 달성하지 못한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>(v1 ＝ 0, v2 ＝ 0)</choice_text>
-          <commentary>명세와 코드 결과가 같다.</commentary>
+          <commentary>(0, 0)은 명세와 코드의 결과가 모두 0으로 같아 오류를 발견할 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -372,19 +372,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>회귀 테스팅(regression testing)</choice_text>
-          <commentary>회귀 테스팅이므로 정답이다.</commentary>
+          <commentary>유지보수로 인한 변경이 기존 기능에 부작용을 일으켰는지 확인하기 위해 테스트를 다시 수행하는 것은 회귀 테스팅이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>사용성 테스팅(usability testing)</choice_text>
-          <commentary>사용성 테스팅은 사용 편의성을 평가한다.</commentary>
+          <commentary>사용성 테스팅은 사용자가 시스템을 쉽게 사용할 수 있는지 평가하는 테스팅이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>성능 테스팅(performance testing)</choice_text>
-          <commentary>성능 테스팅은 응답 시간 등을 평가한다.</commentary>
+          <commentary>성능 테스팅은 응답 시간과 처리량 등 성능 요구를 만족하는지 확인하는 테스팅이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>보안성 테스팅(security testing)</choice_text>
-          <commentary>보안성 테스팅은 보안 취약점을 평가한다.</commentary>
+          <commentary>보안성 테스팅은 비인가 접근 등 보안 취약점을 점검하는 테스팅이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -441,19 +441,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>2,400시간, 92 %</choice_text>
-          <commentary>가용성이 다르다.</commentary>
+          <commentary>MTTF 2,400시간은 맞지만 가용성은 2,400 / 2,500 = 96%이므로 92%는 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>2,400시간, 96 %</choice_text>
-          <commentary>2,400시간, 96%이므로 정답이다.</commentary>
+          <commentary>MTTF = 2,500 - 100 = 2,400시간, 가용성 = 2,400 / 2,500 × 100 = 96%이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>2,600시간, 92 %</choice_text>
-          <commentary>MTTF와 가용성이 다르다.</commentary>
+          <commentary>MTTF는 MTBF에서 MTTR을 뺀 값이므로 2,600시간은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>2,600시간, 96 %</choice_text>
-          <commentary>MTTF가 다르다.</commentary>
+          <commentary>가용성은 맞지만 MTTF 2,600시간은 MTTR을 더한 값으로 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -492,19 +492,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ</choice_text>
-          <commentary>ㄱ은 형상 식별이다.</commentary>
+          <commentary>ㄱ 형상 항목과 식별자 선정은 형상 식별 활동이므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ</choice_text>
-          <commentary>ㄴ, ㄷ이므로 정답이다.</commentary>
+          <commentary>ㄴ 변경 요청 심사와 변경 실시, ㄷ 변경 확인과 베이스라인 수립은 형상 제어 활동이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄴ, ㄹ</choice_text>
-          <commentary>ㄹ은 형상 감사이다.</commentary>
+          <commentary>ㄹ 계획서대로 진행되는지의 검증은 형상 감사 활동이므로 해당하지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄷ, ㄹ</choice_text>
-          <commentary>ㄹ은 형상 감사이다.</commentary>
+          <commentary>ㄹ이 형상 감사 활동이므로 해당하지 않는다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -529,19 +529,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>메소드 은폐(Hide Method)</choice_text>
-          <commentary>메소드 은폐는 접근 범위를 줄이는 것이다.</commentary>
+          <commentary>메소드 은폐는 외부에서 쓰이지 않는 public 메소드를 private으로 바꾸는 기법이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>메소드 추출(Extract Method)</choice_text>
-          <commentary>메소드 추출은 반대 방향의 작업이다.</commentary>
+          <commentary>메소드 추출은 코드 일부를 새 메소드로 떼어 내는 기법으로 이 변환과 반대 방향이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>메소드 내용 직접 삽입(Inline Method)</choice_text>
-          <commentary>Inline Method이므로 정답이다.</commentary>
+          <commentary>isEven 호출을 없애고 그 내용(n % 2 == 0)을 호출한 곳에 직접 넣었으므로 메소드 내용 직접 삽입으로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>메소드를 매개변수로 전환(Parameterize Method)</choice_text>
-          <commentary>매개변수 전환은 유사 메소드를 하나로 합치는 것이다.</commentary>
+          <commentary>메소드를 매개변수로 전환은 값만 다른 여러 메소드를 매개변수를 받는 하나의 메소드로 합치는 기법이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -562,19 +562,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ISO/IEC 9899</choice_text>
-          <commentary>C 언어 표준이다.</commentary>
+          <commentary>ISO/IEC 9899는 C 프로그래밍 언어 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>IEEE 828</choice_text>
-          <commentary>형상관리 계획 표준이다.</commentary>
+          <commentary>IEEE 828은 소프트웨어 형상관리 계획에 관한 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>IEEE 829</choice_text>
-          <commentary>IEEE 829이므로 정답이다.</commentary>
+          <commentary>IEEE 829는 소프트웨어 테스트 문서화에 관한 표준이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>IEEE 1042</choice_text>
-          <commentary>형상관리 지침이다.</commentary>
+          <commentary>IEEE 1042는 소프트웨어 형상관리 지침에 관한 표준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -599,19 +599,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>제어(control) 결합도, 논리적(logical) 응집도</choice_text>
-          <commentary>제어 신호를 전달하지 않는다.</commentary>
+          <commentary>caller는 제어 플래그가 아닌 정수 데이터만 전달하므로 제어 결합도가 아니며 max는 하나의 기능만 수행하므로 논리적 응집도도 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>제어(control) 결합도, 기능적(functional) 응집도</choice_text>
-          <commentary>결합도가 다르다.</commentary>
+          <commentary>응집도는 맞지만 결합도는 제어 결합도가 아니라 데이터 결합도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>데이터(data) 결합도, 논리적(logical) 응집도</choice_text>
-          <commentary>응집도가 다르다.</commentary>
+          <commentary>결합도는 맞지만 max는 유사한 여러 기능을 묶은 것이 아니므로 논리적 응집도가 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>데이터(data) 결합도, 기능적(functional) 응집도</choice_text>
-          <commentary>데이터 결합도, 기능적 응집도이므로 정답이다.</commentary>
+          <commentary>단순한 정수 값만 전달하므로 데이터 결합도이고 최댓값 산출이라는 단일 기능을 수행하므로 기능적 응집도로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -636,19 +636,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>사용자 스토리(User Story)는 개발자 관점에서 프로젝트를 통해 구현하고 싶은 기능을 상세하게 표현한 알고리즘이다.</choice_text>
-          <commentary>사용자 관점의 간단한 요구 서술이다.</commentary>
+          <commentary>사용자 스토리는 사용자 관점에서 원하는 기능을 간단히 기술한 것이며 상세한 알고리즘이 아니므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>베이스라인(Baseline)은 공식적인 변경절차 없이 언제라도 개발자가 변경할 수 있는 상태에 있는 산출물의 집합이다.</choice_text>
-          <commentary>공식 절차로만 변경된다.</commentary>
+          <commentary>베이스라인은 공식 검토를 거쳐 확정되어 공식 변경 절차를 통해서만 변경할 수 있는 산출물이므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>기능 점수(Function Point)는 시스템을 구현한 기술에 의존적이고 개발자에 의해 식별되는 기능에 기반하여 시스템의 크기를 측정하는 척도이다.</choice_text>
-          <commentary>구현 기술에 독립적이다.</commentary>
+          <commentary>기능 점수는 구현 기술에 독립적이며 사용자 관점에서 식별되는 기능에 기반하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>순환 복잡도(Cyclomatic Complexity)는 원시 코드의 복잡도를 정량적으로 평가하는 척도이며 기본 경로(basis path) 테스팅과 밀접한 관련이 있다.</choice_text>
-          <commentary>순환 복잡도의 설명으로 옳다.</commentary>
+          <commentary>순환 복잡도는 원시 코드의 복잡도를 정량 평가하며 기본 경로 테스팅의 경로 수 산정에 쓰이므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -670,19 +670,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>경계 값 분석 기법, 70</choice_text>
-          <commentary>경계 값 분석, 70이므로 정답이다.</commentary>
+          <commentary>명세는 70 이상 통과인데 코드는 score &gt; 70이므로 경계 값 70을 입력하는 경계 값 분석으로 오류를 검출할 수 있어 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>경계 값 분석 기법, 100</choice_text>
-          <commentary>100에서는 오류가 드러나지 않는다.</commentary>
+          <commentary>100은 명세와 코드 모두 통과(0)를 반환하므로 오류를 검출할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>동등 분할 기법, 50</choice_text>
-          <commentary>50에서는 오류가 드러나지 않는다.</commentary>
+          <commentary>50은 명세와 코드 모두 불통과(1)를 반환하므로 오류를 검출할 수 없다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>동등 분할 기법, 80</choice_text>
-          <commentary>80에서는 오류가 드러나지 않는다.</commentary>
+          <commentary>80은 명세와 코드 모두 통과(0)를 반환하므로 오류를 검출할 수 없다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -706,19 +706,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>제어(control) 클래스</choice_text>
-          <commentary>제어 클래스는 분석 클래스이다.</commentary>
+          <commentary>제어 클래스는 유스케이스의 흐름을 제어하는 클래스로 유스케이스 분석의 세 유형에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>경계(boundary) 클래스</choice_text>
-          <commentary>경계 클래스는 분석 클래스이다.</commentary>
+          <commentary>경계 클래스는 액터와 시스템의 상호작용을 담당하는 클래스로 세 유형에 해당한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>싱글톤(singleton) 클래스</choice_text>
-          <commentary>싱글톤은 해당하지 않으므로 정답이다.</commentary>
+          <commentary>싱글톤은 인스턴스를 하나로 제한하는 디자인 패턴이므로 유스케이스 분석의 클래스 유형이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>엔티티(entity) 클래스</choice_text>
-          <commentary>엔티티 클래스는 분석 클래스이다.</commentary>
+          <commentary>엔티티 클래스는 시스템이 저장·관리하는 정보를 표현하는 클래스로 세 유형에 해당한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>
@@ -743,19 +743,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>연관(association)</choice_text>
-          <commentary>EmployeeDao와 연관이 있다.</commentary>
+          <commentary>MyEmployeeService가 EmployeeDao를 필드로 가지므로 연관 관계가 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>의존(dependency)</choice_text>
-          <commentary>Employee와 의존이 있다.</commentary>
+          <commentary>메소드에서 Employee를 매개변수와 반환형으로 사용하므로 의존 관계가 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>일반화(generalization)</choice_text>
-          <commentary>EmployeeService와 일반화가 있다.</commentary>
+          <commentary>MyEmployeeService가 EmployeeService를 상속하므로 일반화 관계가 나타난다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>실체화(realization)</choice_text>
-          <commentary>실체화는 나타나지 않으므로 정답이다.</commentary>
+          <commentary>인터페이스를 구현(implements)하는 관계가 없으므로 실체화는 나타나지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2019년 · 7급 공개경쟁채용시험)</exam_history>

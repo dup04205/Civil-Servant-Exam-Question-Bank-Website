@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>클래스에 대한 테스트 시 필요로 하는 객체 상태를 고려하지 않는다.</choice_text>
-          <commentary>객체 상태를 고려해야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>객체의 동작은 상태에 따라 달라지므로 클래스 테스트에서는 객체 상태를 반드시 고려해야 한다. 고려하지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>클래스 클러스터 차원에서 상속, 캡슐화, 동적 바인딩, 다형성 등의 이유로 관계가 맺어진 클래스들의 집합은 한 덩어리로 간주하여 연결 관계를 확인해야 한다.</choice_text>
-          <commentary>클래스 클러스터 테스트로 옳다.</commentary>
+          <commentary>상속, 캡슐화, 동적 바인딩, 다형성으로 연결된 클래스 집합은 클러스터로 묶어 연결 관계를 확인하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>서브클래스를 테스트할 때 부모클래스의 테스트 케이스를 재사용할 수 있다.</choice_text>
-          <commentary>테스트 케이스 재사용으로 옳다.</commentary>
+          <commentary>서브클래스 테스트 시 부모클래스의 테스트 케이스를 재사용할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>클래스 차원에서 메서드 상호 간, 메서드와 데이터 멤버 간의 연결 관계의 정확성을 확인해야 한다.</choice_text>
-          <commentary>클래스 차원의 테스트로 옳다.</commentary>
+          <commentary>클래스 차원에서 메서드 간, 메서드와 데이터 멤버 간 연결 관계의 정확성을 확인하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -65,19 +65,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>사용자 인터페이스와 같은 표준은 표준화된 재사용 가능한 컴포넌트의 집합으로 구현될 수 있다.</choice_text>
-          <commentary>표준 컴포넌트로 구현할 수 있다.</commentary>
+          <commentary>사용자 인터페이스 같은 표준은 재사용 가능한 표준 컴포넌트 집합으로 구현할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>응용시스템, 컴포넌트, 객체, 함수는 재사용이 가능하다.</choice_text>
-          <commentary>다양한 수준에서 재사용이 가능하다.</commentary>
+          <commentary>응용시스템, 컴포넌트, 객체, 함수 모두 재사용 단위가 될 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>소프트웨어 재사용은 기존의 소프트웨어를 활용하므로 수정하거나 이해하기 위한 추가의 노력이 들지 않는다.</choice_text>
-          <commentary>이해와 수정 노력이 필요하므로 옳지 않아 정답이다.</commentary>
+          <commentary>재사용할 소프트웨어도 이해하고 새 환경에 맞게 수정·통합하는 노력이 필요하므로 추가 노력이 들지 않는다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>동일한 작업을 수차례 반복하는 대신 전문가들의 지식이 요약된 재사용 가능한 소프트웨어를 개발, 활용할 수 있다.</choice_text>
-          <commentary>전문가 지식이 담긴 소프트웨어를 활용할 수 있다.</commentary>
+          <commentary>전문가의 지식이 담긴 재사용 소프트웨어를 활용하여 반복 작업을 줄일 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -98,19 +98,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>컴포넌트 기반의 소프트웨어 개발 프로젝트에서는 형상관리가 필요하지 않다.</choice_text>
-          <commentary>컴포넌트 기반에서도 필요하다.</commentary>
+          <commentary>컴포넌트 기반 개발에서도 컴포넌트 버전과 변경을 관리해야 하므로 형상관리가 필요하다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>베이스라인은 단위 테스트를 통과한 원시 코드의 집합을 의미한다.</choice_text>
-          <commentary>베이스라인의 정의가 아니다.</commentary>
+          <commentary>베이스라인은 공식 검토와 승인을 거친 산출물의 기준선으로 단위 테스트를 통과한 원시 코드에 한정되지 않는다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ISO 9000에서는 형상관리에 대한 언급이 없으나 CMMI에서는 형상관리 프로세스를 요구한다.</choice_text>
-          <commentary>ISO 9000도 형상관리를 다룬다.</commentary>
+          <commentary>ISO 9000 계열도 품질 시스템의 요소로 형상관리를 다루므로 언급이 없다는 설명은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>형상관리는 소프트웨어 품질 보증을 위한 주요한 요소이며, 주 임무는 변경의 통제이다.</choice_text>
-          <commentary>형상관리의 역할로 옳다.</commentary>
+          <commentary>형상관리는 품질 보증의 주요 요소이며 주 임무는 변경의 통제이므로 옳은 설명으로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -134,19 +134,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>관리(managed) 단계</choice_text>
-          <commentary>관리 단계는 기본 프로젝트 관리이다.</commentary>
+          <commentary>관리 단계는 기본적인 프로젝트 관리 프로세스가 수립된 2단계이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>정의(defined) 단계</choice_text>
-          <commentary>정의 단계는 표준 프로세스 정의이다.</commentary>
+          <commentary>정의 단계는 조직 차원의 표준 프로세스가 정의된 3단계이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>정량적 관리(quantitatively managed) 단계</choice_text>
-          <commentary>정량적 관리 단계는 정량적 통제이다.</commentary>
+          <commentary>정량적 관리 단계는 프로세스와 품질을 정량적으로 측정·통제하는 4단계이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>최적화(optimizing) 단계</choice_text>
-          <commentary>최적화 단계이므로 정답이다.</commentary>
+          <commentary>표준 프로세스를 지속적으로 보완하고 신기술을 반영하여 개선하는 것은 5단계 최적화 단계이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -167,19 +167,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>인수 테스트의 목적은 사용자에게 소프트웨어가 개발되어 사용될 준비가 되었다는 확신을 주기 위한 것이다.</choice_text>
-          <commentary>인수 테스트의 목적으로 옳다.</commentary>
+          <commentary>인수 테스트는 소프트웨어가 사용될 준비가 되었다는 확신을 사용자에게 주기 위한 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>알파 테스트는 선택된 사용자가 사용자 환경에서 수행하는 인수 테스트이다.</choice_text>
-          <commentary>베타 테스트의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>알파 테스트는 개발자 사이트에서 통제된 환경으로 수행하며 사용자 환경에서 수행하는 것은 베타 테스트이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>사용자 스토리를 작성하면서 함께 작성한 테스트 시나리오에 따라 고객이 직접 테스트한다.</choice_text>
-          <commentary>고객 주도 테스트로 옳다.</commentary>
+          <commentary>애자일에서는 사용자 스토리와 함께 작성한 시나리오에 따라 고객이 직접 인수 테스트를 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>개발자팀이 소프트웨어를 사용자에게 배포하여 사용자가 자신의 컴퓨터 환경 또는 실제 상황에서 수행하는 테스트이다.</choice_text>
-          <commentary>공식 정답에 따르면 옳은 설명이다.</commentary>
+          <commentary>소프트웨어를 배포하여 사용자가 실제 환경에서 수행하는 베타 테스트도 인수 테스트에 해당하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -202,19 +202,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>프로그램의 논리적인 복잡도를 정량적으로 측정하기 위한 척도(metric)이다.</choice_text>
-          <commentary>정량적 척도이다.</commentary>
+          <commentary>순환복잡도는 프로그램의 논리적 복잡도를 정량적으로 측정하는 척도이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>프로그램의 분기 노드의 수보다 항상 큰 값을 갖는다.</choice_text>
-          <commentary>분기 노드 수보다 1 크다.</commentary>
+          <commentary>순환복잡도는 분기 노드 수에 1을 더한 값이므로 분기 노드 수보다 항상 크다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>프로그램의 모든 경로를 최소 한 번 이상 실행하도록 테스트하기 위한 입력의 개수에 해당한다.</choice_text>
-          <commentary>모든 경로가 아니라 독립 경로이므로 옳지 않아 정답이다.</commentary>
+          <commentary>순환복잡도는 독립 경로의 수로 기본 경로 테스트의 최소 케이스 수를 나타내며 모든 경로를 실행하기 위한 입력 수가 아니다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>플로우 그래프(flow graph)에서 간선(edge)의 수를 E, 노드의 수를 N이라고 하면 CC ＝ E － N ＋ 2 이다.</choice_text>
-          <commentary>계산식으로 옳다.</commentary>
+          <commentary>플로우 그래프에서 CC = E - N + 2로 계산하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -237,19 +237,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>초기 설계 모델(early design model)</choice_text>
-          <commentary>서브모델이다.</commentary>
+          <commentary>초기 설계 모델은 COCOMO II의 서브모델이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>임베디드 모델(embedded model)</choice_text>
-          <commentary>기본 COCOMO의 유형이므로 정답이다.</commentary>
+          <commentary>임베디드는 기본 COCOMO의 개발 유형(organic, semi-detached, embedded) 중 하나이므로 COCOMO II의 서브모델이 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>응용 결합 모델(application composition model)</choice_text>
-          <commentary>서브모델이다.</commentary>
+          <commentary>응용 결합 모델은 프로토타입 단계에서 쓰는 COCOMO II의 서브모델이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>재사용 모델(reuse model)</choice_text>
-          <commentary>서브모델이다.</commentary>
+          <commentary>재사용 모델은 재사용 코드의 노력을 추정하는 COCOMO II의 서브모델이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -273,19 +273,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>단일 책임의 원칙</choice_text>
-          <commentary>단일 책임 원칙은 클래스의 책임을 하나로 한다.</commentary>
+          <commentary>단일 책임의 원칙은 클래스가 하나의 책임만 가져야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>개방 폐쇄의 원칙</choice_text>
-          <commentary>개방 폐쇄 원칙은 확장에 열리고 수정에 닫힌다.</commentary>
+          <commentary>개방 폐쇄의 원칙은 확장에는 열려 있고 수정에는 닫혀 있어야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>의존 관계 역전의 원칙</choice_text>
-          <commentary>의존 관계 역전 원칙은 추상화에 의존한다.</commentary>
+          <commentary>의존 관계 역전의 원칙은 구체 클래스가 아닌 추상화에 의존해야 한다는 원칙이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[O] (정답)">
           <choice_text>인터페이스 분리의 원칙</choice_text>
-          <commentary>인터페이스 분리의 원칙이므로 정답이다.</commentary>
+          <commentary>클라이언트가 사용하지 않는 메서드에 의존하지 않도록 인터페이스를 분리해야 한다는 것은 인터페이스 분리의 원칙이므로 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -309,19 +309,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>ISO/IEC 12119 － 패키지 소프트웨어의 일반적인 제품 품질 요구사항 및 테스트를 위한 국제 표준 규격이다.</choice_text>
-          <commentary>ISO/IEC 12119의 설명으로 옳다.</commentary>
+          <commentary>ISO/IEC 12119는 패키지 소프트웨어의 품질 요구사항과 테스트를 위한 표준이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>매트릭(metric) － 품질 기준별로 측정방법과 스케일 등을 정의하여 정확히 품질 기준을 측정할 수 있게 한다.</choice_text>
-          <commentary>메트릭의 설명으로 옳다.</commentary>
+          <commentary>메트릭은 품질 기준별 측정 방법과 척도를 정의하여 정확히 측정하게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>인스펙션(inspection) － 체크리스트를 가지고 본인이 개발한 코드와 산출물 등을 검토하는 것이다.</choice_text>
-          <commentary>인스펙션은 타인이 검토하므로 옳지 않아 정답이다.</commentary>
+          <commentary>인스펙션은 작성자가 아닌 검토 팀이 체크리스트로 공식 검토하는 기법이며 본인이 검토하는 것은 데스크 체크이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>품질 기준(criteria) － 개발자 측면의 내부 관점을 나타내는 것이다.</choice_text>
-          <commentary>품질 기준은 내부 관점이다.</commentary>
+          <commentary>품질 기준은 개발자 측면의 내부 관점을 나타내므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -346,19 +346,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>기능성(functionality) － 요구분석명세서가 ‘어떻게’ 보다 ‘무엇을’에 관점을 두고 기술되어야 함을 의미한다.</choice_text>
-          <commentary>기능성의 설명으로 옳다.</commentary>
+          <commentary>요구분석명세서는 '어떻게'보다 '무엇을'에 관점을 두고 기술되어야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>명확성(unambiguity) － 요구사항이 모든 이해관계자들에 의해 한 가지 의미로 해석되어야 한다.</choice_text>
-          <commentary>명확성의 설명으로 옳다.</commentary>
+          <commentary>명확성은 모든 이해관계자가 요구사항을 한 가지 의미로 해석해야 한다는 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>완전성(completeness) － 요구사항을 바로 구현할 수 있도록 자료구조나 알고리즘이 명시되어야 한다.</choice_text>
-          <commentary>완전성의 설명이 틀렸으므로 정답이다.</commentary>
+          <commentary>완전성은 필요한 요구사항이 빠짐없이 기술된 것을 의미하며 자료구조나 알고리즘은 설계에서 다룬다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>일관성(consistency) － 요구사항들이 서로 모순되지 않아야 한다.</choice_text>
-          <commentary>일관성의 설명으로 옳다.</commentary>
+          <commentary>일관성은 요구사항들이 서로 모순되지 않아야 한다는 것이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -380,19 +380,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>반복적(iterative)이고, 점진적(incremental)인 개발 방법이다.</choice_text>
-          <commentary>반복적·점진적이다.</commentary>
+          <commentary>UP는 반복적이고 점진적인 개발 방법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>유스케이스를 기반으로 한다.</choice_text>
-          <commentary>유스케이스 기반이다.</commentary>
+          <commentary>UP는 유스케이스를 기반으로 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>아키텍처 중심의 개발을 지향한다.</choice_text>
-          <commentary>아키텍처 중심이다.</commentary>
+          <commentary>UP는 아키텍처 중심의 개발을 지향하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>위험 관리는 포함되어 있지 않다.</choice_text>
-          <commentary>위험 관리를 포함하므로 옳지 않아 정답이다.</commentary>
+          <commentary>UP는 각 반복에서 위험을 식별하고 관리하는 위험 중심 개발을 포함하므로 위험 관리가 없다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -417,19 +417,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>동료 검토(peer review)는 개발한 원시 코드나 여러 가지 산출물에 대한 검토를 의뢰하여 오류를 찾는 방법이다.</choice_text>
-          <commentary>동료 검토의 설명으로 옳다.</commentary>
+          <commentary>동료 검토는 산출물 검토를 의뢰하여 오류를 찾는 방법이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>기본 경로 테스트(basic path test)는 원시 코드의 독립적인 경로가 최소한 한 번은 실행되는 테스트 케이스를 찾아 테스트를 수행한다.</choice_text>
-          <commentary>기본 경로 테스트의 설명으로 옳다.</commentary>
+          <commentary>기본 경로 테스트는 독립 경로가 최소 한 번 실행되도록 케이스를 정하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>회귀 테스트(regression test)는 한 모듈의 수정이 다른 부분에 미치는 영향을 최소화하기 위해 필요하다.</choice_text>
-          <commentary>회귀 테스트의 설명으로 옳다.</commentary>
+          <commentary>회귀 테스트는 수정이 다른 부분에 미치는 영향을 확인하기 위해 필요하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>블랙 박스 테스트(black box test)는 입력 값에 대한 예상 출력 값을 정해 놓고 그대로 결과가 나오는지 원시 코드를 보며 확인한다.</choice_text>
-          <commentary>코드를 보지 않으므로 옳지 않아 정답이다.</commentary>
+          <commentary>블랙박스 테스트는 원시 코드를 보지 않고 명세에 따라 확인하며 원시 코드를 보는 것은 화이트박스 테스트이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -450,19 +450,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>시스템의 기능을 구현하는 방법에 대하여 중점적으로 기술한다.</choice_text>
-          <commentary>구현 방법 중심이 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>요구분석명세서는 '무엇을' 할지를 기술하며 구현 방법은 설계 단계에서 다루므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>제안된 시스템에 영향을 주는 제약조건을 기술한다.</choice_text>
-          <commentary>제약조건을 기술한다.</commentary>
+          <commentary>시스템에 영향을 주는 제약조건을 기술해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시스템의 인수를 위한 테스트 기준을 제공한다.</choice_text>
-          <commentary>인수 테스트 기준을 제공한다.</commentary>
+          <commentary>시스템 인수를 위한 테스트 기준을 제공해야 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>소프트웨어의 품질 기준에 대한 우선순위를 정한다.</choice_text>
-          <commentary>품질 기준 우선순위를 정한다.</commentary>
+          <commentary>품질 기준에 대한 우선순위를 정해야 하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -487,19 +487,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>수정 유지보수(corrective maintenance)는 개발된 소프트웨어를 사용자가 인도받은 후 사용하면서 발견되는 오류를 잡는 것이다.</choice_text>
-          <commentary>수정 유지보수의 설명으로 옳다.</commentary>
+          <commentary>수정 유지보수는 인도 후 사용 중 발견된 오류를 잡는 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>예방 유지보수(preventive maintenance)는 미리 예상되거나 예측되는 오류를 찾아 수정하는 것이다.</choice_text>
-          <commentary>예방 유지보수의 설명으로 옳다.</commentary>
+          <commentary>예방 유지보수는 예상되는 오류를 미리 찾아 수정하는 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>적응 유지보수(adaptive maintenance)는 개발 과정에서 바로잡지 못한 오류를 유지보수 단계에서 해결하는 것이다.</choice_text>
-          <commentary>수정 유지보수의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>적응 유지보수는 운영체제나 하드웨어 등 환경 변화에 맞추어 수정하는 것이며 개발 중 남은 오류 해결은 수정 유지보수이다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>완전 유지보수(perfective maintenance)는 결함으로 인해 요청된 변경뿐만 아니라 시스템의 일부 측면을 향상시키기 위한 변경을 포함하고 있다.</choice_text>
-          <commentary>완전 유지보수의 설명으로 옳다.</commentary>
+          <commentary>완전 유지보수는 기능 향상을 위한 변경을 포함하므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -523,19 +523,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>무결성(integrity)</choice_text>
-          <commentary>무결성이므로 정답이다.</commentary>
+          <commentary>허가받지 않은 사용자의 데이터 접근과 변경을 막아 보호하는 정도는 무결성이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>융통성(flexibility)</choice_text>
-          <commentary>융통성은 변경 용이성이다.</commentary>
+          <commentary>융통성은 운영 중인 프로그램을 변경하기 쉬운 정도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>안전성(safety)</choice_text>
-          <commentary>안전성은 사고 위험이 없는 정도이다.</commentary>
+          <commentary>안전성은 시스템이 사람이나 환경에 위해를 주지 않는 정도이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>안정성(stability)</choice_text>
-          <commentary>안정성은 변경 후에도 안정적인 정도이다.</commentary>
+          <commentary>안정성은 변경 시 예상치 못한 영향을 피하는 정도이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -557,19 +557,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>프로세스와 도구보다 개인과 그들의 협업에 더 가치를 둔다.</choice_text>
-          <commentary>개인과 협업을 중시한다.</commentary>
+          <commentary>애자일 선언문은 프로세스와 도구보다 개인과 상호작용에 더 가치를 두므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>포괄적인 문서화보다 제대로 작동하는 소프트웨어에 더 가치를 둔다.</choice_text>
-          <commentary>작동하는 소프트웨어를 중시한다.</commentary>
+          <commentary>포괄적인 문서보다 작동하는 소프트웨어에 더 가치를 두므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>고객과의 협력보다는 계약 협상에 더 가치를 둔다.</choice_text>
-          <commentary>고객 협력을 중시하므로 옳지 않아 정답이다.</commentary>
+          <commentary>애자일 선언문은 계약 협상보다 고객과의 협력에 더 가치를 두므로 반대로 설명하여 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>계획에 따르기보다는 변화에 대응하는 것에 더 가치를 둔다.</choice_text>
-          <commentary>변화 대응을 중시한다.</commentary>
+          <commentary>계획을 따르기보다 변화에 대응하는 것에 더 가치를 두므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -593,19 +593,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>Bridge</choice_text>
-          <commentary>브리지는 추상과 구현을 분리한다.</commentary>
+          <commentary>Bridge는 추상과 구현을 분리하여 독립적으로 확장하게 하는 패턴이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>Adapter</choice_text>
-          <commentary>Adapter이므로 정답이다.</commentary>
+          <commentary>기존 클래스의 인터페이스가 맞지 않을 때 변환하여 협동하게 하는 것은 Adapter 패턴이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>Composite</choice_text>
-          <commentary>컴포지트는 트리 구조를 구성한다.</commentary>
+          <commentary>Composite는 부분과 전체를 트리 구조로 동일하게 다루는 패턴이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>Facade</choice_text>
-          <commentary>퍼사드는 단순 인터페이스를 제공한다.</commentary>
+          <commentary>Facade는 복잡한 서브시스템에 단순한 통합 인터페이스를 제공하는 패턴이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -626,19 +626,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>예산의 제약, 조직의 정책, 다른 소프트웨어와 하드웨어 시스템과의 상호 운영성, 안정성 규칙과 프라이버시 보호법과 같은 사용자의 필요에 의해 발생한다.</choice_text>
-          <commentary>비기능 요구사항의 발생 원인으로 옳다.</commentary>
+          <commentary>비기능 요구사항은 예산, 정책, 상호운용성, 안전·개인정보 규정 등에서 발생하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>요구사항과 목표를 혼합한 문서를 사용하여 비기능적 요구사항을 표현한다.</choice_text>
-          <commentary>비기능 요구사항의 표현 방법으로 옳다.</commentary>
+          <commentary>비기능 요구사항은 요구사항과 목표를 함께 기술한 문서로 표현할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>시스템에서 제공되는 서비스나 기능에 대한 제약이다.</choice_text>
-          <commentary>서비스·기능에 대한 제약으로 옳다.</commentary>
+          <commentary>비기능 요구사항은 시스템의 서비스나 기능에 대한 제약이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>시스템이 제공해야 하는 서비스와 시스템이 특정 입력에 대해 어떻게 반응하는지, 시스템이 특정 상황에서 어떻게 동작해야 하는지에 관한 사항이다.</choice_text>
-          <commentary>기능 요구사항의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>시스템이 제공할 서비스와 입력·상황에 따른 반응과 동작은 기능 요구사항이므로 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>
@@ -662,19 +662,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>정보은닉(information hiding)은 모듈 안에 있는 자료구조와 메서드에 사용된 알고리즘을 외부에서 직접 변경할 수 없고, 공개 인터페이스로 정의된 메서드를 통해서만 접근할 수 있는 것을 의미한다.</choice_text>
-          <commentary>정보은닉의 설명으로 옳다.</commentary>
+          <commentary>정보은닉은 내부 자료구조와 알고리즘을 숨기고 공개 인터페이스를 통해서만 접근하게 하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>전체 객체에 전속되어 독립된 객체로 존재할 수 없는 부분 객체도 있는데 이와 같은 관계를 특별히 집합 관계(aggregation relationship)라고 한다.</choice_text>
-          <commentary>합성 관계의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>부분 객체가 전체에 전속되어 독립적으로 존재할 수 없는 관계는 합성 관계이며 집합 관계는 부분이 독립적으로 존재할 수 있다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>리스코프 교체 원칙(LSP : Liskov Substitution Principle)은 부모 클래스와 자식 클래스 사이의 행위가 일관성이 있어야 한다는 의미이다.</choice_text>
-          <commentary>리스코프 교체 원칙의 설명으로 옳다.</commentary>
+          <commentary>리스코프 교체 원칙은 부모와 자식 클래스의 행위가 일관되어 자식이 부모를 대체할 수 있어야 한다는 것이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>다형성(polymorphism)은 같은 오퍼레이션이 다른 클래스에서 다르게 동작하는 것을 말하며, 하나의 함수 이름이나 연산자가 여러 목적으로 사용될 수 있는 것을 의미한다.</choice_text>
-          <commentary>다형성의 설명으로 옳다.</commentary>
+          <commentary>다형성은 같은 오퍼레이션이 클래스에 따라 다르게 동작하는 성질이므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2016년 · 7급 공개경쟁채용시험)</exam_history>

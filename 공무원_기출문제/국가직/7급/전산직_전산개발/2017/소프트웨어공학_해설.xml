@@ -32,19 +32,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>개발 시스템의 목적 및 범위</choice_text>
-          <commentary>SRS에 포함된다.</commentary>
+          <commentary>개발 시스템의 목적과 범위는 SRS의 도입부에 포함되는 내용이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>아키텍처 및 인터페이스 명세</choice_text>
-          <commentary>설계 명세서의 내용이므로 정답이다.</commentary>
+          <commentary>아키텍처 및 인터페이스 명세는 설계 단계 산출물인 설계 명세서의 내용이므로 SRS에 포함되지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>자료흐름도, 자료사전, 소단위명세서</choice_text>
-          <commentary>구조적 분석 결과로 포함된다.</commentary>
+          <commentary>자료흐름도, 자료사전, 소단위명세서는 구조적 분석의 결과로 SRS에 포함된다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>기능적 요구사항 및 비기능적 요구사항</choice_text>
-          <commentary>SRS의 핵심 내용이다.</commentary>
+          <commentary>기능적·비기능적 요구사항은 SRS의 핵심 내용이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -65,19 +65,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>시스템 기능을 사용자에게 확인시킴으로써 개발자와 사용자간의 견해차이가 해결될 수 있다.</choice_text>
-          <commentary>견해 차이를 해결할 수 있다.</commentary>
+          <commentary>시제품으로 기능을 확인시켜 개발자와 사용자의 견해 차이를 해결할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>분석가나 개발자는 프로토타입을 이용하여 불완전하거나 일치하지 않는 요구사항을 발견할 수 있다.</choice_text>
-          <commentary>불완전한 요구사항을 발견할 수 있다.</commentary>
+          <commentary>프로토타입으로 불완전하거나 일치하지 않는 요구사항을 발견할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>완전하지는 못하지만 작동하는 시스템을 만들어 기능성과 유용성을 관리자에게 보여줄 수 있다.</choice_text>
-          <commentary>작동하는 시스템을 보여줄 수 있다.</commentary>
+          <commentary>작동하는 시스템을 보여 기능성과 유용성을 관리자에게 입증할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>고객의 요구사항을 초기에 구체적으로 기술하기 어렵고 중요한 문제점이 프로젝트의 후반부에 가서야 발견된다.</choice_text>
-          <commentary>폭포수 모델의 단점이므로 정답이다.</commentary>
+          <commentary>요구사항을 초기에 구체화하기 어렵고 문제가 후반에 발견되는 것은 폭포수 모델의 단점이며 프로토타입 모델은 이를 보완한다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -101,19 +101,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>특정 모듈의 실행 시간 메모리 사용량 초과</choice_text>
-          <commentary>동적 분석 대상이므로 정답이다.</commentary>
+          <commentary>실행 시간의 메모리 사용량 초과는 프로그램을 실행해야 알 수 있으므로 동적 분석으로 찾는 오류여서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>데이터 정의의 충돌이나 잘못된 데이터 사용</choice_text>
-          <commentary>정적 분석으로 찾을 수 있다.</commentary>
+          <commentary>데이터 정의의 충돌이나 잘못된 데이터 사용은 코드를 실행하지 않고도 정적 분석으로 찾을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>실행 경로가 없는 Dead Code</choice_text>
-          <commentary>정적 분석으로 찾을 수 있다.</commentary>
+          <commentary>실행 경로가 없는 죽은 코드는 제어 흐름 분석으로 정적으로 찾을 수 있다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>원시 코드의 구조적 결함</choice_text>
-          <commentary>정적 분석으로 찾을 수 있다.</commentary>
+          <commentary>원시 코드의 구조적 결함은 정적 분석으로 찾을 수 있다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -134,19 +134,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>리팩토링의 대상은 읽기 어려운 코드, 중복된 로직의 코드, 복잡한 조건문이 있는 코드 등이 대표적인 것이다.</choice_text>
-          <commentary>리팩토링의 대상으로 옳다.</commentary>
+          <commentary>읽기 어려운 코드, 중복 로직, 복잡한 조건문은 리팩토링의 대표적 대상이므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>리팩토링은 실행 중인 프로그램의 기능 변경이 수반되어야 한다.</choice_text>
-          <commentary>기능 변경이 없어야 하므로 옳지 않아 정답이다.</commentary>
+          <commentary>리팩토링은 외부 동작을 바꾸지 않고 내부 구조만 개선하는 작업이므로 기능 변경이 수반되어야 한다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>리팩토링을 통해서 프로그램의 이해가 쉬워진다.</choice_text>
-          <commentary>이해가 쉬워진다.</commentary>
+          <commentary>리팩토링으로 구조가 정리되어 프로그램의 이해가 쉬워지므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>리팩토링은 결함을 찾는 데 도움을 준다.</choice_text>
-          <commentary>결함 발견에 도움을 준다.</commentary>
+          <commentary>구조가 명확해지면 숨은 결함이 드러나기 쉬워 결함 발견에 도움이 되므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -192,19 +192,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄹ</choice_text>
-          <commentary>화이트박스와 블랙박스 기법이 섞였다.</commentary>
+          <commentary>ㄱ 기본 경로 테스트와 ㄹ 분기 커버리지는 화이트박스 기법이고 ㄴ은 블랙박스 기법이어서 같은 유형이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄷ, ㄹ</choice_text>
-          <commentary>화이트박스와 블랙박스 기법이 섞였다.</commentary>
+          <commentary>ㄷ 모델 기반 테스트는 블랙박스 기법이고 ㄱ, ㄹ은 화이트박스 기법이어서 같은 유형이 아니다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄴ, ㄷ, ㅁ</choice_text>
-          <commentary>ㄴ, ㄷ, ㅁ이므로 정답이다.</commentary>
+          <commentary>페어와이즈, 모델 기반, 직교 배열 테스트는 모두 명세 기반의 블랙박스 기법이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄱ, ㄴ, ㄷ, ㄹ</choice_text>
-          <commentary>화이트박스와 블랙박스 기법이 섞였다.</commentary>
+          <commentary>화이트박스 기법인 ㄱ, ㄹ과 블랙박스 기법인 ㄴ, ㄷ이 섞여 있어 같은 유형이 아니다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -225,19 +225,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ISO/IEC 9126</choice_text>
-          <commentary>품질 특성 표준이다.</commentary>
+          <commentary>ISO/IEC 9126은 소프트웨어 제품의 품질 특성에 관한 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>ISO/IEC 12119</choice_text>
-          <commentary>패키지 품질 표준이다.</commentary>
+          <commentary>ISO/IEC 12119는 패키지 소프트웨어의 품질 요구사항과 시험에 관한 표준이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>ISO/IEC 12207</choice_text>
-          <commentary>ISO/IEC 12207이므로 정답이다.</commentary>
+          <commentary>ISO/IEC 12207은 1995년 제정된 소프트웨어 생명주기 프로세스 국제표준이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ISO/IEC 25000</choice_text>
-          <commentary>품질 요구·평가 표준이다.</commentary>
+          <commentary>ISO/IEC 25000은 9126과 14598을 통합한 SQuaRE 품질 표준이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -259,19 +259,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>유스케이스 관점에서는 외부 행위자에 의해 인식되는 시스템의 기능 요구사항을 보여주는 데 초점을 둔다.</choice_text>
-          <commentary>유스케이스 관점의 설명으로 옳다.</commentary>
+          <commentary>유스케이스 관점은 외부 행위자가 인식하는 기능 요구사항을 보여주므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>논리 관점에서는 계층 구조, 제약 사항, 코드 재사용 등과 같은 시스템 구현을 위한 요건을 보여주는 데 초점을 둔다.</choice_text>
-          <commentary>구현 관점의 설명이므로 옳지 않아 정답이다.</commentary>
+          <commentary>계층 구조, 제약 사항, 코드 재사용 등 구현 요건은 구현(개발) 관점의 초점이며 논리 관점은 기능을 클래스와 객체로 표현하는 데 초점을 둔다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>프로세스 관점에서는 독자적인 제어 스레드를 가질 수 있는 액티브 클래스에 초점을 둔다.</choice_text>
-          <commentary>프로세스 관점의 설명으로 옳다.</commentary>
+          <commentary>프로세스 관점은 독자적인 제어 스레드를 갖는 액티브 클래스와 동시성에 초점을 두므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>배치 관점에서는 물리적인 시스템을 구성하고 있는 각 부분들의 분산 형태와 설치에 초점을 둔다.</choice_text>
-          <commentary>배치 관점의 설명으로 옳다.</commentary>
+          <commentary>배치 관점은 물리적 노드에 대한 분산과 설치에 초점을 두므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -292,19 +292,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>멀티 스레드를 사용하는 어플리케이션의 테스트를 위해 개발되었다.</choice_text>
-          <commentary>멀티 스레드용이 아니므로 옳지 않아 정답이다.</commentary>
+          <commentary>TDD는 멀티 스레드 애플리케이션 테스트를 위해 개발된 것이 아니며 오히려 멀티 스레드 환경에는 적용이 어렵다. 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>JUnit과 같은 자동화된 테스트 프레임워크 환경이 적극적으로 사용된다.</choice_text>
-          <commentary>자동화 테스트 프레임워크를 사용한다.</commentary>
+          <commentary>TDD에서는 JUnit과 같은 자동화된 테스트 프레임워크를 적극 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>개발 프로세스의 초기에 결함이 발견될 수 있다.</choice_text>
-          <commentary>초기에 결함을 발견할 수 있다.</commentary>
+          <commentary>테스트를 먼저 작성하므로 개발 초기에 결함이 발견될 수 있어 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>새로운 코드나 표준 라이브러리의 컴포넌트를 사용하여 기능이 구현되는 신규 소프트웨어 개발에서 가장 가치가 있다.</choice_text>
-          <commentary>신규 개발에서 가치가 크다.</commentary>
+          <commentary>TDD는 신규 소프트웨어 개발에서 가장 가치가 크므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -326,19 +326,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>측정 및 분석(Measurement and analysis)</choice_text>
-          <commentary>Level 2 영역이다.</commentary>
+          <commentary>측정 및 분석은 CMMI 2단계(관리)의 프로세스 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[X] (정답)">
           <choice_text>요구사항 개발(Requirements development)</choice_text>
-          <commentary>Level 3 영역이므로 정답이다.</commentary>
+          <commentary>요구사항 개발은 CMMI 3단계(정의)의 프로세스 영역이므로 2단계가 아니어서 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>프로세스 및 제품 품질 보증(Process and product quality assurance)</choice_text>
-          <commentary>Level 2 영역이다.</commentary>
+          <commentary>프로세스 및 제품 품질 보증은 2단계의 프로세스 영역이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>프로젝트 모니터링 및 통제(Project monitoring and control)</choice_text>
-          <commentary>Level 2 영역이다.</commentary>
+          <commentary>프로젝트 모니터링 및 통제는 2단계의 프로세스 영역이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -420,19 +420,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>데이터 결합도(Data Coupling)</choice_text>
-          <commentary>단순 값 전달이다.</commentary>
+          <commentary>데이터 결합도는 단순한 값만 매개변수로 전달하는 결합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>스탬프 결합도(Stamp Coupling)</choice_text>
-          <commentary>스탬프 결합도이므로 정답이다.</commentary>
+          <commentary>배열, 레코드, 구조체 등 자료 구조를 매개변수로 전달하는 결합은 스탬프 결합도이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>제어 결합도(Control Coupling)</choice_text>
-          <commentary>제어 신호를 전달하는 결합이다.</commentary>
+          <commentary>제어 결합도는 다른 모듈의 처리 흐름을 제어하는 플래그 등을 전달하는 결합이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>내용 결합도(Content Coupling)</choice_text>
-          <commentary>다른 모듈 내부를 직접 참조하는 결합이다.</commentary>
+          <commentary>내용 결합도는 다른 모듈의 내부 자료나 코드를 직접 참조하는 결합이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -455,19 +455,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>ㄷ → ㄹ → ㄱ → ㄴ</choice_text>
-          <commentary>검증과 명세화 순서가 뒤바뀌었다.</commentary>
+          <commentary>요구사항 명세화 이후에 검증을 하므로 검증을 명세화보다 앞에 둔 것은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="true" judgment="[O] (정답)">
           <choice_text>ㄷ → ㄹ → ㄴ → ㄱ</choice_text>
-          <commentary>ㄷ → ㄹ → ㄴ → ㄱ이므로 정답이다.</commentary>
+          <commentary>타당성 조사 → 요구사항 추출 및 분석 → 명세화 → 검증 순이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>ㄹ → ㄱ → ㄷ → ㄴ</choice_text>
-          <commentary>순서가 맞지 않다.</commentary>
+          <commentary>타당성 조사가 가장 먼저 수행되어야 하므로 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>ㄹ → ㄷ → ㄴ → ㄱ</choice_text>
-          <commentary>타당성 조사가 먼저이다.</commentary>
+          <commentary>타당성 조사를 거친 후 요구사항 추출을 하므로 순서가 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -491,19 +491,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[O] (정답)">
           <choice_text>배치(deployment) 다이어그램</choice_text>
-          <commentary>배치 다이어그램이므로 정답이다.</commentary>
+          <commentary>물리적 노드, 통신 경로, 컴포넌트의 수행 환경을 표시하는 것은 배치 다이어그램이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>통신(communication) 다이어그램</choice_text>
-          <commentary>통신 다이어그램은 객체 간 메시지를 표현한다.</commentary>
+          <commentary>통신 다이어그램은 객체 간 메시지 교환과 연결 관계를 표현한다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[X]">
           <choice_text>타이밍(timing) 다이어그램</choice_text>
-          <commentary>타이밍 다이어그램은 시간에 따른 상태 변화를 표현한다.</commentary>
+          <commentary>타이밍 다이어그램은 시간 축에 따른 객체의 상태 변화를 표현한다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>컴포지트(composite) 다이어그램</choice_text>
-          <commentary>컴포지트 다이어그램은 클래스 내부 구조를 표현한다.</commentary>
+          <commentary>컴포지트 다이어그램은 클래스나 컴포넌트의 내부 구조를 표현한다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -524,19 +524,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[X]">
           <choice_text>데이터 결함 － 모든 반복문은 확실히 종료되는가?</choice_text>
-          <commentary>반복문 종료는 제어 결함이다.</commentary>
+          <commentary>반복문의 확실한 종료 여부는 제어 결함의 검사항목이므로 데이터 결함과의 연결은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[X]">
           <choice_text>제어 결함 － 버퍼 오버플로우의 가능성이 있는가?</choice_text>
-          <commentary>버퍼 오버플로는 제어 결함이 아니다.</commentary>
+          <commentary>버퍼 오버플로의 가능성은 입출력 또는 메모리 관련 결함의 검사항목이므로 제어 결함과의 연결은 옳지 않다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[O] (정답)">
           <choice_text>인터페이스 결함 － 매개변수들의 순서가 올바른가?</choice_text>
-          <commentary>인터페이스 결함 항목으로 옳다.</commentary>
+          <commentary>매개변수의 순서가 올바른지는 모듈 간 호출을 확인하는 인터페이스 결함의 검사항목이므로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[X]">
           <choice_text>메모리 관리 결함 － 예상하지 않은 입력이 문제를 일으킬 수 있는가?</choice_text>
-          <commentary>예상치 않은 입력은 입출력 결함이다.</commentary>
+          <commentary>예상하지 않은 입력이 문제를 일으키는지는 예외 관리 결함의 검사항목이므로 메모리 관리 결함과의 연결은 옳지 않다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -560,19 +560,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>집합 객체의 요소들에 대해 순서대로 접근하는 방법을 제공한다.</choice_text>
-          <commentary>순차 접근 방법을 제공한다.</commentary>
+          <commentary>반복자 패턴은 집합 객체의 요소에 순서대로 접근하는 방법을 제공하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>배열(Array), 배열리스트(ArrayList), 해시 테이블과 같은 객체를 처리하는 데 사용하는 패턴이다.</choice_text>
-          <commentary>다양한 집합 객체에 사용한다.</commentary>
+          <commentary>배열, 배열리스트, 해시 테이블 같은 집합 객체를 처리하는 데 사용하므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>서로 다른 인터페이스를 사용하기 때문에 각각의 객체를 참조하기 위한 다형성 코드(polymorphic code)를 개발하는 것이 불가능하다.</choice_text>
-          <commentary>다형성 코드 작성이 가능하므로 옳지 않아 정답이다.</commentary>
+          <commentary>반복자 패턴은 서로 다른 집합 객체를 동일한 Iterator 인터페이스로 다루므로 다형성 코드를 개발할 수 있다. 불가능하다는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>서로 다른 집합 객체 구조에 대해 동일한 방법으로 순회할 수 있다.</choice_text>
-          <commentary>동일한 방법으로 순회한다.</commentary>
+          <commentary>서로 다른 집합 객체 구조를 동일한 방법으로 순회할 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -629,19 +629,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="true" judgment="[X] (정답)">
           <choice_text>회귀 테스트는 복잡하고 시간이 중요한 프로젝트에 적용하면 효율적이다.</choice_text>
-          <commentary>공식 정답에 따르면 옳지 않아 정답이다.</commentary>
+          <commentary>회귀 테스트는 테스트를 반복 수행하여 시간과 비용이 많이 들므로 복잡하고 시간이 촉박한 프로젝트에 효율적이라는 설명은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>점증적인 통합은 빅뱅 방식에 비해 인터페이스를 완전하게 테스트할 가능성이 더 높다.</choice_text>
-          <commentary>점증적 통합의 장점으로 옳다.</commentary>
+          <commentary>점증적 통합은 모듈을 단계적으로 결합하므로 빅뱅 방식보다 인터페이스를 완전하게 테스트할 가능성이 높아 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>객체지향 시스템의 드라이버는 사용자 인터페이스를 대체하여 사용함으로써 인터페이스의 구현 이전에 기능성 테스트를 수행할 수 있다.</choice_text>
-          <commentary>객체지향 드라이버의 활용으로 옳다.</commentary>
+          <commentary>드라이버가 사용자 인터페이스를 대신하여 인터페이스 구현 전에 기능 테스트를 수행할 수 있으므로 옳다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>객체지향 시스템의 스텁은 하나 이상의 협동 클래스들이 아직 완전히 구현되지 않은 상황에서 사용할 수 있다.</choice_text>
-          <commentary>객체지향 스텁의 활용으로 옳다.</commentary>
+          <commentary>협동 클래스가 미완성일 때 스텁을 사용할 수 있으므로 옳다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
@@ -698,19 +698,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>Cucumber － 행위 주도 개발(Behavior Driven Development) 지원 도구</choice_text>
-          <commentary>Cucumber는 BDD 지원 도구이다.</commentary>
+          <commentary>Cucumber는 행위 주도 개발을 지원하는 도구이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>Maven － 프로젝트 관리 도구</choice_text>
-          <commentary>Maven은 빌드·프로젝트 관리 도구이다.</commentary>
+          <commentary>Maven은 빌드와 의존성을 관리하는 프로젝트 관리 도구이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="false" judgment="[O]">
           <choice_text>Git － 분산 버전 관리 도구</choice_text>
-          <commentary>Git은 분산 버전 관리 도구이다.</commentary>
+          <commentary>Git은 분산 버전 관리 도구이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="true" judgment="[X] (정답)">
           <choice_text>JaCoCo － 자바 소스 보안 취약점 분석 도구</choice_text>
-          <commentary>JaCoCo는 커버리지 측정 도구이므로 정답이다.</commentary>
+          <commentary>JaCoCo는 자바 코드의 테스트 커버리지 측정 도구이므로 보안 취약점 분석 도구로 연결한 것은 옳지 않아 정답이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="1">단독 출제 문항</exam_history>
@@ -731,19 +731,19 @@
       <choice_explanations>
         <choice_explanation no="1" is_answer="false" judgment="[O]">
           <choice_text>IEEE 830 － 소프트웨어 요구명세서 표준</choice_text>
-          <commentary>IEEE 830은 요구명세 표준이다.</commentary>
+          <commentary>IEEE 830은 소프트웨어 요구명세서 표준이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="2" is_answer="false" judgment="[O]">
           <choice_text>IEEE 1219 － 소프트웨어 유지보수 표준</choice_text>
-          <commentary>IEEE 1219는 유지보수 표준이다.</commentary>
+          <commentary>IEEE 1219는 소프트웨어 유지보수 표준이므로 옳은 연결이다.</commentary>
         </choice_explanation>
         <choice_explanation no="3" is_answer="true" judgment="[X] (정답)">
           <choice_text>IEC 62304 － 항공기 소프트웨어 안전성 표준</choice_text>
-          <commentary>의료기기 표준이므로 옳지 않아 정답이다.</commentary>
+          <commentary>IEC 62304는 의료기기 소프트웨어 생명주기 표준이며 항공기 소프트웨어 표준은 DO-178C이다. 옳지 않은 연결로 정답이다.</commentary>
         </choice_explanation>
         <choice_explanation no="4" is_answer="false" judgment="[O]">
           <choice_text>ISO 26262 － 자동차 기능 안전성 표준</choice_text>
-          <commentary>ISO 26262는 자동차 기능 안전 표준이다.</commentary>
+          <commentary>ISO 26262는 자동차 전기·전자 시스템의 기능 안전성 표준이므로 옳은 연결이다.</commentary>
         </choice_explanation>
       </choice_explanations>
       <exam_history repeat_count="2">유사·중복 출제 2회 (2017년 · 7급 공개경쟁채용시험)</exam_history>
